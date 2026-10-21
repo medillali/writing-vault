@@ -24,7 +24,16 @@
         "ch-0020",
         "ch-0021",
         "ch-0022",
-        "ch-0023"
+        "ch-0023",
+        "ch-0024",
+        "ch-0025",
+        "ch-0026",
+        "ch-0027",
+        "ch-0028",
+        "ch-0029",
+        "ch-0030",
+        "ch-0031",
+        "ch-0032"
       ],
       "complete": false,
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
@@ -459,6 +468,172 @@
       "to": "v02-e09"
     },
     {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0028",
+          "claim_kind": "fact",
+          "end_line": 3338,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3303
+        }
+      ],
+      "from": "v03-e02",
+      "id": "v03-edge-01",
+      "kind": "cause",
+      "label": "独攻与密道潜入触发首领近战及提前水攻",
+      "to": "v03-e03"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0029",
+          "claim_kind": "fact",
+          "end_line": 3609,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3571
+        }
+      ],
+      "from": "v03-e03",
+      "id": "v03-edge-02",
+      "kind": "setup",
+      "label": "占据宝库让隐藏的圣物目的暴露",
+      "to": "v03-e04"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0030",
+          "claim_kind": "inference",
+          "end_line": 3694,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3667
+        },
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "inference",
+          "end_line": 3818,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3811
+        }
+      ],
+      "from": "v03-e04",
+      "id": "v03-edge-03",
+      "kind": "reversal",
+      "label": "放过并留圣物后，斯文哥尔自愿舍弃复原",
+      "to": "v03-e05"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0030",
+          "claim_kind": "fact",
+          "end_line": 3717,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3713
+        },
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 3862,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3860
+        }
+      ],
+      "from": "v03-e03",
+      "id": "v03-edge-04",
+      "kind": "cause",
+      "label": "战后大量吸魂提供永久赐魂所需力量",
+      "to": "v03-e06"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 3949,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3941
+        },
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 3981,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3972
+        }
+      ],
+      "from": "v03-e05",
+      "id": "v03-edge-05",
+      "kind": "cause",
+      "label": "老师留下成为爱琳不愿分离的重要理由",
+      "to": "v03-e07"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0030",
+          "claim_kind": "fact",
+          "end_line": 3669,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3667
+        },
+        {
+          "chapter_id": "ch-0032",
+          "claim_kind": "fact",
+          "end_line": 4002,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3999
+        }
+      ],
+      "from": "v03-e04",
+      "id": "v03-edge-06",
+      "kind": "setup",
+      "label": "留下圣物提供星月的独立选择机会",
+      "to": "v03-e08"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0032",
+          "claim_kind": "fact",
+          "end_line": 4036,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4025
+        },
+        {
+          "chapter_id": "ch-0032",
+          "claim_kind": "fact",
+          "end_line": 4092,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4087
+        }
+      ],
+      "from": "v03-e03",
+      "id": "v03-edge-07",
+      "kind": "cause",
+      "label": "异常战果促盟友亲自核实与试探",
+      "to": "v03-e09"
+    },
+    {
       "claim_kind": "inference",
       "evidence": [
         {
@@ -561,6 +736,170 @@
       "kind": "payoff",
       "label": "吞噬阿罗约留下的记忆逐步解锁，旧物触发完整融合而魔力未继承",
       "to": "v02-e06"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0023",
+          "claim_kind": "fact",
+          "end_line": 2759,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 2748
+        },
+        {
+          "chapter_id": "ch-0026",
+          "claim_kind": "fact",
+          "end_line": 3120,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3103
+        }
+      ],
+      "from": "v02-e09",
+      "id": "cross-nana-01",
+      "kind": "payoff",
+      "label": "上集未答复的托付转为洛特复生，并经条件协商加入队伍",
+      "to": "v03-e01"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "claim_kind": "fact",
+          "end_line": 2200,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 2193
+        },
+        {
+          "chapter_id": "ch-0028",
+          "claim_kind": "fact",
+          "end_line": 3431,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3385
+        },
+        {
+          "chapter_id": "ch-0029",
+          "claim_kind": "fact",
+          "end_line": 3515,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3514
+        }
+      ],
+      "from": "v02-e04",
+      "id": "cross-tank-01",
+      "kind": "payoff",
+      "label": "未炼化的坦克战魂被释放拖延雷克丁，随后再次压回体内",
+      "to": "v03-e03"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0014",
+          "claim_kind": "inference",
+          "end_line": 1430,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1418
+        },
+        {
+          "chapter_id": "ch-0029",
+          "claim_kind": "inference",
+          "end_line": 3628,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3595
+        }
+      ],
+      "from": "v02-e01",
+      "id": "cross-redemption-01",
+      "kind": "reveal",
+      "label": "被隐瞒的救赎目标取得实物后曝光，引发同伴关系危机",
+      "to": "v03-e04"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0021",
+          "claim_kind": "fact",
+          "end_line": 2351,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 2336
+        },
+        {
+          "chapter_id": "ch-0029",
+          "claim_kind": "fact",
+          "end_line": 3616,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3599
+        }
+      ],
+      "from": "v02-e06",
+      "id": "cross-memory-02",
+      "kind": "payoff",
+      "label": "完整继承记忆使黑龙能够识别圣物，伙伴不知道这项认知优势",
+      "to": "v03-e04"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "claim_kind": "inference",
+          "end_line": 2295,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 2273
+        },
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "inference",
+          "end_line": 3874,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3863
+        }
+      ],
+      "from": "v02-e05",
+      "id": "cross-autonomy-01",
+      "kind": "payoff",
+      "label": "意识确认继续发展为主动反哺和身体自主讨论，尚未解除灵魂依附",
+      "to": "v03-e06"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0017",
+          "claim_kind": "inference",
+          "end_line": 1819,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1787
+        },
+        {
+          "chapter_id": "ch-0032",
+          "claim_kind": "inference",
+          "end_line": 4125,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4104
+        }
+      ],
+      "from": "v02-e03",
+      "id": "cross-alliance-01",
+      "kind": "reversal",
+      "label": "互利联盟在胜利后转为权限与情报边界争论，合作仍继续",
+      "to": "v03-e09"
     }
   ],
   "graph_id": "graph-7c354fa988864849a6f681ff07474c91",
@@ -1360,13 +1699,403 @@
       "parent_id": "vol-02",
       "summary": "黑龙带黑二识世，阻止斯文哥尔跟随；遇被白衣信众追杀的娜娜，洛特提出照料请求后死去。",
       "title": "外出教学遇娜娜与洛特托付"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "vol-03",
+      "kind": "volume",
+      "narrative_order": 300,
+      "parent_id": "story",
+      "summary": "本集把灭敌与寻找同伴编成相互冲突的两条因果链。黑龙为娜娜转生洛特，见到以守护而非物种划分归属的选择；与此同时，斯文哥尔为取得救赎之魂，隐瞒真实目的，利用黑龙消除威胁的逻辑推动突袭朗克岭。敌方外围势力被联盟削弱，昂贵空间卷轴与不需呼吸的身体条件使水攻成为可能，偶然发现的密道却直通雷克丁卧室，把潜入转成几乎败北的近战。黑龙付出断臂、灵魂耗竭的代价，靠战魂拖延与阻断换气取胜。宝库中的圣物继而揭穿同伴欺骗，胜利即时转成关系危机：他第一次用共同记忆压住灭口本能，留下圣物并离开。斯文哥尔、爱琳随后主动回归，星月则因亲族义务选择救赎，星饮用后的圣焰只展示痛苦而未交代结局。黑龙赐予上千亡者长期灵魂，建立隐蔽领地，并通过黑二反哺理解自主与感谢。战后疾风试探、盟约争议及雷克丁的部族贡献，又将个人胜利接入更大的利益与伦理余波。",
+      "title": "第三集 雷神覆灭"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-345d1d88371947b7815469b3740c9e78",
+        "chr-1d629a39da3e41149707e5f9f636defd"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0025",
+          "claim_kind": "fact",
+          "end_line": 2787,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 2773
+        },
+        {
+          "chapter_id": "ch-0026",
+          "claim_kind": "fact",
+          "end_line": 3120,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3082
+        }
+      ],
+      "id": "v03-e01",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "获救当时不知道洛特已非人类",
+          "observer": "chr-1d629a39da3e41149707e5f9f636defd",
+          "state": "unknown"
+        },
+        {
+          "belief": "自己已成不死生物，黑龙掌握灵魂之火",
+          "observer": "chr-345d1d88371947b7815469b3740c9e78",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 301,
+      "parent_id": "vol-03",
+      "summary": "黑龙应娜娜请求转生洛特，七天后洛特接受不死身份与保密要求，要求继续守护娜娜。",
+      "title": "洛特获转生并以守护为条件加入"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-d2d3971153154607bb651d6a0c827216"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0027",
+          "claim_kind": "fact",
+          "end_line": 3165,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3148
+        },
+        {
+          "chapter_id": "ch-0027",
+          "claim_kind": "fact",
+          "end_line": 3286,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3266
+        }
+      ],
+      "id": "v03-e02",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "独攻用于避免盟友知悉救赎之魂目的",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "knows"
+        },
+        {
+          "belief": "骸骨残缺信息指向入内通道，随后现场证实",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "suspects"
+        }
+      ],
+      "narrative_order": 302,
+      "parent_id": "vol-03",
+      "summary": "艾力克斯被盟军击杀后，斯文哥尔为秘密取得救赎之魂主张自行进攻；黑龙从骸骨信息推测并找到密道。",
+      "title": "趁雷神衰败独攻并发现密道"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-f36c19e234d748a9b9081aa40e061e32",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-201a3f9df7a64c6b807871acb89f436a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0028",
+          "claim_kind": "fact",
+          "end_line": 3338,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3327
+        },
+        {
+          "chapter_id": "ch-0028",
+          "claim_kind": "fact",
+          "end_line": 3431,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3385
+        },
+        {
+          "chapter_id": "ch-0029",
+          "claim_kind": "fact",
+          "end_line": 3517,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3497
+        }
+      ],
+      "id": "v03-e03",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "黑龙是不死生物",
+          "observer": "chr-f36c19e234d748a9b9081aa40e061e32",
+          "state": "knows"
+        },
+        {
+          "belief": "集中攻击头部可能震散灵魂之心",
+          "observer": "chr-f36c19e234d748a9b9081aa40e061e32",
+          "state": "unknown"
+        },
+        {
+          "belief": "自己已为黄金骷髅，灵魂力量也会疲惫",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 303,
+      "parent_id": "vol-03",
+      "summary": "密道连到首领卧室导致暴露；黑龙付出断臂等损伤，用战魂与贴身缠抱阻其换气，最后吞其灵魂。",
+      "title": "水攻与战魂拖延促雷克丁败亡"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-29cb2b388f194a1c8b2e424c96dee814",
+        "chr-d2d3971153154607bb651d6a0c827216",
+        "chr-5c605c7ecd20495ca665d15c2bdf2562"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0029",
+          "claim_kind": "fact",
+          "end_line": 3628,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3595
+        },
+        {
+          "chapter_id": "ch-0030",
+          "claim_kind": "fact",
+          "end_line": 3672,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3632
+        }
+      ],
+      "id": "v03-e04",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "黑龙不知救赎之魂名称与作用，询问不是试探",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "misbelieves"
+        },
+        {
+          "belief": "四人瞒着自己寻找救赎之魂",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 304,
+      "parent_id": "vol-03",
+      "summary": "黑龙在宝库识别圣物并试探；斯文哥尔谎言被揭，四人短暂失力，黑龙最终放过他们并留下圣物离开。",
+      "title": "救赎之魂揭谎并引发决裂"
+    },
+    {
+      "characters": [
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-9f2e5fcbba87455eb37e35869ea8854d"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0030",
+          "claim_kind": "fact",
+          "end_line": 3694,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3684
+        },
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 3818,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3802
+        }
+      ],
+      "id": "v03-e05",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "斯文哥尔自愿继续做不死生物与同伴",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 305,
+      "parent_id": "vol-03",
+      "summary": "斯文哥尔主动放弃恢复人身，追出援助黑龙清剿幸存者，再明确请求以不死同伴身份留下。",
+      "title": "斯文哥尔弃救赎并重新加入"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-24b9d252fb624865a46d717832261c68",
+        "chr-24438669720a4bb8a0a27cbd25eadb33"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 3884,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3829
+        },
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 3936,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3910
+        }
+      ],
+      "id": "v03-e06",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "黑龙承认能自由支配身体者的一切归其自己",
+          "observer": "chr-24b9d252fb624865a46d717832261c68",
+          "state": "knows"
+        },
+        {
+          "belief": "自己没有说服黑龙撤销地下不死领地",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 306,
+      "parent_id": "vol-03",
+      "summary": "黑龙召起上千亡者并赐长期灵魂，虚脱后获黑二主动反哺；他提出身体自主，安排亡者沉睡，放弃全面转生构想但保留领地。",
+      "title": "千魂领地与黑二反哺"
+    },
+    {
+      "characters": [
+        "chr-29cb2b388f194a1c8b2e424c96dee814",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-9f2e5fcbba87455eb37e35869ea8854d"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 3982,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3937
+        }
+      ],
+      "id": "v03-e07",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "爱琳可能喜欢上黑龙",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "suspects"
+        }
+      ],
+      "narrative_order": 307,
+      "parent_id": "vol-03",
+      "summary": "爱琳因亲情、风险与对现有关系的依恋，反驳老师劝返，向黑龙请求继续当不死同伴并获接受。",
+      "title": "爱琳主动选择留下"
+    },
+    {
+      "characters": [
+        "chr-d2d3971153154607bb651d6a0c827216",
+        "chr-5c605c7ecd20495ca665d15c2bdf2562"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0032",
+          "claim_kind": "fact",
+          "end_line": 4002,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3987
+        }
+      ],
+      "id": "v03-e08",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "圣焰后的生死及恢复效果尚未交代",
+          "observer": "reader",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 308,
+      "parent_id": "vol-03",
+      "summary": "星月承认个体善恶不由物种决定，却顾虑家人与部落；星饮下救赎之魂后被圣焰吞没，结果未明。",
+      "title": "星因亲族责任饮下圣物"
+    },
+    {
+      "characters": [
+        "chr-d403f485486b44e08a2fe1e3d87c7788",
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-0989216ff50241d5b42f4b36f221009b",
+        "chr-d243aea683a64bbe8829b0216deb68dc"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0032",
+          "claim_kind": "fact",
+          "end_line": 4063,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4036
+        },
+        {
+          "chapter_id": "ch-0032",
+          "claim_kind": "fact",
+          "end_line": 4125,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4104
+        }
+      ],
+      "id": "v03-e09",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "最初相信最高隐匿足以避免被发现，随即被准确追视反证",
+          "observer": "chr-d403f485486b44e08a2fe1e3d87c7788",
+          "state": "misbelieves"
+        },
+        {
+          "belief": "黑龙以灵魂观察世界的机制",
+          "observer": "chr-d403f485486b44e08a2fe1e3d87c7788",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 309,
+      "parent_id": "vol-03",
+      "summary": "疾风因战果而来，潜行被黑龙识破；道歉后围绕是否有通报义务交锋，黑龙保留感知机制秘密。",
+      "title": "疾风试探失败后重谈盟约边界"
     }
   ],
   "owner": {
     "id": "src-9ff09c395734410b856f77c77a652834",
     "kind": "source"
   },
-  "revision": 4,
+  "revision": 5,
   "schema_version": 1,
   "threads": [
     {
@@ -1582,10 +2311,105 @@
     },
     {
       "edge_ids": [
+        "v03-edge-03",
+        "v03-edge-05",
+        "v03-edge-06"
+      ],
+      "id": "v03-thread-01",
+      "kind": "main",
+      "node_ids": [
+        "v03-e02",
+        "v03-e04",
+        "v03-e05",
+        "v03-e07",
+        "v03-e08"
+      ],
+      "question": "圣物是否真能恢复人身，星的圣焰结局如何？",
+      "resolution_note": "物品已取得并分化队伍；只有星饮用，效果尚未交代。",
+      "status": "partial",
+      "title": "第3集 · 救赎之魂的希望与实效",
+      "tracking_key": "th-redemption-soul"
+    },
+    {
+      "edge_ids": [
+        "v03-edge-03",
+        "v03-edge-05",
+        "v03-edge-06"
+      ],
+      "id": "v03-thread-02",
+      "kind": "main",
+      "node_ids": [
+        "v03-e01",
+        "v03-e04",
+        "v03-e05",
+        "v03-e06",
+        "v03-e07",
+        "v03-e08"
+      ],
+      "question": "身体自主的承认能否在灵魂控制仍存时落地？",
+      "resolution_note": "条件忠诚、主动回归与选择离开并存，黑二获自主定义但控制机制未解除。",
+      "status": "open",
+      "title": "第3集 · 灵魂依附与自愿同伴",
+      "tracking_key": "th-undead-autonomy"
+    },
+    {
+      "edge_ids": [
+        "v03-edge-01",
+        "v03-edge-07"
+      ],
+      "id": "v03-thread-03",
+      "kind": "main",
+      "node_ids": [
+        "v03-e02",
+        "v03-e03",
+        "v03-e09"
+      ],
+      "question": "雷神残余和撒拉丁部族如何应对领袖及贸易体系丧失？",
+      "resolution_note": "总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
+      "status": "partial",
+      "title": "第3集 · 雷神败亡后的利益与部族余波",
+      "tracking_key": "th-thunder-aftermath"
+    },
+    {
+      "edge_ids": [
+        "v03-edge-04"
+      ],
+      "id": "v03-thread-04",
+      "kind": "subplot",
+      "node_ids": [
+        "v03-e03",
+        "v03-e06"
+      ],
+      "question": "上千长期亡者能否隐蔽成长，何时出现自我意识？",
+      "resolution_note": "已安置沉睡，全面转生构想被劝退，建领地计划未撤销。",
+      "status": "open",
+      "title": "第3集 · 隐蔽不死领地",
+      "tracking_key": "th-undead-territory"
+    },
+    {
+      "edge_ids": [],
+      "id": "v03-thread-05",
+      "kind": "hidden",
+      "node_ids": [
+        "v03-e03"
+      ],
+      "question": "反复释放和重新压制能否继续控制战魂？",
+      "resolution_note": "被利用拖延雷克丁后再次吸回，仍有躁动，未被炼化。",
+      "status": "open",
+      "title": "第3集 · 坦克战魂的压制与利用",
+      "tracking_key": "th-tank-war-soul"
+    },
+    {
+      "edge_ids": [
         "v01-edge-02",
         "v01-edge-09",
         "v02-edge-04",
-        "v02-edge-07"
+        "v02-edge-07",
+        "v03-edge-03",
+        "v03-edge-05",
+        "v03-edge-06",
+        "cross-redemption-01",
+        "cross-autonomy-01"
       ],
       "id": "book-37dd82abc178",
       "kind": "main",
@@ -1600,12 +2424,19 @@
         "v02-e03",
         "v02-e04",
         "v02-e05",
-        "v02-e09"
+        "v02-e09",
+        "v03-e01",
+        "v03-e04",
+        "v03-e05",
+        "v03-e06",
+        "v03-e07",
+        "v03-e08",
+        "v02-e01"
       ],
-      "question": "黑龙能否在自身成长和孩子意识出现后重新看待受控伙伴？",
-      "resolution_note": "最近核对至第2集；各阶段状态见分集记录。有同类交流得到兑现，生命控制与道德分歧变得更明显，尚未解决。",
-      "status": "partial",
-      "title": "跨集 · 自由、控制与同伴关系",
+      "question": "身体自主的承认能否在灵魂控制仍存时落地？",
+      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。条件忠诚、主动回归与选择离开并存，黑二获自主定义但控制机制未解除。",
+      "status": "open",
+      "title": "跨集 · 灵魂依附与自愿同伴",
       "tracking_key": "blackdragon-autonomy-and-companionship",
       "volume_history": [
         {
@@ -1623,26 +2454,45 @@
           "status": "partial",
           "title": "自由、控制与同伴关系",
           "volume": 2
+        },
+        {
+          "kind": "main",
+          "question": "身体自主的承认能否在灵魂控制仍存时落地？",
+          "resolution_note": "条件忠诚、主动回归与选择离开并存，黑二获自主定义但控制机制未解除。",
+          "status": "open",
+          "title": "灵魂依附与自愿同伴",
+          "volume": 3
         }
       ]
     },
     {
       "edge_ids": [
-        "v02-edge-05"
+        "v02-edge-05",
+        "v03-edge-03",
+        "v03-edge-05",
+        "v03-edge-06",
+        "cross-redemption-01",
+        "cross-memory-02"
       ],
       "id": "book-d57a5d7a5b5a",
-      "kind": "subplot",
+      "kind": "main",
       "node_ids": [
         "v01-e03",
         "v01-e04",
         "v02-e01",
         "v02-e03",
-        "v02-e07"
+        "v02-e07",
+        "v03-e02",
+        "v03-e04",
+        "v03-e05",
+        "v03-e07",
+        "v03-e08",
+        "v02-e06"
       ],
-      "question": "雷克丁家族持物能否取得，其效果是否真实？",
-      "resolution_note": "最近核对至第2集；各阶段状态见分集记录。增加持有者情报并推动联盟，实物与效力都尚未验证；黑龙未获全情。",
-      "status": "open",
-      "title": "跨集 · 救赎之魂",
+      "question": "圣物是否真能恢复人身，星的圣焰结局如何？",
+      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。物品已取得并分化队伍；只有星饮用，效果尚未交代。",
+      "status": "partial",
+      "title": "跨集 · 救赎之魂的希望与实效",
       "tracking_key": "redemption-soul",
       "volume_history": [
         {
@@ -1660,6 +2510,14 @@
           "status": "open",
           "title": "救赎之魂",
           "volume": 2
+        },
+        {
+          "kind": "main",
+          "question": "圣物是否真能恢复人身，星的圣焰结局如何？",
+          "resolution_note": "物品已取得并分化队伍；只有星饮用，效果尚未交代。",
+          "status": "partial",
+          "title": "救赎之魂的希望与实效",
+          "volume": 3
         }
       ]
     },
@@ -1667,7 +2525,8 @@
       "edge_ids": [
         "v02-edge-04",
         "v02-edge-07",
-        "cross-children-01"
+        "cross-children-01",
+        "cross-autonomy-01"
       ],
       "id": "book-c55cdb2efcb4",
       "kind": "hidden",
@@ -1676,10 +2535,11 @@
         "v01-e06",
         "v02-e04",
         "v02-e05",
-        "v02-e09"
+        "v02-e09",
+        "v03-e06"
       ],
       "question": "黑二为何觉醒，其他孩子为何仍无意识？",
-      "resolution_note": "最近核对至第2集；各阶段状态见分集记录。黑二意识已确认；黑大仅觉醒技能，成因仍未知。",
+      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。黑二意识已确认；黑大仅觉醒技能，成因仍未知。",
       "status": "partial",
       "title": "跨集 · 十子意识与进化条件",
       "tracking_key": "children-consciousness",
@@ -1709,10 +2569,14 @@
         "v02-edge-02",
         "v02-edge-03",
         "v02-edge-05",
-        "cross-blockade-01"
+        "v03-edge-01",
+        "v03-edge-07",
+        "cross-blockade-01",
+        "cross-tank-01",
+        "cross-alliance-01"
       ],
       "id": "book-4591509faba8",
-      "kind": "subplot",
+      "kind": "main",
       "node_ids": [
         "v01-e04",
         "v01-e05",
@@ -1721,12 +2585,15 @@
         "v02-e02",
         "v02-e03",
         "v02-e04",
-        "v02-e07"
+        "v02-e07",
+        "v03-e02",
+        "v03-e03",
+        "v03-e09"
       ],
-      "question": "雷神能否在联盟和悬赏夹击中保全，双方是否继续升级？",
-      "resolution_note": "最近核对至第2集；各阶段状态见分集记录。坦克肉体死亡，雷神损失两千成员与情报网络，但团长及组织尚存。",
+      "question": "雷神残余和撒拉丁部族如何应对领袖及贸易体系丧失？",
+      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
       "status": "partial",
-      "title": "跨集 · 雷神冲突的组织化",
+      "title": "跨集 · 雷神败亡后的利益与部族余波",
       "tracking_key": "thunder-mercenary-conflict",
       "volume_history": [
         {
@@ -1744,6 +2611,14 @@
           "status": "partial",
           "title": "雷神冲突的组织化",
           "volume": 2
+        },
+        {
+          "kind": "main",
+          "question": "雷神残余和撒拉丁部族如何应对领袖及贸易体系丧失？",
+          "resolution_note": "总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
+          "status": "partial",
+          "title": "雷神败亡后的利益与部族余波",
+          "volume": 3
         }
       ]
     },
@@ -1758,7 +2633,7 @@
         "v02-e01"
       ],
       "question": "祭坛供能与自修复机制、古国消失原因是什么？",
-      "resolution_note": "最近核对至第2集；各阶段状态见分集记录。现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
+      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
       "status": "open",
       "title": "跨集 · 红月与沉沦国度",
       "tracking_key": "sunken-undead-kingdom",
@@ -1783,22 +2658,84 @@
     },
     {
       "edge_ids": [
-        "cross-memory-01"
+        "cross-tank-01"
+      ],
+      "id": "book-9baae09a0d12",
+      "kind": "hidden",
+      "node_ids": [
+        "v02-e04",
+        "v03-e03"
+      ],
+      "question": "反复释放和重新压制能否继续控制战魂？",
+      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。被利用拖延雷克丁后再次吸回，仍有躁动，未被炼化。",
+      "status": "open",
+      "title": "跨集 · 坦克战魂的压制与利用",
+      "tracking_key": "tank-battle-soul",
+      "volume_history": [
+        {
+          "kind": "hidden",
+          "question": "黑龙如何处理无法炼化的狂暴战魂？",
+          "resolution_note": "只是压到体内深处，尚无根除证据。",
+          "status": "open",
+          "title": "坦克战魂残留",
+          "volume": 2
+        },
+        {
+          "kind": "hidden",
+          "question": "反复释放和重新压制能否继续控制战魂？",
+          "resolution_note": "被利用拖延雷克丁后再次吸回，仍有躁动，未被炼化。",
+          "status": "open",
+          "title": "坦克战魂的压制与利用",
+          "volume": 3
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "cross-nana-01"
+      ],
+      "id": "book-cb9c67d1cdae",
+      "kind": "subplot",
+      "node_ids": [
+        "v02-e09",
+        "v03-e01"
+      ],
+      "question": "娜娜为何被追杀，黑龙会否接受保护请求？",
+      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。洛特提出照顾至成年并给出报酬，黑龙尚未答复；女孩求救也未得到结果。",
+      "status": "open",
+      "title": "跨集 · 娜娜暗黑气息与托付",
+      "tracking_key": "nana-protection",
+      "volume_history": [
+        {
+          "kind": "subplot",
+          "question": "娜娜为何被追杀，黑龙会否接受保护请求？",
+          "resolution_note": "洛特提出照顾至成年并给出报酬，黑龙尚未答复；女孩求救也未得到结果。",
+          "status": "open",
+          "title": "娜娜暗黑气息与托付",
+          "volume": 2
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "cross-memory-01",
+        "cross-memory-02"
       ],
       "id": "book-0a05fa972401",
       "kind": "hidden",
       "node_ids": [
         "v01-e03",
-        "v02-e06"
+        "v02-e06",
+        "v03-e04"
       ],
       "question": "记忆所得如何改变选择，哪些能力仍不能继承？",
-      "resolution_note": "最近核对至第2集；各阶段状态见分集记录。跨集信息优势得到兑现；知识与魔力仍须分开。",
+      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。跨集信息优势得到兑现；知识与魔力仍须分开。",
       "status": "partial",
       "title": "跨集 · 记忆、知识与力量",
       "tracking_key": "memory-and-power",
       "volume_history": []
     }
   ],
-  "title": "超级骷髅兵 · 九维深化第1—2集",
-  "updated_at": "2026-10-21T20:28:05.270363+00:00"
+  "title": "超级骷髅兵 · 九维深化第1—3集",
+  "updated_at": "2026-10-21T20:28:54.540564+00:00"
 }

@@ -3,14 +3,19 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "向黑龙提出五百金币、照料至成年的任务后失去神彩。",
-    "conflict": "伤势致命，陌生佣兵的品行无法确认但已没有替代选择。",
-    "coverage_note": "九维深化已覆盖第1至2集；变化记录以各集证据为准。",
-    "goal": "在自己无法继续保护时为娜娜找到照料者。",
-    "knowledge_limits": "不知道黑龙为不死者，先误认其军人；托付尚未获明确接受。",
+    "arc_change": "失去原生命后主动提出有条件的服从，不像先前四人以复原为目标。",
+    "conflict": "曾信至高神，却见教会把善良孩子判为异端。",
+    "coverage_note": "九维深化已覆盖第1至3集；变化记录以各集证据为准。",
+    "goal": "守护娜娜直到安全成长。",
+    "knowledge_limits": [
+      "起初不知道黑龙转生所需代价极低"
+    ],
     "name": "洛特",
-    "relationships": "娜娜称其叔叔，视她比自身生命重要。",
-    "summary": "保护娜娜而重伤的中年剑士。",
+    "relationships": [
+      "忠于娜娜及其家人",
+      "感谢黑龙救助但明确要求守护条件"
+    ],
+    "summary": "复生后以继续保护娜娜为最高目标，接受不死身份。",
     "volume_history": [
       {
         "aliases": [],
@@ -34,6 +39,29 @@
         "relationships": "娜娜称其叔叔，视她比自身生命重要。",
         "summary": "保护娜娜而重伤的中年剑士。",
         "volume": 2
+      },
+      {
+        "aliases": [],
+        "arc_change": "失去原生命后主动提出有条件的服从，不像先前四人以复原为目标。",
+        "conflict": "曾信至高神，却见教会把善良孩子判为异端。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0026",
+            "end_line": 3120,
+            "start_line": 3088
+          }
+        ],
+        "goal": "守护娜娜直到安全成长。",
+        "knowledge_limits": [
+          "起初不知道黑龙转生所需代价极低"
+        ],
+        "name": "洛特",
+        "relationships": [
+          "忠于娜娜及其家人",
+          "感谢黑龙救助但明确要求守护条件"
+        ],
+        "summary": "复生后以继续保护娜娜为最高目标，接受不死身份。",
+        "volume": 3
       }
     ]
   },
@@ -55,19 +83,28 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 2735
+    },
+    {
+      "chapter_id": "ch-0026",
+      "claim_kind": "inference",
+      "end_line": 3120,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 3088
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/洛特",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
-    "第02集"
+    "第02集",
+    "第03集"
   ],
   "title": "洛特：分集人物研究",
-  "updated_at": "2026-10-21T20:27:15.058429+00:00",
+  "updated_at": "2026-10-21T20:28:52.991887+00:00",
   "user_notes": ""
 }
