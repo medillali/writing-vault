@@ -1,0 +1,502 @@
+{
+  "coverage": [
+    {
+      "chapter_ids": [
+        "ch-0002",
+        "ch-0003",
+        "ch-0004",
+        "ch-0005",
+        "ch-0006"
+      ],
+      "complete": false,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981"
+    }
+  ],
+  "edges": [
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "fact",
+          "end_line": 65,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 43
+        }
+      ],
+      "from": "rescue",
+      "id": "flashback",
+      "kind": "reveal",
+      "label": "后叙原因解释开篇结果",
+      "to": "locked"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "inference",
+          "end_line": 94,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 88
+        },
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 124,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 114
+        }
+      ],
+      "from": "poor",
+      "id": "need",
+      "kind": "cause",
+      "label": "缺头盔与房外等待催生试用",
+      "to": "bind"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 180,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 173
+        }
+      ],
+      "from": "locked",
+      "id": "contrast",
+      "kind": "reversal",
+      "label": "制造麻烦的来客转为主动照顾",
+      "to": "share"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 200,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 193
+        }
+      ],
+      "from": "bind",
+      "id": "ownership",
+      "kind": "payoff",
+      "label": "绑定冲突通过明确赠与收束",
+      "to": "gift"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 180,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 177
+        },
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "inference",
+          "end_line": 220,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 216
+        }
+      ],
+      "from": "share",
+      "id": "care",
+      "kind": "echo",
+      "label": "具体照顾延伸为经济与求职帮助",
+      "to": "note"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 251,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 235
+        }
+      ],
+      "from": "note",
+      "id": "referral",
+      "kind": "payoff",
+      "label": "地址指引兑现为工作室入口",
+      "to": "team"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 264,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 261
+        }
+      ],
+      "from": "gift",
+      "id": "access",
+      "kind": "cause",
+      "label": "设备使游戏目标具备条件",
+      "to": "enter"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "inference",
+          "end_line": 261,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 254
+        }
+      ],
+      "from": "team",
+      "id": "deadline",
+      "kind": "cause",
+      "label": "谋生目标附加首夜指标",
+      "to": "enter"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 145,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 145
+        },
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "inference",
+          "end_line": 240,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 235
+        }
+      ],
+      "from": "bind",
+      "id": "identity",
+      "kind": "setup",
+      "label": "特殊头盔与组织关系提供身份线索",
+      "to": "team"
+    }
+  ],
+  "graph_id": "graph-21a1548c8c094f7ea6fbc3cdd0b00184",
+  "nodes": [
+    {
+      "claim_kind": "inference",
+      "id": "story",
+      "kind": "story",
+      "parent_id": null,
+      "title": "偶遇把失业青年带到游戏起点"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "encounter",
+      "kind": "arc",
+      "parent_id": "story",
+      "title": "困境与陌生来客"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "opportunity",
+      "kind": "arc",
+      "parent_id": "story",
+      "title": "帮助变为新任务"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30",
+        "chr-e0af4a5a9dfd475e8a82ff293968e46a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "fact",
+          "end_line": 36,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 16
+        }
+      ],
+      "id": "locked",
+      "kind": "scene",
+      "narrative_order": 1,
+      "parent_id": "encounter",
+      "title": "先见结果：主人被来客锁在房外"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30",
+        "chr-e0af4a5a9dfd475e8a82ff293968e46a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "fact",
+          "end_line": 65,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 43
+        }
+      ],
+      "id": "rescue",
+      "kind": "scene",
+      "narrative_order": 2,
+      "parent_id": "encounter",
+      "title": "倒叙解释：为脱离地痞而带她上楼"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 89,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 69
+        }
+      ],
+      "id": "poor",
+      "kind": "event",
+      "narrative_order": 3,
+      "parent_id": "encounter",
+      "title": "补叙失业缺钱，头盔购买受阻"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 125,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 116
+        },
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 145,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 145
+        }
+      ],
+      "id": "bind",
+      "kind": "scene",
+      "knowledge": [
+        {
+          "belief": "不清楚凌雪为何能提前拿到头盔",
+          "observer": "chr-055c3deac10149bf8f9a51198570da30",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 4,
+      "parent_id": "encounter",
+      "title": "试戴提前拿到的头盔，意外锁定身份"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30",
+        "chr-e0af4a5a9dfd475e8a82ff293968e46a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 180,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 173
+        }
+      ],
+      "id": "share",
+      "kind": "scene",
+      "narrative_order": 5,
+      "parent_id": "opportunity",
+      "title": "来客主动分粥，缓和关系"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30",
+        "chr-e0af4a5a9dfd475e8a82ff293968e46a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 200,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 193
+        }
+      ],
+      "id": "gift",
+      "kind": "scene",
+      "narrative_order": 6,
+      "parent_id": "opportunity",
+      "title": "发现误绑定后仍赠出头盔"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30",
+        "chr-e0af4a5a9dfd475e8a82ff293968e46a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 224,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 216
+        }
+      ],
+      "id": "note",
+      "kind": "scene",
+      "narrative_order": 7,
+      "parent_id": "opportunity",
+      "title": "留下钱与工作地址"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30",
+        "chr-7e27b7c45aa344dda7988d6d8dc8b4b5"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 259,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 235
+        }
+      ],
+      "id": "team",
+      "kind": "scene",
+      "narrative_order": 8,
+      "parent_id": "opportunity",
+      "title": "加入雪月，接到首夜任务"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 316,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 282
+        }
+      ],
+      "id": "enter",
+      "kind": "scene",
+      "narrative_order": 9,
+      "parent_id": "opportunity",
+      "title": "开服抢入获经验，开始练级"
+    }
+  ],
+  "owner": {
+    "id": "src-2a13958390274509b2af019f6b12d981",
+    "kind": "source"
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "threads": [
+    {
+      "edge_ids": [
+        "need",
+        "ownership",
+        "referral",
+        "access",
+        "deadline"
+      ],
+      "id": "main",
+      "kind": "main",
+      "node_ids": [
+        "poor",
+        "bind",
+        "gift",
+        "note",
+        "team",
+        "enter"
+      ],
+      "resolution_note": "已进入游戏，首夜10级与两金币指标未完成。",
+      "status": "partial",
+      "title": "从现实窘境进入职业游戏"
+    },
+    {
+      "edge_ids": [
+        "flashback",
+        "contrast",
+        "care"
+      ],
+      "id": "relation",
+      "kind": "subplot",
+      "node_ids": [
+        "rescue",
+        "locked",
+        "share",
+        "note"
+      ],
+      "resolution_note": "已有互动改善，尚未核查长期关系。",
+      "status": "partial",
+      "title": "由误会到相互帮助"
+    },
+    {
+      "edge_ids": [
+        "identity"
+      ],
+      "id": "mystery",
+      "kind": "hidden",
+      "node_ids": [
+        "bind",
+        "team"
+      ],
+      "resolution_note": "有组织关系线索，尚不能确认完整身份或拿到设备的途径。",
+      "status": "open",
+      "title": "凌雪身份与提前拿到头盔的原因"
+    }
+  ],
+  "title": "网游之纵横天下 · 卷一第1至5章实测",
+  "updated_at": "2026-10-21T18:07:11.050016+00:00"
+}

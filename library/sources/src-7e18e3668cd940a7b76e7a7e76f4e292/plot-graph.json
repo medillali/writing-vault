@@ -1,0 +1,490 @@
+{
+  "coverage": [
+    {
+      "chapter_ids": [
+        "ch-0002",
+        "ch-0003",
+        "ch-0004",
+        "ch-0005"
+      ],
+      "complete": false,
+      "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+      "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292"
+    }
+  ],
+  "edges": [
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "inference",
+          "end_line": 90,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 73
+        }
+      ],
+      "from": "loss",
+      "id": "motivation",
+      "kind": "cause",
+      "label": "遗憾成为改变行为的动机",
+      "to": "return"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "fact",
+          "end_line": 97,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 91
+        }
+      ],
+      "from": "return",
+      "id": "revisit",
+      "kind": "cause",
+      "label": "记忆促成主动赶往相遇地点",
+      "to": "meet"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 171,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 166
+        }
+      ],
+      "from": "meet",
+      "id": "protect",
+      "kind": "cause",
+      "label": "保护愿望转向实力积累",
+      "to": "start"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 188,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 187
+        }
+      ],
+      "from": "loss",
+      "id": "family",
+      "kind": "setup",
+      "label": "父亲投资失败的回忆连接游戏布局",
+      "to": "start"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 249,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 234
+        }
+      ],
+      "from": "start",
+      "id": "knowledge",
+      "kind": "payoff",
+      "label": "熟悉路线带来起步优势",
+      "to": "gear"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 255,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 248
+        },
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "inference",
+          "end_line": 267,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 266
+        }
+      ],
+      "from": "gear",
+      "id": "need",
+      "kind": "cause",
+      "label": "装备后仍缺技能与资金",
+      "to": "offer"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 273,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 269
+        }
+      ],
+      "from": "offer",
+      "id": "false_tip",
+      "kind": "reveal",
+      "label": "看似优惠的坐标实际危险",
+      "to": "reveal"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 298,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 287
+        }
+      ],
+      "from": "reveal",
+      "id": "unlock",
+      "kind": "cause",
+      "label": "获得技能后才有寻宝行动条件",
+      "to": "next"
+    }
+  ],
+  "graph_id": "graph-004ae24501e64f56b102060ee34241dd",
+  "nodes": [
+    {
+      "claim_kind": "inference",
+      "id": "story",
+      "kind": "story",
+      "parent_id": null,
+      "title": "以经验重建人生的开端"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "life",
+      "kind": "arc",
+      "parent_id": "story",
+      "title": "确认重生与情感动机"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "game",
+      "kind": "arc",
+      "parent_id": "story",
+      "title": "把经验兑换为起步资源"
+    },
+    {
+      "characters": [
+        "chr-0adb42d7bbc5421498d0e690946fc57a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "fact",
+          "end_line": 38,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 24
+        },
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "fact",
+          "end_line": 75,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 73
+        }
+      ],
+      "id": "loss",
+      "kind": "event",
+      "narrative_order": 1,
+      "parent_id": "life",
+      "title": "前世回忆：家庭破败与临终遗憾"
+    },
+    {
+      "characters": [
+        "chr-0adb42d7bbc5421498d0e690946fc57a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "fact",
+          "end_line": 90,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 57
+        }
+      ],
+      "id": "return",
+      "kind": "scene",
+      "narrative_order": 2,
+      "parent_id": "life",
+      "title": "确认回到十八岁，决定重新开始"
+    },
+    {
+      "characters": [
+        "chr-0adb42d7bbc5421498d0e690946fc57a",
+        "chr-551afa20d14e46c1957b71eea31ef3f3"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 166,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 115
+        }
+      ],
+      "id": "meet",
+      "kind": "scene",
+      "knowledge": [
+        {
+          "belief": "记得前世相遇与错失",
+          "observer": "chr-0adb42d7bbc5421498d0e690946fc57a",
+          "state": "knows"
+        },
+        {
+          "belief": "不知道聂言的前世经历",
+          "observer": "chr-551afa20d14e46c1957b71eea31ef3f3",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 3,
+      "parent_id": "life",
+      "title": "重演相遇，以不同方式回应谢瑶"
+    },
+    {
+      "characters": [
+        "chr-0adb42d7bbc5421498d0e690946fc57a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 179,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 171
+        },
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 203,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 196
+        }
+      ],
+      "id": "start",
+      "kind": "scene",
+      "narrative_order": 4,
+      "parent_id": "game",
+      "title": "购买头盔，选择熟悉的盗贼职业"
+    },
+    {
+      "characters": [
+        "chr-0adb42d7bbc5421498d0e690946fc57a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 249,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 234
+        }
+      ],
+      "id": "gear",
+      "kind": "scene",
+      "narrative_order": 5,
+      "parent_id": "game",
+      "title": "修正加点并低价置办装备"
+    },
+    {
+      "characters": [
+        "chr-0adb42d7bbc5421498d0e690946fc57a",
+        "chr-d76ff4afe192467fb31669f00702e7a4"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 257,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 250
+        },
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 264,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 261
+        }
+      ],
+      "id": "offer",
+      "kind": "scene",
+      "knowledge": [
+        {
+          "belief": "对坐标消息半信半疑，尚不知道存在危险",
+          "observer": "chr-d76ff4afe192467fb31669f00702e7a4",
+          "state": "suspects"
+        },
+        {
+          "belief": "本段提出坐标时尚未揭示陷阱",
+          "observer": "reader",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 6,
+      "parent_id": "game",
+      "title": "以刷怪消息谈判技能书"
+    },
+    {
+      "characters": [
+        "chr-0adb42d7bbc5421498d0e690946fc57a",
+        "chr-d76ff4afe192467fb31669f00702e7a4"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 286,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 267
+        }
+      ],
+      "id": "reveal",
+      "kind": "scene",
+      "narrative_order": 7,
+      "parent_id": "game",
+      "title": "交易后揭明假坐标，并建立付费联系"
+    },
+    {
+      "characters": [
+        "chr-0adb42d7bbc5421498d0e690946fc57a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 298,
+          "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+          "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+          "start_line": 287
+        }
+      ],
+      "id": "next",
+      "kind": "event",
+      "narrative_order": 8,
+      "parent_id": "game",
+      "title": "学会潜行，提出宝箱目标（尚未取得）"
+    }
+  ],
+  "owner": {
+    "id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+    "kind": "source"
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "threads": [
+    {
+      "edge_ids": [
+        "motivation",
+        "family",
+        "knowledge",
+        "need",
+        "false_tip",
+        "unlock"
+      ],
+      "id": "main",
+      "kind": "main",
+      "node_ids": [
+        "loss",
+        "return",
+        "start",
+        "gear",
+        "offer",
+        "reveal",
+        "next"
+      ],
+      "resolution_note": "起步交易完成，寻宝与对抗旧敌尚未兑现。",
+      "status": "partial",
+      "title": "前世经验转化为当前资本"
+    },
+    {
+      "edge_ids": [
+        "revisit",
+        "protect"
+      ],
+      "id": "romance",
+      "kind": "subplot",
+      "node_ids": [
+        "return",
+        "meet",
+        "start"
+      ],
+      "resolution_note": "仅首次互动改善，尚未建立长期恋爱关系。",
+      "status": "open",
+      "title": "改变曾经错失的关系"
+    },
+    {
+      "edge_ids": [
+        "false_tip"
+      ],
+      "id": "hidden_tip",
+      "kind": "hidden",
+      "node_ids": [
+        "offer",
+        "reveal"
+      ],
+      "resolution_note": "本次信息隐瞒在第四章已揭示，是局部暗线而非全书阴谋。",
+      "status": "resolved",
+      "title": "谈判中被隐藏的坐标风险"
+    },
+    {
+      "edge_ids": [
+        "family"
+      ],
+      "id": "family_future",
+      "kind": "hidden",
+      "node_ids": [
+        "loss",
+        "start"
+      ],
+      "resolution_note": "前世因果已说明，当前是否避开危机未验证。",
+      "status": "open",
+      "title": "家庭危机与游戏投资的连接"
+    }
+  ],
+  "title": "重生之贼行天下 · 第一至第四章实测",
+  "updated_at": "2026-10-21T18:05:14.822853+00:00"
+}

@@ -1,0 +1,64 @@
+# 让导师的既有需求承担培养成本
+
+ID: `pat-6bafe2aca7e64c3c9d619ad9a18734e6` · 版本: 1 · 范围: reusable-pattern
+
+先给资源掌握者一个持续存在的实际难题，再让弱势者的可验证能力解决部分难题，使进一步培养成为前者的利益选择。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-6bafe2aca7e64c3c9d619ad9a18734e6",
+  "asset_type": "pattern",
+  "content": {
+    "coverage_note": "完整阅读第一至第四章；以下人物判断和剧情结构只适用于这个样段。",
+    "limits": "这是对四章样段的机制抽象，不是全书主题或读者效果实测。",
+    "steps": [
+      "明确长期痛点",
+      "用小任务验证帮助价值",
+      "暴露可培养的短板",
+      "让投入与长期回报形成因果"
+    ],
+    "summary": "先给资源掌握者一个持续存在的实际难题，再让弱势者的可验证能力解决部分难题，使进一步培养成为前者的利益选择。"
+  },
+  "created_at": "2026-10-21T18:05:15.300114+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-5e2d8a9a116749f3b8f380370c8ff406",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0004",
+      "claim_kind": "synthesis",
+      "end_line": 153,
+      "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+      "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+      "start_line": 130
+    },
+    {
+      "chapter_id": "ch-0005",
+      "claim_kind": "synthesis",
+      "end_line": 197,
+      "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+      "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+      "start_line": 194
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-3827106c3eb24e58a7a70dc66eda226f/opening-test-20261022/pattern_incentive",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "导师动机",
+    "可复用机制"
+  ],
+  "title": "让导师的既有需求承担培养成本",
+  "updated_at": "2026-10-21T18:05:15.318114+00:00",
+  "user_notes": ""
+}
+
+```

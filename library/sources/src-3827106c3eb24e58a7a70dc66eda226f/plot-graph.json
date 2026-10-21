@@ -1,0 +1,427 @@
+{
+  "coverage": [
+    {
+      "chapter_ids": [
+        "ch-0002",
+        "ch-0003",
+        "ch-0004",
+        "ch-0005"
+      ],
+      "complete": false,
+      "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+      "source_id": "src-3827106c3eb24e58a7a70dc66eda226f"
+    }
+  ],
+  "edges": [
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "inference",
+          "end_line": 38,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 34
+        }
+      ],
+      "from": "hide",
+      "id": "visit_unknown",
+      "kind": "setup",
+      "label": "访客与领地消失的关系待核实",
+      "to": "empty_land"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "fact",
+          "end_line": 45,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 41
+        },
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 54,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 52
+        }
+      ],
+      "from": "empty_land",
+      "id": "summon",
+      "kind": "cause",
+      "label": "相对实力改变使其被召唤",
+      "to": "misjudge"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "inference",
+          "end_line": 80,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 65
+        }
+      ],
+      "from": "misjudge",
+      "id": "test",
+      "kind": "cause",
+      "label": "错误预期触发对照试用",
+      "to": "comparison"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 91,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 87
+        }
+      ],
+      "from": "misjudge",
+      "id": "reveal_body",
+      "kind": "reveal",
+      "label": "半身状态并非能力上限",
+      "to": "body"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "inference",
+          "end_line": 103,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 97
+        },
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 153,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 130
+        }
+      ],
+      "from": "comparison",
+      "id": "value",
+      "kind": "payoff",
+      "label": "可验证能力变成长期需求",
+      "to": "assistant"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 153,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 152
+        },
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "inference",
+          "end_line": 197,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 179
+        }
+      ],
+      "from": "assistant",
+      "id": "teach",
+      "kind": "cause",
+      "label": "教学揭示新的可用能力",
+      "to": "writing"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "inference",
+          "end_line": 25,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 20
+        },
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "inference",
+          "end_line": 197,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 179
+        }
+      ],
+      "from": "hide",
+      "id": "ability",
+      "kind": "echo",
+      "label": "弱小外形下的非典型能力",
+      "to": "writing"
+    }
+  ],
+  "graph_id": "graph-8a096fca10d14b13a0953bde2018acee",
+  "nodes": [
+    {
+      "claim_kind": "inference",
+      "id": "story",
+      "kind": "story",
+      "parent_id": null,
+      "title": "开篇：从避险到知识入口"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "survival",
+      "kind": "arc",
+      "parent_id": "story",
+      "title": "旧环境中的生存策略"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "lab",
+      "kind": "arc",
+      "parent_id": "story",
+      "title": "实验室中的能力显露"
+    },
+    {
+      "characters": [
+        "chr-4ffeb0e1784e4c2488b1e1ab8f9189c7",
+        "chr-dc543ed5793b4acbb49c125f2ebe1880"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "fact",
+          "end_line": 36,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 22
+        }
+      ],
+      "id": "hide",
+      "kind": "scene",
+      "narrative_order": 1,
+      "parent_id": "survival",
+      "title": "装死躲过洞口访客"
+    },
+    {
+      "characters": [
+        "chr-4ffeb0e1784e4c2488b1e1ab8f9189c7"
+      ],
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "inference",
+          "end_line": 44,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 37
+        }
+      ],
+      "id": "empty_land",
+      "kind": "event",
+      "narrative_order": 2,
+      "parent_id": "survival",
+      "title": "领地清空后，幸存者成了召唤目标"
+    },
+    {
+      "characters": [
+        "chr-4ffeb0e1784e4c2488b1e1ab8f9189c7",
+        "chr-17577c12a09541c2b7e8a5ce3f849400"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 65,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 53
+        }
+      ],
+      "id": "misjudge",
+      "kind": "scene",
+      "knowledge": [
+        {
+          "belief": "完整骷髅应该比半身骷髅更适合担任助手",
+          "observer": "chr-17577c12a09541c2b7e8a5ce3f849400",
+          "state": "misbelieves"
+        },
+        {
+          "belief": "格里斯长期存活与特别避险方式意味着他并不普通",
+          "observer": "reader",
+          "state": "suspects"
+        }
+      ],
+      "narrative_order": 3,
+      "parent_id": "lab",
+      "title": "院长按半身外形低估能力"
+    },
+    {
+      "characters": [
+        "chr-4ffeb0e1784e4c2488b1e1ab8f9189c7",
+        "chr-17577c12a09541c2b7e8a5ce3f849400"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 86,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 67
+        }
+      ],
+      "id": "comparison",
+      "kind": "scene",
+      "narrative_order": 4,
+      "parent_id": "lab",
+      "title": "重复任务暴露不同理解能力"
+    },
+    {
+      "characters": [
+        "chr-4ffeb0e1784e4c2488b1e1ab8f9189c7",
+        "chr-17577c12a09541c2b7e8a5ce3f849400"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 98,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 87
+        }
+      ],
+      "id": "body",
+      "kind": "scene",
+      "narrative_order": 5,
+      "parent_id": "lab",
+      "title": "主动重组身体，修正外形判断"
+    },
+    {
+      "characters": [
+        "chr-4ffeb0e1784e4c2488b1e1ab8f9189c7",
+        "chr-17577c12a09541c2b7e8a5ce3f849400"
+      ],
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 153,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 130
+        }
+      ],
+      "id": "assistant",
+      "kind": "scene",
+      "narrative_order": 6,
+      "parent_id": "lab",
+      "title": "保密与省事需求推动助手培养"
+    },
+    {
+      "characters": [
+        "chr-4ffeb0e1784e4c2488b1e1ab8f9189c7",
+        "chr-17577c12a09541c2b7e8a5ce3f849400"
+      ],
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "inference",
+          "end_line": 197,
+          "revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+          "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+          "start_line": 179
+        }
+      ],
+      "id": "writing",
+      "kind": "scene",
+      "narrative_order": 7,
+      "parent_id": "lab",
+      "title": "临摹能力打开制卷学习入口"
+    }
+  ],
+  "owner": {
+    "id": "src-3827106c3eb24e58a7a70dc66eda226f",
+    "kind": "source"
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "threads": [
+    {
+      "edge_ids": [
+        "summon",
+        "test",
+        "reveal_body",
+        "value",
+        "teach"
+      ],
+      "id": "main",
+      "kind": "main",
+      "node_ids": [
+        "empty_land",
+        "misjudge",
+        "comparison",
+        "body",
+        "assistant",
+        "writing"
+      ],
+      "resolution_note": "样段到达学习入口，尚未核查后续成长。",
+      "status": "partial",
+      "title": "进入实验室并获得学习入口"
+    },
+    {
+      "edge_ids": [
+        "reveal_body",
+        "ability"
+      ],
+      "id": "hidden_ability",
+      "kind": "hidden",
+      "node_ids": [
+        "hide",
+        "misjudge",
+        "body",
+        "writing"
+      ],
+      "resolution_note": "可主动重组身体和善于临摹已有依据，异常能力来源仍未揭明。",
+      "status": "partial",
+      "title": "半身外表掩盖的特殊能力"
+    },
+    {
+      "edge_ids": [
+        "visit_unknown"
+      ],
+      "id": "visitor_mystery",
+      "kind": "hidden",
+      "node_ids": [
+        "hide",
+        "empty_land"
+      ],
+      "resolution_note": "只建立叙事关联，不把疑似关系写成已证实的屠杀因果。",
+      "status": "unknown",
+      "title": "魔族访客的目的与领地变故"
+    }
+  ],
+  "title": "骷髅魔导师 · 第一至第四章实测",
+  "updated_at": "2026-10-21T18:05:15.483114+00:00"
+}

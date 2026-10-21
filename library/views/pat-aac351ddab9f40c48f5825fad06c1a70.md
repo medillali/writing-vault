@@ -1,0 +1,72 @@
+# 让同一道具同时改变关系、行动条件和任务
+
+ID: `pat-aac351ddab9f40c48f5825fad06c1a70` · 版本: 1 · 范围: reusable-pattern
+
+先让角色缺少某个行动条件，再通过带有关系后果的物件取得它；解决物件归属的过程，同时把角色带入新的任务与组织。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-aac351ddab9f40c48f5825fad06c1a70",
+  "asset_type": "pattern",
+  "content": {
+    "coverage_note": "完整阅读卷一第1至5章；第一人称评价、宣传画面和主角幻想均不当作已经发生的成长结果。",
+    "limits": "偶然只负责触发，后续推进需要连续选择与代价；可换成工具、许可或交通资源，不复制原书偶遇情节。",
+    "steps": [
+      "建立缺口",
+      "让道具进入关系冲突",
+      "以人物选择解决归属",
+      "用新条件开启具体任务"
+    ],
+    "summary": "先让角色缺少某个行动条件，再通过带有关系后果的物件取得它；解决物件归属的过程，同时把角色带入新的任务与组织。"
+  },
+  "created_at": "2026-10-21T18:07:10.830223+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-1a25dfdf47594f239e429c41365d2d39",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0004",
+      "claim_kind": "synthesis",
+      "end_line": 124,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 116
+    },
+    {
+      "chapter_id": "ch-0005",
+      "claim_kind": "synthesis",
+      "end_line": 224,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 193
+    },
+    {
+      "chapter_id": "ch-0006",
+      "claim_kind": "synthesis",
+      "end_line": 259,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 235
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/opening-test-20261022/pattern_object",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "可复用机制",
+    "因果连续性"
+  ],
+  "title": "让同一道具同时改变关系、行动条件和任务",
+  "updated_at": "2026-10-21T18:07:10.860791+00:00",
+  "user_notes": ""
+}
+
+```
