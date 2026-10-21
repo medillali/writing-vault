@@ -3,20 +3,20 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "亲援海底、开守护领域；危急时收族民备退，事后坦然面对责怪并拒绝再援龙岛。",
-    "conflict": "主角吞神冒险超出其预判，必须在陪葬与退保族民间选择。",
-    "coverage_note": "九维深化已覆盖第1至11集；变化记录以各集证据为准。",
-    "goal": "护住复兴希望黑龙，同时确保自己族民存续。",
+    "arc_change": "面对百龙改撑联合护盾，使黑龙能完成吞噬压制；其对先知分身的惊讶与第9知情出现连续性疑点。",
+    "conflict": "先知的分身限制使控制不完整，同属性敌又削弱其惯用领域的作用。",
+    "coverage_note": "九维深化已覆盖第1至12集；变化记录以各集证据为准。",
+    "goal": "维护黑龙一方力量与自身族众的存续。",
     "knowledge_limits": [
-      "不能解释黑龙每次异常解法",
-      "拒援并不等于撤销忠诚或已叛变"
+      "古皇冠历史含传说",
+      "不能把本集惊讶解释成首次获知分身而忽略第9"
     ],
     "name": "斯科特",
     "relationships": [
-      "向黑龙奉献信仰而无共生死亡链",
-      "承担亡灵族民的保护责任"
+      "为黑龙提供传送锚点及战斗屏障",
+      "对先知自保手段先给技术解释，后备冲突"
     ],
-    "summary": "具有领域与定点空间传送能力的亡灵领袖，忠诚仍有族群责任边界。",
+    "summary": "协助撤离、解释皇冠与魂约、掩护对先知的反击。",
     "volume_history": [
       {
         "aliases": [],
@@ -157,6 +157,45 @@
         ],
         "summary": "具有领域与定点空间传送能力的亡灵领袖，忠诚仍有族群责任边界。",
         "volume": 11
+      },
+      {
+        "aliases": [],
+        "arc_change": "面对百龙改撑联合护盾，使黑龙能完成吞噬压制；其对先知分身的惊讶与第9知情出现连续性疑点。",
+        "conflict": "先知的分身限制使控制不完整，同属性敌又削弱其惯用领域的作用。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0121",
+            "end_line": 15534,
+            "start_line": 15509
+          },
+          {
+            "chapter_id": "ch-0121",
+            "end_line": 15589,
+            "start_line": 15541
+          },
+          {
+            "chapter_id": "ch-0122",
+            "end_line": 15683,
+            "start_line": 15665
+          },
+          {
+            "chapter_id": "ch-0124",
+            "end_line": 15904,
+            "start_line": 15877
+          }
+        ],
+        "goal": "维护黑龙一方力量与自身族众的存续。",
+        "knowledge_limits": [
+          "古皇冠历史含传说",
+          "不能把本集惊讶解释成首次获知分身而忽略第9"
+        ],
+        "name": "斯科特",
+        "relationships": [
+          "为黑龙提供传送锚点及战斗屏障",
+          "对先知自保手段先给技术解释，后备冲突"
+        ],
+        "summary": "协助撤离、解释皇冠与魂约、掩护对先知的反击。",
+        "volume": 12
       }
     ]
   },
@@ -266,12 +305,44 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 14776
+    },
+    {
+      "chapter_id": "ch-0121",
+      "claim_kind": "inference",
+      "end_line": 15534,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 15509
+    },
+    {
+      "chapter_id": "ch-0121",
+      "claim_kind": "inference",
+      "end_line": 15589,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 15541
+    },
+    {
+      "chapter_id": "ch-0122",
+      "claim_kind": "inference",
+      "end_line": 15683,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 15665
+    },
+    {
+      "chapter_id": "ch-0124",
+      "claim_kind": "inference",
+      "end_line": 15904,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 15877
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/斯科特",
   "review_status": "draft",
-  "revision": 5,
+  "revision": 6,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -280,9 +351,10 @@
     "第07集",
     "第08集",
     "第09集",
-    "第11集"
+    "第11集",
+    "第12集"
   ],
   "title": "斯科特：分集人物研究",
-  "updated_at": "2026-10-21T21:22:58.039990+00:00",
+  "updated_at": "2026-10-21T21:36:43.308822+00:00",
   "user_notes": ""
 }

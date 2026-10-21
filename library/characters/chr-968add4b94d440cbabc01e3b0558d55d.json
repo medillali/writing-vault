@@ -7,14 +7,20 @@
       "哥顿普",
       "菲林哥顿普"
     ],
-    "arc_change": "掀火解魅、护雷奥，雷奥死亡后放松，承诺随之结束。",
-    "conflict": "口头愿随黑龙，行动却必须援雷奥。",
-    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
-    "goal": "遵守对雷奥的承诺，同时渴望交流。",
-    "knowledge_limits": "没有自动向黑龙献誓或正式认主的现场；不能把嘴上招呼当完成归顺。",
+    "arc_change": "靠破碎虚空返回已到过的坐标，加入留守生活；性别由她直接说明，先前他称代词不据以反驳。",
+    "conflict": "黑龙不把她放在心上，曾独自面对龙皇风险。",
+    "coverage_note": "九维深化已覆盖第1至12集；变化记录以各集证据为准。",
+    "goal": "寻找交流与活动，学习语言艺术。",
+    "knowledge_limits": [
+      "无坐标只能回到去过的地方",
+      "不是此集新出现的另一个火焰马"
+    ],
     "name": "哥顿普",
-    "relationships": "雷奥既抚养者又同伴，与黑龙黑二能交谈。",
-    "summary": "雷奥养大的地狱火焰马；哥普顿为本集反复异文。",
+    "relationships": [
+      "拜罗得宾士为师",
+      "对黑龙遗漏自己表示不满"
+    ],
+    "summary": "龙岛被漏召后自行回到沼泽，成为吟诗学习者并明确自称雌性。",
     "volume_history": [
       {
         "aliases": [
@@ -106,6 +112,37 @@
         "relationships": "雷奥既抚养者又同伴，与黑龙黑二能交谈。",
         "summary": "雷奥养大的地狱火焰马；哥普顿为本集反复异文。",
         "volume": 10
+      },
+      {
+        "aliases": [
+          "菲林哥顿普"
+        ],
+        "arc_change": "靠破碎虚空返回已到过的坐标，加入留守生活；性别由她直接说明，先前他称代词不据以反驳。",
+        "conflict": "黑龙不把她放在心上，曾独自面对龙皇风险。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0125",
+            "end_line": 15969,
+            "start_line": 15957
+          },
+          {
+            "chapter_id": "ch-0125",
+            "end_line": 16023,
+            "start_line": 16011
+          }
+        ],
+        "goal": "寻找交流与活动，学习语言艺术。",
+        "knowledge_limits": [
+          "无坐标只能回到去过的地方",
+          "不是此集新出现的另一个火焰马"
+        ],
+        "name": "哥顿普",
+        "relationships": [
+          "拜罗得宾士为师",
+          "对黑龙遗漏自己表示不满"
+        ],
+        "summary": "龙岛被漏召后自行回到沼泽，成为吟诗学习者并明确自称雌性。",
+        "volume": 12
       }
     ]
   },
@@ -183,21 +220,38 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 12947
+    },
+    {
+      "chapter_id": "ch-0125",
+      "claim_kind": "inference",
+      "end_line": 15969,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 15957
+    },
+    {
+      "chapter_id": "ch-0125",
+      "claim_kind": "inference",
+      "end_line": 16023,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 16011
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/菲林哥顿普",
   "review_status": "draft",
-  "revision": 3,
+  "revision": 4,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
     "第08集",
     "第09集",
-    "第10集"
+    "第10集",
+    "第12集"
   ],
   "title": "哥顿普：分集人物研究",
-  "updated_at": "2026-10-21T21:18:22.928631+00:00",
+  "updated_at": "2026-10-21T21:36:44.852597+00:00",
   "user_notes": ""
 }

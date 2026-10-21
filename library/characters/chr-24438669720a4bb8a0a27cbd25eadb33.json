@@ -6,14 +6,14 @@
       "哥尔老师",
       "雷普诺特·里因斯·斯文哥尔"
     ],
-    "arc_change": "由担忧和失落转为具体指导，指出对空列阵问题，并阻止黑龙离开指挥位置。",
-    "conflict": "不能控制黑龙行动，又不能放任其死亡；海底长期失联加深无力感。",
-    "coverage_note": "九维深化已覆盖第1至11集；变化记录以各集证据为准。",
-    "goal": "保护共享生死的队伍，同时限制可能造成世界灾难的扩张。",
+    "arc_change": "判断帝勒真退后改战术，归家重接事务并揭疾风说辞漏洞；无法立即驳倒先知，最终由黑龙自己的生活判断阻住极端方案。",
+    "conflict": "先知占据顾问位置触动其地位，也把其最担忧的灭世路线公开化。",
+    "coverage_note": "九维深化已覆盖第1至12集；变化记录以各集证据为准。",
+    "goal": "保持同伴安全和社会联系，防止力量增长转为无止境杀戮。",
     "knowledge_limits": [
-      "海底真相主要靠毕瑟格林转述",
-      "预案没有算入银丝引发的龙族反应",
-      "不认识龙人来源"
+      "对疾风具体难处先只是推测",
+      "未掌握极光机构",
+      "命名时故意使用便利性的说服理由"
     ],
     "name": "斯文哥尔",
     "opening_observations": {
@@ -29,10 +29,11 @@
       "summary": "有地位的法师依惯常召唤规则判断黑龙群体，接连遇到例外；认为必须消灭不死生物，失利后选择牺牲自己掩护同伴。"
     },
     "relationships": [
-      "与黑龙有价值分歧及生命依赖",
-      "向星月提供特制箭、向黑龙提供风翔卷轴"
+      "与艾琳等师生亲近",
+      "尊重黑龙决策但尝试引导",
+      "警惕先知扩张野心"
     ],
-    "summary": "在失去主导地位后，用预案、炼金装备和战术协助恢复作用。",
+    "summary": "战术判断、供应交涉与价值制衡的主要承担者。",
     "volume_history": [
       {
         "aliases": [
@@ -353,6 +354,59 @@
         ],
         "summary": "在失去主导地位后，用预案、炼金装备和战术协助恢复作用。",
         "volume": 11
+      },
+      {
+        "aliases": [
+          "哥尔老师"
+        ],
+        "arc_change": "判断帝勒真退后改战术，归家重接事务并揭疾风说辞漏洞；无法立即驳倒先知，最终由黑龙自己的生活判断阻住极端方案。",
+        "conflict": "先知占据顾问位置触动其地位，也把其最担忧的灭世路线公开化。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0119",
+            "end_line": 15312,
+            "start_line": 15275
+          },
+          {
+            "chapter_id": "ch-0119",
+            "end_line": 15364,
+            "start_line": 15340
+          },
+          {
+            "chapter_id": "ch-0125",
+            "end_line": 16052,
+            "start_line": 16025
+          },
+          {
+            "chapter_id": "ch-0126",
+            "end_line": 16115,
+            "start_line": 16086
+          },
+          {
+            "chapter_id": "ch-0126",
+            "end_line": 16131,
+            "start_line": 16125
+          },
+          {
+            "chapter_id": "ch-0128",
+            "end_line": 16384,
+            "start_line": 16379
+          }
+        ],
+        "goal": "保持同伴安全和社会联系，防止力量增长转为无止境杀戮。",
+        "knowledge_limits": [
+          "对疾风具体难处先只是推测",
+          "未掌握极光机构",
+          "命名时故意使用便利性的说服理由"
+        ],
+        "name": "斯文哥尔",
+        "relationships": [
+          "与艾琳等师生亲近",
+          "尊重黑龙决策但尝试引导",
+          "警惕先知扩张野心"
+        ],
+        "summary": "战术判断、供应交涉与价值制衡的主要承担者。",
+        "volume": 12
       }
     ]
   },
@@ -630,12 +684,60 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 15038
+    },
+    {
+      "chapter_id": "ch-0119",
+      "claim_kind": "inference",
+      "end_line": 15312,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 15275
+    },
+    {
+      "chapter_id": "ch-0119",
+      "claim_kind": "inference",
+      "end_line": 15364,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 15340
+    },
+    {
+      "chapter_id": "ch-0125",
+      "claim_kind": "inference",
+      "end_line": 16052,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 16025
+    },
+    {
+      "chapter_id": "ch-0126",
+      "claim_kind": "inference",
+      "end_line": 16115,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 16086
+    },
+    {
+      "chapter_id": "ch-0126",
+      "claim_kind": "inference",
+      "end_line": 16131,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 16125
+    },
+    {
+      "chapter_id": "ch-0128",
+      "claim_kind": "inference",
+      "end_line": 16384,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 16379
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/opening-test-20261022/sven",
   "review_status": "draft",
-  "revision": 11,
+  "revision": 12,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -652,9 +754,10 @@
     "第09集",
     "第10集",
     "第11集",
+    "第12集",
     "责任"
   ],
   "title": "斯文哥尔：分集人物研究",
-  "updated_at": "2026-10-21T21:22:58.609419+00:00",
+  "updated_at": "2026-10-21T21:36:43.188684+00:00",
   "user_notes": ""
 }

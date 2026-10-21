@@ -5,14 +5,20 @@
     "aliases": [
       "毕瑟"
     ],
-    "arc_change": "识别噬魂前主，陪同海战、跟踪巨兽、托举黑龙与萝茜并穿石侦察。",
-    "conflict": "暗系魔法受海水环境限制，无法直接救被吞黑龙。",
-    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
-    "goal": "支持君王与不死领地延续。",
-    "knowledge_limits": "并非所有海洋生物专家；体型魂比和内封对象仍有未知。",
+    "arc_change": "其交接仪式记忆支持认物；面对无灵魂之心却觉醒的晶体骨，只提出海皇本源假说。",
+    "conflict": "保留记忆不等于掌握全部规则，新例外仍需推测。",
+    "coverage_note": "九维深化已覆盖第1至12集；变化记录以各集证据为准。",
+    "goal": "解释古物与不死体系，为群体提供知识。",
+    "knowledge_limits": [
+      "未证明万王之王历史全真",
+      "未证明本源必然触发意识"
+    ],
     "name": "毕瑟格林",
-    "relationships": "同黑龙与魅行动，熟悉部分古君王知识。",
-    "summary": "知识丰富的先祖亡灵，辨枪、海中支援并探封印石壁。",
+    "relationships": [
+      "协助黑龙和斯科特指挥",
+      "与先知、阿古讨论新魂状态"
+    ],
+    "summary": "凭古帝国记忆辨认皇冠，并参与晶体觉醒的原因讨论。",
     "volume_history": [
       {
         "aliases": [],
@@ -71,6 +77,47 @@
         "relationships": "同黑龙与魅行动，熟悉部分古君王知识。",
         "summary": "知识丰富的先祖亡灵，辨枪、海中支援并探封印石壁。",
         "volume": 10
+      },
+      {
+        "aliases": [
+          "毕瑟"
+        ],
+        "arc_change": "其交接仪式记忆支持认物；面对无灵魂之心却觉醒的晶体骨，只提出海皇本源假说。",
+        "conflict": "保留记忆不等于掌握全部规则，新例外仍需推测。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0120",
+            "end_line": 15446,
+            "start_line": 15420
+          },
+          {
+            "chapter_id": "ch-0121",
+            "end_line": 15589,
+            "start_line": 15541
+          },
+          {
+            "chapter_id": "ch-0124",
+            "end_line": 15897,
+            "start_line": 15894
+          },
+          {
+            "chapter_id": "ch-0128",
+            "end_line": 16363,
+            "start_line": 16345
+          }
+        ],
+        "goal": "解释古物与不死体系，为群体提供知识。",
+        "knowledge_limits": [
+          "未证明万王之王历史全真",
+          "未证明本源必然触发意识"
+        ],
+        "name": "毕瑟格林",
+        "relationships": [
+          "协助黑龙和斯科特指挥",
+          "与先知、阿古讨论新魂状态"
+        ],
+        "summary": "凭古帝国记忆辨认皇冠，并参与晶体觉醒的原因讨论。",
+        "volume": 12
       }
     ]
   },
@@ -124,20 +171,53 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 13855
+    },
+    {
+      "chapter_id": "ch-0120",
+      "claim_kind": "inference",
+      "end_line": 15446,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 15420
+    },
+    {
+      "chapter_id": "ch-0121",
+      "claim_kind": "inference",
+      "end_line": 15589,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 15541
+    },
+    {
+      "chapter_id": "ch-0124",
+      "claim_kind": "inference",
+      "end_line": 15897,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 15894
+    },
+    {
+      "chapter_id": "ch-0128",
+      "claim_kind": "inference",
+      "end_line": 16363,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 16345
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/毕瑟格林",
   "review_status": "draft",
-  "revision": 2,
+  "revision": 3,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
     "第09集",
-    "第10集"
+    "第10集",
+    "第12集"
   ],
   "title": "毕瑟格林：分集人物研究",
-  "updated_at": "2026-10-21T21:18:23.027111+00:00",
+  "updated_at": "2026-10-21T21:36:44.921763+00:00",
   "user_notes": ""
 }

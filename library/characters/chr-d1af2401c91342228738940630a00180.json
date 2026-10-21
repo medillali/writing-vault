@@ -7,25 +7,23 @@
       "克丽丝",
       "克丽丝·亚普力斯"
     ],
-    "arc_change": "明确阻止夺舍并护孩子；分身离开后独处失落，再向娜娜求助。",
-    "conflict": "对旧友的信任失效，分身无力左右危局，黑龙因此拒再援助。",
-    "coverage_note": "九维深化已覆盖第1至11集；变化记录以各集证据为准。",
-    "goal": "解救海皇以帮助自身脱困，并保住黑龙及代理身体。",
+    "arc_change": "对龙魂附体出现新疑问；其观点提供信仰解释，但没有完整掌握事件。",
+    "conflict": "有神明经验却不知帝勒信仰元力来源。",
+    "coverage_note": "九维深化已覆盖第1至12集；变化记录以各集证据为准。",
+    "goal": "观察物质界变化并延续脱困机会。",
     "identity_notes": [
       "“自称冥月女神”是称号、类别或身份声明，保留出处于分集历史，不用作自动合并人物的别名。"
     ],
     "knowledge_limits": [
-      "其完整独处动机仅读者获知",
-      "本集没有展示交给娜娜的具体任务",
-      "领域虽有以她命名者，不代表她授予斯科特"
+      "信仰理论是其长期思索所得",
+      "帝勒来源并非她当场全知"
     ],
     "name": "克丽丝",
     "relationships": [
-      "与海皇有万年前交情",
-      "以沉渊木联系与指导娜娜",
-      "借用萝茜载体，但不是原萝茜人格"
+      "远程重叠黑龙目光",
+      "与萝茜之间留有分身经历的记忆影响"
     ],
-    "summary": "借萝茜身体分身降临的冥月女神，救旧友失败后暴露脱困需求。",
+    "summary": "仍借黑龙视野观察神格变化，其魔法记忆片段留在萝茜经验中。",
     "volume_history": [
       {
         "aliases": [
@@ -184,6 +182,37 @@
         ],
         "summary": "借萝茜身体分身降临的冥月女神，救旧友失败后暴露脱困需求。",
         "volume": 11
+      },
+      {
+        "aliases": [
+          "克丽丝·亚普力斯"
+        ],
+        "arc_change": "对龙魂附体出现新疑问；其观点提供信仰解释，但没有完整掌握事件。",
+        "conflict": "有神明经验却不知帝勒信仰元力来源。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0118",
+            "end_line": 15217,
+            "start_line": 15193
+          },
+          {
+            "chapter_id": "ch-0120",
+            "end_line": 15383,
+            "start_line": 15368
+          }
+        ],
+        "goal": "观察物质界变化并延续脱困机会。",
+        "knowledge_limits": [
+          "信仰理论是其长期思索所得",
+          "帝勒来源并非她当场全知"
+        ],
+        "name": "克丽丝",
+        "relationships": [
+          "远程重叠黑龙目光",
+          "与萝茜之间留有分身经历的记忆影响"
+        ],
+        "summary": "仍借黑龙视野观察神格变化，其魔法记忆片段留在萝茜经验中。",
+        "volume": 12
       }
     ]
   },
@@ -301,12 +330,28 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 14326
+    },
+    {
+      "chapter_id": "ch-0118",
+      "claim_kind": "inference",
+      "end_line": 15217,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 15193
+    },
+    {
+      "chapter_id": "ch-0120",
+      "claim_kind": "inference",
+      "end_line": 15383,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 15368
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/克丽丝·亚普力斯",
   "review_status": "draft",
-  "revision": 7,
+  "revision": 8,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -315,9 +360,10 @@
     "第04集",
     "第08集",
     "第10集",
-    "第11集"
+    "第11集",
+    "第12集"
   ],
   "title": "克丽丝：分集人物研究",
-  "updated_at": "2026-10-21T21:22:57.947367+00:00",
+  "updated_at": "2026-10-21T21:36:43.732513+00:00",
   "user_notes": ""
 }
