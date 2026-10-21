@@ -3,7 +3,8 @@
     1,
     2,
     3,
-    4
+    4,
+    5
   ],
   "edges": [
     {
@@ -255,6 +256,91 @@
       "kind": "echo",
       "label": "朗克岭沉睡领地与绝幽谷生活据点分别体现安全归属需求；两处不可合并为同一基地",
       "to": "v04-e07"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0032",
+          "end_line": 4002,
+          "start_line": 3999
+        },
+        {
+          "chapter_id": "ch-0047",
+          "end_line": 5769,
+          "start_line": 5738
+        }
+      ],
+      "from": "v03-e08",
+      "id": "cross-redemption-02",
+      "kind": "payoff",
+      "label": "圣焰后果回收为星获救与盒文释义：救赎是净化，并非恢复生前身份",
+      "to": "v05-e02"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0043",
+          "end_line": 5428,
+          "start_line": 5410
+        },
+        {
+          "chapter_id": "ch-0045",
+          "end_line": 5586,
+          "start_line": 5560
+        },
+        {
+          "chapter_id": "ch-0046",
+          "end_line": 5597,
+          "start_line": 5590
+        }
+      ],
+      "from": "v04-e09",
+      "id": "cross-holy-fire-01",
+      "kind": "payoff",
+      "label": "上集救援与战局在本集突围中续接，黑七存活而黑龙随后因透支昏迷",
+      "to": "v05-e01"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0037",
+          "end_line": 4674,
+          "start_line": 4638
+        },
+        {
+          "chapter_id": "ch-0048",
+          "end_line": 5941,
+          "start_line": 5876
+        }
+      ],
+      "from": "v04-e03",
+      "id": "cross-mark-01",
+      "kind": "setup",
+      "label": "印记的北方召归声从未明信息发展为寻求力量的旅行方向",
+      "to": "v05-e04"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0038",
+          "end_line": 4809,
+          "start_line": 4804
+        },
+        {
+          "chapter_id": "ch-0051",
+          "end_line": 6388,
+          "start_line": 6335
+        }
+      ],
+      "from": "v04-e04",
+      "id": "cross-roder-01",
+      "kind": "reveal",
+      "label": "此前独立出现且逃过审判的音乐家经异常琴召唤进入主角队伍，逃脱原理仍不能据此推定",
+      "to": "v05-e05"
     }
   ],
   "threads": [
@@ -270,7 +356,8 @@
         "cross-redemption-01",
         "cross-autonomy-01",
         "cross-nana-02",
-        "cross-home-01"
+        "cross-home-01",
+        "cross-redemption-02"
       ],
       "id": "book-37dd82abc178",
       "kind": "main",
@@ -292,14 +379,17 @@
         "v03-e06",
         "v03-e07",
         "v03-e08",
+        "v05-e02",
+        "v05-e04",
+        "v05-e08",
         "v02-e01",
         "v04-e01",
         "v04-e07"
       ],
-      "question": "身体自主的承认能否在灵魂控制仍存时落地？",
-      "resolution_note": "已入库至第4集；本线最近明确记录为第4集。条件忠诚、主动回归与选择离开并存，黑二获自主定义但控制机制未解除。",
-      "status": "open",
-      "title": "跨集 · 灵魂依附与自愿同伴",
+      "question": "黑龙如何兼顾自由、保护欲和他人意愿？",
+      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。归队条件与北行选择更明确，强制保护方案仍带价值冲突。",
+      "status": "partial",
+      "title": "跨集 · 自由与同伴边界",
       "tracking_key": "blackdragon-autonomy-and-companionship",
       "volume_history": [
         {
@@ -325,6 +415,14 @@
           "status": "open",
           "title": "灵魂依附与自愿同伴",
           "volume": 3
+        },
+        {
+          "kind": "main",
+          "question": "黑龙如何兼顾自由、保护欲和他人意愿？",
+          "resolution_note": "归队条件与北行选择更明确，强制保护方案仍带价值冲突。",
+          "status": "partial",
+          "title": "自由与同伴边界",
+          "volume": 5
         }
       ]
     },
@@ -335,10 +433,11 @@
         "v03-edge-05",
         "v03-edge-06",
         "cross-redemption-01",
-        "cross-memory-02"
+        "cross-memory-02",
+        "cross-redemption-02"
       ],
       "id": "book-d57a5d7a5b5a",
-      "kind": "main",
+      "kind": "subplot",
       "node_ids": [
         "v01-e03",
         "v01-e04",
@@ -350,12 +449,13 @@
         "v03-e05",
         "v03-e07",
         "v03-e08",
+        "v05-e02",
         "v02-e06"
       ],
-      "question": "圣物是否真能恢复人身，星的圣焰结局如何？",
-      "resolution_note": "已入库至第4集；本线最近明确记录为第3集。物品已取得并分化队伍；只有星饮用，效果尚未交代。",
-      "status": "partial",
-      "title": "跨集 · 救赎之魂的希望与实效",
+      "question": "救赎是否能够让星恢复生前身份？",
+      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。本集澄清其净化目的，星获救并归队；这是该次恢复身份尝试的回收，不推断整书救赎主题终结。",
+      "status": "resolved",
+      "title": "跨集 · 救赎之魂的真实作用",
       "tracking_key": "redemption-soul",
       "volume_history": [
         {
@@ -381,6 +481,14 @@
           "status": "partial",
           "title": "救赎之魂的希望与实效",
           "volume": 3
+        },
+        {
+          "kind": "subplot",
+          "question": "救赎是否能够让星恢复生前身份？",
+          "resolution_note": "本集澄清其净化目的，星获救并归队；这是该次恢复身份尝试的回收，不推断整书救赎主题终结。",
+          "status": "resolved",
+          "title": "救赎之魂的真实作用",
+          "volume": 5
         }
       ]
     },
@@ -403,12 +511,13 @@
         "v04-e06",
         "v04-e07",
         "v04-e08",
+        "v05-e02",
         "v03-e06"
       ],
-      "question": "自主动作会否成长为意识，身体是否来自阿格？",
-      "resolution_note": "已入库至第4集；本线最近明确记录为第4集。自发护泰戈已发生，黑龙仍认为觉醒未完成；父亲身份没有确认。",
+      "question": "除黑二外谁会真正获得自我意识？",
+      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。黑二能力和求赞行为继续发展；黑大尚未真正觉醒。",
       "status": "partial",
-      "title": "跨集 · 黑大的意识与骨架来源",
+      "title": "跨集 · 孩子的独立意识",
       "tracking_key": "children-consciousness",
       "volume_history": [
         {
@@ -434,6 +543,14 @@
           "status": "partial",
           "title": "黑大的意识与骨架来源",
           "volume": 4
+        },
+        {
+          "kind": "subplot",
+          "question": "除黑二外谁会真正获得自我意识？",
+          "resolution_note": "黑二能力和求赞行为继续发展；黑大尚未真正觉醒。",
+          "status": "partial",
+          "title": "孩子的独立意识",
+          "volume": 5
         }
       ]
     },
@@ -466,7 +583,7 @@
         "v03-e09"
       ],
       "question": "雷神残余和撒拉丁部族如何应对领袖及贸易体系丧失？",
-      "resolution_note": "已入库至第4集；本线最近明确记录为第3集。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
+      "resolution_note": "已入库至第5集；本线最近明确记录为第3集。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
       "status": "partial",
       "title": "跨集 · 雷神败亡后的利益与部族余波",
       "tracking_key": "thunder-mercenary-conflict",
@@ -508,7 +625,7 @@
         "v02-e01"
       ],
       "question": "祭坛供能与自修复机制、古国消失原因是什么？",
-      "resolution_note": "已入库至第4集；本线最近明确记录为第2集。现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
+      "resolution_note": "已入库至第5集；本线最近明确记录为第2集。现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
       "status": "open",
       "title": "跨集 · 红月与沉沦国度",
       "tracking_key": "sunken-undead-kingdom",
@@ -533,18 +650,21 @@
     },
     {
       "edge_ids": [
+        "v05-edge-07",
         "cross-tank-01"
       ],
       "id": "book-9baae09a0d12",
       "kind": "hidden",
       "node_ids": [
         "v02-e04",
-        "v03-e03"
+        "v03-e03",
+        "v05-e01",
+        "v05-e09"
       ],
-      "question": "反复释放和重新压制能否继续控制战魂？",
-      "resolution_note": "已入库至第4集；本线最近明确记录为第3集。被利用拖延雷克丁后再次吸回，仍有躁动，未被炼化。",
+      "question": "黑龙何时能真正炼化或解除体内的不死战魂？",
+      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。神圣伤暂时阻止战魂趁昏迷脱体；主角恢复时战魂也恢复，炼化再次失败。",
       "status": "open",
-      "title": "跨集 · 坦克战魂的压制与利用",
+      "title": "跨集 · 坦克战魂内患",
       "tracking_key": "tank-battle-soul",
       "volume_history": [
         {
@@ -562,6 +682,14 @@
           "status": "open",
           "title": "坦克战魂的压制与利用",
           "volume": 3
+        },
+        {
+          "kind": "hidden",
+          "question": "黑龙何时能真正炼化或解除体内的不死战魂？",
+          "resolution_note": "神圣伤暂时阻止战魂趁昏迷脱体；主角恢复时战魂也恢复，炼化再次失败。",
+          "status": "open",
+          "title": "坦克战魂内患",
+          "volume": 5
         }
       ]
     },
@@ -585,7 +713,7 @@
         "v03-e01"
       ],
       "question": "她的暗黑气息来源为何，父母遗体能否找到，追捕如何结束？",
-      "resolution_note": "已入库至第4集；本线最近明确记录为第4集。已获父母死亡消息并得到寻遗体承诺，教会审判追至谷外，战斗未完。",
+      "resolution_note": "已入库至第5集；本线最近明确记录为第4集。已获父母死亡消息并得到寻遗体承诺，教会审判追至谷外，战斗未完。",
       "status": "open",
       "title": "跨集 · 娜娜的身世、失亲与追捕",
       "tracking_key": "nana-protection",
@@ -610,6 +738,126 @@
     },
     {
       "edge_ids": [
+        "v05-edge-06",
+        "cross-mark-01"
+      ],
+      "id": "book-d9427f2553c6",
+      "kind": "main",
+      "node_ids": [
+        "v04-e03",
+        "v05-e04",
+        "v05-e08"
+      ],
+      "question": "召唤黑龙的目的地与力量究竟为何？",
+      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。到达沙漠只推进路线，未到龙族墓地。",
+      "status": "open",
+      "title": "跨集 · 红月落处的呼唤",
+      "tracking_key": "red-moon-destination",
+      "volume_history": [
+        {
+          "kind": "hidden",
+          "question": "召归之声与北方国度是什么，和传统诅咒功能有何关系？",
+          "resolution_note": "知晓付命诅咒传说，也实际听到灵魂触发的重复消息；未启程验证。",
+          "status": "open",
+          "title": "亡灵印记的真正用途",
+          "volume": 4
+        },
+        {
+          "kind": "main",
+          "question": "召唤黑龙的目的地与力量究竟为何？",
+          "resolution_note": "到达沙漠只推进路线，未到龙族墓地。",
+          "status": "open",
+          "title": "红月落处的呼唤",
+          "volume": 5
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "v04-edge-05",
+        "cross-roder-01"
+      ],
+      "id": "book-6e1451b9badd",
+      "kind": "hidden",
+      "node_ids": [
+        "v04-e04",
+        "v04-e08",
+        "v05-e05"
+      ],
+      "question": "罗得宾士为何复仇、何时转生，如何骗过圣焰审判？",
+      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。读者已知他仍存在，审判小队并不知道；与主角暂无相识证据。",
+      "status": "open",
+      "title": "跨集 · 音乐家的身世与逃脱",
+      "tracking_key": "th-rode-music",
+      "volume_history": [
+        {
+          "kind": "hidden",
+          "question": "罗得宾士为何复仇、何时转生，如何骗过圣焰审判？",
+          "resolution_note": "读者已知他仍存在，审判小队并不知道；与主角暂无相识证据。",
+          "status": "open",
+          "title": "音乐家的身世与逃脱",
+          "volume": 4
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "v04-edge-07",
+        "v04-edge-08",
+        "cross-holy-fire-01"
+      ],
+      "id": "book-b3781f6d7341",
+      "kind": "main",
+      "node_ids": [
+        "v04-e01",
+        "v04-e08",
+        "v04-e09",
+        "v05-e01"
+      ],
+      "question": "灵魂援助能否救黑七，圣焰转移将怎样影响黑龙？",
+      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。黑七仍有受焚痛苦，黑龙也遭圣焰，生死与战果均未完成。",
+      "status": "open",
+      "title": "跨集 · 黑七与黑龙的圣焰危机",
+      "tracking_key": "th-heiqi-holy-fire",
+      "volume_history": [
+        {
+          "kind": "main",
+          "question": "灵魂援助能否救黑七，圣焰转移将怎样影响黑龙？",
+          "resolution_note": "黑七仍有受焚痛苦，黑龙也遭圣焰，生死与战果均未完成。",
+          "status": "open",
+          "title": "黑七与黑龙的圣焰危机",
+          "volume": 4
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "cross-roder-01"
+      ],
+      "id": "book-bd3759586c4a",
+      "kind": "subplot",
+      "node_ids": [
+        "v05-e05",
+        "v04-e04"
+      ],
+      "question": "琴的异常召唤是否如罗得所猜，亡妻如今何在？",
+      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。音乐家自述召回妻魂、转生相伴，但未见妻子。",
+      "status": "open",
+      "title": "跨集 · 罗得的招魂与亡妻",
+      "tracking_key": "roder-song-and-wife",
+      "volume_history": [
+        {
+          "kind": "subplot",
+          "question": "琴的异常召唤是否如罗得所猜，亡妻如今何在？",
+          "resolution_note": "音乐家自述召回妻魂、转生相伴，但未见妻子。",
+          "status": "open",
+          "title": "罗得的招魂与亡妻",
+          "volume": 5
+        }
+      ]
+    },
+    {
+      "edge_ids": [
         "cross-memory-01",
         "cross-memory-02"
       ],
@@ -621,7 +869,7 @@
         "v03-e04"
       ],
       "question": "记忆所得如何改变选择，哪些能力仍不能继承？",
-      "resolution_note": "已入库至第4集；本线最近明确记录为第3集。跨集信息优势得到兑现；知识与魔力仍须分开。",
+      "resolution_note": "已入库至第5集；本线最近明确记录为第3集。跨集信息优势得到兑现；知识与魔力仍须分开。",
       "status": "partial",
       "title": "跨集 · 记忆、知识与力量",
       "tracking_key": "memory-and-power",

@@ -3,14 +3,11 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "出现神情变化、挡拐杖、随行回家和独特战法，但未完成意识觉醒。",
-    "conflict": "断开指令后无所适从，泰戈呼唤触发未经理解的动作。",
-    "coverage_note": "九维深化已覆盖第1至4集；变化记录以各集证据为准。",
-    "goal": "守护黑龙的本能持续存在，新的个人目标尚不明确。",
-    "knowledge_limits": [
-      "不能确认具有阿格记忆",
-      "没有证据证明他理解家或父亲的完整含义"
-    ],
+    "arc_change": "摔角互动继续显露关系特殊性，未证真正意识。",
+    "conflict": "情感反应先于完整自我意识。",
+    "coverage_note": "九维深化已覆盖第1至5集；变化记录以各集证据为准。",
+    "goal": "本集主要守护与陪伴泰戈。",
+    "knowledge_limits": "叙述仍明确没有真正意识。",
     "name": "黑大",
     "opening_observations": {
       "confirmed": "召唤师的命令未能替代它对黑龙的服从；战斗中使用投刀。",
@@ -23,11 +20,9 @@
       ]
     },
     "relationships": [
-      "被泰戈当作父亲",
-      "与阿玛丈夫阿格相貌相似",
-      "黑龙希望借互动推动其觉醒"
+      "对泰戈明显有别于一般生物"
     ],
-    "summary": "最强的孩子之一，面对泰戈的亲属误认出现自主保护和迷惘。",
+    "summary": "具强大技能且对泰戈有特殊感情的骷髅。",
     "volume_history": [
       {
         "aliases": [],
@@ -114,6 +109,26 @@
         ],
         "summary": "最强的孩子之一，面对泰戈的亲属误认出现自主保护和迷惘。",
         "volume": 4
+      },
+      {
+        "aliases": [],
+        "arc_change": "摔角互动继续显露关系特殊性，未证真正意识。",
+        "conflict": "情感反应先于完整自我意识。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0047",
+            "end_line": 5731,
+            "start_line": 5726
+          }
+        ],
+        "goal": "本集主要守护与陪伴泰戈。",
+        "knowledge_limits": "叙述仍明确没有真正意识。",
+        "name": "黑大",
+        "relationships": [
+          "对泰戈明显有别于一般生物"
+        ],
+        "summary": "具强大技能且对泰戈有特殊感情的骷髅。",
+        "volume": 5
       }
     ]
   },
@@ -215,12 +230,20 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 5286
+    },
+    {
+      "chapter_id": "ch-0047",
+      "claim_kind": "inference",
+      "end_line": 5731,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 5726
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/opening-test-20261022/black_one",
   "review_status": "draft",
-  "revision": 4,
+  "revision": 5,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -230,9 +253,10 @@
     "第01集",
     "第02集",
     "第04集",
+    "第05集",
     "能力差"
   ],
   "title": "黑大：分集人物研究",
-  "updated_at": "2026-10-21T20:38:32.098770+00:00",
+  "updated_at": "2026-10-21T20:46:35.904512+00:00",
   "user_notes": ""
 }

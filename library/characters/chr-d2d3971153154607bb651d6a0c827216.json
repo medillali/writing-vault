@@ -5,19 +5,18 @@
     "aliases": [
       "星"
     ],
-    "arc_change": "主动饮下圣物，陷入圣焰，后果未交代。",
-    "conflict": "对黑龙的道德认可与部落社会规范不一致。",
-    "coverage_note": "九维深化已覆盖第1至3集；变化记录以各集证据为准。",
-    "goal": "与妹妹返回精灵族，避免亲人承受污名。",
-    "knowledge_limits": [
-      "用药前无实效验证"
-    ],
+    "arc_change": "获黑二治疗与黑龙能量馈赠，重新接受团队。",
+    "conflict": "身份回归希望破灭；义愤行动产生负面战术结果。",
+    "coverage_note": "九维深化已覆盖第1至5集；变化记录以各集证据为准。",
+    "goal": "保住自我并保护月，回应同盟平民受害。",
+    "knowledge_limits": "远射时未预见敌方提前屠俘。",
     "name": "星",
     "relationships": [
-      "保护并劝导月",
-      "放弃继续跟随黑龙的机会"
+      "月的兄长",
+      "与斯文相互理解",
+      "接受黑龙救援但并非自动同化其伦理"
     ],
-    "summary": "承认善恶属个体，却因亲族义务选择救赎。",
+    "summary": "在救赎失败后重新归队的精灵尸巫。",
     "volume_history": [
       {
         "aliases": [
@@ -101,6 +100,28 @@
         ],
         "summary": "承认善恶属个体，却因亲族义务选择救赎。",
         "volume": 3
+      },
+      {
+        "aliases": [],
+        "arc_change": "获黑二治疗与黑龙能量馈赠，重新接受团队。",
+        "conflict": "身份回归希望破灭；义愤行动产生负面战术结果。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0052",
+            "end_line": 6522,
+            "start_line": 6500
+          }
+        ],
+        "goal": "保住自我并保护月，回应同盟平民受害。",
+        "knowledge_limits": "远射时未预见敌方提前屠俘。",
+        "name": "星",
+        "relationships": [
+          "月的兄长",
+          "与斯文相互理解",
+          "接受黑龙救援但并非自动同化其伦理"
+        ],
+        "summary": "在救赎失败后重新归队的精灵尸巫。",
+        "volume": 5
       }
     ]
   },
@@ -162,21 +183,30 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 3987
+    },
+    {
+      "chapter_id": "ch-0052",
+      "claim_kind": "inference",
+      "end_line": 6522,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 6500
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/普利菲斯特·星",
   "review_status": "draft",
-  "revision": 3,
+  "revision": 4,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
     "第01集",
     "第02集",
-    "第03集"
+    "第03集",
+    "第05集"
   ],
   "title": "星：分集人物研究",
-  "updated_at": "2026-10-21T20:28:53.130799+00:00",
+  "updated_at": "2026-10-21T20:46:35.659453+00:00",
   "user_notes": ""
 }

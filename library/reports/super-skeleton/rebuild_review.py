@@ -39,6 +39,9 @@ DIMENSION_LABELS = {
 TYPE_LABELS = {"character": "人物", "scene": "场景", "pattern": "机制"}
 KIND_LABELS = {"fact": "事实", "inference": "推断", "synthesis": "机制抽象", "plan": "计划"}
 FIELD_LABELS = {
+    "name": "人物",
+    "aliases": "异名",
+    "opening_observations": "原开篇观察（保留历史）",
     "summary": "概述",
     "goal": "目标",
     "conflict": "冲突",
