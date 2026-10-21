@@ -6,11 +6,11 @@
       "哥尔老师",
       "雷普诺特·里因斯·斯文哥尔"
     ],
-    "arc_change": "由主导者转为后勤与伦理约束者，接纳罗得作为劝导助力。",
-    "conflict": "自己依赖黑龙，又担心其能力扩大。",
-    "coverage_note": "九维深化已覆盖第1至5集；变化记录以各集证据为准。",
-    "goal": "团队生存，同时阻止黑龙造成广泛灾难。",
-    "knowledge_limits": "不掌握悼亡规则，曾误读救赎含义。",
+    "arc_change": "遭黑龙揭穿立场和杀意震慑，旧有劝说方法失效；未明确放弃人类价值。",
+    "conflict": "既依赖黑龙生存，又害怕其力量；关怀与控制难以分开。",
+    "coverage_note": "九维深化已覆盖第1至7集；变化记录以各集证据为准。",
+    "goal": "保护队伍并阻止他所担心的不死灾难。",
+    "knowledge_limits": "不能将“力量够用”当客观保证；对元力与龙墓多属推测。",
     "name": "斯文哥尔",
     "opening_observations": {
       "arc_in_sample": "权威判断→例外暴露→主动攻击→舍身掩护但被投刀击倒。",
@@ -24,11 +24,8 @@
       ],
       "summary": "有地位的法师依惯常召唤规则判断黑龙群体，接连遇到例外；认为必须消灭不死生物，失利后选择牺牲自己掩护同伴。"
     },
-    "relationships": [
-      "关心星月并促成回归",
-      "与罗得共享引导黑龙的担忧"
-    ],
-    "summary": "经验丰富但逐渐失去决定权的顾问。",
+    "relationships": "帮黑龙造斧，艾琳在争执中护住他；与罗得共同忧虑。",
+    "summary": "炼金能力确实帮助黑龙，但站在人类立场限制其成长，导师权威受冲击。",
     "volume_history": [
       {
         "aliases": [
@@ -207,6 +204,24 @@
         ],
         "summary": "经验丰富但逐渐失去决定权的顾问。",
         "volume": 5
+      },
+      {
+        "aliases": [],
+        "arc_change": "遭黑龙揭穿立场和杀意震慑，旧有劝说方法失效；未明确放弃人类价值。",
+        "conflict": "既依赖黑龙生存，又害怕其力量；关怀与控制难以分开。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0075",
+            "end_line": 9422,
+            "start_line": 9361
+          }
+        ],
+        "goal": "保护队伍并阻止他所担心的不死灾难。",
+        "knowledge_limits": "不能将“力量够用”当客观保证；对元力与龙墓多属推测。",
+        "name": "斯文哥尔",
+        "relationships": "帮黑龙造斧，艾琳在争执中护住他；与罗得共同忧虑。",
+        "summary": "炼金能力确实帮助黑龙，但站在人类立场限制其成长，导师权威受冲击。",
+        "volume": 7
       }
     ]
   },
@@ -372,12 +387,20 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 6646
+    },
+    {
+      "chapter_id": "ch-0075",
+      "claim_kind": "inference",
+      "end_line": 9422,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 9361
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/opening-test-20261022/sven",
   "review_status": "draft",
-  "revision": 6,
+  "revision": 7,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -389,9 +412,10 @@
     "第03集",
     "第04集",
     "第05集",
+    "第07集",
     "责任"
   ],
   "title": "斯文哥尔：分集人物研究",
-  "updated_at": "2026-10-21T20:46:35.593800+00:00",
+  "updated_at": "2026-10-21T20:51:18.157553+00:00",
   "user_notes": ""
 }
