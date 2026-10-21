@@ -1,0 +1,66 @@
+# 教学命中需求却漏掉价值前提
+
+ID: `pat-52adfc5e39f54c21b9deb6a78aba8da4` · 版本: 1 · 范围: reusable-pattern
+
+知识传授有效改变行动，但未共享的道德前提使学习者得出教师不希望的答案。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-52adfc5e39f54c21b9deb6a78aba8da4",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "非人、异文化或人工智能式角色的社会学习。",
+    "failure_mode": "把教师写得毫无逻辑，或让学生的工具理性获得无条件道德正当性。",
+    "steps": [
+      "确认学生真实需求",
+      "用工具性知识建立激励",
+      "让学生在新情境独立推导",
+      "用真实后果暴露遗漏前提",
+      "迫使教师修正其可塑性假设"
+    ],
+    "summary": "知识传授有效改变行动，但未共享的道德前提使学习者得出教师不希望的答案。",
+    "volume": 1
+  },
+  "created_at": "2026-10-21T20:22:33.914166+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-804b0e08f83d4399853be4b8774fa889",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0007",
+      "claim_kind": "synthesis",
+      "end_line": 550,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 524
+    },
+    {
+      "chapter_id": "ch-0009",
+      "claim_kind": "synthesis",
+      "end_line": 907,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 891
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/v01-p01",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "全书九维",
+    "第01集"
+  ],
+  "title": "教学命中需求却漏掉价值前提",
+  "updated_at": "2026-10-21T20:22:33.940157+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,500 @@
+{
+  "coverage": [
+    {
+      "chapter_ids": [
+        "ch-0003",
+        "ch-0004",
+        "ch-0005"
+      ],
+      "complete": false,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834"
+    }
+  ],
+  "edges": [
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 94,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 65
+        }
+      ],
+      "from": "survive",
+      "id": "energy",
+      "kind": "cause",
+      "label": "保留自由后寻找持续活动的能量",
+      "to": "soul"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 103,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 95
+        }
+      ],
+      "from": "soul",
+      "id": "creation",
+      "kind": "cause",
+      "label": "能量饱和催生储存试验",
+      "to": "children"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 167,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 156
+        }
+      ],
+      "from": "children",
+      "id": "bond",
+      "kind": "payoff",
+      "label": "创造关系兑现为保护选择",
+      "to": "portal"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 186,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 179
+        }
+      ],
+      "from": "portal",
+      "id": "arrival",
+      "kind": "reveal",
+      "label": "揭明门来自人类召唤",
+      "to": "refuse"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 215,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 214
+        }
+      ],
+      "from": "soul",
+      "id": "origin",
+      "kind": "reveal",
+      "label": "自身诞生方式解释惯例失效",
+      "to": "exception"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "inference",
+          "end_line": 229,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 214
+        }
+      ],
+      "from": "exception",
+      "id": "escalation",
+      "kind": "cause",
+      "label": "不消失与威胁判断引出消灭决定",
+      "to": "attack"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 254,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 242
+        }
+      ],
+      "from": "attack",
+      "id": "exposure",
+      "kind": "reveal",
+      "label": "攻击反而暴露真实强度",
+      "to": "gold"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 268,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 254
+        }
+      ],
+      "from": "gold",
+      "id": "retreat",
+      "kind": "cause",
+      "label": "不敌后的召援威胁触发追击",
+      "to": "pursuit"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "inference",
+          "end_line": 41,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 24
+        },
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "inference",
+          "end_line": 264,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 263
+        }
+      ],
+      "from": "survive",
+      "id": "throw",
+      "kind": "payoff",
+      "label": "序章投刀经验在火环阻隔时再用",
+      "to": "pursuit"
+    }
+  ],
+  "graph_id": "graph-7c354fa988864849a6f681ff07474c91",
+  "nodes": [
+    {
+      "claim_kind": "inference",
+      "id": "story",
+      "kind": "story",
+      "parent_id": null,
+      "title": "从独立求生到被迫交战"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "freedom",
+      "kind": "arc",
+      "parent_id": "story",
+      "title": "建立自由与关系"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "valley",
+      "kind": "arc",
+      "parent_id": "story",
+      "title": "常识失效的山谷冲突"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 53,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 43
+        }
+      ],
+      "id": "survive",
+      "kind": "scene",
+      "narrative_order": 1,
+      "parent_id": "freedom",
+      "title": "第七次战争改为保全自己"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 94,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 81
+        }
+      ],
+      "id": "soul",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "已进入高等不死生物阶段",
+          "observer": "reader",
+          "state": "knows"
+        },
+        {
+          "belief": "不理解等级名称与完整能力，只知道变化有益",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 2,
+      "parent_id": "freedom",
+      "title": "吸收灵魂后形成灵魂之心"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 103,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 95
+        }
+      ],
+      "id": "children",
+      "kind": "scene",
+      "narrative_order": 3,
+      "parent_id": "freedom",
+      "title": "储存尝试意外创造十个孩子"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 167,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 156
+        }
+      ],
+      "id": "portal",
+      "kind": "scene",
+      "narrative_order": 4,
+      "parent_id": "freedom",
+      "title": "为保护黑大，一起进入召唤门"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 186,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 179
+        }
+      ],
+      "id": "refuse",
+      "kind": "scene",
+      "narrative_order": 5,
+      "parent_id": "valley",
+      "title": "拒绝驱使，准备离场"
+    },
+    {
+      "characters": [
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-9f2e5fcbba87455eb37e35869ea8854d"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 220,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 210
+        }
+      ],
+      "id": "exception",
+      "kind": "scene",
+      "knowledge": [
+        {
+          "belief": "猜测召唤师做了手脚",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "misbelieves"
+        },
+        {
+          "belief": "它们原本生于此世界，也非该召唤师就地拼凑",
+          "observer": "reader",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 6,
+      "parent_id": "valley",
+      "title": "召唤师死后仍未消失"
+    },
+    {
+      "characters": [
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-9f2e5fcbba87455eb37e35869ea8854d"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 229,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 224
+        }
+      ],
+      "id": "attack",
+      "kind": "scene",
+      "narrative_order": 7,
+      "parent_id": "valley",
+      "title": "宣布消灭，反被听懂并抢先出手"
+    },
+    {
+      "characters": [
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-632a4344b53f478a93f4d308f3890b92"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 254,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 242
+        }
+      ],
+      "id": "gold",
+      "kind": "scene",
+      "narrative_order": 8,
+      "parent_id": "valley",
+      "title": "火焰烧掉包裹，黄金骨架显露"
+    },
+    {
+      "characters": [
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 289,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 255
+        }
+      ],
+      "id": "pursuit",
+      "kind": "scene",
+      "narrative_order": 9,
+      "parent_id": "valley",
+      "title": "召援计划触发拦截，佣兵全灭"
+    }
+  ],
+  "owner": {
+    "id": "src-9ff09c395734410b856f77c77a652834",
+    "kind": "source"
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "threads": [
+    {
+      "edge_ids": [
+        "energy",
+        "creation",
+        "bond",
+        "arrival",
+        "escalation",
+        "exposure",
+        "retreat"
+      ],
+      "id": "main",
+      "kind": "main",
+      "node_ids": [
+        "survive",
+        "soul",
+        "children",
+        "portal",
+        "refuse",
+        "exception",
+        "attack",
+        "gold",
+        "pursuit"
+      ],
+      "resolution_note": "山谷冲突收束，不代表主角长期自由问题已解决。",
+      "status": "partial",
+      "title": "自由与保护推动走入外界"
+    },
+    {
+      "edge_ids": [
+        "origin",
+        "escalation",
+        "exposure"
+      ],
+      "id": "knowledge",
+      "kind": "hidden",
+      "node_ids": [
+        "soul",
+        "exception",
+        "attack",
+        "gold"
+      ],
+      "resolution_note": "来源与黄金骨架已解释，黑龙自主智慧的起因仍未揭明。",
+      "status": "partial",
+      "title": "惯常分类无法解释特殊骷髅"
+    },
+    {
+      "edge_ids": [
+        "throw"
+      ],
+      "id": "experience",
+      "kind": "hidden",
+      "node_ids": [
+        "survive",
+        "pursuit"
+      ],
+      "resolution_note": "仅指投刀手段在本段回收，不声称全书暗线结束。",
+      "status": "resolved",
+      "title": "战场求生经验的跨段回收"
+    }
+  ],
+  "title": "超级骷髅兵 · 序章至第二章实测",
+  "updated_at": "2026-10-21T18:05:16.245387+00:00"
+}

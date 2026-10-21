@@ -1,0 +1,71 @@
+# 法兰西斯：分集人物研究
+
+ID: `chr-6bcffb34b20f4a97b5df49135920effa` · 版本: 1 · 范围: source-analysis
+
+雷神人类副团长兼中级法师，负责经营事务并担任军师。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-6bcffb34b20f4a97b5df49135920effa",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "arc_change": "向团长提出竞争佣兵团假说并领命全体动员。",
+    "conflict": "缺少真相，只能根据业务竞争推测幕后原因。",
+    "coverage_note": "九维深化已覆盖第1至1集；变化记录以各集证据为准。",
+    "goal": "为总部厘清袭击与调度应对。",
+    "knowledge_limits": "火狐狸和疾风的参与只是猜测。",
+    "name": "法兰西斯",
+    "relationships": "辅佐雷克丁，汇总分部情报。",
+    "summary": "雷神人类副团长兼中级法师，负责经营事务并担任军师。",
+    "volume_history": [
+      {
+        "aliases": [],
+        "arc_change": "向团长提出竞争佣兵团假说并领命全体动员。",
+        "conflict": "缺少真相，只能根据业务竞争推测幕后原因。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0009",
+            "end_line": 977,
+            "start_line": 960
+          }
+        ],
+        "goal": "为总部厘清袭击与调度应对。",
+        "knowledge_limits": "火狐狸和疾风的参与只是猜测。",
+        "name": "法兰西斯",
+        "relationships": "辅佐雷克丁，汇总分部情报。",
+        "summary": "雷神人类副团长兼中级法师，负责经营事务并担任军师。",
+        "volume": 1
+      }
+    ]
+  },
+  "created_at": "2026-10-21T20:22:33.704001+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0009",
+      "claim_kind": "inference",
+      "end_line": 977,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 960
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/法兰西斯",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "全书九维",
+    "第01集"
+  ],
+  "title": "法兰西斯：分集人物研究",
+  "updated_at": "2026-10-21T20:22:33.725590+00:00",
+  "user_notes": ""
+}
+
+```
