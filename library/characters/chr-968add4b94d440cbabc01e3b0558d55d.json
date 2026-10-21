@@ -3,16 +3,17 @@
   "asset_type": "character",
   "content": {
     "aliases": [
-      "哥顿普"
+      "哥顿普",
+      "菲林哥顿普"
     ],
-    "arc_change": "被俘后提供情报并公开保留救主立场，趁追击空档逃回，随后劝雷奥撤离。",
-    "conflict": "忠于旧主但嫌其沉默，欣赏敌人愿听却不愿背约。",
-    "coverage_note": "九维深化已覆盖第1至8集；变化记录以各集证据为准。",
-    "goal": "活下去、守对雷奥的承诺，并获得可以说话的伙伴。",
-    "knowledge_limits": "神骑总数和部分实力评估含猜测、自夸；并不知道雷奥为何属于教会。",
-    "name": "菲林哥顿普",
-    "relationships": "雷奥救养并教授技能；黑二曾与其聊天；面对黑龙保持俘虏警戒。",
-    "summary": "会说话的地狱火焰马，强力施法与机动、清醒生存判断和社交饥饿并存。",
+    "arc_change": "见识试枪并主动加速奔向黑龙气息。",
+    "conflict": "好奇多嘴，与雷奥寡言相对；受噬魂威压惊惧。",
+    "coverage_note": "九维深化已覆盖第1至9集；变化记录以各集证据为准。",
+    "goal": "同行、询问并追逐新的动静。",
+    "knowledge_limits": "提出长枪是否战利品等是疑问，不是来源证明。",
+    "name": "哥顿普",
+    "relationships": "与黑二交流过人类习惯，现载雷奥。",
+    "summary": "与雷奥同行的地狱火焰马，能辨君王兵器威压。",
     "volume_history": [
       {
         "aliases": [
@@ -48,6 +49,31 @@
         "relationships": "雷奥救养并教授技能；黑二曾与其聊天；面对黑龙保持俘虏警戒。",
         "summary": "会说话的地狱火焰马，强力施法与机动、清醒生存判断和社交饥饿并存。",
         "volume": 8
+      },
+      {
+        "aliases": [
+          "菲林哥顿普"
+        ],
+        "arc_change": "见识试枪并主动加速奔向黑龙气息。",
+        "conflict": "好奇多嘴，与雷奥寡言相对；受噬魂威压惊惧。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0093",
+            "end_line": 11793,
+            "start_line": 11765
+          },
+          {
+            "chapter_id": "ch-0094",
+            "end_line": 11941,
+            "start_line": 11940
+          }
+        ],
+        "goal": "同行、询问并追逐新的动静。",
+        "knowledge_limits": "提出长枪是否战利品等是疑问，不是来源证明。",
+        "name": "哥顿普",
+        "relationships": "与黑二交流过人类习惯，现载雷奥。",
+        "summary": "与雷奥同行的地狱火焰马，能辨君王兵器威压。",
+        "volume": 9
       }
     ]
   },
@@ -85,19 +111,36 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 10616
+    },
+    {
+      "chapter_id": "ch-0093",
+      "claim_kind": "inference",
+      "end_line": 11793,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 11765
+    },
+    {
+      "chapter_id": "ch-0094",
+      "claim_kind": "inference",
+      "end_line": 11941,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 11940
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/菲林哥顿普",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
-    "第08集"
+    "第08集",
+    "第09集"
   ],
-  "title": "菲林哥顿普：分集人物研究",
-  "updated_at": "2026-10-21T21:04:52.480695+00:00",
+  "title": "哥顿普：分集人物研究",
+  "updated_at": "2026-10-21T21:09:15.402708+00:00",
   "user_notes": ""
 }

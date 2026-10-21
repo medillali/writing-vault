@@ -1,8 +1,8 @@
 # 罗得宾士：分集人物研究
 
-ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 5 · 范围: source-analysis
+ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 6 · 范围: source-analysis
 
-持续创作和安魂，行动在远离战场的森林中产生生态变化。
+以葬礼、战斗音乐与判断新能力参与队伍。
 
 ## 完整卡片
 
@@ -16,14 +16,14 @@ ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 5 · 范围: source-analys
       "罗得",
       "费拉本·丹特·罗得宾士"
     ],
-    "arc_change": "怨灵合唱频率下降，普通花朵重新出现，展示持续照护的效果。",
-    "conflict": "创作仍在修改，旁人听来可能难听；成果不全依赖战斗。",
-    "coverage_note": "九维深化已覆盖第1至8集；变化记录以各集证据为准。",
-    "goal": "完善乐章并安抚怨灵。",
-    "knowledge_limits": "本集没有完整新乐章完成或新攻击技的确认；盐分成因只是星的猜测。",
+    "arc_change": "辨认皇者驾临，声波助退，险遭坦克锤击；叙述预告未来把军阵写入乐曲。",
+    "conflict": "与黑龙对死亡理解不同；黑龙耗竭后被迫负责防御。",
+    "coverage_note": "九维深化已覆盖第1至9集；变化记录以各集证据为准。",
+    "goal": "维护同伴并回应战争伤痛。",
+    "knowledge_limits": "辨认技能最初为推测；无新增亡妻结局。",
     "name": "罗得宾士",
-    "relationships": "月与星观察花朵，娜娜向萝茜转述琴声。",
-    "summary": "持续创作和安魂，行动在远离战场的森林中产生生态变化。",
+    "relationships": "与爱琳、星月协作保护黑龙。",
+    "summary": "以葬礼、战斗音乐与判断新能力参与队伍。",
     "volume_history": [
       {
         "aliases": [
@@ -144,6 +144,46 @@ ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 5 · 范围: source-analys
         "relationships": "月与星观察花朵，娜娜向萝茜转述琴声。",
         "summary": "持续创作和安魂，行动在远离战场的森林中产生生态变化。",
         "volume": 8
+      },
+      {
+        "aliases": [
+          "罗得"
+        ],
+        "arc_change": "辨认皇者驾临，声波助退，险遭坦克锤击；叙述预告未来把军阵写入乐曲。",
+        "conflict": "与黑龙对死亡理解不同；黑龙耗竭后被迫负责防御。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0092",
+            "end_line": 11655,
+            "start_line": 11647
+          },
+          {
+            "chapter_id": "ch-0093",
+            "end_line": 11909,
+            "start_line": 11901
+          },
+          {
+            "chapter_id": "ch-0094",
+            "end_line": 12110,
+            "start_line": 12097
+          },
+          {
+            "chapter_id": "ch-0095",
+            "end_line": 12241,
+            "start_line": 12224
+          },
+          {
+            "chapter_id": "ch-0095",
+            "end_line": 12181,
+            "start_line": 12181
+          }
+        ],
+        "goal": "维护同伴并回应战争伤痛。",
+        "knowledge_limits": "辨认技能最初为推测；无新增亡妻结局。",
+        "name": "罗得宾士",
+        "relationships": "与爱琳、星月协作保护黑龙。",
+        "summary": "以葬礼、战斗音乐与判断新能力参与队伍。",
+        "volume": 9
       }
     ]
   },
@@ -197,12 +237,52 @@ ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 5 · 范围: source-analys
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 10160
+    },
+    {
+      "chapter_id": "ch-0092",
+      "claim_kind": "inference",
+      "end_line": 11655,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 11647
+    },
+    {
+      "chapter_id": "ch-0093",
+      "claim_kind": "inference",
+      "end_line": 11909,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 11901
+    },
+    {
+      "chapter_id": "ch-0094",
+      "claim_kind": "inference",
+      "end_line": 12110,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12097
+    },
+    {
+      "chapter_id": "ch-0095",
+      "claim_kind": "inference",
+      "end_line": 12241,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12224
+    },
+    {
+      "chapter_id": "ch-0095",
+      "claim_kind": "inference",
+      "end_line": 12181,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12181
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/罗得宾士",
   "review_status": "draft",
-  "revision": 5,
+  "revision": 6,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -211,10 +291,11 @@ ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 5 · 范围: source-analys
     "第05集",
     "第06集",
     "第07集",
-    "第08集"
+    "第08集",
+    "第09集"
   ],
   "title": "罗得宾士：分集人物研究",
-  "updated_at": "2026-10-21T21:04:53.629296+00:00",
+  "updated_at": "2026-10-21T21:09:14.536407+00:00",
   "user_notes": ""
 }
 

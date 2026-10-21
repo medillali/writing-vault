@@ -1,0 +1,52 @@
+# 转生后的效忠门槛
+
+ID: `scn-83e5d9a7a0ff4b58b59dfe49bf81db37` · 版本: 1 · 范围: source-analysis
+
+教会亡者难以接受新身份，黑龙以吸收逼其奉誓，力王带头。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-83e5d9a7a0ff4b58b59dfe49bf81db37",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "用于权力建立场景，展示效率如何以自主为代价。",
+    "choice": "黑龙吸拒绝者及失语者，力王在此前景下奉誓。",
+    "consequence": "大部分亡灵服从，少数被灭。",
+    "failure_mode": "若直接称全体忠心自愿，会抹去威胁环境；力王救部下动机尚未直说。",
+    "goal": "把新生亡灵变成可控力量。",
+    "obstacle": "对方旧信仰及恐惧使交流失序。",
+    "state_change": "敌方死者转为领地人口，但并不自动获得共同价值。",
+    "summary": "教会亡者难以接受新身份，黑龙以吸收逼其奉誓，力王带头。",
+    "volume": 9,
+    "why_it_works": "清晰对话者、拒绝者和失语者形成三个反应样本，显示威胁规则的偏差。"
+  },
+  "created_at": "2026-10-21T21:09:15.612440+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0089",
+      "claim_kind": "inference",
+      "end_line": 11122,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 11073
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/v09-s01",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "全书九维",
+    "第09集"
+  ],
+  "title": "转生后的效忠门槛",
+  "updated_at": "2026-10-21T21:09:15.665219+00:00",
+  "user_notes": ""
+}
+
+```

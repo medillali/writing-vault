@@ -3,14 +3,14 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "从完整黄金身体变为头颅存活、上半身更换的受限状态。",
-    "conflict": "无独立意识，遇技巧突袭脆弱点；换普通骨体令强度下降。",
-    "coverage_note": "九维深化已覆盖第1至8集；变化记录以各集证据为准。",
-    "goal": "执行黑龙行动并维持身体。",
-    "knowledge_limits": "不能据眨眼或疑惑描写断言已觉醒自我意识；本集没有新觉醒确认。",
+    "arc_change": "旧损伤本集明确基本恢复，发现疾风并守谷作战。",
+    "conflict": "无独立意识，战斗缺少队形协调。",
+    "coverage_note": "九维深化已覆盖第1至9集；变化记录以各集证据为准。",
+    "goal": "遵命守护黑龙。",
+    "knowledge_limits": "识别隐身不等于人格觉醒。",
     "name": "黑四",
-    "relationships": "黑龙因其受伤怒召图克并全员追击。",
-    "summary": "本集两次承受雷奥重点攻击的孩子，颈骨后被斩断但魂心保存。",
+    "relationships": "向黑龙反馈异常，随黑二应战。",
+    "summary": "基本恢复的无意识孩子，可本能识破潜行并向黑龙传讯。",
     "volume_history": [
       {
         "aliases": [],
@@ -34,6 +34,34 @@
         "relationships": "黑龙因其受伤怒召图克并全员追击。",
         "summary": "本集两次承受雷奥重点攻击的孩子，颈骨后被斩断但魂心保存。",
         "volume": 8
+      },
+      {
+        "aliases": [],
+        "arc_change": "旧损伤本集明确基本恢复，发现疾风并守谷作战。",
+        "conflict": "无独立意识，战斗缺少队形协调。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0090",
+            "end_line": 11193,
+            "start_line": 11193
+          },
+          {
+            "chapter_id": "ch-0091",
+            "end_line": 11472,
+            "start_line": 11461
+          },
+          {
+            "chapter_id": "ch-0094",
+            "end_line": 12152,
+            "start_line": 12147
+          }
+        ],
+        "goal": "遵命守护黑龙。",
+        "knowledge_limits": "识别隐身不等于人格觉醒。",
+        "name": "黑四",
+        "relationships": "向黑龙反馈异常，随黑二应战。",
+        "summary": "基本恢复的无意识孩子，可本能识破潜行并向黑龙传讯。",
+        "volume": 9
       }
     ]
   },
@@ -55,19 +83,44 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 9807
+    },
+    {
+      "chapter_id": "ch-0090",
+      "claim_kind": "inference",
+      "end_line": 11193,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 11193
+    },
+    {
+      "chapter_id": "ch-0091",
+      "claim_kind": "inference",
+      "end_line": 11472,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 11461
+    },
+    {
+      "chapter_id": "ch-0094",
+      "claim_kind": "inference",
+      "end_line": 12152,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12147
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/黑四",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
-    "第08集"
+    "第08集",
+    "第09集"
   ],
   "title": "黑四：分集人物研究",
-  "updated_at": "2026-10-21T21:04:52.692778+00:00",
+  "updated_at": "2026-10-21T21:09:15.154896+00:00",
   "user_notes": ""
 }

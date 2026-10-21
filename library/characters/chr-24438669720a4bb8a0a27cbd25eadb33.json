@@ -6,11 +6,11 @@
       "哥尔老师",
       "雷普诺特·里因斯·斯文哥尔"
     ],
-    "arc_change": "从焦躁等待转为认清与斯科特阵营目标的差异，行动空间缩小。",
-    "conflict": "自身不能进入非指定召唤门，斯科特又明确拒绝代为请求。",
-    "coverage_note": "九维深化已覆盖第1至8集；变化记录以各集证据为准。",
-    "goal": "了解黑龙行动，阻止无辜生命遭伤害。",
-    "knowledge_limits": "不知道前线完整战果、黑龙的杀俘和氓族事件，只能依据召援猜测。",
+    "arc_change": "挪用劳动建设环境，后提出商业娱乐促进创新，方案尚未完成。",
+    "conflict": "反对黑龙杀戮但受灵魂连带；虚荣与生产职责相冲。",
+    "coverage_note": "九维深化已覆盖第1至9集；变化记录以各集证据为准。",
+    "goal": "保障自身与同伴安全，改善领地生活并建立法师塔。",
+    "knowledge_limits": "仍会误判黑龙办事能力；文明停滞原因属其论述。",
     "name": "斯文哥尔",
     "opening_observations": {
       "arc_in_sample": "权威判断→例外暴露→主动攻击→舍身掩护但被投刀击倒。",
@@ -24,8 +24,8 @@
       ],
       "summary": "有地位的法师依惯常召唤规则判断黑龙群体，接连遇到例外；认为必须消灭不死生物，失利后选择牺牲自己掩护同伴。"
     },
-    "relationships": "关心黑龙也担心受其伤害者；照顾娜娜，与斯科特出现公开分歧。",
-    "summary": "仍被留在森林的导师，采购与情报等缺席功能在主线显现，介入权却被封锁。",
+    "relationships": "与阿古力特协作、说服毕瑟格林；要求爱琳等随行限制黑龙风险。",
+    "summary": "导师影响衰退，却以炼金与规划取得新的组织作用。",
     "volume_history": [
       {
         "aliases": [
@@ -240,6 +240,34 @@
         "relationships": "关心黑龙也担心受其伤害者；照顾娜娜，与斯科特出现公开分歧。",
         "summary": "仍被留在森林的导师，采购与情报等缺席功能在主线显现，介入权却被封锁。",
         "volume": 8
+      },
+      {
+        "aliases": [],
+        "arc_change": "挪用劳动建设环境，后提出商业娱乐促进创新，方案尚未完成。",
+        "conflict": "反对黑龙杀戮但受灵魂连带；虚荣与生产职责相冲。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0090",
+            "end_line": 11161,
+            "start_line": 11151
+          },
+          {
+            "chapter_id": "ch-0092",
+            "end_line": 11586,
+            "start_line": 11564
+          },
+          {
+            "chapter_id": "ch-0095",
+            "end_line": 12352,
+            "start_line": 12336
+          }
+        ],
+        "goal": "保障自身与同伴安全，改善领地生活并建立法师塔。",
+        "knowledge_limits": "仍会误判黑龙办事能力；文明停滞原因属其论述。",
+        "name": "斯文哥尔",
+        "relationships": "与阿古力特协作、说服毕瑟格林；要求爱琳等随行限制黑龙风险。",
+        "summary": "导师影响衰退，却以炼金与规划取得新的组织作用。",
+        "volume": 9
       }
     ]
   },
@@ -421,12 +449,36 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 10846
+    },
+    {
+      "chapter_id": "ch-0090",
+      "claim_kind": "inference",
+      "end_line": 11161,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 11151
+    },
+    {
+      "chapter_id": "ch-0092",
+      "claim_kind": "inference",
+      "end_line": 11586,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 11564
+    },
+    {
+      "chapter_id": "ch-0095",
+      "claim_kind": "inference",
+      "end_line": 12352,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12336
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/opening-test-20261022/sven",
   "review_status": "draft",
-  "revision": 8,
+  "revision": 9,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -440,9 +492,10 @@
     "第05集",
     "第07集",
     "第08集",
+    "第09集",
     "责任"
   ],
   "title": "斯文哥尔：分集人物研究",
-  "updated_at": "2026-10-21T21:04:53.347954+00:00",
+  "updated_at": "2026-10-21T21:09:14.082881+00:00",
   "user_notes": ""
 }
