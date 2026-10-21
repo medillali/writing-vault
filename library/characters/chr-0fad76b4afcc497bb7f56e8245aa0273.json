@@ -3,14 +3,14 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "以荣誉口号恢复士气并坚持双层盾墙，等待实际战果。",
-    "conflict": "老兵了解对手，新人质疑加盾，权威未稳；还高估了银丝完整龙骑能力。",
-    "coverage_note": "九维深化已覆盖第1至7集；变化记录以各集证据为准。",
-    "goal": "阻挡黑龙冲击，维持天使骑士队列与荣誉。",
-    "knowledge_limits": "不知银丝是不死小龙且缺乏生前魔法；未实测本集新武装的防圣能力。",
+    "arc_change": "第三次冲锋被黑二击杀，队伍随后失去有效指挥。",
+    "conflict": "部署专重正面，对空和敌方同步机动准备不足；圣力克制已变化。",
+    "coverage_note": "九维深化已覆盖第1至8集；变化记录以各集证据为准。",
+    "goal": "维持队列并阻挡黑龙。",
+    "knowledge_limits": "未能及时了解战装和空地协同的新能力；死亡后不再参与后段。",
     "name": "列奥纳",
-    "relationships": "继承萝茜和岗撒旧部；识得黑大，指挥近一百二十名骑士。",
-    "summary": "岗撒的副手在队长死亡后接任，能利用旧战经验部署防御。",
+    "relationships": "带领天使骑士，在绝望中仍履行职责。",
+    "summary": "上一集接任的队长，在旧训练不足下仍组织投枪和圣法反击。",
     "volume_history": [
       {
         "aliases": [],
@@ -29,6 +29,24 @@
         "relationships": "继承萝茜和岗撒旧部；识得黑大，指挥近一百二十名骑士。",
         "summary": "岗撒的副手在队长死亡后接任，能利用旧战经验部署防御。",
         "volume": 7
+      },
+      {
+        "aliases": [],
+        "arc_change": "第三次冲锋被黑二击杀，队伍随后失去有效指挥。",
+        "conflict": "部署专重正面，对空和敌方同步机动准备不足；圣力克制已变化。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0078",
+            "end_line": 9677,
+            "start_line": 9630
+          }
+        ],
+        "goal": "维持队列并阻挡黑龙。",
+        "knowledge_limits": "未能及时了解战装和空地协同的新能力；死亡后不再参与后段。",
+        "name": "列奥纳",
+        "relationships": "带领天使骑士，在绝望中仍履行职责。",
+        "summary": "上一集接任的队长，在旧训练不足下仍组织投枪和圣法反击。",
+        "volume": 8
       }
     ]
   },
@@ -42,19 +60,28 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 9534
+    },
+    {
+      "chapter_id": "ch-0078",
+      "claim_kind": "inference",
+      "end_line": 9677,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 9630
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/列奥纳",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
-    "第07集"
+    "第07集",
+    "第08集"
   ],
   "title": "列奥纳：分集人物研究",
-  "updated_at": "2026-10-21T20:51:18.823508+00:00",
+  "updated_at": "2026-10-21T21:04:53.182899+00:00",
   "user_notes": ""
 }

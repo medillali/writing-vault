@@ -77,7 +77,18 @@
         "ch-0073",
         "ch-0074",
         "ch-0075",
-        "ch-0076"
+        "ch-0076",
+        "ch-0077",
+        "ch-0078",
+        "ch-0079",
+        "ch-0080",
+        "ch-0081",
+        "ch-0082",
+        "ch-0083",
+        "ch-0084",
+        "ch-0085",
+        "ch-0086",
+        "ch-0087"
       ],
       "complete": false,
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
@@ -1330,6 +1341,206 @@
       "to": "v07-e09"
     },
     {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0078",
+          "claim_kind": "fact",
+          "end_line": 9744,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9726
+        },
+        {
+          "chapter_id": "ch-0079",
+          "claim_kind": "fact",
+          "end_line": 9787,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9767
+        }
+      ],
+      "from": "v08-e01",
+      "id": "v08-edge-01",
+      "kind": "cause",
+      "label": "雷奥出手保密并迎战，黑龙据其身体与兵器特点展开下一层对决。",
+      "to": "v08-e02"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0081",
+          "claim_kind": "inference",
+          "end_line": 10064,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10048
+        },
+        {
+          "chapter_id": "ch-0082",
+          "claim_kind": "inference",
+          "end_line": 10222,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10214
+        }
+      ],
+      "from": "v08-e02",
+      "id": "v08-edge-02",
+      "kind": "setup",
+      "label": "火马仍被扣留且早说明有机会就逃，雷奥返回突袭后出现实际脱困窗口。",
+      "to": "v08-e03"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0082",
+          "claim_kind": "inference",
+          "end_line": 10242,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10237
+        },
+        {
+          "chapter_id": "ch-0085",
+          "claim_kind": "inference",
+          "end_line": 10651,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10616
+        }
+      ],
+      "from": "v08-e03",
+      "id": "v08-edge-03",
+      "kind": "setup",
+      "label": "雷奥与火马重组尾随，观察新增援力后转向总部，当前追击中止。",
+      "to": "v08-e06"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0084",
+          "claim_kind": "fact",
+          "end_line": 10519,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10454
+        }
+      ],
+      "from": "v08-e04",
+      "id": "v08-edge-04",
+      "kind": "reveal",
+      "label": "战后服饰与羊皮书识别，把获救者接回阿罗约的族源和祭坛历史。",
+      "to": "v08-e05"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0084",
+          "claim_kind": "inference",
+          "end_line": 10453,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10452
+        },
+        {
+          "chapter_id": "ch-0086",
+          "claim_kind": "inference",
+          "end_line": 10682,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10663
+        }
+      ],
+      "from": "v08-e04",
+      "id": "v08-edge-05",
+      "kind": "reveal",
+      "label": "黑龙察觉菲力普未尽全力，后场的四翼与蚕食说明提供读者层解释。",
+      "to": "v08-e06"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0085",
+          "claim_kind": "fact",
+          "end_line": 10610,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10602
+        },
+        {
+          "chapter_id": "ch-0086",
+          "claim_kind": "fact",
+          "end_line": 10757,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10729
+        }
+      ],
+      "from": "v08-e05",
+      "id": "v08-edge-06",
+      "kind": "cause",
+      "label": "族长提出收魂返坛方案并获黑龙接受，后以武力推动生命形式转换。",
+      "to": "v08-e07"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0086",
+          "claim_kind": "fact",
+          "end_line": 10813,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10800
+        },
+        {
+          "chapter_id": "ch-0087",
+          "claim_kind": "fact",
+          "end_line": 10844,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10821
+        },
+        {
+          "chapter_id": "ch-0087",
+          "claim_kind": "fact",
+          "end_line": 10986,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10975
+        }
+      ],
+      "from": "v08-e07",
+      "id": "v08-edge-07",
+      "kind": "cause",
+      "label": "灵魂被收集并送到祭坛，缺失逆转知识与设施损坏迫使等待族长苏醒后修复启动。",
+      "to": "v08-e09"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0087",
+          "claim_kind": "fact",
+          "end_line": 10844,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10829
+        }
+      ],
+      "from": "v08-e05",
+      "id": "v08-edge-08",
+      "kind": "setup",
+      "label": "族长保存的逆转记录与亡灵传承知识组合，才有修复和重新运行的可能。",
+      "to": "v08-e09"
+    },
+    {
       "claim_kind": "inference",
       "evidence": [
         {
@@ -2254,6 +2465,260 @@
       "kind": "echo",
       "label": "对具体伙伴的关爱边界发展为明确的自由存在宣言；两次选择都未解除灵魂支配关系",
       "to": "v07-e07"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0075",
+          "claim_kind": "fact",
+          "end_line": 9521,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9510
+        },
+        {
+          "chapter_id": "ch-0076",
+          "claim_kind": "fact",
+          "end_line": 9569,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9543
+        },
+        {
+          "chapter_id": "ch-0076",
+          "claim_kind": "fact",
+          "end_line": 9576,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9569
+        },
+        {
+          "chapter_id": "ch-0076",
+          "claim_kind": "fact",
+          "end_line": 9605,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9585
+        },
+        {
+          "chapter_id": "ch-0078",
+          "claim_kind": "fact",
+          "end_line": 9677,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9634
+        },
+        {
+          "chapter_id": "ch-0078",
+          "claim_kind": "fact",
+          "end_line": 9744,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9700
+        }
+      ],
+      "from": "v07-e09",
+      "id": "cross-cliffhanger-01",
+      "kind": "payoff",
+      "label": "上集盾墙冲撞前的悬停在本集战斗中兑现；雷奥救主教并灭口使胜负之外再生身份问题",
+      "to": "v08-e01"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0066",
+          "claim_kind": "fact",
+          "end_line": 8162,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 8102
+        },
+        {
+          "chapter_id": "ch-0078",
+          "claim_kind": "fact",
+          "end_line": 9677,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9634
+        },
+        {
+          "chapter_id": "ch-0078",
+          "claim_kind": "fact",
+          "end_line": 9744,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9700
+        }
+      ],
+      "from": "v06-e08",
+      "id": "cross-armour-02",
+      "kind": "payoff",
+      "label": "此前制作后尚待实测的战装在圣力攻击中得到验证；能量仍消耗，不扩展为所有单位均免疫",
+      "to": "v08-e01"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0071",
+          "claim_kind": "inference",
+          "end_line": 8776,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 8735
+        },
+        {
+          "chapter_id": "ch-0087",
+          "claim_kind": "inference",
+          "end_line": 10953,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10888
+        }
+      ],
+      "from": "v07-e03",
+      "id": "cross-rosy-02",
+      "kind": "setup",
+      "label": "与娜娜建立的新关系进一步成为接触克丽丝的渠道，旧人格和记忆仍未恢复",
+      "to": "v08-e08"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 338,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 299
+        },
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 448,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 437
+        },
+        {
+          "chapter_id": "ch-0084",
+          "claim_kind": "fact",
+          "end_line": 10519,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10464
+        },
+        {
+          "chapter_id": "ch-0085",
+          "claim_kind": "fact",
+          "end_line": 10610,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10542
+        }
+      ],
+      "from": "v01-e03",
+      "id": "cross-aroyo-01",
+      "kind": "payoff",
+      "label": "早期吞噬阿罗约留下的记忆在氓族相遇时产生亲近与识别，也让被隐瞒的旧杀戮进入联盟关系",
+      "to": "v08-e05"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0014",
+          "claim_kind": "fact",
+          "end_line": 1431,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1380
+        },
+        {
+          "chapter_id": "ch-0087",
+          "claim_kind": "fact",
+          "end_line": 10844,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10821
+        },
+        {
+          "chapter_id": "ch-0087",
+          "claim_kind": "fact",
+          "end_line": 10986,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10954
+        }
+      ],
+      "from": "v02-e01",
+      "id": "cross-altar-01",
+      "kind": "payoff",
+      "label": "曾观察到活性的古祭坛回到主线，经修复后首批限载启动；本集结尾还不能确认全族转生成功",
+      "to": "v08-e09"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "inference",
+          "end_line": 1129,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1105
+        },
+        {
+          "chapter_id": "ch-0087",
+          "claim_kind": "inference",
+          "end_line": 10844,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10821
+        },
+        {
+          "chapter_id": "ch-0087",
+          "claim_kind": "inference",
+          "end_line": 10986,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10954
+        }
+      ],
+      "from": "v01-e07",
+      "id": "cross-tuk-01",
+      "kind": "setup",
+      "label": "早期提供沼泽与祭坛信息的图克，面对新启动景象显出熟悉感；守护使命的来源仍未揭",
+      "to": "v08-e09"
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0075",
+          "claim_kind": "synthesis",
+          "end_line": 9445,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9369
+        },
+        {
+          "chapter_id": "ch-0086",
+          "claim_kind": "synthesis",
+          "end_line": 10813,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10711
+        }
+      ],
+      "from": "v07-e07",
+      "id": "cross-autonomy-03",
+      "kind": "echo",
+      "label": "自由存在的宣言与强迫族群接受死亡/运魂安排形成价值冲突；这是主题对照，不声称宣言导致屠杀",
+      "to": "v08-e07"
     }
   ],
   "graph_id": "graph-7c354fa988864849a6f681ff07474c91",
@@ -4891,13 +5356,398 @@
       "parent_id": "vol-07",
       "summary": "黑七与法师等留后，黑龙带九孩返程；黑大银丝侦察引敌误读，黑龙凭既有灵魂运用和武装决定正面应战，列奥纳布双层盾墙等冲撞。",
       "title": "返程与天使骑士战前相遇"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "vol-08",
+      "kind": "volume",
+      "narrative_order": 800,
+      "parent_id": "story",
+      "summary": "本集先兑现上集的战前悬念：黑龙以空中牵制和同步绕行打破盾墙部署，新武装也确实改变圣力克制关系；雷奥随后救主教并杀死己方幸存者，把阵营秘密置于骑士生命之上。与死亡骑士和火焰马的交锋又揭出新成长的限度，黑龙靠夺械、耐打和牵制伙伴取胜，却因护子愤怒失去俘虏，黑四必须更换脆弱上身。返程中的独立情报与采购困境，将斯文缺席的实际作用显出。救援氓族时，黑龙调动不同兵种逼退菲力普，继承的阿罗约记忆则把偶然相救转为身份与历史交会；他隐瞒杀害阿罗约的事实，接受族长的生存委托。氓族祖先由亡灵逆转成人的秘密，打开生命形式可变的新规则，也引出谁能决定族群未来的问题。族长杀死异议者、强迫入沼，黑龙继而镇压反抗并收魂，保护与屠戮由同一行动相连。后场揭示教会保留敌手的组织利益及斯科特隔离人类价值影响的意图。结尾祭坛修复并限量启动，转生结果与新声音仍未揭晓，萝茜的自我重建也只是开始。",
+      "title": "第八集 暗之神骑"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92",
+        "chr-24b9d252fb624865a46d717832261c68",
+        "chr-0fad76b4afcc497bb7f56e8245aa0273",
+        "chr-6c5caa9685ab4398b38fdff31ed8a6e5",
+        "chr-8e211a51f4ef4c4b8e707cb02c88a5ed"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0078",
+          "claim_kind": "fact",
+          "end_line": 9677,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9634
+        },
+        {
+          "chapter_id": "ch-0078",
+          "claim_kind": "fact",
+          "end_line": 9744,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9700
+        }
+      ],
+      "id": "v08-e01",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "教皇安排随行骑士时，可能已经预定他们牺牲。",
+          "observer": "chr-6c5caa9685ab4398b38fdff31ed8a6e5",
+          "state": "suspects"
+        },
+        {
+          "belief": "雷奥是不死死亡骑士，却属于光明教会。",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 801,
+      "parent_id": "vol-08",
+      "summary": "黑龙绕盾多次冲锋击溃圣骑，列奥纳被杀；雷奥救安德鲁后杀光己方幸存者并自报死亡骑士。",
+      "title": "圣骑溃败与保密灭口"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-24b9d252fb624865a46d717832261c68",
+        "chr-8e211a51f4ef4c4b8e707cb02c88a5ed",
+        "chr-968add4b94d440cbabc01e3b0558d55d"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0079",
+          "claim_kind": "fact",
+          "end_line": 9868,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9838
+        },
+        {
+          "chapter_id": "ch-0080",
+          "claim_kind": "fact",
+          "end_line": 9996,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 9931
+        },
+        {
+          "chapter_id": "ch-0081",
+          "claim_kind": "fact",
+          "end_line": 10035,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10021
+        }
+      ],
+      "id": "v08-e02",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "黑龙有肉体但真实骨体是悼亡紫金骷髅，胸口不是灵魂要害。",
+          "observer": "chr-8e211a51f4ef4c4b8e707cb02c88a5ed",
+          "state": "knows"
+        },
+        {
+          "belief": "哥顿普说神骑守安息深渊出口，亲见六位但不知道总数。",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 802,
+      "parent_id": "vol-08",
+      "summary": "黑龙夺枪、耐伤并抱住火马，逼雷奥脱身；以饶命问讯取得深渊信息，却以未约期限继续扣留。",
+      "title": "雷奥失械败退与火马被俘"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-cfa1e622ca004631bfd0e1642a22e7a8",
+        "chr-6ebb35c20edf4908b3b64159c8fd7a73",
+        "chr-8e211a51f4ef4c4b8e707cb02c88a5ed",
+        "chr-968add4b94d440cbabc01e3b0558d55d"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0082",
+          "claim_kind": "fact",
+          "end_line": 10227,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10173
+        }
+      ],
+      "id": "v08-e03",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "黑四魂心无伤可换体，图克已晋公爵。",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 803,
+      "parent_id": "vol-08",
+      "summary": "雷奥斩断黑四颈，黑龙召公爵图克并全员追敌，火马趁机逃跑；黑四换普通上半身。",
+      "title": "黑四受创引出追击失守"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92",
+        "chr-37825d4ef6be40189c50d630eb315f4c",
+        "chr-f5b27f27591c4a9f9b29844c3ab97ee0",
+        "chr-60677b93fd18486dbb9f18d6de5f823f",
+        "chr-006089add9c541fe9bcda4dd5369d743"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0083",
+          "claim_kind": "fact",
+          "end_line": 10347,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10324
+        },
+        {
+          "chapter_id": "ch-0083",
+          "claim_kind": "fact",
+          "end_line": 10384,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10362
+        },
+        {
+          "chapter_id": "ch-0084",
+          "claim_kind": "fact",
+          "end_line": 10453,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10413
+        }
+      ],
+      "id": "v08-e04",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "菲力普有顾忌并未使尽全力，继续追击没有胜算保证。",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "suspects"
+        }
+      ],
+      "narrative_order": 804,
+      "parent_id": "vol-08",
+      "summary": "黑龙从河底介入氓族断后战，召金属兵和魅率亡灵；菲力普重整后撤，金属骷髅累计损十六。",
+      "title": "河岸救援与多兵种反击"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-37825d4ef6be40189c50d630eb315f4c",
+        "chr-c128fbc5576e4683b433463c7468e03d",
+        "chr-6ebb35c20edf4908b3b64159c8fd7a73"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0084",
+          "claim_kind": "fact",
+          "end_line": 10519,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10464
+        },
+        {
+          "chapter_id": "ch-0085",
+          "claim_kind": "fact",
+          "end_line": 10610,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10542
+        }
+      ],
+      "id": "v08-e05",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "阿罗约已被黑龙杀害，其记忆被吸收。",
+          "observer": "chr-37825d4ef6be40189c50d630eb315f4c",
+          "state": "unknown"
+        },
+        {
+          "belief": "族长说氓族先祖由亡灵逆转为人，族人魂可藏于亡魂之界等待转生。",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 805,
+      "parent_id": "vol-08",
+      "summary": "羊皮书确认阿罗约族源，黑龙隐瞒其死因；族长献忠、揭亡灵祖先与祭坛逆转，委托运魂。",
+      "title": "旧记忆、隐瞒与氓族求助"
+    },
+    {
+      "characters": [
+        "chr-8e211a51f4ef4c4b8e707cb02c88a5ed",
+        "chr-968add4b94d440cbabc01e3b0558d55d",
+        "chr-f5b27f27591c4a9f9b29844c3ab97ee0",
+        "chr-045b64955da642fab323c6657e39c410"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0085",
+          "claim_kind": "fact",
+          "end_line": 10651,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10641
+        },
+        {
+          "chapter_id": "ch-0086",
+          "claim_kind": "fact",
+          "end_line": 10689,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10655
+        }
+      ],
+      "id": "v08-e06",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "菲力普是力天使，继续保留敌手涉及组织存在价值。",
+          "observer": "reader",
+          "state": "knows"
+        },
+        {
+          "belief": "菲力普未再追来及雷奥离开的具体后场原因。",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 806,
+      "parent_id": "vol-08",
+      "summary": "雷奥和火马转向教会总部；菲力普执行蚕食命令，私下显四翼并害怕沦为无意识工具。",
+      "title": "追兵撤离与蚕食内幕"
+    },
+    {
+      "characters": [
+        "chr-37825d4ef6be40189c50d630eb315f4c",
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-6ebb35c20edf4908b3b64159c8fd7a73",
+        "chr-006089add9c541fe9bcda4dd5369d743",
+        "chr-632a4344b53f478a93f4d308f3890b92"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0086",
+          "claim_kind": "fact",
+          "end_line": 10813,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10711
+        }
+      ],
+      "id": "v08-e07",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "族人没有得到充分说明，部分服从源于武力威胁，实际转生尚未验证。",
+          "observer": "reader",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 807,
+      "parent_id": "vol-08",
+      "summary": "阿古力特杀质疑者、威胁入沼并自献祭；黑龙押行，杀反抗族人及请求速死的余者，将魂收进神器。",
+      "title": "强迫入沼与收魂"
+    },
+    {
+      "characters": [
+        "chr-54e84c6e82214a26921887c503f519ee",
+        "chr-1d629a39da3e41149707e5f9f636defd",
+        "chr-d1af2401c91342228738940630a00180"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0087",
+          "claim_kind": "fact",
+          "end_line": 10953,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10888
+        }
+      ],
+      "id": "v08-e08",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "自己暗黑力量的来源以及克丽丝认为身体特殊的原因。",
+          "observer": "chr-54e84c6e82214a26921887c503f519ee",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 808,
+      "parent_id": "vol-08",
+      "summary": "萝茜渐能运用暗黑力量仍失忆，经娜娜和沉渊木进入克丽丝世界并与其相见。",
+      "title": "萝茜通过娜娜见克丽丝"
+    },
+    {
+      "characters": [
+        "chr-37825d4ef6be40189c50d630eb315f4c",
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-6ebb35c20edf4908b3b64159c8fd7a73"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0087",
+          "claim_kind": "fact",
+          "end_line": 10844,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10821
+        },
+        {
+          "chapter_id": "ch-0087",
+          "claim_kind": "fact",
+          "end_line": 10986,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10954
+        }
+      ],
+      "id": "v08-e09",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "苍老声音身份及首批灵魂最终转生结果。",
+          "observer": "reader",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 809,
+      "parent_id": "vol-08",
+      "summary": "阿古力特七日苏醒后与亡灵修复祭坛，黑龙提供魔晶；限载放出三十余魂，启动极致时出现未知苍老声音。",
+      "title": "祭坛修复与首批启动"
     }
   ],
   "owner": {
     "id": "src-9ff09c395734410b856f77c77a652834",
     "kind": "source"
   },
-  "revision": 9,
+  "revision": 10,
   "schema_version": 1,
   "threads": [
     {
@@ -5735,6 +6585,126 @@
     },
     {
       "edge_ids": [
+        "v08-edge-01",
+        "v08-edge-02",
+        "v08-edge-03"
+      ],
+      "id": "v08-thread-01",
+      "kind": "hidden",
+      "node_ids": [
+        "v08-e01",
+        "v08-e02",
+        "v08-e03",
+        "v08-e06"
+      ],
+      "question": "雷奥为何替教会服务，如何持续定位并遮蔽自身？",
+      "resolution_note": "死亡骑士及深渊镇守岗位已揭，火马救回并转向总部；动机和定位机制未回收。",
+      "status": "partial",
+      "title": "第8集 · 死亡骑士的教会身份",
+      "tracking_key": "god-knight-pursuit"
+    },
+    {
+      "edge_ids": [
+        "v08-edge-02",
+        "v08-edge-06"
+      ],
+      "id": "v08-thread-02",
+      "kind": "main",
+      "node_ids": [
+        "v08-e02",
+        "v08-e03",
+        "v08-e05",
+        "v08-e07"
+      ],
+      "question": "黑龙的保护、承诺和自由如何面对他人的拒绝？",
+      "resolution_note": "他珍惜孩子、求取情报，但扣俘、隐瞒和强迫运魂继续扩大控制；未形成价值和解。",
+      "status": "open",
+      "title": "第8集 · 自由目标与支配手段",
+      "tracking_key": "blackdragon-autonomy-and-companionship"
+    },
+    {
+      "edge_ids": [
+        "v08-edge-04",
+        "v08-edge-06"
+      ],
+      "id": "v08-thread-03",
+      "kind": "hidden",
+      "node_ids": [
+        "v08-e04",
+        "v08-e05",
+        "v08-e07"
+      ],
+      "question": "氓族若得知阿罗约真实遭遇，联盟会如何改变？",
+      "resolution_note": "族源得到确认，记忆亲近与撒谎同时成立；族长仍不知死因，未能评价这项隐瞒。",
+      "status": "open",
+      "title": "第8集 · 阿罗约记忆与被隐藏的旧杀戮",
+      "tracking_key": "aroyo-memory-and-mang-clan"
+    },
+    {
+      "edge_ids": [
+        "v08-edge-06",
+        "v08-edge-07",
+        "v08-edge-08"
+      ],
+      "id": "v08-thread-04",
+      "kind": "main",
+      "node_ids": [
+        "v08-e05",
+        "v08-e07",
+        "v08-e09"
+      ],
+      "question": "被保存的灵魂能否顺利重生，其人格和意愿会怎样延续？",
+      "resolution_note": "祖先逆转史由族长讲述，设施修复完成、首批三十余魂启动；全部转生结果尚未揭示。",
+      "status": "partial",
+      "title": "第8集 · 祭坛逆转与氓族存续",
+      "tracking_key": "transformation-altar-and-mang-survival"
+    },
+    {
+      "edge_ids": [],
+      "id": "v08-thread-05",
+      "kind": "hidden",
+      "node_ids": [
+        "v08-e01",
+        "v08-e06"
+      ],
+      "question": "教会为何保留敌手，菲力普如何保有自我意识？",
+      "resolution_note": "骑士被灭口和力天使自言揭示组织利益与工具化恐惧；不能据此确定教皇所有意图。",
+      "status": "open",
+      "title": "第8集 · 教会工具与蚕食计划",
+      "tracking_key": "church-institution-and-angel-agency"
+    },
+    {
+      "edge_ids": [],
+      "id": "v08-thread-06",
+      "kind": "subplot",
+      "node_ids": [
+        "v08-e08"
+      ],
+      "question": "暗黑力量如何形成，克丽丝将怎样看待其特殊身体？",
+      "resolution_note": "原萝茜仍失忆，通过娜娜获得新关系；见克丽丝不等于治疗或记忆恢复。",
+      "status": "partial",
+      "title": "第8集 · 萝茜的新力量与自我重建",
+      "tracking_key": "rosy-angel-identity"
+    },
+    {
+      "edge_ids": [
+        "v08-edge-08"
+      ],
+      "id": "v08-thread-07",
+      "kind": "hidden",
+      "node_ids": [
+        "v08-e03",
+        "v08-e05",
+        "v08-e09"
+      ],
+      "question": "图克如何诞生，结尾声音与其守护使命有何关系？",
+      "resolution_note": "公爵与忠诚变化明确，图克不知道逆转前史；启动景象令他熟悉，声音身份未明。",
+      "status": "open",
+      "title": "第8集 · 图克与祭坛来历",
+      "tracking_key": "tuk-and-the-transformation-altar"
+    },
+    {
+      "edge_ids": [
         "v01-edge-02",
         "v01-edge-09",
         "v02-edge-04",
@@ -5743,13 +6713,16 @@
         "v03-edge-05",
         "v03-edge-06",
         "v07-edge-06",
+        "v08-edge-02",
+        "v08-edge-06",
         "cross-redemption-01",
         "cross-autonomy-01",
         "cross-nana-02",
         "cross-home-01",
         "cross-redemption-02",
         "cross-roder-02",
-        "cross-autonomy-02"
+        "cross-autonomy-02",
+        "cross-autonomy-03"
       ],
       "id": "book-37dd82abc178",
       "kind": "main",
@@ -5779,15 +6752,19 @@
         "v06-e07",
         "v07-e02",
         "v07-e07",
+        "v08-e02",
+        "v08-e03",
+        "v08-e05",
+        "v08-e07",
         "v02-e01",
         "v04-e01",
         "v04-e07",
         "v05-e05"
       ],
-      "question": "黑龙的自由是否容得下同伴真正拒绝和退出？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第7集。他珍惜同伴并克制杀意，重订合作边界；深层支配关系仍未解除。",
-      "status": "partial",
-      "title": "跨集 · 自由存在与同伴自主",
+      "question": "黑龙的保护、承诺和自由如何面对他人的拒绝？",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第8集。他珍惜孩子、求取情报，但扣俘、隐瞒和强迫运魂继续扩大控制；未形成价值和解。",
+      "status": "open",
+      "title": "跨集 · 自由目标与支配手段",
       "tracking_key": "blackdragon-autonomy-and-companionship",
       "volume_history": [
         {
@@ -5837,6 +6814,14 @@
           "status": "partial",
           "title": "自由存在与同伴自主",
           "volume": 7
+        },
+        {
+          "kind": "main",
+          "question": "黑龙的保护、承诺和自由如何面对他人的拒绝？",
+          "resolution_note": "他珍惜孩子、求取情报，但扣俘、隐瞒和强迫运魂继续扩大控制；未形成价值和解。",
+          "status": "open",
+          "title": "自由目标与支配手段",
+          "volume": 8
         }
       ]
     },
@@ -5867,7 +6852,7 @@
         "v02-e06"
       ],
       "question": "救赎是否能够让星恢复生前身份？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第5集。本集澄清其净化目的，星获救并归队；这是该次恢复身份尝试的回收，不推断整书救赎主题终结。",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第5集。本集澄清其净化目的，星获救并归队；这是该次恢复身份尝试的回收，不推断整书救赎主题终结。",
       "status": "resolved",
       "title": "跨集 · 救赎之魂的真实作用",
       "tracking_key": "redemption-soul",
@@ -5933,7 +6918,7 @@
         "v03-e06"
       ],
       "question": "其他八个孩子如何获得灵识？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第6集。黑大完整觉醒明确，八孩仍无意识；斯科特给出灵魂框架但无法解释异常成长。",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第6集。黑大完整觉醒明确，八孩仍无意识；斯科特给出灵魂框架但无法解释异常成长。",
       "status": "partial",
       "title": "跨集 · 孩子的独立意识",
       "tracking_key": "children-consciousness",
@@ -6009,7 +6994,7 @@
         "v03-e09"
       ],
       "question": "雷神残余和撒拉丁部族如何应对领袖及贸易体系丧失？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第3集。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第3集。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
       "status": "partial",
       "title": "跨集 · 雷神败亡后的利益与部族余波",
       "tracking_key": "thunder-mercenary-conflict",
@@ -6042,16 +7027,18 @@
     },
     {
       "edge_ids": [
-        "cross-ruins-01"
+        "cross-ruins-01",
+        "cross-altar-01"
       ],
       "id": "book-c0fbac950b52",
       "kind": "hidden",
       "node_ids": [
         "v01-e10",
-        "v02-e01"
+        "v02-e01",
+        "v08-e09"
       ],
       "question": "祭坛供能与自修复机制、古国消失原因是什么？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第2集。现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第8集。现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
       "status": "open",
       "title": "跨集 · 红月与沉沦国度",
       "tracking_key": "sunken-undead-kingdom",
@@ -6089,7 +7076,7 @@
         "v05-e09"
       ],
       "question": "黑龙何时能真正炼化或解除体内的不死战魂？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第5集。神圣伤暂时阻止战魂趁昏迷脱体；主角恢复时战魂也恢复，炼化再次失败。",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第5集。神圣伤暂时阻止战魂趁昏迷脱体；主角恢复时战魂也恢复，炼化再次失败。",
       "status": "open",
       "title": "跨集 · 坦克战魂内患",
       "tracking_key": "tank-battle-soul",
@@ -6122,17 +7109,20 @@
     },
     {
       "edge_ids": [
-        "v02-edge-06"
+        "v02-edge-06",
+        "cross-rosy-02"
       ],
       "id": "book-e90db68cb625",
       "kind": "hidden",
       "node_ids": [
         "v02-e06",
         "v02-e08",
-        "v06-e04"
+        "v06-e04",
+        "v07-e03",
+        "v08-e08"
       ],
       "question": "沉渊木中的克丽丝究竟是谁，如何影响娜娜？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第6集。娜娜明确称其教冥月抚慰，队友开始知情；女神身份仍未验证。",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第8集。娜娜明确称其教冥月抚慰，队友开始知情；女神身份仍未验证。",
       "status": "partial",
       "title": "跨集 · 克丽丝的身份与教学",
       "tracking_key": "christine-identity",
@@ -6175,10 +7165,10 @@
         "v06-e04",
         "v03-e01"
       ],
-      "question": "娜娜能否在被保护之外表达自己的选择？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第6集。她愿献肉并保护宠物，法术学习展现主动性；仍是队伍唯一明确活人。",
+      "question": "娜娜的暗黑气息来源、失亲后果与自主选择将怎样发展？",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第6集。第六集明确她能表达保护伙伴的愿望，并已受克丽丝教授法术；天生气息来源、父母遗体后续与追捕后果不能据此关闭。",
       "status": "partial",
-      "title": "跨集 · 娜娜的保护与主动性",
+      "title": "跨集 · 娜娜的保护、身世与主动性",
       "tracking_key": "nana-protection",
       "volume_history": [
         {
@@ -6204,6 +7194,21 @@
           "status": "partial",
           "title": "娜娜的保护与主动性",
           "volume": 6
+        },
+        {
+          "evidence": [
+            {
+              "chapter_id": "ch-0061",
+              "end_line": 7578,
+              "start_line": 7522
+            }
+          ],
+          "kind": "subplot",
+          "question": "娜娜的暗黑气息来源、失亲后果与自主选择将怎样发展？",
+          "resolution_note": "第六集明确她能表达保护伙伴的愿望，并已受克丽丝教授法术；天生气息来源、父母遗体后续与追捕后果不能据此关闭。",
+          "status": "partial",
+          "title": "娜娜的保护、身世与主动性",
+          "volume": 6
         }
       ]
     },
@@ -6221,10 +7226,10 @@
         "v05-e08",
         "v06-e06"
       ],
-      "question": "亡灵印记的发出者和目的地是谁、何处？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第6集。本集斯科特确认自己散播印记，往生者国度在哀嚎森林；只解决定位和发出者，不等于所有进化谜题完成。",
+      "question": "亡灵印记由谁散播，指向哪里？",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第6集。斯科特确认散播印记，目的地为哀嚎森林的往生者国度。本状态只关闭定位问题；印记与传统诅咒功能的关系、具体触发机制仍待解释，已保留原问题历史。",
       "status": "resolved",
-      "title": "跨集 · 红月落处的呼唤",
+      "title": "跨集 · 亡灵印记的发出者与目的地",
       "tracking_key": "red-moon-destination",
       "volume_history": [
         {
@@ -6250,6 +7255,21 @@
           "status": "resolved",
           "title": "红月落处的呼唤",
           "volume": 6
+        },
+        {
+          "evidence": [
+            {
+              "chapter_id": "ch-0064",
+              "end_line": 7897,
+              "start_line": 7881
+            }
+          ],
+          "kind": "main",
+          "question": "亡灵印记由谁散播，指向哪里？",
+          "resolution_note": "斯科特确认散播印记，目的地为哀嚎森林的往生者国度。本状态只关闭定位问题；印记与传统诅咒功能的关系、具体触发机制仍待解释，已保留原问题历史。",
+          "status": "resolved",
+          "title": "亡灵印记的发出者与目的地",
+          "volume": 6
         }
       ]
     },
@@ -6265,10 +7285,10 @@
         "v04-e08",
         "v05-e05"
       ],
-      "question": "罗得宾士为何复仇、何时转生，如何骗过圣焰审判？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第5集。读者已知他仍存在，审判小队并不知道；与主角暂无相识证据。",
-      "status": "open",
-      "title": "跨集 · 音乐家的身世与逃脱",
+      "question": "罗得早先如何逃过审判，何时转生？",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第5集。第五集已与黑龙相遇并随队；旧次逃生方式和转生时间仍未明，异常召唤不能自动解释旧案。",
+      "status": "partial",
+      "title": "跨集 · 罗得的旧次逃生与新相遇",
       "tracking_key": "th-rode-music",
       "volume_history": [
         {
@@ -6278,6 +7298,21 @@
           "status": "open",
           "title": "音乐家的身世与逃脱",
           "volume": 4
+        },
+        {
+          "evidence": [
+            {
+              "chapter_id": "ch-0051",
+              "end_line": 6388,
+              "start_line": 6335
+            }
+          ],
+          "kind": "hidden",
+          "question": "罗得早先如何逃过审判，何时转生？",
+          "resolution_note": "第五集已与黑龙相遇并随队；旧次逃生方式和转生时间仍未明，异常召唤不能自动解释旧案。",
+          "status": "partial",
+          "title": "罗得的旧次逃生与新相遇",
+          "volume": 5
         }
       ]
     },
@@ -6288,17 +7323,17 @@
         "cross-holy-fire-01"
       ],
       "id": "book-b3781f6d7341",
-      "kind": "main",
+      "kind": "subplot",
       "node_ids": [
         "v04-e01",
         "v04-e08",
         "v04-e09",
         "v05-e01"
       ],
-      "question": "灵魂援助能否救黑七，圣焰转移将怎样影响黑龙？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第5集。黑七仍有受焚痛苦，黑龙也遭圣焰，生死与战果均未完成。",
-      "status": "open",
-      "title": "跨集 · 黑七与黑龙的圣焰危机",
+      "question": "第四集圣焰危机中黑七是否获救？",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第5集。第五集确认黑七存活，黄金骨架保留而灵魂退近白银；只关闭这次生死悬念，灵魂恢复与后续受伤仍分别追踪。",
+      "status": "resolved",
+      "title": "跨集 · 黑七圣焰救援的生死结局",
       "tracking_key": "th-heiqi-holy-fire",
       "volume_history": [
         {
@@ -6308,6 +7343,21 @@
           "status": "open",
           "title": "黑七与黑龙的圣焰危机",
           "volume": 4
+        },
+        {
+          "evidence": [
+            {
+              "chapter_id": "ch-0046",
+              "end_line": 5665,
+              "start_line": 5661
+            }
+          ],
+          "kind": "subplot",
+          "question": "第四集圣焰危机中黑七是否获救？",
+          "resolution_note": "第五集确认黑七存活，黄金骨架保留而灵魂退近白银；只关闭这次生死悬念，灵魂恢复与后续受伤仍分别追踪。",
+          "status": "resolved",
+          "title": "黑七圣焰救援的生死结局",
+          "volume": 5
         }
       ]
     },
@@ -6319,7 +7369,8 @@
         "cross-angel-01",
         "cross-angel-02",
         "cross-angel-03",
-        "cross-rosy-01"
+        "cross-rosy-01",
+        "cross-rosy-02"
       ],
       "id": "book-09f441653222",
       "kind": "subplot",
@@ -6331,12 +7382,13 @@
         "v06-e09",
         "v07-e03",
         "v07-e05",
-        "v07-e06"
+        "v07-e06",
+        "v08-e08"
       ],
-      "question": "萝茜能否重建自我，旧杀意是否会再次支配行动？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第7集。萝茜作为失忆不死者与娜娜互动，独立封存天使被黑龙吸收；两者未混为一个人格。",
+      "question": "暗黑力量如何形成，克丽丝将怎样看待其特殊身体？",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第8集。原萝茜仍失忆，通过娜娜获得新关系；见克丽丝不等于治疗或记忆恢复。",
       "status": "partial",
-      "title": "跨集 · 萝茜残存身份与天使分离",
+      "title": "跨集 · 萝茜的新力量与自我重建",
       "tracking_key": "rosy-angel-identity",
       "volume_history": [
         {
@@ -6362,6 +7414,14 @@
           "status": "partial",
           "title": "萝茜残存身份与天使分离",
           "volume": 7
+        },
+        {
+          "kind": "subplot",
+          "question": "暗黑力量如何形成，克丽丝将怎样看待其特殊身体？",
+          "resolution_note": "原萝茜仍失忆，通过娜娜获得新关系；见克丽丝不等于治疗或记忆恢复。",
+          "status": "partial",
+          "title": "萝茜的新力量与自我重建",
+          "volume": 8
         }
       ]
     },
@@ -6380,7 +7440,7 @@
         "v04-e04"
       ],
       "question": "安魂创作会怎样发展，亡妻线将何时重返？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第6集。安魂用途与琴歌能力被验证，新曲灵感出现；亡妻现状没有新增答案。",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第6集。安魂用途与琴歌能力被验证，新曲灵感出现；亡妻现状没有新增答案。",
       "status": "partial",
       "title": "跨集 · 罗得的音乐与未明往事",
       "tracking_key": "roder-song-and-wife",
@@ -6416,7 +7476,7 @@
         "v06-e07"
       ],
       "question": "公平看待异族风险能否兼容对实际杀戮的约束？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第6集。顾问反省偏见仍担心斯科特鼓励吸魂，伦理张力并未因反问消除。",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第6集。顾问反省偏见仍担心斯科特鼓励吸魂，伦理张力并未因反问消除。",
       "status": "open",
       "title": "跨集 · 吸魂与异族伦理",
       "tracking_key": "soul-consumption-ethics",
@@ -6445,7 +7505,8 @@
         "v07-edge-04",
         "cross-desert-01",
         "cross-angel-03",
-        "cross-history-01"
+        "cross-history-01",
+        "cross-armour-02"
       ],
       "id": "book-2c92e5ad3024",
       "kind": "hidden",
@@ -6457,10 +7518,11 @@
         "v06-e08",
         "v07-e05",
         "v07-e06",
-        "v07-e07"
+        "v07-e07",
+        "v08-e01"
       ],
       "question": "大陆为何消失，悼亡之魂还能怎样成长？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第7集。古战争与元力联系获得口述解释和局部实证；大陆失踪原因仍未知，黑龙远未具古君王战力。",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第8集。古战争与元力联系获得口述解释和局部实证；大陆失踪原因仍未知，黑龙远未具古君王战力。",
       "status": "partial",
       "title": "跨集 · 不死帝国失踪与君王力量",
       "tracking_key": "desert-bones-and-mourning-soul",
@@ -6494,9 +7556,13 @@
     {
       "edge_ids": [
         "v07-edge-07",
+        "v08-edge-01",
+        "v08-edge-02",
+        "v08-edge-03",
         "cross-identity-news-01",
         "cross-knight-01",
-        "cross-armour-01"
+        "cross-armour-01",
+        "cross-cliffhanger-01"
       ],
       "id": "book-8477942e0118",
       "kind": "hidden",
@@ -6504,13 +7570,17 @@
         "v06-e02",
         "v07-e08",
         "v07-e09",
+        "v08-e01",
+        "v08-e02",
+        "v08-e03",
+        "v08-e06",
         "v05-e01",
         "v06-e08"
       ],
-      "question": "雷奥何以在光明教会任职并持续定位？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第7集。追踪已造成拦截，机制、私人动机及异常表情尚未解释。",
-      "status": "open",
-      "title": "跨集 · 暗之神骑的身份与追踪",
+      "question": "雷奥为何替教会服务，如何持续定位并遮蔽自身？",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第8集。死亡骑士及深渊镇守岗位已揭，火马救回并转向总部；动机和定位机制未回收。",
+      "status": "partial",
+      "title": "跨集 · 死亡骑士的教会身份",
       "tracking_key": "god-knight-pursuit",
       "volume_history": [
         {
@@ -6528,6 +7598,14 @@
           "status": "open",
           "title": "暗之神骑的身份与追踪",
           "volume": 7
+        },
+        {
+          "kind": "hidden",
+          "question": "雷奥为何替教会服务，如何持续定位并遮蔽自身？",
+          "resolution_note": "死亡骑士及深渊镇守岗位已揭，火马救回并转向总部；动机和定位机制未回收。",
+          "status": "partial",
+          "title": "死亡骑士的教会身份",
+          "volume": 8
         }
       ]
     },
@@ -6544,7 +7622,7 @@
         "v05-e04"
       ],
       "question": "龙墓与龙岛资源是否仍值得追求？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第7集。已进入龙墓并承担损失，安息石路线被当前判断拒绝；不等于相关地点或力量线索永久结束。",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第7集。已进入龙墓并承担损失，安息石路线被当前判断拒绝；不等于相关地点或力量线索永久结束。",
       "status": "partial",
       "title": "跨集 · 求力远征与龙墓",
       "tracking_key": "dragon-tomb-expedition",
@@ -6561,24 +7639,116 @@
     },
     {
       "edge_ids": [
+        "v08-edge-04",
+        "v08-edge-06",
+        "cross-aroyo-01"
+      ],
+      "id": "book-49e8bb5d0f08",
+      "kind": "hidden",
+      "node_ids": [
+        "v08-e04",
+        "v08-e05",
+        "v08-e07",
+        "v01-e03"
+      ],
+      "question": "氓族若得知阿罗约真实遭遇，联盟会如何改变？",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第8集。族源得到确认，记忆亲近与撒谎同时成立；族长仍不知死因，未能评价这项隐瞒。",
+      "status": "open",
+      "title": "跨集 · 阿罗约记忆与被隐藏的旧杀戮",
+      "tracking_key": "aroyo-memory-and-mang-clan",
+      "volume_history": [
+        {
+          "kind": "hidden",
+          "question": "氓族若得知阿罗约真实遭遇，联盟会如何改变？",
+          "resolution_note": "族源得到确认，记忆亲近与撒谎同时成立；族长仍不知死因，未能评价这项隐瞒。",
+          "status": "open",
+          "title": "阿罗约记忆与被隐藏的旧杀戮",
+          "volume": 8
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "v08-edge-06",
+        "v08-edge-07",
+        "v08-edge-08",
+        "cross-altar-01"
+      ],
+      "id": "book-994cfa997ae2",
+      "kind": "main",
+      "node_ids": [
+        "v08-e05",
+        "v08-e07",
+        "v08-e09",
+        "v02-e01"
+      ],
+      "question": "被保存的灵魂能否顺利重生，其人格和意愿会怎样延续？",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第8集。祖先逆转史由族长讲述，设施修复完成、首批三十余魂启动；全部转生结果尚未揭示。",
+      "status": "partial",
+      "title": "跨集 · 祭坛逆转与氓族存续",
+      "tracking_key": "transformation-altar-and-mang-survival",
+      "volume_history": [
+        {
+          "kind": "main",
+          "question": "被保存的灵魂能否顺利重生，其人格和意愿会怎样延续？",
+          "resolution_note": "祖先逆转史由族长讲述，设施修复完成、首批三十余魂启动；全部转生结果尚未揭示。",
+          "status": "partial",
+          "title": "祭坛逆转与氓族存续",
+          "volume": 8
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "v08-edge-08",
+        "cross-tuk-01"
+      ],
+      "id": "book-1a972091c7f4",
+      "kind": "hidden",
+      "node_ids": [
+        "v08-e03",
+        "v08-e05",
+        "v08-e09",
+        "v01-e07"
+      ],
+      "question": "图克如何诞生，结尾声音与其守护使命有何关系？",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第8集。公爵与忠诚变化明确，图克不知道逆转前史；启动景象令他熟悉，声音身份未明。",
+      "status": "open",
+      "title": "跨集 · 图克与祭坛来历",
+      "tracking_key": "tuk-and-the-transformation-altar",
+      "volume_history": [
+        {
+          "kind": "hidden",
+          "question": "图克如何诞生，结尾声音与其守护使命有何关系？",
+          "resolution_note": "公爵与忠诚变化明确，图克不知道逆转前史；启动景象令他熟悉，声音身份未明。",
+          "status": "open",
+          "title": "图克与祭坛来历",
+          "volume": 8
+        }
+      ]
+    },
+    {
+      "edge_ids": [
         "cross-memory-01",
-        "cross-memory-02"
+        "cross-memory-02",
+        "cross-aroyo-01"
       ],
       "id": "book-0a05fa972401",
       "kind": "hidden",
       "node_ids": [
         "v01-e03",
         "v02-e06",
-        "v03-e04"
+        "v03-e04",
+        "v08-e05"
       ],
       "question": "记忆所得如何改变选择，哪些能力仍不能继承？",
-      "resolution_note": "已入库至第7集；本线最近明确记录为第3集。跨集信息优势得到兑现；知识与魔力仍须分开。",
+      "resolution_note": "已入库至第8集；本线最近明确记录为第8集。跨集信息优势得到兑现；知识与魔力仍须分开。",
       "status": "partial",
       "title": "跨集 · 记忆、知识与力量",
       "tracking_key": "memory-and-power",
       "volume_history": []
     }
   ],
-  "title": "超级骷髅兵 · 九维深化第1—7集",
-  "updated_at": "2026-10-21T20:51:21.410059+00:00"
+  "title": "超级骷髅兵 · 九维深化第1—8集",
+  "updated_at": "2026-10-21T21:04:56.636772+00:00"
 }

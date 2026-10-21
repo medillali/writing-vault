@@ -7,14 +7,14 @@
       "暗之神骑",
       "雷奥"
     ],
-    "arc_change": "给出两次定位推动拦截，短暂异常表情留下内在冲突线索。",
-    "conflict": "被己方教义归入异端范畴，却拥有超高地位与力量。",
-    "coverage_note": "九维深化已覆盖第1至7集；变化记录以各集证据为准。",
-    "goal": "按任务追踪不死生物，私人动机未明。",
-    "knowledge_limits": "定位机制、真实身份及讽刺或悲伤的来源都未揭示。",
+    "arc_change": "从误判巫妖到改攻眼眶，失械败退后突袭救马，再见援力转向教会总部。",
+    "conflict": "不死身份服务反不死组织；战术上依赖兵器与坐骑，遇群体强援需撤。",
+    "coverage_note": "九维深化已覆盖第1至8集；变化记录以各集证据为准。",
+    "goal": "追捕黑龙、维护任务秘密，保全并救回哥顿普。",
+    "knowledge_limits": "定位原理和受教会约束原因仍未知；其离去不等于放弃全部任务。保密杀人是已见行为，教皇是否直接下达灭口命令仍仅有安德鲁推断。",
     "name": "雷奥",
-    "relationships": "安德鲁畏惧且依赖他；身份仅在极小范围公开。",
-    "summary": "教会隐藏使用的暗属性强者，能持续报告黑龙一方位置。",
+    "relationships": "与哥顿普有救养和长期默契；威胁安德鲁并灭口骑士，与图克形成技巧对照。",
+    "summary": "自认死亡骑士的暗之神骑，技巧强而身体不及黑龙坚固，重视火马，也为保密杀害教会骑士。",
     "volume_history": [
       {
         "aliases": [
@@ -65,6 +65,47 @@
         "relationships": "安德鲁畏惧且依赖他；身份仅在极小范围公开。",
         "summary": "教会隐藏使用的暗属性强者，能持续报告黑龙一方位置。",
         "volume": 7
+      },
+      {
+        "aliases": [
+          "暗之神骑",
+          "暗"
+        ],
+        "arc_change": "从误判巫妖到改攻眼眶，失械败退后突袭救马，再见援力转向教会总部。",
+        "conflict": "不死身份服务反不死组织；战术上依赖兵器与坐骑，遇群体强援需撤。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0078",
+            "end_line": 9744,
+            "start_line": 9700
+          },
+          {
+            "chapter_id": "ch-0079",
+            "end_line": 9874,
+            "start_line": 9838
+          },
+          {
+            "chapter_id": "ch-0080",
+            "end_line": 9949,
+            "start_line": 9931
+          },
+          {
+            "chapter_id": "ch-0082",
+            "end_line": 10222,
+            "start_line": 10173
+          },
+          {
+            "chapter_id": "ch-0085",
+            "end_line": 10651,
+            "start_line": 10616
+          }
+        ],
+        "goal": "追捕黑龙、维护任务秘密，保全并救回哥顿普。",
+        "knowledge_limits": "定位原理和受教会约束原因仍未知；其离去不等于放弃全部任务。保密杀人是已见行为，教皇是否直接下达灭口命令仍仅有安德鲁推断。",
+        "name": "雷奥",
+        "relationships": "与哥顿普有救养和长期默契；威胁安德鲁并灭口骑士，与图克形成技巧对照。",
+        "summary": "自认死亡骑士的暗之神骑，技巧强而身体不及黑龙坚固，重视火马，也为保密杀害教会骑士。",
+        "volume": 8
       }
     ]
   },
@@ -94,20 +135,61 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 9500
+    },
+    {
+      "chapter_id": "ch-0078",
+      "claim_kind": "inference",
+      "end_line": 9744,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 9700
+    },
+    {
+      "chapter_id": "ch-0079",
+      "claim_kind": "inference",
+      "end_line": 9874,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 9838
+    },
+    {
+      "chapter_id": "ch-0080",
+      "claim_kind": "inference",
+      "end_line": 9949,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 9931
+    },
+    {
+      "chapter_id": "ch-0082",
+      "claim_kind": "inference",
+      "end_line": 10222,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 10173
+    },
+    {
+      "chapter_id": "ch-0085",
+      "claim_kind": "inference",
+      "end_line": 10651,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 10616
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/暗之神骑",
   "review_status": "draft",
-  "revision": 2,
+  "revision": 3,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
     "第06集",
-    "第07集"
+    "第07集",
+    "第08集"
   ],
   "title": "雷奥：分集人物研究",
-  "updated_at": "2026-10-21T20:51:18.720652+00:00",
+  "updated_at": "2026-10-21T21:04:52.362828+00:00",
   "user_notes": ""
 }

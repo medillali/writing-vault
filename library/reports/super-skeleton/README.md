@@ -9,3 +9,25 @@
 正式进度以 `exchanges/runs/run-deep-super-skeleton-20261022.json` 为准。183个正文/序章与18个集标题、1段章前说明分别计数，索引202段不等于202章。
 
 首轮完成本书后交付总审查包；其他三本尚未扩大其开篇研究范围。原书留在本机，Space未接入。
+
+## 阅读与审查
+
+本机统一入口为资料库内 `library/views/超级骷髅兵全书审查.html`。页面可按集阅读九维条目、查看行号证据、筛选人物和素材，并进入主线树/暗线网络。`audit/review-NN.md` 保留每集审查发现与修订记录；它与用户本人确认通过是两个独立状态。
+
+建议先检查重要人物在各集的变化，再选择有价值的场景和机制收藏，最后核对未决问题与伏笔回收。事实不清的条目可以留下个人笔记；不要直接覆盖生成主档。来源分析卡和可迁移机制分别保存，原创创作时应重新设计人物、条件和因果组合。
+
+## 从备份或另一台设备恢复审查入口
+
+HTML 是可重新生成的阅读副本，Git和标准备份保存研究主档。恢复整个资料库后，在有 Python 3 的环境运行：
+
+```text
+python library/reports/super-skeleton/rebuild_review.py
+```
+
+脚本会根据所在目录找到资料库，并生成上述 HTML；这一操作无需原书TXT。剧情图另用蒸馏工具重新生成（在工具仓库目录运行，并将 `../writing-vault` 换成实际资料库路径）：
+
+```text
+python scripts/library.py --vault ../writing-vault graph-render --owner-kind source --owner-id src-9ff09c395734410b856f77c77a652834 --output ../writing-vault/library/views/plots/src-9ff09c395734410b856f77c77a652834-full-nine
+```
+
+以上重建只提供已有研究和证据定位。要核对原文或继续蒸馏，仍须在本机接入同一来源修订的原书。

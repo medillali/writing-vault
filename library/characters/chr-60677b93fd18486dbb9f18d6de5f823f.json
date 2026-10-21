@@ -3,14 +3,14 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "由向导和考察者转为自愿效忠者，解释集体力量的制度用途。",
-    "conflict": "好奇与挑战欲受族民安全约束；知识丰富但社会阅历有限。",
-    "coverage_note": "九维深化已覆盖第1至7集；变化记录以各集证据为准。",
-    "goal": "保护族民，寻找能够团结不死领地的君王。",
-    "knowledge_limits": "历史来自残念，不知古大陆消失原因，也不完全理解悼亡元力。",
+    "arc_change": "首次派魅及三十亡灵参战，后明确拒绝斯文请求并说明价值排斥。",
+    "conflict": "不愿族民涉战却须回应效忠后的求助；其目标比黑龙自由愿望更具扩张性。",
+    "coverage_note": "九维深化已覆盖第1至8集；变化记录以各集证据为准。",
+    "goal": "促成真正不死君王并使不死族重新主宰。",
+    "knowledge_limits": "只感领民安全，未收到黑龙完整情况；不能推断他已经知道每一处杀戮。",
     "name": "斯科特",
-    "relationships": "与黑龙结盟供元力；不带族民进入龙墓；承认对同行筛选过史实。",
-    "summary": "观察黑龙风险判断后，公开隐瞒历史并献上非死亡连带的效忠。",
+    "relationships": "与黑龙通过灵魂联系合作；对娜娜仍有亲近，与人类整体立场不同。",
+    "summary": "派出援军的亡灵领主，同时选择阻隔人类价值对黑龙的影响。",
     "volume_history": [
       {
         "aliases": [],
@@ -51,6 +51,34 @@
         "relationships": "与黑龙结盟供元力；不带族民进入龙墓；承认对同行筛选过史实。",
         "summary": "观察黑龙风险判断后，公开隐瞒历史并献上非死亡连带的效忠。",
         "volume": 7
+      },
+      {
+        "aliases": [],
+        "arc_change": "首次派魅及三十亡灵参战，后明确拒绝斯文请求并说明价值排斥。",
+        "conflict": "不愿族民涉战却须回应效忠后的求助；其目标比黑龙自由愿望更具扩张性。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0087",
+            "end_line": 10874,
+            "start_line": 10852
+          },
+          {
+            "chapter_id": "ch-0083",
+            "end_line": 10345,
+            "start_line": 10332
+          },
+          {
+            "chapter_id": "ch-0087",
+            "end_line": 10887,
+            "start_line": 10878
+          }
+        ],
+        "goal": "促成真正不死君王并使不死族重新主宰。",
+        "knowledge_limits": "只感领民安全，未收到黑龙完整情况；不能推断他已经知道每一处杀戮。",
+        "name": "斯科特",
+        "relationships": "与黑龙通过灵魂联系合作；对娜娜仍有亲近，与人类整体立场不同。",
+        "summary": "派出援军的亡灵领主，同时选择阻隔人类价值对黑龙的影响。",
+        "volume": 8
       }
     ]
   },
@@ -72,20 +100,45 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 9425
+    },
+    {
+      "chapter_id": "ch-0087",
+      "claim_kind": "inference",
+      "end_line": 10874,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 10852
+    },
+    {
+      "chapter_id": "ch-0083",
+      "claim_kind": "inference",
+      "end_line": 10345,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 10332
+    },
+    {
+      "chapter_id": "ch-0087",
+      "claim_kind": "inference",
+      "end_line": 10887,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 10878
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/斯科特",
   "review_status": "draft",
-  "revision": 2,
+  "revision": 3,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
     "第06集",
-    "第07集"
+    "第07集",
+    "第08集"
   ],
   "title": "斯科特：分集人物研究",
-  "updated_at": "2026-10-21T20:51:18.181554+00:00",
+  "updated_at": "2026-10-21T21:04:53.388954+00:00",
   "user_notes": ""
 }

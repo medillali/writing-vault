@@ -41,6 +41,7 @@ KIND_LABELS = {"fact": "事实", "inference": "推断", "synthesis": "机制抽�
 FIELD_LABELS = {
     "name": "人物",
     "aliases": "异名",
+    "identity_notes": "身份辨析",
     "opening_observations": "原开篇观察（保留历史）",
     "summary": "概述",
     "goal": "目标",
@@ -280,8 +281,8 @@ def render_progress(volumes: list[dict[str, Any] | None], chapters: dict[str, di
     cards = []
     for number, report in enumerate(volumes, 1):
         if report is None:
-            status = "尚未阅读"
-            detail = "等待读取与九维分析"
+            status = "尚未入库"
+            detail = "等待九维报告审查入库"
             css = "pending"
         elif report.get("_load_error"):
             status = "读取失败"
@@ -307,7 +308,7 @@ def render_volume(
     if report is None:
         return (
             f'<section class="volume pending-volume" id="vol-{number:02d}">'
-            f'<div class="section-kicker">第{number:02d}集</div><h3>尚未阅读</h3>'
+            f'<div class="section-kicker">第{number:02d}集</div><h3>尚未入库</h3>'
             '<p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section>'
         )
     if report.get("_load_error"):
