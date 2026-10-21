@@ -3,11 +3,11 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "获银丝空骑任务，以视角共享提供敌情；在同伴争执中虽不明原因，仍优先服从黑龙。",
-    "conflict": "能察觉黑龙针对同伴的异常杀意，却仍把忠诚置首。",
-    "coverage_note": "九维深化已覆盖第1至7集；变化记录以各集证据为准。",
-    "goal": "守护黑龙并执行任务。",
-    "knowledge_limits": "知道黑龙的杀意对象，却不理解冲突根由；骑士感到羞辱不代表他的意图。",
+    "arc_change": "率先使尸骨动作并参与持续练习；森林发现路线偏离，海上发现巨兽。",
+    "conflict": "视野共享仍依赖黑龙注意；感知到图像不自动等于识破陷阱。",
+    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
+    "goal": "帮助黑龙侦察、警戒和学习。",
+    "knowledge_limits": "没有证据独力看穿所有幻境或准确判明海兽意图。",
     "name": "黑大",
     "opening_observations": {
       "confirmed": "召唤师的命令未能替代它对黑龙的服从；战斗中使用投刀。",
@@ -19,8 +19,8 @@
         "后续的个体成长"
       ]
     },
-    "relationships": "与银丝组成侦察搭档；对斯文的兵刃指向服从黑龙。",
-    "summary": "具独立意识的孩子，兼顾近战拆骨与骑乘银丝侦察。",
+    "relationships": "骑银丝，搭载斯文；与黑二及黑龙共同练习。",
+    "summary": "空骑侦察者，也是率先领会新技能的孩子。",
     "volume_history": [
       {
         "aliases": [],
@@ -177,6 +177,39 @@
         "relationships": "与银丝组成侦察搭档；对斯文的兵刃指向服从黑龙。",
         "summary": "具独立意识的孩子，兼顾近战拆骨与骑乘银丝侦察。",
         "volume": 7
+      },
+      {
+        "aliases": [],
+        "arc_change": "率先使尸骨动作并参与持续练习；森林发现路线偏离，海上发现巨兽。",
+        "conflict": "视野共享仍依赖黑龙注意；感知到图像不自动等于识破陷阱。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0098",
+            "end_line": 12548,
+            "start_line": 12544
+          },
+          {
+            "chapter_id": "ch-0099",
+            "end_line": 12793,
+            "start_line": 12788
+          },
+          {
+            "chapter_id": "ch-0102",
+            "end_line": 13322,
+            "start_line": 13310
+          },
+          {
+            "chapter_id": "ch-0103",
+            "end_line": 13499,
+            "start_line": 13489
+          }
+        ],
+        "goal": "帮助黑龙侦察、警戒和学习。",
+        "knowledge_limits": "没有证据独力看穿所有幻境或准确判明海兽意图。",
+        "name": "黑大",
+        "relationships": "骑银丝，搭载斯文；与黑二及黑龙共同练习。",
+        "summary": "空骑侦察者，也是率先领会新技能的孩子。",
+        "volume": 10
       }
     ]
   },
@@ -318,12 +351,44 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 9543
+    },
+    {
+      "chapter_id": "ch-0098",
+      "claim_kind": "inference",
+      "end_line": 12548,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12544
+    },
+    {
+      "chapter_id": "ch-0099",
+      "claim_kind": "inference",
+      "end_line": 12793,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12788
+    },
+    {
+      "chapter_id": "ch-0102",
+      "claim_kind": "inference",
+      "end_line": 13322,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 13310
+    },
+    {
+      "chapter_id": "ch-0103",
+      "claim_kind": "inference",
+      "end_line": 13499,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 13489
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/opening-test-20261022/black_one",
   "review_status": "draft",
-  "revision": 7,
+  "revision": 8,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -336,9 +401,10 @@
     "第05集",
     "第06集",
     "第07集",
+    "第10集",
     "能力差"
   ],
   "title": "黑大：分集人物研究",
-  "updated_at": "2026-10-21T20:51:18.525649+00:00",
+  "updated_at": "2026-10-21T21:18:22.258913+00:00",
   "user_notes": ""
 }

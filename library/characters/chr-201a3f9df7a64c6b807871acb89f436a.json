@@ -3,14 +3,14 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "耗竭时受压、补魂后脱困，被具体动作命令约束；试战击裂黑二皮肉并砸平小块脸骨，随后被收回。",
-    "conflict": "躯体属于黑龙更高权限，意念却仍抗拒。",
-    "coverage_note": "九维深化已覆盖第1至9集；变化记录以各集证据为准。",
-    "goal": "本能战斗与毁灭。",
-    "knowledge_limits": "无自主智慧/新人格证据；并未被炼化成无害能量。",
+    "arc_change": "击杀法师后受军医压制，以震地扰施法、遁林换方式，战后被收回。",
+    "conflict": "治疗术相克，闪电也能损其能量。",
+    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
+    "goal": "本能攻击敌方战斗力量。",
+    "knowledge_limits": "无人格恢复证据，不把战斗策略等同完整智慧。",
     "name": "坦克",
-    "relationships": "黑龙能停其身体；罗得曾遭近距攻击，黑二与其试斗。",
-    "summary": "被悼亡之魂淬炼成紫色能量的战魂，仍只有战意。",
+    "relationships": "黑龙的可用战力；没有因出战而证明意念驯服。",
+    "summary": "由黑龙放出参战的悼亡战魂，免物理但不免元素与光系。",
     "volume_history": [
       {
         "aliases": [],
@@ -100,6 +100,34 @@
         "relationships": "黑龙能停其身体；罗得曾遭近距攻击，黑二与其试斗。",
         "summary": "被悼亡之魂淬炼成紫色能量的战魂，仍只有战意。",
         "volume": 9
+      },
+      {
+        "aliases": [],
+        "arc_change": "击杀法师后受军医压制，以震地扰施法、遁林换方式，战后被收回。",
+        "conflict": "治疗术相克，闪电也能损其能量。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0098",
+            "end_line": 12612,
+            "start_line": 12582
+          },
+          {
+            "chapter_id": "ch-0098",
+            "end_line": 12639,
+            "start_line": 12616
+          },
+          {
+            "chapter_id": "ch-0098",
+            "end_line": 12694,
+            "start_line": 12692
+          }
+        ],
+        "goal": "本能攻击敌方战斗力量。",
+        "knowledge_limits": "无人格恢复证据，不把战斗策略等同完整智慧。",
+        "name": "坦克",
+        "relationships": "黑龙的可用战力；没有因出战而证明意念驯服。",
+        "summary": "由黑龙放出参战的悼亡战魂，免物理但不免元素与光系。",
+        "volume": 10
       }
     ]
   },
@@ -185,21 +213,46 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 12261
+    },
+    {
+      "chapter_id": "ch-0098",
+      "claim_kind": "inference",
+      "end_line": 12612,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12582
+    },
+    {
+      "chapter_id": "ch-0098",
+      "claim_kind": "inference",
+      "end_line": 12639,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12616
+    },
+    {
+      "chapter_id": "ch-0098",
+      "claim_kind": "inference",
+      "end_line": 12694,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12692
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/坦克",
   "review_status": "draft",
-  "revision": 3,
+  "revision": 4,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
     "第01集",
     "第02集",
-    "第09集"
+    "第09集",
+    "第10集"
   ],
   "title": "坦克：分集人物研究",
-  "updated_at": "2026-10-21T21:09:14.996160+00:00",
+  "updated_at": "2026-10-21T21:18:21.978627+00:00",
   "user_notes": ""
 }

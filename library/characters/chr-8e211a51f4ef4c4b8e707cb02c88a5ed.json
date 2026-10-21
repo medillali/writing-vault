@@ -7,14 +7,14 @@
       "暗之神骑",
       "雷奥"
     ],
-    "arc_change": "逼安德鲁带上圣山，取得长枪并试用，随后循强波动赶来，尚未再战黑龙。",
-    "conflict": "自身力量不足发挥兵器全部威力，教皇目的未明。",
-    "coverage_note": "九维深化已覆盖第1至9集；变化记录以各集证据为准。",
-    "goal": "追踪并准备对付黑龙。",
-    "knowledge_limits": "噬魂前主具体身份和教皇持有原因未解。",
+    "arc_change": "灵魂分解术使位阶下降，最后被缚后躯体和魂火击碎、灵魂被噬魂吞下。",
+    "conflict": "向往同族领地却仍效任务；噬魂的亲和规则击碎必杀预期。",
+    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
+    "goal": "完成教皇交付的杀黑龙任务。",
+    "knowledge_limits": "死息傀儡不是本人复活；本集一处魂心称谓与前文未凝心矛盾。",
     "name": "雷奥",
-    "relationships": "与哥顿普同行，服从教皇任务而保有疑问。",
-    "summary": "公爵级死亡骑士，获得教皇所赐君王灵魂武装噬魂。",
+    "relationships": "哥顿普按承诺相助；对教皇是否送死产生未解疑问。",
+    "summary": "近皇帝层次的死亡骑士，借被俘近身刺杀失败后死亡。",
     "volume_history": [
       {
         "aliases": [
@@ -137,6 +137,42 @@
         "relationships": "与哥顿普同行，服从教皇任务而保有疑问。",
         "summary": "公爵级死亡骑士，获得教皇所赐君王灵魂武装噬魂。",
         "volume": 9
+      },
+      {
+        "aliases": [
+          "暗之神骑",
+          "暗"
+        ],
+        "arc_change": "灵魂分解术使位阶下降，最后被缚后躯体和魂火击碎、灵魂被噬魂吞下。",
+        "conflict": "向往同族领地却仍效任务；噬魂的亲和规则击碎必杀预期。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0099",
+            "end_line": 12818,
+            "start_line": 12804
+          },
+          {
+            "chapter_id": "ch-0100",
+            "end_line": 12910,
+            "start_line": 12891
+          },
+          {
+            "chapter_id": "ch-0100",
+            "end_line": 12942,
+            "start_line": 12929
+          },
+          {
+            "chapter_id": "ch-0100",
+            "end_line": 12985,
+            "start_line": 12965
+          }
+        ],
+        "goal": "完成教皇交付的杀黑龙任务。",
+        "knowledge_limits": "死息傀儡不是本人复活；本集一处魂心称谓与前文未凝心矛盾。",
+        "name": "雷奥",
+        "relationships": "哥顿普按承诺相助；对教皇是否送死产生未解疑问。",
+        "summary": "近皇帝层次的死亡骑士，借被俘近身刺杀失败后死亡。",
+        "volume": 10
       }
     ]
   },
@@ -230,12 +266,44 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 11940
+    },
+    {
+      "chapter_id": "ch-0099",
+      "claim_kind": "inference",
+      "end_line": 12818,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12804
+    },
+    {
+      "chapter_id": "ch-0100",
+      "claim_kind": "inference",
+      "end_line": 12910,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12891
+    },
+    {
+      "chapter_id": "ch-0100",
+      "claim_kind": "inference",
+      "end_line": 12942,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12929
+    },
+    {
+      "chapter_id": "ch-0100",
+      "claim_kind": "inference",
+      "end_line": 12985,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12965
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/暗之神骑",
   "review_status": "draft",
-  "revision": 4,
+  "revision": 5,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -243,9 +311,10 @@
     "第06集",
     "第07集",
     "第08集",
-    "第09集"
+    "第09集",
+    "第10集"
   ],
   "title": "雷奥：分集人物研究",
-  "updated_at": "2026-10-21T21:09:15.356666+00:00",
+  "updated_at": "2026-10-21T21:18:22.746659+00:00",
   "user_notes": ""
 }

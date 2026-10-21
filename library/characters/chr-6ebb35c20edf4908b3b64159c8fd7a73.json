@@ -5,17 +5,17 @@
     "aliases": [
       "图克"
     ],
-    "arc_change": "守祭坛本能得解释，掌握矿藏图，灵魂之火正趋凝练，尚非已成皇帝。",
-    "conflict": "记忆需要消化，力量不能隔代继承。",
-    "coverage_note": "九维深化已覆盖第1至9集；变化记录以各集证据为准。",
-    "goal": "效忠黑龙，守护并建设祭坛领地。",
+    "arc_change": "切开泰戈皮肤验证并非无敌；助围雷奥，说明死息傀儡机制。",
+    "conflict": "传承不可避免遗失部分记忆。",
+    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
+    "goal": "护卫黑龙、运用继承知识。",
     "identity_notes": [
       "“黑武士侯爵”是称号、类别或身份声明，保留出处于分集历史，不用作自动合并人物的别名。"
     ],
-    "knowledge_limits": "旧领主也不知帝国消失原因；未来成长不等于现有战力。",
+    "knowledge_limits": "其传承记忆不如毕瑟原始记忆完整，不推断全知。",
     "name": "图克",
-    "relationships": "旧领主灵魂重新汇聚为图克；与阿古力特、毕瑟格林、斯文共建。",
-    "summary": "继承沼泽旧领主记忆与知识的黑武士，现有主体不变。",
+    "relationships": "与斯文、阿古力特、毕瑟共同研究。",
+    "summary": "继承旧领主知识后参与身体实验、战斗和古物解释。",
     "volume_history": [
       {
         "aliases": [
@@ -145,6 +145,34 @@
         "relationships": "旧领主灵魂重新汇聚为图克；与阿古力特、毕瑟格林、斯文共建。",
         "summary": "继承沼泽旧领主记忆与知识的黑武士，现有主体不变。",
         "volume": 9
+      },
+      {
+        "aliases": [],
+        "arc_change": "切开泰戈皮肤验证并非无敌；助围雷奥，说明死息傀儡机制。",
+        "conflict": "传承不可避免遗失部分记忆。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0097",
+            "end_line": 12414,
+            "start_line": 12409
+          },
+          {
+            "chapter_id": "ch-0100",
+            "end_line": 12984,
+            "start_line": 12967
+          },
+          {
+            "chapter_id": "ch-0100",
+            "end_line": 13009,
+            "start_line": 13003
+          }
+        ],
+        "goal": "护卫黑龙、运用继承知识。",
+        "knowledge_limits": "其传承记忆不如毕瑟原始记忆完整，不推断全知。",
+        "name": "图克",
+        "relationships": "与斯文、阿古力特、毕瑟共同研究。",
+        "summary": "继承旧领主知识后参与身体实验、战斗和古物解释。",
+        "volume": 10
       }
     ]
   },
@@ -262,12 +290,36 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 10994
+    },
+    {
+      "chapter_id": "ch-0097",
+      "claim_kind": "inference",
+      "end_line": 12414,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12409
+    },
+    {
+      "chapter_id": "ch-0100",
+      "claim_kind": "inference",
+      "end_line": 12984,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12967
+    },
+    {
+      "chapter_id": "ch-0100",
+      "claim_kind": "inference",
+      "end_line": 13009,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 13003
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/斯特里克雷亚斯·莱文茵特斯·图克",
   "review_status": "draft",
-  "revision": 5,
+  "revision": 6,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -275,9 +327,10 @@
     "第01集",
     "第02集",
     "第08集",
-    "第09集"
+    "第09集",
+    "第10集"
   ],
   "title": "图克：分集人物研究",
-  "updated_at": "2026-10-21T21:09:13.735493+00:00",
+  "updated_at": "2026-10-21T21:18:23.139628+00:00",
   "user_notes": ""
 }

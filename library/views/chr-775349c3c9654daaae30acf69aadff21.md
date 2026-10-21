@@ -1,8 +1,8 @@
 # 黑七：分集人物研究
 
-ID: `chr-775349c3c9654daaae30acf69aadff21` · 版本: 3 · 范围: source-analysis
+ID: `chr-775349c3c9654daaae30acf69aadff21` · 版本: 4 · 范围: source-analysis
 
-墓地撤退中被怒龙咆哮击中，再次进入较长恢复期。
+继续参战的黄金骷髅，伏击中再受骨伤。
 
 ## 完整卡片
 
@@ -12,14 +12,14 @@ ID: `chr-775349c3c9654daaae30acf69aadff21` · 版本: 3 · 范围: source-analys
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "被黑龙抱走后进入恢复期，返程时灵魂尚未完全恢复而留后。",
-    "conflict": "战斗武装和骨体完整，灵魂之心却受到强烈冲击。",
-    "coverage_note": "九维深化已覆盖第1至7集；变化记录以各集证据为准。",
-    "goal": "在队伍行动中存活并恢复。",
-    "knowledge_limits": "暂无独立意识的新增证明，不能替他补主观感受。",
+    "arc_change": "以肉身护同伴后骨损，后砍伤矮人见其迅速愈合。",
+    "conflict": "大腿被巨石砸扁，之后参与矮人战但恢复过程未交代。",
+    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
+    "goal": "守护黑龙与同伴。",
+    "knowledge_limits": "本集参战不证明腿骨已完整修复，旧灵魂伤也未给详细状态。",
     "name": "黑七",
-    "relationships": "黑龙特别救回并留其养伤；同伴人数因此减少一位。",
-    "summary": "墓地撤退中被怒龙咆哮击中，再次进入较长恢复期。",
+    "relationships": "与其他孩子共同护阵。",
+    "summary": "继续参战的黄金骷髅，伏击中再受骨伤。",
     "volume_history": [
       {
         "aliases": [],
@@ -87,6 +87,29 @@ ID: `chr-775349c3c9654daaae30acf69aadff21` · 版本: 3 · 范围: source-analys
         "relationships": "黑龙特别救回并留其养伤；同伴人数因此减少一位。",
         "summary": "墓地撤退中被怒龙咆哮击中，再次进入较长恢复期。",
         "volume": 7
+      },
+      {
+        "aliases": [],
+        "arc_change": "以肉身护同伴后骨损，后砍伤矮人见其迅速愈合。",
+        "conflict": "大腿被巨石砸扁，之后参与矮人战但恢复过程未交代。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0098",
+            "end_line": 12655,
+            "start_line": 12648
+          },
+          {
+            "chapter_id": "ch-0101",
+            "end_line": 13183,
+            "start_line": 13181
+          }
+        ],
+        "goal": "守护黑龙与同伴。",
+        "knowledge_limits": "本集参战不证明腿骨已完整修复，旧灵魂伤也未给详细状态。",
+        "name": "黑七",
+        "relationships": "与其他孩子共同护阵。",
+        "summary": "继续参战的黄金骷髅，伏击中再受骨伤。",
+        "volume": 10
       }
     ]
   },
@@ -124,22 +147,39 @@ ID: `chr-775349c3c9654daaae30acf69aadff21` · 版本: 3 · 范围: source-analys
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 8892
+    },
+    {
+      "chapter_id": "ch-0098",
+      "claim_kind": "inference",
+      "end_line": 12655,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 12648
+    },
+    {
+      "chapter_id": "ch-0101",
+      "claim_kind": "inference",
+      "end_line": 13183,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 13181
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/黑七",
   "review_status": "draft",
-  "revision": 3,
+  "revision": 4,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
     "第04集",
     "第05集",
-    "第07集"
+    "第07集",
+    "第10集"
   ],
   "title": "黑七：分集人物研究",
-  "updated_at": "2026-10-21T20:51:18.560649+00:00",
+  "updated_at": "2026-10-21T21:18:22.034920+00:00",
   "user_notes": ""
 }
 
