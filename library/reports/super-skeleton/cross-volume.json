@@ -4,7 +4,8 @@
     2,
     3,
     4,
-    5
+    5,
+    6
   ],
   "edges": [
     {
@@ -341,6 +342,176 @@
       "kind": "reveal",
       "label": "此前独立出现且逃过审判的音乐家经异常琴召唤进入主角队伍，逃脱原理仍不能据此推定",
       "to": "v05-e05"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0040",
+          "end_line": 5087,
+          "start_line": 5042
+        },
+        {
+          "chapter_id": "ch-0041",
+          "end_line": 5115,
+          "start_line": 5088
+        },
+        {
+          "chapter_id": "ch-0057",
+          "end_line": 7008,
+          "start_line": 6963
+        }
+      ],
+      "from": "v04-e06",
+      "id": "cross-children-02",
+      "kind": "payoff",
+      "label": "对泰戈的特殊反应发展为黑大主动开口和控制断开；骨架原主仍未确认",
+      "to": "v06-e01"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0047",
+          "end_line": 5815,
+          "start_line": 5773
+        },
+        {
+          "chapter_id": "ch-0064",
+          "end_line": 7897,
+          "start_line": 7861
+        }
+      ],
+      "from": "v05-e03",
+      "id": "cross-angel-01",
+      "kind": "reversal",
+      "label": "借体降临的强敌被群体控制后封印本源；封印不等于杀灭",
+      "to": "v06-e06"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0047",
+          "end_line": 5815,
+          "start_line": 5813
+        },
+        {
+          "chapter_id": "ch-0066",
+          "end_line": 8214,
+          "start_line": 8177
+        }
+      ],
+      "from": "v05-e03",
+      "id": "cross-angel-02",
+      "kind": "reveal",
+      "label": "降临者采用萝茜名字的疑问回收为天使与原残灵分离；原萝茜补魂醒来仍失忆",
+      "to": "v06-e09"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0048",
+          "end_line": 5941,
+          "start_line": 5876
+        },
+        {
+          "chapter_id": "ch-0064",
+          "end_line": 7897,
+          "start_line": 7881
+        }
+      ],
+      "from": "v05-e04",
+      "id": "cross-mark-02",
+      "kind": "payoff",
+      "label": "北行寻找印记源头后，斯科特确认自己散播印记；龙墓假设未成立",
+      "to": "v06-e06"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0055",
+          "end_line": 6869,
+          "start_line": 6847
+        },
+        {
+          "chapter_id": "ch-0065",
+          "end_line": 7968,
+          "start_line": 7945
+        }
+      ],
+      "from": "v05-e08",
+      "id": "cross-desert-01",
+      "kind": "reveal",
+      "label": "沙下骨骸得到斯科特的远古战争解释，史诗有起始边界；战因胜负仍未明",
+      "to": "v06-e07"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0051",
+          "end_line": 6388,
+          "start_line": 6335
+        },
+        {
+          "chapter_id": "ch-0065",
+          "end_line": 8081,
+          "start_line": 8048
+        }
+      ],
+      "from": "v05-e05",
+      "id": "cross-roder-02",
+      "kind": "payoff",
+      "label": "音乐家随队后的安魂琴歌产生战力之外的集体价值；亡妻现状未因此解决",
+      "to": "v06-e07"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0045",
+          "end_line": 5568,
+          "start_line": 5540
+        },
+        {
+          "chapter_id": "ch-0058",
+          "end_line": 7145,
+          "start_line": 7110
+        },
+        {
+          "chapter_id": "ch-0059",
+          "end_line": 7226,
+          "start_line": 7200
+        }
+      ],
+      "from": "v05-e01",
+      "id": "cross-identity-news-01",
+      "kind": "cause",
+      "label": "幸存者带回的不死身份情报引起疾风、同盟及教会不同应对",
+      "to": "v06-e02"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0029",
+          "end_line": 3515,
+          "start_line": 3514
+        },
+        {
+          "chapter_id": "ch-0046",
+          "end_line": 5632,
+          "start_line": 5623
+        }
+      ],
+      "from": "v03-e03",
+      "id": "cross-tank-02",
+      "kind": "reveal",
+      "label": "再压回体内的战魂仍未炼化，神圣伤只造成共同压制而非根除",
+      "to": "v05-e09"
     }
   ],
   "threads": [
@@ -357,7 +528,8 @@
         "cross-autonomy-01",
         "cross-nana-02",
         "cross-home-01",
-        "cross-redemption-02"
+        "cross-redemption-02",
+        "cross-roder-02"
       ],
       "id": "book-37dd82abc178",
       "kind": "main",
@@ -382,12 +554,16 @@
         "v05-e02",
         "v05-e04",
         "v05-e08",
+        "v06-e01",
+        "v06-e04",
+        "v06-e07",
         "v02-e01",
         "v04-e01",
-        "v04-e07"
+        "v04-e07",
+        "v05-e05"
       ],
-      "question": "黑龙如何兼顾自由、保护欲和他人意愿？",
-      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。归队条件与北行选择更明确，强制保护方案仍带价值冲突。",
+      "question": "黑龙如何协调同伴意愿、保护与自由？",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第6集。对黑大授权、对娜娜犹豫、音乐显示伙伴价值；强制转生伦理未结束。",
       "status": "partial",
       "title": "跨集 · 自由与同伴边界",
       "tracking_key": "blackdragon-autonomy-and-companionship",
@@ -423,6 +599,14 @@
           "status": "partial",
           "title": "自由与同伴边界",
           "volume": 5
+        },
+        {
+          "kind": "main",
+          "question": "黑龙如何协调同伴意愿、保护与自由？",
+          "resolution_note": "对黑大授权、对娜娜犹豫、音乐显示伙伴价值；强制转生伦理未结束。",
+          "status": "partial",
+          "title": "自由与同伴边界",
+          "volume": 6
         }
       ]
     },
@@ -453,7 +637,7 @@
         "v02-e06"
       ],
       "question": "救赎是否能够让星恢复生前身份？",
-      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。本集澄清其净化目的，星获救并归队；这是该次恢复身份尝试的回收，不推断整书救赎主题终结。",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第5集。本集澄清其净化目的，星获救并归队；这是该次恢复身份尝试的回收，不推断整书救赎主题终结。",
       "status": "resolved",
       "title": "跨集 · 救赎之魂的真实作用",
       "tracking_key": "redemption-soul",
@@ -497,8 +681,10 @@
         "v02-edge-04",
         "v02-edge-07",
         "v04-edge-04",
+        "v06-edge-01",
         "cross-children-01",
-        "cross-autonomy-01"
+        "cross-autonomy-01",
+        "cross-children-02"
       ],
       "id": "book-c55cdb2efcb4",
       "kind": "subplot",
@@ -512,10 +698,12 @@
         "v04-e07",
         "v04-e08",
         "v05-e02",
+        "v06-e01",
+        "v06-e08",
         "v03-e06"
       ],
-      "question": "除黑二外谁会真正获得自我意识？",
-      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。黑二能力和求赞行为继续发展；黑大尚未真正觉醒。",
+      "question": "其他八个孩子如何获得灵识？",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第6集。黑大完整觉醒明确，八孩仍无意识；斯科特给出灵魂框架但无法解释异常成长。",
       "status": "partial",
       "title": "跨集 · 孩子的独立意识",
       "tracking_key": "children-consciousness",
@@ -551,6 +739,14 @@
           "status": "partial",
           "title": "孩子的独立意识",
           "volume": 5
+        },
+        {
+          "kind": "subplot",
+          "question": "其他八个孩子如何获得灵识？",
+          "resolution_note": "黑大完整觉醒明确，八孩仍无意识；斯科特给出灵魂框架但无法解释异常成长。",
+          "status": "partial",
+          "title": "孩子的独立意识",
+          "volume": 6
         }
       ]
     },
@@ -583,7 +779,7 @@
         "v03-e09"
       ],
       "question": "雷神残余和撒拉丁部族如何应对领袖及贸易体系丧失？",
-      "resolution_note": "已入库至第5集；本线最近明确记录为第3集。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第3集。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
       "status": "partial",
       "title": "跨集 · 雷神败亡后的利益与部族余波",
       "tracking_key": "thunder-mercenary-conflict",
@@ -625,7 +821,7 @@
         "v02-e01"
       ],
       "question": "祭坛供能与自修复机制、古国消失原因是什么？",
-      "resolution_note": "已入库至第5集；本线最近明确记录为第2集。现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第2集。现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
       "status": "open",
       "title": "跨集 · 红月与沉沦国度",
       "tracking_key": "sunken-undead-kingdom",
@@ -651,7 +847,8 @@
     {
       "edge_ids": [
         "v05-edge-07",
-        "cross-tank-01"
+        "cross-tank-01",
+        "cross-tank-02"
       ],
       "id": "book-9baae09a0d12",
       "kind": "hidden",
@@ -662,7 +859,7 @@
         "v05-e09"
       ],
       "question": "黑龙何时能真正炼化或解除体内的不死战魂？",
-      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。神圣伤暂时阻止战魂趁昏迷脱体；主角恢复时战魂也恢复，炼化再次失败。",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第5集。神圣伤暂时阻止战魂趁昏迷脱体；主角恢复时战魂也恢复，炼化再次失败。",
       "status": "open",
       "title": "跨集 · 坦克战魂内患",
       "tracking_key": "tank-battle-soul",
@@ -695,6 +892,41 @@
     },
     {
       "edge_ids": [
+        "v02-edge-06"
+      ],
+      "id": "book-e90db68cb625",
+      "kind": "hidden",
+      "node_ids": [
+        "v02-e06",
+        "v02-e08",
+        "v06-e04"
+      ],
+      "question": "沉渊木中的克丽丝究竟是谁，如何影响娜娜？",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第6集。娜娜明确称其教冥月抚慰，队友开始知情；女神身份仍未验证。",
+      "status": "partial",
+      "title": "跨集 · 克丽丝的身份与教学",
+      "tracking_key": "christine-identity",
+      "volume_history": [
+        {
+          "kind": "hidden",
+          "question": "她是否真为女神，为何急于教黑龙？",
+          "resolution_note": "确认木块可沟通未知存在，自称、能力承诺及动机均待核验。",
+          "status": "open",
+          "title": "克丽丝身份与邀学动机",
+          "volume": 2
+        },
+        {
+          "kind": "hidden",
+          "question": "沉渊木中的克丽丝究竟是谁，如何影响娜娜？",
+          "resolution_note": "娜娜明确称其教冥月抚慰，队友开始知情；女神身份仍未验证。",
+          "status": "partial",
+          "title": "克丽丝的身份与教学",
+          "volume": 6
+        }
+      ]
+    },
+    {
+      "edge_ids": [
         "v04-edge-06",
         "v04-edge-07",
         "v04-edge-08",
@@ -702,7 +934,7 @@
         "cross-nana-02"
       ],
       "id": "book-cb9c67d1cdae",
-      "kind": "main",
+      "kind": "subplot",
       "node_ids": [
         "v02-e09",
         "v04-e01",
@@ -710,12 +942,13 @@
         "v04-e07",
         "v04-e08",
         "v04-e09",
+        "v06-e04",
         "v03-e01"
       ],
-      "question": "她的暗黑气息来源为何，父母遗体能否找到，追捕如何结束？",
-      "resolution_note": "已入库至第5集；本线最近明确记录为第4集。已获父母死亡消息并得到寻遗体承诺，教会审判追至谷外，战斗未完。",
-      "status": "open",
-      "title": "跨集 · 娜娜的身世、失亲与追捕",
+      "question": "娜娜能否在被保护之外表达自己的选择？",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第6集。她愿献肉并保护宠物，法术学习展现主动性；仍是队伍唯一明确活人。",
+      "status": "partial",
+      "title": "跨集 · 娜娜的保护与主动性",
       "tracking_key": "nana-protection",
       "volume_history": [
         {
@@ -733,24 +966,34 @@
           "status": "open",
           "title": "娜娜的身世、失亲与追捕",
           "volume": 4
+        },
+        {
+          "kind": "subplot",
+          "question": "娜娜能否在被保护之外表达自己的选择？",
+          "resolution_note": "她愿献肉并保护宠物，法术学习展现主动性；仍是队伍唯一明确活人。",
+          "status": "partial",
+          "title": "娜娜的保护与主动性",
+          "volume": 6
         }
       ]
     },
     {
       "edge_ids": [
         "v05-edge-06",
-        "cross-mark-01"
+        "cross-mark-01",
+        "cross-mark-02"
       ],
       "id": "book-d9427f2553c6",
       "kind": "main",
       "node_ids": [
         "v04-e03",
         "v05-e04",
-        "v05-e08"
+        "v05-e08",
+        "v06-e06"
       ],
-      "question": "召唤黑龙的目的地与力量究竟为何？",
-      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。到达沙漠只推进路线，未到龙族墓地。",
-      "status": "open",
+      "question": "亡灵印记的发出者和目的地是谁、何处？",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第6集。本集斯科特确认自己散播印记，往生者国度在哀嚎森林；只解决定位和发出者，不等于所有进化谜题完成。",
+      "status": "resolved",
       "title": "跨集 · 红月落处的呼唤",
       "tracking_key": "red-moon-destination",
       "volume_history": [
@@ -769,6 +1012,14 @@
           "status": "open",
           "title": "红月落处的呼唤",
           "volume": 5
+        },
+        {
+          "kind": "main",
+          "question": "亡灵印记的发出者和目的地是谁、何处？",
+          "resolution_note": "本集斯科特确认自己散播印记，往生者国度在哀嚎森林；只解决定位和发出者，不等于所有进化谜题完成。",
+          "status": "resolved",
+          "title": "红月落处的呼唤",
+          "volume": 6
         }
       ]
     },
@@ -785,7 +1036,7 @@
         "v05-e05"
       ],
       "question": "罗得宾士为何复仇、何时转生，如何骗过圣焰审判？",
-      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。读者已知他仍存在，审判小队并不知道；与主角暂无相识证据。",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第5集。读者已知他仍存在，审判小队并不知道；与主角暂无相识证据。",
       "status": "open",
       "title": "跨集 · 音乐家的身世与逃脱",
       "tracking_key": "th-rode-music",
@@ -815,7 +1066,7 @@
         "v05-e01"
       ],
       "question": "灵魂援助能否救黑七，圣焰转移将怎样影响黑龙？",
-      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。黑七仍有受焚痛苦，黑龙也遭圣焰，生死与战果均未完成。",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第5集。黑七仍有受焚痛苦，黑龙也遭圣焰，生死与战果均未完成。",
       "status": "open",
       "title": "跨集 · 黑七与黑龙的圣焰危机",
       "tracking_key": "th-heiqi-holy-fire",
@@ -832,18 +1083,62 @@
     },
     {
       "edge_ids": [
-        "cross-roder-01"
+        "v05-edge-02",
+        "v06-edge-06",
+        "cross-angel-01",
+        "cross-angel-02"
+      ],
+      "id": "book-09f441653222",
+      "kind": "hidden",
+      "node_ids": [
+        "v05-e01",
+        "v05-e03",
+        "v06-e05",
+        "v06-e06",
+        "v06-e09"
+      ],
+      "question": "原萝茜会恢复多少自我，封印天使会否重返？",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第6集。天使和原人格明确分离；天使封存，原萝茜补魂成不死者却失忆。",
+      "status": "partial",
+      "title": "跨集 · 萝茜与降临天使",
+      "tracking_key": "rosy-angel-identity",
+      "volume_history": [
+        {
+          "kind": "hidden",
+          "question": "降临者与原萝茜的记忆、意志是什么关系？",
+          "resolution_note": "死亡和采用同名均明确，身份连续性未证。",
+          "status": "open",
+          "title": "萝茜与降临天使",
+          "volume": 5
+        },
+        {
+          "kind": "hidden",
+          "question": "原萝茜会恢复多少自我，封印天使会否重返？",
+          "resolution_note": "天使和原人格明确分离；天使封存，原萝茜补魂成不死者却失忆。",
+          "status": "partial",
+          "title": "萝茜与降临天使",
+          "volume": 6
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "v06-edge-03",
+        "cross-roder-01",
+        "cross-roder-02"
       ],
       "id": "book-bd3759586c4a",
       "kind": "subplot",
       "node_ids": [
         "v05-e05",
+        "v06-e03",
+        "v06-e07",
         "v04-e04"
       ],
-      "question": "琴的异常召唤是否如罗得所猜，亡妻如今何在？",
-      "resolution_note": "已入库至第5集；本线最近明确记录为第5集。音乐家自述召回妻魂、转生相伴，但未见妻子。",
-      "status": "open",
-      "title": "跨集 · 罗得的招魂与亡妻",
+      "question": "安魂创作会怎样发展，亡妻线将何时重返？",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第6集。安魂用途与琴歌能力被验证，新曲灵感出现；亡妻现状没有新增答案。",
+      "status": "partial",
+      "title": "跨集 · 罗得的音乐与未明往事",
       "tracking_key": "roder-song-and-wife",
       "volume_history": [
         {
@@ -853,6 +1148,114 @@
           "status": "open",
           "title": "罗得的招魂与亡妻",
           "volume": 5
+        },
+        {
+          "kind": "subplot",
+          "question": "安魂创作会怎样发展，亡妻线将何时重返？",
+          "resolution_note": "安魂用途与琴歌能力被验证，新曲灵感出现；亡妻现状没有新增答案。",
+          "status": "partial",
+          "title": "罗得的音乐与未明往事",
+          "volume": 6
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "v05-edge-04"
+      ],
+      "id": "book-4e6bf7ea8c15",
+      "kind": "subplot",
+      "node_ids": [
+        "v05-e06",
+        "v05-e07",
+        "v06-e01",
+        "v06-e07"
+      ],
+      "question": "公平看待异族风险能否兼容对实际杀戮的约束？",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第6集。顾问反省偏见仍担心斯科特鼓励吸魂，伦理张力并未因反问消除。",
+      "status": "open",
+      "title": "跨集 · 吸魂与异族伦理",
+      "tracking_key": "soul-consumption-ethics",
+      "volume_history": [
+        {
+          "kind": "subplot",
+          "question": "资源性杀戮能否与同伴伦理及英雄声望共存？",
+          "resolution_note": "争论未说服黑龙，公众仍以功绩评价。",
+          "status": "open",
+          "title": "吸魂与公共英雄形象",
+          "volume": 5
+        },
+        {
+          "kind": "subplot",
+          "question": "公平看待异族风险能否兼容对实际杀戮的约束？",
+          "resolution_note": "顾问反省偏见仍担心斯科特鼓励吸魂，伦理张力并未因反问消除。",
+          "status": "open",
+          "title": "吸魂与异族伦理",
+          "volume": 6
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "v06-edge-05",
+        "cross-desert-01"
+      ],
+      "id": "book-2c92e5ad3024",
+      "kind": "hidden",
+      "node_ids": [
+        "v05-e08",
+        "v06-e05",
+        "v06-e06",
+        "v06-e07",
+        "v06-e08"
+      ],
+      "question": "古战场与悼亡传承还隐藏哪些历史？",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第6集。沙漠源于远古大战得到叙述解释；战因胜负和黑龙特殊成长仍未明，骨色尚未证变紫金。",
+      "status": "partial",
+      "title": "跨集 · 沙漠历史与悼亡力量",
+      "tracking_key": "desert-bones-and-mourning-soul",
+      "volume_history": [
+        {
+          "kind": "hidden",
+          "question": "沙下骨骸源于何种历史，悼亡层级将引来何种反应？",
+          "resolution_note": "黑龙感知数百公里骨骸；教皇命名而未行动。",
+          "status": "open",
+          "title": "沙漠骨骸与悼亡级力量",
+          "volume": 5
+        },
+        {
+          "kind": "hidden",
+          "question": "古战场与悼亡传承还隐藏哪些历史？",
+          "resolution_note": "沙漠源于远古大战得到叙述解释；战因胜负和黑龙特殊成长仍未明，骨色尚未证变紫金。",
+          "status": "partial",
+          "title": "沙漠历史与悼亡力量",
+          "volume": 6
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "cross-identity-news-01"
+      ],
+      "id": "book-8477942e0118",
+      "kind": "subplot",
+      "node_ids": [
+        "v06-e02",
+        "v05-e01"
+      ],
+      "question": "雷奥将如何处理黑龙，教皇为何同时使用本界武力？",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第6集。暗之神骑出岛，尚未接触主队。",
+      "status": "open",
+      "title": "跨集 · 神之骑士追索",
+      "tracking_key": "god-knight-pursuit",
+      "volume_history": [
+        {
+          "kind": "subplot",
+          "question": "雷奥将如何处理黑龙，教皇为何同时使用本界武力？",
+          "resolution_note": "暗之神骑出岛，尚未接触主队。",
+          "status": "open",
+          "title": "神之骑士追索",
+          "volume": 6
         }
       ]
     },
@@ -869,7 +1272,7 @@
         "v03-e04"
       ],
       "question": "记忆所得如何改变选择，哪些能力仍不能继承？",
-      "resolution_note": "已入库至第5集；本线最近明确记录为第3集。跨集信息优势得到兑现；知识与魔力仍须分开。",
+      "resolution_note": "已入库至第6集；本线最近明确记录为第3集。跨集信息优势得到兑现；知识与魔力仍须分开。",
       "status": "partial",
       "title": "跨集 · 记忆、知识与力量",
       "tracking_key": "memory-and-power",
