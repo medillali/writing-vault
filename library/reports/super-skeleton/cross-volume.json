@@ -2,7 +2,8 @@
   "covered_volumes": [
     1,
     2,
-    3
+    3,
+    4
   ],
   "edges": [
     {
@@ -209,6 +210,51 @@
       "kind": "reversal",
       "label": "互利联盟在胜利后转为权限与情报边界争论，合作仍继续",
       "to": "v03-e09"
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0026",
+          "end_line": 3120,
+          "start_line": 3103
+        },
+        {
+          "chapter_id": "ch-0034",
+          "end_line": 4190,
+          "start_line": 4151
+        },
+        {
+          "chapter_id": "ch-0034",
+          "end_line": 4239,
+          "start_line": 4215
+        }
+      ],
+      "from": "v03-e01",
+      "id": "cross-nana-02",
+      "kind": "echo",
+      "label": "对娜娜的守护从维持照料者生命延伸到理解失亲痛苦",
+      "to": "v04-e01"
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0031",
+          "end_line": 3884,
+          "start_line": 3875
+        },
+        {
+          "chapter_id": "ch-0041",
+          "end_line": 5192,
+          "start_line": 5158
+        }
+      ],
+      "from": "v03-e06",
+      "id": "cross-home-01",
+      "kind": "echo",
+      "label": "朗克岭沉睡领地与绝幽谷生活据点分别体现安全归属需求；两处不可合并为同一基地",
+      "to": "v04-e07"
     }
   ],
   "threads": [
@@ -222,7 +268,9 @@
         "v03-edge-05",
         "v03-edge-06",
         "cross-redemption-01",
-        "cross-autonomy-01"
+        "cross-autonomy-01",
+        "cross-nana-02",
+        "cross-home-01"
       ],
       "id": "book-37dd82abc178",
       "kind": "main",
@@ -244,10 +292,12 @@
         "v03-e06",
         "v03-e07",
         "v03-e08",
-        "v02-e01"
+        "v02-e01",
+        "v04-e01",
+        "v04-e07"
       ],
       "question": "身体自主的承认能否在灵魂控制仍存时落地？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。条件忠诚、主动回归与选择离开并存，黑二获自主定义但控制机制未解除。",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第4集。条件忠诚、主动回归与选择离开并存，黑二获自主定义但控制机制未解除。",
       "status": "open",
       "title": "跨集 · 灵魂依附与自愿同伴",
       "tracking_key": "blackdragon-autonomy-and-companionship",
@@ -303,7 +353,7 @@
         "v02-e06"
       ],
       "question": "圣物是否真能恢复人身，星的圣焰结局如何？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。物品已取得并分化队伍；只有星饮用，效果尚未交代。",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第3集。物品已取得并分化队伍；只有星饮用，效果尚未交代。",
       "status": "partial",
       "title": "跨集 · 救赎之魂的希望与实效",
       "tracking_key": "redemption-soul",
@@ -338,23 +388,27 @@
       "edge_ids": [
         "v02-edge-04",
         "v02-edge-07",
+        "v04-edge-04",
         "cross-children-01",
         "cross-autonomy-01"
       ],
       "id": "book-c55cdb2efcb4",
-      "kind": "hidden",
+      "kind": "subplot",
       "node_ids": [
         "v01-e01",
         "v01-e06",
         "v02-e04",
         "v02-e05",
         "v02-e09",
+        "v04-e06",
+        "v04-e07",
+        "v04-e08",
         "v03-e06"
       ],
-      "question": "黑二为何觉醒，其他孩子为何仍无意识？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。黑二意识已确认；黑大仅觉醒技能，成因仍未知。",
+      "question": "自主动作会否成长为意识，身体是否来自阿格？",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第4集。自发护泰戈已发生，黑龙仍认为觉醒未完成；父亲身份没有确认。",
       "status": "partial",
-      "title": "跨集 · 十子意识与进化条件",
+      "title": "跨集 · 黑大的意识与骨架来源",
       "tracking_key": "children-consciousness",
       "volume_history": [
         {
@@ -372,6 +426,14 @@
           "status": "partial",
           "title": "十子意识与进化条件",
           "volume": 2
+        },
+        {
+          "kind": "subplot",
+          "question": "自主动作会否成长为意识，身体是否来自阿格？",
+          "resolution_note": "自发护泰戈已发生，黑龙仍认为觉醒未完成；父亲身份没有确认。",
+          "status": "partial",
+          "title": "黑大的意识与骨架来源",
+          "volume": 4
         }
       ]
     },
@@ -404,7 +466,7 @@
         "v03-e09"
       ],
       "question": "雷神残余和撒拉丁部族如何应对领袖及贸易体系丧失？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第3集。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
       "status": "partial",
       "title": "跨集 · 雷神败亡后的利益与部族余波",
       "tracking_key": "thunder-mercenary-conflict",
@@ -446,7 +508,7 @@
         "v02-e01"
       ],
       "question": "祭坛供能与自修复机制、古国消失原因是什么？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第2集。现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
       "status": "open",
       "title": "跨集 · 红月与沉沦国度",
       "tracking_key": "sunken-undead-kingdom",
@@ -480,7 +542,7 @@
         "v03-e03"
       ],
       "question": "反复释放和重新压制能否继续控制战魂？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。被利用拖延雷克丁后再次吸回，仍有躁动，未被炼化。",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第3集。被利用拖延雷克丁后再次吸回，仍有躁动，未被炼化。",
       "status": "open",
       "title": "跨集 · 坦克战魂的压制与利用",
       "tracking_key": "tank-battle-soul",
@@ -505,18 +567,27 @@
     },
     {
       "edge_ids": [
-        "cross-nana-01"
+        "v04-edge-06",
+        "v04-edge-07",
+        "v04-edge-08",
+        "cross-nana-01",
+        "cross-nana-02"
       ],
       "id": "book-cb9c67d1cdae",
-      "kind": "subplot",
+      "kind": "main",
       "node_ids": [
         "v02-e09",
+        "v04-e01",
+        "v04-e02",
+        "v04-e07",
+        "v04-e08",
+        "v04-e09",
         "v03-e01"
       ],
-      "question": "娜娜为何被追杀，黑龙会否接受保护请求？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。洛特提出照顾至成年并给出报酬，黑龙尚未答复；女孩求救也未得到结果。",
+      "question": "她的暗黑气息来源为何，父母遗体能否找到，追捕如何结束？",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第4集。已获父母死亡消息并得到寻遗体承诺，教会审判追至谷外，战斗未完。",
       "status": "open",
-      "title": "跨集 · 娜娜暗黑气息与托付",
+      "title": "跨集 · 娜娜的身世、失亲与追捕",
       "tracking_key": "nana-protection",
       "volume_history": [
         {
@@ -526,6 +597,14 @@
           "status": "open",
           "title": "娜娜暗黑气息与托付",
           "volume": 2
+        },
+        {
+          "kind": "main",
+          "question": "她的暗黑气息来源为何，父母遗体能否找到，追捕如何结束？",
+          "resolution_note": "已获父母死亡消息并得到寻遗体承诺，教会审判追至谷外，战斗未完。",
+          "status": "open",
+          "title": "娜娜的身世、失亲与追捕",
+          "volume": 4
         }
       ]
     },
@@ -542,7 +621,7 @@
         "v03-e04"
       ],
       "question": "记忆所得如何改变选择，哪些能力仍不能继承？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。跨集信息优势得到兑现；知识与魔力仍须分开。",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第3集。跨集信息优势得到兑现；知识与魔力仍须分开。",
       "status": "partial",
       "title": "跨集 · 记忆、知识与力量",
       "tracking_key": "memory-and-power",

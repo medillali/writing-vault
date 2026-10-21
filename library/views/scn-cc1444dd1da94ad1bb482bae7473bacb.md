@@ -1,0 +1,52 @@
+# 琴声动摇审判者
+
+ID: `scn-cc1444dd1da94ad1bb482bae7473bacb` · 版本: 1 · 范围: source-analysis
+
+萝茜被被追杀者的音乐打动，允许奏完；琴声转成攻击，她焚杀目标，但离场后对方重新现身。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-cc1444dd1da94ad1bb482bae7473bacb",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "适合艺术、职业技能与对立价值紧密结合的初遇。",
+    "choice": "萝茜短暂停手，遭攻击后重新执行杀戮；罗得宾士用艺术作为战法。",
+    "consequence": "审判者相信目标已除，读者知道他仍存活。",
+    "failure_mode": "艺术动人不能直接证明道德无辜；逃生若后文始终无解释会损害规则。",
+    "goal": "萝茜完成审判；罗得宾士争取生存并保持音乐家的自我定义。",
+    "obstacle": "信仰已把对方分类为邪恶，真实实力与逃脱机制未知。",
+    "state_change": "人物疑虑被经验压回，任务信息却出现错误。",
+    "summary": "萝茜被被追杀者的音乐打动，允许奏完；琴声转成攻击，她焚杀目标，但离场后对方重新现身。",
+    "volume": 4,
+    "why_it_works": "同一琴曲兼具人格表达、节奏控制与攻击媒介，避免人物介绍和战斗脱节。"
+  },
+  "created_at": "2026-10-21T20:38:32.953448+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0038",
+      "claim_kind": "inference",
+      "end_line": 4809,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 4757
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/v04-s02",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "全书九维",
+    "第04集"
+  ],
+  "title": "琴声动摇审判者",
+  "updated_at": "2026-10-21T20:38:32.991506+00:00",
+  "user_notes": ""
+}
+
+```

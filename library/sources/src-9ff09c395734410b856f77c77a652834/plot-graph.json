@@ -33,7 +33,18 @@
         "ch-0029",
         "ch-0030",
         "ch-0031",
-        "ch-0032"
+        "ch-0032",
+        "ch-0033",
+        "ch-0034",
+        "ch-0035",
+        "ch-0036",
+        "ch-0037",
+        "ch-0038",
+        "ch-0039",
+        "ch-0040",
+        "ch-0041",
+        "ch-0042",
+        "ch-0043"
       ],
       "complete": false,
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
@@ -634,6 +645,214 @@
       "to": "v03-e09"
     },
     {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0035",
+          "claim_kind": "fact",
+          "end_line": 4396,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4393
+        },
+        {
+          "chapter_id": "ch-0037",
+          "claim_kind": "fact",
+          "end_line": 4588,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4570
+        }
+      ],
+      "from": "v04-e02",
+      "id": "v04-edge-01",
+      "kind": "cause",
+      "label": "战时缺钢及征调使实物酬劳促成雇佣",
+      "to": "v04-e03"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0037",
+          "claim_kind": "fact",
+          "end_line": 4588,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4575
+        },
+        {
+          "chapter_id": "ch-0039",
+          "claim_kind": "fact",
+          "end_line": 4887,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4880
+        }
+      ],
+      "from": "v04-e03",
+      "id": "v04-edge-02",
+      "kind": "setup",
+      "label": "接受护送使队伍承接雇主所面临的袭击风险",
+      "to": "v04-e05"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0037",
+          "claim_kind": "fact",
+          "end_line": 4594,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4593
+        },
+        {
+          "chapter_id": "ch-0041",
+          "claim_kind": "fact",
+          "end_line": 5192,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5183
+        }
+      ],
+      "from": "v04-e03",
+      "id": "v04-edge-03",
+      "kind": "cause",
+      "label": "钢材报酬与分队准备供给谷地建设",
+      "to": "v04-e07"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0041",
+          "claim_kind": "fact",
+          "end_line": 5124,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5116
+        },
+        {
+          "chapter_id": "ch-0041",
+          "claim_kind": "fact",
+          "end_line": 5186,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5185
+        }
+      ],
+      "from": "v04-e06",
+      "id": "v04-edge-04",
+      "kind": "cause",
+      "label": "带走泰戈使其加入谷地生活与劳动",
+      "to": "v04-e07"
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0038",
+          "claim_kind": "synthesis",
+          "end_line": 4805,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4793
+        },
+        {
+          "chapter_id": "ch-0042",
+          "claim_kind": "synthesis",
+          "end_line": 5285,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5269
+        }
+      ],
+      "from": "v04-e04",
+      "id": "v04-edge-05",
+      "kind": "setup",
+      "label": "前场展示的圣焰祷言能力为主角遭遇其战法提供准备",
+      "to": "v04-e08"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0041",
+          "claim_kind": "fact",
+          "end_line": 5208,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5195
+        },
+        {
+          "chapter_id": "ch-0042",
+          "claim_kind": "fact",
+          "end_line": 5238,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5227
+        }
+      ],
+      "from": "v04-e07",
+      "id": "v04-edge-06",
+      "kind": "cause",
+      "label": "追踪娜娜的位置使审判小队与据点护卫相遇",
+      "to": "v04-e08"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0043",
+          "claim_kind": "fact",
+          "end_line": 5362,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5353
+        },
+        {
+          "chapter_id": "ch-0043",
+          "claim_kind": "fact",
+          "end_line": 5428,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5400
+        }
+      ],
+      "from": "v04-e08",
+      "id": "v04-edge-07",
+      "kind": "cause",
+      "label": "身份曝光促灭口火攻，交战重伤触发双重救援",
+      "to": "v04-e09"
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0034",
+          "claim_kind": "synthesis",
+          "end_line": 4226,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4215
+        },
+        {
+          "chapter_id": "ch-0043",
+          "claim_kind": "synthesis",
+          "end_line": 5428,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5427
+        }
+      ],
+      "from": "v04-e01",
+      "id": "v04-edge-08",
+      "kind": "echo",
+      "label": "以额头和灵魂接触救助他人，末场由安抚转为危险反噬",
+      "to": "v04-e09"
+    },
+    {
       "claim_kind": "inference",
       "evidence": [
         {
@@ -900,6 +1119,66 @@
       "kind": "reversal",
       "label": "互利联盟在胜利后转为权限与情报边界争论，合作仍继续",
       "to": "v03-e09"
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0026",
+          "claim_kind": "synthesis",
+          "end_line": 3120,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3103
+        },
+        {
+          "chapter_id": "ch-0034",
+          "claim_kind": "synthesis",
+          "end_line": 4190,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4151
+        },
+        {
+          "chapter_id": "ch-0034",
+          "claim_kind": "synthesis",
+          "end_line": 4239,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4215
+        }
+      ],
+      "from": "v03-e01",
+      "id": "cross-nana-02",
+      "kind": "echo",
+      "label": "对娜娜的守护从维持照料者生命延伸到理解失亲痛苦",
+      "to": "v04-e01"
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "synthesis",
+          "end_line": 3884,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 3875
+        },
+        {
+          "chapter_id": "ch-0041",
+          "claim_kind": "synthesis",
+          "end_line": 5192,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5158
+        }
+      ],
+      "from": "v03-e06",
+      "id": "cross-home-01",
+      "kind": "echo",
+      "label": "朗克岭沉睡领地与绝幽谷生活据点分别体现安全归属需求；两处不可合并为同一基地",
+      "to": "v04-e07"
     }
   ],
   "graph_id": "graph-7c354fa988864849a6f681ff07474c91",
@@ -2089,13 +2368,460 @@
       "parent_id": "vol-03",
       "summary": "疾风因战果而来，潜行被黑龙识破；道歉后围绕是否有通报义务交锋，黑龙保留感知机制秘密。",
       "title": "疾风试探失败后重谈盟约边界"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "vol-04",
+      "kind": "volume",
+      "narrative_order": 400,
+      "parent_id": "story",
+      "summary": "本集将私人安顿计划置于宗教战争的扩张中。黑龙坦白娜娜父母死讯造成伤害，借克丽丝的类比初识悲痛，再以灵魂交流和寻找遗体的承诺修复；照护因而同时打开了新的能力与长期责任。第八次圣战以天使献祭打破要塞平衡，战争造成钢材短缺，原本富有的队伍也只能为实物报酬护送海图家族女儿。旅程中亡灵印记传出北方召归讯息，死士袭击则暴露雇主背景未明、团队感知沟通不足和伪装成本。返程的泰戈误认黑大为父亲，引出骨架来源猜想及黑大自发行为，但意识尚未完成觉醒；阿玛之死又使复活能力受到生活后果的质问。绝幽谷刚开始建设，追捕娜娜的萝茜便到来。她既受宗教成见支配，也有责任与审美触动；罗得宾士假死式脱险先展示其认知局限。最终不死身份在近战中暴露，双方以各自专长互相克制。黑龙救黑七而引火上身，岗撒罗斯以生命救萝茜，两组救援让敌我同有不可替代的同伴；战局与数条旧悬念仍留待后集。",
+      "title": "第四集 亡灵印记"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-1d629a39da3e41149707e5f9f636defd",
+        "chr-d1af2401c91342228738940630a00180",
+        "chr-29cb2b388f194a1c8b2e424c96dee814",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-345d1d88371947b7815469b3740c9e78"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0034",
+          "claim_kind": "fact",
+          "end_line": 4190,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4151
+        },
+        {
+          "chapter_id": "ch-0034",
+          "claim_kind": "fact",
+          "end_line": 4257,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4215
+        }
+      ],
+      "id": "v04-e01",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "父母已死，但寄望黑龙寻找遗体",
+          "observer": "chr-1d629a39da3e41149707e5f9f636defd",
+          "state": "knows"
+        },
+        {
+          "belief": "是否能复活娜娜父母",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "unknown"
+        },
+        {
+          "belief": "黑龙的灵魂能力可能适合学习念系魔法",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "suspects"
+        }
+      ],
+      "narrative_order": 401,
+      "parent_id": "vol-04",
+      "summary": "黑龙告知父母死讯使娜娜晕厥，求助克丽丝后以灵魂交流安抚，承诺找遗体并把沉渊木交给娜娜。",
+      "title": "娜娜死讯与灵魂安抚"
+    },
+    {
+      "characters": [
+        "chr-9e9f720be15841d29768c1d0c4a68657",
+        "chr-54e84c6e82214a26921887c503f519ee",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-9f2e5fcbba87455eb37e35869ea8854d"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0035",
+          "claim_kind": "fact",
+          "end_line": 4369,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4334
+        },
+        {
+          "chapter_id": "ch-0035",
+          "claim_kind": "fact",
+          "end_line": 4396,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4383
+        }
+      ],
+      "id": "v04-e02",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "亚美里克斯实际展翅并献祭，正团长是否天使尚无同样现场展示",
+          "observer": "reader",
+          "state": "knows"
+        },
+        {
+          "belief": "帝国入侵将使同盟境内不死身份更难隐藏",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 402,
+      "parent_id": "vol-04",
+      "summary": "教会在战争中发动献祭召唤摧毁要塞关键工事，帝国攻入同盟；建设物资涨价、教会清洗风险同时落到黑龙队伍。",
+      "title": "第八圣战击穿石头城"
+    },
+    {
+      "characters": [
+        "chr-4c01016288e94894a77ec1e46b38d667",
+        "chr-36d3c517958f4eff803a6713817b254f",
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-24438669720a4bb8a0a27cbd25eadb33"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0037",
+          "claim_kind": "fact",
+          "end_line": 4594,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4570
+        },
+        {
+          "chapter_id": "ch-0037",
+          "claim_kind": "fact",
+          "end_line": 4674,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4638
+        }
+      ],
+      "id": "v04-e03",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "梅丽雅被家族作为政治筹码送去首都",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "suspects"
+        },
+        {
+          "belief": "亡灵印记灵魂接触会传出无法对答的召归讯息",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        },
+        {
+          "belief": "所指国度真实位置和性质",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 403,
+      "parent_id": "vol-04",
+      "summary": "梅里尔用十吨钢材换取限期护送，队伍分流；行程中黑龙用灵魂接触宝库徽章，听见北方往生国度的循环召归声。",
+      "title": "以钢材接护送并触发亡灵印记"
+    },
+    {
+      "characters": [
+        "chr-54e84c6e82214a26921887c503f519ee",
+        "chr-f5c1dd47a8a24768896eeb8630a04ad5",
+        "chr-0d52140c20bf4dc5be05fbdc80d9ace1"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0038",
+          "claim_kind": "fact",
+          "end_line": 4809,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4757
+        }
+      ],
+      "id": "v04-e04",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "罗得宾士已被圣焰消灭",
+          "observer": "chr-54e84c6e82214a26921887c503f519ee",
+          "state": "misbelieves"
+        },
+        {
+          "belief": "罗得宾士仍存在，但不知道如何脱身",
+          "observer": "reader",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 404,
+      "parent_id": "vol-04",
+      "summary": "萝茜被琴曲短暂打动，遭音攻后焚杀目标并离开；罗得宾士随后再次现身，脱身机制未知。",
+      "title": "罗得宾士逃过被认定完成的审判"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-24b9d252fb624865a46d717832261c68",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-36d3c517958f4eff803a6713817b254f"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0039",
+          "claim_kind": "fact",
+          "end_line": 4846,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4829
+        },
+        {
+          "chapter_id": "ch-0039",
+          "claim_kind": "fact",
+          "end_line": 4919,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4880
+        },
+        {
+          "chapter_id": "ch-0039",
+          "claim_kind": "fact",
+          "end_line": 4937,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4921
+        }
+      ],
+      "id": "v04-e05",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "袭击者是死士，目标指向梅丽雅",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "knows"
+        },
+        {
+          "belief": "谁在幕后派遣刺客",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "unknown"
+        },
+        {
+          "belief": "黑龙团实力异常，可能真由剑圣与大魔导师组成",
+          "observer": "chr-36d3c517958f4eff803a6713817b254f",
+          "state": "suspects"
+        }
+      ],
+      "narrative_order": 405,
+      "parent_id": "vol-04",
+      "summary": "炼金识药后装晕反伏，死士自杀且隐藏观察者逃掉，幕后未查明；队伍加速送达，梅丽雅决定告诫家族勿招惹，同行侍女艾蕾与艾丽疲惫不堪，艾蕾在交付后显出隐藏的稳重。",
+      "title": "死士袭击后急行完成交付"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92",
+        "chr-d991a470980d4716bf4e09af3d17d913",
+        "chr-47d8283c833e49a8a4ec7a7771b2f98e",
+        "chr-24438669720a4bb8a0a27cbd25eadb33"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0040",
+          "claim_kind": "fact",
+          "end_line": 5029,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 4972
+        },
+        {
+          "chapter_id": "ch-0040",
+          "claim_kind": "fact",
+          "end_line": 5067,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5051
+        },
+        {
+          "chapter_id": "ch-0041",
+          "claim_kind": "fact",
+          "end_line": 5124,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5089
+        }
+      ],
+      "id": "v04-e06",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "母亲仍活着并被送到大城市治病",
+          "observer": "chr-d991a470980d4716bf4e09af3d17d913",
+          "state": "misbelieves"
+        },
+        {
+          "belief": "黑大骨架可能来自三十年前失踪的阿格",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "suspects"
+        },
+        {
+          "belief": "黑大有自发行为但尚未完成意识觉醒",
+          "observer": "reader",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 406,
+      "parent_id": "vol-04",
+      "summary": "返程泰戈误认黑大为父亲，黑龙断联系后观察到自发护人；阿玛去世后复活提议被否，泰戈在母亲治疗的说法下随队。",
+      "title": "泰戈认父与黑大自主萌芽"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-29cb2b388f194a1c8b2e424c96dee814",
+        "chr-345d1d88371947b7815469b3740c9e78",
+        "chr-1d629a39da3e41149707e5f9f636defd",
+        "chr-d991a470980d4716bf4e09af3d17d913",
+        "chr-54e84c6e82214a26921887c503f519ee"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0041",
+          "claim_kind": "fact",
+          "end_line": 5197,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5148
+        }
+      ],
+      "id": "v04-e07",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "娜娜与黑龙初级佣兵团在一起",
+          "observer": "chr-54e84c6e82214a26921887c503f519ee",
+          "state": "knows"
+        },
+        {
+          "belief": "黑龙团灭雷神与攻陷朗克岭的战绩",
+          "observer": "chr-54e84c6e82214a26921887c503f519ee",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 407,
+      "parent_id": "vol-04",
+      "summary": "队伍重聚，爱琳已引水、洛特已搭房，黑龙与斯文哥尔协商城堡和地下城并建；萝茜同时追踪最后目标娜娜至谷外。",
+      "title": "重聚绝幽谷开始建设"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92",
+        "chr-24b9d252fb624865a46d717832261c68",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-54e84c6e82214a26921887c503f519ee",
+        "chr-f5c1dd47a8a24768896eeb8630a04ad5"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0042",
+          "claim_kind": "fact",
+          "end_line": 5249,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5227
+        },
+        {
+          "chapter_id": "ch-0042",
+          "claim_kind": "fact",
+          "end_line": 5285,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5265
+        },
+        {
+          "chapter_id": "ch-0043",
+          "claim_kind": "fact",
+          "end_line": 5358,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5353
+        }
+      ],
+      "id": "v04-e08",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "眼前黑龙等人是不死生物并使用暗黑法术",
+          "observer": "chr-54e84c6e82214a26921887c503f519ee",
+          "state": "knows"
+        },
+        {
+          "belief": "若对方传出身份消息，队伍面临广泛追杀",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 408,
+      "parent_id": "vol-04",
+      "summary": "斯文哥尔识破伪装圣骑，黑龙抢先冲锋；林间肉搏与诅咒使萝茜识别不死者，双方转入法术和技巧对抗。",
+      "title": "谷外冲突使不死身份暴露"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-775349c3c9654daaae30acf69aadff21",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-54e84c6e82214a26921887c503f519ee",
+        "chr-f5c1dd47a8a24768896eeb8630a04ad5"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0043",
+          "claim_kind": "fact",
+          "end_line": 5457,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 5397
+        }
+      ],
+      "id": "v04-e09",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "接触后仍能感到黑七灵魂受焚痛苦，失联不等于已确认死亡",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        },
+        {
+          "belief": "岗撒罗斯是十年前打坏护身吊坠、一直想守护自己的人",
+          "observer": "chr-54e84c6e82214a26921887c503f519ee",
+          "state": "knows"
+        },
+        {
+          "belief": "黑龙与黑七救援结局和全场胜负",
+          "observer": "reader",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 409,
+      "parent_id": "vol-04",
+      "summary": "斯文哥尔范围火被抗火光环应对；黑七受审判失联令黑龙怒伤萝茜，再救黑七而引焰上身；岗撒罗斯转移萝茜致命伤并交出旧吊坠。",
+      "title": "范围火与双方舍身救援"
     }
   ],
   "owner": {
     "id": "src-9ff09c395734410b856f77c77a652834",
     "kind": "source"
   },
-  "revision": 5,
+  "revision": 6,
   "schema_version": 1,
   "threads": [
     {
@@ -2401,6 +3127,148 @@
     },
     {
       "edge_ids": [
+        "v04-edge-06",
+        "v04-edge-07",
+        "v04-edge-08"
+      ],
+      "id": "v04-thread-01",
+      "kind": "main",
+      "node_ids": [
+        "v04-e01",
+        "v04-e02",
+        "v04-e07",
+        "v04-e08",
+        "v04-e09"
+      ],
+      "question": "她的暗黑气息来源为何，父母遗体能否找到，追捕如何结束？",
+      "resolution_note": "已获父母死亡消息并得到寻遗体承诺，教会审判追至谷外，战斗未完。",
+      "status": "open",
+      "title": "第4集 · 娜娜的身世、失亲与追捕",
+      "tracking_key": "th-nana-persecution"
+    },
+    {
+      "edge_ids": [],
+      "id": "v04-thread-02",
+      "kind": "hidden",
+      "node_ids": [
+        "v04-e03"
+      ],
+      "question": "召归之声与北方国度是什么，和传统诅咒功能有何关系？",
+      "resolution_note": "知晓付命诅咒传说，也实际听到灵魂触发的重复消息；未启程验证。",
+      "status": "open",
+      "title": "第4集 · 亡灵印记的真正用途",
+      "tracking_key": "th-undead-mark"
+    },
+    {
+      "edge_ids": [
+        "v04-edge-04"
+      ],
+      "id": "v04-thread-03",
+      "kind": "subplot",
+      "node_ids": [
+        "v04-e06",
+        "v04-e07",
+        "v04-e08"
+      ],
+      "question": "自主动作会否成长为意识，身体是否来自阿格？",
+      "resolution_note": "自发护泰戈已发生，黑龙仍认为觉醒未完成；父亲身份没有确认。",
+      "status": "partial",
+      "title": "第4集 · 黑大的意识与骨架来源",
+      "tracking_key": "th-heida-awareness"
+    },
+    {
+      "edge_ids": [
+        "v04-edge-01",
+        "v04-edge-03",
+        "v04-edge-04",
+        "v04-edge-06",
+        "v04-edge-07"
+      ],
+      "id": "v04-thread-04",
+      "kind": "main",
+      "node_ids": [
+        "v04-e02",
+        "v04-e03",
+        "v04-e06",
+        "v04-e07",
+        "v04-e08",
+        "v04-e09"
+      ],
+      "question": "新家能否容纳不同生活需求并承受身份暴露后的攻击？",
+      "resolution_note": "已有水渠与房屋，城堡地下城仅开始规划，敌袭打断建设。",
+      "status": "partial",
+      "title": "第4集 · 绝幽谷的建设与庇护",
+      "tracking_key": "th-jueyou-home"
+    },
+    {
+      "edge_ids": [
+        "v04-edge-02"
+      ],
+      "id": "v04-thread-05",
+      "kind": "subplot",
+      "node_ids": [
+        "v04-e03",
+        "v04-e05"
+      ],
+      "question": "谁派死士，梅丽雅去首都的具体使命是什么？",
+      "resolution_note": "护送交付已完成，主使和雇主完整底细未查明。",
+      "status": "partial",
+      "title": "第4集 · 海图护送背后的政治风险",
+      "tracking_key": "th-meliya-politics"
+    },
+    {
+      "edge_ids": [
+        "v04-edge-05"
+      ],
+      "id": "v04-thread-06",
+      "kind": "hidden",
+      "node_ids": [
+        "v04-e04",
+        "v04-e08"
+      ],
+      "question": "罗得宾士为何复仇、何时转生，如何骗过圣焰审判？",
+      "resolution_note": "读者已知他仍存在，审判小队并不知道；与主角暂无相识证据。",
+      "status": "open",
+      "title": "第4集 · 音乐家的身世与逃脱",
+      "tracking_key": "th-rode-music"
+    },
+    {
+      "edge_ids": [
+        "v04-edge-07"
+      ],
+      "id": "v04-thread-07",
+      "kind": "subplot",
+      "node_ids": [
+        "v04-e04",
+        "v04-e08",
+        "v04-e09"
+      ],
+      "question": "他长期默默支援萝茜的私人动机是什么？",
+      "resolution_note": "破吊坠揭出十年前缘由，以神圣牺牲兑现守护；只标该承诺线回收，不代表整场战争结束。",
+      "status": "resolved",
+      "title": "第4集 · 岗撒罗斯的守护心愿",
+      "tracking_key": "th-guardian-vow"
+    },
+    {
+      "edge_ids": [
+        "v04-edge-07",
+        "v04-edge-08"
+      ],
+      "id": "v04-thread-08",
+      "kind": "main",
+      "node_ids": [
+        "v04-e01",
+        "v04-e08",
+        "v04-e09"
+      ],
+      "question": "灵魂援助能否救黑七，圣焰转移将怎样影响黑龙？",
+      "resolution_note": "黑七仍有受焚痛苦，黑龙也遭圣焰，生死与战果均未完成。",
+      "status": "open",
+      "title": "第4集 · 黑七与黑龙的圣焰危机",
+      "tracking_key": "th-heiqi-holy-fire"
+    },
+    {
+      "edge_ids": [
         "v01-edge-02",
         "v01-edge-09",
         "v02-edge-04",
@@ -2409,7 +3277,9 @@
         "v03-edge-05",
         "v03-edge-06",
         "cross-redemption-01",
-        "cross-autonomy-01"
+        "cross-autonomy-01",
+        "cross-nana-02",
+        "cross-home-01"
       ],
       "id": "book-37dd82abc178",
       "kind": "main",
@@ -2431,10 +3301,12 @@
         "v03-e06",
         "v03-e07",
         "v03-e08",
-        "v02-e01"
+        "v02-e01",
+        "v04-e01",
+        "v04-e07"
       ],
       "question": "身体自主的承认能否在灵魂控制仍存时落地？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。条件忠诚、主动回归与选择离开并存，黑二获自主定义但控制机制未解除。",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第4集。条件忠诚、主动回归与选择离开并存，黑二获自主定义但控制机制未解除。",
       "status": "open",
       "title": "跨集 · 灵魂依附与自愿同伴",
       "tracking_key": "blackdragon-autonomy-and-companionship",
@@ -2490,7 +3362,7 @@
         "v02-e06"
       ],
       "question": "圣物是否真能恢复人身，星的圣焰结局如何？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。物品已取得并分化队伍；只有星饮用，效果尚未交代。",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第3集。物品已取得并分化队伍；只有星饮用，效果尚未交代。",
       "status": "partial",
       "title": "跨集 · 救赎之魂的希望与实效",
       "tracking_key": "redemption-soul",
@@ -2525,23 +3397,27 @@
       "edge_ids": [
         "v02-edge-04",
         "v02-edge-07",
+        "v04-edge-04",
         "cross-children-01",
         "cross-autonomy-01"
       ],
       "id": "book-c55cdb2efcb4",
-      "kind": "hidden",
+      "kind": "subplot",
       "node_ids": [
         "v01-e01",
         "v01-e06",
         "v02-e04",
         "v02-e05",
         "v02-e09",
+        "v04-e06",
+        "v04-e07",
+        "v04-e08",
         "v03-e06"
       ],
-      "question": "黑二为何觉醒，其他孩子为何仍无意识？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。黑二意识已确认；黑大仅觉醒技能，成因仍未知。",
+      "question": "自主动作会否成长为意识，身体是否来自阿格？",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第4集。自发护泰戈已发生，黑龙仍认为觉醒未完成；父亲身份没有确认。",
       "status": "partial",
-      "title": "跨集 · 十子意识与进化条件",
+      "title": "跨集 · 黑大的意识与骨架来源",
       "tracking_key": "children-consciousness",
       "volume_history": [
         {
@@ -2559,6 +3435,14 @@
           "status": "partial",
           "title": "十子意识与进化条件",
           "volume": 2
+        },
+        {
+          "kind": "subplot",
+          "question": "自主动作会否成长为意识，身体是否来自阿格？",
+          "resolution_note": "自发护泰戈已发生，黑龙仍认为觉醒未完成；父亲身份没有确认。",
+          "status": "partial",
+          "title": "黑大的意识与骨架来源",
+          "volume": 4
         }
       ]
     },
@@ -2591,7 +3475,7 @@
         "v03-e09"
       ],
       "question": "雷神残余和撒拉丁部族如何应对领袖及贸易体系丧失？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第3集。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
       "status": "partial",
       "title": "跨集 · 雷神败亡后的利益与部族余波",
       "tracking_key": "thunder-mercenary-conflict",
@@ -2633,7 +3517,7 @@
         "v02-e01"
       ],
       "question": "祭坛供能与自修复机制、古国消失原因是什么？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第2集。现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
       "status": "open",
       "title": "跨集 · 红月与沉沦国度",
       "tracking_key": "sunken-undead-kingdom",
@@ -2667,7 +3551,7 @@
         "v03-e03"
       ],
       "question": "反复释放和重新压制能否继续控制战魂？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。被利用拖延雷克丁后再次吸回，仍有躁动，未被炼化。",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第3集。被利用拖延雷克丁后再次吸回，仍有躁动，未被炼化。",
       "status": "open",
       "title": "跨集 · 坦克战魂的压制与利用",
       "tracking_key": "tank-battle-soul",
@@ -2692,18 +3576,27 @@
     },
     {
       "edge_ids": [
-        "cross-nana-01"
+        "v04-edge-06",
+        "v04-edge-07",
+        "v04-edge-08",
+        "cross-nana-01",
+        "cross-nana-02"
       ],
       "id": "book-cb9c67d1cdae",
-      "kind": "subplot",
+      "kind": "main",
       "node_ids": [
         "v02-e09",
+        "v04-e01",
+        "v04-e02",
+        "v04-e07",
+        "v04-e08",
+        "v04-e09",
         "v03-e01"
       ],
-      "question": "娜娜为何被追杀，黑龙会否接受保护请求？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。洛特提出照顾至成年并给出报酬，黑龙尚未答复；女孩求救也未得到结果。",
+      "question": "她的暗黑气息来源为何，父母遗体能否找到，追捕如何结束？",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第4集。已获父母死亡消息并得到寻遗体承诺，教会审判追至谷外，战斗未完。",
       "status": "open",
-      "title": "跨集 · 娜娜暗黑气息与托付",
+      "title": "跨集 · 娜娜的身世、失亲与追捕",
       "tracking_key": "nana-protection",
       "volume_history": [
         {
@@ -2713,6 +3606,14 @@
           "status": "open",
           "title": "娜娜暗黑气息与托付",
           "volume": 2
+        },
+        {
+          "kind": "main",
+          "question": "她的暗黑气息来源为何，父母遗体能否找到，追捕如何结束？",
+          "resolution_note": "已获父母死亡消息并得到寻遗体承诺，教会审判追至谷外，战斗未完。",
+          "status": "open",
+          "title": "娜娜的身世、失亲与追捕",
+          "volume": 4
         }
       ]
     },
@@ -2729,13 +3630,13 @@
         "v03-e04"
       ],
       "question": "记忆所得如何改变选择，哪些能力仍不能继承？",
-      "resolution_note": "最近核对至第3集；各阶段状态见分集记录。跨集信息优势得到兑现；知识与魔力仍须分开。",
+      "resolution_note": "已入库至第4集；本线最近明确记录为第3集。跨集信息优势得到兑现；知识与魔力仍须分开。",
       "status": "partial",
       "title": "跨集 · 记忆、知识与力量",
       "tracking_key": "memory-and-power",
       "volume_history": []
     }
   ],
-  "title": "超级骷髅兵 · 九维深化第1—3集",
-  "updated_at": "2026-10-21T20:28:54.540564+00:00"
+  "title": "超级骷髅兵 · 九维深化第1—4集",
+  "updated_at": "2026-10-21T20:38:34.449955+00:00"
 }

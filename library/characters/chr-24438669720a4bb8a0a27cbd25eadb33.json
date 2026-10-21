@@ -3,16 +3,17 @@
   "asset_type": "character",
   "content": {
     "aliases": [
-      "哥尔老师"
+      "哥尔老师",
+      "雷普诺特·里因斯·斯文哥尔"
     ],
-    "arc_change": "由利用主角的安全逻辑推进隐秘计划，转为公开选择同伴身份并主动战斗。",
-    "conflict": "替他人决定幸福与尊重其选择之间存在矛盾；对黑龙的真实情感与手段不一致。",
-    "coverage_note": "九维深化已覆盖第1至3集；变化记录以各集证据为准。",
-    "goal": "保护爱琳等晚辈，同时接受自己的永生与研究生活。",
+    "arc_change": "主动自称副团长，发现念系潜力但无教学来源；对圣骑士部署耗尽魔力的范围火。",
+    "conflict": "道义教导常被实际需求追问；对死亡解脱的判断也替当事人作了选择。",
+    "coverage_note": "九维深化已覆盖第1至4集；变化记录以各集证据为准。",
+    "goal": "安顿队伍、完成委托、确保不死身份不外泄。",
     "knowledge_limits": [
-      "在宝库前不知道黑龙能融合记忆",
-      "不了解救赎之魂实测效果",
-      "威胁神谱含刻意夸张"
+      "不知道幕后刺杀势力",
+      "不知道罗得宾士存活",
+      "没有念系魔法可教黑龙"
     ],
     "name": "斯文哥尔",
     "opening_observations": {
@@ -28,11 +29,11 @@
       "summary": "有地位的法师依惯常召唤规则判断黑龙群体，接连遇到例外；认为必须消灭不死生物，失利后选择牺牲自己掩护同伴。"
     },
     "relationships": [
-      "把爱琳视为女儿",
-      "害怕并试图约束黑龙大规模转生",
-      "继续承担对外谈判"
+      "与黑龙分工互补但感知没有共享",
+      "与爱琳保持父女般照护",
+      "以善意谎言带走泰戈"
     ],
-    "summary": "以恢复晚辈人身为由欺骗黑龙，获得圣物后主动舍弃并重返队伍。",
+    "summary": "承担外交、护送和建设统筹，既重视克制也会因身份危机决定灭口。",
     "volume_history": [
       {
         "aliases": [
@@ -146,6 +147,50 @@
         ],
         "summary": "以恢复晚辈人身为由欺骗黑龙，获得圣物后主动舍弃并重返队伍。",
         "volume": 3
+      },
+      {
+        "aliases": [
+          "哥尔老师",
+          "雷普诺特·里因斯·斯文哥尔"
+        ],
+        "arc_change": "主动自称副团长，发现念系潜力但无教学来源；对圣骑士部署耗尽魔力的范围火。",
+        "conflict": "道义教导常被实际需求追问；对死亡解脱的判断也替当事人作了选择。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0034",
+            "end_line": 4257,
+            "start_line": 4244
+          },
+          {
+            "chapter_id": "ch-0036",
+            "end_line": 4445,
+            "start_line": 4441
+          },
+          {
+            "chapter_id": "ch-0043",
+            "end_line": 5362,
+            "start_line": 5353
+          },
+          {
+            "chapter_id": "ch-0043",
+            "end_line": 5401,
+            "start_line": 5400
+          }
+        ],
+        "goal": "安顿队伍、完成委托、确保不死身份不外泄。",
+        "knowledge_limits": [
+          "不知道幕后刺杀势力",
+          "不知道罗得宾士存活",
+          "没有念系魔法可教黑龙"
+        ],
+        "name": "斯文哥尔",
+        "relationships": [
+          "与黑龙分工互补但感知没有共享",
+          "与爱琳保持父女般照护",
+          "以善意谎言带走泰戈"
+        ],
+        "summary": "承担外交、护送和建设统筹，既重视克制也会因身份危机决定灭口。",
+        "volume": 4
       }
     ]
   },
@@ -271,12 +316,44 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 3806
+    },
+    {
+      "chapter_id": "ch-0034",
+      "claim_kind": "inference",
+      "end_line": 4257,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 4244
+    },
+    {
+      "chapter_id": "ch-0036",
+      "claim_kind": "inference",
+      "end_line": 4445,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 4441
+    },
+    {
+      "chapter_id": "ch-0043",
+      "claim_kind": "inference",
+      "end_line": 5362,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 5353
+    },
+    {
+      "chapter_id": "ch-0043",
+      "claim_kind": "inference",
+      "end_line": 5401,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 5400
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/opening-test-20261022/sven",
   "review_status": "draft",
-  "revision": 4,
+  "revision": 5,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -286,9 +363,10 @@
     "第01集",
     "第02集",
     "第03集",
+    "第04集",
     "责任"
   ],
   "title": "斯文哥尔：分集人物研究",
-  "updated_at": "2026-10-21T20:28:52.846113+00:00",
+  "updated_at": "2026-10-21T20:38:32.012576+00:00",
   "user_notes": ""
 }
