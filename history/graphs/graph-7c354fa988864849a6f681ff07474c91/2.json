@@ -1,0 +1,714 @@
+{
+  "coverage": [
+    {
+      "chapter_ids": [
+        "ch-0001",
+        "ch-0002",
+        "ch-0003",
+        "ch-0004",
+        "ch-0005",
+        "ch-0006",
+        "ch-0007",
+        "ch-0008",
+        "ch-0009",
+        "ch-0010",
+        "ch-0011",
+        "ch-0012"
+      ],
+      "complete": false,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834"
+    }
+  ],
+  "edges": [
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 167,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 156
+        },
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 181,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 179
+        }
+      ],
+      "from": "v01-e01",
+      "id": "v01-edge-01",
+      "kind": "cause",
+      "label": "造出的黑大被召唤，黑龙主动陪同",
+      "to": "v01-e02"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 327,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 293
+        }
+      ],
+      "from": "v01-e02",
+      "id": "v01-edge-02",
+      "kind": "cause",
+      "label": "战斗留下可复生尸体和阿罗约灵魂",
+      "to": "v01-e03"
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "synthesis",
+          "end_line": 468,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 451
+        },
+        {
+          "chapter_id": "ch-0007",
+          "claim_kind": "synthesis",
+          "end_line": 506,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 499
+        }
+      ],
+      "from": "v01-e03",
+      "id": "v01-edge-03",
+      "kind": "cause",
+      "label": "复生向导和伪装使进入人类制度成为可能",
+      "to": "v01-e04"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0008",
+          "claim_kind": "fact",
+          "end_line": 737,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 719
+        },
+        {
+          "chapter_id": "ch-0009",
+          "claim_kind": "fact",
+          "end_line": 977,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 963
+        }
+      ],
+      "from": "v01-e04",
+      "id": "v01-edge-04",
+      "kind": "cause",
+      "label": "抢劫与羞辱引发追击，反击扩大组织损失",
+      "to": "v01-e05"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0010",
+          "claim_kind": "fact",
+          "end_line": 1004,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 981
+        }
+      ],
+      "from": "v01-e05",
+      "id": "v01-edge-05",
+      "kind": "cause",
+      "label": "全面围捕逼队伍进入沼泽",
+      "to": "v01-e06"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0010",
+          "claim_kind": "fact",
+          "end_line": 1094,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1092
+        },
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "fact",
+          "end_line": 1113,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1098
+        }
+      ],
+      "from": "v01-e06",
+      "id": "v01-edge-06",
+      "kind": "cause",
+      "label": "制服与吞噬威胁迫使图克立誓",
+      "to": "v01-e07"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "fact",
+          "end_line": 1159,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1150
+        }
+      ],
+      "from": "v01-e07",
+      "id": "v01-edge-07",
+      "kind": "cause",
+      "label": "图克带路找到秘银，触发炼金合作",
+      "to": "v01-e08"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "inference",
+          "end_line": 1149,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1145
+        },
+        {
+          "chapter_id": "ch-0012",
+          "claim_kind": "inference",
+          "end_line": 1273,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1267
+        }
+      ],
+      "from": "v01-e06",
+      "id": "v01-edge-08",
+      "kind": "setup",
+      "label": "战斗短板成为训练任务",
+      "to": "v01-e09"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0012",
+          "claim_kind": "fact",
+          "end_line": 1341,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1324
+        }
+      ],
+      "from": "v01-e08",
+      "id": "v01-edge-09",
+      "kind": "payoff",
+      "label": "赠予秘银转为魔弓与有限关系缓和",
+      "to": "v01-e09"
+    }
+  ],
+  "graph_id": "graph-7c354fa988864849a6f681ff07474c91",
+  "nodes": [
+    {
+      "claim_kind": "inference",
+      "id": "story",
+      "kind": "story",
+      "parent_id": null,
+      "title": "超级骷髅兵：九维深化剧情结构"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "vol-01",
+      "kind": "volume",
+      "narrative_order": 100,
+      "parent_id": "story",
+      "summary": "本集把一个战场消耗品变成具备资源、队伍和学习渠道的自主行动者。黑龙从反复被击碎的经验中选择装死，吞噬残魂后获得持续行动能力；他创造十个孩子，却没有解决缺少平等交流者的孤独。召唤事故迫使队伍进入人类冲突，佣兵的先验敌意与黑龙防止报信的生存逻辑互相升级，最终把敌人变成生命依附于他的巫妖伙伴。进入城市后，斯文哥尔试图以装备需求教授金钱与社会规则，但只传授收益和风险，反而让黑龙推导出抢劫既有敌人的效率。局部胜利引发雷神全团围捕，把故事从城市资源争夺推向生命禁区。沼泽既提供避难和秘银，又让黑龙遭遇武技强敌，付出黑二骨架粉碎的代价，转而保留俘虏作为教师。结尾以训练和装备升级暂缓追逃，却留下救赎、孩子意识、废弃国度等未解问题。关系变化来自现实依赖与资源互惠，尚未达到道德和解；黑龙的强大也始终受知识、技巧和伪装需求限制。",
+      "title": "第一集 黄金骷髅"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 103,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 75
+        }
+      ],
+      "id": "v01-e01",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "不明白灵魂之心与自身智慧的成因。",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 101,
+      "parent_id": "vol-01",
+      "summary": "黑龙保留自由活动时间，在残魂中获得能源并创造十名骷髅。",
+      "title": "装死后吞魂凝心并创造十子"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-29cb2b388f194a1c8b2e424c96dee814",
+        "chr-d2d3971153154607bb651d6a0c827216",
+        "chr-5c605c7ecd20495ca665d15c2bdf2562",
+        "chr-c128fbc5576e4683b433463c7468e03d"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 228,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 179
+        },
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 289,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 261
+        }
+      ],
+      "id": "v01-e02",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "基于不死生物危险性的既有观念，判断留下他们可能造成生灵涂炭。",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "suspects"
+        }
+      ],
+      "narrative_order": 102,
+      "parent_id": "vol-01",
+      "summary": "陪同黑大穿门后，黑龙拒绝阿罗约驱使；佣兵决定消灭他们，撤退报信引发灭口。",
+      "title": "召唤冲突以扫黑组全灭结束"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-29cb2b388f194a1c8b2e424c96dee814",
+        "chr-d2d3971153154607bb651d6a0c827216",
+        "chr-5c605c7ecd20495ca665d15c2bdf2562"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 338,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 299
+        },
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 448,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 437
+        }
+      ],
+      "id": "v01-e03",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "救赎之魂也许能恢复原本生命。",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "suspects"
+        }
+      ],
+      "narrative_order": 103,
+      "parent_id": "vol-01",
+      "summary": "黑龙获得碎片魔法知识，为交流而复活四人；伙伴接受生命但计划寻找救赎。",
+      "title": "吞噬阿罗约并复活四名伙伴"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92",
+        "chr-24438669720a4bb8a0a27cbd25eadb33"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0007",
+          "claim_kind": "fact",
+          "end_line": 568,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 524
+        },
+        {
+          "chapter_id": "ch-0007",
+          "claim_kind": "fact",
+          "end_line": 654,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 592
+        }
+      ],
+      "id": "v01-e04",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "完成任务能赚钱，金钱能兑换装备。",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 104,
+      "parent_id": "vol-01",
+      "summary": "低报酬与装备需求促使黑龙采纳抢劫建议，获得装备并结仇。",
+      "title": "建立佣兵团后抢劫雷神成员"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-201a3f9df7a64c6b807871acb89f436a",
+        "chr-0e4a599e5370441789c42e68db20737e",
+        "chr-f36c19e234d748a9b9081aa40e061e32",
+        "chr-6bcffb34b20f4a97b5df49135920effa"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0009",
+          "claim_kind": "fact",
+          "end_line": 852,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 837
+        },
+        {
+          "chapter_id": "ch-0009",
+          "claim_kind": "fact",
+          "end_line": 907,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 885
+        },
+        {
+          "chapter_id": "ch-0009",
+          "claim_kind": "fact",
+          "end_line": 977,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 963
+        }
+      ],
+      "id": "v01-e05",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "黑龙可能由竞争佣兵团派出。",
+          "observer": "chr-f36c19e234d748a9b9081aa40e061e32",
+          "state": "suspects"
+        }
+      ],
+      "narrative_order": 105,
+      "parent_id": "vol-01",
+      "summary": "击溃雷火、杀死狂战后继续袭击分部，雷神总部调动组织资源。",
+      "title": "洗劫升级引发雷神全面围捕"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92",
+        "chr-24b9d252fb624865a46d717832261c68",
+        "chr-6ebb35c20edf4908b3b64159c8fd7a73"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0010",
+          "claim_kind": "fact",
+          "end_line": 1016,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1003
+        },
+        {
+          "chapter_id": "ch-0010",
+          "claim_kind": "fact",
+          "end_line": 1094,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1055
+        }
+      ],
+      "id": "v01-e06",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "黑二自发行动可能是意识萌芽。",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "suspects"
+        }
+      ],
+      "narrative_order": 106,
+      "parent_id": "vol-01",
+      "summary": "避入禁地后遭黑武士攻击，黑二自发挡斗气，骷髅队伍以抱杀制服图克。",
+      "title": "沼泽遭遇图克与黑二重伤"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-6ebb35c20edf4908b3b64159c8fd7a73",
+        "chr-24438669720a4bb8a0a27cbd25eadb33"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "fact",
+          "end_line": 1129,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1105
+        }
+      ],
+      "id": "v01-e07",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "不知道同族去向和国度荒废原因。",
+          "observer": "chr-6ebb35c20edf4908b3b64159c8fd7a73",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 107,
+      "parent_id": "vol-01",
+      "summary": "图克以灵魂誓约换命，答应服从黑龙并提供沼泽与祭坛知识。",
+      "title": "图克立誓并成为沼泽向导"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-6ebb35c20edf4908b3b64159c8fd7a73"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "fact",
+          "end_line": 1211,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1173
+        }
+      ],
+      "id": "v01-e08",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "魔法兵器不需要整把由秘银制造。",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 108,
+      "parent_id": "vol-01",
+      "summary": "斯文哥尔制造诅咒长刀，黑龙赠予五公斤秘银，改变其跟随评价。",
+      "title": "秘银加工使被迫同行出现互惠"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-6ebb35c20edf4908b3b64159c8fd7a73",
+        "chr-24438669720a4bb8a0a27cbd25eadb33"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "fact",
+          "end_line": 1234,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1224
+        }
+      ],
+      "id": "v01-e10",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "此地存在未见于其知识的古老不死领地遗迹。",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 109,
+      "parent_id": "vol-01",
+      "summary": "在图克带领下抵达祭坛，队伍发现古老不死领地遗迹，衰亡原因仍无从得知。",
+      "title": "发现荒废不死国度遗迹"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-6ebb35c20edf4908b3b64159c8fd7a73",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-d2d3971153154607bb651d6a0c827216",
+        "chr-5c605c7ecd20495ca665d15c2bdf2562"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0012",
+          "claim_kind": "fact",
+          "end_line": 1319,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1295
+        },
+        {
+          "chapter_id": "ch-0012",
+          "claim_kind": "fact",
+          "end_line": 1341,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 1321
+        }
+      ],
+      "id": "v01-e09",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "生存与装备收益同黑龙相连，但情感仍难接受过去。",
+          "observer": "chr-d2d3971153154607bb651d6a0c827216",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 110,
+      "parent_id": "vol-01",
+      "summary": "黑龙完成基础训练进入实战学习；星月获新弓却仍对黑龙有芥蒂。",
+      "title": "基础武技与魔弓升级但关系未和解"
+    }
+  ],
+  "owner": {
+    "id": "src-9ff09c395734410b856f77c77a652834",
+    "kind": "source"
+  },
+  "revision": 2,
+  "schema_version": 1,
+  "threads": [
+    {
+      "edge_ids": [
+        "v01-edge-02",
+        "v01-edge-09"
+      ],
+      "id": "v01-thread-01",
+      "kind": "main",
+      "node_ids": [
+        "v01-e01",
+        "v01-e02",
+        "v01-e03",
+        "v01-e07",
+        "v01-e08",
+        "v01-e09"
+      ],
+      "question": "黑龙获得不被驱使的生存后，能否建立不依赖控制的关系？",
+      "resolution_note": "自主行动和伙伴已获得，平等交流与生命控制矛盾仍未解决。",
+      "status": "partial",
+      "title": "第1集 · 自由存续与交流需求",
+      "tracking_key": "blackdragon-autonomy-and-companionship"
+    },
+    {
+      "edge_ids": [],
+      "id": "v01-thread-02",
+      "kind": "subplot",
+      "node_ids": [
+        "v01-e03",
+        "v01-e04"
+      ],
+      "question": "能否找到流落民间的救赎之魂，它是否真能恢复生命？",
+      "resolution_note": "仅建立传说、教会收藏及民间流失情报；已留传讯玉悬赏，无实物与效果验证。",
+      "status": "open",
+      "title": "第1集 · 救赎之魂",
+      "tracking_key": "redemption-soul"
+    },
+    {
+      "edge_ids": [],
+      "id": "v01-thread-03",
+      "kind": "hidden",
+      "node_ids": [
+        "v01-e01",
+        "v01-e06"
+      ],
+      "question": "黑龙为何能思考，黑二的自主护主是否代表孩子意识萌芽？",
+      "resolution_note": "自主护主为已见行为，意识觉醒仍为黑龙猜测。",
+      "status": "open",
+      "title": "第1集 · 十子意识与黑龙起源",
+      "tracking_key": "children-consciousness"
+    },
+    {
+      "edge_ids": [
+        "v01-edge-04",
+        "v01-edge-05"
+      ],
+      "id": "v01-thread-04",
+      "kind": "subplot",
+      "node_ids": [
+        "v01-e04",
+        "v01-e05",
+        "v01-e06",
+        "v01-e09"
+      ],
+      "question": "雷神能否识别黑龙身份并追回信誉与损失？",
+      "resolution_note": "主角暂脱追踪，雷神仍全力寻人，冲突未结束。",
+      "status": "open",
+      "title": "第1集 · 雷神报复与信誉危机",
+      "tracking_key": "thunder-mercenary-conflict"
+    },
+    {
+      "edge_ids": [],
+      "id": "v01-thread-05",
+      "kind": "hidden",
+      "node_ids": [
+        "v01-e10"
+      ],
+      "question": "不死领地为何荒废并被已知历史遗漏，同族去了哪里？",
+      "resolution_note": "存在遗迹得到现场确认，成因未明；图克苏醒时已荒废。",
+      "status": "open",
+      "title": "第1集 · 沉沦国度与转生祭坛",
+      "tracking_key": "sunken-undead-kingdom"
+    }
+  ],
+  "title": "超级骷髅兵 · 九维深化第1—1集",
+  "updated_at": "2026-10-21T20:22:34.292301+00:00"
+}

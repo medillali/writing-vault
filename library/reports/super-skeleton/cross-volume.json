@@ -1,0 +1,308 @@
+{
+  "covered_volumes": [
+    1,
+    2
+  ],
+  "edges": [
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0010",
+          "end_line": 1088,
+          "start_line": 1045
+        },
+        {
+          "chapter_id": "ch-0020",
+          "end_line": 2290,
+          "start_line": 2273
+        }
+      ],
+      "from": "v01-e06",
+      "id": "cross-children-01",
+      "kind": "payoff",
+      "label": "自发护主的意识线索发展为主动称呼和解释；觉醒原因仍未知",
+      "to": "v02-e05"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "end_line": 1238,
+          "start_line": 1216
+        },
+        {
+          "chapter_id": "ch-0014",
+          "end_line": 1412,
+          "start_line": 1380
+        }
+      ],
+      "from": "v01-e10",
+      "id": "cross-ruins-01",
+      "kind": "reveal",
+      "label": "已发现的荒废遗迹在红月下出现祭坛反应，古史仍未证实",
+      "to": "v02-e01"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0009",
+          "end_line": 977,
+          "start_line": 963
+        },
+        {
+          "chapter_id": "ch-0015",
+          "end_line": 1579,
+          "start_line": 1555
+        }
+      ],
+      "from": "v01-e05",
+      "id": "cross-blockade-01",
+      "kind": "cause",
+      "label": "前集全面围捕延续为出沼泽障碍，促成改貌携魂的突围方案",
+      "to": "v02-e02"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "end_line": 327,
+          "start_line": 293
+        },
+        {
+          "chapter_id": "ch-0021",
+          "end_line": 2357,
+          "start_line": 2336
+        }
+      ],
+      "from": "v01-e03",
+      "id": "cross-memory-01",
+      "kind": "payoff",
+      "label": "吞噬阿罗约留下的记忆逐步解锁，旧物触发完整融合而魔力未继承",
+      "to": "v02-e06"
+    }
+  ],
+  "threads": [
+    {
+      "edge_ids": [
+        "v01-edge-02",
+        "v01-edge-09",
+        "v02-edge-04",
+        "v02-edge-07"
+      ],
+      "id": "book-37dd82abc178",
+      "kind": "main",
+      "node_ids": [
+        "v01-e01",
+        "v01-e02",
+        "v01-e03",
+        "v01-e07",
+        "v01-e08",
+        "v01-e09",
+        "v02-e02",
+        "v02-e03",
+        "v02-e04",
+        "v02-e05",
+        "v02-e09"
+      ],
+      "question": "黑龙能否在自身成长和孩子意识出现后重新看待受控伙伴？",
+      "resolution_note": "最近核对至第2集；各阶段状态见分集记录。有同类交流得到兑现，生命控制与道德分歧变得更明显，尚未解决。",
+      "status": "partial",
+      "title": "跨集 · 自由、控制与同伴关系",
+      "tracking_key": "blackdragon-autonomy-and-companionship",
+      "volume_history": [
+        {
+          "kind": "main",
+          "question": "黑龙获得不被驱使的生存后，能否建立不依赖控制的关系？",
+          "resolution_note": "自主行动和伙伴已获得，平等交流与生命控制矛盾仍未解决。",
+          "status": "partial",
+          "title": "自由存续与交流需求",
+          "volume": 1
+        },
+        {
+          "kind": "main",
+          "question": "黑龙能否在自身成长和孩子意识出现后重新看待受控伙伴？",
+          "resolution_note": "有同类交流得到兑现，生命控制与道德分歧变得更明显，尚未解决。",
+          "status": "partial",
+          "title": "自由、控制与同伴关系",
+          "volume": 2
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "v02-edge-05"
+      ],
+      "id": "book-d57a5d7a5b5a",
+      "kind": "subplot",
+      "node_ids": [
+        "v01-e03",
+        "v01-e04",
+        "v02-e01",
+        "v02-e03",
+        "v02-e07"
+      ],
+      "question": "雷克丁家族持物能否取得，其效果是否真实？",
+      "resolution_note": "最近核对至第2集；各阶段状态见分集记录。增加持有者情报并推动联盟，实物与效力都尚未验证；黑龙未获全情。",
+      "status": "open",
+      "title": "跨集 · 救赎之魂",
+      "tracking_key": "redemption-soul",
+      "volume_history": [
+        {
+          "kind": "subplot",
+          "question": "能否找到流落民间的救赎之魂，它是否真能恢复生命？",
+          "resolution_note": "仅建立传说、教会收藏及民间流失情报；已留传讯玉悬赏，无实物与效果验证。",
+          "status": "open",
+          "title": "救赎之魂",
+          "volume": 1
+        },
+        {
+          "kind": "subplot",
+          "question": "雷克丁家族持物能否取得，其效果是否真实？",
+          "resolution_note": "增加持有者情报并推动联盟，实物与效力都尚未验证；黑龙未获全情。",
+          "status": "open",
+          "title": "救赎之魂",
+          "volume": 2
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "v02-edge-04",
+        "v02-edge-07",
+        "cross-children-01"
+      ],
+      "id": "book-c55cdb2efcb4",
+      "kind": "hidden",
+      "node_ids": [
+        "v01-e01",
+        "v01-e06",
+        "v02-e04",
+        "v02-e05",
+        "v02-e09"
+      ],
+      "question": "黑二为何觉醒，其他孩子为何仍无意识？",
+      "resolution_note": "最近核对至第2集；各阶段状态见分集记录。黑二意识已确认；黑大仅觉醒技能，成因仍未知。",
+      "status": "partial",
+      "title": "跨集 · 十子意识与进化条件",
+      "tracking_key": "children-consciousness",
+      "volume_history": [
+        {
+          "kind": "hidden",
+          "question": "黑龙为何能思考，黑二的自主护主是否代表孩子意识萌芽？",
+          "resolution_note": "自主护主为已见行为，意识觉醒仍为黑龙猜测。",
+          "status": "open",
+          "title": "十子意识与黑龙起源",
+          "volume": 1
+        },
+        {
+          "kind": "hidden",
+          "question": "黑二为何觉醒，其他孩子为何仍无意识？",
+          "resolution_note": "黑二意识已确认；黑大仅觉醒技能，成因仍未知。",
+          "status": "partial",
+          "title": "十子意识与进化条件",
+          "volume": 2
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "v01-edge-04",
+        "v01-edge-05",
+        "v02-edge-02",
+        "v02-edge-03",
+        "v02-edge-05",
+        "cross-blockade-01"
+      ],
+      "id": "book-4591509faba8",
+      "kind": "subplot",
+      "node_ids": [
+        "v01-e04",
+        "v01-e05",
+        "v01-e06",
+        "v01-e09",
+        "v02-e02",
+        "v02-e03",
+        "v02-e04",
+        "v02-e07"
+      ],
+      "question": "雷神能否在联盟和悬赏夹击中保全，双方是否继续升级？",
+      "resolution_note": "最近核对至第2集；各阶段状态见分集记录。坦克肉体死亡，雷神损失两千成员与情报网络，但团长及组织尚存。",
+      "status": "partial",
+      "title": "跨集 · 雷神冲突的组织化",
+      "tracking_key": "thunder-mercenary-conflict",
+      "volume_history": [
+        {
+          "kind": "subplot",
+          "question": "雷神能否识别黑龙身份并追回信誉与损失？",
+          "resolution_note": "主角暂脱追踪，雷神仍全力寻人，冲突未结束。",
+          "status": "open",
+          "title": "雷神报复与信誉危机",
+          "volume": 1
+        },
+        {
+          "kind": "subplot",
+          "question": "雷神能否在联盟和悬赏夹击中保全，双方是否继续升级？",
+          "resolution_note": "坦克肉体死亡，雷神损失两千成员与情报网络，但团长及组织尚存。",
+          "status": "partial",
+          "title": "雷神冲突的组织化",
+          "volume": 2
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "cross-ruins-01"
+      ],
+      "id": "book-c0fbac950b52",
+      "kind": "hidden",
+      "node_ids": [
+        "v01-e10",
+        "v02-e01"
+      ],
+      "question": "祭坛供能与自修复机制、古国消失原因是什么？",
+      "resolution_note": "最近核对至第2集；各阶段状态见分集记录。现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
+      "status": "open",
+      "title": "跨集 · 红月与沉沦国度",
+      "tracking_key": "sunken-undead-kingdom",
+      "volume_history": [
+        {
+          "kind": "hidden",
+          "question": "不死领地为何荒废并被已知历史遗漏，同族去了哪里？",
+          "resolution_note": "存在遗迹得到现场确认，成因未明；图克苏醒时已荒废。",
+          "status": "open",
+          "title": "沉沦国度与转生祭坛",
+          "volume": 1
+        },
+        {
+          "kind": "hidden",
+          "question": "祭坛供能与自修复机制、古国消失原因是什么？",
+          "resolution_note": "现场观察到祭坛波动与外观变新，斯文哥尔判断其具自修复功能；建造年代和转生机制仍为推断。",
+          "status": "open",
+          "title": "红月与沉沦国度",
+          "volume": 2
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "cross-memory-01"
+      ],
+      "id": "book-0a05fa972401",
+      "kind": "hidden",
+      "node_ids": [
+        "v01-e03",
+        "v02-e06"
+      ],
+      "question": "记忆所得如何改变选择，哪些能力仍不能继承？",
+      "resolution_note": "最近核对至第2集；各阶段状态见分集记录。跨集信息优势得到兑现；知识与魔力仍须分开。",
+      "status": "partial",
+      "title": "跨集 · 记忆、知识与力量",
+      "tracking_key": "memory-and-power",
+      "volume_history": []
+    }
+  ]
+}

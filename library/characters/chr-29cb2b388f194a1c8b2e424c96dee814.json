@@ -5,14 +5,14 @@
     "aliases": [
       "艾琳"
     ],
-    "arc_change": "接受继续存在但没有接受不死身份带来的生活方式，敌意仍鲜明。",
-    "conflict": "恨黑龙却被生命关系绑定；荣誉感和羞耻感与黑龙实用逻辑相撞。",
-    "coverage_note": "九维深化已覆盖第1至1集；变化记录以各集证据为准。",
-    "goal": "恢复原有生活与身份，依赖老师寻求安全和解释。",
-    "knowledge_limits": "不知道救赎是否有效，也不掌握自身灵魂强于其他复生者的原因。",
+    "arc_change": "对雷神冲突变积极，险遭吞噬后对黑龙畏惧加深。",
+    "conflict": "气话被黑龙当真，生命受控的恐惧压过任性。",
+    "coverage_note": "九维深化已覆盖第1至2集；变化记录以各集证据为准。",
+    "goal": "争取救赎之魂并结束不死处境。",
+    "knowledge_limits": "救赎有效性未知，所持希望不是已实现结果。",
     "name": "艾琳伦雅",
-    "relationships": "信任斯文哥尔，向月寻求陪伴，对黑龙保持怨恨。",
-    "summary": "十九岁的天才女法师，死而复生后在生理不死与人类习惯间强烈不适。",
+    "relationships": "依赖斯文哥尔与星月；对黑龙仍怨恨。",
+    "summary": "希望恢复原生活的女法师，拒绝继续住沼泽。",
     "volume_history": [
       {
         "aliases": [
@@ -48,6 +48,31 @@
         "relationships": "信任斯文哥尔，向月寻求陪伴，对黑龙保持怨恨。",
         "summary": "十九岁的天才女法师，死而复生后在生理不死与人类习惯间强烈不适。",
         "volume": 1
+      },
+      {
+        "aliases": [
+          "艾琳"
+        ],
+        "arc_change": "对雷神冲突变积极，险遭吞噬后对黑龙畏惧加深。",
+        "conflict": "气话被黑龙当真，生命受控的恐惧压过任性。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0014",
+            "end_line": 1430,
+            "start_line": 1425
+          },
+          {
+            "chapter_id": "ch-0015",
+            "end_line": 1607,
+            "start_line": 1580
+          }
+        ],
+        "goal": "争取救赎之魂并结束不死处境。",
+        "knowledge_limits": "救赎有效性未知，所持希望不是已实现结果。",
+        "name": "艾琳伦雅",
+        "relationships": "依赖斯文哥尔与星月；对黑龙仍怨恨。",
+        "summary": "希望恢复原生活的女法师，拒绝继续住沼泽。",
+        "volume": 2
       }
     ]
   },
@@ -85,19 +110,36 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 1018
+    },
+    {
+      "chapter_id": "ch-0014",
+      "claim_kind": "inference",
+      "end_line": 1430,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 1425
+    },
+    {
+      "chapter_id": "ch-0015",
+      "claim_kind": "inference",
+      "end_line": 1607,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 1580
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/艾琳伦雅",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
-    "第01集"
+    "第01集",
+    "第02集"
   ],
   "title": "艾琳伦雅：分集人物研究",
-  "updated_at": "2026-10-21T20:22:33.387217+00:00",
+  "updated_at": "2026-10-21T20:27:14.349057+00:00",
   "user_notes": ""
 }

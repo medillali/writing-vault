@@ -3,14 +3,14 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "由自信整军到连续追捕失败和病倒，个人羞辱扩展为组织信誉危机。",
-    "conflict": "自身武力无法弥补坐骑耐力、信息分类与敌方身份差异。",
-    "coverage_note": "九维深化已覆盖第1至1集；变化记录以各集证据为准。",
-    "goal": "维护团体颜面并抓住黑龙。",
-    "knowledge_limits": "不知道敌人为不死者、坐骑特性和真实劫掠动机。",
+    "arc_change": "失去莫非后不甘战死并形成战魂，后被黑龙吞噬压制而未炼化。",
+    "conflict": "过度爆发耗尽生命；对手身份和不死耐力超出原认知。",
+    "coverage_note": "九维深化已覆盖第1至2集；变化记录以各集证据为准。",
+    "goal": "守护雷神与侍从，消灭黑龙挽回尊严。",
+    "knowledge_limits": "临死前识破黑龙不死身份，外部是否得知没有证据。",
     "name": "坦克",
-    "relationships": "服从雷克丁，与雷火同属狂战队长；对团员严格且有维护倾向。",
-    "summary": "雷神塞茵分部武装负责人，因成员被剥甲受辱持续追击黑龙。",
+    "relationships": "把莫非视为亲人；雷克丁视如己出。",
+    "summary": "雷神狂战教官与被看重的继承人，病危中突破狂暴战士。",
     "volume_history": [
       {
         "aliases": [],
@@ -39,6 +39,44 @@
         "relationships": "服从雷克丁，与雷火同属狂战队长；对团员严格且有维护倾向。",
         "summary": "雷神塞茵分部武装负责人，因成员被剥甲受辱持续追击黑龙。",
         "volume": 1
+      },
+      {
+        "aliases": [],
+        "arc_change": "失去莫非后不甘战死并形成战魂，后被黑龙吞噬压制而未炼化。",
+        "conflict": "过度爆发耗尽生命；对手身份和不死耐力超出原认知。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0018",
+            "end_line": 1957,
+            "start_line": 1935
+          },
+          {
+            "chapter_id": "ch-0019",
+            "end_line": 2084,
+            "start_line": 2061
+          },
+          {
+            "chapter_id": "ch-0019",
+            "end_line": 2156,
+            "start_line": 2119
+          },
+          {
+            "chapter_id": "ch-0020",
+            "end_line": 2200,
+            "start_line": 2173
+          },
+          {
+            "chapter_id": "ch-0021",
+            "end_line": 2438,
+            "start_line": 2435
+          }
+        ],
+        "goal": "守护雷神与侍从，消灭黑龙挽回尊严。",
+        "knowledge_limits": "临死前识破黑龙不死身份，外部是否得知没有证据。",
+        "name": "坦克",
+        "relationships": "把莫非视为亲人；雷克丁视如己出。",
+        "summary": "雷神狂战教官与被看重的继承人，病危中突破狂暴战士。",
+        "volume": 2
       }
     ]
   },
@@ -68,19 +106,60 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 1240
+    },
+    {
+      "chapter_id": "ch-0018",
+      "claim_kind": "inference",
+      "end_line": 1957,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 1935
+    },
+    {
+      "chapter_id": "ch-0019",
+      "claim_kind": "inference",
+      "end_line": 2084,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 2061
+    },
+    {
+      "chapter_id": "ch-0019",
+      "claim_kind": "inference",
+      "end_line": 2156,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 2119
+    },
+    {
+      "chapter_id": "ch-0020",
+      "claim_kind": "inference",
+      "end_line": 2200,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 2173
+    },
+    {
+      "chapter_id": "ch-0021",
+      "claim_kind": "inference",
+      "end_line": 2438,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 2435
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/坦克",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
-    "第01集"
+    "第01集",
+    "第02集"
   ],
   "title": "坦克：分集人物研究",
-  "updated_at": "2026-10-21T20:22:33.577402+00:00",
+  "updated_at": "2026-10-21T20:27:14.556239+00:00",
   "user_notes": ""
 }

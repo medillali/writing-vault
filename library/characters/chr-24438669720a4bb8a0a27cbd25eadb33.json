@@ -5,11 +5,11 @@
     "aliases": [
       "哥尔老师"
     ],
-    "arc_change": "由敌对与牺牲者转为向导和教师，再因秘银互惠产生条件性的积极认同。",
-    "conflict": "不死即邪恶的旧信念与自身状态冲突，教化目标遭主角独立逻辑反驳。",
-    "coverage_note": "九维深化已覆盖第1至1集；变化记录以各集证据为准。",
-    "goal": "让伙伴继续生存、寻找救赎之魂，并尽力约束黑龙危害无辜。",
-    "knowledge_limits": "救赎效果只知传说；不知道黑龙能否持续避免滥杀、古国历史及意识来源。",
+    "arc_change": "从担心惹祸转为主动政治布局，并切身发现黑龙会使用控制权。",
+    "conflict": "隐瞒目标促雷神战争，却无法控制主角清场屠杀；行动自由最终受限。",
+    "coverage_note": "九维深化已覆盖第1至2集；变化记录以各集证据为准。",
+    "goal": "寻找救赎、保护同伴并阻止黑龙滥杀。",
+    "knowledge_limits": "知道救赎消息但未验证效果；不知黑二心灵对话内容。",
     "name": "斯文哥尔",
     "opening_observations": {
       "arc_in_sample": "权威判断→例外暴露→主动攻击→舍身掩护但被投刀击倒。",
@@ -23,8 +23,8 @@
       ],
       "summary": "有地位的法师依惯常召唤规则判断黑龙群体，接连遇到例外；认为必须消灭不死生物，失利后选择牺牲自己掩护同伴。"
     },
-    "relationships": "艾琳信赖的老师；星月也尊重他；受黑龙生命连带约束且为团队提供制度与工艺知识。",
-    "summary": "火系大魔法师兼炼金术士，参与杀死阿罗约，被黑龙杀死后复活为巫妖。",
+    "relationships": "与黑龙携魂合作；教导四人；借疾风情报体系。",
+    "summary": "巫妖向导兼谋划者，为救赎希望推动联盟。",
     "volume_history": [
       {
         "aliases": [
@@ -60,6 +60,46 @@
         "relationships": "艾琳信赖的老师；星月也尊重他；受黑龙生命连带约束且为团队提供制度与工艺知识。",
         "summary": "火系大魔法师兼炼金术士，参与杀死阿罗约，被黑龙杀死后复活为巫妖。",
         "volume": 1
+      },
+      {
+        "aliases": [
+          "哥尔老师"
+        ],
+        "arc_change": "从担心惹祸转为主动政治布局，并切身发现黑龙会使用控制权。",
+        "conflict": "隐瞒目标促雷神战争，却无法控制主角清场屠杀；行动自由最终受限。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0014",
+            "end_line": 1431,
+            "start_line": 1418
+          },
+          {
+            "chapter_id": "ch-0015",
+            "end_line": 1579,
+            "start_line": 1577
+          },
+          {
+            "chapter_id": "ch-0019",
+            "end_line": 2048,
+            "start_line": 2040
+          },
+          {
+            "chapter_id": "ch-0020",
+            "end_line": 2293,
+            "start_line": 2291
+          },
+          {
+            "chapter_id": "ch-0023",
+            "end_line": 2636,
+            "start_line": 2631
+          }
+        ],
+        "goal": "寻找救赎、保护同伴并阻止黑龙滥杀。",
+        "knowledge_limits": "知道救赎消息但未验证效果；不知黑二心灵对话内容。",
+        "name": "斯文哥尔",
+        "relationships": "与黑龙携魂合作；教导四人；借疾风情报体系。",
+        "summary": "巫妖向导兼谋划者，为救赎希望推动联盟。",
+        "volume": 2
       }
     ]
   },
@@ -121,12 +161,52 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 1336
+    },
+    {
+      "chapter_id": "ch-0014",
+      "claim_kind": "inference",
+      "end_line": 1431,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 1418
+    },
+    {
+      "chapter_id": "ch-0015",
+      "claim_kind": "inference",
+      "end_line": 1579,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 1577
+    },
+    {
+      "chapter_id": "ch-0019",
+      "claim_kind": "inference",
+      "end_line": 2048,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 2040
+    },
+    {
+      "chapter_id": "ch-0020",
+      "claim_kind": "inference",
+      "end_line": 2293,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 2291
+    },
+    {
+      "chapter_id": "ch-0023",
+      "claim_kind": "inference",
+      "end_line": 2636,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 2631
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/opening-test-20261022/sven",
   "review_status": "draft",
-  "revision": 2,
+  "revision": 3,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -134,9 +214,10 @@
     "全书九维",
     "敌对视角",
     "第01集",
+    "第02集",
     "责任"
   ],
   "title": "斯文哥尔：分集人物研究",
-  "updated_at": "2026-10-21T20:22:33.333448+00:00",
+  "updated_at": "2026-10-21T20:27:14.301664+00:00",
   "user_notes": ""
 }
