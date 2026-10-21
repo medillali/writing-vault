@@ -3,14 +3,21 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "从震惊转回沉思静坐，没有本集现场干预。",
-    "conflict": "知道她曾被封且信徒被灭，故对新代言者惊讶。",
-    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
-    "goal": "真正政治意图仍未公开。",
-    "knowledge_limits": "其识认支持克丽丝身份，不解释他之前掩护与否。",
+    "arc_change": "隔离克罗斯并揭自身工具史，以猎狗比喻冲击对方信仰。",
+    "conflict": "组织神圣叙事与其真实处境冲突，需让下属理解留存猎物的利益。",
+    "coverage_note": "九维深化已覆盖第1至11集；变化记录以各集证据为准。",
+    "goal": "避免回到无意志工具状态，使自身保持有用。",
+    "knowledge_limits": [
+      "其自述具有招揽目的",
+      "本集未给教皇全部真实策略",
+      "不能写克罗斯已正式加入其阵营"
+    ],
     "name": "菲力普",
-    "relationships": "与教皇、巨树分别感到同一神威，不能据此自动连成联盟。",
-    "summary": "遥感并识认冥月女神分身的天使骑士团长。",
+    "relationships": [
+      "是克罗斯的上级，掌握惩处权",
+      "把追猎职责与自身价值联系"
+    ],
+    "summary": "以自我意志和生存价值为话术推动教会内部选择的降临天使。",
     "volume_history": [
       {
         "aliases": [],
@@ -85,6 +92,31 @@
         "relationships": "与教皇、巨树分别感到同一神威，不能据此自动连成联盟。",
         "summary": "遥感并识认冥月女神分身的天使骑士团长。",
         "volume": 10
+      },
+      {
+        "aliases": [],
+        "arc_change": "隔离克罗斯并揭自身工具史，以猎狗比喻冲击对方信仰。",
+        "conflict": "组织神圣叙事与其真实处境冲突，需让下属理解留存猎物的利益。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0112",
+            "end_line": 14520,
+            "start_line": 14469
+          }
+        ],
+        "goal": "避免回到无意志工具状态，使自身保持有用。",
+        "knowledge_limits": [
+          "其自述具有招揽目的",
+          "本集未给教皇全部真实策略",
+          "不能写克罗斯已正式加入其阵营"
+        ],
+        "name": "菲力普",
+        "relationships": [
+          "是克罗斯的上级，掌握惩处权",
+          "把追猎职责与自身价值联系"
+        ],
+        "summary": "以自我意志和生存价值为话术推动教会内部选择的降临天使。",
+        "volume": 11
       }
     ]
   },
@@ -146,21 +178,30 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 13779
+    },
+    {
+      "chapter_id": "ch-0112",
+      "claim_kind": "inference",
+      "end_line": 14520,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14469
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/菲力普",
   "review_status": "draft",
-  "revision": 3,
+  "revision": 4,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
     "第08集",
     "第09集",
-    "第10集"
+    "第10集",
+    "第11集"
   ],
   "title": "菲力普：分集人物研究",
-  "updated_at": "2026-10-21T21:18:24.092084+00:00",
+  "updated_at": "2026-10-21T21:22:58.944003+00:00",
   "user_notes": ""
 }

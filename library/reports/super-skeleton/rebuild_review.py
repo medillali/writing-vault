@@ -414,13 +414,51 @@ def render_synthesis(synthesis: dict[str, Any] | None, chapters: dict[str, dict[
             f'{rendered or "<p class=\"muted\">未提供该维度综合。</p>"}</section>'
         )
     overview = synthesis.get("overview") or synthesis.get("summary") or "已载入全书综合。"
+    stages = "".join(
+        f'<article class="chapter-note"><h4>{esc(item.get("title", "阶段"))}</h4>'
+        f'<p>{esc(item.get("summary", ""))}</p>{render_evidence(item.get("evidence"), chapters)}</article>'
+        for item in synthesis.get("stages", []) if isinstance(item, dict)
+    )
+    arcs = "".join(
+        f'<article class="chapter-note"><h4>{esc(item.get("name", "人物"))}</h4>'
+        + "".join(f'<p><b>{label}：</b>{esc(item.get(key, ""))}</p>' for key, label in
+                  [("initial", "起点"), ("turns", "转变"), ("ending", "终点"), ("unresolved", "边界")])
+        + render_evidence(item.get("evidence"), chapters) + '</article>'
+        for item in synthesis.get("character_arcs", []) if isinstance(item, dict)
+    )
+    focus = "".join(f'<li>{esc(item)}</li>' for item in synthesis.get("review_focus", []))
+    extras = ((f'<details class="volume-block"><summary>主线阶段</summary><div class="chapter-grid">{stages}</div></details>' if stages else "")
+              + (f'<details class="volume-block"><summary>主要人物弧</summary><div class="chapter-grid">{arcs}</div></details>' if arcs else "")
+              + (f'<details class="volume-block"><summary>建议优先审查</summary><ul>{focus}</ul></details>' if focus else ""))
     return (
         '<section class="synthesis" id="synthesis"><div class="section-kicker">全书综合</div>'
-        f'<h2>全书九维综合</h2><p class="overview">{esc(overview)}</p>'
+        f'<h2>全书九维综合</h2><p class="overview">{esc(overview)}</p>{extras}'
         f'<div class="dimension-list">{"".join(parts)}</div>'
         '<details class="raw-json"><summary>展开全书综合 JSON 主档</summary>'
         f'<pre>{esc(json.dumps(synthesis, ensure_ascii=False, indent=2))}</pre></details></section>'
     )
+
+
+def render_question_ledger(ledger: dict[str, Any] | None, chapters: dict[str, dict[str, Any]]) -> str:
+    if ledger is None:
+        return ""
+    labels = {"answered": "已有答案", "partial": "部分回答", "open": "仍未回答", "text-uncertain": "文本待辨"}
+    groups = []
+    entries = ledger.get("entries", [])
+    for state, label in labels.items():
+        selected = [item for item in entries if isinstance(item, dict) and item.get("status") == state]
+        rows = "".join(
+            f'<article class="chapter-note"><div class="card-meta">{esc(item.get("id", ""))} · 原始问题第{esc(item.get("origin_volume", ""))}集</div>'
+            f'<h4>{esc(item.get("question", ""))}</h4><p>{esc(item.get("answer", ""))}</p>'
+            f'<p class="muted">{esc(item.get("revisit_focus", ""))}</p>'
+            f'<details><summary>问题与结论的证据</summary><p>原问题</p>{render_evidence(item.get("origin_evidence"), chapters)}'
+            f'<p>终点复核</p>{render_evidence(item.get("answer_evidence"), chapters)}</details></article>'
+            for item in selected
+        )
+        groups.append(f'<details class="volume-block"><summary>{label}（{len(selected)}）</summary><div class="chapter-grid">{rows}</div></details>')
+    return ('<section class="source-material" id="question-ledger"><div class="section-kicker">整书复核</div>'
+            '<h2>疑点与回收清单</h2><p class="lead">保留问题首次出现时的证据，再列全书终点的回答与边界。文本待辨不等于已经证实的作者错误。</p>'
+            + "".join(groups) + '</section>')
 
 
 def relative_link(output: Path, target: Path) -> str:
@@ -449,6 +487,10 @@ def build_html(vault: Path, output: Path) -> str:
     progress = render_progress(volumes, chapters)
     volume_sections = "".join(render_volume(i, report, chapters) for i, report in enumerate(volumes, 1))
     synthesis_html = render_synthesis(synthesis, chapters)
+    ledger_path = report_dir / "question-ledger.json"
+    ledger = read_json(ledger_path) if ledger_path.exists() else None
+    ledger_html = render_question_ledger(ledger, chapters)
+    ledger_nav = '<a href="#question-ledger">疑点回收</a>' if ledger else ''
     asset_payload = safe_script_json(assets)
     chapter_payload = safe_script_json({key: value.get("title", key) for key, value in chapters.items()})
     source_json = esc(json.dumps(source, ensure_ascii=False, indent=2))
@@ -471,14 +513,15 @@ def build_html(vault: Path, output: Path) -> str:
 <header>
 <div class="eyebrow">本地资料库 · 全书蒸馏审查</div>
 <h1>《超级骷髅兵》全书审查</h1>
-<p class="lead">{esc(source_title)}。页面只呈现已经到达的逐集报告；未读集与尚未形成的全书综合均明确保留为空。</p>
+<p class="lead">{esc(source_title)}。页面呈现已入库的研究草稿，未入库报告与尚未形成的全书综合保留为空。研究审查通过与您的收藏、审阅决定分别记录。</p>
 <div class="metrics"><div class="metric"><b>{len(complete)} / {VOLUME_COUNT}</b><span>已完成集数</span></div><div class="metric"><b>{narrative_total}</b><span>已读正文章节</span></div><div class="metric"><b>{non_narrative_total}</b><span>标题／章前索引段</span></div><div class="metric"><b>{len(assets)}</b><span>本来源资产</span></div></div>
-<nav><a href="#progress">阅读进度</a><a href="#dimensions">逐集九维</a><a href="#assets">资料卡</a><a href="#source-material">来源材料</a></nav>
+<nav><a href="#progress">阅读进度</a><a href="#synthesis">全书综合</a><a href="#dimensions">逐集九维</a>{ledger_nav}<a href="#assets">资料卡</a><a href="#source-material">来源材料</a></nav>
 <a class="plot-link" id="plot-link" href="{esc(plot_href)}">打开主线／暗线图 ↗</a>
 </header>
 <main>
 <section id="progress"><div class="section-kicker">覆盖范围</div><h2>18 集阅读进度</h2><div class="progress-grid">{progress}</div></section>
 {synthesis_html}
+{ledger_html}
 <section id="dimensions"><div class="section-kicker">逐集报告</div><h2>逐集九维分析、疑点与修订</h2><div id="review-notes"><div id="dimension-evidence">{volume_sections}</div></div></section>
 <section class="assets" id="assets"><div class="section-kicker">来源资产</div><h2>人物、场景与机制卡</h2><p class="lead">仅收录证据指向本书来源的卡片。原有开篇样段与带“第NN集”或逐集变化记录的全书蒸馏资产分开标识。</p>
 <div class="tools"><input id="asset-search" aria-label="搜索资料卡" placeholder="搜索人物、场景、机制或内容"><select id="asset-type" aria-label="按类型筛选"><option value="">全部类型</option><option value="character">人物</option><option value="scene">场景</option><option value="pattern">机制</option></select><select id="asset-volume" aria-label="按集数筛选"><option value="">全部集数</option>{''.join(f'<option value="{i}">第{i:02d}集</option>' for i in range(1, VOLUME_COUNT + 1))}</select></div>

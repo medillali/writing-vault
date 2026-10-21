@@ -5,17 +5,23 @@
     "aliases": [
       "图克"
     ],
-    "arc_change": "切开泰戈皮肤验证并非无敌；助围雷奥，说明死息傀儡机制。",
-    "conflict": "传承不可避免遗失部分记忆。",
-    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
-    "goal": "护卫黑龙、运用继承知识。",
+    "arc_change": "海皇战与龙人战均展示知识和武技进步，却没有完成死亡骑士转职。",
+    "conflict": "火马喋喋不休令坐骑构想受挫；本集等级称谓不一致。",
+    "coverage_note": "九维深化已覆盖第1至11集；变化记录以各集证据为准。",
+    "goal": "援助黑龙，并曾尝试让哥顿普成为坐骑。",
     "identity_notes": [
       "“黑武士侯爵”是称号、类别或身份声明，保留出处于分集历史，不用作自动合并人物的别名。"
     ],
-    "knowledge_limits": "其传承记忆不如毕瑟原始记忆完整，不推断全知。",
+    "knowledge_limits": [
+      "14055称近皇帝，14978伯爵、15153侯爵，与前集需并列保留",
+      "不据等级错字重写确定升级链"
+    ],
     "name": "图克",
-    "relationships": "与斯文、阿古力特、毕瑟共同研究。",
-    "summary": "继承旧领主知识后参与身体实验、战斗和古物解释。",
+    "relationships": [
+      "效力黑龙",
+      "带哥顿普经过通道但未形成坐骑承诺"
+    ],
+    "summary": "具有精巧武技的黑武士，海皇战以改轨化解水龙，龙岛战近身杀伤强。",
     "volume_history": [
       {
         "aliases": [
@@ -173,6 +179,50 @@
         "relationships": "与斯文、阿古力特、毕瑟共同研究。",
         "summary": "继承旧领主知识后参与身体实验、战斗和古物解释。",
         "volume": 10
+      },
+      {
+        "aliases": [],
+        "arc_change": "海皇战与龙人战均展示知识和武技进步，却没有完成死亡骑士转职。",
+        "conflict": "火马喋喋不休令坐骑构想受挫；本集等级称谓不一致。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0108",
+            "end_line": 14055,
+            "start_line": 14055
+          },
+          {
+            "chapter_id": "ch-0109",
+            "end_line": 14102,
+            "start_line": 14100
+          },
+          {
+            "chapter_id": "ch-0114",
+            "end_line": 14799,
+            "start_line": 14786
+          },
+          {
+            "chapter_id": "ch-0115",
+            "end_line": 14982,
+            "start_line": 14977
+          },
+          {
+            "chapter_id": "ch-0116",
+            "end_line": 15153,
+            "start_line": 15153
+          }
+        ],
+        "goal": "援助黑龙，并曾尝试让哥顿普成为坐骑。",
+        "knowledge_limits": [
+          "14055称近皇帝，14978伯爵、15153侯爵，与前集需并列保留",
+          "不据等级错字重写确定升级链"
+        ],
+        "name": "图克",
+        "relationships": [
+          "效力黑龙",
+          "带哥顿普经过通道但未形成坐骑承诺"
+        ],
+        "summary": "具有精巧武技的黑武士，海皇战以改轨化解水龙，龙岛战近身杀伤强。",
+        "volume": 11
       }
     ]
   },
@@ -314,12 +364,52 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 13003
+    },
+    {
+      "chapter_id": "ch-0108",
+      "claim_kind": "inference",
+      "end_line": 14055,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14055
+    },
+    {
+      "chapter_id": "ch-0109",
+      "claim_kind": "inference",
+      "end_line": 14102,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14100
+    },
+    {
+      "chapter_id": "ch-0114",
+      "claim_kind": "inference",
+      "end_line": 14799,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14786
+    },
+    {
+      "chapter_id": "ch-0115",
+      "claim_kind": "inference",
+      "end_line": 14982,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14977
+    },
+    {
+      "chapter_id": "ch-0116",
+      "claim_kind": "inference",
+      "end_line": 15153,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 15153
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/斯特里克雷亚斯·莱文茵特斯·图克",
   "review_status": "draft",
-  "revision": 6,
+  "revision": 7,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -328,9 +418,10 @@
     "第02集",
     "第08集",
     "第09集",
-    "第10集"
+    "第10集",
+    "第11集"
   ],
   "title": "图克：分集人物研究",
-  "updated_at": "2026-10-21T21:18:23.139628+00:00",
+  "updated_at": "2026-10-21T21:22:59.879705+00:00",
   "user_notes": ""
 }

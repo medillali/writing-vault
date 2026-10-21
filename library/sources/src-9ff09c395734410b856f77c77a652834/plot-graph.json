@@ -106,7 +106,18 @@
         "ch-0102",
         "ch-0103",
         "ch-0104",
-        "ch-0105"
+        "ch-0105",
+        "ch-0106",
+        "ch-0107",
+        "ch-0108",
+        "ch-0109",
+        "ch-0110",
+        "ch-0111",
+        "ch-0112",
+        "ch-0113",
+        "ch-0114",
+        "ch-0115",
+        "ch-0116"
       ],
       "complete": false,
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
@@ -1915,6 +1926,216 @@
       "kind": "echo",
       "label": "末尾舍弃复活巨兽回应此前不能再耗尽力量的教训。",
       "to": "v10-e09"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0108",
+          "claim_kind": "inference",
+          "end_line": 14030,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13988
+        }
+      ],
+      "from": "v11-e01",
+      "id": "v11-edge-01",
+      "kind": "reversal",
+      "label": "解救者转为夺舍目标",
+      "to": "v11-e02"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0109",
+          "claim_kind": "inference",
+          "end_line": 14190,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14165
+        },
+        {
+          "chapter_id": "ch-0110",
+          "claim_kind": "inference",
+          "end_line": 14254,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14214
+        }
+      ],
+      "from": "v11-e02",
+      "id": "v11-edge-02",
+      "kind": "cause",
+      "label": "本源近身逼出吞噬与容量危机",
+      "to": "v11-e03"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0110",
+          "claim_kind": "inference",
+          "end_line": 14316,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14312
+        },
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "inference",
+          "end_line": 14331,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14326
+        }
+      ],
+      "from": "v11-e03",
+      "id": "v11-edge-03",
+      "kind": "cause",
+      "label": "拒绝再援使克丽丝转求娜娜",
+      "to": "v11-e04"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "inference",
+          "end_line": 14337,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14335
+        },
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "inference",
+          "end_line": 14375,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14360
+        }
+      ],
+      "from": "v11-e03",
+      "id": "v11-edge-04",
+      "kind": "setup",
+      "label": "新增力量支持昂贵的海蛇转生",
+      "to": "v11-e04"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0113",
+          "claim_kind": "inference",
+          "end_line": 14695,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14687
+        }
+      ],
+      "from": "v11-e04",
+      "id": "v11-edge-05",
+      "kind": "payoff",
+      "label": "海蛇使龙皇重估追击代价",
+      "to": "v11-e06"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0114",
+          "claim_kind": "inference",
+          "end_line": 14856,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14809
+        },
+        {
+          "chapter_id": "ch-0115",
+          "claim_kind": "inference",
+          "end_line": 14879,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14860
+        }
+      ],
+      "from": "v11-e06",
+      "id": "v11-edge-06",
+      "kind": "cause",
+      "label": "空骑损失与飞行威胁推动战术补强",
+      "to": "v11-e07"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0115",
+          "claim_kind": "inference",
+          "end_line": 14910,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14880
+        }
+      ],
+      "from": "v11-e07",
+      "id": "v11-edge-07",
+      "kind": "cause",
+      "label": "动员与越崖被导向预定消耗战",
+      "to": "v11-e08"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0115",
+          "claim_kind": "inference",
+          "end_line": 14879,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14866
+        },
+        {
+          "chapter_id": "ch-0116",
+          "claim_kind": "inference",
+          "end_line": 15124,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 15117
+        }
+      ],
+      "from": "v11-e07",
+      "id": "v11-edge-08",
+      "kind": "payoff",
+      "label": "黑大投枪示范由黑龙实战伤龙兑现",
+      "to": "v11-e09"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0116",
+          "claim_kind": "inference",
+          "end_line": 15053,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 15048
+        },
+        {
+          "chapter_id": "ch-0116",
+          "claim_kind": "inference",
+          "end_line": 15167,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 15155
+        }
+      ],
+      "from": "v11-e08",
+      "id": "v11-edge-09",
+      "kind": "cause",
+      "label": "增援改变战局促龙皇介入，损失促帝勒祈祷",
+      "to": "v11-e09"
     },
     {
       "claim_kind": "inference",
@@ -3847,6 +4068,494 @@
       "kind": "echo",
       "label": "两次以转生和魂约组织行动均包含强迫，后来获得人力不抹去当时的拒绝权缺失",
       "to": "v10-e06"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0105",
+          "claim_kind": "fact",
+          "end_line": 13802,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13770
+        },
+        {
+          "chapter_id": "ch-0105",
+          "claim_kind": "fact",
+          "end_line": 13836,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13815
+        },
+        {
+          "chapter_id": "ch-0105",
+          "claim_kind": "fact",
+          "end_line": 13871,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13843
+        },
+        {
+          "chapter_id": "ch-0107",
+          "claim_kind": "fact",
+          "end_line": 13913,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13880
+        },
+        {
+          "chapter_id": "ch-0107",
+          "claim_kind": "fact",
+          "end_line": 13977,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13964
+        },
+        {
+          "chapter_id": "ch-0108",
+          "claim_kind": "fact",
+          "end_line": 13992,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13981
+        }
+      ],
+      "from": "v10-e09",
+      "id": "cross-seal-01",
+      "kind": "payoff",
+      "label": "外封破除后继续解除内部封印，海皇此时才真正获释",
+      "to": "v11-e01"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0105",
+          "claim_kind": "fact",
+          "end_line": 13769,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13695
+        },
+        {
+          "chapter_id": "ch-0109",
+          "claim_kind": "fact",
+          "end_line": 14208,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14180
+        },
+        {
+          "chapter_id": "ch-0110",
+          "claim_kind": "fact",
+          "end_line": 14294,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14214
+        },
+        {
+          "chapter_id": "ch-0110",
+          "claim_kind": "fact",
+          "end_line": 14316,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14295
+        }
+      ],
+      "from": "v10-e08",
+      "id": "cross-christine-03",
+      "kind": "reveal",
+      "label": "观察与教学的深层目的由独处叙述解释为求自身脱困；黑龙并不因此获得读者全部知识",
+      "to": "v11-e03"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0094",
+          "claim_kind": "inference",
+          "end_line": 12067,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 12019
+        },
+        {
+          "chapter_id": "ch-0094",
+          "claim_kind": "inference",
+          "end_line": 12143,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 12121
+        },
+        {
+          "chapter_id": "ch-0095",
+          "claim_kind": "inference",
+          "end_line": 12213,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 12181
+        },
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "inference",
+          "end_line": 14331,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14321
+        },
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "inference",
+          "end_line": 14354,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14344
+        },
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "inference",
+          "end_line": 14397,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14360
+        },
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "inference",
+          "end_line": 14435,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14428
+        }
+      ],
+      "from": "v09-e08",
+      "id": "cross-christine-04",
+      "kind": "reversal",
+      "label": "先借萝茜保护并接近黑龙，黑龙拒援后转向娜娜求助；新请求尚未等于脱困成功",
+      "to": "v11-e04"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0099",
+          "claim_kind": "inference",
+          "end_line": 12739,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 12707
+        },
+        {
+          "chapter_id": "ch-0099",
+          "claim_kind": "inference",
+          "end_line": 12793,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 12740
+        },
+        {
+          "chapter_id": "ch-0099",
+          "claim_kind": "inference",
+          "end_line": 12818,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 12794
+        },
+        {
+          "chapter_id": "ch-0114",
+          "claim_kind": "inference",
+          "end_line": 14775,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14762
+        },
+        {
+          "chapter_id": "ch-0114",
+          "claim_kind": "inference",
+          "end_line": 14803,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14776
+        },
+        {
+          "chapter_id": "ch-0114",
+          "claim_kind": "inference",
+          "end_line": 14856,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14809
+        },
+        {
+          "chapter_id": "ch-0115",
+          "claim_kind": "inference",
+          "end_line": 14890,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14860
+        }
+      ],
+      "from": "v10-e03",
+      "id": "cross-emperor-skill-02",
+      "kind": "payoff",
+      "label": "教学与个体意识发展进入实战，黑大自主提出投枪，不代表其余八孩觉醒",
+      "to": "v11-e07"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0099",
+          "claim_kind": "inference",
+          "end_line": 12861,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 12843
+        },
+        {
+          "chapter_id": "ch-0100",
+          "claim_kind": "inference",
+          "end_line": 12944,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 12885
+        },
+        {
+          "chapter_id": "ch-0100",
+          "claim_kind": "inference",
+          "end_line": 13014,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 12965
+        },
+        {
+          "chapter_id": "ch-0101",
+          "claim_kind": "inference",
+          "end_line": 13052,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13048
+        },
+        {
+          "chapter_id": "ch-0108",
+          "claim_kind": "inference",
+          "end_line": 14051,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13998
+        },
+        {
+          "chapter_id": "ch-0108",
+          "claim_kind": "inference",
+          "end_line": 14086,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14062
+        },
+        {
+          "chapter_id": "ch-0109",
+          "claim_kind": "inference",
+          "end_line": 14143,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14097
+        }
+      ],
+      "from": "v10-e04",
+      "id": "cross-armament-02",
+      "kind": "reveal",
+      "label": "已有神器和实体附能并非真正纯魂武装，海皇危机中十孩供力促成黑龙凝兵",
+      "to": "v11-e02"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0103",
+          "claim_kind": "fact",
+          "end_line": 13442,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13403
+        },
+        {
+          "chapter_id": "ch-0103",
+          "claim_kind": "fact",
+          "end_line": 13480,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13460
+        },
+        {
+          "chapter_id": "ch-0112",
+          "claim_kind": "fact",
+          "end_line": 14556,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14551
+        },
+        {
+          "chapter_id": "ch-0113",
+          "claim_kind": "fact",
+          "end_line": 14639,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14560
+        },
+        {
+          "chapter_id": "ch-0113",
+          "claim_kind": "fact",
+          "end_line": 14695,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14642
+        },
+        {
+          "chapter_id": "ch-0113",
+          "claim_kind": "fact",
+          "end_line": 14696,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14696
+        },
+        {
+          "chapter_id": "ch-0114",
+          "claim_kind": "fact",
+          "end_line": 14708,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14700
+        }
+      ],
+      "from": "v10-e06",
+      "id": "cross-expedition-02",
+      "kind": "payoff",
+      "label": "中继岛之后终于登龙岛，现场政治和守卫改变取石行动，尚未取得安息石",
+      "to": "v11-e06"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0103",
+          "claim_kind": "inference",
+          "end_line": 13499,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13489
+        },
+        {
+          "chapter_id": "ch-0104",
+          "claim_kind": "inference",
+          "end_line": 13548,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13509
+        },
+        {
+          "chapter_id": "ch-0104",
+          "claim_kind": "inference",
+          "end_line": 13608,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13576
+        },
+        {
+          "chapter_id": "ch-0104",
+          "claim_kind": "inference",
+          "end_line": 13689,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13653
+        },
+        {
+          "chapter_id": "ch-0104",
+          "claim_kind": "inference",
+          "end_line": 13644,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13640
+        },
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "inference",
+          "end_line": 14331,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14321
+        },
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "inference",
+          "end_line": 14354,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14344
+        },
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "inference",
+          "end_line": 14397,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14360
+        },
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "inference",
+          "end_line": 14435,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14428
+        }
+      ],
+      "from": "v10-e07",
+      "id": "cross-seabeast-01",
+      "kind": "payoff",
+      "label": "海兽被杀后其躯体进一步被转生为远征资源，转生耗半魂而非无成本扩军",
+      "to": "v11-e04"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0085",
+          "claim_kind": "inference",
+          "end_line": 10651,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10641
+        },
+        {
+          "chapter_id": "ch-0086",
+          "claim_kind": "inference",
+          "end_line": 10689,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 10655
+        },
+        {
+          "chapter_id": "ch-0112",
+          "claim_kind": "inference",
+          "end_line": 14480,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14439
+        },
+        {
+          "chapter_id": "ch-0112",
+          "claim_kind": "inference",
+          "end_line": 14520,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14481
+        }
+      ],
+      "from": "v08-e06",
+      "id": "cross-church-agency-02",
+      "kind": "reveal",
+      "label": "菲力普独处展露的工具恐惧在对克罗斯的猎犬解释中进一步公开，听者动摇不等于已投效",
+      "to": "v11-e05"
     }
   ],
   "graph_id": "graph-7c354fa988864849a6f681ff07474c91",
@@ -7818,13 +8527,548 @@
       "parent_id": "vol-10",
       "summary": "萝茜受改体与注能耗竭，双星失衡崩塌；四人进入内洞见六芒星封魂与未知声音，未完成救援。",
       "title": "分身降临破外封，洞内仍有魂封"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "vol-11",
+      "kind": "volume",
+      "narrative_order": 1100,
+      "parent_id": "story",
+      "summary": "本集把解救神明、力量升级和侵入龙岛连接成一条不断改变关系的行动链。海皇获释后企图夺取黑龙躯体，使克丽丝的引荐变成信任危机；黑龙先借十孩供力和同伴掩护凝成真武装，再吞噬海皇、以多目标分流避免爆体，仍付出躯体破碎及部属伤亡；孩子们消化分流所得后才获真武装。胜利之后，他理解斯科特保族的责任，同时撤回对克丽丝的帮助承诺，迫使后者把脱困希望转向娜娜。海蛇转生又将消耗性的升级转为远征资源，然而龙岛并非单纯的取宝地点：龙族生育危机、龙人的受限生活和龙皇的利用计划使来客面对复杂社会。斯文通过战术与装备重新发挥作用，黑大以投枪显示独立创造；黑龙的群体力量仍会因缺飞行、协调和情报而付出高昂代价。结尾在龙人败势中出现祈祷引来的未知力量，既延续信仰元力主题，也把战斗胜负重新悬置。",
+      "title": "第十一集 不死海怪"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-d1af2401c91342228738940630a00180",
+        "chr-b51305fe7679475f9cae757281a146b3"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0107",
+          "claim_kind": "fact",
+          "end_line": 13913,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13880
+        },
+        {
+          "chapter_id": "ch-0107",
+          "claim_kind": "fact",
+          "end_line": 13977,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13964
+        },
+        {
+          "chapter_id": "ch-0108",
+          "claim_kind": "fact",
+          "end_line": 13992,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13981
+        }
+      ],
+      "id": "v11-e01",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "声音来自海皇，解封依赖双方先削弱封印",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 1101,
+      "parent_id": "vol-11",
+      "summary": "海皇本源与克丽丝分身削弱封印，黑龙毁柱，海皇真正脱困。",
+      "title": "海皇身份确认与合力解封"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-d1af2401c91342228738940630a00180",
+        "chr-b51305fe7679475f9cae757281a146b3",
+        "chr-60677b93fd18486dbb9f18d6de5f823f",
+        "chr-632a4344b53f478a93f4d308f3890b92",
+        "chr-24b9d252fb624865a46d717832261c68",
+        "chr-6ebb35c20edf4908b3b64159c8fd7a73",
+        "chr-b72287e437f54ec19819a94091f46ce3",
+        "chr-37825d4ef6be40189c50d630eb315f4c"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0108",
+          "claim_kind": "fact",
+          "end_line": 14051,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 13998
+        },
+        {
+          "chapter_id": "ch-0108",
+          "claim_kind": "fact",
+          "end_line": 14086,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14062
+        },
+        {
+          "chapter_id": "ch-0109",
+          "claim_kind": "fact",
+          "end_line": 14143,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14097
+        }
+      ],
+      "id": "v11-e02",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "起初认为弱小悼亡者可被轻易夺躯",
+          "observer": "chr-b51305fe7679475f9cae757281a146b3",
+          "state": "misbelieves"
+        },
+        {
+          "belief": "黑龙的部众力量超出自己预期",
+          "observer": "chr-d1af2401c91342228738940630a00180",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 1102,
+      "parent_id": "vol-11",
+      "summary": "海皇谋夺躯体，黑龙先攻召援；斯科特领域护军，十孩供力使黑龙凝成真正魂兵。",
+      "title": "夺舍危机引发群体反击与真武装"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-b51305fe7679475f9cae757281a146b3",
+        "chr-60677b93fd18486dbb9f18d6de5f823f",
+        "chr-d1af2401c91342228738940630a00180",
+        "chr-632a4344b53f478a93f4d308f3890b92",
+        "chr-24b9d252fb624865a46d717832261c68"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0109",
+          "claim_kind": "fact",
+          "end_line": 14208,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14180
+        },
+        {
+          "chapter_id": "ch-0110",
+          "claim_kind": "fact",
+          "end_line": 14294,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14214
+        },
+        {
+          "chapter_id": "ch-0110",
+          "claim_kind": "fact",
+          "end_line": 14316,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14295
+        }
+      ],
+      "id": "v11-e03",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "分流成功超出原预判",
+          "observer": "chr-60677b93fd18486dbb9f18d6de5f823f",
+          "state": "knows"
+        },
+        {
+          "belief": "克丽丝引荐带来夺舍危险",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        },
+        {
+          "belief": "克丽丝造沉渊木和教徒为求自身脱困",
+          "observer": "reader",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 1103,
+      "parent_id": "vol-11",
+      "summary": "黑龙吞掉海皇神识，以分流免爆体并恢复躯体；责怪却理解斯科特，明确拒再帮克丽丝。",
+      "title": "吞神分流与信任破裂"
+    },
+    {
+      "characters": [
+        "chr-1d629a39da3e41149707e5f9f636defd",
+        "chr-d1af2401c91342228738940630a00180",
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92",
+        "chr-24b9d252fb624865a46d717832261c68",
+        "chr-c9785b22317349acae9ecbaf73a03ee7",
+        "chr-60677b93fd18486dbb9f18d6de5f823f",
+        "chr-54e84c6e82214a26921887c503f519ee",
+        "chr-24438669720a4bb8a0a27cbd25eadb33"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "fact",
+          "end_line": 14331,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14321
+        },
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "fact",
+          "end_line": 14354,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14344
+        },
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "fact",
+          "end_line": 14397,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14360
+        },
+        {
+          "chapter_id": "ch-0111",
+          "claim_kind": "fact",
+          "end_line": 14435,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14428
+        }
+      ],
+      "id": "v11-e04",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "尚不知道克丽丝需要自己具体做什么",
+          "observer": "chr-1d629a39da3e41149707e5f9f636defd",
+          "state": "unknown"
+        },
+        {
+          "belief": "遗物来历、用途及古帝国消失原因",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 1104,
+      "parent_id": "vol-11",
+      "summary": "娜娜接到新求助；十孩获真武装后，黑龙耗半魂转生海蛇并找到旧帝国遗物，回船续航。",
+      "title": "女神转求娜娜与海蛇转生"
+    },
+    {
+      "characters": [
+        "chr-f5b27f27591c4a9f9b29844c3ab97ee0",
+        "chr-ae13d8cb673b4af3a30842afd9efa78b"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0112",
+          "claim_kind": "fact",
+          "end_line": 14480,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14439
+        },
+        {
+          "chapter_id": "ch-0112",
+          "claim_kind": "fact",
+          "end_line": 14520,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14481
+        }
+      ],
+      "id": "v11-e05",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "菲力普及部分高层存在隐秘合作",
+          "observer": "chr-ae13d8cb673b4af3a30842afd9efa78b",
+          "state": "suspects"
+        },
+        {
+          "belief": "自己的信念已因受害者遭遇动摇",
+          "observer": "chr-ae13d8cb673b4af3a30842afd9efa78b",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 1105,
+      "parent_id": "vol-11",
+      "summary": "占领军停滞与异端集结背景下，菲力普隔离克罗斯并揭露工具处境，迫其面对信仰疑虑。",
+      "title": "菲力普以猎狗比喻动摇下属"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-632a4344b53f478a93f4d308f3890b92",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-4355fd0bfe034913a4c320006ef7678b",
+        "chr-74d6bd18c10d470aa41d265f935c1229",
+        "chr-c9785b22317349acae9ecbaf73a03ee7",
+        "chr-6397f22d0a5f47f0901efd4f2cc15ed0"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0112",
+          "claim_kind": "fact",
+          "end_line": 14556,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14551
+        },
+        {
+          "chapter_id": "ch-0113",
+          "claim_kind": "fact",
+          "end_line": 14639,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14560
+        },
+        {
+          "chapter_id": "ch-0113",
+          "claim_kind": "fact",
+          "end_line": 14695,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14642
+        },
+        {
+          "chapter_id": "ch-0113",
+          "claim_kind": "fact",
+          "end_line": 14696,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14696
+        },
+        {
+          "chapter_id": "ch-0114",
+          "claim_kind": "fact",
+          "end_line": 14708,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14700
+        }
+      ],
+      "id": "v11-e06",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "另外八龙在蛮荒大陆育幼，本岛仅龙皇守护",
+          "observer": "reader",
+          "state": "knows"
+        },
+        {
+          "belief": "龙皇反复警告显示顾忌己方实力",
+          "observer": "chr-24438669720a4bb8a0a27cbd25eadb33",
+          "state": "suspects"
+        }
+      ],
+      "narrative_order": 1106,
+      "parent_id": "vol-11",
+      "summary": "读者获知九龙分布、繁殖危机及龙人来历；登陆队伍的银丝引发龙皇愤怒，海蛇和法师力量迫其转入警告。",
+      "title": "龙岛育幼实况与银丝毁躯"
+    },
+    {
+      "characters": [
+        "chr-4355fd0bfe034913a4c320006ef7678b",
+        "chr-5aeff1d849534cdf80251105e5c44e7a",
+        "chr-739ae97de5ba4afb9f34431377d9ad82",
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-632a4344b53f478a93f4d308f3890b92",
+        "chr-24b9d252fb624865a46d717832261c68",
+        "chr-d2d3971153154607bb651d6a0c827216",
+        "chr-5c605c7ecd20495ca665d15c2bdf2562",
+        "chr-6ebb35c20edf4908b3b64159c8fd7a73",
+        "chr-968add4b94d440cbabc01e3b0558d55d"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0114",
+          "claim_kind": "fact",
+          "end_line": 14775,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14762
+        },
+        {
+          "chapter_id": "ch-0114",
+          "claim_kind": "fact",
+          "end_line": 14803,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14776
+        },
+        {
+          "chapter_id": "ch-0114",
+          "claim_kind": "fact",
+          "end_line": 14856,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14809
+        },
+        {
+          "chapter_id": "ch-0115",
+          "claim_kind": "fact",
+          "end_line": 14890,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14860
+        }
+      ],
+      "id": "v11-e07",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "禁崖之外存在更大天地",
+          "observer": "chr-5aeff1d849534cdf80251105e5c44e7a",
+          "state": "knows"
+        },
+        {
+          "belief": "黑大木讷并不等于没有独立战术思考",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 1107,
+      "parent_id": "vol-11",
+      "summary": "龙皇以威压动员龙人，斯文纠正对空布阵并配装备，黑大以投枪展示独立解决方案。",
+      "title": "龙人被动员与主角方战法修正"
+    },
+    {
+      "characters": [
+        "chr-4355fd0bfe034913a4c320006ef7678b",
+        "chr-5aeff1d849534cdf80251105e5c44e7a",
+        "chr-739ae97de5ba4afb9f34431377d9ad82",
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-24438669720a4bb8a0a27cbd25eadb33",
+        "chr-006089add9c541fe9bcda4dd5369d743",
+        "chr-6ebb35c20edf4908b3b64159c8fd7a73",
+        "chr-632a4344b53f478a93f4d308f3890b92",
+        "chr-24b9d252fb624865a46d717832261c68"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0115",
+          "claim_kind": "fact",
+          "end_line": 14910,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14901
+        },
+        {
+          "chapter_id": "ch-0115",
+          "claim_kind": "fact",
+          "end_line": 15024,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 14931
+        },
+        {
+          "chapter_id": "ch-0116",
+          "claim_kind": "fact",
+          "end_line": 15073,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 15028
+        }
+      ],
+      "id": "v11-e08",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "龙皇有意削弱龙人并保留最低繁衍人数",
+          "observer": "reader",
+          "state": "knows"
+        },
+        {
+          "belief": "母神之王未提醒敌情，自己与同族可能受骗",
+          "observer": "chr-5aeff1d849534cdf80251105e5c44e7a",
+          "state": "suspects"
+        }
+      ],
+      "narrative_order": 1108,
+      "parent_id": "vol-11",
+      "summary": "龙皇期待两方互耗；黑龙留预备队、派魅与图克试探，近战造成双方大量死亡，帝勒逐渐意识到受骗。",
+      "title": "龙人被利用与地面消耗战"
+    },
+    {
+      "characters": [
+        "chr-9f2e5fcbba87455eb37e35869ea8854d",
+        "chr-37825d4ef6be40189c50d630eb315f4c",
+        "chr-4355fd0bfe034913a4c320006ef7678b",
+        "chr-5aeff1d849534cdf80251105e5c44e7a",
+        "chr-24438669720a4bb8a0a27cbd25eadb33"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0116",
+          "claim_kind": "fact",
+          "end_line": 15109,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 15075
+        },
+        {
+          "chapter_id": "ch-0116",
+          "claim_kind": "fact",
+          "end_line": 15146,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 15117
+        },
+        {
+          "chapter_id": "ch-0116",
+          "claim_kind": "fact",
+          "end_line": 15167,
+          "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+          "source_id": "src-9ff09c395734410b856f77c77a652834",
+          "start_line": 15155
+        }
+      ],
+      "id": "v11-e09",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "投掷魂兵能伤空中龙皇，但高空仍超出有效射程",
+          "observer": "chr-9f2e5fcbba87455eb37e35869ea8854d",
+          "state": "knows"
+        },
+        {
+          "belief": "笼罩帝勒的力量来源、身份与最终作用",
+          "observer": "reader",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 1109,
+      "parent_id": "vol-11",
+      "summary": "龙皇空袭和傀儡造成额外伤亡，黑龙投噬魂伤其腿，阿古力特配合法术遭冰盾抵消；龙人败势中帝勒祈祷引来白光。",
+      "title": "投枪伤龙与祈祷白光"
     }
   ],
   "owner": {
     "id": "src-9ff09c395734410b856f77c77a652834",
     "kind": "source"
   },
-  "revision": 12,
+  "revision": 13,
   "schema_version": 1,
   "threads": [
     {
@@ -9143,6 +10387,144 @@
     },
     {
       "edge_ids": [
+        "v11-edge-01",
+        "v11-edge-02"
+      ],
+      "id": "v11-thread-01",
+      "kind": "subplot",
+      "node_ids": [
+        "v11-e01",
+        "v11-e02",
+        "v11-e03"
+      ],
+      "question": "海皇是否获释，夺躯危机结果如何？",
+      "resolution_note": "海皇解封后谋夺躯，终神识被吞灭；仅回收这次封印与危机，不关闭古帝国或全部神史。",
+      "status": "resolved",
+      "title": "第11集 · 海皇解封与夺躯危机",
+      "tracking_key": "sea-emperor-double-seal"
+    },
+    {
+      "edge_ids": [
+        "v11-edge-03",
+        "v11-edge-04"
+      ],
+      "id": "v11-thread-02",
+      "kind": "hidden",
+      "node_ids": [
+        "v11-e03",
+        "v11-e04"
+      ],
+      "question": "求脱困的真实安排将怎样影响娜娜与黑龙？",
+      "resolution_note": "独处视角明确沉渊木及教学动机，黑龙撤回帮助，她转求娜娜；具体计划仍未揭。",
+      "status": "partial",
+      "title": "第11集 · 克丽丝身份与脱困动机",
+      "tracking_key": "christine-identity"
+    },
+    {
+      "edge_ids": [
+        "v11-edge-02",
+        "v11-edge-07"
+      ],
+      "id": "v11-thread-03",
+      "kind": "main",
+      "node_ids": [
+        "v11-e02",
+        "v11-e03",
+        "v11-e07",
+        "v11-e08"
+      ],
+      "question": "各方的自由需求如何与他人拒绝、风险和生命相容？",
+      "resolution_note": "海皇夺躯、斯科特保族、主角拒援与龙皇利用分别显出边界；没有形成平等关系的最终解答。",
+      "status": "partial",
+      "title": "第11集 · 自由与保护关系的边界",
+      "tracking_key": "blackdragon-autonomy-and-companionship"
+    },
+    {
+      "edge_ids": [],
+      "id": "v11-thread-04",
+      "kind": "subplot",
+      "node_ids": [
+        "v11-e02",
+        "v11-e04",
+        "v11-e07"
+      ],
+      "question": "力量共同提升后，个体意识如何继续发展？",
+      "resolution_note": "十孩都获真武装，黑大和黑二各有独立行为，其他八孩仍无意识；力量升级不关闭觉醒机制。",
+      "status": "partial",
+      "title": "第11集 · 孩子意识、武装与独立战法",
+      "tracking_key": "children-consciousness"
+    },
+    {
+      "edge_ids": [
+        "v11-edge-06",
+        "v11-edge-07",
+        "v11-edge-09"
+      ],
+      "id": "v11-thread-05",
+      "kind": "main",
+      "node_ids": [
+        "v11-e06",
+        "v11-e07",
+        "v11-e08",
+        "v11-e09"
+      ],
+      "question": "能否取得安息之石，先知隐瞒的形态是什么？",
+      "resolution_note": "已登岛并伤龙皇，安息石只知在中央峰巢穴且不止石头，尚未取到。",
+      "status": "partial",
+      "title": "第11集 · 龙墓约定与龙岛安息石",
+      "tracking_key": "dragon-tomb-expedition"
+    },
+    {
+      "edge_ids": [
+        "v11-edge-07",
+        "v11-edge-09"
+      ],
+      "id": "v11-thread-06",
+      "kind": "subplot",
+      "node_ids": [
+        "v11-e06",
+        "v11-e07",
+        "v11-e08",
+        "v11-e09"
+      ],
+      "question": "龙人能否摆脱工具地位，龙族延续是否实现？",
+      "resolution_note": "龙蛋和受孕已有进展但新幼龙未出生；龙人被推入消耗战，祈祷白光结果待揭。",
+      "status": "open",
+      "title": "第11集 · 龙族繁衍、龙人庇护与禁锢",
+      "tracking_key": "dragon-bloodline-and-confinement"
+    },
+    {
+      "edge_ids": [],
+      "id": "v11-thread-07",
+      "kind": "hidden",
+      "node_ids": [
+        "v11-e05"
+      ],
+      "question": "菲力普如何以留存猎物维护自身意识与价值？",
+      "resolution_note": "对克罗斯公开工具史和猎犬逻辑，听者动摇但未明确投效；教会最终战略仍未完整揭示。",
+      "status": "partial",
+      "title": "第11集 · 教会猎犬价值与天使自主",
+      "tracking_key": "church-institution-and-angel-agency"
+    },
+    {
+      "edge_ids": [
+        "v11-edge-03",
+        "v11-edge-04"
+      ],
+      "id": "v11-thread-08",
+      "kind": "hidden",
+      "node_ids": [
+        "v11-e03",
+        "v11-e04"
+      ],
+      "question": "海蛇腹中帝国遗物如何关联古国消失？",
+      "resolution_note": "吞神改变力量与武装，遗物被收存待问；没有从遗物得到帝国消失成因。",
+      "status": "partial",
+      "title": "第11集 · 古帝国遗迹与悼亡成长",
+      "tracking_key": "desert-bones-and-mourning-soul"
+    },
+    {
+      "edge_ids": [
         "v01-edge-02",
         "v01-edge-09",
         "v02-edge-04",
@@ -9155,6 +10537,8 @@
         "v08-edge-06",
         "v09-edge-04",
         "v10-edge-08",
+        "v11-edge-02",
+        "v11-edge-07",
         "cross-redemption-01",
         "cross-autonomy-01",
         "cross-nana-02",
@@ -9204,15 +10588,19 @@
         "v10-e02",
         "v10-e06",
         "v10-e09",
+        "v11-e02",
+        "v11-e03",
+        "v11-e07",
+        "v11-e08",
         "v02-e01",
         "v04-e01",
         "v04-e07",
         "v05-e05"
       ],
-      "question": "扩张的需求如何改变同伴与被支配者的边界？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第10集。护同伴、痛惜坐骑与杀转水手并存；他要求解释才协助克丽丝，却未给予水手相同选择。",
+      "question": "各方的自由需求如何与他人拒绝、风险和生命相容？",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第11集。海皇夺躯、斯科特保族、主角拒援与龙皇利用分别显出边界；没有形成平等关系的最终解答。",
       "status": "partial",
-      "title": "跨集 · 自主与强迫合作",
+      "title": "跨集 · 自由与保护关系的边界",
       "tracking_key": "blackdragon-autonomy-and-companionship",
       "volume_history": [
         {
@@ -9286,6 +10674,14 @@
           "status": "partial",
           "title": "自主与强迫合作",
           "volume": 10
+        },
+        {
+          "kind": "main",
+          "question": "各方的自由需求如何与他人拒绝、风险和生命相容？",
+          "resolution_note": "海皇夺躯、斯科特保族、主角拒援与龙皇利用分别显出边界；没有形成平等关系的最终解答。",
+          "status": "partial",
+          "title": "自由与保护关系的边界",
+          "volume": 11
         }
       ]
     },
@@ -9316,7 +10712,7 @@
         "v02-e06"
       ],
       "question": "救赎是否能够让星恢复生前身份？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第5集。本集澄清其净化目的，星获救并归队；这是该次恢复身份尝试的回收，不推断整书救赎主题终结。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第5集。本集澄清其净化目的，星获救并归队；这是该次恢复身份尝试的回收，不推断整书救赎主题终结。",
       "status": "resolved",
       "title": "跨集 · 救赎之魂的真实作用",
       "tracking_key": "redemption-soul",
@@ -9365,10 +10761,11 @@
         "cross-children-01",
         "cross-autonomy-01",
         "cross-children-02",
-        "cross-emperor-skill-01"
+        "cross-emperor-skill-01",
+        "cross-emperor-skill-02"
       ],
       "id": "book-c55cdb2efcb4",
-      "kind": "main",
+      "kind": "subplot",
       "node_ids": [
         "v01-e01",
         "v01-e06",
@@ -9384,12 +10781,15 @@
         "v09-e07",
         "v09-e08",
         "v10-e03",
+        "v11-e02",
+        "v11-e04",
+        "v11-e07",
         "v03-e06"
       ],
-      "question": "哪些孩子能够学会皇者技能并发展意识？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第10集。黑大先理解，黑龙黑大黑二随后共同练习；八个无意识孩子尚未展示成功。",
+      "question": "力量共同提升后，个体意识如何继续发展？",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第11集。十孩都获真武装，黑大和黑二各有独立行为，其他八孩仍无意识；力量升级不关闭觉醒机制。",
       "status": "partial",
-      "title": "跨集 · 皇者能力教学与孩子自主",
+      "title": "跨集 · 孩子意识、武装与独立战法",
       "tracking_key": "children-consciousness",
       "volume_history": [
         {
@@ -9447,6 +10847,14 @@
           "status": "partial",
           "title": "皇者能力教学与孩子自主",
           "volume": 10
+        },
+        {
+          "kind": "subplot",
+          "question": "力量共同提升后，个体意识如何继续发展？",
+          "resolution_note": "十孩都获真武装，黑大和黑二各有独立行为，其他八孩仍无意识；力量升级不关闭觉醒机制。",
+          "status": "partial",
+          "title": "孩子意识、武装与独立战法",
+          "volume": 11
         }
       ]
     },
@@ -9479,7 +10887,7 @@
         "v03-e09"
       ],
       "question": "雷神残余和撒拉丁部族如何应对领袖及贸易体系丧失？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第3集。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第3集。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
       "status": "partial",
       "title": "跨集 · 雷神败亡后的利益与部族余波",
       "tracking_key": "thunder-mercenary-conflict",
@@ -9527,7 +10935,7 @@
         "v08-e09"
       ],
       "question": "祭坛遗产如何延续，帝国消失为何？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第9集。千年诅咒、图克守护和旧领主记忆得到明确补充；古帝国消失连旧领主也不知。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第9集。千年诅咒、图克守护和旧领主记忆得到明确补充；古帝国消失连旧领主也不知。",
       "status": "partial",
       "title": "跨集 · 沼泽古国与转生遗产",
       "tracking_key": "sunken-undead-kingdom",
@@ -9580,7 +10988,7 @@
         "v10-e02"
       ],
       "question": "战魂能否真正炼化或可靠驾驭？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第10集。从不可控制转为身体受具体命令限制；战意仍不服，不能视为全部内患解除。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第10集。从不可控制转为身体受具体命令限制；战意仍不服，不能视为全部内患解除。",
       "status": "partial",
       "title": "跨集 · 坦克战魂的控制边界",
       "tracking_key": "tank-battle-soul",
@@ -9623,10 +11031,14 @@
       "edge_ids": [
         "v02-edge-06",
         "v10-edge-07",
+        "v11-edge-03",
+        "v11-edge-04",
         "cross-rosy-02",
         "cross-rosy-03",
         "cross-christine-01",
-        "cross-christine-02"
+        "cross-christine-02",
+        "cross-christine-03",
+        "cross-christine-04"
       ],
       "id": "book-e90db68cb625",
       "kind": "hidden",
@@ -9637,13 +11049,15 @@
         "v09-e08",
         "v10-e08",
         "v10-e09",
+        "v11-e03",
+        "v11-e04",
         "v07-e03",
         "v08-e08"
       ],
-      "question": "身份、观察手段与封印历史分别有何证据？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第10集。私人视角与菲力普识认使冥月身份得到强支持；沉渊木和借萝茜观察方法明确，古神冲突细节仍主要为自述。",
+      "question": "求脱困的真实安排将怎样影响娜娜与黑龙？",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第11集。独处视角明确沉渊木及教学动机，黑龙撤回帮助，她转求娜娜；具体计划仍未揭。",
       "status": "partial",
-      "title": "跨集 · 冥月女神身份与行动",
+      "title": "跨集 · 克丽丝身份与脱困动机",
       "tracking_key": "christine-identity",
       "volume_history": [
         {
@@ -9677,6 +11091,14 @@
           "status": "partial",
           "title": "冥月女神身份与行动",
           "volume": 10
+        },
+        {
+          "kind": "hidden",
+          "question": "求脱困的真实安排将怎样影响娜娜与黑龙？",
+          "resolution_note": "独处视角明确沉渊木及教学动机，黑龙撤回帮助，她转求娜娜；具体计划仍未揭。",
+          "status": "partial",
+          "title": "克丽丝身份与脱困动机",
+          "volume": 11
         }
       ]
     },
@@ -9686,7 +11108,8 @@
         "v04-edge-07",
         "v04-edge-08",
         "cross-nana-01",
-        "cross-nana-02"
+        "cross-nana-02",
+        "cross-christine-04"
       ],
       "id": "book-cb9c67d1cdae",
       "kind": "subplot",
@@ -9698,10 +11121,12 @@
         "v04-e08",
         "v04-e09",
         "v06-e04",
-        "v03-e01"
+        "v03-e01",
+        "v09-e08",
+        "v11-e04"
       ],
       "question": "娜娜的暗黑气息来源、失亲后果与自主选择将怎样发展？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第6集。第六集明确她能表达保护伙伴的愿望，并已受克丽丝教授法术；天生气息来源、父母遗体后续与追捕后果不能据此关闭。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第11集。第六集明确她能表达保护伙伴的愿望，并已受克丽丝教授法术；天生气息来源、父母遗体后续与追捕后果不能据此关闭。",
       "status": "partial",
       "title": "跨集 · 娜娜的保护、身世与主动性",
       "tracking_key": "nana-protection",
@@ -9762,7 +11187,7 @@
         "v06-e06"
       ],
       "question": "亡灵印记由谁散播，指向哪里？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第6集。斯科特确认散播印记，目的地为哀嚎森林的往生者国度。本状态只关闭定位问题；印记与传统诅咒功能的关系、具体触发机制仍待解释，已保留原问题历史。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第6集。斯科特确认散播印记，目的地为哀嚎森林的往生者国度。本状态只关闭定位问题；印记与传统诅咒功能的关系、具体触发机制仍待解释，已保留原问题历史。",
       "status": "resolved",
       "title": "跨集 · 亡灵印记的发出者与目的地",
       "tracking_key": "red-moon-destination",
@@ -9821,7 +11246,7 @@
         "v05-e05"
       ],
       "question": "罗得早先如何逃过审判，何时转生？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第5集。第五集已与黑龙相遇并随队；旧次逃生方式和转生时间仍未明，异常召唤不能自动解释旧案。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第5集。第五集已与黑龙相遇并随队；旧次逃生方式和转生时间仍未明，异常召唤不能自动解释旧案。",
       "status": "partial",
       "title": "跨集 · 罗得的旧次逃生与新相遇",
       "tracking_key": "th-rode-music",
@@ -9866,7 +11291,7 @@
         "v05-e01"
       ],
       "question": "第四集圣焰危机中黑七是否获救？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第5集。第五集确认黑七存活，黄金骨架保留而灵魂退近白银；只关闭这次生死悬念，灵魂恢复与后续受伤仍分别追踪。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第5集。第五集确认黑七存活，黄金骨架保留而灵魂退近白银；只关闭这次生死悬念，灵魂恢复与后续受伤仍分别追踪。",
       "status": "resolved",
       "title": "跨集 · 黑七圣焰救援的生死结局",
       "tracking_key": "th-heiqi-holy-fire",
@@ -9926,7 +11351,7 @@
         "v10-e08"
       ],
       "question": "分身降临后萝茜的主体与记忆如何变化？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第10集。改体、耗竭、自称萝茜及对黑龙的复杂反应已见；未证旧记忆恢复、旧天使重返或人格融合完成。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第10集。改体、耗竭、自称萝茜及对黑龙的复杂反应已见；未证旧记忆恢复、旧天使重返或人格融合完成。",
       "status": "partial",
       "title": "跨集 · 萝茜承载与自我状态",
       "tracking_key": "rosy-angel-identity",
@@ -9996,7 +11421,7 @@
         "v04-e04"
       ],
       "question": "安魂创作会怎样发展，亡妻线将何时重返？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第6集。安魂用途与琴歌能力被验证，新曲灵感出现；亡妻现状没有新增答案。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第6集。安魂用途与琴歌能力被验证，新曲灵感出现；亡妻现状没有新增答案。",
       "status": "partial",
       "title": "跨集 · 罗得的音乐与未明往事",
       "tracking_key": "roder-song-and-wife",
@@ -10034,7 +11459,7 @@
         "v09-e05"
       ],
       "question": "公平看待异族风险能否兼容对实际杀戮的约束？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第9集。顾问反省偏见仍担心斯科特鼓励吸魂，伦理张力并未因反问消除。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第9集。顾问反省偏见仍担心斯科特鼓励吸魂，伦理张力并未因反问消除。",
       "status": "open",
       "title": "跨集 · 吸魂与异族伦理",
       "tracking_key": "soul-consumption-ethics",
@@ -10061,10 +11486,13 @@
       "edge_ids": [
         "v06-edge-05",
         "v07-edge-04",
+        "v11-edge-03",
+        "v11-edge-04",
         "cross-desert-01",
         "cross-angel-03",
         "cross-history-01",
-        "cross-armour-02"
+        "cross-armour-02",
+        "cross-armament-02"
       ],
       "id": "book-2c92e5ad3024",
       "kind": "hidden",
@@ -10077,12 +11505,16 @@
         "v07-e05",
         "v07-e06",
         "v07-e07",
-        "v08-e01"
+        "v11-e03",
+        "v11-e04",
+        "v08-e01",
+        "v10-e04",
+        "v11-e02"
       ],
-      "question": "大陆为何消失，悼亡之魂还能怎样成长？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第8集。古战争与元力联系获得口述解释和局部实证；大陆失踪原因仍未知，黑龙远未具古君王战力。",
+      "question": "海蛇腹中帝国遗物如何关联古国消失？",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第11集。吞神改变力量与武装，遗物被收存待问；没有从遗物得到帝国消失成因。",
       "status": "partial",
-      "title": "跨集 · 不死帝国失踪与君王力量",
+      "title": "跨集 · 古帝国遗迹与悼亡成长",
       "tracking_key": "desert-bones-and-mourning-soul",
       "volume_history": [
         {
@@ -10108,6 +11540,14 @@
           "status": "partial",
           "title": "不死帝国失踪与君王力量",
           "volume": 7
+        },
+        {
+          "kind": "hidden",
+          "question": "海蛇腹中帝国遗物如何关联古国消失？",
+          "resolution_note": "吞神改变力量与武装，遗物被收存待问；没有从遗物得到帝国消失成因。",
+          "status": "partial",
+          "title": "古帝国遗迹与悼亡成长",
+          "volume": 11
         }
       ]
     },
@@ -10142,7 +11582,7 @@
         "v06-e08"
       ],
       "question": "追杀结局与教皇安排的目的分别是什么？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第10集。雷奥本人死亡，个人追杀结束；他为教会所用的来历、教皇赐枪与原追踪方法仍未完全解明。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第10集。雷奥本人死亡，个人追杀结束；他为教会所用的来历、教皇赐枪与原追踪方法仍未完全解明。",
       "status": "partial",
       "title": "跨集 · 雷奥追杀与教皇安排",
       "tracking_key": "god-knight-pursuit",
@@ -10193,9 +11633,14 @@
       "edge_ids": [
         "v07-edge-02",
         "v10-edge-05",
+        "v11-edge-06",
+        "v11-edge-07",
+        "v11-edge-09",
         "cross-dragon-01",
         "cross-prophet-01",
-        "cross-expedition-01"
+        "cross-expedition-01",
+        "cross-expedition-02",
+        "cross-seabeast-01"
       ],
       "id": "book-77f072ce087d",
       "kind": "main",
@@ -10206,13 +11651,18 @@
         "v10-e06",
         "v10-e07",
         "v10-e09",
+        "v11-e06",
+        "v11-e07",
+        "v11-e08",
+        "v11-e09",
         "v05-e04",
-        "v09-e03"
+        "v09-e03",
+        "v11-e04"
       ],
-      "question": "能否取得安息石并兑现全墓效忠？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第10集。翻山、夺船出航且到中继岛，海战与封印支线介入；未抵达龙岛或取得石。",
+      "question": "能否取得安息之石，先知隐瞒的形态是什么？",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第11集。已登岛并伤龙皇，安息石只知在中央峰巢穴且不止石头，尚未取到。",
       "status": "partial",
-      "title": "跨集 · 龙墓解封与龙岛远征",
+      "title": "跨集 · 龙墓约定与龙岛安息石",
       "tracking_key": "dragon-tomb-expedition",
       "volume_history": [
         {
@@ -10230,6 +11680,14 @@
           "status": "partial",
           "title": "龙墓解封与龙岛远征",
           "volume": 10
+        },
+        {
+          "kind": "main",
+          "question": "能否取得安息之石，先知隐瞒的形态是什么？",
+          "resolution_note": "已登岛并伤龙皇，安息石只知在中央峰巢穴且不止石头，尚未取到。",
+          "status": "partial",
+          "title": "龙墓约定与龙岛安息石",
+          "volume": 11
         }
       ]
     },
@@ -10246,7 +11704,7 @@
         "v10-e06"
       ],
       "question": "安息石能否解除封印，先知承诺是否兑现？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第10集。身份、分身和隐瞒明示，条件升级并获承诺；黑龙保留时机，未赴龙岛。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第10集。身份、分身和隐瞒明示，条件升级并获承诺；黑龙保留时机，未赴龙岛。",
       "status": "partial",
       "title": "跨集 · 龙魂誓约与先知交易",
       "tracking_key": "dragon-soul-oath-and-prophet",
@@ -10288,7 +11746,7 @@
         "v05-e07"
       ],
       "question": "谁掩护黑龙行踪，各神权中心有何真实安排？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第10集。叙述确认有心人掩护而未指名；费尔巴尼与雷奥各有怀疑，教皇、菲力普与巨树对降临的反应不同。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第10集。叙述确认有心人掩护而未指名；费尔巴尼与雷奥各有怀疑，教皇、菲力普与巨树对降临的反应不同。",
       "status": "open",
       "title": "跨集 · 战争掩护与神权网络",
       "tracking_key": "alliance-war-and-divine-power",
@@ -10334,7 +11792,7 @@
         "v01-e03"
       ],
       "question": "氓族若得知阿罗约真实遭遇，联盟会如何改变？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第8集。族源得到确认，记忆亲近与撒谎同时成立；族长仍不知死因，未能评价这项隐瞒。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第8集。族源得到确认，记忆亲近与撒谎同时成立；族长仍不知死因，未能评价这项隐瞒。",
       "status": "open",
       "title": "跨集 · 阿罗约记忆与被隐藏的旧杀戮",
       "tracking_key": "aroyo-memory-and-mang-clan",
@@ -10367,7 +11825,7 @@
         "v09-e01"
       ],
       "question": "已完成转生者如何适应存在形式，其人格与意愿将如何延续？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第9集。本集三千余混合灵魂完成分批转生，并非全都是氓族。存续结果已明确，弱魂适应、威逼忠誓和自主性问题仍保留；不能用后来成功倒推早先强制行为获得同意。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第9集。本集三千余混合灵魂完成分批转生，并非全都是氓族。存续结果已明确，弱魂适应、威逼忠誓和自主性问题仍保留；不能用后来成功倒推早先强制行为获得同意。",
       "status": "partial",
       "title": "跨集 · 氓族与骑士灵魂转生后的存续",
       "tracking_key": "transformation-altar-and-mang-survival",
@@ -10404,6 +11862,41 @@
     },
     {
       "edge_ids": [
+        "cross-church-agency-02"
+      ],
+      "id": "book-02ba45413b1e",
+      "kind": "hidden",
+      "node_ids": [
+        "v08-e01",
+        "v08-e06",
+        "v11-e05"
+      ],
+      "question": "菲力普如何以留存猎物维护自身意识与价值？",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第11集。对克罗斯公开工具史和猎犬逻辑，听者动摇但未明确投效；教会最终战略仍未完整揭示。",
+      "status": "partial",
+      "title": "跨集 · 教会猎犬价值与天使自主",
+      "tracking_key": "church-institution-and-angel-agency",
+      "volume_history": [
+        {
+          "kind": "hidden",
+          "question": "教会为何保留敌手，菲力普如何保有自我意识？",
+          "resolution_note": "骑士被灭口和力天使自言揭示组织利益与工具化恐惧；不能据此确定教皇所有意图。",
+          "status": "open",
+          "title": "教会工具与蚕食计划",
+          "volume": 8
+        },
+        {
+          "kind": "hidden",
+          "question": "菲力普如何以留存猎物维护自身意识与价值？",
+          "resolution_note": "对克罗斯公开工具史和猎犬逻辑，听者动摇但未明确投效；教会最终战略仍未完整揭示。",
+          "status": "partial",
+          "title": "教会猎犬价值与天使自主",
+          "volume": 11
+        }
+      ]
+    },
+    {
+      "edge_ids": [
         "v08-edge-08",
         "cross-tuk-01",
         "cross-altar-02"
@@ -10418,7 +11911,7 @@
         "v01-e07"
       ],
       "question": "图克如何诞生，守护本能和祭坛苍老声音来自何处？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第9集。声音是旧沼泽领主留下的记忆烙印；其灵魂重新汇聚成为图克，最后执念形成守护本能。现主体仍是图克，只继承记忆知识；本条回收这组来源问题，不关闭古帝国消失或后续祭坛发展。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第9集。声音是旧沼泽领主留下的记忆烙印；其灵魂重新汇聚成为图克，最后执念形成守护本能。现主体仍是图克，只继承记忆知识；本条回收这组来源问题，不关闭古帝国消失或后续祭坛发展。",
       "status": "resolved",
       "title": "跨集 · 图克诞生、守护与祭坛声音来源",
       "tracking_key": "tuk-and-the-transformation-altar",
@@ -10456,7 +11949,7 @@
         "v07-e01"
       ],
       "question": "领地能否把外贸、人手和创新制度变成稳定力量？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第9集。首批钢材到位、人口转生、建设启动，借人额度有限，商业货币和详细规划未定。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第9集。首批钢材到位、人口转生、建设启动，借人额度有限，商业货币和详细规划未定。",
       "status": "partial",
       "title": "跨集 · 领地生产与文明建设",
       "tracking_key": "blackdragon-territory-and-industry",
@@ -10484,7 +11977,7 @@
         "v06-e01"
       ],
       "question": "泰戈的身体与智力将怎样发展？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第10集。本集试验和问答确认局部提升；机制为几人推论，未达普通成人全部能力。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第10集。本集试验和问答确认局部提升；机制为几人推论，未达普通成人全部能力。",
       "status": "partial",
       "title": "跨集 · 泰戈变异与认知成长",
       "tracking_key": "taige-soul-repair",
@@ -10511,17 +12004,19 @@
       "edge_ids": [
         "v10-edge-03",
         "v10-edge-04",
-        "cross-knight-03"
+        "cross-knight-03",
+        "cross-armament-02"
       ],
       "id": "book-be62d277e700",
       "kind": "hidden",
       "node_ids": [
         "v10-e04",
         "v10-e05",
-        "v09-e06"
+        "v09-e06",
+        "v11-e02"
       ],
       "question": "如何认主、吞魂制造傀儡，古主遗产何来？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第10集。同源亲和和傀儡功能有实证，黑龙尚未认主、约用七成；矮人傀儡约半生前实力。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第11集。同源亲和和傀儡功能有实证，黑龙尚未认主、约用七成；矮人傀儡约半生前实力。",
       "status": "partial",
       "title": "跨集 · 噬魂权限与死息傀儡",
       "tracking_key": "soul-devourer-weapon-and-puppets",
@@ -10533,6 +12028,48 @@
           "status": "partial",
           "title": "噬魂权限与死息傀儡",
           "volume": 10
+        }
+      ]
+    },
+    {
+      "edge_ids": [
+        "v10-edge-06",
+        "v10-edge-07",
+        "v11-edge-01",
+        "v11-edge-02",
+        "cross-seal-01"
+      ],
+      "id": "book-67592e865ba5",
+      "kind": "subplot",
+      "node_ids": [
+        "v10-e07",
+        "v10-e08",
+        "v10-e09",
+        "v11-e01",
+        "v11-e02",
+        "v11-e03"
+      ],
+      "question": "海皇是否获释，夺躯危机结果如何？",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第11集。海皇解封后谋夺躯，终神识被吞灭；仅回收这次封印与危机，不关闭古帝国或全部神史。",
+      "status": "resolved",
+      "title": "跨集 · 海皇解封与夺躯危机",
+      "tracking_key": "sea-emperor-double-seal",
+      "volume_history": [
+        {
+          "kind": "hidden",
+          "question": "双星外封后的灵魂封印中究竟是什么状态？",
+          "resolution_note": "双星山峰已塌、内层六芒魂封仍在，末声音未自报身份；不能写海皇营救完成。",
+          "status": "open",
+          "title": "海皇与双层封印",
+          "volume": 10
+        },
+        {
+          "kind": "subplot",
+          "question": "海皇是否获释，夺躯危机结果如何？",
+          "resolution_note": "海皇解封后谋夺躯，终神识被吞灭；仅回收这次封印与危机，不关闭古帝国或全部神史。",
+          "status": "resolved",
+          "title": "海皇解封与夺躯危机",
+          "volume": 11
         }
       ]
     },
@@ -10551,13 +12088,13 @@
         "v08-e05"
       ],
       "question": "记忆所得如何改变选择，哪些能力仍不能继承？",
-      "resolution_note": "已入库至第10集；本线最近明确记录为第8集。跨集信息优势得到兑现；知识与魔力仍须分开。",
+      "resolution_note": "已入库至第11集；本线最近明确记录为第8集。跨集信息优势得到兑现；知识与魔力仍须分开。",
       "status": "partial",
       "title": "跨集 · 记忆、知识与力量",
       "tracking_key": "memory-and-power",
       "volume_history": []
     }
   ],
-  "title": "超级骷髅兵 · 九维深化第1—10集",
-  "updated_at": "2026-10-21T21:18:27.904245+00:00"
+  "title": "超级骷髅兵 · 九维深化第1—11集",
+  "updated_at": "2026-10-21T21:23:04.518963+00:00"
 }

@@ -5,14 +5,21 @@
     "aliases": [
       "基尔多克"
     ],
-    "arc_change": "被噬魂穿体、吞黑龙、最后从内部被杀，灵魂被黑龙吸走；尸体未转生。",
-    "conflict": "以体型判威胁，吞入黑龙后让其获得内攻机会。",
-    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
-    "goal": "最初探查船只，受伤后杀伤害者并寻找休息地。",
-    "knowledge_limits": "初始非蓄意追杀主角；约百人魂强不匹配巨大身体，原因尚未完全解决。",
+    "arc_change": "消耗黑龙半数魂力后转生并重新活动，其体内异物引出旧帝国遗物。",
+    "conflict": "体量需巨额赋魂，黑龙无法以人类身体经验教它游动，活肤也不重建器官。",
+    "coverage_note": "九维深化已覆盖第1至11集；变化记录以各集证据为准。",
+    "goal": "新生灵魂先适应身体与行动。",
+    "knowledge_limits": [
+      "不等于原巨海蛇记忆或人格恢复",
+      "遗物为何被吞及其用途未知",
+      "海洋无敌是评价而非所有对手实测"
+    ],
     "name": "基多尔克",
-    "relationships": "引来黑龙、魅和毕瑟等，所在谷地靠近双星封印。",
-    "summary": "庞大巨海蛇，本集后段多作基尔多克；低智而有简单好奇判断。",
+    "relationships": [
+      "由黑龙赋魂并反馈身体异物",
+      "在龙岛外海使龙皇顾忌"
+    ],
+    "summary": "被黑龙以新魂驱动的巨海蛇躯体，成为航海助力。",
     "volume_history": [
       {
         "aliases": [
@@ -48,6 +55,36 @@
         "relationships": "引来黑龙、魅和毕瑟等，所在谷地靠近双星封印。",
         "summary": "庞大巨海蛇，本集后段多作基尔多克；低智而有简单好奇判断。",
         "volume": 10
+      },
+      {
+        "aliases": [],
+        "arc_change": "消耗黑龙半数魂力后转生并重新活动，其体内异物引出旧帝国遗物。",
+        "conflict": "体量需巨额赋魂，黑龙无法以人类身体经验教它游动，活肤也不重建器官。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0111",
+            "end_line": 14397,
+            "start_line": 14360
+          },
+          {
+            "chapter_id": "ch-0113",
+            "end_line": 14695,
+            "start_line": 14687
+          }
+        ],
+        "goal": "新生灵魂先适应身体与行动。",
+        "knowledge_limits": [
+          "不等于原巨海蛇记忆或人格恢复",
+          "遗物为何被吞及其用途未知",
+          "海洋无敌是评价而非所有对手实测"
+        ],
+        "name": "基多尔克",
+        "relationships": [
+          "由黑龙赋魂并反馈身体异物",
+          "在龙岛外海使龙皇顾忌"
+        ],
+        "summary": "被黑龙以新魂驱动的巨海蛇躯体，成为航海助力。",
+        "volume": 11
       }
     ]
   },
@@ -85,19 +122,36 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 13809
+    },
+    {
+      "chapter_id": "ch-0111",
+      "claim_kind": "inference",
+      "end_line": 14397,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14360
+    },
+    {
+      "chapter_id": "ch-0113",
+      "claim_kind": "inference",
+      "end_line": 14695,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14687
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/基多尔克",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
-    "第10集"
+    "第10集",
+    "第11集"
   ],
   "title": "基多尔克：分集人物研究",
-  "updated_at": "2026-10-21T21:18:23.749544+00:00",
+  "updated_at": "2026-10-21T21:22:58.886356+00:00",
   "user_notes": ""
 }

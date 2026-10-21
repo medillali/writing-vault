@@ -3,14 +3,20 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "认出先知分身身份，转接谈判；追加110余后明确不再调人。",
-    "conflict": "黑龙扩张不断需要人手，不能无限借调。",
-    "coverage_note": "九维深化已覆盖第1至9集；变化记录以各集证据为准。",
-    "goal": "支持君王且确保哀嚎森林安全。",
-    "knowledge_limits": "泰戈沉睡修魂属于其诊断，细节仍需醒后验证。",
+    "arc_change": "亲援海底、开守护领域；危急时收族民备退，事后坦然面对责怪并拒绝再援龙岛。",
+    "conflict": "主角吞神冒险超出其预判，必须在陪葬与退保族民间选择。",
+    "coverage_note": "九维深化已覆盖第1至11集；变化记录以各集证据为准。",
+    "goal": "护住复兴希望黑龙，同时确保自己族民存续。",
+    "knowledge_limits": [
+      "不能解释黑龙每次异常解法",
+      "拒援并不等于撤销忠诚或已叛变"
+    ],
     "name": "斯科特",
-    "relationships": "与黑龙为非死亡连带的效忠合作；留守娜娜等。",
-    "summary": "为黑龙提供法师与联络中介，同时维护本领地底线。",
+    "relationships": [
+      "向黑龙奉献信仰而无共生死亡链",
+      "承担亡灵族民的保护责任"
+    ],
+    "summary": "具有领域与定点空间传送能力的亡灵领袖，忠诚仍有族群责任边界。",
     "volume_history": [
       {
         "aliases": [],
@@ -107,6 +113,50 @@
         "relationships": "与黑龙为非死亡连带的效忠合作；留守娜娜等。",
         "summary": "为黑龙提供法师与联络中介，同时维护本领地底线。",
         "volume": 9
+      },
+      {
+        "aliases": [],
+        "arc_change": "亲援海底、开守护领域；危急时收族民备退，事后坦然面对责怪并拒绝再援龙岛。",
+        "conflict": "主角吞神冒险超出其预判，必须在陪葬与退保族民间选择。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0108",
+            "end_line": 14035,
+            "start_line": 14025
+          },
+          {
+            "chapter_id": "ch-0109",
+            "end_line": 14200,
+            "start_line": 14193
+          },
+          {
+            "chapter_id": "ch-0110",
+            "end_line": 14287,
+            "start_line": 14284
+          },
+          {
+            "chapter_id": "ch-0111",
+            "end_line": 14368,
+            "start_line": 14364
+          },
+          {
+            "chapter_id": "ch-0114",
+            "end_line": 14785,
+            "start_line": 14776
+          }
+        ],
+        "goal": "护住复兴希望黑龙，同时确保自己族民存续。",
+        "knowledge_limits": [
+          "不能解释黑龙每次异常解法",
+          "拒援并不等于撤销忠诚或已叛变"
+        ],
+        "name": "斯科特",
+        "relationships": [
+          "向黑龙奉献信仰而无共生死亡链",
+          "承担亡灵族民的保护责任"
+        ],
+        "summary": "具有领域与定点空间传送能力的亡灵领袖，忠诚仍有族群责任边界。",
+        "volume": 11
       }
     ]
   },
@@ -176,12 +226,52 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 12358
+    },
+    {
+      "chapter_id": "ch-0108",
+      "claim_kind": "inference",
+      "end_line": 14035,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14025
+    },
+    {
+      "chapter_id": "ch-0109",
+      "claim_kind": "inference",
+      "end_line": 14200,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14193
+    },
+    {
+      "chapter_id": "ch-0110",
+      "claim_kind": "inference",
+      "end_line": 14287,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14284
+    },
+    {
+      "chapter_id": "ch-0111",
+      "claim_kind": "inference",
+      "end_line": 14368,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14364
+    },
+    {
+      "chapter_id": "ch-0114",
+      "claim_kind": "inference",
+      "end_line": 14785,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14776
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/斯科特",
   "review_status": "draft",
-  "revision": 4,
+  "revision": 5,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -189,9 +279,10 @@
     "第06集",
     "第07集",
     "第08集",
-    "第09集"
+    "第09集",
+    "第11集"
   ],
   "title": "斯科特：分集人物研究",
-  "updated_at": "2026-10-21T21:09:14.169655+00:00",
+  "updated_at": "2026-10-21T21:22:58.039990+00:00",
   "user_notes": ""
 }

@@ -3,14 +3,20 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "海战凝形被水流撕碎后仍存，避声波逃生但灵魂明显衰弱；继续陪同破封。",
-    "conflict": "制服雷奥却未防其分魂；刺杀技能无法直接重创巨海蛇。",
-    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
-    "goal": "保护黑龙并消灭威胁。",
-    "knowledge_limits": "不把元素体等同不死不灭；海战前后黑龙能否感她情绪有文本口径变化。",
+    "arc_change": "连续变换攻击位置后从耳部得手，见增援即退，向黑龙提供针对性情报。",
+    "conflict": "灵魂与武器强度有限，刺击无法直接贯穿大部分龙鳞。",
+    "coverage_note": "九维深化已覆盖第1至11集；变化记录以各集证据为准。",
+    "goal": "为队伍确认陌生龙人的防御与弱点。",
+    "knowledge_limits": [
+      "元素身体不等于武器无坚不摧",
+      "拍碎脸形不证明其灵魂被灭"
+    ],
     "name": "魅",
-    "relationships": "将雷奥交黑龙，受毕瑟提醒勿再激怒海兽。",
-    "summary": "可元素化潜行的亡灵，能力在秘法与体型环境面前受限。",
+    "relationships": [
+      "受黑龙调度",
+      "其报告促使黑大等加入前线"
+    ],
+    "summary": "可分散成暗黑元素的亡灵，负责侦察与试探厚鳞对手。",
     "volume_history": [
       {
         "aliases": [],
@@ -88,6 +94,35 @@
         "relationships": "将雷奥交黑龙，受毕瑟提醒勿再激怒海兽。",
         "summary": "可元素化潜行的亡灵，能力在秘法与体型环境面前受限。",
         "volume": 10
+      },
+      {
+        "aliases": [],
+        "arc_change": "连续变换攻击位置后从耳部得手，见增援即退，向黑龙提供针对性情报。",
+        "conflict": "灵魂与武器强度有限，刺击无法直接贯穿大部分龙鳞。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0115",
+            "end_line": 14965,
+            "start_line": 14951
+          },
+          {
+            "chapter_id": "ch-0115",
+            "end_line": 14976,
+            "start_line": 14966
+          }
+        ],
+        "goal": "为队伍确认陌生龙人的防御与弱点。",
+        "knowledge_limits": [
+          "元素身体不等于武器无坚不摧",
+          "拍碎脸形不证明其灵魂被灭"
+        ],
+        "name": "魅",
+        "relationships": [
+          "受黑龙调度",
+          "其报告促使黑大等加入前线"
+        ],
+        "summary": "可分散成暗黑元素的亡灵，负责侦察与试探厚鳞对手。",
+        "volume": 11
       }
     ]
   },
@@ -149,21 +184,38 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 13640
+    },
+    {
+      "chapter_id": "ch-0115",
+      "claim_kind": "inference",
+      "end_line": 14965,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14951
+    },
+    {
+      "chapter_id": "ch-0115",
+      "claim_kind": "inference",
+      "end_line": 14976,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 14966
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/魅",
   "review_status": "draft",
-  "revision": 3,
+  "revision": 4,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
     "第06集",
     "第07集",
-    "第10集"
+    "第10集",
+    "第11集"
   ],
   "title": "魅：分集人物研究",
-  "updated_at": "2026-10-21T21:18:22.979003+00:00",
+  "updated_at": "2026-10-21T21:22:59.736879+00:00",
   "user_notes": ""
 }
