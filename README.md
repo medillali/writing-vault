@@ -4,8 +4,10 @@
 
 ## 当前可审查成果
 
-- [《超级骷髅兵》全书审查入口](library/views/超级骷髅兵全书审查.html)：18集完整研究、九维分析、226张研究卡、主线树与暗线网络、全书综合和198项疑点回收。
-- [全书综合报告](library/reports/super-skeleton/book-synthesis.md)、[疑点账本](library/reports/super-skeleton/question-ledger.md)、[验收说明](library/reports/super-skeleton/验收说明.md)。HTML需下载到本机打开；GitHub网页可直接看Markdown。
+- **[《超级骷髅兵》GitHub直接阅读入口](library/reports/super-skeleton/reading/README.md)**：18集完整研究、九维综合、226张中文卡片、主线树与暗线网络、198项疑点回收。
+- [人物卡](library/reports/super-skeleton/reading/characters.md) · [场景卡](library/reports/super-skeleton/reading/scenes.md) · [机制卡](library/reports/super-skeleton/reading/patterns.md) · [剧情与暗线](library/reports/super-skeleton/reading/plot/README.md)。点击标题即可阅读，无需下载HTML。
+- [全书综合报告](library/reports/super-skeleton/book-synthesis.md)、[疑点账本](library/reports/super-skeleton/question-ledger.md)、[验收说明](library/reports/super-skeleton/验收说明.md)。
+- [本机交互审查页](library/views/超级骷髅兵全书审查.html)：需要下载仓库后用浏览器打开，提供搜索、筛选和可缩放剧情图。
 - [四书开篇样段入口](library/views/四书实测.html)：保留原先开篇测试。《骷髅魔导师》《重生之贼行天下》《网游之纵横天下》尚未全书蒸馏。
 - [卡片目录](library/views/index.md)：当前资料的Markdown副本。研究解释和用户评价分开；所有新研究仍待用户审阅，未自动收藏。
 
