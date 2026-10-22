@@ -1,0 +1,269 @@
+{
+  "coverage": [
+    {
+      "chapter_ids": [
+        "ch-0002",
+        "ch-0003",
+        "ch-0004",
+        "ch-0005",
+        "ch-0006",
+        "ch-0007",
+        "ch-0008",
+        "ch-0009",
+        "ch-0010",
+        "ch-0011"
+      ],
+      "complete": false,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712"
+    }
+  ],
+  "edges": [
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "inference",
+          "end_line": 312,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 307
+        },
+        {
+          "chapter_id": "ch-0007",
+          "claim_kind": "inference",
+          "end_line": 350,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 318
+        },
+        {
+          "chapter_id": "ch-0008",
+          "claim_kind": "inference",
+          "end_line": 384,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 367
+        },
+        {
+          "chapter_id": "ch-0009",
+          "claim_kind": "inference",
+          "end_line": 416,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 390
+        },
+        {
+          "chapter_id": "ch-0010",
+          "claim_kind": "inference",
+          "end_line": 456,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 426
+        }
+      ],
+      "from": "practice",
+      "id": "e1",
+      "kind": "cause",
+      "label": "基础动作训练支持后续技巧",
+      "to": "backstab"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0008",
+          "claim_kind": "inference",
+          "end_line": 384,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 367
+        },
+        {
+          "chapter_id": "ch-0009",
+          "claim_kind": "inference",
+          "end_line": 416,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 390
+        },
+        {
+          "chapter_id": "ch-0010",
+          "claim_kind": "inference",
+          "end_line": 456,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 426
+        },
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "inference",
+          "end_line": 492,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 470
+        }
+      ],
+      "from": "backstab",
+      "id": "e2",
+      "kind": "cause",
+      "label": "熟练度满引出升级费用与委托",
+      "to": "contract"
+    }
+  ],
+  "graph_id": "graph-0cf4d2a71a0b4ad099cacdd0989bfef4",
+  "nodes": [
+    {
+      "claim_kind": "inference",
+      "id": "story",
+      "kind": "story",
+      "parent_id": null,
+      "title": "贼胆：本批开篇结构"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "inference",
+          "end_line": 45,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 27
+        },
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 221,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 188
+        }
+      ],
+      "id": "care",
+      "kind": "scene",
+      "narrative_order": 1,
+      "parent_id": "story",
+      "summary": "萧御获得游戏入口，同时面对一个月期限。",
+      "title": "《贼胆》让石板、翻领口、送头盔：照料改变行动入口"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "inference",
+          "end_line": 312,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 307
+        },
+        {
+          "chapter_id": "ch-0007",
+          "claim_kind": "inference",
+          "end_line": 350,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 318
+        }
+      ],
+      "id": "practice",
+      "kind": "scene",
+      "narrative_order": 2,
+      "parent_id": "story",
+      "summary": "潜行接偷袭成功，失血与休息需求降低。",
+      "title": "《贼胆》潜行失败到步调适应：把训练写成纠错"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0008",
+          "claim_kind": "inference",
+          "end_line": 384,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 367
+        },
+        {
+          "chapter_id": "ch-0009",
+          "claim_kind": "inference",
+          "end_line": 416,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 390
+        },
+        {
+          "chapter_id": "ch-0010",
+          "claim_kind": "inference",
+          "end_line": 456,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 426
+        }
+      ],
+      "id": "backstab",
+      "kind": "scene",
+      "narrative_order": 3,
+      "parent_id": "story",
+      "summary": "100%完成度出现，但最终仍残血取胜。",
+      "title": "《贼胆》反手背刺：完成度突破仍受冷却与减速约束"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "inference",
+          "end_line": 492,
+          "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+          "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+          "start_line": 470
+        }
+      ],
+      "id": "contract",
+      "kind": "scene",
+      "narrative_order": 4,
+      "parent_id": "story",
+      "summary": "能力提升，但任务和潜在违约责任留下。",
+      "title": "《贼胆》升级费变委托：帮助产生长期义务"
+    }
+  ],
+  "owner": {
+    "id": "src-2d8a13f33737429da512e5cc9e839712",
+    "kind": "source"
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "threads": [
+    {
+      "edge_ids": [
+        "e1",
+        "e2"
+      ],
+      "id": "livelihood",
+      "kind": "main",
+      "node_ids": [
+        "care",
+        "practice",
+        "backstab",
+        "contract"
+      ],
+      "status": "open",
+      "title": "正当收入与试玩期限"
+    },
+    {
+      "edge_ids": [],
+      "id": "aode",
+      "kind": "hidden",
+      "node_ids": [
+        "contract"
+      ],
+      "status": "open",
+      "title": "奥德失物与委托动机"
+    }
+  ],
+  "title": "贼胆 · 本次阅读范围内的因果与未解线",
+  "updated_at": "2026-10-22T17:03:57.633239+00:00"
+}

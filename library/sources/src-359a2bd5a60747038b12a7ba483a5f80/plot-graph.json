@@ -1,0 +1,412 @@
+{
+  "coverage": [
+    {
+      "chapter_ids": [
+        "ch-0002",
+        "ch-0003",
+        "ch-0004",
+        "ch-0005",
+        "ch-0006",
+        "ch-0007",
+        "ch-0008",
+        "ch-0009",
+        "ch-0010",
+        "ch-0011",
+        "ch-0012",
+        "ch-0013",
+        "ch-0014"
+      ],
+      "complete": false,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80"
+    }
+  ],
+  "edges": [
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 114,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 89
+        },
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "inference",
+          "end_line": 145,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 121
+        },
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "inference",
+          "end_line": 185,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 155
+        },
+        {
+          "chapter_id": "ch-0007",
+          "claim_kind": "inference",
+          "end_line": 207,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 190
+        },
+        {
+          "chapter_id": "ch-0010",
+          "claim_kind": "inference",
+          "end_line": 350,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 345
+        }
+      ],
+      "from": "clock",
+      "id": "e1",
+      "kind": "cause",
+      "label": "获得图纸后才出现材料门槛",
+      "to": "gated_reward"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0008",
+          "claim_kind": "inference",
+          "end_line": 269,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 251
+        },
+        {
+          "chapter_id": "ch-0009",
+          "claim_kind": "inference",
+          "end_line": 316,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 275
+        },
+        {
+          "chapter_id": "ch-0010",
+          "claim_kind": "inference",
+          "end_line": 343,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 321
+        },
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "inference",
+          "end_line": 414,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 360
+        },
+        {
+          "chapter_id": "ch-0012",
+          "claim_kind": "inference",
+          "end_line": 421,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 418
+        }
+      ],
+      "from": "ring",
+      "id": "e2",
+      "kind": "cause",
+      "label": "获得职业技能后试验战斗能力",
+      "to": "mana"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "inference",
+          "end_line": 414,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 360
+        },
+        {
+          "chapter_id": "ch-0012",
+          "claim_kind": "inference",
+          "end_line": 421,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 418
+        },
+        {
+          "chapter_id": "ch-0012",
+          "claim_kind": "inference",
+          "end_line": 458,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 441
+        },
+        {
+          "chapter_id": "ch-0013",
+          "claim_kind": "inference",
+          "end_line": 494,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 462
+        }
+      ],
+      "from": "mana",
+      "id": "e3",
+      "kind": "echo",
+      "label": "已示范的控制技能用于反潜",
+      "to": "counterstealth"
+    }
+  ],
+  "graph_id": "graph-ed59a84f86634e598041f264ede41e58",
+  "nodes": [
+    {
+      "claim_kind": "inference",
+      "id": "story",
+      "kind": "story",
+      "parent_id": null,
+      "title": "网游之练级专家：本批开篇结构"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 114,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 89
+        },
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "inference",
+          "end_line": 145,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 121
+        },
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "inference",
+          "end_line": 185,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 155
+        }
+      ],
+      "id": "clock",
+      "kind": "scene",
+      "narrative_order": 1,
+      "parent_id": "story",
+      "summary": "工程升级，取得图纸和宝石；钟毁后失去工作。",
+      "title": "《网游之练级专家》修钟发现异常：旧技能打开隐藏通道"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0007",
+          "claim_kind": "inference",
+          "end_line": 207,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 190
+        },
+        {
+          "chapter_id": "ch-0010",
+          "claim_kind": "inference",
+          "end_line": 350,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 345
+        }
+      ],
+      "id": "gated_reward",
+      "kind": "scene",
+      "narrative_order": 2,
+      "parent_id": "story",
+      "summary": "拥有资产与当前战力仍不相等。",
+      "title": "《网游之练级专家》宝物到手却用不了：多种门槛分配期待"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0008",
+          "claim_kind": "inference",
+          "end_line": 269,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 251
+        },
+        {
+          "chapter_id": "ch-0009",
+          "claim_kind": "inference",
+          "end_line": 316,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 275
+        },
+        {
+          "chapter_id": "ch-0010",
+          "claim_kind": "inference",
+          "end_line": 343,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 321
+        }
+      ],
+      "id": "ring",
+      "kind": "scene",
+      "narrative_order": 3,
+      "parent_id": "story",
+      "summary": "获得三系天赋，但戒指永久不能交易。",
+      "title": "《网游之练级专家》挖矿误判到绑定戒指：信息更新推动取舍"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "inference",
+          "end_line": 414,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 360
+        },
+        {
+          "chapter_id": "ch-0012",
+          "claim_kind": "inference",
+          "end_line": 421,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 418
+        }
+      ],
+      "id": "mana",
+      "kind": "scene",
+      "narrative_order": 4,
+      "parent_id": "story",
+      "summary": "取胜但只余10%生命，随后升级恢复。",
+      "title": "《网游之练级专家》单杀成功之后群拉缺蓝：检验新能力边界"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0012",
+          "claim_kind": "inference",
+          "end_line": 458,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 441
+        },
+        {
+          "chapter_id": "ch-0013",
+          "claim_kind": "inference",
+          "end_line": 494,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 462
+        }
+      ],
+      "id": "counterstealth",
+      "kind": "scene",
+      "knowledge": [
+        {
+          "belief": "败者记住萧翎并想再战。",
+          "observer": "reader",
+          "state": "knows"
+        },
+        {
+          "belief": "未获知败后对话与人脉。",
+          "observer": "chr-twobooks-l-xiaoling",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 5,
+      "parent_id": "story",
+      "summary": "击杀并获得收益；败者记住萧翎，读者得知其人脉与再战意向。",
+      "title": "《网游之练级专家》反潜成功与败者视角：局部胜利留下关系后果"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0014",
+          "claim_kind": "inference",
+          "end_line": 543,
+          "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+          "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+          "start_line": 503
+        }
+      ],
+      "id": "team",
+      "kind": "scene",
+      "narrative_order": 6,
+      "parent_id": "story",
+      "summary": "队伍补齐输出，萧翎取得进入洞穴的合作条件。",
+      "title": "《网游之练级专家》洞穴限制独行：协作从明确分工开始"
+    }
+  ],
+  "owner": {
+    "id": "src-359a2bd5a60747038b12a7ba483a5f80",
+    "kind": "source"
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "threads": [
+    {
+      "edge_ids": [
+        "e1",
+        "e2",
+        "e3"
+      ],
+      "id": "growth",
+      "kind": "main",
+      "node_ids": [
+        "clock",
+        "gated_reward",
+        "ring",
+        "mana",
+        "counterstealth",
+        "team"
+      ],
+      "status": "partial",
+      "title": "生产积累转为战斗与协作"
+    },
+    {
+      "edge_ids": [
+        "e1"
+      ],
+      "id": "treasure",
+      "kind": "subplot",
+      "node_ids": [
+        "clock",
+        "gated_reward"
+      ],
+      "status": "open",
+      "title": "尚未兑现的图纸与宝藏"
+    },
+    {
+      "edge_ids": [],
+      "id": "revenge",
+      "kind": "hidden",
+      "node_ids": [
+        "counterstealth"
+      ],
+      "status": "open",
+      "title": "败者的再战意向"
+    }
+  ],
+  "title": "网游之练级专家 · 本次阅读范围内的因果与未解线",
+  "updated_at": "2026-10-22T17:03:57.872119+00:00"
+}

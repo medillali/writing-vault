@@ -1,0 +1,86 @@
+{
+  "asset_id": "chr-zeidan-legacy-e0028",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "高：支线道德与情绪核心",
+    "facts": [
+      "古德孤儿、奴隶，在雨中怕带刀陌生人；萧御收刀坐远、送羽毛并谈自己孤儿前史，二人成朋友。",
+      "父母死后成幽灵且意识渐散，自己保留意识受黑幽灵逼迫；怀疑把人送祭坛的信仰。",
+      "最后护住萧御、杀黑幽灵，允许魂晶破碎，感谢解脱并问天堂。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0028",
+    "maintenance_depth": "高：愿望、恐惧、疑问与能动选择",
+    "name": "耶格莫斯特",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0028",
+    "relations": [
+      {
+        "target": "萧御",
+        "type": "由恐惧到朋友"
+      },
+      {
+        "target": "黑幽灵",
+        "type": "压迫关系，本质明确留谜"
+      },
+      {
+        "target": "父母",
+        "type": "死后意识衰退的依恋"
+      }
+    ],
+    "summary": "古德孤儿、奴隶，在雨中怕带刀陌生人；萧御收刀坐远、送羽毛并谈自己孤儿前史，二人成朋友。；父母死后成幽灵且意识渐散，自己保留意识受黑幽灵逼迫；怀疑把人送祭坛的信仰。",
+    "user_feedback": null,
+    "worker_part": "part-a"
+  },
+  "created_at": "2026-10-22T17:03:11.939545+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0138",
+      "claim_kind": "fact",
+      "end_line": 5852,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 5811
+    },
+    {
+      "chapter_id": "ch-0139",
+      "claim_kind": "fact",
+      "end_line": 5894,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 5853
+    },
+    {
+      "chapter_id": "ch-0151",
+      "claim_kind": "fact",
+      "end_line": 6517,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 6463
+    },
+    {
+      "chapter_id": "ch-0152",
+      "claim_kind": "fact",
+      "end_line": 6564,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 6518
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0028",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-a"
+  ],
+  "title": "贼胆｜耶格莫斯特｜E0028",
+  "updated_at": "2026-10-22T17:03:11.944143+00:00",
+  "user_notes": ""
+}

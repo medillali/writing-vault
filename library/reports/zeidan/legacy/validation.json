@@ -1,0 +1,39 @@
+{
+  "checked_at_utc": "2026-10-20T17:36:13.408245+00:00",
+  "source_sha256": "a6f5b4fdf78b2dbe2715e6ddb97588f80d3510d4f8d09196ca86f4c844e26fb0",
+  "source_copy_matches_split_manifest": true,
+  "user_original_matches_research_copy": true,
+  "full_read_records": 463,
+  "target_chapters": 463,
+  "chapter_coverage_complete": true,
+  "worker_record_counts": {
+    "part-a": {
+      "entities": 31,
+      "threads": 13,
+      "scenes": 20
+    },
+    "part-b": {
+      "entities": 143,
+      "threads": 29,
+      "scenes": 38
+    },
+    "part-c": {
+      "entities": 45,
+      "threads": 15,
+      "scenes": 28
+    },
+    "part-d": {
+      "entities": 24,
+      "threads": 12,
+      "scenes": 23
+    }
+  },
+  "valid_evidence_ranges": 1527,
+  "issues": [],
+  "metadata_validation_passed": true,
+  "limitations": [
+    "检查的是文件结构、章节覆盖和证据行号范围，不能自动证明每项解释与原文一致。",
+    "逐章阅读为协作人员逐段完成并记录；主线程进行跨段合并与重点回读。",
+    "人物身份、主支线分类和作者性判断仍是可修订的首轮研究；用户评价未填。"
+  ]
+}

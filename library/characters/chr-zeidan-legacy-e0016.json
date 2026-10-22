@@ -1,0 +1,109 @@
+{
+  "asset_id": "chr-zeidan-legacy-e0016",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "高：首笔现实收入与复杂协作",
+    "facts": [
+      "高级金领休闲队领导，花钱买战铠提高团队打宝，不愿把娱乐变成职业劳动。",
+      "付萧御一千人民币做星火任务，观察敌情、安排诱敌接应、提醒失败保命，说明额外战利品归他。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0016",
+    "maintenance_depth": "高",
+    "name": "暗狱",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0016",
+    "relations": [
+      {
+        "target": "星火",
+        "type": "为队友任务雇人"
+      },
+      {
+        "target": "风戈",
+        "type": "信赖的治疗队员"
+      },
+      {
+        "target": "萧御",
+        "type": "由买卖到可信客户，朋友程度勿预定"
+      }
+    ],
+    "summary": "高级金领休闲队领导，花钱买战铠提高团队打宝，不愿把娱乐变成职业劳动。；付萧御一千人民币做星火任务，观察敌情、安排诱敌接应、提醒失败保命，说明额外战利品归他。",
+    "user_feedback": null,
+    "worker_part": "part-a"
+  },
+  "created_at": "2026-10-22T17:03:11.832154+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0022",
+      "claim_kind": "fact",
+      "end_line": 964,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 936
+    },
+    {
+      "chapter_id": "ch-0023",
+      "claim_kind": "fact",
+      "end_line": 1008,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 965
+    },
+    {
+      "chapter_id": "ch-0050",
+      "claim_kind": "fact",
+      "end_line": 2160,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 2102
+    },
+    {
+      "chapter_id": "ch-0051",
+      "claim_kind": "fact",
+      "end_line": 2204,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 2161
+    },
+    {
+      "chapter_id": "ch-0055",
+      "claim_kind": "fact",
+      "end_line": 2411,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 2358
+    },
+    {
+      "chapter_id": "ch-0063",
+      "claim_kind": "fact",
+      "end_line": 2781,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 2738
+    },
+    {
+      "chapter_id": "ch-0070",
+      "claim_kind": "fact",
+      "end_line": 3080,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 3041
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0016",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-a"
+  ],
+  "title": "贼胆｜暗狱｜E0016",
+  "updated_at": "2026-10-22T17:03:11.839153+00:00",
+  "user_notes": ""
+}

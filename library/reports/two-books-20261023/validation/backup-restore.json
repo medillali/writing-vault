@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "snapshot_file": "backups/writing-vault-two-books-20261023.zip",
+  "snapshot_sha256": "5d8df742601823dcb207a7a4545a18606e671757e58d07b6868467684a519c2d",
+  "snapshot_files": 2152,
+  "all_file_hashes_match": true,
+  "restored_library": {
+    "valid": true,
+    "assets": 565,
+    "sources": 6,
+    "projects": 0,
+    "graphs": 6
+  },
+  "raw_backup": "backups/two-books-originals-20261023.zip",
+  "raw_source_hashes_match": true,
+  "original_text_in_research_archive": false,
+  "note": "完整研究快照使用ZIP逐文件哈希恢复，含根目录指南与模板；全库检查沿用原规则并缓存来源只读索引。后续验收与远程回执可能晚于本快照，以Git为最终版本。"
+}

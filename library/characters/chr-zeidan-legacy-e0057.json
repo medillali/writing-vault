@@ -1,0 +1,77 @@
+{
+  "asset_id": "chr-zeidan-legacy-e0057",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "causal_importance": "任务目标和NPC愿望冲突",
+    "desires": [
+      "使赛娜复活"
+    ],
+    "facts": [
+      "与塔德寻复活办法，守候到化幽魂，迟悟青梅竹马赛娜爱自己。",
+      "萧御忽略其自语并佯装威胁雪兰草，使其因护草受制而被杀；草实际完好。",
+      "击杀给萧御罪恶值，具体后续任务收益仅萧猜想，未发生。"
+    ],
+    "identity": "守赛娜尸体和雪兰草的善良幽魂NPC",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0057",
+    "limits": [
+      "不能放弃尸体和未成熟药草"
+    ],
+    "maintenance_depth": "高",
+    "name": "沃思",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0057",
+    "relationships": [
+      "赛娜：爱与迟知",
+      "塔德：共同寻药者",
+      "萧御：截断愿望的击杀者"
+    ],
+    "summary": "与塔德寻复活办法，守候到化幽魂，迟悟青梅竹马赛娜爱自己。；萧御忽略其自语并佯装威胁雪兰草，使其因护草受制而被杀；草实际完好。",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:12.211473+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0190",
+      "claim_kind": "fact",
+      "end_line": 9043,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 8988
+    },
+    {
+      "chapter_id": "ch-0191",
+      "claim_kind": "fact",
+      "end_line": 9111,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 9051
+    },
+    {
+      "chapter_id": "ch-0192",
+      "claim_kind": "fact",
+      "end_line": 9140,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 9115
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0057",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜沃思｜E0057",
+  "updated_at": "2026-10-22T17:03:12.214473+00:00",
+  "user_notes": ""
+}

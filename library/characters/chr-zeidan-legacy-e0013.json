@@ -1,0 +1,101 @@
+{
+  "asset_id": "chr-zeidan-legacy-e0013",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "高：本次协作不可替代",
+    "facts": [
+      "火法，因装备交易识萧御，反复邀请组队并愿让利经营长期关系。",
+      "荒漠狩猎者战中输出、死亡后被雪绒复活，分配愿让主角护腿，形成具体人情。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0013",
+    "maintenance_depth": "高",
+    "name": "集火",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0013",
+    "relations": [
+      {
+        "target": "锋利",
+        "type": "同队"
+      },
+      {
+        "target": "雪绒",
+        "type": "同队与复活援助"
+      },
+      {
+        "target": "萧御",
+        "type": "邀约交易到临时合作"
+      }
+    ],
+    "summary": "火法，因装备交易识萧御，反复邀请组队并愿让利经营长期关系。；荒漠狩猎者战中输出、死亡后被雪绒复活，分配愿让主角护腿，形成具体人情。",
+    "user_feedback": null,
+    "worker_part": "part-a"
+  },
+  "created_at": "2026-10-22T17:03:11.800838+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0012",
+      "claim_kind": "fact",
+      "end_line": 548,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 495
+    },
+    {
+      "chapter_id": "ch-0030",
+      "claim_kind": "fact",
+      "end_line": 1284,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1246
+    },
+    {
+      "chapter_id": "ch-0032",
+      "claim_kind": "fact",
+      "end_line": 1362,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1318
+    },
+    {
+      "chapter_id": "ch-0033",
+      "claim_kind": "fact",
+      "end_line": 1411,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1363
+    },
+    {
+      "chapter_id": "ch-0034",
+      "claim_kind": "fact",
+      "end_line": 1455,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1412
+    },
+    {
+      "chapter_id": "ch-0035",
+      "claim_kind": "fact",
+      "end_line": 1504,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1456
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0013",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-a"
+  ],
+  "title": "贼胆｜集火｜E0013",
+  "updated_at": "2026-10-22T17:03:11.806837+00:00",
+  "user_notes": ""
+}

@@ -1,0 +1,80 @@
+{
+  "asset_id": "chr-zeidan-legacy-e0049",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "causal_importance": "连接地下探索和主任务",
+    "desires": [],
+    "facts": [
+      "解除封禁后把典籍和闪电锤带回，参与终局抵抗，随后死亡。",
+      "幼马后来认萧御为主，但亲子或转生只是猜测，未被原文证实。"
+    ],
+    "identity": "森纳德的黑龙驹",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0049",
+    "limits": [],
+    "maintenance_depth": "中",
+    "name": "乌德",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0049",
+    "relationships": [
+      "森纳德：主人",
+      "埃德：冲突",
+      "黑龙驹幼马：关系未证实"
+    ],
+    "summary": "解除封禁后把典籍和闪电锤带回，参与终局抵抗，随后死亡。；幼马后来认萧御为主，但亲子或转生只是猜测，未被原文证实。",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:12.150730+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0175",
+      "claim_kind": "fact",
+      "end_line": 8006,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 7934
+    },
+    {
+      "chapter_id": "ch-0176",
+      "claim_kind": "fact",
+      "end_line": 8079,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 8007
+    },
+    {
+      "chapter_id": "ch-0179",
+      "claim_kind": "fact",
+      "end_line": 8268,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 8204
+    },
+    {
+      "chapter_id": "ch-0180",
+      "claim_kind": "fact",
+      "end_line": 8351,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 8269
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0049",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜乌德｜E0049",
+  "updated_at": "2026-10-22T17:03:12.154728+00:00",
+  "user_notes": ""
+}
