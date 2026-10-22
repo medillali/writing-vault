@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>超级骷髅兵 · 全书时间树</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:"Microsoft YaHei",sans-serif;color:#172b46;background:#f4f7fc;height:100dvh;display:flex;flex-direction:column}header{background:white;padding:14px 20px;border-bottom:1px solid #d9e2ed;flex-shrink:0}h1{font-size:20px;margin:0 0 9px}.tools{display:flex;flex-wrap:wrap;gap:7px;align-items:center}button,input,select,a{font:inherit;font-size:14px}button,select,input{padding:7px 11px;border:1px solid #c7d4e4;border-radius:7px;background:white;color:inherit}button{cursor:pointer}button:hover{background:#eaf1fb}input{width:200px}a{color:#2563a6;margin-left:8px}.help{font-size:12px;color:#51637a;margin-top:9px}main{display:flex;flex:1;min-height:0}#viewport{position:relative;flex:1;min-width:0;overflow:hidden;touch-action:none;cursor:grab}#viewport.drag{cursor:grabbing}#canvas{position:absolute;left:0;top:0;transform-origin:0 0}#canvas svg{display:block;max-width:none}#canvas [data-kind=event],#canvas [data-kind=thread],#canvas [data-kind=bridge]{cursor:pointer}#canvas .dim{opacity:.12}#canvas .selected>rect{stroke:#e56220;stroke-width:6}aside{width:360px;flex-shrink:0;background:white;border-left:1px solid #d9e2ed;overflow:auto;padding:18px;display:none}aside.open{display:block}aside h2{font-size:19px;line-height:1.6}aside p{font-size:14px;line-height:1.9;white-space:pre-wrap;overflow-wrap:anywhere}aside .label{color:#51637a;font-size:12px}#zoom{min-width:49px;text-align:center;font-size:13px}#notice{position:absolute;bottom:16px;left:16px;background:white;border:1px solid #d9e2ed;border-radius:8px;padding:9px 13px;font-size:13px;pointer-events:none}.close{float:right}@media(max-width:700px){header{padding:10px}h1{font-size:17px}aside.open{position:absolute;bottom:0;right:0;width:100%;height:36vh;z-index:2;border-top:1px solid #d9e2ed}input{width:145px}.help{display:none}}
+</style></head><body>
+<header><h1>《超级骷髅兵》 · 一张图读完整书</h1><div class="tools">
+<button id="fit">全图</button><button id="mainline">主线树</button><button id="threads">暗线区</button>
+<button id="minus" aria-label="缩小">－</button><span id="zoom"></span><button id="plus" aria-label="放大">＋</button>
+<select id="volume" aria-label="跳到某一集"><option value="">跳到某一集</option></select>
+<input id="search" type="search" placeholder="搜索人物或关键事件" aria-label="搜索事件"><button id="find">查找</button><button id="clear">清除聚焦</button>
+<a id="save-svg" download="全书时间树.svg">下载SVG</a></div>
+<div class="help">拖动平移，滚轮以光标位置缩放；点击事件查看摘要与证据，点击暗线聚焦关联枝条。双击空白恢复全图。蓝线表示阅读顺序，回叙保留在揭示位置。</div></header>
+<main><div id="viewport"><div id="canvas"><!-- TREE_SVG --></div><div id="notice">从左向右读18集；每集事件从上向下展开</div></div><aside id="detail" aria-live="polite"><button class="close" id="close">关闭</button><h2 id="detail-title"></h2><p class="label" id="detail-label"></p><p id="detail-text"></p><p id="detail-evidence"></p></aside></main>
+<script>
+'use strict';
+const data=/* TREE_DATA */;
+const claims={fact:'原文事实',inference:'研究推断',synthesis:'研究综合',plan:'计划'},knowledgeStates={unknown:'未知',suspects:'怀疑',knows:'知道',misbelieves:'误以为'};
+const vp=document.getElementById('viewport'),canvas=document.getElementById('canvas'),svg=canvas.querySelector('svg'),panel=document.getElementById('detail');
+document.getElementById('save-svg').href=URL.createObjectURL(new Blob([svg.outerHTML],{type:'image/svg+xml;charset=utf-8'}));
+let scale=1,tx=0,ty=0,drag=null,dragged=false,query='',matchIndex=0;
+function apply(){canvas.style.transform=`translate(${tx}px,${ty}px) scale(${scale})`;document.getElementById('zoom').textContent=Math.round(scale*100)+'%';}
+function fitRect(x,y,w,h){const margin=30;scale=Math.min((vp.clientWidth-margin*2)/w,(vp.clientHeight-margin*2)/h,2);scale=Math.max(.025,scale);tx=(vp.clientWidth-w*scale)/2-x*scale;ty=(vp.clientHeight-h*scale)/2-y*scale;apply();}
+function fit(){fitRect(0,0,data.meta.width,data.meta.height);}
+function zoom(factor,x=vp.clientWidth/2,y=vp.clientHeight/2){const next=Math.max(.025,Math.min(3,scale*factor));tx=x-(x-tx)*next/scale;ty=y-(y-ty)*next/scale;scale=next;apply();}
+function evidence(items){return (items||[]).map(e=>`${e.chapter_id} · L${e.start_line}—${e.end_line}`).join('\n');}
+function detail(title,label,text,proof=''){panel.classList.add('open');document.getElementById('detail-title').textContent=title;document.getElementById('detail-label').textContent=label;document.getElementById('detail-text').textContent=text;document.getElementById('detail-evidence').textContent=proof;}
+function clear(){svg.querySelectorAll('.dim,.selected').forEach(el=>el.classList.remove('dim','selected'));document.getElementById('notice').textContent='从左向右读18集；每集事件从上向下展开';}
+function select(id,focus=false){
+ clear();const el=document.getElementById(id);if(!el)return;el.classList.add('selected');
+ if(data.nodes[id]){const n=data.nodes[id],pos=data.meta.positions[id];detail(n.title,`${id} · ${claims[n.claim_kind]||'研究记录'}${data.meta.time_labels[id]?' · '+data.meta.time_labels[id]:''}`,n.summary+'\n\n'+(n.knowledge||[]).map(k=>`${data.observers[k.observer]||'未注明观察者'} · ${knowledgeStates[k.state]||k.state}：${k.belief}`).join('\n'),evidence(n.evidence));if(focus)fitRect(pos.x-100,pos.y-85,pos.width+200,pos.height+170);}
+ else if(data.threads[id]){const t=data.threads[id],no=data.meta.threads.find(x=>x.id===id).number;svg.querySelectorAll('[data-kind=event]').forEach(e=>{if(!e.dataset.threads.split(',').includes(String(no)))e.classList.add('dim')});svg.querySelectorAll('[data-kind=thread]').forEach(e=>{if(e.id!==id)e.classList.add('dim')});detail(t.title,`暗线${String(no).padStart(2,'0')} · `+({resolved:'已回收',partial:'部分回收',open:'未回收'}[t.status]),t.question+'\n\n'+t.resolution_note);document.getElementById('notice').textContent='已聚焦暗线 '+String(no).padStart(2,'0')+'；放大或拖动查看同编号事件';}
+ else if(id.startsWith('bridge-')){const bridge=data.meta.bridges.find(x=>x.number===Number(id.slice(-2))),e=data.edges[bridge.id];detail('B'+String(bridge.number).padStart(2,'0')+' · '+bridge.label,`${e.from} → ${e.to} · ${claims[e.claim_kind]||'研究记录'}`,e.label,evidence(e.evidence));}
+}
+document.getElementById('fit').onclick=fit;
+document.getElementById('mainline').onclick=()=>fitRect(0,0,data.meta.width,data.meta.thread_top-50);
+document.getElementById('threads').onclick=()=>fitRect(0,data.meta.thread_top-70,data.meta.width,data.meta.height-data.meta.thread_top+70);
+document.getElementById('plus').onclick=()=>zoom(1.4);document.getElementById('minus').onclick=()=>zoom(1/1.4);
+document.getElementById('clear').onclick=clear;
+document.getElementById('close').onclick=()=>panel.classList.remove('open');
+const volume=document.getElementById('volume');data.volumes.forEach((v,i)=>{const o=document.createElement('option');o.value=i+1;o.textContent=v.title;volume.append(o)});
+volume.onchange=()=>{if(!volume.value)return;clear();panel.classList.remove('open');const v=Number(volume.value);fitRect(data.meta.start+(v-1)*data.meta.step-20,670,data.meta.step+40,1800);};
+function find(){const term=document.getElementById('search').value.trim();if(!term)return;const matches=Object.values(data.nodes).filter(n=>(n.title+' '+n.summary).includes(term));if(!matches.length){document.getElementById('notice').textContent='本图精选事件中未找到：'+term;return;}if(query!==term){query=term;matchIndex=0;}const n=matches[matchIndex%matches.length];select(n.id,true);document.getElementById('notice').textContent=`${matchIndex%matches.length+1}/${matches.length}：再次查找可跳到下一项`;matchIndex++;}
+document.getElementById('find').onclick=find;document.getElementById('search').onkeydown=e=>{if(e.key==='Enter')find()};
+vp.addEventListener('wheel',e=>{e.preventDefault();const b=vp.getBoundingClientRect();zoom(Math.exp(-e.deltaY*.0015),e.clientX-b.left,e.clientY-b.top)},{passive:false});
+// 超过拖动阈值后才捕获指针，普通点击仍交给事件卡片。
+vp.addEventListener('pointerdown',e=>{if(e.button!==0)return;drag={x:e.clientX,y:e.clientY,tx,ty};dragged=false;vp.classList.add('drag')});
+vp.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.abs(dx)+Math.abs(dy)>5){dragged=true;vp.setPointerCapture(e.pointerId)}tx=drag.tx+dx;ty=drag.ty+dy;apply()});
+vp.addEventListener('pointerup',e=>{drag=null;vp.classList.remove('drag');if(vp.hasPointerCapture(e.pointerId))vp.releasePointerCapture(e.pointerId)});
+vp.addEventListener('pointercancel',()=>{drag=null;vp.classList.remove('drag')});
+svg.addEventListener('click',e=>{if(dragged)return;const g=e.target.closest('[data-kind]');if(g)select(g.id)});
+svg.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){const g=e.target.closest('[data-kind]');if(g){e.preventDefault();select(g.id,true)}}});
+vp.addEventListener('dblclick',e=>{if(!e.target.closest('[data-kind]'))fit()});
+window.addEventListener('resize',fit);document.fonts.ready.then(fit);
+</script></body></html>
