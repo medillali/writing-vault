@@ -6,13 +6,11 @@
       "哥尔老师",
       "雷普诺特·里因斯·斯文哥尔"
     ],
-    "arc_change": "获黑龙暂释压后仍在末章被压住异议，未因共同利益放弃抵触。",
-    "conflict": "魂力压制和自己所属阵营的战争逻辑。",
-    "coverage_note": "九维深化已覆盖第1至15集；变化记录以各集证据为准。",
-    "goal": "守城并阻止牺牲大批平民。",
-    "knowledge_limits": [
-      "音乐新能力起初判断错误；红月力量来源只能推测。"
-    ],
+    "arc_change": "本集展示被忽略的现实与仍可发挥的独立专业能力；不等完全丧失行动价值。",
+    "conflict": "实力地位差距使其习惯询问强者，容易忘记自身已有方法。",
+    "coverage_note": "九维深化已覆盖第1至17集；变化记录以各集证据为准。",
+    "goal": "理解局势并保持同伴间的沟通与判断作用。",
+    "knowledge_limits": "巫师之眼能获得视觉而非穿地灵魂感知；未掌握教皇秘密计划。",
     "name": "斯文哥尔",
     "opening_observations": {
       "arc_in_sample": "权威判断→例外暴露→主动攻击→舍身掩护但被投刀击倒。",
@@ -26,11 +24,8 @@
       ],
       "summary": "有地位的法师依惯常召唤规则判断黑龙群体，接连遇到例外；认为必须消灭不死生物，失利后选择牺牲自己掩护同伴。"
     },
-    "relationships": [
-      "受黑龙保护亦受其压制。",
-      "以旧知识误认罗得为魔力指挥使。"
-    ],
-    "summary": "持续反对滥杀，又有识别魔法的知识与局限。",
+    "relationships": "与星协作侦察，和黑龙保持原师友情，与先知位置有落差。",
+    "summary": "转生巫妖、旧人类导师，在强者充斥的决策圈逐渐边缘化；重新使用巫师之眼侦察陌生骨军，补上灵魂感知差距。",
     "volume_history": [
       {
         "aliases": [
@@ -509,6 +504,31 @@
         ],
         "summary": "持续反对滥杀，又有识别魔法的知识与局限。",
         "volume": 15
+      },
+      {
+        "aliases": [
+          "哥尔老师"
+        ],
+        "arc_change": "本集展示被忽略的现实与仍可发挥的独立专业能力；不等完全丧失行动价值。",
+        "conflict": "实力地位差距使其习惯询问强者，容易忘记自身已有方法。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0187",
+            "end_line": 22409,
+            "start_line": 22375
+          },
+          {
+            "chapter_id": "ch-0191",
+            "end_line": 22798,
+            "start_line": 22793
+          }
+        ],
+        "goal": "理解局势并保持同伴间的沟通与判断作用。",
+        "knowledge_limits": "巫师之眼能获得视觉而非穿地灵魂感知；未掌握教皇秘密计划。",
+        "name": "斯文哥尔",
+        "relationships": "与星协作侦察，和黑龙保持原师友情，与先知位置有落差。",
+        "summary": "转生巫妖、旧人类导师，在强者充斥的决策圈逐渐边缘化；重新使用巫师之眼侦察陌生骨军，补上灵魂感知差距。",
+        "volume": 17
       }
     ]
   },
@@ -922,12 +942,28 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 20449
+    },
+    {
+      "chapter_id": "ch-0187",
+      "claim_kind": "inference",
+      "end_line": 22409,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 22375
+    },
+    {
+      "chapter_id": "ch-0191",
+      "claim_kind": "inference",
+      "end_line": 22798,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 22793
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/opening-test-20261022/sven",
   "review_status": "draft",
-  "revision": 15,
+  "revision": 16,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -948,9 +984,10 @@
     "第13集",
     "第14集",
     "第15集",
+    "第17集",
     "责任"
   ],
   "title": "斯文哥尔：分集人物研究",
-  "updated_at": "2026-10-22T01:35:32.110726+00:00",
+  "updated_at": "2026-10-22T01:51:52.671822+00:00",
   "user_notes": ""
 }

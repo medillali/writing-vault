@@ -3,13 +3,11 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "叙述突出心志坚定，勿将同样不杀倒地者直接等同黑二的怜悯动机。",
-    "conflict": "战场目标与无需攻击者的区别。",
-    "coverage_note": "九维深化已覆盖第1至16集；变化记录以各集证据为准。",
-    "goal": "完成冲锋和军事任务。",
-    "knowledge_limits": [
-      "两万骑兵仅大二有智慧，不据军团规模推其余孩子觉醒。"
-    ],
+    "arc_change": "更明确表现自主保护判断；非仅服从工具，但对黑龙优先服从边界仍在。",
+    "conflict": "救援价值与先知试探兵力的计划冲突，海量赋魂也造成精神疲惫。",
+    "coverage_note": "九维深化已覆盖第1至17集；变化记录以各集证据为准。",
+    "goal": "保护自己统领的同类并履行黑龙意志。",
+    "knowledge_limits": "魂强超过黑龙旧阶段不等悼亡晋升；银丝毁躯后本集未证原魂或身体恢复。",
     "name": "黑大",
     "opening_observations": {
       "confirmed": "召唤师的命令未能替代它对黑龙的服从；战斗中使用投刀。",
@@ -21,10 +19,8 @@
         "后续的个体成长"
       ]
     },
-    "relationships": [
-      "与黑二统领现有有智骑兵核心。"
-    ],
-    "summary": "率不死骑兵追溃军，对失去抵抗者不再攻击。",
+    "relationships": "和黑二共同赋魂与救援，把坐骑也纳入同类；带原八孩同行不证明八孩觉醒。",
+    "summary": "具有独立意识的黄金骷髅与不死骑兵统帅，三月吞噬赋魂使魂强剧增却未晋阶。为救骑马同类违抗先知，黑龙回来召回则立即执行。",
     "volume_history": [
       {
         "aliases": [],
@@ -334,6 +330,39 @@
         ],
         "summary": "率不死骑兵追溃军，对失去抵抗者不再攻击。",
         "volume": 16
+      },
+      {
+        "aliases": [],
+        "arc_change": "更明确表现自主保护判断；非仅服从工具，但对黑龙优先服从边界仍在。",
+        "conflict": "救援价值与先知试探兵力的计划冲突，海量赋魂也造成精神疲惫。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0184",
+            "end_line": 22042,
+            "start_line": 22030
+          },
+          {
+            "chapter_id": "ch-0187",
+            "end_line": 22378,
+            "start_line": 22376
+          },
+          {
+            "chapter_id": "ch-0190",
+            "end_line": 22755,
+            "start_line": 22740
+          },
+          {
+            "chapter_id": "ch-0192",
+            "end_line": 22886,
+            "start_line": 22880
+          }
+        ],
+        "goal": "保护自己统领的同类并履行黑龙意志。",
+        "knowledge_limits": "魂强超过黑龙旧阶段不等悼亡晋升；银丝毁躯后本集未证原魂或身体恢复。",
+        "name": "黑大",
+        "relationships": "和黑二共同赋魂与救援，把坐骑也纳入同类；带原八孩同行不证明八孩觉醒。",
+        "summary": "具有独立意识的黄金骷髅与不死骑兵统帅，三月吞噬赋魂使魂强剧增却未晋阶。为救骑马同类违抗先知，黑龙回来召回则立即执行。",
+        "volume": 17
       }
     ]
   },
@@ -587,12 +616,44 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 21458
+    },
+    {
+      "chapter_id": "ch-0184",
+      "claim_kind": "inference",
+      "end_line": 22042,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 22030
+    },
+    {
+      "chapter_id": "ch-0187",
+      "claim_kind": "inference",
+      "end_line": 22378,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 22376
+    },
+    {
+      "chapter_id": "ch-0190",
+      "claim_kind": "inference",
+      "end_line": 22755,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 22740
+    },
+    {
+      "chapter_id": "ch-0192",
+      "claim_kind": "inference",
+      "end_line": 22886,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 22880
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/opening-test-20261022/black_one",
   "review_status": "draft",
-  "revision": 12,
+  "revision": 13,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -610,9 +671,10 @@
     "第12集",
     "第14集",
     "第16集",
+    "第17集",
     "能力差"
   ],
   "title": "黑大：分集人物研究",
-  "updated_at": "2026-10-22T01:47:34.585929+00:00",
+  "updated_at": "2026-10-22T01:51:52.878740+00:00",
   "user_notes": ""
 }

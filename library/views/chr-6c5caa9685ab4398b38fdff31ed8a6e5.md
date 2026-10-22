@@ -1,8 +1,8 @@
 # 安德鲁：分集人物研究
 
-ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 5 · 范围: source-analysis
+ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 6 · 范围: source-analysis
 
-红衣主教，对教皇的现实效忠高于信仰口号。
+经不死献祭醒来后保留自身记忆与对教皇的忠诚，以安德鲁西斯之名伪装黑龙属下，拥有军团感知与否决权；被黑龙吞魂取忆，随后明确灵魂消散。
 
 ## 完整卡片
 
@@ -11,19 +11,17 @@ ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 5 · 范围: source-analys
   "asset_id": "chr-6c5caa9685ab4398b38fdff31ed8a6e5",
   "asset_type": "character",
   "content": {
-    "aliases": [],
-    "arc_change": "在答允背弃信仰后被贯心灌魂火，灵魂坠暗，尚未写醒来。",
-    "conflict": "深夜被召、神像异常和光的威压使其不能质疑。",
-    "coverage_note": "九维深化已覆盖第1至16集；变化记录以各集证据为准。",
-    "goal": "服从掌握自身命运的教皇并自保。",
-    "knowledge_limits": [
-      "疑问哪位神未获答；接受模糊命令不等知情同意具体死亡转生。"
+    "aliases": [
+      "安德鲁西斯"
     ],
+    "arc_change": "从红衣主教转生为不死统帅，再更新为被吞魂消亡；不能停留在仅转生或受俘阶段。",
+    "conflict": "宗教身份与不死身体冲突，假旗骗局随黑龙归来暴露。",
+    "coverage_note": "九维深化已覆盖第1至17集；变化记录以各集证据为准。",
+    "goal": "执行教皇命令，在不知全盘目的的棋子处境中生存并理解变化。",
+    "knowledge_limits": "安德鲁西斯是同人伪装名；不死祭司是临时身份称号，不作合并别名；死前所知仍不等尼鲁达完整历史。",
     "name": "安德鲁",
-    "relationships": [
-      "受教皇与光共同控制仪式。"
-    ],
-    "summary": "红衣主教，对教皇的现实效忠高于信仰口号。",
+    "relationships": "与光互为棋子同伴；实际受教皇安排，不是黑龙魂约下属。",
+    "summary": "经不死献祭醒来后保留自身记忆与对教皇的忠诚，以安德鲁西斯之名伪装黑龙属下，拥有军团感知与否决权；被黑龙吞魂取忆，随后明确灵魂消散。",
     "volume_history": [
       {
         "aliases": [],
@@ -126,6 +124,41 @@ ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 5 · 范围: source-analys
         ],
         "summary": "红衣主教，对教皇的现实效忠高于信仰口号。",
         "volume": 16
+      },
+      {
+        "aliases": [
+          "安德鲁西斯"
+        ],
+        "arc_change": "从红衣主教转生为不死统帅，再更新为被吞魂消亡；不能停留在仅转生或受俘阶段。",
+        "conflict": "宗教身份与不死身体冲突，假旗骗局随黑龙归来暴露。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0182",
+            "end_line": 21939,
+            "start_line": 21850
+          },
+          {
+            "chapter_id": "ch-0188",
+            "end_line": 22530,
+            "start_line": 22500
+          },
+          {
+            "chapter_id": "ch-0191",
+            "end_line": 22859,
+            "start_line": 22835
+          },
+          {
+            "chapter_id": "ch-0192",
+            "end_line": 22874,
+            "start_line": 22872
+          }
+        ],
+        "goal": "执行教皇命令，在不知全盘目的的棋子处境中生存并理解变化。",
+        "knowledge_limits": "安德鲁西斯是同人伪装名；不死祭司是临时身份称号，不作合并别名；死前所知仍不等尼鲁达完整历史。",
+        "name": "安德鲁",
+        "relationships": "与光互为棋子同伴；实际受教皇安排，不是黑龙魂约下属。",
+        "summary": "经不死献祭醒来后保留自身记忆与对教皇的忠诚，以安德鲁西斯之名伪装黑龙属下，拥有军团感知与否决权；被黑龙吞魂取忆，随后明确灵魂消散。",
+        "volume": 17
       }
     ]
   },
@@ -179,12 +212,44 @@ ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 5 · 范围: source-analys
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 21800
+    },
+    {
+      "chapter_id": "ch-0182",
+      "claim_kind": "inference",
+      "end_line": 21939,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21850
+    },
+    {
+      "chapter_id": "ch-0188",
+      "claim_kind": "inference",
+      "end_line": 22530,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 22500
+    },
+    {
+      "chapter_id": "ch-0191",
+      "claim_kind": "inference",
+      "end_line": 22859,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 22835
+    },
+    {
+      "chapter_id": "ch-0192",
+      "claim_kind": "inference",
+      "end_line": 22874,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 22872
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/安德鲁",
   "review_status": "draft",
-  "revision": 5,
+  "revision": 6,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -193,10 +258,11 @@ ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 5 · 范围: source-analys
     "第07集",
     "第08集",
     "第09集",
-    "第16集"
+    "第16集",
+    "第17集"
   ],
   "title": "安德鲁：分集人物研究",
-  "updated_at": "2026-10-22T01:47:36.480157+00:00",
+  "updated_at": "2026-10-22T01:51:51.294858+00:00",
   "user_notes": ""
 }
 

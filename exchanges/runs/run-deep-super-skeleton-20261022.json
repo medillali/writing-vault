@@ -11,6 +11,7 @@
     "chr-201a3f9df7a64c6b807871acb89f436a",
     "chr-24438669720a4bb8a0a27cbd25eadb33",
     "chr-24b9d252fb624865a46d717832261c68",
+    "chr-278e429654704c8a983ef026c5a2b366",
     "chr-28754b20dc334559be252769e427bfad",
     "chr-28e17940311e4d20bb1a4b8e5753e1fc",
     "chr-298c7fc48c534d1ba9027fc898a29cbb",
@@ -32,6 +33,7 @@
     "chr-4d337e033ff24db381f736c1da206aec",
     "chr-54e84c6e82214a26921887c503f519ee",
     "chr-56668b9d826140aa9811b4868084db8f",
+    "chr-57d5ea137fa1427d885b62bd8378143c",
     "chr-5aeff1d849534cdf80251105e5c44e7a",
     "chr-5c605c7ecd20495ca665d15c2bdf2562",
     "chr-5ea71121d70a4f5da6f23a654c5c16a0",
@@ -58,6 +60,7 @@
     "chr-8aa753f481f04f0181e7bee412fb68f8",
     "chr-8dd944fda1a94021a83147113195fd76",
     "chr-8e211a51f4ef4c4b8e707cb02c88a5ed",
+    "chr-9380840bd9754b12b693dfd5819833cd",
     "chr-968add4b94d440cbabc01e3b0558d55d",
     "chr-9adbbc5d4a304b6eafaf675a693aee25",
     "chr-9e9f720be15841d29768c1d0c4a68657",
@@ -122,6 +125,7 @@
     "pat-782a8c78148b4e4e895b92df9044e7ac",
     "pat-81ccdad3facf4be79250241532ad55fc",
     "pat-8210cea938764f94bcbb28ac3762f429",
+    "pat-83ae30503fdf430d8a1504cef81b712e",
     "pat-85e4293a2dd547fd84934a1c1da2a10b",
     "pat-85f08669596c4adab7e06496a85a64ee",
     "pat-89105d4a86074c0192acb47620b3ec9a",
@@ -140,6 +144,7 @@
     "pat-d8c76eefafb94feaa4d142110199d702",
     "pat-e89f8dd9693e4cf8b06852d6b445ee07",
     "pat-ef78cf764d524949a2e214e6bb244bac",
+    "pat-f4c31902ebef43b2b1726fb4e2a77012",
     "pat-f61e6a1b14784ab4ad376b8dedeea71c",
     "pat-f75f1a71110a45179290e92bcfdff241",
     "scn-00001381240c4eb28e0be96cc8a5cc7d",
@@ -148,8 +153,11 @@
     "scn-0aaa173989144839babec952d54b0985",
     "scn-1189dc78e1f94ca996ee5ae205504baf",
     "scn-1223d1f5352b4a59b5e6ff6b7ab59fb0",
+    "scn-1b8985898da849b4a2979ccaf65e0eb4",
     "scn-1c9c06d321e04cb4ac0a397744856363",
     "scn-1d2ad1bea9d541cea2848bebe985427a",
+    "scn-1d76c31abc194f099779babb53d988c8",
+    "scn-1edb20350cf64c5da1e52f8386630a23",
     "scn-1f55cb74756d4448a8ef105f98dd6b07",
     "scn-29b78f55fa5244cb9e797f7bb029af25",
     "scn-2f5b057528e34db7b0419278605d2a48",
@@ -205,7 +213,8 @@
     "scn-f2740355f6be4650bf00b57dc1a8cecd",
     "scn-f499eba6895c4fc4a066c728e7b53513",
     "scn-f57f5236a8c04d5689e5fb38dd42126b",
-    "scn-fa42ae6b07fd4ad4a2bbeac165ae6cf7"
+    "scn-fa42ae6b07fd4ad4a2bbeac165ae6cf7",
+    "scn-fdb70e3ff478491a888ae337e8dc608f"
   ],
   "completed_chapters": [
     "ch-0001",
@@ -387,7 +396,20 @@
     "ch-0177",
     "ch-0178",
     "ch-0179",
-    "ch-0180"
+    "ch-0180",
+    "ch-0181",
+    "ch-0182",
+    "ch-0183",
+    "ch-0184",
+    "ch-0185",
+    "ch-0186",
+    "ch-0187",
+    "ch-0188",
+    "ch-0189",
+    "ch-0190",
+    "ch-0191",
+    "ch-0192",
+    "ch-0193"
   ],
   "completed_volumes": [
     1,
@@ -405,7 +427,8 @@
     13,
     14,
     15,
-    16
+    16,
+    17
   ],
   "dimensions": [
     "worldbuilding",
@@ -420,19 +443,6 @@
   ],
   "notes": "本轮完整逐块阅读并九维检查；章前说明和集标题计入覆盖但不计作正文。每集研究草稿待用户审查。",
   "pending_chapters": [
-    "ch-0181",
-    "ch-0182",
-    "ch-0183",
-    "ch-0184",
-    "ch-0185",
-    "ch-0186",
-    "ch-0187",
-    "ch-0188",
-    "ch-0189",
-    "ch-0190",
-    "ch-0191",
-    "ch-0192",
-    "ch-0193",
     "ch-0194",
     "ch-0195",
     "ch-0196",
@@ -446,5 +456,5 @@
   "run_id": "run-deep-super-skeleton-20261022",
   "source_id": "src-9ff09c395734410b856f77c77a652834",
   "source_revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
-  "updated_at": "2026-10-22T01:48:50.919276+00:00"
+  "updated_at": "2026-10-22T01:53:17.697923+00:00"
 }

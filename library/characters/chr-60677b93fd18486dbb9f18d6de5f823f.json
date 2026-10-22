@@ -3,14 +3,14 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "本集明确政治立场趋向先知计划，不能因劝其冷静而写成反屠城盟友。",
-    "conflict": "与人类成员的道德底线不一致；本人力量对先知构成一项制衡。",
-    "coverage_note": "九维深化已覆盖第1至14集；变化记录以各集证据为准。",
-    "goal": "支持适合不死势力利益的战争与扩张。",
-    "knowledge_limits": "赞同方案不证明全城法阵已发动；不同阶段法师数量要按时点记录。",
+    "arc_change": "承担异常识别与撤退判断作用，未因知识丰富而成为全知者。",
+    "conflict": "见识丰富仍受历史类别推断影响，无法从重复口号获取真信息。",
+    "coverage_note": "九维深化已覆盖第1至17集；变化记录以各集证据为准。",
+    "goal": "辨识局势并维护黑龙组织与自身族众。",
+    "knowledge_limits": "不能将识别统领当识破教会阴谋；其支持撤退是当前战术选择，不推翻前集政治立场。",
     "name": "斯科特",
-    "relationships": "六百亡灵法师不等于与先知同生共死；与毕瑟等同侧但不得替其代言。",
-    "summary": "拥有独立亡灵法师力量，参与战争法术；会议先制止先知动怒，随后明确表示喜欢扩张计划。",
+    "relationships": "与先知商议，与黑龙休戚相关但没有相同深层共死魂约。",
+    "summary": "具有独立族众与大量历史碎忆的亡灵圣者，首先从千万军团中识别两名有意识统领，但同样被其伪装误导。",
     "volume_history": [
       {
         "aliases": [],
@@ -218,6 +218,34 @@
         "relationships": "六百亡灵法师不等于与先知同生共死；与毕瑟等同侧但不得替其代言。",
         "summary": "拥有独立亡灵法师力量，参与战争法术；会议先制止先知动怒，随后明确表示喜欢扩张计划。",
         "volume": 14
+      },
+      {
+        "aliases": [],
+        "arc_change": "承担异常识别与撤退判断作用，未因知识丰富而成为全知者。",
+        "conflict": "见识丰富仍受历史类别推断影响，无法从重复口号获取真信息。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0188",
+            "end_line": 22474,
+            "start_line": 22438
+          },
+          {
+            "chapter_id": "ch-0191",
+            "end_line": 22797,
+            "start_line": 22793
+          },
+          {
+            "chapter_id": "ch-0192",
+            "end_line": 22967,
+            "start_line": 22962
+          }
+        ],
+        "goal": "辨识局势并维护黑龙组织与自身族众。",
+        "knowledge_limits": "不能将识别统领当识破教会阴谋；其支持撤退是当前战术选择，不推翻前集政治立场。",
+        "name": "斯科特",
+        "relationships": "与先知商议，与黑龙休戚相关但没有相同深层共死魂约。",
+        "summary": "具有独立族众与大量历史碎忆的亡灵圣者，首先从千万军团中识别两名有意识统领，但同样被其伪装误导。",
+        "volume": 17
       }
     ]
   },
@@ -383,12 +411,36 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 18991
+    },
+    {
+      "chapter_id": "ch-0188",
+      "claim_kind": "inference",
+      "end_line": 22474,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 22438
+    },
+    {
+      "chapter_id": "ch-0191",
+      "claim_kind": "inference",
+      "end_line": 22797,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 22793
+    },
+    {
+      "chapter_id": "ch-0192",
+      "claim_kind": "inference",
+      "end_line": 22967,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 22962
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/斯科特",
   "review_status": "draft",
-  "revision": 7,
+  "revision": 8,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -399,9 +451,10 @@
     "第09集",
     "第11集",
     "第12集",
-    "第14集"
+    "第14集",
+    "第17集"
   ],
   "title": "斯科特：分集人物研究",
-  "updated_at": "2026-10-22T01:29:21.052611+00:00",
+  "updated_at": "2026-10-22T01:51:53.407747+00:00",
   "user_notes": ""
 }
