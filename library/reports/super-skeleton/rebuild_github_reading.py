@@ -170,8 +170,10 @@ def make_cards():
 def make_plot():
     root = next(n for n in graph['nodes'] if n['kind'] == 'story')
     lines = ['# 主线树与暗线目录', '', '[全书阅读首页](../README.md) · [全部265条语义关系](relations.md)', '',
-             '结构线表示归属；暗线关系另用虚线表示。逐集页面保留当时状态，跨集页面采用全书终点审计结论。', '',
-             '## 全书结构树', ''] + diagram([root] + volumes, [{'from': root['id'], 'to': n['id']} for n in volumes], True)
+             '[打开主线与暗线图片版](images.md)：全书阶段树、18集推进图、15条暗线时间图。PNG可直接保存，SVG可放大。', '',
+             '蓝色主干按小说阅读进度推进；回叙与跨段聚合保留说明。跨集页面的回收状态采用全书终点复核结论。', '',
+             '## 全书主线图片', '', '[PNG原尺寸](images/main-overview.png) · [SVG矢量图](images/main-overview.svg)', '',
+             '![全书主线树](images/main-overview.png)', '']
     lines += ['## 按集阅读', ''] + [f"- [{text(n['title'])}]({n['id']}.md)" for n in volumes]
     lines += ['', '## 46条跨集剧情线', '', '| 剧情线 | 终点状态 | 核心问题 |', '|---|---|---|']
     for t in book_threads:
@@ -183,7 +185,8 @@ def make_plot():
         edges = [e for e in graph['edges'] if e['from'] in ids and e['to'] in ids]
         num = int(volume['id'].split('-')[1])
         lines = [f"# {text(volume['title'])} · 剧情结构", '', f'[剧情目录](README.md) · [本集九维报告](../../vol{num:02d}.md)', '',
-                 '## 主线树', ''] + diagram(nodes, [{'from': n['parent_id'], 'to': n['id']} for n in nodes if n.get('parent_id') in ids], True)
+                 '## 主线时间与分支图片', '', f"[PNG原尺寸](images/{volume['id']}.png) · [SVG矢量图](images/{volume['id']}.svg) · [全书图片目录](images.md)", '',
+                 f"![{text(volume['title'])}时间主干与分支](images/{volume['id']}.png)", '']
         lines += ['## 本集因果、伏笔与回收关系', ''] + relations_table(edges)
         lines += ['跨集联系见[全部语义关系](relations.md)与[跨集剧情线](README.md)。', '', '## 事件、人物与认知依据', '']
         for n in nodes:
@@ -219,7 +222,14 @@ def make_plot():
         nodes = sorted((by_id[n] for n in t['node_ids']), key=lambda n: n.get('narrative_order', 0))
         lines = [f"# {text(t['title'])}", '', '[剧情目录](../README.md) · [全书阅读首页](../../README.md)', '',
                  f"终点状态：**{STATES[t['status']]}**", '', '## 核心问题', '', text(t.get('question', '')), '',
-                 '## 全书复核结论', '', text(t.get('resolution_note', '')), '', '## 关联事件', '']
+                 '## 全书复核结论', '', text(t.get('resolution_note', '')), '']
+        if t['kind'] == 'hidden':
+            lines += ['## 暗线时间图片', '', '按主线阅读进度向下推进；分页保留关系编号与接续说明，每张均带全书终点状态。', '']
+            for p in sorted((OUT / 'plot/images').glob(t['id'] + '-*.svg')):
+                stem = p.stem
+                lines += [f'[PNG原尺寸](../images/{stem}.png) · [SVG矢量图](../images/{stem}.svg)', '',
+                          f'![{text(t["title"])}时间图](../images/{stem}.png)', '']
+        lines += ['## 关联事件', '']
         lines += [f"- {node_link(n['id'], '../')}：{text(n.get('summary', ''))}" for n in nodes]
         lines += ['', '## 关系网络', '', '虚线展示因果、铺垫、误导、揭示与回收。每组至多6条关系；组间通过同名节点衔接，不新增时间顺序或因果。', '']
         for start in range(0, len(edges), 6):
@@ -240,6 +250,7 @@ def main():
     lines = ['# 《超级骷髅兵》GitHub阅读版', '', '[资料库首页](../../../../README.md) · [研究总目录](../README.md)', '',
              '已完成18集、183章（含序章）的蒸馏与研究复核，以下页面可在GitHub直接阅读。事实、研究解释、可迁移方法和个人评价分别保留；研究草稿等待你的审阅。', '',
              '## 从这里开始', '', '| 内容 | 阅读入口 |', '|---|---|',
+             '| 主线树、暗线、未回收疑点的图片 | [图片阅读入口](plot/images.md) |',
              '| 全书九维综合、阶段及人物弧 | [全书综合报告](../book-synthesis.md) |',
              f"| {counts['character']}张人物卡 | [人物目录](characters.md) |",
              f"| {counts['scene']}张场景卡 | [场景目录](scenes.md) |",
@@ -253,11 +264,14 @@ def main():
     lines += ['', '## 阅读与维护', '',
               '- 原小说TXT保留在本机；页面提供研究内容和章节行号，不提供原文全文。',
               '- 卡片按中文字段展示；人物分集历史与全书终点补记均保留，旧判断不会冒充最终结论。',
-              '- 剧情图使用GitHub支持的Mermaid；每张图下均保留文字导航或关系表。',
+              '- 主线和暗线优先展示PNG图片，并提供SVG原图；完整文字、证据与Mermaid关系组仍保留。',
+              '- 图片由`rebuild_plot_images.py`与`render_plot_images.cjs`生成，再运行本阅读页生成器。',
               '- 本目录由同级报告目录的`rebuild_github_reading.py`生成。修改主档后重新生成；个人笔记和收藏通过资料库工具保存。',
               '- 其他三本目前仅有开篇样段，Space尚未接入。', '',
               '[GitHub图表支持说明](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)']
     save(OUT / 'README.md', lines)
+    if (OUT / 'plot/images.md').exists():
+        written.append(OUT / 'plot/images.md')
     manifest = {'source_id': SID, 'source_revision': source['revision'], 'cards': dict(counts), 'volumes': len(volumes),
                 'nodes': len(graph['nodes']), 'relations': len(graph['edges']), 'book_threads': len(book_threads),
                 'pages': {p.relative_to(OUT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in written}}

@@ -16,6 +16,7 @@
 
 | 想看什么 | 直接阅读 |
 |---|---|
+| 主线树与暗线的图片、未回收标记 | [49张PNG/SVG图片入口](reading/plot/images.md) |
 | 全书的九维综合与人物弧 | [综合报告](book-synthesis.md) |
 | 人物目标、关系、变化与终点状态 | [104张人物卡](reading/characters.md) |
 | 精选场景的因果机制 | [74张场景卡](reading/scenes.md) |
@@ -44,6 +45,15 @@ python scripts/library.py --vault ../writing-vault graph-render --owner-kind sou
 以上重建只提供已有研究和证据定位。要核对原文或继续蒸馏，仍须在本机接入同一来源修订的原书。
 
 ## 更新GitHub阅读副本
+
+图片已随仓库保存，直接打开即可。修改研究主档后，需要先重新生成SVG与PNG，再生成阅读页：
+
+```text
+python library/reports/super-skeleton/rebuild_plot_images.py
+node library/reports/super-skeleton/render_plot_images.cjs
+```
+
+图片生成依赖Python/Pillow及中文字体（Microsoft YaHei或Noto Sans CJK）；PNG渲染依赖Node.js/Playwright及Chromium浏览器。Windows使用已安装Edge时可设置环境变量`PLOT_BROWSER_CHANNEL=msedge`。图中的蓝色主干为小说阅读顺序，回叙保留原标记；彩色旁路及状态取自既有研究记录。
 
 修改卡片和图的主档后，从资料库根目录运行：
 

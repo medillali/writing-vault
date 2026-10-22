@@ -1,0 +1,1698 @@
+{
+  "source_id": "src-9ff09c395734410b856f77c77a652834",
+  "graph_sha256": "435dcaea56741a373b30283b0ce5fdf8937ff08197703aadd31f18e617bffc17",
+  "synthesis_sha256": "6c87460b785dd4cb1445b4e51ea8d916497de8d29fad165871daf30b2796e58f",
+  "time_axis": "narrative_order; 回叙和跨段事件保留源说明",
+  "hidden_states": {
+    "partial": 11,
+    "open": 3,
+    "resolved": 1
+  },
+  "images": [
+    {
+      "file": "main-overview",
+      "width": 1600,
+      "height": 3148,
+      "title": "全书主线树",
+      "kind": "overview",
+      "volume_ids": [
+        "vol-01",
+        "vol-02",
+        "vol-03",
+        "vol-04",
+        "vol-05",
+        "vol-06",
+        "vol-07",
+        "vol-08",
+        "vol-09",
+        "vol-10",
+        "vol-11",
+        "vol-12",
+        "vol-13",
+        "vol-14",
+        "vol-15",
+        "vol-16",
+        "vol-17",
+        "vol-18"
+      ]
+    },
+    {
+      "file": "hidden-overview-01",
+      "width": 1900,
+      "height": 1859,
+      "title": "暗线时间总览 1",
+      "kind": "hidden-overview",
+      "thread_ids": [
+        "book-0a05fa972401",
+        "book-49e8bb5d0f08",
+        "book-c0fbac950b52",
+        "book-9baae09a0d12",
+        "book-e90db68cb625",
+        "book-6e1451b9badd",
+        "book-09f441653222",
+        "book-2c92e5ad3024"
+      ],
+      "states": {
+        "book-0a05fa972401": "partial",
+        "book-49e8bb5d0f08": "open",
+        "book-c0fbac950b52": "partial",
+        "book-9baae09a0d12": "partial",
+        "book-e90db68cb625": "partial",
+        "book-6e1451b9badd": "open",
+        "book-09f441653222": "partial",
+        "book-2c92e5ad3024": "partial"
+      }
+    },
+    {
+      "file": "hidden-overview-02",
+      "width": 1900,
+      "height": 1685,
+      "title": "暗线时间总览 2",
+      "kind": "hidden-overview",
+      "thread_ids": [
+        "book-02ba45413b1e",
+        "book-c8d5d9e2b50a",
+        "book-be62d277e700",
+        "book-4f19b0c4054c",
+        "book-442e53d9c11d",
+        "book-155fd141a183",
+        "book-3ec69c740e20"
+      ],
+      "states": {
+        "book-02ba45413b1e": "partial",
+        "book-c8d5d9e2b50a": "open",
+        "book-be62d277e700": "partial",
+        "book-4f19b0c4054c": "partial",
+        "book-442e53d9c11d": "partial",
+        "book-155fd141a183": "resolved",
+        "book-3ec69c740e20": "partial"
+      }
+    },
+    {
+      "file": "vol-01",
+      "width": 1700,
+      "height": 3583,
+      "title": "第一集 黄金骷髅 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v01-e01",
+        "v01-e02",
+        "v01-e03",
+        "v01-e04",
+        "v01-e05",
+        "v01-e06",
+        "v01-e07",
+        "v01-e08",
+        "v01-e10",
+        "v01-e09"
+      ],
+      "edge_ids": [
+        "v01-edge-01",
+        "v01-edge-02",
+        "v01-edge-03",
+        "v01-edge-04",
+        "v01-edge-05",
+        "v01-edge-06",
+        "v01-edge-07",
+        "v01-edge-08",
+        "v01-edge-09"
+      ],
+      "drawn_edge_ids": [
+        "v01-edge-01",
+        "v01-edge-02",
+        "v01-edge-03",
+        "v01-edge-04",
+        "v01-edge-05",
+        "v01-edge-06",
+        "v01-edge-07",
+        "v01-edge-08",
+        "v01-edge-09"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-02",
+      "width": 1700,
+      "height": 3415,
+      "title": "第二集 阿罗约的宝藏 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v02-e01",
+        "v02-e02",
+        "v02-e03",
+        "v02-e04",
+        "v02-e05",
+        "v02-e06",
+        "v02-e07",
+        "v02-e08",
+        "v02-e09"
+      ],
+      "edge_ids": [
+        "v02-edge-01",
+        "v02-edge-02",
+        "v02-edge-03",
+        "v02-edge-04",
+        "v02-edge-05",
+        "v02-edge-06",
+        "v02-edge-07",
+        "v02-edge-08"
+      ],
+      "drawn_edge_ids": [
+        "v02-edge-01",
+        "v02-edge-02",
+        "v02-edge-03",
+        "v02-edge-04",
+        "v02-edge-05",
+        "v02-edge-06",
+        "v02-edge-07",
+        "v02-edge-08"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-03",
+      "width": 1700,
+      "height": 3363,
+      "title": "第三集 雷神覆灭 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v03-e01",
+        "v03-e02",
+        "v03-e03",
+        "v03-e04",
+        "v03-e05",
+        "v03-e06",
+        "v03-e07",
+        "v03-e08",
+        "v03-e09"
+      ],
+      "edge_ids": [
+        "v03-edge-01",
+        "v03-edge-02",
+        "v03-edge-03",
+        "v03-edge-04",
+        "v03-edge-05",
+        "v03-edge-06",
+        "v03-edge-07"
+      ],
+      "drawn_edge_ids": [
+        "v03-edge-01",
+        "v03-edge-02",
+        "v03-edge-03",
+        "v03-edge-04",
+        "v03-edge-05",
+        "v03-edge-06",
+        "v03-edge-07"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-04",
+      "width": 1700,
+      "height": 3487,
+      "title": "第四集 亡灵印记 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v04-e01",
+        "v04-e02",
+        "v04-e03",
+        "v04-e04",
+        "v04-e05",
+        "v04-e06",
+        "v04-e07",
+        "v04-e08",
+        "v04-e09"
+      ],
+      "edge_ids": [
+        "v04-edge-01",
+        "v04-edge-02",
+        "v04-edge-03",
+        "v04-edge-04",
+        "v04-edge-05",
+        "v04-edge-06",
+        "v04-edge-07",
+        "v04-edge-08"
+      ],
+      "drawn_edge_ids": [
+        "v04-edge-01",
+        "v04-edge-02",
+        "v04-edge-03",
+        "v04-edge-04",
+        "v04-edge-05",
+        "v04-edge-06",
+        "v04-edge-07",
+        "v04-edge-08"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-05",
+      "width": 1700,
+      "height": 3219,
+      "title": "第五集 生命禁区 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v05-e01",
+        "v05-e09",
+        "v05-e02",
+        "v05-e03",
+        "v05-e04",
+        "v05-e05",
+        "v05-e06",
+        "v05-e07",
+        "v05-e08"
+      ],
+      "edge_ids": [
+        "v05-edge-01",
+        "v05-edge-02",
+        "v05-edge-03",
+        "v05-edge-04",
+        "v05-edge-05",
+        "v05-edge-06",
+        "v05-edge-07"
+      ],
+      "drawn_edge_ids": [
+        "v05-edge-01",
+        "v05-edge-02",
+        "v05-edge-03",
+        "v05-edge-04",
+        "v05-edge-05",
+        "v05-edge-06",
+        "v05-edge-07"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-06",
+      "width": 1700,
+      "height": 3271,
+      "title": "第六集 悼亡之主 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v06-e01",
+        "v06-e02",
+        "v06-e03",
+        "v06-e04",
+        "v06-e05",
+        "v06-e06",
+        "v06-e07",
+        "v06-e08",
+        "v06-e09"
+      ],
+      "edge_ids": [
+        "v06-edge-01",
+        "v06-edge-02",
+        "v06-edge-03",
+        "v06-edge-04",
+        "v06-edge-05",
+        "v06-edge-06",
+        "v06-edge-07",
+        "v06-edge-08"
+      ],
+      "drawn_edge_ids": [
+        "v06-edge-01",
+        "v06-edge-02",
+        "v06-edge-03",
+        "v06-edge-04",
+        "v06-edge-05",
+        "v06-edge-06",
+        "v06-edge-07",
+        "v06-edge-08"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-07",
+      "width": 1700,
+      "height": 3357,
+      "title": "第七集 信仰元力 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v07-e01",
+        "v07-e02",
+        "v07-e03",
+        "v07-e04",
+        "v07-e05",
+        "v07-e06",
+        "v07-e07",
+        "v07-e08",
+        "v07-e09"
+      ],
+      "edge_ids": [
+        "v07-edge-01",
+        "v07-edge-02",
+        "v07-edge-03",
+        "v07-edge-04",
+        "v07-edge-05",
+        "v07-edge-06",
+        "v07-edge-07"
+      ],
+      "drawn_edge_ids": [
+        "v07-edge-01",
+        "v07-edge-02",
+        "v07-edge-03",
+        "v07-edge-04",
+        "v07-edge-05",
+        "v07-edge-06",
+        "v07-edge-07"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-08",
+      "width": 1700,
+      "height": 3451,
+      "title": "第八集 暗之神骑 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v08-e01",
+        "v08-e02",
+        "v08-e03",
+        "v08-e04",
+        "v08-e05",
+        "v08-e06",
+        "v08-e07",
+        "v08-e08",
+        "v08-e09"
+      ],
+      "edge_ids": [
+        "v08-edge-01",
+        "v08-edge-02",
+        "v08-edge-03",
+        "v08-edge-04",
+        "v08-edge-05",
+        "v08-edge-06",
+        "v08-edge-07",
+        "v08-edge-08"
+      ],
+      "drawn_edge_ids": [
+        "v08-edge-01",
+        "v08-edge-02",
+        "v08-edge-03",
+        "v08-edge-04",
+        "v08-edge-05",
+        "v08-edge-06",
+        "v08-edge-07",
+        "v08-edge-08"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-09",
+      "width": 1700,
+      "height": 3459,
+      "title": "第九集 皇者驾临 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v09-e01",
+        "v09-e02",
+        "v09-e03",
+        "v09-e04",
+        "v09-e05",
+        "v09-e06",
+        "v09-e07",
+        "v09-e08",
+        "v09-e09"
+      ],
+      "edge_ids": [
+        "v09-edge-01",
+        "v09-edge-02",
+        "v09-edge-03",
+        "v09-edge-04",
+        "v09-edge-05",
+        "v09-edge-06",
+        "v09-edge-07"
+      ],
+      "drawn_edge_ids": [
+        "v09-edge-01",
+        "v09-edge-02",
+        "v09-edge-03",
+        "v09-edge-04",
+        "v09-edge-05",
+        "v09-edge-06",
+        "v09-edge-07"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-10",
+      "width": 1700,
+      "height": 3571,
+      "title": "第十集 噬魂的秘密 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v10-e01",
+        "v10-e02",
+        "v10-e03",
+        "v10-e04",
+        "v10-e05",
+        "v10-e06",
+        "v10-e07",
+        "v10-e08",
+        "v10-e09"
+      ],
+      "edge_ids": [
+        "v10-edge-01",
+        "v10-edge-02",
+        "v10-edge-03",
+        "v10-edge-04",
+        "v10-edge-05",
+        "v10-edge-06",
+        "v10-edge-07",
+        "v10-edge-08"
+      ],
+      "drawn_edge_ids": [
+        "v10-edge-01",
+        "v10-edge-02",
+        "v10-edge-03",
+        "v10-edge-04",
+        "v10-edge-05",
+        "v10-edge-06",
+        "v10-edge-07",
+        "v10-edge-08"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-11",
+      "width": 1700,
+      "height": 3593,
+      "title": "第十一集 不死海怪 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v11-e01",
+        "v11-e02",
+        "v11-e03",
+        "v11-e04",
+        "v11-e05",
+        "v11-e06",
+        "v11-e07",
+        "v11-e08",
+        "v11-e09"
+      ],
+      "edge_ids": [
+        "v11-edge-01",
+        "v11-edge-02",
+        "v11-edge-03",
+        "v11-edge-04",
+        "v11-edge-05",
+        "v11-edge-06",
+        "v11-edge-07",
+        "v11-edge-08",
+        "v11-edge-09"
+      ],
+      "drawn_edge_ids": [
+        "v11-edge-01",
+        "v11-edge-02",
+        "v11-edge-03",
+        "v11-edge-04",
+        "v11-edge-05",
+        "v11-edge-06",
+        "v11-edge-07",
+        "v11-edge-08",
+        "v11-edge-09"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-12",
+      "width": 1700,
+      "height": 3517,
+      "title": "第十二集 不死龙魂 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v12-e01",
+        "v12-e02",
+        "v12-e03",
+        "v12-e04",
+        "v12-e05",
+        "v12-e06",
+        "v12-e07",
+        "v12-e08",
+        "v12-e09"
+      ],
+      "edge_ids": [
+        "v12-edge-01",
+        "v12-edge-02",
+        "v12-edge-03",
+        "v12-edge-04",
+        "v12-edge-05",
+        "v12-edge-06",
+        "v12-edge-07",
+        "v12-edge-08"
+      ],
+      "drawn_edge_ids": [
+        "v12-edge-01",
+        "v12-edge-02",
+        "v12-edge-03",
+        "v12-edge-04",
+        "v12-edge-05",
+        "v12-edge-06",
+        "v12-edge-07",
+        "v12-edge-08"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-13",
+      "width": 1700,
+      "height": 3541,
+      "title": "第十三集 死亡世界 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v13-e01",
+        "v13-e02",
+        "v13-e03",
+        "v13-e04",
+        "v13-e05",
+        "v13-e06",
+        "v13-e07",
+        "v13-e08",
+        "v13-e09"
+      ],
+      "edge_ids": [
+        "v13-edge-01",
+        "v13-edge-02",
+        "v13-edge-03",
+        "v13-edge-04",
+        "v13-edge-05",
+        "v13-edge-06",
+        "v13-edge-07",
+        "v13-edge-08"
+      ],
+      "drawn_edge_ids": [
+        "v13-edge-01",
+        "v13-edge-02",
+        "v13-edge-03",
+        "v13-edge-04",
+        "v13-edge-05",
+        "v13-edge-06",
+        "v13-edge-07",
+        "v13-edge-08"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-14",
+      "width": 1700,
+      "height": 3887,
+      "title": "第十四集 君王的传承 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v14-e01",
+        "v14-e02",
+        "v14-e03",
+        "v14-e04",
+        "v14-e05",
+        "v14-e06",
+        "v14-e07",
+        "v14-e08",
+        "v14-e09"
+      ],
+      "edge_ids": [
+        "v14-edge-01",
+        "v14-edge-02",
+        "v14-edge-03",
+        "v14-edge-04",
+        "v14-edge-05",
+        "v14-edge-06",
+        "v14-edge-07",
+        "v14-edge-08",
+        "v14-edge-09"
+      ],
+      "drawn_edge_ids": [
+        "v14-edge-01",
+        "v14-edge-02",
+        "v14-edge-03",
+        "v14-edge-04",
+        "v14-edge-05",
+        "v14-edge-06",
+        "v14-edge-07",
+        "v14-edge-08",
+        "v14-edge-09"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-15",
+      "width": 1700,
+      "height": 3363,
+      "title": "第十五集 泰坦骷髅 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v15-e01",
+        "v15-e02",
+        "v15-e03",
+        "v15-e04",
+        "v15-e05",
+        "v15-e06",
+        "v15-e07",
+        "v15-e08",
+        "v15-e09"
+      ],
+      "edge_ids": [
+        "v15-edge-01",
+        "v15-edge-02",
+        "v15-edge-03",
+        "v15-edge-04",
+        "v15-edge-05",
+        "v15-edge-06",
+        "v15-edge-07"
+      ],
+      "drawn_edge_ids": [
+        "v15-edge-01",
+        "v15-edge-02",
+        "v15-edge-03",
+        "v15-edge-04",
+        "v15-edge-05",
+        "v15-edge-06",
+        "v15-edge-07"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-16",
+      "width": 1700,
+      "height": 3763,
+      "title": "第十六集 君王回归 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v16-e01",
+        "v16-e02",
+        "v16-e03",
+        "v16-e04",
+        "v16-e05",
+        "v16-e06",
+        "v16-e07",
+        "v16-e08",
+        "v16-e09"
+      ],
+      "edge_ids": [
+        "v16-edge-01",
+        "v16-edge-02",
+        "v16-edge-03",
+        "v16-edge-04",
+        "v16-edge-05",
+        "v16-edge-06",
+        "v16-edge-07",
+        "v16-edge-08"
+      ],
+      "drawn_edge_ids": [
+        "v16-edge-01",
+        "v16-edge-02",
+        "v16-edge-03",
+        "v16-edge-04",
+        "v16-edge-05",
+        "v16-edge-06",
+        "v16-edge-07",
+        "v16-edge-08"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-17",
+      "width": 1700,
+      "height": 4077,
+      "title": "第十七集 光与暗 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v17-e01",
+        "v17-e02",
+        "v17-e03",
+        "v17-e04",
+        "v17-e05",
+        "v17-e06",
+        "v17-e07",
+        "v17-e08",
+        "v17-e09"
+      ],
+      "edge_ids": [
+        "v17-edge-01",
+        "v17-edge-02",
+        "v17-edge-03",
+        "v17-edge-04",
+        "v17-edge-05",
+        "v17-edge-06",
+        "v17-edge-07",
+        "v17-edge-08",
+        "v17-edge-09",
+        "v17-edge-10"
+      ],
+      "drawn_edge_ids": [
+        "v17-edge-01",
+        "v17-edge-02",
+        "v17-edge-03",
+        "v17-edge-04",
+        "v17-edge-05",
+        "v17-edge-06",
+        "v17-edge-07",
+        "v17-edge-08",
+        "v17-edge-09",
+        "v17-edge-10"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "vol-18",
+      "width": 1700,
+      "height": 3815,
+      "title": "第十八集 自由的世界 · 时间主干与分支",
+      "kind": "volume",
+      "node_ids": [
+        "v18-e01",
+        "v18-e02",
+        "v18-e03",
+        "v18-e04",
+        "v18-e05",
+        "v18-e06",
+        "v18-e07",
+        "v18-e08",
+        "v18-e09"
+      ],
+      "edge_ids": [
+        "v18-edge-01",
+        "v18-edge-02",
+        "v18-edge-03",
+        "v18-edge-04",
+        "v18-edge-05",
+        "v18-edge-06",
+        "v18-edge-07",
+        "v18-edge-08",
+        "v18-edge-09"
+      ],
+      "drawn_edge_ids": [
+        "v18-edge-01",
+        "v18-edge-02",
+        "v18-edge-03",
+        "v18-edge-04",
+        "v18-edge-05",
+        "v18-edge-06",
+        "v18-edge-07",
+        "v18-edge-08",
+        "v18-edge-09"
+      ],
+      "thread_id": null,
+      "status": null,
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "book-0a05fa972401-01",
+      "width": 1700,
+      "height": 2704,
+      "title": "记忆、知识与力量 · 1/1",
+      "kind": "thread",
+      "node_ids": [
+        "v01-e03",
+        "v02-e06",
+        "v03-e04",
+        "v08-e05",
+        "v14-e02",
+        "v18-e04"
+      ],
+      "edge_ids": [
+        "cross-memory-01",
+        "cross-memory-02",
+        "cross-aroyo-01",
+        "cross-v18-memory-practice"
+      ],
+      "drawn_edge_ids": [
+        "cross-memory-01",
+        "cross-memory-02",
+        "cross-aroyo-01",
+        "cross-v18-memory-practice"
+      ],
+      "thread_id": "book-0a05fa972401",
+      "status": "partial",
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "book-49e8bb5d0f08-01",
+      "width": 1700,
+      "height": 2030,
+      "title": "阿罗约记忆与被隐藏的旧杀戮 · 1/1",
+      "kind": "thread",
+      "node_ids": [
+        "v01-e03",
+        "v08-e04",
+        "v08-e05",
+        "v08-e07"
+      ],
+      "edge_ids": [
+        "v08-edge-04",
+        "v08-edge-06",
+        "cross-aroyo-01"
+      ],
+      "drawn_edge_ids": [
+        "v08-edge-04",
+        "v08-edge-06",
+        "cross-aroyo-01"
+      ],
+      "thread_id": "book-49e8bb5d0f08",
+      "status": "open",
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "book-c0fbac950b52-01",
+      "width": 1700,
+      "height": 2414,
+      "title": "沼泽古国与转生遗产 · 1/1",
+      "kind": "thread",
+      "node_ids": [
+        "v01-e10",
+        "v02-e01",
+        "v08-e09",
+        "v09-e01",
+        "v09-e04"
+      ],
+      "edge_ids": [
+        "v09-edge-01",
+        "cross-ruins-01",
+        "cross-altar-01",
+        "cross-altar-02"
+      ],
+      "drawn_edge_ids": [
+        "v09-edge-01",
+        "cross-ruins-01",
+        "cross-altar-01",
+        "cross-altar-02"
+      ],
+      "thread_id": "book-c0fbac950b52",
+      "status": "partial",
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "book-9baae09a0d12-01",
+      "width": 1700,
+      "height": 3192,
+      "title": "坦克战魂的控制边界 · 1/1",
+      "kind": "thread",
+      "node_ids": [
+        "v02-e04",
+        "v03-e03",
+        "v05-e01",
+        "v05-e09",
+        "v09-e07",
+        "v09-e09",
+        "v10-e02"
+      ],
+      "edge_ids": [
+        "v05-edge-07",
+        "v09-edge-06",
+        "v09-edge-07",
+        "cross-tank-01",
+        "cross-tank-02",
+        "cross-tank-03",
+        "cross-tank-04"
+      ],
+      "drawn_edge_ids": [
+        "v05-edge-07",
+        "v09-edge-06",
+        "v09-edge-07",
+        "cross-tank-01",
+        "cross-tank-02",
+        "cross-tank-03",
+        "cross-tank-04"
+      ],
+      "thread_id": "book-9baae09a0d12",
+      "status": "partial",
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "book-e90db68cb625-01",
+      "width": 1700,
+      "height": 3263,
+      "title": "克丽丝的传承与脱封机会 · 1/3",
+      "kind": "thread",
+      "node_ids": [
+        "v02-e06",
+        "v02-e08",
+        "v06-e04",
+        "v07-e03",
+        "v08-e08",
+        "v09-e08",
+        "v10-e08"
+      ],
+      "edge_ids": [
+        "v02-edge-06",
+        "v10-edge-07",
+        "cross-rosy-02",
+        "cross-rosy-03",
+        "cross-christine-01",
+        "cross-christine-02",
+        "cross-christine-03",
+        "cross-christine-04"
+      ],
+      "drawn_edge_ids": [
+        "v02-edge-06",
+        "cross-rosy-02",
+        "cross-rosy-03",
+        "cross-christine-01"
+      ],
+      "thread_id": "book-e90db68cb625",
+      "status": "partial",
+      "page": 1,
+      "total": 3
+    },
+    {
+      "file": "book-e90db68cb625-02",
+      "width": 1700,
+      "height": 3197,
+      "title": "克丽丝的传承与脱封机会 · 2/3",
+      "kind": "thread",
+      "node_ids": [
+        "v10-e09",
+        "v11-e03",
+        "v11-e04",
+        "v13-e02",
+        "v13-e03",
+        "v14-e08",
+        "v14-e09"
+      ],
+      "edge_ids": [
+        "v11-edge-03",
+        "v11-edge-04",
+        "v14-edge-08",
+        "cross-nana-03",
+        "cross-v16-two-inheritances"
+      ],
+      "drawn_edge_ids": [
+        "v11-edge-03",
+        "v11-edge-04",
+        "v14-edge-08",
+        "cross-nana-03"
+      ],
+      "thread_id": "book-e90db68cb625",
+      "status": "partial",
+      "page": 2,
+      "total": 3
+    },
+    {
+      "file": "book-e90db68cb625-03",
+      "width": 1700,
+      "height": 926,
+      "title": "克丽丝的传承与脱封机会 · 3/3",
+      "kind": "thread",
+      "node_ids": [
+        "v16-e04"
+      ],
+      "edge_ids": [],
+      "drawn_edge_ids": [],
+      "thread_id": "book-e90db68cb625",
+      "status": "partial",
+      "page": 3,
+      "total": 3
+    },
+    {
+      "file": "book-6e1451b9badd-01",
+      "width": 1700,
+      "height": 1682,
+      "title": "罗得的旧次逃生与新相遇 · 1/1",
+      "kind": "thread",
+      "node_ids": [
+        "v04-e04",
+        "v04-e08",
+        "v05-e05"
+      ],
+      "edge_ids": [
+        "v04-edge-05",
+        "cross-roder-01"
+      ],
+      "drawn_edge_ids": [
+        "v04-edge-05",
+        "cross-roder-01"
+      ],
+      "thread_id": "book-6e1451b9badd",
+      "status": "open",
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "book-09f441653222-01",
+      "width": 1700,
+      "height": 3191,
+      "title": "原萝茜的记忆与借力主体 · 1/3",
+      "kind": "thread",
+      "node_ids": [
+        "v05-e01",
+        "v05-e03",
+        "v06-e05",
+        "v06-e06",
+        "v06-e09",
+        "v07-e03",
+        "v07-e05"
+      ],
+      "edge_ids": [
+        "v05-edge-02",
+        "v06-edge-06",
+        "v07-edge-04",
+        "cross-angel-01",
+        "cross-angel-02",
+        "cross-angel-03",
+        "cross-rosy-01",
+        "cross-rosy-02"
+      ],
+      "drawn_edge_ids": [
+        "v05-edge-02",
+        "v06-edge-06",
+        "cross-angel-01",
+        "cross-angel-02",
+        "cross-angel-03",
+        "cross-rosy-01"
+      ],
+      "thread_id": "book-09f441653222",
+      "status": "partial",
+      "page": 1,
+      "total": 3
+    },
+    {
+      "file": "book-09f441653222-02",
+      "width": 1700,
+      "height": 2859,
+      "title": "原萝茜的记忆与借力主体 · 2/3",
+      "kind": "thread",
+      "node_ids": [
+        "v07-e06",
+        "v08-e08",
+        "v09-e08",
+        "v10-e08",
+        "v10-e09",
+        "v12-e02",
+        "v15-e01"
+      ],
+      "edge_ids": [
+        "cross-rosy-03",
+        "cross-christine-01",
+        "cross-rosy-memory-01"
+      ],
+      "drawn_edge_ids": [
+        "cross-rosy-03",
+        "cross-christine-01",
+        "cross-rosy-memory-01"
+      ],
+      "thread_id": "book-09f441653222",
+      "status": "partial",
+      "page": 2,
+      "total": 3
+    },
+    {
+      "file": "book-09f441653222-03",
+      "width": 1700,
+      "height": 926,
+      "title": "原萝茜的记忆与借力主体 · 3/3",
+      "kind": "thread",
+      "node_ids": [
+        "v15-e07"
+      ],
+      "edge_ids": [],
+      "drawn_edge_ids": [],
+      "thread_id": "book-09f441653222",
+      "status": "partial",
+      "page": 3,
+      "total": 3
+    },
+    {
+      "file": "book-2c92e5ad3024-01",
+      "width": 1700,
+      "height": 3015,
+      "title": "帝国来源、黑晶与回归 · 1/6",
+      "kind": "thread",
+      "node_ids": [
+        "v05-e08",
+        "v06-e05",
+        "v06-e06",
+        "v06-e07",
+        "v06-e08",
+        "v07-e05",
+        "v07-e06"
+      ],
+      "edge_ids": [
+        "v06-edge-05",
+        "v07-edge-04",
+        "cross-desert-01",
+        "cross-angel-03",
+        "cross-history-01",
+        "cross-armour-02"
+      ],
+      "drawn_edge_ids": [
+        "v06-edge-05",
+        "v07-edge-04",
+        "cross-desert-01",
+        "cross-angel-03",
+        "cross-history-01"
+      ],
+      "thread_id": "book-2c92e5ad3024",
+      "status": "partial",
+      "page": 1,
+      "total": 6
+    },
+    {
+      "file": "book-2c92e5ad3024-02",
+      "width": 1700,
+      "height": 3095,
+      "title": "帝国来源、黑晶与回归 · 2/6",
+      "kind": "thread",
+      "node_ids": [
+        "v07-e07",
+        "v08-e01",
+        "v10-e04",
+        "v11-e02",
+        "v11-e03",
+        "v11-e04",
+        "v12-e03"
+      ],
+      "edge_ids": [
+        "v11-edge-03",
+        "v11-edge-04",
+        "v12-edge-02",
+        "cross-armament-02",
+        "cross-empire-history-01"
+      ],
+      "drawn_edge_ids": [
+        "v11-edge-03",
+        "v11-edge-04",
+        "cross-armament-02"
+      ],
+      "thread_id": "book-2c92e5ad3024",
+      "status": "partial",
+      "page": 2,
+      "total": 6
+    },
+    {
+      "file": "book-2c92e5ad3024-03",
+      "width": 1700,
+      "height": 3417,
+      "title": "帝国来源、黑晶与回归 · 3/6",
+      "kind": "thread",
+      "node_ids": [
+        "v12-e04",
+        "v12-e05",
+        "v13-e04",
+        "v13-e05",
+        "v13-e07",
+        "v13-e08",
+        "v13-e09"
+      ],
+      "edge_ids": [
+        "v12-edge-03",
+        "v13-edge-03",
+        "v13-edge-05",
+        "v13-edge-06",
+        "v13-edge-07",
+        "v13-edge-08",
+        "cross-training-01",
+        "cross-mission-cost-01",
+        "cross-relics-01"
+      ],
+      "drawn_edge_ids": [
+        "v12-edge-03",
+        "v13-edge-03",
+        "v13-edge-05",
+        "v13-edge-06",
+        "v13-edge-07",
+        "v13-edge-08"
+      ],
+      "thread_id": "book-2c92e5ad3024",
+      "status": "partial",
+      "page": 3,
+      "total": 6
+    },
+    {
+      "file": "book-2c92e5ad3024-04",
+      "width": 1700,
+      "height": 3519,
+      "title": "帝国来源、黑晶与回归 · 4/6",
+      "kind": "thread",
+      "node_ids": [
+        "v14-e01",
+        "v14-e02",
+        "v14-e03",
+        "v15-e05",
+        "v15-e06",
+        "v15-e07",
+        "v15-e09"
+      ],
+      "edge_ids": [
+        "v14-edge-01",
+        "v14-edge-02",
+        "v15-edge-03",
+        "v15-edge-04",
+        "v15-edge-07",
+        "cross-legacy-use-01",
+        "cross-v16-redmoon",
+        "cross-v16-betrayal",
+        "cross-v17-history"
+      ],
+      "drawn_edge_ids": [
+        "v14-edge-01",
+        "v14-edge-02",
+        "v15-edge-03",
+        "v15-edge-04",
+        "v15-edge-07",
+        "cross-legacy-use-01"
+      ],
+      "thread_id": "book-2c92e5ad3024",
+      "status": "partial",
+      "page": 4,
+      "total": 6
+    },
+    {
+      "file": "book-2c92e5ad3024-05",
+      "width": 1700,
+      "height": 3341,
+      "title": "帝国来源、黑晶与回归 · 5/6",
+      "kind": "thread",
+      "node_ids": [
+        "v16-e01",
+        "v16-e03",
+        "v16-e05",
+        "v16-e07",
+        "v16-e08",
+        "v17-e02",
+        "v17-e05"
+      ],
+      "edge_ids": [
+        "v16-edge-03",
+        "v16-edge-07",
+        "v17-edge-07",
+        "cross-v17-chaos",
+        "cross-v18-source"
+      ],
+      "drawn_edge_ids": [
+        "v16-edge-03",
+        "v16-edge-07",
+        "cross-v17-chaos"
+      ],
+      "thread_id": "book-2c92e5ad3024",
+      "status": "partial",
+      "page": 5,
+      "total": 6
+    },
+    {
+      "file": "book-2c92e5ad3024-06",
+      "width": 1700,
+      "height": 2354,
+      "title": "帝国来源、黑晶与回归 · 6/6",
+      "kind": "thread",
+      "node_ids": [
+        "v17-e09",
+        "v18-e01",
+        "v18-e05",
+        "v18-e07",
+        "v18-e08"
+      ],
+      "edge_ids": [
+        "cross-v18-return"
+      ],
+      "drawn_edge_ids": [
+        "cross-v18-return"
+      ],
+      "thread_id": "book-2c92e5ad3024",
+      "status": "partial",
+      "page": 6,
+      "total": 6
+    },
+    {
+      "file": "book-02ba45413b1e-01",
+      "width": 1700,
+      "height": 3219,
+      "title": "光明制度与神祇主体 · 1/4",
+      "kind": "thread",
+      "node_ids": [
+        "v08-e01",
+        "v08-e06",
+        "v11-e05",
+        "v12-e07",
+        "v13-e03",
+        "v13-e06",
+        "v14-e03"
+      ],
+      "edge_ids": [
+        "v13-edge-04",
+        "cross-church-agency-02",
+        "cross-v15-church-agency",
+        "cross-church-agency-03",
+        "cross-church-agency-04",
+        "cross-v17-knight"
+      ],
+      "drawn_edge_ids": [
+        "v13-edge-04",
+        "cross-church-agency-02",
+        "cross-church-agency-03",
+        "cross-church-agency-04"
+      ],
+      "thread_id": "book-02ba45413b1e",
+      "status": "partial",
+      "page": 1,
+      "total": 4
+    },
+    {
+      "file": "book-02ba45413b1e-02",
+      "width": 1700,
+      "height": 2879,
+      "title": "光明制度与神祇主体 · 2/4",
+      "kind": "thread",
+      "node_ids": [
+        "v14-e06",
+        "v14-e07",
+        "v14-e09",
+        "v15-e01",
+        "v15-e05",
+        "v15-e08",
+        "v15-e09"
+      ],
+      "edge_ids": [
+        "v14-edge-05",
+        "cross-v16-angel-agency"
+      ],
+      "drawn_edge_ids": [
+        "v14-edge-05"
+      ],
+      "thread_id": "book-02ba45413b1e",
+      "status": "partial",
+      "page": 2,
+      "total": 4
+    },
+    {
+      "file": "book-02ba45413b1e-03",
+      "width": 1700,
+      "height": 3451,
+      "title": "光明制度与神祇主体 · 3/4",
+      "kind": "thread",
+      "node_ids": [
+        "v16-e01",
+        "v16-e02",
+        "v16-e04",
+        "v16-e09",
+        "v17-e01",
+        "v17-e04",
+        "v17-e05"
+      ],
+      "edge_ids": [
+        "v16-edge-01",
+        "v17-edge-01",
+        "v17-edge-04",
+        "v17-edge-06",
+        "v17-edge-07",
+        "cross-v17-false-flag",
+        "cross-v17-divine-control"
+      ],
+      "drawn_edge_ids": [
+        "v16-edge-01",
+        "v17-edge-01",
+        "v17-edge-04",
+        "cross-v17-false-flag"
+      ],
+      "thread_id": "book-02ba45413b1e",
+      "status": "partial",
+      "page": 3,
+      "total": 4
+    },
+    {
+      "file": "book-02ba45413b1e-04",
+      "width": 1700,
+      "height": 3034,
+      "title": "光明制度与神祇主体 · 4/4",
+      "kind": "thread",
+      "node_ids": [
+        "v17-e07",
+        "v17-e09",
+        "v18-e01",
+        "v18-e05",
+        "v18-e07",
+        "v18-e08",
+        "v18-e09"
+      ],
+      "edge_ids": [
+        "v17-edge-10",
+        "cross-v18-divinity"
+      ],
+      "drawn_edge_ids": [
+        "v17-edge-10",
+        "cross-v18-divinity"
+      ],
+      "thread_id": "book-02ba45413b1e",
+      "status": "partial",
+      "page": 4,
+      "total": 4
+    },
+    {
+      "file": "book-c8d5d9e2b50a-01",
+      "width": 1700,
+      "height": 926,
+      "title": "老罗格凝魂与临终祈愿 · 1/1",
+      "kind": "thread",
+      "node_ids": [
+        "v09-e05"
+      ],
+      "edge_ids": [],
+      "drawn_edge_ids": [],
+      "thread_id": "book-c8d5d9e2b50a",
+      "status": "open",
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "book-be62d277e700-01",
+      "width": 1700,
+      "height": 3000,
+      "title": "噬魂权限与死息傀儡 · 1/1",
+      "kind": "thread",
+      "node_ids": [
+        "v09-e06",
+        "v10-e04",
+        "v10-e05",
+        "v11-e02",
+        "v16-e01",
+        "v18-e05"
+      ],
+      "edge_ids": [
+        "v10-edge-03",
+        "v10-edge-04",
+        "cross-knight-03",
+        "cross-armament-02",
+        "cross-v16-puppet",
+        "cross-v18-gun"
+      ],
+      "drawn_edge_ids": [
+        "v10-edge-03",
+        "v10-edge-04",
+        "cross-knight-03",
+        "cross-armament-02",
+        "cross-v16-puppet",
+        "cross-v18-gun"
+      ],
+      "thread_id": "book-be62d277e700",
+      "status": "partial",
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "book-4f19b0c4054c-01",
+      "width": 1700,
+      "height": 3167,
+      "title": "自然神保教与政治杀人 · 1/2",
+      "kind": "thread",
+      "node_ids": [
+        "v10-e05",
+        "v13-e01",
+        "v13-e02",
+        "v14-e05",
+        "v14-e09",
+        "v15-e04",
+        "v15-e07"
+      ],
+      "edge_ids": [
+        "v13-edge-01",
+        "cross-forest-01",
+        "cross-faith-01",
+        "cross-faith-02",
+        "cross-v16-nature-cost"
+      ],
+      "drawn_edge_ids": [
+        "v13-edge-01",
+        "cross-forest-01",
+        "cross-faith-01",
+        "cross-faith-02"
+      ],
+      "thread_id": "book-4f19b0c4054c",
+      "status": "partial",
+      "page": 1,
+      "total": 2
+    },
+    {
+      "file": "book-4f19b0c4054c-02",
+      "width": 1700,
+      "height": 2204,
+      "title": "自然神保教与政治杀人 · 2/2",
+      "kind": "thread",
+      "node_ids": [
+        "v16-e04",
+        "v16-e06",
+        "v17-e09",
+        "v18-e09"
+      ],
+      "edge_ids": [
+        "v16-edge-05",
+        "cross-v17-divine-control",
+        "cross-v18-nana"
+      ],
+      "drawn_edge_ids": [
+        "v16-edge-05",
+        "cross-v17-divine-control",
+        "cross-v18-nana"
+      ],
+      "thread_id": "book-4f19b0c4054c",
+      "status": "partial",
+      "page": 2,
+      "total": 2
+    },
+    {
+      "file": "book-442e53d9c11d-01",
+      "width": 1700,
+      "height": 2790,
+      "title": "尼鲁达双灵格与神格 · 1/1",
+      "kind": "thread",
+      "node_ids": [
+        "v15-e07",
+        "v17-e05",
+        "v17-e09",
+        "v18-e01",
+        "v18-e05",
+        "v18-e08"
+      ],
+      "edge_ids": [
+        "v17-edge-07",
+        "cross-v17-history",
+        "cross-v18-divinity"
+      ],
+      "drawn_edge_ids": [
+        "v17-edge-07",
+        "cross-v17-history",
+        "cross-v18-divinity"
+      ],
+      "thread_id": "book-442e53d9c11d",
+      "status": "partial",
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "book-155fd141a183-01",
+      "width": 1700,
+      "height": 3429,
+      "title": "净世假旗与恐惧信仰 · 1/1",
+      "kind": "thread",
+      "node_ids": [
+        "v16-e09",
+        "v17-e01",
+        "v17-e04",
+        "v17-e05",
+        "v17-e07",
+        "v17-e08",
+        "v17-e09"
+      ],
+      "edge_ids": [
+        "v17-edge-01",
+        "v17-edge-04",
+        "v17-edge-06",
+        "v17-edge-09",
+        "v17-edge-10",
+        "cross-v17-false-flag"
+      ],
+      "drawn_edge_ids": [
+        "v17-edge-01",
+        "v17-edge-04",
+        "v17-edge-06",
+        "v17-edge-09",
+        "v17-edge-10",
+        "cross-v17-false-flag"
+      ],
+      "thread_id": "book-155fd141a183",
+      "status": "resolved",
+      "page": 1,
+      "total": 1
+    },
+    {
+      "file": "book-3ec69c740e20-01",
+      "width": 1700,
+      "height": 2138,
+      "title": "独立本源与超脱规则 · 1/1",
+      "kind": "thread",
+      "node_ids": [
+        "v17-e05",
+        "v18-e07",
+        "v18-e08",
+        "v18-e09"
+      ],
+      "edge_ids": [
+        "v18-edge-07",
+        "v18-edge-08",
+        "cross-v18-source"
+      ],
+      "drawn_edge_ids": [
+        "v18-edge-07",
+        "v18-edge-08",
+        "cross-v18-source"
+      ],
+      "thread_id": "book-3ec69c740e20",
+      "status": "partial",
+      "page": 1,
+      "total": 1
+    }
+  ]
+}
