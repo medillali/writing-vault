@@ -1,6 +1,6 @@
 # 罗得宾士：分集人物研究
 
-ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 9 · 范围: source-analysis
+ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 10 · 范围: source-analysis
 
 已转生不死者的高级法师与音乐家，带转生乐团到前线试验。六位乐师死后，他用安魂曲保护军队并指挥万世雷霆乐章，杀约十五万魔物；后记仍存活，在市场以琴驯动毒角蛇。
 
@@ -18,7 +18,7 @@ ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 9 · 范围: source-analys
     ],
     "arc_change": "从被先知轻视的边缘人物成为战局关键专才，终局又回到日常演奏。",
     "conflict": "灵魂弱、缺乏机动和防护，首轮精神攻击险致团灭；威力依协作与长时间蓄势。",
-    "coverage_note": "九维深化已覆盖第1至18集；变化记录以各集证据为准。",
+    "coverage_note": "本书18集已完整阅读并完成累计人物审计；本卡最新引用证据位于第18集，未再交代的结局保留未知。分集历史记录当时信息，不代表最终状态。",
     "goal": "验证音乐魔法体系、保护乐团与己方，并保持艺术实践。",
     "knowledge_limits": "不能把音乐大杀伤等同道德无瑕；他未显示知道死亡供养本源。亡妻、招魂旧线本集无新答案。",
     "name": "罗得宾士",
@@ -457,7 +457,7 @@ ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 9 · 范围: source-analys
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/罗得宾士",
   "review_status": "draft",
-  "revision": 9,
+  "revision": 10,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -473,7 +473,7 @@ ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 9 · 范围: source-analys
     "第18集"
   ],
   "title": "罗得宾士：分集人物研究",
-  "updated_at": "2026-10-22T02:09:16.629286+00:00",
+  "updated_at": "2026-10-22T02:24:08.490567+00:00",
   "user_notes": ""
 }
 

@@ -1,6 +1,6 @@
 # 隆克多：分集人物研究
 
-ID: `chr-b849a4aef8ed4c03a9baf8ffd28a1d06` · 版本: 2 · 范围: source-analysis
+ID: `chr-b849a4aef8ed4c03a9baf8ffd28a1d06` · 版本: 3 · 范围: source-analysis
 
 第13集以魂分解保命后至多侯爵级，未见本集明确恢复原皇帝实力的说明。现追随黑龙进入遗迹与归途，听使命而动摇存在意义；君王经其灵魂中的联系定位黑龙。
 
@@ -16,7 +16,7 @@ ID: `chr-b849a4aef8ed4c03a9baf8ffd28a1d06` · 版本: 2 · 范围: source-analys
     ],
     "arc_change": "从死亡世界领主成为归途队伍一员，最后随队返回物质位面。",
     "conflict": "与黑龙的烙印使其成为跨空间传讯入口，也受君王威压。",
-    "coverage_note": "九维深化已覆盖第1至14集；变化记录以各集证据为准。",
+    "coverage_note": "本书18集已完整阅读并完成累计人物审计；本卡最新引用证据位于第14集，未再交代的结局保留未知。分集历史记录当时信息，不代表最终状态。",
     "goal": "随黑龙行动并面对自身存在目的。",
     "knowledge_limits": "他能被君王读取联系不等于可自行把黑龙召来；人数分类争议不在其卡强行消解。",
     "name": "隆克多",
@@ -179,7 +179,7 @@ ID: `chr-b849a4aef8ed4c03a9baf8ffd28a1d06` · 版本: 2 · 范围: source-analys
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/隆克多",
   "review_status": "draft",
-  "revision": 2,
+  "revision": 3,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -188,7 +188,7 @@ ID: `chr-b849a4aef8ed4c03a9baf8ffd28a1d06` · 版本: 2 · 范围: source-analys
     "第14集"
   ],
   "title": "隆克多：分集人物研究",
-  "updated_at": "2026-10-22T01:29:19.689943+00:00",
+  "updated_at": "2026-10-22T02:24:14.326635+00:00",
   "user_notes": ""
 }
 

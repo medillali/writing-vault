@@ -1,6 +1,6 @@
 # 龙焰：分集人物研究
 
-ID: `chr-bd5dc9b525ec42fe9acf4e885a0aa81a` · 版本: 1 · 范围: source-analysis
+ID: `chr-bd5dc9b525ec42fe9acf4e885a0aa81a` · 版本: 2 · 范围: source-analysis
 
 黑龙长期乘骑的不死战马，伏击中灵魂之火碎灭。
 
@@ -14,7 +14,7 @@ ID: `chr-bd5dc9b525ec42fe9acf4e885a0aa81a` · 版本: 1 · 范围: source-analys
     "aliases": [],
     "arc_change": "与二黑等全体本次随行不死战马一起死亡。",
     "conflict": "骨体不及黄金骷髅，密集落石无闪避空间。",
-    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
+    "coverage_note": "本书18集已完整阅读并完成累计人物审计；本卡最新引用证据位于第10集，未再交代的结局保留未知。分集历史记录当时信息，不代表最终状态。",
     "goal": "作为坐骑随队行动。",
     "knowledge_limits": "后来召来的不死战马未证明是它复活；无独立人格证据。",
     "name": "龙焰",
@@ -56,7 +56,7 @@ ID: `chr-bd5dc9b525ec42fe9acf4e885a0aa81a` · 版本: 1 · 范围: source-analys
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/龙焰",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -64,7 +64,7 @@ ID: `chr-bd5dc9b525ec42fe9acf4e885a0aa81a` · 版本: 1 · 范围: source-analys
     "第10集"
   ],
   "title": "龙焰：分集人物研究",
-  "updated_at": "2026-10-21T21:18:22.524090+00:00",
+  "updated_at": "2026-10-22T02:24:14.390635+00:00",
   "user_notes": ""
 }
 

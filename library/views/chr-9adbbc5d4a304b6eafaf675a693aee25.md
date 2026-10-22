@@ -1,6 +1,6 @@
 # 巴得勒：分集人物研究
 
-ID: `chr-9adbbc5d4a304b6eafaf675a693aee25` · 版本: 1 · 范围: source-analysis
+ID: `chr-9adbbc5d4a304b6eafaf675a693aee25` · 版本: 2 · 范围: source-analysis
 
 巨树统治下幸存矮人中年长者，三年前95岁、现98岁。
 
@@ -14,7 +14,7 @@ ID: `chr-9adbbc5d4a304b6eafaf675a693aee25` · 版本: 1 · 范围: source-analys
     "aliases": [],
     "arc_change": "救回托雷并受命不报仇，放弃反抗；身体成年速度与年龄脱节。",
     "conflict": "曾知对方以强力控制族人，如今因能力恩赐转为信奉。",
-    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
+    "coverage_note": "本书18集已完整阅读并完成累计人物审计；本卡最新引用证据位于第10集，未再交代的结局保留未知。分集历史记录当时信息，不代表最终状态。",
     "goal": "救兄弟与保同胞，同时服从神使。",
     "knowledge_limits": "不知巨树真实身份；对生命加速长期代价缺少知识。",
     "name": "巴得勒",
@@ -69,7 +69,7 @@ ID: `chr-9adbbc5d4a304b6eafaf675a693aee25` · 版本: 1 · 范围: source-analys
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/巴得勒",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -77,7 +77,7 @@ ID: `chr-9adbbc5d4a304b6eafaf675a693aee25` · 版本: 1 · 范围: source-analys
     "第10集"
   ],
   "title": "巴得勒：分集人物研究",
-  "updated_at": "2026-10-21T21:18:23.476879+00:00",
+  "updated_at": "2026-10-22T02:24:13.356100+00:00",
   "user_notes": ""
 }
 

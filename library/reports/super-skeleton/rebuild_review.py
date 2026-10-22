@@ -490,6 +490,9 @@ def build_html(vault: Path, output: Path) -> str:
     ledger_path = report_dir / "question-ledger.json"
     ledger = read_json(ledger_path) if ledger_path.exists() else None
     ledger_html = render_question_ledger(ledger, chapters)
+    complete_review = len(complete) == VOLUME_COUNT and synthesis is not None and ledger is not None
+    introduction = ('18集研究、全书综合与疑点终审已整理完成。您可以先读综合报告，再按问题、人物或场景查看证据；收藏与个人评价由您决定。'
+                    if complete_review else '页面呈现已入库的研究草稿，未入库报告与尚未形成的全书综合保留为空。研究审查通过与您的收藏、审阅决定分别记录。')
     ledger_nav = '<a href="#question-ledger">疑点回收</a>' if ledger else ''
     asset_payload = safe_script_json(assets)
     chapter_payload = safe_script_json({key: value.get("title", key) for key, value in chapters.items()})
@@ -513,7 +516,7 @@ def build_html(vault: Path, output: Path) -> str:
 <header>
 <div class="eyebrow">本地资料库 · 全书蒸馏审查</div>
 <h1>《超级骷髅兵》全书审查</h1>
-<p class="lead">{esc(source_title)}。页面呈现已入库的研究草稿，未入库报告与尚未形成的全书综合保留为空。研究审查通过与您的收藏、审阅决定分别记录。</p>
+<p class="lead">{esc(introduction)}</p>
 <div class="metrics"><div class="metric"><b>{len(complete)} / {VOLUME_COUNT}</b><span>已完成集数</span></div><div class="metric"><b>{narrative_total}</b><span>已读正文章节</span></div><div class="metric"><b>{non_narrative_total}</b><span>标题／章前索引段</span></div><div class="metric"><b>{len(assets)}</b><span>本来源资产</span></div></div>
 <nav><a href="#progress">阅读进度</a><a href="#synthesis">全书综合</a><a href="#dimensions">逐集九维</a>{ledger_nav}<a href="#assets">资料卡</a><a href="#source-material">来源材料</a></nav>
 <a class="plot-link" id="plot-link" href="{esc(plot_href)}">打开主线／暗线图 ↗</a>
@@ -528,7 +531,7 @@ def build_html(vault: Path, output: Path) -> str:
 <div class="asset-status" id="asset-status" aria-live="polite"></div><div class="asset-grid" id="asset-cards"></div></section>
 <section class="source-material" id="source-material"><div class="section-kicker">核对入口</div><h2>研究主档与证据索引</h2><p class="lead">来源主档记录版本、章节及行号；逐集研究JSON可在各集末尾展开。小说原文单独保存在本机，不包含在审查页中。</p><div class="source-grid"><details><summary>展开来源主档</summary><pre>{source_json}</pre></details></div></section>
 </main>
-<footer>离线静态审查页 · 重新运行生成脚本可纳入后续 volNN.json 与 book-synthesis.json。</footer>
+<footer>离线审查副本 · 证据行号对应本机原书的固定版本。研究结论与您的创作偏好分别保存。</footer>
 </div>
 <script type="application/json" id="asset-data">{asset_payload}</script>
 <script type="application/json" id="chapter-data">{chapter_payload}</script>

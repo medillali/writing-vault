@@ -1,6 +1,6 @@
 # 安德鲁：分集人物研究
 
-ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 6 · 范围: source-analysis
+ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 7 · 范围: source-analysis
 
 经不死献祭醒来后保留自身记忆与对教皇的忠诚，以安德鲁西斯之名伪装黑龙属下，拥有军团感知与否决权；被黑龙吞魂取忆，随后明确灵魂消散。
 
@@ -16,7 +16,7 @@ ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 6 · 范围: source-analys
     ],
     "arc_change": "从红衣主教转生为不死统帅，再更新为被吞魂消亡；不能停留在仅转生或受俘阶段。",
     "conflict": "宗教身份与不死身体冲突，假旗骗局随黑龙归来暴露。",
-    "coverage_note": "九维深化已覆盖第1至17集；变化记录以各集证据为准。",
+    "coverage_note": "本书18集已完整阅读并完成累计人物审计；本卡最新引用证据位于第17集，未再交代的结局保留未知。分集历史记录当时信息，不代表最终状态。",
     "goal": "执行教皇命令，在不知全盘目的的棋子处境中生存并理解变化。",
     "knowledge_limits": "安德鲁西斯是同人伪装名；不死祭司是临时身份称号，不作合并别名；死前所知仍不等尼鲁达完整历史。",
     "name": "安德鲁",
@@ -249,7 +249,7 @@ ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 6 · 范围: source-analys
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/安德鲁",
   "review_status": "draft",
-  "revision": 6,
+  "revision": 7,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -262,7 +262,7 @@ ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 6 · 范围: source-analys
     "第17集"
   ],
   "title": "安德鲁：分集人物研究",
-  "updated_at": "2026-10-22T01:51:51.294858+00:00",
+  "updated_at": "2026-10-22T02:24:12.373003+00:00",
   "user_notes": ""
 }
 

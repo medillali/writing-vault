@@ -1,6 +1,6 @@
 # 黑七：分集人物研究
 
-ID: `chr-775349c3c9654daaae30acf69aadff21` · 版本: 4 · 范围: source-analysis
+ID: `chr-775349c3c9654daaae30acf69aadff21` · 版本: 5 · 范围: source-analysis
 
 继续参战的黄金骷髅，伏击中再受骨伤。
 
@@ -14,7 +14,7 @@ ID: `chr-775349c3c9654daaae30acf69aadff21` · 版本: 4 · 范围: source-analys
     "aliases": [],
     "arc_change": "以肉身护同伴后骨损，后砍伤矮人见其迅速愈合。",
     "conflict": "大腿被巨石砸扁，之后参与矮人战但恢复过程未交代。",
-    "coverage_note": "九维深化已覆盖第1至10集；变化记录以各集证据为准。",
+    "coverage_note": "本书18集已完整阅读并完成累计人物审计；本卡最新引用证据位于第10集，未再交代的结局保留未知。分集历史记录当时信息，不代表最终状态。",
     "goal": "守护黑龙与同伴。",
     "knowledge_limits": "本集参战不证明腿骨已完整修复，旧灵魂伤也未给详细状态。",
     "name": "黑七",
@@ -168,7 +168,7 @@ ID: `chr-775349c3c9654daaae30acf69aadff21` · 版本: 4 · 范围: source-analys
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/黑七",
   "review_status": "draft",
-  "revision": 4,
+  "revision": 5,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -179,7 +179,7 @@ ID: `chr-775349c3c9654daaae30acf69aadff21` · 版本: 4 · 范围: source-analys
     "第10集"
   ],
   "title": "黑七：分集人物研究",
-  "updated_at": "2026-10-21T21:18:22.034920+00:00",
+  "updated_at": "2026-10-22T02:24:12.785660+00:00",
   "user_notes": ""
 }
 
