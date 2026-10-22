@@ -5,21 +5,14 @@
     "aliases": [
       "夏维安·娜拉"
     ],
-    "arc_change": "冥想声势已可比普通中级暗黑法师，接到克丽丝郑重求助。",
-    "conflict": "不能在暗黑沼泽生活，交流减少与空闲促成更多修习；未获知姐姐完整困境。",
-    "coverage_note": "九维深化已覆盖第1至11集；变化记录以各集证据为准。",
-    "goal": "学习法术，并愿帮助克丽丝姐姐。",
-    "knowledge_limits": [
-      "修炼声势不等于全部实战能力达到中级",
-      "天生元素使类型得到叙述确认，但身世起因仍未解释",
-      "帮助内容尚未公开"
-    ],
+    "arc_change": "洛特带她见黑龙后留自然森林，萝茜答应照顾。",
+    "conflict": "重大未来由强者协商，受益与被用于绑定关系并存。",
+    "coverage_note": "九维深化已覆盖第1至13集；变化记录以各集证据为准。",
+    "goal": "继续与信任者相处；本集未展示她对传承的充分讨论。",
+    "knowledge_limits": "不能写已成新神或已继承全部力量；她听不到自然神对萝茜的私下传话。",
     "name": "娜娜",
-    "relationships": [
-      "由洛特照护",
-      "受克丽丝指导并通过沉渊木联系"
-    ],
-    "summary": "留在哀嚎森林修习、对暗黑元素有天然亲和力的活人孩子。",
+    "relationships": "黑龙将其看作孩子；双神拟共享传承，萝茜为保护者。",
+    "summary": "仍是活人小女孩，被选为自然与冥月共同传承者，仪式需要时间。",
     "volume_history": [
       {
         "aliases": [],
@@ -203,6 +196,41 @@
         ],
         "summary": "留在哀嚎森林修习、对暗黑元素有天然亲和力的活人孩子。",
         "volume": 11
+      },
+      {
+        "aliases": [
+          "夏维安·娜拉"
+        ],
+        "arc_change": "洛特带她见黑龙后留自然森林，萝茜答应照顾。",
+        "conflict": "重大未来由强者协商，受益与被用于绑定关系并存。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0133",
+            "end_line": 16728,
+            "start_line": 16716
+          },
+          {
+            "chapter_id": "ch-0133",
+            "end_line": 16764,
+            "start_line": 16750
+          },
+          {
+            "chapter_id": "ch-0133",
+            "end_line": 16790,
+            "start_line": 16773
+          },
+          {
+            "chapter_id": "ch-0133",
+            "end_line": 16813,
+            "start_line": 16808
+          }
+        ],
+        "goal": "继续与信任者相处；本集未展示她对传承的充分讨论。",
+        "knowledge_limits": "不能写已成新神或已继承全部力量；她听不到自然神对萝茜的私下传话。",
+        "name": "娜娜",
+        "relationships": "黑龙将其看作孩子；双神拟共享传承，萝茜为保护者。",
+        "summary": "仍是活人小女孩，被选为自然与冥月共同传承者，仪式需要时间。",
+        "volume": 13
       }
     ]
   },
@@ -304,12 +332,44 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 14321
+    },
+    {
+      "chapter_id": "ch-0133",
+      "claim_kind": "inference",
+      "end_line": 16728,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 16716
+    },
+    {
+      "chapter_id": "ch-0133",
+      "claim_kind": "inference",
+      "end_line": 16764,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 16750
+    },
+    {
+      "chapter_id": "ch-0133",
+      "claim_kind": "inference",
+      "end_line": 16790,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 16773
+    },
+    {
+      "chapter_id": "ch-0133",
+      "claim_kind": "inference",
+      "end_line": 16813,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 16808
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/娜娜",
   "review_status": "draft",
-  "revision": 7,
+  "revision": 8,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -320,9 +380,10 @@
     "第06集",
     "第07集",
     "第08集",
-    "第11集"
+    "第11集",
+    "第13集"
   ],
   "title": "娜娜：分集人物研究",
-  "updated_at": "2026-10-21T21:22:58.700581+00:00",
+  "updated_at": "2026-10-21T21:39:45.600345+00:00",
   "user_notes": ""
 }

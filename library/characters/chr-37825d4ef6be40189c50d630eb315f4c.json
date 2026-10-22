@@ -6,20 +6,14 @@
       "德里斯伐克·阿古力特",
       "阿古力托"
     ],
-    "arc_change": "被一拳穿肩，借护盾和心灵震慑免受更重损；事后提供强度判断，但伤势修复没有实际写出。",
-    "conflict": "晶体骨灵魂强度、反击行为超出预判。",
-    "coverage_note": "九维深化已覆盖第1至12集；变化记录以各集证据为准。",
-    "goal": "保证队伍安全并理解新部属的能力。",
-    "knowledge_limits": [
-      "换骨可修只是可能性，不等本集已修好",
-      "对白银/领主级强度属现场估计"
-    ],
+    "arc_change": "安排巡游者监控，召回外地法师并管理里斯镇，随万骑与1500法师赴沙里克。",
+    "conflict": "活人无法进入沼泽，身份保密与混合军队协作须兼顾。",
+    "coverage_note": "九维深化已覆盖第1至13集；变化记录以各集证据为准。",
+    "goal": "完成援助疾风及维持警戒、补充组织力量。",
+    "knowledge_limits": "本集未展示沙里克战果；不能把所有回流氓族都视为已转生。",
     "name": "阿古力特",
-    "relationships": [
-      "为撤退龙人安排监视",
-      "受黑龙制止晶体攻击而获保护"
-    ],
-    "summary": "参与稳妥退战与晶体骨观察，却因测试触发反击受伤。",
+    "relationships": "与斯文分担组织，黑大等负责灵魂军控。",
+    "summary": "以氓族网络组织活法师与不死军队的领地管理者。",
     "volume_history": [
       {
         "aliases": [
@@ -183,6 +177,36 @@
         ],
         "summary": "参与稳妥退战与晶体骨观察，却因测试触发反击受伤。",
         "volume": 12
+      },
+      {
+        "aliases": [
+          "德里斯伐克·阿古力特"
+        ],
+        "arc_change": "安排巡游者监控，召回外地法师并管理里斯镇，随万骑与1500法师赴沙里克。",
+        "conflict": "活人无法进入沼泽，身份保密与混合军队协作须兼顾。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0130",
+            "end_line": 16405,
+            "start_line": 16401
+          },
+          {
+            "chapter_id": "ch-0131",
+            "end_line": 16559,
+            "start_line": 16538
+          },
+          {
+            "chapter_id": "ch-0131",
+            "end_line": 16565,
+            "start_line": 16563
+          }
+        ],
+        "goal": "完成援助疾风及维持警戒、补充组织力量。",
+        "knowledge_limits": "本集未展示沙里克战果；不能把所有回流氓族都视为已转生。",
+        "name": "阿古力特",
+        "relationships": "与斯文分担组织，黑大等负责灵魂军控。",
+        "summary": "以氓族网络组织活法师与不死军队的领地管理者。",
+        "volume": 13
       }
     ]
   },
@@ -316,12 +340,36 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 16358
+    },
+    {
+      "chapter_id": "ch-0130",
+      "claim_kind": "inference",
+      "end_line": 16405,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 16401
+    },
+    {
+      "chapter_id": "ch-0131",
+      "claim_kind": "inference",
+      "end_line": 16559,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 16538
+    },
+    {
+      "chapter_id": "ch-0131",
+      "claim_kind": "inference",
+      "end_line": 16565,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 16563
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/阿古力特",
   "review_status": "draft",
-  "revision": 5,
+  "revision": 6,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -330,9 +378,10 @@
     "第09集",
     "第10集",
     "第11集",
-    "第12集"
+    "第12集",
+    "第13集"
   ],
   "title": "阿古力特：分集人物研究",
-  "updated_at": "2026-10-21T21:36:44.688481+00:00",
+  "updated_at": "2026-10-21T21:39:46.868792+00:00",
   "user_notes": ""
 }
