@@ -16,7 +16,7 @@
 
 | 想看什么 | 直接阅读 |
 |---|---|
-| 在一张可缩放大图中看清全书 | [全书时间树](reading/plot/whole-book.md) |
+| 在一张可缩放大图中看清全书 | [全书分枝交汇图](reading/plot/whole-book.md) |
 | 主线树与暗线的图片、未回收标记 | [49张PNG/SVG图片入口](reading/plot/images.md) |
 | 全书的九维综合与人物弧 | [综合报告](book-synthesis.md) |
 | 人物目标、关系、变化与终点状态 | [104张人物卡](reading/characters.md) |

@@ -1,23 +1,32 @@
 {
   "images": [
     "tree.png",
-    "tree-preview.png"
+    "tree-preview.png",
+    "tree-junction-preview.png"
   ],
-  "svg_text_lines": 510,
+  "svg_text_lines": 785,
   "text_overflow": 0,
-  "event_cards": 77,
+  "node_overlap": 0,
+  "edges_through_unrelated_nodes": 0,
+  "event_cards": 163,
+  "edges": 265,
   "hidden_threads": 15,
+  "thread_choices": 46,
   "browser_checks": [
     "standalone SVG download",
     "event click and evidence",
+    "neighbor navigation",
     "search",
-    "thread highlighting and unresolved state",
+    "thread highlighting",
+    "edge keyboard details",
+    "shared junction node identity",
+    "mainline focus",
+    "unresolved status focus",
+    "junction focus",
+    "volume focus",
     "clear highlighting",
-    "bridge details",
     "zoom",
-    "pan",
-    "volume jump",
-    "section jump"
+    "pan"
   ],
   "external_requests": 0,
   "javascript_errors": 0

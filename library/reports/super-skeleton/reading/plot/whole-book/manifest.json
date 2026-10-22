@@ -1,701 +1,3650 @@
 {
-  "width": 9740,
-  "height": 5558,
-  "selection": "关键脉络版",
+  "version": 2,
+  "width": 6659,
+  "height": 15809,
+  "selection": "全事件分枝交汇版",
   "source_id": "src-9ff09c395734410b856f77c77a652834",
   "graph_sha256": "435dcaea56741a373b30283b0ce5fdf8937ff08197703aadd31f18e617bffc17",
   "events": [
     "v01-e01",
+    "v01-e02",
     "v01-e03",
+    "v01-e04",
     "v01-e05",
+    "v01-e06",
+    "v01-e07",
+    "v01-e08",
     "v01-e10",
+    "v01-e09",
     "v02-e01",
+    "v02-e02",
+    "v02-e03",
     "v02-e04",
+    "v02-e05",
     "v02-e06",
+    "v02-e07",
     "v02-e08",
     "v02-e09",
+    "v03-e01",
+    "v03-e02",
     "v03-e03",
     "v03-e04",
     "v03-e05",
+    "v03-e06",
+    "v03-e07",
     "v03-e08",
+    "v03-e09",
+    "v04-e01",
+    "v04-e02",
     "v04-e03",
     "v04-e04",
+    "v04-e05",
     "v04-e06",
+    "v04-e07",
     "v04-e08",
     "v04-e09",
     "v05-e01",
+    "v05-e09",
     "v05-e02",
+    "v05-e03",
     "v05-e04",
+    "v05-e05",
+    "v05-e06",
+    "v05-e07",
     "v05-e08",
     "v06-e01",
+    "v06-e02",
+    "v06-e03",
+    "v06-e04",
     "v06-e05",
     "v06-e06",
+    "v06-e07",
+    "v06-e08",
     "v06-e09",
+    "v07-e01",
     "v07-e02",
+    "v07-e03",
+    "v07-e04",
     "v07-e05",
     "v07-e06",
     "v07-e07",
+    "v07-e08",
+    "v07-e09",
+    "v08-e01",
     "v08-e02",
+    "v08-e03",
+    "v08-e04",
     "v08-e05",
+    "v08-e06",
     "v08-e07",
+    "v08-e08",
     "v08-e09",
     "v09-e01",
+    "v09-e02",
     "v09-e03",
+    "v09-e04",
     "v09-e05",
+    "v09-e06",
     "v09-e07",
     "v09-e08",
+    "v09-e09",
+    "v10-e01",
+    "v10-e02",
+    "v10-e03",
     "v10-e04",
+    "v10-e05",
     "v10-e06",
+    "v10-e07",
     "v10-e08",
     "v10-e09",
     "v11-e01",
     "v11-e02",
     "v11-e03",
+    "v11-e04",
+    "v11-e05",
+    "v11-e06",
+    "v11-e07",
+    "v11-e08",
     "v11-e09",
     "v12-e01",
+    "v12-e02",
     "v12-e03",
+    "v12-e04",
     "v12-e05",
     "v12-e06",
+    "v12-e07",
+    "v12-e08",
+    "v12-e09",
+    "v13-e01",
     "v13-e02",
     "v13-e03",
+    "v13-e04",
+    "v13-e05",
     "v13-e06",
+    "v13-e07",
     "v13-e08",
+    "v13-e09",
+    "v14-e01",
     "v14-e02",
+    "v14-e03",
+    "v14-e04",
+    "v14-e05",
     "v14-e06",
+    "v14-e07",
     "v14-e08",
     "v14-e09",
     "v15-e01",
+    "v15-e02",
+    "v15-e03",
     "v15-e04",
+    "v15-e05",
     "v15-e06",
+    "v15-e07",
+    "v15-e08",
     "v15-e09",
+    "v16-e01",
+    "v16-e02",
     "v16-e03",
+    "v16-e04",
     "v16-e05",
+    "v16-e06",
     "v16-e07",
     "v16-e08",
+    "v16-e09",
+    "v17-e01",
     "v17-e02",
+    "v17-e03",
     "v17-e04",
     "v17-e05",
+    "v17-e06",
     "v17-e07",
+    "v17-e08",
     "v17-e09",
     "v18-e01",
+    "v18-e02",
+    "v18-e03",
+    "v18-e04",
+    "v18-e05",
     "v18-e06",
     "v18-e07",
     "v18-e08",
     "v18-e09"
   ],
+  "edges": [
+    "v01-edge-01",
+    "v01-edge-02",
+    "v01-edge-03",
+    "v01-edge-04",
+    "v01-edge-05",
+    "v01-edge-06",
+    "v01-edge-07",
+    "v01-edge-08",
+    "v01-edge-09",
+    "v02-edge-01",
+    "v02-edge-02",
+    "v02-edge-03",
+    "v02-edge-04",
+    "v02-edge-05",
+    "v02-edge-06",
+    "v02-edge-07",
+    "v02-edge-08",
+    "v03-edge-01",
+    "v03-edge-02",
+    "v03-edge-03",
+    "v03-edge-04",
+    "v03-edge-05",
+    "v03-edge-06",
+    "v03-edge-07",
+    "v04-edge-01",
+    "v04-edge-02",
+    "v04-edge-03",
+    "v04-edge-04",
+    "v04-edge-05",
+    "v04-edge-06",
+    "v04-edge-07",
+    "v04-edge-08",
+    "v05-edge-01",
+    "v05-edge-02",
+    "v05-edge-03",
+    "v05-edge-04",
+    "v05-edge-05",
+    "v05-edge-06",
+    "v05-edge-07",
+    "v06-edge-01",
+    "v06-edge-02",
+    "v06-edge-03",
+    "v06-edge-04",
+    "v06-edge-05",
+    "v06-edge-06",
+    "v06-edge-07",
+    "v06-edge-08",
+    "v07-edge-01",
+    "v07-edge-02",
+    "v07-edge-03",
+    "v07-edge-04",
+    "v07-edge-05",
+    "v07-edge-06",
+    "v07-edge-07",
+    "v08-edge-01",
+    "v08-edge-02",
+    "v08-edge-03",
+    "v08-edge-04",
+    "v08-edge-05",
+    "v08-edge-06",
+    "v08-edge-07",
+    "v08-edge-08",
+    "v09-edge-01",
+    "v09-edge-02",
+    "v09-edge-03",
+    "v09-edge-04",
+    "v09-edge-05",
+    "v09-edge-06",
+    "v09-edge-07",
+    "v10-edge-01",
+    "v10-edge-02",
+    "v10-edge-03",
+    "v10-edge-04",
+    "v10-edge-05",
+    "v10-edge-06",
+    "v10-edge-07",
+    "v10-edge-08",
+    "v11-edge-01",
+    "v11-edge-02",
+    "v11-edge-03",
+    "v11-edge-04",
+    "v11-edge-05",
+    "v11-edge-06",
+    "v11-edge-07",
+    "v11-edge-08",
+    "v11-edge-09",
+    "v12-edge-01",
+    "v12-edge-02",
+    "v12-edge-03",
+    "v12-edge-04",
+    "v12-edge-05",
+    "v12-edge-06",
+    "v12-edge-07",
+    "v12-edge-08",
+    "v13-edge-01",
+    "v13-edge-02",
+    "v13-edge-03",
+    "v13-edge-04",
+    "v13-edge-05",
+    "v13-edge-06",
+    "v13-edge-07",
+    "v13-edge-08",
+    "v14-edge-01",
+    "v14-edge-02",
+    "v14-edge-03",
+    "v14-edge-04",
+    "v14-edge-05",
+    "v14-edge-06",
+    "v14-edge-07",
+    "v14-edge-08",
+    "v14-edge-09",
+    "v15-edge-01",
+    "v15-edge-02",
+    "v15-edge-03",
+    "v15-edge-04",
+    "v15-edge-05",
+    "v15-edge-06",
+    "v15-edge-07",
+    "v16-edge-01",
+    "v16-edge-02",
+    "v16-edge-03",
+    "v16-edge-04",
+    "v16-edge-05",
+    "v16-edge-06",
+    "v16-edge-07",
+    "v16-edge-08",
+    "v17-edge-01",
+    "v17-edge-02",
+    "v17-edge-03",
+    "v17-edge-04",
+    "v17-edge-05",
+    "v17-edge-06",
+    "v17-edge-07",
+    "v17-edge-08",
+    "v17-edge-09",
+    "v17-edge-10",
+    "v18-edge-01",
+    "v18-edge-02",
+    "v18-edge-03",
+    "v18-edge-04",
+    "v18-edge-05",
+    "v18-edge-06",
+    "v18-edge-07",
+    "v18-edge-08",
+    "v18-edge-09",
+    "cross-children-01",
+    "cross-ruins-01",
+    "cross-blockade-01",
+    "cross-memory-01",
+    "cross-nana-01",
+    "cross-tank-01",
+    "cross-redemption-01",
+    "cross-memory-02",
+    "cross-autonomy-01",
+    "cross-alliance-01",
+    "cross-nana-02",
+    "cross-home-01",
+    "cross-redemption-02",
+    "cross-holy-fire-01",
+    "cross-mark-01",
+    "cross-roder-01",
+    "cross-children-02",
+    "cross-angel-01",
+    "cross-angel-02",
+    "cross-mark-02",
+    "cross-desert-01",
+    "cross-roder-02",
+    "cross-identity-news-01",
+    "cross-tank-02",
+    "cross-angel-03",
+    "cross-rosy-01",
+    "cross-history-01",
+    "cross-knight-01",
+    "cross-dragon-01",
+    "cross-armour-01",
+    "cross-v14-autonomy",
+    "cross-cliffhanger-01",
+    "cross-armour-02",
+    "cross-rosy-02",
+    "cross-aroyo-01",
+    "cross-altar-01",
+    "cross-tuk-01",
+    "cross-autonomy-03",
+    "cross-altar-02",
+    "cross-prophet-01",
+    "cross-tank-03",
+    "cross-rosy-03",
+    "cross-industry-01",
+    "cross-hero-01",
+    "cross-knight-02",
+    "cross-taige-01",
+    "cross-taige-02",
+    "cross-emperor-skill-01",
+    "cross-knight-03",
+    "cross-expedition-01",
+    "cross-christine-01",
+    "cross-christine-02",
+    "cross-tank-04",
+    "cross-coercion-01",
+    "cross-seal-01",
+    "cross-christine-03",
+    "cross-christine-04",
+    "cross-emperor-skill-02",
+    "cross-armament-02",
+    "cross-expedition-02",
+    "cross-seabeast-01",
+    "cross-church-agency-02",
+    "cross-dragon-prayer-01",
+    "cross-rosy-memory-01",
+    "cross-expedition-03",
+    "cross-prophet-03",
+    "cross-crystal-awakening-01",
+    "cross-emperor-skill-03",
+    "cross-v15-church-agency",
+    "cross-forest-01",
+    "cross-church-agency-03",
+    "cross-nana-03",
+    "cross-friendship-01",
+    "cross-empire-history-01",
+    "cross-dragon-loss-01",
+    "cross-prophet-friendship-01",
+    "cross-swamp-visitor-01",
+    "cross-return-01",
+    "cross-training-01",
+    "cross-mission-cost-01",
+    "cross-friendship-02",
+    "cross-state-building-01",
+    "cross-faith-01",
+    "cross-corpse-plan-01",
+    "cross-corpse-plan-02",
+    "cross-crystal-loss-01",
+    "cross-prophet-control-02",
+    "cross-relics-01",
+    "cross-legacy-use-01",
+    "cross-faith-02",
+    "cross-autonomy-02",
+    "cross-church-agency-04",
+    "cross-v16-redmoon",
+    "cross-v16-puppet",
+    "cross-v16-angel-agency",
+    "cross-v16-corpse-limit",
+    "cross-v16-two-inheritances",
+    "cross-v16-nature-cost",
+    "cross-v16-cutroman-death",
+    "cross-v16-betrayal",
+    "cross-v16-consumption",
+    "cross-v17-false-flag",
+    "cross-v17-chaos",
+    "cross-v17-history",
+    "cross-v17-knight",
+    "cross-v17-prophet-control",
+    "cross-v17-war",
+    "cross-v17-children",
+    "cross-v17-divine-control",
+    "cross-v18-return",
+    "cross-v18-dragon-people",
+    "cross-v18-gun",
+    "cross-v18-memory-practice",
+    "cross-v18-music",
+    "cross-v18-source",
+    "cross-v18-ethics",
+    "cross-v18-children",
+    "cross-v18-divinity",
+    "cross-v18-nana",
+    "cross-v18-home"
+  ],
   "positions": {
     "v01-e01": {
-      "x": 728,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 549.0,
+      "y": 510.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 1
+    },
+    "v01-e02": {
+      "x": 549.0,
+      "y": 754.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 1
     },
     "v01-e03": {
-      "x": 728,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 549.0,
+      "y": 1000.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 1
+    },
+    "v01-e04": {
+      "x": 549.0,
+      "y": 1244.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 1
     },
     "v01-e05": {
-      "x": 728,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 549.0,
+      "y": 1490.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 1
+    },
+    "v01-e06": {
+      "x": 549.0,
+      "y": 1734.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 1
+    },
+    "v01-e07": {
+      "x": 431.0,
+      "y": 1980.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 1
+    },
+    "v01-e08": {
+      "x": 431.0,
+      "y": 2224.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 1
     },
     "v01-e10": {
-      "x": 728,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 2564.0,
+      "y": 532.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 1
+    },
+    "v01-e09": {
+      "x": 431.0,
+      "y": 2470.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 1
     },
     "v02-e01": {
-      "x": 1168,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 2564.0,
+      "y": 1244.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 2
+    },
+    "v02-e02": {
+      "x": 1209.0,
+      "y": 1756.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 2
+    },
+    "v02-e03": {
+      "x": 1209.0,
+      "y": 2002.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 2
     },
     "v02-e04": {
-      "x": 1168,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 1209.0,
+      "y": 2224.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 2
+    },
+    "v02-e05": {
+      "x": 1209.0,
+      "y": 2470.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 2
     },
     "v02-e06": {
-      "x": 1168,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 2988.0,
+      "y": 1244.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 2
+    },
+    "v02-e07": {
+      "x": 1633.0,
+      "y": 2224.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 2
     },
     "v02-e08": {
-      "x": 1168,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 2879.0,
+      "y": 1490.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 2
     },
     "v02-e09": {
-      "x": 1168,
-      "y": 2142,
-      "width": 366,
-      "height": 238,
+      "x": 903.0,
+      "y": 2714.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 2
     },
+    "v03-e01": {
+      "x": 903.0,
+      "y": 2960.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 3
+    },
+    "v03-e02": {
+      "x": 2175.0,
+      "y": 1980.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 3
+    },
     "v03-e03": {
-      "x": 1608,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 2175.0,
+      "y": 2470.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 3
     },
     "v03-e04": {
-      "x": 1608,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 4136.0,
+      "y": 2714.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 3
     },
     "v03-e05": {
-      "x": 1608,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 4136.0,
+      "y": 2960.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 3
+    },
+    "v03-e06": {
+      "x": 1327.0,
+      "y": 2736.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 3
+    },
+    "v03-e07": {
+      "x": 4136.0,
+      "y": 3226.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 3
     },
     "v03-e08": {
-      "x": 1608,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 4560.0,
+      "y": 2982.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 3
     },
+    "v03-e09": {
+      "x": 2175.0,
+      "y": 2714.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 3
+    },
+    "v04-e01": {
+      "x": 1751.0,
+      "y": 2736.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 4
+    },
+    "v04-e02": {
+      "x": 3565.0,
+      "y": 2736.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 4
+    },
     "v04-e03": {
-      "x": 2048,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 3506.0,
+      "y": 2960.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 4
     },
     "v04-e04": {
-      "x": 2048,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 2717.0,
+      "y": 2714.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 4
+    },
+    "v04-e05": {
+      "x": 3476.0,
+      "y": 3204.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 4
     },
     "v04-e06": {
-      "x": 2048,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 3141.0,
+      "y": 2714.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 4
+    },
+    "v04-e07": {
+      "x": 3052.0,
+      "y": 3226.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 4
     },
     "v04-e08": {
-      "x": 2048,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 3052.0,
+      "y": 3450.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 4
     },
     "v04-e09": {
-      "x": 2048,
-      "y": 2142,
-      "width": 366,
-      "height": 238,
+      "x": 3445.0,
+      "y": 3734.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 4
     },
     "v05-e01": {
-      "x": 2488,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 3476.0,
+      "y": 3975.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 5
+    },
+    "v05-e09": {
+      "x": 4529.0,
+      "y": 4198.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 5
     },
     "v05-e02": {
-      "x": 2488,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 4560.0,
+      "y": 3472.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 5
+    },
+    "v05-e03": {
+      "x": 3139.0,
+      "y": 4198.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 5
     },
     "v05-e04": {
-      "x": 2488,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 3563.0,
+      "y": 4198.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 5
+    },
+    "v05-e05": {
+      "x": 2326.0,
+      "y": 3472.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 5
+    },
+    "v05-e06": {
+      "x": 3021.0,
+      "y": 3734.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 5
+    },
+    "v05-e07": {
+      "x": 2674.0,
+      "y": 3975.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 5
     },
     "v05-e08": {
-      "x": 2488,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 3257.0,
+      "y": 4444.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 5
     },
     "v06-e01": {
-      "x": 2928,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 1513.0,
+      "y": 4176.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 6
+    },
+    "v06-e02": {
+      "x": 2715.0,
+      "y": 4198.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 6
+    },
+    "v06-e03": {
+      "x": 3987.0,
+      "y": 4198.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 6
+    },
+    "v06-e04": {
+      "x": 3987.0,
+      "y": 4422.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 6
     },
     "v06-e05": {
-      "x": 2928,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 2055.0,
+      "y": 4198.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 6
     },
     "v06-e06": {
-      "x": 2928,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 2833.0,
+      "y": 4422.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 6
+    },
+    "v06-e07": {
+      "x": 2951.0,
+      "y": 4667.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 6
+    },
+    "v06-e08": {
+      "x": 1663.0,
+      "y": 4444.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 6
     },
     "v06-e09": {
-      "x": 2928,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 2680.0,
+      "y": 4890.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 6
     },
+    "v07-e01": {
+      "x": 3257.0,
+      "y": 4868.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 7
+    },
     "v07-e02": {
-      "x": 3368,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 3410.0,
+      "y": 5136.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 7
+    },
+    "v07-e03": {
+      "x": 2479.0,
+      "y": 5114.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 7
+    },
+    "v07-e04": {
+      "x": 4153.0,
+      "y": 5359.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 7
     },
     "v07-e05": {
-      "x": 3368,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 3799.0,
+      "y": 5561.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 7
     },
     "v07-e06": {
-      "x": 3368,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 3799.0,
+      "y": 5784.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 7
     },
     "v07-e07": {
-      "x": 3368,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 3410.0,
+      "y": 6008.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 7
     },
+    "v07-e08": {
+      "x": 1937.0,
+      "y": 4890.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 7
+    },
+    "v07-e09": {
+      "x": 1937.0,
+      "y": 5114.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 7
+    },
+    "v08-e01": {
+      "x": 1661.0,
+      "y": 5561.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 8
+    },
     "v08-e02": {
-      "x": 3808,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 1661.0,
+      "y": 5763.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 8
+    },
+    "v08-e03": {
+      "x": 1661.0,
+      "y": 6008.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 8
+    },
+    "v08-e04": {
+      "x": 243.0,
+      "y": 5561.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 8
     },
     "v08-e05": {
-      "x": 3808,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 125.0,
+      "y": 5763.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 8
+    },
+    "v08-e06": {
+      "x": 1661.0,
+      "y": 6268.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 8
     },
     "v08-e07": {
-      "x": 3808,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 125.0,
+      "y": 6008.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 8
+    },
+    "v08-e08": {
+      "x": 3139.0,
+      "y": 5561.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 8
     },
     "v08-e09": {
-      "x": 3808,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 514.0,
+      "y": 6268.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 8
     },
     "v09-e01": {
-      "x": 4248,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 1119.0,
+      "y": 6568.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 9
+    },
+    "v09-e02": {
+      "x": 2085.0,
+      "y": 6268.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 9
     },
     "v09-e03": {
-      "x": 4248,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 4878.0,
+      "y": 6247.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 9
+    },
+    "v09-e04": {
+      "x": 1814.0,
+      "y": 6809.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 9
     },
     "v09-e05": {
-      "x": 4248,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 2627.0,
+      "y": 6268.5,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 9
+    },
+    "v09-e06": {
+      "x": 2627.0,
+      "y": 6568.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 9
     },
     "v09-e07": {
-      "x": 4248,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 4218.0,
+      "y": 6247.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 9
     },
     "v09-e08": {
-      "x": 4248,
-      "y": 2142,
-      "width": 366,
-      "height": 238,
+      "x": 3947.0,
+      "y": 6830.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 9
     },
+    "v09-e09": {
+      "x": 4218.0,
+      "y": 6546.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 9
+    },
+    "v10-e01": {
+      "x": 1814.0,
+      "y": 7071.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 10
+    },
+    "v10-e02": {
+      "x": 4218.0,
+      "y": 7071.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 10
+    },
+    "v10-e03": {
+      "x": 4489.0,
+      "y": 7351.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 10
+    },
     "v10-e04": {
-      "x": 4688,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 4352.0,
+      "y": 7614.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 10
+    },
+    "v10-e05": {
+      "x": 5248.0,
+      "y": 7859.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 10
     },
     "v10-e06": {
-      "x": 4688,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 4878.0,
+      "y": 7093.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 10
+    },
+    "v10-e07": {
+      "x": 3947.0,
+      "y": 7373.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 10
     },
     "v10-e08": {
-      "x": 4688,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 3169.0,
+      "y": 7614.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 10
     },
     "v10-e09": {
-      "x": 4688,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 2898.0,
+      "y": 7859.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 10
     },
     "v11-e01": {
-      "x": 5128,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 2780.0,
+      "y": 8104.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 11
     },
     "v11-e02": {
-      "x": 5128,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 3440.0,
+      "y": 8349.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 11
     },
     "v11-e03": {
-      "x": 5128,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 3440.0,
+      "y": 8615.5,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 11
+    },
+    "v11-e04": {
+      "x": 3788.0,
+      "y": 8839.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 11
+    },
+    "v11-e05": {
+      "x": 1690.0,
+      "y": 7859.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 11
+    },
+    "v11-e06": {
+      "x": 4621.0,
+      "y": 9084.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 11
+    },
+    "v11-e07": {
+      "x": 5011.0,
+      "y": 9329.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 11
+    },
+    "v11-e08": {
+      "x": 5011.0,
+      "y": 9574.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 11
     },
     "v11-e09": {
-      "x": 5128,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 5011.0,
+      "y": 9819.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 11
     },
     "v12-e01": {
-      "x": 5568,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 4899.0,
+      "y": 10021.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 12
+    },
+    "v12-e02": {
+      "x": 2509.0,
+      "y": 8594.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 12
     },
     "v12-e03": {
-      "x": 5568,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 5017.0,
+      "y": 10266.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 12
+    },
+    "v12-e04": {
+      "x": 5135.0,
+      "y": 10511.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 12
     },
     "v12-e05": {
-      "x": 5568,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 5135.0,
+      "y": 10756.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 12
     },
     "v12-e06": {
-      "x": 5568,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 5136.0,
+      "y": 11001.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 12
     },
+    "v12-e07": {
+      "x": 1690.0,
+      "y": 8594.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 12
+    },
+    "v12-e08": {
+      "x": 5324.0,
+      "y": 11267.5,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 12
+    },
+    "v12-e09": {
+      "x": 3364.0,
+      "y": 8839.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 12
+    },
+    "v13-e01": {
+      "x": 4072.0,
+      "y": 9350.5,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 13
+    },
     "v13-e02": {
-      "x": 6008,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 4122.0,
+      "y": 9574.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 13
     },
     "v13-e03": {
-      "x": 6008,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 2267.0,
+      "y": 9329.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 13
+    },
+    "v13-e04": {
+      "x": 2267.0,
+      "y": 9574.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 13
+    },
+    "v13-e05": {
+      "x": 2267.0,
+      "y": 9819.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 13
     },
     "v13-e06": {
-      "x": 6008,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 4240.0,
+      "y": 11022.5,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 13
+    },
+    "v13-e07": {
+      "x": 1996.0,
+      "y": 10021.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 13
     },
     "v13-e08": {
-      "x": 6008,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 2829.0,
+      "y": 10266.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 13
     },
+    "v13-e09": {
+      "x": 1996.0,
+      "y": 10511.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 13
+    },
+    "v14-e01": {
+      "x": 1937.0,
+      "y": 10777.5,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 14
+    },
     "v14-e02": {
-      "x": 6448,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 1530.0,
+      "y": 11001.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 14
+    },
+    "v14-e03": {
+      "x": 1530.0,
+      "y": 11246.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 14
+    },
+    "v14-e04": {
+      "x": 3335.0,
+      "y": 10021.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 14
+    },
+    "v14-e05": {
+      "x": 4900.0,
+      "y": 11246.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 14
     },
     "v14-e06": {
-      "x": 6448,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 3335.0,
+      "y": 10266.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 14
+    },
+    "v14-e07": {
+      "x": 3335.0,
+      "y": 10532.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 14
     },
     "v14-e08": {
-      "x": 6448,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 3156.0,
+      "y": 10756.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 14
     },
     "v14-e09": {
-      "x": 6448,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 3309.0,
+      "y": 11491.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 14
     },
     "v15-e01": {
-      "x": 6888,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 2614.0,
+      "y": 11022.5,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 15
+    },
+    "v15-e02": {
+      "x": 6031.0,
+      "y": 10777.5,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 15
+    },
+    "v15-e03": {
+      "x": 3580.0,
+      "y": 10756.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 15
     },
     "v15-e04": {
-      "x": 6888,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 2920.0,
+      "y": 11246.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 15
+    },
+    "v15-e05": {
+      "x": 3580.0,
+      "y": 11001.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 15
     },
     "v15-e06": {
-      "x": 6888,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 2496.0,
+      "y": 11246.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 15
+    },
+    "v15-e07": {
+      "x": 3309.0,
+      "y": 11736.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 15
+    },
+    "v15-e08": {
+      "x": 2072.0,
+      "y": 11246.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 15
     },
     "v15-e09": {
-      "x": 6888,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 1642.0,
+      "y": 11491.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 15
     },
+    "v16-e01": {
+      "x": 1521.0,
+      "y": 11736.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 16
+    },
+    "v16-e02": {
+      "x": 1875.0,
+      "y": 11981.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 16
+    },
     "v16-e03": {
-      "x": 7328,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 1521.0,
+      "y": 12226.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 16
+    },
+    "v16-e04": {
+      "x": 3816.0,
+      "y": 11981.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 16
     },
     "v16-e05": {
-      "x": 7328,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 2028.0,
+      "y": 12471.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 16
+    },
+    "v16-e06": {
+      "x": 2614.0,
+      "y": 12226.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 16
     },
     "v16-e07": {
-      "x": 7328,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 2028.0,
+      "y": 12716.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 16
     },
     "v16-e08": {
-      "x": 7328,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 2028.0,
+      "y": 12961.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 16
     },
+    "v16-e09": {
+      "x": 4358.0,
+      "y": 11491.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 16
+    },
+    "v17-e01": {
+      "x": 4358.0,
+      "y": 12226.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 17
+    },
     "v17-e02": {
-      "x": 7768,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 2028.0,
+      "y": 13206.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 17
+    },
+    "v17-e03": {
+      "x": 3003.0,
+      "y": 12471.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 17
     },
     "v17-e04": {
-      "x": 7768,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 3274.0,
+      "y": 12716.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 17
     },
     "v17-e05": {
-      "x": 7768,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 3392.0,
+      "y": 12226.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 17
+    },
+    "v17-e06": {
+      "x": 3274.0,
+      "y": 12961.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 17
     },
     "v17-e07": {
-      "x": 7768,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 2028.0,
+      "y": 13451.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 17
+    },
+    "v17-e08": {
+      "x": 2028.0,
+      "y": 13696.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 17
     },
     "v17-e09": {
-      "x": 7768,
-      "y": 2142,
-      "width": 366,
-      "height": 238,
+      "x": 2885.0,
+      "y": 13696.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 17
     },
     "v18-e01": {
-      "x": 8208,
-      "y": 1030,
-      "width": 366,
-      "height": 238,
+      "x": 2284.0,
+      "y": 13980.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 18
+    },
+    "v18-e02": {
+      "x": 3816.0,
+      "y": 12982.5,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 18
+    },
+    "v18-e03": {
+      "x": 3274.0,
+      "y": 13227.5,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 18
+    },
+    "v18-e04": {
+      "x": 2227.0,
+      "y": 14221.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 18
+    },
+    "v18-e05": {
+      "x": 2107.0,
+      "y": 14462.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 18
     },
     "v18-e06": {
-      "x": 8208,
-      "y": 1308,
-      "width": 366,
-      "height": 238,
+      "x": 5384.0,
+      "y": 12982.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 18
     },
     "v18-e07": {
-      "x": 8208,
-      "y": 1586,
-      "width": 366,
-      "height": 238,
+      "x": 3545.0,
+      "y": 14742.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 18
     },
     "v18-e08": {
-      "x": 8208,
-      "y": 1864,
-      "width": 366,
-      "height": 238,
+      "x": 3545.0,
+      "y": 14983.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 18
     },
     "v18-e09": {
-      "x": 8208,
-      "y": 2142,
-      "width": 366,
-      "height": 238,
+      "x": 3545.0,
+      "y": 15224.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 18
+    },
+    "book-0a05fa972401": {
+      "x": 2885.0,
+      "y": 14423.0,
+      "width": 366.0,
+      "height": 204.0,
+      "volume": null
+    },
+    "book-49e8bb5d0f08": {
+      "x": 90.0,
+      "y": 6210.0,
+      "width": 366.0,
+      "height": 243.0,
+      "volume": null
+    },
+    "book-c0fbac950b52": {
+      "x": 2238.0,
+      "y": 7054.0,
+      "width": 366.0,
+      "height": 204.0,
+      "volume": null
+    },
+    "book-9baae09a0d12": {
+      "x": 3523.0,
+      "y": 7334.0,
+      "width": 366.0,
+      "height": 204.0,
+      "volume": null
+    },
+    "book-e90db68cb625": {
+      "x": 3816.0,
+      "y": 12226.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": null
+    },
+    "book-6e1451b9badd": {
+      "x": 2597.0,
+      "y": 3695.0,
+      "width": 366.0,
+      "height": 204.0,
+      "volume": null
+    },
+    "book-09f441653222": {
+      "x": 2653.0,
+      "y": 11981.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": null
+    },
+    "book-2c92e5ad3024": {
+      "x": 2697.0,
+      "y": 15202.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": null
+    },
+    "book-02ba45413b1e": {
+      "x": 3121.0,
+      "y": 15465.0,
+      "width": 366.0,
+      "height": 204.0,
+      "volume": null
+    },
+    "book-c8d5d9e2b50a": {
+      "x": 2085.0,
+      "y": 6529.0,
+      "width": 366.0,
+      "height": 204.0,
+      "volume": null
+    },
+    "book-be62d277e700": {
+      "x": 2107.0,
+      "y": 14703.0,
+      "width": 366.0,
+      "height": 204.0,
+      "volume": null
+    },
+    "book-4f19b0c4054c": {
+      "x": 3545.0,
+      "y": 15465.0,
+      "width": 366.0,
+      "height": 204.0,
+      "volume": null
+    },
+    "book-442e53d9c11d": {
+      "x": 3121.0,
+      "y": 15185.0,
+      "width": 366.0,
+      "height": 204.0,
+      "volume": null
+    },
+    "book-155fd141a183": {
+      "x": 2885.0,
+      "y": 13941.0,
+      "width": 366.0,
+      "height": 204.0,
+      "volume": null
+    },
+    "book-3ec69c740e20": {
+      "x": 3969.0,
+      "y": 15465.0,
+      "width": 366.0,
+      "height": 204.0,
+      "volume": null
     }
   },
-  "bridges": [
+  "links": [
     {
-      "id": "cross-memory-01",
-      "number": 1,
-      "label": "记忆完整融合，未继承魔力",
-      "lane": 0
+      "id": "v04-edge-08",
+      "from": "v04-e01",
+      "to": "v04-e09",
+      "kind": "echo",
+      "core": false
     },
     {
-      "id": "cross-redemption-02",
-      "number": 2,
-      "label": "救赎真义：净化而非恢复人身",
-      "lane": 0
+      "id": "v06-edge-08",
+      "from": "v06-e04",
+      "to": "v06-e09",
+      "kind": "echo",
+      "core": false
     },
     {
-      "id": "cross-mark-02",
-      "number": 3,
-      "label": "亡灵印记的发出者得到确认",
-      "lane": 1
+      "id": "v10-edge-08",
+      "from": "v10-e02",
+      "to": "v10-e09",
+      "kind": "echo",
+      "core": true
     },
     {
-      "id": "cross-children-02",
-      "number": 4,
-      "label": "黑大从自主萌芽到完全觉醒",
-      "lane": 2
+      "id": "v12-edge-04",
+      "from": "v12-e03",
+      "to": "v12-e05",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "v12-edge-08",
+      "from": "v12-e06",
+      "to": "v12-e09",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "v15-edge-07",
+      "from": "v15-e06",
+      "to": "v15-e09",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "v16-edge-08",
+      "from": "v16-e02",
+      "to": "v16-e07",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "v17-edge-08",
+      "from": "v17-e06",
+      "to": "v17-e08",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "v18-edge-09",
+      "from": "v18-e01",
+      "to": "v18-e09",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "cross-nana-02",
+      "from": "v03-e01",
+      "to": "v04-e01",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "cross-home-01",
+      "from": "v03-e06",
+      "to": "v04-e07",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "cross-v14-autonomy",
+      "from": "v07-e07",
+      "to": "v14-e08",
+      "kind": "echo",
+      "core": true
     },
     {
       "id": "cross-autonomy-03",
-      "number": 5,
-      "label": "自由宣言与强制转生的矛盾",
-      "lane": 0
+      "from": "v07-e07",
+      "to": "v08-e07",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "cross-hero-01",
+      "from": "v05-e07",
+      "to": "v09-e05",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "cross-coercion-01",
+      "from": "v08-e07",
+      "to": "v10-e06",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "cross-friendship-01",
+      "from": "v10-e06",
+      "to": "v13-e05",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "cross-prophet-friendship-01",
+      "from": "v12-e05",
+      "to": "v13-e05",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "cross-corpse-plan-02",
+      "from": "v14-e08",
+      "to": "v15-e08",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "cross-autonomy-02",
+      "from": "v06-e04",
+      "to": "v07-e07",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "cross-v16-consumption",
+      "from": "v06-e07",
+      "to": "v16-e07",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "cross-v17-children",
+      "from": "v12-e08",
+      "to": "v17-e06",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "cross-v17-divine-control",
+      "from": "v16-e04",
+      "to": "v17-e09",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "cross-v18-ethics",
+      "from": "v16-e07",
+      "to": "v18-e08",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "cross-v18-children",
+      "from": "v17-e06",
+      "to": "v18-e08",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "cross-v18-home",
+      "from": "v12-e06",
+      "to": "v18-e09",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "v01-edge-01",
+      "from": "v01-e01",
+      "to": "v01-e02",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v01-edge-02",
+      "from": "v01-e02",
+      "to": "v01-e03",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "v01-edge-03",
+      "from": "v01-e03",
+      "to": "v01-e04",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v01-edge-04",
+      "from": "v01-e04",
+      "to": "v01-e05",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v01-edge-05",
+      "from": "v01-e05",
+      "to": "v01-e06",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v01-edge-06",
+      "from": "v01-e06",
+      "to": "v01-e07",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v01-edge-07",
+      "from": "v01-e07",
+      "to": "v01-e08",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v01-edge-08",
+      "from": "v01-e06",
+      "to": "v01-e09",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v01-edge-09",
+      "from": "v01-e08",
+      "to": "v01-e09",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "v02-edge-01",
+      "from": "v02-e01",
+      "to": "v02-e02",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v02-edge-02",
+      "from": "v02-e02",
+      "to": "v02-e03",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v02-edge-03",
+      "from": "v02-e03",
+      "to": "v02-e04",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v02-edge-04",
+      "from": "v02-e04",
+      "to": "v02-e05",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "v02-edge-05",
+      "from": "v02-e03",
+      "to": "v02-e07",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v02-edge-06",
+      "from": "v02-e06",
+      "to": "v02-e08",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v02-edge-07",
+      "from": "v02-e05",
+      "to": "v02-e09",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "v02-edge-08",
+      "from": "v02-e04",
+      "to": "v02-e09",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "v03-edge-01",
+      "from": "v03-e02",
+      "to": "v03-e03",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v03-edge-02",
+      "from": "v03-e03",
+      "to": "v03-e04",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v03-edge-03",
+      "from": "v03-e04",
+      "to": "v03-e05",
+      "kind": "reversal",
+      "core": true
+    },
+    {
+      "id": "v03-edge-04",
+      "from": "v03-e03",
+      "to": "v03-e06",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v03-edge-05",
+      "from": "v03-e05",
+      "to": "v03-e07",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "v03-edge-06",
+      "from": "v03-e04",
+      "to": "v03-e08",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "v03-edge-07",
+      "from": "v03-e03",
+      "to": "v03-e09",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v04-edge-01",
+      "from": "v04-e02",
+      "to": "v04-e03",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v04-edge-02",
+      "from": "v04-e03",
+      "to": "v04-e05",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v04-edge-03",
+      "from": "v04-e03",
+      "to": "v04-e07",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v04-edge-04",
+      "from": "v04-e06",
+      "to": "v04-e07",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v04-edge-05",
+      "from": "v04-e04",
+      "to": "v04-e08",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v04-edge-06",
+      "from": "v04-e07",
+      "to": "v04-e08",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v04-edge-07",
+      "from": "v04-e08",
+      "to": "v04-e09",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v05-edge-01",
+      "from": "v05-e01",
+      "to": "v05-e04",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v05-edge-02",
+      "from": "v05-e01",
+      "to": "v05-e03",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v05-edge-03",
+      "from": "v05-e05",
+      "to": "v05-e06",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v05-edge-04",
+      "from": "v05-e06",
+      "to": "v05-e07",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v05-edge-05",
+      "from": "v05-e06",
+      "to": "v05-e08",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v05-edge-06",
+      "from": "v05-e04",
+      "to": "v05-e08",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v05-edge-07",
+      "from": "v05-e01",
+      "to": "v05-e09",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v06-edge-01",
+      "from": "v06-e01",
+      "to": "v06-e08",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v06-edge-02",
+      "from": "v06-e03",
+      "to": "v06-e04",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v06-edge-03",
+      "from": "v06-e03",
+      "to": "v06-e07",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v06-edge-04",
+      "from": "v06-e05",
+      "to": "v06-e06",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v06-edge-05",
+      "from": "v06-e05",
+      "to": "v06-e08",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v06-edge-06",
+      "from": "v06-e06",
+      "to": "v06-e09",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v06-edge-07",
+      "from": "v06-e07",
+      "to": "v06-e09",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v07-edge-01",
+      "from": "v07-e01",
+      "to": "v07-e02",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v07-edge-02",
+      "from": "v07-e02",
+      "to": "v07-e04",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v07-edge-03",
+      "from": "v07-e04",
+      "to": "v07-e05",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v07-edge-04",
+      "from": "v07-e05",
+      "to": "v07-e06",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v07-edge-05",
+      "from": "v07-e06",
+      "to": "v07-e07",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v07-edge-06",
+      "from": "v07-e02",
+      "to": "v07-e07",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "v07-edge-07",
+      "from": "v07-e08",
+      "to": "v07-e09",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v08-edge-01",
+      "from": "v08-e01",
+      "to": "v08-e02",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v08-edge-02",
+      "from": "v08-e02",
+      "to": "v08-e03",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "v08-edge-03",
+      "from": "v08-e03",
+      "to": "v08-e06",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v08-edge-04",
+      "from": "v08-e04",
+      "to": "v08-e05",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "v08-edge-05",
+      "from": "v08-e04",
+      "to": "v08-e06",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "v08-edge-06",
+      "from": "v08-e05",
+      "to": "v08-e07",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "v08-edge-07",
+      "from": "v08-e07",
+      "to": "v08-e09",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v08-edge-08",
+      "from": "v08-e05",
+      "to": "v08-e09",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v09-edge-01",
+      "from": "v09-e01",
+      "to": "v09-e04",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v09-edge-02",
+      "from": "v09-e02",
+      "to": "v09-e04",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v09-edge-03",
+      "from": "v09-e05",
+      "to": "v09-e06",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v09-edge-04",
+      "from": "v09-e07",
+      "to": "v09-e08",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "v09-edge-05",
+      "from": "v09-e06",
+      "to": "v09-e08",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v09-edge-06",
+      "from": "v09-e07",
+      "to": "v09-e09",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v09-edge-07",
+      "from": "v09-e07",
+      "to": "v09-e09",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "v10-edge-01",
+      "from": "v10-e02",
+      "to": "v10-e03",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v10-edge-02",
+      "from": "v10-e03",
+      "to": "v10-e04",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v10-edge-03",
+      "from": "v10-e04",
+      "to": "v10-e05",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v10-edge-04",
+      "from": "v10-e04",
+      "to": "v10-e05",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "v10-edge-05",
+      "from": "v10-e06",
+      "to": "v10-e07",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v10-edge-06",
+      "from": "v10-e07",
+      "to": "v10-e08",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v10-edge-07",
+      "from": "v10-e08",
+      "to": "v10-e09",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v11-edge-01",
+      "from": "v11-e01",
+      "to": "v11-e02",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "v11-edge-02",
+      "from": "v11-e02",
+      "to": "v11-e03",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "v11-edge-03",
+      "from": "v11-e03",
+      "to": "v11-e04",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v11-edge-04",
+      "from": "v11-e03",
+      "to": "v11-e04",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v11-edge-05",
+      "from": "v11-e04",
+      "to": "v11-e06",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "v11-edge-06",
+      "from": "v11-e06",
+      "to": "v11-e07",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v11-edge-07",
+      "from": "v11-e07",
+      "to": "v11-e08",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "v11-edge-08",
+      "from": "v11-e07",
+      "to": "v11-e09",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "v11-edge-09",
+      "from": "v11-e08",
+      "to": "v11-e09",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v12-edge-01",
+      "from": "v12-e01",
+      "to": "v12-e03",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v12-edge-02",
+      "from": "v12-e03",
+      "to": "v12-e04",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v12-edge-03",
+      "from": "v12-e04",
+      "to": "v12-e05",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v12-edge-05",
+      "from": "v12-e05",
+      "to": "v12-e06",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "v12-edge-06",
+      "from": "v12-e06",
+      "to": "v12-e08",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v12-edge-07",
+      "from": "v12-e05",
+      "to": "v12-e08",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "v13-edge-01",
+      "from": "v13-e01",
+      "to": "v13-e02",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v13-edge-02",
+      "from": "v13-e03",
+      "to": "v13-e04",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "v13-edge-03",
+      "from": "v13-e04",
+      "to": "v13-e05",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "v13-edge-04",
+      "from": "v13-e03",
+      "to": "v13-e06",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v13-edge-05",
+      "from": "v13-e04",
+      "to": "v13-e07",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v13-edge-06",
+      "from": "v13-e05",
+      "to": "v13-e07",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v13-edge-07",
+      "from": "v13-e07",
+      "to": "v13-e08",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "v13-edge-08",
+      "from": "v13-e08",
+      "to": "v13-e09",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v14-edge-01",
+      "from": "v14-e01",
+      "to": "v14-e02",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v14-edge-02",
+      "from": "v14-e02",
+      "to": "v14-e03",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "v14-edge-03",
+      "from": "v14-e05",
+      "to": "v14-e04",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v14-edge-04",
+      "from": "v14-e04",
+      "to": "v14-e06",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v14-edge-05",
+      "from": "v14-e06",
+      "to": "v14-e07",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v14-edge-06",
+      "from": "v14-e06",
+      "to": "v14-e08",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "v14-edge-07",
+      "from": "v14-e07",
+      "to": "v14-e08",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v14-edge-08",
+      "from": "v14-e08",
+      "to": "v14-e09",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "v14-edge-09",
+      "from": "v14-e03",
+      "to": "v14-e09",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "v15-edge-01",
+      "from": "v15-e01",
+      "to": "v15-e04",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "v15-edge-02",
+      "from": "v15-e03",
+      "to": "v15-e05",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v15-edge-03",
+      "from": "v15-e05",
+      "to": "v15-e06",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v15-edge-04",
+      "from": "v15-e06",
+      "to": "v15-e07",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v15-edge-05",
+      "from": "v15-e01",
+      "to": "v15-e08",
+      "kind": "reversal",
+      "core": true
+    },
+    {
+      "id": "v15-edge-06",
+      "from": "v15-e08",
+      "to": "v15-e09",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v16-edge-01",
+      "from": "v16-e01",
+      "to": "v16-e02",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v16-edge-02",
+      "from": "v16-e02",
+      "to": "v16-e03",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "v16-edge-03",
+      "from": "v16-e03",
+      "to": "v16-e05",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v16-edge-04",
+      "from": "v16-e02",
+      "to": "v16-e05",
+      "kind": "reversal",
+      "core": true
+    },
+    {
+      "id": "v16-edge-05",
+      "from": "v16-e04",
+      "to": "v16-e06",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v16-edge-06",
+      "from": "v16-e05",
+      "to": "v16-e07",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v16-edge-07",
+      "from": "v16-e07",
+      "to": "v16-e08",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v17-edge-01",
+      "from": "v17-e01",
+      "to": "v17-e04",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v17-edge-02",
+      "from": "v17-e02",
+      "to": "v17-e07",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "v17-edge-03",
+      "from": "v17-e03",
+      "to": "v17-e04",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v17-edge-04",
+      "from": "v17-e05",
+      "to": "v17-e01",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "v17-edge-05",
+      "from": "v17-e04",
+      "to": "v17-e06",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v17-edge-06",
+      "from": "v17-e04",
+      "to": "v17-e09",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v17-edge-07",
+      "from": "v17-e05",
+      "to": "v17-e09",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "v17-edge-09",
+      "from": "v17-e07",
+      "to": "v17-e08",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "v17-edge-10",
+      "from": "v17-e07",
+      "to": "v17-e09",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v18-edge-01",
+      "from": "v18-e01",
+      "to": "v18-e04",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v18-edge-02",
+      "from": "v18-e02",
+      "to": "v18-e03",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v18-edge-03",
+      "from": "v18-e03",
+      "to": "v18-e04",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v18-edge-04",
+      "from": "v18-e04",
+      "to": "v18-e05",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v18-edge-05",
+      "from": "v18-e05",
+      "to": "v18-e07",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "v18-edge-06",
+      "from": "v18-e06",
+      "to": "v18-e07",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "v18-edge-07",
+      "from": "v18-e07",
+      "to": "v18-e08",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "v18-edge-08",
+      "from": "v18-e08",
+      "to": "v18-e09",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "cross-children-01",
+      "from": "v01-e06",
+      "to": "v02-e05",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-ruins-01",
+      "from": "v01-e10",
+      "to": "v02-e01",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-blockade-01",
+      "from": "v01-e05",
+      "to": "v02-e02",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "cross-memory-01",
+      "from": "v01-e03",
+      "to": "v02-e06",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-nana-01",
+      "from": "v02-e09",
+      "to": "v03-e01",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-tank-01",
+      "from": "v02-e04",
+      "to": "v03-e03",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-redemption-01",
+      "from": "v02-e01",
+      "to": "v03-e04",
+      "kind": "reveal",
+      "core": true
+    },
+    {
+      "id": "cross-memory-02",
+      "from": "v02-e06",
+      "to": "v03-e04",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-autonomy-01",
+      "from": "v02-e05",
+      "to": "v03-e06",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "cross-alliance-01",
+      "from": "v02-e03",
+      "to": "v03-e09",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "cross-redemption-02",
+      "from": "v03-e08",
+      "to": "v05-e02",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "cross-holy-fire-01",
+      "from": "v04-e09",
+      "to": "v05-e01",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-mark-01",
+      "from": "v04-e03",
+      "to": "v05-e04",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "cross-roder-01",
+      "from": "v04-e04",
+      "to": "v05-e05",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-children-02",
+      "from": "v04-e06",
+      "to": "v06-e01",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-angel-01",
+      "from": "v05-e03",
+      "to": "v06-e06",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "cross-angel-02",
+      "from": "v05-e03",
+      "to": "v06-e09",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-mark-02",
+      "from": "v05-e04",
+      "to": "v06-e06",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-desert-01",
+      "from": "v05-e08",
+      "to": "v06-e07",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-roder-02",
+      "from": "v05-e05",
+      "to": "v06-e07",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "cross-identity-news-01",
+      "from": "v05-e01",
+      "to": "v06-e02",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "cross-tank-02",
+      "from": "v03-e03",
+      "to": "v05-e09",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-angel-03",
+      "from": "v06-e06",
+      "to": "v07-e05",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-rosy-01",
+      "from": "v06-e09",
+      "to": "v07-e03",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-history-01",
+      "from": "v06-e07",
+      "to": "v07-e05",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-knight-01",
+      "from": "v06-e02",
+      "to": "v07-e08",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-dragon-01",
+      "from": "v05-e04",
+      "to": "v07-e02",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-armour-01",
+      "from": "v06-e08",
+      "to": "v07-e09",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "cross-cliffhanger-01",
+      "from": "v07-e09",
+      "to": "v08-e01",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-armour-02",
+      "from": "v06-e08",
+      "to": "v08-e01",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-rosy-02",
+      "from": "v07-e03",
+      "to": "v08-e08",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "cross-aroyo-01",
+      "from": "v01-e03",
+      "to": "v08-e05",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-altar-01",
+      "from": "v02-e01",
+      "to": "v08-e09",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-tuk-01",
+      "from": "v01-e07",
+      "to": "v08-e09",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "cross-altar-02",
+      "from": "v08-e09",
+      "to": "v09-e01",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-prophet-01",
+      "from": "v07-e04",
+      "to": "v09-e03",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-tank-03",
+      "from": "v05-e09",
+      "to": "v09-e09",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-rosy-03",
+      "from": "v08-e08",
+      "to": "v09-e08",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-industry-01",
+      "from": "v07-e01",
+      "to": "v09-e02",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "cross-knight-02",
+      "from": "v08-e06",
+      "to": "v09-e06",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "cross-taige-01",
+      "from": "v06-e01",
+      "to": "v09-e04",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-taige-02",
+      "from": "v09-e04",
+      "to": "v10-e01",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-emperor-skill-01",
+      "from": "v09-e07",
+      "to": "v10-e03",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-knight-03",
+      "from": "v09-e06",
+      "to": "v10-e04",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "cross-expedition-01",
+      "from": "v09-e03",
+      "to": "v10-e06",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-christine-01",
+      "from": "v09-e08",
+      "to": "v10-e08",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-christine-02",
+      "from": "v02-e08",
+      "to": "v10-e09",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-tank-04",
+      "from": "v09-e09",
+      "to": "v10-e02",
+      "kind": "payoff",
+      "core": false
     },
     {
       "id": "cross-seal-01",
-      "number": 6,
-      "label": "外封解除之后才有真正脱困",
-      "lane": 0
+      "from": "v10-e09",
+      "to": "v11-e01",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-christine-03",
+      "from": "v10-e08",
+      "to": "v11-e03",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-christine-04",
+      "from": "v09-e08",
+      "to": "v11-e04",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "cross-emperor-skill-02",
+      "from": "v10-e03",
+      "to": "v11-e07",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-armament-02",
+      "from": "v10-e04",
+      "to": "v11-e02",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-expedition-02",
+      "from": "v10-e06",
+      "to": "v11-e06",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-seabeast-01",
+      "from": "v10-e07",
+      "to": "v11-e04",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-church-agency-02",
+      "from": "v08-e06",
+      "to": "v11-e05",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-dragon-prayer-01",
+      "from": "v11-e09",
+      "to": "v12-e01",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-rosy-memory-01",
+      "from": "v10-e09",
+      "to": "v12-e02",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-expedition-03",
+      "from": "v11-e09",
+      "to": "v12-e03",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-prophet-03",
+      "from": "v09-e03",
+      "to": "v12-e04",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-crystal-awakening-01",
+      "from": "v11-e03",
+      "to": "v12-e09",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-emperor-skill-03",
+      "from": "v11-e07",
+      "to": "v12-e08",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-v15-church-agency",
+      "from": "v13-e03",
+      "to": "v15-e01",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-forest-01",
+      "from": "v10-e05",
+      "to": "v13-e02",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-church-agency-03",
+      "from": "v11-e05",
+      "to": "v13-e03",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-nana-03",
+      "from": "v11-e04",
+      "to": "v13-e02",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-empire-history-01",
+      "from": "v11-e04",
+      "to": "v13-e08",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-dragon-loss-01",
+      "from": "v12-e05",
+      "to": "v13-e06",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "cross-swamp-visitor-01",
+      "from": "v12-e09",
+      "to": "v13-e01",
+      "kind": "payoff",
+      "core": false
     },
     {
       "id": "cross-return-01",
-      "number": 7,
-      "label": "放逐与失联以实体返场收束",
-      "lane": 0
+      "from": "v13-e03",
+      "to": "v14-e09",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-training-01",
+      "from": "v13-e09",
+      "to": "v14-e01",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-mission-cost-01",
+      "from": "v13-e07",
+      "to": "v14-e02",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "cross-friendship-02",
+      "from": "v13-e05",
+      "to": "v14-e03",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "cross-state-building-01",
+      "from": "v12-e06",
+      "to": "v14-e05",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-faith-01",
+      "from": "v13-e02",
+      "to": "v14-e05",
+      "kind": "payoff",
+      "core": false
     },
     {
       "id": "cross-corpse-plan-01",
-      "number": 8,
-      "label": "回归后暂禁活尸方案",
-      "lane": 1
+      "from": "v14-e08",
+      "to": "v15-e01",
+      "kind": "reversal",
+      "core": true
+    },
+    {
+      "id": "cross-crystal-loss-01",
+      "from": "v12-e09",
+      "to": "v15-e03",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "cross-prophet-control-02",
+      "from": "v12-e05",
+      "to": "v15-e04",
+      "kind": "payoff",
+      "core": false
     },
     {
       "id": "cross-relics-01",
-      "number": 9,
-      "label": "遗物追索通向失落帝国",
-      "lane": 2
+      "from": "v13-e08",
+      "to": "v15-e06",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-legacy-use-01",
+      "from": "v14-e02",
+      "to": "v15-e06",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-faith-02",
+      "from": "v14-e09",
+      "to": "v15-e07",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-church-agency-04",
+      "from": "v11-e05",
+      "to": "v12-e07",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-v16-redmoon",
+      "from": "v15-e09",
+      "to": "v16-e01",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-v16-puppet",
+      "from": "v10-e04",
+      "to": "v16-e01",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-v16-angel-agency",
+      "from": "v15-e01",
+      "to": "v16-e02",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-v16-corpse-limit",
+      "from": "v15-e08",
+      "to": "v16-e06",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-v16-two-inheritances",
+      "from": "v13-e02",
+      "to": "v16-e04",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-v16-nature-cost",
+      "from": "v15-e07",
+      "to": "v16-e04",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "cross-v16-cutroman-death",
+      "from": "v14-e02",
+      "to": "v16-e02",
+      "kind": "reveal",
+      "core": false
     },
     {
       "id": "cross-v16-betrayal",
-      "number": 10,
-      "label": "共同使命被用于骗取夺体机会",
-      "lane": 0
+      "from": "v15-e06",
+      "to": "v16-e05",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "cross-v17-false-flag",
+      "from": "v16-e09",
+      "to": "v17-e01",
+      "kind": "payoff",
+      "core": false
     },
     {
       "id": "cross-v17-chaos",
-      "number": 11,
-      "label": "夺体危机在混沌之灵阶段逆转",
-      "lane": 1
+      "from": "v16-e08",
+      "to": "v17-e02",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-v17-history",
+      "from": "v15-e07",
+      "to": "v17-e05",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-v17-knight",
+      "from": "v14-e03",
+      "to": "v17-e07",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "cross-v17-prophet-control",
+      "from": "v15-e04",
+      "to": "v17-e03",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-v17-war",
+      "from": "v16-e06",
+      "to": "v17-e03",
+      "kind": "payoff",
+      "core": false
     },
     {
       "id": "cross-v18-return",
-      "number": 12,
-      "label": "红月开启后子民灵魂跨界归来",
-      "lane": 0
+      "from": "v17-e09",
+      "to": "v18-e01",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-v18-dragon-people",
+      "from": "v12-e01",
+      "to": "v18-e02",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-v18-gun",
+      "from": "v16-e01",
+      "to": "v18-e05",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-v18-memory-practice",
+      "from": "v14-e02",
+      "to": "v18-e04",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-v18-music",
+      "from": "v15-e02",
+      "to": "v18-e06",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-v18-source",
+      "from": "v17-e05",
+      "to": "v18-e07",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "cross-v18-divinity",
+      "from": "v17-e09",
+      "to": "v18-e08",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "cross-v18-nana",
+      "from": "v16-e04",
+      "to": "v18-e09",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "state-book-0a05fa972401",
+      "from": "v18-e04",
+      "to": "book-0a05fa972401",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-49e8bb5d0f08",
+      "from": "v08-e07",
+      "to": "book-49e8bb5d0f08",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-c0fbac950b52",
+      "from": "v09-e04",
+      "to": "book-c0fbac950b52",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-9baae09a0d12",
+      "from": "v10-e02",
+      "to": "book-9baae09a0d12",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-e90db68cb625",
+      "from": "v16-e04",
+      "to": "book-e90db68cb625",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-6e1451b9badd",
+      "from": "v05-e05",
+      "to": "book-6e1451b9badd",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-09f441653222",
+      "from": "v15-e07",
+      "to": "book-09f441653222",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-2c92e5ad3024",
+      "from": "v18-e08",
+      "to": "book-2c92e5ad3024",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-02ba45413b1e",
+      "from": "v18-e09",
+      "to": "book-02ba45413b1e",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-c8d5d9e2b50a",
+      "from": "v09-e05",
+      "to": "book-c8d5d9e2b50a",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-be62d277e700",
+      "from": "v18-e05",
+      "to": "book-be62d277e700",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-4f19b0c4054c",
+      "from": "v18-e09",
+      "to": "book-4f19b0c4054c",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-442e53d9c11d",
+      "from": "v18-e08",
+      "to": "book-442e53d9c11d",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-155fd141a183",
+      "from": "v17-e09",
+      "to": "book-155fd141a183",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-3ec69c740e20",
+      "from": "v18-e09",
+      "to": "book-3ec69c740e20",
+      "kind": "annotation",
+      "core": false
     }
   ],
   "threads": [
@@ -703,276 +3652,676 @@
       "id": "book-0a05fa972401",
       "number": 1,
       "status": "partial",
-      "volumes": [
-        1,
-        2,
-        3,
-        8,
-        14,
-        18
-      ],
-      "y": 3262,
-      "question": "记忆所得如何改变选择，哪些能力仍不能继承？",
+      "anchor": "v18-e04",
       "conclusion": "吞魂记忆能提供知识和技能线索，却不等于原力量、人格或所有理解自动继承。切罗曼尔记忆要经判断与试用，哈力传的是战技经验，终卷反向力及追踪付出受伤和失控风险后才能应用。此为跨阶段机制归纳，不据结尾推成所有能力已掌握或无上限。"
     },
     {
       "id": "book-49e8bb5d0f08",
       "number": 2,
       "status": "open",
-      "volumes": [
-        1,
-        8
-      ],
-      "y": 3406,
-      "question": "氓族若得知阿罗约真实遭遇，联盟会如何改变？",
+      "anchor": "v08-e07",
       "conclusion": "阿罗约与氓族的身份关系已确认，黑龙记忆上的亲近与隐瞒杀人事实同时成立。没有直接展示族长或族民得知死因后的反应，不能以后来奉誓或共同作战视作已知情谅解。"
     },
     {
       "id": "book-c0fbac950b52",
       "number": 3,
       "status": "partial",
-      "volumes": [
-        1,
-        2,
-        8,
-        9
-      ],
-      "y": 3550,
-      "question": "祭坛遗产如何延续，帝国消失为何？",
+      "anchor": "v09-e04",
       "conclusion": "沼泽遗迹的诅咒、图克诞生与旧领主守护记忆获得说明；后来揭示的是三君王、放逐大陆及帝国子民回归。两层历史不可凭同称不死国度直接等同，旧沼泽古国消失的完整因由仍未充分解释。"
     },
     {
       "id": "book-9baae09a0d12",
       "number": 4,
       "status": "partial",
-      "volumes": [
-        2,
-        3,
-        5,
-        9,
-        10
-      ],
-      "y": 3694,
-      "question": "战魂能否真正炼化或可靠驾驭？",
+      "anchor": "v10-e02",
       "conclusion": "第九集确定黑龙可限制坦克躯体行动，不能支配其战意；身体权限与人格炼化有别。后文没有给出战意完全服从或最终处置的直接结果，保留这项控制边界。"
     },
     {
       "id": "book-e90db68cb625",
       "number": 5,
       "status": "partial",
-      "volumes": [
-        2,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        13,
-        14,
-        16
-      ],
-      "y": 3838,
-      "question": "克丽丝是否能借黑龙和媒介摆脱封印？",
+      "anchor": "v16-e04",
       "conclusion": "克丽丝冥月女神身份、封印、选择娜娜传承和萝茜代言陆续明确，终卷又交代她独立领悟、未参加当年放逐。没有直接写本体解封或后记个人去向；娜娜青春不能替代她本人获释的证据。"
     },
     {
       "id": "book-6e1451b9badd",
       "number": 6,
       "status": "open",
-      "volumes": [
-        4,
-        5
-      ],
-      "y": 3982,
-      "question": "罗得早先如何逃过审判，何时转生？",
+      "anchor": "v05-e05",
       "conclusion": "第五集相遇、后来的音乐发展和后记演奏都没有回答此处所问的旧次逃过审判方式与准确转生时点，因此保留open。后续生存和专长进展属其他问法，不能仅凭同一人物的新经历把本项旧案标为部分获答。"
     },
     {
       "id": "book-09f441653222",
       "number": 7,
       "status": "partial",
-      "volumes": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        12,
-        15
-      ],
-      "y": 4126,
-      "question": "原萝茜能否整合残忆并自主运用借来力量？",
+      "anchor": "v15-e07",
       "conclusion": "原萝茜苏醒、异源残忆与借克丽丝力量护墙都已呈现，旧恨和亲近并存。第七集降临天使意念被吞并不等于原萝茜人格与克丽丝合并，后记未点名她；记忆完全整合及最终生活仍保留未知。"
     },
     {
       "id": "book-2c92e5ad3024",
       "number": 8,
       "status": "partial",
-      "volumes": [
-        5,
-        6,
-        7,
-        8,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18
-      ],
-      "y": 4270,
-      "question": "旧帝国及黑晶的来源与放逐后果怎样得到说明？",
+      "anchor": "v18-e08",
       "conclusion": "三君王及放逐史、哈力与子民灵魂回归、黑晶为混沌之灵实体、残印被抹及切里莫造新本源陆续明确。起始之夜旧本源觉醒到爆炸的完整讲述被打断，切里莫口述不等独立证实的全部宇宙史；回归也不是物理大陆迁来。"
     },
     {
       "id": "book-02ba45413b1e",
       "number": 9,
       "status": "partial",
-      "volumes": [
-        8,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18
-      ],
-      "y": 4414,
-      "question": "信徒力量的分配与神祇代理权最终如何重组？",
+      "anchor": "v18-e09",
       "conclusion": "受教会支配的天使可以作不同选择，三主神与尼鲁达双灵格的制度操作逐渐揭明。终卷补送枪机缘、虚设至高称号以及女灵格赠格改立的行为；教皇个人结局、改立的具体执行和完整新制度没有展示。"
     },
     {
       "id": "book-c8d5d9e2b50a",
       "number": 10,
       "status": "open",
-      "volumes": [
-        9
-      ],
-      "y": 4558,
-      "question": "祈愿与死后凝聚魂火有何关系？",
+      "anchor": "v09-e05",
       "conclusion": "临终祈愿与死后魂火凝聚相邻出现，黑龙也观察到异常，但没有直接说明特殊契约或具体信仰因果。不能用后期一般信仰机制自动补成老罗格这次现象的确切解释。"
     },
     {
       "id": "book-be62d277e700",
       "number": 11,
       "status": "partial",
-      "volumes": [
-        9,
-        10,
-        11,
-        16,
-        18
-      ],
-      "y": 4702,
-      "question": "如何认主、吞魂制造傀儡，古主遗产何来？",
+      "anchor": "v18-e05",
       "conclusion": "噬魂与达罗亚旧主关系、吞魂形成傀儡并进化、雷奥恢复神智均获后证。黑龙能复制枪却仍不能支配枪内傀儡；教皇借雷奥送枪布置机缘已明。武器完整流转链、所有傀儡人格记忆及最终权限并未全面解释。"
     },
     {
       "id": "book-4f19b0c4054c",
       "number": 12,
       "status": "partial",
-      "volumes": [
-        10,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18
-      ],
-      "y": 4846,
-      "question": "自然神的生存策略会付出什么道德和制度代价？",
+      "anchor": "v18-e09",
       "conclusion": "自然神身份、媒介娜娜、保教合作与暗杀旧大长老的代价逐步显现；后记娜娜青春验证传承持续影响。不能据此补自然神本源全部转移、全部信徒自愿接受或政治后果已解决，早期本源与分身通路的疑点仍保留。"
     },
     {
       "id": "book-442e53d9c11d",
       "number": 13,
       "status": "partial",
-      "volumes": [
-        15,
-        17,
-        18
-      ],
-      "y": 4990,
-      "question": "两独立灵格怎样面对共同历史与本源危机？",
+      "anchor": "v18-e08",
       "conclusion": "教皇与迦莲娜躯内尼鲁达灵格已有独立人格，不能按共同来源合并。女灵格终卷交公正神格后削翼疲惫离开，教皇余寿没有直接结局；未显示二者复合、原天使人格恢复或二者后记去向。"
     },
     {
       "id": "book-155fd141a183",
       "number": 14,
       "status": "resolved",
-      "volumes": [
-        16,
-        17
-      ],
-      "y": 5134,
-      "question": "谁把不死军团挂到黑龙名下，借此获取什么？",
+      "anchor": "v17-e09",
       "conclusion": "教皇安排安德鲁与光冒用黑龙名义、尼鲁达双灵格收恐惧信仰已明确，两个假统帅被吞灭、旧控制瓦解。仅关闭现问的操盘者、执行者与获益目的；黑龙阵营此前真实平民杀戮、公众污名是否澄清及责任处置没有被后记共处消除，继续归入alliance-war-and-divine-power与church-institution-and-angel-agency的partial广线。"
     },
     {
       "id": "book-3ec69c740e20",
       "number": 15,
       "status": "partial",
-      "volumes": [
-        17,
-        18
-      ],
-      "y": 5278,
-      "question": "制造者如何失去本源控制，黑龙能否阻止其吞噬世界？",
+      "anchor": "v18-e09",
       "conclusion": "切里莫造本源求超脱却被吞灭有明确叙述；黑龙投入争夺意志，后记世界存续并醒返。没有展示内部胜负经过、切里莫所造本源的原有意识如何处置或黑龙最终权限，不能补成全机制解释或全能等级。"
     }
   ],
-  "thread_top": 3056,
-  "stages": [
-    [
-      1,
-      3,
-      "求生与同伴"
-    ],
-    [
-      4,
-      6,
-      "照护与觉醒"
-    ],
-    [
-      7,
-      9,
-      "自由与领地"
-    ],
-    [
-      10,
-      12,
-      "海皇与龙岛"
-    ],
-    [
-      13,
-      15,
-      "放逐与遗产"
-    ],
-    [
-      16,
-      17,
-      "夺体与假旗"
-    ],
-    [
-      18,
-      18,
-      "本源与归来"
-    ]
+  "roots": [
+    "v01-e01",
+    "v01-e10",
+    "v03-e02",
+    "v04-e01",
+    "v04-e02",
+    "v04-e04",
+    "v04-e06",
+    "v06-e03",
+    "v06-e05",
+    "v07-e01",
+    "v08-e04",
+    "v09-e05",
+    "v09-e07",
+    "v15-e02",
+    "v16-e09"
   ],
-  "event_top": 1030,
-  "start": 680,
-  "step": 440,
+  "forks": [
+    "v01-e03",
+    "v01-e05",
+    "v01-e06",
+    "v01-e07",
+    "v02-e01",
+    "v02-e03",
+    "v02-e04",
+    "v02-e05",
+    "v02-e06",
+    "v03-e03",
+    "v03-e04",
+    "v04-e03",
+    "v04-e04",
+    "v04-e06",
+    "v05-e01",
+    "v05-e03",
+    "v05-e04",
+    "v05-e05",
+    "v05-e06",
+    "v06-e01",
+    "v06-e03",
+    "v06-e05",
+    "v06-e06",
+    "v06-e07",
+    "v06-e08",
+    "v07-e01",
+    "v07-e02",
+    "v07-e04",
+    "v08-e04",
+    "v08-e05",
+    "v08-e06",
+    "v09-e03",
+    "v09-e06",
+    "v09-e07",
+    "v09-e08",
+    "v10-e03",
+    "v10-e04",
+    "v10-e06",
+    "v10-e07",
+    "v10-e08",
+    "v10-e09",
+    "v11-e03",
+    "v11-e04",
+    "v11-e05",
+    "v11-e07",
+    "v11-e09",
+    "v12-e01",
+    "v12-e05",
+    "v12-e06",
+    "v12-e09",
+    "v13-e02",
+    "v13-e03",
+    "v13-e04",
+    "v13-e05",
+    "v13-e07",
+    "v13-e08",
+    "v14-e02",
+    "v14-e03",
+    "v14-e06",
+    "v14-e08",
+    "v15-e01",
+    "v15-e06",
+    "v15-e07",
+    "v15-e08",
+    "v16-e01",
+    "v16-e02",
+    "v16-e04",
+    "v17-e04",
+    "v17-e05",
+    "v17-e07",
+    "v17-e09"
+  ],
+  "junctions": [
+    "v01-e09",
+    "v02-e02",
+    "v02-e05",
+    "v02-e09",
+    "v03-e03",
+    "v03-e04",
+    "v03-e06",
+    "v03-e09",
+    "v04-e07",
+    "v04-e08",
+    "v05-e09",
+    "v05-e04",
+    "v05-e08",
+    "v06-e06",
+    "v06-e07",
+    "v06-e08",
+    "v06-e09",
+    "v07-e02",
+    "v07-e05",
+    "v07-e07",
+    "v07-e09",
+    "v08-e01",
+    "v08-e05",
+    "v08-e06",
+    "v08-e09",
+    "v09-e04",
+    "v09-e06",
+    "v09-e08",
+    "v09-e09",
+    "v10-e03",
+    "v10-e04",
+    "v10-e08",
+    "v10-e09",
+    "v11-e02",
+    "v11-e03",
+    "v11-e04",
+    "v11-e06",
+    "v11-e07",
+    "v11-e09",
+    "v12-e03",
+    "v12-e04",
+    "v12-e08",
+    "v13-e02",
+    "v13-e06",
+    "v13-e07",
+    "v13-e08",
+    "v14-e02",
+    "v14-e03",
+    "v14-e05",
+    "v14-e08",
+    "v14-e09",
+    "v15-e01",
+    "v15-e04",
+    "v15-e06",
+    "v15-e07",
+    "v16-e01",
+    "v16-e02",
+    "v16-e04",
+    "v16-e05",
+    "v16-e06",
+    "v17-e01",
+    "v17-e03",
+    "v17-e04",
+    "v17-e07",
+    "v17-e09",
+    "v18-e04",
+    "v18-e05",
+    "v18-e07",
+    "v18-e08",
+    "v18-e09"
+  ],
+  "core": "book-37dd82abc178",
   "time_labels": {
     "v09-e05": "跨段聚合",
+    "v14-e04": "缺席期回叙",
+    "v14-e05": "缺席期补叙",
     "v14-e06": "缺席期回叙",
     "v17-e05": "神史回叙"
+  },
+  "volume_bounds": {
+    "1": {
+      "x": 396.0,
+      "y": 475.5,
+      "width": 2569.0,
+      "height": 2199.0
+    },
+    "2": {
+      "x": 868.0,
+      "y": 1209.5,
+      "width": 2521.0,
+      "height": 1709.0
+    },
+    "3": {
+      "x": 868.0,
+      "y": 1945.5,
+      "width": 4093.0,
+      "height": 1441.5
+    },
+    "4": {
+      "x": 1716.0,
+      "y": 2679.5,
+      "width": 2250.0,
+      "height": 1215.5
+    },
+    "5": {
+      "x": 2291.0,
+      "y": 3437.0,
+      "width": 2670.0,
+      "height": 1168.0
+    },
+    "6": {
+      "x": 1478.0,
+      "y": 4141.5,
+      "width": 2910.0,
+      "height": 909.5
+    },
+    "7": {
+      "x": 1902.0,
+      "y": 4833.5,
+      "width": 2652.0,
+      "height": 1335.5
+    },
+    "8": {
+      "x": 90.0,
+      "y": 5526.0,
+      "width": 3450.0,
+      "height": 903.5
+    },
+    "9": {
+      "x": 1084.0,
+      "y": 6212.0,
+      "width": 4195.0,
+      "height": 801.0
+    },
+    "10": {
+      "x": 1779.0,
+      "y": 7036.5,
+      "width": 3870.0,
+      "height": 1026.5
+    },
+    "11": {
+      "x": 1655.0,
+      "y": 7824.0,
+      "width": 3757.0,
+      "height": 2156.0
+    },
+    "12": {
+      "x": 1655.0,
+      "y": 8559.0,
+      "width": 4070.0,
+      "height": 2869.5
+    },
+    "13": {
+      "x": 1961.0,
+      "y": 9294.0,
+      "width": 2680.0,
+      "height": 1889.5
+    },
+    "14": {
+      "x": 1495.0,
+      "y": 9986.0,
+      "width": 3806.0,
+      "height": 1709.0
+    },
+    "15": {
+      "x": 1607.0,
+      "y": 10721.0,
+      "width": 4825.0,
+      "height": 1219.0
+    },
+    "16": {
+      "x": 1486.0,
+      "y": 11456.0,
+      "width": 3273.0,
+      "height": 1709.0
+    },
+    "17": {
+      "x": 1993.0,
+      "y": 12191.0,
+      "width": 2766.0,
+      "height": 1709.0
+    },
+    "18": {
+      "x": 2072.0,
+      "y": 12947.5,
+      "width": 3713.0,
+      "height": 2437.5
+    }
+  },
+  "thread_bounds": {
+    "book-37dd82abc178": {
+      "x": 90.0,
+      "y": 475.5,
+      "width": 5635.0,
+      "height": 14909.5
+    },
+    "book-c55cdb2efcb4": {
+      "x": 514.0,
+      "y": 475.5,
+      "width": 5271.0,
+      "height": 14909.5
+    },
+    "book-0a05fa972401": {
+      "x": 90.0,
+      "y": 965.5,
+      "width": 4447.0,
+      "height": 13416.5
+    },
+    "book-49e8bb5d0f08": {
+      "x": 90.0,
+      "y": 965.5,
+      "width": 860.0,
+      "height": 5203.5
+    },
+    "book-d57a5d7a5b5a": {
+      "x": 514.0,
+      "y": 965.5,
+      "width": 4447.0,
+      "height": 2667.5
+    },
+    "book-4591509faba8": {
+      "x": 396.0,
+      "y": 1209.5,
+      "width": 2180.0,
+      "height": 1709.0
+    },
+    "book-1a972091c7f4": {
+      "x": 90.0,
+      "y": 1945.5,
+      "width": 1972.0,
+      "height": 4783.5
+    },
+    "book-c0fbac950b52": {
+      "x": 479.0,
+      "y": 497.0,
+      "width": 2486.0,
+      "height": 6516.0
+    },
+    "book-994cfa997ae2": {
+      "x": 90.0,
+      "y": 1209.5,
+      "width": 2875.0,
+      "height": 5519.5
+    },
+    "book-9baae09a0d12": {
+      "x": 1174.0,
+      "y": 2189.5,
+      "width": 3756.0,
+      "height": 5086.0
+    },
+    "book-e90db68cb625": {
+      "x": 2232.0,
+      "y": 1209.5,
+      "width": 2291.0,
+      "height": 10975.5
+    },
+    "book-cb9c67d1cdae": {
+      "x": 868.0,
+      "y": 2679.5,
+      "width": 4433.0,
+      "height": 12705.5
+    },
+    "book-fa62676c9bc3": {
+      "x": 1292.0,
+      "y": 2435.5,
+      "width": 1284.0,
+      "height": 461.5
+    },
+    "book-b3781f6d7341": {
+      "x": 1716.0,
+      "y": 2701.0,
+      "width": 2161.0,
+      "height": 1435.0
+    },
+    "book-1ac1ba7f3ac7": {
+      "x": 3017.0,
+      "y": 2679.5,
+      "width": 949.0,
+      "height": 1215.5
+    },
+    "book-b2ff15da89c0": {
+      "x": 3441.0,
+      "y": 2925.5,
+      "width": 466.0,
+      "height": 483.0
+    },
+    "book-d9427f2553c6": {
+      "x": 2798.0,
+      "y": 2925.5,
+      "width": 1166.0,
+      "height": 1701.0
+    },
+    "book-2e1b9f76cfd0": {
+      "x": 2682.0,
+      "y": 2679.5,
+      "width": 1164.0,
+      "height": 1215.5
+    },
+    "book-6e1451b9badd": {
+      "x": 2291.0,
+      "y": 2679.5,
+      "width": 1162.0,
+      "height": 975.0
+    },
+    "book-bd3759586c4a": {
+      "x": 2291.0,
+      "y": 2679.5,
+      "width": 4141.0,
+      "height": 10464.0
+    },
+    "book-09f441653222": {
+      "x": 2020.0,
+      "y": 3940.0,
+      "width": 2328.0,
+      "height": 8000.0
+    },
+    "book-8477942e0118": {
+      "x": 1486.0,
+      "y": 3940.0,
+      "width": 3404.0,
+      "height": 10683.0
+    },
+    "book-77f072ce087d": {
+      "x": 2863.0,
+      "y": 4163.0,
+      "width": 2786.0,
+      "height": 7020.5
+    },
+    "book-4e6bf7ea8c15": {
+      "x": 1478.0,
+      "y": 3699.0,
+      "width": 2468.0,
+      "height": 11445.0
+    },
+    "book-db9eea600737": {
+      "x": 1607.0,
+      "y": 3940.0,
+      "width": 3930.0,
+      "height": 9960.0
+    },
+    "book-2c92e5ad3024": {
+      "x": 1486.0,
+      "y": 4163.0,
+      "width": 4050.0,
+      "height": 10981.0
+    },
+    "book-15cb5511c407": {
+      "x": 1478.0,
+      "y": 4141.5,
+      "width": 737.0,
+      "height": 3134.0
+    },
+    "book-5c6c99356f4d": {
+      "x": 1084.0,
+      "y": 4833.5,
+      "width": 5348.0,
+      "height": 10551.5
+    },
+    "book-bf7a72bd8f37": {
+      "x": 1993.0,
+      "y": 5324.0,
+      "width": 3732.0,
+      "height": 8576.0
+    },
+    "book-f7d8b02957f0": {
+      "x": 1607.0,
+      "y": 5973.0,
+      "width": 2204.0,
+      "height": 6457.0
+    },
+    "book-02ba45413b1e": {
+      "x": 1486.0,
+      "y": 5526.0,
+      "width": 3273.0,
+      "height": 9859.0
+    },
+    "book-c8d5d9e2b50a": {
+      "x": 2592.0,
+      "y": 6233.5,
+      "width": 436.0,
+      "height": 196.0
+    },
+    "book-be62d277e700": {
+      "x": 1486.0,
+      "y": 6533.0,
+      "width": 4163.0,
+      "height": 8090.0
+    },
+    "book-4f19b0c4054c": {
+      "x": 2579.0,
+      "y": 7824.0,
+      "width": 3070.0,
+      "height": 7561.0
+    },
+    "book-67592e865ba5": {
+      "x": 2745.0,
+      "y": 7338.0,
+      "width": 1603.0,
+      "height": 1438.5
+    },
+    "book-7ba6c4bc6db7": {
+      "x": 3781.0,
+      "y": 9049.0,
+      "width": 1637.0,
+      "height": 4094.5
+    },
+    "book-0ee308c4a60f": {
+      "x": 2232.0,
+      "y": 9294.0,
+      "width": 3304.0,
+      "height": 2156.0
+    },
+    "book-a47d35bd1533": {
+      "x": 3329.0,
+      "y": 8804.0,
+      "width": 1144.0,
+      "height": 707.5
+    },
+    "book-688f780712b6": {
+      "x": 1495.0,
+      "y": 9294.0,
+      "width": 2215.0,
+      "height": 2401.0
+    },
+    "book-f6314cbd93ce": {
+      "x": 1486.0,
+      "y": 9986.0,
+      "width": 2460.0,
+      "height": 5158.0
+    },
+    "book-0338447aee32": {
+      "x": 3510.0,
+      "y": 10742.5,
+      "width": 2922.0,
+      "height": 4642.5
+    },
+    "book-488aad623ce0": {
+      "x": 1486.0,
+      "y": 11211.0,
+      "width": 1411.0,
+      "height": 2444.0
+    },
+    "book-442e53d9c11d": {
+      "x": 2072.0,
+      "y": 11701.0,
+      "width": 1874.0,
+      "height": 3443.0
+    },
+    "book-155fd141a183": {
+      "x": 1993.0,
+      "y": 11456.0,
+      "width": 2766.0,
+      "height": 2444.0
+    },
+    "book-3ec69c740e20": {
+      "x": 3357.0,
+      "y": 12191.0,
+      "width": 589.0,
+      "height": 3194.0
+    },
+    "book-2e1eb7a1d515": {
+      "x": 2192.0,
+      "y": 12947.5,
+      "width": 3593.0,
+      "height": 2437.5
+    }
+  },
+  "layout": {
+    "engine": "Graphviz dot",
+    "version": "16.1.0",
+    "direction": "按关系自上而下分枝；无集数父子结构",
+    "echo": "显示但不决定层级",
+    "back_references": "保留原方向，不强制为向下推进"
+  },
+  "states": {
+    "partial": 11,
+    "open": 3,
+    "resolved": 1
   }
 }

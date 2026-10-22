@@ -4,7 +4,7 @@
 
 ## 当前可审查成果
 
-- **[全书一张大树图](library/reports/super-skeleton/reading/plot/whole-book.md)**：沿主线串起18集、77个关键事件与15条暗线，提供完整PNG、SVG和可拖动缩放的离线页面。
+- **[全书一张大树图](library/reports/super-skeleton/reading/plot/whole-book.md)**：从主线分枝、旁支另起，在共享事件交汇；包含163个事件与15条暗线，提供完整PNG、SVG和可拖动缩放的离线页面。
 - **[主线与暗线图片版](library/reports/super-skeleton/reading/plot/images.md)**：49张PNG及SVG，沿主线时间推进，明确标注部分回收和未回收的暗线。
 - **[《超级骷髅兵》GitHub直接阅读入口](library/reports/super-skeleton/reading/README.md)**：18集完整研究、九维综合、226张中文卡片、主线树与暗线网络、198项疑点回收。
 - [人物卡](library/reports/super-skeleton/reading/characters.md) · [场景卡](library/reports/super-skeleton/reading/scenes.md) · [机制卡](library/reports/super-skeleton/reading/patterns.md) · [剧情与暗线](library/reports/super-skeleton/reading/plot/README.md)。点击标题即可阅读，无需下载HTML。

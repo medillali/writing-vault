@@ -1,48 +1,62 @@
 {
-  "selection": "关键脉络版",
-  "events": 77,
-  "total_events_in_research": 163,
-  "bridges": 12,
+  "selection": "全事件分枝交汇版",
+  "events": 163,
+  "relations": 265,
+  "independent_origins": 15,
+  "forks": 71,
+  "junctions": 70,
   "hidden_threads": 15,
   "dimensions": [
-    9740,
-    5558
+    6659,
+    15809
   ],
-  "png_bytes": 2234097,
+  "png_bytes": 5591672,
   "reading_pages": 298,
-  "valid_links": 4704,
+  "valid_links": 4705,
   "old_49_images_unchanged": true,
-  "source_and_notes_unchanged_from": "5f9548e0127cae5a23b6a3e6330e976130532b5a",
+  "source_and_notes_unchanged_from": "99c54c95f58e3da7d68fdd460018086b64581340",
   "checks": "passed",
   "browser": {
     "images": [
       "tree.png",
-      "tree-preview.png"
+      "tree-preview.png",
+      "tree-junction-preview.png"
     ],
-    "svg_text_lines": 510,
+    "svg_text_lines": 785,
     "text_overflow": 0,
-    "event_cards": 77,
+    "node_overlap": 0,
+    "edges_through_unrelated_nodes": 0,
+    "event_cards": 163,
+    "edges": 265,
     "hidden_threads": 15,
+    "thread_choices": 46,
     "browser_checks": [
       "standalone SVG download",
       "event click and evidence",
+      "neighbor navigation",
       "search",
-      "thread highlighting and unresolved state",
+      "thread highlighting",
+      "edge keyboard details",
+      "shared junction node identity",
+      "mainline focus",
+      "unresolved status focus",
+      "junction focus",
+      "volume focus",
       "clear highlighting",
-      "bridge details",
       "zoom",
-      "pan",
-      "volume jump",
-      "section jump"
+      "pan"
     ],
     "external_requests": 0,
     "javascript_errors": 0
   },
   "sha256": {
-    "index.html": "a0d24b2b8a1996a9e62a8e1e10b683eaeadfe5b3f68406ff33320c0a9fd3b0fd",
-    "manifest.json": "b141cbe95ff285261efcccc5bd34f49dc294d7173c885086921db243bd390c98",
-    "tree-preview.png": "ba378a054f0f84126b01d719c48b6dc4f726a3daa6e61196a03dd33e4b0a2971",
-    "tree.png": "383f820c3d5380e63697e8830ed5eada7c1ca36dea114c3989306195cbee2165",
-    "tree.svg": "178c97544dd132406f41893da1aeadc5b54397b7b2e6eae0877bae7692da0983"
+    "index.html": "4d889a0196494ec543a57d506ad4ae4ebcc68805c993bdc57187ed2a1c0d280d",
+    "layout-input.json": "a130ec247e4c03d45207612685864c9a6881bad0aa079671a27b57784bb012dd",
+    "layout.json": "9d0cb2126af1a4b20032873222fb90989371bcddf5ecc46423a73dfb337a3dfb",
+    "manifest.json": "0efd07ffcc8a3a6e6ce430844098ee8e045ae7f2e4cf375b37c8ca0dcd1464a1",
+    "tree-junction-preview.png": "9db074e5fe3ea7c94bb13ca3cf3810371b9e4f843b37590a3f6925646d425318",
+    "tree-preview.png": "0cff6ab00adeb3862bac75d7298bfe32ac263f138811aaaf769a34d1c4c4ef49",
+    "tree.png": "3ef6d74dd12506e0555b54956d39968790b3999a9ad9035a57219637cd6c82b1",
+    "tree.svg": "2f3f57174c2f94c498af5fa32086595ca9ad09ee1446e95e9297294dd6a8578d"
   }
 }
