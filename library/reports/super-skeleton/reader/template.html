@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="light"><title>超级骷髅兵 · 剧情阅读</title><style>/* READER_STYLE */</style></head>
+<body>
+<header class="masthead" id="masthead"><button id="menu" class="icon-button" aria-label="打开阅读目录" aria-expanded="false">☰</button><div class="brand"><span class="eyebrow">PRIVATE WRITING LIBRARY</span><strong>超级骷髅兵 <span>剧情阅读</span></strong></div><span class="book-count">163 个事件 · 46 条剧情线</span><button id="resume" hidden>继续上次</button><button id="home">全书骨架</button></header>
+<div id="shell">
+<aside id="navigation" aria-label="阅读目录"><div class="nav-heading"><strong>阅读目录</strong><button id="nav-close" aria-label="关闭阅读目录">关闭</button></div>
+<form id="search-form"><label for="search">找到人物或事件</label><div class="search-row"><input id="search" type="search" placeholder="输入人物、事件、编号"><button id="search-submit" aria-label="搜索">查找</button></div></form>
+<label class="select-label" for="stage-select">剧情阶段</label><select id="stage-select"><option value="">选择阶段</option></select><div id="stage-nav"></div>
+<label class="select-label" for="thread-select">主线 / 支线 / 暗线</label><select id="thread-select"><option value="">选择一条剧情线</option></select>
+<label class="select-label" for="character-select">按人物卡查事件</label><select id="character-select"><option value="">选择人物卡（不合并同名）</option></select>
+<div class="nav-actions"><button id="show-junctions">查看交汇点</button><button id="show-open">待回收暗线 <span>14</span></button></div>
+<details class="progress-tools"><summary>阅读进度与文件</summary><p>进度保存在当前浏览器。换设备可导出后导入。</p><button id="export-progress">导出阅读进度</button><label class="file-button" for="import-progress">导入阅读进度<input id="import-progress" type="file" accept="application/json,.json"></label><a href="https://github.com/medillali/writing-vault/blob/main/library/reports/super-skeleton/reading/plot/whole-book.md" target="_blank" rel="noopener">完整图片与说明（GitHub）</a><p>图片链接需要联网并登录私有仓库；本阅读器可离线使用。</p></details>
+<p class="nav-foot">研究草稿 · 待审阅<br>剧情事实、推断与未解问题保留区分。</p></aside>
+<main id="main"><div class="scope-header"><div class="location-row"><button id="back" disabled>← 返回刚才</button><p id="breadcrumb"></p></div><div class="scope-heading"><div><h1 id="scope-title"></h1><p id="scope-subtitle"></p></div><div class="mode-switch" role="group" aria-label="阅读方式"><button id="mode-cards" aria-pressed="false">卡片</button><button id="mode-map" aria-pressed="false">关系图</button></div></div><div id="scope-options"></div></div>
+<div id="cards" class="scroll-region" tabindex="-1"></div>
+<section id="graph" hidden aria-label="当前范围关系图"><div class="graph-tools"><button id="graph-readable">可读大小</button><button id="graph-fit">全范围</button><button id="graph-minus" aria-label="缩小关系图">−</button><output id="graph-scale">100%</output><button id="graph-plus" aria-label="放大关系图">＋</button><button id="expand-graph" hidden>再展开一层</button><button id="read-current" hidden>读这个事件</button><span>实线：因果　虚线：其他关系</span></div><div id="graph-viewport" tabindex="0" aria-label="可拖动缩放的局部关系图"><div id="graph-canvas"></div></div><p class="graph-hint">点击事件查看所有前因与后续。拖动、滚轮或双指缩放；也可使用上方按钮。</p></section>
+</main>
+<aside id="detail-panel" hidden aria-label="事件详情"><div class="detail-toolbar"><button id="detail-back">← 返回刚才</button><button id="detail-close" aria-label="关闭详情">关闭</button></div><div id="detail-body" class="scroll-region"></div></aside>
+</div><button id="scrim" aria-label="关闭阅读目录" hidden></button><div id="notice" role="status" aria-live="polite"></div>
+<script>const READER_DATA=/* READER_DATA */;</script><script>/* READER_MODEL */</script><script>/* READER_GRAPH */</script><script>/* READER_APP */</script>
+</body></html>

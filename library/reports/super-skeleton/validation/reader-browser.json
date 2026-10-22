@@ -1,0 +1,24 @@
+{
+  "desktop": true,
+  "mobile_emulation": true,
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "checks": [
+    "all incoming and outgoing relations",
+    "stable node positions",
+    "shared event identity",
+    "two-hop local map",
+    "branch entry and exact return",
+    "reading state export and invalid import",
+    "empty search",
+    "offline"
+  ],
+  "page_errors": [],
+  "external_requests": [],
+  "real_phone_verified": false
+}

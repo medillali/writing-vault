@@ -4,6 +4,8 @@
 
 ## 当前可审查成果
 
+- **[PC／手机剧情阅读器](library/reports/super-skeleton/reading/plot/reader.md)**：PC分阶段看关系图，手机沿事件卡片阅读；支线跳转、全部前因后果与原位返回。可下载单文件离线使用，进度支持导出导入。
+
 - **[全书一张大树图](library/reports/super-skeleton/reading/plot/whole-book.md)**：从主线分枝、旁支另起，在共享事件交汇；包含163个事件与15条暗线，提供完整PNG、SVG和可拖动缩放的离线页面。
 - **[主线与暗线图片版](library/reports/super-skeleton/reading/plot/images.md)**：49张PNG及SVG，沿主线时间推进，明确标注部分回收和未回收的暗线。
 - **[《超级骷髅兵》GitHub直接阅读入口](library/reports/super-skeleton/reading/README.md)**：18集完整研究、九维综合、226张中文卡片、主线树与暗线网络、198项疑点回收。

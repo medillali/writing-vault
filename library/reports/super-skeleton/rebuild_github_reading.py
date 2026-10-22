@@ -170,6 +170,7 @@ def make_cards():
 def make_plot():
     root = next(n for n in graph['nodes'] if n['kind'] == 'story')
     lines = ['# 主线树与暗线目录', '', '[全书阅读首页](../README.md) · [全部265条语义关系](relations.md)', '',
+             '**[PC／手机剧情阅读器](reader.md)**：PC从阶段骨架进入局部图，手机沿事件卡片阅读；查看全部前因后果、进入支线并返回原位置。', '',
              '**[全书一张大树图](whole-book.md)**：163个事件、265条关系；支线另起、交汇后再分枝，暗线状态贴在对应枝端。', '',
              '[打开主线与暗线图片版](images.md)：全书阶段树、18集推进图、15条暗线时间图。PNG可直接保存，SVG可放大。', '',
              '蓝色主干按小说阅读进度推进；回叙与跨段聚合保留说明。跨集页面的回收状态采用全书终点复核结论。', '',
@@ -251,6 +252,7 @@ def main():
     lines = ['# 《超级骷髅兵》GitHub阅读版', '', '[资料库首页](../../../../README.md) · [研究总目录](../README.md)', '',
              '已完成18集、183章（含序章）的蒸馏与研究复核，以下页面可在GitHub直接阅读。事实、研究解释、可迁移方法和个人评价分别保留；研究草稿等待你的审阅。', '',
              '## 从这里开始', '', '| 内容 | 阅读入口 |', '|---|---|',
+             '| PC分层看图、手机沿线阅读与原位返回 | [双端剧情阅读器](plot/reader.md) |',
              '| 一张大图贯穿全书主线与暗线 | [全书分枝交汇图](plot/whole-book.md) |',
              '| 主线树、暗线、未回收疑点的图片 | [图片阅读入口](plot/images.md) |',
              '| 全书九维综合、阶段及人物弧 | [全书综合报告](../book-synthesis.md) |',
@@ -266,7 +268,8 @@ def main():
     lines += ['', '## 阅读与维护', '',
               '- 原小说TXT保留在本机；页面提供研究内容和章节行号，不提供原文全文。',
               '- 卡片按中文字段展示；人物分集历史与全书终点补记均保留，旧判断不会冒充最终结论。',
-              '- 主线和暗线优先展示PNG图片，并提供SVG原图；完整文字、证据与Mermaid关系组仍保留。',
+              '- 剧情阅读器提供PC局部关系图、手机事件卡片和可携带的阅读进度；GitHub上的HTML文件需下载后在浏览器打开。',
+              '- 主线与暗线同时提供PNG、SVG原图；完整文字、证据与Mermaid关系组保留。',
               '- 图片由`rebuild_plot_images.py`与`render_plot_images.cjs`生成，再运行本阅读页生成器。',
               '- 本目录由同级报告目录的`rebuild_github_reading.py`生成。修改主档后重新生成；个人笔记和收藏通过资料库工具保存。',
               '- 其他三本目前仅有开篇样段，Space尚未接入。', '',
@@ -276,6 +279,8 @@ def main():
         written.append(OUT / 'plot/images.md')
     if (OUT / 'plot/whole-book.md').exists():
         written.append(OUT / 'plot/whole-book.md')
+    if (OUT / 'plot/reader.md').exists():
+        written.append(OUT / 'plot/reader.md')
     manifest = {'source_id': SID, 'source_revision': source['revision'], 'cards': dict(counts), 'volumes': len(volumes),
                 'nodes': len(graph['nodes']), 'relations': len(graph['edges']), 'book_threads': len(book_threads),
                 'pages': {p.relative_to(OUT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in written}}
