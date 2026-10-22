@@ -4,6 +4,8 @@
 
 ## 当前可审查成果
 
+- **[全书地图：拖动、缩放、查看交汇](library/reports/super-skeleton/reading/plot/map.md)**（默认入口）：PC与Codex中像地图一样浏览整本书，附GitHub原图和清晰局部预览。
+
 - **[PC／手机剧情阅读器](library/reports/super-skeleton/reading/plot/reader.md)**：PC分阶段看关系图，手机沿事件卡片阅读；支线跳转、全部前因后果与原位返回。可下载单文件离线使用，进度支持导出导入。
 
 - **[全书一张大树图](library/reports/super-skeleton/reading/plot/whole-book.md)**：从主线分枝、旁支另起，在共享事件交汇；包含163个事件与15条暗线，提供完整PNG、SVG和可拖动缩放的离线页面。

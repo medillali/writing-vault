@@ -1,7 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {pathToFileURL}=require('node:url');
 const {chromium}=require('playwright');
-const file=path.join(__dirname,'reading/plot/reader/index.html');
+const file=path.join(__dirname,'reading/plot/reader/cards.html');
 (async()=>{
  assert.ok(fs.existsSync(file),'双端阅读入口尚未实现');
  const browser=await chromium.launch({headless:true,executablePath:process.env.PLOT_BROWSER_EXE});
@@ -61,6 +61,7 @@ const file=path.join(__dirname,'reading/plot/reader/index.html');
   const [download]=await Promise.all([p.waitForEvent('download'),p.click('#export-progress')]);
   const packet=JSON.parse(fs.readFileSync(await download.path(),'utf8'));assert.ok(packet.read.includes('v11-e02'));
   await p.locator('#import-progress').setInputFiles({name:'wrong.json',mimeType:'application/json',buffer:Buffer.from('{"version":1,"source_id":"other"}')});
+  await p.waitForFunction(()=>/另一部书|另一版本/.test(document.getElementById('notice').textContent));
   assert.match(await p.locator('#notice').innerText(),/另一部书|另一版本/);
   await p.click('#nav-close');await p.reload();assert.match(await p.locator('#resume').innerText(),/继续/);
   await p.setViewportSize({width:320,height:844});

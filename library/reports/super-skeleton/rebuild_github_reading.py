@@ -170,6 +170,7 @@ def make_cards():
 def make_plot():
     root = next(n for n in graph['nodes'] if n['kind'] == 'story')
     lines = ['# 主线树与暗线目录', '', '[全书阅读首页](../README.md) · [全部265条语义关系](relations.md)', '',
+             '**[全书地图阅读入口](map.md)**：整本书保持一张图，滚轮／双指缩放，拖动平移，缩略地图跳转。', '',
              '**[PC／手机剧情阅读器](reader.md)**：PC从阶段骨架进入局部图，手机沿事件卡片阅读；查看全部前因后果、进入支线并返回原位置。', '',
              '**[全书一张大树图](whole-book.md)**：163个事件、265条关系；支线另起、交汇后再分枝，暗线状态贴在对应枝端。', '',
              '[打开主线与暗线图片版](images.md)：全书阶段树、18集推进图、15条暗线时间图。PNG可直接保存，SVG可放大。', '',
@@ -252,6 +253,7 @@ def main():
     lines = ['# 《超级骷髅兵》GitHub阅读版', '', '[资料库首页](../../../../README.md) · [研究总目录](../README.md)', '',
              '已完成18集、183章（含序章）的蒸馏与研究复核，以下页面可在GitHub直接阅读。事实、研究解释、可迁移方法和个人评价分别保留；研究草稿等待你的审阅。', '',
              '## 从这里开始', '', '| 内容 | 阅读入口 |', '|---|---|',
+             '| 像地图一样缩放整张全书大图（默认推荐） | [全书地图](plot/map.md) |',
              '| PC分层看图、手机沿线阅读与原位返回 | [双端剧情阅读器](plot/reader.md) |',
              '| 一张大图贯穿全书主线与暗线 | [全书分枝交汇图](plot/whole-book.md) |',
              '| 主线树、暗线、未回收疑点的图片 | [图片阅读入口](plot/images.md) |',
@@ -281,6 +283,8 @@ def main():
         written.append(OUT / 'plot/whole-book.md')
     if (OUT / 'plot/reader.md').exists():
         written.append(OUT / 'plot/reader.md')
+    if (OUT / 'plot/map.md').exists():
+        written.append(OUT / 'plot/map.md')
     manifest = {'source_id': SID, 'source_revision': source['revision'], 'cards': dict(counts), 'volumes': len(volumes),
                 'nodes': len(graph['nodes']), 'relations': len(graph['edges']), 'book_threads': len(book_threads),
                 'pages': {p.relative_to(OUT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in written}}

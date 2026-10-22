@@ -42,7 +42,7 @@ def build():
     html=html.replace('/* READER_DATA */',raw)
     for name in ('model','graph','app'):html=html.replace(f'/* READER_{name.upper()} */',(SRC/f'{name}.js').read_text(encoding='utf-8'))
     assert '/* READER_' not in html
-    (OUT/'index.html').write_text(html,encoding='utf-8')
+    (OUT/'cards.html').write_text(html,encoding='utf-8')
     print(json.dumps({'events':len(data['nodes']),'relations':len(data['edges']),'threads':len(data['threads']),'stages':len(data['stages']),'bytes':len(html.encode('utf-8'))}))
 
 if __name__=='__main__':

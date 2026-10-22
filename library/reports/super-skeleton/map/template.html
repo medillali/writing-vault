@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>超级骷髅兵 · 全书地图</title><style>/* MAP_STYLE */</style></head>
+<body>
+<main id="map" aria-label="全书剧情地图，拖动查看，滚轮或双指缩放" tabindex="0"></main>
+<header class="map-header"><div class="brand"><span>全书剧情地图</span><strong>超级骷髅兵</strong></div><div class="header-actions"><label class="sr-only" for="map-location">定位到集数</label><select id="map-location"><option value="">定位到某一集</option></select><button id="focus-mode" title="隐藏标题栏，留出更多看图空间">专注</button><details id="map-more"><summary aria-label="更多">···</summary><div class="menu"><a id="download-png" href="#" download="超级骷髅兵-全书图.png">保存全图 PNG</a><a id="download-svg" href="#" download="超级骷髅兵-全书图.svg">保存矢量 SVG</a><a href="cards.html">卡片与事件详情</a><a href="https://github.com/medillali/writing-vault/blob/main/library/reports/super-skeleton/reading/plot/map.md" target="_blank" rel="noopener">GitHub图片目录</a><p>研究草稿 · 待审阅<br>OpenSeadragon 6.1.1 · BSD-3-Clause</p></div></details></div></header>
+<div class="help">拖动看全书 · 滚轮／双指缩放 <span>｜蓝色主线　紫色暗线</span></div>
+<button id="exit-focus" hidden>退出专注</button>
+<aside class="navigator-panel" aria-label="全图位置导航"><div class="navigator-title">全图位置 <span>点击跳转</span></div><div id="minimap" aria-label="缩略地图，点击跳转位置"></div></aside>
+<nav class="map-controls" aria-label="地图缩放"><div class="zoom-row"><button id="zoom-out" aria-label="缩小">−</button><output id="map-scale" aria-live="off">加载中</output><button id="zoom-in" aria-label="放大">＋</button></div><button id="map-read">可读大小</button><button id="map-home">看全图</button><button id="map-fullscreen">全屏</button></nav>
+<div id="map-loading" role="status">正在打开全书地图…</div><p id="map-error" hidden role="alert">地图未能载入，请重新打开文件。</p><div id="map-notice" role="status"></div>
+<script>/* MAP_ENGINE */</script><script>const MAP_DATA=/* MAP_DATA */;</script><script>/* MAP_APP */</script>
+</body></html>

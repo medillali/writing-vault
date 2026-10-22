@@ -16,6 +16,7 @@
 
 | 想看什么 | 直接阅读 |
 |---|---|
+| 像地图一样缩放、拖动整张全书图 | [全书地图阅读入口](reading/plot/map.md) |
 | PC分层关系图、手机卡片、支线原位返回 | [双端剧情阅读器](reading/plot/reader.md) |
 | 在一张可缩放大图中看清全书 | [全书分枝交汇图](reading/plot/whole-book.md) |
 | 主线树与暗线的图片、未回收标记 | [49张PNG/SVG图片入口](reading/plot/images.md) |

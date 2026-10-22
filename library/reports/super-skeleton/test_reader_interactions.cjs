@@ -1,7 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {pathToFileURL}=require('node:url');
 const {chromium}=require('playwright');
-const file=pathToFileURL(path.join(__dirname,'reading/plot/reader/index.html')).href;
+const file=pathToFileURL(path.join(__dirname,'reading/plot/reader/cards.html')).href;
 const data=JSON.parse(fs.readFileSync(path.join(__dirname,'reading/plot/reader/data.json'),'utf8'));
 const key='plot-reader-v1:'+data.source_id+':'+data.revision;
 const packet={version:1,source_id:data.source_id,revision:data.revision,read:['v11-e02'],bookmark:'v11-e02'};
