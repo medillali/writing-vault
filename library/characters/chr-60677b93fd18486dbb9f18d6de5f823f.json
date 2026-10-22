@@ -3,20 +3,14 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "面对百龙改撑联合护盾，使黑龙能完成吞噬压制；其对先知分身的惊讶与第9知情出现连续性疑点。",
-    "conflict": "先知的分身限制使控制不完整，同属性敌又削弱其惯用领域的作用。",
-    "coverage_note": "九维深化已覆盖第1至12集；变化记录以各集证据为准。",
-    "goal": "维护黑龙一方力量与自身族众的存续。",
-    "knowledge_limits": [
-      "古皇冠历史含传说",
-      "不能把本集惊讶解释成首次获知分身而忽略第9"
-    ],
+    "arc_change": "本集明确政治立场趋向先知计划，不能因劝其冷静而写成反屠城盟友。",
+    "conflict": "与人类成员的道德底线不一致；本人力量对先知构成一项制衡。",
+    "coverage_note": "九维深化已覆盖第1至14集；变化记录以各集证据为准。",
+    "goal": "支持适合不死势力利益的战争与扩张。",
+    "knowledge_limits": "赞同方案不证明全城法阵已发动；不同阶段法师数量要按时点记录。",
     "name": "斯科特",
-    "relationships": [
-      "为黑龙提供传送锚点及战斗屏障",
-      "对先知自保手段先给技术解释，后备冲突"
-    ],
-    "summary": "协助撤离、解释皇冠与魂约、掩护对先知的反击。",
+    "relationships": "六百亡灵法师不等于与先知同生共死；与毕瑟等同侧但不得替其代言。",
+    "summary": "拥有独立亡灵法师力量，参与战争法术；会议先制止先知动怒，随后明确表示喜欢扩张计划。",
     "volume_history": [
       {
         "aliases": [],
@@ -196,6 +190,34 @@
         ],
         "summary": "协助撤离、解释皇冠与魂约、掩护对先知的反击。",
         "volume": 12
+      },
+      {
+        "aliases": [],
+        "arc_change": "本集明确政治立场趋向先知计划，不能因劝其冷静而写成反屠城盟友。",
+        "conflict": "与人类成员的道德底线不一致；本人力量对先知构成一项制衡。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0152",
+            "end_line": 18829,
+            "start_line": 18810
+          },
+          {
+            "chapter_id": "ch-0153",
+            "end_line": 18946,
+            "start_line": 18943
+          },
+          {
+            "chapter_id": "ch-0153",
+            "end_line": 19002,
+            "start_line": 18991
+          }
+        ],
+        "goal": "支持适合不死势力利益的战争与扩张。",
+        "knowledge_limits": "赞同方案不证明全城法阵已发动；不同阶段法师数量要按时点记录。",
+        "name": "斯科特",
+        "relationships": "六百亡灵法师不等于与先知同生共死；与毕瑟等同侧但不得替其代言。",
+        "summary": "拥有独立亡灵法师力量，参与战争法术；会议先制止先知动怒，随后明确表示喜欢扩张计划。",
+        "volume": 14
       }
     ]
   },
@@ -337,12 +359,36 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 15877
+    },
+    {
+      "chapter_id": "ch-0152",
+      "claim_kind": "inference",
+      "end_line": 18829,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 18810
+    },
+    {
+      "chapter_id": "ch-0153",
+      "claim_kind": "inference",
+      "end_line": 18946,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 18943
+    },
+    {
+      "chapter_id": "ch-0153",
+      "claim_kind": "inference",
+      "end_line": 19002,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 18991
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/斯科特",
   "review_status": "draft",
-  "revision": 6,
+  "revision": 7,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -352,9 +398,10 @@
     "第08集",
     "第09集",
     "第11集",
-    "第12集"
+    "第12集",
+    "第14集"
   ],
   "title": "斯科特：分集人物研究",
-  "updated_at": "2026-10-21T21:36:43.308822+00:00",
+  "updated_at": "2026-10-22T01:29:21.052611+00:00",
   "user_notes": ""
 }
