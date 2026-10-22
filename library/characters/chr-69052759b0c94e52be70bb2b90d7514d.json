@@ -3,14 +3,18 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "从冻结等待转为时间重新流动的有限存在；本集未展示最终消亡。",
-    "conflict": "只保留临终阶段分身能力与记忆，无法直接把力量传给黑龙。",
-    "coverage_note": "九维深化已覆盖第1至14集；变化记录以各集证据为准。",
-    "goal": "等待继承者承接帝国使命。",
-    "knowledge_limits": "独立于已死亡的历史本体；不并入黑龙人格。囚笼余命不能由物质位面三年三月直接相减。",
+    "arc_change": "从前集余命有限但终局未见，更新为已消失。",
+    "conflict": "记忆传承不能阻止分身自身的时间与衰亡继续。",
+    "coverage_note": "九维深化已覆盖第1至15集；变化记录以各集证据为准。",
+    "goal": "此前等待继承者承接遗产与使命，本集以回述交代终局。",
+    "knowledge_limits": [
+      "三年内是期限，不证明恰满三年；不与历史本体或黑龙合并为同一当前人格。"
+    ],
     "name": "切罗曼尔（时间囚笼分身）",
-    "relationships": "压制霍夫曼及其学生，借隆克多与黑龙的烙印传递方法。",
-    "summary": "历史君王临死前三十年分出的分身，被冻结于时间囚笼。外来者进入后加速衰弱，称余三年；灭霍夫曼、引黑龙抵达并授予记忆。",
+    "relationships": [
+      "黑龙保有传承记忆，不等于分身继续活在黑龙体内。"
+    ],
+    "summary": "沿用前集时间囚笼分身实体；本集回述其最终在三年内追上本体死亡而彻底消失。",
     "volume_history": [
       {
         "aliases": [],
@@ -44,6 +48,28 @@
         "relationships": "压制霍夫曼及其学生，借隆克多与黑龙的烙印传递方法。",
         "summary": "历史君王临死前三十年分出的分身，被冻结于时间囚笼。外来者进入后加速衰弱，称余三年；灭霍夫曼、引黑龙抵达并授予记忆。",
         "volume": 14
+      },
+      {
+        "aliases": [],
+        "arc_change": "从前集余命有限但终局未见，更新为已消失。",
+        "conflict": "记忆传承不能阻止分身自身的时间与衰亡继续。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0156",
+            "end_line": 19139,
+            "start_line": 19120
+          }
+        ],
+        "goal": "此前等待继承者承接遗产与使命，本集以回述交代终局。",
+        "knowledge_limits": [
+          "三年内是期限，不证明恰满三年；不与历史本体或黑龙合并为同一当前人格。"
+        ],
+        "name": "切罗曼尔（时间囚笼分身）",
+        "relationships": [
+          "黑龙保有传承记忆，不等于分身继续活在黑龙体内。"
+        ],
+        "summary": "沿用前集时间囚笼分身实体；本集回述其最终在三年内追上本体死亡而彻底消失。",
+        "volume": 15
       }
     ]
   },
@@ -81,19 +107,28 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 18492
+    },
+    {
+      "chapter_id": "ch-0156",
+      "claim_kind": "inference",
+      "end_line": 19139,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 19120
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/切罗曼尔（时间囚笼分身）",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
-    "第14集"
+    "第14集",
+    "第15集"
   ],
   "title": "切罗曼尔（时间囚笼分身）：分集人物研究",
-  "updated_at": "2026-10-22T01:29:19.624955+00:00",
+  "updated_at": "2026-10-22T01:35:34.076119+00:00",
   "user_notes": ""
 }

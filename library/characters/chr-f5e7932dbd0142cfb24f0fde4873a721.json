@@ -3,21 +3,19 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "由海皇分流后获新魂的晶体批次中被识别为初觉醒者，称黑龙为王并获得编号名字。",
-    "conflict": "存在自主反应，但黑龙暂感不到意识波动，尚不能清楚回答自我是谁。",
-    "coverage_note": "九维深化已覆盖第1至12集；变化记录以各集证据为准。",
-    "goal": "开始识认自身与赋魂者的关系。",
+    "arc_change": "获得武装不等新的意识觉醒或灵魂之心形成。",
+    "conflict": "深海禁咒超出新武装保障。",
+    "coverage_note": "九维深化已覆盖第1至15集；变化记录以各集证据为准。",
+    "goal": "跟随黑龙并运用武装。",
     "knowledge_limits": [
-      "原攻击阿古和踢断同伴的具体个体未与编号对应",
-      "不能把未采用的黑十一或元素名列别名",
-      "觉醒原因未确定"
+      "群体动作不强写个体性格。",
+      "武装后的长期成长未明。"
     ],
     "name": "十三",
     "relationships": [
-      "与黑龙有赋魂控制关系",
-      "与另外七具同批初觉醒者并列"
+      "与其余晶体孩子共同留守沼泽后参与深海探索。"
     ],
-    "summary": "八具初觉醒晶体骷髅之一，最终以数字命名；文本尚未区分其各自个性。",
+    "summary": "八名晶体孩子之一，补强后获得海皇武装与鱼尾形态，本集未单独展开个性。",
     "volume_history": [
       {
         "aliases": [],
@@ -53,6 +51,29 @@
         ],
         "summary": "八具初觉醒晶体骷髅之一，最终以数字命名；文本尚未区分其各自个性。",
         "volume": 12
+      },
+      {
+        "aliases": [],
+        "arc_change": "获得武装不等新的意识觉醒或灵魂之心形成。",
+        "conflict": "深海禁咒超出新武装保障。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0159",
+            "end_line": 19529,
+            "start_line": 19462
+          }
+        ],
+        "goal": "跟随黑龙并运用武装。",
+        "knowledge_limits": [
+          "群体动作不强写个体性格。",
+          "武装后的长期成长未明。"
+        ],
+        "name": "十三",
+        "relationships": [
+          "与其余晶体孩子共同留守沼泽后参与深海探索。"
+        ],
+        "summary": "八名晶体孩子之一，补强后获得海皇武装与鱼尾形态，本集未单独展开个性。",
+        "volume": 15
       }
     ]
   },
@@ -82,19 +103,28 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 16364
+    },
+    {
+      "chapter_id": "ch-0159",
+      "claim_kind": "inference",
+      "end_line": 19529,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 19462
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/十三",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
-    "第12集"
+    "第12集",
+    "第15集"
   ],
   "title": "十三：分集人物研究",
-  "updated_at": "2026-10-21T21:36:45.378438+00:00",
+  "updated_at": "2026-10-22T01:35:33.853740+00:00",
   "user_notes": ""
 }

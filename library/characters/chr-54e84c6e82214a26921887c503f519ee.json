@@ -7,14 +7,19 @@
       "罗茜",
       "萝茜"
     ],
-    "arc_change": "本集新增被克丽丝借身对峙先知的现场，未证明原人格全部恢复。",
-    "conflict": "旧人格、神祇碎忆与当前借身行动仍需分别记录。",
-    "coverage_note": "九维深化已覆盖第1至14集；变化记录以各集证据为准。",
-    "goal": "本人沿同伴关系参与会议；神祇目标属于借身显现者。",
-    "knowledge_limits": "不把曾借名的降临战斗天使合并；也不从神威推断少女自己掌握全神力。",
+    "arc_change": "以护墙行为显示自主控制神力，未等于神分身操纵。",
+    "conflict": "旧怨残留与亲近、安心同时存在。",
+    "coverage_note": "九维深化已覆盖第1至15集；变化记录以各集证据为准。",
+    "goal": "在独立意识与灵魂联系中安放自身感受。",
+    "knowledge_limits": [
+      "旧记忆未全复，不能当完整旧人格归来。"
+    ],
     "name": "拉西萝茜",
-    "relationships": "与娜娜并列成为两神载体，与克丽丝不是可合并实体。",
-    "summary": "参加会议并与斯文哥尔等同侧，结尾身上显现克丽丝神威，成为分身载体。",
+    "relationships": [
+      "克丽丝在黑龙回归时退出她身体。",
+      "对娜娜与黑龙的亲近有嫉妒。"
+    ],
+    "summary": "保留对黑龙的复杂情绪，能自行运用克丽丝力量。",
     "volume_history": [
       {
         "aliases": [
@@ -340,6 +345,41 @@
         "relationships": "与娜娜并列成为两神载体，与克丽丝不是可合并实体。",
         "summary": "参加会议并与斯文哥尔等同侧，结尾身上显现克丽丝神威，成为分身载体。",
         "volume": 14
+      },
+      {
+        "aliases": [
+          "萝茜"
+        ],
+        "arc_change": "以护墙行为显示自主控制神力，未等于神分身操纵。",
+        "conflict": "旧怨残留与亲近、安心同时存在。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0156",
+            "end_line": 19102,
+            "start_line": 19082
+          },
+          {
+            "chapter_id": "ch-0166",
+            "end_line": 20230,
+            "start_line": 20215
+          },
+          {
+            "chapter_id": "ch-0166",
+            "end_line": 20335,
+            "start_line": 20274
+          }
+        ],
+        "goal": "在独立意识与灵魂联系中安放自身感受。",
+        "knowledge_limits": [
+          "旧记忆未全复，不能当完整旧人格归来。"
+        ],
+        "name": "拉西萝茜",
+        "relationships": [
+          "克丽丝在黑龙回归时退出她身体。",
+          "对娜娜与黑龙的亲近有嫉妒。"
+        ],
+        "summary": "保留对黑龙的复杂情绪，能自行运用克丽丝力量。",
+        "volume": 15
       }
     ]
   },
@@ -553,12 +593,36 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 19009
+    },
+    {
+      "chapter_id": "ch-0156",
+      "claim_kind": "inference",
+      "end_line": 19102,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 19082
+    },
+    {
+      "chapter_id": "ch-0166",
+      "claim_kind": "inference",
+      "end_line": 20230,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20215
+    },
+    {
+      "chapter_id": "ch-0166",
+      "claim_kind": "inference",
+      "end_line": 20335,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20274
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/拉西萝茜",
   "review_status": "draft",
-  "revision": 11,
+  "revision": 12,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -573,9 +637,10 @@
     "第11集",
     "第12集",
     "第13集",
-    "第14集"
+    "第14集",
+    "第15集"
   ],
   "title": "拉西萝茜：分集人物研究",
-  "updated_at": "2026-10-22T01:29:21.551110+00:00",
+  "updated_at": "2026-10-22T01:35:32.461940+00:00",
   "user_notes": ""
 }

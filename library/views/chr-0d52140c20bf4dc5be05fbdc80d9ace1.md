@@ -1,8 +1,8 @@
 # 罗得宾士：分集人物研究
 
-ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 7 · 范围: source-analysis
+ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 8 · 范围: source-analysis
 
-在留守生活中教诗，又参与新生者命名。
+长期演奏形成音乐魔法力场，被委以教学。
 
 ## 完整卡片
 
@@ -16,19 +16,19 @@ ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 7 · 范围: source-analys
       "罗得",
       "费拉本·丹特·罗得宾士"
     ],
-    "arc_change": "收哥顿普学吟唱，反对数字式命名却未成功，展示非战斗的社会活动。",
-    "conflict": "泰戈机械模仿难懂意境，黑龙对名字审美不感兴趣。",
-    "coverage_note": "九维深化已覆盖第1至12集；变化记录以各集证据为准。",
-    "goal": "传播语言艺术并增加生活趣味。",
+    "arc_change": "个人奇异能力成为潜在组织资源，实际学员成果尚未出现。",
+    "conflict": "能力被他人套入魔力指挥使旧分类。",
+    "coverage_note": "九维深化已覆盖第1至15集；变化记录以各集证据为准。",
+    "goal": "演奏并传授有天赋者可学的音乐魔法。",
     "knowledge_limits": [
-      "所提史诗名字未被采用"
+      "教学可行只是本人说明和安排，不能当规模成功。"
     ],
     "name": "罗得宾士",
     "relationships": [
-      "教泰戈与哥顿普",
-      "与斯文及先知争论八晶体命名"
+      "哥顿普是现场唯一观众。",
+      "被黑龙任为音乐老师。"
     ],
-    "summary": "在留守生活中教诗，又参与新生者命名。",
+    "summary": "长期演奏形成音乐魔法力场，被委以教学。",
     "volume_history": [
       {
         "aliases": [
@@ -220,6 +220,37 @@ ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 7 · 范围: source-analys
         ],
         "summary": "在留守生活中教诗，又参与新生者命名。",
         "volume": 12
+      },
+      {
+        "aliases": [
+          "罗得",
+          "费拉本·丹特·罗得宾士"
+        ],
+        "arc_change": "个人奇异能力成为潜在组织资源，实际学员成果尚未出现。",
+        "conflict": "能力被他人套入魔力指挥使旧分类。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0157",
+            "end_line": 19295,
+            "start_line": 19289
+          },
+          {
+            "chapter_id": "ch-0158",
+            "end_line": 19397,
+            "start_line": 19296
+          }
+        ],
+        "goal": "演奏并传授有天赋者可学的音乐魔法。",
+        "knowledge_limits": [
+          "教学可行只是本人说明和安排，不能当规模成功。"
+        ],
+        "name": "罗得宾士",
+        "relationships": [
+          "哥顿普是现场唯一观众。",
+          "被黑龙任为音乐老师。"
+        ],
+        "summary": "长期演奏形成音乐魔法力场，被委以教学。",
+        "volume": 15
       }
     ]
   },
@@ -329,12 +360,28 @@ ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 7 · 范围: source-analys
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 16371
+    },
+    {
+      "chapter_id": "ch-0157",
+      "claim_kind": "inference",
+      "end_line": 19295,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 19289
+    },
+    {
+      "chapter_id": "ch-0158",
+      "claim_kind": "inference",
+      "end_line": 19397,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 19296
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/罗得宾士",
   "review_status": "draft",
-  "revision": 7,
+  "revision": 8,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -345,10 +392,11 @@ ID: `chr-0d52140c20bf4dc5be05fbdc80d9ace1` · 版本: 7 · 范围: source-analys
     "第07集",
     "第08集",
     "第09集",
-    "第12集"
+    "第12集",
+    "第15集"
   ],
   "title": "罗得宾士：分集人物研究",
-  "updated_at": "2026-10-21T21:36:44.777591+00:00",
+  "updated_at": "2026-10-22T01:35:32.645619+00:00",
   "user_notes": ""
 }
 

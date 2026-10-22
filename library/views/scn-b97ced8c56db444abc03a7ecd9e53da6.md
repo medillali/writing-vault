@@ -1,0 +1,68 @@
+# 由守护者证词抵达有限的亲见
+
+ID: `scn-b97ced8c56db444abc03a7ecd9e53da6` · 版本: 1 · 范围: source-analysis
+
+大贤者讲孤守与大陆消失，三圣器建立联系，黑龙等以意念见浮陆和哈力维亚。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-b97ced8c56db444abc03a7ecd9e53da6",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "遗迹调查、历史悬案、多方证词推进。",
+    "choice": "交换经历、展示两器，让三器建立可观察联系。",
+    "consequence": "确认红月通道与君王存活，获得破平衡指令；警告残句仍不完整。",
+    "failure_mode": "若把残句补成完整结论，或把其后的推理视为已证，分层证据结构就失效。",
+    "goal": "取得死亡之眼并寻找帝国去向。",
+    "obstacle": "幸存者知识有限，位面分隔使联系与传讯失真。",
+    "state_change": "抽象失踪谜变成位置与行动线索，幕后责任仍未证。",
+    "summary": "大贤者讲孤守与大陆消失，三圣器建立联系，黑龙等以意念见浮陆和哈力维亚。",
+    "volume": 15,
+    "why_it_works": "解释不是一人口述包办，装置、证人和亲见相互补充又保留各自盲区。"
+  },
+  "created_at": "2026-10-22T01:35:34.687150+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0164",
+      "claim_kind": "inference",
+      "end_line": 20079,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20035
+    },
+    {
+      "chapter_id": "ch-0164",
+      "claim_kind": "inference",
+      "end_line": 20090,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20082
+    },
+    {
+      "chapter_id": "ch-0165",
+      "claim_kind": "inference",
+      "end_line": 20155,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20091
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/v15-s03",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "全书九维",
+    "第15集"
+  ],
+  "title": "由守护者证词抵达有限的亲见",
+  "updated_at": "2026-10-22T01:35:34.783385+00:00",
+  "user_notes": ""
+}
+
+```

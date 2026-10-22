@@ -13,7 +13,8 @@
     11,
     12,
     13,
-    14
+    14,
+    15
   ],
   "edges": [
     {
@@ -716,7 +717,7 @@
         }
       ],
       "from": "v07-e07",
-      "id": "cross-autonomy-02",
+      "id": "cross-v14-autonomy",
       "kind": "echo",
       "label": "早期重订伙伴边界与后期代理者提出全城活尸计划相对照，组织扩大后授权问题再次出现",
       "to": "v14-e08"
@@ -1987,34 +1988,44 @@
       "to": "v12-e08"
     },
     {
-      "claim_kind": "inference",
+      "claim_kind": "fact",
       "evidence": [
         {
-          "chapter_id": "ch-0112",
-          "end_line": 14480,
-          "start_line": 14439
+          "chapter_id": "ch-0132",
+          "end_line": 16690,
+          "start_line": 16659
         },
         {
-          "chapter_id": "ch-0112",
-          "end_line": 14520,
-          "start_line": 14481
+          "chapter_id": "ch-0134",
+          "end_line": 16894,
+          "start_line": 16868
         },
         {
-          "chapter_id": "ch-0123",
-          "end_line": 15833,
-          "start_line": 15800
+          "chapter_id": "ch-0134",
+          "end_line": 16916,
+          "start_line": 16901
         },
         {
-          "chapter_id": "ch-0127",
-          "end_line": 16215,
-          "start_line": 16135
+          "chapter_id": "ch-0135",
+          "end_line": 16957,
+          "start_line": 16948
+        },
+        {
+          "chapter_id": "ch-0156",
+          "end_line": 19118,
+          "start_line": 19055
+        },
+        {
+          "chapter_id": "ch-0157",
+          "end_line": 19267,
+          "start_line": 19212
         }
       ],
-      "from": "v11-e05",
-      "id": "cross-church-agency-04",
+      "from": "v13-e03",
+      "id": "cross-v15-church-agency",
       "kind": "reveal",
-      "label": "菲力普对工具制度的解释扩展到备用身体来源与机构盲区，了解一层安排不代表掌握教会全局",
-      "to": "v12-e07"
+      "label": "菲力普对放逐原因作自我说明，确认其重视黑龙对自身的利用价值",
+      "to": "v15-e01"
     },
     {
       "claim_kind": "fact",
@@ -2585,6 +2596,286 @@
       "kind": "payoff",
       "label": "传承安排之后娜娜承担信仰媒介作用，但此处不能据此宣布双神传承全部完成",
       "to": "v14-e05"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0153",
+          "end_line": 18963,
+          "start_line": 18915
+        },
+        {
+          "chapter_id": "ch-0153",
+          "end_line": 19004,
+          "start_line": 18968
+        },
+        {
+          "chapter_id": "ch-0154",
+          "end_line": 19008,
+          "start_line": 19005
+        },
+        {
+          "chapter_id": "ch-0156",
+          "end_line": 19118,
+          "start_line": 19055
+        },
+        {
+          "chapter_id": "ch-0157",
+          "end_line": 19267,
+          "start_line": 19212
+        }
+      ],
+      "from": "v14-e08",
+      "id": "cross-corpse-plan-01",
+      "kind": "reversal",
+      "label": "黑龙回归后暂时否决全城活尸计划，依据是时机与收益，并非宣布永久放弃或普遍人道原则",
+      "to": "v15-e01"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0153",
+          "end_line": 18963,
+          "start_line": 18915
+        },
+        {
+          "chapter_id": "ch-0153",
+          "end_line": 19004,
+          "start_line": 18968
+        },
+        {
+          "chapter_id": "ch-0154",
+          "end_line": 19008,
+          "start_line": 19005
+        },
+        {
+          "chapter_id": "ch-0167",
+          "end_line": 20465,
+          "start_line": 20344
+        }
+      ],
+      "from": "v14-e08",
+      "id": "cross-corpse-plan-02",
+      "kind": "echo",
+      "label": "原先全城方案在红月转机中获得重新准备授权，仍未实际发动",
+      "to": "v15-e08"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0128",
+          "end_line": 16344,
+          "start_line": 16266
+        },
+        {
+          "chapter_id": "ch-0128",
+          "end_line": 16393,
+          "start_line": 16345
+        },
+        {
+          "chapter_id": "ch-0159",
+          "end_line": 19529,
+          "start_line": 19462
+        },
+        {
+          "chapter_id": "ch-0160",
+          "end_line": 19600,
+          "start_line": 19533
+        },
+        {
+          "chapter_id": "ch-0161",
+          "end_line": 19649,
+          "start_line": 19604
+        }
+      ],
+      "from": "v12-e09",
+      "id": "cross-crystal-loss-01",
+      "kind": "reversal",
+      "label": "八晶体初觉醒后的武装成长伴随十七、十八冻碎损失，成长不能抹去个体存亡代价",
+      "to": "v15-e03"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0123",
+          "end_line": 15791,
+          "start_line": 15732
+        },
+        {
+          "chapter_id": "ch-0124",
+          "end_line": 15939,
+          "start_line": 15837
+        },
+        {
+          "chapter_id": "ch-0161",
+          "end_line": 19730,
+          "start_line": 19693
+        },
+        {
+          "chapter_id": "ch-0162",
+          "end_line": 19779,
+          "start_line": 19731
+        }
+      ],
+      "from": "v12-e05",
+      "id": "cross-prophet-control-02",
+      "kind": "payoff",
+      "label": "先知自身完整魂约之后，黑龙进一步收走剩余三十六龙的魂约；保留其指挥职不等于解除主从限制",
+      "to": "v15-e04"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0141",
+          "end_line": 17638,
+          "start_line": 17604
+        },
+        {
+          "chapter_id": "ch-0141",
+          "end_line": 17662,
+          "start_line": 17646
+        },
+        {
+          "chapter_id": "ch-0164",
+          "end_line": 20090,
+          "start_line": 19997
+        },
+        {
+          "chapter_id": "ch-0165",
+          "end_line": 20207,
+          "start_line": 20091
+        }
+      ],
+      "from": "v13-e08",
+      "id": "cross-relics-01",
+      "kind": "payoff",
+      "label": "权杖和第三圣器的追索在海底遗迹推进，三器联系红月通道；见到彼端并不等于已实体抵达",
+      "to": "v15-e06"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0145",
+          "end_line": 18000,
+          "start_line": 17959
+        },
+        {
+          "chapter_id": "ch-0145",
+          "end_line": 18039,
+          "start_line": 18024
+        },
+        {
+          "chapter_id": "ch-0146",
+          "end_line": 18122,
+          "start_line": 18043
+        },
+        {
+          "chapter_id": "ch-0147",
+          "end_line": 18197,
+          "start_line": 18189
+        },
+        {
+          "chapter_id": "ch-0150",
+          "end_line": 18495,
+          "start_line": 18492
+        },
+        {
+          "chapter_id": "ch-0164",
+          "end_line": 20090,
+          "start_line": 19997
+        },
+        {
+          "chapter_id": "ch-0165",
+          "end_line": 20207,
+          "start_line": 20091
+        }
+      ],
+      "from": "v14-e02",
+      "id": "cross-legacy-use-01",
+      "kind": "payoff",
+      "label": "继承的知识支持识别遗物和寻找旧帝国，使命接续仍不保证继承者理解全部隐情",
+      "to": "v15-e06"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0154",
+          "end_line": 19047,
+          "start_line": 19009
+        },
+        {
+          "chapter_id": "ch-0166",
+          "end_line": 20335,
+          "start_line": 20239
+        },
+        {
+          "chapter_id": "ch-0161",
+          "end_line": 19725,
+          "start_line": 19708
+        }
+      ],
+      "from": "v14-e09",
+      "id": "cross-faith-02",
+      "kind": "reveal",
+      "label": "后文进一步说明自然神本源借娜娜、分身留树；少女主体与神明仍须分开记录",
+      "to": "v15-e07"
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0061",
+          "end_line": 7578,
+          "start_line": 7503
+        },
+        {
+          "chapter_id": "ch-0075",
+          "end_line": 9445,
+          "start_line": 9369
+        }
+      ],
+      "from": "v06-e04",
+      "id": "cross-autonomy-02",
+      "kind": "echo",
+      "label": "对具体伙伴的关爱边界发展为明确的自由存在宣言；两次选择都未解除灵魂支配关系",
+      "to": "v07-e07"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0112",
+          "end_line": 14480,
+          "start_line": 14439
+        },
+        {
+          "chapter_id": "ch-0112",
+          "end_line": 14520,
+          "start_line": 14481
+        },
+        {
+          "chapter_id": "ch-0123",
+          "end_line": 15833,
+          "start_line": 15800
+        },
+        {
+          "chapter_id": "ch-0127",
+          "end_line": 16215,
+          "start_line": 16135
+        }
+      ],
+      "from": "v11-e05",
+      "id": "cross-church-agency-04",
+      "kind": "reveal",
+      "label": "菲力普对工具制度的解释扩展到备用身体来源与机构盲区，了解一层安排不代表掌握教会全局",
+      "to": "v12-e07"
     }
   ],
   "threads": [
@@ -2611,18 +2902,22 @@
         "v14-edge-02",
         "v14-edge-09",
         "v14-edge-08",
+        "v15-edge-01",
+        "v15-edge-05",
         "cross-redemption-01",
         "cross-autonomy-01",
         "cross-nana-02",
         "cross-home-01",
         "cross-redemption-02",
         "cross-roder-02",
-        "cross-autonomy-02",
+        "cross-v14-autonomy",
         "cross-autonomy-03",
         "cross-coercion-01",
         "cross-friendship-01",
         "cross-prophet-friendship-01",
-        "cross-friendship-02"
+        "cross-friendship-02",
+        "cross-corpse-plan-01",
+        "cross-autonomy-02"
       ],
       "id": "book-37dd82abc178",
       "kind": "main",
@@ -2680,15 +2975,19 @@
         "v14-e03",
         "v14-e08",
         "v14-e09",
+        "v15-e01",
+        "v15-e03",
+        "v15-e04",
+        "v15-e08",
         "v02-e01",
         "v04-e01",
         "v04-e07",
         "v05-e05"
       ],
-      "question": "强大与领袖身份将怎样影响黑龙同同伴的关系和自主判断？",
-      "resolution_note": "已入库至第14集；最近关联事件在第14集。最新状态审计在第14集。无约束烙印召来金龙，黑龙返程考虑全队安全；归来面对内部伦理分裂，尚未决定如何对待先知与反对者。",
+      "question": "黑龙如何在亲近个体与扩大统治权之间选择？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。安抚、拒毁魂与独探保护并存于收约、压制异议和重备祭魂；没有线性善化。",
       "status": "partial",
-      "title": "跨集 · 黑龙自主性与同伴边界",
+      "title": "跨集 · 关怀、控制与群体牺牲",
       "tracking_key": "blackdragon-autonomy-and-companionship",
       "volume_history": [
         {
@@ -2794,6 +3093,14 @@
           "status": "partial",
           "title": "黑龙自主性与同伴边界",
           "volume": 14
+        },
+        {
+          "kind": "main",
+          "question": "黑龙如何在亲近个体与扩大统治权之间选择？",
+          "resolution_note": "安抚、拒毁魂与独探保护并存于收约、压制异议和重备祭魂；没有线性善化。",
+          "status": "partial",
+          "title": "关怀、控制与群体牺牲",
+          "volume": 15
         }
       ]
     },
@@ -2824,7 +3131,7 @@
         "v02-e06"
       ],
       "question": "救赎是否能够让星恢复生前身份？",
-      "resolution_note": "已入库至第14集；最近关联事件在第5集。最新状态审计在第5集。本集澄清其净化目的，星获救并归队；这是该次恢复身份尝试的回收，不推断整书救赎主题终结。",
+      "resolution_note": "已入库至第15集；最近关联事件在第5集。最新状态审计在第5集。本集澄清其净化目的，星获救并归队；这是该次恢复身份尝试的回收，不推断整书救赎主题终结。",
       "status": "resolved",
       "title": "跨集 · 救赎之魂的真实作用",
       "tracking_key": "redemption-soul",
@@ -2870,16 +3177,18 @@
         "v04-edge-04",
         "v06-edge-01",
         "v09-edge-04",
+        "v15-edge-02",
         "cross-children-01",
         "cross-autonomy-01",
         "cross-children-02",
         "cross-emperor-skill-01",
         "cross-emperor-skill-02",
         "cross-crystal-awakening-01",
-        "cross-emperor-skill-03"
+        "cross-emperor-skill-03",
+        "cross-crystal-loss-01"
       ],
       "id": "book-c55cdb2efcb4",
-      "kind": "main",
+      "kind": "subplot",
       "node_ids": [
         "v01-e01",
         "v01-e06",
@@ -2900,13 +3209,15 @@
         "v11-e07",
         "v12-e08",
         "v12-e09",
+        "v15-e03",
+        "v15-e05",
         "v03-e06",
         "v11-e03"
       ],
-      "question": "意识如何产生，独立主体能否成为共同体的行动节点？",
-      "resolution_note": "已入库至第14集；最近关联事件在第12集。最新状态审计在第12集。黑大黑二成为赋魂执行者；晶体批次八具初觉醒并得十一至十八之名，原黑三至黑十仍未觉醒，海皇本源仅为原因猜测。",
+      "question": "孩子的意识来源、能力和损伤会如何变化？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。八晶体武装成形和亲海形态得到表现，觉醒机制仍不明；十七十八冻碎未恢复，不能用武装升级替代存亡判断。",
       "status": "partial",
-      "title": "跨集 · 分层赐魂与八个新意识",
+      "title": "跨集 · 晶体孩子的烙印、武装与损失",
       "tracking_key": "children-consciousness",
       "volume_history": [
         {
@@ -2980,6 +3291,14 @@
           "status": "partial",
           "title": "分层赐魂与八个新意识",
           "volume": 12
+        },
+        {
+          "kind": "subplot",
+          "question": "孩子的意识来源、能力和损伤会如何变化？",
+          "resolution_note": "八晶体武装成形和亲海形态得到表现，觉醒机制仍不明；十七十八冻碎未恢复，不能用武装升级替代存亡判断。",
+          "status": "partial",
+          "title": "晶体孩子的烙印、武装与损失",
+          "volume": 15
         }
       ]
     },
@@ -3012,7 +3331,7 @@
         "v03-e09"
       ],
       "question": "雷神残余和撒拉丁部族如何应对领袖及贸易体系丧失？",
-      "resolution_note": "已入库至第14集；最近关联事件在第3集。最新状态审计在第3集。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
+      "resolution_note": "已入库至第15集；最近关联事件在第3集。最新状态审计在第3集。总部及雷克丁已败；外围成员、部落影响和盟友分利并未全部解决。",
       "status": "partial",
       "title": "跨集 · 雷神败亡后的利益与部族余波",
       "tracking_key": "thunder-mercenary-conflict",
@@ -3060,7 +3379,7 @@
         "v08-e09"
       ],
       "question": "祭坛遗产如何延续，帝国消失为何？",
-      "resolution_note": "已入库至第14集；最近关联事件在第9集。最新状态审计在第9集。千年诅咒、图克守护和旧领主记忆得到明确补充；古帝国消失连旧领主也不知。",
+      "resolution_note": "已入库至第15集；最近关联事件在第9集。最新状态审计在第9集。千年诅咒、图克守护和旧领主记忆得到明确补充；古帝国消失连旧领主也不知。",
       "status": "partial",
       "title": "跨集 · 沼泽古国与转生遗产",
       "tracking_key": "sunken-undead-kingdom",
@@ -3113,7 +3432,7 @@
         "v10-e02"
       ],
       "question": "战魂能否真正炼化或可靠驾驭？",
-      "resolution_note": "已入库至第14集；最近关联事件在第10集。最新状态审计在第9集。从不可控制转为身体受具体命令限制；战意仍不服，不能视为全部内患解除。",
+      "resolution_note": "已入库至第15集；最近关联事件在第10集。最新状态审计在第9集。从不可控制转为身体受具体命令限制；战意仍不服，不能视为全部内患解除。",
       "status": "partial",
       "title": "跨集 · 坦克战魂的控制边界",
       "tracking_key": "tank-battle-soul",
@@ -3186,7 +3505,7 @@
         "v08-e08"
       ],
       "question": "克丽丝怎样从封印中恢复，借萝茜显现意味着什么？",
-      "resolution_note": "已入库至第14集；最近关联事件在第14集。最新状态审计在第14集。冥月神殿重建初有进展，分身通过萝茜出场；本源仍被封印，不能以此宣布完全复原或萝茜人格恢复。",
+      "resolution_note": "已入库至第15集；最近关联事件在第14集。最新状态审计在第14集。冥月神殿重建初有进展，分身通过萝茜出场；本源仍被封印，不能以此宣布完全复原或萝茜人格恢复。",
       "status": "partial",
       "title": "跨集 · 克丽丝的封印、载体与信仰恢复",
       "tracking_key": "christine-identity",
@@ -3259,10 +3578,11 @@
         "cross-nana-02",
         "cross-christine-04",
         "cross-nana-03",
-        "cross-faith-01"
+        "cross-faith-01",
+        "cross-faith-02"
       ],
       "id": "book-cb9c67d1cdae",
-      "kind": "main",
+      "kind": "subplot",
       "node_ids": [
         "v02-e09",
         "v04-e01",
@@ -3275,14 +3595,16 @@
         "v14-e05",
         "v14-e08",
         "v14-e09",
+        "v15-e01",
+        "v15-e07",
         "v03-e01",
         "v09-e08",
         "v11-e04"
       ],
-      "question": "娜娜的力量与意志如何在多方利用和保护中得到界定？",
-      "resolution_note": "已入库至第14集；最近关联事件在第14集。最新状态审计在第14集。信仰媒介功能已运作，末尾自然神借身；娜娜起初未全懂会议，本人认知与神祇发言仍不可合并，双神传承未证完成。",
+      "question": "娜娜如何保持选择权，传承是否完成？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。她能主动逐出神、亲近黑龙；无传承完成证据，旧魔法与本身无力说法待核。",
       "status": "partial",
-      "title": "跨集 · 娜娜的身份、保护与神性承载",
+      "title": "跨集 · 娜娜主体与神明承载",
       "tracking_key": "nana-protection",
       "volume_history": [
         {
@@ -3339,6 +3661,14 @@
           "status": "partial",
           "title": "娜娜的身份、保护与神性承载",
           "volume": 14
+        },
+        {
+          "kind": "subplot",
+          "question": "娜娜如何保持选择权，传承是否完成？",
+          "resolution_note": "她能主动逐出神、亲近黑龙；无传承完成证据，旧魔法与本身无力说法待核。",
+          "status": "partial",
+          "title": "娜娜主体与神明承载",
+          "volume": 15
         }
       ]
     },
@@ -3357,7 +3687,7 @@
         "v06-e06"
       ],
       "question": "亡灵印记由谁散播，指向哪里？",
-      "resolution_note": "已入库至第14集；最近关联事件在第6集。最新状态审计在第6集。斯科特确认散播印记，目的地为哀嚎森林的往生者国度。本状态只关闭定位问题；印记与传统诅咒功能的关系、具体触发机制仍待解释，已保留原问题历史。",
+      "resolution_note": "已入库至第15集；最近关联事件在第6集。最新状态审计在第6集。斯科特确认散播印记，目的地为哀嚎森林的往生者国度。本状态只关闭定位问题；印记与传统诅咒功能的关系、具体触发机制仍待解释，已保留原问题历史。",
       "status": "resolved",
       "title": "跨集 · 亡灵印记的发出者与目的地",
       "tracking_key": "red-moon-destination",
@@ -3416,7 +3746,7 @@
         "v05-e05"
       ],
       "question": "罗得早先如何逃过审判，何时转生？",
-      "resolution_note": "已入库至第14集；最近关联事件在第5集。最新状态审计在第5集。第五集已与黑龙相遇并随队；旧次逃生方式和转生时间仍未明，异常召唤不能自动解释旧案。",
+      "resolution_note": "已入库至第15集；最近关联事件在第5集。最新状态审计在第5集。第五集已与黑龙相遇并随队；旧次逃生方式和转生时间仍未明，异常召唤不能自动解释旧案。",
       "status": "partial",
       "title": "跨集 · 罗得的旧次逃生与新相遇",
       "tracking_key": "th-rode-music",
@@ -3461,7 +3791,7 @@
         "v05-e01"
       ],
       "question": "第四集圣焰危机中黑七是否获救？",
-      "resolution_note": "已入库至第14集；最近关联事件在第5集。最新状态审计在第5集。第五集确认黑七存活，黄金骨架保留而灵魂退近白银；只关闭这次生死悬念，灵魂恢复与后续受伤仍分别追踪。",
+      "resolution_note": "已入库至第15集；最近关联事件在第5集。最新状态审计在第5集。第五集确认黑七存活，黄金骨架保留而灵魂退近白银；只关闭这次生死悬念，灵魂恢复与后续受伤仍分别追踪。",
       "status": "resolved",
       "title": "跨集 · 黑七圣焰救援的生死结局",
       "tracking_key": "th-heiqi-holy-fire",
@@ -3506,7 +3836,7 @@
         "cross-rosy-memory-01"
       ],
       "id": "book-09f441653222",
-      "kind": "subplot",
+      "kind": "hidden",
       "node_ids": [
         "v05-e01",
         "v05-e03",
@@ -3520,12 +3850,14 @@
         "v09-e08",
         "v10-e09",
         "v12-e02",
+        "v15-e01",
+        "v15-e07",
         "v10-e08"
       ],
-      "question": "原萝茜如何在借体后的多重经验中维持自我？",
-      "resolution_note": "已入库至第14集；最近关联事件在第12集。最新状态审计在第12集。原主体醒来，新生活记忆主导并夹异源碎片；旧天使与克丽丝并未因此合并为她，未来记忆整合仍未知。",
+      "question": "原萝茜能否整合残忆并自主运用借来力量？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。旧恨、亲近与嫉妒并存，自主护墙说明可运用克丽丝之力；不是旧天使人格或神明主体合并。",
       "status": "partial",
-      "title": "跨集 · 原萝茜的清醒与记忆混合",
+      "title": "跨集 · 原萝茜的记忆与借力主体",
       "tracking_key": "rosy-angel-identity",
       "volume_history": [
         {
@@ -3583,6 +3915,14 @@
           "status": "partial",
           "title": "原萝茜的清醒与记忆混合",
           "volume": 12
+        },
+        {
+          "kind": "hidden",
+          "question": "原萝茜能否整合残忆并自主运用借来力量？",
+          "resolution_note": "旧恨、亲近与嫉妒并存，自主护墙说明可运用克丽丝之力；不是旧天使人格或神明主体合并。",
+          "status": "partial",
+          "title": "原萝茜的记忆与借力主体",
+          "volume": 15
         }
       ]
     },
@@ -3601,7 +3941,7 @@
         "v04-e04"
       ],
       "question": "安魂创作会怎样发展，亡妻线将何时重返？",
-      "resolution_note": "已入库至第14集；最近关联事件在第6集。最新状态审计在第6集。安魂用途与琴歌能力被验证，新曲灵感出现；亡妻现状没有新增答案。",
+      "resolution_note": "已入库至第15集；最近关联事件在第6集。最新状态审计在第6集。安魂用途与琴歌能力被验证，新曲灵感出现；亡妻现状没有新增答案。",
       "status": "partial",
       "title": "跨集 · 罗得的音乐与未明往事",
       "tracking_key": "roder-song-and-wife",
@@ -3639,7 +3979,7 @@
         "v09-e05"
       ],
       "question": "公平看待异族风险能否兼容对实际杀戮的约束？",
-      "resolution_note": "已入库至第14集；最近关联事件在第9集。最新状态审计在第6集。顾问反省偏见仍担心斯科特鼓励吸魂，伦理张力并未因反问消除。",
+      "resolution_note": "已入库至第15集；最近关联事件在第9集。最新状态审计在第6集。顾问反省偏见仍担心斯科特鼓励吸魂，伦理张力并未因反问消除。",
       "status": "open",
       "title": "跨集 · 吸魂与异族伦理",
       "tracking_key": "soul-consumption-ethics",
@@ -3677,6 +4017,9 @@
         "v13-edge-08",
         "v14-edge-01",
         "v14-edge-02",
+        "v15-edge-03",
+        "v15-edge-04",
+        "v15-edge-07",
         "cross-desert-01",
         "cross-angel-03",
         "cross-history-01",
@@ -3684,7 +4027,9 @@
         "cross-armament-02",
         "cross-empire-history-01",
         "cross-training-01",
-        "cross-mission-cost-01"
+        "cross-mission-cost-01",
+        "cross-relics-01",
+        "cross-legacy-use-01"
       ],
       "id": "book-2c92e5ad3024",
       "kind": "hidden",
@@ -3710,14 +4055,18 @@
         "v14-e01",
         "v14-e02",
         "v14-e03",
+        "v15-e05",
+        "v15-e06",
+        "v15-e07",
+        "v15-e09",
         "v08-e01",
         "v10-e04",
         "v11-e02"
       ],
-      "question": "黑龙的悼亡身份与旧帝国、永恒之眼及使命有何关系？",
-      "resolution_note": "已入库至第14集；最近关联事件在第14集。最新状态审计在第14集。君王分身、记忆传承和帝国重临目的获得说明；古国历史和使命终极机制仍有未明，不能因拿到记忆便关闭宽问题。",
+      "question": "失落帝国如何返回，谁造成旧日断裂？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。第三器死亡之眼取得；亲见红月通道、浮陆和哈力维亚，得到三器破平衡指令；切里莫背叛仍是推断，末自称回归另须验证。",
       "status": "partial",
-      "title": "跨集 · 古国、悼亡与帝国遗产",
+      "title": "跨集 · 三圣器、红月与帝国回归",
       "tracking_key": "desert-bones-and-mourning-soul",
       "volume_history": [
         {
@@ -3775,6 +4124,14 @@
           "status": "partial",
           "title": "古国、悼亡与帝国遗产",
           "volume": 14
+        },
+        {
+          "kind": "hidden",
+          "question": "失落帝国如何返回，谁造成旧日断裂？",
+          "resolution_note": "第三器死亡之眼取得；亲见红月通道、浮陆和哈力维亚，得到三器破平衡指令；切里莫背叛仍是推断，末自称回归另须验证。",
+          "status": "partial",
+          "title": "三圣器、红月与帝国回归",
+          "volume": 15
         }
       ]
     },
@@ -3809,7 +4166,7 @@
         "v06-e08"
       ],
       "question": "追杀结局与教皇安排的目的分别是什么？",
-      "resolution_note": "已入库至第14集；最近关联事件在第10集。最新状态审计在第10集。雷奥本人死亡，个人追杀结束；他为教会所用的来历、教皇赐枪与原追踪方法仍未完全解明。",
+      "resolution_note": "已入库至第15集；最近关联事件在第10集。最新状态审计在第10集。雷奥本人死亡，个人追杀结束；他为教会所用的来历、教皇赐枪与原追踪方法仍未完全解明。",
       "status": "partial",
       "title": "跨集 · 雷奥追杀与教皇安排",
       "tracking_key": "god-knight-pursuit",
@@ -3895,7 +4252,7 @@
         "v13-e06"
       ],
       "question": "能否取得安息石并让龙墓力量离开封印？",
-      "resolution_note": "已入库至第14集；最近关联事件在第13集。最新状态审计在第12集。本集取石、破封与获取受制龙群均完成，但付出金属兵及大批可用骨骸损失；这仅关闭本次远征目标，不代表龙皇冲突、皇冠历史或组织稳定结束。",
+      "resolution_note": "已入库至第15集；最近关联事件在第13集。最新状态审计在第12集。本集取石、破封与获取受制龙群均完成，但付出金属兵及大批可用骨骸损失；这仅关闭本次远征目标，不代表龙皇冲突、皇冠历史或组织稳定结束。",
       "status": "resolved",
       "title": "跨集 · 取石远征与龙墓解封",
       "tracking_key": "dragon-tomb-expedition",
@@ -3939,12 +4296,14 @@
         "v12-edge-03",
         "v12-edge-05",
         "v12-edge-07",
+        "v15-edge-01",
         "cross-prophet-01",
         "cross-expedition-01",
-        "cross-prophet-03"
+        "cross-prophet-03",
+        "cross-prophet-control-02"
       ],
       "id": "book-bf7a72bd8f37",
-      "kind": "hidden",
+      "kind": "subplot",
       "node_ids": [
         "v07-e04",
         "v09-e03",
@@ -3952,12 +4311,15 @@
         "v12-e05",
         "v12-e06",
         "v12-e08",
+        "v15-e01",
+        "v15-e04",
+        "v15-e08",
         "v10-e06"
       ],
-      "question": "先知能否兑现全墓力量的效忠，自主与约束如何分配？",
-      "resolution_note": "已入库至第14集；最近关联事件在第12集。最新状态审计在第12集。从分身半魂漏洞升级为完整魂约，先知已无法随意背离；其思想仍含支配与灭世野心，身份阶位及分身知情矛盾未解。",
+      "question": "先知的私人利益是否得到有效约束？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。三十六龙转约黑龙，先知保留指挥，私兵根基受削但末仍获祭魂准备授权。",
       "status": "partial",
-      "title": "跨集 · 先知承诺与真正臣服",
+      "title": "跨集 · 先知私兵与主君制衡",
       "tracking_key": "dragon-soul-oath-and-prophet",
       "volume_history": [
         {
@@ -3983,6 +4345,14 @@
           "status": "partial",
           "title": "先知承诺与真正臣服",
           "volume": 12
+        },
+        {
+          "kind": "subplot",
+          "question": "先知的私人利益是否得到有效约束？",
+          "resolution_note": "三十六龙转约黑龙，先知保留指挥，私兵根基受削但末仍获祭魂准备授权。",
+          "status": "partial",
+          "title": "先知私兵与主君制衡",
+          "volume": 15
         }
       ]
     },
@@ -3996,7 +4366,10 @@
         "v14-edge-06",
         "v14-edge-07",
         "v14-edge-08",
-        "cross-hero-01"
+        "v15-edge-05",
+        "v15-edge-06",
+        "cross-hero-01",
+        "cross-corpse-plan-02"
       ],
       "id": "book-db9eea600737",
       "kind": "main",
@@ -4017,12 +4390,16 @@
         "v14-e07",
         "v14-e08",
         "v14-e09",
+        "v15-e01",
+        "v15-e04",
+        "v15-e08",
+        "v15-e09",
         "v05-e07"
       ],
-      "question": "三次南征后，塞茵和同盟能否存续，战争将怎样结束？",
-      "resolution_note": "已入库至第14集；最近关联事件在第14集。最新状态审计在第14集。前两次南征受挫，第三次推进到塞茵；旁白有灭亡预告，但当前战局、全城处置和最终结算尚未展示。",
-      "status": "open",
-      "title": "跨集 · 同盟战争与超常力量的政治后果",
+      "question": "黑龙势力如何应对教会战争和大规模牺牲选项？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。围城常规战造成巨大伤亡，红月改局；祭魂阵从暂禁到准备，尚未发动或验证效果。",
+      "status": "partial",
+      "title": "跨集 · 围城、活尸备选与红月介入",
       "tracking_key": "alliance-war-and-divine-power",
       "volume_history": [
         {
@@ -4064,6 +4441,14 @@
           "status": "open",
           "title": "同盟战争与超常力量的政治后果",
           "volume": 14
+        },
+        {
+          "kind": "main",
+          "question": "黑龙势力如何应对教会战争和大规模牺牲选项？",
+          "resolution_note": "围城常规战造成巨大伤亡，红月改局；祭魂阵从暂禁到准备，尚未发动或验证效果。",
+          "status": "partial",
+          "title": "围城、活尸备选与红月介入",
+          "volume": 15
         }
       ]
     },
@@ -4082,7 +4467,7 @@
         "v01-e03"
       ],
       "question": "氓族若得知阿罗约真实遭遇，联盟会如何改变？",
-      "resolution_note": "已入库至第14集；最近关联事件在第8集。最新状态审计在第8集。族源得到确认，记忆亲近与撒谎同时成立；族长仍不知死因，未能评价这项隐瞒。",
+      "resolution_note": "已入库至第15集；最近关联事件在第8集。最新状态审计在第8集。族源得到确认，记忆亲近与撒谎同时成立；族长仍不知死因，未能评价这项隐瞒。",
       "status": "open",
       "title": "跨集 · 阿罗约记忆与被隐藏的旧杀戮",
       "tracking_key": "aroyo-memory-and-mang-clan",
@@ -4115,7 +4500,7 @@
         "v09-e01"
       ],
       "question": "已完成转生者如何适应存在形式，其人格与意愿将如何延续？",
-      "resolution_note": "已入库至第14集；最近关联事件在第9集。最新状态审计在第9集。本集三千余混合灵魂完成分批转生，并非全都是氓族。存续结果已明确，弱魂适应、威逼忠誓和自主性问题仍保留；不能用后来成功倒推早先强制行为获得同意。",
+      "resolution_note": "已入库至第15集；最近关联事件在第9集。最新状态审计在第9集。本集三千余混合灵魂完成分批转生，并非全都是氓族。存续结果已明确，弱魂适应、威逼忠誓和自主性问题仍保留；不能用后来成功倒推早先强制行为获得同意。",
       "status": "partial",
       "title": "跨集 · 氓族与骑士灵魂转生后的存续",
       "tracking_key": "transformation-altar-and-mang-survival",
@@ -4155,8 +4540,9 @@
         "v13-edge-04",
         "v14-edge-05",
         "cross-church-agency-02",
-        "cross-church-agency-04",
-        "cross-church-agency-03"
+        "cross-v15-church-agency",
+        "cross-church-agency-03",
+        "cross-church-agency-04"
       ],
       "id": "book-02ba45413b1e",
       "kind": "hidden",
@@ -4170,12 +4556,16 @@
         "v14-e03",
         "v14-e06",
         "v14-e07",
-        "v14-e09"
+        "v14-e09",
+        "v15-e01",
+        "v15-e05",
+        "v15-e08",
+        "v15-e09"
       ],
-      "question": "宗教名义下的军队、骑士和神祇是否按同一利益行动？",
-      "resolution_note": "已入库至第14集；最近关联事件在第14集。最新状态审计在第14集。神骑按位面职责放行，牧师在败军中救助，教会军团第三次介入；两神通过载体反对先知，不能合并成单一阵营意志。",
+      "question": "天使的个体化如何改变制度服从与战局？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。菲力普自陈价值动机；其他降临天使出现兴趣与不服，弗里昂担忧；四翼来袭者本源结局不明。",
       "status": "partial",
-      "title": "跨集 · 教会、神骑与神性主体的不同职责",
+      "title": "跨集 · 天使人格与教会目标",
       "tracking_key": "church-institution-and-angel-agency",
       "volume_history": [
         {
@@ -4217,6 +4607,14 @@
           "status": "partial",
           "title": "教会、神骑与神性主体的不同职责",
           "volume": 14
+        },
+        {
+          "kind": "hidden",
+          "question": "天使的个体化如何改变制度服从与战局？",
+          "resolution_note": "菲力普自陈价值动机；其他降临天使出现兴趣与不服，弗里昂担忧；四翼来袭者本源结局不明。",
+          "status": "partial",
+          "title": "天使人格与教会目标",
+          "volume": 15
         }
       ]
     },
@@ -4236,7 +4634,7 @@
         "v01-e07"
       ],
       "question": "图克如何诞生，守护本能和祭坛苍老声音来自何处？",
-      "resolution_note": "已入库至第14集；最近关联事件在第9集。最新状态审计在第9集。声音是旧沼泽领主留下的记忆烙印；其灵魂重新汇聚成为图克，最后执念形成守护本能。现主体仍是图克，只继承记忆知识；本条回收这组来源问题，不关闭古帝国消失或后续祭坛发展。",
+      "resolution_note": "已入库至第15集；最近关联事件在第9集。最新状态审计在第9集。声音是旧沼泽领主留下的记忆烙印；其灵魂重新汇聚成为图克，最后执念形成守护本能。现主体仍是图克，只继承记忆知识；本条回收这组来源问题，不关闭古帝国消失或后续祭坛发展。",
       "status": "resolved",
       "title": "跨集 · 图克诞生、守护与祭坛声音来源",
       "tracking_key": "tuk-and-the-transformation-altar",
@@ -4284,12 +4682,13 @@
         "v14-e06",
         "v14-e08",
         "v14-e09",
+        "v15-e02",
         "v07-e01"
       ],
-      "question": "不死劳动与政治组织将把领地带向怎样的统治方式？",
-      "resolution_note": "已入库至第14集；最近关联事件在第14集。最新状态审计在第14集。建设、矿业、财政与军事有效整合，但统治者秘密转生及俘虏劳死揭开代价；黑龙回来后如何约束代理权尚待后文。",
+      "question": "个人能力能否变成组织可重复资源？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。罗得被任教并征召学员，只到准备阶段；是否有效、是否等于魔力指挥使皆不能先判。",
       "status": "partial",
-      "title": "跨集 · 黑龙领地的财政、工程与代理治理",
+      "title": "跨集 · 音乐教学与势力资源",
       "tracking_key": "blackdragon-territory-and-industry",
       "volume_history": [
         {
@@ -4315,6 +4714,14 @@
           "status": "partial",
           "title": "黑龙领地的财政、工程与代理治理",
           "volume": 14
+        },
+        {
+          "kind": "subplot",
+          "question": "个人能力能否变成组织可重复资源？",
+          "resolution_note": "罗得被任教并征召学员，只到准备阶段；是否有效、是否等于魔力指挥使皆不能先判。",
+          "status": "partial",
+          "title": "音乐教学与势力资源",
+          "volume": 15
         }
       ]
     },
@@ -4331,7 +4738,7 @@
         "v06-e01"
       ],
       "question": "泰戈的身体与智力将怎样发展？",
-      "resolution_note": "已入库至第14集；最近关联事件在第10集。最新状态审计在第10集。本集试验和问答确认局部提升；机制为几人推论，未达普通成人全部能力。",
+      "resolution_note": "已入库至第15集；最近关联事件在第10集。最新状态审计在第10集。本集试验和问答确认局部提升；机制为几人推论，未达普通成人全部能力。",
       "status": "partial",
       "title": "跨集 · 泰戈变异与认知成长",
       "tracking_key": "taige-soul-repair",
@@ -4370,7 +4777,7 @@
         "v11-e02"
       ],
       "question": "如何认主、吞魂制造傀儡，古主遗产何来？",
-      "resolution_note": "已入库至第14集；最近关联事件在第11集。最新状态审计在第10集。同源亲和和傀儡功能有实证，黑龙尚未认主、约用七成；矮人傀儡约半生前实力。",
+      "resolution_note": "已入库至第15集；最近关联事件在第11集。最新状态审计在第10集。同源亲和和傀儡功能有实证，黑龙尚未认主、约用七成；矮人傀儡约半生前实力。",
       "status": "partial",
       "title": "跨集 · 噬魂权限与死息傀儡",
       "tracking_key": "soul-devourer-weapon-and-puppets",
@@ -4389,21 +4796,24 @@
       "edge_ids": [
         "v13-edge-01",
         "cross-forest-01",
-        "cross-faith-01"
+        "cross-faith-01",
+        "cross-faith-02"
       ],
       "id": "book-4f19b0c4054c",
-      "kind": "subplot",
+      "kind": "hidden",
       "node_ids": [
         "v10-e05",
         "v13-e01",
         "v13-e02",
         "v14-e05",
-        "v14-e09"
+        "v14-e09",
+        "v15-e04",
+        "v15-e07"
       ],
-      "question": "森林神祇如何恢复信仰、力量与行动能力？",
-      "resolution_note": "已入库至第14集；最近关联事件在第14集。最新状态审计在第14集。娜娜已成为信仰媒介，自然神可借她显现分身；不是完全恢复本体或突破位面限制。此前信力仍涌入的口径疑点保留。",
+      "question": "自然神会透露多少帝国秘密，其媒介安排如何持续？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。明确本源常借娜娜、分身留树；受威胁吐露平衡神真名，可信范围仍限单方说明。",
       "status": "partial",
-      "title": "跨集 · 自然神的信仰通路与森林共同体",
+      "title": "跨集 · 自然神的本源与情报交换",
       "tracking_key": "forest-tree-and-dwarf-faith",
       "volume_history": [
         {
@@ -4429,6 +4839,14 @@
           "status": "partial",
           "title": "自然神的信仰通路与森林共同体",
           "volume": 14
+        },
+        {
+          "kind": "hidden",
+          "question": "自然神会透露多少帝国秘密，其媒介安排如何持续？",
+          "resolution_note": "明确本源常借娜娜、分身留树；受威胁吐露平衡神真名，可信范围仍限单方说明。",
+          "status": "partial",
+          "title": "自然神的本源与情报交换",
+          "volume": 15
         }
       ]
     },
@@ -4451,7 +4869,7 @@
         "v11-e03"
       ],
       "question": "海皇是否获释，夺躯危机结果如何？",
-      "resolution_note": "已入库至第14集；最近关联事件在第11集。最新状态审计在第11集。海皇解封后谋夺躯，终神识被吞灭；仅回收这次封印与危机，不关闭古帝国或全部神史。",
+      "resolution_note": "已入库至第15集；最近关联事件在第11集。最新状态审计在第11集。海皇解封后谋夺躯，终神识被吞灭；仅回收这次封印与危机，不关闭古帝国或全部神史。",
       "status": "resolved",
       "title": "跨集 · 海皇解封与夺躯危机",
       "tracking_key": "sea-emperor-double-seal",
@@ -4492,7 +4910,7 @@
         "v12-e03"
       ],
       "question": "帝勒能否带族人脱离龙皇控制，拿不列斯延续方式为何？",
-      "resolution_note": "已入库至第14集；最近关联事件在第12集。最新状态审计在第12集。元力与记忆传承、拒绝被利用和退战得到确认；全族去向、长老死因、帝勒神格完成度与拿本源苏醒仍未回收。",
+      "resolution_note": "已入库至第15集；最近关联事件在第12集。最新状态审计在第12集。元力与记忆传承、拒绝被利用和退战得到确认；全族去向、长老死因、帝勒神格完成度与拿本源苏醒仍未回收。",
       "status": "partial",
       "title": "跨集 · 龙人血脉、自主与失踪",
       "tracking_key": "dragon-bloodline-and-confinement",
@@ -4526,7 +4944,7 @@
         "v13-e01"
       ],
       "question": "第12集末靠近沼泽的生物是谁、当次来意为何？",
-      "resolution_note": "已入库至第14集；最近关联事件在第13集。最新状态审计在第13集。开篇接续托雷矮人一行与追兵在沼泽边的交战；黑龙介入后出现自然神预录邀请。只关闭当次来访悬念，合作真实目的由自然神线继续追踪。",
+      "resolution_note": "已入库至第15集；最近关联事件在第13集。最新状态审计在第13集。开篇接续托雷矮人一行与追兵在沼泽边的交战；黑龙介入后出现自然神预录邀请。只关闭当次来访悬念，合作真实目的由自然神线继续追踪。",
       "status": "resolved",
       "title": "跨集 · 沼泽新来者的身份与邀请",
       "tracking_key": "swamp-approaching-lives",
@@ -4574,19 +4992,21 @@
     {
       "edge_ids": [
         "v13-edge-04",
-        "cross-dragon-loss-01"
+        "cross-dragon-loss-01",
+        "cross-prophet-control-02"
       ],
       "id": "book-0ee308c4a60f",
       "kind": "main",
       "node_ids": [
         "v13-e03",
         "v13-e06",
+        "v15-e04",
         "v12-e05"
       ],
-      "question": "余下龙群如何面对教会与失去君王联络？",
-      "resolution_note": "已入库至第14集；最近关联事件在第13集。最新状态审计在第13集。这是第12集取石/破封目标完成后的龙群生存新问题，不重开已完成远征。72无智龙毁灭，36有智龙随先知保留；复仇及主从重联未完成。",
+      "question": "余下智慧龙如何存续并参与教会战争？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。三十六龙仍存并从先知转约黑龙，战争继续，不能宣称全群脱险。",
       "status": "partial",
-      "title": "跨集 · 龙墓资源释放后的代价",
+      "title": "跨集 · 剩余不死龙的作战与归属",
       "tracking_key": "undead-dragon-force-survival",
       "volume_history": [
         {
@@ -4596,6 +5016,14 @@
           "status": "partial",
           "title": "龙墓资源释放后的代价",
           "volume": 13
+        },
+        {
+          "kind": "main",
+          "question": "余下智慧龙如何存续并参与教会战争？",
+          "resolution_note": "三十六龙仍存并从先知转约黑龙，战争继续，不能宣称全群脱险。",
+          "status": "partial",
+          "title": "剩余不死龙的作战与归属",
+          "volume": 15
         }
       ]
     },
@@ -4619,12 +5047,13 @@
         "v13-e09",
         "v14-e02",
         "v14-e03",
-        "v14-e09"
+        "v14-e09",
+        "v15-e01"
       ],
-      "question": "黑龙能否重新连通旧同伴并实体返回？",
-      "resolution_note": "已入库至第14集；最近关联事件在第14集。最新状态审计在第14集。本次失联后的跨位面归途于卷末实体会合回收；不代表死亡世界全部居民问题、领地危机或君王使命解决。",
+      "question": "黑龙能否回到物质位面并恢复同伴联系？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。本集开场确已带十五同伴归来并重获决策；只关闭本次归途，不关闭未来跨位面风险。",
       "status": "resolved",
-      "title": "跨集 · 死亡世界归途",
+      "title": "跨集 · 放逐后的定位与归途",
       "tracking_key": "death-world-return",
       "volume_history": [
         {
@@ -4642,6 +5071,14 @@
           "status": "resolved",
           "title": "死亡世界归途",
           "volume": 14
+        },
+        {
+          "kind": "main",
+          "question": "黑龙能否回到物质位面并恢复同伴联系？",
+          "resolution_note": "本集开场确已带十五同伴归来并重获决策；只关闭本次归途，不关闭未来跨位面风险。",
+          "status": "resolved",
+          "title": "放逐后的定位与归途",
+          "volume": 15
         }
       ]
     },
@@ -4649,7 +5086,9 @@
       "edge_ids": [
         "v14-edge-01",
         "v14-edge-02",
-        "cross-mission-cost-01"
+        "v15-edge-04",
+        "cross-mission-cost-01",
+        "cross-legacy-use-01"
       ],
       "id": "book-f6314cbd93ce",
       "kind": "hidden",
@@ -4657,12 +5096,14 @@
         "v14-e01",
         "v14-e02",
         "v14-e03",
+        "v15-e06",
+        "v15-e07",
         "v13-e07"
       ],
-      "question": "分身能传下什么、余命如何结束、继承是否约束黑龙选择？",
-      "resolution_note": "已入库至第14集；最近关联事件在第14集。最新状态审计在第14集。确认记忆不等于力量，黑龙人格未被替代；分身灭霍夫曼表现强制使命，但终局存亡与黑龙的最终选择未明。",
+      "question": "黑龙如何承担遗产与使命，分身的结束如何进入其选择？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。回述分身在三年内追上本体死亡而消失，力量与人格未因此自动等同本体；黑龙利用继承记忆认遗迹、接君王回归要求，但未完成回归使命。三年内是期限，不能改读为恰满三年。",
       "status": "partial",
-      "title": "跨集 · 君王分身的有限传承与强制使命",
+      "title": "跨集 · 分身遗产与外加使命",
       "tracking_key": "cutroman-legacy-and-mission",
       "volume_history": [
         {
@@ -4672,6 +5113,14 @@
           "status": "partial",
           "title": "君王分身的有限传承与强制使命",
           "volume": 14
+        },
+        {
+          "kind": "hidden",
+          "question": "黑龙如何承担遗产与使命，分身的结束如何进入其选择？",
+          "resolution_note": "回述分身在三年内追上本体死亡而消失，力量与人格未因此自动等同本体；黑龙利用继承记忆认遗迹、接君王回归要求，但未完成回归使命。三年内是期限，不能改读为恰满三年。",
+          "status": "partial",
+          "title": "分身遗产与外加使命",
+          "volume": 15
         }
       ]
     },
@@ -4680,7 +5129,10 @@
         "v14-edge-06",
         "v14-edge-07",
         "v14-edge-08",
-        "cross-autonomy-02"
+        "v15-edge-05",
+        "cross-v14-autonomy",
+        "cross-corpse-plan-01",
+        "cross-corpse-plan-02"
       ],
       "id": "book-f7d8b02957f0",
       "kind": "main",
@@ -4689,12 +5141,15 @@
         "v14-e07",
         "v14-e08",
         "v14-e09",
+        "v15-e01",
+        "v15-e08",
+        "v15-e09",
         "v07-e07"
       ],
-      "question": "先知的全城法阵是否发动，黑龙将如何处理其计划与责任？",
-      "resolution_note": "已入库至第14集；最近关联事件在第14集。最新状态审计在第14集。法阵已设并做过个体试验；一百五十万城民未在本集全部变活尸。斯科特赞成，两神反对，黑龙仅到场，未裁决或拆阵。",
-      "status": "open",
-      "title": "跨集 · 塞茵全城活尸计划与授权危机",
+      "question": "黑龙是否允许祭魂魔阵发动，百万平民将如何存续？",
+      "resolution_note": "已入库至第15集；最近关联事件在第15集。最新状态审计在第15集。开场因时机收益否决，末遇红月转机改为准备并承诺不到最后不启；截至本集未发动，不以暂禁冒充永久放弃。",
+      "status": "partial",
+      "title": "跨集 · 塞茵活尸阵的延期与重新准备",
       "tracking_key": "seiyne-living-corpse-plan",
       "volume_history": [
         {
@@ -4704,6 +5159,14 @@
           "status": "open",
           "title": "塞茵全城活尸计划与授权危机",
           "volume": 14
+        },
+        {
+          "kind": "main",
+          "question": "黑龙是否允许祭魂魔阵发动，百万平民将如何存续？",
+          "resolution_note": "开场因时机收益否决，末遇红月转机改为准备并承诺不到最后不启；截至本集未发动，不以暂禁冒充永久放弃。",
+          "status": "partial",
+          "title": "塞茵活尸阵的延期与重新准备",
+          "volume": 15
         }
       ]
     },
@@ -4722,7 +5185,7 @@
         "v08-e05"
       ],
       "question": "记忆所得如何改变选择，哪些能力仍不能继承？",
-      "resolution_note": "已入库至第14集；最近关联事件在第8集。状态来自人工跨集关系整理。跨集信息优势得到兑现；知识与魔力仍须分开。",
+      "resolution_note": "已入库至第15集；最近关联事件在第8集。状态来自人工跨集关系整理。跨集信息优势得到兑现；知识与魔力仍须分开。",
       "status": "partial",
       "title": "跨集 · 记忆、知识与力量",
       "tracking_key": "memory-and-power",

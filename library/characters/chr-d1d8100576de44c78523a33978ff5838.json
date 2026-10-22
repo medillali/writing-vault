@@ -3,14 +3,19 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "两护卫被灭时传送逃生，回报调整撤退顺序；获知龙墓解封及龙群驻地。",
-    "conflict": "低估先知实力，对教皇敬畏中有不忿。",
-    "coverage_note": "九维深化已覆盖第1至13集；变化记录以各集证据为准。",
-    "goal": "执行捕杀并试探菲力普，维持自身责任与地位。",
-    "knowledge_limits": "其对菲力普五阶的估量不代表完整实力；报告和实情有差异。",
+    "arc_change": "发现人格变化已扩散，不再只是单个菲力普的异常。",
+    "conflict": "部下增长力量、兴趣和不满，组织等级难压个人变化。",
+    "coverage_note": "九维深化已覆盖第1至15集；变化记录以各集证据为准。",
+    "goal": "维持天使命令与服从。",
+    "knowledge_limits": [
+      "他对先知身份及天使变化的价值判断都有局限。"
+    ],
     "name": "弗里昂",
-    "relationships": "受教皇指挥，观察菲力普忠诚；带两名新降临天使。",
-    "summary": "掌宗教裁判所等秘密力量的大主教、光明大魔导师，修圣言术。",
+    "relationships": [
+      "将天使兴趣和赠礼称为污染。",
+      "尚误认先知是召唤的不死龙。"
+    ],
+    "summary": "监管有个性化倾向的降临天使，因自身较弱而担心失控。",
     "volume_history": [
       {
         "aliases": [],
@@ -44,6 +49,29 @@
         "relationships": "受教皇指挥，观察菲力普忠诚；带两名新降临天使。",
         "summary": "掌宗教裁判所等秘密力量的大主教、光明大魔导师，修圣言术。",
         "volume": 13
+      },
+      {
+        "aliases": [],
+        "arc_change": "发现人格变化已扩散，不再只是单个菲力普的异常。",
+        "conflict": "部下增长力量、兴趣和不满，组织等级难压个人变化。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0159",
+            "end_line": 19439,
+            "start_line": 19401
+          }
+        ],
+        "goal": "维持天使命令与服从。",
+        "knowledge_limits": [
+          "他对先知身份及天使变化的价值判断都有局限。"
+        ],
+        "name": "弗里昂",
+        "relationships": [
+          "将天使兴趣和赠礼称为污染。",
+          "尚误认先知是召唤的不死龙。"
+        ],
+        "summary": "监管有个性化倾向的降临天使，因自身较弱而担心失控。",
+        "volume": 15
       }
     ]
   },
@@ -81,19 +109,28 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 17358
+    },
+    {
+      "chapter_id": "ch-0159",
+      "claim_kind": "inference",
+      "end_line": 19439,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 19401
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/弗里昂",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
-    "第13集"
+    "第13集",
+    "第15集"
   ],
   "title": "弗里昂：分集人物研究",
-  "updated_at": "2026-10-21T21:39:46.187156+00:00",
+  "updated_at": "2026-10-22T01:35:32.883953+00:00",
   "user_notes": ""
 }

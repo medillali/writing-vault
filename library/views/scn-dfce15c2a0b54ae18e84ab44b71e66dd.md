@@ -1,0 +1,60 @@
+# 击杀越多，敌人越集中
+
+ID: `scn-dfce15c2a0b54ae18e84ab44b71e66dd` · 版本: 1 · 范围: source-analysis
+
+红月巫师伤亡后把力量交给同伴，最后两人主动合一，存活者自称旧君王。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-dfce15c2a0b54ae18e84ab44b71e66dd",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "反常规模战斗、集群到单体的威胁递进。",
+    "choice": "最后两巫师主动汇合并牺牲一人；黑龙从观察转为准备出击。",
+    "consequence": "一名降临天使躯体被消融，末主体自报达罗亚力绯克；黑龙率先出城。",
+    "failure_mode": "死亡聚能若无边界说明会像无限加码；自报身份不能自动消除人格、载体和能量来源疑问。",
+    "goal": "各方试图压制突袭，未知力量则持续聚合。",
+    "obstacle": "常规击杀减少人数却提升剩余者力量，多系攻击与自爆不断改变交战条件。",
+    "state_change": "群体袭击转为有名主体回归悬念，城战连接帝国历史。",
+    "summary": "红月巫师伤亡后把力量交给同伴，最后两人主动合一，存活者自称旧君王。",
+    "volume": 15,
+    "why_it_works": "规则通过多次结果建立，再以主动使用规则和语言出现完成升级。"
+  },
+  "created_at": "2026-10-22T01:35:34.868612+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0167",
+      "claim_kind": "inference",
+      "end_line": 20419,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20344
+    },
+    {
+      "chapter_id": "ch-0167",
+      "claim_kind": "inference",
+      "end_line": 20499,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20466
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/v15-s04",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "全书九维",
+    "第15集"
+  ],
+  "title": "击杀越多，敌人越集中",
+  "updated_at": "2026-10-22T01:35:34.961794+00:00",
+  "user_notes": ""
+}
+
+```

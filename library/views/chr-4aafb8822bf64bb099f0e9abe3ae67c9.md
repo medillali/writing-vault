@@ -1,8 +1,8 @@
 # 米勒达布隆迪：分集人物研究
 
-ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 5 · 范围: source-analysis
+ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 6 · 范围: source-analysis
 
-已对黑龙献完整魂约的亡灵圣龙。黑龙缺席时控制沙里克、组织工程与战争，秘密杀死并转生统治者。会议揭露额外杀戮和俘虏劳死；已布置塞茵全城活尸阵及个体实验，末与两神分身对峙。
+沿用前集亡灵圣龙与对黑龙完整灵魂契约的身份状态；黑龙归来前掌战争资源，归来后仍任总指挥但失去龙群私人魂约。
 
 ## 完整卡片
 
@@ -15,14 +15,19 @@ ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 5 · 范围: source-analys
       "先知",
       "欧罗普菲力克"
     ],
-    "arc_change": "从高效代理管理者显露为把全城人格和生命当军资的扩张者，尚未受裁决。",
-    "conflict": "斯文哥尔等质疑临时授权与生命价值，两神分身反对；黑龙突然归来。",
-    "coverage_note": "九维深化已覆盖第1至14集；变化记录以各集证据为准。",
-    "goal": "以不死力量重构统治，击败帝国后向精灵等扩张。",
-    "knowledge_limits": "一百五十万人变活尸、屠神、征服精灵均未完成；姓名沿用已核实体，旧名矛盾仍存。",
+    "arc_change": "从代理统治的强势转为保职失兵权，末再得到备阵命令。",
+    "conflict": "黑龙否决灭城方案，自然神反对耗德鲁伊。",
+    "coverage_note": "九维深化已覆盖第1至15集；变化记录以各集证据为准。",
+    "goal": "维持战争优势和自身影响，利用尸体资源。",
+    "knowledge_limits": [
+      "不清楚降临天使剩余真实规模，城防叙述带自身议程。"
+    ],
     "name": "米勒达布隆迪",
-    "relationships": "斯科特明确喜欢其计划；毕瑟态度只被推测；疾风怀疑并疏远。",
-    "summary": "已对黑龙献完整魂约的亡灵圣龙。黑龙缺席时控制沙里克、组织工程与战争，秘密杀死并转生统治者。会议揭露额外杀戮和俘虏劳死；已布置塞茵全城活尸阵及个体实验，末与两神分身对峙。",
+    "relationships": [
+      "与自然神争夺可用兵力。",
+      "受黑龙重新集中控制。"
+    ],
+    "summary": "沿用前集亡灵圣龙与对黑龙完整灵魂契约的身份状态；黑龙归来前掌战争资源，归来后仍任总指挥但失去龙群私人魂约。",
     "volume_history": [
       {
         "aliases": [],
@@ -207,6 +212,52 @@ ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 5 · 范围: source-analys
         "relationships": "斯科特明确喜欢其计划；毕瑟态度只被推测；疾风怀疑并疏远。",
         "summary": "已对黑龙献完整魂约的亡灵圣龙。黑龙缺席时控制沙里克、组织工程与战争，秘密杀死并转生统治者。会议揭露额外杀戮和俘虏劳死；已布置塞茵全城活尸阵及个体实验，末与两神分身对峙。",
         "volume": 14
+      },
+      {
+        "aliases": [
+          "先知",
+          "欧罗普菲力克"
+        ],
+        "arc_change": "从代理统治的强势转为保职失兵权，末再得到备阵命令。",
+        "conflict": "黑龙否决灭城方案，自然神反对耗德鲁伊。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0156",
+            "end_line": 19079,
+            "start_line": 19065
+          },
+          {
+            "chapter_id": "ch-0156",
+            "end_line": 19208,
+            "start_line": 19145
+          },
+          {
+            "chapter_id": "ch-0161",
+            "end_line": 19730,
+            "start_line": 19693
+          },
+          {
+            "chapter_id": "ch-0162",
+            "end_line": 19779,
+            "start_line": 19731
+          },
+          {
+            "chapter_id": "ch-0167",
+            "end_line": 20465,
+            "start_line": 20449
+          }
+        ],
+        "goal": "维持战争优势和自身影响，利用尸体资源。",
+        "knowledge_limits": [
+          "不清楚降临天使剩余真实规模，城防叙述带自身议程。"
+        ],
+        "name": "米勒达布隆迪",
+        "relationships": [
+          "与自然神争夺可用兵力。",
+          "受黑龙重新集中控制。"
+        ],
+        "summary": "沿用前集亡灵圣龙与对黑龙完整灵魂契约的身份状态；黑龙归来前掌战争资源，归来后仍任总指挥但失去龙群私人魂约。",
+        "volume": 15
       }
     ]
   },
@@ -372,12 +423,52 @@ ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 5 · 范围: source-analys
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 19024
+    },
+    {
+      "chapter_id": "ch-0156",
+      "claim_kind": "inference",
+      "end_line": 19079,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 19065
+    },
+    {
+      "chapter_id": "ch-0156",
+      "claim_kind": "inference",
+      "end_line": 19208,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 19145
+    },
+    {
+      "chapter_id": "ch-0161",
+      "claim_kind": "inference",
+      "end_line": 19730,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 19693
+    },
+    {
+      "chapter_id": "ch-0162",
+      "claim_kind": "inference",
+      "end_line": 19779,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 19731
+    },
+    {
+      "chapter_id": "ch-0167",
+      "claim_kind": "inference",
+      "end_line": 20465,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20449
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/先知",
   "review_status": "draft",
-  "revision": 5,
+  "revision": 6,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -386,10 +477,11 @@ ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 5 · 范围: source-analys
     "第09集",
     "第12集",
     "第13集",
-    "第14集"
+    "第14集",
+    "第15集"
   ],
   "title": "米勒达布隆迪：分集人物研究",
-  "updated_at": "2026-10-22T01:29:20.595519+00:00",
+  "updated_at": "2026-10-22T01:35:31.766693+00:00",
   "user_notes": ""
 }
 

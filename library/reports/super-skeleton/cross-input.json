@@ -785,7 +785,7 @@
       ]
     },
     {
-      "id": "cross-autonomy-02",
+      "id": "cross-v14-autonomy",
       "from": "v07-e07",
       "to": "v14-e08",
       "kind": "echo",
@@ -2208,35 +2208,45 @@
       ]
     },
     {
-      "id": "cross-church-agency-04",
-      "from": "v11-e05",
-      "to": "v12-e07",
+      "id": "cross-v15-church-agency",
+      "from": "v13-e03",
+      "to": "v15-e01",
       "kind": "reveal",
-      "label": "菲力普对工具制度的解释扩展到备用身体来源与机构盲区，了解一层安排不代表掌握教会全局",
-      "claim_kind": "inference",
+      "label": "菲力普对放逐原因作自我说明，确认其重视黑龙对自身的利用价值",
+      "claim_kind": "fact",
       "tracking_keys": [
         "church-institution-and-angel-agency"
       ],
       "evidence": [
         {
-          "chapter_id": "ch-0112",
-          "start_line": 14439,
-          "end_line": 14480
+          "chapter_id": "ch-0132",
+          "start_line": 16659,
+          "end_line": 16690
         },
         {
-          "chapter_id": "ch-0112",
-          "start_line": 14481,
-          "end_line": 14520
+          "chapter_id": "ch-0134",
+          "start_line": 16868,
+          "end_line": 16894
         },
         {
-          "chapter_id": "ch-0123",
-          "start_line": 15800,
-          "end_line": 15833
+          "chapter_id": "ch-0134",
+          "start_line": 16901,
+          "end_line": 16916
         },
         {
-          "chapter_id": "ch-0127",
-          "start_line": 16135,
-          "end_line": 16215
+          "chapter_id": "ch-0135",
+          "start_line": 16948,
+          "end_line": 16957
+        },
+        {
+          "chapter_id": "ch-0156",
+          "start_line": 19055,
+          "end_line": 19118
+        },
+        {
+          "chapter_id": "ch-0157",
+          "start_line": 19212,
+          "end_line": 19267
         }
       ]
     },
@@ -2853,6 +2863,318 @@
           "chapter_id": "ch-0153",
           "start_line": 18985,
           "end_line": 18990
+        }
+      ]
+    },
+    {
+      "id": "cross-corpse-plan-01",
+      "from": "v14-e08",
+      "to": "v15-e01",
+      "kind": "reversal",
+      "label": "黑龙回归后暂时否决全城活尸计划，依据是时机与收益，并非宣布永久放弃或普遍人道原则",
+      "claim_kind": "fact",
+      "tracking_keys": [
+        "seiyne-living-corpse-plan",
+        "blackdragon-autonomy-and-companionship"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0153",
+          "start_line": 18915,
+          "end_line": 18963
+        },
+        {
+          "chapter_id": "ch-0153",
+          "start_line": 18968,
+          "end_line": 19004
+        },
+        {
+          "chapter_id": "ch-0154",
+          "start_line": 19005,
+          "end_line": 19008
+        },
+        {
+          "chapter_id": "ch-0156",
+          "start_line": 19055,
+          "end_line": 19118
+        },
+        {
+          "chapter_id": "ch-0157",
+          "start_line": 19212,
+          "end_line": 19267
+        }
+      ]
+    },
+    {
+      "id": "cross-corpse-plan-02",
+      "from": "v14-e08",
+      "to": "v15-e08",
+      "kind": "echo",
+      "label": "原先全城方案在红月转机中获得重新准备授权，仍未实际发动",
+      "claim_kind": "fact",
+      "tracking_keys": [
+        "seiyne-living-corpse-plan",
+        "alliance-war-and-divine-power"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0153",
+          "start_line": 18915,
+          "end_line": 18963
+        },
+        {
+          "chapter_id": "ch-0153",
+          "start_line": 18968,
+          "end_line": 19004
+        },
+        {
+          "chapter_id": "ch-0154",
+          "start_line": 19005,
+          "end_line": 19008
+        },
+        {
+          "chapter_id": "ch-0167",
+          "start_line": 20344,
+          "end_line": 20465
+        }
+      ]
+    },
+    {
+      "id": "cross-crystal-loss-01",
+      "from": "v12-e09",
+      "to": "v15-e03",
+      "kind": "reversal",
+      "label": "八晶体初觉醒后的武装成长伴随十七、十八冻碎损失，成长不能抹去个体存亡代价",
+      "claim_kind": "fact",
+      "tracking_keys": [
+        "children-consciousness"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0128",
+          "start_line": 16266,
+          "end_line": 16344
+        },
+        {
+          "chapter_id": "ch-0128",
+          "start_line": 16345,
+          "end_line": 16393
+        },
+        {
+          "chapter_id": "ch-0159",
+          "start_line": 19462,
+          "end_line": 19529
+        },
+        {
+          "chapter_id": "ch-0160",
+          "start_line": 19533,
+          "end_line": 19600
+        },
+        {
+          "chapter_id": "ch-0161",
+          "start_line": 19604,
+          "end_line": 19649
+        }
+      ]
+    },
+    {
+      "id": "cross-prophet-control-02",
+      "from": "v12-e05",
+      "to": "v15-e04",
+      "kind": "payoff",
+      "label": "先知自身完整魂约之后，黑龙进一步收走剩余三十六龙的魂约；保留其指挥职不等于解除主从限制",
+      "claim_kind": "fact",
+      "tracking_keys": [
+        "dragon-soul-oath-and-prophet",
+        "undead-dragon-force-survival"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0123",
+          "start_line": 15732,
+          "end_line": 15791
+        },
+        {
+          "chapter_id": "ch-0124",
+          "start_line": 15837,
+          "end_line": 15939
+        },
+        {
+          "chapter_id": "ch-0161",
+          "start_line": 19693,
+          "end_line": 19730
+        },
+        {
+          "chapter_id": "ch-0162",
+          "start_line": 19731,
+          "end_line": 19779
+        }
+      ]
+    },
+    {
+      "id": "cross-relics-01",
+      "from": "v13-e08",
+      "to": "v15-e06",
+      "kind": "payoff",
+      "label": "权杖和第三圣器的追索在海底遗迹推进，三器联系红月通道；见到彼端并不等于已实体抵达",
+      "claim_kind": "fact",
+      "tracking_keys": [
+        "desert-bones-and-mourning-soul"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0141",
+          "start_line": 17604,
+          "end_line": 17638
+        },
+        {
+          "chapter_id": "ch-0141",
+          "start_line": 17646,
+          "end_line": 17662
+        },
+        {
+          "chapter_id": "ch-0164",
+          "start_line": 19997,
+          "end_line": 20090
+        },
+        {
+          "chapter_id": "ch-0165",
+          "start_line": 20091,
+          "end_line": 20207
+        }
+      ]
+    },
+    {
+      "id": "cross-legacy-use-01",
+      "from": "v14-e02",
+      "to": "v15-e06",
+      "kind": "payoff",
+      "label": "继承的知识支持识别遗物和寻找旧帝国，使命接续仍不保证继承者理解全部隐情",
+      "claim_kind": "inference",
+      "tracking_keys": [
+        "cutroman-legacy-and-mission",
+        "desert-bones-and-mourning-soul"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0145",
+          "start_line": 17959,
+          "end_line": 18000
+        },
+        {
+          "chapter_id": "ch-0145",
+          "start_line": 18024,
+          "end_line": 18039
+        },
+        {
+          "chapter_id": "ch-0146",
+          "start_line": 18043,
+          "end_line": 18122
+        },
+        {
+          "chapter_id": "ch-0147",
+          "start_line": 18189,
+          "end_line": 18197
+        },
+        {
+          "chapter_id": "ch-0150",
+          "start_line": 18492,
+          "end_line": 18495
+        },
+        {
+          "chapter_id": "ch-0164",
+          "start_line": 19997,
+          "end_line": 20090
+        },
+        {
+          "chapter_id": "ch-0165",
+          "start_line": 20091,
+          "end_line": 20207
+        }
+      ]
+    },
+    {
+      "id": "cross-faith-02",
+      "from": "v14-e09",
+      "to": "v15-e07",
+      "kind": "reveal",
+      "label": "后文进一步说明自然神本源借娜娜、分身留树；少女主体与神明仍须分开记录",
+      "claim_kind": "fact",
+      "tracking_keys": [
+        "forest-tree-and-dwarf-faith",
+        "nana-protection"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0154",
+          "start_line": 19009,
+          "end_line": 19047
+        },
+        {
+          "chapter_id": "ch-0166",
+          "start_line": 20239,
+          "end_line": 20335
+        },
+        {
+          "chapter_id": "ch-0161",
+          "start_line": 19708,
+          "end_line": 19725
+        }
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0061",
+          "end_line": 7578,
+          "start_line": 7503
+        },
+        {
+          "chapter_id": "ch-0075",
+          "end_line": 9445,
+          "start_line": 9369
+        }
+      ],
+      "from": "v06-e04",
+      "id": "cross-autonomy-02",
+      "kind": "echo",
+      "label": "对具体伙伴的关爱边界发展为明确的自由存在宣言；两次选择都未解除灵魂支配关系",
+      "to": "v07-e07",
+      "tracking_keys": [
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "id": "cross-church-agency-04",
+      "from": "v11-e05",
+      "to": "v12-e07",
+      "kind": "reveal",
+      "label": "菲力普对工具制度的解释扩展到备用身体来源与机构盲区，了解一层安排不代表掌握教会全局",
+      "claim_kind": "inference",
+      "tracking_keys": [
+        "church-institution-and-angel-agency"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0112",
+          "start_line": 14439,
+          "end_line": 14480
+        },
+        {
+          "chapter_id": "ch-0112",
+          "start_line": 14481,
+          "end_line": 14520
+        },
+        {
+          "chapter_id": "ch-0123",
+          "start_line": 15800,
+          "end_line": 15833
+        },
+        {
+          "chapter_id": "ch-0127",
+          "start_line": 16135,
+          "end_line": 16215
         }
       ]
     }

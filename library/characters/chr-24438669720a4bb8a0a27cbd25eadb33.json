@@ -6,11 +6,13 @@
       "哥尔老师",
       "雷普诺特·里因斯·斯文哥尔"
     ],
-    "arc_change": "由战争合作者转为公开反对先知扩大杀戮与活尸方案的人类代表。",
-    "conflict": "实力弱于先知，又身处不死强者占多数的会议。",
-    "coverage_note": "九维深化已覆盖第1至14集；变化记录以各集证据为准。",
-    "goal": "阻止先知将所有生灵工具化，保有组织的基本约束。",
-    "knowledge_limits": "旁白本集把其放弃重生归因于性格，不应抹去早期具体选择情境；未证明他的反对已经改变决策。",
+    "arc_change": "获黑龙暂释压后仍在末章被压住异议，未因共同利益放弃抵触。",
+    "conflict": "魂力压制和自己所属阵营的战争逻辑。",
+    "coverage_note": "九维深化已覆盖第1至15集；变化记录以各集证据为准。",
+    "goal": "守城并阻止牺牲大批平民。",
+    "knowledge_limits": [
+      "音乐新能力起初判断错误；红月力量来源只能推测。"
+    ],
     "name": "斯文哥尔",
     "opening_observations": {
       "arc_in_sample": "权威判断→例外暴露→主动攻击→舍身掩护但被投刀击倒。",
@@ -24,8 +26,11 @@
       ],
       "summary": "有地位的法师依惯常召唤规则判断黑龙群体，接连遇到例外；认为必须消灭不死生物，失利后选择牺牲自己掩护同伴。"
     },
-    "relationships": "与星、月、爱琳、萝茜、娜娜同侧；借后两者潜在神力获得抗衡可能。",
-    "summary": "在领地承担后勤，会议追问先知未经同意的额外杀戮和俘虏死亡，坚持人命与授权边界。",
+    "relationships": [
+      "受黑龙保护亦受其压制。",
+      "以旧知识误认罗得为魔力指挥使。"
+    ],
+    "summary": "持续反对滥杀，又有识别魔法的知识与局限。",
     "volume_history": [
       {
         "aliases": [
@@ -464,6 +469,46 @@
         "relationships": "与星、月、爱琳、萝茜、娜娜同侧；借后两者潜在神力获得抗衡可能。",
         "summary": "在领地承担后勤，会议追问先知未经同意的额外杀戮和俘虏死亡，坚持人命与授权边界。",
         "volume": 14
+      },
+      {
+        "aliases": [
+          "哥尔老师"
+        ],
+        "arc_change": "获黑龙暂释压后仍在末章被压住异议，未因共同利益放弃抵触。",
+        "conflict": "魂力压制和自己所属阵营的战争逻辑。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0156",
+            "end_line": 19208,
+            "start_line": 19165
+          },
+          {
+            "chapter_id": "ch-0158",
+            "end_line": 19354,
+            "start_line": 19331
+          },
+          {
+            "chapter_id": "ch-0167",
+            "end_line": 20420,
+            "start_line": 20344
+          },
+          {
+            "chapter_id": "ch-0167",
+            "end_line": 20465,
+            "start_line": 20449
+          }
+        ],
+        "goal": "守城并阻止牺牲大批平民。",
+        "knowledge_limits": [
+          "音乐新能力起初判断错误；红月力量来源只能推测。"
+        ],
+        "name": "斯文哥尔",
+        "relationships": [
+          "受黑龙保护亦受其压制。",
+          "以旧知识误认罗得为魔力指挥使。"
+        ],
+        "summary": "持续反对滥杀，又有识别魔法的知识与局限。",
+        "volume": 15
       }
     ]
   },
@@ -845,12 +890,44 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 18952
+    },
+    {
+      "chapter_id": "ch-0156",
+      "claim_kind": "inference",
+      "end_line": 19208,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 19165
+    },
+    {
+      "chapter_id": "ch-0158",
+      "claim_kind": "inference",
+      "end_line": 19354,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 19331
+    },
+    {
+      "chapter_id": "ch-0167",
+      "claim_kind": "inference",
+      "end_line": 20420,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20344
+    },
+    {
+      "chapter_id": "ch-0167",
+      "claim_kind": "inference",
+      "end_line": 20465,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20449
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/opening-test-20261022/sven",
   "review_status": "draft",
-  "revision": 14,
+  "revision": 15,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -870,9 +947,10 @@
     "第12集",
     "第13集",
     "第14集",
+    "第15集",
     "责任"
   ],
   "title": "斯文哥尔：分集人物研究",
-  "updated_at": "2026-10-22T01:29:20.910046+00:00",
+  "updated_at": "2026-10-22T01:35:32.110726+00:00",
   "user_notes": ""
 }

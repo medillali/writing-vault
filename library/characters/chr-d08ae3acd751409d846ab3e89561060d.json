@@ -6,14 +6,19 @@
       "森林巨树",
       "里斯特"
     ],
-    "arc_change": "从森林中受限制的神祇转为能够通过媒介介入塞茵，但尚未脱离全部困境。",
-    "conflict": "先知以不死力量相逼，其当前分身并非全盛本源。",
-    "coverage_note": "九维深化已覆盖第1至14集；变化记录以各集证据为准。",
-    "goal": "恢复信仰与神力，保护信徒所构成的力量来源。",
-    "knowledge_limits": "第13仍有信力涌入、第14称失去吸收途径，口径待核；不能据当前显现判完全复原。",
+    "arc_change": "其威严受娜娜情感影响，秘密被迫透露而并未全部独立证实。",
+    "conflict": "被黑龙以极端手段逼问，兵源遭先知消耗。",
+    "coverage_note": "九维深化已覆盖第1至15集；变化记录以各集证据为准。",
+    "goal": "保留信仰和自身势力，避免黑龙灭人破坏平衡。",
+    "knowledge_limits": [
+      "三主神真名并非都知；切里莫相关仍是其单方证词。"
+    ],
     "name": "里维里斯特",
-    "relationships": "娜娜为媒介；与克丽丝分身在当前问题上共同对峙先知。",
-    "summary": "自然神经娜娜恢复信仰吸收通路，力量提升但受物质位面和本源状态限制；结尾借娜娜显现分身反对全城活尸计划。",
+    "relationships": [
+      "与先知争德鲁伊调度。",
+      "本源借娜娜、分身留神树。"
+    ],
+    "summary": "借娜娜本源会谈的自然神，给出平衡机制与切里莫身份说。",
     "volume_history": [
       {
         "aliases": [],
@@ -109,6 +114,37 @@
         "relationships": "娜娜为媒介；与克丽丝分身在当前问题上共同对峙先知。",
         "summary": "自然神经娜娜恢复信仰吸收通路，力量提升但受物质位面和本源状态限制；结尾借娜娜显现分身反对全城活尸计划。",
         "volume": 14
+      },
+      {
+        "aliases": [
+          "里斯特",
+          "森林巨树"
+        ],
+        "arc_change": "其威严受娜娜情感影响，秘密被迫透露而并未全部独立证实。",
+        "conflict": "被黑龙以极端手段逼问，兵源遭先知消耗。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0161",
+            "end_line": 19725,
+            "start_line": 19693
+          },
+          {
+            "chapter_id": "ch-0166",
+            "end_line": 20335,
+            "start_line": 20239
+          }
+        ],
+        "goal": "保留信仰和自身势力，避免黑龙灭人破坏平衡。",
+        "knowledge_limits": [
+          "三主神真名并非都知；切里莫相关仍是其单方证词。"
+        ],
+        "name": "里维里斯特",
+        "relationships": [
+          "与先知争德鲁伊调度。",
+          "本源借娜娜、分身留神树。"
+        ],
+        "summary": "借娜娜本源会谈的自然神，给出平衡机制与切里莫身份说。",
+        "volume": 15
       }
     ]
   },
@@ -194,21 +230,38 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 19009
+    },
+    {
+      "chapter_id": "ch-0161",
+      "claim_kind": "inference",
+      "end_line": 19725,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 19693
+    },
+    {
+      "chapter_id": "ch-0166",
+      "claim_kind": "inference",
+      "end_line": 20335,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20239
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/森林巨树",
   "review_status": "draft",
-  "revision": 3,
+  "revision": 4,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
     "第10集",
     "第13集",
-    "第14集"
+    "第14集",
+    "第15集"
   ],
   "title": "里维里斯特：分集人物研究",
-  "updated_at": "2026-10-22T01:29:21.259344+00:00",
+  "updated_at": "2026-10-22T01:35:32.544031+00:00",
   "user_notes": ""
 }
