@@ -3,19 +3,19 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "发现人格变化已扩散，不再只是单个菲力普的异常。",
-    "conflict": "部下增长力量、兴趣和不满，组织等级难压个人变化。",
-    "coverage_note": "九维深化已覆盖第1至15集；变化记录以各集证据为准。",
-    "goal": "维持天使命令与服从。",
+    "arc_change": "由惧怕躲藏到接受死亡；死于图克刃下，临终反击烧其半身。",
+    "conflict": "强者轻视、首领逃跑及教会对逃兵惩罚。",
+    "coverage_note": "九维深化已覆盖第1至16集；变化记录以各集证据为准。",
+    "goal": "保命与保名誉冲突下，最后选择奋力抵抗。",
     "knowledge_limits": [
-      "他对先知身份及天使变化的价值判断都有局限。"
+      "死亡已明确；不要以后无依据再以活人处理。"
     ],
     "name": "弗里昂",
     "relationships": [
-      "将天使兴趣和赠礼称为污染。",
-      "尚误认先知是召唤的不死龙。"
+      "受牧师奉献刺激重新调动虔诚与勇气。",
+      "无法理解菲力普保人格的动机。"
     ],
-    "summary": "监管有个性化倾向的降临天使，因自身较弱而担心失控。",
+    "summary": "藏权野心的指挥者在失败时拒用最后逃卷，鼓动部下争时间并战死。",
     "volume_history": [
       {
         "aliases": [],
@@ -72,6 +72,39 @@
         ],
         "summary": "监管有个性化倾向的降临天使，因自身较弱而担心失控。",
         "volume": 15
+      },
+      {
+        "aliases": [],
+        "arc_change": "由惧怕躲藏到接受死亡；死于图克刃下，临终反击烧其半身。",
+        "conflict": "强者轻视、首领逃跑及教会对逃兵惩罚。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0169",
+            "end_line": 20558,
+            "start_line": 20537
+          },
+          {
+            "chapter_id": "ch-0173",
+            "end_line": 20923,
+            "start_line": 20914
+          },
+          {
+            "chapter_id": "ch-0174",
+            "end_line": 21035,
+            "start_line": 21033
+          }
+        ],
+        "goal": "保命与保名誉冲突下，最后选择奋力抵抗。",
+        "knowledge_limits": [
+          "死亡已明确；不要以后无依据再以活人处理。"
+        ],
+        "name": "弗里昂",
+        "relationships": [
+          "受牧师奉献刺激重新调动虔诚与勇气。",
+          "无法理解菲力普保人格的动机。"
+        ],
+        "summary": "藏权野心的指挥者在失败时拒用最后逃卷，鼓动部下争时间并战死。",
+        "volume": 16
       }
     ]
   },
@@ -117,20 +150,45 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 19401
+    },
+    {
+      "chapter_id": "ch-0169",
+      "claim_kind": "inference",
+      "end_line": 20558,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20537
+    },
+    {
+      "chapter_id": "ch-0173",
+      "claim_kind": "inference",
+      "end_line": 20923,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20914
+    },
+    {
+      "chapter_id": "ch-0174",
+      "claim_kind": "inference",
+      "end_line": 21035,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21033
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/弗里昂",
   "review_status": "draft",
-  "revision": 2,
+  "revision": 3,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
     "第13集",
-    "第15集"
+    "第15集",
+    "第16集"
   ],
   "title": "弗里昂：分集人物研究",
-  "updated_at": "2026-10-22T01:35:32.883953+00:00",
+  "updated_at": "2026-10-22T01:47:33.710091+00:00",
   "user_notes": ""
 }

@@ -1,0 +1,74 @@
+# 由机制限制导出有代价的恶性解法
+
+ID: `pat-9bef3c14136d41f7b5b4f21ebfd0bdb1` · 版本: 1 · 范围: reusable-pattern
+
+一方无法赢局部消耗，改从制度允许的资源入口破局。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-9bef3c14136d41f7b5b4f21ebfd0bdb1",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "规模升级、背叛信任网络、跨线高潮。",
+    "failure_mode": "新资源突然出现、传输无条件，或数十万伤亡没有任何社会反应。",
+    "steps": [
+      "清楚写局部力量为何僵持。",
+      "展示远程通道能做与不能做的事。",
+      "让反派选择将人转成可传资源。",
+      "并行写受害者期待和实际后果。",
+      "将所得优势兑现为主角的新困难。"
+    ],
+    "summary": "一方无法赢局部消耗，改从制度允许的资源入口破局。",
+    "volume": 16
+  },
+  "created_at": "2026-10-22T01:47:37.746878+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-f57f5236a8c04d5689e5fb38dd42126b",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0178",
+      "claim_kind": "synthesis",
+      "end_line": 21579,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21564
+    },
+    {
+      "chapter_id": "ch-0179",
+      "claim_kind": "synthesis",
+      "end_line": 21731,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21684
+    },
+    {
+      "chapter_id": "ch-0180",
+      "claim_kind": "synthesis",
+      "end_line": 21755,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21738
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/v16-p03",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "全书九维",
+    "第16集"
+  ],
+  "title": "由机制限制导出有代价的恶性解法",
+  "updated_at": "2026-10-22T01:47:37.852882+00:00",
+  "user_notes": ""
+}
+
+```

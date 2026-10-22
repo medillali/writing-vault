@@ -3,14 +3,19 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "由领地统治者进入黑龙归途队伍。",
-    "conflict": "旧强者面对君王威权须服从，又需联合法术跨位面。",
-    "coverage_note": "九维深化已覆盖第1至14集；变化记录以各集证据为准。",
-    "goal": "响应霍夫曼与君王继承者的行动。",
-    "knowledge_limits": "带离领地的领民数量不等于全部穿越位面；其服从不能写成已献魂约。",
+    "arc_change": "在求救方案无解时反问为何不用百万魂，显出其判断尺度。",
+    "conflict": "知识有限与他对百万生命的资源化理解。",
+    "coverage_note": "九维深化已覆盖第1至16集；变化记录以各集证据为准。",
+    "goal": "维持阵营运转并取得魂力资源。",
+    "knowledge_limits": [
+      "未查明黑龙实际处境。"
+    ],
     "name": "列维斯",
-    "relationships": "与霍夫曼有师承渊源，与阿昔洛韦等同行。",
-    "summary": "悬空堡垒的亡灵圣者，带出约二百领民响应集会；后来在位面归途中参战。",
+    "relationships": [
+      "先知向他求跨面信息，他转询巫妖王。",
+      "与阿古的观念对立。"
+    ],
+    "summary": "死亡世界亡灵圣者，懂得较多位面背景但没有定位失联黑龙的方法。",
     "volume_history": [
       {
         "aliases": [],
@@ -44,6 +49,34 @@
         "relationships": "与霍夫曼有师承渊源，与阿昔洛韦等同行。",
         "summary": "悬空堡垒的亡灵圣者，带出约二百领民响应集会；后来在位面归途中参战。",
         "volume": 14
+      },
+      {
+        "aliases": [],
+        "arc_change": "在求救方案无解时反问为何不用百万魂，显出其判断尺度。",
+        "conflict": "知识有限与他对百万生命的资源化理解。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0177",
+            "end_line": 21412,
+            "start_line": 21404
+          },
+          {
+            "chapter_id": "ch-0177",
+            "end_line": 21431,
+            "start_line": 21422
+          }
+        ],
+        "goal": "维持阵营运转并取得魂力资源。",
+        "knowledge_limits": [
+          "未查明黑龙实际处境。"
+        ],
+        "name": "列维斯",
+        "relationships": [
+          "先知向他求跨面信息，他转询巫妖王。",
+          "与阿古的观念对立。"
+        ],
+        "summary": "死亡世界亡灵圣者，懂得较多位面背景但没有定位失联黑龙的方法。",
+        "volume": 16
       }
     ]
   },
@@ -81,19 +114,36 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 18262
+    },
+    {
+      "chapter_id": "ch-0177",
+      "claim_kind": "inference",
+      "end_line": 21412,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21404
+    },
+    {
+      "chapter_id": "ch-0177",
+      "claim_kind": "inference",
+      "end_line": 21431,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21422
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/列维斯",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
-    "第14集"
+    "第14集",
+    "第16集"
   ],
   "title": "列维斯：分集人物研究",
-  "updated_at": "2026-10-22T01:29:19.936414+00:00",
+  "updated_at": "2026-10-22T01:47:34.226496+00:00",
   "user_notes": ""
 }

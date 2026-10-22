@@ -3,21 +3,19 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "对菲力普保留战力的密告平淡处理，感应新神后发出秘密讯息；档案确认极光已处决同盟强者。",
-    "conflict": "皇权变化、未知新神与内部秘密行动并行。",
-    "coverage_note": "九维深化已覆盖第1至12集；变化记录以各集证据为准。",
-    "goal": "维持教会权力与对超凡事件的掌握。",
+    "arc_change": "由密室祈拜推进到亲手灌魂火，不可只当抽象阴谋。",
+    "conflict": "公开宗教排亡者与实际转生行为相冲突。",
+    "coverage_note": "九维深化已覆盖第1至16集；变化记录以各集证据为准。",
+    "goal": "执行其所谓神的意志，具体对象与目标未明。",
     "knowledge_limits": [
-      "密讯接收者未知",
-      "神迹与召回骑士具体目的未交代",
-      "衰老是否伪装只属艾伯劳猜测"
+      "雕像身份未证；神的旨意指哪位仍未知。",
+      "仪式完成后的安德鲁状态未展示。"
     ],
     "name": "教皇",
     "relationships": [
-      "通过教区事务与帝国世俗权力周旋",
-      "掌握菲力普不知道的极光档案"
+      "召回光之神骑并要求安德鲁无条件服从。"
     ],
-    "summary": "安排世俗权力让步、接收格杀档案并面对突发神迹的教会首脑。",
+    "summary": "在黑白脸雕像前秘密通联并组织对安德鲁的不死献祭。",
     "volume_history": [
       {
         "aliases": [],
@@ -102,6 +100,34 @@
         ],
         "summary": "安排世俗权力让步、接收格杀档案并面对突发神迹的教会首脑。",
         "volume": 12
+      },
+      {
+        "aliases": [],
+        "arc_change": "由密室祈拜推进到亲手灌魂火，不可只当抽象阴谋。",
+        "conflict": "公开宗教排亡者与实际转生行为相冲突。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0177",
+            "end_line": 21339,
+            "start_line": 21331
+          },
+          {
+            "chapter_id": "ch-0180",
+            "end_line": 21828,
+            "start_line": 21810
+          }
+        ],
+        "goal": "执行其所谓神的意志，具体对象与目标未明。",
+        "knowledge_limits": [
+          "雕像身份未证；神的旨意指哪位仍未知。",
+          "仪式完成后的安德鲁状态未展示。"
+        ],
+        "name": "教皇",
+        "relationships": [
+          "召回光之神骑并要求安德鲁无条件服从。"
+        ],
+        "summary": "在黑白脸雕像前秘密通联并组织对安德鲁的不死献祭。",
+        "volume": 16
       }
     ]
   },
@@ -163,21 +189,38 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 15792
+    },
+    {
+      "chapter_id": "ch-0177",
+      "claim_kind": "inference",
+      "end_line": 21339,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21331
+    },
+    {
+      "chapter_id": "ch-0180",
+      "claim_kind": "inference",
+      "end_line": 21828,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21810
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/教皇",
   "review_status": "draft",
-  "revision": 3,
+  "revision": 4,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
     "第05集",
     "第09集",
-    "第12集"
+    "第12集",
+    "第16集"
   ],
   "title": "教皇：分集人物研究",
-  "updated_at": "2026-10-21T21:36:43.785379+00:00",
+  "updated_at": "2026-10-22T01:47:36.438157+00:00",
   "user_notes": ""
 }

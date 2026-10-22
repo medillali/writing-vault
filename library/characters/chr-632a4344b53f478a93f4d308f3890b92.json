@@ -3,11 +3,13 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "组织位置从黑龙子嗣扩为大型军队统帅，仍不能凭护爱琳推断其完整政策立场。",
-    "conflict": "军事效率与所造成的平民代价并存；会议中面对先知的威压。",
-    "coverage_note": "九维深化已覆盖第1至14集；变化记录以各集证据为准。",
-    "goal": "执行军事任务，保护所亲近的同伴。",
-    "knowledge_limits": "护人行为不等于明确反对活尸阵；本集没有展示他对所有战争后果的独立道德判断。",
+    "arc_change": "叙述突出心志坚定，勿将同样不杀倒地者直接等同黑二的怜悯动机。",
+    "conflict": "战场目标与无需攻击者的区别。",
+    "coverage_note": "九维深化已覆盖第1至16集；变化记录以各集证据为准。",
+    "goal": "完成冲锋和军事任务。",
+    "knowledge_limits": [
+      "两万骑兵仅大二有智慧，不据军团规模推其余孩子觉醒。"
+    ],
     "name": "黑大",
     "opening_observations": {
       "confirmed": "召唤师的命令未能替代它对黑龙的服从；战斗中使用投刀。",
@@ -19,8 +21,10 @@
         "后续的个体成长"
       ]
     },
-    "relationships": "与黑二各领不死骑兵，与爱琳有保护关系，仍受黑龙灵魂联系。",
-    "summary": "率不死骑兵夜袭、袭击移民点并成为同盟右路统帅，指挥三万人类部队。会议中出手护住爱琳，表现三年间战技成长。",
+    "relationships": [
+      "与黑二统领现有有智骑兵核心。"
+    ],
+    "summary": "率不死骑兵追溃军，对失去抵抗者不再攻击。",
     "volume_history": [
       {
         "aliases": [],
@@ -303,6 +307,33 @@
         "relationships": "与黑二各领不死骑兵，与爱琳有保护关系，仍受黑龙灵魂联系。",
         "summary": "率不死骑兵夜袭、袭击移民点并成为同盟右路统帅，指挥三万人类部队。会议中出手护住爱琳，表现三年间战技成长。",
         "volume": 14
+      },
+      {
+        "aliases": [],
+        "arc_change": "叙述突出心志坚定，勿将同样不杀倒地者直接等同黑二的怜悯动机。",
+        "conflict": "战场目标与无需攻击者的区别。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0174",
+            "end_line": 21075,
+            "start_line": 21045
+          },
+          {
+            "chapter_id": "ch-0178",
+            "end_line": 21465,
+            "start_line": 21458
+          }
+        ],
+        "goal": "完成冲锋和军事任务。",
+        "knowledge_limits": [
+          "两万骑兵仅大二有智慧，不据军团规模推其余孩子觉醒。"
+        ],
+        "name": "黑大",
+        "relationships": [
+          "与黑二统领现有有智骑兵核心。"
+        ],
+        "summary": "率不死骑兵追溃军，对失去抵抗者不再攻击。",
+        "volume": 16
       }
     ]
   },
@@ -540,12 +571,28 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 19038
+    },
+    {
+      "chapter_id": "ch-0174",
+      "claim_kind": "inference",
+      "end_line": 21075,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21045
+    },
+    {
+      "chapter_id": "ch-0178",
+      "claim_kind": "inference",
+      "end_line": 21465,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21458
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/opening-test-20261022/black_one",
   "review_status": "draft",
-  "revision": 11,
+  "revision": 12,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -562,9 +609,10 @@
     "第11集",
     "第12集",
     "第14集",
+    "第16集",
     "能力差"
   ],
   "title": "黑大：分集人物研究",
-  "updated_at": "2026-10-22T01:29:21.729222+00:00",
+  "updated_at": "2026-10-22T01:47:34.585929+00:00",
   "user_notes": ""
 }

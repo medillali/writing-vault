@@ -1,0 +1,68 @@
+# 保护者的承诺遭到后续行动检验
+
+ID: `scn-fa42ae6b07fd4ad4a2bbeac165ae6cf7` · 版本: 1 · 范围: source-analysis
+
+魅为朋友在圣光中持续斩首，黑龙挡光救她；达罗亚代黑龙压祷言并讲君王责任，却随后夺取黑龙。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-fa42ae6b07fd4ad4a2bbeac165ae6cf7",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "可信盟友后来变敌、导师权威被检验。",
+    "choice": "魅选择冒险，黑龙承担身体危险，达罗亚接手收去力场。",
+    "consequence": "危机解除，主角更依赖旧君王；这份可信行动后来成为夺体骗局的条件。",
+    "failure_mode": "不可倒推救援完全没有效果，也不可因后来背叛抹掉魅与黑龙当时的自主选择。",
+    "goal": "阻止群体祷言摧毁同伴和城池。",
+    "obstacle": "集体信仰使个体伤害难以打断，魅自身会被圣光耗散。",
+    "state_change": "保护被亲见，却不能替代长期动机判断。",
+    "summary": "魅为朋友在圣光中持续斩首，黑龙挡光救她；达罗亚代黑龙压祷言并讲君王责任，却随后夺取黑龙。",
+    "volume": 16,
+    "why_it_works": "先用具体照护赋职责真实含义，再由同一说话者背弃，形成伦理反讽。"
+  },
+  "created_at": "2026-10-22T01:47:36.810488+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0173",
+      "claim_kind": "inference",
+      "end_line": 20971,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20952
+    },
+    {
+      "chapter_id": "ch-0174",
+      "claim_kind": "inference",
+      "end_line": 21027,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20975
+    },
+    {
+      "chapter_id": "ch-0177",
+      "claim_kind": "inference",
+      "end_line": 21401,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21359
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/v16-s02",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "全书九维",
+    "第16集"
+  ],
+  "title": "保护者的承诺遭到后续行动检验",
+  "updated_at": "2026-10-22T01:47:36.909487+00:00",
+  "user_notes": ""
+}
+
+```

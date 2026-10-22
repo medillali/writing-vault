@@ -5,23 +5,21 @@
     "aliases": [
       "图克"
     ],
-    "arc_change": "海皇战与龙人战均展示知识和武技进步，却没有完成死亡骑士转职。",
-    "conflict": "火马喋喋不休令坐骑构想受挫；本集等级称谓不一致。",
-    "coverage_note": "九维深化已覆盖第1至11集；变化记录以各集证据为准。",
-    "goal": "援助黑龙，并曾尝试让哥顿普成为坐骑。",
+    "arc_change": "杀弗里昂时半边身体被烧，后续修复未述。",
+    "conflict": "敌人最后的神圣反击。",
+    "coverage_note": "九维深化已覆盖第1至16集；变化记录以各集证据为准。",
+    "goal": "赢下战场。",
     "identity_notes": [
       "“黑武士侯爵”是称号、类别或身份声明，保留出处于分集历史，不用作自动合并人物的别名。"
     ],
     "knowledge_limits": [
-      "14055称近皇帝，14978伯爵、15153侯爵，与前集需并列保留",
-      "不据等级错字重写确定升级链"
+      "身体受损不等灵魂消亡；本集未给恢复。"
     ],
     "name": "图克",
     "relationships": [
-      "效力黑龙",
-      "带哥顿普经过通道但未形成坐骑承诺"
+      "与其他近战强者协作。"
     ],
-    "summary": "具有精巧武技的黑武士，海皇战以改轨化解水龙，龙岛战近身杀伤强。",
+    "summary": "不死强者，参与阻天使显本体并击杀弗里昂。",
     "volume_history": [
       {
         "aliases": [
@@ -223,6 +221,33 @@
         ],
         "summary": "具有精巧武技的黑武士，海皇战以改轨化解水龙，龙岛战近身杀伤强。",
         "volume": 11
+      },
+      {
+        "aliases": [],
+        "arc_change": "杀弗里昂时半边身体被烧，后续修复未述。",
+        "conflict": "敌人最后的神圣反击。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0172",
+            "end_line": 20870,
+            "start_line": 20861
+          },
+          {
+            "chapter_id": "ch-0174",
+            "end_line": 21035,
+            "start_line": 21033
+          }
+        ],
+        "goal": "赢下战场。",
+        "knowledge_limits": [
+          "身体受损不等灵魂消亡；本集未给恢复。"
+        ],
+        "name": "图克",
+        "relationships": [
+          "与其他近战强者协作。"
+        ],
+        "summary": "不死强者，参与阻天使显本体并击杀弗里昂。",
+        "volume": 16
       }
     ]
   },
@@ -404,12 +429,28 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 15153
+    },
+    {
+      "chapter_id": "ch-0172",
+      "claim_kind": "inference",
+      "end_line": 20870,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20861
+    },
+    {
+      "chapter_id": "ch-0174",
+      "claim_kind": "inference",
+      "end_line": 21035,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21033
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/斯特里克雷亚斯·莱文茵特斯·图克",
   "review_status": "draft",
-  "revision": 7,
+  "revision": 8,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -419,9 +460,10 @@
     "第08集",
     "第09集",
     "第10集",
-    "第11集"
+    "第11集",
+    "第16集"
   ],
   "title": "图克：分集人物研究",
-  "updated_at": "2026-10-21T21:22:59.879705+00:00",
+  "updated_at": "2026-10-22T01:47:34.385931+00:00",
   "user_notes": ""
 }

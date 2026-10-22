@@ -1,8 +1,8 @@
 # 米勒达布隆迪：分集人物研究
 
-ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 6 · 范围: source-analysis
+ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 7 · 范围: source-analysis
 
-沿用前集亡灵圣龙与对黑龙完整灵魂契约的身份状态；黑龙归来前掌战争资源，归来后仍任总指挥但失去龙群私人魂约。
+沿用亡灵圣龙、对黑龙完整魂约及龙军已转约的状态；指挥战争取胜，失去君王联络后仍受禁令约束并改变治理手段。
 
 ## 完整卡片
 
@@ -15,19 +15,21 @@ ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 6 · 范围: source-analys
       "先知",
       "欧罗普菲力克"
     ],
-    "arc_change": "从代理统治的强势转为保职失兵权，末再得到备阵命令。",
-    "conflict": "黑龙否决灭城方案，自然神反对耗德鲁伊。",
-    "coverage_note": "九维深化已覆盖第1至15集；变化记录以各集证据为准。",
-    "goal": "维持战争优势和自身影响，利用尸体资源。",
+    "arc_change": "从想推平圣山到察觉依赖达罗亚的危险，以收俘促合作，取战尸扩军至四万。",
+    "conflict": "主君失联、外来强者求屠城、人类恐惧及智慧个体不足。",
+    "coverage_note": "九维深化已覆盖第1至16集；变化记录以各集证据为准。",
+    "goal": "驱逐帝国并保住自身势力的行动空间。",
     "knowledge_limits": [
-      "不清楚降临天使剩余真实规模，城防叙述带自身议程。"
+      "不知道黑龙被夺体，误以再跨位面。",
+      "未实现全同盟收复；扩军装备不足。"
     ],
     "name": "米勒达布隆迪",
     "relationships": [
-      "与自然神争夺可用兵力。",
-      "受黑龙重新集中控制。"
+      "不响应立即启祭魂阵的要求。",
+      "通过黑大黑二与龙群推进军事。",
+      "担忧命运仍系黑龙，保有私心。"
     ],
-    "summary": "沿用前集亡灵圣龙与对黑龙完整灵魂契约的身份状态；黑龙归来前掌战争资源，归来后仍任总指挥但失去龙群私人魂约。",
+    "summary": "沿用亡灵圣龙、对黑龙完整魂约及龙军已转约的状态；指挥战争取胜，失去君王联络后仍受禁令约束并改变治理手段。",
     "volume_history": [
       {
         "aliases": [],
@@ -258,6 +260,49 @@ ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 6 · 范围: source-analys
         ],
         "summary": "沿用前集亡灵圣龙与对黑龙完整灵魂契约的身份状态；黑龙归来前掌战争资源，归来后仍任总指挥但失去龙群私人魂约。",
         "volume": 15
+      },
+      {
+        "aliases": [
+          "先知",
+          "欧罗普菲力克"
+        ],
+        "arc_change": "从想推平圣山到察觉依赖达罗亚的危险，以收俘促合作，取战尸扩军至四万。",
+        "conflict": "主君失联、外来强者求屠城、人类恐惧及智慧个体不足。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0172",
+            "end_line": 20820,
+            "start_line": 20806
+          },
+          {
+            "chapter_id": "ch-0177",
+            "end_line": 21441,
+            "start_line": 21402
+          },
+          {
+            "chapter_id": "ch-0178",
+            "end_line": 21466,
+            "start_line": 21445
+          },
+          {
+            "chapter_id": "ch-0179",
+            "end_line": 21613,
+            "start_line": 21583
+          }
+        ],
+        "goal": "驱逐帝国并保住自身势力的行动空间。",
+        "knowledge_limits": [
+          "不知道黑龙被夺体，误以再跨位面。",
+          "未实现全同盟收复；扩军装备不足。"
+        ],
+        "name": "米勒达布隆迪",
+        "relationships": [
+          "不响应立即启祭魂阵的要求。",
+          "通过黑大黑二与龙群推进军事。",
+          "担忧命运仍系黑龙，保有私心。"
+        ],
+        "summary": "沿用亡灵圣龙、对黑龙完整魂约及龙军已转约的状态；指挥战争取胜，失去君王联络后仍受禁令约束并改变治理手段。",
+        "volume": 16
       }
     ]
   },
@@ -463,12 +508,44 @@ ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 6 · 范围: source-analys
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 20449
+    },
+    {
+      "chapter_id": "ch-0172",
+      "claim_kind": "inference",
+      "end_line": 20820,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 20806
+    },
+    {
+      "chapter_id": "ch-0177",
+      "claim_kind": "inference",
+      "end_line": 21441,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21402
+    },
+    {
+      "chapter_id": "ch-0178",
+      "claim_kind": "inference",
+      "end_line": 21466,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21445
+    },
+    {
+      "chapter_id": "ch-0179",
+      "claim_kind": "inference",
+      "end_line": 21613,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21583
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/先知",
   "review_status": "draft",
-  "revision": 6,
+  "revision": 7,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -478,10 +555,11 @@ ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 6 · 范围: source-analys
     "第12集",
     "第13集",
     "第14集",
-    "第15集"
+    "第15集",
+    "第16集"
   ],
   "title": "米勒达布隆迪：分集人物研究",
-  "updated_at": "2026-10-22T01:35:31.766693+00:00",
+  "updated_at": "2026-10-22T01:47:33.973777+00:00",
   "user_notes": ""
 }
 

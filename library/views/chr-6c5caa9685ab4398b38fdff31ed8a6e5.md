@@ -1,8 +1,8 @@
 # 安德鲁：分集人物研究
 
-ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 4 · 范围: source-analysis
+ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 5 · 范围: source-analysis
 
-忠于教皇的红衣主教，对忠诚者被灭口产生自保恐惧。
+红衣主教，对教皇的现实效忠高于信仰口号。
 
 ## 完整卡片
 
@@ -12,14 +12,18 @@ ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 4 · 范围: source-analys
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "独行一月仍未想通，被雷奥要求带其上圣山。",
-    "conflict": "教皇的利用可能同样落到自己身上。",
-    "coverage_note": "九维深化已覆盖第1至9集；变化记录以各集证据为准。",
-    "goal": "返回总部并隐藏心中动摇。",
-    "knowledge_limits": "怀疑教皇预知牺牲是其推想，尚未获得答案。",
+    "arc_change": "在答允背弃信仰后被贯心灌魂火，灵魂坠暗，尚未写醒来。",
+    "conflict": "深夜被召、神像异常和光的威压使其不能质疑。",
+    "coverage_note": "九维深化已覆盖第1至16集；变化记录以各集证据为准。",
+    "goal": "服从掌握自身命运的教皇并自保。",
+    "knowledge_limits": [
+      "疑问哪位神未获答；接受模糊命令不等知情同意具体死亡转生。"
+    ],
     "name": "安德鲁",
-    "relationships": "依赖教皇赐予地位，畏惧雷奥。",
-    "summary": "忠于教皇的红衣主教，对忠诚者被灭口产生自保恐惧。",
+    "relationships": [
+      "受教皇与光共同控制仪式。"
+    ],
+    "summary": "红衣主教，对教皇的现实效忠高于信仰口号。",
     "volume_history": [
       {
         "aliases": [],
@@ -100,6 +104,28 @@ ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 4 · 范围: source-analys
         "relationships": "依赖教皇赐予地位，畏惧雷奥。",
         "summary": "忠于教皇的红衣主教，对忠诚者被灭口产生自保恐惧。",
         "volume": 9
+      },
+      {
+        "aliases": [],
+        "arc_change": "在答允背弃信仰后被贯心灌魂火，灵魂坠暗，尚未写醒来。",
+        "conflict": "深夜被召、神像异常和光的威压使其不能质疑。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0180",
+            "end_line": 21828,
+            "start_line": 21800
+          }
+        ],
+        "goal": "服从掌握自身命运的教皇并自保。",
+        "knowledge_limits": [
+          "疑问哪位神未获答；接受模糊命令不等知情同意具体死亡转生。"
+        ],
+        "name": "安德鲁",
+        "relationships": [
+          "受教皇与光共同控制仪式。"
+        ],
+        "summary": "红衣主教，对教皇的现实效忠高于信仰口号。",
+        "volume": 16
       }
     ]
   },
@@ -145,12 +171,20 @@ ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 4 · 范围: source-analys
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 11282
+    },
+    {
+      "chapter_id": "ch-0180",
+      "claim_kind": "inference",
+      "end_line": 21828,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 21800
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/安德鲁",
   "review_status": "draft",
-  "revision": 4,
+  "revision": 5,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -158,10 +192,11 @@ ID: `chr-6c5caa9685ab4398b38fdff31ed8a6e5` · 版本: 4 · 范围: source-analys
     "第06集",
     "第07集",
     "第08集",
-    "第09集"
+    "第09集",
+    "第16集"
   ],
   "title": "安德鲁：分集人物研究",
-  "updated_at": "2026-10-21T21:09:15.441894+00:00",
+  "updated_at": "2026-10-22T01:47:36.480157+00:00",
   "user_notes": ""
 }
 
