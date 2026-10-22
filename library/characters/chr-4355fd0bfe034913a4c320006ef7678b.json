@@ -5,21 +5,14 @@
     "aliases": [
       "撒尔勒基姆·欧菲罗克·泰特尼斯"
     ],
-    "arc_change": "撤退准备毁峰，认为来敌被赶走；欲惩龙人却发现长老尸体与全族失踪。",
-    "conflict": "主角群体魔法与海蛇威慑使其不能正面轻易获胜，龙人又拒继续作战。",
-    "coverage_note": "九维深化已覆盖第1至12集；变化记录以各集证据为准。",
-    "goal": "守护龙岛并维持对龙人的支配。",
-    "knowledge_limits": [
-      "不知道安息石已被拿走",
-      "不知道龙人如何消失",
-      "本集未死"
-    ],
+    "arc_change": "从潜在拒援者被共同敌人拉进合作，终卷显示力量体系上仍远低君王。",
+    "conflict": "高傲和领地本能迫其应战，龙皇名位不足抵挡多只顶级魔物，面对黑龙旧怨亦处被动。",
+    "coverage_note": "九维深化已覆盖第1至18集；变化记录以各集证据为准。",
+    "goal": "守住龙岛领地并在强敌前存活。",
+    "knowledge_limits": "不能把共逃当作与龙人和解完成；之后龙族治理与后记状态未单独交代。",
     "name": "泰特尼斯",
-    "relationships": [
-      "与黑龙持续敌对",
-      "企图重新压服斯图帝勒及龙人"
-    ],
-    "summary": "失去龙人掩护后以地形陷阱与禁咒重创来犯者。",
+    "relationships": "帝勒临时战友，黑龙旧敌而此时获其援手；震惊于哈力强度。",
+    "summary": "黄金龙皇，本与帝勒有旧怨，见追兵先想旁观，因魔物侵犯自己而参战；与帝勒合杀部分追兵后力竭逃亡，被黑龙和哈力救下。后在深渊门旁观，未有死亡或转生证据。",
     "volume_history": [
       {
         "aliases": [
@@ -99,6 +92,41 @@
         ],
         "summary": "失去龙人掩护后以地形陷阱与禁咒重创来犯者。",
         "volume": 12
+      },
+      {
+        "aliases": [
+          "撒尔勒基姆·欧菲罗克·泰特尼斯"
+        ],
+        "arc_change": "从潜在拒援者被共同敌人拉进合作，终卷显示力量体系上仍远低君王。",
+        "conflict": "高傲和领地本能迫其应战，龙皇名位不足抵挡多只顶级魔物，面对黑龙旧怨亦处被动。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0196",
+            "end_line": 23319,
+            "start_line": 23292
+          },
+          {
+            "chapter_id": "ch-0197",
+            "end_line": 23360,
+            "start_line": 23350
+          },
+          {
+            "chapter_id": "ch-0198",
+            "end_line": 23608,
+            "start_line": 23603
+          },
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 23964,
+            "start_line": 23958
+          }
+        ],
+        "goal": "守住龙岛领地并在强敌前存活。",
+        "knowledge_limits": "不能把共逃当作与龙人和解完成；之后龙族治理与后记状态未单独交代。",
+        "name": "泰特尼斯",
+        "relationships": "帝勒临时战友，黑龙旧敌而此时获其援手；震惊于哈力强度。",
+        "summary": "黄金龙皇，本与帝勒有旧怨，见追兵先想旁观，因魔物侵犯自己而参战；与帝勒合杀部分追兵后力竭逃亡，被黑龙和哈力救下。后在深渊门旁观，未有死亡或转生证据。",
+        "volume": 18
       }
     ]
   },
@@ -160,20 +188,53 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 15460
+    },
+    {
+      "chapter_id": "ch-0196",
+      "claim_kind": "inference",
+      "end_line": 23319,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 23292
+    },
+    {
+      "chapter_id": "ch-0197",
+      "claim_kind": "inference",
+      "end_line": 23360,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 23350
+    },
+    {
+      "chapter_id": "ch-0198",
+      "claim_kind": "inference",
+      "end_line": 23608,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 23603
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 23964,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 23958
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/泰特尼斯",
   "review_status": "draft",
-  "revision": 2,
+  "revision": 3,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
     "全书九维",
     "第11集",
-    "第12集"
+    "第12集",
+    "第18集"
   ],
   "title": "泰特尼斯：分集人物研究",
-  "updated_at": "2026-10-21T21:36:43.469729+00:00",
+  "updated_at": "2026-10-22T02:09:16.275045+00:00",
   "user_notes": ""
 }

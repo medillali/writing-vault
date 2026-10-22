@@ -3,14 +3,14 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "好战之外的同类关怀更具体，见黑大祭武器便理解其决定。",
-    "conflict": "受黑大约束又难以忍受无谓死亡，魂力强盛仍缺晋阶条件。",
-    "coverage_note": "九维深化已覆盖第1至17集；变化记录以各集证据为准。",
-    "goal": "救回正在被消耗的同类，持续参与战斗。",
-    "knowledge_limits": "不把情绪化行动归为毫无思考，也不把强魂等同新境界。",
+    "arc_change": "本集延续自主人格而非新增觉醒；最后具体个人状态未镜头交代。",
+    "conflict": "冲阵敌人为高强度深渊魔物，先前大规模人类战争经验不足保证无损。",
+    "coverage_note": "九维深化已覆盖第1至18集；变化记录以各集证据为准。",
+    "goal": "协同黑大抵抗入侵。",
+    "knowledge_limits": "不能把集体损失写成黑二重伤或死亡，也不能据后记和平自动补全其结局。",
     "name": "黑二",
-    "relationships": "听从黑大，也服从更高优先级黑龙；和其余八孩共同作战。",
-    "summary": "已有自主意识的黄金骷髅，与黑大持续赋魂扩军；在试探战中把战马也算同类，催促黑大救援并率先冲出。",
+    "relationships": "与黑大共同统领骑兵；受先知战场命令并由斯科特召至。",
+    "summary": "已有自主意识的黄金骷髅子民，与黑大率不死骑兵投入深渊战，部队损失惨重；个人仍无死亡或新阶位证据。",
     "volume_history": [
       {
         "aliases": [],
@@ -367,6 +367,34 @@
         "relationships": "听从黑大，也服从更高优先级黑龙；和其余八孩共同作战。",
         "summary": "已有自主意识的黄金骷髅，与黑大持续赋魂扩军；在试探战中把战马也算同类，催促黑大救援并率先冲出。",
         "volume": 17
+      },
+      {
+        "aliases": [],
+        "arc_change": "本集延续自主人格而非新增觉醒；最后具体个人状态未镜头交代。",
+        "conflict": "冲阵敌人为高强度深渊魔物，先前大规模人类战争经验不足保证无损。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 23995,
+            "start_line": 23990
+          },
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 24064,
+            "start_line": 24055
+          },
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 24093,
+            "start_line": 24088
+          }
+        ],
+        "goal": "协同黑大抵抗入侵。",
+        "knowledge_limits": "不能把集体损失写成黑二重伤或死亡，也不能据后记和平自动补全其结局。",
+        "name": "黑二",
+        "relationships": "与黑大共同统领骑兵；受先知战场命令并由斯科特召至。",
+        "summary": "已有自主意识的黄金骷髅子民，与黑大率不死骑兵投入深渊战，部队损失惨重；个人仍无死亡或新阶位证据。",
+        "volume": 18
       }
     ]
   },
@@ -644,12 +672,36 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 22880
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 23995,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 23990
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 24064,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 24055
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 24093,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 24088
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/黑二",
   "review_status": "draft",
-  "revision": 12,
+  "revision": 13,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -665,9 +717,10 @@
     "第11集",
     "第12集",
     "第16集",
-    "第17集"
+    "第17集",
+    "第18集"
   ],
   "title": "黑二：分集人物研究",
-  "updated_at": "2026-10-22T01:51:53.072734+00:00",
+  "updated_at": "2026-10-22T02:09:17.767387+00:00",
   "user_notes": ""
 }

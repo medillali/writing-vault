@@ -3,14 +3,14 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "承担异常识别与撤退判断作用，未因知识丰富而成为全知者。",
-    "conflict": "见识丰富仍受历史类别推断影响，无法从重复口号获取真信息。",
-    "coverage_note": "九维深化已覆盖第1至17集；变化记录以各集证据为准。",
-    "goal": "辨识局势并维护黑龙组织与自身族众。",
-    "knowledge_limits": "不能将识别统领当识破教会阴谋；其支持撤退是当前战术选择，不推翻前集政治立场。",
+    "arc_change": "以具体专业判断解除真身降临误判，再转为执行增援。",
+    "conflict": "切里莫名号引发的恐惧容易压倒观察，迷雾又阻断侦察。",
+    "coverage_note": "九维深化已覆盖第1至18集；变化记录以各集证据为准。",
+    "goal": "准确辨认威胁并调集己方可用战力。",
+    "knowledge_limits": "识破投影不代表提前知道本源或切里莫全部计划；后记未给其个人命运新证。 稳定身份及契约边界承接前集；本集未新增深层共死魂约，不能与黑龙造物的烙印关系混同。",
     "name": "斯科特",
-    "relationships": "与先知商议，与黑龙休戚相关但没有相同深层共死魂约。",
-    "summary": "具有独立族众与大量历史碎忆的亡灵圣者，首先从千万军团中识别两名有意识统领，但同样被其伪装误导。",
+    "relationships": "与先知合作；召唤黑大黑二和法师，需协同施乃图防线。",
+    "summary": "亡灵圣者，具有自身族众，延续此前向黑龙献元力而未缔结共死深层魂约的合作关系。本集为召唤与魔法指挥者，识破切里莫投影定位输送预制迷雾，按先知要求召入大二及部队，参与深渊防御。",
     "volume_history": [
       {
         "aliases": [],
@@ -246,6 +246,34 @@
         "relationships": "与先知商议，与黑龙休戚相关但没有相同深层共死魂约。",
         "summary": "具有独立族众与大量历史碎忆的亡灵圣者，首先从千万军团中识别两名有意识统领，但同样被其伪装误导。",
         "volume": 17
+      },
+      {
+        "aliases": [],
+        "arc_change": "以具体专业判断解除真身降临误判，再转为执行增援。",
+        "conflict": "切里莫名号引发的恐惧容易压倒观察，迷雾又阻断侦察。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 23923,
+            "start_line": 23913
+          },
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 23995,
+            "start_line": 23974
+          },
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 24020,
+            "start_line": 24013
+          }
+        ],
+        "goal": "准确辨认威胁并调集己方可用战力。",
+        "knowledge_limits": "识破投影不代表提前知道本源或切里莫全部计划；后记未给其个人命运新证。 稳定身份及契约边界承接前集；本集未新增深层共死魂约，不能与黑龙造物的烙印关系混同。",
+        "name": "斯科特",
+        "relationships": "与先知合作；召唤黑大黑二和法师，需协同施乃图防线。",
+        "summary": "亡灵圣者，具有自身族众，延续此前向黑龙献元力而未缔结共死深层魂约的合作关系。本集为召唤与魔法指挥者，识破切里莫投影定位输送预制迷雾，按先知要求召入大二及部队，参与深渊防御。",
+        "volume": 18
       }
     ]
   },
@@ -435,12 +463,36 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 22962
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 23923,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 23913
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 23995,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 23974
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 24020,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 24013
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/斯科特",
   "review_status": "draft",
-  "revision": 8,
+  "revision": 9,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -452,9 +504,10 @@
     "第11集",
     "第12集",
     "第14集",
-    "第17集"
+    "第17集",
+    "第18集"
   ],
   "title": "斯科特：分集人物研究",
-  "updated_at": "2026-10-22T01:51:53.407747+00:00",
+  "updated_at": "2026-10-22T02:09:17.085135+00:00",
   "user_notes": ""
 }

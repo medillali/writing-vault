@@ -1,8 +1,8 @@
 # 米勒达布隆迪：分集人物研究
 
-ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 8 · 范围: source-analysis
+ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 9 · 范围: source-analysis
 
-已完整献魂约的亡灵圣龙，失去龙群私兵优势后受多阵营制衡；主持同盟光复和屠杀，因误认假旗军而被拖入帝国腹地，黑龙归来后同意撤退。
+受黑龙完整灵魂誓约约束的亡灵圣龙，早前失去龙群私人魂约控制的阶段不倒退。本集带高层赶到深渊门，接受施乃图情报后召军应战、显本体出战，最终改变对弱小音乐专才的轻视。
 
 ## 完整卡片
 
@@ -15,14 +15,14 @@ ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 8 · 范围: source-analys
       "先知",
       "欧罗普菲力克"
     ],
-    "arc_change": "从主动扩张者转为被错误归属判断牵动的指挥者；仍保有现实屠杀责任。",
-    "conflict": "边界谨慎与残酷资源观并存，缺乏真假盟军认证又不愿放弃看似属于黑龙的强军。",
-    "coverage_note": "九维深化已覆盖第1至17集；变化记录以各集证据为准。",
-    "goal": "争取组织利益、减少失控风险并等待黑龙回归。",
-    "knowledge_limits": "关于位面平衡和光明神干预多属个人推测；不把谨慎停战写成伦理悔改，亦未解除黑龙魂约。",
+    "arc_change": "由旁观和轻视转为投入及协作，仍保留自己的军令权，并非主动放弃此前所有权力追求。",
+    "conflict": "起初情报落后且过分按魂力评价乐师；对手协作迫使其与哈力部队共同防守。",
+    "coverage_note": "九维深化已覆盖第1至18集；变化记录以各集证据为准。",
+    "goal": "防住深渊威胁、维系黑龙一方兵力与利益。",
+    "knowledge_limits": "本集没有解除与黑龙的魂约或恢复独占龙群；后记未点名，不能写死亡或完全归善。人物历史状态承接前集，本集动作有下列证据。",
     "name": "米勒达布隆迪",
-    "relationships": "派阿古谈判、隆克多寻主；与斯科特共同担忧；被大二违令救援。",
-    "summary": "已完整献魂约的亡灵圣龙，失去龙群私兵优势后受多阵营制衡；主持同盟光复和屠杀，因误认假旗军而被拖入帝国腹地，黑龙归来后同意撤退。",
+    "relationships": "与斯科特召集黑大、黑二等部属；与施乃图协同；对罗得战果产生敬畏。",
+    "summary": "受黑龙完整灵魂誓约约束的亡灵圣龙，早前失去龙群私人魂约控制的阶段不倒退。本集带高层赶到深渊门，接受施乃图情报后召军应战、显本体出战，最终改变对弱小音乐专才的轻视。",
     "volume_history": [
       {
         "aliases": [],
@@ -347,6 +347,57 @@ ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 8 · 范围: source-analys
         "relationships": "派阿古谈判、隆克多寻主；与斯科特共同担忧；被大二违令救援。",
         "summary": "已完整献魂约的亡灵圣龙，失去龙群私兵优势后受多阵营制衡；主持同盟光复和屠杀，因误认假旗军而被拖入帝国腹地，黑龙归来后同意撤退。",
         "volume": 17
+      },
+      {
+        "aliases": [
+          "先知",
+          "欧罗普菲力克"
+        ],
+        "arc_change": "由旁观和轻视转为投入及协作，仍保留自己的军令权，并非主动放弃此前所有权力追求。",
+        "conflict": "起初情报落后且过分按魂力评价乐师；对手协作迫使其与哈力部队共同防守。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 23923,
+            "start_line": 23913
+          },
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 23955,
+            "start_line": 23954
+          },
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 23995,
+            "start_line": 23990
+          },
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 24060,
+            "start_line": 24055
+          },
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 24093,
+            "start_line": 24082
+          },
+          {
+            "chapter_id": "ch-0201",
+            "end_line": 24123,
+            "start_line": 24111
+          },
+          {
+            "chapter_id": "ch-0201",
+            "end_line": 24157,
+            "start_line": 24151
+          }
+        ],
+        "goal": "防住深渊威胁、维系黑龙一方兵力与利益。",
+        "knowledge_limits": "本集没有解除与黑龙的魂约或恢复独占龙群；后记未点名，不能写死亡或完全归善。人物历史状态承接前集，本集动作有下列证据。",
+        "name": "米勒达布隆迪",
+        "relationships": "与斯科特召集黑大、黑二等部属；与施乃图协同；对罗得战果产生敬畏。",
+        "summary": "受黑龙完整灵魂誓约约束的亡灵圣龙，早前失去龙群私人魂约控制的阶段不倒退。本集带高层赶到深渊门，接受施乃图情报后召军应战、显本体出战，最终改变对弱小音乐专才的轻视。",
+        "volume": 18
       }
     ]
   },
@@ -640,12 +691,68 @@ ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 8 · 范围: source-analys
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 22962
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 23923,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 23913
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 23955,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 23954
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 23995,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 23990
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 24060,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 24055
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 24093,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 24082
+    },
+    {
+      "chapter_id": "ch-0201",
+      "claim_kind": "inference",
+      "end_line": 24123,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 24111
+    },
+    {
+      "chapter_id": "ch-0201",
+      "claim_kind": "inference",
+      "end_line": 24157,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 24151
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/character/先知",
   "review_status": "draft",
-  "revision": 8,
+  "revision": 9,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -657,10 +764,11 @@ ID: `chr-4aafb8822bf64bb099f0e9abe3ae67c9` · 版本: 8 · 范围: source-analys
     "第14集",
     "第15集",
     "第16集",
-    "第17集"
+    "第17集",
+    "第18集"
   ],
   "title": "米勒达布隆迪：分集人物研究",
-  "updated_at": "2026-10-22T01:51:52.327178+00:00",
+  "updated_at": "2026-10-22T02:09:16.908312+00:00",
   "user_notes": ""
 }
 

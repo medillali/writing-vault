@@ -1,0 +1,52 @@
+# 托付之后归来
+
+ID: `scn-a6e6b1ff82c24b9bbd12b9818cd7f57f` · 版本: 1 · 范围: source-analysis
+
+黑龙交君王烙印给哈力，接受尼女的公正神格，明言无胜算仍以自己和同伴的自由为由投入本源。后记从交通、市场、旧友日常一路辨认新世界，最后与哈力相见并实体化。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-a6e6b1ff82c24b9bbd12b9818cd7f57f",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "适合主题闭合比战术结算更重要的终章，但需明确保留多少未解释空间。",
+    "choice": "安排同伴返去减伤，先托付子民生死，再冒险以自身意志替代本源。",
+    "consequence": "争夺过程省略；未知年后多族共处、部分旧友存活、黑龙醒来重现形体。",
+    "failure_mode": "不能把后记当成全角色复活、全支线闭合或本源具体失败方式的证据。",
+    "goal": "阻止本源继续掠夺，使自由存在成为可能。",
+    "obstacle": "本源远超三人，继续杀戮只会让它更强，正面战斗不足解决。",
+    "state_change": "黑龙从骨身君王进入未明确命名的归来状态；受保护的世界通过生活而非战果表获得呈现。",
+    "summary": "黑龙交君王烙印给哈力，接受尼女的公正神格，明言无胜算仍以自己和同伴的自由为由投入本源。后记从交通、市场、旧友日常一路辨认新世界，最后与哈力相见并实体化。",
+    "volume": 18,
+    "why_it_works": "宏大价值由具体名单、烙印和赠格落实；回归镜头复用旧城市和人物日常，承接长期情感。"
+  },
+  "created_at": "2026-10-22T02:09:19.209791+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0202",
+      "claim_kind": "inference",
+      "end_line": 24396,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 24343
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-9ff09c395734410b856f77c77a652834/full-nine/v18-s04",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "全书九维",
+    "第18集"
+  ],
+  "title": "托付之后归来",
+  "updated_at": "2026-10-22T02:09:19.307743+00:00",
+  "user_notes": ""
+}
+
+```

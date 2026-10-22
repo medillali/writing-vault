@@ -3,11 +3,11 @@
   "asset_type": "character",
   "content": {
     "aliases": [],
-    "arc_change": "更明确表现自主保护判断；非仅服从工具，但对黑龙优先服从边界仍在。",
-    "conflict": "救援价值与先知试探兵力的计划冲突，海量赋魂也造成精神疲惫。",
-    "coverage_note": "九维深化已覆盖第1至17集；变化记录以各集证据为准。",
-    "goal": "保护自己统领的同类并履行黑龙意志。",
-    "knowledge_limits": "魂强超过黑龙旧阶段不等悼亡晋升；银丝毁躯后本集未证原魂或身体恢复。",
+    "arc_change": "延续既有独立意识阶段，本集主要是作战执行与同类伤亡，不能写又一次觉醒。",
+    "conflict": "魔物远强于此前脆弱人类，骑兵优势不能免去高损失。",
+    "coverage_note": "九维深化已覆盖第1至18集；变化记录以各集证据为准。",
+    "goal": "执行防御任务、率同类冲击敌军。",
+    "knowledge_limits": "后记蓝晶骷髅非黑大；未逐名出现不能判死。君王烙印转托与其具体契约变动未逐一说明。",
     "name": "黑大",
     "opening_observations": {
       "confirmed": "召唤师的命令未能替代它对黑龙的服从；战斗中使用投刀。",
@@ -19,8 +19,8 @@
         "后续的个体成长"
       ]
     },
-    "relationships": "和黑二共同赋魂与救援，把坐骑也纳入同类；带原八孩同行不证明八孩觉醒。",
-    "summary": "具有独立意识的黄金骷髅与不死骑兵统帅，三月吞噬赋魂使魂强剧增却未晋阶。为救骑马同类违抗先知，黑龙回来召回则立即执行。",
+    "relationships": "黑二并肩；先知下令，斯科特召唤；早前为斯文等提供深渊消息。",
+    "summary": "已有自主意识的黄金骷髅子民，与黑二被召至前线并率骑兵冲击魔物，骑兵团遭受惨重损失；没有其个人死亡、再次进阶或意识消失的新证据。",
     "volume_history": [
       {
         "aliases": [],
@@ -363,6 +363,39 @@
         "relationships": "和黑二共同赋魂与救援，把坐骑也纳入同类；带原八孩同行不证明八孩觉醒。",
         "summary": "具有独立意识的黄金骷髅与不死骑兵统帅，三月吞噬赋魂使魂强剧增却未晋阶。为救骑马同类违抗先知，黑龙回来召回则立即执行。",
         "volume": 17
+      },
+      {
+        "aliases": [],
+        "arc_change": "延续既有独立意识阶段，本集主要是作战执行与同类伤亡，不能写又一次觉醒。",
+        "conflict": "魔物远强于此前脆弱人类，骑兵优势不能免去高损失。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 23938,
+            "start_line": 23938
+          },
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 23995,
+            "start_line": 23990
+          },
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 24064,
+            "start_line": 24055
+          },
+          {
+            "chapter_id": "ch-0200",
+            "end_line": 24093,
+            "start_line": 24088
+          }
+        ],
+        "goal": "执行防御任务、率同类冲击敌军。",
+        "knowledge_limits": "后记蓝晶骷髅非黑大；未逐名出现不能判死。君王烙印转托与其具体契约变动未逐一说明。",
+        "name": "黑大",
+        "relationships": "黑二并肩；先知下令，斯科特召唤；早前为斯文等提供深渊消息。",
+        "summary": "已有自主意识的黄金骷髅子民，与黑二被召至前线并率骑兵冲击魔物，骑兵团遭受惨重损失；没有其个人死亡、再次进阶或意识消失的新证据。",
+        "volume": 18
       }
     ]
   },
@@ -648,12 +681,44 @@
       "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
       "source_id": "src-9ff09c395734410b856f77c77a652834",
       "start_line": 22880
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 23938,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 23938
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 23995,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 23990
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 24064,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 24055
+    },
+    {
+      "chapter_id": "ch-0200",
+      "claim_kind": "inference",
+      "end_line": 24093,
+      "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "start_line": 24088
     }
   ],
   "favorite": false,
   "origin_key": "src-9ff09c395734410b856f77c77a652834/opening-test-20261022/black_one",
   "review_status": "draft",
-  "revision": 13,
+  "revision": 14,
   "schema_version": 1,
   "scope": "source-analysis",
   "tags": [
@@ -672,9 +737,10 @@
     "第14集",
     "第16集",
     "第17集",
+    "第18集",
     "能力差"
   ],
   "title": "黑大：分集人物研究",
-  "updated_at": "2026-10-22T01:51:52.878740+00:00",
+  "updated_at": "2026-10-22T02:09:17.544304+00:00",
   "user_notes": ""
 }
