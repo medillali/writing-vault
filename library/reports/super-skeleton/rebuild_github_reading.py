@@ -19,7 +19,14 @@ LABELS = {
     'failure_mode': '失效条件', 'limits': '使用边界', 'obstacle': '障碍',
     'state_change': '状态变化', 'volume': '所属集数', 'why_it_works': '为何有效', 'steps': '操作步骤',
     'observer': '观察者', 'belief': '当时认知', 'state': '认知状态', 'claim_kind': '判断类型',
+    'contradiction': '内在矛盾', 'decision_pattern': '决策方式', 'knowledge_boundary': '认知边界',
+    'unknowns': '当时未解问题', 'arc_in_sample': '样段中的变化', 'confirmed': '已确认信息',
+    'misbeliefs': '误认与误判', 'relationship': '人物关系',
 }
+FIELD_ORDER = ['summary', 'name', 'aliases', 'volume', 'coverage_note', 'identity_notes', 'goal',
+               'obstacle', 'conflict', 'choice', 'consequence', 'state_change', 'arc_change',
+               'relationships', 'knowledge_limits', 'steps', 'why_it_works', 'applicability',
+               'failure_mode', 'limits', 'volume_history', 'opening_observations']
 CLAIMS = {'fact': '原文事实', 'inference': '研究推断', 'synthesis': '抽象综合', 'plan': '计划'}
 STATES = {'open': '未回收', 'partial': '部分回收', 'resolved': '已回收', 'abandoned': '已放弃', 'unknown': '未确认'}
 KINDS = {'character': ('characters', '人物卡'), 'scene': ('scenes', '场景卡'), 'pattern': ('patterns', '机制卡')}
@@ -129,7 +136,11 @@ def make_cards():
         lines = [f"# {text(card['title'])}", '', f'[返回{name}目录](../{folder}.md) · [全书阅读首页](../README.md)', '',
                  f"类型：{name} · 版本：{card['revision']} · {'来源分析' if card['scope']=='source-analysis' else '可迁移机制'}", '',
                  f"审阅状态：{ {'draft': '研究草稿，待用户审阅', 'reviewed': '已审阅', 'approved': '已认可'}.get(card['review_status'], text(card['review_status']))} · 收藏：{'是' if card['favorite'] else '否'}", '']
-        for key, value in card['content'].items():
+        content = card['content']
+        for key in [k for k in FIELD_ORDER if k in content] + [k for k in content if k not in FIELD_ORDER]:
+            value = content[key]
+            if key == 'opening_observations':
+                lines += ['以下为最初开篇样段的历史观察；其中“未知”“未读”等表述描述当时范围，全书终点结论见本页前部。', '']
             lines += render_value(key, value)
         lines += ['## 全部引用定位', ''] + evidence(card['evidence'])
         lines += ['## 个人笔记', '', text(card.get('user_notes', '')) or '尚无个人笔记。', '']
