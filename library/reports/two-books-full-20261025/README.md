@@ -13,6 +13,7 @@
 - [创作、评价、版本与Git操作](APPLICATION-WORKFLOW.md)
 - [本地备份与恢复方法](RECOVERY.md)
 - [验收与证据边界](ACCEPTANCE.md)
+- [树状图与可缩放地图修复验收](TREE-MAPS-ACCEPTANCE.md)
 - [上一轮开篇试读与旧研究迁移](../two-books-20261023/README.md)
 - [超级骷髅兵既有阅读入口](../super-skeleton/reading/README.md)
 

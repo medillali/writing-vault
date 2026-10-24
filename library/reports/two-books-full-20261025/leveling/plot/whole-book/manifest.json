@@ -1,720 +1,1922 @@
 {
+  "version": 2,
+  "width": 7670,
+  "height": 11021,
+  "selection": "全事件分枝交汇版",
   "title": "网游之练级专家",
-  "width": 2480,
-  "height": 9890,
+  "stages": 20,
+  "reference": {
+    "book": "超级骷髅兵",
+    "form": "蓝色主干、青色枝线、紫色暗线、共享交汇、枝端终态；同版式离线地图"
+  },
+  "semantic_edges_total": 72,
+  "echo_relations": 14,
+  "semantic_relations": 58,
+  "reading_links": 34,
+  "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+  "graph_sha256": "d4490203771553a134af9c379c5c56ea68ce122ac133866c0445365f0e716920",
+  "events": [
+    "event-fbf2f3f70912abb7f720",
+    "event-71356b5aa641836a8c8d",
+    "event-eeb4df366744e9baeffc",
+    "event-c667c48a001387436912",
+    "event-87e335110d3ef16a51d2",
+    "event-18b5f9e30dd2db87b5dd",
+    "event-a3b9bf9cc58cfab4b0ea",
+    "event-c31704dc6bf428947220",
+    "event-45aa43197d25026437d5",
+    "event-206405061fb4c1dd3134",
+    "event-3bf71431b759fa648e77",
+    "event-1e3ddff3bc12639d5bb1",
+    "event-a991f015de2a550eeb21",
+    "event-b03f6fc3380926a0c288",
+    "event-70703ac5944800251ec8",
+    "event-7a7504bf013eb7536cd6",
+    "event-029f588ac9c772b1ca81",
+    "event-3be94f6007551d89e74b",
+    "event-377de2c18692a6522cd2",
+    "event-be03bceb57005ad59bf7",
+    "event-cb8a894a0c8ed48e1110",
+    "event-fe3ecfc618652859d71a",
+    "event-cc179c6da26a3a5403bf",
+    "event-d46314c13d6dd411e6e1",
+    "event-b5cf700ec12a95011958",
+    "event-1e126d1f698fd075de58",
+    "event-4ffa2e02398a23963aa1",
+    "event-5d61e306ca7b40017357",
+    "event-4f90d8be0ba0a272c34f",
+    "event-34a8ae798e981403ed42",
+    "event-572c9df24c179f946c7e",
+    "event-8163368e794ccbf99d9f",
+    "event-5081e468a0cfa4b8eb23",
+    "event-3c3649c60ef15d954a2f",
+    "event-9e2d15f654d457be3b5d",
+    "event-1797b9dda56b8a4fb9df",
+    "event-d7645eff2d0cc38d507f",
+    "event-efba265a2cd395c1a9c9",
+    "event-d7cb921ac0fc9dfb0bce",
+    "event-71122ebc630e4db1dda7",
+    "event-a1c559f80c09604db3ab",
+    "event-5e7ec249f48f03c58ea8",
+    "event-6c58b96047a1db89a059",
+    "event-df7eb58670a25d43b8b6",
+    "event-610a9b07cf42b5933c18",
+    "event-377b0476ccafaff84505",
+    "event-f1d701491015fe4baf68",
+    "event-d65b34d676eb22ce60df",
+    "event-4b68e76bb133f06baa95",
+    "event-98aa990d757bcbb01ec1",
+    "event-ffec63958b40ab37dce9",
+    "event-53480a766c7d4fa71a4e",
+    "event-9366481d2a2ae9b651d1",
+    "event-aadd48b19b7e79b99775",
+    "event-4cfe48a16fbb64211ddc",
+    "event-154726326ccd0eab503a",
+    "event-a153d9814fa8cea3be14",
+    "event-1c453671ae1374aa03a5",
+    "event-af3dd96702bf6d55f8bc",
+    "event-6bb4c111010d010040bf",
+    "event-b58debe4f9d8706075df",
+    "event-0e4ecfc7fcb671db10fd",
+    "event-28a359b84be690d558dc",
+    "event-a45b94bb013f6666e2f1",
+    "event-daaaf4f1e508fb4b297c",
+    "event-50b0126b4b40348b0945",
+    "event-941af6d02c689ea6e53f",
+    "event-c9296e6dfd062ae996b0",
+    "event-f6a2ec46b712ba0817f3",
+    "event-980811f14be9bed1d94f",
+    "event-cdb8e20becfcf96d59df",
+    "event-9bcfc07f4271d13809a6",
+    "event-77f23f34ba50523c8204",
+    "event-31bad3bdaa157943837d",
+    "event-d80b0dbded929d0f7feb",
+    "event-f58ec3e11187ae4695fc",
+    "event-aaf341d170ffb39ca49f",
+    "event-d70f8d29dbc44478b0dd",
+    "event-638b6baa634ea59b3727",
+    "event-fbc95153f22082c39050"
+  ],
+  "edges": [
+    "view-41ab1c48c930b986",
+    "view-46e91686d91f9ed4",
+    "view-b85f6b9a7ba09449",
+    "view-6e27ae3b56c4ec06",
+    "view-2259bbeee05bd37b",
+    "view-a2299ce84f438e32",
+    "view-1635bc18d426e4b0",
+    "view-348828dd9a5e3514",
+    "view-43ec4817a6cf20ce",
+    "view-823dfd6355e4e6ee",
+    "view-4ad99a6fe6a51930",
+    "view-bf5cb5a0e2418e91",
+    "view-df8f539d34ec9736",
+    "view-1921cdfc97306c0b",
+    "view-d3a5844e87bcfe21",
+    "view-1492e4a78c363087",
+    "view-8733408b70153ac9",
+    "view-ea74d463adf0d9cf",
+    "view-8dfe11757fce88e3",
+    "view-07c84f9fcfe6d3dc",
+    "view-7d69e4824c0c29e6",
+    "view-a82dabcb8e83a9cc",
+    "view-5243f260827aae08",
+    "view-689507bc34ee0b5a",
+    "view-0d8e3fe4b0315315",
+    "view-07611b56c5043fd3",
+    "view-f662d25129247491",
+    "view-881e0fba4ade1bbd",
+    "view-b58c7c56743fa1d3",
+    "view-2a276d9f32c933bb",
+    "view-6fd1d93e2a944ae9",
+    "view-bc087e622026b2f2",
+    "view-2530b8b39a857331",
+    "view-057713d8921e141b",
+    "view-fb555a67b9ca3770",
+    "view-26bf09485a8998e0",
+    "view-2b5a5f5626dd186a",
+    "view-7fa50b16fcfcaaa3",
+    "view-56b5e3c628ee0de3",
+    "view-b2f54dbe3971d082",
+    "view-4568cb60198a215a",
+    "view-6b28ff78dde04e80",
+    "view-a5ab9dee3e626c8a",
+    "view-5b4ad6f16ffd41e4",
+    "view-ff7b6c1a1c19d928",
+    "view-8bfbb7a136d3566f",
+    "view-64e51e5a6de1a69b",
+    "view-54ac1a218e9b35a1",
+    "view-90e2d291f410ae5e",
+    "view-ba2921d71bed891a",
+    "view-1c98285c072fa92d",
+    "view-1b7a34fa86b8f29f",
+    "view-4cdde2b456582054",
+    "view-dadd0d7d3164335f",
+    "view-bdde6793311ac88f",
+    "view-ee8fe5e8f916ad27",
+    "view-0917b5d141db1452",
+    "view-6cf7dd6e39a81f99",
+    "view-035798ddceb34231",
+    "view-33c44a24006e9c2e",
+    "view-77b6578520c7740a",
+    "view-8d7867b403e1efda",
+    "view-af0032002d6b9c5b",
+    "view-b51e713ed3b6048c",
+    "view-9de8596ddaf5b7e3",
+    "view-46fd4db444d3fcee",
+    "view-bffcdb1560bb992c",
+    "view-0bf012fc0a370b25",
+    "view-a4f5bd5b8f1faeff",
+    "view-15b21532d8c179d3",
+    "view-fc8459fb2dc8db72",
+    "view-27b49a86bc67b820",
+    "read-9077f1c4f0792f8a",
+    "read-dc3bfcb07b2b85ce",
+    "read-72c123c36ca1bca0",
+    "read-2ae60fecf120f458",
+    "read-23c5f25b741f4241",
+    "read-bbc44ff17150e41b",
+    "read-77ec389ac1b10049",
+    "read-370091a885f8f624",
+    "read-cece8adc5e9d5f3c",
+    "read-2b63fb89ba726624",
+    "read-5ed15e13c9446cee",
+    "read-9b80307c7a9229ba",
+    "read-6cf79ae00fb6579c",
+    "read-43804e93dc79546a",
+    "read-a72b4f14b29d5c89",
+    "read-1ad80ccdaf5defd1",
+    "read-7e888763a83720a9",
+    "read-0874f5108e0edab8",
+    "read-f57a3387b9a31ca9",
+    "read-2985c8c0ca98cc5f",
+    "read-dc34e342e2389eaa",
+    "read-40c5a06404083b5b",
+    "read-df54eec3179237f1",
+    "read-eb90c8707ecbd606",
+    "read-ad5232a854e869e3",
+    "read-6d13ed49aa06bac1",
+    "read-83d0a91316ec929e",
+    "read-e93226bc5509f578",
+    "read-2d70b0bd82d70695",
+    "read-6940c4ae69b98106",
+    "read-d4fcff8d67c7c221",
+    "read-e75452d54696266a",
+    "read-68bee8fb3af85723",
+    "read-42a436cdc40c6e43"
+  ],
   "positions": {
-    "story": {
-      "x": 60,
-      "y": 40,
-      "width": 2050,
-      "height": 120,
-      "volume": 0
-    },
-    "stage-01": {
-      "x": 60,
-      "y": 220,
-      "width": 360,
-      "height": 200,
-      "volume": 1
-    },
     "event-fbf2f3f70912abb7f720": {
-      "x": 520,
-      "y": 220,
-      "width": 460,
-      "height": 200,
+      "x": 1133.0,
+      "y": 532.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 1
     },
     "event-71356b5aa641836a8c8d": {
-      "x": 1030,
-      "y": 220,
-      "width": 460,
-      "height": 200,
+      "x": 1515.0,
+      "y": 755.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 1
     },
     "event-eeb4df366744e9baeffc": {
-      "x": 1540,
-      "y": 220,
-      "width": 460,
-      "height": 200,
+      "x": 4262.0,
+      "y": 510.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 1
     },
     "event-c667c48a001387436912": {
-      "x": 520,
-      "y": 490,
-      "width": 460,
-      "height": 200,
+      "x": 3001.0,
+      "y": 532.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 1
     },
-    "stage-02": {
-      "x": 60,
-      "y": 820,
-      "width": 360,
-      "height": 200,
-      "volume": 2
-    },
     "event-87e335110d3ef16a51d2": {
-      "x": 520,
-      "y": 820,
-      "width": 460,
-      "height": 200,
+      "x": 4757.0,
+      "y": 957.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 2
     },
     "event-18b5f9e30dd2db87b5dd": {
-      "x": 1030,
-      "y": 820,
-      "width": 460,
-      "height": 200,
+      "x": 1665.0,
+      "y": 978.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 2
     },
     "event-a3b9bf9cc58cfab4b0ea": {
-      "x": 1540,
-      "y": 820,
-      "width": 460,
-      "height": 200,
+      "x": 1665.0,
+      "y": 1202.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 2
     },
-    "stage-03": {
-      "x": 60,
-      "y": 1150,
-      "width": 360,
-      "height": 200,
-      "volume": 3
-    },
     "event-c31704dc6bf428947220": {
-      "x": 520,
-      "y": 1150,
-      "width": 460,
-      "height": 200,
-      "volume": 3
-    },
-    "event-206405061fb4c1dd3134": {
-      "x": 1030,
-      "y": 1150,
-      "width": 460,
-      "height": 200,
+      "x": 1936.0,
+      "y": 1468.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 3
     },
     "event-45aa43197d25026437d5": {
-      "x": 1540,
-      "y": 1150,
-      "width": 460,
-      "height": 200,
+      "x": 4533.0,
+      "y": 1447.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 3
     },
-    "stage-04": {
-      "x": 60,
-      "y": 1480,
-      "width": 360,
-      "height": 200,
-      "volume": 4
+    "event-206405061fb4c1dd3134": {
+      "x": 2011.0,
+      "y": 1692.0,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 3
     },
     "event-3bf71431b759fa648e77": {
-      "x": 520,
-      "y": 1480,
-      "width": 460,
-      "height": 200,
+      "x": 2247.0,
+      "y": 1937.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 4
     },
     "event-1e3ddff3bc12639d5bb1": {
-      "x": 1030,
-      "y": 1480,
-      "width": 460,
-      "height": 200,
+      "x": 2671.0,
+      "y": 1958.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 4
     },
     "event-a991f015de2a550eeb21": {
-      "x": 1540,
-      "y": 1480,
-      "width": 460,
-      "height": 200,
+      "x": 2671.0,
+      "y": 2182.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 4
     },
-    "stage-05": {
-      "x": 60,
-      "y": 1810,
-      "width": 360,
-      "height": 200,
-      "volume": 5
-    },
     "event-b03f6fc3380926a0c288": {
-      "x": 520,
-      "y": 1810,
-      "width": 460,
-      "height": 200,
+      "x": 2789.0,
+      "y": 2405.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 5
     },
     "event-70703ac5944800251ec8": {
-      "x": 1030,
-      "y": 1810,
-      "width": 460,
-      "height": 200,
+      "x": 2247.0,
+      "y": 2384.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 5
     },
     "event-7a7504bf013eb7536cd6": {
-      "x": 1540,
-      "y": 1810,
-      "width": 460,
-      "height": 200,
+      "x": 3991.0,
+      "y": 2384.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 5
     },
-    "stage-06": {
-      "x": 60,
-      "y": 2140,
-      "width": 360,
-      "height": 200,
+    "event-029f588ac9c772b1ca81": {
+      "x": 3331.0,
+      "y": 2706.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 6
     },
-    "event-029f588ac9c772b1ca81": {
-      "x": 520,
-      "y": 2140,
-      "width": 460,
-      "height": 200,
+    "event-3be94f6007551d89e74b": {
+      "x": 479.0,
+      "y": 3217.5,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 7
+    },
+    "event-377de2c18692a6522cd2": {
+      "x": 3331.0,
+      "y": 2951.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 6
     },
     "event-be03bceb57005ad59bf7": {
-      "x": 1030,
-      "y": 2140,
-      "width": 460,
-      "height": 200,
+      "x": 4109.0,
+      "y": 3196.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 6
-    },
-    "event-377de2c18692a6522cd2": {
-      "x": 1540,
-      "y": 2140,
-      "width": 460,
-      "height": 200,
-      "volume": 6
-    },
-    "stage-07": {
-      "x": 60,
-      "y": 2470,
-      "width": 360,
-      "height": 200,
-      "volume": 7
     },
     "event-cb8a894a0c8ed48e1110": {
-      "x": 520,
-      "y": 2470,
-      "width": 460,
-      "height": 200,
-      "volume": 7
-    },
-    "event-3be94f6007551d89e74b": {
-      "x": 1030,
-      "y": 2470,
-      "width": 460,
-      "height": 200,
+      "x": 3602.0,
+      "y": 3441.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 7
     },
     "event-fe3ecfc618652859d71a": {
-      "x": 1540,
-      "y": 2470,
-      "width": 460,
-      "height": 200,
+      "x": 5947.0,
+      "y": 3217.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 7
     },
-    "stage-08": {
-      "x": 60,
-      "y": 2800,
-      "width": 360,
-      "height": 200,
-      "volume": 8
-    },
     "event-cc179c6da26a3a5403bf": {
-      "x": 520,
-      "y": 2800,
-      "width": 460,
-      "height": 200,
+      "x": 5947.0,
+      "y": 3686.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 8
     },
     "event-d46314c13d6dd411e6e1": {
-      "x": 1030,
-      "y": 2800,
-      "width": 460,
-      "height": 200,
+      "x": 3602.0,
+      "y": 3686.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 8
     },
     "event-b5cf700ec12a95011958": {
-      "x": 1540,
-      "y": 2800,
-      "width": 460,
-      "height": 200,
+      "x": 4509.0,
+      "y": 3686.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 8
     },
-    "stage-09": {
-      "x": 60,
-      "y": 3130,
-      "width": 360,
-      "height": 200,
-      "volume": 9
-    },
     "event-1e126d1f698fd075de58": {
-      "x": 520,
-      "y": 3130,
-      "width": 460,
-      "height": 200,
+      "x": 5947.0,
+      "y": 4242.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 9
     },
     "event-4ffa2e02398a23963aa1": {
-      "x": 1030,
-      "y": 3130,
-      "width": 460,
-      "height": 200,
+      "x": 5947.0,
+      "y": 4444.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 9
     },
     "event-5d61e306ca7b40017357": {
-      "x": 1540,
-      "y": 3130,
-      "width": 460,
-      "height": 200,
+      "x": 4509.0,
+      "y": 4242.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 9
     },
-    "stage-10": {
-      "x": 60,
-      "y": 3460,
-      "width": 360,
-      "height": 200,
-      "volume": 10
-    },
     "event-4f90d8be0ba0a272c34f": {
-      "x": 520,
-      "y": 3460,
-      "width": 460,
-      "height": 200,
+      "x": 4509.0,
+      "y": 4743.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 10
     },
     "event-34a8ae798e981403ed42": {
-      "x": 1030,
-      "y": 3460,
-      "width": 460,
-      "height": 200,
+      "x": 4509.0,
+      "y": 5043.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 10
     },
     "event-572c9df24c179f946c7e": {
-      "x": 1540,
-      "y": 3460,
-      "width": 460,
-      "height": 200,
+      "x": 1587.0,
+      "y": 4743.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 10
     },
-    "stage-11": {
-      "x": 60,
-      "y": 3790,
-      "width": 360,
-      "height": 200,
-      "volume": 11
-    },
     "event-8163368e794ccbf99d9f": {
-      "x": 520,
-      "y": 3790,
-      "width": 460,
-      "height": 200,
+      "x": 4509.0,
+      "y": 5288.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 11
     },
     "event-5081e468a0cfa4b8eb23": {
-      "x": 1030,
-      "y": 3790,
-      "width": 460,
-      "height": 200,
+      "x": 5947.0,
+      "y": 5288.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 11
     },
     "event-3c3649c60ef15d954a2f": {
-      "x": 1540,
-      "y": 3790,
-      "width": 460,
-      "height": 200,
+      "x": 5169.0,
+      "y": 5288.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 11
     },
     "event-9e2d15f654d457be3b5d": {
-      "x": 520,
-      "y": 4060,
-      "width": 460,
-      "height": 200,
+      "x": 6371.0,
+      "y": 5288.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 11
     },
     "event-1797b9dda56b8a4fb9df": {
-      "x": 1030,
-      "y": 4060,
-      "width": 460,
-      "height": 200,
+      "x": 4509.0,
+      "y": 5490.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 11
     },
-    "stage-12": {
-      "x": 60,
-      "y": 4390,
-      "width": 360,
-      "height": 200,
-      "volume": 12
-    },
     "event-d7645eff2d0cc38d507f": {
-      "x": 520,
-      "y": 4390,
-      "width": 460,
-      "height": 200,
+      "x": 4509.0,
+      "y": 5692.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 12
     },
     "event-efba265a2cd395c1a9c9": {
-      "x": 1030,
-      "y": 4390,
-      "width": 460,
-      "height": 200,
+      "x": 4627.0,
+      "y": 5894.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 12
     },
     "event-d7cb921ac0fc9dfb0bce": {
-      "x": 1540,
-      "y": 4390,
-      "width": 460,
-      "height": 200,
+      "x": 5829.0,
+      "y": 5692.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 12
     },
     "event-71122ebc630e4db1dda7": {
-      "x": 520,
-      "y": 4660,
-      "width": 460,
-      "height": 200,
+      "x": 4627.0,
+      "y": 6096.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 12
     },
-    "stage-13": {
-      "x": 60,
-      "y": 4990,
-      "width": 360,
-      "height": 200,
-      "volume": 13
-    },
     "event-a1c559f80c09604db3ab": {
-      "x": 520,
-      "y": 4990,
-      "width": 460,
-      "height": 200,
+      "x": 6204.0,
+      "y": 6096.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 13
     },
     "event-5e7ec249f48f03c58ea8": {
-      "x": 1030,
-      "y": 4990,
-      "width": 460,
-      "height": 200,
+      "x": 4203.0,
+      "y": 6096.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 13
     },
     "event-6c58b96047a1db89a059": {
-      "x": 1540,
-      "y": 4990,
-      "width": 460,
-      "height": 200,
+      "x": 5051.0,
+      "y": 6096.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 13
     },
     "event-df7eb58670a25d43b8b6": {
-      "x": 520,
-      "y": 5260,
-      "width": 460,
-      "height": 200,
+      "x": 361.0,
+      "y": 6298.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 13
     },
     "event-610a9b07cf42b5933c18": {
-      "x": 1030,
-      "y": 5260,
-      "width": 460,
-      "height": 200,
+      "x": 90.0,
+      "y": 6500.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 13
     },
-    "stage-14": {
-      "x": 60,
-      "y": 5590,
-      "width": 360,
-      "height": 200,
-      "volume": 14
-    },
     "event-377b0476ccafaff84505": {
-      "x": 520,
-      "y": 5590,
-      "width": 460,
-      "height": 200,
+      "x": 6307.0,
+      "y": 6500.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 14
     },
     "event-f1d701491015fe4baf68": {
-      "x": 1030,
-      "y": 5590,
-      "width": 460,
-      "height": 200,
+      "x": 6731.0,
+      "y": 6521.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 14
     },
     "event-d65b34d676eb22ce60df": {
-      "x": 1540,
-      "y": 5590,
-      "width": 460,
-      "height": 200,
+      "x": 4627.0,
+      "y": 6521.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 14
     },
     "event-4b68e76bb133f06baa95": {
-      "x": 520,
-      "y": 5860,
-      "width": 460,
-      "height": 200,
+      "x": 5883.0,
+      "y": 6521.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 14
     },
     "event-98aa990d757bcbb01ec1": {
-      "x": 1030,
-      "y": 5860,
-      "width": 460,
-      "height": 200,
+      "x": 7155.0,
+      "y": 6521.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 14
     },
-    "stage-15": {
-      "x": 60,
-      "y": 6190,
-      "width": 360,
-      "height": 200,
-      "volume": 15
-    },
     "event-ffec63958b40ab37dce9": {
-      "x": 520,
-      "y": 6190,
-      "width": 460,
-      "height": 200,
+      "x": 90.0,
+      "y": 6843.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 15
     },
     "event-53480a766c7d4fa71a4e": {
-      "x": 1030,
-      "y": 6190,
-      "width": 460,
-      "height": 200,
+      "x": 361.0,
+      "y": 7067.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 15
     },
     "event-9366481d2a2ae9b651d1": {
-      "x": 1540,
-      "y": 6190,
-      "width": 460,
-      "height": 200,
+      "x": 1021.0,
+      "y": 6843.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 15
     },
     "event-aadd48b19b7e79b99775": {
-      "x": 520,
-      "y": 6460,
-      "width": 460,
-      "height": 200,
+      "x": 1939.0,
+      "y": 6822.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 15
     },
-    "stage-16": {
-      "x": 60,
-      "y": 6790,
-      "width": 360,
-      "height": 200,
-      "volume": 16
-    },
     "event-4cfe48a16fbb64211ddc": {
-      "x": 520,
-      "y": 6790,
-      "width": 460,
-      "height": 200,
+      "x": 1681.0,
+      "y": 7269.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 16
     },
     "event-154726326ccd0eab503a": {
-      "x": 1030,
-      "y": 6790,
-      "width": 460,
-      "height": 200,
+      "x": 361.0,
+      "y": 7269.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 16
     },
     "event-a153d9814fa8cea3be14": {
-      "x": 1540,
-      "y": 6790,
-      "width": 460,
-      "height": 200,
+      "x": 1021.0,
+      "y": 7269.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 16
     },
     "event-1c453671ae1374aa03a5": {
-      "x": 520,
-      "y": 7060,
-      "width": 460,
-      "height": 200,
+      "x": 1021.0,
+      "y": 7471.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 16
     },
     "event-af3dd96702bf6d55f8bc": {
-      "x": 1030,
-      "y": 7060,
-      "width": 460,
-      "height": 200,
+      "x": 1681.0,
+      "y": 7673.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 16
     },
-    "stage-17": {
-      "x": 60,
-      "y": 7390,
-      "width": 360,
-      "height": 200,
-      "volume": 17
-    },
     "event-6bb4c111010d010040bf": {
-      "x": 520,
-      "y": 7390,
-      "width": 460,
-      "height": 200,
+      "x": 1681.0,
+      "y": 7875.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 17
     },
     "event-b58debe4f9d8706075df": {
-      "x": 1030,
-      "y": 7390,
-      "width": 460,
-      "height": 200,
+      "x": 1681.0,
+      "y": 8077.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 17
     },
     "event-0e4ecfc7fcb671db10fd": {
-      "x": 1540,
-      "y": 7390,
-      "width": 460,
-      "height": 200,
+      "x": 2223.0,
+      "y": 7673.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 17
     },
     "event-28a359b84be690d558dc": {
-      "x": 520,
-      "y": 7660,
-      "width": 460,
-      "height": 200,
+      "x": 1952.0,
+      "y": 8279.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 17
     },
     "event-a45b94bb013f6666e2f1": {
-      "x": 1030,
-      "y": 7660,
-      "width": 460,
-      "height": 200,
+      "x": 5711.0,
+      "y": 7673.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 17
     },
-    "stage-18": {
-      "x": 60,
-      "y": 7990,
-      "width": 360,
-      "height": 200,
-      "volume": 18
-    },
     "event-daaaf4f1e508fb4b297c": {
-      "x": 520,
-      "y": 7990,
-      "width": 460,
-      "height": 200,
+      "x": 5711.0,
+      "y": 8077.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 18
     },
     "event-50b0126b4b40348b0945": {
-      "x": 1030,
-      "y": 7990,
-      "width": 460,
-      "height": 200,
+      "x": 5711.0,
+      "y": 8279.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 18
     },
     "event-941af6d02c689ea6e53f": {
-      "x": 1540,
-      "y": 7990,
-      "width": 460,
-      "height": 200,
+      "x": 2953.0,
+      "y": 8077.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 18
     },
     "event-c9296e6dfd062ae996b0": {
-      "x": 520,
-      "y": 8260,
-      "width": 460,
-      "height": 200,
+      "x": 2953.0,
+      "y": 8481.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 18
     },
     "event-f6a2ec46b712ba0817f3": {
-      "x": 1030,
-      "y": 8260,
-      "width": 460,
-      "height": 200,
+      "x": 3307.0,
+      "y": 8759.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 18
     },
-    "stage-19": {
-      "x": 60,
-      "y": 8590,
-      "width": 360,
-      "height": 200,
-      "volume": 19
-    },
     "event-980811f14be9bed1d94f": {
-      "x": 520,
-      "y": 8590,
-      "width": 460,
-      "height": 200,
+      "x": 3207.0,
+      "y": 9037.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 19
     },
     "event-cdb8e20becfcf96d59df": {
-      "x": 1030,
-      "y": 8590,
-      "width": 460,
-      "height": 200,
-      "volume": 19
-    },
-    "event-77f23f34ba50523c8204": {
-      "x": 1540,
-      "y": 8590,
-      "width": 460,
-      "height": 200,
+      "x": 2883.0,
+      "y": 9315.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 19
     },
     "event-9bcfc07f4271d13809a6": {
-      "x": 520,
-      "y": 8860,
-      "width": 460,
-      "height": 200,
+      "x": 2682.0,
+      "y": 9037.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 19
+    },
+    "event-77f23f34ba50523c8204": {
+      "x": 4203.0,
+      "y": 8481.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 19
     },
     "event-31bad3bdaa157943837d": {
-      "x": 1030,
-      "y": 8860,
-      "width": 460,
-      "height": 200,
+      "x": 514.0,
+      "y": 8481.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 19
     },
     "event-d80b0dbded929d0f7feb": {
-      "x": 1540,
-      "y": 8860,
-      "width": 460,
-      "height": 200,
+      "x": 2223.0,
+      "y": 9293.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 19
     },
-    "stage-20": {
-      "x": 60,
-      "y": 9190,
-      "width": 360,
-      "height": 200,
-      "volume": 20
-    },
     "event-f58ec3e11187ae4695fc": {
-      "x": 520,
-      "y": 9190,
-      "width": 460,
-      "height": 200,
+      "x": 2612.0,
+      "y": 9593.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 20
     },
     "event-aaf341d170ffb39ca49f": {
-      "x": 1030,
-      "y": 9190,
-      "width": 460,
-      "height": 200,
+      "x": 2612.0,
+      "y": 9795.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 20
     },
     "event-d70f8d29dbc44478b0dd": {
-      "x": 1540,
-      "y": 9190,
-      "width": 460,
-      "height": 200,
+      "x": 2612.0,
+      "y": 9997.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 20
     },
     "event-638b6baa634ea59b3727": {
-      "x": 520,
-      "y": 9460,
-      "width": 460,
-      "height": 200,
+      "x": 2612.0,
+      "y": 10199.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 20
     },
     "event-fbc95153f22082c39050": {
-      "x": 1030,
-      "y": 9460,
-      "width": 460,
-      "height": 200,
+      "x": 2282.0,
+      "y": 10401.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 20
+    },
+    "book-double-spy": {
+      "x": 3307.0,
+      "y": 9239.0,
+      "width": 366.0,
+      "height": 278.0,
+      "volume": null
+    },
+    "book-taburet-oslinlan": {
+      "x": 5947.0,
+      "y": 3888.0,
+      "width": 366.0,
+      "height": 278.0,
+      "volume": null
+    },
+    "book-kamori-retrial": {
+      "x": 5947.0,
+      "y": 4689.0,
+      "width": 366.0,
+      "height": 278.0,
+      "volume": null
+    },
+    "book-demon-ring-politics": {
+      "x": 514.0,
+      "y": 8683.0,
+      "width": 366.0,
+      "height": 278.0,
+      "volume": null
+    },
+    "book-arland-father": {
+      "x": 2282.0,
+      "y": 10603.0,
+      "width": 366.0,
+      "height": 278.0,
+      "volume": null
     }
   },
-  "nodes": 101,
-  "scenes": 80,
-  "relations": 66,
-  "stages": 20,
-  "node_overlap": 0,
-  "edge_meaning": "结构线与阅读顺序不是因果；虚线只链接账本中有证据的设问和回应。"
+  "links": [
+    {
+      "id": "view-41ab1c48c930b986",
+      "from": "event-fbf2f3f70912abb7f720",
+      "to": "event-d7cb921ac0fc9dfb0bce",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-a2299ce84f438e32",
+      "from": "event-c667c48a001387436912",
+      "to": "event-18b5f9e30dd2db87b5dd",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-43ec4817a6cf20ce",
+      "from": "event-a3b9bf9cc58cfab4b0ea",
+      "to": "event-1797b9dda56b8a4fb9df",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "view-df8f539d34ec9736",
+      "from": "event-45aa43197d25026437d5",
+      "to": "event-af3dd96702bf6d55f8bc",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-1492e4a78c363087",
+      "from": "event-1e3ddff3bc12639d5bb1",
+      "to": "event-9bcfc07f4271d13809a6",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "view-8dfe11757fce88e3",
+      "from": "event-7a7504bf013eb7536cd6",
+      "to": "event-1c453671ae1374aa03a5",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-6fd1d93e2a944ae9",
+      "from": "event-572c9df24c179f946c7e",
+      "to": "event-28a359b84be690d558dc",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-2530b8b39a857331",
+      "from": "event-5081e468a0cfa4b8eb23",
+      "to": "event-4b68e76bb133f06baa95",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-057713d8921e141b",
+      "from": "event-3c3649c60ef15d954a2f",
+      "to": "event-638b6baa634ea59b3727",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-7fa50b16fcfcaaa3",
+      "from": "event-d7645eff2d0cc38d507f",
+      "to": "event-9bcfc07f4271d13809a6",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "view-a5ab9dee3e626c8a",
+      "from": "event-6c58b96047a1db89a059",
+      "to": "event-980811f14be9bed1d94f",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-ff7b6c1a1c19d928",
+      "from": "event-610a9b07cf42b5933c18",
+      "to": "event-daaaf4f1e508fb4b297c",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-8bfbb7a136d3566f",
+      "from": "event-f1d701491015fe4baf68",
+      "to": "event-98aa990d757bcbb01ec1",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-27b49a86bc67b820",
+      "from": "event-638b6baa634ea59b3727",
+      "to": "event-fbc95153f22082c39050",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "view-46e91686d91f9ed4",
+      "from": "event-fbf2f3f70912abb7f720",
+      "to": "event-b58debe4f9d8706075df",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-b85f6b9a7ba09449",
+      "from": "event-71356b5aa641836a8c8d",
+      "to": "event-cb8a894a0c8ed48e1110",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "view-6e27ae3b56c4ec06",
+      "from": "event-71356b5aa641836a8c8d",
+      "to": "event-4cfe48a16fbb64211ddc",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-2259bbeee05bd37b",
+      "from": "event-eeb4df366744e9baeffc",
+      "to": "event-be03bceb57005ad59bf7",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-1635bc18d426e4b0",
+      "from": "event-18b5f9e30dd2db87b5dd",
+      "to": "event-a3b9bf9cc58cfab4b0ea",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "view-348828dd9a5e3514",
+      "from": "event-18b5f9e30dd2db87b5dd",
+      "to": "event-c31704dc6bf428947220",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "view-823dfd6355e4e6ee",
+      "from": "event-c31704dc6bf428947220",
+      "to": "event-1e3ddff3bc12639d5bb1",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-4ad99a6fe6a51930",
+      "from": "event-c31704dc6bf428947220",
+      "to": "event-9bcfc07f4271d13809a6",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-bf5cb5a0e2418e91",
+      "from": "event-206405061fb4c1dd3134",
+      "to": "event-4cfe48a16fbb64211ddc",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "view-1921cdfc97306c0b",
+      "from": "event-3bf71431b759fa648e77",
+      "to": "event-70703ac5944800251ec8",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "view-d3a5844e87bcfe21",
+      "from": "event-1e3ddff3bc12639d5bb1",
+      "to": "event-a991f015de2a550eeb21",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-8733408b70153ac9",
+      "from": "event-a991f015de2a550eeb21",
+      "to": "event-b03f6fc3380926a0c288",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-ea74d463adf0d9cf",
+      "from": "event-a991f015de2a550eeb21",
+      "to": "event-70703ac5944800251ec8",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-07c84f9fcfe6d3dc",
+      "from": "event-029f588ac9c772b1ca81",
+      "to": "event-377de2c18692a6522cd2",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-7d69e4824c0c29e6",
+      "from": "event-be03bceb57005ad59bf7",
+      "to": "event-377de2c18692a6522cd2",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "view-a82dabcb8e83a9cc",
+      "from": "event-377de2c18692a6522cd2",
+      "to": "event-cb8a894a0c8ed48e1110",
+      "kind": "reveal",
+      "core": true
+    },
+    {
+      "id": "view-5243f260827aae08",
+      "from": "event-377de2c18692a6522cd2",
+      "to": "event-3be94f6007551d89e74b",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-689507bc34ee0b5a",
+      "from": "event-cb8a894a0c8ed48e1110",
+      "to": "event-d46314c13d6dd411e6e1",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "view-0d8e3fe4b0315315",
+      "from": "event-cb8a894a0c8ed48e1110",
+      "to": "event-4cfe48a16fbb64211ddc",
+      "kind": "reveal",
+      "core": true
+    },
+    {
+      "id": "view-07611b56c5043fd3",
+      "from": "event-fe3ecfc618652859d71a",
+      "to": "event-cc179c6da26a3a5403bf",
+      "kind": "reveal",
+      "core": false
+    },
+    {
+      "id": "view-f662d25129247491",
+      "from": "event-b5cf700ec12a95011958",
+      "to": "event-fbc95153f22082c39050",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-881e0fba4ade1bbd",
+      "from": "event-1e126d1f698fd075de58",
+      "to": "event-4ffa2e02398a23963aa1",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-b58c7c56743fa1d3",
+      "from": "event-5d61e306ca7b40017357",
+      "to": "event-4f90d8be0ba0a272c34f",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "view-2a276d9f32c933bb",
+      "from": "event-4f90d8be0ba0a272c34f",
+      "to": "event-34a8ae798e981403ed42",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "view-bc087e622026b2f2",
+      "from": "event-8163368e794ccbf99d9f",
+      "to": "event-1797b9dda56b8a4fb9df",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "view-fb555a67b9ca3770",
+      "from": "event-1797b9dda56b8a4fb9df",
+      "to": "event-d7645eff2d0cc38d507f",
+      "kind": "reversal",
+      "core": true
+    },
+    {
+      "id": "view-26bf09485a8998e0",
+      "from": "event-1797b9dda56b8a4fb9df",
+      "to": "event-d65b34d676eb22ce60df",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "view-2b5a5f5626dd186a",
+      "from": "event-1797b9dda56b8a4fb9df",
+      "to": "event-aaf341d170ffb39ca49f",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-56b5e3c628ee0de3",
+      "from": "event-efba265a2cd395c1a9c9",
+      "to": "event-71122ebc630e4db1dda7",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-b2f54dbe3971d082",
+      "from": "event-71122ebc630e4db1dda7",
+      "to": "event-d65b34d676eb22ce60df",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "view-4568cb60198a215a",
+      "from": "event-5e7ec249f48f03c58ea8",
+      "to": "event-77f23f34ba50523c8204",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-6b28ff78dde04e80",
+      "from": "event-6c58b96047a1db89a059",
+      "to": "event-df7eb58670a25d43b8b6",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "view-5b4ad6f16ffd41e4",
+      "from": "event-df7eb58670a25d43b8b6",
+      "to": "event-610a9b07cf42b5933c18",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "view-64e51e5a6de1a69b",
+      "from": "event-d65b34d676eb22ce60df",
+      "to": "event-77f23f34ba50523c8204",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-54ac1a218e9b35a1",
+      "from": "event-ffec63958b40ab37dce9",
+      "to": "event-53480a766c7d4fa71a4e",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-90e2d291f410ae5e",
+      "from": "event-53480a766c7d4fa71a4e",
+      "to": "event-154726326ccd0eab503a",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "view-ba2921d71bed891a",
+      "from": "event-53480a766c7d4fa71a4e",
+      "to": "event-fbc95153f22082c39050",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-1c98285c072fa92d",
+      "from": "event-9366481d2a2ae9b651d1",
+      "to": "event-53480a766c7d4fa71a4e",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "view-1b7a34fa86b8f29f",
+      "from": "event-aadd48b19b7e79b99775",
+      "to": "event-4cfe48a16fbb64211ddc",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-4cdde2b456582054",
+      "from": "event-4cfe48a16fbb64211ddc",
+      "to": "event-af3dd96702bf6d55f8bc",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-dadd0d7d3164335f",
+      "from": "event-4cfe48a16fbb64211ddc",
+      "to": "event-28a359b84be690d558dc",
+      "kind": "reveal",
+      "core": true
+    },
+    {
+      "id": "view-bdde6793311ac88f",
+      "from": "event-4cfe48a16fbb64211ddc",
+      "to": "event-31bad3bdaa157943837d",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-ee8fe5e8f916ad27",
+      "from": "event-a153d9814fa8cea3be14",
+      "to": "event-1c453671ae1374aa03a5",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-0917b5d141db1452",
+      "from": "event-1c453671ae1374aa03a5",
+      "to": "event-af3dd96702bf6d55f8bc",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "view-6cf7dd6e39a81f99",
+      "from": "event-6bb4c111010d010040bf",
+      "to": "event-b58debe4f9d8706075df",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "view-035798ddceb34231",
+      "from": "event-0e4ecfc7fcb671db10fd",
+      "to": "event-28a359b84be690d558dc",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "view-33c44a24006e9c2e",
+      "from": "event-28a359b84be690d558dc",
+      "to": "event-d80b0dbded929d0f7feb",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-77b6578520c7740a",
+      "from": "event-28a359b84be690d558dc",
+      "to": "event-fbc95153f22082c39050",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-8d7867b403e1efda",
+      "from": "event-a45b94bb013f6666e2f1",
+      "to": "event-daaaf4f1e508fb4b297c",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "view-af0032002d6b9c5b",
+      "from": "event-daaaf4f1e508fb4b297c",
+      "to": "event-50b0126b4b40348b0945",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "view-b51e713ed3b6048c",
+      "from": "event-941af6d02c689ea6e53f",
+      "to": "event-c9296e6dfd062ae996b0",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "view-9de8596ddaf5b7e3",
+      "from": "event-c9296e6dfd062ae996b0",
+      "to": "event-9bcfc07f4271d13809a6",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "view-46fd4db444d3fcee",
+      "from": "event-f6a2ec46b712ba0817f3",
+      "to": "event-980811f14be9bed1d94f",
+      "kind": "setup",
+      "core": false
+    },
+    {
+      "id": "view-bffcdb1560bb992c",
+      "from": "event-980811f14be9bed1d94f",
+      "to": "event-cdb8e20becfcf96d59df",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-0bf012fc0a370b25",
+      "from": "event-77f23f34ba50523c8204",
+      "to": "event-d70f8d29dbc44478b0dd",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-a4f5bd5b8f1faeff",
+      "from": "event-9bcfc07f4271d13809a6",
+      "to": "event-f58ec3e11187ae4695fc",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "view-15b21532d8c179d3",
+      "from": "event-f58ec3e11187ae4695fc",
+      "to": "event-aaf341d170ffb39ca49f",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-fc8459fb2dc8db72",
+      "from": "event-d70f8d29dbc44478b0dd",
+      "to": "event-638b6baa634ea59b3727",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "read-9077f1c4f0792f8a",
+      "from": "event-fbf2f3f70912abb7f720",
+      "to": "event-71356b5aa641836a8c8d",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-dc3bfcb07b2b85ce",
+      "from": "event-71356b5aa641836a8c8d",
+      "to": "event-18b5f9e30dd2db87b5dd",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-72c123c36ca1bca0",
+      "from": "event-18b5f9e30dd2db87b5dd",
+      "to": "event-a3b9bf9cc58cfab4b0ea",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-2ae60fecf120f458",
+      "from": "event-a3b9bf9cc58cfab4b0ea",
+      "to": "event-c31704dc6bf428947220",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-23c5f25b741f4241",
+      "from": "event-c31704dc6bf428947220",
+      "to": "event-206405061fb4c1dd3134",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-bbc44ff17150e41b",
+      "from": "event-206405061fb4c1dd3134",
+      "to": "event-1e3ddff3bc12639d5bb1",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-77ec389ac1b10049",
+      "from": "event-1e3ddff3bc12639d5bb1",
+      "to": "event-377de2c18692a6522cd2",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-370091a885f8f624",
+      "from": "event-377de2c18692a6522cd2",
+      "to": "event-be03bceb57005ad59bf7",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-cece8adc5e9d5f3c",
+      "from": "event-be03bceb57005ad59bf7",
+      "to": "event-cb8a894a0c8ed48e1110",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-2b63fb89ba726624",
+      "from": "event-cb8a894a0c8ed48e1110",
+      "to": "event-b5cf700ec12a95011958",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-5ed15e13c9446cee",
+      "from": "event-b5cf700ec12a95011958",
+      "to": "event-5d61e306ca7b40017357",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-9b80307c7a9229ba",
+      "from": "event-5d61e306ca7b40017357",
+      "to": "event-4f90d8be0ba0a272c34f",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-6cf79ae00fb6579c",
+      "from": "event-4f90d8be0ba0a272c34f",
+      "to": "event-34a8ae798e981403ed42",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-43804e93dc79546a",
+      "from": "event-34a8ae798e981403ed42",
+      "to": "event-8163368e794ccbf99d9f",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-a72b4f14b29d5c89",
+      "from": "event-8163368e794ccbf99d9f",
+      "to": "event-1797b9dda56b8a4fb9df",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-1ad80ccdaf5defd1",
+      "from": "event-1797b9dda56b8a4fb9df",
+      "to": "event-d7645eff2d0cc38d507f",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-7e888763a83720a9",
+      "from": "event-d7645eff2d0cc38d507f",
+      "to": "event-efba265a2cd395c1a9c9",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-0874f5108e0edab8",
+      "from": "event-efba265a2cd395c1a9c9",
+      "to": "event-6c58b96047a1db89a059",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-f57a3387b9a31ca9",
+      "from": "event-6c58b96047a1db89a059",
+      "to": "event-df7eb58670a25d43b8b6",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-2985c8c0ca98cc5f",
+      "from": "event-df7eb58670a25d43b8b6",
+      "to": "event-53480a766c7d4fa71a4e",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-dc34e342e2389eaa",
+      "from": "event-53480a766c7d4fa71a4e",
+      "to": "event-4cfe48a16fbb64211ddc",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-40c5a06404083b5b",
+      "from": "event-4cfe48a16fbb64211ddc",
+      "to": "event-af3dd96702bf6d55f8bc",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-df54eec3179237f1",
+      "from": "event-af3dd96702bf6d55f8bc",
+      "to": "event-6bb4c111010d010040bf",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-eb90c8707ecbd606",
+      "from": "event-6bb4c111010d010040bf",
+      "to": "event-b58debe4f9d8706075df",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-ad5232a854e869e3",
+      "from": "event-b58debe4f9d8706075df",
+      "to": "event-28a359b84be690d558dc",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-6d13ed49aa06bac1",
+      "from": "event-28a359b84be690d558dc",
+      "to": "event-c9296e6dfd062ae996b0",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-83d0a91316ec929e",
+      "from": "event-c9296e6dfd062ae996b0",
+      "to": "event-f6a2ec46b712ba0817f3",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-e93226bc5509f578",
+      "from": "event-f6a2ec46b712ba0817f3",
+      "to": "event-9bcfc07f4271d13809a6",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-2d70b0bd82d70695",
+      "from": "event-9bcfc07f4271d13809a6",
+      "to": "event-d80b0dbded929d0f7feb",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-6940c4ae69b98106",
+      "from": "event-d80b0dbded929d0f7feb",
+      "to": "event-f58ec3e11187ae4695fc",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-d4fcff8d67c7c221",
+      "from": "event-f58ec3e11187ae4695fc",
+      "to": "event-aaf341d170ffb39ca49f",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-e75452d54696266a",
+      "from": "event-aaf341d170ffb39ca49f",
+      "to": "event-d70f8d29dbc44478b0dd",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-68bee8fb3af85723",
+      "from": "event-d70f8d29dbc44478b0dd",
+      "to": "event-638b6baa634ea59b3727",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-42a436cdc40c6e43",
+      "from": "event-638b6baa634ea59b3727",
+      "to": "event-fbc95153f22082c39050",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "state-book-double-spy",
+      "from": "event-980811f14be9bed1d94f",
+      "to": "book-double-spy",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-taburet-oslinlan",
+      "from": "event-cc179c6da26a3a5403bf",
+      "to": "book-taburet-oslinlan",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-kamori-retrial",
+      "from": "event-4ffa2e02398a23963aa1",
+      "to": "book-kamori-retrial",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-demon-ring-politics",
+      "from": "event-31bad3bdaa157943837d",
+      "to": "book-demon-ring-politics",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-arland-father",
+      "from": "event-fbc95153f22082c39050",
+      "to": "book-arland-father",
+      "kind": "annotation",
+      "core": false
+    }
+  ],
+  "threads": [
+    {
+      "id": "book-double-spy",
+      "number": 1,
+      "status": "resolved",
+      "anchor": "event-980811f14be9bed1d94f",
+      "conclusion": "盐磷与黑蛇定位匡飞、天骑后，天狂逐前者而留后者，利用狂龙以为尚有未曝光内线的误判传递假情报。天骑后来承认钱与暗恋林菲的动机，完成围狂龙后被逐。后段收买圣剑是另一场公开信息受限的博弈，只作机制回响，不能把圣剑并为同一内线。"
+    },
+    {
+      "id": "book-taburet-oslinlan",
+      "number": 2,
+      "status": "resolved",
+      "anchor": "event-cc179c6da26a3a5403bf",
+      "conclusion": "阳光折射才显出的吊坠铭文重释塔布雷特的忍痛凝望；提莫斯偷项链诱其赴修道院，夺本命骷髅又触发奥斯林兰预设的同死诅咒。修道院阶段已有释放与宽恕，最终神之境直接看见塔布雷特、奥斯林兰幸福相拥，是后文确证的迟到收束。不能继续把这对人物标为全书未解。"
+    },
+    {
+      "id": "book-kamori-retrial",
+      "number": 3,
+      "status": "resolved",
+      "anchor": "event-4ffa2e02398a23963aa1",
+      "conclusion": "拒绝雇主的单方版本后取回头颅，恢复卡莫里的发言能力；信件、居所与神誓互证里奥多勾结盗贼栽赃。惩凶并实际改写史书完成昭雪，战马是旧主人临终托付的伙伴，不是无来由的怪物掉落。此支线独立起点与独立收束，不需要硬接王室政变。"
+    },
+    {
+      "id": "book-demon-ring-politics",
+      "number": 4,
+      "status": "partial",
+      "anchor": "event-31bad3bdaa157943837d",
+      "conclusion": "鉴定绑定给出三系天赋，共鸣与魔化引来觊觎；引导100%会夺舍，保留意识等待神罚才解咒。旧鉴定师后来确为马尔都克，王杀政变者后赠缺失附件，四附件合成魔神戒并在后段实升神器。卡尔洛斯是融合的戒灵而非可直接战斗的额外强者。七功勋遗物作为异界钥匙的传说未完整开启，经验吸取比例冲突、早期动机与圆图细节没有被一概抹平。"
+    },
+    {
+      "id": "book-arland-father",
+      "number": 5,
+      "status": "resolved",
+      "anchor": "event-fbc95153f22082c39050",
+      "conclusion": "王赠缺失遗物时暂缓身份答案，328/329对应单元直接认父并解释天下公司股东、工作人员扮NPC与维护职责；后续公爵奖和父亲萧寒安排现实重逢深化关爱。这是确证身份，不能再列为未知；也不能倒填每句早期心理或把父亲解释成能任意改规则。封爵公平措辞冲突仍是局部异常。"
+    }
+  ],
+  "roots": [
+    "event-fbf2f3f70912abb7f720",
+    "event-71356b5aa641836a8c8d",
+    "event-eeb4df366744e9baeffc",
+    "event-c667c48a001387436912",
+    "event-87e335110d3ef16a51d2",
+    "event-18b5f9e30dd2db87b5dd",
+    "event-45aa43197d25026437d5",
+    "event-206405061fb4c1dd3134",
+    "event-3bf71431b759fa648e77",
+    "event-7a7504bf013eb7536cd6",
+    "event-029f588ac9c772b1ca81",
+    "event-fe3ecfc618652859d71a",
+    "event-b5cf700ec12a95011958",
+    "event-1e126d1f698fd075de58",
+    "event-5d61e306ca7b40017357",
+    "event-572c9df24c179f946c7e",
+    "event-8163368e794ccbf99d9f",
+    "event-5081e468a0cfa4b8eb23",
+    "event-3c3649c60ef15d954a2f",
+    "event-9e2d15f654d457be3b5d",
+    "event-efba265a2cd395c1a9c9",
+    "event-d7cb921ac0fc9dfb0bce",
+    "event-a1c559f80c09604db3ab",
+    "event-5e7ec249f48f03c58ea8",
+    "event-6c58b96047a1db89a059",
+    "event-377b0476ccafaff84505",
+    "event-f1d701491015fe4baf68",
+    "event-4b68e76bb133f06baa95",
+    "event-98aa990d757bcbb01ec1",
+    "event-ffec63958b40ab37dce9",
+    "event-9366481d2a2ae9b651d1",
+    "event-aadd48b19b7e79b99775",
+    "event-a153d9814fa8cea3be14",
+    "event-6bb4c111010d010040bf",
+    "event-0e4ecfc7fcb671db10fd",
+    "event-a45b94bb013f6666e2f1",
+    "event-941af6d02c689ea6e53f",
+    "event-f6a2ec46b712ba0817f3"
+  ],
+  "forks": [
+    "event-71356b5aa641836a8c8d",
+    "event-18b5f9e30dd2db87b5dd",
+    "event-c31704dc6bf428947220",
+    "event-a991f015de2a550eeb21",
+    "event-377de2c18692a6522cd2",
+    "event-cb8a894a0c8ed48e1110",
+    "event-1797b9dda56b8a4fb9df",
+    "event-53480a766c7d4fa71a4e",
+    "event-4cfe48a16fbb64211ddc",
+    "event-28a359b84be690d558dc"
+  ],
+  "junctions": [
+    "event-70703ac5944800251ec8",
+    "event-377de2c18692a6522cd2",
+    "event-cb8a894a0c8ed48e1110",
+    "event-d65b34d676eb22ce60df",
+    "event-53480a766c7d4fa71a4e",
+    "event-4cfe48a16fbb64211ddc",
+    "event-af3dd96702bf6d55f8bc",
+    "event-b58debe4f9d8706075df",
+    "event-28a359b84be690d558dc",
+    "event-9bcfc07f4271d13809a6",
+    "event-77f23f34ba50523c8204",
+    "event-aaf341d170ffb39ca49f",
+    "event-fbc95153f22082c39050"
+  ],
+  "core": "book-main",
+  "time_labels": {},
+  "volume_bounds": {
+    "1": {
+      "x": 1098.0,
+      "y": 475.5,
+      "width": 3565.0,
+      "height": 440.5
+    },
+    "2": {
+      "x": 1630.0,
+      "y": 922.0,
+      "width": 3528.0,
+      "height": 484.0
+    },
+    "3": {
+      "x": 1901.0,
+      "y": 1412.0,
+      "width": 3033.0,
+      "height": 484.0
+    },
+    "4": {
+      "x": 2212.0,
+      "y": 1902.0,
+      "width": 860.0,
+      "height": 441.0
+    },
+    "5": {
+      "x": 2212.0,
+      "y": 2349.0,
+      "width": 2180.0,
+      "height": 239.0
+    },
+    "6": {
+      "x": 3296.0,
+      "y": 2671.0,
+      "width": 1214.0,
+      "height": 729.0
+    },
+    "7": {
+      "x": 444.0,
+      "y": 3182.5,
+      "width": 5904.0,
+      "height": 462.5
+    },
+    "8": {
+      "x": 3567.0,
+      "y": 3651.0,
+      "width": 2781.0,
+      "height": 196.0
+    },
+    "9": {
+      "x": 4474.0,
+      "y": 4207.0,
+      "width": 1874.0,
+      "height": 441.0
+    },
+    "10": {
+      "x": 1552.0,
+      "y": 4708.5,
+      "width": 3358.0,
+      "height": 538.5
+    },
+    "11": {
+      "x": 4474.0,
+      "y": 5253.0,
+      "width": 2298.0,
+      "height": 398.0
+    },
+    "12": {
+      "x": 4474.0,
+      "y": 5657.0,
+      "width": 1756.0,
+      "height": 600.0
+    },
+    "13": {
+      "x": 55.0,
+      "y": 6061.0,
+      "width": 6550.0,
+      "height": 643.0
+    },
+    "14": {
+      "x": 4592.0,
+      "y": 6465.0,
+      "width": 2964.0,
+      "height": 239.0
+    },
+    "15": {
+      "x": 55.0,
+      "y": 6787.0,
+      "width": 2285.0,
+      "height": 441.0
+    },
+    "16": {
+      "x": 326.0,
+      "y": 7234.0,
+      "width": 1756.0,
+      "height": 600.0
+    },
+    "17": {
+      "x": 1646.0,
+      "y": 7638.0,
+      "width": 4466.0,
+      "height": 802.0
+    },
+    "18": {
+      "x": 2918.0,
+      "y": 8042.0,
+      "width": 3194.0,
+      "height": 878.0
+    },
+    "19": {
+      "x": 479.0,
+      "y": 8446.0,
+      "width": 4125.0,
+      "height": 1051.5
+    },
+    "20": {
+      "x": 2247.0,
+      "y": 9558.0,
+      "width": 766.0,
+      "height": 1004.0
+    }
+  },
+  "thread_bounds": {
+    "book-main": {
+      "x": 326.0,
+      "y": 497.0,
+      "width": 5126.0,
+      "height": 10065.0
+    },
+    "book-gargoyle-companion": {
+      "x": 55.0,
+      "y": 1433.5,
+      "width": 4855.0,
+      "height": 7764.5
+    },
+    "book-titan-engineering": {
+      "x": 1098.0,
+      "y": 497.0,
+      "width": 5132.0,
+      "height": 8145.0
+    },
+    "book-nightluo-logistics": {
+      "x": 2636.0,
+      "y": 2147.0,
+      "width": 3476.0,
+      "height": 6293.0
+    },
+    "book-team-autonomy": {
+      "x": 444.0,
+      "y": 943.5,
+      "width": 6328.0,
+      "height": 9214.5
+    },
+    "book-specialists-survival": {
+      "x": 55.0,
+      "y": 475.5,
+      "width": 6293.0,
+      "height": 9884.5
+    },
+    "book-double-spy": {
+      "x": 326.0,
+      "y": 6061.0,
+      "width": 5126.0,
+      "height": 3137.0
+    },
+    "book-kuanglong-guild-war": {
+      "x": 326.0,
+      "y": 497.0,
+      "width": 4702.0,
+      "height": 9459.0
+    },
+    "book-arena-mastery": {
+      "x": 2212.0,
+      "y": 922.0,
+      "width": 4393.0,
+      "height": 9034.0
+    },
+    "book-relationships-reunion": {
+      "x": 55.0,
+      "y": 475.5,
+      "width": 4855.0,
+      "height": 10086.5
+    },
+    "book-taburet-oslinlan": {
+      "x": 5912.0,
+      "y": 3182.5,
+      "width": 436.0,
+      "height": 664.5
+    },
+    "book-kamori-retrial": {
+      "x": 5912.0,
+      "y": 4207.0,
+      "width": 436.0,
+      "height": 441.0
+    },
+    "book-npc-will-war-cost": {
+      "x": 986.0,
+      "y": 2349.0,
+      "width": 6570.0,
+      "height": 5485.0
+    },
+    "book-demon-ring-politics": {
+      "x": 479.0,
+      "y": 720.0,
+      "width": 3524.0,
+      "height": 7922.0
+    },
+    "book-arland-father": {
+      "x": 1646.0,
+      "y": 7234.0,
+      "width": 1037.0,
+      "height": 3328.0
+    },
+    "book-dusk-final-war": {
+      "x": 2188.0,
+      "y": 7638.0,
+      "width": 1096.0,
+      "height": 2924.0
+    }
+  },
+  "layout": {
+    "engine": "Graphviz dot",
+    "version": "14.1.3",
+    "direction": "按关系自上而下分枝；无阶段父子结构",
+    "sequence": "蓝色细点线为主干阅读衔接，非因果，不计交汇",
+    "echo": "显示但不决定层级",
+    "back_references": "保留原方向，不强制为向下推进"
+  },
+  "states": {
+    "resolved": 4,
+    "partial": 1
+  }
 }

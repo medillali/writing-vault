@@ -6,7 +6,7 @@
 |---|---|
 | 全书九维与人物弧 | [综合报告](book-synthesis.md) |
 | 缩放全书结构图 | [全书地图](plot/map/index.html) |
-| 节点、关系与证据 | [剧情阅读器](plot/relations/index.html) |
+| 节点、关系与证据 | [分枝交汇树与证据](plot/whole-book/index.html) |
 | 人物 | [人物阶段档案](characters.md) |
 | 场景 | [场景因果卡](scenes.md) |
 | 方法 | [机制卡](patterns.md) |

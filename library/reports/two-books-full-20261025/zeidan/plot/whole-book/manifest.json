@@ -1,1000 +1,2534 @@
 {
+  "version": 2,
+  "width": 5487,
+  "height": 15744,
+  "selection": "全事件分枝交汇版",
   "title": "贼胆",
-  "width": 2480,
-  "height": 14960,
+  "stages": 28,
+  "reference": {
+    "book": "超级骷髅兵",
+    "form": "蓝色主干、青色枝线、紫色暗线、共享交汇、枝端终态；同版式离线地图"
+  },
+  "semantic_edges_total": 80,
+  "echo_relations": 25,
+  "semantic_relations": 55,
+  "reading_links": 49,
+  "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+  "graph_sha256": "680850013f442253aecd1f3238a740b57b285b0d75bf72b2627c5e767a3f7ad1",
+  "events": [
+    "event-d87485047b2cb78cf900",
+    "event-813601e668cdedb39432",
+    "event-c0fa10ebae5b011f886e",
+    "event-91564decd3df8d3d878c",
+    "event-94484c025d8b80324a6c",
+    "event-4c39b75b64858320193d",
+    "event-122852f7697f47842d37",
+    "event-3a1e7c0dbcd9e9303d53",
+    "event-d1e8d08b756365d4f23f",
+    "event-c3f71fa9bf5584be2800",
+    "event-cbfc366ded6562f3a8c6",
+    "event-1af042ba7c80736ce7d1",
+    "event-446709fff57be066c500",
+    "event-d42d3b9adb657fc9f29b",
+    "event-813d1d0aa6513d182337",
+    "event-b2c4df53da321e6da851",
+    "event-5890446ae04d1b7b443a",
+    "event-68f91e39e563132c1ece",
+    "event-03d8058dfe5f8ad53781",
+    "event-37514600e8261c8e836b",
+    "event-e8878a43f69765ef721a",
+    "event-3fc0087e43292d08dfa6",
+    "event-f82d801abef51056ff6b",
+    "event-8374f8848fbea9ac3a31",
+    "event-6c548c5da5f303d2c333",
+    "event-dbdb772ed7151b230541",
+    "event-cd172e8452db7eeadf5a",
+    "event-db502448d2c1148d7342",
+    "event-ad7b64a50b5f56ff5abd",
+    "event-650d6cb290e80e8119c2",
+    "event-8f534d499492c68c2589",
+    "event-eca071165be1f865dfaf",
+    "event-b061dd2649db009a2919",
+    "event-d203616daa5815af9533",
+    "event-e238c342e5f7d18e8aed",
+    "event-6d6547df67baef2cf5af",
+    "event-da6801b0b918bc41acd9",
+    "event-9128aec7e8443642b692",
+    "event-a2e2d45d84ff0bd51d91",
+    "event-c103648213a536708c70",
+    "event-2da8cc51213541f7ea5f",
+    "event-02d01bb047a538abf5c3",
+    "event-b3bc9a336a0e225f9fbe",
+    "event-b69d064c46f07791a162",
+    "event-de39062f436a9f813867",
+    "event-515f6fde9e16c95c931b",
+    "event-5826025f00b08cca6f88",
+    "event-9cb8390018ab80e9ef26",
+    "event-ca9b2e3fceb47932e084",
+    "event-9992be252786cf52a9a1",
+    "event-93f4444c35a48ddef0fa",
+    "event-e455949da2f7d0410afa",
+    "event-d89b250e06160508ac16",
+    "event-4935e25f8944b6bf416f",
+    "event-4089cf0852da8f46417f",
+    "event-2e177f714aa548ee6054",
+    "event-0b7de10cedde298e53da",
+    "event-3a50c2cfebd2a61ebfbe",
+    "event-9a475b516558adaf3d36",
+    "event-aa39f4fc5007b99068d1",
+    "event-15dfbe5fb2c97a9d501b",
+    "event-f242f389413a9a4b08a8",
+    "event-45dbb6a29eed49ef2142",
+    "event-6cf1b11776e37e627036",
+    "event-167da9fa00d0aa7d729b",
+    "event-dc619d9d749e15b07c3b",
+    "event-609cf0004cb2088c4f85",
+    "event-b139b4781b4ede0e10fb",
+    "event-8dc61b5bbe6f6fa53d40",
+    "event-ed930801a89e34f13ba2",
+    "event-1e917b04a8112c0d690d",
+    "event-42dd9be02ccbf749bd35",
+    "event-3c20d4cdc30d40ab9f7f",
+    "event-3e231a16d3d1a42765dd",
+    "event-f129ddd0f133b337de31",
+    "event-6b1c11dbcb231747a0c8",
+    "event-2f054a8b8508c95f17c1",
+    "event-a00e4b51a2d0e5c3ed8b",
+    "event-8f9ca7202c6ba2020f2f",
+    "event-d00ff4148b8a17055966",
+    "event-876e2e5cded4d9aa61ce",
+    "event-fd06823174d17acbf068",
+    "event-d72e5cf51b2f54f4eeef",
+    "event-915f5a195c5a23013deb",
+    "event-6a806db189bffcaca764",
+    "event-1160c71b6368560a9470",
+    "event-fab96317db2931415ad9",
+    "event-583414ead5a0c1ee3248",
+    "event-8228c0c65b917299b863",
+    "event-e0b0cc8f28302f85e2fd",
+    "event-2f4de6a8084919c73a2e",
+    "event-88ca5e42e322df221367",
+    "event-bda38bf5bdad1c6e89bc",
+    "event-583399797dabdc10b5ea",
+    "event-3b65a1408b00c6ad49bb",
+    "event-71a3aa184d9bf8483baf",
+    "event-e587fe41883e54614af8",
+    "event-29c9402243224bc4d2f7",
+    "event-7264334ff0861d0173a2",
+    "event-b125a990f0f0b8c8af13",
+    "event-26a7f4406e1bfdd5e714",
+    "event-eecc3dc4fdef14a7db3b",
+    "event-7f2d640b4ed11cb15577",
+    "event-e4580710c074333f3cd7",
+    "event-82bb7942558c020cba85",
+    "event-acdbbfef6a4e37ca83a4",
+    "event-cf163efd067801be8f57",
+    "event-8fd9feff3e2e8e90d2aa",
+    "event-05c925daf88a06c1872f",
+    "event-dfe68c19e845d9c79499",
+    "event-4b0ef60e3db0085160be",
+    "event-c753a9d71b7732a8cabc"
+  ],
+  "edges": [
+    "view-b42d54ef2914afe2",
+    "view-c312a109f6bc8dfe",
+    "view-a07ae344b5308c6e",
+    "view-f377590f2b1b3374",
+    "view-e3ec2f56cf948363",
+    "view-d4429f96314ac988",
+    "view-551e020076e7f4ce",
+    "view-dbe76f9dfe07e445",
+    "view-2e475c56e81768ad",
+    "view-f86269def3d9754b",
+    "view-c28ca7dfca5601a7",
+    "view-df483da1a672e16a",
+    "view-2c1668b5863bea66",
+    "view-01d7b1b5d3dbb862",
+    "view-94bc4a8ab53826c2",
+    "view-4e9f930b01a72df5",
+    "view-87405713479c6209",
+    "view-c6ffe675cfb939ee",
+    "view-6e887760dcfa86f0",
+    "view-ab498d4ea124b761",
+    "view-dd42e17b61da448b",
+    "view-85a880e1caf16894",
+    "view-54cfb708dbcc78ac",
+    "view-c99e3b475b845d2e",
+    "view-27f7eb0206ae4167",
+    "view-e19aad9795f3c16d",
+    "view-4ac9cf6289681d0d",
+    "view-a0a7c7730d6e54a2",
+    "view-b69c49e935f00d59",
+    "view-0696638a56258ca2",
+    "view-31c5e4d50a0e6297",
+    "view-82237dd985ca692a",
+    "view-fb503e50a02a3256",
+    "view-391bd5d9e82ac021",
+    "view-954997cd1fe2685f",
+    "view-fa9ce11aa1eb73cf",
+    "view-687e9e53d1058010",
+    "view-3a3f7709238f66b5",
+    "view-994071fe4b6506f8",
+    "view-1712d6dab9172fb9",
+    "view-4a3c5e15b8f7091f",
+    "view-1388d58f461c0718",
+    "view-568d6a77069e104d",
+    "view-ccb63aa26a6b05ea",
+    "view-666152ffbc1db4f9",
+    "view-6af23153469636de",
+    "view-0bc4071e045d55a1",
+    "view-5e89c56b3f0482dd",
+    "view-a256625686cab2f3",
+    "view-2297772662761345",
+    "view-e80369ae4ee600fb",
+    "view-bbb0e09040d44a12",
+    "view-9630af511ee63698",
+    "view-205e22ec712ad2c9",
+    "view-5693de10ecf4f5e0",
+    "view-8df7dc0e34e67ab0",
+    "view-acd77ca18a4aa247",
+    "view-168424b0c4285330",
+    "view-3d640991423f4b14",
+    "view-94291e07b769be6b",
+    "view-0ffe4838e57944a2",
+    "view-59b515c1e402e65c",
+    "view-17fbd09c51e0b7e8",
+    "view-90efe6006398a6bb",
+    "view-cd67804f5bd4fd9e",
+    "view-f5680c7287693923",
+    "view-82b90c97c16bf81d",
+    "view-08793e917bb6bb87",
+    "view-e505250ffd1d4b32",
+    "view-de8739524988432b",
+    "view-1568331340076519",
+    "view-b2188cbfc49f0bdc",
+    "view-13d3f00a473b6513",
+    "view-576377114eb2f970",
+    "view-3485d9f35ca16f45",
+    "view-1952687f5f99a3bd",
+    "view-7e394a78907ea483",
+    "view-e706a2daee3f2d6c",
+    "view-37314ef17b99bb38",
+    "view-1b1e756126bc4074",
+    "read-a0f44d0de320bedd",
+    "read-e9252ca92c07f85a",
+    "read-1d954718527bdeea",
+    "read-d1b68c32a2602056",
+    "read-717c314145bebaa6",
+    "read-2948866559139a5b",
+    "read-c6f7db3d972cfe21",
+    "read-78046321be59458d",
+    "read-d31b9b569669d8ba",
+    "read-44bcc4e93e0833ef",
+    "read-3b3acfcc95dbd4a7",
+    "read-ed5487bfd439ba80",
+    "read-616a6ead9f5a6ae7",
+    "read-6798fd63b2df0fb7",
+    "read-9ec4ea9cb58fb4a2",
+    "read-ac709bcf899c69be",
+    "read-05973b8d153b0077",
+    "read-59ff7128d5b899c8",
+    "read-4140e480fdac8ed4",
+    "read-f32722066c5a4c94",
+    "read-46f1b42c9e286bba",
+    "read-38006a5820ef2093",
+    "read-a1905d692e360d07",
+    "read-4d76f041c9d2585c",
+    "read-db29797089719e3a",
+    "read-5ab99ee772ad4f2d",
+    "read-06d14361c7ff67cd",
+    "read-98c138158a312085",
+    "read-b4ae7ecd602c2f18",
+    "read-765b18b774fb9947",
+    "read-0a0204db9137b883",
+    "read-e54d9c3425d35830",
+    "read-5d9ff0059bbee2e0",
+    "read-f0588cc2a5edce06",
+    "read-ddf84a61d74af024",
+    "read-0e309635580910b8",
+    "read-a27ffbf2df6072a1",
+    "read-92731dca23f561c3",
+    "read-cd754c2092a500d1",
+    "read-dc06af27899452a6",
+    "read-28e9f6cdbd2481ae",
+    "read-05303e715aa791a0",
+    "read-fd65fa0a8311d2e9",
+    "read-69b8974e4af970d2",
+    "read-d50838e6a220f6bb",
+    "read-45ca3c90349039d9",
+    "read-2e9fe3ae7fa51953",
+    "read-84608d84efba502f",
+    "read-81c196f55f6fbf80"
+  ],
   "positions": {
-    "story": {
-      "x": 60,
-      "y": 40,
-      "width": 2050,
-      "height": 120,
-      "volume": 0
-    },
-    "stage-01": {
-      "x": 60,
-      "y": 220,
-      "width": 360,
-      "height": 200,
-      "volume": 1
-    },
     "event-d87485047b2cb78cf900": {
-      "x": 520,
-      "y": 220,
-      "width": 460,
-      "height": 200,
+      "x": 1789.7,
+      "y": 510.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 1
     },
     "event-813601e668cdedb39432": {
-      "x": 1030,
-      "y": 220,
-      "width": 460,
-      "height": 200,
+      "x": 1789.7,
+      "y": 712.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 1
     },
     "event-c0fa10ebae5b011f886e": {
-      "x": 1540,
-      "y": 220,
-      "width": 460,
-      "height": 200,
+      "x": 1365.7,
+      "y": 935.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 1
     },
     "event-91564decd3df8d3d878c": {
-      "x": 520,
-      "y": 490,
-      "width": 460,
-      "height": 200,
+      "x": 1789.7,
+      "y": 935.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 1
     },
     "event-94484c025d8b80324a6c": {
-      "x": 1030,
-      "y": 490,
-      "width": 460,
-      "height": 200,
+      "x": 2845.7,
+      "y": 510.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 1
     },
-    "stage-02": {
-      "x": 60,
-      "y": 820,
-      "width": 360,
-      "height": 200,
-      "volume": 2
-    },
     "event-4c39b75b64858320193d": {
-      "x": 520,
-      "y": 820,
-      "width": 460,
-      "height": 200,
+      "x": 2373.7,
+      "y": 913.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 2
     },
     "event-122852f7697f47842d37": {
-      "x": 1030,
-      "y": 820,
-      "width": 460,
-      "height": 200,
+      "x": 1365.7,
+      "y": 1159.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 2
     },
     "event-3a1e7c0dbcd9e9303d53": {
-      "x": 1540,
-      "y": 820,
-      "width": 460,
-      "height": 200,
+      "x": 1212.7,
+      "y": 1383.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 2
     },
     "event-d1e8d08b756365d4f23f": {
-      "x": 520,
-      "y": 1090,
-      "width": 460,
-      "height": 200,
+      "x": 2060.7,
+      "y": 1361.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 2
     },
-    "stage-03": {
-      "x": 60,
-      "y": 1420,
-      "width": 360,
-      "height": 200,
-      "volume": 3
-    },
     "event-c3f71fa9bf5584be2800": {
-      "x": 520,
-      "y": 1420,
-      "width": 460,
-      "height": 200,
+      "x": 3310.7,
+      "y": 1383.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 3
     },
     "event-cbfc366ded6562f3a8c6": {
-      "x": 1030,
-      "y": 1420,
-      "width": 460,
-      "height": 200,
+      "x": 1636.7,
+      "y": 1383.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 3
     },
     "event-1af042ba7c80736ce7d1": {
-      "x": 1540,
-      "y": 1420,
-      "width": 460,
-      "height": 200,
+      "x": 2178.7,
+      "y": 1605.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 3
     },
     "event-446709fff57be066c500": {
-      "x": 520,
-      "y": 1690,
-      "width": 460,
-      "height": 200,
+      "x": 1872.7,
+      "y": 1851.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 3
     },
     "event-d42d3b9adb657fc9f29b": {
-      "x": 1030,
-      "y": 1690,
-      "width": 460,
-      "height": 200,
+      "x": 2296.7,
+      "y": 1851.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 3
     },
-    "stage-04": {
-      "x": 60,
-      "y": 2020,
-      "width": 360,
-      "height": 200,
-      "volume": 4
-    },
     "event-813d1d0aa6513d182337": {
-      "x": 520,
-      "y": 2020,
-      "width": 460,
-      "height": 200,
+      "x": 3498.7,
+      "y": 1851.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 4
     },
     "event-b2c4df53da321e6da851": {
-      "x": 1030,
-      "y": 2020,
-      "width": 460,
-      "height": 200,
+      "x": 2567.7,
+      "y": 2053.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 4
     },
     "event-5890446ae04d1b7b443a": {
-      "x": 1540,
-      "y": 2020,
-      "width": 460,
-      "height": 200,
+      "x": 2532.7,
+      "y": 2297.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 4
     },
     "event-68f91e39e563132c1ece": {
-      "x": 520,
-      "y": 2290,
-      "width": 460,
-      "height": 200,
+      "x": 2956.7,
+      "y": 1851.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 4
     },
     "event-03d8058dfe5f8ad53781": {
-      "x": 1030,
-      "y": 2290,
-      "width": 460,
-      "height": 200,
+      "x": 3922.7,
+      "y": 1851.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 4
     },
-    "stage-05": {
-      "x": 60,
-      "y": 2620,
-      "width": 360,
-      "height": 200,
-      "volume": 5
-    },
     "event-37514600e8261c8e836b": {
-      "x": 520,
-      "y": 2620,
-      "width": 460,
-      "height": 200,
+      "x": 3408.7,
+      "y": 2319.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 5
     },
     "event-e8878a43f69765ef721a": {
-      "x": 1030,
-      "y": 2620,
-      "width": 460,
-      "height": 200,
+      "x": 1872.7,
+      "y": 2543.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 5
     },
     "event-3fc0087e43292d08dfa6": {
-      "x": 1540,
-      "y": 2620,
-      "width": 460,
-      "height": 200,
+      "x": 3832.7,
+      "y": 2319.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 5
     },
     "event-f82d801abef51056ff6b": {
-      "x": 520,
-      "y": 2890,
-      "width": 460,
-      "height": 200,
+      "x": 1483.7,
+      "y": 2745.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 5
     },
-    "stage-06": {
-      "x": 60,
-      "y": 3220,
-      "width": 360,
-      "height": 200,
-      "volume": 6
-    },
     "event-8374f8848fbea9ac3a31": {
-      "x": 520,
-      "y": 3220,
-      "width": 460,
-      "height": 200,
+      "x": 1483.7,
+      "y": 2989.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 6
     },
     "event-6c548c5da5f303d2c333": {
-      "x": 1030,
-      "y": 3220,
-      "width": 460,
-      "height": 200,
+      "x": 1212.7,
+      "y": 3235.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 6
     },
     "event-dbdb772ed7151b230541": {
-      "x": 1540,
-      "y": 3220,
-      "width": 460,
-      "height": 200,
+      "x": 3695.7,
+      "y": 2767.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 6
     },
     "event-cd172e8452db7eeadf5a": {
-      "x": 520,
-      "y": 3490,
-      "width": 460,
-      "height": 200,
+      "x": 3153.7,
+      "y": 2767.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 6
     },
-    "stage-07": {
-      "x": 60,
-      "y": 3820,
-      "width": 360,
-      "height": 200,
-      "volume": 7
-    },
     "event-db502448d2c1148d7342": {
-      "x": 520,
-      "y": 3820,
-      "width": 460,
-      "height": 200,
+      "x": 941.7,
+      "y": 3479.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 7
     },
     "event-ad7b64a50b5f56ff5abd": {
-      "x": 1030,
-      "y": 3820,
-      "width": 460,
-      "height": 200,
+      "x": 2143.7,
+      "y": 3257.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 7
     },
     "event-650d6cb290e80e8119c2": {
-      "x": 1540,
-      "y": 3820,
-      "width": 460,
-      "height": 200,
+      "x": 2261.7,
+      "y": 3479.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 7
     },
-    "stage-08": {
-      "x": 60,
-      "y": 4150,
-      "width": 360,
-      "height": 200,
-      "volume": 8
-    },
     "event-8f534d499492c68c2589": {
-      "x": 520,
-      "y": 4150,
-      "width": 460,
-      "height": 200,
+      "x": 3952.7,
+      "y": 3725.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 8
     },
     "event-eca071165be1f865dfaf": {
-      "x": 1030,
-      "y": 4150,
-      "width": 460,
-      "height": 200,
+      "x": 4376.7,
+      "y": 3725.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 8
     },
     "event-b061dd2649db009a2919": {
-      "x": 1540,
-      "y": 4150,
-      "width": 460,
-      "height": 200,
+      "x": 941.7,
+      "y": 3725.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 8
     },
     "event-d203616daa5815af9533": {
-      "x": 520,
-      "y": 4420,
-      "width": 460,
-      "height": 200,
+      "x": 2921.7,
+      "y": 3725.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 8
     },
-    "stage-09": {
-      "x": 60,
-      "y": 4750,
-      "width": 360,
-      "height": 200,
-      "volume": 9
-    },
     "event-e238c342e5f7d18e8aed": {
-      "x": 520,
-      "y": 4750,
-      "width": 460,
-      "height": 200,
+      "x": 858.71,
+      "y": 4267.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 9
     },
     "event-6d6547df67baef2cf5af": {
-      "x": 1030,
-      "y": 4750,
-      "width": 460,
-      "height": 200,
+      "x": 316.71,
+      "y": 4267.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 9
     },
     "event-da6801b0b918bc41acd9": {
-      "x": 1540,
-      "y": 4750,
-      "width": 460,
-      "height": 200,
+      "x": 3581.7,
+      "y": 4245.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 9
     },
     "event-9128aec7e8443642b692": {
-      "x": 520,
-      "y": 5020,
-      "width": 460,
-      "height": 200,
+      "x": 469.71,
+      "y": 4491.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 9
     },
-    "stage-10": {
-      "x": 60,
-      "y": 5350,
-      "width": 360,
-      "height": 200,
-      "volume": 10
-    },
     "event-a2e2d45d84ff0bd51d91": {
-      "x": 520,
-      "y": 5350,
-      "width": 460,
-      "height": 200,
+      "x": 4005.7,
+      "y": 4735.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 10
     },
     "event-c103648213a536708c70": {
-      "x": 1030,
-      "y": 5350,
-      "width": 460,
-      "height": 200,
+      "x": 1306.7,
+      "y": 4757.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 10
     },
     "event-2da8cc51213541f7ea5f": {
-      "x": 1540,
-      "y": 5350,
-      "width": 460,
-      "height": 200,
+      "x": 3463.7,
+      "y": 4757.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 10
     },
     "event-02d01bb047a538abf5c3": {
-      "x": 520,
-      "y": 5620,
-      "width": 460,
-      "height": 200,
+      "x": 1872.7,
+      "y": 4981.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 10
     },
-    "stage-11": {
-      "x": 60,
-      "y": 5950,
-      "width": 360,
-      "height": 200,
-      "volume": 11
-    },
     "event-b3bc9a336a0e225f9fbe": {
-      "x": 520,
-      "y": 5950,
-      "width": 460,
-      "height": 200,
-      "volume": 11
-    },
-    "event-515f6fde9e16c95c931b": {
-      "x": 1030,
-      "y": 5950,
-      "width": 460,
-      "height": 200,
+      "x": 1872.7,
+      "y": 5225.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 11
     },
     "event-b69d064c46f07791a162": {
-      "x": 1540,
-      "y": 5950,
-      "width": 460,
-      "height": 200,
+      "x": 3699.7,
+      "y": 5225.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 11
     },
     "event-de39062f436a9f813867": {
-      "x": 520,
-      "y": 6220,
-      "width": 460,
-      "height": 200,
+      "x": 1578.7,
+      "y": 5471.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 11
     },
-    "stage-12": {
-      "x": 60,
-      "y": 6550,
-      "width": 360,
-      "height": 200,
+    "event-515f6fde9e16c95c931b": {
+      "x": 1307.7,
+      "y": 5225.5,
+      "width": 366.0,
+      "height": 169.0,
+      "volume": 11
+    },
+    "event-5826025f00b08cca6f88": {
+      "x": 1307.7,
+      "y": 5716.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 12
     },
     "event-9cb8390018ab80e9ef26": {
-      "x": 520,
-      "y": 6550,
-      "width": 460,
-      "height": 200,
-      "volume": 12
-    },
-    "event-5826025f00b08cca6f88": {
-      "x": 1030,
-      "y": 6550,
-      "width": 460,
-      "height": 200,
+      "x": 3699.7,
+      "y": 5737.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 12
     },
     "event-ca9b2e3fceb47932e084": {
-      "x": 1540,
-      "y": 6550,
-      "width": 460,
-      "height": 200,
+      "x": 1460.7,
+      "y": 5961.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 12
     },
     "event-9992be252786cf52a9a1": {
-      "x": 520,
-      "y": 6820,
-      "width": 460,
-      "height": 200,
+      "x": 1460.7,
+      "y": 6227.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 12
     },
-    "stage-13": {
-      "x": 60,
-      "y": 7150,
-      "width": 360,
-      "height": 200,
-      "volume": 13
-    },
     "event-93f4444c35a48ddef0fa": {
-      "x": 520,
-      "y": 7150,
-      "width": 460,
-      "height": 200,
+      "x": 1460.7,
+      "y": 6451.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 13
     },
     "event-e455949da2f7d0410afa": {
-      "x": 1030,
-      "y": 7150,
-      "width": 460,
-      "height": 200,
+      "x": 3699.7,
+      "y": 6206.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 13
     },
     "event-d89b250e06160508ac16": {
-      "x": 1540,
-      "y": 7150,
-      "width": 460,
-      "height": 200,
+      "x": 4123.7,
+      "y": 6227.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 13
     },
-    "stage-14": {
-      "x": 60,
-      "y": 7480,
-      "width": 360,
-      "height": 200,
-      "volume": 14
-    },
     "event-4935e25f8944b6bf416f": {
-      "x": 520,
-      "y": 7480,
-      "width": 460,
-      "height": 200,
+      "x": 1460.7,
+      "y": 6653.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 14
     },
     "event-4089cf0852da8f46417f": {
-      "x": 1030,
-      "y": 7480,
-      "width": 460,
-      "height": 200,
+      "x": 3463.7,
+      "y": 6674.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 14
     },
     "event-2e177f714aa548ee6054": {
-      "x": 1540,
-      "y": 7480,
-      "width": 460,
-      "height": 200,
+      "x": 4123.7,
+      "y": 6653.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 14
     },
-    "stage-15": {
-      "x": 60,
-      "y": 7810,
-      "width": 360,
-      "height": 200,
+    "event-0b7de10cedde298e53da": {
+      "x": 4394.7,
+      "y": 6996.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 15
     },
     "event-3a50c2cfebd2a61ebfbe": {
-      "x": 520,
-      "y": 7810,
-      "width": 460,
-      "height": 200,
-      "volume": 15
-    },
-    "event-0b7de10cedde298e53da": {
-      "x": 1030,
-      "y": 7810,
-      "width": 460,
-      "height": 200,
+      "x": 4818.7,
+      "y": 6975.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 15
     },
     "event-9a475b516558adaf3d36": {
-      "x": 1540,
-      "y": 7810,
-      "width": 460,
-      "height": 200,
+      "x": 1939.7,
+      "y": 6996.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 15
     },
-    "stage-16": {
-      "x": 60,
-      "y": 8140,
-      "width": 360,
-      "height": 200,
-      "volume": 16
-    },
     "event-aa39f4fc5007b99068d1": {
-      "x": 520,
-      "y": 8140,
-      "width": 460,
-      "height": 200,
+      "x": 4123.7,
+      "y": 7297.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 16
     },
     "event-15dfbe5fb2c97a9d501b": {
-      "x": 1030,
-      "y": 8140,
-      "width": 460,
-      "height": 200,
+      "x": 1432.7,
+      "y": 7297.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 16
     },
     "event-f242f389413a9a4b08a8": {
-      "x": 1540,
-      "y": 8140,
-      "width": 460,
-      "height": 200,
+      "x": 1432.7,
+      "y": 7542.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 16
     },
-    "stage-17": {
-      "x": 60,
-      "y": 8470,
-      "width": 360,
-      "height": 200,
-      "volume": 17
-    },
     "event-45dbb6a29eed49ef2142": {
-      "x": 520,
-      "y": 8470,
-      "width": 460,
-      "height": 200,
+      "x": 1939.7,
+      "y": 7808.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 17
     },
     "event-6cf1b11776e37e627036": {
-      "x": 1030,
-      "y": 8470,
-      "width": 460,
-      "height": 200,
+      "x": 2328.7,
+      "y": 8032.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 17
     },
     "event-167da9fa00d0aa7d729b": {
-      "x": 1540,
-      "y": 8470,
-      "width": 460,
-      "height": 200,
+      "x": 3584.7,
+      "y": 7787.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 17
     },
-    "stage-18": {
-      "x": 60,
-      "y": 8800,
-      "width": 360,
-      "height": 200,
-      "volume": 18
-    },
     "event-dc619d9d749e15b07c3b": {
-      "x": 520,
-      "y": 8800,
-      "width": 460,
-      "height": 200,
+      "x": 1939.7,
+      "y": 8298.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 18
     },
     "event-609cf0004cb2088c4f85": {
-      "x": 1030,
-      "y": 8800,
-      "width": 460,
-      "height": 200,
+      "x": 3814.7,
+      "y": 8277.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 18
     },
     "event-b139b4781b4ede0e10fb": {
-      "x": 1540,
-      "y": 8800,
-      "width": 460,
-      "height": 200,
+      "x": 3814.7,
+      "y": 8522.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 18
     },
-    "stage-19": {
-      "x": 60,
-      "y": 9130,
-      "width": 360,
-      "height": 200,
-      "volume": 19
-    },
     "event-8dc61b5bbe6f6fa53d40": {
-      "x": 520,
-      "y": 9130,
-      "width": 460,
-      "height": 200,
+      "x": 1983.7,
+      "y": 8767.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 19
     },
     "event-ed930801a89e34f13ba2": {
-      "x": 1030,
-      "y": 9130,
-      "width": 460,
-      "height": 200,
+      "x": 3814.7,
+      "y": 8767.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 19
     },
-    "stage-20": {
-      "x": 60,
-      "y": 9460,
-      "width": 360,
-      "height": 200,
-      "volume": 20
-    },
     "event-1e917b04a8112c0d690d": {
-      "x": 520,
-      "y": 9460,
-      "width": 460,
-      "height": 200,
+      "x": 1719.7,
+      "y": 9089.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 20
     },
     "event-42dd9be02ccbf749bd35": {
-      "x": 1030,
-      "y": 9460,
-      "width": 460,
-      "height": 200,
+      "x": 1719.7,
+      "y": 9334.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 20
     },
     "event-3c20d4cdc30d40ab9f7f": {
-      "x": 1540,
-      "y": 9460,
-      "width": 460,
-      "height": 200,
+      "x": 1719.7,
+      "y": 9579.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 20
     },
-    "stage-21": {
-      "x": 60,
-      "y": 9790,
-      "width": 360,
-      "height": 200,
+    "event-3e231a16d3d1a42765dd": {
+      "x": 2921.7,
+      "y": 9600.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 21
     },
     "event-f129ddd0f133b337de31": {
-      "x": 520,
-      "y": 9790,
-      "width": 460,
-      "height": 200,
-      "volume": 21
-    },
-    "event-3e231a16d3d1a42765dd": {
-      "x": 1030,
-      "y": 9790,
-      "width": 460,
-      "height": 200,
+      "x": 2685.7,
+      "y": 9824.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 21
     },
     "event-6b1c11dbcb231747a0c8": {
-      "x": 1540,
-      "y": 9790,
-      "width": 460,
-      "height": 200,
+      "x": 2497.7,
+      "y": 9600.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 21
     },
     "event-2f054a8b8508c95f17c1": {
-      "x": 520,
-      "y": 10060,
-      "width": 460,
-      "height": 200,
+      "x": 1719.7,
+      "y": 10026.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 21
     },
     "event-a00e4b51a2d0e5c3ed8b": {
-      "x": 1030,
-      "y": 10060,
-      "width": 460,
-      "height": 200,
+      "x": 2685.7,
+      "y": 10026.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 21
     },
-    "stage-22": {
-      "x": 60,
-      "y": 10390,
-      "width": 360,
-      "height": 200,
-      "volume": 22
-    },
     "event-8f9ca7202c6ba2020f2f": {
-      "x": 520,
-      "y": 10390,
-      "width": 460,
-      "height": 200,
+      "x": 2685.7,
+      "y": 10228.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 22
     },
     "event-d00ff4148b8a17055966": {
-      "x": 1030,
-      "y": 10390,
-      "width": 460,
-      "height": 200,
+      "x": 2025.7,
+      "y": 10430.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 22
     },
     "event-876e2e5cded4d9aa61ce": {
-      "x": 1540,
-      "y": 10390,
-      "width": 460,
-      "height": 200,
-      "volume": 22
-    },
-    "event-d72e5cf51b2f54f4eeef": {
-      "x": 520,
-      "y": 10660,
-      "width": 460,
-      "height": 200,
+      "x": 2025.7,
+      "y": 10688.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 22
     },
     "event-fd06823174d17acbf068": {
-      "x": 1030,
-      "y": 10660,
-      "width": 460,
-      "height": 200,
+      "x": 2143.7,
+      "y": 10026.0,
+      "width": 366.0,
+      "height": 126.0,
+      "volume": 22
+    },
+    "event-d72e5cf51b2f54f4eeef": {
+      "x": 2025.7,
+      "y": 10968.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 22
     },
     "event-915f5a195c5a23013deb": {
-      "x": 1540,
-      "y": 10660,
-      "width": 460,
-      "height": 200,
+      "x": 3699.7,
+      "y": 10026.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 22
     },
     "event-6a806db189bffcaca764": {
-      "x": 520,
-      "y": 10930,
-      "width": 460,
-      "height": 200,
+      "x": 4123.7,
+      "y": 10026.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 22
     },
-    "stage-23": {
-      "x": 60,
-      "y": 11260,
-      "width": 360,
-      "height": 200,
-      "volume": 23
-    },
     "event-1160c71b6368560a9470": {
-      "x": 520,
-      "y": 11260,
-      "width": 460,
-      "height": 200,
+      "x": 4123.7,
+      "y": 10430.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 23
     },
     "event-fab96317db2931415ad9": {
-      "x": 1030,
-      "y": 11260,
-      "width": 460,
-      "height": 200,
+      "x": 1483.7,
+      "y": 10430.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 23
     },
     "event-583414ead5a0c1ee3248": {
-      "x": 1540,
-      "y": 11260,
-      "width": 460,
-      "height": 200,
+      "x": 4547.7,
+      "y": 10430.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 23
     },
     "event-8228c0c65b917299b863": {
-      "x": 520,
-      "y": 11530,
-      "width": 460,
-      "height": 200,
+      "x": 4971.7,
+      "y": 10430.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 23
     },
     "event-e0b0cc8f28302f85e2fd": {
-      "x": 1030,
-      "y": 11530,
-      "width": 460,
-      "height": 200,
+      "x": 2567.7,
+      "y": 10430.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 23
     },
     "event-2f4de6a8084919c73a2e": {
-      "x": 1540,
-      "y": 11530,
-      "width": 460,
-      "height": 200,
+      "x": 2025.7,
+      "y": 11246.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 23
     },
-    "stage-24": {
-      "x": 60,
-      "y": 11860,
-      "width": 360,
-      "height": 200,
-      "volume": 24
-    },
     "event-88ca5e42e322df221367": {
-      "x": 520,
-      "y": 11860,
-      "width": 460,
-      "height": 200,
+      "x": 1636.7,
+      "y": 11546.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 24
     },
     "event-bda38bf5bdad1c6e89bc": {
-      "x": 1030,
-      "y": 11860,
-      "width": 460,
-      "height": 200,
+      "x": 4494.7,
+      "y": 10947.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 24
     },
     "event-583399797dabdc10b5ea": {
-      "x": 1540,
-      "y": 11860,
-      "width": 460,
-      "height": 200,
+      "x": 941.7,
+      "y": 11791.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 24
     },
     "event-3b65a1408b00c6ad49bb": {
-      "x": 520,
-      "y": 12130,
-      "width": 460,
-      "height": 200,
+      "x": 941.7,
+      "y": 12036.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 24
     },
     "event-71a3aa184d9bf8483baf": {
-      "x": 1030,
-      "y": 12130,
-      "width": 460,
-      "height": 200,
+      "x": 3911.7,
+      "y": 10947.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 24
     },
-    "stage-25": {
-      "x": 60,
-      "y": 12460,
-      "width": 360,
-      "height": 200,
-      "volume": 25
-    },
     "event-e587fe41883e54614af8": {
-      "x": 520,
-      "y": 12460,
-      "width": 460,
-      "height": 200,
+      "x": 1212.7,
+      "y": 12335.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 25
     },
     "event-29c9402243224bc4d2f7": {
-      "x": 1030,
-      "y": 12460,
-      "width": 460,
-      "height": 200,
+      "x": 740.71,
+      "y": 12635.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 25
     },
     "event-7264334ff0861d0173a2": {
-      "x": 1540,
-      "y": 12460,
-      "width": 460,
-      "height": 200,
+      "x": 1282.7,
+      "y": 12635.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 25
     },
     "event-b125a990f0f0b8c8af13": {
-      "x": 520,
-      "y": 12730,
-      "width": 460,
-      "height": 200,
+      "x": 198.71,
+      "y": 11567.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 25
     },
-    "stage-26": {
-      "x": 60,
-      "y": 13060,
-      "width": 360,
-      "height": 200,
-      "volume": 26
-    },
     "event-26a7f4406e1bfdd5e714": {
-      "x": 520,
-      "y": 13060,
-      "width": 460,
-      "height": 200,
+      "x": 1282.7,
+      "y": 12956.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 26
     },
     "event-eecc3dc4fdef14a7db3b": {
-      "x": 1030,
-      "y": 13060,
-      "width": 460,
-      "height": 200,
+      "x": 3581.7,
+      "y": 12036.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 26
     },
     "event-7f2d640b4ed11cb15577": {
-      "x": 1540,
-      "y": 13060,
-      "width": 460,
-      "height": 200,
+      "x": 1206.7,
+      "y": 13234.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 26
     },
     "event-e4580710c074333f3cd7": {
-      "x": 520,
-      "y": 13330,
-      "width": 460,
-      "height": 200,
+      "x": 1206.7,
+      "y": 13436.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 26
     },
-    "stage-27": {
-      "x": 60,
-      "y": 13660,
-      "width": 360,
-      "height": 200,
+    "event-82bb7942558c020cba85": {
+      "x": 546.71,
+      "y": 13735.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 27
     },
     "event-acdbbfef6a4e37ca83a4": {
-      "x": 520,
-      "y": 13660,
-      "width": 460,
-      "height": 200,
-      "volume": 27
-    },
-    "event-82bb7942558c020cba85": {
-      "x": 1030,
-      "y": 13660,
-      "width": 460,
-      "height": 200,
+      "x": 1212.7,
+      "y": 14035.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 27
     },
     "event-cf163efd067801be8f57": {
-      "x": 1540,
-      "y": 13660,
-      "width": 460,
-      "height": 200,
+      "x": 1212.7,
+      "y": 14280.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 27
     },
     "event-8fd9feff3e2e8e90d2aa": {
-      "x": 520,
-      "y": 13930,
-      "width": 460,
-      "height": 200,
+      "x": 3581.7,
+      "y": 12656.5,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 27
     },
-    "stage-28": {
-      "x": 60,
-      "y": 14260,
-      "width": 360,
-      "height": 200,
-      "volume": 28
-    },
     "event-05c925daf88a06c1872f": {
-      "x": 520,
-      "y": 14260,
-      "width": 460,
-      "height": 200,
+      "x": 1212.7,
+      "y": 14579.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 28
     },
     "event-dfe68c19e845d9c79499": {
-      "x": 1030,
-      "y": 14260,
-      "width": 460,
-      "height": 200,
+      "x": 1212.7,
+      "y": 14879.0,
+      "width": 366.0,
+      "height": 126.0,
       "volume": 28
     },
     "event-4b0ef60e3db0085160be": {
-      "x": 1540,
-      "y": 14260,
-      "width": 460,
-      "height": 200,
+      "x": 1212.7,
+      "y": 15081.0,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 28
     },
     "event-c753a9d71b7732a8cabc": {
-      "x": 520,
-      "y": 14530,
-      "width": 460,
-      "height": 200,
+      "x": 1212.7,
+      "y": 15380.5,
+      "width": 366.0,
+      "height": 169.0,
       "volume": 28
+    },
+    "book-scar": {
+      "x": 1754.7,
+      "y": 14525.0,
+      "width": 366.0,
+      "height": 278.0,
+      "volume": null
+    },
+    "book-aode-child": {
+      "x": 1129.7,
+      "y": 3926.5,
+      "width": 366.0,
+      "height": 243.0,
+      "volume": null
+    },
+    "book-old-man": {
+      "x": 2060.7,
+      "y": 15326.0,
+      "width": 366.0,
+      "height": 278.0,
+      "volume": null
+    },
+    "book-nightmare-space": {
+      "x": 1636.7,
+      "y": 15326.0,
+      "width": 366.0,
+      "height": 278.0,
+      "volume": null
+    },
+    "book-mine-necklace": {
+      "x": 1206.7,
+      "y": 13681.0,
+      "width": 366.0,
+      "height": 278.0,
+      "volume": null
+    },
+    "book-snail-candy": {
+      "x": 740.71,
+      "y": 12880.0,
+      "width": 366.0,
+      "height": 278.0,
+      "volume": null
+    },
+    "book-phoenix": {
+      "x": 3581.7,
+      "y": 12281.0,
+      "width": 366.0,
+      "height": 278.0,
+      "volume": null
+    },
+    "book-soul-ring": {
+      "x": 4547.7,
+      "y": 10632.0,
+      "width": 366.0,
+      "height": 239.0,
+      "volume": null
+    },
+    "book-shadowsand": {
+      "x": 3911.7,
+      "y": 11192.0,
+      "width": 366.0,
+      "height": 278.0,
+      "volume": null
     }
   },
-  "nodes": 141,
-  "scenes": 112,
-  "relations": 73,
-  "stages": 28,
-  "node_overlap": 0,
-  "edge_meaning": "结构线与阅读顺序不是因果；虚线只链接账本中有证据的设问和回应。"
+  "links": [
+    {
+      "id": "view-551e020076e7f4ce",
+      "from": "event-e238c342e5f7d18e8aed",
+      "to": "event-9a475b516558adaf3d36",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "view-f86269def3d9754b",
+      "from": "event-6d6547df67baef2cf5af",
+      "to": "event-29c9402243224bc4d2f7",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-01d7b1b5d3dbb862",
+      "from": "event-93f4444c35a48ddef0fa",
+      "to": "event-e587fe41883e54614af8",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "view-ab498d4ea124b761",
+      "from": "event-6b1c11dbcb231747a0c8",
+      "to": "event-dfe68c19e845d9c79499",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-c99e3b475b845d2e",
+      "from": "event-91564decd3df8d3d878c",
+      "to": "event-68f91e39e563132c1ece",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-27f7eb0206ae4167",
+      "from": "event-94484c025d8b80324a6c",
+      "to": "event-da6801b0b918bc41acd9",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-e19aad9795f3c16d",
+      "from": "event-4c39b75b64858320193d",
+      "to": "event-d42d3b9adb657fc9f29b",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-a0a7c7730d6e54a2",
+      "from": "event-3a1e7c0dbcd9e9303d53",
+      "to": "event-6d6547df67baef2cf5af",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-82237dd985ca692a",
+      "from": "event-446709fff57be066c500",
+      "to": "event-d42d3b9adb657fc9f29b",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-391bd5d9e82ac021",
+      "from": "event-813d1d0aa6513d182337",
+      "to": "event-cd172e8452db7eeadf5a",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-fa9ce11aa1eb73cf",
+      "from": "event-68f91e39e563132c1ece",
+      "to": "event-2da8cc51213541f7ea5f",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-687e9e53d1058010",
+      "from": "event-37514600e8261c8e836b",
+      "to": "event-167da9fa00d0aa7d729b",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-568d6a77069e104d",
+      "from": "event-d203616daa5815af9533",
+      "to": "event-93f4444c35a48ddef0fa",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-666152ffbc1db4f9",
+      "from": "event-6d6547df67baef2cf5af",
+      "to": "event-2f054a8b8508c95f17c1",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-6af23153469636de",
+      "from": "event-a2e2d45d84ff0bd51d91",
+      "to": "event-71a3aa184d9bf8483baf",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-0bc4071e045d55a1",
+      "from": "event-b3bc9a336a0e225f9fbe",
+      "to": "event-583399797dabdc10b5ea",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "view-e80369ae4ee600fb",
+      "from": "event-93f4444c35a48ddef0fa",
+      "to": "event-4089cf0852da8f46417f",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-bbb0e09040d44a12",
+      "from": "event-4089cf0852da8f46417f",
+      "to": "event-6cf1b11776e37e627036",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-acd77ca18a4aa247",
+      "from": "event-dc619d9d749e15b07c3b",
+      "to": "event-eecc3dc4fdef14a7db3b",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-3d640991423f4b14",
+      "from": "event-8dc61b5bbe6f6fa53d40",
+      "to": "event-876e2e5cded4d9aa61ce",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "view-cd67804f5bd4fd9e",
+      "from": "event-8f9ca7202c6ba2020f2f",
+      "to": "event-82bb7942558c020cba85",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "view-82b90c97c16bf81d",
+      "from": "event-876e2e5cded4d9aa61ce",
+      "to": "event-fab96317db2931415ad9",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-b2188cbfc49f0bdc",
+      "from": "event-3b65a1408b00c6ad49bb",
+      "to": "event-e587fe41883e54614af8",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "view-3485d9f35ca16f45",
+      "from": "event-26a7f4406e1bfdd5e714",
+      "to": "event-05c925daf88a06c1872f",
+      "kind": "echo",
+      "core": true
+    },
+    {
+      "id": "view-e706a2daee3f2d6c",
+      "from": "event-8fd9feff3e2e8e90d2aa",
+      "to": "event-05c925daf88a06c1872f",
+      "kind": "echo",
+      "core": false
+    },
+    {
+      "id": "view-b42d54ef2914afe2",
+      "from": "event-d87485047b2cb78cf900",
+      "to": "event-b2c4df53da321e6da851",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-c312a109f6bc8dfe",
+      "from": "event-813601e668cdedb39432",
+      "to": "event-c0fa10ebae5b011f886e",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "view-a07ae344b5308c6e",
+      "from": "event-c0fa10ebae5b011f886e",
+      "to": "event-db502448d2c1148d7342",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "view-f377590f2b1b3374",
+      "from": "event-cbfc366ded6562f3a8c6",
+      "to": "event-02d01bb047a538abf5c3",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-e3ec2f56cf948363",
+      "from": "event-e8878a43f69765ef721a",
+      "to": "event-02d01bb047a538abf5c3",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-d4429f96314ac988",
+      "from": "event-ad7b64a50b5f56ff5abd",
+      "to": "event-b061dd2649db009a2919",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-dbe76f9dfe07e445",
+      "from": "event-02d01bb047a538abf5c3",
+      "to": "event-b3bc9a336a0e225f9fbe",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "view-2e475c56e81768ad",
+      "from": "event-b3bc9a336a0e225f9fbe",
+      "to": "event-9a475b516558adaf3d36",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-c28ca7dfca5601a7",
+      "from": "event-f242f389413a9a4b08a8",
+      "to": "event-45dbb6a29eed49ef2142",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "view-df483da1a672e16a",
+      "from": "event-42dd9be02ccbf749bd35",
+      "to": "event-3c20d4cdc30d40ab9f7f",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-2c1668b5863bea66",
+      "from": "event-dc619d9d749e15b07c3b",
+      "to": "event-e587fe41883e54614af8",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-94bc4a8ab53826c2",
+      "from": "event-650d6cb290e80e8119c2",
+      "to": "event-f129ddd0f133b337de31",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-4e9f930b01a72df5",
+      "from": "event-7264334ff0861d0173a2",
+      "to": "event-26a7f4406e1bfdd5e714",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "view-87405713479c6209",
+      "from": "event-9128aec7e8443642b692",
+      "to": "event-7f2d640b4ed11cb15577",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-c6ffe675cfb939ee",
+      "from": "event-b125a990f0f0b8c8af13",
+      "to": "event-c753a9d71b7732a8cabc",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-6e887760dcfa86f0",
+      "from": "event-2f4de6a8084919c73a2e",
+      "to": "event-4b0ef60e3db0085160be",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "view-dd42e17b61da448b",
+      "from": "event-d87485047b2cb78cf900",
+      "to": "event-813601e668cdedb39432",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "view-85a880e1caf16894",
+      "from": "event-813601e668cdedb39432",
+      "to": "event-91564decd3df8d3d878c",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-54cfb708dbcc78ac",
+      "from": "event-813601e668cdedb39432",
+      "to": "event-d1e8d08b756365d4f23f",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-4ac9cf6289681d0d",
+      "from": "event-122852f7697f47842d37",
+      "to": "event-3a1e7c0dbcd9e9303d53",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-b69c49e935f00d59",
+      "from": "event-d1e8d08b756365d4f23f",
+      "to": "event-e8878a43f69765ef721a",
+      "kind": "reversal",
+      "core": true
+    },
+    {
+      "id": "view-0696638a56258ca2",
+      "from": "event-1af042ba7c80736ce7d1",
+      "to": "event-446709fff57be066c500",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-31c5e4d50a0e6297",
+      "from": "event-1af042ba7c80736ce7d1",
+      "to": "event-d42d3b9adb657fc9f29b",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-fb503e50a02a3256",
+      "from": "event-d42d3b9adb657fc9f29b",
+      "to": "event-b2c4df53da321e6da851",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-954997cd1fe2685f",
+      "from": "event-5890446ae04d1b7b443a",
+      "to": "event-b3bc9a336a0e225f9fbe",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-3a3f7709238f66b5",
+      "from": "event-e8878a43f69765ef721a",
+      "to": "event-26a7f4406e1bfdd5e714",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-994071fe4b6506f8",
+      "from": "event-f82d801abef51056ff6b",
+      "to": "event-8374f8848fbea9ac3a31",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-1712d6dab9172fb9",
+      "from": "event-8374f8848fbea9ac3a31",
+      "to": "event-6c548c5da5f303d2c333",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-4a3c5e15b8f7091f",
+      "from": "event-db502448d2c1148d7342",
+      "to": "event-b061dd2649db009a2919",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-1388d58f461c0718",
+      "from": "event-ad7b64a50b5f56ff5abd",
+      "to": "event-650d6cb290e80e8119c2",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-ccb63aa26a6b05ea",
+      "from": "event-e238c342e5f7d18e8aed",
+      "to": "event-583399797dabdc10b5ea",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-5e89c56b3f0482dd",
+      "from": "event-515f6fde9e16c95c931b",
+      "to": "event-5826025f00b08cca6f88",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-a256625686cab2f3",
+      "from": "event-5826025f00b08cca6f88",
+      "to": "event-ca9b2e3fceb47932e084",
+      "kind": "reversal",
+      "core": false
+    },
+    {
+      "id": "view-2297772662761345",
+      "from": "event-ca9b2e3fceb47932e084",
+      "to": "event-9992be252786cf52a9a1",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "view-9630af511ee63698",
+      "from": "event-2e177f714aa548ee6054",
+      "to": "event-aa39f4fc5007b99068d1",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-205e22ec712ad2c9",
+      "from": "event-3a50c2cfebd2a61ebfbe",
+      "to": "event-0b7de10cedde298e53da",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-5693de10ecf4f5e0",
+      "from": "event-15dfbe5fb2c97a9d501b",
+      "to": "event-f242f389413a9a4b08a8",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-8df7dc0e34e67ab0",
+      "from": "event-45dbb6a29eed49ef2142",
+      "to": "event-6cf1b11776e37e627036",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-168424b0c4285330",
+      "from": "event-609cf0004cb2088c4f85",
+      "to": "event-b139b4781b4ede0e10fb",
+      "kind": "payoff",
+      "core": false
+    },
+    {
+      "id": "view-94291e07b769be6b",
+      "from": "event-1e917b04a8112c0d690d",
+      "to": "event-42dd9be02ccbf749bd35",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-0ffe4838e57944a2",
+      "from": "event-3e231a16d3d1a42765dd",
+      "to": "event-f129ddd0f133b337de31",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-59b515c1e402e65c",
+      "from": "event-f129ddd0f133b337de31",
+      "to": "event-2f054a8b8508c95f17c1",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-17fbd09c51e0b7e8",
+      "from": "event-f129ddd0f133b337de31",
+      "to": "event-26a7f4406e1bfdd5e714",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-90efe6006398a6bb",
+      "from": "event-a00e4b51a2d0e5c3ed8b",
+      "to": "event-8f9ca7202c6ba2020f2f",
+      "kind": "reversal",
+      "core": true
+    },
+    {
+      "id": "view-f5680c7287693923",
+      "from": "event-d00ff4148b8a17055966",
+      "to": "event-876e2e5cded4d9aa61ce",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "view-08793e917bb6bb87",
+      "from": "event-d72e5cf51b2f54f4eeef",
+      "to": "event-fd06823174d17acbf068",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-e505250ffd1d4b32",
+      "from": "event-6a806db189bffcaca764",
+      "to": "event-1160c71b6368560a9470",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-de8739524988432b",
+      "from": "event-e0b0cc8f28302f85e2fd",
+      "to": "event-2f4de6a8084919c73a2e",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-1568331340076519",
+      "from": "event-2f4de6a8084919c73a2e",
+      "to": "event-88ca5e42e322df221367",
+      "kind": "payoff",
+      "core": true
+    },
+    {
+      "id": "view-13d3f00a473b6513",
+      "from": "event-e587fe41883e54614af8",
+      "to": "event-29c9402243224bc4d2f7",
+      "kind": "cause",
+      "core": false
+    },
+    {
+      "id": "view-576377114eb2f970",
+      "from": "event-e587fe41883e54614af8",
+      "to": "event-7264334ff0861d0173a2",
+      "kind": "setup",
+      "core": true
+    },
+    {
+      "id": "view-1952687f5f99a3bd",
+      "from": "event-7f2d640b4ed11cb15577",
+      "to": "event-e4580710c074333f3cd7",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "view-7e394a78907ea483",
+      "from": "event-e4580710c074333f3cd7",
+      "to": "event-acdbbfef6a4e37ca83a4",
+      "kind": "reversal",
+      "core": true
+    },
+    {
+      "id": "view-37314ef17b99bb38",
+      "from": "event-dfe68c19e845d9c79499",
+      "to": "event-4b0ef60e3db0085160be",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "view-1b1e756126bc4074",
+      "from": "event-4b0ef60e3db0085160be",
+      "to": "event-c753a9d71b7732a8cabc",
+      "kind": "cause",
+      "core": true
+    },
+    {
+      "id": "read-a0f44d0de320bedd",
+      "from": "event-d87485047b2cb78cf900",
+      "to": "event-813601e668cdedb39432",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-e9252ca92c07f85a",
+      "from": "event-813601e668cdedb39432",
+      "to": "event-c0fa10ebae5b011f886e",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-1d954718527bdeea",
+      "from": "event-c0fa10ebae5b011f886e",
+      "to": "event-122852f7697f47842d37",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-d1b68c32a2602056",
+      "from": "event-122852f7697f47842d37",
+      "to": "event-d1e8d08b756365d4f23f",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-717c314145bebaa6",
+      "from": "event-d1e8d08b756365d4f23f",
+      "to": "event-1af042ba7c80736ce7d1",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-2948866559139a5b",
+      "from": "event-1af042ba7c80736ce7d1",
+      "to": "event-b2c4df53da321e6da851",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-c6f7db3d972cfe21",
+      "from": "event-b2c4df53da321e6da851",
+      "to": "event-5890446ae04d1b7b443a",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-78046321be59458d",
+      "from": "event-5890446ae04d1b7b443a",
+      "to": "event-e8878a43f69765ef721a",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-d31b9b569669d8ba",
+      "from": "event-e8878a43f69765ef721a",
+      "to": "event-f82d801abef51056ff6b",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-44bcc4e93e0833ef",
+      "from": "event-f82d801abef51056ff6b",
+      "to": "event-6c548c5da5f303d2c333",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-3b3acfcc95dbd4a7",
+      "from": "event-6c548c5da5f303d2c333",
+      "to": "event-db502448d2c1148d7342",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-ed5487bfd439ba80",
+      "from": "event-db502448d2c1148d7342",
+      "to": "event-b061dd2649db009a2919",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-616a6ead9f5a6ae7",
+      "from": "event-b061dd2649db009a2919",
+      "to": "event-e238c342e5f7d18e8aed",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-6798fd63b2df0fb7",
+      "from": "event-e238c342e5f7d18e8aed",
+      "to": "event-9128aec7e8443642b692",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-9ec4ea9cb58fb4a2",
+      "from": "event-9128aec7e8443642b692",
+      "to": "event-c103648213a536708c70",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-ac709bcf899c69be",
+      "from": "event-c103648213a536708c70",
+      "to": "event-02d01bb047a538abf5c3",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-05973b8d153b0077",
+      "from": "event-02d01bb047a538abf5c3",
+      "to": "event-b3bc9a336a0e225f9fbe",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-59ff7128d5b899c8",
+      "from": "event-b3bc9a336a0e225f9fbe",
+      "to": "event-de39062f436a9f813867",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-4140e480fdac8ed4",
+      "from": "event-de39062f436a9f813867",
+      "to": "event-ca9b2e3fceb47932e084",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-f32722066c5a4c94",
+      "from": "event-ca9b2e3fceb47932e084",
+      "to": "event-9992be252786cf52a9a1",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-46f1b42c9e286bba",
+      "from": "event-9992be252786cf52a9a1",
+      "to": "event-93f4444c35a48ddef0fa",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-38006a5820ef2093",
+      "from": "event-93f4444c35a48ddef0fa",
+      "to": "event-4935e25f8944b6bf416f",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-a1905d692e360d07",
+      "from": "event-4935e25f8944b6bf416f",
+      "to": "event-9a475b516558adaf3d36",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-4d76f041c9d2585c",
+      "from": "event-9a475b516558adaf3d36",
+      "to": "event-45dbb6a29eed49ef2142",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-db29797089719e3a",
+      "from": "event-45dbb6a29eed49ef2142",
+      "to": "event-dc619d9d749e15b07c3b",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-5ab99ee772ad4f2d",
+      "from": "event-dc619d9d749e15b07c3b",
+      "to": "event-8dc61b5bbe6f6fa53d40",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-06d14361c7ff67cd",
+      "from": "event-8dc61b5bbe6f6fa53d40",
+      "to": "event-3c20d4cdc30d40ab9f7f",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-98c138158a312085",
+      "from": "event-3c20d4cdc30d40ab9f7f",
+      "to": "event-f129ddd0f133b337de31",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-b4ae7ecd602c2f18",
+      "from": "event-f129ddd0f133b337de31",
+      "to": "event-a00e4b51a2d0e5c3ed8b",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-765b18b774fb9947",
+      "from": "event-a00e4b51a2d0e5c3ed8b",
+      "to": "event-8f9ca7202c6ba2020f2f",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-0a0204db9137b883",
+      "from": "event-8f9ca7202c6ba2020f2f",
+      "to": "event-d00ff4148b8a17055966",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-e54d9c3425d35830",
+      "from": "event-d00ff4148b8a17055966",
+      "to": "event-876e2e5cded4d9aa61ce",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-5d9ff0059bbee2e0",
+      "from": "event-876e2e5cded4d9aa61ce",
+      "to": "event-d72e5cf51b2f54f4eeef",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-f0588cc2a5edce06",
+      "from": "event-d72e5cf51b2f54f4eeef",
+      "to": "event-2f4de6a8084919c73a2e",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-ddf84a61d74af024",
+      "from": "event-2f4de6a8084919c73a2e",
+      "to": "event-88ca5e42e322df221367",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-0e309635580910b8",
+      "from": "event-88ca5e42e322df221367",
+      "to": "event-583399797dabdc10b5ea",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-a27ffbf2df6072a1",
+      "from": "event-583399797dabdc10b5ea",
+      "to": "event-3b65a1408b00c6ad49bb",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-92731dca23f561c3",
+      "from": "event-3b65a1408b00c6ad49bb",
+      "to": "event-e587fe41883e54614af8",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-cd754c2092a500d1",
+      "from": "event-e587fe41883e54614af8",
+      "to": "event-7264334ff0861d0173a2",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-dc06af27899452a6",
+      "from": "event-7264334ff0861d0173a2",
+      "to": "event-26a7f4406e1bfdd5e714",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-28e9f6cdbd2481ae",
+      "from": "event-26a7f4406e1bfdd5e714",
+      "to": "event-7f2d640b4ed11cb15577",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-05303e715aa791a0",
+      "from": "event-7f2d640b4ed11cb15577",
+      "to": "event-e4580710c074333f3cd7",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-fd65fa0a8311d2e9",
+      "from": "event-e4580710c074333f3cd7",
+      "to": "event-82bb7942558c020cba85",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-69b8974e4af970d2",
+      "from": "event-82bb7942558c020cba85",
+      "to": "event-acdbbfef6a4e37ca83a4",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-d50838e6a220f6bb",
+      "from": "event-acdbbfef6a4e37ca83a4",
+      "to": "event-cf163efd067801be8f57",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-45ca3c90349039d9",
+      "from": "event-cf163efd067801be8f57",
+      "to": "event-05c925daf88a06c1872f",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-2e9fe3ae7fa51953",
+      "from": "event-05c925daf88a06c1872f",
+      "to": "event-dfe68c19e845d9c79499",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-84608d84efba502f",
+      "from": "event-dfe68c19e845d9c79499",
+      "to": "event-4b0ef60e3db0085160be",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "read-81c196f55f6fbf80",
+      "from": "event-4b0ef60e3db0085160be",
+      "to": "event-c753a9d71b7732a8cabc",
+      "kind": "sequence",
+      "core": true
+    },
+    {
+      "id": "state-book-scar",
+      "from": "event-cf163efd067801be8f57",
+      "to": "book-scar",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-aode-child",
+      "from": "event-b061dd2649db009a2919",
+      "to": "book-aode-child",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-old-man",
+      "from": "event-4b0ef60e3db0085160be",
+      "to": "book-old-man",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-nightmare-space",
+      "from": "event-4b0ef60e3db0085160be",
+      "to": "book-nightmare-space",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-mine-necklace",
+      "from": "event-e4580710c074333f3cd7",
+      "to": "book-mine-necklace",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-snail-candy",
+      "from": "event-29c9402243224bc4d2f7",
+      "to": "book-snail-candy",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-phoenix",
+      "from": "event-eecc3dc4fdef14a7db3b",
+      "to": "book-phoenix",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-soul-ring",
+      "from": "event-583414ead5a0c1ee3248",
+      "to": "book-soul-ring",
+      "kind": "annotation",
+      "core": false
+    },
+    {
+      "id": "state-book-shadowsand",
+      "from": "event-71a3aa184d9bf8483baf",
+      "to": "book-shadowsand",
+      "kind": "annotation",
+      "core": false
+    }
+  ],
+  "threads": [
+    {
+      "id": "book-scar",
+      "number": 1,
+      "status": "unknown",
+      "anchor": "event-cf163efd067801be8f57",
+      "conclusion": "只保留萧御自述十五六岁与流氓争执被捅、赵的怀疑，以及燕琳二手转述的童年飞刀师承。公开飞刀表演证实技艺，不能证实师承细节或解释心口伤；后文断手骨自接也不是答案。"
+    },
+    {
+      "id": "book-aode-child",
+      "number": 2,
+      "status": "partial",
+      "anchor": "event-b061dd2649db009a2919",
+      "conclusion": "圣言匕入场、童灵友情及身份揭示共同使刺核心解咒任务完成。沃卡德自决毁肉身而暂存灵魂，复生无保证；童灵与黑幽灵的关系仍未明；最初失物字面身份未单独命名。任务完成与这些未明事项分开。"
+    },
+    {
+      "id": "book-old-man",
+      "number": 3,
+      "status": "partial",
+      "anchor": "event-4b0ef60e3db0085160be",
+      "conclusion": "390本人现身且叙述确认克文图斯就是古墓老者；427/428指定探索交奖，光暗双门通向最终神战，462本命任务系统完成。40任务面板另称哈蒙斯而无别名说明，仍保留称名冲突。旧方盒仅是主角猜测，460不见后没有独立毁盒或本命实体指认；任务完成不填平物件说明。军队后续和全部异星地图清尽无确证。身份确认场面未被112场景另收节点，在线索证据中说明，不借最近场景冒充揭晓画面。"
+    },
+    {
+      "id": "book-nightmare-space",
+      "number": 4,
+      "status": "resolved",
+      "anchor": "event-4b0ef60e3db0085160be",
+      "conclusion": "重返梦魇后救出巨人和画像主人，索德燃命与五敌同归、巨人永眠；空间转换交到萧御，后解封并充当光暗双门钥匙，接上万人与单人的神战。此线的救援、牺牲和神器用途已兑现；不等于梦魇全地图清尽，格里奥/索德称名差异仍保留。"
+    },
+    {
+      "id": "book-mine-necklace",
+      "number": 5,
+      "status": "resolved",
+      "anchor": "event-e4580710c074333f3cd7",
+      "conclusion": "子爵痴情表述被迪娜等当事人证词改写为多方责任的悲剧。所得首赠饰物被赵长期珍戴，遇围杀掉落后实际追回归还；数值落后没有抹去人物记忆，报复过程也显出萧御的残酷。托人谢蓝月赠装不补成已交付。"
+    },
+    {
+      "id": "book-snail-candy",
+      "number": 6,
+      "status": "resolved",
+      "anchor": "event-29c9402243224bc4d2f7",
+      "conclusion": "第一场蜗牛对局无胜负结算；回城袭击后标记之尘逐人上身，清粉与移位反用才完成合击击杀。糖果取消不公平计数赌，接受石剪布分配并在九环代理指挥；最终真正约战另由451研究证据确认，112场景未单收该战，不拿苍冥场景代指。"
+    },
+    {
+      "id": "book-phoenix",
+      "number": 7,
+      "status": "partial",
+      "anchor": "event-eecc3dc4fdef14a7db3b",
+      "conclusion": "护蛋目标成功但本人被天龙狂龙合杀，凤凰回报复活与羽毛；后来九环自爆消耗复活，422另用起搏器且此前收羽保末次。三次/五次数值冲突及最终库存未获解释，末战起搏复活者是萧翎，不能补成萧御耗尽或确定弃线。"
+    },
+    {
+      "id": "book-soul-ring",
+      "number": 8,
+      "status": "partial",
+      "anchor": "event-583414ead5a0c1ee3248",
+      "conclusion": "吸霍尔斯魂只解第一封并成为传说，后续吸石魔、女王没有第二封结果。第一层进展确成，人物身份、双戒纸和其余封印仍未明；石魔与女王场景只承载该次击杀，紧随的吸魂状态以独立问题证据补足。"
+    },
+    {
+      "id": "book-shadowsand",
+      "number": 9,
+      "status": "partial",
+      "anchor": "event-71a3aa184d9bf8483baf",
+      "conclusion": "影砂先败死；后五人围攻被破，二死三逃，逃者放弃纠缠。386补明六人现实雇佣兵、接有偿凶杀和游戏谋利背景；没有六人全灭、组织覆灭或现实受惩的确证。"
+    }
+  ],
+  "roots": [
+    "event-d87485047b2cb78cf900",
+    "event-94484c025d8b80324a6c",
+    "event-4c39b75b64858320193d",
+    "event-122852f7697f47842d37",
+    "event-c3f71fa9bf5584be2800",
+    "event-cbfc366ded6562f3a8c6",
+    "event-1af042ba7c80736ce7d1",
+    "event-813d1d0aa6513d182337",
+    "event-5890446ae04d1b7b443a",
+    "event-68f91e39e563132c1ece",
+    "event-03d8058dfe5f8ad53781",
+    "event-37514600e8261c8e836b",
+    "event-3fc0087e43292d08dfa6",
+    "event-f82d801abef51056ff6b",
+    "event-dbdb772ed7151b230541",
+    "event-cd172e8452db7eeadf5a",
+    "event-ad7b64a50b5f56ff5abd",
+    "event-8f534d499492c68c2589",
+    "event-eca071165be1f865dfaf",
+    "event-d203616daa5815af9533",
+    "event-e238c342e5f7d18e8aed",
+    "event-6d6547df67baef2cf5af",
+    "event-da6801b0b918bc41acd9",
+    "event-9128aec7e8443642b692",
+    "event-a2e2d45d84ff0bd51d91",
+    "event-c103648213a536708c70",
+    "event-2da8cc51213541f7ea5f",
+    "event-b69d064c46f07791a162",
+    "event-de39062f436a9f813867",
+    "event-515f6fde9e16c95c931b",
+    "event-9cb8390018ab80e9ef26",
+    "event-93f4444c35a48ddef0fa",
+    "event-e455949da2f7d0410afa",
+    "event-d89b250e06160508ac16",
+    "event-4935e25f8944b6bf416f",
+    "event-4089cf0852da8f46417f",
+    "event-2e177f714aa548ee6054",
+    "event-3a50c2cfebd2a61ebfbe",
+    "event-15dfbe5fb2c97a9d501b",
+    "event-167da9fa00d0aa7d729b",
+    "event-dc619d9d749e15b07c3b",
+    "event-609cf0004cb2088c4f85",
+    "event-8dc61b5bbe6f6fa53d40",
+    "event-ed930801a89e34f13ba2",
+    "event-1e917b04a8112c0d690d",
+    "event-3e231a16d3d1a42765dd",
+    "event-6b1c11dbcb231747a0c8",
+    "event-a00e4b51a2d0e5c3ed8b",
+    "event-d00ff4148b8a17055966",
+    "event-d72e5cf51b2f54f4eeef",
+    "event-915f5a195c5a23013deb",
+    "event-6a806db189bffcaca764",
+    "event-fab96317db2931415ad9",
+    "event-583414ead5a0c1ee3248",
+    "event-8228c0c65b917299b863",
+    "event-e0b0cc8f28302f85e2fd",
+    "event-bda38bf5bdad1c6e89bc",
+    "event-3b65a1408b00c6ad49bb",
+    "event-71a3aa184d9bf8483baf",
+    "event-b125a990f0f0b8c8af13",
+    "event-eecc3dc4fdef14a7db3b",
+    "event-82bb7942558c020cba85",
+    "event-cf163efd067801be8f57",
+    "event-8fd9feff3e2e8e90d2aa",
+    "event-05c925daf88a06c1872f",
+    "event-dfe68c19e845d9c79499"
+  ],
+  "forks": [
+    "event-d87485047b2cb78cf900",
+    "event-813601e668cdedb39432",
+    "event-1af042ba7c80736ce7d1",
+    "event-e8878a43f69765ef721a",
+    "event-ad7b64a50b5f56ff5abd",
+    "event-f129ddd0f133b337de31",
+    "event-2f4de6a8084919c73a2e",
+    "event-e587fe41883e54614af8"
+  ],
+  "junctions": [
+    "event-b2c4df53da321e6da851",
+    "event-b061dd2649db009a2919",
+    "event-02d01bb047a538abf5c3",
+    "event-b3bc9a336a0e225f9fbe",
+    "event-f129ddd0f133b337de31",
+    "event-26a7f4406e1bfdd5e714",
+    "event-4b0ef60e3db0085160be",
+    "event-c753a9d71b7732a8cabc"
+  ],
+  "core": "book-main",
+  "time_labels": {},
+  "volume_bounds": {
+    "1": {
+      "x": 1330.7,
+      "y": 475.0,
+      "width": 1915.9999999999998,
+      "height": 621.0
+    },
+    "2": {
+      "x": 1177.7,
+      "y": 878.5,
+      "width": 1596.9999999999998,
+      "height": 687.0
+    },
+    "3": {
+      "x": 1601.7,
+      "y": 1348.0,
+      "width": 2110.0,
+      "height": 664.0
+    },
+    "4": {
+      "x": 2497.7,
+      "y": 1816.0,
+      "width": 1826.0,
+      "height": 685.5
+    },
+    "5": {
+      "x": 1448.7,
+      "y": 2284.0,
+      "width": 2785.0,
+      "height": 665.5
+    },
+    "6": {
+      "x": 1177.7,
+      "y": 2732.0,
+      "width": 2919.0,
+      "height": 707.5
+    },
+    "7": {
+      "x": 906.7,
+      "y": 3222.0,
+      "width": 1755.9999999999998,
+      "height": 461.5
+    },
+    "8": {
+      "x": 906.7,
+      "y": 3690.0,
+      "width": 3871.0,
+      "height": 196.0
+    },
+    "9": {
+      "x": 281.71,
+      "y": 4210.5,
+      "width": 3700.99,
+      "height": 485.0
+    },
+    "10": {
+      "x": 1271.7,
+      "y": 4700.5,
+      "width": 3135.0,
+      "height": 485.0
+    },
+    "11": {
+      "x": 1272.7,
+      "y": 5190.5,
+      "width": 2828.0,
+      "height": 485.0
+    },
+    "12": {
+      "x": 1272.7,
+      "y": 5681.0,
+      "width": 2828.0,
+      "height": 707.5
+    },
+    "13": {
+      "x": 1425.7,
+      "y": 6171.0,
+      "width": 3099.0,
+      "height": 441.0
+    },
+    "14": {
+      "x": 1425.7,
+      "y": 6618.0,
+      "width": 3099.0,
+      "height": 239.0
+    },
+    "15": {
+      "x": 1904.7,
+      "y": 6940.0,
+      "width": 3315.0,
+      "height": 239.0
+    },
+    "16": {
+      "x": 1397.7,
+      "y": 7262.0,
+      "width": 3127.0,
+      "height": 484.0
+    },
+    "17": {
+      "x": 1904.7,
+      "y": 7752.0,
+      "width": 2081.0,
+      "height": 484.0
+    },
+    "18": {
+      "x": 1904.7,
+      "y": 8242.0,
+      "width": 2311.0,
+      "height": 484.0
+    },
+    "19": {
+      "x": 1948.7,
+      "y": 8732.0,
+      "width": 2267.0,
+      "height": 239.0
+    },
+    "20": {
+      "x": 1684.7,
+      "y": 9054.0,
+      "width": 435.9999999999998,
+      "height": 729.0
+    },
+    "21": {
+      "x": 1684.7,
+      "y": 9565.5,
+      "width": 1637.9999999999998,
+      "height": 621.5
+    },
+    "22": {
+      "x": 1990.7,
+      "y": 9991.0,
+      "width": 2534.0,
+      "height": 1138.5
+    },
+    "23": {
+      "x": 1448.7,
+      "y": 10395.0,
+      "width": 3924.0,
+      "height": 1055.5
+    },
+    "24": {
+      "x": 906.7,
+      "y": 10912.0,
+      "width": 3989.0,
+      "height": 1328.0
+    },
+    "25": {
+      "x": 163.71,
+      "y": 11532.5,
+      "width": 1519.99,
+      "height": 1306.5
+    },
+    "26": {
+      "x": 1171.7,
+      "y": 12001.0,
+      "width": 2811.0,
+      "height": 1639.0
+    },
+    "27": {
+      "x": 511.71000000000004,
+      "y": 12621.5,
+      "width": 3470.99,
+      "height": 1862.5
+    },
+    "28": {
+      "x": 1177.7,
+      "y": 14544.5,
+      "width": 436.0,
+      "height": 1040.0
+    }
+  },
+  "thread_bounds": {
+    "book-main": {
+      "x": 434.71,
+      "y": 475.0,
+      "width": 2651.99,
+      "height": 15109.5
+    },
+    "book-livelihood": {
+      "x": 1177.7,
+      "y": 475.0,
+      "width": 3718.0,
+      "height": 12642.0
+    },
+    "book-technique": {
+      "x": 1177.7,
+      "y": 475.0,
+      "width": 3718.0,
+      "height": 13764.0
+    },
+    "book-free-cooperation": {
+      "x": 281.71,
+      "y": 1124.0,
+      "width": 4242.99,
+      "height": 11715.0
+    },
+    "book-zhao-future": {
+      "x": 281.71,
+      "y": 1816.0,
+      "width": 4242.99,
+      "height": 12668.0
+    },
+    "book-scar": {
+      "x": 1177.7,
+      "y": 1816.0,
+      "width": 3146.0,
+      "height": 12668.0
+    },
+    "book-aode-child": {
+      "x": 906.7,
+      "y": 900.0,
+      "width": 3871.0,
+      "height": 2986.0
+    },
+    "book-old-man": {
+      "x": 1177.7,
+      "y": 1348.0,
+      "width": 2805.0,
+      "height": 13937.0
+    },
+    "book-nightmare-space": {
+      "x": 1177.7,
+      "y": 2710.5,
+      "width": 4195.0,
+      "height": 12574.5
+    },
+    "book-lost-city": {
+      "x": 1272.7,
+      "y": 5190.5,
+      "width": 2828.0,
+      "height": 1198.0
+    },
+    "book-mine-necklace": {
+      "x": 281.71,
+      "y": 4210.5,
+      "width": 3700.99,
+      "height": 9429.5
+    },
+    "book-national-ten": {
+      "x": 705.71,
+      "y": 6171.0,
+      "width": 4513.99,
+      "height": 6668.0
+    },
+    "book-snail-candy": {
+      "x": 705.71,
+      "y": 6171.0,
+      "width": 3394.99,
+      "height": 6668.0
+    },
+    "book-phoenix": {
+      "x": 1177.7,
+      "y": 8263.5,
+      "width": 2805.0,
+      "height": 4276.0
+    },
+    "book-behemoth": {
+      "x": 1171.7,
+      "y": 3444.5,
+      "width": 3141.0,
+      "height": 12140.0
+    },
+    "book-blood-freedom": {
+      "x": 2650.7,
+      "y": 9991.0,
+      "width": 436.0,
+      "height": 398.0
+    },
+    "book-soul-ring": {
+      "x": 2650.7,
+      "y": 10193.0,
+      "width": 2298.0,
+      "height": 398.0
+    },
+    "book-shadowsand": {
+      "x": 3876.7,
+      "y": 4700.5,
+      "width": 530.0,
+      "height": 6450.5
+    },
+    "book-arena-gods": {
+      "x": 163.71,
+      "y": 2508.0,
+      "width": 4731.99,
+      "height": 13076.5
+    }
+  },
+  "layout": {
+    "engine": "Graphviz dot",
+    "version": "14.1.3",
+    "direction": "按关系自上而下分枝；无阶段父子结构",
+    "sequence": "蓝色细点线为主干阅读衔接，非因果，不计交汇",
+    "echo": "显示但不决定层级",
+    "back_references": "保留原方向，不强制为向下推进"
+  },
+  "states": {
+    "unknown": 1,
+    "partial": 5,
+    "resolved": 3
+  }
 }

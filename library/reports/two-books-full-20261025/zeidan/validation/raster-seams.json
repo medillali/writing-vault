@@ -1,0 +1,22 @@
+{
+  "strategy": "SVG原坐标分段渲染，避免超过16384像素的整页截图重复",
+  "step": 4096,
+  "overlap": 64,
+  "seams": [
+    {
+      "y": 4096,
+      "mean_channel_delta": 0.0001461788469716299,
+      "max_channel_delta": 7
+    },
+    {
+      "y": 8192,
+      "mean_channel_delta": 0.00017180760585626634,
+      "max_channel_delta": 8
+    },
+    {
+      "y": 12288,
+      "mean_channel_delta": 0.00017085839256424275,
+      "max_channel_delta": 11
+    }
+  ]
+}

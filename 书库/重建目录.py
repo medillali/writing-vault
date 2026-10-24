@@ -45,7 +45,11 @@ def main():
         if b.get('map'):
             page='按书名/'+b['directory']+'/剧情地图.md';m=b['map']
             body='# 《'+b['title']+'》全书剧情地图\n\n'+hub('返回本书',book_path(b),page)+' · '+hub('全部全书地图','全书剧情地图/README.md',page)+'\n\n'
-            body+=f'覆盖全书{m["unit_count"]}个实际正文/序章单元；图按{m["stages"]}个阶段组织，含{m["events"]}个精选事件、{m["relations"]}条关系。逐章记录负责全量覆盖，地图精选事件负责呈现结构与因果。\n\n'
+            if m.get('form')=='branching-tree':
+                body+=f'覆盖全书{m["unit_count"]}个实际正文/序章单元，保留{m["events"]}个精选事件。沿用《超级骷髅兵》的主干、分枝、共享交汇与暗线终态形式；{m["stages"]}个研究阶段仅用于定位。\n\n'
+                body+=f'展示层有{m["relations"]}条语义联系（{m["progress_relations"]}条推进关系、{m["echo_relations"]}条主题呼应），另有{m["reading_links"]}条主干阅读衔接。阅读衔接不是因果；主题呼应和阅读衔接均不虚增交汇点。逐章记录负责全量覆盖，地图精选事件负责呈现结构。\n\n'
+            else:
+                body+=f'覆盖全书{m["unit_count"]}个实际正文/序章单元；图按{m["stages"]}个阶段组织，含{m["events"]}个精选事件、{m["relations"]}条关系。逐章记录负责全量覆盖，地图精选事件负责呈现结构与因果。\n\n'
             body+='| 阅读方式 | 入口 |\n|---|---|\n'
             for label,key in [('Git直接查看PNG原图','png'),('Git直接查看SVG矢量图','svg'),('下载后离线缩放、拖动和定位','html'),('地图详细说明','overview'),('查询节点、伏笔与来源证据','reader')]:
                 if key in m:body+='| '+label+' | '+link(label,m[key],page)+' |\n'
