@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "scope": "已登记作品的阅读导航；研究覆盖仅指Git已发布检查点。书目建档不代表全书已读。",
+  "classification_rule": "类型为本资料库的研究分类，不冒称平台官方分类；玄幻粗类下用西方奇幻标签细分。类型允许多选，可扩展都市、仙侠、科幻等。",
+  "identity_rule": "source_id为来源身份；同名作品另设唯一directory，不按书名合并来源。",
+  "books": [
+    {
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "source_revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "title": "网游之纵横天下",
+      "directory": "网游之纵横天下",
+      "author": "失落叶",
+      "author_order": 1,
+      "genres": [
+        "网游"
+      ],
+      "tags": [
+        "虚拟现实"
+      ],
+      "published_links": [
+        {
+          "label": "来源登记与修订",
+          "path": "library/sources/src-2a13958390274509b2af019f6b12d981.json"
+        },
+        {
+          "label": "正式检查点 run-test-20261022-world_online",
+          "path": "exchanges/runs/run-test-20261022-world_online.json"
+        }
+      ],
+      "source_record_published": true,
+      "research_status": "partial",
+      "coverage_label": "Git已发布开篇5章；全书未完成",
+      "local_progress_note": "本地另有顺序研究任务正在推进，活动检查点以exchanges/runs为准；本目录不把尚未提交的续读稿混入本批发布。"
+    },
+    {
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "title": "网游之天下无双",
+      "directory": "网游之天下无双",
+      "author": "失落叶",
+      "author_order": 2,
+      "genres": [
+        "网游"
+      ],
+      "tags": [
+        "虚拟现实"
+      ],
+      "published_links": [],
+      "source_record_published": false,
+      "research_status": "queued",
+      "coverage_label": "已建书目，Git尚无正式逐章研究",
+      "local_progress_note": "本地另有顺序研究任务正在推进，活动检查点以exchanges/runs为准；本目录不把尚未提交的续读稿混入本批发布。"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "source_revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "title": "斩龙",
+      "directory": "斩龙",
+      "author": "失落叶",
+      "author_order": 3,
+      "genres": [
+        "网游"
+      ],
+      "tags": [
+        "虚拟现实"
+      ],
+      "published_links": [],
+      "source_record_published": false,
+      "research_status": "queued",
+      "coverage_label": "已建书目，Git尚无正式逐章研究",
+      "local_progress_note": "本地另有顺序研究任务正在推进，活动检查点以exchanges/runs为准；本目录不把尚未提交的续读稿混入本批发布。"
+    },
+    {
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "source_revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "title": "网游之练级专家",
+      "directory": "网游之练级专家",
+      "author": "发飙的蜗牛",
+      "author_order": 1,
+      "genres": [
+        "网游"
+      ],
+      "tags": [
+        "虚拟现实"
+      ],
+      "published_links": [
+        {
+          "label": "来源登记与修订",
+          "path": "library/sources/src-359a2bd5a60747038b12a7ba483a5f80.json"
+        },
+        {
+          "label": "正式检查点 run-full-two-books-20261025-l",
+          "path": "exchanges/runs/run-full-two-books-20261025-l.json"
+        }
+      ],
+      "source_record_published": true,
+      "research_status": "full",
+      "coverage_label": "全书387个实际单元，20个九维阶段；待用户审阅",
+      "report": "library/reports/two-books-full-20261025/leveling/README.md",
+      "map": {
+        "overview": "library/reports/two-books-full-20261025/leveling/plot/README.md",
+        "html": "library/reports/two-books-full-20261025/leveling/plot/map/index.html",
+        "reader": "library/reports/two-books-full-20261025/leveling/plot/relations/index.html",
+        "png": "library/reports/two-books-full-20261025/leveling/plot/whole-book/tree.png",
+        "svg": "library/reports/two-books-full-20261025/leveling/plot/whole-book/tree.svg",
+        "preview": "library/reports/two-books-full-20261025/leveling/plot/whole-book/tree-preview.png",
+        "graph": "library/reports/two-books-full-20261025/leveling/plot/graph.json",
+        "events": 80,
+        "stages": 20,
+        "relations": 66,
+        "unit_count": 387
+      }
+    },
+    {
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "source_revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "title": "贼胆",
+      "directory": "贼胆",
+      "author": "发飙的蜗牛",
+      "author_order": 2,
+      "genres": [
+        "网游"
+      ],
+      "tags": [
+        "虚拟现实"
+      ],
+      "published_links": [
+        {
+          "label": "来源登记与修订",
+          "path": "library/sources/src-2d8a13f33737429da512e5cc9e839712.json"
+        },
+        {
+          "label": "正式检查点 run-full-two-books-20261025-z",
+          "path": "exchanges/runs/run-full-two-books-20261025-z.json"
+        }
+      ],
+      "source_record_published": true,
+      "research_status": "full",
+      "coverage_label": "全书463个实际单元，28个九维阶段；待用户审阅",
+      "report": "library/reports/two-books-full-20261025/zeidan/README.md",
+      "map": {
+        "overview": "library/reports/two-books-full-20261025/zeidan/plot/README.md",
+        "html": "library/reports/two-books-full-20261025/zeidan/plot/map/index.html",
+        "reader": "library/reports/two-books-full-20261025/zeidan/plot/relations/index.html",
+        "png": "library/reports/two-books-full-20261025/zeidan/plot/whole-book/tree.png",
+        "svg": "library/reports/two-books-full-20261025/zeidan/plot/whole-book/tree.svg",
+        "preview": "library/reports/two-books-full-20261025/zeidan/plot/whole-book/tree-preview.png",
+        "graph": "library/reports/two-books-full-20261025/zeidan/plot/graph.json",
+        "events": 112,
+        "stages": 28,
+        "relations": 73,
+        "unit_count": 463
+      }
+    },
+    {
+      "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+      "source_revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+      "title": "重生之贼行天下",
+      "directory": "重生之贼行天下",
+      "author": "发飙的蜗牛",
+      "author_order": 3,
+      "genres": [
+        "网游"
+      ],
+      "tags": [
+        "虚拟现实"
+      ],
+      "published_links": [
+        {
+          "label": "来源登记与修订",
+          "path": "library/sources/src-7e18e3668cd940a7b76e7a7e76f4e292.json"
+        },
+        {
+          "label": "正式检查点 run-test-20261022-rebirth_thief",
+          "path": "exchanges/runs/run-test-20261022-rebirth_thief.json"
+        }
+      ],
+      "source_record_published": true,
+      "research_status": "partial",
+      "coverage_label": "Git已发布开篇4章；全书未完成"
+    },
+    {
+      "source_id": "src-9ff09c395734410b856f77c77a652834",
+      "source_revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+      "title": "超级骷髅兵",
+      "directory": "超级骷髅兵",
+      "author": "情终流水",
+      "author_order": 1,
+      "genres": [
+        "玄幻"
+      ],
+      "tags": [
+        "西方奇幻",
+        "不死生物"
+      ],
+      "published_links": [
+        {
+          "label": "来源登记与修订",
+          "path": "library/sources/src-9ff09c395734410b856f77c77a652834.json"
+        },
+        {
+          "label": "正式检查点 run-deep-super-skeleton-20261022",
+          "path": "exchanges/runs/run-deep-super-skeleton-20261022.json"
+        }
+      ],
+      "source_record_published": true,
+      "research_status": "full",
+      "coverage_label": "全书183个正文/序章，18集九维；待用户审阅",
+      "report": "library/reports/super-skeleton/README.md",
+      "map": {
+        "overview": "library/reports/super-skeleton/reading/plot/map.md",
+        "html": "library/reports/super-skeleton/reading/plot/reader/index.html",
+        "png": "library/reports/super-skeleton/reading/plot/whole-book/tree.png",
+        "svg": "library/reports/super-skeleton/reading/plot/whole-book/tree.svg",
+        "preview": "library/reports/super-skeleton/reading/plot/whole-book/tree-preview.png",
+        "events": 163,
+        "relations": 265,
+        "stages": 18,
+        "unit_count": 183
+      }
+    },
+    {
+      "source_id": "src-3827106c3eb24e58a7a70dc66eda226f",
+      "source_revision": "776f62e8e1b7e040314c1f214721e9a07fe2e5bf1c76a159b36be4a641ae6edd",
+      "title": "骷髅魔导师",
+      "directory": "骷髅魔导师",
+      "author": "情终流水",
+      "author_order": 2,
+      "genres": [
+        "玄幻"
+      ],
+      "tags": [
+        "西方奇幻",
+        "不死生物"
+      ],
+      "published_links": [
+        {
+          "label": "来源登记与修订",
+          "path": "library/sources/src-3827106c3eb24e58a7a70dc66eda226f.json"
+        },
+        {
+          "label": "正式检查点 run-test-20261022-skeleton_mage",
+          "path": "exchanges/runs/run-test-20261022-skeleton_mage.json"
+        }
+      ],
+      "source_record_published": true,
+      "research_status": "partial",
+      "coverage_label": "Git已发布开篇4章；全书未完成"
+    }
+  ]
+}
