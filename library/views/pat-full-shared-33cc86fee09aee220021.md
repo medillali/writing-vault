@@ -1,0 +1,131 @@
+# 回报开启新的前置条件
+
+ID: `pat-full-shared-33cc86fee09aee220021` · 版本: 1 · 范围: reusable-pattern
+
+把奖励拆成拥有、理解、制造、运用四种状态，让新资源继续提出可选择的问题。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-shared-33cc86fee09aee220021",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "把奖励拆成拥有、理解、制造、运用四种状态，让新资源继续提出可选择的问题。",
+    "exercise": "在自己的题材里更换目标、资源、关系和环境，只保留这一条机制；写后记录选择是否清晰、代价是否兑现、读者实际反馈。",
+    "failure_mode": "前置门槛须改变行动，不能只用拖延字数。",
+    "leveling_implementation": "早拿泰坦之心仍需鉴定、材料、导师与工艺，取得不等于能使用。",
+    "status": "跨书研究候选，尚非用户审定风格或原创正典。",
+    "summary": "把奖励拆成拥有、理解、制造、运用四种状态，让新资源继续提出可选择的问题。",
+    "zeidan_implementation": "满熟练却缺技能费，委托能提前升级但带任务责任；闲置钥匙以后才遇锁箱。"
+  },
+  "created_at": "2026-10-24T19:28:24.454157+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-42dd9be02ccbf749bd35",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-full-l-b58debe4f9d8706075df",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0011",
+      "claim_kind": "synthesis",
+      "end_line": 485,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 470
+    },
+    {
+      "chapter_id": "ch-0129",
+      "claim_kind": "synthesis",
+      "end_line": 5483,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 5459
+    },
+    {
+      "chapter_id": "ch-0300",
+      "claim_kind": "synthesis",
+      "end_line": 16306,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16258
+    },
+    {
+      "chapter_id": "ch-0319",
+      "claim_kind": "synthesis",
+      "end_line": 17507,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 17424
+    },
+    {
+      "chapter_id": "ch-0320",
+      "claim_kind": "synthesis",
+      "end_line": 17581,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 17508
+    },
+    {
+      "chapter_id": "ch-0006",
+      "claim_kind": "synthesis",
+      "end_line": 185,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 149
+    },
+    {
+      "chapter_id": "ch-0010",
+      "claim_kind": "synthesis",
+      "end_line": 355,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 320
+    },
+    {
+      "chapter_id": "ch-0221",
+      "claim_kind": "synthesis",
+      "end_line": 9256,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 9206
+    },
+    {
+      "chapter_id": "ch-0320",
+      "claim_kind": "synthesis",
+      "end_line": 14710,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 14675
+    },
+    {
+      "chapter_id": "ch-0321",
+      "claim_kind": "synthesis",
+      "end_line": 14810,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 14711
+    }
+  ],
+  "favorite": false,
+  "origin_key": "two-full-books-20261025/reward-adds-frontier",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "双书全书比较",
+    "原创机制候选",
+    "待审阅"
+  ],
+  "title": "回报开启新的前置条件",
+  "updated_at": "2026-10-24T19:28:24.454157+00:00",
+  "user_notes": ""
+}
+
+```

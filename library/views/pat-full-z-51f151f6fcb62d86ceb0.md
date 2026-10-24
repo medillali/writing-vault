@@ -1,0 +1,69 @@
+# 讲解示范后撤去导师完成验证
+
+ID: `pat-full-z-51f151f6fcb62d86ceb0` · 版本: 1 · 范围: reusable-pattern
+
+先给战术语言与现场示范，再让学习者面对旧克星，检验其自主选择。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-z-51f151f6fcb62d86ceb0",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "技能成长与师徒短交往",
+    "failure_mode": "学习者永远只按口令执行",
+    "stage": "stage-18",
+    "steps": [
+      "显示既有困境",
+      "具体动作纠错",
+      "导师逐渐撤手",
+      "同类对手验证改变"
+    ],
+    "summary": "先给战术语言与现场示范，再让学习者面对旧克星，检验其自主选择。",
+    "title": "讲解示范后撤去导师完成验证"
+  },
+  "created_at": "2026-10-24T19:28:07.401542+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-b139b4781b4ede0e10fb",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0298",
+      "claim_kind": "synthesis",
+      "end_line": 16213,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16198
+    },
+    {
+      "chapter_id": "ch-0300",
+      "claim_kind": "synthesis",
+      "end_line": 16296,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16270
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/pattern/stage-18/instruction-then-independent-test",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "讲解示范后撤去导师完成验证",
+  "updated_at": "2026-10-24T19:28:07.401542+00:00",
+  "user_notes": ""
+}
+
+```

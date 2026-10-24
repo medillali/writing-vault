@@ -1,0 +1,61 @@
+# 升级阶段改变熟悉战术有效性
+
+ID: `pat-full-z-98f4e044ec1f40f6a62f` · 版本: 1 · 范围: reusable-pattern
+
+强者能力须通过新生态重新检验。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-z-98f4e044ec1f40f6a62f",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "版本变化或境界跃迁",
+    "failure_mode": "忽略失败的实际所得和逃脱条件",
+    "stage": "stage-22",
+    "steps": [
+      "展现新攻击",
+      "遇团队重生链",
+      "旧清治疗法不足",
+      "脱战确认边界"
+    ],
+    "summary": "强者能力须通过新生态重新检验。",
+    "title": "升级阶段改变熟悉战术有效性"
+  },
+  "created_at": "2026-10-24T19:28:07.454912+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-915f5a195c5a23013deb",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0358",
+      "claim_kind": "synthesis",
+      "end_line": 20993,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 20967
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/pattern/stage-22/z-c-p-upgrade-invalidates-old",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "升级阶段改变熟悉战术有效性",
+  "updated_at": "2026-10-24T19:28:07.454912+00:00",
+  "user_notes": ""
+}
+
+```

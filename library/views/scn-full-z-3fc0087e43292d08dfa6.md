@@ -1,0 +1,56 @@
+# 《贼胆》临时组织身份漏洞
+
+ID: `scn-full-z-3fc0087e43292d08dfa6` · 版本: 1 · 范围: source-analysis
+
+萧御挡住徽章冒充捡装人员，对方以盗贼人数核对识破，他耗药逃。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-3fc0087e43292d08dfa6",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "混入群体的信息差场景",
+    "choice": "借成员彼此不熟争取几秒",
+    "consequence": "五绿到手并被记名",
+    "failure_mode": "若组织不核验身份，聪明会依靠他人无能",
+    "goal": "捡装备获利",
+    "obstacle": "人数多、成员都在场",
+    "stage": "stage-05",
+    "state_change": "战斗技能转成社会欺瞒并留下关系风险",
+    "summary": "萧御挡住徽章冒充捡装人员，对方以盗贼人数核对识破，他耗药逃。",
+    "title": "临时组织身份漏洞",
+    "why_it_works": "漏洞、识破方法和有限时间都具体。"
+  },
+  "created_at": "2026-10-24T19:28:06.718571+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0093",
+      "claim_kind": "inference",
+      "end_line": 4096,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4060
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-05/guild-imposture",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》临时组织身份漏洞",
+  "updated_at": "2026-10-24T19:28:06.718571+00:00",
+  "user_notes": ""
+}
+
+```

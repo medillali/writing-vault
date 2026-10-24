@@ -1,0 +1,56 @@
+# 《网游之练级专家》位移他人换主输出
+
+ID: `scn-full-l-638b6baa634ea59b3727` · 版本: 1 · 范围: source-analysis
+
+林菲龙翔踢主角离剑自己代死，配戒再逃花舞并立即跑开。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-l-638b6baa634ea59b3727",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "合作险境",
+    "choice": "可复活盗换输出命",
+    "consequence": "争20秒",
+    "failure_mode": "把辅助价值仅等于牺牲且永不回归",
+    "goal": "保核心输出且拖神攻击",
+    "obstacle": "一瞬移不足连续追",
+    "stage": "stage-20",
+    "state_change": "军团持续输出",
+    "summary": "林菲龙翔踢主角离剑自己代死，配戒再逃花舞并立即跑开。",
+    "title": "位移他人换主输出",
+    "why_it_works": "已有技能换用途并有明确职业权重"
+  },
+  "created_at": "2026-10-24T18:56:06.621042+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0387",
+      "claim_kind": "inference",
+      "end_line": 23060,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 23043
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/scene/stage-20/l10-linfei",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《网游之练级专家》位移他人换主输出",
+  "updated_at": "2026-10-24T18:56:06.621042+00:00",
+  "user_notes": ""
+}
+
+```

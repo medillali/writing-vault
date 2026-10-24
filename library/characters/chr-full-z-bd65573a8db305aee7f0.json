@@ -1,0 +1,125 @@
+{
+  "asset_id": "chr-full-z-bd65573a8db305aee7f0",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "云义",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "与萧御战平",
+          "旧粗豪性格转稳为萧御观察推测"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0309",
+            "claim_kind": "inference",
+            "end_line": 16893,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 16873
+          },
+          {
+            "chapter_id": "ch-0310",
+            "claim_kind": "inference",
+            "end_line": 16898,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 16894
+          },
+          {
+            "chapter_id": "ch-0310",
+            "claim_kind": "inference",
+            "end_line": 16950,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 16949
+          },
+          {
+            "chapter_id": "ch-0311",
+            "claim_kind": "inference",
+            "end_line": 17005,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 16995
+          }
+        ],
+        "goals": [
+          "敌对阵营对决"
+        ],
+        "knowledge": [
+          "判断萧御突击有限且正确"
+        ],
+        "name": "云义",
+        "original_record_name": "云义",
+        "relationships": [
+          "云天闹翻只是传闻",
+          "承认萧御伯仲之间"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-19",
+        "summary": "雷法高手，从云天学预判并保持高级杀伤偏好，罗盘示警、雷元素和陷阱构成体系。",
+        "unit_end": 310,
+        "unit_start": 300
+      }
+    ],
+    "source_keys": [
+      "yunyi"
+    ],
+    "summary": "雷法高手，从云天学预判并保持高级杀伤偏好，罗盘示警、雷元素和陷阱构成体系。"
+  },
+  "created_at": "2026-10-24T19:28:06.143346+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0309",
+      "claim_kind": "inference",
+      "end_line": 16893,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16873
+    },
+    {
+      "chapter_id": "ch-0310",
+      "claim_kind": "inference",
+      "end_line": 16898,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16894
+    },
+    {
+      "chapter_id": "ch-0310",
+      "claim_kind": "inference",
+      "end_line": 16950,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16949
+    },
+    {
+      "chapter_id": "ch-0311",
+      "claim_kind": "inference",
+      "end_line": 17005,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16995
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/character/云义",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《贼胆》云义〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:28:06.143346+00:00",
+  "user_notes": ""
+}

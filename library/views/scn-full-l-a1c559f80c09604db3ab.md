@@ -1,0 +1,56 @@
+# 《网游之练级专家》让规则条件拆开胜负
+
+ID: `scn-full-l-a1c559f80c09604db3ab` · 版本: 1 · 范围: source-analysis
+
+萧翎被雷爆杀却黑蛇毒杀云义，比赛判平、野外可喝瓶则输。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-l-a1c559f80c09604db3ab",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "竞技场规则明确的比试",
+    "choice": "以不需本体存活的毒蛇换杀",
+    "consequence": "比赛平局",
+    "failure_mode": "不可把PK判平写成野外必平",
+    "goal": "检验新客卿",
+    "obstacle": "情报与神技差距",
+    "stage": "stage-13",
+    "state_change": "主角承认仍有技术差距",
+    "summary": "萧翎被雷爆杀却黑蛇毒杀云义，比赛判平、野外可喝瓶则输。",
+    "title": "让规则条件拆开胜负",
+    "why_it_works": "胜负不是绝对战力表"
+  },
+  "created_at": "2026-10-24T18:56:06.428279+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0241",
+      "claim_kind": "inference",
+      "end_line": 10259,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 10229
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/scene/stage-13/l-b-s10",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《网游之练级专家》让规则条件拆开胜负",
+  "updated_at": "2026-10-24T18:56:06.428279+00:00",
+  "user_notes": ""
+}
+
+```

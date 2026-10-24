@@ -1,0 +1,90 @@
+{
+  "asset_id": "chr-full-l-2f0fa918bb018b2730a1",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源、已读上下文中的同名角色按阶段聚合；异名未自动合并，跨书同名始终分开。末次记录是该人物最后一次专题观察，不代表已证明其结局。",
+    "name": "艾莫",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "复苏杀精英、赠配方、提供最后药王戒位置"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0224",
+            "claim_kind": "inference",
+            "end_line": 9397,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 9378
+          },
+          {
+            "chapter_id": "ch-0225",
+            "claim_kind": "inference",
+            "end_line": 9438,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 9432
+          }
+        ],
+        "goals": [
+          "获救、答谢"
+        ],
+        "knowledge": [
+          "森林龙藏戒"
+        ],
+        "name": "艾莫",
+        "relationships": [
+          "弟奥莫挡护；感谢夜落"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-12",
+        "summary": "被石化的宗师药师兄长。",
+        "unit_end": 233,
+        "unit_start": 214
+      }
+    ],
+    "source_keys": [
+      "ai-mo"
+    ],
+    "summary": "被石化的宗师药师兄长。"
+  },
+  "created_at": "2026-10-24T18:56:06.129866+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0224",
+      "claim_kind": "inference",
+      "end_line": 9397,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 9378
+    },
+    {
+      "chapter_id": "ch-0225",
+      "claim_kind": "inference",
+      "end_line": 9438,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 9432
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/character/艾莫",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《网游之练级专家》艾莫〔全书阶段档案〕",
+  "updated_at": "2026-10-24T18:56:06.129866+00:00",
+  "user_notes": ""
+}

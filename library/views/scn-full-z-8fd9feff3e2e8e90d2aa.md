@@ -1,0 +1,72 @@
+# 《贼胆》华丽终招晚到一拍
+
+ID: `scn-full-z-8fd9feff3e2e8e90d2aa` · 版本: 1 · 范围: source-analysis
+
+刀剑狂化追杀，萧隐身拖时保底牌；最后被低血锁定，却因狂化已过只受2108。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-8fd9feff3e2e8e90d2aa",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "有时限增益的机制悬念与险胜",
+    "choice": "不硬拼转等待，在最后几秒被迫招架与逃",
+    "consequence": "胜但差点被准备好的终招翻盘，承认藏招大意",
+    "failure_mode": "时限只结尾临时补，或旁白又称一切尽在掌握抹掉风险。",
+    "goal": "赢且保留影子战士",
+    "obstacle": "对手免控强攻、专克低血隐身",
+    "stage": "stage-27",
+    "state_change": "策略优势和偶然幸运并存",
+    "summary": "刀剑狂化追杀，萧隐身拖时保底牌；最后被低血锁定，却因狂化已过只受2108。",
+    "title": "华丽终招晚到一拍",
+    "why_it_works": "早立一分钟与虚弱规则，末技威势先抬高再以小伤数揭示已过时限，读者能复算。"
+  },
+  "created_at": "2026-10-24T19:28:07.196529+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0450",
+      "claim_kind": "inference",
+      "end_line": 27964,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27963
+    },
+    {
+      "chapter_id": "ch-0451",
+      "claim_kind": "inference",
+      "end_line": 28012,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27990
+    },
+    {
+      "chapter_id": "ch-0451",
+      "claim_kind": "inference",
+      "end_line": 28045,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28027
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-27/z-scene-berserk-deadline",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》华丽终招晚到一拍",
+  "updated_at": "2026-10-24T19:28:07.196529+00:00",
+  "user_notes": ""
+}
+
+```

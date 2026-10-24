@@ -1,0 +1,56 @@
+# 《贼胆》捕获不是杀死
+
+ID: `scn-full-z-f129ddd0f133b337de31` · 版本: 1 · 范围: source-analysis
+
+风野轮法弓控血，主角抓灵魂波动，在600血以下招魂成。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-f129ddd0f133b337de31",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "非击杀目标任务",
+    "choice": "分档降输出并等待",
+    "consequence": "比蒙变封印一级",
+    "failure_mode": "以杀Boss概述抹捕捉风险",
+    "goal": "收宠",
+    "obstacle": "杀快会把目标杀死",
+    "stage": "stage-21",
+    "state_change": "新成长链启动",
+    "summary": "风野轮法弓控血，主角抓灵魂波动，在600血以下招魂成。",
+    "title": "捕获不是杀死",
+    "why_it_works": "目标改变要求组织调资源精度"
+  },
+  "created_at": "2026-10-24T19:28:07.027590+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0325",
+      "claim_kind": "inference",
+      "end_line": 17874,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 17843
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-21/zc01-capture",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》捕获不是杀死",
+  "updated_at": "2026-10-24T19:28:07.027590+00:00",
+  "user_notes": ""
+}
+
+```

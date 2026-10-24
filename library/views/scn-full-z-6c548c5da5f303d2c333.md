@@ -1,0 +1,56 @@
+# 《贼胆》同一掉落在更大市场兑现
+
+ID: `scn-full-z-6c548c5da5f303d2c333` · 版本: 1 · 范围: source-analysis
+
+回魔配方在中立三国市场遇组织竞争，报价升1200金，主角理解治疗续航的机构价值。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-6c548c5da5f303d2c333",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "职业经济叙事",
+    "choice": "选择跨阵营大市场拍卖",
+    "consequence": "资本足以换装并提现",
+    "failure_mode": "源文抬价喜剧若照搬会产生独特场景泄漏",
+    "goal": "出售副本收获",
+    "obstacle": "不知组织愿付价格",
+    "stage": "stage-06",
+    "state_change": "知识和稀缺性变成现实生计",
+    "summary": "回魔配方在中立三国市场遇组织竞争，报价升1200金，主角理解治疗续航的机构价值。",
+    "title": "同一掉落在更大市场兑现",
+    "why_it_works": "买方用途解释比单纯天价更有因果。"
+  },
+  "created_at": "2026-10-24T19:28:06.733078+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0112",
+      "claim_kind": "inference",
+      "end_line": 4833,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4803
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-06/auction-information",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》同一掉落在更大市场兑现",
+  "updated_at": "2026-10-24T19:28:06.733078+00:00",
+  "user_notes": ""
+}
+
+```

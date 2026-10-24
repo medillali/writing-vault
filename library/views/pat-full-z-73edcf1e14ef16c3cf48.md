@@ -1,0 +1,70 @@
+# 主目标成功保留机会损失
+
+ID: `pat-full-z-73edcf1e14ef16c3cf48` · 版本: 1 · 范围: reusable-pattern
+
+主角采到草并交任务，但不解支线真相，胜果不能取消失误。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-z-73edcf1e14ef16c3cf48",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "玩家式主角认知局限",
+    "failure_mode": "若只为惩戒无损关系或后果会流于说教",
+    "stage": "stage-10",
+    "steps": [
+      "铺可听懂线索",
+      "主角以效率略过",
+      "战术胜利",
+      "系统价值反判",
+      "留未知奖励和故事"
+    ],
+    "summary": "主角采到草并交任务，但不解支线真相，胜果不能取消失误。",
+    "title": "主目标成功保留机会损失"
+  },
+  "created_at": "2026-10-24T19:28:07.324806+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-c103648213a536708c70",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0191",
+      "claim_kind": "synthesis",
+      "end_line": 9111,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 9108
+    },
+    {
+      "chapter_id": "ch-0192",
+      "claim_kind": "synthesis",
+      "end_line": 9119,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 9115
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/pattern/stage-10/victory-with-lost-opportunity",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "主目标成功保留机会损失",
+  "updated_at": "2026-10-24T19:28:07.324806+00:00",
+  "user_notes": ""
+}
+
+```

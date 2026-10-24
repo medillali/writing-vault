@@ -1,0 +1,56 @@
+# 《网游之练级专家》替情敌挡狼
+
+ID: `scn-full-l-154726326ccd0eab503a` · 版本: 1 · 范围: source-analysis
+
+牧琳在大魔法吟唱中救紫焰。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-l-154726326ccd0eab503a",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "利益与私情重叠",
+    "choice": "公私分明出手",
+    "consequence": "神之语清场但团仍死半",
+    "failure_mode": "用一次救援抹平全部矛盾",
+    "goal": "守五分钟",
+    "obstacle": "隐狼从后突击",
+    "stage": "stage-16",
+    "state_change": "关系缓和未等于解决感情",
+    "summary": "牧琳在大魔法吟唱中救紫焰。",
+    "title": "替情敌挡狼",
+    "why_it_works": "立场冲突通过行动表现"
+  },
+  "created_at": "2026-10-24T18:56:06.501839+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0307",
+      "claim_kind": "inference",
+      "end_line": 13778,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 13751
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/scene/stage-16/l-b06-wolves",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《网游之练级专家》替情敌挡狼",
+  "updated_at": "2026-10-24T18:56:06.501839+00:00",
+  "user_notes": ""
+}
+
+```

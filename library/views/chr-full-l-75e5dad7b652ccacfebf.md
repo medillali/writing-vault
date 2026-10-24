@@ -1,0 +1,164 @@
+# 《网游之练级专家》塔布雷特〔全书阶段档案〕
+
+ID: `chr-full-l-75e5dad7b652ccacfebf` · 版本: 2 · 范围: source-analysis
+
+神之境再次出现相拥，爱恋幸福，主角选择不打扰。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-l-75e5dad7b652ccacfebf",
+  "asset_type": "character",
+  "content": {
+    "aliases": [
+      "食尸鬼塔布雷特"
+    ],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "塔布雷特",
+    "snapshots": [
+      {
+        "aliases": [
+          "食尸鬼塔布雷特"
+        ],
+        "changes": [
+          "神智与本能冲突",
+          "停爪不伤阿卡德",
+          "净化灵魂离去"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0136",
+            "claim_kind": "inference",
+            "end_line": 5243,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 5217
+          },
+          {
+            "chapter_id": "ch-0137",
+            "claim_kind": "inference",
+            "end_line": 5290,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 5248
+          },
+          {
+            "chapter_id": "ch-0138",
+            "claim_kind": "inference",
+            "end_line": 5318,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 5298
+          }
+        ],
+        "goals": [
+          "等奥斯林兰",
+          "保存爱情"
+        ],
+        "knowledge": [
+          "吊坠阳光下有忏悔铭文"
+        ],
+        "name": "塔布雷特",
+        "original_record_name": "塔布雷特",
+        "relationships": [
+          "爱奥斯林兰",
+          "受阿卡德保护与悲悯"
+        ],
+        "source_anomalies": [
+          "最初血腥屠戮者说法被先知后续修正"
+        ],
+        "stage": "stage-07",
+        "summary": "纯净毁灭术士为奥斯林兰自愿改鬼，忍饥不食尸，保持向阳看坠饰的一瞬爱意记忆。",
+        "unit_end": 140,
+        "unit_start": 121
+      },
+      {
+        "aliases": [],
+        "changes": [
+          "前半悲恋获后置相守"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0384",
+            "claim_kind": "inference",
+            "end_line": 22771,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 22757
+          }
+        ],
+        "goals": [],
+        "knowledge": [],
+        "name": "塔布雷特",
+        "original_record_name": "奥斯林兰与塔布雷特",
+        "record_role": "两人关系的结局补记，已分别链接至各自档案",
+        "relationships": [],
+        "source_anomalies": [],
+        "stage": "stage-20",
+        "summary": "神之境再次出现相拥，爱恋幸福，主角选择不打扰。",
+        "unit_end": 387,
+        "unit_start": 374
+      }
+    ],
+    "source_keys": [
+      "tabuleite",
+      "oslinlan-tabrett"
+    ],
+    "summary": "神之境再次出现相拥，爱恋幸福，主角选择不打扰。"
+  },
+  "created_at": "2026-10-24T18:56:05.883081+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0136",
+      "claim_kind": "inference",
+      "end_line": 5243,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 5217
+    },
+    {
+      "chapter_id": "ch-0137",
+      "claim_kind": "inference",
+      "end_line": 5290,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 5248
+    },
+    {
+      "chapter_id": "ch-0138",
+      "claim_kind": "inference",
+      "end_line": 5318,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 5298
+    },
+    {
+      "chapter_id": "ch-0384",
+      "claim_kind": "inference",
+      "end_line": 22771,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 22757
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/character/塔布雷特",
+  "review_status": "draft",
+  "revision": 2,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《网游之练级专家》塔布雷特〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:10:55.352022+00:00",
+  "user_notes": ""
+}
+
+```

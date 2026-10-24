@@ -1,0 +1,64 @@
+# 《贼胆》输首轮而用预备资源再战
+
+ID: `scn-full-z-8374f8848fbea9ac3a31` · 版本: 1 · 范围: source-analysis
+
+头领击杀数傀儡，萧御保住其余，组合逃生后以储备灵纹符重建远程群。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-8374f8848fbea9ac3a31",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "策略战避免绝境必爆种",
+    "choice": "放弃硬拼并用尸体补兵",
+    "consequence": "再次拉怪围堵成功，取得配方",
+    "failure_mode": "敌人回复若无界限会无法比较消耗",
+    "goal": "通过守关头领",
+    "obstacle": "爆发后无蓝、血薄",
+    "stage": "stage-06",
+    "state_change": "局部败势变成资源战",
+    "summary": "头领击杀数傀儡，萧御保住其余，组合逃生后以储备灵纹符重建远程群。",
+    "title": "输首轮而用预备资源再战",
+    "why_it_works": "提前储符与不消尸体规则支撑第二次机会。"
+  },
+  "created_at": "2026-10-24T19:28:06.733078+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0106",
+      "claim_kind": "inference",
+      "end_line": 4631,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4618
+    },
+    {
+      "chapter_id": "ch-0107",
+      "claim_kind": "inference",
+      "end_line": 4677,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4644
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-06/rebuild-bat-army",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》输首轮而用预备资源再战",
+  "updated_at": "2026-10-24T19:28:06.733078+00:00",
+  "user_notes": ""
+}
+
+```

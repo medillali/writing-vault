@@ -1,0 +1,64 @@
+# 《贼胆》阶层压力里问当事人意愿
+
+ID: `scn-full-z-583399797dabdc10b5ea` · 版本: 1 · 范围: source-analysis
+
+父亲列差距欲带女离，萧敢拒代女决定与金钱交换，父笑揭试探认可并邀请同赴新星。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-583399797dabdc10b5ea",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "亲属试探、利益与感情冲突",
+    "choice": "先问是否赵意愿，自愿离可同意否则拒",
+    "consequence": "父正式认可，迁移邀约带来后续共同决定",
+    "failure_mode": "以突然试探撤回真实伤害，女方全程缺席又把两男人谈妥当她决定。",
+    "goal": "维护赵自主与关系",
+    "obstacle": "军方高层能压人、萧还有妹妹牵挂",
+    "stage": "stage-24",
+    "state_change": "现实关系由潜在阶层阻力转长辈认可",
+    "summary": "父亲列差距欲带女离，萧敢拒代女决定与金钱交换，父笑揭试探认可并邀请同赴新星。",
+    "title": "阶层压力里问当事人意愿",
+    "why_it_works": "压力先落在已知权势和家人牵挂；人物话里的价值选择可验证，随后需赵本人再决定。"
+  },
+  "created_at": "2026-10-24T19:28:07.119642+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0381",
+      "claim_kind": "inference",
+      "end_line": 23067,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 23036
+    },
+    {
+      "chapter_id": "ch-0382",
+      "claim_kind": "inference",
+      "end_line": 23113,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 23106
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-24/z-scene-father-trial",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》阶层压力里问当事人意愿",
+  "updated_at": "2026-10-24T19:28:07.119642+00:00",
+  "user_notes": ""
+}
+
+```

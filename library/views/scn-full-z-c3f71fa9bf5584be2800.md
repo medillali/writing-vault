@@ -1,0 +1,64 @@
+# 《贼胆》相同诱饵下的耐性差
+
+ID: `scn-full-z-c3f71fa9bf5584be2800` · 版本: 1 · 范围: source-analysis
+
+两方都舍不得三十金币幼崽，敌人假撤想回袭，萧御反向监视二十分钟再动。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-c3f71fa9bf5584be2800",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "智斗与资源争夺",
+    "choice": "先查撤离真假，再等敌方投入战斗",
+    "consequence": "偷袭火法成功，最终获得资源",
+    "failure_mode": "若等待时间没有敌人收益压力，胜负会随意",
+    "goal": "消除敌队并取得幼崽",
+    "obstacle": "对方同样懂借怪伏击",
+    "stage": "stage-03",
+    "state_change": "猎人与猎物身份经试探重新确定",
+    "summary": "两方都舍不得三十金币幼崽，敌人假撤想回袭，萧御反向监视二十分钟再动。",
+    "title": "相同诱饵下的耐性差",
+    "why_it_works": "敌人有合理谋略，主角优势来自耐性而非对手全无判断。"
+  },
+  "created_at": "2026-10-24T19:28:06.649623+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0044",
+      "claim_kind": "inference",
+      "end_line": 1880,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1876
+    },
+    {
+      "chapter_id": "ch-0045",
+      "claim_kind": "inference",
+      "end_line": 1919,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1884
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-03/counter-ambush-patience",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》相同诱饵下的耐性差",
+  "updated_at": "2026-10-24T19:28:06.649623+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,70 @@
+# 借真假混合信息改写谈判成本
+
+ID: `pat-full-l-2d33c72750bdd040aa62` · 版本: 1 · 范围: reusable-pattern
+
+以可核验细节给虚构关系增信，将拒绝奖励变为对方担忧的更大风险。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-l-2d33c72750bdd040aa62",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "规则执行者也受更高层约束、主角掌握不对称证据",
+    "failure_mode": "权威无约束力、证据无法证明接触，或后续核验被忽略。",
+    "stage": "stage-08",
+    "steps": [
+      "确认对方真正害怕的权威",
+      "展示真实接触痕迹",
+      "以善意口吻叙述可能后果",
+      "留足对方改规则的体面出口",
+      "达到目标后停止追加"
+    ],
+    "summary": "以可核验细节给虚构关系增信，将拒绝奖励变为对方担忧的更大风险。",
+    "title": "借真假混合信息改写谈判成本"
+  },
+  "created_at": "2026-10-24T18:56:06.703014+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-l-d46314c13d6dd411e6e1",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0151",
+      "claim_kind": "synthesis",
+      "end_line": 5979,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 5963
+    },
+    {
+      "chapter_id": "ch-0152",
+      "claim_kind": "synthesis",
+      "end_line": 6018,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 5998
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/pattern/stage-08/l-pattern-trusted-front",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "借真假混合信息改写谈判成本",
+  "updated_at": "2026-10-24T18:56:06.703014+00:00",
+  "user_notes": ""
+}
+
+```

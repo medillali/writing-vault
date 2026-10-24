@@ -1,0 +1,86 @@
+# 奖励制造下一层约束
+
+ID: `pat-full-z-6f9952e76c20e94e7ff2` · 版本: 1 · 范围: reusable-pattern
+
+能力增长触发费用、资源需求和任务债，使每次兑现继续牵引行动。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-z-6f9952e76c20e94e7ff2",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "持续升级叙事的经济闭环",
+    "failure_mode": "费用永远只靠偶然极品解决会单调",
+    "stage": "stage-01",
+    "steps": [
+      "技能进步",
+      "资源短缺显现",
+      "接受有代价机会",
+      "战斗收益填缺口",
+      "新物品引出新的风险"
+    ],
+    "summary": "能力增长触发费用、资源需求和任务债，使每次兑现继续牵引行动。",
+    "title": "奖励制造下一层约束"
+  },
+  "created_at": "2026-10-24T19:28:07.225798+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-c0fa10ebae5b011f886e",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-full-z-91564decd3df8d3d878c",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-full-z-94484c025d8b80324a6c",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0011",
+      "claim_kind": "synthesis",
+      "end_line": 480,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 470
+    },
+    {
+      "chapter_id": "ch-0017",
+      "claim_kind": "synthesis",
+      "end_line": 756,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 736
+    },
+    {
+      "chapter_id": "ch-0020",
+      "claim_kind": "synthesis",
+      "end_line": 889,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 887
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/pattern/stage-01/reward-rebind",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "奖励制造下一层约束",
+  "updated_at": "2026-10-24T19:28:07.225798+00:00",
+  "user_notes": ""
+}
+
+```

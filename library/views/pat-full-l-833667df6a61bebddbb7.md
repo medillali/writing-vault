@@ -1,0 +1,85 @@
+# 用知识边界写战术博弈
+
+ID: `pat-full-l-833667df6a61bebddbb7` · 版本: 1 · 范围: reusable-pattern
+
+先确知部分规则，保留对手未知能力，再以试探暴露信息。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-l-833667df6a61bebddbb7",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "规则清晰且双方有智力的战斗",
+    "failure_mode": "叙述者把猜测直接确认为全知正确",
+    "stage": "stage-03",
+    "steps": [
+      "侦察局部边界",
+      "区分已知与推测",
+      "按可能反制布局",
+      "对手反推并再次试探"
+    ],
+    "summary": "先确知部分规则，保留对手未知能力，再以试探暴露信息。",
+    "title": "用知识边界写战术博弈"
+  },
+  "created_at": "2026-10-24T18:56:06.651149+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-l-45aa43197d25026437d5",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0053",
+      "claim_kind": "synthesis",
+      "end_line": 1967,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 1949
+    },
+    {
+      "chapter_id": "ch-0054",
+      "claim_kind": "synthesis",
+      "end_line": 2005,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 1995
+    },
+    {
+      "chapter_id": "ch-0060",
+      "claim_kind": "synthesis",
+      "end_line": 2189,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 2181
+    },
+    {
+      "chapter_id": "ch-0061",
+      "claim_kind": "synthesis",
+      "end_line": 2234,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 2204
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/pattern/stage-03/information-boundary-duel",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "用知识边界写战术博弈",
+  "updated_at": "2026-10-24T18:56:06.651149+00:00",
+  "user_notes": ""
+}
+
+```

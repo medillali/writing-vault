@@ -1,0 +1,104 @@
+{
+  "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+  "source_revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+  "source_key": "l",
+  "assigned_unit_start": 1,
+  "assigned_unit_end": 193,
+  "total_source_units": 387,
+  "method": "逐单元全文模型阅读，非目录/检索/旧摘要推演；本脚本仅保存与审计派生结果",
+  "full_read_intervals": [
+    [
+      1,
+      193
+    ]
+  ],
+  "missing_units": [],
+  "saved_batches": [
+    {
+      "file": "batch-01.json",
+      "start": 1,
+      "end": 20
+    },
+    {
+      "file": "batch-02.json",
+      "start": 21,
+      "end": 40
+    },
+    {
+      "file": "batch-03.json",
+      "start": 41,
+      "end": 60
+    },
+    {
+      "file": "batch-04.json",
+      "start": 61,
+      "end": 80
+    },
+    {
+      "file": "batch-05.json",
+      "start": 81,
+      "end": 100
+    },
+    {
+      "file": "batch-06.json",
+      "start": 101,
+      "end": 120
+    },
+    {
+      "file": "batch-07.json",
+      "start": 121,
+      "end": 140
+    },
+    {
+      "file": "batch-08.json",
+      "start": 141,
+      "end": 160
+    },
+    {
+      "file": "batch-09.json",
+      "start": 161,
+      "end": 180
+    },
+    {
+      "file": "batch-10.json",
+      "start": 181,
+      "end": 193
+    }
+  ],
+  "truncation_recovery": [
+    [
+      "early_1_10",
+      "重读4..8覆盖缺段"
+    ],
+    [
+      "early_11_20",
+      "重读14..17覆盖缺段"
+    ],
+    [
+      "117..120",
+      "重读118..119"
+    ],
+    [
+      "141..144",
+      "143三合章单读"
+    ],
+    [
+      "161..164",
+      "162单读完整补齐"
+    ]
+  ],
+  "boundary": {
+    "last_unit": 193,
+    "last_unit_id": "ch-0194",
+    "last_printed_title": "第194章 奥托姆博的传承",
+    "last_lines": [
+      7867,
+      7911
+    ],
+    "next_unit": 194,
+    "next_unit_id": "ch-0195",
+    "next_start_line": 7912,
+    "state": "火焰领主莫里多纳已被霍尔卡德用魔炎诅咒杀死；霍尔已将三件传承装备交给萧翎并离洞。全团未到前线。"
+  },
+  "scope_note": "read coverage只确认本代理1..193；不声称全书已读。"
+}

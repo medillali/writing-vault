@@ -1,0 +1,64 @@
+# 《网游之练级专家》被嘲弄时完成专业操作
+
+ID: `scn-full-l-fbf2f3f70912abb7f720` · 版本: 1 · 范围: source-analysis
+
+风龙忙于贬低，萧翎持续破解符文锁，得到工程升级与泰坦之心。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-l-fbf2f3f70912abb7f720",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "专业能力首次显形",
+    "choice": "保持专注、用基础理论试解",
+    "consequence": "取出瑰宝但钟毁失业",
+    "failure_mode": "让旁人愚蠢到只为衬托主角；奖励无前置积累",
+    "goal": "理解古钟动力",
+    "obstacle": "能力不足的五阶符文锁与旁人嘲弄",
+    "stage": "stage-01",
+    "state_change": "社会地位低的表象与真实专业收益分离",
+    "summary": "风龙忙于贬低，萧翎持续破解符文锁，得到工程升级与泰坦之心。",
+    "title": "被嘲弄时完成专业操作",
+    "why_it_works": "奖励连着代价，使专注既显能力也改变生活路线。"
+  },
+  "created_at": "2026-10-24T18:56:06.257840+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0005",
+      "claim_kind": "inference",
+      "end_line": 145,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 118
+    },
+    {
+      "chapter_id": "ch-0006",
+      "claim_kind": "inference",
+      "end_line": 185,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 153
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/scene/stage-01/clock-unlock",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《网游之练级专家》被嘲弄时完成专业操作",
+  "updated_at": "2026-10-24T18:56:06.257840+00:00",
+  "user_notes": ""
+}
+
+```

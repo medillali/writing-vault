@@ -1,0 +1,121 @@
+# 《网游之练级专家》霍尔卡德〔全书阶段档案〕
+
+ID: `chr-full-l-9f8cea4b6a608227cffc` · 版本: 2 · 范围: source-analysis
+
+奥托姆博之子、老年野蛮狂战，五十年前被父舍命守卧室；卖信仰给炎之使魔得咒，亲杀莫里多纳，交传承装后离去。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-l-9f8cea4b6a608227cffc",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "霍尔卡德",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "慈厚讲父到战中黑气",
+          "复仇完成并承认欺骗"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0192",
+            "claim_kind": "inference",
+            "end_line": 7821,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 7807
+          },
+          {
+            "chapter_id": "ch-0193",
+            "claim_kind": "inference",
+            "end_line": 7836,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 7833
+          },
+          {
+            "chapter_id": "ch-0194",
+            "claim_kind": "inference",
+            "end_line": 7909,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 7881
+          }
+        ],
+        "goals": [
+          "以领主心祭父",
+          "回埃弗蒙战神殿受审"
+        ],
+        "knowledge": [
+          "父曾刺心未杀领主，故寻特殊咒"
+        ],
+        "name": "霍尔卡德",
+        "original_record_name": "霍尔卡德",
+        "relationships": [
+          "奥托姆博儿子、雷蒙卡德孙",
+          "向牧野等托付三件装备"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-10",
+        "summary": "奥托姆博之子、老年野蛮狂战，五十年前被父舍命守卧室；卖信仰给炎之使魔得咒，亲杀莫里多纳，交传承装后离去。",
+        "unit_end": 193,
+        "unit_start": 181
+      }
+    ],
+    "source_keys": [
+      "holkad"
+    ],
+    "summary": "奥托姆博之子、老年野蛮狂战，五十年前被父舍命守卧室；卖信仰给炎之使魔得咒，亲杀莫里多纳，交传承装后离去。"
+  },
+  "created_at": "2026-10-24T18:56:06.214170+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0192",
+      "claim_kind": "inference",
+      "end_line": 7821,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 7807
+    },
+    {
+      "chapter_id": "ch-0193",
+      "claim_kind": "inference",
+      "end_line": 7836,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 7833
+    },
+    {
+      "chapter_id": "ch-0194",
+      "claim_kind": "inference",
+      "end_line": 7909,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 7881
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/character/霍尔卡德",
+  "review_status": "draft",
+  "revision": 2,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《网游之练级专家》霍尔卡德〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:10:55.697315+00:00",
+  "user_notes": ""
+}
+
+```

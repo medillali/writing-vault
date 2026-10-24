@@ -1,0 +1,70 @@
+# 对方强项转为消耗负担
+
+ID: `pat-full-z-de6fb2047545fbce66ee` · 版本: 1 · 范围: reusable-pattern
+
+多法术逼玩家反复躲，却使法力先耗尽。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-z-de6fb2047545fbce66ee",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "公平有约束竞技",
+    "failure_mode": "靠对手莫名不看蓝",
+    "stage": "stage-21",
+    "steps": [
+      "先承认压制",
+      "展示两边资源",
+      "节省体力付部分血",
+      "迫对方保持施法",
+      "空蓝后控制链"
+    ],
+    "summary": "多法术逼玩家反复躲，却使法力先耗尽。",
+    "title": "对方强项转为消耗负担"
+  },
+  "created_at": "2026-10-24T19:28:07.423672+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-6b1c11dbcb231747a0c8",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0333",
+      "claim_kind": "synthesis",
+      "end_line": 18414,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18393
+    },
+    {
+      "chapter_id": "ch-0333",
+      "claim_kind": "synthesis",
+      "end_line": 18462,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18435
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/pattern/stage-21/zc01-resource",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "对方强项转为消耗负担",
+  "updated_at": "2026-10-24T19:28:07.423672+00:00",
+  "user_notes": ""
+}
+
+```

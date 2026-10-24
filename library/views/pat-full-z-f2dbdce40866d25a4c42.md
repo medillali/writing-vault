@@ -1,0 +1,61 @@
+# 让个人伤口承接宏观历史
+
+ID: `pat-full-z-f2dbdce40866d25a4c42` · 版本: 1 · 范围: reusable-pattern
+
+已知历史经有立场人物的具体家庭经历重述，联到主角既有价值。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-z-f2dbdce40866d25a4c42",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "世界观情感化",
+    "failure_mode": "把有立场证词写成全知事实",
+    "stage": "stage-03",
+    "steps": [
+      "先建主角现实伤口",
+      "先给基本世界史",
+      "让当事人讲细节",
+      "用物品承载价值承诺"
+    ],
+    "summary": "已知历史经有立场人物的具体家庭经历重述，联到主角既有价值。",
+    "title": "让个人伤口承接宏观历史"
+  },
+  "created_at": "2026-10-24T19:28:07.240124+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-cbfc366ded6562f3a8c6",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0049",
+      "claim_kind": "synthesis",
+      "end_line": 2084,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 2069
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/pattern/stage-03/history-through-wound",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "让个人伤口承接宏观历史",
+  "updated_at": "2026-10-24T19:28:07.240124+00:00",
+  "user_notes": ""
+}
+
+```

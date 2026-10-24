@@ -1,0 +1,64 @@
+# 《贼胆》抢装成功由集体救尸托底
+
+ID: `scn-full-z-8dc61b5bbe6f6fa53d40` · 版本: 1 · 范围: source-analysis
+
+主角抢两件后被杀，风野用大量人员损失换其不掉级，获得个人与公会双重战果。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-8dc61b5bbe6f6fa53d40",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "个人行动嵌入组织战",
+    "choice": "先抢、边闪避边换装并关闭复活，风野组织抢尸",
+    "consequence": "损传说戒但得两史诗，六百贼五百余牺牲后救回",
+    "failure_mode": "只写主角零损失会删除替他承受的成本",
+    "goal": "夺骨龙掉落并尽量保住自身价值",
+    "obstacle": "万人包围、魔法控制、尸体复活二十分钟窗口",
+    "stage": "stage-19",
+    "state_change": "独行能力被组织资源放大，集体成本与个人收益不对称",
+    "summary": "主角抢两件后被杀，风野用大量人员损失换其不掉级，获得个人与公会双重战果。",
+    "title": "抢装成功由集体救尸托底",
+    "why_it_works": "同场分别结算物品、等级、组织伤亡和信任"
+  },
+  "created_at": "2026-10-24T19:28:07.011967+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0305",
+      "claim_kind": "inference",
+      "end_line": 16662,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16625
+    },
+    {
+      "chapter_id": "ch-0306",
+      "claim_kind": "inference",
+      "end_line": 16714,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16690
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-19/raid-loot-and-rescue-cost",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》抢装成功由集体救尸托底",
+  "updated_at": "2026-10-24T19:28:07.011967+00:00",
+  "user_notes": ""
+}
+
+```

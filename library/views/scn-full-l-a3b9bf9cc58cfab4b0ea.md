@@ -1,0 +1,64 @@
+# 《网游之练级专家》华丽装备背后的退出代价
+
+ID: `scn-full-l-a3b9bf9cc58cfab4b0ea` · 版本: 1 · 范围: source-analysis
+
+羡慕公会资助后听见每人五十万违约金，合作谈判转向自由固定团。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-l-a3b9bf9cc58cfab4b0ea",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "组织招募与自主权冲突",
+    "choice": "提供平时自由、BOSS集合的安排",
+    "consequence": "主角答应且不加入公会",
+    "failure_mode": "只有阴谋没有组织实际资源收益",
+    "goal": "争取主角长期加入",
+    "obstacle": "主角担心团队束缚，资助又有公会控制",
+    "stage": "stage-02",
+    "state_change": "团队关系获得边界",
+    "summary": "羡慕公会资助后听见每人五十万违约金，合作谈判转向自由固定团。",
+    "title": "华丽装备背后的退出代价",
+    "why_it_works": "福利与控制是同一制度的两面，产生真实交易而非简单好坏。"
+  },
+  "created_at": "2026-10-24T18:56:06.277667+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0038",
+      "claim_kind": "inference",
+      "end_line": 1442,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 1439
+    },
+    {
+      "chapter_id": "ch-0040",
+      "claim_kind": "inference",
+      "end_line": 1516,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 1500
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/scene/stage-02/guild-cost-reveal",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《网游之练级专家》华丽装备背后的退出代价",
+  "updated_at": "2026-10-24T18:56:06.277667+00:00",
+  "user_notes": ""
+}
+
+```

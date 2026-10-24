@@ -1,0 +1,64 @@
+# 《贼胆》逃生物改变为进攻工具
+
+ID: `scn-full-z-fd06823174d17acbf068` · 版本: 1 · 范围: source-analysis
+
+城民证本想逃城，改伪装混塔杀治疗开门。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-fd06823174d17acbf068",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "道具解题",
+    "choice": "伪装进入攻击治疗并堵楼梯",
+    "consequence": "炮塔逐一陷落，全队准将",
+    "failure_mode": "平民被杀取得道具的代价不能被庆功抹去",
+    "goal": "攻炮塔",
+    "obstacle": "战士堵口牧师轮换",
+    "stage": "stage-22",
+    "state_change": "既有道具多用途回收",
+    "summary": "城民证本想逃城，改伪装混塔杀治疗开门。",
+    "title": "逃生物改变为进攻工具",
+    "why_it_works": "同一物件用途反转来自具体防线结构"
+  },
+  "created_at": "2026-10-24T19:28:07.084788+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0356",
+      "claim_kind": "inference",
+      "end_line": 20589,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 20575
+    },
+    {
+      "chapter_id": "ch-0358",
+      "claim_kind": "inference",
+      "end_line": 20899,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 20826
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-22/z-c-s-tower-token",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》逃生物改变为进攻工具",
+  "updated_at": "2026-10-24T19:28:07.084788+00:00",
+  "user_notes": ""
+}
+
+```

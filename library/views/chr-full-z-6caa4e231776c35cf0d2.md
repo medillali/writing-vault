@@ -1,0 +1,88 @@
+# 《贼胆》沃卡德〔全书阶段档案〕
+
+ID: `chr-full-z-6caa4e231776c35cf0d2` · 版本: 1 · 范围: source-analysis
+
+奥德弟弟，被控巫妖后短醒，自毁肉身，灵魂由祭灵法珠暂存。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-z-6caa4e231776c35cf0d2",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "沃卡德",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "被控转清醒",
+          "自毁后灵魂获存"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0150",
+            "claim_kind": "inference",
+            "end_line": 6444,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 6405
+          }
+        ],
+        "goals": [
+          "不再伤害亲友"
+        ],
+        "knowledge": [],
+        "name": "沃卡德",
+        "original_record_name": "沃卡德",
+        "relationships": [
+          "奥德弟弟",
+          "克莉丝等待三十年"
+        ],
+        "source_anomalies": [
+          "等待年数与入殿年数需分别保留"
+        ],
+        "stage": "stage-08",
+        "summary": "奥德弟弟，被控巫妖后短醒，自毁肉身，灵魂由祭灵法珠暂存。",
+        "unit_end": 160,
+        "unit_start": 141
+      }
+    ],
+    "source_keys": [
+      "wokade"
+    ],
+    "summary": "奥德弟弟，被控巫妖后短醒，自毁肉身，灵魂由祭灵法珠暂存。"
+  },
+  "created_at": "2026-10-24T19:28:06.367098+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0150",
+      "claim_kind": "inference",
+      "end_line": 6444,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 6405
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/character/沃卡德",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《贼胆》沃卡德〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:28:06.367098+00:00",
+  "user_notes": ""
+}
+
+```

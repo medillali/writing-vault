@@ -1,0 +1,64 @@
+# 《网游之练级专家》技术识货打破赌局
+
+ID: `scn-full-l-d7cb921ac0fc9dfb0bce` · 版本: 1 · 范围: source-analysis
+
+三项生活技能辨金属价值，避免无知赌宝石。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-l-d7cb921ac0fc9dfb0bce",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "前期投入回报",
+    "choice": "只选自己能辨的材料",
+    "consequence": "买十件含三传说，店主求别来",
+    "failure_mode": "法袍靠套装共鸣是另一条证据不能混为金属识别",
+    "goal": "低价取得高装",
+    "obstacle": "未知鉴定属性与奸商诱导",
+    "stage": "stage-12",
+    "state_change": "笨练生活技能回收",
+    "summary": "三项生活技能辨金属价值，避免无知赌宝石。",
+    "title": "技术识货打破赌局",
+    "why_it_works": "能力有可说明专业边界"
+  },
+  "created_at": "2026-10-24T18:56:06.428279+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0227",
+      "claim_kind": "inference",
+      "end_line": 9528,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 9502
+    },
+    {
+      "chapter_id": "ch-0228",
+      "claim_kind": "inference",
+      "end_line": 9559,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 9539
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/scene/stage-12/l-b-s08",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《网游之练级专家》技术识货打破赌局",
+  "updated_at": "2026-10-24T18:56:06.428279+00:00",
+  "user_notes": ""
+}
+
+```

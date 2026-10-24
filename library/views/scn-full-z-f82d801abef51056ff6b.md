@@ -1,0 +1,64 @@
+# 《贼胆》逃亡奖励带入局部新系统
+
+ID: `scn-full-z-f82d801abef51056ff6b` · 版本: 1 · 范围: source-analysis
+
+贪草引双鹰，逃命坠入封闭洞窟，回城失效；击首蝠得到仅本地图有效的傀儡符。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-f82d801abef51056ff6b",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "长篇副本变奏",
+    "choice": "继续向前并研究新掉落",
+    "consequence": "获得共享黑暗视野与局部帮手",
+    "failure_mode": "若副本只堆不可知强怪，易感强迫拖延",
+    "goal": "活着脱险",
+    "obstacle": "多层追杀及原逃生路径关闭",
+    "stage": "stage-05",
+    "state_change": "独行逃跑变成操控协作探索",
+    "summary": "贪草引双鹰，逃命坠入封闭洞窟，回城失效；击首蝠得到仅本地图有效的傀儡符。",
+    "title": "逃亡奖励带入局部新系统",
+    "why_it_works": "新系统回应暗处和战力不足，局部期限保留整体平衡。"
+  },
+  "created_at": "2026-10-24T19:28:06.728453+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0100",
+      "claim_kind": "inference",
+      "end_line": 4387,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4363
+    },
+    {
+      "chapter_id": "ch-0101",
+      "claim_kind": "inference",
+      "end_line": 4438,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4407
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-05/closed-map-pivot",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》逃亡奖励带入局部新系统",
+  "updated_at": "2026-10-24T19:28:06.728453+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,56 @@
+# 《网游之练级专家》从错误识别到只保复活火种
+
+ID: `scn-full-l-be03bceb57005ad59bf7` · 版本: 1 · 范围: source-analysis
+
+三影与七影使坦克体系失效，团队以牺牲保护霏雨，夜落让她虚无防最后自爆。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-l-be03bceb57005ad59bf7",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "团队惨胜",
+    "choice": "保治疗和复活者而非全员生还",
+    "consequence": "大多数死亡但未真正灭团",
+    "failure_mode": "把夜落的预防猜测写成无依据预知",
+    "goal": "活过丝蒂兰娜",
+    "obstacle": "真身识别失败、多目标群杀和自爆",
+    "stage": "stage-06",
+    "state_change": "霏雨成为全团恢复的中心",
+    "summary": "三影与七影使坦克体系失效，团队以牺牲保护霏雨，夜落让她虚无防最后自爆。",
+    "title": "从错误识别到只保复活火种",
+    "why_it_works": "胜负条件由杀敌转为保留恢复能力，每个成员可有贡献。"
+  },
+  "created_at": "2026-10-24T18:56:06.324554+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0118",
+      "claim_kind": "inference",
+      "end_line": 4391,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 4337
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/scene/stage-06/split-illusion-survival",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《网游之练级专家》从错误识别到只保复活火种",
+  "updated_at": "2026-10-24T18:56:06.324554+00:00",
+  "user_notes": ""
+}
+
+```

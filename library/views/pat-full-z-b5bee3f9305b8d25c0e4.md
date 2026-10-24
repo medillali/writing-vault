@@ -1,0 +1,69 @@
+# 按任务而非总排名呈现角色能力
+
+ID: `pat-full-z-b5bee3f9305b8d25c0e4` · 版本: 1 · 范围: reusable-pattern
+
+同一人物能在一种问题上成为瓶颈突破者，在另一种问题上需要协助。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-z-b5bee3f9305b8d25c0e4",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "多角色共同不可替代",
+    "failure_mode": "统一战力标尺吞掉职业分工",
+    "stage": "stage-20",
+    "steps": [
+      "明确任务需要",
+      "展示专业价值",
+      "换问题暴露边界",
+      "组合他人能力"
+    ],
+    "summary": "同一人物能在一种问题上成为瓶颈突破者，在另一种问题上需要协助。",
+    "title": "按任务而非总排名呈现角色能力"
+  },
+  "created_at": "2026-10-24T19:28:07.408033+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-1e917b04a8112c0d690d",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0316",
+      "claim_kind": "synthesis",
+      "end_line": 17294,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 17288
+    },
+    {
+      "chapter_id": "ch-0318",
+      "claim_kind": "synthesis",
+      "end_line": 17421,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 17365
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/pattern/stage-20/specialized-strength",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "按任务而非总排名呈现角色能力",
+  "updated_at": "2026-10-24T19:28:07.408033+00:00",
+  "user_notes": ""
+}
+
+```

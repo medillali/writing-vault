@@ -1,0 +1,70 @@
+# 改变胜负目标为时间窗口
+
+ID: `pat-full-l-9fc59a6a13abe2e9b2b6` · 版本: 1 · 范围: reusable-pattern
+
+资源耗尽时先争冷却时间，再恢复杀敌能力。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-l-9fc59a6a13abe2e9b2b6",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "资源战或救援战",
+    "failure_mode": "让延时手段无限刷新",
+    "stage": "stage-19",
+    "steps": [
+      "展示稀缺蓝量",
+      "明确药CD秒数",
+      "预埋地形机关",
+      "断后控制而非硬抗",
+      "归队输出"
+    ],
+    "summary": "资源耗尽时先争冷却时间，再恢复杀敌能力。",
+    "title": "改变胜负目标为时间窗口"
+  },
+  "created_at": "2026-10-24T18:56:06.825190+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-l-31bad3bdaa157943837d",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0373",
+      "claim_kind": "synthesis",
+      "end_line": 21281,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 21258
+    },
+    {
+      "chapter_id": "ch-0373",
+      "claim_kind": "synthesis",
+      "end_line": 21353,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 21303
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/pattern/stage-19/l09-window",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "改变胜负目标为时间窗口",
+  "updated_at": "2026-10-24T18:56:06.825190+00:00",
+  "user_notes": ""
+}
+
+```

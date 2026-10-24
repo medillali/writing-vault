@@ -1,0 +1,53 @@
+{
+  "asset_id": "scn-full-z-42dd9be02ccbf749bd35",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "复杂任务分段推进",
+    "choice": "集体拖延，冰墙失败后雷击争一瞬，打开后先逃",
+    "consequence": "没有立即得宝，改用开箱本身威胁守卫",
+    "failure_mode": "打开即收获会消除守卫与取物仍在场的后果",
+    "goal": "获取魂师箱物",
+    "obstacle": "不可打断开锁与守卫高速突围",
+    "stage": "stage-20",
+    "state_change": "阶段性成功改变后续可选策略",
+    "summary": "钥匙开箱倒计时完成，但斯卡尚在，主角必须撤手保命；已开状态为新解法提供前提。",
+    "title": "把开锁和取宝拆成两次兑现",
+    "why_it_works": "中间成果真实保留，失败不把全部进度归零"
+  },
+  "created_at": "2026-10-24T19:28:07.027590+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0319",
+      "claim_kind": "inference",
+      "end_line": 17505,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 17424
+    },
+    {
+      "chapter_id": "ch-0320",
+      "claim_kind": "inference",
+      "end_line": 17519,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 17512
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-20/open-box-is-not-loot",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》把开锁和取宝拆成两次兑现",
+  "updated_at": "2026-10-24T19:28:07.027590+00:00",
+  "user_notes": ""
+}

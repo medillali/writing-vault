@@ -1,0 +1,64 @@
+# 《贼胆》孤儿与童灵的信念争论
+
+ID: `scn-full-z-ad7b64a50b5f56ff5abd` · 版本: 1 · 范围: source-analysis
+
+主角讲坚持生活，孩子以求神反招屠杀质疑，友情在不歧视中建立。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-ad7b64a50b5f56ff5abd",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "让支线承担主题和身份悬念",
+    "choice": "先收匕坐远处，分享真实孤儿经历",
+    "consequence": "获友谊而非明确任务答案",
+    "failure_mode": "若立刻把孩子当幕后反派会提前破坏信息结构",
+    "goal": "理解孩子并安慰",
+    "obstacle": "创伤、失忆、危险红火",
+    "stage": "stage-07",
+    "state_change": "孩子从潜在怪变成有关系的未明者",
+    "summary": "主角讲坚持生活，孩子以求神反招屠杀质疑，友情在不歧视中建立。",
+    "title": "孤儿与童灵的信念争论",
+    "why_it_works": "同情真实有代价，悬念未被温情抹掉。"
+  },
+  "created_at": "2026-10-24T19:28:06.758247+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0138",
+      "claim_kind": "inference",
+      "end_line": 5844,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 5822
+    },
+    {
+      "chapter_id": "ch-0139",
+      "claim_kind": "inference",
+      "end_line": 5888,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 5866
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-07/child-faith-debate",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》孤儿与童灵的信念争论",
+  "updated_at": "2026-10-24T19:28:06.758247+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,118 @@
+# 《贼胆》魂师奥特兰〔全书阶段档案〕
+
+ID: `chr-full-z-cef757e8663b5f18a530` · 版本: 1 · 范围: source-analysis
+
+联盟信使已身陨，灵魂不甘寄笔记，红月显灵求见克；自己陈述裂缝开与圣泉力逝，委托已完成带回族友谊。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-z-cef757e8663b5f18a530",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "魂师奥特兰",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "谜题物件变可直接陈述的亡魂"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0372",
+            "claim_kind": "inference",
+            "end_line": 22425,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 22422
+          },
+          {
+            "chapter_id": "ch-0390",
+            "claim_kind": "inference",
+            "end_line": 23749,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 23731
+          },
+          {
+            "chapter_id": "ch-0391",
+            "claim_kind": "inference",
+            "end_line": 23781,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 23771
+          }
+        ],
+        "goals": [
+          "将族群情报传克文图斯"
+        ],
+        "knowledge": [
+          "族驻地和深渊危机"
+        ],
+        "name": "魂师奥特兰",
+        "original_record_name": "魂师奥特兰",
+        "relationships": [
+          "克文图斯魂师联盟"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-24",
+        "summary": "联盟信使已身陨，灵魂不甘寄笔记，红月显灵求见克；自己陈述裂缝开与圣泉力逝，委托已完成带回族友谊。",
+        "unit_end": 390,
+        "unit_start": 371
+      }
+    ],
+    "source_keys": [
+      "otran"
+    ],
+    "summary": "联盟信使已身陨，灵魂不甘寄笔记，红月显灵求见克；自己陈述裂缝开与圣泉力逝，委托已完成带回族友谊。"
+  },
+  "created_at": "2026-10-24T19:28:06.558158+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0372",
+      "claim_kind": "inference",
+      "end_line": 22425,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 22422
+    },
+    {
+      "chapter_id": "ch-0390",
+      "claim_kind": "inference",
+      "end_line": 23749,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 23731
+    },
+    {
+      "chapter_id": "ch-0391",
+      "claim_kind": "inference",
+      "end_line": 23781,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 23771
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/character/魂师奥特兰",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《贼胆》魂师奥特兰〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:28:06.558158+00:00",
+  "user_notes": ""
+}
+
+```

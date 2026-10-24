@@ -1,0 +1,72 @@
+# 合作优势与警戒成本同时生效
+
+ID: `pat-full-z-d6a870e0138ad532e2c1` · 版本: 1 · 范围: reusable-pattern
+
+群体控制能击败强敌，依赖同伴却可能降低对未知机制的注意。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-z-d6a870e0138ad532e2c1",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "团队成长需要避免线性万能化",
+    "failure_mode": "借一次失利否定所有合作，会抹掉已有成功",
+    "stage": "stage-16",
+    "steps": [
+      "先使协作获得真实收益",
+      "让新威胁绕开原协作优势",
+      "把失败落在明确认知缺口"
+    ],
+    "summary": "群体控制能击败强敌，依赖同伴却可能降低对未知机制的注意。",
+    "title": "合作优势与警戒成本同时生效"
+  },
+  "created_at": "2026-10-24T19:28:07.381066+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-15dfbe5fb2c97a9d501b",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-full-z-f242f389413a9a4b08a8",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0275",
+      "claim_kind": "synthesis",
+      "end_line": 14716,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14693
+    },
+    {
+      "chapter_id": "ch-0277",
+      "claim_kind": "synthesis",
+      "end_line": 14850,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14840
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/pattern/stage-16/cooperation-has-boundary",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "合作优势与警戒成本同时生效",
+  "updated_at": "2026-10-24T19:28:07.381066+00:00",
+  "user_notes": ""
+}
+
+```

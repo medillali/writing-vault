@@ -1,0 +1,114 @@
+# 《贼胆》逐风〔全书阶段档案〕
+
+ID: `chr-full-z-9014f572d3dc2f8c738b` · 版本: 1 · 范围: source-analysis
+
+猎人火螳强但技巧差距，被主角叠血毒杀；觊觎赵遭拒。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-z-9014f572d3dc2f8c738b",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "逐风",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "认主角强于己"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0328",
+            "claim_kind": "inference",
+            "end_line": 18079,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 18065
+          },
+          {
+            "chapter_id": "ch-0330",
+            "claim_kind": "inference",
+            "end_line": 18218,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 18203
+          },
+          {
+            "chapter_id": "ch-0331",
+            "claim_kind": "inference",
+            "end_line": 18244,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 18241
+          }
+        ],
+        "goals": [
+          "赢赛与吸引赵"
+        ],
+        "knowledge": [],
+        "name": "逐风",
+        "original_record_name": "逐风",
+        "relationships": [],
+        "source_anomalies": [],
+        "stage": "stage-21",
+        "summary": "猎人火螳强但技巧差距，被主角叠血毒杀；觊觎赵遭拒。",
+        "unit_end": 340,
+        "unit_start": 321
+      }
+    ],
+    "source_keys": [
+      "zhui-feng"
+    ],
+    "summary": "猎人火螳强但技巧差距，被主角叠血毒杀；觊觎赵遭拒。"
+  },
+  "created_at": "2026-10-24T19:28:06.517396+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0328",
+      "claim_kind": "inference",
+      "end_line": 18079,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18065
+    },
+    {
+      "chapter_id": "ch-0330",
+      "claim_kind": "inference",
+      "end_line": 18218,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18203
+    },
+    {
+      "chapter_id": "ch-0331",
+      "claim_kind": "inference",
+      "end_line": 18244,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18241
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/character/逐风",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《贼胆》逐风〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:28:06.517396+00:00",
+  "user_notes": ""
+}
+
+```

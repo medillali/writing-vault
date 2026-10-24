@@ -1,0 +1,107 @@
+# 先谈收益归属再兑现回报
+
+ID: `pat-full-shared-910fdb8720408643228d` · 版本: 1 · 范围: reusable-pattern
+
+区分持有、借用、公共贡献、个人所有权，让对话真的改变分配。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-shared-910fdb8720408643228d",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "区分持有、借用、公共贡献、个人所有权，让对话真的改变分配。",
+    "exercise": "在自己的题材里更换目标、资源、关系和环境，只保留这一条机制；写后记录选择是否清晰、代价是否兑现、读者实际反馈。",
+    "failure_mode": "自动把稀有奖品给主角会使此前合作规则失去意义。",
+    "leveling_implementation": "魔力源泉先经团员同意，才由输出者个人绑定；雇佣合同还规定险情的战利品份额。",
+    "status": "跨书研究候选，尚非用户审定风格或原创正典。",
+    "summary": "区分持有、借用、公共贡献、个人所有权，让对话真的改变分配。",
+    "zeidan_implementation": "糖果与萧御按约分史诗肩和技能书，并给参与者补偿。"
+  },
+  "created_at": "2026-10-24T19:28:24.519891+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-6cf1b11776e37e627036",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-full-l-34a8ae798e981403ed42",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0280",
+      "claim_kind": "synthesis",
+      "end_line": 15038,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14981
+    },
+    {
+      "chapter_id": "ch-0281",
+      "claim_kind": "synthesis",
+      "end_line": 15090,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 15045
+    },
+    {
+      "chapter_id": "ch-0106",
+      "claim_kind": "synthesis",
+      "end_line": 3822,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 3791
+    },
+    {
+      "chapter_id": "ch-0119",
+      "claim_kind": "synthesis",
+      "end_line": 4454,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 4396
+    },
+    {
+      "chapter_id": "ch-0130",
+      "claim_kind": "synthesis",
+      "end_line": 4993,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 4953
+    },
+    {
+      "chapter_id": "ch-0186",
+      "claim_kind": "synthesis",
+      "end_line": 7563,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 7520
+    },
+    {
+      "chapter_id": "ch-0187",
+      "claim_kind": "synthesis",
+      "end_line": 7613,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 7567
+    }
+  ],
+  "favorite": false,
+  "origin_key": "two-full-books-20261025/ownership-before-reward",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "双书全书比较",
+    "原创机制候选",
+    "待审阅"
+  ],
+  "title": "先谈收益归属再兑现回报",
+  "updated_at": "2026-10-24T19:28:24.521038+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,92 @@
+{
+  "asset_id": "chr-full-z-06bf803695afd3830d4b",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "焚天",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "签不可单方解除的不侵同盟"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0363",
+            "claim_kind": "inference",
+            "end_line": 21697,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 21692
+          },
+          {
+            "chapter_id": "ch-0364",
+            "claim_kind": "inference",
+            "end_line": 21710,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 21701
+          }
+        ],
+        "goals": [
+          "在强会夹缝保全"
+        ],
+        "knowledge": [
+          "知道魔域不可能胜三会但有反抗"
+        ],
+        "name": "焚天",
+        "original_record_name": "焚天",
+        "relationships": [
+          "魔域旧口头盟",
+          "风野正式同盟无援助义务"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-23",
+        "summary": "法师圣殿火法会长，30余万玩家，威逼利诱转向风野。",
+        "unit_end": 370,
+        "unit_start": 361
+      }
+    ],
+    "source_keys": [
+      "fen-tian"
+    ],
+    "summary": "法师圣殿火法会长，30余万玩家，威逼利诱转向风野。"
+  },
+  "created_at": "2026-10-24T19:28:06.376842+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0363",
+      "claim_kind": "inference",
+      "end_line": 21697,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 21692
+    },
+    {
+      "chapter_id": "ch-0364",
+      "claim_kind": "inference",
+      "end_line": 21710,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 21701
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/character/焚天",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《贼胆》焚天〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:28:06.377349+00:00",
+  "user_notes": ""
+}

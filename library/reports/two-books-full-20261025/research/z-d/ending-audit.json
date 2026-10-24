@@ -1,0 +1,742 @@
+{
+  "source_key": "z",
+  "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+  "source_revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+  "coverage": [
+    391,
+    463
+  ],
+  "audit_type": "逐单元全文后的终局状态核对；源事实、人物推测与研究判断分离",
+  "reading_boundary": {
+    "first_unit": 391,
+    "first_unit_id": "ch-0392",
+    "last_unit": 463,
+    "last_unit_id": "ch-0464",
+    "last_title": "第四六一章 巅峰之战（大结局）",
+    "last_lines": [
+      28775,
+      28897
+    ],
+    "printed_chapter_note": "实际unit391印389，unit463印461；以reading-units实际序号为准，不以原印章号推阅读覆盖。"
+  },
+  "ending_states": [
+    {
+      "key": "ten-assassination",
+      "status": "resolved",
+      "state": "神级安东尼克第九环刺杀与第十环十贼追杀全部结束，六死队员祭坛复活；408交奖、十人解散。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0400",
+          "start_line": 24394,
+          "end_line": 24416
+        },
+        {
+          "chapter_id": "ch-0401",
+          "start_line": 24429,
+          "end_line": 24443
+        },
+        {
+          "chapter_id": "ch-0409",
+          "start_line": 24953,
+          "end_line": 24979
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "key": "bayonet-duel",
+      "status": "resolved",
+      "state": "萧御胜刺刀余约3000，败者搏杀比蒙并耗主角血被尊重；刺刀退魔域，退会被逐说为风野散谣。后来回风野五千团已相处融洽。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0415",
+          "start_line": 25414,
+          "end_line": 25424
+        },
+        {
+          "chapter_id": "ch-0415",
+          "start_line": 25461,
+          "end_line": 25481
+        },
+        {
+          "chapter_id": "ch-0416",
+          "start_line": 25513,
+          "end_line": 25517
+        },
+        {
+          "chapter_id": "ch-0457",
+          "start_line": 28387,
+          "end_line": 28389
+        }
+      ],
+      "limits": "刺刀没参加1v1不能自动推其害怕；5v5后来实际冠军。"
+    },
+    {
+      "key": "full-server-arena",
+      "status": "resolved",
+      "state": "萧御1v1九胜冠军，炎神2/苍冥3/刀剑4/糖果5/猴6/橘7/书8/小刀9/柠10。萧赵2v2冠军；风神风隐风笛3v3、刺刀队5v5、风野团冠。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0453",
+          "start_line": 28159,
+          "end_line": 28164
+        },
+        {
+          "chapter_id": "ch-0454",
+          "start_line": 28168,
+          "end_line": 28170
+        }
+      ],
+      "limits": "九胜含橘、小刀、柠、猴和炎神主动认输，不能写九场全实战碾压；死神/黎治组威胁只一句不详展。"
+    },
+    {
+      "key": "cangming-wager",
+      "status": "resolved",
+      "state": "主角拒把赵作赌注；改装备全部、不可交易毁、归零退游。胜后拒双倍偿，453主脑强制收所有装备，苍冥永远消失。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0448",
+          "start_line": 27772,
+          "end_line": 27781
+        },
+        {
+          "chapter_id": "ch-0453",
+          "start_line": 28143,
+          "end_line": 28163
+        },
+        {
+          "chapter_id": "ch-0454",
+          "start_line": 28194,
+          "end_line": 28194
+        }
+      ],
+      "limits": "453未逐级演归零过程，按明确收装与永久消失记。"
+    },
+    {
+      "key": "champion-rewards",
+      "status": "resolved",
+      "state": "萧高位神器圣者礼赞13件，赵中位神套；萧第二冠改天之圣水50次、每次属性+500%3分钟；风野诅咒甲携5000传。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0454",
+          "start_line": 28175,
+          "end_line": 28188
+        }
+      ],
+      "limits": "天之圣水是本段新奖名，不能当旧“圣言圣水”任务答案或默认已消耗。"
+    },
+    {
+      "key": "wufunosi-exploration",
+      "status": "resolved",
+      "state": "艾斐尔荒漠定位427交奖；克文图斯五迪雅图428交37万荣耀晋公爵大元帅。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0428",
+          "start_line": 26354,
+          "end_line": 26383
+        },
+        {
+          "chapter_id": "ch-0429",
+          "start_line": 26403,
+          "end_line": 26422
+        }
+      ],
+      "limits": "任务已交不等于整颗星球地图全部探索完。"
+    },
+    {
+      "key": "space-conversion",
+      "status": "resolved",
+      "state": "空间转换解封任点携5非战传与战中随机跳，先启动光门再暗门，旁白释同门两面空间错位。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0459",
+          "start_line": 28466,
+          "end_line": 28475
+        },
+        {
+          "chapter_id": "ch-0461",
+          "start_line": 28594,
+          "end_line": 28601
+        }
+      ],
+      "limits": "任点传不能战中使用；随机跳才可战用。"
+    },
+    {
+      "key": "walker-identity",
+      "status": "resolved",
+      "state": "玫瑰旅馆沃克在神境引见沃尔希德父神，叙述明确沃克也是神灵。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0459",
+          "start_line": 28501,
+          "end_line": 28508
+        }
+      ],
+      "limits": "未给具体神阶、完整身世。"
+    },
+    {
+      "key": "enzes-expectation",
+      "status": "resolved",
+      "state": "单人开暗门毁沃顿本命；万人队杀其肉身，荒漠主神分身甲弱，魂融合胸口白光时萧格杀。系统任务完成，获沃尔希德残留神格，主神临力退留下位神。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0460",
+          "start_line": 28527,
+          "end_line": 28535
+        },
+        {
+          "chapter_id": "ch-0462",
+          "start_line": 28680,
+          "end_line": 28692
+        },
+        {
+          "chapter_id": "ch-0463",
+          "start_line": 28697,
+          "end_line": 28704
+        },
+        {
+          "chapter_id": "ch-0463",
+          "start_line": 28719,
+          "end_line": 28739
+        }
+      ],
+      "limits": "不是萧独做整神战；万人队先经对战由雷焰领，风野认输。"
+    },
+    {
+      "key": "soul-box-identity",
+      "status": "partial",
+      "state": "荒漠原方盒460已经不见，主角仍猜很可能本命；终局实际演的是分身与魂融合时刺心，系统确认任务完成。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0428",
+          "start_line": 26372,
+          "end_line": 26379
+        },
+        {
+          "chapter_id": "ch-0461",
+          "start_line": 28624,
+          "end_line": 28625
+        },
+        {
+          "chapter_id": "ch-0463",
+          "start_line": 28719,
+          "end_line": 28737
+        }
+      ],
+      "limits": "任务目标结果resolved，但旧盒=本命及毁盒动作没有实体确证，不补造找盒/毁盒。"
+    },
+    {
+      "key": "player-becomes-god",
+      "status": "resolved",
+      "state": "永久下位神，发布任务与赐福等NPC权能兑现；萧化名盗神肖恩给女贼十环种子绒毛狗杂务，被赵喊名揭玩家身份仍让女贼上路。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0459",
+          "start_line": 28516,
+          "end_line": 28520
+        },
+        {
+          "chapter_id": "ch-0463",
+          "start_line": 28736,
+          "end_line": 28771
+        }
+      ],
+      "limits": "没有永久主神，也未列女贼完成十环。"
+    },
+    {
+      "key": "last-duel",
+      "status": "resolved",
+      "state": "萧翎邀末战，萧御主动改白昼。两者放手召唤战，萧翎先死，延时审判让萧御跳台余11%生还，半小时起搏复后认输，两人共酒。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0464",
+          "start_line": 28779,
+          "end_line": 28799
+        },
+        {
+          "chapter_id": "ch-0464",
+          "start_line": 28863,
+          "end_line": 28882
+        }
+      ],
+      "limits": "萧御已下位神，萧翎仍凡体；不是同条件平手、不是同归、不是永久证明所有团战萧御更强。"
+    },
+    {
+      "key": "zhao-romance",
+      "status": "resolved",
+      "state": "旧首赠项链被围掉落、蓝月意归、最终实际交回赵。爱情之心446得后交赵。感情伴侣持续到终局共同登机。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0424",
+          "start_line": 26080,
+          "end_line": 26090
+        },
+        {
+          "chapter_id": "ch-0427",
+          "start_line": 26312,
+          "end_line": 26315
+        },
+        {
+          "chapter_id": "ch-0428",
+          "start_line": 26335,
+          "end_line": 26343
+        },
+        {
+          "chapter_id": "ch-0447",
+          "start_line": 27668,
+          "end_line": 27686
+        },
+        {
+          "chapter_id": "ch-0464",
+          "start_line": 28883,
+          "end_line": 28893
+        }
+      ],
+      "limits": "恋爱关系确认；462口叫老婆不是法律婚姻或婚礼，未确认性交；父亲后见/认可本段未补证。"
+    },
+    {
+      "key": "yan-lin",
+      "status": "resolved",
+      "state": "萧明确无赵也不复合，止于朋友。末尾燕来送别仍自誓等到老，萧不回头与赵妹妹登机。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0446",
+          "start_line": 27590,
+          "end_line": 27606
+        },
+        {
+          "chapter_id": "ch-0447",
+          "start_line": 27660,
+          "end_line": 27681
+        },
+        {
+          "chapter_id": "ch-0464",
+          "start_line": 28889,
+          "end_line": 28892
+        }
+      ],
+      "limits": "独自等待不等于未来必复合或已进入后宫；枫夜未拿联系方式也不是已配新恋人。"
+    },
+    {
+      "key": "monkey",
+      "status": "resolved",
+      "state": "410独力50卖装攒200万押萧、获引入公会改善生活。448守不对恩人动刀誓认输；452全服1v1第六。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0411",
+          "start_line": 25109,
+          "end_line": 25118
+        },
+        {
+          "chapter_id": "ch-0449",
+          "start_line": 27876,
+          "end_line": 27877
+        },
+        {
+          "chapter_id": "ch-0453",
+          "start_line": 28160,
+          "end_line": 28160
+        }
+      ],
+      "limits": "守誓与竞技结果均明确，不推现实结婚、移民等未说事项。"
+    },
+    {
+      "key": "new-star-migration",
+      "status": "partial",
+      "state": "416办理小雨转学、别墅交吴照看、给200万报恩；463机场告同学，与赵妹妹登机飞行器真正起飞。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0417",
+          "start_line": 25532,
+          "end_line": 25538
+        },
+        {
+          "chapter_id": "ch-0420",
+          "start_line": 25783,
+          "end_line": 25785
+        },
+        {
+          "chapter_id": "ch-0464",
+          "start_line": 28883,
+          "end_line": 28894
+        }
+      ],
+      "limits": "离开母星完成；未写抵达新星、买新星房产或后续生活。回来的想法不是未来实际回归。"
+    },
+    {
+      "key": "xiaoyu-luocheng",
+      "status": "partial",
+      "state": "洛城败复识兄后放狠话离，小雨当下解缠；末尾同学送机。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0431",
+          "start_line": 26593,
+          "end_line": 26600
+        },
+        {
+          "chapter_id": "ch-0432",
+          "start_line": 26603,
+          "end_line": 26625
+        },
+        {
+          "chapter_id": "ch-0464",
+          "start_line": 28885,
+          "end_line": 28886
+        }
+      ],
+      "limits": "没有后续画面证明洛永久守不追诺；小雨其余同学仍有好感，不由兄代选终伴侣。"
+    },
+    {
+      "key": "last-phoenix",
+      "status": "unknown",
+      "state": "398自爆耗涅槃后仅末次；416明收起避免误耗。422由雷尔起搏原地复，463复生者是萧翎。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0399",
+          "start_line": 24313,
+          "end_line": 24327
+        },
+        {
+          "chapter_id": "ch-0417",
+          "start_line": 25570,
+          "end_line": 25576
+        },
+        {
+          "chapter_id": "ch-0423",
+          "start_line": 26000,
+          "end_line": 26003
+        },
+        {
+          "chapter_id": "ch-0464",
+          "start_line": 28870,
+          "end_line": 28873
+        }
+      ],
+      "limits": "416后至463未见萧再调用凤凰；只能说末段未补消耗证据，不能声称确认最终库存或弃线。"
+    },
+    {
+      "key": "scar-and-training",
+      "status": "unknown",
+      "state": "445燕只转述听闻幼时随老特工学飞刀，自己不甚清楚；461回忆打流氓断手骨自接。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0446",
+          "start_line": 27646,
+          "end_line": 27651
+        },
+        {
+          "chapter_id": "ch-0462",
+          "start_line": 28674,
+          "end_line": 28675
+        }
+      ],
+      "limits": "二者都不揭15/16岁心口刀伤起因。早期具体年龄与刀伤先以另一负责代理原证为准。"
+    }
+  ],
+  "legacy_checks_without_new_resolution": [
+    {
+      "key": "soul-ring-papers-emo",
+      "topic": "噬魂戒双戒纸/埃莫",
+      "status": "unknown",
+      "finding": "391–463未新增明确解释或收束。",
+      "inherited_setup_verified_here": false
+    },
+    {
+      "key": "holy-word-water",
+      "topic": "圣言圣水",
+      "status": "unknown",
+      "finding": "本段天之圣水是新冠军奖，不作为旧任务自动回收。",
+      "inherited_setup_verified_here": false,
+      "evidence": [
+        {
+          "chapter_id": "ch-0454",
+          "start_line": 28185,
+          "end_line": 28186
+        }
+      ]
+    },
+    {
+      "key": "emerald-map-hagduo",
+      "topic": "翡翠藏宝图/哈格多",
+      "status": "unknown",
+      "finding": "391–463未新增明确答案。",
+      "inherited_setup_verified_here": false
+    },
+    {
+      "key": "demon-horn-nightmare",
+      "topic": "恶魔之角/梦魇关联",
+      "status": "unknown",
+      "finding": "梦魇作为赵技能使用不是对旧物件任务的解释，本段未新增旧线答案。",
+      "inherited_setup_verified_here": false
+    },
+    {
+      "key": "wokad-rebirth",
+      "topic": "沃卡德复生",
+      "status": "unknown",
+      "finding": "本段神王沃顿不同人，不能因复活机制同词判沃卡德已回收。",
+      "inherited_setup_verified_here": false
+    },
+    {
+      "key": "deepwhite-bags",
+      "topic": "深白一周内五28格包",
+      "status": "unknown",
+      "finding": "409另买60格包是新市场状态，不证明旧约实际交付。",
+      "inherited_setup_verified_here": false,
+      "evidence": [
+        {
+          "chapter_id": "ch-0410",
+          "start_line": 25008,
+          "end_line": 25012
+        }
+      ]
+    },
+    {
+      "key": "puppet-c-core",
+      "topic": "人偶C核",
+      "status": "unknown",
+      "finding": "391–463未补处置。",
+      "inherited_setup_verified_here": false
+    },
+    {
+      "key": "fang-spirit",
+      "topic": "尖牙招魂",
+      "status": "unknown",
+      "finding": "391–463未补处置。",
+      "inherited_setup_verified_here": false
+    },
+    {
+      "key": "shadowsand-organization",
+      "topic": "影砂组织",
+      "status": "unknown",
+      "finding": "411公众履历提败过影砂不等于组织解释；终局未补。",
+      "inherited_setup_verified_here": false,
+      "evidence": [
+        {
+          "chapter_id": "ch-0412",
+          "start_line": 25189,
+          "end_line": 25195
+        }
+      ]
+    },
+    {
+      "key": "sin-wo-si",
+      "topic": "误杀善良沃思罪恶值1",
+      "status": "unknown",
+      "finding": "391–463未说明罪值如何处理。",
+      "inherited_setup_verified_here": false
+    },
+    {
+      "key": "gude-child-blackghost",
+      "topic": "古德童灵与黑幽灵关系",
+      "status": "unknown",
+      "finding": "391–463未新增关系答案。",
+      "inherited_setup_verified_here": false
+    },
+    {
+      "key": "zhao-father",
+      "topic": "赵父阻恋本人会见",
+      "status": "unknown",
+      "finding": "本段没有父亲本人见面或认可的新增画面；风野支持不能替父亲决定。",
+      "inherited_setup_verified_here": false
+    }
+  ],
+  "source_anomalies": [
+    {
+      "key": "title-duke",
+      "status": "unknown",
+      "state": "417神称公爵，428才系统晋公爵；按系统实际晋升，不提前挪动。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0418",
+          "start_line": 25619,
+          "end_line": 25619
+        },
+        {
+          "chapter_id": "ch-0429",
+          "start_line": 26420,
+          "end_line": 26422
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "key": "reward-numbers",
+      "status": "unknown",
+      "state": "415风野20亿押赚196亿，437回顾赌收入130亿；保数字差异。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0416",
+          "start_line": 25491,
+          "end_line": 25503
+        },
+        {
+          "chapter_id": "ch-0438",
+          "start_line": 27046,
+          "end_line": 27057
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "key": "arena-objects",
+      "status": "unknown",
+      "state": "411黑赛禁任何药剂特殊道具；443全服赛用神圣血瓶道具回血技能，糖用缩小器。两赛事规则是否不同未给统一解释。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0412",
+          "start_line": 25207,
+          "end_line": 25210
+        },
+        {
+          "chapter_id": "ch-0444",
+          "start_line": 27477,
+          "end_line": 27495
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "key": "tangtang-age",
+      "status": "unknown",
+      "state": "442糖糖13，448旁白14；不人为改生日。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0443",
+          "start_line": 27405,
+          "end_line": 27470
+        },
+        {
+          "chapter_id": "ch-0449",
+          "start_line": 27840,
+          "end_line": 27843
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "key": "mana-wording",
+      "status": "unknown",
+      "state": "457执金800万血后侦察5万“血量”而下文指魔力，“魔力流逝每秒血量”亦与消蓝用法不符。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0458",
+          "start_line": 28436,
+          "end_line": 28447
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "key": "two-xiao-name-errors",
+      "status": "unknown",
+      "state": "411四系戒句误主语萧御、463施五盾写萧御持杖和末法受攻写萧翎均应在相应行为链保源异常；两人独立人物。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0412",
+          "start_line": 25179,
+          "end_line": 25179
+        },
+        {
+          "chapter_id": "ch-0464",
+          "start_line": 28839,
+          "end_line": 28841
+        },
+        {
+          "chapter_id": "ch-0464",
+          "start_line": 28865,
+          "end_line": 28868
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "key": "life-creation",
+      "status": "unknown",
+      "state": "417说沃顿造黑暗神族，462说造生命失败因缺光；是否特指普通生命与神灵不同没有解释，不强制统一。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0418",
+          "start_line": 25625,
+          "end_line": 25635
+        },
+        {
+          "chapter_id": "ch-0463",
+          "start_line": 28731,
+          "end_line": 28735
+        }
+      ],
+      "limits": ""
+    }
+  ],
+  "craft_judgments": [
+    {
+      "claim": "最可迁移的是规则约束、团队资源分工与不等价预习，不是“一人灭团”数值或原句。",
+      "kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0406",
+          "start_line": 24767,
+          "end_line": 24779
+        },
+        {
+          "chapter_id": "ch-0415",
+          "start_line": 25414,
+          "end_line": 25424
+        },
+        {
+          "chapter_id": "ch-0435",
+          "start_line": 26823,
+          "end_line": 26846
+        },
+        {
+          "chapter_id": "ch-0439",
+          "start_line": 27119,
+          "end_line": 27141
+        }
+      ]
+    },
+    {
+      "claim": "结局多线互解锁值得学，但本命实物缺终指认与后期神装跃升压掉旧资源限制应一并保留为失败条件。",
+      "kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0461",
+          "start_line": 28624,
+          "end_line": 28625
+        },
+        {
+          "chapter_id": "ch-0462",
+          "start_line": 28680,
+          "end_line": 28692
+        },
+        {
+          "chapter_id": "ch-0463",
+          "start_line": 28697,
+          "end_line": 28737
+        }
+      ]
+    },
+    {
+      "claim": "殖民灭族、贵票和群体立场的辩护属于文本主张，不能由“各有角度”自动消除行动伦理责任；强迫亲密、同性污名和物化笑料也不直接作为用户风格规则。",
+      "kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0449",
+          "start_line": 27806,
+          "end_line": 27839
+        },
+        {
+          "chapter_id": "ch-0454",
+          "start_line": 28212,
+          "end_line": 28221
+        },
+        {
+          "chapter_id": "ch-0463",
+          "start_line": 28731,
+          "end_line": 28735
+        }
+      ]
+    }
+  ],
+  "negative_evidence_policy": "未新增的旧线仅表示391–463全文范围未补证；旧setup由其他负责段核验。保持unknown，不写abandoned，也不声称已审完整旧setup。"
+}

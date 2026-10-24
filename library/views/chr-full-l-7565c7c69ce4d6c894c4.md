@@ -1,0 +1,483 @@
+# 《网游之练级专家》花舞〔全书阶段档案〕
+
+ID: `chr-full-l-7565c7c69ce4d6c894c4` · 版本: 2 · 范围: source-analysis
+
+双人冠军及配戒牧师，现实晚一周接机重逢，随主角赴别墅。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-l-7565c7c69ce4d6c894c4",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "花舞",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "停下致命攻击招萧翎合作",
+          "归还雨蝶兄长装备并提出补偿"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0158",
+            "claim_kind": "inference",
+            "end_line": 6286,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 6281
+          },
+          {
+            "chapter_id": "ch-0160",
+            "claim_kind": "inference",
+            "end_line": 6368,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 6344
+          },
+          {
+            "chapter_id": "ch-0161",
+            "claim_kind": "inference",
+            "end_line": 6390,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 6389
+          },
+          {
+            "chapter_id": "ch-0161",
+            "claim_kind": "inference",
+            "end_line": 6447,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 6433
+          }
+        ],
+        "goals": [
+          "帮弟取好装并完成转职"
+        ],
+        "knowledge": [
+          "首次转职时全联盟只有其团队七人达30是本人陈述",
+          "感知队伍方式未公开"
+        ],
+        "name": "花舞",
+        "original_record_name": "花舞",
+        "relationships": [
+          "流觞亲姐，相依为命",
+          "狂龙追求她是流觞所言，未确认互相恋爱"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-08",
+        "summary": "48级榜二双系牧师，初次钟店女性至此实名，陪亲弟流觞转职，能召守护天使并感知附近队伍。",
+        "unit_end": 160,
+        "unit_start": 141
+      },
+      {
+        "aliases": [],
+        "changes": [
+          "私下警告萧翎，投靠说法仍是试探玩笑"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0232",
+            "claim_kind": "inference",
+            "end_line": 9744,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 9729
+          }
+        ],
+        "goals": [
+          "尚未明确独立目标"
+        ],
+        "knowledge": [
+          "亲历利刃、天杀覆灭"
+        ],
+        "name": "花舞",
+        "original_record_name": "花舞",
+        "relationships": [
+          "对狂龙厌恶；觉得萧翎真诚"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-12",
+        "summary": "出身被毁利刃团，现处狂龙团而厌其手段。",
+        "unit_end": 233,
+        "unit_start": 214
+      },
+      {
+        "aliases": [],
+        "changes": [
+          "失团队装备",
+          "双系袍保留",
+          "关键治疗"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0325",
+            "claim_kind": "inference",
+            "end_line": 15145,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 15121
+          },
+          {
+            "chapter_id": "ch-0331",
+            "claim_kind": "inference",
+            "end_line": 15589,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 15555
+          },
+          {
+            "chapter_id": "ch-0333",
+            "claim_kind": "inference",
+            "end_line": 15763,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 15750
+          }
+        ],
+        "goals": [
+          "自由游戏",
+          "靠近萧翎"
+        ],
+        "knowledge": [
+          "萧翎与另三女纠结"
+        ],
+        "name": "花舞",
+        "original_record_name": "花舞",
+        "relationships": [
+          "火舞妹妹同行",
+          "对萧翎有情"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-17",
+        "summary": "自主离狂龙入天狂，装备重配但治疗技巧迅速证价值。",
+        "unit_end": 333,
+        "unit_start": 314
+      },
+      {
+        "aliases": [],
+        "changes": [
+          "治疗13000基础",
+          "神圣复活及神愈、补魔"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0343",
+            "claim_kind": "inference",
+            "end_line": 17073,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 17035
+          },
+          {
+            "chapter_id": "ch-0345",
+            "claim_kind": "inference",
+            "end_line": 17260,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 17250
+          },
+          {
+            "chapter_id": "ch-0348",
+            "claim_kind": "inference",
+            "end_line": 17699,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 17677
+          },
+          {
+            "chapter_id": "ch-0353",
+            "claim_kind": "inference",
+            "end_line": 18513,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 18473
+          }
+        ],
+        "goals": [
+          "与萧翎关系",
+          "继续团队"
+        ],
+        "knowledge": [
+          "知其父真实身份"
+        ],
+        "name": "花舞",
+        "original_record_name": "花舞",
+        "relationships": [
+          "先拒后主动接受性关系",
+          "愿游戏女友"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-18",
+        "summary": "随行牧师与伴侣，多次以治疗照明救主角，得莱尔纳斯套和半神器。",
+        "unit_end": 353,
+        "unit_start": 334
+      },
+      {
+        "aliases": [],
+        "changes": [
+          "对其他女孩情绪有意识，推动主角安慰"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0371",
+            "claim_kind": "inference",
+            "end_line": 20796,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 20778
+          },
+          {
+            "chapter_id": "ch-0372",
+            "claim_kind": "inference",
+            "end_line": 21087,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 21084
+          },
+          {
+            "chapter_id": "ch-0372",
+            "claim_kind": "inference",
+            "end_line": 21178,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 21133
+          }
+        ],
+        "goals": [
+          "与主角赢双人赛"
+        ],
+        "knowledge": [],
+        "name": "花舞",
+        "original_record_name": "花舞",
+        "relationships": [
+          "主角恋人与队友",
+          "同牧琳紫焰霏雨联合惩罚"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-19",
+        "summary": "双人主力治疗，升61；自动练级并向四女关系集结过渡。",
+        "unit_end": 373,
+        "unit_start": 354
+      },
+      {
+        "aliases": [],
+        "changes": [],
+        "evidence": [
+          {
+            "chapter_id": "ch-0380",
+            "claim_kind": "inference",
+            "end_line": 22176,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 22175
+          },
+          {
+            "chapter_id": "ch-0387",
+            "claim_kind": "inference",
+            "end_line": 23058,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 23056
+          },
+          {
+            "chapter_id": "ch-0388",
+            "claim_kind": "inference",
+            "end_line": 23260,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 23239
+          }
+        ],
+        "goals": [],
+        "knowledge": [],
+        "name": "花舞",
+        "original_record_name": "花舞",
+        "relationships": [
+          "四女共同现实重逢",
+          "火舞仍同伴有独立边界"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-20",
+        "summary": "双人冠军及配戒牧师，现实晚一周接机重逢，随主角赴别墅。",
+        "unit_end": 387,
+        "unit_start": 374
+      }
+    ],
+    "source_keys": [
+      "hua-wu",
+      "flower-dance"
+    ],
+    "summary": "双人冠军及配戒牧师，现实晚一周接机重逢，随主角赴别墅。"
+  },
+  "created_at": "2026-10-24T18:56:06.137328+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0158",
+      "claim_kind": "inference",
+      "end_line": 6286,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 6281
+    },
+    {
+      "chapter_id": "ch-0160",
+      "claim_kind": "inference",
+      "end_line": 6368,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 6344
+    },
+    {
+      "chapter_id": "ch-0161",
+      "claim_kind": "inference",
+      "end_line": 6390,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 6389
+    },
+    {
+      "chapter_id": "ch-0161",
+      "claim_kind": "inference",
+      "end_line": 6447,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 6433
+    },
+    {
+      "chapter_id": "ch-0232",
+      "claim_kind": "inference",
+      "end_line": 9744,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 9729
+    },
+    {
+      "chapter_id": "ch-0325",
+      "claim_kind": "inference",
+      "end_line": 15145,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 15121
+    },
+    {
+      "chapter_id": "ch-0331",
+      "claim_kind": "inference",
+      "end_line": 15589,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 15555
+    },
+    {
+      "chapter_id": "ch-0333",
+      "claim_kind": "inference",
+      "end_line": 15763,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 15750
+    },
+    {
+      "chapter_id": "ch-0343",
+      "claim_kind": "inference",
+      "end_line": 17073,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 17035
+    },
+    {
+      "chapter_id": "ch-0345",
+      "claim_kind": "inference",
+      "end_line": 17260,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 17250
+    },
+    {
+      "chapter_id": "ch-0348",
+      "claim_kind": "inference",
+      "end_line": 17699,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 17677
+    },
+    {
+      "chapter_id": "ch-0353",
+      "claim_kind": "inference",
+      "end_line": 18513,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 18473
+    },
+    {
+      "chapter_id": "ch-0371",
+      "claim_kind": "inference",
+      "end_line": 20796,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 20778
+    },
+    {
+      "chapter_id": "ch-0372",
+      "claim_kind": "inference",
+      "end_line": 21087,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 21084
+    },
+    {
+      "chapter_id": "ch-0372",
+      "claim_kind": "inference",
+      "end_line": 21178,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 21133
+    },
+    {
+      "chapter_id": "ch-0380",
+      "claim_kind": "inference",
+      "end_line": 22176,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 22175
+    },
+    {
+      "chapter_id": "ch-0387",
+      "claim_kind": "inference",
+      "end_line": 23058,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 23056
+    },
+    {
+      "chapter_id": "ch-0388",
+      "claim_kind": "inference",
+      "end_line": 23260,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 23239
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/character/花舞",
+  "review_status": "draft",
+  "revision": 2,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《网游之练级专家》花舞〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:10:55.629081+00:00",
+  "user_notes": ""
+}
+
+```

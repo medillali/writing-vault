@@ -1,0 +1,78 @@
+# 让遗址布局预告被隐藏的关系行动
+
+ID: `pat-full-l-76a5eaac92833eab73da` · 版本: 1 · 范围: reusable-pattern
+
+走廊烧毁卧室独存不是随机布景，而是父亲守子留下的形状，之后装备铭文延续关系。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-l-76a5eaac92833eab73da",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "遗址探索、旧案、历史支线",
+    "failure_mode": "异常与答案只凭口述联结，没有结构可比；情感评价过密。",
+    "stage": "stage-10",
+    "steps": [
+      "给空间异常",
+      "让调查暂不能解释",
+      "由幸存者还原行动",
+      "新冲突延续旧关系债",
+      "以可携遗物收束情感"
+    ],
+    "summary": "走廊烧毁卧室独存不是随机布景，而是父亲守子留下的形状，之后装备铭文延续关系。",
+    "title": "让遗址布局预告被隐藏的关系行动"
+  },
+  "created_at": "2026-10-24T18:56:06.715088+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-l-572c9df24c179f946c7e",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0190",
+      "claim_kind": "synthesis",
+      "end_line": 7719,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 7714
+    },
+    {
+      "chapter_id": "ch-0192",
+      "claim_kind": "synthesis",
+      "end_line": 7821,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 7820
+    },
+    {
+      "chapter_id": "ch-0194",
+      "claim_kind": "synthesis",
+      "end_line": 7909,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 7905
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/pattern/stage-10/l-pattern-spatial-memory",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "让遗址布局预告被隐藏的关系行动",
+  "updated_at": "2026-10-24T18:56:06.715088+00:00",
+  "user_notes": ""
+}
+
+```

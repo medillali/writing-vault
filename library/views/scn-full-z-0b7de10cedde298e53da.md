@@ -1,0 +1,64 @@
+# 《贼胆》大胜仍有2%任务损失
+
+ID: `scn-full-z-0b7de10cedde298e53da` · 版本: 1 · 范围: source-analysis
+
+队伍击败强敌后获优评，萧御追问为何非满分，NPC指出放走五名敌人。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-0b7de10cedde298e53da",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "连续任务需要细节保留后效",
+    "choice": "核对开始阶段的逃跑者",
+    "consequence": "98%完成有明确早期因果，不等于任务失败",
+    "failure_mode": "凡小失误都被夸大处罚会挤压人物自由",
+    "goal": "理解评价与后续奖励条件",
+    "obstacle": "胜利经验掩盖先前小失误",
+    "stage": "stage-15",
+    "state_change": "任务成功与最优完成度被区分",
+    "summary": "队伍击败强敌后获优评，萧御追问为何非满分，NPC指出放走五名敌人。",
+    "title": "大胜仍有2%任务损失",
+    "why_it_works": "评价不是任意扣分而回溯可见事件"
+  },
+  "created_at": "2026-10-24T19:28:06.964067+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0254",
+      "claim_kind": "inference",
+      "end_line": 13300,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 13285
+    },
+    {
+      "chapter_id": "ch-0263",
+      "claim_kind": "inference",
+      "end_line": 13948,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 13940
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-15/ninety-eight-percent",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》大胜仍有2%任务损失",
+  "updated_at": "2026-10-24T19:28:06.964067+00:00",
+  "user_notes": ""
+}
+
+```

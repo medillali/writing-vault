@@ -1,0 +1,76 @@
+{
+  "asset_id": "chr-full-z-a18cfba409abba27e812",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "龙岩",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "求援其哥后仍随队死亡"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0273",
+            "claim_kind": "inference",
+            "end_line": 14629,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 14577
+          }
+        ],
+        "goals": [
+          "完成巡逻任务",
+          "抵抗九贼"
+        ],
+        "knowledge": [
+          "自认其哥不可能输是人物判断"
+        ],
+        "name": "龙岩",
+        "original_record_name": "龙岩",
+        "relationships": [
+          "对队友失望，不同意集体脱装备"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-16",
+        "summary": "21级猎人，能以白虎与箭线封位，但无法组织临时团队反击。",
+        "unit_end": 276,
+        "unit_start": 265
+      }
+    ],
+    "source_keys": [
+      "longyan"
+    ],
+    "summary": "21级猎人，能以白虎与箭线封位，但无法组织临时团队反击。"
+  },
+  "created_at": "2026-10-24T19:28:06.593036+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0273",
+      "claim_kind": "inference",
+      "end_line": 14629,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14577
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/character/龙岩",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《贼胆》龙岩〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:28:06.593036+00:00",
+  "user_notes": ""
+}

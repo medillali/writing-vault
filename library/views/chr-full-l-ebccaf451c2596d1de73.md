@@ -1,0 +1,213 @@
+# 《网游之练级专家》恩特〔全书阶段档案〕
+
+ID: `chr-full-l-ebccaf451c2596d1de73` · 版本: 2 · 范围: source-analysis
+
+同水晶组成自动刷怪搭档，表现要求工资的拟人语言。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-l-ebccaf451c2596d1de73",
+  "asset_type": "character",
+  "content": {
+    "aliases": [
+      "泰坦巨人恩特"
+    ],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "恩特",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "1升21级",
+          "持剑与重塔盾"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0321",
+            "claim_kind": "inference",
+            "end_line": 14808,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 14770
+          },
+          {
+            "chapter_id": "ch-0323",
+            "claim_kind": "inference",
+            "end_line": 14973,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 14969
+          },
+          {
+            "chapter_id": "ch-0326",
+            "claim_kind": "inference",
+            "end_line": 15162,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 15159
+          },
+          {
+            "chapter_id": "ch-0334",
+            "claim_kind": "inference",
+            "end_line": 15907,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 15901
+          }
+        ],
+        "goals": [
+          "服务萧翎",
+          "学雷法"
+        ],
+        "knowledge": [
+          "能解释石像鬼灵魂变化但非全知"
+        ],
+        "name": "恩特",
+        "original_record_name": "恩特",
+        "relationships": [
+          "石像鬼同伴",
+          "莫雷卡托指导制作"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-17",
+        "summary": "神娜塔亚所命名的高智慧成长泰坦，已造、成长21级、获重塔盾。",
+        "unit_end": 333,
+        "unit_start": 314
+      },
+      {
+        "aliases": [
+          "泰坦巨人恩特"
+        ],
+        "changes": [
+          "能自主配合劳动"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0367",
+            "claim_kind": "inference",
+            "end_line": 20298,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 20285
+          },
+          {
+            "chapter_id": "ch-0372",
+            "claim_kind": "inference",
+            "end_line": 21046,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 21045
+          },
+          {
+            "chapter_id": "ch-0372",
+            "claim_kind": "inference",
+            "end_line": 21176,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 21169
+          }
+        ],
+        "goals": [
+          "执行主角指令"
+        ],
+        "identity_resolution": "全文中已确证的同一人物/意识，保留原称呼与阶段证据",
+        "knowledge": [],
+        "name": "泰坦巨人恩特",
+        "original_record_name": "泰坦巨人恩特",
+        "relationships": [
+          "水晶同伴但实际听不懂其话"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-19",
+        "summary": "同水晶组成自动刷怪搭档，表现要求工资的拟人语言。",
+        "unit_end": 373,
+        "unit_start": 354
+      }
+    ],
+    "source_keys": [
+      "ent",
+      "ente"
+    ],
+    "summary": "同水晶组成自动刷怪搭档，表现要求工资的拟人语言。"
+  },
+  "created_at": "2026-10-24T18:56:05.941426+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0321",
+      "claim_kind": "inference",
+      "end_line": 14808,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 14770
+    },
+    {
+      "chapter_id": "ch-0323",
+      "claim_kind": "inference",
+      "end_line": 14973,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 14969
+    },
+    {
+      "chapter_id": "ch-0326",
+      "claim_kind": "inference",
+      "end_line": 15162,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 15159
+    },
+    {
+      "chapter_id": "ch-0334",
+      "claim_kind": "inference",
+      "end_line": 15907,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 15901
+    },
+    {
+      "chapter_id": "ch-0367",
+      "claim_kind": "inference",
+      "end_line": 20298,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 20285
+    },
+    {
+      "chapter_id": "ch-0372",
+      "claim_kind": "inference",
+      "end_line": 21046,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 21045
+    },
+    {
+      "chapter_id": "ch-0372",
+      "claim_kind": "inference",
+      "end_line": 21176,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 21169
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/character/恩特",
+  "review_status": "draft",
+  "revision": 2,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《网游之练级专家》恩特〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:10:55.405863+00:00",
+  "user_notes": ""
+}
+
+```

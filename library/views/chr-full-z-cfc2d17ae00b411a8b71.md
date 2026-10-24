@@ -1,0 +1,120 @@
+# 《贼胆》牙刃〔全书阶段档案〕
+
+ID: `chr-full-z-cfc2d17ae00b411a8b71` · 版本: 1 · 范围: source-analysis
+
+黑赛强贼，影刺三段、凤舞、幽影血祭压底；魂须低2000召、伤己转治疗，输萧但逼显暗影，复后友善认其资格。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-z-cfc2d17ae00b411a8b71",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "牙刃",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "优势幻想被暗影克制破",
+          "祭灵未翻盘但保临场判断"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0377",
+            "claim_kind": "inference",
+            "end_line": 22779,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 22760
+          },
+          {
+            "chapter_id": "ch-0378",
+            "claim_kind": "inference",
+            "end_line": 22876,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 22831
+          },
+          {
+            "chapter_id": "ch-0379",
+            "claim_kind": "inference",
+            "end_line": 22921,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 22880
+          }
+        ],
+        "goals": [
+          "高水平较技"
+        ],
+        "knowledge": [
+          "见出萧学刺及独创"
+        ],
+        "name": "牙刃",
+        "original_record_name": "牙刃",
+        "relationships": [
+          "刺刀已两败经历",
+          "认为萧留后招且获默认"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-24",
+        "summary": "黑赛强贼，影刺三段、凤舞、幽影血祭压底；魂须低2000召、伤己转治疗，输萧但逼显暗影，复后友善认其资格。",
+        "unit_end": 390,
+        "unit_start": 371
+      }
+    ],
+    "source_keys": [
+      "ya-ren"
+    ],
+    "summary": "黑赛强贼，影刺三段、凤舞、幽影血祭压底；魂须低2000召、伤己转治疗，输萧但逼显暗影，复后友善认其资格。"
+  },
+  "created_at": "2026-10-24T19:28:06.388045+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0377",
+      "claim_kind": "inference",
+      "end_line": 22779,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 22760
+    },
+    {
+      "chapter_id": "ch-0378",
+      "claim_kind": "inference",
+      "end_line": 22876,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 22831
+    },
+    {
+      "chapter_id": "ch-0379",
+      "claim_kind": "inference",
+      "end_line": 22921,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 22880
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/character/牙刃",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《贼胆》牙刃〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:28:06.388045+00:00",
+  "user_notes": ""
+}
+
+```

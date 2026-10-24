@@ -1,0 +1,60 @@
+# 让被观察者修改观测前提
+
+ID: `pat-full-z-2fd6d5d809eece6bd77c` · 版本: 1 · 范围: reusable-pattern
+
+追踪仍准确指向标记，观察者却把标记位置错等同身体位置，从而被反用。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-z-2fd6d5d809eece6bd77c",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "追踪与信息优势的可解释反转",
+    "failure_mode": "靠凭空消失或观测器突然坏掉解决冲突",
+    "stage": "stage-17",
+    "steps": [
+      "明确观测到底测什么",
+      "让目标得知测量方式",
+      "改变对应关系并配合第二行动者"
+    ],
+    "summary": "追踪仍准确指向标记，观察者却把标记位置错等同身体位置，从而被反用。",
+    "title": "让被观察者修改观测前提"
+  },
+  "created_at": "2026-10-24T19:28:07.387030+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-45dbb6a29eed49ef2142",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0279",
+      "claim_kind": "synthesis",
+      "end_line": 14968,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14961
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/pattern/stage-17/counter-observation",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "让被观察者修改观测前提",
+  "updated_at": "2026-10-24T19:28:07.387030+00:00",
+  "user_notes": ""
+}
+
+```

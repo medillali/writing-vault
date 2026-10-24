@@ -1,0 +1,39 @@
+# 《贼胆》贺雄飞〔全书阶段档案〕
+
+主档 `chr-full-z-bb57e1000b33e05c6e24` · v1 · source-analysis。返回[全书入口](../README.md)。
+
+## 已记录别名
+
+无已记录条目。
+
+## 解释边界
+
+人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。
+
+## 身份边界
+
+同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。
+
+## 人物名
+
+贺雄飞
+
+## 阶段快照
+
+- **已记录别名**：无已记录条目。；**阶段变化**：- 从试探到更认真估主角；**证据**：- **chapter_id**：ch-0327；**claim_kind**：inference；**end_line**：18038；**revision**：8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f；**source_id**：src-2d8a13f33737429da512e5cc9e839712；**start_line**：18030；- **chapter_id**：ch-0331；**claim_kind**：inference；**end_line**：18230；**revision**：8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f；**source_id**：src-2d8a13f33737429da512e5cc9e839712；**start_line**：18228；- **chapter_id**：ch-0334；**claim_kind**：inference；**end_line**：18490；**revision**：8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f；**source_id**：src-2d8a13f33737429da512e5cc9e839712；**start_line**：18468；**目标**：- 黑赛收益；**认知与信息边界**：- 阳炎推主角还藏实力；**人物名**：贺雄飞；**original_record_name**：贺雄飞；**关系**：- 风野赌对手；**原文异常**：无已记录条目。；**研究阶段**：stage-21；**概述**：红都高科董事长，供猎/冰雷法黑赛，输并实付款；未来押萧赢刺刀只是盘算。；**unit_end**：340；**unit_start**：321
+
+## 阶段键
+
+- he-xiong-fei
+
+## 概述
+
+红都高科董事长，供猎/冰雷法黑赛，输并实付款；未来押萧赢刺刀只是盘算。
+
+## 来源证据
+
+[ch-0327 L18030–18038](../chapter-index.md#ch-0327)；[ch-0331 L18228–18230](../chapter-index.md#ch-0331)；[ch-0334 L18468–18490](../chapter-index.md#ch-0334)
+
+## 你的评价
+
+尚未填写；研究解释没有自动成为你的风格标准。

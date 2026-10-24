@@ -79,3 +79,7 @@ novel.cmd validate
 换机先克隆两个私库到相邻、较短路径；读`START-HERE.md`和检查点。继续阅读时，用相同原文件核对哈希，把规范化正文放入`private-sources`。原文位置保存在本机清单，不把另一台电脑绝对路径当作长期身份。
 
 工作包用于把指定卡片交给ChatGPT讨论，回收仍需共同基线和冲突检查。GitHub不是ChatGPT记忆；当前没有自动Space同步。
+
+## 双书完整研究
+
+2026-10-25完整成果见[双书总入口](library/reports/two-books-full-20261025/README.md)，实际创作检索、评价与固定版本引用见[后续操作](library/reports/two-books-full-20261025/APPLICATION-WORKFLOW.md)。原来开篇试读与迁移检查点作为历史保留，最新覆盖以全书检查点为准。

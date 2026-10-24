@@ -1,0 +1,56 @@
+# 《贼胆》用分散而非火力拖狂暴
+
+ID: `scn-full-z-3e231a16d3d1a42765dd` · 版本: 1 · 范围: source-analysis
+
+治疗OT后风野五千人散5码，五分钟死300换虚弱窗口。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-3e231a16d3d1a42765dd",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "强单体敌群体生存",
+    "choice": "牺牲集中输出换敌奔跑时间",
+    "consequence": "狂暴消退",
+    "failure_mode": "不说明无群攻限制就万能散开",
+    "goal": "等待狂暴完",
+    "obstacle": "无坦能顶且不宜杀",
+    "stage": "stage-21",
+    "state_change": "控血捕捉恢复",
+    "summary": "治疗OT后风野五千人散5码，五分钟死300换虚弱窗口。",
+    "title": "用分散而非火力拖狂暴",
+    "why_it_works": "空间变时间有实际伤亡代价"
+  },
+  "created_at": "2026-10-24T19:28:07.043216+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0324",
+      "claim_kind": "inference",
+      "end_line": 17825,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 17800
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-21/zc01-five-yards",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》用分散而非火力拖狂暴",
+  "updated_at": "2026-10-24T19:28:07.043216+00:00",
+  "user_notes": ""
+}
+
+```

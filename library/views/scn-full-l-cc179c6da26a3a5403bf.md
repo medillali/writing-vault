@@ -1,0 +1,72 @@
+# 《网游之练级专家》被夺本命成为同死机关
+
+ID: `scn-full-l-cc179c6da26a3a5403bf` · 版本: 1 · 范围: source-analysis
+
+提莫斯借团队牵制拿到骷髅，却触发奥斯林兰预设诅咒。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-l-cc179c6da26a3a5403bf",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "敌手知道彼此弱点而读者只知一层规则的悲剧场景",
+    "choice": "用侦察与神誓约束提，继续拖延奥",
+    "consequence": "提拿到骷髅反被烧死，奥获解脱，遗物补出最后祈祷",
+    "failure_mode": "反制无预先异常或事后说教过密，会显为任意翻转。",
+    "goal": "玩家借提莫斯削弱奥斯林兰并取奖",
+    "obstacle": "双方NPC都在利用玩家且有隐瞒",
+    "stage": "stage-08",
+    "state_change": "副本悲剧闭合，装备进入团队",
+    "summary": "提莫斯借团队牵制拿到骷髅，却触发奥斯林兰预设诅咒。",
+    "title": "被夺本命成为同死机关",
+    "why_it_works": "同一物件先被解释为弱点，再被证明是主动选择；前面从容态度变为回看线索。"
+  },
+  "created_at": "2026-10-24T18:56:06.361645+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0144",
+      "claim_kind": "inference",
+      "end_line": 5603,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 5591
+    },
+    {
+      "chapter_id": "ch-0144",
+      "claim_kind": "inference",
+      "end_line": 5680,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 5673
+    },
+    {
+      "chapter_id": "ch-0146",
+      "claim_kind": "inference",
+      "end_line": 5759,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 5742
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/scene/stage-08/l-scene-life-skull",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《网游之练级专家》被夺本命成为同死机关",
+  "updated_at": "2026-10-24T18:56:06.362151+00:00",
+  "user_notes": ""
+}
+
+```

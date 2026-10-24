@@ -1,0 +1,158 @@
+# 《贼胆》霍尔斯〔全书阶段档案〕
+
+ID: `chr-full-z-3a111f37de558b21cd29` · 版本: 1 · 范围: source-analysis
+
+断情血族主人，吸空赵魔召狼仍被赵梦魇杀。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-z-3a111f37de558b21cd29",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "霍尔斯",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [],
+        "evidence": [
+          {
+            "chapter_id": "ch-0340",
+            "claim_kind": "inference",
+            "end_line": 18886,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 18869
+          },
+          {
+            "chapter_id": "ch-0341",
+            "claim_kind": "inference",
+            "end_line": 18920,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 18913
+          }
+        ],
+        "goals": [
+          "塑造忠诚"
+        ],
+        "knowledge": [],
+        "name": "霍尔斯",
+        "original_record_name": "霍尔斯",
+        "relationships": [
+          "列昂的父与敌"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-21",
+        "summary": "列昂创造者，杀其亲人假救、杀爱侣宣凡人蝼蚁，尚未现时交战。",
+        "unit_end": 340,
+        "unit_start": 321
+      },
+      {
+        "aliases": [],
+        "changes": [
+          "血阵青春复原",
+          "控制列昂被破",
+          "实际死亡"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0344",
+            "claim_kind": "inference",
+            "end_line": 19149,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 19128
+          },
+          {
+            "chapter_id": "ch-0346",
+            "claim_kind": "inference",
+            "end_line": 19324,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 19218
+          }
+        ],
+        "goals": [
+          "延续血族统治"
+        ],
+        "knowledge": [],
+        "name": "霍尔斯",
+        "original_record_name": "霍尔斯",
+        "relationships": [
+          "列昂仇敌",
+          "萧赵敌人"
+        ],
+        "source_anomalies": [
+          "强化/超阶标签摇摆"
+        ],
+        "stage": "stage-22",
+        "summary": "断情血族主人，吸空赵魔召狼仍被赵梦魇杀。",
+        "unit_end": 360,
+        "unit_start": 341
+      }
+    ],
+    "source_keys": [
+      "hols",
+      "holes"
+    ],
+    "summary": "断情血族主人，吸空赵魔召狼仍被赵梦魇杀。"
+  },
+  "created_at": "2026-10-24T19:28:06.548652+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0340",
+      "claim_kind": "inference",
+      "end_line": 18886,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18869
+    },
+    {
+      "chapter_id": "ch-0341",
+      "claim_kind": "inference",
+      "end_line": 18920,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18913
+    },
+    {
+      "chapter_id": "ch-0344",
+      "claim_kind": "inference",
+      "end_line": 19149,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 19128
+    },
+    {
+      "chapter_id": "ch-0346",
+      "claim_kind": "inference",
+      "end_line": 19324,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 19218
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/character/霍尔斯",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《贼胆》霍尔斯〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:28:06.548652+00:00",
+  "user_notes": ""
+}
+
+```

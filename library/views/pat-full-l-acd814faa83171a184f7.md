@@ -1,0 +1,69 @@
+# 将恢复能力变成真正胜利条件
+
+ID: `pat-full-l-acd814faa83171a184f7` · 版本: 1 · 范围: reusable-pattern
+
+击杀并非唯一目标，保存复活链可把全体伤亡转成可承受惨胜。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-l-acd814faa83171a184f7",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "有复活规则的团队叙事",
+    "failure_mode": "复活让所有死亡都毫无情绪和资源成本",
+    "stage": "stage-06",
+    "steps": [
+      "说明复活差异",
+      "危机压垮攻击体系",
+      "牺牲保护恢复者",
+      "重建团队"
+    ],
+    "summary": "击杀并非唯一目标，保存复活链可把全体伤亡转成可承受惨胜。",
+    "title": "将恢复能力变成真正胜利条件"
+  },
+  "created_at": "2026-10-24T18:56:06.683090+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-l-be03bceb57005ad59bf7",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0116",
+      "claim_kind": "synthesis",
+      "end_line": 4242,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 4242
+    },
+    {
+      "chapter_id": "ch-0118",
+      "claim_kind": "synthesis",
+      "end_line": 4385,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 4368
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/pattern/stage-06/recovery-as-victory-condition",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "将恢复能力变成真正胜利条件",
+  "updated_at": "2026-10-24T18:56:06.683090+00:00",
+  "user_notes": ""
+}
+
+```

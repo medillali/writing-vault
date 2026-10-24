@@ -1,0 +1,62 @@
+# 以感情重释迟到奖励
+
+ID: `pat-full-l-f1eead1754542f48edbb` · 版本: 1 · 范围: reusable-pattern
+
+先前危险任务后置到大奖，奖的意义先由关系解释。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-l-f1eead1754542f48edbb",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "长线任务回收",
+    "failure_mode": "政治推断漂白特权且无界限",
+    "stage": "stage-19",
+    "steps": [
+      "任务先无直接奖励",
+      "旁人识遗留痕迹",
+      "谈判证明贡献",
+      "角色理解关爱",
+      "战力属性后揭"
+    ],
+    "summary": "先前危险任务后置到大奖，奖的意义先由关系解释。",
+    "title": "以感情重释迟到奖励"
+  },
+  "created_at": "2026-10-24T18:56:06.834180+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-l-d80b0dbded929d0f7feb",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0374",
+      "claim_kind": "synthesis",
+      "end_line": 21583,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 21533
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/pattern/stage-19/l09-emotional-reward",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "以感情重释迟到奖励",
+  "updated_at": "2026-10-24T18:56:06.834180+00:00",
+  "user_notes": ""
+}
+
+```

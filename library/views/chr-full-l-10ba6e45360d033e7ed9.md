@@ -1,0 +1,256 @@
+# 《网游之练级专家》无羽〔全书阶段档案〕
+
+ID: `chr-full-l-10ba6e45360d033e7ed9` · 版本: 2 · 范围: source-analysis
+
+幻影神弓获3人冠军并指挥千弓，神战万箭穿心；现实与无炎无岚同居。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-l-10ba6e45360d033e7ed9",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "无羽",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "五箭追踪秒杀，支援治疗者"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0231",
+            "claim_kind": "inference",
+            "end_line": 9701,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 9694
+          },
+          {
+            "chapter_id": "ch-0232",
+            "claim_kind": "inference",
+            "end_line": 9758,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 9752
+          },
+          {
+            "chapter_id": "ch-0233",
+            "claim_kind": "inference",
+            "end_line": 9816,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 9813
+          }
+        ],
+        "goals": [
+          "跟随无炎、胜姐姐"
+        ],
+        "knowledge": [
+          "血精灵视野探隐"
+        ],
+        "name": "无羽",
+        "original_record_name": "无羽",
+        "relationships": [
+          "和无岚竞争；因无炎昔日救命定情"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-12",
+        "summary": "血精灵幻影射手、机师。",
+        "unit_end": 233,
+        "unit_start": 214
+      },
+      {
+        "aliases": [],
+        "changes": [
+          "败云天但未动周虚弱自爆；临时属性下鉴三史诗"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0242",
+            "claim_kind": "inference",
+            "end_line": 10303,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 10301
+          },
+          {
+            "chapter_id": "ch-0251",
+            "claim_kind": "inference",
+            "end_line": 10959,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 10952
+          }
+        ],
+        "goals": [
+          "同行护队"
+        ],
+        "knowledge": [
+          "血瞳鉴定耗体力"
+        ],
+        "name": "无羽",
+        "original_record_name": "无羽",
+        "relationships": [
+          "云天承认其隐藏底牌可改结果"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-13",
+        "summary": "幻影射手，承认技能制约。",
+        "unit_end": 253,
+        "unit_start": 234
+      },
+      {
+        "aliases": [],
+        "changes": [],
+        "evidence": [
+          {
+            "chapter_id": "ch-0381",
+            "claim_kind": "inference",
+            "end_line": 22429,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 22425
+          },
+          {
+            "chapter_id": "ch-0386",
+            "claim_kind": "inference",
+            "end_line": 22991,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 22988
+          },
+          {
+            "chapter_id": "ch-0387",
+            "claim_kind": "inference",
+            "end_line": 23095,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 23090
+          },
+          {
+            "chapter_id": "ch-0388",
+            "claim_kind": "inference",
+            "end_line": 23235,
+            "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+            "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+            "start_line": 23233
+          }
+        ],
+        "goals": [],
+        "knowledge": [],
+        "name": "无羽",
+        "original_record_name": "无羽",
+        "relationships": [
+          "无岚姐妹"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-20",
+        "summary": "幻影神弓获3人冠军并指挥千弓，神战万箭穿心；现实与无炎无岚同居。",
+        "unit_end": 387,
+        "unit_start": 374
+      }
+    ],
+    "source_keys": [
+      "wu-yu"
+    ],
+    "summary": "幻影神弓获3人冠军并指挥千弓，神战万箭穿心；现实与无炎无岚同居。"
+  },
+  "created_at": "2026-10-24T18:56:05.972209+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0231",
+      "claim_kind": "inference",
+      "end_line": 9701,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 9694
+    },
+    {
+      "chapter_id": "ch-0232",
+      "claim_kind": "inference",
+      "end_line": 9758,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 9752
+    },
+    {
+      "chapter_id": "ch-0233",
+      "claim_kind": "inference",
+      "end_line": 9816,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 9813
+    },
+    {
+      "chapter_id": "ch-0242",
+      "claim_kind": "inference",
+      "end_line": 10303,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 10301
+    },
+    {
+      "chapter_id": "ch-0251",
+      "claim_kind": "inference",
+      "end_line": 10959,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 10952
+    },
+    {
+      "chapter_id": "ch-0381",
+      "claim_kind": "inference",
+      "end_line": 22429,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 22425
+    },
+    {
+      "chapter_id": "ch-0386",
+      "claim_kind": "inference",
+      "end_line": 22991,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 22988
+    },
+    {
+      "chapter_id": "ch-0387",
+      "claim_kind": "inference",
+      "end_line": 23095,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 23090
+    },
+    {
+      "chapter_id": "ch-0388",
+      "claim_kind": "inference",
+      "end_line": 23235,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 23233
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/character/无羽",
+  "review_status": "draft",
+  "revision": 2,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《网游之练级专家》无羽〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:10:55.452155+00:00",
+  "user_notes": ""
+}
+
+```

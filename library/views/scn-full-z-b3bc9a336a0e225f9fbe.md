@@ -1,0 +1,64 @@
+# 《贼胆》630万解除生计又难以搬家
+
+ID: `scn-full-z-b3bc9a336a0e225f9fbe` · 版本: 1 · 范围: source-analysis
+
+银行核实后告诉妹妹，买房愿望遇到不愿离赵，主角再上线定第一人目标。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-b3bc9a336a0e225f9fbe",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "成长故事中期换驱动",
+    "choice": "搬家暂缓，转追成就",
+    "consequence": "主线驱动扩展",
+    "failure_mode": "若所有贫困阴影瞬间消散会过度简化",
+    "goal": "改善兄妹生活",
+    "obstacle": "金钱已够但关系选择未清",
+    "stage": "stage-11",
+    "state_change": "生存叙事转自信竞争",
+    "summary": "银行核实后告诉妹妹，买房愿望遇到不愿离赵，主角再上线定第一人目标。",
+    "title": "630万解除生计又难以搬家",
+    "why_it_works": "先回家验证收入影响，再给新愿望，避免目标突然丢失。"
+  },
+  "created_at": "2026-10-24T19:28:06.858433+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0203",
+      "claim_kind": "inference",
+      "end_line": 9818,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 9816
+    },
+    {
+      "chapter_id": "ch-0204",
+      "claim_kind": "inference",
+      "end_line": 9860,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 9832
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-11/money-goal-transition",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》630万解除生计又难以搬家",
+  "updated_at": "2026-10-24T19:28:06.858433+00:00",
+  "user_notes": ""
+}
+
+```

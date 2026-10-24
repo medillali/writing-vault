@@ -1,0 +1,72 @@
+# 《网游之练级专家》击杀后材料重写怪物的意义
+
+ID: `scn-full-l-7a7504bf013eb7536cd6` · 版本: 1 · 范围: source-analysis
+
+夜间食尸鬼被控杀，灵魂白光净化，日记还原迫害者承受的恐惧。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-l-7a7504bf013eb7536cd6",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "怪物的人性与历史揭示",
+    "choice": "守冷却慢慢风筝",
+    "consequence": "获灵魂碎片、日记和新地图",
+    "failure_mode": "日记全部当全知真相或用悲惨史抹去先前罪责",
+    "goal": "安全击杀夜间精英",
+    "obstacle": "高攻击、控制抗性增长",
+    "stage": "stage-05",
+    "state_change": "胜利快感加入同情与后续探索",
+    "summary": "夜间食尸鬼被控杀，灵魂白光净化，日记还原迫害者承受的恐惧。",
+    "title": "击杀后材料重写怪物的意义",
+    "why_it_works": "战斗前身份片段、战后完整材料使情绪转折有证据。"
+  },
+  "created_at": "2026-10-24T18:56:06.324554+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0097",
+      "claim_kind": "inference",
+      "end_line": 3518,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 3517
+    },
+    {
+      "chapter_id": "ch-0098",
+      "claim_kind": "inference",
+      "end_line": 3562,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 3537
+    },
+    {
+      "chapter_id": "ch-0099",
+      "claim_kind": "inference",
+      "end_line": 3578,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 3566
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/scene/stage-05/diary-after-monster",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《网游之练级专家》击杀后材料重写怪物的意义",
+  "updated_at": "2026-10-24T18:56:06.324554+00:00",
+  "user_notes": ""
+}
+
+```

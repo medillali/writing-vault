@@ -1,0 +1,921 @@
+# 《贼胆》赵岚馨〔全书阶段档案〕
+
+ID: `chr-full-z-1cf68b4c69c34e2ee46a` · 版本: 1 · 范围: source-analysis
+
+中位神器水法，73后团队引导、200水元素神战贡献；未在万人对决放出关键召唤因已被萧翎点杀。终与伴侣小雨实际起飞。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-z-1cf68b4c69c34e2ee46a",
+  "asset_type": "character",
+  "content": {
+    "aliases": [
+      "赵医生",
+      "夜岚",
+      "小岚"
+    ],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "赵岚馨",
+    "snapshots": [
+      {
+        "aliases": [
+          "赵医生"
+        ],
+        "changes": [
+          "从接诊陌生伤者到关注其经历"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0003",
+            "claim_kind": "inference",
+            "end_line": 168,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 164
+          },
+          {
+            "chapter_id": "ch-0004",
+            "claim_kind": "inference",
+            "end_line": 186,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 172
+          }
+        ],
+        "goals": [
+          "在贫民窟实习治疗"
+        ],
+        "knowledge": [
+          "见到萧御大面积致命旧伤，不知其具体来历"
+        ],
+        "name": "赵岚馨",
+        "original_record_name": "赵岚馨",
+        "relationships": [
+          "为萧御治疗，告知可继续找她"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-01",
+        "summary": "医科大志愿者，曾从军，镇静并对萧御满身创伤产生关切。",
+        "unit_end": 20,
+        "unit_start": 1
+      },
+      {
+        "aliases": [
+          "赵医生"
+        ],
+        "changes": [
+          "从医生关系进入同住日常",
+          "得知心口伤与保护妹妹的意志"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0071",
+            "claim_kind": "inference",
+            "end_line": 3113,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 3097
+          },
+          {
+            "chapter_id": "ch-0080",
+            "claim_kind": "inference",
+            "end_line": 3528,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 3517
+          },
+          {
+            "chapter_id": "ch-0081",
+            "claim_kind": "inference",
+            "end_line": 3563,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 3548
+          }
+        ],
+        "goals": [
+          "帮助仍在母星的人",
+          "改善兄妹居处并有亲近陪伴"
+        ],
+        "knowledge": [
+          "知道兄妹七岁/十二岁时失双亲",
+          "不知萧御对自身阶层的全部判断"
+        ],
+        "name": "赵岚馨",
+        "original_record_name": "赵岚馨",
+        "relationships": [
+          "喜欢小雨并维护萧御自尊",
+          "对萧御寡言气恼，但受其经历触动"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-04",
+        "summary": "留母星行医的富裕青年女性，邀请兄妹以三百租金同住；游戏为十级海族水法。",
+        "unit_end": 80,
+        "unit_start": 61
+      },
+      {
+        "aliases": [
+          "夜岚",
+          "小岚"
+        ],
+        "changes": [
+          "确认主角职业实力",
+          "跌落被护后感到安全",
+          "因主角否认爱慕失落"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0163",
+            "claim_kind": "inference",
+            "end_line": 7212,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 7196
+          },
+          {
+            "chapter_id": "ch-0172",
+            "claim_kind": "inference",
+            "end_line": 7793,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 7781
+          },
+          {
+            "chapter_id": "ch-0180",
+            "claim_kind": "inference",
+            "end_line": 8310,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 8305
+          }
+        ],
+        "goals": [
+          "探查矿洞",
+          "帮助萧御谋生",
+          "与同学保持合作"
+        ],
+        "knowledge": [
+          "知道萧有多项越级私有技能"
+        ],
+        "name": "赵岚馨",
+        "original_record_name": "赵岚馨",
+        "relationships": [
+          "风野月夜为一对同学情侣",
+          "风逆小~为一对同学情侣",
+          "与萧尚朋友未正式恋人"
+        ],
+        "source_anomalies": [
+          "所得传说法饰文本名项链但作指环佩戴"
+        ],
+        "stage": "stage-09",
+        "summary": "十六级水法，和萧共同矿洞任务；准备充分、善用控制和治疗，内心已对其有好感。",
+        "unit_end": 180,
+        "unit_start": 161
+      },
+      {
+        "aliases": [],
+        "changes": [
+          "表现更亲近的小女儿态"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0264",
+            "claim_kind": "inference",
+            "end_line": 14021,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 14000
+          }
+        ],
+        "goals": [
+          "让共同生活继续"
+        ],
+        "knowledge": [
+          "本段尚在自问是否喜欢萧御"
+        ],
+        "name": "赵岚馨",
+        "original_record_name": "赵岚馨",
+        "relationships": [
+          "对萧御：不舍与试探留住",
+          "对小雨：以她为留人理由"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-15",
+        "summary": "不直接表白留人，借小雨表达不愿兄妹搬走。",
+        "unit_end": 264,
+        "unit_start": 253
+      },
+      {
+        "aliases": [],
+        "changes": [
+          "第一次随看黑赛转并肩副本",
+          "求爱先保留回答"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0328",
+            "claim_kind": "inference",
+            "end_line": 18062,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 18053
+          },
+          {
+            "chapter_id": "ch-0335",
+            "claim_kind": "inference",
+            "end_line": 18533,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 18532
+          },
+          {
+            "chapter_id": "ch-0336",
+            "claim_kind": "inference",
+            "end_line": 18623,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 18601
+          },
+          {
+            "chapter_id": "ch-0338",
+            "claim_kind": "inference",
+            "end_line": 18748,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 18730
+          }
+        ],
+        "goals": [
+          "与萧御亲近",
+          "助宠升级"
+        ],
+        "knowledge": [
+          "赵父权势不等于她亲自宣不受干涉"
+        ],
+        "name": "赵岚馨",
+        "original_record_name": "赵岚馨",
+        "relationships": [
+          "小雨视嫂",
+          "母亲农妇、父军将长期不在",
+          "月夜好友"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-21",
+        "summary": "29水法能治疗控制群攻，主动支持及陪练，对父亲有复杂原生家庭感受。",
+        "unit_end": 340,
+        "unit_start": 321
+      },
+      {
+        "aliases": [],
+        "changes": [
+          "伯爵五件梦魇破局尾刀杀霍",
+          "转职蓝6600回165",
+          "独角兽坐骑",
+          "辞医院",
+          "41级"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0344",
+            "claim_kind": "inference",
+            "end_line": 19149,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 19100
+          },
+          {
+            "chapter_id": "ch-0346",
+            "claim_kind": "inference",
+            "end_line": 19324,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 19282
+          },
+          {
+            "chapter_id": "ch-0354",
+            "claim_kind": "inference",
+            "end_line": 19956,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 19946
+          },
+          {
+            "chapter_id": "ch-0359",
+            "claim_kind": "inference",
+            "end_line": 21111,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 21100
+          },
+          {
+            "chapter_id": "ch-0360",
+            "claim_kind": "inference",
+            "end_line": 21368,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 21359
+          }
+        ],
+        "goals": [
+          "协助萧任务",
+          "共同探索梦魇"
+        ],
+        "knowledge": [
+          "知道梦魇门和傀儡玩法",
+          "次夜仅同房约定非性完成"
+        ],
+        "name": "赵岚馨",
+        "original_record_name": "赵岚馨",
+        "relationships": [
+          "萧女友公开介绍无异议",
+          "风野主力输出",
+          "与小雨日常相处"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-22",
+        "summary": "治疗兼群攻核心，主动投入恋爱但明确性边界，辞医院与萧组队。",
+        "unit_end": 360,
+        "unit_start": 341
+      },
+      {
+        "aliases": [],
+        "changes": [
+          "42后43级",
+          "美杜莎杖先留避免破套",
+          "凝水戒+50%水伤",
+          "炽焰翼一瓶实用"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0362",
+            "claim_kind": "inference",
+            "end_line": 21640,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 21621
+          },
+          {
+            "chapter_id": "ch-0363",
+            "claim_kind": "inference",
+            "end_line": 21649,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 21647
+          },
+          {
+            "chapter_id": "ch-0367",
+            "claim_kind": "inference",
+            "end_line": 21872,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 21865
+          },
+          {
+            "chapter_id": "ch-0368",
+            "claim_kind": "inference",
+            "end_line": 21986,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 21979
+          },
+          {
+            "chapter_id": "ch-0371",
+            "claim_kind": "inference",
+            "end_line": 22316,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 22304
+          }
+        ],
+        "goals": [
+          "助萧并救巨人",
+          "探索任务"
+        ],
+        "knowledge": [
+          "主角未进异星",
+          "发现异星门"
+        ],
+        "name": "赵岚馨",
+        "original_record_name": "赵岚馨",
+        "relationships": [
+          "带伤救萧",
+          "陪同折返救巨人"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-23",
+        "summary": "持续治疗与输出并存，具魔法吊坠与凝水戒，始终支持萧的去留。",
+        "unit_end": 370,
+        "unit_start": 361
+      },
+      {
+        "aliases": [],
+        "changes": [
+          "独创练级方案实现等级追赶"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0392",
+            "claim_kind": "inference",
+            "end_line": 23865,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 23857
+          },
+          {
+            "chapter_id": "ch-0404",
+            "claim_kind": "inference",
+            "end_line": 24625,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 24615
+          },
+          {
+            "chapter_id": "ch-0410",
+            "claim_kind": "inference",
+            "end_line": 25087,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 25026
+          },
+          {
+            "chapter_id": "ch-0411",
+            "claim_kind": "inference",
+            "end_line": 25127,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 25108
+          }
+        ],
+        "goals": [
+          "陪萧探乌服诺斯",
+          "与萧赴新星"
+        ],
+        "knowledge": [
+          "神言杖拟赠已告她晚上给，410未实际交付"
+        ],
+        "name": "赵岚馨",
+        "original_record_name": "赵岚馨",
+        "relationships": [
+          "萧御明确女友",
+          "被猴子柠檬称嫂"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-25",
+        "summary": "海族水法恋人，梦魇海底球形AOE礁石速练由48追至54；订新星票，愿共担贫困，代押1亿。",
+        "unit_end": 410,
+        "unit_start": 391
+      },
+      {
+        "aliases": [
+          "夜岚"
+        ],
+        "changes": [
+          "公众开始承认独立战力",
+          "旧恋重会中主动安抚且体贴离去"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0434",
+            "claim_kind": "inference",
+            "end_line": 26814,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 26753
+          },
+          {
+            "chapter_id": "ch-0440",
+            "claim_kind": "inference",
+            "end_line": 27208,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 27190
+          },
+          {
+            "chapter_id": "ch-0441",
+            "claim_kind": "inference",
+            "end_line": 27282,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 27271
+          },
+          {
+            "chapter_id": "ch-0447",
+            "claim_kind": "inference",
+            "end_line": 27686,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 27668
+          }
+        ],
+        "goals": [
+          "与萧共同竞技",
+          "维持亲密关系"
+        ],
+        "knowledge": [
+          "燕的后悔与萧旧伤",
+          "师承尚是转述"
+        ],
+        "name": "赵岚馨",
+        "original_record_name": "赵岚馨",
+        "relationships": [
+          "既配合萧也有自身团队赛",
+          "不能因萧替她拒借团而推她已表意见"
+        ],
+        "source_anomalies": [
+          "433持匕首应为杖"
+        ],
+        "stage": "stage-27",
+        "summary": "水舞水牢等新技与治疗形成互补，首轮百万分第一，2v2到十强；收爱情之心实际属性与感应爱人功能。",
+        "unit_end": 450,
+        "unit_start": 431
+      },
+      {
+        "aliases": [
+          "夜岚"
+        ],
+        "changes": [
+          "独立试验群召用法到神战回收",
+          "末战前有失落但支持，并非无自身感受"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0456",
+            "claim_kind": "inference",
+            "end_line": 28337,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 28320
+          },
+          {
+            "chapter_id": "ch-0457",
+            "claim_kind": "inference",
+            "end_line": 28383,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 28381
+          },
+          {
+            "chapter_id": "ch-0462",
+            "claim_kind": "inference",
+            "end_line": 28688,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 28683
+          },
+          {
+            "chapter_id": "ch-0464",
+            "claim_kind": "inference",
+            "end_line": 28787,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 28783
+          },
+          {
+            "chapter_id": "ch-0464",
+            "claim_kind": "inference",
+            "end_line": 28893,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 28883
+          }
+        ],
+        "goals": [
+          "与萧共同生活",
+          "团队使命"
+        ],
+        "knowledge": [
+          "末战前获萧说明"
+        ],
+        "name": "赵岚馨",
+        "original_record_name": "赵岚馨",
+        "relationships": [
+          "萧亲密关系，称老婆仅游戏口头",
+          "与妹妹同赴新星"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-28",
+        "summary": "中位神器水法，73后团队引导、200水元素神战贡献；未在万人对决放出关键召唤因已被萧翎点杀。终与伴侣小雨实际起飞。",
+        "unit_end": 463,
+        "unit_start": 451
+      }
+    ],
+    "source_keys": [
+      "zhao-lanxin",
+      "zhaolanxin",
+      "zhao-lan-xin"
+    ],
+    "summary": "中位神器水法，73后团队引导、200水元素神战贡献；未在万人对决放出关键召唤因已被萧翎点杀。终与伴侣小雨实际起飞。"
+  },
+  "created_at": "2026-10-24T19:28:06.509239+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0003",
+      "claim_kind": "inference",
+      "end_line": 168,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 164
+    },
+    {
+      "chapter_id": "ch-0004",
+      "claim_kind": "inference",
+      "end_line": 186,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 172
+    },
+    {
+      "chapter_id": "ch-0071",
+      "claim_kind": "inference",
+      "end_line": 3113,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 3097
+    },
+    {
+      "chapter_id": "ch-0080",
+      "claim_kind": "inference",
+      "end_line": 3528,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 3517
+    },
+    {
+      "chapter_id": "ch-0081",
+      "claim_kind": "inference",
+      "end_line": 3563,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 3548
+    },
+    {
+      "chapter_id": "ch-0163",
+      "claim_kind": "inference",
+      "end_line": 7212,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 7196
+    },
+    {
+      "chapter_id": "ch-0172",
+      "claim_kind": "inference",
+      "end_line": 7793,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 7781
+    },
+    {
+      "chapter_id": "ch-0180",
+      "claim_kind": "inference",
+      "end_line": 8310,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 8305
+    },
+    {
+      "chapter_id": "ch-0264",
+      "claim_kind": "inference",
+      "end_line": 14021,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14000
+    },
+    {
+      "chapter_id": "ch-0328",
+      "claim_kind": "inference",
+      "end_line": 18062,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18053
+    },
+    {
+      "chapter_id": "ch-0335",
+      "claim_kind": "inference",
+      "end_line": 18533,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18532
+    },
+    {
+      "chapter_id": "ch-0336",
+      "claim_kind": "inference",
+      "end_line": 18623,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18601
+    },
+    {
+      "chapter_id": "ch-0338",
+      "claim_kind": "inference",
+      "end_line": 18748,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18730
+    },
+    {
+      "chapter_id": "ch-0344",
+      "claim_kind": "inference",
+      "end_line": 19149,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 19100
+    },
+    {
+      "chapter_id": "ch-0346",
+      "claim_kind": "inference",
+      "end_line": 19324,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 19282
+    },
+    {
+      "chapter_id": "ch-0354",
+      "claim_kind": "inference",
+      "end_line": 19956,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 19946
+    },
+    {
+      "chapter_id": "ch-0359",
+      "claim_kind": "inference",
+      "end_line": 21111,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 21100
+    },
+    {
+      "chapter_id": "ch-0360",
+      "claim_kind": "inference",
+      "end_line": 21368,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 21359
+    },
+    {
+      "chapter_id": "ch-0362",
+      "claim_kind": "inference",
+      "end_line": 21640,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 21621
+    },
+    {
+      "chapter_id": "ch-0363",
+      "claim_kind": "inference",
+      "end_line": 21649,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 21647
+    },
+    {
+      "chapter_id": "ch-0367",
+      "claim_kind": "inference",
+      "end_line": 21872,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 21865
+    },
+    {
+      "chapter_id": "ch-0368",
+      "claim_kind": "inference",
+      "end_line": 21986,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 21979
+    },
+    {
+      "chapter_id": "ch-0371",
+      "claim_kind": "inference",
+      "end_line": 22316,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 22304
+    },
+    {
+      "chapter_id": "ch-0392",
+      "claim_kind": "inference",
+      "end_line": 23865,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 23857
+    },
+    {
+      "chapter_id": "ch-0404",
+      "claim_kind": "inference",
+      "end_line": 24625,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 24615
+    },
+    {
+      "chapter_id": "ch-0410",
+      "claim_kind": "inference",
+      "end_line": 25087,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 25026
+    },
+    {
+      "chapter_id": "ch-0411",
+      "claim_kind": "inference",
+      "end_line": 25127,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 25108
+    },
+    {
+      "chapter_id": "ch-0434",
+      "claim_kind": "inference",
+      "end_line": 26814,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 26753
+    },
+    {
+      "chapter_id": "ch-0440",
+      "claim_kind": "inference",
+      "end_line": 27208,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27190
+    },
+    {
+      "chapter_id": "ch-0441",
+      "claim_kind": "inference",
+      "end_line": 27282,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27271
+    },
+    {
+      "chapter_id": "ch-0447",
+      "claim_kind": "inference",
+      "end_line": 27686,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27668
+    },
+    {
+      "chapter_id": "ch-0456",
+      "claim_kind": "inference",
+      "end_line": 28337,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28320
+    },
+    {
+      "chapter_id": "ch-0457",
+      "claim_kind": "inference",
+      "end_line": 28383,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28381
+    },
+    {
+      "chapter_id": "ch-0462",
+      "claim_kind": "inference",
+      "end_line": 28688,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28683
+    },
+    {
+      "chapter_id": "ch-0464",
+      "claim_kind": "inference",
+      "end_line": 28787,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28783
+    },
+    {
+      "chapter_id": "ch-0464",
+      "claim_kind": "inference",
+      "end_line": 28893,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28883
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/character/赵岚馨",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《贼胆》赵岚馨〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:28:06.509239+00:00",
+  "user_notes": ""
+}
+
+```

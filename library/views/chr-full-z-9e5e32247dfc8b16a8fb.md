@@ -1,0 +1,139 @@
+# 《贼胆》卫风〔全书阶段档案〕
+
+ID: `chr-full-z-9e5e32247dfc8b16a8fb` · 版本: 1 · 范围: source-analysis
+
+二十六七岁兽人战士，殿后、返援和决裂体现信义，学战术后开始独行。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-z-9e5e32247dfc8b16a8fb",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "卫风",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "因抢宝事件离队",
+          "在指导下连续击败四旧队员",
+          "承诺不传授所得技巧"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0296",
+            "claim_kind": "inference",
+            "end_line": 16031,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 16027
+          },
+          {
+            "chapter_id": "ch-0297",
+            "claim_kind": "inference",
+            "end_line": 16124,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 16032
+          },
+          {
+            "chapter_id": "ch-0298",
+            "claim_kind": "inference",
+            "end_line": 16177,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 16159
+          },
+          {
+            "chapter_id": "ch-0300",
+            "claim_kind": "inference",
+            "end_line": 16296,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 16289
+          }
+        ],
+        "goals": [
+          "保护队友",
+          "守原则",
+          "改善单练实力"
+        ],
+        "knowledge": [
+          "以为萧御能长期控NPC，读者知其极限已近"
+        ],
+        "name": "卫风",
+        "original_record_name": "卫风",
+        "relationships": [
+          "萧御暂为普通朋友兼指导者",
+          "卫凌等旧队员成敌"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-18",
+        "summary": "二十六七岁兽人战士，殿后、返援和决裂体现信义，学战术后开始独行。",
+        "unit_end": 299,
+        "unit_start": 286
+      }
+    ],
+    "source_keys": [
+      "weifeng"
+    ],
+    "summary": "二十六七岁兽人战士，殿后、返援和决裂体现信义，学战术后开始独行。"
+  },
+  "created_at": "2026-10-24T19:28:06.206622+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0296",
+      "claim_kind": "inference",
+      "end_line": 16031,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16027
+    },
+    {
+      "chapter_id": "ch-0297",
+      "claim_kind": "inference",
+      "end_line": 16124,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16032
+    },
+    {
+      "chapter_id": "ch-0298",
+      "claim_kind": "inference",
+      "end_line": 16177,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16159
+    },
+    {
+      "chapter_id": "ch-0300",
+      "claim_kind": "inference",
+      "end_line": 16296,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16289
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/character/卫风",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《贼胆》卫风〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:28:06.206622+00:00",
+  "user_notes": ""
+}
+
+```

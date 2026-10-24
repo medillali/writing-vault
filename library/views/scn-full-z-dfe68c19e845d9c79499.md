@@ -1,0 +1,64 @@
+# 《贼胆》打不完的血先切断蓝
+
+ID: `scn-full-z-dfe68c19e845d9c79499` · 版本: 1 · 范围: source-analysis
+
+执金800万血不断满治，主角发现低蓝用魔力蒸发与流逝断循环，分引两个逐杀。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-dfe68c19e845d9c79499",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "战斗、系统故障或资源竞争情境",
+    "choice": "改打治疗资源池，不继续重复放血",
+    "consequence": "分别15分13分杀，虽牺牲比蒙任务路开",
+    "failure_mode": "数据误写损可信，若资源技能临时从不存在菜单取出也会削前置感。",
+    "goal": "过门见神王",
+    "obstacle": "高护甲高血免控、低成本全治，普通输出无效",
+    "stage": "stage-28",
+    "state_change": "难题由输出总量转资源不对称",
+    "summary": "执金800万血不断满治，主角发现低蓝用魔力蒸发与流逝断循环，分引两个逐杀。",
+    "title": "打不完的血先切断蓝",
+    "why_it_works": "先让旧有效策略失败，再给检查数据找到新瓶颈，解法针对循环而非凭空加伤。"
+  },
+  "created_at": "2026-10-24T19:28:07.199559+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0458",
+      "claim_kind": "inference",
+      "end_line": 28429,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28418
+    },
+    {
+      "chapter_id": "ch-0458",
+      "claim_kind": "inference",
+      "end_line": 28457,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28436
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-28/z-scene-mana-bottleneck",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》打不完的血先切断蓝",
+  "updated_at": "2026-10-24T19:28:07.199559+00:00",
+  "user_notes": ""
+}
+
+```

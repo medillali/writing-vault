@@ -1,0 +1,56 @@
+# 《贼胆》让熟悉旧风格的人验证改变
+
+ID: `scn-full-z-b139b4781b4ede0e10fb` · 版本: 1 · 范围: source-analysis
+
+卫风经授艺后独自打卫凌，旧友的熟悉反成不能适应新打法的负担。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-b139b4781b4ede0e10fb",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "学习弧与关系决裂同场完成",
+    "choice": "提前兽神祈祷抗控、退出冰区再卡解除窗口",
+    "consequence": "自主取胜并开始独行，主角不再代打",
+    "failure_mode": "照搬即时开悟会忽略技能基础、训练与主角辅助程度",
+    "goal": "摆脱旧关系与二流战斗水平",
+    "obstacle": "曾七成胜率压制他的冰法旧友",
+    "stage": "stage-18",
+    "state_change": "教程内容通过独立行动验证而非旁白宣称",
+    "summary": "卫风经授艺后独自打卫凌，旧友的熟悉反成不能适应新打法的负担。",
+    "title": "让熟悉旧风格的人验证改变",
+    "why_it_works": "前后可比的对手提供能力改变的证据"
+  },
+  "created_at": "2026-10-24T19:28:07.011967+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0300",
+      "claim_kind": "inference",
+      "end_line": 16296,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 16270
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-18/teaching-proved-by-old-rival",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》让熟悉旧风格的人验证改变",
+  "updated_at": "2026-10-24T19:28:07.011967+00:00",
+  "user_notes": ""
+}
+
+```

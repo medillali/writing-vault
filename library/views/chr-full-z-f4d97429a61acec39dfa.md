@@ -1,0 +1,104 @@
+# 《贼胆》未具名精灵贼〔全书阶段档案〕
+
+ID: `chr-full-z-f4d97429a61acec39dfa` · 版本: 1 · 范围: source-analysis
+
+奥风峡谷争草的高手，展示反手破解反手；试图用野人借刀，最终中毒死。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-z-f4d97429a61acec39dfa",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "未具名精灵贼",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "见萧御即时学习而动摇",
+          "死亡掉蝎草配方"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0066",
+            "claim_kind": "inference",
+            "end_line": 2894,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 2875
+          },
+          {
+            "chapter_id": "ch-0067",
+            "claim_kind": "inference",
+            "end_line": 2951,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 2935
+          }
+        ],
+        "goals": [
+          "采血霖草",
+          "击败或甩掉萧御"
+        ],
+        "knowledge": [
+          "不知萧御具有遁形及剩余致命毒的全部边界"
+        ],
+        "name": "未具名精灵贼",
+        "original_record_name": "未具名精灵贼",
+        "relationships": [
+          "与萧御敌对竞争，尚无姓名依据"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-04",
+        "summary": "奥风峡谷争草的高手，展示反手破解反手；试图用野人借刀，最终中毒死。",
+        "unit_end": 80,
+        "unit_start": 61
+      }
+    ],
+    "source_keys": [
+      "unnamed-elf-thief"
+    ],
+    "summary": "奥风峡谷争草的高手，展示反手破解反手；试图用野人借刀，最终中毒死。"
+  },
+  "created_at": "2026-10-24T19:28:06.326639+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0066",
+      "claim_kind": "inference",
+      "end_line": 2894,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 2875
+    },
+    {
+      "chapter_id": "ch-0067",
+      "claim_kind": "inference",
+      "end_line": 2951,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 2935
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/character/未具名精灵贼",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《贼胆》未具名精灵贼〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:28:06.326639+00:00",
+  "user_notes": ""
+}
+
+```

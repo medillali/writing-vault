@@ -1,0 +1,192 @@
+# 《贼胆》索德〔全书阶段档案〕
+
+ID: `chr-full-z-0fe2f8b4988dc1cf3683` · 版本: 1 · 范围: source-analysis
+
+也门德最后守护者，背祖先保空间转换与族延续承诺卑微生存，最终燃命同五黑精灵归尽；回忆补救巨人后其自愿从属。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-full-z-0fe2f8b4988dc1cf3683",
+  "asset_type": "character",
+  "content": {
+    "aliases": [
+      "格里奥（前段称呼待核，非本段新确认别名）"
+    ],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "索德",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "缩小/代身傀儡实际使用",
+          "履约交药枪配方",
+          "折返燃命",
+          "空间转换交萧"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0369",
+            "claim_kind": "inference",
+            "end_line": 22147,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 22107
+          },
+          {
+            "chapter_id": "ch-0370",
+            "claim_kind": "inference",
+            "end_line": 22217,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 22192
+          },
+          {
+            "chapter_id": "ch-0371",
+            "claim_kind": "inference",
+            "end_line": 22276,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 22253
+          },
+          {
+            "chapter_id": "ch-0371",
+            "claim_kind": "inference",
+            "end_line": 22345,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 22300
+          }
+        ],
+        "goals": [
+          "逃出黑暗精灵追捕",
+          "保巨人"
+        ],
+        "knowledge": [
+          "被追踪原委未直接自白"
+        ],
+        "name": "索德",
+        "original_record_name": "索德",
+        "relationships": [
+          "普拉迪洛克主人",
+          "萧由戒备到敬重"
+        ],
+        "source_anomalies": [
+          "原称格里奥没有别名句",
+          "伪装主体写普拉迪洛克语义冲突"
+        ],
+        "stage": "stage-23",
+        "summary": "画像确认巨人主人，系统五级炼金宗师，也门德后裔；先贪怯隐风险，巨人断后后燃命发力交神器。",
+        "unit_end": 370,
+        "unit_start": 361
+      },
+      {
+        "aliases": [
+          "格里奥（前段称呼待核，非本段新确认别名）"
+        ],
+        "changes": [
+          "贪谄表象被承诺重释",
+          "从苟活到燃命保护"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0372",
+            "claim_kind": "inference",
+            "end_line": 22398,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 22371
+          }
+        ],
+        "goals": [
+          "保神器与族群",
+          "救巨人"
+        ],
+        "knowledge": [
+          "族人驻地皆毁的孤独"
+        ],
+        "name": "索德",
+        "original_record_name": "索德",
+        "relationships": [
+          "普拉迪洛克受救后忠诚",
+          "主角接其神器"
+        ],
+        "source_anomalies": [
+          "格里奥/索德关系本段未解释"
+        ],
+        "stage": "stage-24",
+        "summary": "也门德最后守护者，背祖先保空间转换与族延续承诺卑微生存，最终燃命同五黑精灵归尽；回忆补救巨人后其自愿从属。",
+        "unit_end": 390,
+        "unit_start": 371
+      }
+    ],
+    "source_keys": [
+      "sord",
+      "sode"
+    ],
+    "summary": "也门德最后守护者，背祖先保空间转换与族延续承诺卑微生存，最终燃命同五黑精灵归尽；回忆补救巨人后其自愿从属。"
+  },
+  "created_at": "2026-10-24T19:28:06.421271+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0369",
+      "claim_kind": "inference",
+      "end_line": 22147,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 22107
+    },
+    {
+      "chapter_id": "ch-0370",
+      "claim_kind": "inference",
+      "end_line": 22217,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 22192
+    },
+    {
+      "chapter_id": "ch-0371",
+      "claim_kind": "inference",
+      "end_line": 22276,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 22253
+    },
+    {
+      "chapter_id": "ch-0371",
+      "claim_kind": "inference",
+      "end_line": 22345,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 22300
+    },
+    {
+      "chapter_id": "ch-0372",
+      "claim_kind": "inference",
+      "end_line": 22398,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 22371
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/character/索德",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《贼胆》索德〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:28:06.421271+00:00",
+  "user_notes": ""
+}
+
+```

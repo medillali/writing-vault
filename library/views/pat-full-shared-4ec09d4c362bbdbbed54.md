@@ -1,0 +1,131 @@
+# 公开战果与隐藏进度分开
+
+ID: `pat-full-shared-4ec09d4c362bbdbbed54` · 版本: 1 · 范围: reusable-pattern
+
+同场至少明确两方真正想推进的状态，让小动作在回看时有意义。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-shared-4ec09d4c362bbdbbed54",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "同场至少明确两方真正想推进的状态，让小动作在回看时有意义。",
+    "exercise": "在自己的题材里更换目标、资源、关系和环境，只保留这一条机制；写后记录选择是否清晰、代价是否兑现、读者实际反馈。",
+    "failure_mode": "没有事前动作证据的布局容易成为事后解释。",
+    "leveling_implementation": "敌法杖与戒指信息逐层曝光，范露娜被击败仍把夺舍引导推进。",
+    "status": "跨书研究候选，尚非用户审定风格或原创正典。",
+    "summary": "同场至少明确两方真正想推进的状态，让小动作在回看时有意义。",
+    "zeidan_implementation": "蜗牛看似没打赢却已给全员上粉；角色按血量评估而读者知道准备目标。"
+  },
+  "created_at": "2026-10-24T19:28:24.492857+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-f242f389413a9a4b08a8",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-full-l-cb8a894a0c8ed48e1110",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0276",
+      "claim_kind": "synthesis",
+      "end_line": 14797,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14757
+    },
+    {
+      "chapter_id": "ch-0277",
+      "claim_kind": "synthesis",
+      "end_line": 14851,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14801
+    },
+    {
+      "chapter_id": "ch-0278",
+      "claim_kind": "synthesis",
+      "end_line": 14919,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14855
+    },
+    {
+      "chapter_id": "ch-0279",
+      "claim_kind": "synthesis",
+      "end_line": 14977,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14923
+    },
+    {
+      "chapter_id": "ch-0059",
+      "claim_kind": "synthesis",
+      "end_line": 2166,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 2139
+    },
+    {
+      "chapter_id": "ch-0061",
+      "claim_kind": "synthesis",
+      "end_line": 2234,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 2201
+    },
+    {
+      "chapter_id": "ch-0119",
+      "claim_kind": "synthesis",
+      "end_line": 4454,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 4396
+    },
+    {
+      "chapter_id": "ch-0122",
+      "claim_kind": "synthesis",
+      "end_line": 4653,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 4585
+    },
+    {
+      "chapter_id": "ch-0123",
+      "claim_kind": "synthesis",
+      "end_line": 4711,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 4657
+    },
+    {
+      "chapter_id": "ch-0127",
+      "claim_kind": "synthesis",
+      "end_line": 4865,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 4831
+    }
+  ],
+  "favorite": false,
+  "origin_key": "two-full-books-20261025/two-victory-metrics",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "双书全书比较",
+    "原创机制候选",
+    "待审阅"
+  ],
+  "title": "公开战果与隐藏进度分开",
+  "updated_at": "2026-10-24T19:28:24.492857+00:00",
+  "user_notes": ""
+}
+
+```

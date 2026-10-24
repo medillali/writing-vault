@@ -1,0 +1,72 @@
+# 《贼胆》两个战场共同打开脆弱窗口
+
+ID: `scn-full-z-4b0ef60e3db0085160be` · 版本: 1 · 范围: source-analysis
+
+万人正面杀肉身使荒漠分身甲弱，魂融合时主角破盾刺心完成任务。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-4b0ef60e3db0085160be",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "多线高潮互相解锁",
+    "choice": "双队各完成职责、利用肉身死与魂归的短窗口",
+    "consequence": "任务系统完成，临力退留下位神，新图反击开",
+    "failure_mode": "让一线只当拖时间装饰，或用任务完成提示掩关键目标未演。",
+    "goal": "阻最终复活并救大陆",
+    "obstacle": "主角暂主神仍无法破金甲，万人肉身战也大损",
+    "stage": "stage-28",
+    "state_change": "竞技强者转为世界规则的任务者",
+    "summary": "万人正面杀肉身使荒漠分身甲弱，魂融合时主角破盾刺心完成任务。",
+    "title": "两个战场共同打开脆弱窗口",
+    "why_it_works": "两条行动存在可观察的因果，不仅切镜头热闹；但本命实物处置略掉仍有解释欠账。"
+  },
+  "created_at": "2026-10-24T19:28:07.199559+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0462",
+      "claim_kind": "inference",
+      "end_line": 28692,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28679
+    },
+    {
+      "chapter_id": "ch-0463",
+      "claim_kind": "inference",
+      "end_line": 28704,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28697
+    },
+    {
+      "chapter_id": "ch-0463",
+      "claim_kind": "inference",
+      "end_line": 28739,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28719
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-28/z-scene-coupled-god-battle",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》两个战场共同打开脆弱窗口",
+  "updated_at": "2026-10-24T19:28:07.199559+00:00",
+  "user_notes": ""
+}
+
+```

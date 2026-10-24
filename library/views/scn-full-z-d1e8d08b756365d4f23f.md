@@ -1,0 +1,64 @@
+# 《贼胆》强隐被破后打破百分百上限
+
+ID: `scn-full-z-d1e8d08b756365d4f23f` · 版本: 1 · 范围: source-analysis
+
+幽魅扬沙定位，迫使萧御耗药重战；危险中动作连贯引出102%完成度。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-d1e8d08b756365d4f23f",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "成长高潮",
+    "choice": "耗唯一血瓶，回身连击",
+    "consequence": "靠出血击杀并得夜视项链",
+    "failure_mode": "危险必触发新技若重复过密，会变成确定性奖励",
+    "goal": "活过夜间袭击",
+    "obstacle": "高速、高攻、追踪、技能冷却",
+    "stage": "stage-02",
+    "state_change": "新技术入口和持续夜战优势出现",
+    "summary": "幽魅扬沙定位，迫使萧御耗药重战；危险中动作连贯引出102%完成度。",
+    "title": "强隐被破后打破百分百上限",
+    "why_it_works": "既付消耗品代价，又让敌人破解旧解法，突破回应具体失败。"
+  },
+  "created_at": "2026-10-24T19:28:06.633997+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0039",
+      "claim_kind": "inference",
+      "end_line": 1676,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1638
+    },
+    {
+      "chapter_id": "ch-0040",
+      "claim_kind": "inference",
+      "end_line": 1696,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1688
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-02/night-chain",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》强隐被破后打破百分百上限",
+  "updated_at": "2026-10-24T19:28:06.633997+00:00",
+  "user_notes": ""
+}
+
+```

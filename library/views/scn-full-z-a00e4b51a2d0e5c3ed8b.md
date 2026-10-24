@@ -1,0 +1,64 @@
+# 《贼胆》同样的忠诚要求换主体
+
+ID: `scn-full-z-a00e4b51a2d0e5c3ed8b` · 版本: 1 · 范围: source-analysis
+
+列昂记忆被创造者毁生活，却要求主角绝对忠诚并想食其伙伴。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-a00e4b51a2d0e5c3ed8b",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "复杂任务道德选择",
+    "choice": "主角宁弃任务挡前",
+    "consequence": "遭精神束缚",
+    "failure_mode": "苦难背景被当所有恶行免责",
+    "goal": "完成自由任务",
+    "obstacle": "NPC强控且可杀赵",
+    "stage": "stage-21",
+    "state_change": "自由和收益冲突待解",
+    "summary": "列昂记忆被创造者毁生活，却要求主角绝对忠诚并想食其伙伴。",
+    "title": "同样的忠诚要求换主体",
+    "why_it_works": "受害者也能复制支配制度"
+  },
+  "created_at": "2026-10-24T19:28:07.058222+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0341",
+      "claim_kind": "inference",
+      "end_line": 18927,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18913
+    },
+    {
+      "chapter_id": "ch-0341",
+      "claim_kind": "inference",
+      "end_line": 18958,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18950
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-21/zc01-loyalty",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》同样的忠诚要求换主体",
+  "updated_at": "2026-10-24T19:28:07.058222+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,70 @@
+# 先杀也需承受已发出的结果
+
+ID: `pat-full-z-dc916419ce9a0dd088d9` · 版本: 1 · 范围: reusable-pattern
+
+对方阵亡不撤销已落地魔法，胜者要活过后续才算获胜。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-z-dc916419ce9a0dd088d9",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "危险延迟、竞技胜负最后确认",
+    "failure_mode": "伤害数字任意跳，逃场没有空间前置，或把阵亡与全部效果失效混同。",
+    "stage": "stage-28",
+    "steps": [
+      "先立范围持续与施法已成",
+      "主角极限突袭击杀",
+      "已成技能继续生效",
+      "胜者资源耗尽另选退路",
+      "明确生还与败者认输"
+    ],
+    "summary": "对方阵亡不撤销已落地魔法，胜者要活过后续才算获胜。",
+    "title": "先杀也需承受已发出的结果"
+  },
+  "created_at": "2026-10-24T19:28:07.549881+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-c753a9d71b7732a8cabc",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0464",
+      "claim_kind": "synthesis",
+      "end_line": 28868,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28844
+    },
+    {
+      "chapter_id": "ch-0464",
+      "claim_kind": "synthesis",
+      "end_line": 28882,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28870
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/pattern/stage-28/z-pattern-aftermath-cost",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "先杀也需承受已发出的结果",
+  "updated_at": "2026-10-24T19:28:07.549881+00:00",
+  "user_notes": ""
+}
+
+```

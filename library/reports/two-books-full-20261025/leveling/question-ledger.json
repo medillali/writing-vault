@@ -1,0 +1,5547 @@
+{
+  "questions": [
+    {
+      "id": "iron-ring",
+      "question": "紫光处铁戒是什么？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "希莱尔恶魔之戒，使机械炼金术士兼有三系术士天赋；已绑定。",
+      "last_observed_at_unit": 20,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "iron-ring",
+          "question": "紫光处铁戒是什么？",
+          "status": "resolved",
+          "answer": "希莱尔恶魔之戒，使机械炼金术士兼有三系术士天赋；已绑定。",
+          "kind": "promise",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0008",
+              "start_line": 252,
+              "end_line": 268
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0010",
+              "start_line": 330,
+              "end_line": 343
+            }
+          ],
+          "stage": "stage-01",
+          "unit_end": 20
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "iron-ring",
+        "final_status": "resolved",
+        "answer": "希莱尔恶魔之戒，使机械炼金术士兼有三系术士天赋；已绑定。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0010",
+            "start_line": 330,
+            "end_line": 343
+          }
+        ]
+      }
+    },
+    {
+      "id": "titan-identification",
+      "question": "泰坦之心完整属性是什么？",
+      "latest_recorded_status": "open",
+      "latest_answer": "只知水蓝泰坦之心，6251金鉴定费未付。",
+      "last_observed_at_unit": 20,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "titan-identification",
+          "question": "泰坦之心完整属性是什么？",
+          "status": "open",
+          "answer": "只知水蓝泰坦之心，6251金鉴定费未付。",
+          "kind": "unresolved",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0006",
+              "start_line": 162,
+              "end_line": 165
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0010",
+              "start_line": 345,
+              "end_line": 350
+            }
+          ],
+          "stage": "stage-01",
+          "unit_end": 20
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "titan-identification",
+        "final_status": "resolved",
+        "answer": "220得泰坦图与导师，320拆开篇旧钟取泰坦心并实际制造恩特；鉴定费6251本身未写支付。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0221",
+            "start_line": 9206,
+            "end_line": 9256
+          },
+          {
+            "chapter_id": "ch-0321",
+            "start_line": 14743,
+            "end_line": 14765
+          }
+        ]
+      }
+    },
+    {
+      "id": "warlock-exile",
+      "question": "驱逐术士的历史是否另有原因？",
+      "latest_recorded_status": "open",
+      "latest_answer": "萧翎质疑官方叙述，但未追查。",
+      "last_observed_at_unit": 20,
+      "terminal_status": "partial",
+      "history": [
+        {
+          "key": "warlock-exile",
+          "question": "驱逐术士的历史是否另有原因？",
+          "status": "open",
+          "answer": "萧翎质疑官方叙述，但未追查。",
+          "kind": "misbelief",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0021",
+              "start_line": 825,
+              "end_line": 829
+            }
+          ],
+          "resolution_evidence": [],
+          "stage": "stage-01",
+          "unit_end": 20
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "warlock-exile",
+        "final_status": "partial",
+        "answer": "后文王室政争及跨阵营和解展示布拉卡达地位；未对开篇逐术士历史给唯一完整真相，不应把后事追认为当时官方已错。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0330",
+            "start_line": 15457,
+            "end_line": 15542
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-anomaly",
+      "question": "局部萧寒是否另一人物？",
+      "latest_recorded_status": "source-anomaly",
+      "latest_answer": "与上下文同一行为链，记录为疑似误写，不增人物。",
+      "last_observed_at_unit": 20,
+      "terminal_status": "partial",
+      "history": [
+        {
+          "key": "name-anomaly",
+          "question": "局部萧寒是否另一人物？",
+          "status": "source-anomaly",
+          "answer": "与上下文同一行为链，记录为疑似误写，不增人物。",
+          "kind": "anomaly",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0009",
+              "start_line": 303,
+              "end_line": 305
+            },
+            {
+              "chapter_id": "ch-0011",
+              "start_line": 385,
+              "end_line": 385
+            }
+          ],
+          "resolution_evidence": [],
+          "stage": "stage-01",
+          "unit_end": 20
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "name-anomaly",
+        "final_status": "partial",
+        "answer": "早期萧寒疑误写仍保留；终章父亲实际实名萧寒，不意味着早期每处混名都另增父亲在场。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0009",
+            "start_line": 272,
+            "end_line": 318
+          },
+          {
+            "chapter_id": "ch-0388",
+            "start_line": 23217,
+            "end_line": 23229
+          }
+        ]
+      }
+    },
+    {
+      "id": "unusual-party",
+      "question": "无战士的四人队如何群刷？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "盗贼拉怪，冰环控群，毁灭群伤与暗牧群诅咒，漏怪单点。",
+      "last_observed_at_unit": 40,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "unusual-party",
+          "question": "无战士的四人队如何群刷？",
+          "status": "resolved",
+          "answer": "盗贼拉怪，冰环控群，毁灭群伤与暗牧群诅咒，漏怪单点。",
+          "kind": "promise",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0033",
+              "start_line": 1236,
+              "end_line": 1245
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0041",
+              "start_line": 1528,
+              "end_line": 1556
+            }
+          ],
+          "stage": "stage-02",
+          "unit_end": 40
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "unusual-party",
+        "final_status": "resolved",
+        "answer": "盗贼拉怪，冰环控群，毁灭群伤与暗牧群诅咒，漏怪单点。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0041",
+            "start_line": 1528,
+            "end_line": 1556
+          }
+        ]
+      }
+    },
+    {
+      "id": "old-warlock-motive",
+      "question": "老术士为何以项链雇萧翎？",
+      "latest_recorded_status": "partial",
+      "latest_answer": "表面理由是工程学与派系；徽记、戒指与项链关联仍待证。",
+      "last_observed_at_unit": 40,
+      "terminal_status": "partial",
+      "history": [
+        {
+          "key": "old-warlock-motive",
+          "question": "老术士为何以项链雇萧翎？",
+          "status": "partial",
+          "answer": "表面理由是工程学与派系；徽记、戒指与项链关联仍待证。",
+          "kind": "unresolved",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0023",
+              "start_line": 869,
+              "end_line": 874
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0024",
+              "start_line": 896,
+              "end_line": 904
+            }
+          ],
+          "stage": "stage-02",
+          "unit_end": 40
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "old-warlock-motive",
+        "final_status": "partial",
+        "answer": "后段马尔都克/旧鉴定师政争及戒附件回收；未把最初雇佣的每项隐意独立解释完。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0294",
+            "start_line": 13098,
+            "end_line": 13147
+          },
+          {
+            "chapter_id": "ch-0295",
+            "start_line": 13148,
+            "end_line": 13193
+          },
+          {
+            "chapter_id": "ch-0296",
+            "start_line": 13195,
+            "end_line": 13235
+          }
+        ]
+      }
+    },
+    {
+      "id": "skill-cap",
+      "question": "三系是否意味着所有技能无限学习？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "此时规则每玩家20技能，须筛选组合；续航仍只是构想。",
+      "last_observed_at_unit": 40,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "skill-cap",
+          "question": "三系是否意味着所有技能无限学习？",
+          "status": "resolved",
+          "answer": "此时规则每玩家20技能，须筛选组合；续航仍只是构想。",
+          "kind": "rule",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0034",
+              "start_line": 1260,
+              "end_line": 1273
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0040",
+              "start_line": 1498,
+              "end_line": 1499
+            }
+          ],
+          "stage": "stage-02",
+          "unit_end": 40
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "skill-cap",
+        "final_status": "resolved",
+        "answer": "此时规则每玩家20技能，须筛选组合；续航仍只是构想。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0040",
+            "start_line": 1498,
+            "end_line": 1499
+          }
+        ]
+      }
+    },
+    {
+      "id": "starter-puppet",
+      "question": "为何其他机械术士都有一阶小鬼？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "职业任务可奖励；萧翎漏听导师说明且闭门造车一月。",
+      "last_observed_at_unit": 60,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "starter-puppet",
+          "question": "为何其他机械术士都有一阶小鬼？",
+          "status": "resolved",
+          "answer": "职业任务可奖励；萧翎漏听导师说明且闭门造车一月。",
+          "kind": "misbelief",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0008",
+              "start_line": 239,
+              "end_line": 239
+            },
+            {
+              "chapter_id": "ch-0004",
+              "start_line": 86,
+              "end_line": 86
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0047",
+              "start_line": 1755,
+              "end_line": 1764
+            }
+          ],
+          "stage": "stage-03",
+          "unit_end": 60
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "starter-puppet",
+        "final_status": "resolved",
+        "answer": "职业任务可奖励；萧翎漏听导师说明且闭门造车一月。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0047",
+            "start_line": 1755,
+            "end_line": 1764
+          }
+        ]
+      }
+    },
+    {
+      "id": "redra-cost",
+      "question": "天狂为何兼有不同牧师能力？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "雷德拉之杖兼学光暗；治疗+20%、诅咒+10%，力量体质清零半血。",
+      "last_observed_at_unit": 60,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "redra-cost",
+          "question": "天狂为何兼有不同牧师能力？",
+          "status": "resolved",
+          "answer": "雷德拉之杖兼学光暗；治疗+20%、诅咒+10%，力量体质清零半血。",
+          "kind": "promise",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0050",
+              "start_line": 1858,
+              "end_line": 1864
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0056",
+              "start_line": 2067,
+              "end_line": 2072
+            }
+          ],
+          "stage": "stage-03",
+          "unit_end": 60
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "redra-cost",
+        "final_status": "resolved",
+        "answer": "雷德拉之杖兼学光暗；治疗+20%、诅咒+10%，力量体质清零半血。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0056",
+            "start_line": 2067,
+            "end_line": 2072
+          }
+        ]
+      }
+    },
+    {
+      "id": "enemy-staff-cost",
+      "question": "洛克希德法杖限制何在？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "持杖者不能施放主动攻击魔法；主角团由现场行为推断。",
+      "last_observed_at_unit": 60,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "enemy-staff-cost",
+          "question": "洛克希德法杖限制何在？",
+          "status": "resolved",
+          "answer": "持杖者不能施放主动攻击魔法；主角团由现场行为推断。",
+          "kind": "rule",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0053",
+              "start_line": 1949,
+              "end_line": 1949
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0059",
+              "start_line": 2150,
+              "end_line": 2150
+            },
+            {
+              "chapter_id": "ch-0060",
+              "start_line": 2181,
+              "end_line": 2181
+            }
+          ],
+          "stage": "stage-03",
+          "unit_end": 60
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "enemy-staff-cost",
+        "final_status": "resolved",
+        "answer": "持杖者不能施放主动攻击魔法；主角团由现场行为推断。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0059",
+            "start_line": 2150,
+            "end_line": 2150
+          },
+          {
+            "chapter_id": "ch-0060",
+            "start_line": 2181,
+            "end_line": 2181
+          }
+        ]
+      }
+    },
+    {
+      "id": "eye-purpose",
+      "question": "罗格之眼有什么作用？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "隐形远程共享视野，受500码距离与耗魔约束。",
+      "last_observed_at_unit": 80,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "eye-purpose",
+          "question": "罗格之眼有什么作用？",
+          "status": "resolved",
+          "answer": "隐形远程共享视野，受500码距离与耗魔约束。",
+          "kind": "promise",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0065",
+              "start_line": 2352,
+              "end_line": 2362
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0066",
+              "start_line": 2394,
+              "end_line": 2418
+            },
+            {
+              "chapter_id": "ch-0078",
+              "start_line": 2867,
+              "end_line": 2873
+            }
+          ],
+          "stage": "stage-04",
+          "unit_end": 80
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "eye-purpose",
+        "final_status": "resolved",
+        "answer": "隐形远程共享视野，受500码距离与耗魔约束。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0066",
+            "start_line": 2394,
+            "end_line": 2418
+          },
+          {
+            "chapter_id": "ch-0078",
+            "start_line": 2867,
+            "end_line": 2873
+          }
+        ]
+      }
+    },
+    {
+      "id": "strange-guards",
+      "question": "五腐尸为何感觉不同？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "有灵纹印记强化，破原控制并各有属性能力。",
+      "last_observed_at_unit": 80,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "strange-guards",
+          "question": "五腐尸为何感觉不同？",
+          "status": "resolved",
+          "answer": "有灵纹印记强化，破原控制并各有属性能力。",
+          "kind": "promise",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0078",
+              "start_line": 2864,
+              "end_line": 2878
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0079",
+              "start_line": 2892,
+              "end_line": 2900
+            }
+          ],
+          "stage": "stage-04",
+          "unit_end": 80
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "strange-guards",
+        "final_status": "resolved",
+        "answer": "有灵纹印记强化，破原控制并各有属性能力。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0079",
+            "start_line": 2892,
+            "end_line": 2900
+          }
+        ]
+      }
+    },
+    {
+      "id": "being-watched",
+      "question": "罗格眼侦察时何物在注视？",
+      "latest_recorded_status": "open",
+      "latest_answer": "暂未发现实体，不能解释为已证敌人。",
+      "last_observed_at_unit": 80,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "being-watched",
+          "question": "罗格眼侦察时何物在注视？",
+          "status": "open",
+          "answer": "暂未发现实体，不能解释为已证敌人。",
+          "kind": "unresolved",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0078",
+              "start_line": 2865,
+              "end_line": 2867
+            }
+          ],
+          "resolution_evidence": [],
+          "stage": "stage-04",
+          "unit_end": 80
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "being-watched",
+        "final_status": "unknown",
+        "answer": "该次罗格眼被注视感未见后文具名揭晓；不把莫雷卡托或后续敌人倒填为观察者。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0078",
+            "start_line": 2846,
+            "end_line": 2885
+          }
+        ]
+      }
+    },
+    {
+      "id": "ore-compatibility",
+      "question": "能否直接多金属分部制作？",
+      "latest_recorded_status": "partial",
+      "latest_answer": "不能任意拼，存在契合规律但初级书未列具体组合。",
+      "last_observed_at_unit": 100,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "ore-compatibility",
+          "question": "能否直接多金属分部制作？",
+          "status": "partial",
+          "answer": "不能任意拼，存在契合规律但初级书未列具体组合。",
+          "kind": "rule",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0080",
+              "start_line": 2938,
+              "end_line": 2939
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0086",
+              "start_line": 3167,
+              "end_line": 3175
+            }
+          ],
+          "stage": "stage-05",
+          "unit_end": 100
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "ore-compatibility",
+        "final_status": "resolved",
+        "answer": "后段混材按设计规则制泰坦/水晶，水晶胸四肢用红岩、翼腰用梦菲斯并吸雷，实际完成。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0367",
+            "start_line": 20255,
+            "end_line": 20282
+          },
+          {
+            "chapter_id": "ch-0367",
+            "start_line": 20289,
+            "end_line": 20306
+          }
+        ]
+      }
+    },
+    {
+      "id": "soul-fragment",
+      "question": "一级灵魂碎片有何用？",
+      "latest_recorded_status": "open",
+      "latest_answer": "系统仅写特殊物品，尚无解释。",
+      "last_observed_at_unit": 100,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "soul-fragment",
+          "question": "一级灵魂碎片有何用？",
+          "status": "open",
+          "answer": "系统仅写特殊物品，尚无解释。",
+          "kind": "unresolved",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0098",
+              "start_line": 3551,
+              "end_line": 3559
+            }
+          ],
+          "resolution_evidence": [],
+          "stage": "stage-05",
+          "unit_end": 100
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "soul-fragment",
+        "final_status": "unknown",
+        "answer": "欧斯林克所得一级灵魂碎片未见明确消耗或用途；不能与莫雷卡托灵魂结晶、血羽心合并。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0098",
+            "start_line": 3536,
+            "end_line": 3564
+          }
+        ]
+      }
+    },
+    {
+      "id": "timos-identity",
+      "question": "提莫斯是否地方史中的镇长之子？",
+      "latest_recorded_status": "open",
+      "latest_answer": "两人基于同名、旧事与囚禁猜测，未获直接确认。",
+      "last_observed_at_unit": 100,
+      "terminal_status": "partial",
+      "history": [
+        {
+          "key": "timos-identity",
+          "question": "提莫斯是否地方史中的镇长之子？",
+          "status": "open",
+          "answer": "两人基于同名、旧事与囚禁猜测，未获直接确认。",
+          "kind": "misbelief",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0093",
+              "start_line": 3387,
+              "end_line": 3391
+            }
+          ],
+          "resolution_evidence": [],
+          "stage": "stage-05",
+          "unit_end": 100
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "timos-identity",
+        "final_status": "partial",
+        "answer": "前半已揭偷阿卡德项链、诱塔进院行为；镇长之子身份在后半未新增直接确认。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0148",
+            "start_line": 5834,
+            "end_line": 5838
+          }
+        ]
+      }
+    },
+    {
+      "id": "phantoms-body",
+      "question": "三分身中哪个是真身？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "初次三个均幻影，真身另现；后七影需逐个处理，最终自爆。",
+      "last_observed_at_unit": 120,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "phantoms-body",
+          "question": "三分身中哪个是真身？",
+          "status": "resolved",
+          "answer": "初次三个均幻影，真身另现；后七影需逐个处理，最终自爆。",
+          "kind": "misbelief",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0118",
+              "start_line": 4337,
+              "end_line": 4344
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0118",
+              "start_line": 4345,
+              "end_line": 4385
+            }
+          ],
+          "stage": "stage-06",
+          "unit_end": 120
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "phantoms-body",
+        "final_status": "resolved",
+        "answer": "初次三个均幻影，真身另现；后七影需逐个处理，最终自爆。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0118",
+            "start_line": 4345,
+            "end_line": 4385
+          }
+        ]
+      }
+    },
+    {
+      "id": "curse-trigger",
+      "question": "诅咒石、戒指和雕像怎样共同触发？",
+      "latest_recorded_status": "partial",
+      "latest_answer": "任务确已触发并灌注力量，具体逻辑及老鉴定师意图仍未知。",
+      "last_observed_at_unit": 120,
+      "terminal_status": "partial",
+      "history": [
+        {
+          "key": "curse-trigger",
+          "question": "诅咒石、戒指和雕像怎样共同触发？",
+          "status": "partial",
+          "answer": "任务确已触发并灌注力量，具体逻辑及老鉴定师意图仍未知。",
+          "kind": "unresolved",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0110",
+              "start_line": 3985,
+              "end_line": 3985
+            },
+            {
+              "chapter_id": "ch-0117",
+              "start_line": 4284,
+              "end_line": 4290
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0119",
+              "start_line": 4420,
+              "end_line": 4446
+            }
+          ],
+          "stage": "stage-06",
+          "unit_end": 120
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "curse-trigger",
+        "final_status": "partial",
+        "answer": "诅咒事件前半实际解除；旧鉴定师后为马尔都克且政变被王杀，戒附件获交，但不逐项解释早触发全部意图。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0295",
+            "start_line": 13148,
+            "end_line": 13193
+          },
+          {
+            "chapter_id": "ch-0296",
+            "start_line": 13195,
+            "end_line": 13235
+          }
+        ]
+      }
+    },
+    {
+      "id": "artifact-misrecognition",
+      "question": "希莱尔戒指是神器吗？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "本段叙述明确仍史诗，牧风先入为主误认。",
+      "last_observed_at_unit": 120,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "artifact-misrecognition",
+          "question": "希莱尔戒指是神器吗？",
+          "status": "resolved",
+          "answer": "本段叙述明确仍史诗，牧风先入为主误认。",
+          "kind": "misbelief",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0121",
+              "start_line": 4524,
+              "end_line": 4531
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0121",
+              "start_line": 4535,
+              "end_line": 4535
+            }
+          ],
+          "stage": "stage-06",
+          "unit_end": 120
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "artifact-misrecognition",
+        "final_status": "resolved",
+        "answer": "当时希莱尔仍史诗，后295合可升级亚神器魔神戒，371才升真神器，区分时间。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0296",
+            "start_line": 13216,
+            "end_line": 13235
+          },
+          {
+            "chapter_id": "ch-0372",
+            "start_line": 21034,
+            "end_line": 21044
+          }
+        ]
+      }
+    },
+    {
+      "id": "curse-stone",
+      "question": "诅咒之石是什么？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "希莱尔被腐蚀后心脏结晶，存残余意识；解咒后碎裂释魂。",
+      "last_observed_at_unit": 140,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "curse-stone",
+          "question": "诅咒之石是什么？",
+          "status": "resolved",
+          "answer": "希莱尔被腐蚀后心脏结晶，存残余意识；解咒后碎裂释魂。",
+          "kind": "promise",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0119",
+              "start_line": 4423,
+              "end_line": 4428
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0123",
+              "start_line": 4673,
+              "end_line": 4680
+            },
+            {
+              "chapter_id": "ch-0130",
+              "start_line": 4955,
+              "end_line": 4961
+            }
+          ],
+          "stage": "stage-07",
+          "unit_end": 140
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "curse-stone",
+        "final_status": "resolved",
+        "answer": "希莱尔被腐蚀后心脏结晶，存残余意识；解咒后碎裂释魂。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0123",
+            "start_line": 4673,
+            "end_line": 4680
+          },
+          {
+            "chapter_id": "ch-0130",
+            "start_line": 4955,
+            "end_line": 4961
+          }
+        ]
+      }
+    },
+    {
+      "id": "sunlight-why",
+      "question": "塔布雷特为什么忍痛看阳光？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "吊坠铭文只在阳光折射下清晰，保存奥斯林兰一瞬忏悔。",
+      "last_observed_at_unit": 140,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "sunlight-why",
+          "question": "塔布雷特为什么忍痛看阳光？",
+          "status": "resolved",
+          "answer": "吊坠铭文只在阳光折射下清晰，保存奥斯林兰一瞬忏悔。",
+          "kind": "promise",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0136",
+              "start_line": 5240,
+              "end_line": 5243
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0138",
+              "start_line": 5309,
+              "end_line": 5317
+            }
+          ],
+          "stage": "stage-07",
+          "unit_end": 140
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "sunlight-why",
+        "final_status": "resolved",
+        "answer": "吊坠铭文只在阳光折射下清晰，保存奥斯林兰一瞬忏悔。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0138",
+            "start_line": 5309,
+            "end_line": 5317
+          }
+        ]
+      }
+    },
+    {
+      "id": "ring-round-mark",
+      "question": "戒指新增细圆图有何效用？",
+      "latest_recorded_status": "open",
+      "latest_answer": "黑焰封印后新增，主角尚不知完整用处。",
+      "last_observed_at_unit": 140,
+      "terminal_status": "partial",
+      "history": [
+        {
+          "key": "ring-round-mark",
+          "question": "戒指新增细圆图有何效用？",
+          "status": "open",
+          "answer": "黑焰封印后新增，主角尚不知完整用处。",
+          "kind": "unresolved",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0129",
+              "start_line": 4937,
+              "end_line": 4937
+            },
+            {
+              "chapter_id": "ch-0130",
+              "start_line": 4954,
+              "end_line": 4954
+            }
+          ],
+          "resolution_evidence": [],
+          "stage": "stage-07",
+          "unit_end": 140
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "ring-round-mark",
+        "final_status": "partial",
+        "answer": "后文卡尔洛斯解释封印成戒灵并融合魔神戒；早先圆图的每项具体效用未独立说明。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0277",
+            "start_line": 12230,
+            "end_line": 12271
+          },
+          {
+            "chapter_id": "ch-0278",
+            "start_line": 12272,
+            "end_line": 12309
+          },
+          {
+            "chapter_id": "ch-0296",
+            "start_line": 13216,
+            "end_line": 13235
+          }
+        ]
+      }
+    },
+    {
+      "id": "timos-amulet",
+      "question": "提莫斯为何持阿卡德项链？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "偷走后使塔布雷特独往修道院，阿卡德确认并仍将装备赠团队。",
+      "last_observed_at_unit": 160,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "timos-amulet",
+          "question": "提莫斯为何持阿卡德项链？",
+          "status": "resolved",
+          "answer": "偷走后使塔布雷特独往修道院，阿卡德确认并仍将装备赠团队。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0144",
+              "start_line": 5584,
+              "end_line": 5589
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0148",
+              "start_line": 5834,
+              "end_line": 5838
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-08",
+          "unit_end": 160
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "timos-amulet",
+        "final_status": "resolved",
+        "answer": "偷走后使塔布雷特独往修道院，阿卡德确认并仍将装备赠团队。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0148",
+            "start_line": 5834,
+            "end_line": 5838
+          }
+        ]
+      }
+    },
+    {
+      "id": "low-task-choice",
+      "question": "选择s任务是否能迅速安全回团？",
+      "latest_recorded_status": "partial",
+      "latest_answer": "阿普苏因多职业加难，预计仍需两三周，进入高装抢夺图；尚未完成。",
+      "last_observed_at_unit": 160,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "low-task-choice",
+          "question": "选择s任务是否能迅速安全回团？",
+          "status": "partial",
+          "answer": "阿普苏因多职业加难，预计仍需两三周，进入高装抢夺图；尚未完成。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0154",
+              "start_line": 6101,
+              "end_line": 6104
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0155",
+              "start_line": 6118,
+              "end_line": 6128
+            }
+          ],
+          "kind": "misbelief",
+          "stage": "stage-08",
+          "unit_end": 160
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "low-task-choice",
+        "final_status": "resolved",
+        "answer": "该转职不安全迅速，流程曾加难，但前半到193已完成机械主转；不是后半英雄或60二转同一任务。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0175",
+            "start_line": 7031,
+            "end_line": 7045
+          },
+          {
+            "chapter_id": "ch-0187",
+            "start_line": 7572,
+            "end_line": 7586
+          }
+        ]
+      }
+    },
+    {
+      "id": "hua-detection",
+      "question": "花舞如何准确寻找周围玩家？",
+      "latest_recorded_status": "open",
+      "latest_answer": "",
+      "last_observed_at_unit": 160,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "hua-detection",
+          "question": "花舞如何准确寻找周围玩家？",
+          "status": "open",
+          "answer": "",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0161",
+              "start_line": 6387,
+              "end_line": 6390
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "unresolved",
+          "stage": "stage-08",
+          "unit_end": 160
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "hua-detection",
+        "final_status": "unknown",
+        "answer": "花舞感知周围玩家方式后半未明示机制；不能等同萧翎恶瞳或双胞探隐。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0162",
+            "start_line": 6513,
+            "end_line": 6516
+          }
+        ]
+      }
+    },
+    {
+      "id": "moon-crystal",
+      "question": "月亮晶石有何用途？",
+      "latest_recorded_status": "open",
+      "latest_answer": "拟送月落，尚未兑现。",
+      "last_observed_at_unit": 160,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "moon-crystal",
+          "question": "月亮晶石有何用途？",
+          "status": "open",
+          "answer": "拟送月落，尚未兑现。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0151",
+              "start_line": 5941,
+              "end_line": 5943
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "promise",
+          "stage": "stage-08",
+          "unit_end": 160
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "moon-crystal",
+        "final_status": "unknown",
+        "answer": "拟给月落的月亮晶石用途/实际交付未明确回收；与无岚无羽给六枚月光宝石造起搏器名称近似不能自动合一。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0151",
+            "start_line": 5941,
+            "end_line": 5943
+          },
+          {
+            "chapter_id": "ch-0334",
+            "start_line": 15826,
+            "end_line": 15935
+          },
+          {
+            "chapter_id": "ch-0335",
+            "start_line": 15936,
+            "end_line": 16048
+          }
+        ]
+      }
+    },
+    {
+      "id": "kamori-truth",
+      "question": "谁在伪造及莫亚历史？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "里奥多勾结盗贼、栽赃骑士；信件、居所、神誓验证，后改史。",
+      "last_observed_at_unit": 180,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "kamori-truth",
+          "question": "谁在伪造及莫亚历史？",
+          "status": "resolved",
+          "answer": "里奥多勾结盗贼、栽赃骑士；信件、居所、神誓验证，后改史。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0164",
+              "start_line": 6594,
+              "end_line": 6595
+            },
+            {
+              "chapter_id": "ch-0166",
+              "start_line": 6685,
+              "end_line": 6699
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0169",
+              "start_line": 6787,
+              "end_line": 6794
+            },
+            {
+              "chapter_id": "ch-0170",
+              "start_line": 6798,
+              "end_line": 6800
+            },
+            {
+              "chapter_id": "ch-0173",
+              "start_line": 6942,
+              "end_line": 6943
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-09",
+          "unit_end": 180
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "kamori-truth",
+        "final_status": "resolved",
+        "answer": "里奥多勾结盗贼、栽赃骑士；信件、居所、神誓验证，后改史。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0169",
+            "start_line": 6787,
+            "end_line": 6794
+          },
+          {
+            "chapter_id": "ch-0170",
+            "start_line": 6798,
+            "end_line": 6800
+          },
+          {
+            "chapter_id": "ch-0173",
+            "start_line": 6942,
+            "end_line": 6943
+          }
+        ]
+      }
+    },
+    {
+      "id": "gargoyle-transfer",
+      "question": "拆旧傀儡是否必然毁宝石意识？",
+      "latest_recorded_status": "anomaly",
+      "latest_answer": "44称替换需拆毁；174直接转宝石换身旧壳可卖，先并存待后文核。",
+      "last_observed_at_unit": 180,
+      "terminal_status": "partial",
+      "history": [
+        {
+          "key": "gargoyle-transfer",
+          "question": "拆旧傀儡是否必然毁宝石意识？",
+          "status": "anomaly",
+          "answer": "44称替换需拆毁；174直接转宝石换身旧壳可卖，先并存待后文核。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0045",
+              "start_line": 1685,
+              "end_line": 1688
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0175",
+              "start_line": 7031,
+              "end_line": 7032
+            }
+          ],
+          "kind": "anomaly",
+          "stage": "stage-09",
+          "unit_end": 180
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "gargoyle-transfer",
+        "final_status": "partial",
+        "answer": "后文明确可用神炼和转灵魂保原意识，水晶完成仍同伙伴；这解决人物延续但不抹掉早44拆毁规则与后规则差异。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0045",
+            "start_line": 1667,
+            "end_line": 1690
+          },
+          {
+            "chapter_id": "ch-0243",
+            "start_line": 10384,
+            "end_line": 10485
+          },
+          {
+            "chapter_id": "ch-0367",
+            "start_line": 20292,
+            "end_line": 20306
+          }
+        ]
+      }
+    },
+    {
+      "id": "metal-why",
+      "question": "花舞赠材为何如此主动？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "既为借主角三人地形战帮转职，也希望赠掉风龙觊觎金属使其断念；非仅已确认爱情。",
+      "last_observed_at_unit": 180,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "metal-why",
+          "question": "花舞赠材为何如此主动？",
+          "status": "resolved",
+          "answer": "既为借主角三人地形战帮转职，也希望赠掉风龙觊觎金属使其断念；非仅已确认爱情。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0162",
+              "start_line": 6481,
+              "end_line": 6485
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0162",
+              "start_line": 6513,
+              "end_line": 6516
+            }
+          ],
+          "kind": "misbelief",
+          "stage": "stage-09",
+          "unit_end": 180
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "metal-why",
+        "final_status": "resolved",
+        "answer": "既为借主角三人地形战帮转职，也希望赠掉风龙觊觎金属使其断念；非仅已确认爱情。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0162",
+            "start_line": 6513,
+            "end_line": 6516
+          }
+        ]
+      }
+    },
+    {
+      "id": "castle-room",
+      "question": "古堡卧室为何独无火烧？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "奥托姆博三日守卧室保护幼子，至领主退后灼亡。",
+      "last_observed_at_unit": 193,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "castle-room",
+          "question": "古堡卧室为何独无火烧？",
+          "status": "resolved",
+          "answer": "奥托姆博三日守卧室保护幼子，至领主退后灼亡。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0190",
+              "start_line": 7714,
+              "end_line": 7719
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0192",
+              "start_line": 7820,
+              "end_line": 7821
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-10",
+          "unit_end": 193
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "castle-room",
+        "final_status": "resolved",
+        "answer": "奥托姆博三日守卧室保护幼子，至领主退后灼亡。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0192",
+            "start_line": 7820,
+            "end_line": 7821
+          }
+        ]
+      }
+    },
+    {
+      "id": "holkad-aura",
+      "question": "霍尔为何有恶魔气？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "为复仇向炎使卖信仰得咒；已自认并拟受审，神是否宽恕未示。",
+      "last_observed_at_unit": 193,
+      "terminal_status": "partial",
+      "history": [
+        {
+          "key": "holkad-aura",
+          "question": "霍尔为何有恶魔气？",
+          "status": "resolved",
+          "answer": "为复仇向炎使卖信仰得咒；已自认并拟受审，神是否宽恕未示。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0193",
+              "start_line": 7825,
+              "end_line": 7825
+            },
+            {
+              "chapter_id": "ch-0194",
+              "start_line": 7893,
+              "end_line": 7893
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0194",
+              "start_line": 7899,
+              "end_line": 7905
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-10",
+          "unit_end": 193
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "holkad-aura",
+        "final_status": "partial",
+        "answer": "恶魔气原因与三传承交付前半已解；霍尔拟受审之后判决、神赦、死亡都未写。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0194",
+            "start_line": 7881,
+            "end_line": 7909
+          },
+          {
+            "chapter_id": "ch-0195",
+            "start_line": 7912,
+            "end_line": 7960
+          }
+        ]
+      }
+    },
+    {
+      "id": "night-luo-master",
+      "question": "夜落是否已宗师并能量产高级回魔？",
+      "latest_recorded_status": "open",
+      "latest_answer": "截至193仍近宗师，药皆半成品且回魔无法量产。",
+      "last_observed_at_unit": 193,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "night-luo-master",
+          "question": "夜落是否已宗师并能量产高级回魔？",
+          "status": "open",
+          "answer": "截至193仍近宗师，药皆半成品且回魔无法量产。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0182",
+              "start_line": 7372,
+              "end_line": 7376
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0194",
+              "start_line": 7872,
+              "end_line": 7876
+            }
+          ],
+          "kind": "rule",
+          "stage": "stage-10",
+          "unit_end": 193
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "night-luo-master",
+        "final_status": "resolved",
+        "answer": "195两天升宗师，217承担军药义务；338五戒合药王戒至大宗师，专家药供应全团但不是无限供所有盟团。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0196",
+            "start_line": 7962,
+            "end_line": 8000
+          },
+          {
+            "chapter_id": "ch-0218",
+            "start_line": 9002,
+            "end_line": 9084
+          },
+          {
+            "chapter_id": "ch-0339",
+            "start_line": 16492,
+            "end_line": 16613
+          },
+          {
+            "chapter_id": "ch-0356",
+            "start_line": 18920,
+            "end_line": 18930
+          }
+        ]
+      }
+    },
+    {
+      "id": "guest-security",
+      "question": "龙之焰客卿是否保证不会遭狂龙打压？",
+      "latest_recorded_status": "open",
+      "latest_answer": "团员据利益推测屏障有效，尚无长期结果；不要把高枕无忧判断当未来事实。",
+      "last_observed_at_unit": 193,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "guest-security",
+          "question": "龙之焰客卿是否保证不会遭狂龙打压？",
+          "status": "open",
+          "answer": "团员据利益推测屏障有效，尚无长期结果；不要把高枕无忧判断当未来事实。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0188",
+              "start_line": 7620,
+              "end_line": 7628
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "misbelief",
+          "stage": "stage-10",
+          "unit_end": 193
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "guest-security",
+        "final_status": "resolved",
+        "answer": "不保证安全：随后狂龙挖角围杀及内线打压确发生；天狂213风险投资并234续长期合作，最终正式竞技击败狂龙。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0214",
+            "start_line": 8723,
+            "end_line": 8734
+          },
+          {
+            "chapter_id": "ch-0235",
+            "start_line": 9864,
+            "end_line": 9925
+          },
+          {
+            "chapter_id": "ch-0381",
+            "start_line": 22390,
+            "end_line": 22410
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-horadric",
+      "question": "谜题为何指向远古之树",
+      "latest_recorded_status": "open",
+      "latest_answer": "尚未解；已排除照配方实验的表面路径",
+      "last_observed_at_unit": 213,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-horadric",
+          "question": "谜题为何指向远古之树",
+          "status": "open",
+          "answer": "尚未解；已排除照配方实验的表面路径",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0196",
+              "start_line": 7984,
+              "end_line": 8000
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "unresolved",
+          "stage": "stage-11",
+          "unit_end": 213
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-horadric",
+        "final_status": "resolved",
+        "answer": "330夜落用药学四过程精灵语解红生命树；334七符文开库取得魔盒并全团共享。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0331",
+            "start_line": 15543,
+            "end_line": 15625
+          },
+          {
+            "chapter_id": "ch-0335",
+            "start_line": 15936,
+            "end_line": 16048
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-dynamic-mission",
+      "question": "C任务难度错误是否阴谋",
+      "latest_recorded_status": "partial",
+      "latest_answer": "已知战况动态变化导致升级，未见人为设局结论",
+      "last_observed_at_unit": 213,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-dynamic-mission",
+          "question": "C任务难度错误是否阴谋",
+          "status": "partial",
+          "answer": "已知战况动态变化导致升级，未见人为设局结论",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0202",
+              "start_line": 8234,
+              "end_line": 8234
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0203",
+              "start_line": 8265,
+              "end_line": 8277
+            }
+          ],
+          "kind": "rule",
+          "stage": "stage-11",
+          "unit_end": 213
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-dynamic-mission",
+        "final_status": "resolved",
+        "answer": "已给动态战况导致任务升SSS的规则解释，守援并完成85%结算；没有人为设局确证。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0203",
+            "start_line": 8265,
+            "end_line": 8293
+          },
+          {
+            "chapter_id": "ch-0217",
+            "start_line": 8912,
+            "end_line": 9001
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-independent-contract",
+      "question": "一月内能否冲击狂龙并履约",
+      "latest_recorded_status": "open",
+      "latest_answer": "只是约定，不能记录已实现",
+      "last_observed_at_unit": 213,
+      "terminal_status": "partial",
+      "history": [
+        {
+          "key": "q-independent-contract",
+          "question": "一月内能否冲击狂龙并履约",
+          "status": "open",
+          "answer": "只是约定，不能记录已实现",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0214",
+              "start_line": 8723,
+              "end_line": 8727
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "promise",
+          "stage": "stage-11",
+          "unit_end": 213
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-independent-contract",
+        "final_status": "partial",
+        "answer": "后续已接受追加五千万长期合作且实际竞技胜狂龙；原一个月3000万/违约金合同未逐条审计精确期限与清算，不写全部原条款结清。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0234",
+            "start_line": 9830,
+            "end_line": 9863
+          },
+          {
+            "chapter_id": "ch-0235",
+            "start_line": 9864,
+            "end_line": 9925
+          },
+          {
+            "chapter_id": "ch-0381",
+            "start_line": 22390,
+            "end_line": 22410
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-xiaoyu-id",
+      "question": "本书萧御是否就是《贼胆》主角",
+      "latest_recorded_status": "open",
+      "latest_answer": "原文此处只证明同名亡灵贼，不能跨书合并",
+      "last_observed_at_unit": 213,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "q-xiaoyu-id",
+          "question": "本书萧御是否就是《贼胆》主角",
+          "status": "open",
+          "answer": "原文此处只证明同名亡灵贼，不能跨书合并",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0200",
+              "start_line": 8127,
+              "end_line": 8129
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "anomaly",
+          "stage": "stage-11",
+          "unit_end": 213
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-xiaoyu-id",
+        "final_status": "unknown",
+        "answer": "本书明确同名亡灵贼和相似跨书事件；仅本书未直接声明等于另一小说主角。跨书对应另交联合研究核，不自动合实体。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0200",
+            "start_line": 8127,
+            "end_line": 8129
+          },
+          {
+            "chapter_id": "ch-0387",
+            "start_line": 23116,
+            "end_line": 23117
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-gargoyle-survival",
+      "question": "石像鬼能否从骨龙逃回",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "重伤返还且完成修复加速",
+      "last_observed_at_unit": 233,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-gargoyle-survival",
+          "question": "石像鬼能否从骨龙逃回",
+          "status": "resolved",
+          "answer": "重伤返还且完成修复加速",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0215",
+              "start_line": 8781,
+              "end_line": 8785
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0216",
+              "start_line": 8839,
+              "end_line": 8845
+            },
+            {
+              "chapter_id": "ch-0217",
+              "start_line": 8941,
+              "end_line": 8941
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-12",
+          "unit_end": 233
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-gargoyle-survival",
+        "final_status": "resolved",
+        "answer": "重伤返还且完成修复加速",
+        "evidence": [
+          {
+            "chapter_id": "ch-0216",
+            "start_line": 8839,
+            "end_line": 8845
+          },
+          {
+            "chapter_id": "ch-0217",
+            "start_line": 8941,
+            "end_line": 8941
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-spy",
+      "question": "谁是内线",
+      "latest_recorded_status": "partial",
+      "latest_answer": "两个：匡飞被逐、天骑保留，天骑动机尚不明",
+      "last_observed_at_unit": 253,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-spy",
+          "question": "团队谁是狂龙眼线",
+          "status": "open",
+          "answer": "眼线确实存在，身份不明",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0217",
+              "start_line": 8949,
+              "end_line": 8953
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0234",
+              "start_line": 9847,
+              "end_line": 9847
+            }
+          ],
+          "kind": "unresolved",
+          "stage": "stage-12",
+          "unit_end": 233
+        },
+        {
+          "key": "q-spy",
+          "question": "谁是内线",
+          "status": "partial",
+          "answer": "两个：匡飞被逐、天骑保留，天骑动机尚不明",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0217",
+              "start_line": 8949,
+              "end_line": 8953
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0245",
+              "start_line": 10623,
+              "end_line": 10640
+            },
+            {
+              "chapter_id": "ch-0246",
+              "start_line": 10658,
+              "end_line": 10673
+            }
+          ],
+          "kind": "unresolved",
+          "stage": "stage-13",
+          "unit_end": 253
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-spy",
+        "final_status": "resolved",
+        "answer": "黑蛇盐磷定位匡飞天骑；前者逐出后者留反间，天骑承认钱与暗恋林菲，完成围狂龙后逐。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0245",
+            "start_line": 10564,
+            "end_line": 10642
+          },
+          {
+            "chapter_id": "ch-0246",
+            "start_line": 10643,
+            "end_line": 10745
+          },
+          {
+            "chapter_id": "ch-0292",
+            "start_line": 12985,
+            "end_line": 13047
+          },
+          {
+            "chapter_id": "ch-0297",
+            "start_line": 13238,
+            "end_line": 13283
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-rings-count",
+      "question": "救援前两戒、称第三、结算为何四戒",
+      "latest_recorded_status": "open",
+      "latest_answer": "源文数量跳变，未自行补一枚经历",
+      "last_observed_at_unit": 233,
+      "terminal_status": "partial",
+      "history": [
+        {
+          "key": "q-rings-count",
+          "question": "救援前两戒、称第三、结算为何四戒",
+          "status": "open",
+          "answer": "源文数量跳变，未自行补一枚经历",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0217",
+              "start_line": 8988,
+              "end_line": 8989
+            },
+            {
+              "chapter_id": "ch-0218",
+              "start_line": 9037,
+              "end_line": 9037
+            },
+            {
+              "chapter_id": "ch-0225",
+              "start_line": 9431,
+              "end_line": 9431
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "anomaly",
+          "stage": "stage-12",
+          "unit_end": 233
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-rings-count",
+        "final_status": "partial",
+        "answer": "最后实际五戒合亚神器药王戒、夜落大宗师；早两/三/四数量跳变无补齐解释。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0225",
+            "start_line": 9400,
+            "end_line": 9453
+          },
+          {
+            "chapter_id": "ch-0339",
+            "start_line": 16492,
+            "end_line": 16613
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-wuloves",
+      "question": "无岚无羽为何追无炎",
+      "latest_recorded_status": "partial",
+      "latest_answer": "无炎昔日战斗护住两人，姐妹各决定跟定；三人关系未定",
+      "last_observed_at_unit": 233,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-wuloves",
+          "question": "无岚无羽为何追无炎",
+          "status": "partial",
+          "answer": "无炎昔日战斗护住两人，姐妹各决定跟定；三人关系未定",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0217",
+              "start_line": 8915,
+              "end_line": 8925
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0233",
+              "start_line": 9813,
+              "end_line": 9816
+            }
+          ],
+          "kind": "misbelief",
+          "stage": "stage-12",
+          "unit_end": 233
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-wuloves",
+        "final_status": "resolved",
+        "answer": "两女身份与救命动因已明；终章邮件称三人在商务公司上班且同居，未写婚姻或确定排他关系。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0233",
+            "start_line": 9774,
+            "end_line": 9829
+          },
+          {
+            "chapter_id": "ch-0388",
+            "start_line": 23233,
+            "end_line": 23235
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-general",
+      "question": "天狂能否得将军套",
+      "latest_recorded_status": "open",
+      "latest_answer": "正在集中荣耀，尚未达成",
+      "last_observed_at_unit": 253,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-general",
+          "question": "天狂能否得将军套",
+          "status": "open",
+          "answer": "正在集中荣耀，尚未达成",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0244",
+              "start_line": 10528,
+              "end_line": 10549
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "promise",
+          "stage": "stage-13",
+          "unit_end": 253
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-general",
+        "final_status": "resolved",
+        "answer": "旧20万将军套目标后来被50万荣耀准帅套实际超越，公爵是功勋另轴，不能混为同任务。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0349",
+            "start_line": 17816,
+            "end_line": 17999
+          },
+          {
+            "chapter_id": "ch-0374",
+            "start_line": 21601,
+            "end_line": 21613
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-double-rings",
+      "question": "两戒为何共鸣",
+      "latest_recorded_status": "open",
+      "latest_answer": "萧翎计划查历史，尚无答案",
+      "last_observed_at_unit": 253,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-double-rings",
+          "question": "两戒为何共鸣",
+          "status": "open",
+          "answer": "萧翎计划查历史，尚无答案",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0243",
+              "start_line": 10465,
+              "end_line": 10466
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "promise",
+          "stage": "stage-13",
+          "unit_end": 253
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-double-rings",
+        "final_status": "resolved",
+        "answer": "七功勋遗物同源，三附件组成魔神戒；伊克斯最终由王赠后合成，异界钥匙传说仍未直接打开异界。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0277",
+            "start_line": 12230,
+            "end_line": 12271
+          },
+          {
+            "chapter_id": "ch-0296",
+            "start_line": 13216,
+            "end_line": 13235
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-engineering20",
+      "question": "20天大宗师和泰坦材料能否兑现",
+      "latest_recorded_status": "open",
+      "latest_answer": "宗师已达；新目标与NPC约定尚待",
+      "last_observed_at_unit": 253,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-engineering20",
+          "question": "20天大宗师和泰坦材料能否兑现",
+          "status": "open",
+          "answer": "宗师已达；新目标与NPC约定尚待",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0239",
+              "start_line": 10131,
+              "end_line": 10137
+            },
+            {
+              "chapter_id": "ch-0243",
+              "start_line": 10422,
+              "end_line": 10429
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "promise",
+          "stage": "stage-13",
+          "unit_end": 253
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-engineering20",
+        "final_status": "resolved",
+        "answer": "欧斯特雷神银20块已给，312七八天大宗师，320取泰坦心制恩特；不把目标20天写成耗足20天。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0301",
+            "start_line": 13468,
+            "end_line": 13489
+          },
+          {
+            "chapter_id": "ch-0313",
+            "start_line": 14100,
+            "end_line": 14108
+          },
+          {
+            "chapter_id": "ch-0321",
+            "start_line": 14743,
+            "end_line": 14765
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-bell-friends",
+      "question": "铃铛为何关联萨尔玛",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "童年永远朋友誓言；斯蒂兰斯亲杀友后纪念",
+      "last_observed_at_unit": 273,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-bell-friends",
+          "question": "铃铛为何关联萨尔玛",
+          "status": "resolved",
+          "answer": "童年永远朋友誓言；斯蒂兰斯亲杀友后纪念",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0259",
+              "start_line": 11372,
+              "end_line": 11374
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0258",
+              "start_line": 11321,
+              "end_line": 11350
+            },
+            {
+              "chapter_id": "ch-0259",
+              "start_line": 11378,
+              "end_line": 11381
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-14",
+          "unit_end": 273
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-bell-friends",
+        "final_status": "resolved",
+        "answer": "童年永远朋友誓言；斯蒂兰斯亲杀友后纪念",
+        "evidence": [
+          {
+            "chapter_id": "ch-0258",
+            "start_line": 11321,
+            "end_line": 11350
+          },
+          {
+            "chapter_id": "ch-0259",
+            "start_line": 11378,
+            "end_line": 11381
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-rescue-riders",
+      "question": "先到百骑来自哪里",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "云天旧部，非雷焰；藏身份避免团队权力顾忌",
+      "last_observed_at_unit": 273,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-rescue-riders",
+          "question": "先到百骑来自哪里",
+          "status": "resolved",
+          "answer": "云天旧部，非雷焰；藏身份避免团队权力顾忌",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0266",
+              "start_line": 11716,
+              "end_line": 11725
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0267",
+              "start_line": 11773,
+              "end_line": 11785
+            }
+          ],
+          "kind": "unresolved",
+          "stage": "stage-14",
+          "unit_end": 273
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-rescue-riders",
+        "final_status": "resolved",
+        "answer": "云天旧部，非雷焰；藏身份避免团队权力顾忌",
+        "evidence": [
+          {
+            "chapter_id": "ch-0267",
+            "start_line": 11773,
+            "end_line": 11785
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-saluhero",
+      "question": "萨鲁是否英雄任务",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "先试用，后勒纳确认唯一术之掌控者归萧翎",
+      "last_observed_at_unit": 293,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-saluhero",
+          "question": "萨鲁邀请是否英雄转职",
+          "status": "open",
+          "answer": "云天推测值得试，未完成未确认",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0270",
+              "start_line": 11878,
+              "end_line": 11881
+            },
+            {
+              "chapter_id": "ch-0274",
+              "start_line": 12095,
+              "end_line": 12109
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "promise",
+          "stage": "stage-14",
+          "unit_end": 273
+        },
+        {
+          "key": "q-saluhero",
+          "question": "萨鲁是否英雄任务",
+          "status": "resolved",
+          "answer": "先试用，后勒纳确认唯一术之掌控者归萧翎",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0270",
+              "start_line": 11878,
+              "end_line": 11881
+            },
+            {
+              "chapter_id": "ch-0274",
+              "start_line": 12095,
+              "end_line": 12109
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0283",
+              "start_line": 12505,
+              "end_line": 12518
+            },
+            {
+              "chapter_id": "ch-0289",
+              "start_line": 12823,
+              "end_line": 12845
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-15",
+          "unit_end": 293
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-saluhero",
+        "final_status": "resolved",
+        "answer": "先试用，后勒纳确认唯一术之掌控者归萧翎",
+        "evidence": [
+          {
+            "chapter_id": "ch-0283",
+            "start_line": 12505,
+            "end_line": 12518
+          },
+          {
+            "chapter_id": "ch-0289",
+            "start_line": 12823,
+            "end_line": 12845
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-capitalfall",
+      "question": "圣光城是否会陷落",
+      "latest_recorded_status": "open",
+      "latest_answer": "可能性讨论，不能记作结果",
+      "last_observed_at_unit": 273,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-capitalfall",
+          "question": "圣光城是否会陷落",
+          "status": "open",
+          "answer": "可能性讨论，不能记作结果",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0273",
+              "start_line": 12079,
+              "end_line": 12081
+            },
+            {
+              "chapter_id": "ch-0274",
+              "start_line": 12085,
+              "end_line": 12089
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "promise",
+          "stage": "stage-14",
+          "unit_end": 273
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-capitalfall",
+        "final_status": "resolved",
+        "answer": "圣光城先系统沦陷-10%，外交保居民撤离敌三天退；黄昏又遭外敌毁城，二战别合一次。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0331",
+            "start_line": 15543,
+            "end_line": 15625
+          },
+          {
+            "chapter_id": "ch-0336",
+            "start_line": 16049,
+            "end_line": 16145
+          },
+          {
+            "chapter_id": "ch-0383",
+            "start_line": 22603,
+            "end_line": 22612
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-onehero",
+      "question": "日志为何只写一名英雄",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "神位唯一，紫焰放弃",
+      "last_observed_at_unit": 293,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-onehero",
+          "question": "日志为何只写一名英雄",
+          "status": "resolved",
+          "answer": "神位唯一，紫焰放弃",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0284",
+              "start_line": 12562,
+              "end_line": 12565
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0289",
+              "start_line": 12827,
+              "end_line": 12845
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-15",
+          "unit_end": 293
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-onehero",
+        "final_status": "resolved",
+        "answer": "神位唯一，紫焰放弃",
+        "evidence": [
+          {
+            "chapter_id": "ch-0289",
+            "start_line": 12827,
+            "end_line": 12845
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-spymotive",
+      "question": "天骑为何背叛",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "他说钱与暗恋林菲；天狂承诺不告她",
+      "last_observed_at_unit": 293,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-spymotive",
+          "question": "天骑为何背叛",
+          "status": "resolved",
+          "answer": "他说钱与暗恋林菲；天狂承诺不告她",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0245",
+              "start_line": 10626,
+              "end_line": 10640
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0292",
+              "start_line": 12998,
+              "end_line": 13011
+            }
+          ],
+          "kind": "unresolved",
+          "stage": "stage-15",
+          "unit_end": 293
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-spymotive",
+        "final_status": "resolved",
+        "answer": "他说钱与暗恋林菲；天狂承诺不告她",
+        "evidence": [
+          {
+            "chapter_id": "ch-0292",
+            "start_line": 12998,
+            "end_line": 13011
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-karlos",
+      "question": "卡尔洛斯为何成仆有无战力",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "被黑焰封印并意外融合戒灵，无直接战力但升潜力",
+      "last_observed_at_unit": 293,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-karlos",
+          "question": "卡尔洛斯为何成仆有无战力",
+          "status": "resolved",
+          "answer": "被黑焰封印并意外融合戒灵，无直接战力但升潜力",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0277",
+              "start_line": 12261,
+              "end_line": 12269
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0278",
+              "start_line": 12274,
+              "end_line": 12287
+            }
+          ],
+          "kind": "rule",
+          "stage": "stage-15",
+          "unit_end": 293
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-karlos",
+        "final_status": "resolved",
+        "answer": "被黑焰封印并意外融合戒灵，无直接战力但升潜力",
+        "evidence": [
+          {
+            "chapter_id": "ch-0278",
+            "start_line": 12274,
+            "end_line": 12287
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-arland",
+      "question": "王为何见萧翎震动",
+      "latest_recorded_status": "open",
+      "latest_answer": "此时仅悬念，不编父子关系",
+      "last_observed_at_unit": 293,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "q-arland",
+          "question": "王为何见萧翎震动",
+          "status": "open",
+          "answer": "此时仅悬念，不编父子关系",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0294",
+              "start_line": 13144,
+              "end_line": 13145
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "promise",
+          "stage": "stage-15",
+          "unit_end": 293
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "q-arland",
+        "final_status": "resolved",
+        "answer": "328认父，329确认天下股东扮维护NPC，终章父亲萧寒安排重逢。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0329",
+            "start_line": 15350,
+            "end_line": 15456
+          },
+          {
+            "chapter_id": "ch-0330",
+            "start_line": 15457,
+            "end_line": 15542
+          },
+          {
+            "chapter_id": "ch-0388",
+            "start_line": 23217,
+            "end_line": 23229
+          }
+        ]
+      }
+    },
+    {
+      "id": "arland-debt",
+      "question": "王为何亏欠萧翎？",
+      "latest_recorded_status": "open",
+      "latest_answer": "暂无；亲缘等均未获证实。",
+      "last_observed_at_unit": 313,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "arland-debt",
+          "question": "王为何亏欠萧翎？",
+          "status": "open",
+          "answer": "暂无；亲缘等均未获证实。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0296",
+              "start_line": 13201,
+              "end_line": 13212
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "unresolved",
+          "stage": "stage-16",
+          "unit_end": 313
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "arland-debt",
+        "final_status": "resolved",
+        "answer": "父子关系在328/329明示，亏欠与关爱由后续公爵奖及现实重逢深化；不倒填每句当时心理。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0329",
+            "start_line": 15350,
+            "end_line": 15456
+          },
+          {
+            "chapter_id": "ch-0374",
+            "start_line": 21561,
+            "end_line": 21583
+          },
+          {
+            "chapter_id": "ch-0388",
+            "start_line": 23217,
+            "end_line": 23229
+          }
+        ]
+      }
+    },
+    {
+      "id": "titan-ready",
+      "question": "大宗师要求是否完成？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "七八天学习达到大宗师，可赴圣光造泰坦。",
+      "last_observed_at_unit": 313,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "titan-ready",
+          "question": "大宗师要求是否完成？",
+          "status": "resolved",
+          "answer": "七八天学习达到大宗师，可赴圣光造泰坦。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0302",
+              "start_line": 13507,
+              "end_line": 13508
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0313",
+              "start_line": 14100,
+              "end_line": 14108
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-16",
+          "unit_end": 313
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "titan-ready",
+        "final_status": "resolved",
+        "answer": "七八天学习达到大宗师，可赴圣光造泰坦。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0313",
+            "start_line": 14100,
+            "end_line": 14108
+          }
+        ]
+      }
+    },
+    {
+      "id": "ring-exp",
+      "question": "魔神戒吸经验比例？",
+      "latest_recorded_status": "conflict",
+      "latest_answer": "描述间不一致，不能自行改算式。",
+      "last_observed_at_unit": 313,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "ring-exp",
+          "question": "魔神戒吸经验比例？",
+          "status": "conflict",
+          "answer": "描述间不一致，不能自行改算式。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0296",
+              "start_line": 13223,
+              "end_line": 13228
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0305",
+              "start_line": 13648,
+              "end_line": 13659
+            }
+          ],
+          "kind": "anomaly",
+          "stage": "stage-16",
+          "unit_end": 313
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "ring-exp",
+        "final_status": "unknown",
+        "answer": "295/304经验比例冲突未被解释，371神器新属性另为+200%戒吸50%，只更新阶段不抹旧冲突。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0296",
+            "start_line": 13223,
+            "end_line": 13228
+          },
+          {
+            "chapter_id": "ch-0305",
+            "start_line": 13648,
+            "end_line": 13659
+          },
+          {
+            "chapter_id": "ch-0372",
+            "start_line": 21038,
+            "end_line": 21044
+          }
+        ]
+      }
+    },
+    {
+      "id": "vanity-secret",
+      "question": "虚荣戒净化后为何仍古怪？",
+      "latest_recorded_status": "open",
+      "latest_answer": "尚无答案。",
+      "last_observed_at_unit": 313,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "vanity-secret",
+          "question": "虚荣戒净化后为何仍古怪？",
+          "status": "open",
+          "answer": "尚无答案。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0313",
+              "start_line": 14079,
+              "end_line": 14083
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "promise",
+          "stage": "stage-16",
+          "unit_end": 313
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "vanity-secret",
+        "final_status": "unknown",
+        "answer": "净化后虚荣戒古怪未见进一步说明；林菲后续用刺客技能不等于戒余谜已解。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0313",
+            "start_line": 14075,
+            "end_line": 14083
+          }
+        ]
+      }
+    },
+    {
+      "id": "father-reveal",
+      "question": "阿兰德是否萧翎父？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "是。天下职员扮NPC，父为股东及布拉卡达维护者。",
+      "last_observed_at_unit": 333,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "father-reveal",
+          "question": "阿兰德是否萧翎父？",
+          "status": "resolved",
+          "answer": "是。天下职员扮NPC，父为股东及布拉卡达维护者。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0296",
+              "start_line": 13201,
+              "end_line": 13212
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0329",
+              "start_line": 15432,
+              "end_line": 15454
+            },
+            {
+              "chapter_id": "ch-0330",
+              "start_line": 15459,
+              "end_line": 15468
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-17",
+          "unit_end": 333
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "father-reveal",
+        "final_status": "resolved",
+        "answer": "是。天下职员扮NPC，父为股东及布拉卡达维护者。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0329",
+            "start_line": 15432,
+            "end_line": 15454
+          },
+          {
+            "chapter_id": "ch-0330",
+            "start_line": 15459,
+            "end_line": 15468
+          }
+        ]
+      }
+    },
+    {
+      "id": "prophecy",
+      "question": "王如何救下被攻破的圣光城？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "以第三方威胁和平衡说服山德鲁保民，神令守军撤退，敌占三天归还。",
+      "last_observed_at_unit": 333,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "prophecy",
+          "question": "王如何救下被攻破的圣光城？",
+          "status": "resolved",
+          "answer": "以第三方威胁和平衡说服山德鲁保民，神令守军撤退，敌占三天归还。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0315",
+              "start_line": 14329,
+              "end_line": 14337
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0330",
+              "start_line": 15510,
+              "end_line": 15539
+            },
+            {
+              "chapter_id": "ch-0331",
+              "start_line": 15605,
+              "end_line": 15612
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-17",
+          "unit_end": 333
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "prophecy",
+        "final_status": "resolved",
+        "answer": "以第三方威胁和平衡说服山德鲁保民，神令守军撤退，敌占三天归还。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0330",
+            "start_line": 15510,
+            "end_line": 15539
+          },
+          {
+            "chapter_id": "ch-0331",
+            "start_line": 15605,
+            "end_line": 15612
+          }
+        ]
+      }
+    },
+    {
+      "id": "alice-end",
+      "question": "爱丽丝是否已死？",
+      "latest_recorded_status": "unknown",
+      "latest_answer": "有死志但未见死亡场景。",
+      "last_observed_at_unit": 333,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "alice-end",
+          "question": "爱丽丝是否已死？",
+          "status": "unknown",
+          "answer": "有死志但未见死亡场景。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0327",
+              "start_line": 15204,
+              "end_line": 15221
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "unresolved",
+          "stage": "stage-17",
+          "unit_end": 333
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "alice-end",
+        "final_status": "unknown",
+        "answer": "有死志但未见死亡场景。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0327",
+            "start_line": 15204,
+            "end_line": 15221
+          }
+        ]
+      }
+    },
+    {
+      "id": "blackwood-end",
+      "question": "黑伍德断后是否战死？",
+      "latest_recorded_status": "unknown",
+      "latest_answer": "仅爆炸与萧翎忧惧，未直接确认。",
+      "last_observed_at_unit": 333,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "blackwood-end",
+          "question": "黑伍德断后是否战死？",
+          "status": "unknown",
+          "answer": "仅爆炸与萧翎忧惧，未直接确认。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0329",
+              "start_line": 15362,
+              "end_line": 15376
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "unresolved",
+          "stage": "stage-17",
+          "unit_end": 333
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "blackwood-end",
+        "final_status": "unknown",
+        "answer": "仅爆炸与萧翎忧惧，未直接确认。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0329",
+            "start_line": 15362,
+            "end_line": 15376
+          }
+        ]
+      }
+    },
+    {
+      "id": "fifth-ring",
+      "question": "最后药戒如何取得？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "不是直接从龙掉落；巢箱幸运精灵变出。",
+      "last_observed_at_unit": 353,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "fifth-ring",
+          "question": "最后药戒如何取得？",
+          "status": "resolved",
+          "answer": "不是直接从龙掉落；巢箱幸运精灵变出。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0338",
+              "start_line": 16479,
+              "end_line": 16489
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0339",
+              "start_line": 16567,
+              "end_line": 16584
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-18",
+          "unit_end": 353
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "fifth-ring",
+        "final_status": "resolved",
+        "answer": "不是直接从龙掉落；巢箱幸运精灵变出。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0339",
+            "start_line": 16567,
+            "end_line": 16584
+          }
+        ]
+      }
+    },
+    {
+      "id": "itess-oath",
+      "question": "伊特斯安全送离誓言可信吗？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "有存活前提且机甲会炸，主角改签卸机甲保装备；核心仍爆城，起搏救命。",
+      "last_observed_at_unit": 353,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "itess-oath",
+          "question": "伊特斯安全送离誓言可信吗？",
+          "status": "resolved",
+          "answer": "有存活前提且机甲会炸，主角改签卸机甲保装备；核心仍爆城，起搏救命。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0344",
+              "start_line": 17224,
+              "end_line": 17227
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0348",
+              "start_line": 17754,
+              "end_line": 17803
+            }
+          ],
+          "kind": "misbelief",
+          "stage": "stage-18",
+          "unit_end": 353
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "itess-oath",
+        "final_status": "resolved",
+        "answer": "有存活前提且机甲会炸，主角改签卸机甲保装备；核心仍爆城，起搏救命。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0348",
+            "start_line": 17754,
+            "end_line": 17803
+          }
+        ]
+      }
+    },
+    {
+      "id": "tomb-count",
+      "question": "王室墓穴七还是九？",
+      "latest_recorded_status": "conflict",
+      "latest_answer": "来源先七后九；不自行修正。",
+      "last_observed_at_unit": 353,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "tomb-count",
+          "question": "王室墓穴七还是九？",
+          "status": "conflict",
+          "answer": "来源先七后九；不自行修正。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0353",
+              "start_line": 18527,
+              "end_line": 18528
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0354",
+              "start_line": 18796,
+              "end_line": 18806
+            }
+          ],
+          "kind": "anomaly",
+          "stage": "stage-18",
+          "unit_end": 353
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "tomb-count",
+        "final_status": "unknown",
+        "answer": "王室墓穴七与总九前后不一，任务实际完成不修正墓数。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0353",
+            "start_line": 18452,
+            "end_line": 18673
+          },
+          {
+            "chapter_id": "ch-0354",
+            "start_line": 18674,
+            "end_line": 18831
+          }
+        ]
+      }
+    },
+    {
+      "id": "thief-cut",
+      "question": "奥丁城13盗贼围攻结果？",
+      "latest_recorded_status": "unknown",
+      "latest_answer": "当前来源下一单元直切回团，未展示解决。",
+      "last_observed_at_unit": 353,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "thief-cut",
+          "question": "奥丁城13盗贼围攻结果？",
+          "status": "unknown",
+          "answer": "当前来源下一单元直切回团，未展示解决。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0350",
+              "start_line": 18032,
+              "end_line": 18042
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0351",
+              "start_line": 18045,
+              "end_line": 18048
+            }
+          ],
+          "kind": "anomaly",
+          "stage": "stage-18",
+          "unit_end": 353
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "thief-cut",
+        "final_status": "unknown",
+        "answer": "当前来源下一单元直切回团，未展示解决。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0351",
+            "start_line": 18045,
+            "end_line": 18048
+          }
+        ]
+      }
+    },
+    {
+      "id": "who-made-puppet",
+      "question": "伊森得被谁制造成泥人傀儡？",
+      "latest_recorded_status": "open",
+      "latest_answer": "林菲只解释制作者必须更强，未具名。",
+      "last_observed_at_unit": 373,
+      "terminal_status": "partial",
+      "history": [
+        {
+          "key": "who-made-puppet",
+          "question": "伊森得被谁制造成泥人傀儡？",
+          "status": "open",
+          "answer": "林菲只解释制作者必须更强，未具名。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0364",
+              "start_line": 19851,
+              "end_line": 19854
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "unresolved",
+          "stage": "stage-19",
+          "unit_end": 373
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "who-made-puppet",
+        "final_status": "partial",
+        "answer": "最终资料说沃顿掌握包括伊森得的强大存在，建立隶属；泥人制作人未直接具名，不能说沃顿亲手烧陶。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0364",
+            "start_line": 19851,
+            "end_line": 19854
+          },
+          {
+            "chapter_id": "ch-0382",
+            "start_line": 22520,
+            "end_line": 22522
+          }
+        ]
+      }
+    },
+    {
+      "id": "second-transfer",
+      "question": "主角二转是否完成？",
+      "latest_recorded_status": "open",
+      "latest_answer": "因会耗数日而推迟，当前未做。",
+      "last_observed_at_unit": 373,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "second-transfer",
+          "question": "主角二转是否完成？",
+          "status": "open",
+          "answer": "因会耗数日而推迟，当前未做。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0370",
+              "start_line": 20562,
+              "end_line": 20566
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "unresolved",
+          "stage": "stage-19",
+          "unit_end": 373
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "second-transfer",
+        "final_status": "resolved",
+        "answer": "382接60级二转光之引导，383全军团最终完成；神格与众神让力为随后任务临时强化。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0383",
+            "start_line": 22643,
+            "end_line": 22662
+          },
+          {
+            "chapter_id": "ch-0384",
+            "start_line": 22723,
+            "end_line": 22729
+          },
+          {
+            "chapter_id": "ch-0387",
+            "start_line": 23123,
+            "end_line": 23124
+          }
+        ]
+      }
+    },
+    {
+      "id": "duke-fairness",
+      "question": "父亲间接封爵是否符合主脑公平规则？",
+      "latest_recorded_status": "unresolved",
+      "latest_answer": "角色先说主脑可接受不算作弊，叙述又称不惜违背规则；需保留价值与措辞冲突。",
+      "last_observed_at_unit": 373,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "duke-fairness",
+          "question": "父亲间接封爵是否符合主脑公平规则？",
+          "status": "unresolved",
+          "answer": "角色先说主脑可接受不算作弊，叙述又称不惜违背规则；需保留价值与措辞冲突。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0374",
+              "start_line": 21565,
+              "end_line": 21570
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "anomaly",
+          "stage": "stage-19",
+          "unit_end": 373
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "duke-fairness",
+        "final_status": "unknown",
+        "answer": "主脑接受与父违背规则的叙述措辞冲突未获澄清。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0374",
+            "start_line": 21565,
+            "end_line": 21570
+          }
+        ]
+      }
+    },
+    {
+      "id": "arena-kuanglong",
+      "question": "狂龙是否参加单人竞技？",
+      "latest_recorded_status": "unresolved",
+      "latest_answer": "365说参加，373又说未参加，不能自行统一。",
+      "last_observed_at_unit": 373,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "arena-kuanglong",
+          "question": "狂龙是否参加单人竞技？",
+          "status": "unresolved",
+          "answer": "365说参加，373又说未参加，不能自行统一。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0366",
+              "start_line": 20165,
+              "end_line": 20168
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0374",
+              "start_line": 21498,
+              "end_line": 21498
+            }
+          ],
+          "kind": "anomaly",
+          "stage": "stage-19",
+          "unit_end": 373
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "arena-kuanglong",
+        "final_status": "unknown",
+        "answer": "365称狂龙也参加1v1、373改未参，后决赛实际天龙，不能据后状态抹前矛盾。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0366",
+            "start_line": 20165,
+            "end_line": 20168
+          },
+          {
+            "chapter_id": "ch-0374",
+            "start_line": 21498,
+            "end_line": 21498
+          },
+          {
+            "chapter_id": "ch-0375",
+            "start_line": 21814,
+            "end_line": 21815
+          }
+        ]
+      }
+    },
+    {
+      "id": "post-landing",
+      "question": "航船靠岸后游戏及伙伴关系如何？",
+      "latest_recorded_status": "open",
+      "latest_answer": "主角明确认为游戏是否持续未知。",
+      "last_observed_at_unit": 373,
+      "terminal_status": "partial",
+      "history": [
+        {
+          "key": "post-landing",
+          "question": "航船靠岸后游戏及伙伴关系如何？",
+          "status": "open",
+          "answer": "主角明确认为游戏是否持续未知。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0372",
+              "start_line": 20990,
+              "end_line": 20995
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "unresolved",
+          "stage": "stage-19",
+          "unit_end": 373
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "post-landing",
+        "final_status": "partial",
+        "answer": "现实伙伴工作婚恋与四女团聚有终章直接后日谈；游戏是否继续运营未明确。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0388",
+            "start_line": 23232,
+            "end_line": 23260
+          },
+          {
+            "chapter_id": "ch-0387",
+            "start_line": 23150,
+            "end_line": 23152
+          }
+        ]
+      }
+    },
+    {
+      "id": "crystal-done",
+      "question": "水晶图与血羽心何时兑现？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "366完成水晶石像鬼，原伙伴灵魂转入。",
+      "last_observed_at_unit": 373,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "crystal-done",
+          "question": "水晶图与血羽心何时兑现？",
+          "status": "resolved",
+          "answer": "366完成水晶石像鬼，原伙伴灵魂转入。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0366",
+              "start_line": 20103,
+              "end_line": 20108
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0367",
+              "start_line": 20282,
+              "end_line": 20299
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-19",
+          "unit_end": 373
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "crystal-done",
+        "final_status": "resolved",
+        "answer": "366完成水晶石像鬼，原伙伴灵魂转入。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0367",
+            "start_line": 20282,
+            "end_line": 20299
+          }
+        ]
+      }
+    },
+    {
+      "id": "dusk-identity",
+      "question": "第三方是谁？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "任务资料揭乌服诺斯沃顿入侵；纳德具体归属仍天狂猜。",
+      "last_observed_at_unit": 387,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "dusk-identity",
+          "question": "第三方是谁？",
+          "status": "resolved",
+          "answer": "任务资料揭乌服诺斯沃顿入侵；纳德具体归属仍天狂猜。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0382",
+              "start_line": 22514,
+              "end_line": 22520
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0387",
+              "start_line": 23117,
+              "end_line": 23118
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-20",
+          "unit_end": 387
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "dusk-identity",
+        "final_status": "resolved",
+        "answer": "任务资料揭乌服诺斯沃顿入侵；纳德具体归属仍天狂猜。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0387",
+            "start_line": 23117,
+            "end_line": 23118
+          }
+        ]
+      }
+    },
+    {
+      "id": "gods-live",
+      "question": "众神是否永久牺牲？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "身体爆散引导后又出现，明确失神力成凡人。",
+      "last_observed_at_unit": 387,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "gods-live",
+          "question": "众神是否永久牺牲？",
+          "status": "resolved",
+          "answer": "身体爆散引导后又出现，明确失神力成凡人。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0385",
+              "start_line": 22909,
+              "end_line": 22914
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0387",
+              "start_line": 23123,
+              "end_line": 23124
+            }
+          ],
+          "kind": "misbelief",
+          "stage": "stage-20",
+          "unit_end": 387
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "gods-live",
+        "final_status": "resolved",
+        "answer": "身体爆散引导后又出现，明确失神力成凡人。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0387",
+            "start_line": 23123,
+            "end_line": 23124
+          }
+        ]
+      }
+    },
+    {
+      "id": "real-reunion",
+      "question": "四女能否现实相聚？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "父安排三女，随后查北方找到花舞，机场实际重逢。",
+      "last_observed_at_unit": 387,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "real-reunion",
+          "question": "四女能否现实相聚？",
+          "status": "resolved",
+          "answer": "父安排三女，随后查北方找到花舞，机场实际重逢。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0387",
+              "start_line": 23127,
+              "end_line": 23138
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0388",
+              "start_line": 23217,
+              "end_line": 23260
+            }
+          ],
+          "kind": "promise",
+          "stage": "stage-20",
+          "unit_end": 387
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "real-reunion",
+        "final_status": "resolved",
+        "answer": "父安排三女，随后查北方找到花舞，机场实际重逢。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0388",
+            "start_line": 23217,
+            "end_line": 23260
+          }
+        ]
+      }
+    },
+    {
+      "id": "who-won-final-pk",
+      "question": "萧翎萧御末次PK谁赢？",
+      "latest_recorded_status": "unknown",
+      "latest_answer": "主角明确不说，不能选任何方胜。",
+      "last_observed_at_unit": 387,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "who-won-final-pk",
+          "question": "萧翎萧御末次PK谁赢？",
+          "status": "unknown",
+          "answer": "主角明确不说，不能选任何方胜。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0387",
+              "start_line": 23139,
+              "end_line": 23145
+            }
+          ],
+          "resolution_evidence": [],
+          "kind": "unresolved",
+          "stage": "stage-20",
+          "unit_end": 387
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "who-won-final-pk",
+        "final_status": "unknown",
+        "answer": "主角明确不说，不能选任何方胜。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0387",
+            "start_line": 23139,
+            "end_line": 23145
+          }
+        ]
+      }
+    },
+    {
+      "id": "huowu-romance",
+      "question": "火舞是否成为主角第五恋人？",
+      "latest_recorded_status": "resolved",
+      "latest_answer": "文本明确她会自己安排且否认买一送一，未写恋情。",
+      "last_observed_at_unit": 387,
+      "terminal_status": "resolved",
+      "history": [
+        {
+          "key": "huowu-romance",
+          "question": "火舞是否成为主角第五恋人？",
+          "status": "resolved",
+          "answer": "文本明确她会自己安排且否认买一送一，未写恋情。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0387",
+              "start_line": 23146,
+              "end_line": 23147
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0388",
+              "start_line": 23252,
+              "end_line": 23259
+            }
+          ],
+          "kind": "unresolved",
+          "stage": "stage-20",
+          "unit_end": 387
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "huowu-romance",
+        "final_status": "resolved",
+        "answer": "文本明确她会自己安排且否认买一送一，未写恋情。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0388",
+            "start_line": 23252,
+            "end_line": 23259
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-future",
+      "question": "靠岸后游戏持续运营吗？",
+      "latest_recorded_status": "unknown",
+      "latest_answer": "只写恩泽斯永夜、离营养仓和新星生活，无运营结果。",
+      "last_observed_at_unit": 387,
+      "terminal_status": "unknown",
+      "history": [
+        {
+          "key": "game-future",
+          "question": "靠岸后游戏持续运营吗？",
+          "status": "unknown",
+          "answer": "只写恩泽斯永夜、离营养仓和新星生活，无运营结果。",
+          "setup_evidence": [
+            {
+              "chapter_id": "ch-0372",
+              "start_line": 20990,
+              "end_line": 20995
+            }
+          ],
+          "resolution_evidence": [
+            {
+              "chapter_id": "ch-0387",
+              "start_line": 23150,
+              "end_line": 23152
+            },
+            {
+              "chapter_id": "ch-0388",
+              "start_line": 23156,
+              "end_line": 23157
+            }
+          ],
+          "kind": "unresolved",
+          "stage": "stage-20",
+          "unit_end": 387
+        }
+      ],
+      "boundary": "阶段已回收仅指该问法和已发生事件；非已回收项须结合ending-audit逐项核对，不自动声称全书未解。",
+      "final_audit": {
+        "key": "game-future",
+        "final_status": "unknown",
+        "answer": "只写恩泽斯永夜、离营养仓和新星生活，无运营结果。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0387",
+            "start_line": 23150,
+            "end_line": 23152
+          },
+          {
+            "chapter_id": "ch-0388",
+            "start_line": 23156,
+            "end_line": 23157
+          }
+        ]
+      }
+    }
+  ],
+  "history": [
+    {
+      "key": "iron-ring",
+      "question": "紫光处铁戒是什么？",
+      "status": "resolved",
+      "answer": "希莱尔恶魔之戒，使机械炼金术士兼有三系术士天赋；已绑定。",
+      "kind": "promise",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0008",
+          "start_line": 252,
+          "end_line": 268
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0010",
+          "start_line": 330,
+          "end_line": 343
+        }
+      ],
+      "stage": "stage-01",
+      "unit_end": 20
+    },
+    {
+      "key": "titan-identification",
+      "question": "泰坦之心完整属性是什么？",
+      "status": "open",
+      "answer": "只知水蓝泰坦之心，6251金鉴定费未付。",
+      "kind": "unresolved",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "start_line": 162,
+          "end_line": 165
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0010",
+          "start_line": 345,
+          "end_line": 350
+        }
+      ],
+      "stage": "stage-01",
+      "unit_end": 20
+    },
+    {
+      "key": "warlock-exile",
+      "question": "驱逐术士的历史是否另有原因？",
+      "status": "open",
+      "answer": "萧翎质疑官方叙述，但未追查。",
+      "kind": "misbelief",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0021",
+          "start_line": 825,
+          "end_line": 829
+        }
+      ],
+      "resolution_evidence": [],
+      "stage": "stage-01",
+      "unit_end": 20
+    },
+    {
+      "key": "name-anomaly",
+      "question": "局部萧寒是否另一人物？",
+      "status": "source-anomaly",
+      "answer": "与上下文同一行为链，记录为疑似误写，不增人物。",
+      "kind": "anomaly",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0009",
+          "start_line": 303,
+          "end_line": 305
+        },
+        {
+          "chapter_id": "ch-0011",
+          "start_line": 385,
+          "end_line": 385
+        }
+      ],
+      "resolution_evidence": [],
+      "stage": "stage-01",
+      "unit_end": 20
+    },
+    {
+      "key": "unusual-party",
+      "question": "无战士的四人队如何群刷？",
+      "status": "resolved",
+      "answer": "盗贼拉怪，冰环控群，毁灭群伤与暗牧群诅咒，漏怪单点。",
+      "kind": "promise",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0033",
+          "start_line": 1236,
+          "end_line": 1245
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0041",
+          "start_line": 1528,
+          "end_line": 1556
+        }
+      ],
+      "stage": "stage-02",
+      "unit_end": 40
+    },
+    {
+      "key": "old-warlock-motive",
+      "question": "老术士为何以项链雇萧翎？",
+      "status": "partial",
+      "answer": "表面理由是工程学与派系；徽记、戒指与项链关联仍待证。",
+      "kind": "unresolved",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0023",
+          "start_line": 869,
+          "end_line": 874
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0024",
+          "start_line": 896,
+          "end_line": 904
+        }
+      ],
+      "stage": "stage-02",
+      "unit_end": 40
+    },
+    {
+      "key": "skill-cap",
+      "question": "三系是否意味着所有技能无限学习？",
+      "status": "resolved",
+      "answer": "此时规则每玩家20技能，须筛选组合；续航仍只是构想。",
+      "kind": "rule",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0034",
+          "start_line": 1260,
+          "end_line": 1273
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0040",
+          "start_line": 1498,
+          "end_line": 1499
+        }
+      ],
+      "stage": "stage-02",
+      "unit_end": 40
+    },
+    {
+      "key": "starter-puppet",
+      "question": "为何其他机械术士都有一阶小鬼？",
+      "status": "resolved",
+      "answer": "职业任务可奖励；萧翎漏听导师说明且闭门造车一月。",
+      "kind": "misbelief",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0008",
+          "start_line": 239,
+          "end_line": 239
+        },
+        {
+          "chapter_id": "ch-0004",
+          "start_line": 86,
+          "end_line": 86
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0047",
+          "start_line": 1755,
+          "end_line": 1764
+        }
+      ],
+      "stage": "stage-03",
+      "unit_end": 60
+    },
+    {
+      "key": "redra-cost",
+      "question": "天狂为何兼有不同牧师能力？",
+      "status": "resolved",
+      "answer": "雷德拉之杖兼学光暗；治疗+20%、诅咒+10%，力量体质清零半血。",
+      "kind": "promise",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0050",
+          "start_line": 1858,
+          "end_line": 1864
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0056",
+          "start_line": 2067,
+          "end_line": 2072
+        }
+      ],
+      "stage": "stage-03",
+      "unit_end": 60
+    },
+    {
+      "key": "enemy-staff-cost",
+      "question": "洛克希德法杖限制何在？",
+      "status": "resolved",
+      "answer": "持杖者不能施放主动攻击魔法；主角团由现场行为推断。",
+      "kind": "rule",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0053",
+          "start_line": 1949,
+          "end_line": 1949
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0059",
+          "start_line": 2150,
+          "end_line": 2150
+        },
+        {
+          "chapter_id": "ch-0060",
+          "start_line": 2181,
+          "end_line": 2181
+        }
+      ],
+      "stage": "stage-03",
+      "unit_end": 60
+    },
+    {
+      "key": "eye-purpose",
+      "question": "罗格之眼有什么作用？",
+      "status": "resolved",
+      "answer": "隐形远程共享视野，受500码距离与耗魔约束。",
+      "kind": "promise",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0065",
+          "start_line": 2352,
+          "end_line": 2362
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0066",
+          "start_line": 2394,
+          "end_line": 2418
+        },
+        {
+          "chapter_id": "ch-0078",
+          "start_line": 2867,
+          "end_line": 2873
+        }
+      ],
+      "stage": "stage-04",
+      "unit_end": 80
+    },
+    {
+      "key": "strange-guards",
+      "question": "五腐尸为何感觉不同？",
+      "status": "resolved",
+      "answer": "有灵纹印记强化，破原控制并各有属性能力。",
+      "kind": "promise",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0078",
+          "start_line": 2864,
+          "end_line": 2878
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0079",
+          "start_line": 2892,
+          "end_line": 2900
+        }
+      ],
+      "stage": "stage-04",
+      "unit_end": 80
+    },
+    {
+      "key": "being-watched",
+      "question": "罗格眼侦察时何物在注视？",
+      "status": "open",
+      "answer": "暂未发现实体，不能解释为已证敌人。",
+      "kind": "unresolved",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0078",
+          "start_line": 2865,
+          "end_line": 2867
+        }
+      ],
+      "resolution_evidence": [],
+      "stage": "stage-04",
+      "unit_end": 80
+    },
+    {
+      "key": "ore-compatibility",
+      "question": "能否直接多金属分部制作？",
+      "status": "partial",
+      "answer": "不能任意拼，存在契合规律但初级书未列具体组合。",
+      "kind": "rule",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0080",
+          "start_line": 2938,
+          "end_line": 2939
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0086",
+          "start_line": 3167,
+          "end_line": 3175
+        }
+      ],
+      "stage": "stage-05",
+      "unit_end": 100
+    },
+    {
+      "key": "soul-fragment",
+      "question": "一级灵魂碎片有何用？",
+      "status": "open",
+      "answer": "系统仅写特殊物品，尚无解释。",
+      "kind": "unresolved",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0098",
+          "start_line": 3551,
+          "end_line": 3559
+        }
+      ],
+      "resolution_evidence": [],
+      "stage": "stage-05",
+      "unit_end": 100
+    },
+    {
+      "key": "timos-identity",
+      "question": "提莫斯是否地方史中的镇长之子？",
+      "status": "open",
+      "answer": "两人基于同名、旧事与囚禁猜测，未获直接确认。",
+      "kind": "misbelief",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0093",
+          "start_line": 3387,
+          "end_line": 3391
+        }
+      ],
+      "resolution_evidence": [],
+      "stage": "stage-05",
+      "unit_end": 100
+    },
+    {
+      "key": "phantoms-body",
+      "question": "三分身中哪个是真身？",
+      "status": "resolved",
+      "answer": "初次三个均幻影，真身另现；后七影需逐个处理，最终自爆。",
+      "kind": "misbelief",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0118",
+          "start_line": 4337,
+          "end_line": 4344
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0118",
+          "start_line": 4345,
+          "end_line": 4385
+        }
+      ],
+      "stage": "stage-06",
+      "unit_end": 120
+    },
+    {
+      "key": "curse-trigger",
+      "question": "诅咒石、戒指和雕像怎样共同触发？",
+      "status": "partial",
+      "answer": "任务确已触发并灌注力量，具体逻辑及老鉴定师意图仍未知。",
+      "kind": "unresolved",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0110",
+          "start_line": 3985,
+          "end_line": 3985
+        },
+        {
+          "chapter_id": "ch-0117",
+          "start_line": 4284,
+          "end_line": 4290
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0119",
+          "start_line": 4420,
+          "end_line": 4446
+        }
+      ],
+      "stage": "stage-06",
+      "unit_end": 120
+    },
+    {
+      "key": "artifact-misrecognition",
+      "question": "希莱尔戒指是神器吗？",
+      "status": "resolved",
+      "answer": "本段叙述明确仍史诗，牧风先入为主误认。",
+      "kind": "misbelief",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0121",
+          "start_line": 4524,
+          "end_line": 4531
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0121",
+          "start_line": 4535,
+          "end_line": 4535
+        }
+      ],
+      "stage": "stage-06",
+      "unit_end": 120
+    },
+    {
+      "key": "curse-stone",
+      "question": "诅咒之石是什么？",
+      "status": "resolved",
+      "answer": "希莱尔被腐蚀后心脏结晶，存残余意识；解咒后碎裂释魂。",
+      "kind": "promise",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0119",
+          "start_line": 4423,
+          "end_line": 4428
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0123",
+          "start_line": 4673,
+          "end_line": 4680
+        },
+        {
+          "chapter_id": "ch-0130",
+          "start_line": 4955,
+          "end_line": 4961
+        }
+      ],
+      "stage": "stage-07",
+      "unit_end": 140
+    },
+    {
+      "key": "sunlight-why",
+      "question": "塔布雷特为什么忍痛看阳光？",
+      "status": "resolved",
+      "answer": "吊坠铭文只在阳光折射下清晰，保存奥斯林兰一瞬忏悔。",
+      "kind": "promise",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0136",
+          "start_line": 5240,
+          "end_line": 5243
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0138",
+          "start_line": 5309,
+          "end_line": 5317
+        }
+      ],
+      "stage": "stage-07",
+      "unit_end": 140
+    },
+    {
+      "key": "ring-round-mark",
+      "question": "戒指新增细圆图有何效用？",
+      "status": "open",
+      "answer": "黑焰封印后新增，主角尚不知完整用处。",
+      "kind": "unresolved",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0129",
+          "start_line": 4937,
+          "end_line": 4937
+        },
+        {
+          "chapter_id": "ch-0130",
+          "start_line": 4954,
+          "end_line": 4954
+        }
+      ],
+      "resolution_evidence": [],
+      "stage": "stage-07",
+      "unit_end": 140
+    },
+    {
+      "key": "timos-amulet",
+      "question": "提莫斯为何持阿卡德项链？",
+      "status": "resolved",
+      "answer": "偷走后使塔布雷特独往修道院，阿卡德确认并仍将装备赠团队。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0144",
+          "start_line": 5584,
+          "end_line": 5589
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0148",
+          "start_line": 5834,
+          "end_line": 5838
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-08",
+      "unit_end": 160
+    },
+    {
+      "key": "low-task-choice",
+      "question": "选择s任务是否能迅速安全回团？",
+      "status": "partial",
+      "answer": "阿普苏因多职业加难，预计仍需两三周，进入高装抢夺图；尚未完成。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0154",
+          "start_line": 6101,
+          "end_line": 6104
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0155",
+          "start_line": 6118,
+          "end_line": 6128
+        }
+      ],
+      "kind": "misbelief",
+      "stage": "stage-08",
+      "unit_end": 160
+    },
+    {
+      "key": "hua-detection",
+      "question": "花舞如何准确寻找周围玩家？",
+      "status": "open",
+      "answer": "",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0161",
+          "start_line": 6387,
+          "end_line": 6390
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "unresolved",
+      "stage": "stage-08",
+      "unit_end": 160
+    },
+    {
+      "key": "moon-crystal",
+      "question": "月亮晶石有何用途？",
+      "status": "open",
+      "answer": "拟送月落，尚未兑现。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0151",
+          "start_line": 5941,
+          "end_line": 5943
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "promise",
+      "stage": "stage-08",
+      "unit_end": 160
+    },
+    {
+      "key": "kamori-truth",
+      "question": "谁在伪造及莫亚历史？",
+      "status": "resolved",
+      "answer": "里奥多勾结盗贼、栽赃骑士；信件、居所、神誓验证，后改史。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0164",
+          "start_line": 6594,
+          "end_line": 6595
+        },
+        {
+          "chapter_id": "ch-0166",
+          "start_line": 6685,
+          "end_line": 6699
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0169",
+          "start_line": 6787,
+          "end_line": 6794
+        },
+        {
+          "chapter_id": "ch-0170",
+          "start_line": 6798,
+          "end_line": 6800
+        },
+        {
+          "chapter_id": "ch-0173",
+          "start_line": 6942,
+          "end_line": 6943
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-09",
+      "unit_end": 180
+    },
+    {
+      "key": "gargoyle-transfer",
+      "question": "拆旧傀儡是否必然毁宝石意识？",
+      "status": "anomaly",
+      "answer": "44称替换需拆毁；174直接转宝石换身旧壳可卖，先并存待后文核。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0045",
+          "start_line": 1685,
+          "end_line": 1688
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0175",
+          "start_line": 7031,
+          "end_line": 7032
+        }
+      ],
+      "kind": "anomaly",
+      "stage": "stage-09",
+      "unit_end": 180
+    },
+    {
+      "key": "metal-why",
+      "question": "花舞赠材为何如此主动？",
+      "status": "resolved",
+      "answer": "既为借主角三人地形战帮转职，也希望赠掉风龙觊觎金属使其断念；非仅已确认爱情。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0162",
+          "start_line": 6481,
+          "end_line": 6485
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0162",
+          "start_line": 6513,
+          "end_line": 6516
+        }
+      ],
+      "kind": "misbelief",
+      "stage": "stage-09",
+      "unit_end": 180
+    },
+    {
+      "key": "castle-room",
+      "question": "古堡卧室为何独无火烧？",
+      "status": "resolved",
+      "answer": "奥托姆博三日守卧室保护幼子，至领主退后灼亡。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0190",
+          "start_line": 7714,
+          "end_line": 7719
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0192",
+          "start_line": 7820,
+          "end_line": 7821
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-10",
+      "unit_end": 193
+    },
+    {
+      "key": "holkad-aura",
+      "question": "霍尔为何有恶魔气？",
+      "status": "resolved",
+      "answer": "为复仇向炎使卖信仰得咒；已自认并拟受审，神是否宽恕未示。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0193",
+          "start_line": 7825,
+          "end_line": 7825
+        },
+        {
+          "chapter_id": "ch-0194",
+          "start_line": 7893,
+          "end_line": 7893
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0194",
+          "start_line": 7899,
+          "end_line": 7905
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-10",
+      "unit_end": 193
+    },
+    {
+      "key": "night-luo-master",
+      "question": "夜落是否已宗师并能量产高级回魔？",
+      "status": "open",
+      "answer": "截至193仍近宗师，药皆半成品且回魔无法量产。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0182",
+          "start_line": 7372,
+          "end_line": 7376
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0194",
+          "start_line": 7872,
+          "end_line": 7876
+        }
+      ],
+      "kind": "rule",
+      "stage": "stage-10",
+      "unit_end": 193
+    },
+    {
+      "key": "guest-security",
+      "question": "龙之焰客卿是否保证不会遭狂龙打压？",
+      "status": "open",
+      "answer": "团员据利益推测屏障有效，尚无长期结果；不要把高枕无忧判断当未来事实。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0188",
+          "start_line": 7620,
+          "end_line": 7628
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "misbelief",
+      "stage": "stage-10",
+      "unit_end": 193
+    },
+    {
+      "key": "q-horadric",
+      "question": "谜题为何指向远古之树",
+      "status": "open",
+      "answer": "尚未解；已排除照配方实验的表面路径",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0196",
+          "start_line": 7984,
+          "end_line": 8000
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "unresolved",
+      "stage": "stage-11",
+      "unit_end": 213
+    },
+    {
+      "key": "q-dynamic-mission",
+      "question": "C任务难度错误是否阴谋",
+      "status": "partial",
+      "answer": "已知战况动态变化导致升级，未见人为设局结论",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0202",
+          "start_line": 8234,
+          "end_line": 8234
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0203",
+          "start_line": 8265,
+          "end_line": 8277
+        }
+      ],
+      "kind": "rule",
+      "stage": "stage-11",
+      "unit_end": 213
+    },
+    {
+      "key": "q-independent-contract",
+      "question": "一月内能否冲击狂龙并履约",
+      "status": "open",
+      "answer": "只是约定，不能记录已实现",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0214",
+          "start_line": 8723,
+          "end_line": 8727
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "promise",
+      "stage": "stage-11",
+      "unit_end": 213
+    },
+    {
+      "key": "q-xiaoyu-id",
+      "question": "本书萧御是否就是《贼胆》主角",
+      "status": "open",
+      "answer": "原文此处只证明同名亡灵贼，不能跨书合并",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0200",
+          "start_line": 8127,
+          "end_line": 8129
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "anomaly",
+      "stage": "stage-11",
+      "unit_end": 213
+    },
+    {
+      "key": "q-gargoyle-survival",
+      "question": "石像鬼能否从骨龙逃回",
+      "status": "resolved",
+      "answer": "重伤返还且完成修复加速",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0215",
+          "start_line": 8781,
+          "end_line": 8785
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0216",
+          "start_line": 8839,
+          "end_line": 8845
+        },
+        {
+          "chapter_id": "ch-0217",
+          "start_line": 8941,
+          "end_line": 8941
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-12",
+      "unit_end": 233
+    },
+    {
+      "key": "q-spy",
+      "question": "团队谁是狂龙眼线",
+      "status": "open",
+      "answer": "眼线确实存在，身份不明",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0217",
+          "start_line": 8949,
+          "end_line": 8953
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0234",
+          "start_line": 9847,
+          "end_line": 9847
+        }
+      ],
+      "kind": "unresolved",
+      "stage": "stage-12",
+      "unit_end": 233
+    },
+    {
+      "key": "q-rings-count",
+      "question": "救援前两戒、称第三、结算为何四戒",
+      "status": "open",
+      "answer": "源文数量跳变，未自行补一枚经历",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0217",
+          "start_line": 8988,
+          "end_line": 8989
+        },
+        {
+          "chapter_id": "ch-0218",
+          "start_line": 9037,
+          "end_line": 9037
+        },
+        {
+          "chapter_id": "ch-0225",
+          "start_line": 9431,
+          "end_line": 9431
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "anomaly",
+      "stage": "stage-12",
+      "unit_end": 233
+    },
+    {
+      "key": "q-wuloves",
+      "question": "无岚无羽为何追无炎",
+      "status": "partial",
+      "answer": "无炎昔日战斗护住两人，姐妹各决定跟定；三人关系未定",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0217",
+          "start_line": 8915,
+          "end_line": 8925
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0233",
+          "start_line": 9813,
+          "end_line": 9816
+        }
+      ],
+      "kind": "misbelief",
+      "stage": "stage-12",
+      "unit_end": 233
+    },
+    {
+      "key": "q-spy",
+      "question": "谁是内线",
+      "status": "partial",
+      "answer": "两个：匡飞被逐、天骑保留，天骑动机尚不明",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0217",
+          "start_line": 8949,
+          "end_line": 8953
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0245",
+          "start_line": 10623,
+          "end_line": 10640
+        },
+        {
+          "chapter_id": "ch-0246",
+          "start_line": 10658,
+          "end_line": 10673
+        }
+      ],
+      "kind": "unresolved",
+      "stage": "stage-13",
+      "unit_end": 253
+    },
+    {
+      "key": "q-general",
+      "question": "天狂能否得将军套",
+      "status": "open",
+      "answer": "正在集中荣耀，尚未达成",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0244",
+          "start_line": 10528,
+          "end_line": 10549
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "promise",
+      "stage": "stage-13",
+      "unit_end": 253
+    },
+    {
+      "key": "q-double-rings",
+      "question": "两戒为何共鸣",
+      "status": "open",
+      "answer": "萧翎计划查历史，尚无答案",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0243",
+          "start_line": 10465,
+          "end_line": 10466
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "promise",
+      "stage": "stage-13",
+      "unit_end": 253
+    },
+    {
+      "key": "q-engineering20",
+      "question": "20天大宗师和泰坦材料能否兑现",
+      "status": "open",
+      "answer": "宗师已达；新目标与NPC约定尚待",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0239",
+          "start_line": 10131,
+          "end_line": 10137
+        },
+        {
+          "chapter_id": "ch-0243",
+          "start_line": 10422,
+          "end_line": 10429
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "promise",
+      "stage": "stage-13",
+      "unit_end": 253
+    },
+    {
+      "key": "q-bell-friends",
+      "question": "铃铛为何关联萨尔玛",
+      "status": "resolved",
+      "answer": "童年永远朋友誓言；斯蒂兰斯亲杀友后纪念",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0259",
+          "start_line": 11372,
+          "end_line": 11374
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0258",
+          "start_line": 11321,
+          "end_line": 11350
+        },
+        {
+          "chapter_id": "ch-0259",
+          "start_line": 11378,
+          "end_line": 11381
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-14",
+      "unit_end": 273
+    },
+    {
+      "key": "q-rescue-riders",
+      "question": "先到百骑来自哪里",
+      "status": "resolved",
+      "answer": "云天旧部，非雷焰；藏身份避免团队权力顾忌",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0266",
+          "start_line": 11716,
+          "end_line": 11725
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0267",
+          "start_line": 11773,
+          "end_line": 11785
+        }
+      ],
+      "kind": "unresolved",
+      "stage": "stage-14",
+      "unit_end": 273
+    },
+    {
+      "key": "q-saluhero",
+      "question": "萨鲁邀请是否英雄转职",
+      "status": "open",
+      "answer": "云天推测值得试，未完成未确认",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0270",
+          "start_line": 11878,
+          "end_line": 11881
+        },
+        {
+          "chapter_id": "ch-0274",
+          "start_line": 12095,
+          "end_line": 12109
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "promise",
+      "stage": "stage-14",
+      "unit_end": 273
+    },
+    {
+      "key": "q-capitalfall",
+      "question": "圣光城是否会陷落",
+      "status": "open",
+      "answer": "可能性讨论，不能记作结果",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0273",
+          "start_line": 12079,
+          "end_line": 12081
+        },
+        {
+          "chapter_id": "ch-0274",
+          "start_line": 12085,
+          "end_line": 12089
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "promise",
+      "stage": "stage-14",
+      "unit_end": 273
+    },
+    {
+      "key": "q-saluhero",
+      "question": "萨鲁是否英雄任务",
+      "status": "resolved",
+      "answer": "先试用，后勒纳确认唯一术之掌控者归萧翎",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0270",
+          "start_line": 11878,
+          "end_line": 11881
+        },
+        {
+          "chapter_id": "ch-0274",
+          "start_line": 12095,
+          "end_line": 12109
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0283",
+          "start_line": 12505,
+          "end_line": 12518
+        },
+        {
+          "chapter_id": "ch-0289",
+          "start_line": 12823,
+          "end_line": 12845
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-15",
+      "unit_end": 293
+    },
+    {
+      "key": "q-onehero",
+      "question": "日志为何只写一名英雄",
+      "status": "resolved",
+      "answer": "神位唯一，紫焰放弃",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0284",
+          "start_line": 12562,
+          "end_line": 12565
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0289",
+          "start_line": 12827,
+          "end_line": 12845
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-15",
+      "unit_end": 293
+    },
+    {
+      "key": "q-spymotive",
+      "question": "天骑为何背叛",
+      "status": "resolved",
+      "answer": "他说钱与暗恋林菲；天狂承诺不告她",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0245",
+          "start_line": 10626,
+          "end_line": 10640
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0292",
+          "start_line": 12998,
+          "end_line": 13011
+        }
+      ],
+      "kind": "unresolved",
+      "stage": "stage-15",
+      "unit_end": 293
+    },
+    {
+      "key": "q-karlos",
+      "question": "卡尔洛斯为何成仆有无战力",
+      "status": "resolved",
+      "answer": "被黑焰封印并意外融合戒灵，无直接战力但升潜力",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0277",
+          "start_line": 12261,
+          "end_line": 12269
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0278",
+          "start_line": 12274,
+          "end_line": 12287
+        }
+      ],
+      "kind": "rule",
+      "stage": "stage-15",
+      "unit_end": 293
+    },
+    {
+      "key": "q-arland",
+      "question": "王为何见萧翎震动",
+      "status": "open",
+      "answer": "此时仅悬念，不编父子关系",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0294",
+          "start_line": 13144,
+          "end_line": 13145
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "promise",
+      "stage": "stage-15",
+      "unit_end": 293
+    },
+    {
+      "key": "arland-debt",
+      "question": "王为何亏欠萧翎？",
+      "status": "open",
+      "answer": "暂无；亲缘等均未获证实。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0296",
+          "start_line": 13201,
+          "end_line": 13212
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "unresolved",
+      "stage": "stage-16",
+      "unit_end": 313
+    },
+    {
+      "key": "titan-ready",
+      "question": "大宗师要求是否完成？",
+      "status": "resolved",
+      "answer": "七八天学习达到大宗师，可赴圣光造泰坦。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0302",
+          "start_line": 13507,
+          "end_line": 13508
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0313",
+          "start_line": 14100,
+          "end_line": 14108
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-16",
+      "unit_end": 313
+    },
+    {
+      "key": "ring-exp",
+      "question": "魔神戒吸经验比例？",
+      "status": "conflict",
+      "answer": "描述间不一致，不能自行改算式。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0296",
+          "start_line": 13223,
+          "end_line": 13228
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0305",
+          "start_line": 13648,
+          "end_line": 13659
+        }
+      ],
+      "kind": "anomaly",
+      "stage": "stage-16",
+      "unit_end": 313
+    },
+    {
+      "key": "vanity-secret",
+      "question": "虚荣戒净化后为何仍古怪？",
+      "status": "open",
+      "answer": "尚无答案。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0313",
+          "start_line": 14079,
+          "end_line": 14083
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "promise",
+      "stage": "stage-16",
+      "unit_end": 313
+    },
+    {
+      "key": "father-reveal",
+      "question": "阿兰德是否萧翎父？",
+      "status": "resolved",
+      "answer": "是。天下职员扮NPC，父为股东及布拉卡达维护者。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0296",
+          "start_line": 13201,
+          "end_line": 13212
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0329",
+          "start_line": 15432,
+          "end_line": 15454
+        },
+        {
+          "chapter_id": "ch-0330",
+          "start_line": 15459,
+          "end_line": 15468
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-17",
+      "unit_end": 333
+    },
+    {
+      "key": "prophecy",
+      "question": "王如何救下被攻破的圣光城？",
+      "status": "resolved",
+      "answer": "以第三方威胁和平衡说服山德鲁保民，神令守军撤退，敌占三天归还。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0315",
+          "start_line": 14329,
+          "end_line": 14337
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0330",
+          "start_line": 15510,
+          "end_line": 15539
+        },
+        {
+          "chapter_id": "ch-0331",
+          "start_line": 15605,
+          "end_line": 15612
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-17",
+      "unit_end": 333
+    },
+    {
+      "key": "alice-end",
+      "question": "爱丽丝是否已死？",
+      "status": "unknown",
+      "answer": "有死志但未见死亡场景。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0327",
+          "start_line": 15204,
+          "end_line": 15221
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "unresolved",
+      "stage": "stage-17",
+      "unit_end": 333
+    },
+    {
+      "key": "blackwood-end",
+      "question": "黑伍德断后是否战死？",
+      "status": "unknown",
+      "answer": "仅爆炸与萧翎忧惧，未直接确认。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0329",
+          "start_line": 15362,
+          "end_line": 15376
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "unresolved",
+      "stage": "stage-17",
+      "unit_end": 333
+    },
+    {
+      "key": "fifth-ring",
+      "question": "最后药戒如何取得？",
+      "status": "resolved",
+      "answer": "不是直接从龙掉落；巢箱幸运精灵变出。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0338",
+          "start_line": 16479,
+          "end_line": 16489
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0339",
+          "start_line": 16567,
+          "end_line": 16584
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-18",
+      "unit_end": 353
+    },
+    {
+      "key": "itess-oath",
+      "question": "伊特斯安全送离誓言可信吗？",
+      "status": "resolved",
+      "answer": "有存活前提且机甲会炸，主角改签卸机甲保装备；核心仍爆城，起搏救命。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0344",
+          "start_line": 17224,
+          "end_line": 17227
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0348",
+          "start_line": 17754,
+          "end_line": 17803
+        }
+      ],
+      "kind": "misbelief",
+      "stage": "stage-18",
+      "unit_end": 353
+    },
+    {
+      "key": "tomb-count",
+      "question": "王室墓穴七还是九？",
+      "status": "conflict",
+      "answer": "来源先七后九；不自行修正。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0353",
+          "start_line": 18527,
+          "end_line": 18528
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0354",
+          "start_line": 18796,
+          "end_line": 18806
+        }
+      ],
+      "kind": "anomaly",
+      "stage": "stage-18",
+      "unit_end": 353
+    },
+    {
+      "key": "thief-cut",
+      "question": "奥丁城13盗贼围攻结果？",
+      "status": "unknown",
+      "answer": "当前来源下一单元直切回团，未展示解决。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0350",
+          "start_line": 18032,
+          "end_line": 18042
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0351",
+          "start_line": 18045,
+          "end_line": 18048
+        }
+      ],
+      "kind": "anomaly",
+      "stage": "stage-18",
+      "unit_end": 353
+    },
+    {
+      "key": "who-made-puppet",
+      "question": "伊森得被谁制造成泥人傀儡？",
+      "status": "open",
+      "answer": "林菲只解释制作者必须更强，未具名。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0364",
+          "start_line": 19851,
+          "end_line": 19854
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "unresolved",
+      "stage": "stage-19",
+      "unit_end": 373
+    },
+    {
+      "key": "second-transfer",
+      "question": "主角二转是否完成？",
+      "status": "open",
+      "answer": "因会耗数日而推迟，当前未做。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0370",
+          "start_line": 20562,
+          "end_line": 20566
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "unresolved",
+      "stage": "stage-19",
+      "unit_end": 373
+    },
+    {
+      "key": "duke-fairness",
+      "question": "父亲间接封爵是否符合主脑公平规则？",
+      "status": "unresolved",
+      "answer": "角色先说主脑可接受不算作弊，叙述又称不惜违背规则；需保留价值与措辞冲突。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0374",
+          "start_line": 21565,
+          "end_line": 21570
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "anomaly",
+      "stage": "stage-19",
+      "unit_end": 373
+    },
+    {
+      "key": "arena-kuanglong",
+      "question": "狂龙是否参加单人竞技？",
+      "status": "unresolved",
+      "answer": "365说参加，373又说未参加，不能自行统一。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0366",
+          "start_line": 20165,
+          "end_line": 20168
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0374",
+          "start_line": 21498,
+          "end_line": 21498
+        }
+      ],
+      "kind": "anomaly",
+      "stage": "stage-19",
+      "unit_end": 373
+    },
+    {
+      "key": "post-landing",
+      "question": "航船靠岸后游戏及伙伴关系如何？",
+      "status": "open",
+      "answer": "主角明确认为游戏是否持续未知。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0372",
+          "start_line": 20990,
+          "end_line": 20995
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "unresolved",
+      "stage": "stage-19",
+      "unit_end": 373
+    },
+    {
+      "key": "crystal-done",
+      "question": "水晶图与血羽心何时兑现？",
+      "status": "resolved",
+      "answer": "366完成水晶石像鬼，原伙伴灵魂转入。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0366",
+          "start_line": 20103,
+          "end_line": 20108
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0367",
+          "start_line": 20282,
+          "end_line": 20299
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-19",
+      "unit_end": 373
+    },
+    {
+      "key": "dusk-identity",
+      "question": "第三方是谁？",
+      "status": "resolved",
+      "answer": "任务资料揭乌服诺斯沃顿入侵；纳德具体归属仍天狂猜。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0382",
+          "start_line": 22514,
+          "end_line": 22520
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0387",
+          "start_line": 23117,
+          "end_line": 23118
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-20",
+      "unit_end": 387
+    },
+    {
+      "key": "gods-live",
+      "question": "众神是否永久牺牲？",
+      "status": "resolved",
+      "answer": "身体爆散引导后又出现，明确失神力成凡人。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0385",
+          "start_line": 22909,
+          "end_line": 22914
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0387",
+          "start_line": 23123,
+          "end_line": 23124
+        }
+      ],
+      "kind": "misbelief",
+      "stage": "stage-20",
+      "unit_end": 387
+    },
+    {
+      "key": "real-reunion",
+      "question": "四女能否现实相聚？",
+      "status": "resolved",
+      "answer": "父安排三女，随后查北方找到花舞，机场实际重逢。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0387",
+          "start_line": 23127,
+          "end_line": 23138
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0388",
+          "start_line": 23217,
+          "end_line": 23260
+        }
+      ],
+      "kind": "promise",
+      "stage": "stage-20",
+      "unit_end": 387
+    },
+    {
+      "key": "who-won-final-pk",
+      "question": "萧翎萧御末次PK谁赢？",
+      "status": "unknown",
+      "answer": "主角明确不说，不能选任何方胜。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0387",
+          "start_line": 23139,
+          "end_line": 23145
+        }
+      ],
+      "resolution_evidence": [],
+      "kind": "unresolved",
+      "stage": "stage-20",
+      "unit_end": 387
+    },
+    {
+      "key": "huowu-romance",
+      "question": "火舞是否成为主角第五恋人？",
+      "status": "resolved",
+      "answer": "文本明确她会自己安排且否认买一送一，未写恋情。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0387",
+          "start_line": 23146,
+          "end_line": 23147
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0388",
+          "start_line": 23252,
+          "end_line": 23259
+        }
+      ],
+      "kind": "unresolved",
+      "stage": "stage-20",
+      "unit_end": 387
+    },
+    {
+      "key": "game-future",
+      "question": "靠岸后游戏持续运营吗？",
+      "status": "unknown",
+      "answer": "只写恩泽斯永夜、离营养仓和新星生活，无运营结果。",
+      "setup_evidence": [
+        {
+          "chapter_id": "ch-0372",
+          "start_line": 20990,
+          "end_line": 20995
+        }
+      ],
+      "resolution_evidence": [
+        {
+          "chapter_id": "ch-0387",
+          "start_line": 23150,
+          "end_line": 23152
+        },
+        {
+          "chapter_id": "ch-0388",
+          "start_line": 23156,
+          "end_line": 23157
+        }
+      ],
+      "kind": "unresolved",
+      "stage": "stage-20",
+      "unit_end": 387
+    }
+  ],
+  "terminal_audit": "ending-audit.json"
+}

@@ -1,0 +1,110 @@
+{
+  "asset_id": "chr-full-z-e4b25cef97c5aeba3223",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "analysis_boundary": "人物行动与阶段变化据文本概括；动机、关系解释与可迁移判断为研究草稿。个人评价尚未填写。",
+    "identity_boundary": "同一来源中经上下文核对的身份按阶段聚合；已证异名的归并写在identity-resolution中，其他异名未自动合并，跨书同名始终分开。末次专题记录不自动等于人物结局。",
+    "name": "影砂",
+    "snapshots": [
+      {
+        "aliases": [],
+        "changes": [
+          "高位猎人被低估种族技绝杀",
+          "报复被组织成本约束"
+        ],
+        "evidence": [
+          {
+            "chapter_id": "ch-0187",
+            "claim_kind": "inference",
+            "end_line": 8820,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 8819
+          },
+          {
+            "chapter_id": "ch-0189",
+            "claim_kind": "inference",
+            "end_line": 8985,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 8969
+          },
+          {
+            "chapter_id": "ch-0192",
+            "claim_kind": "inference",
+            "end_line": 9138,
+            "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+            "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+            "start_line": 9124
+          }
+        ],
+        "goals": [
+          "虐敌求乐",
+          "追回颜面与装备"
+        ],
+        "knowledge": [
+          "见过主角亡灵抑制与技法"
+        ],
+        "name": "影砂",
+        "original_record_name": "影砂",
+        "relationships": [
+          "影妖同组织且畏之",
+          "影魔相争"
+        ],
+        "source_anomalies": [],
+        "stage": "stage-10",
+        "summary": "二十级精灵贼职业杀手，输攻守赌斗失幻影披风，带同伴追来未逮萧。",
+        "unit_end": 200,
+        "unit_start": 181
+      }
+    ],
+    "source_keys": [
+      "yingsha"
+    ],
+    "summary": "二十级精灵贼职业杀手，输攻守赌斗失幻影披风，带同伴追来未逮萧。"
+  },
+  "created_at": "2026-10-24T19:28:06.282865+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0187",
+      "claim_kind": "inference",
+      "end_line": 8820,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 8819
+    },
+    {
+      "chapter_id": "ch-0189",
+      "claim_kind": "inference",
+      "end_line": 8985,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 8969
+    },
+    {
+      "chapter_id": "ch-0192",
+      "claim_kind": "inference",
+      "end_line": 9138,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 9124
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/character/影砂",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "character"
+  ],
+  "title": "《贼胆》影砂〔全书阶段档案〕",
+  "updated_at": "2026-10-24T19:28:06.282865+00:00",
+  "user_notes": ""
+}

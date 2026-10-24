@@ -1,0 +1,82 @@
+# 对称任务由环境竞技接人物竞技
+
+ID: `pat-full-z-ff311376b9dbb05a5f8e` · 版本: 1 · 范围: reusable-pattern
+
+两边各刺神，胜败决定战争主动，再由追杀失败者把宏观局势变成个人生存。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-full-z-ff311376b9dbb05a5f8e",
+  "asset_type": "pattern",
+  "content": {
+    "analysis_boundary": "由来源场景抽象的创作控制候选，未成为用户偏好或原创正典。",
+    "applicability": "多人游戏/阵营竞赛需要宏观与个体相连",
+    "failure_mode": "对称只口头宣称却双方规则任意、失败方完全无主体性。",
+    "stage": "stage-25",
+    "steps": [
+      "展示两侧同任务",
+      "给对称削弱与引导",
+      "交替看双方推进",
+      "胜败分叉",
+      "残余目标以坐标形成PVP收束"
+    ],
+    "summary": "两边各刺神，胜败决定战争主动，再由追杀失败者把宏观局势变成个人生存。",
+    "title": "对称任务由环境竞技接人物竞技"
+  },
+  "created_at": "2026-10-24T19:28:07.482501+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-full-z-e587fe41883e54614af8",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-full-z-7264334ff0861d0173a2",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0392",
+      "claim_kind": "synthesis",
+      "end_line": 23843,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 23837
+    },
+    {
+      "chapter_id": "ch-0394",
+      "claim_kind": "synthesis",
+      "end_line": 23978,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 23973
+    },
+    {
+      "chapter_id": "ch-0405",
+      "claim_kind": "synthesis",
+      "end_line": 24689,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 24676
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/pattern/stage-25/z-pattern-mirrored-task",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "pattern"
+  ],
+  "title": "对称任务由环境竞技接人物竞技",
+  "updated_at": "2026-10-24T19:28:07.482501+00:00",
+  "user_notes": ""
+}
+
+```

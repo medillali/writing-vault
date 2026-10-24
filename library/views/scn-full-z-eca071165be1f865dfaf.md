@@ -1,0 +1,56 @@
+# 《贼胆》兄弟不能代做的选择
+
+ID: `scn-full-z-eca071165be1f865dfaf` · 版本: 1 · 范围: source-analysis
+
+奥德因母嘱拒杀，沃卡德自毁以免继续被控，灵魂保留未保证复生。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-z-eca071165be1f865dfaf",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "悲剧支线的关系兑现",
+    "choice": "弟弟自决",
+    "consequence": "肉身死、灵魂存",
+    "failure_mode": "立刻无代价复生会抹去抉择重量",
+    "goal": "救弟",
+    "obstacle": "清醒短暂与再失控",
+    "stage": "stage-08",
+    "state_change": "救援变为尊重其决定与不确定希望",
+    "summary": "奥德因母嘱拒杀，沃卡德自毁以免继续被控，灵魂保留未保证复生。",
+    "title": "兄弟不能代做的选择",
+    "why_it_works": "家庭记忆、爱人等待与实际行为汇合。"
+  },
+  "created_at": "2026-10-24T19:28:06.773893+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0150",
+      "claim_kind": "inference",
+      "end_line": 6444,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 6414
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/full-20261025/scene/stage-08/brother-release",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《贼胆》兄弟不能代做的选择",
+  "updated_at": "2026-10-24T19:28:06.773893+00:00",
+  "user_notes": ""
+}
+
+```

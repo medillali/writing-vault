@@ -1,0 +1,56 @@
+# 《网游之练级专家》弱环节在危机中变为救援者
+
+ID: `scn-full-l-eeb4df366744e9baeffc` · 版本: 1 · 范围: source-analysis
+
+霏雨被认为技术差，萧翎慢声纠正；主角抢仇恨后她及时治疗救人。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-full-l-eeb4df366744e9baeffc",
+  "asset_type": "scene",
+  "content": {
+    "analysis_boundary": "目标、行动、结果为文本概括；为何奏效、适用条件和失效风险为研究推断。",
+    "applicability": "新手伙伴成长",
+    "choice": "鼓励具体操作而非笼统批评",
+    "consequence": "霏雨成功救人，获得信任与装备",
+    "failure_mode": "把一次成功夸大为彻底克服心理问题",
+    "goal": "安全清三条毒蛆",
+    "obstacle": "新手紧张浪费法力，暴击让输出者濒死",
+    "stage": "stage-01",
+    "state_change": "被照顾者出现独立贡献",
+    "summary": "霏雨被认为技术差，萧翎慢声纠正；主角抢仇恨后她及时治疗救人。",
+    "title": "弱环节在危机中变为救援者",
+    "why_it_works": "先给可实行建议，再让同一技能承担真实后果。"
+  },
+  "created_at": "2026-10-24T18:56:06.267610+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0016",
+      "claim_kind": "inference",
+      "end_line": 646,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 594
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/full-20261025/scene/stage-01/healer-first-proof",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "全书细读",
+    "2026-10-25",
+    "scene"
+  ],
+  "title": "《网游之练级专家》弱环节在危机中变为救援者",
+  "updated_at": "2026-10-24T18:56:06.267610+00:00",
+  "user_notes": ""
+}
+
+```
