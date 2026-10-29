@@ -1,7 +1,2 @@
-# 保持离线地图哈希与Git克隆后的文件字节一致。
-*.html text eol=lf
-*.svg text eol=lf
-*.json text eol=lf
-*.md text eol=lf
-*.py text eol=lf
-*.cjs text eol=lf
+# 保留已验收文件的原始字节，跨端哈希由字节一致保证。
+* -text

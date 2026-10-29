@@ -1,4 +1,2 @@
-# 生成页的人工修改保护使用字节哈希，跨平台需固定LF。
-*.md text eol=lf
-*.json text eol=lf
-*.py text eol=lf
+# 保留已验收文件的原始字节，跨端哈希由字节一致保证。
+* -text
