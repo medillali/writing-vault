@@ -24,10 +24,12 @@ Novel/
 ~~~
 
 ~~~text
-git clone https://github.com/medillali/distill-novels.git
-git clone https://github.com/medillali/writing-vault.git
+git -c core.longpaths=true clone https://github.com/medillali/distill-novels.git
+git -c core.longpaths=true clone https://github.com/medillali/writing-vault.git
 python distill-novels/scripts/library.py --vault writing-vault status
 ~~~
+
+Windows克隆时使用上面的core.longpaths=true，避免深层审计档案检出失败；它只作用于该次命令，不修改系统设置。已有检出失败的副本应先保留自己的改动，再在该仓库设置git config core.longpaths true并补检出缺失文件。
 
 核心验证只需Python 3.10+。原图已保存PNG、SVG及内嵌数据的离线HTML；阅读现有成果不必重新生成。重新布局地图才需对应README列出的Node、Graphviz/Viz及浏览器依赖。
 
