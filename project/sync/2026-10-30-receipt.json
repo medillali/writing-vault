@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-10-29T17:05:24.283Z",
+  "user_request": "项目内容完全同步到Git，供网页端与Dot共同推进",
+  "status": "verified_content_pushed",
+  "scope": "工具、完整研究资产与历史、报告、剧情地图、人物档案、正式检查点、创作框架、工作台、执行记录及交接包",
+  "repositories": [
+    {
+      "name": "medillali/distill-novels",
+      "url": "https://github.com/medillali/distill-novels",
+      "is_private": false,
+      "branch": "main",
+      "verified_content_commit": "4323e692f9097fcd61d96503958f8a4176cb1c64",
+      "git_tree": "51b5449d3544f93b8a7e66e3a350dc7eda5cd530",
+      "tracked_files": 43,
+      "tracked_bytes": 254854,
+      "path_and_sha256_digest": "c3e82f92a67b80fec71a9625aaee39d62630722d1dcf95d22c30be8606b64d89",
+      "remote_clone_verified": true,
+      "missing_files": 0,
+      "extra_files": 0,
+      "byte_mismatches": 0,
+      "clone_clean_after_checks": true
+    },
+    {
+      "name": "medillali/writing-vault",
+      "url": "https://github.com/medillali/writing-vault",
+      "is_private": false,
+      "branch": "main",
+      "verified_content_commit": "b1e03c608817306a044f79196d9d86e096fd389a",
+      "git_tree": "a64f03faa4c789dfe5c1e3aaaa1cb775b5414317",
+      "tracked_files": 17421,
+      "tracked_bytes": 770014627,
+      "path_and_sha256_digest": "edd5720d1c79b907f370a13b94a968375e4b7fc2f90bc67f32df680ab4e7e91e",
+      "remote_clone_verified": true,
+      "missing_files": 0,
+      "extra_files": 0,
+      "byte_mismatches": 0,
+      "clone_clean_after_checks": true
+    }
+  ],
+  "validation": {
+    "vault": {
+      "valid": true,
+      "assets": 2891,
+      "sources": 8,
+      "projects": 0,
+      "graphs": 8
+    },
+    "tool": {
+      "tests": 53,
+      "passed": true,
+      "run_on": "fresh GitHub clone in a short Windows path"
+    },
+    "zongheng_tree": {
+      "drawn_unique_events": 260,
+      "retained_semantic_edges": 227,
+      "removed_group_nodes": 70,
+      "dangling_edges": 0,
+      "duplicate_event_ids": 0,
+      "source_graph_unchanged": true,
+      "fresh_remote_clone_check": true
+    }
+  },
+  "workspace_archive_manifest": "local-inputs-manifest.json",
+  "proof_files": [
+    "../planning/20261030-git-collaboration/remote-file-verification.json",
+    "../planning/20261030-git-collaboration/remote-vault-validation.json",
+    "../planning/20261030-git-collaboration/remote-tests.json"
+  ],
+  "exclusions": [
+    "原小说与规范化全文 private-sources",
+    "凭据和机器配置",
+    "缓存与下载依赖",
+    "重复恢复副本、测试副本、备份ZIP",
+    "工具演示不视为用户原创项目"
+  ],
+  "portability": {
+    "line_endings": "全部已跟踪文件保留本地原始字节，消除旧Git换行转换造成的哈希差异",
+    "windows": "推荐短父路径；git clone -c core.longpaths=true，将长路径支持写入新副本的仓库配置",
+    "initial_clone_checkout": "首次深路径检出失败；已在隔离验收副本启用core.longpaths，补全索引与工作树，随后全部文件核验通过",
+    "initial_deep_path_tool_test": "WinError 3由测试生成文件的路径长度触发；另建短路径远端克隆后53项测试全部通过"
+  },
+  "collaboration": {
+    "entry": "../../COLLABORATION.md",
+    "current_state": "../CURRENT-STATE.md",
+    "copyable_prompt": "../CROSS-END-PROMPT.md",
+    "automatic_chat_context_sync": false,
+    "other_chats_messaged": false
+  },
+  "receipt_boundary": "本回执记录上述已推送内容提交。后续仅归档验证脚本、证据与本回执；最终承载提交由远端main和Git历史确认，避免回执自引用。文学内容解释仍待用户审阅。"
+}
