@@ -1,0 +1,71 @@
+# 记忆水晶与父遗念改写官方历史
+
+ID: `scn-9a4d6de05a935b45ac97c363adac6caf` · 版本: 1 · 范围: source-analysis
+
+池实挖陵、晶放撤旗困杀护儿、石尸出现/一息灵念劝勿累民。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-9a4d6de05a935b45ac97c363adac6caf",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "历史揭露与当下道德抉择。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/chiyuhan",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/chiyuqing",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/chiyang",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/limu",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/wangjian"
+    ],
+    "choice": "主助挖/三人撑梁护兄妹出，池受父劝自愿回。",
+    "claim_kind": "inference",
+    "consequence": "37年前雷恪被池阳投剑杀/池阳已亡，非父复生。",
+    "failure_mode": "旧传战死不区分来源、遗念写本体活返。",
+    "goal": "找父命运并决定是否反抗。",
+    "narrative_order": 497,
+    "obstacle": "史册抹去与王权裁断。",
+    "state_change": "复仇诉求→带真史接受裁决。",
+    "summary": "池实挖陵、晶放撤旗困杀护儿、石尸出现/一息灵念劝勿累民。",
+    "why_it_works": "多种证据互补后由人物自己作选择。"
+  },
+  "created_at": "2026-10-25T19:26:00.497265+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0473",
+      "claim_kind": "fact",
+      "end_line": 39073,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 38994
+    },
+    {
+      "chapter_id": "ch-0497",
+      "claim_kind": "fact",
+      "end_line": 40874,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 40804
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/scene/memory",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷2",
+    "待审阅"
+  ],
+  "title": "记忆水晶与父遗念改写官方历史",
+  "updated_at": "2026-10-25T19:26:00.497265+00:00",
+  "user_notes": ""
+}
+
+```

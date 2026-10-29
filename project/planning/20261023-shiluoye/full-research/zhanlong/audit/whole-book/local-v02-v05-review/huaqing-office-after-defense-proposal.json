@@ -1,0 +1,165 @@
+{
+  "status": "proposal-pending-primary-review-not-applied",
+  "reason": "本轮完整补读1169王令与花本人系统回讯，补已交013任职直接后证；其余19和二十龙实际到战边界不变。",
+  "changes": [
+    {
+      "path": "adjudications-local-v05-batch013.json",
+      "candidate_id": "v05-local-chapter_unresolved_index-0167-01",
+      "input_sha256": "5cac13b5f991b29e05228fb87136b60def9597adf363521784e0863a960de4e6",
+      "before": {
+        "candidate_id": "v05-local-chapter_unresolved_index-0167-01",
+        "volume": 5,
+        "title": "三军/二十龙实际到战、花升官意图与全服保城结待核。",
+        "original_field": "chapter_unresolved_index",
+        "original_index": 166,
+        "atomic_index": 0,
+        "original_record_sha256": "d77e156a901bc5051d783f137206ad2bbbcd215b3a78af51b209fab2e1d094e3",
+        "status": "partial",
+        "audit_domain": "troop-arrival-office-and-defense",
+        "rationale": "1147三军前线已列、1149三军与炮真实撤保，1157守城成功；1146二十龙借天翎获交易令但本次二十逐名到阵/伤亡账未独列。带秋收求花升统只是主意图，后任军职须分具体任命，不能以花参战自动写已升正统。",
+        "later_chapters": [
+          1146,
+          1147,
+          1149,
+          1157
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1146",
+            "start_line": 83799,
+            "end_line": 83845,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+            "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1147",
+            "start_line": 83846,
+            "end_line": 83893,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+            "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1149",
+            "start_line": 83960,
+            "end_line": 84010,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+            "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1157",
+            "start_line": 84466,
+            "end_line": 84535,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+            "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+            "source_reader": "/root/zongheng_vol04_full"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol04_full",
+        "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+      },
+      "after": {
+        "candidate_id": "v05-local-chapter_unresolved_index-0167-01",
+        "volume": 5,
+        "title": "三军/二十龙实际到战、花升官意图与全服保城结待核。",
+        "original_field": "chapter_unresolved_index",
+        "original_index": 166,
+        "atomic_index": 0,
+        "original_record_sha256": "d77e156a901bc5051d783f137206ad2bbbcd215b3a78af51b209fab2e1d094e3",
+        "status": "partial",
+        "audit_domain": "troop-arrival-office-and-defense",
+        "rationale": "1147三军前线已列、1149三军与炮真实撤保，1157守城成功；1169王正式令梁印转兵部侍郎/周宁即花枪复秋收统领，花本人收到系统，1146借战复职意图已有明确后证。1146二十龙借天翎获交易令但本次二十逐名到阵/伤亡账未独列，复合项只保该具体借军执行明细未详，不因任职已答代全军到阵。",
+        "later_chapters": [
+          1146,
+          1147,
+          1149,
+          1157,
+          1169
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1146",
+            "start_line": 83799,
+            "end_line": 83845,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+            "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1147",
+            "start_line": 83846,
+            "end_line": 83893,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+            "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1149",
+            "start_line": 83960,
+            "end_line": 84010,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+            "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1157",
+            "start_line": 84466,
+            "end_line": 84535,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+            "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1169",
+            "start_line": 85351,
+            "end_line": 85429,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+            "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+            "source_reader": "/root/zongheng_vol04_full"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol04_full",
+        "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+      },
+      "scope": "仅0167-01理由及追加1169，保partial/domain/其余19"
+    }
+  ]
+}

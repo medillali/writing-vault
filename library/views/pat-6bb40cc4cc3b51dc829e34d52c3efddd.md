@@ -1,0 +1,165 @@
+# 路径数量与弱敌占位
+
+ID: `pat-6bb40cc4cc3b51dc829e34d52c3efddd` · 版本: 1 · 范围: reusable-pattern
+
+路径数量与弱敌占位：用可观察条件而非情节外壳组织因果。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-6bb40cc4cc3b51dc829e34d52c3efddd",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "环境规则稳定且人物能观察",
+    "causal_steps": [
+      "侦察移动速度和同时接敌数",
+      "选择/制造限制入口",
+      "保留弱敌占格降低承伤",
+      "用远程或治疗平衡收益",
+      "遇可破障或过快敌时失效"
+    ],
+    "failure_mode": "环境对所有敌都永远有效",
+    "literary_limits": "机制是研究抽象，非用户风格规则；原文偏见与代价需另审。",
+    "originality_transform": "使用不同空间和物理机制，且给对手绕行或破坏能力。",
+    "summary": "路径数量与弱敌占位：用可观察条件而非情节外壳组织因果。"
+  },
+  "created_at": "2026-10-24T18:57:19.392059+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-0551a549712d5409abe7a81c428e4d21",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-19f379a4ff4b5c5999034298c41ecd56",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-38bf9e8b15cc5ffebe05d3ba905c6c7d",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0146",
+      "claim_kind": "synthesis",
+      "end_line": 11957,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 11856
+    },
+    {
+      "chapter_id": "ch-0147",
+      "claim_kind": "synthesis",
+      "end_line": 12055,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 11958
+    },
+    {
+      "chapter_id": "ch-0148",
+      "claim_kind": "synthesis",
+      "end_line": 12175,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 12056
+    },
+    {
+      "chapter_id": "ch-0149",
+      "claim_kind": "synthesis",
+      "end_line": 12322,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 12176
+    },
+    {
+      "chapter_id": "ch-0218",
+      "claim_kind": "synthesis",
+      "end_line": 19148,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 19037
+    },
+    {
+      "chapter_id": "ch-0219",
+      "claim_kind": "synthesis",
+      "end_line": 19223,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 19149
+    },
+    {
+      "chapter_id": "ch-0226",
+      "claim_kind": "synthesis",
+      "end_line": 19926,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 19839
+    },
+    {
+      "chapter_id": "ch-0227",
+      "claim_kind": "synthesis",
+      "end_line": 20008,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 19927
+    },
+    {
+      "chapter_id": "ch-0228",
+      "claim_kind": "synthesis",
+      "end_line": 20098,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 20009
+    },
+    {
+      "chapter_id": "ch-0229",
+      "claim_kind": "synthesis",
+      "end_line": 20169,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 20099
+    },
+    {
+      "chapter_id": "ch-0230",
+      "claim_kind": "synthesis",
+      "end_line": 20278,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 20170
+    },
+    {
+      "chapter_id": "ch-0231",
+      "claim_kind": "synthesis",
+      "end_line": 20417,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 20279
+    },
+    {
+      "chapter_id": "ch-0232",
+      "claim_kind": "synthesis",
+      "end_line": 20521,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 20418
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol03/pattern/terrain",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷三",
+    "可迁移机制"
+  ],
+  "title": "路径数量与弱敌占位",
+  "updated_at": "2026-10-24T18:57:19.393059+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,113 @@
+{
+  "reason": "交primary之前原文全读649/899/1288，修正精确词内误命中，未受审组不沿错。",
+  "before_sha256": "cafbdbebb8b18323eab451354603b29680777b38cb9d26e5501b96b71af7d811",
+  "after_sha256": "aff916b8b6a77827b4543fc5fef1744fcaa5ed8e63b7195cf88054ae98c4e986",
+  "md_after_sha256": "eab0a220e84575674fd8021964ea35389afdc55263e63775b5495109299f9e2f",
+  "delta": [
+    {
+      "path": "/characters/4/initial_comparison_stage",
+      "before": "龙城早期将领，后进入天翎军职；与守御林的龙硎为独立人物。899实际受任炎龙新统帅，是徐翊之后的军权接续。",
+      "after": "899以前为偏将军，朝会实际擢为上将并任炎龙新统帅，接续徐翊死后的军权；与守御林的龙硎为独立人物，不能因检索命中“斩龙忠烈营”造其早期龙城履历。"
+    },
+    {
+      "path": "/characters/4/terminal_state",
+      "before": "978明确死亡。1288源文只因白起技能提龙忠回忆/比较，不是本人复生登场；不据后文再提名就造恢复。",
+      "after": "978明确死亡。源1288命中“龙忠”实为“斩龙忠烈营”词内，并非人物提名或复生后证；未见本人恢复。"
+    },
+    {
+      "path": "/characters/4/evidence",
+      "before": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0649",
+          "start_line": 51642,
+          "end_line": 51701,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0899",
+          "start_line": 67785,
+          "end_line": 67836,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0919",
+          "start_line": 69030,
+          "end_line": 69087,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0975",
+          "start_line": 72491,
+          "end_line": 72548,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0978",
+          "start_line": 72684,
+          "end_line": 72755,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1288",
+          "start_line": 93141,
+          "end_line": 93203,
+          "claim_kind": "fact"
+        }
+      ],
+      "after": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0899",
+          "start_line": 67785,
+          "end_line": 67836,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0919",
+          "start_line": 69030,
+          "end_line": 69087,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0975",
+          "start_line": 72491,
+          "end_line": 72548,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0978",
+          "start_line": 72684,
+          "end_line": 72755,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1288",
+          "start_line": 93141,
+          "end_line": 93203,
+          "claim_kind": "fact"
+        }
+      ]
+    }
+  ]
+}

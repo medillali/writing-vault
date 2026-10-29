@@ -1,0 +1,263 @@
+{
+  "status": "applied-exact-primary-approved-awaiting-resign",
+  "primary_approval": "root实际完整读提案后消息明确批准；非用户品味批准",
+  "proposal_sha256": "bf9f34deab304acaf0d9e319b5a74f2da9040e2bc20d7affd27ecde4b1c7c19c",
+  "changes": [
+    {
+      "batch_before_sha256": "1032f42b1bfb599f9fbe43001a4ffae3d7adda62bdabe392d5c08f314a924112",
+      "batch_after_sha256": "6bc9ea6dfe24bd8aa7c850b3a1330b3a30852dd61854c54b6ca5dcef40b20457",
+      "before_snapshot": "history\\adjudications-local-v05-batch009-before-fang-two-million-specific-aid.json",
+      "change": {
+        "path": "adjudications-local-v05-batch009.json",
+        "candidate_id": "v05-local-chapter_unresolved_index-0098-01",
+        "input_sha256": "1032f42b1bfb599f9fbe43001a4ffae3d7adda62bdabe392d5c08f314a924112",
+        "before": {
+          "candidate_id": "v05-local-chapter_unresolved_index-0098-01",
+          "volume": 5,
+          "title": "方新二百万援、临海围与天翎多城合攻结果待核。",
+          "original_field": "chapter_unresolved_index",
+          "original_index": 97,
+          "atomic_index": 0,
+          "original_record_sha256": "563a03ab97f5d9f67d516b5b5b8fdcb29149c962b92997ae7d70bcbb33dd23ed",
+          "status": "answered",
+          "audit_domain": "multi-front-war-result",
+          "rationale": "1080牛奶/复活军实援后凡书敌撤，不等方口许二百万有同量独立抵城回执；1082林NPC和玩家撤临海、1085葡占。1084—1088林袭渔寒焰引撤且主末援天翎，1089国战守成。各路结果都落地，援军来源仍按实际到者记。",
+          "later_chapters": [
+            1077,
+            1080,
+            1082,
+            1084,
+            1085,
+            1086,
+            1088,
+            1089
+          ],
+          "later_evidence": [
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1077",
+              "start_line": 78960,
+              "end_line": 79027,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1080",
+              "start_line": 79166,
+              "end_line": 79228,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1082",
+              "start_line": 79312,
+              "end_line": 79377,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1084",
+              "start_line": 79439,
+              "end_line": 79490,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1085",
+              "start_line": 79491,
+              "end_line": 79558,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1086",
+              "start_line": 79559,
+              "end_line": 79633,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1088",
+              "start_line": 79679,
+              "end_line": 79741,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1089",
+              "start_line": 79742,
+              "end_line": 79808,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            }
+          ],
+          "actual_reviewer": "/root/zongheng_vol04_full",
+          "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+        },
+        "after": {
+          "candidate_id": "v05-local-chapter_unresolved_index-0098-01",
+          "volume": 5,
+          "title": "方新二百万援、临海围与天翎多城合攻结果待核。",
+          "original_field": "chapter_unresolved_index",
+          "original_index": 97,
+          "atomic_index": 0,
+          "original_record_sha256": "563a03ab97f5d9f67d516b5b5b8fdcb29149c962b92997ae7d70bcbb33dd23ed",
+          "status": "partial",
+          "audit_domain": "multi-front-war-result",
+          "rationale": "1080牛奶/复活军实援后凡书敌撤，不等方口许二百万有同量独立抵城回执；1082林NPC和玩家撤临海、1085葡占。1084—1088林袭渔寒焰引撤且主末援天翎，1089国战守成。各路结果都落地，援军来源仍按实际到者记。 城战结果已答，但原题指定的方新二百万援凡书是否同量实际抵城仍未独证，故复合项保partial，不据此说方全未援。",
+          "later_chapters": [
+            1077,
+            1080,
+            1082,
+            1084,
+            1085,
+            1086,
+            1088,
+            1089
+          ],
+          "later_evidence": [
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1077",
+              "start_line": 78960,
+              "end_line": 79027,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1080",
+              "start_line": 79166,
+              "end_line": 79228,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1082",
+              "start_line": 79312,
+              "end_line": 79377,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1084",
+              "start_line": 79439,
+              "end_line": 79490,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1085",
+              "start_line": 79491,
+              "end_line": 79558,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1086",
+              "start_line": 79559,
+              "end_line": 79633,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1088",
+              "start_line": 79679,
+              "end_line": 79741,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            },
+            {
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "chapter_id": "ch-1089",
+              "start_line": 79742,
+              "end_line": 79808,
+              "claim_kind": "fact",
+              "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+              "material_path": "writing-vault/library/reports/zhanlong/vol05-chapter-notes.jsonl",
+              "material_sha256": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+              "source_reader": "/root/zongheng_vol04_full"
+            }
+          ],
+          "actual_reviewer": "/root/zongheng_vol04_full",
+          "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+        },
+        "scope": "仅status与理由补一句，后证/域/其余19逐值不变"
+      },
+      "other_objects_equal": true
+    }
+  ]
+}

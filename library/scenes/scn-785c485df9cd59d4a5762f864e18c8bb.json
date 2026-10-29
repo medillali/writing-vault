@@ -1,0 +1,88 @@
+{
+  "asset_id": "scn-785c485df9cd59d4a5762f864e18c8bb",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "适用撤离/保护群体；有名死者不被泛称胜利复活。",
+    "characters": [
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol03/character/lu",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol03/character/lin"
+    ],
+    "choice": "护送持续并组织抵挡",
+    "consequence": "任务成功仍37民死、里格卫死",
+    "failure_mode": "研究解释为推断；不得把计划、规则自述、未来能力或情绪宣言写成已发生事实。",
+    "goal": "把民众带出危险",
+    "interpretation_evidence": [
+      {
+        "chapter_id": "ch-0310",
+        "claim_kind": "inference",
+        "end_line": 28868,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 28795
+      },
+      {
+        "chapter_id": "ch-0311",
+        "claim_kind": "inference",
+        "end_line": 28947,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 28869
+      },
+      {
+        "chapter_id": "ch-0312",
+        "claim_kind": "inference",
+        "end_line": 29029,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 28948
+      }
+    ],
+    "obstacle": "500初始/队伍与袭击分散",
+    "state_change": "成功含真实损失",
+    "summary": "把民众带出危险；任务成功仍37民死、里格卫死",
+    "why_it_works": "把目标阈值与被救者人数分开，避免任务成功等于所有人活。"
+  },
+  "created_at": "2026-10-24T23:04:52.516308+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0310",
+      "claim_kind": "fact",
+      "end_line": 28868,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 28795
+    },
+    {
+      "chapter_id": "ch-0311",
+      "claim_kind": "fact",
+      "end_line": 28947,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 28869
+    },
+    {
+      "chapter_id": "ch-0312",
+      "claim_kind": "fact",
+      "end_line": 29029,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 28948
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol03/scene/escort",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:3",
+    "状态:待审阅"
+  ],
+  "title": "村民救援与不能全救",
+  "updated_at": "2026-10-24T23:04:52.516308+00:00",
+  "user_notes": ""
+}

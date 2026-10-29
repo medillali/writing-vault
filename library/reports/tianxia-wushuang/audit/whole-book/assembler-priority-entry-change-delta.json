@@ -1,0 +1,20 @@
+{
+  "status": "applied_after_primary_explicit_pure_link_authorization",
+  "before_sha256": "0628da45a47b3e52cdbef0a344f5b508b8f426c7d5399dacc19f4cf7f2ee9830",
+  "after_sha256": "64fe967069db772e3e330d089678c9e09eaf105c09fd61a4a1ba360f05eabdf2",
+  "changes": [
+    {
+      "target": "whole-book-audit-handoff.md",
+      "before": " output_text('whole-book-audit-handoff.md','\\n'.join(lines))",
+      "after": " output_text('whole-book-audit-handoff.md','先读[核源纠正叠加](priority-corrections-delta.json)：旧notes与旧正式派生的受影响文字以此叠加为解释优先，原件作为历史输入保留；不回写冻结分卷、不改变已签候选/研究结论。\\n\\n'+'\\n'.join(lines))"
+    },
+    {
+      "target": "whole-book-audit-report.md",
+      "before": " output_text('whole-book-audit-report.md','\\n'.join(lines))",
+      "after": " output_text('whole-book-audit-report.md','先读[核源纠正叠加](priority-corrections-delta.json)：旧notes与旧正式派生的受影响文字以此叠加为解释优先，原件作为历史输入保留；不回写冻结分卷、不改变已签候选/研究结论。\\n\\n'+'\\n'.join(lines))"
+    }
+  ],
+  "core_assembly_and_signed_semantics_unchanged": true,
+  "priority_overlay_sha256": "bc3c05f004d73db6883cbf4dc895e754c442e56ad9afa71ae8b9a0ddead07038",
+  "approval": "root明确允许仅handoff/report纯链接直接修改并总装；现有*-delta.json通配冻结该overlay。"
+}

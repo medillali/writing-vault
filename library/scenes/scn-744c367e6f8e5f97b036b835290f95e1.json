@@ -1,0 +1,95 @@
+{
+  "asset_id": "scn-744c367e6f8e5f97b036b835290f95e1",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "经营/战斗交叉",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/otia",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/fox",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/waner",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/dongcheng",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/fushui",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/qingqian",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/mocha",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/frost"
+    ],
+    "choice": "验证、付粮、战斗、回交",
+    "claim_kind": "inference",
+    "consequence": "采矿权确认/抹获任务马实骑",
+    "failure_mode": "矿权不等矿全送或火兵已成；旧奥酬未自动清",
+    "goal": "给寒荒火矿",
+    "narrative_order": 615,
+    "obstacle": "矮人不信奥/怪占谷",
+    "state_change": "信用用独立查验和物资交付修复",
+    "summary": "奥坏粮旧仇被王揭，王验凌寒首杀后勾销，狐狸押10万好麦实交，五人清怪/鸣骏/交头结。",
+    "why_it_works": "从外交门槛到任务执行完整落点"
+  },
+  "created_at": "2026-10-25T20:23:25.171640+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0610",
+      "claim_kind": "fact",
+      "end_line": 48880,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 48813
+    },
+    {
+      "chapter_id": "ch-0611",
+      "claim_kind": "fact",
+      "end_line": 48954,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 48881
+    },
+    {
+      "chapter_id": "ch-0612",
+      "claim_kind": "fact",
+      "end_line": 49038,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 48955
+    },
+    {
+      "chapter_id": "ch-0613",
+      "claim_kind": "fact",
+      "end_line": 49112,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 49039
+    },
+    {
+      "chapter_id": "ch-0614",
+      "claim_kind": "fact",
+      "end_line": 49220,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 49113
+    },
+    {
+      "chapter_id": "ch-0615",
+      "claim_kind": "fact",
+      "end_line": 49300,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 49221
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/scene/ore",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "贸易旧账经核查才能开采新矿",
+  "updated_at": "2026-10-25T20:23:25.171640+00:00",
+  "user_notes": ""
+}

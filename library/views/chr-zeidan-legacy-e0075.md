@@ -1,0 +1,70 @@
+# 贼胆｜露娜｜E0075
+
+ID: `chr-zeidan-legacy-e0075` · 版本: 1 · 范围: source-analysis
+
+接受女皇赐给的哈尔并虐待，萧救人后被哈尔杀死；无需从外貌推导道德。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0075",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "causal_importance": "哈尔救援入口",
+    "desires": [],
+    "facts": [
+      "接受女皇赐给的哈尔并虐待，萧救人后被哈尔杀死；无需从外貌推导道德。"
+    ],
+    "identity": "虐待哈尔的女性NPC",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0075",
+    "limits": [],
+    "maintenance_depth": "中",
+    "name": "露娜",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0075",
+    "relationships": [],
+    "summary": "接受女皇赐给的哈尔并虐待，萧救人后被哈尔杀死；无需从外貌推导道德。",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:12.368449+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0224",
+      "claim_kind": "fact",
+      "end_line": 11225,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 11178
+    },
+    {
+      "chapter_id": "ch-0225",
+      "claim_kind": "fact",
+      "end_line": 11289,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 11226
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0075",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜露娜｜E0075",
+  "updated_at": "2026-10-22T17:03:12.370446+00:00",
+  "user_notes": ""
+}
+
+```

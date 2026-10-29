@@ -1,0 +1,239 @@
+{
+  "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+  "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+  "status": "all_formal_volume_inputs_verified_terminal_audit_in_separate_signed_groups_pending_final_assembly",
+  "formal_input_sha256": {
+    "writing-vault/library/reports/tianxia-wushuang/vol01-analysis.json": "3c344053c5e8624fe263e760c5338980d784f730921ae790e9d2d2156ed2a77f",
+    "writing-vault/library/reports/tianxia-wushuang/vol01-graph.json": "8c30f4c24d033b2f1f251264bf493e2d63f64406a97f653ced324eaff37f1d1d",
+    "writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json": "9d4fa24895880c8d416d0a61396d64602960968d6cc976845ddacab782961212",
+    "writing-vault/library/reports/tianxia-wushuang/vol02-graph.json": "a1477b47981a1087e81c01e6ba085f9b259071eb56c25f6b5e5c7dabc8263e95",
+    "writing-vault/library/reports/tianxia-wushuang/vol03-analysis.json": "d541e96bf61c47337d0008cc4fcf5042b3dd3815cb42a52717dac719e512d2e7",
+    "writing-vault/library/reports/tianxia-wushuang/vol03-graph.json": "d4b00e72b1c9410a9439ef4f8159de4ab8e37d262b11fef95c16942d88a400f0",
+    "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json": "8b2067a3d64f4a9ba771a30155fd668aef6601bdc4c1b7301937636c7e79a549",
+    "writing-vault/library/reports/tianxia-wushuang/vol04-graph.json": "a81025a261433a19b90f9301df5a1d0fb2b2428c2f6cec7bdc288f9ccbb34230",
+    "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json": "d3b0e431a0a622e0a1efe0f8f95c2e854ddbd4b5c38f343e342c1705afb4638b",
+    "writing-vault/library/reports/tianxia-wushuang/vol05-graph.json": "759861a69fc54d9f6b55e1ad03e6fc9cce4a4c17e5a63699efe02c4ca3942f17",
+    "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json": "02064f7d7ff0a47602ba5676dc697542db9a6dddf68e73ef14b5de807722039a",
+    "writing-vault/library/reports/tianxia-wushuang/vol06-graph.json": "1375b7b99a194e454867d134e67228885d2e71252c7adc711f4a51520a778d51",
+    "writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json": "5aed431e426a75bd77361dbc110e0bad9173fc71825be36f259bfb05a556d48f",
+    "writing-vault/library/reports/tianxia-wushuang/vol07-graph.json": "24f74f1e3b735565d6858f7d403c0a8d76e614f35454c5052bbdd19cc56e184b",
+    "writing-vault/library/reports/tianxia-wushuang/vol08-analysis.json": "390aa459e809f0d98f2fb44e29dc2a0895d57178cec74974ef2a227e009f1c66",
+    "writing-vault/library/reports/tianxia-wushuang/vol08-graph.json": "40daa3c14d231d287a749042216f7699b482bea5d60d732f67f38b13a9e4abd8"
+  },
+  "inputs": [
+    {
+      "volume": 1,
+      "status": "formal-library",
+      "analysis": "writing-vault/library/reports/tianxia-wushuang/vol01-analysis.json",
+      "graph": "writing-vault/library/reports/tianxia-wushuang/vol01-graph.json",
+      "analysis_sha256": "3c344053c5e8624fe263e760c5338980d784f730921ae790e9d2d2156ed2a77f",
+      "graph_sha256": "8c30f4c24d033b2f1f251264bf493e2d63f64406a97f653ced324eaff37f1d1d",
+      "open_questions": 8,
+      "graph_threads": 10,
+      "reading_ownership": [
+        {
+          "count": 91,
+          "raw_range": [
+            "ch-0002",
+            "ch-0092"
+          ],
+          "reader": "primary"
+        }
+      ]
+    },
+    {
+      "volume": 2,
+      "status": "formal-library",
+      "analysis": "writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json",
+      "graph": "writing-vault/library/reports/tianxia-wushuang/vol02-graph.json",
+      "analysis_sha256": "9d4fa24895880c8d416d0a61396d64602960968d6cc976845ddacab782961212",
+      "graph_sha256": "a1477b47981a1087e81c01e6ba085f9b259071eb56c25f6b5e5c7dabc8263e95",
+      "open_questions": 13,
+      "graph_threads": 13,
+      "reading_ownership": [
+        {
+          "count": 136,
+          "raw_range": [
+            "ch-0093",
+            "ch-0228"
+          ],
+          "reader": "primary"
+        }
+      ]
+    },
+    {
+      "volume": 3,
+      "status": "formal-library",
+      "analysis": "writing-vault/library/reports/tianxia-wushuang/vol03-analysis.json",
+      "graph": "writing-vault/library/reports/tianxia-wushuang/vol03-graph.json",
+      "analysis_sha256": "d541e96bf61c47337d0008cc4fcf5042b3dd3815cb42a52717dac719e512d2e7",
+      "graph_sha256": "d4b00e72b1c9410a9439ef4f8159de4ab8e37d262b11fef95c16942d88a400f0",
+      "open_questions": 0,
+      "graph_threads": 14,
+      "reading_ownership": "/root/zongheng_vol03_full"
+    },
+    {
+      "volume": 4,
+      "status": "formal-library",
+      "analysis": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+      "graph": "writing-vault/library/reports/tianxia-wushuang/vol04-graph.json",
+      "analysis_sha256": "8b2067a3d64f4a9ba771a30155fd668aef6601bdc4c1b7301937636c7e79a549",
+      "graph_sha256": "a81025a261433a19b90f9301df5a1d0fb2b2428c2f6cec7bdc288f9ccbb34230",
+      "open_questions": 0,
+      "graph_threads": 22,
+      "reading_ownership": "本代理实际逐片读完本卷186片段；背景消息与本卷角色转述不计亲读他卷。"
+    },
+    {
+      "volume": 5,
+      "status": "formal-library",
+      "analysis": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+      "graph": "writing-vault/library/reports/tianxia-wushuang/vol05-graph.json",
+      "analysis_sha256": "d3b0e431a0a622e0a1efe0f8f95c2e854ddbd4b5c38f343e342c1705afb4638b",
+      "graph_sha256": "759861a69fc54d9f6b55e1ad03e6fc9cce4a4c17e5a63699efe02c4ca3942f17",
+      "open_questions": 29,
+      "graph_threads": 14,
+      "reading_ownership": "/root/zongheng_vol04_full"
+    },
+    {
+      "volume": 6,
+      "status": "formal-library",
+      "analysis": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json",
+      "graph": "writing-vault/library/reports/tianxia-wushuang/vol06-graph.json",
+      "analysis_sha256": "02064f7d7ff0a47602ba5676dc697542db9a6dddf68e73ef14b5de807722039a",
+      "graph_sha256": "1375b7b99a194e454867d134e67228885d2e71252c7adc711f4a51520a778d51",
+      "open_questions": 0,
+      "graph_threads": 26,
+      "reading_ownership": {
+        "complete_book": false,
+        "complete_volume": true,
+        "formal_import": false,
+        "integration": {
+          "method": "完整逐条读取primary尾60条实际阅读笔记，连同本人前175片全文记录派生全卷研究；未声称本人重读尾60片正文。",
+          "reader": "zongheng_vol05_full",
+          "reviewed_at": "2026-10-24T23:37:50.339300+00:00",
+          "tail_notes_rows_reviewed": 60
+        },
+        "kind": "actual_reading_split",
+        "original_tail_files": {
+          "vol06-tail-primary/chapter-notes.jsonl": "156112120d33c0a7b258ca6a604c3b5c86a0406af695f1641d90673eff78c9c1",
+          "vol06-tail-primary/reader-state.json": "6f2144309d5f09900693bfe85e3935f272a2f7e05176f800c3798ca17103a55d"
+        },
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "segments": [
+          {
+            "actual_full_text": true,
+            "body_units": 174,
+            "first": "ch-1059",
+            "headers": 1,
+            "last": "ch-1233",
+            "notes_copy": "prefix-chapter-notes.jsonl",
+            "raw_segments": 175,
+            "reader": "zongheng_vol05_full"
+          },
+          {
+            "actual_full_text": true,
+            "body_units": 60,
+            "first": "ch-1234",
+            "headers": 0,
+            "last": "ch-1293",
+            "notes_copy": "primary-tail-notes.jsonl",
+            "raw_segments": 60,
+            "reader": "primary"
+          }
+        ],
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "volume": 6
+      }
+    },
+    {
+      "volume": 7,
+      "status": "formal-library",
+      "analysis": "writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json",
+      "graph": "writing-vault/library/reports/tianxia-wushuang/vol07-graph.json",
+      "analysis_sha256": "5aed431e426a75bd77361dbc110e0bad9173fc71825be36f259bfb05a556d48f",
+      "graph_sha256": "24f74f1e3b735565d6858f7d403c0a8d76e614f35454c5052bbdd19cc56e184b",
+      "open_questions": 36,
+      "graph_threads": 16,
+      "reading_ownership": "/root/zongheng_vol04_full"
+    },
+    {
+      "volume": 8,
+      "status": "formal-library",
+      "analysis": "writing-vault/library/reports/tianxia-wushuang/vol08-analysis.json",
+      "graph": "writing-vault/library/reports/tianxia-wushuang/vol08-graph.json",
+      "analysis_sha256": "390aa459e809f0d98f2fb44e29dc2a0895d57178cec74974ef2a227e009f1c66",
+      "graph_sha256": "40daa3c14d231d287a749042216f7699b482bea5d60d732f67f38b13a9e4abd8",
+      "open_questions": 0,
+      "graph_threads": 13,
+      "reading_ownership": [
+        {
+          "body_units": 67,
+          "end_chapter_id": "ch-1572",
+          "original_notes_path": "C:/Users/Administrator/Documents/ChatGPT/Novel/.planning/20261023-shiluoye/full-research/tianxia-wushuang/vol08/primary-original/chapter-notes.jsonl",
+          "reader": "primary",
+          "segments": 68,
+          "start_chapter_id": "ch-1505"
+        },
+        {
+          "body_units": 37,
+          "end_chapter_id": "ch-1609",
+          "original_notes_path": "C:/Users/Administrator/Documents/ChatGPT/Novel/.planning/20261023-shiluoye/full-research/tianxia-wushuang/vol08-tail-agent3/chapter-notes.jsonl",
+          "reader": "/root/zongheng_vol03_full",
+          "segments": 37,
+          "start_chapter_id": "ch-1573"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "historical": 214,
+    "local": 3916,
+    "by_volume": {
+      "1": {
+        "historical": 18,
+        "local": 377
+      },
+      "2": {
+        "historical": 26,
+        "local": 493
+      },
+      "3": {
+        "historical": 14,
+        "local": 667
+      },
+      "4": {
+        "historical": 22,
+        "local": 381
+      },
+      "5": {
+        "historical": 43,
+        "local": 556
+      },
+      "6": {
+        "historical": 26,
+        "local": 657
+      },
+      "7": {
+        "historical": 52,
+        "local": 476
+      },
+      "8": {
+        "historical": 13,
+        "local": 309
+      }
+    }
+  },
+  "direct_full_reading_by_this_agent": [
+    5,
+    7
+  ],
+  "not_personal_full_book_rereading": true,
+  "notes_input_sha256": {
+    ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl": "07dcdbeb47552dbc3ddef7089a8583f60774e92cf78d7de44022dc4907f17320",
+    ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl": "6b7018d485c077654bf042cfd10b393ef7284a3a413f79d8365a5ca080fe538f",
+    ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol08/chapter-notes.jsonl": "a768d2cc3d25ef933dab8b9b8f17f6ae59c0887d70e10c997b719d38ee5b89ba"
+  },
+  "research_correction_snapshots": {
+    "writing-vault/library/reports/tianxia-wushuang/audit/research-corrections/v07-analysis-before-raw1305.json": "feb76a4a0cccfd6d88bd31b9ab8582f4bc14ab75d247d740f3fab12bea1b692b"
+  }
+}

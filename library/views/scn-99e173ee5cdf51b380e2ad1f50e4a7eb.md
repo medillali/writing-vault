@@ -1,0 +1,118 @@
+# 救龙硎不抹周海死
+
+ID: `scn-99e173ee5cdf51b380e2ad1f50e4a7eb` · 版本: 1 · 范围: source-analysis
+
+救龙硎千兵/敌BOSS周海被杀后SSS闭；后来抗三君王仍有甲士与未名龙骑真死。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-99e173ee5cdf51b380e2ad1f50e4a7eb",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "任务同时要求具名受困者活着和敌首交回，战场奖励不能替代救人回执。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/longxing",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/frost",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/qing",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/zishu"
+    ],
+    "choice": "小队执行后多人守援",
+    "claim_kind": "inference",
+    "consequence": "任务有完成奖励/死者不由群返洗回",
+    "failure_mode": "不把未名红龙骑死套青萝。",
+    "goal": "救困军并守龙城",
+    "narrative_order": 995,
+    "obstacle": "强敌/救援时间",
+    "state_change": "龙硎活、周海死",
+    "summary": "救龙硎千兵/敌BOSS周海被杀后SSS闭；后来抗三君王仍有甲士与未名龙骑真死。",
+    "why_it_works": "把任务成功与救不回的人并列。"
+  },
+  "created_at": "2026-10-25T21:08:43.192963+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0982",
+      "claim_kind": "fact",
+      "end_line": 72989,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 72933
+    },
+    {
+      "chapter_id": "ch-0983",
+      "claim_kind": "fact",
+      "end_line": 73049,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 72990
+    },
+    {
+      "chapter_id": "ch-0984",
+      "claim_kind": "fact",
+      "end_line": 73102,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 73050
+    },
+    {
+      "chapter_id": "ch-0985",
+      "claim_kind": "fact",
+      "end_line": 73170,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 73103
+    },
+    {
+      "chapter_id": "ch-0986",
+      "claim_kind": "fact",
+      "end_line": 73245,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 73171
+    },
+    {
+      "chapter_id": "ch-0993",
+      "claim_kind": "fact",
+      "end_line": 73689,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 73618
+    },
+    {
+      "chapter_id": "ch-0994",
+      "claim_kind": "fact",
+      "end_line": 73748,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 73690
+    },
+    {
+      "chapter_id": "ch-0995",
+      "claim_kind": "fact",
+      "end_line": 73797,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 73749
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/rescue",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "救龙硎不抹周海死",
+  "updated_at": "2026-10-25T21:08:43.192963+00:00",
+  "user_notes": ""
+}
+
+```

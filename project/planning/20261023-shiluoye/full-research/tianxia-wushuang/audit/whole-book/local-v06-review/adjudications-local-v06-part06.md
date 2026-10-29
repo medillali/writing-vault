@@ -1,0 +1,484 @@
+# 无双本地候选终点评定：decisions-v06-part06
+
+本文件为独立待主审裁定；保留原记录，非池主档。chapter号均为raw。其他卷派生输入不冒称原文复读。
+
+## v06-local-chapter_unresolved_index-085-02
+
+- 原子项：不能补援参加本次。
+- 完整原记录：{"chapter_id": "ch-1143", "items": ["旧20万隐藏兵来自清风所说未全实战；不能补援参加本次。", "生死谷方向≠将穿死亡归零区，下一明确选路。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：reported-reserve-not-arrived-army
+- 理由：清风声称的20万隐藏兵未有本次全到场回执，不能把其填进参战人数/死伤账；这项记录约束不需要证明该兵团全不存在。
+- 后证：1143
+
+## v06-local-chapter_unresolved_index-085-03
+
+- 原子项：生死谷方向≠将穿死亡归零区，下一明确选路。
+- 完整原记录：{"chapter_id": "ch-1143", "items": ["旧20万隐藏兵来自清风所说未全实战；不能补援参加本次。", "生死谷方向≠将穿死亡归零区，下一明确选路。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：route-later-clarified
+- 理由：1143转生死谷方向未等进入归零区，1144陆明确不走生死谷、改迷失林至冰河；路线悬点已有后章直接澄清。
+- 后证：1143, 1144
+
+## v06-local-chapter_unresolved_index-086-01
+
+- 原子项：清风后续撤/绕是战痕疑问，未定位
+- 完整原记录：{"chapter_id": "ch-1144", "items": ["清风后续撤/绕是战痕疑问，未定位；唐外甥在陆话已当真仍早先据说未调查独证。", "未来四人S3/S4仅愿景，回中国案仍没眉目。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：reported-enemy-movement
+- 理由：战痕疑清风绕/撤，1144追击截杀已报，1145另有青霜/铜戈拦路，不能把后两队自动当清风；具体撤绕路径仍未独立给全。
+- 后证：1144, 1145
+
+## v06-local-chapter_unresolved_index-086-02
+
+- 原子项：唐外甥在陆话已当真仍早先据说未调查独证。
+- 完整原记录：{"chapter_id": "ch-1144", "items": ["清风后续撤/绕是战痕疑问，未定位；唐外甥在陆话已当真仍早先据说未调查独证。", "未来四人S3/S4仅愿景，回中国案仍没眉目。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：reported-kinship-later-corroboration
+- 理由：陆把唐外甥当真仍源早据说，1328乱月再明确称琥为唐外甥可补后讯；两次角色消息不冒独立户籍调查，也不因亲属推全部阴谋均真。
+- 后证：1144, 1328
+
+## v06-local-chapter_unresolved_index-086-03
+
+- 原子项：未来四人S3/S4仅愿景，回中国案仍没眉目。
+- 完整原记录：{"chapter_id": "ch-1144", "items": ["清风后续撤/绕是战痕疑问，未定位；唐外甥在陆话已当真仍早先据说未调查独证。", "未来四人S3/S4仅愿景，回中国案仍没眉目。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：plans-later-results-by-stage
+- 理由：1160五人S3实通、1161首交奖、1342后七人S4实际刷掉林头/北胸，1194游戏资格恢复、1196抓唐/1328判监后讯；当时愿景与政治僵局都有后续，不继续全书假pending，也不改队伍人数。
+- 后证：1144, 1160, 1161, 1194, 1196, 1328, 1342
+
+## v06-local-chapter_unresolved_index-087-01
+
+- 原子项：琥珀75%自称非系统权限任命
+- 完整原记录：{"chapter_id": "ch-1145", "items": ["琥珀75%自称非系统权限任命；其外甥身份仍非独立核验。", "青霜150+仍击弱兵，不能低等级=无威胁。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：military-share-not-system-appointment
+- 理由：琥自称75%驻军能据兵阻门，并未系统任命其代表全中国；何/雪银等不同意且救援，实际军权与合法权限分列。
+- 后证：1145, 1146
+
+## v06-local-chapter_unresolved_index-087-02
+
+- 原子项：其外甥身份仍非独立核验。
+- 完整原记录：{"chapter_id": "ch-1145", "items": ["琥珀75%自称非系统权限任命；其外甥身份仍非独立核验。", "青霜150+仍击弱兵，不能低等级=无威胁。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：kinship-report-channel
+- 理由：1328乱月明确外甥称谓补早据传，但不是审阅者亲查现实亲属凭证；记录同一报道关系，不能写至终点完全无后证。
+- 后证：1145, 1328
+
+## v06-local-chapter_unresolved_index-087-03
+
+- 原子项：青霜150+仍击弱兵，不能低等级=无威胁。
+- 完整原记录：{"chapter_id": "ch-1145", "items": ["琥珀75%自称非系统权限任命；其外甥身份仍非独立核验。", "青霜150+仍击弱兵，不能低等级=无威胁。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：level-not-no-threat
+- 理由：青霜150余仍可杀耐久低/残兵是现场行动；低于主角等级不等对所有对手无伤害，不能把她实际战果删为不可能。
+- 后证：1145
+
+## v06-local-chapter_unresolved_index-088-01
+
+- 原子项：血佣有意假叛仍未本章确认，何/李发言显示谨慎
+- 完整原记录：{"chapter_id": "ch-1146", "items": ["血佣有意假叛仍未本章确认，何/李发言显示谨慎；不能从来援倒推一切早有剧本。", "何S3成果仍未明；李说正在A6与此前北冥报S3有过程时间，不强判矛盾。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：concealed-plan-next-reveal
+- 理由：1147何当面确认假叛全由她安排，1146当时未确认的悬点已补；仅限被说明计划范围，不补所有早情绪都假。
+- 后证：1146, 1147
+
+## v06-local-chapter_unresolved_index-088-02
+
+- 原子项：不能从来援倒推一切早有剧本。
+- 完整原记录：{"chapter_id": "ch-1146", "items": ["血佣有意假叛仍未本章确认，何/李发言显示谨慎；不能从来援倒推一切早有剧本。", "何S3成果仍未明；李说正在A6与此前北冥报S3有过程时间，不强判矛盾。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：later-reveal-not-retroactive-omniscience
+- 理由：来援本身不是从头全员知计证据，1147说明给陆才是确定知情点；计划存在与陆之前难过可同时为真。
+- 后证：1146, 1147
+
+## v06-local-chapter_unresolved_index-088-03
+
+- 原子项：何S3成果仍未明
+- 完整原记录：{"chapter_id": "ch-1146", "items": ["血佣有意假叛仍未本章确认，何/李发言显示谨慎；不能从来援倒推一切早有剧本。", "何S3成果仍未明；李说正在A6与此前北冥报S3有过程时间，不强判矛盾。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：equipment-completion-later
+- 理由：1146不明何S3结果，1160末胸凑齐五件并实穿、1161任务奖励实交，明确完成，不终点保旧未明。
+- 后证：1146, 1160, 1161
+
+## v06-local-chapter_unresolved_index-088-04
+
+- 原子项：李说正在A6与此前北冥报S3有过程时间，不强判矛盾。
+- 完整原记录：{"chapter_id": "ch-1146", "items": ["血佣有意假叛仍未本章确认，何/李发言显示谨慎；不能从来援倒推一切早有剧本。", "何S3成果仍未明；李说正在A6与此前北冥报S3有过程时间，不强判矛盾。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：different-dungeon-time
+- 理由：李当时A6与此前何北等S3在做可以是不同队/时段，未直接同一场次互斥；1160何通S3也不要求李同步在场。
+- 后证：1135, 1146, 1160
+
+## v06-local-chapter_unresolved_index-089-01
+
+- 原子项：寒刃战线只是莫娜口述，卡琳不信苏菲是陆推不独证。
+- 完整原记录：{"chapter_id": "ch-1147", "items": ["寒刃战线只是莫娜口述，卡琳不信苏菲是陆推不独证。", "鬼姓名层级以当下自述记，不同假名自动新建人物。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：reported-war-and-inferred-distrust
+- 理由：寒刃线由莫娜说，卡琳不信苏菲为陆推断。后来双方NPC能合作不使当时心理成为全知，按消息/心证分别记录。
+- 后证：1147
+
+## v06-local-chapter_unresolved_index-089-02
+
+- 原子项：鬼姓名层级以当下自述记，不同假名自动新建人物。
+- 完整原记录：{"chapter_id": "ch-1147", "items": ["寒刃战线只是莫娜口述，卡琳不信苏菲是陆推不独证。", "鬼姓名层级以当下自述记，不同假名自动新建人物。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：real-name-and-alias-layer
+- 理由：鬼自称王诩、假证公孙谷与游戏鬼谷子保同人层级，不把每个证件名新建现实人物；也不冒所有早假名均法律原名。
+- 后证：1147
+
+## v06-local-chapter_unresolved_index-090-01
+
+- 原子项：五女刷S2进行
+- 完整原记录：{"chapter_id": "ch-1148", "items": ["五女刷S2进行；何收小青仍未成。", "狂豹被动若给玩家就无敌是陆幻想，不当玩家已拥有规则或真实无敌。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：dungeon-completion-report
+- 理由：1148五女刷S2进行，1149明确结束、1150开始约S3；已有即时后证，不再写全书未过S2。
+- 后证：1148, 1149, 1150
+
+## v06-local-chapter_unresolved_index-090-02
+
+- 原子项：何收小青仍未成。
+- 完整原记录：{"chapter_id": "ch-1148", "items": ["五女刷S2进行；何收小青仍未成。", "狂豹被动若给玩家就无敌是陆幻想，不当玩家已拥有规则或真实无敌。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：gift-hatching-later
+- 理由：1148小青蛋仍在陆包，1151实交何/何实孵，赠养已成；不能因曾忘给终点永久保未交。
+- 后证：1148, 1151
+
+## v06-local-chapter_unresolved_index-090-03
+
+- 原子项：狂豹被动若给玩家就无敌是陆幻想，不当玩家已拥有规则或真实无敌。
+- 完整原记录：{"chapter_id": "ch-1148", "items": ["五女刷S2进行；何收小青仍未成。", "狂豹被动若给玩家就无敌是陆幻想，不当玩家已拥有规则或真实无敌。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：imagined-player-passive
+- 理由：狂豹免异常/暴击若给玩家就无敌是陆幻想，未得此被动；不拿来当后战玩家实际全免或无敌规则。
+- 后证：1148
+
+## v06-local-chapter_unresolved_index-091-01
+
+- 原子项：望帝千军威胁是口头主张未实际占NPC
+- 完整原记录：{"chapter_id": "ch-1149", "items": ["望帝千军威胁是口头主张未实际占NPC；刺客实际已死。", "泪痕残为源偶误写，默认同上下泪残痕但保姓名异常不额外建。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：threat-later-withdrawal
+- 理由：望帝驱逐/占NPC只是口头，1150泪在盟军威慑下退冰河至别段，未实际拿下该营；不从其声称可耗十万覆营写成战果。
+- 后证：1149, 1150
+
+## v06-local-chapter_unresolved_index-091-02
+
+- 原子项：刺客实际已死。
+- 完整原记录：{"chapter_id": "ch-1149", "items": ["望帝千军威胁是口头主张未实际占NPC；刺客实际已死。", "泪痕残为源偶误写，默认同上下泪残痕但保姓名异常不额外建。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：player-death-event
+- 理由：先上刺客确被望帝千钧反杀，是本次游戏死；之后可复返不删该事件，不扩为现实身亡。
+- 后证：1149
+
+## v06-local-chapter_unresolved_index-091-03
+
+- 原子项：泪痕残为源偶误写，默认同上下泪残痕但保姓名异常不额外建。
+- 完整原记录：{"chapter_id": "ch-1149", "items": ["望帝千军威胁是口头主张未实际占NPC；刺客实际已死。", "泪痕残为源偶误写，默认同上下泪残痕但保姓名异常不额外建。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：source-name-recording
+- 理由：泪痕残/泪残痕同上下文人物持续对话，保异文但不另建一位女盟主；answered为消歧约束。
+- 后证：1149, 1150
+
+## v06-local-chapter_unresolved_index-092-01
+
+- 原子项：‘荣誉差不多’不等已100
+- 完整原记录：{"chapter_id": "ch-1150", "items": ["‘荣誉差不多’不等已100；一周A4目标未验证。", "泪一周撤回与是否图谋边境未结。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：honor-accounting
+- 理由：已实交石5和狂豹55合60，‘差不多’不证100；后能建设营地与获身份为别机制，未给这40荣誉补交/余额，不能擅写全额达标。
+- 后证：1148, 1150
+
+## v06-local-chapter_unresolved_index-092-02
+
+- 原子项：一周A4目标未验证。
+- 完整原记录：{"chapter_id": "ch-1150", "items": ["‘荣誉差不多’不等已100；一周A4目标未验证。", "泪一周撤回与是否图谋边境未结。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：equipment-target-vs-demonstration
+- 理由：1162陆带四维京A4出首套证明可推广，但未给一周半军每人1—3件的完整统计验收。零星通关/后来军强不能清全军覆盖目标。
+- 后证：1150, 1162
+
+## v06-local-chapter_unresolved_index-092-03
+
+- 原子项：泪一周撤回与是否图谋边境未结。
+- 完整原记录：{"chapter_id": "ch-1150", "items": ["‘荣誉差不多’不等已100；一周A4目标未验证。", "泪一周撤回与是否图谋边境未结。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：withdrawal-vs-later-resource-conflict
+- 理由：1150泪暂退别段、1165却已为矿再战，1167鬼说明实际交矿争飞炎。撤退是阶段行动不是一周全不来；边境控制动机仍陆分析，不自动定为她亲口全盘计划。
+- 后证：1150, 1165, 1167
+
+## v06-local-chapter_unresolved_index-093-01
+
+- 原子项：冰毒身体原因小说主自猜
+- 完整原记录：{"chapter_id": "ch-1151", "items": ["冰毒身体原因小说主自猜；不输出真实健康建议。", "2000万50骑是陆当下估价口径不统改其它资源成本。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：fictional-disease-explanation
+- 理由：1151陆对冰毒身体原因自猜，1589杜父/刘博士场景给变种、血清失效及月余预估的虚构解释；终点1609仍无完整病理清除报告，不能把主早猜升成现实医理。
+- 后证：1151, 1589, 1609
+
+## v06-local-chapter_unresolved_index-093-02
+
+- 原子项：不输出真实健康建议。
+- 完整原记录：{"chapter_id": "ch-1151", "items": ["冰毒身体原因小说主自猜；不输出真实健康建议。", "2000万50骑是陆当下估价口径不统改其它资源成本。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：medical-fiction-boundary
+- 理由：冰毒、血清和后抑制/机器均小说人物/科幻设定；材料只审叙事是否给结果，不输出真实健康建议或临床有效性。
+- 后证：1151, 1589, 1607
+
+## v06-local-chapter_unresolved_index-093-03
+
+- 原子项：2000万50骑是陆当下估价口径不统改其它资源成本。
+- 完整原记录：{"chapter_id": "ch-1151", "items": ["冰毒身体原因小说主自猜；不输出真实健康建议。", "2000万50骑是陆当下估价口径不统改其它资源成本。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：resource-estimate-not-universal-price
+- 理由：两千万资源只训五十龙曜为陆当前估价，不是所有军种/资源配比固定单价；不反改0936—38明示的复制与骑训成本。
+- 后证：1151, 0936, 0938
+
+## v06-local-chapter_unresolved_index-094-01
+
+- 原子项：95%队进不了门、50%可通都是陆推估
+- 完整原记录：{"chapter_id": "ch-1152", "items": ["95%队进不了门、50%可通都是陆推估；院长强度尚未实战。", "源‘小龙’与小狼召唤列举疑误不增宠；500万成交不明暂不加余额。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：probability-estimate-and-party-sample
+- 理由：95%进不去/50%可通是陆估；1156灭团、1160本队最终过只能证本队经历，非全服统计验证。
+- 后证：1152, 1156, 1160
+
+## v06-local-chapter_unresolved_index-094-02
+
+- 原子项：院长强度尚未实战。
+- 完整原记录：{"chapter_id": "ch-1152", "items": ["95%队进不了门、50%可通都是陆推估；院长强度尚未实战。", "源‘小龙’与小狼召唤列举疑误不增宠；500万成交不明暂不加余额。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：boss-strength-later-tested
+- 理由：1158林推门遭978824暴秒、1159院长盾/MISS与近死战、1160四灭后终杀，院长强度已实战验证；不能仍称全书未打。
+- 后证：1152, 1158, 1159, 1160
+
+## v06-local-chapter_unresolved_index-094-03
+
+- 原子项：源‘小龙’与小狼召唤列举疑误不增宠
+- 完整原记录：{"chapter_id": "ch-1152", "items": ["95%队进不了门、50%可通都是陆推估；院长强度尚未实战。", "源‘小龙’与小狼召唤列举疑误不增宠；500万成交不明暂不加余额。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：summon-name-slip
+- 理由：小龙/小狼召唤列举疑笔误按已有狼/神龙实体分别保，不据一处增新宠或取消已明确出场者。
+- 后证：1152
+
+## v06-local-chapter_unresolved_index-094-04
+
+- 原子项：500万成交不明暂不加余额。
+- 完整原记录：{"chapter_id": "ch-1152", "items": ["95%队进不了门、50%可通都是陆推估；院长强度尚未实战。", "源‘小龙’与小狼召唤列举疑误不增宠；500万成交不明暂不加余额。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：unconfirmed-money-transfer
+- 理由：林交易界面放500万而陆嘴上拒，未明确点成交/入账；S3资源赌、龙鞭收入等不是此款，不加陆余额也不宣已退款。
+- 后证：1152
+
+## v06-local-chapter_unresolved_index-095-01
+
+- 原子项：作者括作为文体/互文自述证，不把三少作品事实当本小说世界设定。
+- 完整原记录：{"chapter_id": "ch-1153", "items": ["作者括作为文体/互文自述证，不把三少作品事实当本小说世界设定。", "本章龙骑/死灵职业称呼保上下系统身份不任意新职业。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：author-aside-not-world-fact
+- 理由：作者括号谈三少作品是文体/互文自述，不把另作人物、能力或剧情当本书游戏世界事实。
+- 后证：1153
+
+## v06-local-chapter_unresolved_index-095-02
+
+- 原子项：本章龙骑/死灵职业称呼保上下系统身份不任意新职业。
+- 完整原记录：{"chapter_id": "ch-1153", "items": ["作者括作为文体/互文自述证，不把三少作品事实当本小说世界设定。", "本章龙骑/死灵职业称呼保上下系统身份不任意新职业。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：job-title-vs-colloquial-label
+- 理由：龙骑/死灵是描述性称呼，陆系统八转为死亡剑术宗师且骑神龙；不因口头称呼新建转职回执。
+- 后证：1112, 1153
+
+## v06-local-chapter_unresolved_index-096-01
+
+- 原子项：伤害和‘60%’近似、用近140万不能做精确百分比
+- 完整原记录：{"chapter_id": "ch-1154", "items": ["伤害和‘60%’近似、用近140万不能做精确百分比；控制20%是本战估算非固定全怪值。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：source-health-approximation
+- 理由：四击约92万、掉60%/近140万等基数/近数未全合，未有精确当时满血板；保原显示不替作者造唯一血量。
+- 后证：1154
+
+## v06-local-chapter_unresolved_index-096-02
+
+- 原子项：控制20%是本战估算非固定全怪值。
+- 完整原记录：{"chapter_id": "ch-1154", "items": ["伤害和‘60%’近似、用近140万不能做精确百分比；控制20%是本战估算非固定全怪值。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：control-chance-target-specific
+- 理由：约20%网缚为本战感受，前低级敌/别王有不同结果，不推广成所有怪统一20%命中。
+- 后证：1154
+
+## v06-local-chapter_unresolved_index-097-01
+
+- 原子项：副本拾绑由谁能收装备的叙述与分配按场景，不推可交易外人
+- 完整原记录：{"chapter_id": "ch-1155", "items": ["副本拾绑由谁能收装备的叙述与分配按场景，不推可交易外人；马铁未鉴未镶。", "麒麟石旧取法是陆回忆未本人读前卷，不回灌。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：dungeon-loot-scope
+- 理由：队内实际分给何/林的拾绑物按副本共享场景存，不推出能卖外人；没有交易违规系统回执也不补违规。
+- 后证：1155
+
+## v06-local-chapter_unresolved_index-097-02
+
+- 原子项：马铁未鉴未镶。
+- 完整原记录：{"chapter_id": "ch-1155", "items": ["副本拾绑由谁能收装备的叙述与分配按场景，不推可交易外人；马铁未鉴未镶。", "麒麟石旧取法是陆回忆未本人读前卷，不回灌。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：horseshoe-research-and-use
+- 理由：1155勇将马铁未鉴，1162莫娜研究复图/首铁给鬼，1164一万、1166斩神两万、1167量产装骑有回执。不能终点还写仅未知任务物。
+- 后证：1155, 1162, 1164, 1166, 1167
+
+## v06-local-chapter_unresolved_index-097-03
+
+- 原子项：麒麟石旧取法是陆回忆未本人读前卷，不回灌。
+- 完整原记录：{"chapter_id": "ch-1155", "items": ["副本拾绑由谁能收装备的叙述与分配按场景，不推可交易外人；马铁未鉴未镶。", "麒麟石旧取法是陆回忆未本人读前卷，不回灌。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：reader-attribution-old-method
+- 理由：麒麟石旧取法在当章为陆回忆，未追加本审原文阅读计数；项目其他卷派生材料可衔接，但不能反写本人读过所有旧原章。
+- 后证：1155
+
+## v06-local-chapter_unresolved_index-098-01
+
+- 原子项：关闭返生是本次愿意受死重置，不推玩家可任意开关不死身。
+- 完整原记录：{"chapter_id": "ch-1156", "items": ["关闭返生是本次愿意受死重置，不推玩家可任意开关不死身。", "S3未通/首交未完/资源赌未结；本次队友经验损是否掉级未面板确认。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：situational-revival-choice
+- 理由：关闭返生为这次愿受死重置的策略，不据此推出玩家可自由控制随机不死身；真死与免费复生在1157/1160明分。
+- 后证：1156, 1157, 1160
+
+## v06-local-chapter_unresolved_index-098-02
+
+- 原子项：S3未通/首交未完/资源赌未结
+- 完整原记录：{"chapter_id": "ch-1156", "items": ["关闭返生是本次愿意受死重置，不推玩家可任意开关不死身。", "S3未通/首交未完/资源赌未结；本次队友经验损是否掉级未面板确认。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：dungeon-reward-vs-wager-delivery
+- 理由：1160S3实际通、1161首交奖已兑，只有资源赌商队/收货仍未见；不能把任务两百万金币奖励当战天交赌资源。
+- 后证：1156, 1160, 1161
+
+## v06-local-chapter_unresolved_index-098-03
+
+- 原子项：本次队友经验损是否掉级未面板确认。
+- 完整原记录：{"chapter_id": "ch-1156", "items": ["关闭返生是本次愿意受死重置，不推玩家可任意开关不死身。", "S3未通/首交未完/资源赌未结；本次队友经验损是否掉级未面板确认。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：later-level-loss-account
+- 理由：1156本次队友是否即刻掉级未面板，1160结算五人四灭各掉两级，给全程损失后证；仍不分配每次哪一半级已跨级。
+- 后证：1156, 1160
+
+## v06-local-chapter_unresolved_index-099-01
+
+- 原子项：三死统计与前单次叙述可能包含关系不精加总
+- 完整原记录：{"chapter_id": "ch-1157", "items": ["三死统计与前单次叙述可能包含关系不精加总；只列明确2免费1损。", "旧烈焰卡500min与全流程>10h续卡未逐次数示，卡剩量不自造。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：death-count-overlap
+- 理由：1157三次死亡可能与此前单死包含，不能再加成四或更多；1160全程七八次为总叙而非每次列明清册，保范围。
+- 后证：1157, 1160
+
+## v06-local-chapter_unresolved_index-099-02
+
+- 原子项：只列明确2免费1损。
+- 完整原记录：{"chapter_id": "ch-1157", "items": ["三死统计与前单次叙述可能包含关系不精加总；只列明确2免费1损。", "旧烈焰卡500min与全流程>10h续卡未逐次数示，卡剩量不自造。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：free-vs-costly-revival
+- 理由：1157明确两次不死免费、一次真经验损按原层记，不用‘死三次’自动扣三次等级；后来升级不抹实际损耗。
+- 后证：1157
+
+## v06-local-chapter_unresolved_index-099-03
+
+- 原子项：旧烈焰卡500min与全流程>10h续卡未逐次数示，卡剩量不自造。
+- 完整原记录：{"chapter_id": "ch-1157", "items": ["三死统计与前单次叙述可能包含关系不精加总；只列明确2免费1损。", "旧烈焰卡500min与全流程>10h续卡未逐次数示，卡剩量不自造。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：consumable-renewal-ledger
+- 理由：烈焰卡500分钟而全程十多小时，未逐次示续卡/库存；不擅延长一张永久生效或补用卡数量。
+- 后证：1157
+
+## v06-local-chapter_unresolved_index-100-01
+
+- 原子项：本章学生400/500概数差保原口径
+- 完整原记录：{"chapter_id": "ch-1158", "items": ["本章学生400/500概数差保原口径；勇将卡售价与财团需求是陆市场判断未收款。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：source-monster-count
+- 理由：学生约400又500余，可能批次/近数但未界清；不精算全区经验和掉落率，也不静改其中一数。
+- 后证：1158
+
+## v06-local-chapter_unresolved_index-100-02
+
+- 原子项：勇将卡售价与财团需求是陆市场判断未收款。
+- 完整原记录：{"chapter_id": "ch-1158", "items": ["本章学生400/500概数差保原口径；勇将卡售价与财团需求是陆市场判断未收款。"], "reader": "zongheng_vol05_full"}
+- 终点：unrecovered；领域：estimated-card-sale
+- 理由：勇将卡估100金币及财团需求未见实际出售结算；非绑定可售不等已成交，后别物入账不清此潜在收益。
+- 后证：1158
+
+## v06-local-chapter_unresolved_index-101-01
+
+- 原子项：林纳上古毁院为介绍史料，未合当下现身
+- 完整原记录：{"chapter_id": "ch-1159", "items": ["林纳上古毁院为介绍史料，未合当下现身；斗气风/志风一次近误写不多技能。", "陆想学盾仍未得到书。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：item-history-not-current-appearance
+- 理由：林纳上古毁院为Boss介绍史料，非1159现场现身；后来他在1456等登场是新场景，不倒改此处。
+- 后证：1159, 1456
+
+## v06-local-chapter_unresolved_index-101-02
+
+- 原子项：斗气风/志风一次近误写不多技能。
+- 完整原记录：{"chapter_id": "ch-1159", "items": ["林纳上古毁院为介绍史料，未合当下现身；斗气风/志风一次近误写不多技能。", "陆想学盾仍未得到书。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：skill-name-disambiguation
+- 理由：斗气罡风/志风近词异文按同一上下文技能映射，1160实际得书学的是斗气罡风，不新增另一盾技。
+- 后证：1159, 1160
+
+## v06-local-chapter_unresolved_index-101-03
+
+- 原子项：陆想学盾仍未得到书。
+- 完整原记录：{"chapter_id": "ch-1159", "items": ["林纳上古毁院为介绍史料，未合当下现身；斗气风/志风一次近误写不多技能。", "陆想学盾仍未得到书。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：skill-book-later-learned
+- 理由：1159想学未得，1160林拾得书给陆、陆真实学并开启盾、林全体模式冰焰试掉7%韧，愿望有实际结果。
+- 后证：1159, 1160
+
+## v06-local-chapter_unresolved_index-102-01
+
+- 原子项：学书消耗有需求且实际学，当前精确余额面板未报
+- 完整原记录：{"chapter_id": "ch-1160", "items": ["学书消耗有需求且实际学，当前精确余额面板未报；不自从旧rep扣出账。", "盾CD30min是由三次估测，不能直接当玩家冷却；单挑无敌是角色夸口。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：learning-cost-and-unshown-balance
+- 理由：1160书有声望/幸运需求且已学，未报学后精确余额；只存学习支出事实，不能从旧面板忽略其间收入自扣成唯一现值。
+- 后证：1160
+
+## v06-local-chapter_unresolved_index-102-02
+
+- 原子项：不自从旧rep扣出账。
+- 完整原记录：{"chapter_id": "ch-1160", "items": ["学书消耗有需求且实际学，当前精确余额面板未报；不自从旧rep扣出账。", "盾CD30min是由三次估测，不能直接当玩家冷却；单挑无敌是角色夸口。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：balance-not-reconstructible-from-old-panel
+- 理由：旧rep面板与此时学习间多任务奖励，资料不全不可单减；此answered为不伪造实时余额的记账约束，不宣成本为零。
+- 后证：1160, 1161
+
+## v06-local-chapter_unresolved_index-102-03
+
+- 原子项：盾CD30min是由三次估测，不能直接当玩家冷却
+- 完整原记录：{"chapter_id": "ch-1160", "items": ["学书消耗有需求且实际学，当前精确余额面板未报；不自从旧rep扣出账。", "盾CD30min是由三次估测，不能直接当玩家冷却；单挑无敌是角色夸口。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：boss-cooldown-not-player-cooldown
+- 理由：三次约30分钟是Boss盾再开观察，玩家得技后要依自身说明/操作，不直接移植成玩家CD；不能由学会断定BOSS整套数值继承。
+- 后证：1159, 1160
+
+## v06-local-chapter_unresolved_index-102-04
+
+- 原子项：单挑无敌是角色夸口。
+- 完整原记录：{"chapter_id": "ch-1160", "items": ["学书消耗有需求且实际学，当前精确余额面板未报；不自从旧rep扣出账。", "盾CD30min是由三次估测，不能直接当玩家冷却；单挑无敌是角色夸口。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：invincibility-boast-counterevidence
+- 理由：单挑无敌为陆夸口，后1165泪仍能控其/退、末龙战多死需心伞，未成为永不败的系统保证。
+- 后证：1160, 1165, 1293
+
+## v06-local-chapter_unresolved_index-103-01
+
+- 原子项：卡里安瞬净是命令未展示完成，‘瘟疫无人可解’卡琳当下判断不扩为全世界永恒法则。
+- 完整原记录：{"chapter_id": "ch-1161", "items": ["卡里安瞬净是命令未展示完成，‘瘟疫无人可解’卡琳当下判断不扩为全世界永恒法则。", "未见战天资源商队出发/收货。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：npc-purification-order-vs-execution
+- 理由：卡里安笼被抬下/令圣术士净化不是现场已执行死亡；瘟疫无人可解是卡琳当下判断，缺卡里安最终回执，不扩大为世界永恒无解。
+- 后证：1161
+
+## v06-local-chapter_unresolved_index-103-02
+
+- 原子项：未见战天资源商队出发/收货。
+- 完整原记录：{"chapter_id": "ch-1161", "items": ["卡里安瞬净是命令未展示完成，‘瘟疫无人可解’卡琳当下判断不扩为全世界永恒法则。", "未见战天资源商队出发/收货。"], "reader": "zongheng_vol05_full"}
+- 终点：unrecovered；领域：resource-wager-shipment
+- 理由：1161仍无商队出发/收货，1167/1169亦未给，后1341另赌与他会法师训练不可清账。胜赌和承诺次晨运是已成，货真正到库未独立回收。
+- 后证：1151, 1160, 1161, 1167, 1341
+
+## v06-local-chapter_unresolved_index-104-01
+
+- 原子项：口头材料一处简写漏10份，按完整NPC说明保10不强抹源。
+- 完整原记录：{"chapter_id": "ch-1162", "items": ["口头材料一处简写漏10份，按完整NPC说明保10不强抹源。", "‘勇者/勇将/马蹄特’上下近笔误保同物映射，非额外装备。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：source-material-quantity
+- 理由：完整NPC配方黑曜铁10份、水晶1份，口头简写漏10保原异述；生产实际按图成立，但无作者统一勘误，不抹简写。
+- 后证：1162, 1164
+
+## v06-local-chapter_unresolved_index-104-02
+
+- 原子项：‘勇者/勇将/马蹄特’上下近笔误保同物映射，非额外装备。
+- 完整原记录：{"chapter_id": "ch-1162", "items": ["口头材料一处简写漏10份，按完整NPC说明保10不强抹源。", "‘勇者/勇将/马蹄特’上下近笔误保同物映射，非额外装备。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：source-item-near-names
+- 理由：勇者/勇将/马蹄特为同工艺物近词，图谱/材料/装骑承接同一马铁，不另造三种装备或多收成本。
+- 后证：1162
+
+## v06-local-chapter_unresolved_index-105-01
+
+- 原子项：录像琥珀一定看/恨为陆推，未实际观看证。
+- 完整原记录：{"chapter_id": "ch-1163", "items": ["录像琥珀一定看/恨为陆推，未实际观看证。", "八万战死非归零/永久死，守尸后最终撤/等级未知。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：inferred-reaction-not-observed-viewing
+- 理由：琥必看录像/更恨陆是陆推，没实际观看或本人承认；后来再敌对只证敌对，不反证看过该录像。
+- 后证：1163
+
+## v06-local-chapter_unresolved_index-105-02
+
+- 原子项：八万战死非归零/永久死，守尸后最终撤/等级未知。
+- 完整原记录：{"chapter_id": "ch-1163", "items": ["录像琥珀一定看/恨为陆推，未实际观看证。", "八万战死非归零/永久死，守尸后最终撤/等级未知。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：ordinary-player-death-and-camping
+- 理由：1163紫枫八万本轮全死且守尸，不是归零区/永久删除；后阵营继续存在不能补这次撤离/最终等级全表。
+- 后证：1163
+
+## v06-local-chapter_unresolved_index-106-01
+
+- 原子项：首10min1500放不下与堆叠物品包占不精算
+- 完整原记录：{"chapter_id": "ch-1164", "items": ["首10min1500放不下与堆叠物品包占不精算；同一万两次完时间叙述保漂移。", "S4不急经逸同意推迟，不写已取消或已做；她未来不缺神器判断非所有S7绝对属性事实。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：source-stack-and-capacity
+- 理由：1500马铁十分钟产出与包格/堆叠细节未齐，不能按普通装备一件一格硬断装不下，也不能自造叠加上限。
+- 后证：1164
+
+## v06-local-chapter_unresolved_index-106-02
+
+- 原子项：同一万两次完时间叙述保漂移。
+- 完整原记录：{"chapter_id": "ch-1164", "items": ["首10min1500放不下与堆叠物品包占不精算；同一万两次完时间叙述保漂移。", "S4不急经逸同意推迟，不写已取消或已做；她未来不缺神器判断非所有S7绝对属性事实。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：source-production-duration
+- 理由：同一万完成被两次时段描述，缺共同起算；实际一万已镶可记，但不静改成唯一产速/总耗时。
+- 后证：1164
+

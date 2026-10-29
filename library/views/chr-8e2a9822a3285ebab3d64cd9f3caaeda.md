@@ -1,0 +1,92 @@
+# 上古冉闵／武悼天王（NPC）｜卷三阶段
+
+ID: `chr-8e2a9822a3285ebab3d64cd9f3caaeda` · 版本: 1 · 范围: source-analysis
+
+城防强援、掩护霜，败城双腿碎仍活；后断凌寒臂被轰飞未判死。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-8e2a9822a3285ebab3d64cd9f3caaeda",
+  "asset_type": "character",
+  "content": {
+    "claim_kind": "inference",
+    "decision_pattern": "护人和杀敌并有自责",
+    "goal": "履守护之誓",
+    "limitations": "伤重疗腿过程未显示，不造复活事件",
+    "relationship_direction": "与玩家老K同名不同实体；暂受李青萝照护",
+    "stage_change": "588被掀石救活，601参与仍伤/后态待",
+    "summary": "城防强援、掩护霜，败城双腿碎仍活；后断凌寒臂被轰飞未判死。",
+    "valid_at": "raw0505—0753卷末，非全书终点"
+  },
+  "created_at": "2026-10-25T20:23:25.019957+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0559",
+      "claim_kind": "fact",
+      "end_line": 45116,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 45056
+    },
+    {
+      "chapter_id": "ch-0568",
+      "claim_kind": "fact",
+      "end_line": 45764,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 45713
+    },
+    {
+      "chapter_id": "ch-0572",
+      "claim_kind": "fact",
+      "end_line": 46037,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 45967
+    },
+    {
+      "chapter_id": "ch-0588",
+      "claim_kind": "fact",
+      "end_line": 47348,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 47283
+    },
+    {
+      "chapter_id": "ch-0589",
+      "claim_kind": "fact",
+      "end_line": 47414,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 47349
+    },
+    {
+      "chapter_id": "ch-0601",
+      "claim_kind": "fact",
+      "end_line": 48225,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 48149
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/npcmin",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "上古冉闵／武悼天王（NPC）｜卷三阶段",
+  "updated_at": "2026-10-25T20:23:25.020957+00:00",
+  "user_notes": ""
+}
+
+```

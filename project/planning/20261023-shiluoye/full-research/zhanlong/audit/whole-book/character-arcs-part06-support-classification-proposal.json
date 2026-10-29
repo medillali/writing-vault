@@ -1,0 +1,24 @@
+{
+  "status": "proposal_pending_primary_not_applied",
+  "scope": "仅wrapper依赖分类，不删依赖、不改人物/MD/其他wrapper",
+  "input_sha256": {
+    "character-arcs-part06.json": "1db6a17252d8e0fb164dd20c16ae3184077f7fc66ae6825c60dbcaa949e74714",
+    "character-arcs-part06.md": "1db542ad04da323746cfc7f14e594645bc48110da36b60f25d78d1f53746c453"
+  },
+  "changes": [
+    {
+      "operation": "move_key_same_path_same_sha256",
+      "from_path": [
+        "formal_input_sha256",
+        ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/local-question-pool.json"
+      ],
+      "to_path": [
+        "additional_support_sha256",
+        ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/local-question-pool.json"
+      ],
+      "before": "0e54250c187f1d914ea48df565074e3767075446eaf40e902ff53522910736fb",
+      "proposed_after": "0e54250c187f1d914ea48df565074e3767075446eaf40e902ff53522910736fb"
+    }
+  ],
+  "rationale": "formal_input供可恢复正式文件验收，stage池为当时派生支持快照；同键同SHA迁到additional_support，保历史证据而不要求恢复时旧planning树存在。"
+}

@@ -1,0 +1,88 @@
+# 贼胆｜糖糖｜E0231
+
+ID: `chr-zeidan-legacy-e0231` · 版本: 1 · 范围: source-analysis
+
+十三岁地精奥术法师，神佑之女，女神赐福与好装备；拒萧御让赛，坚持正面赢。；熟练用哥哥教的固定招数与缩小器，但招数用尽不知道下步而认输。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0231",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "中：强敌后反转与炎神身份引线",
+    "facts": [
+      "十三岁地精奥术法师，神佑之女，女神赐福与好装备；拒萧御让赛，坚持正面赢。",
+      "熟练用哥哥教的固定招数与缩小器，但招数用尽不知道下步而认输。",
+      "哥哥炎神因其难赢冠军、次等奖无用让其退出决赛。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0231",
+    "maintenance_depth": "高：自尊、童真与能力边界",
+    "name": "糖糖",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0231",
+    "relations": [
+      {
+        "target": "炎神",
+        "type": "哥哥与战术教师"
+      },
+      {
+        "target": "艾斐尔",
+        "type": "称姐姐的神灵"
+      }
+    ],
+    "source_anomalies": [
+      "442 L27429自报十三岁，448 L27843写十四岁，未消解。"
+    ],
+    "summary": "十三岁地精奥术法师，神佑之女，女神赐福与好装备；拒萧御让赛，坚持正面赢。；熟练用哥哥教的固定招数与缩小器，但招数用尽不知道下步而认输。",
+    "user_feedback": null,
+    "worker_part": "part-d"
+  },
+  "created_at": "2026-10-22T17:03:13.442877+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0443",
+      "claim_kind": "fact",
+      "end_line": 27470,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27405
+    },
+    {
+      "chapter_id": "ch-0444",
+      "claim_kind": "fact",
+      "end_line": 27528,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27471
+    },
+    {
+      "chapter_id": "ch-0449",
+      "claim_kind": "fact",
+      "end_line": 27880,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27805
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0231",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-d"
+  ],
+  "title": "贼胆｜糖糖｜E0231",
+  "updated_at": "2026-10-22T17:03:13.445875+00:00",
+  "user_notes": ""
+}
+
+```

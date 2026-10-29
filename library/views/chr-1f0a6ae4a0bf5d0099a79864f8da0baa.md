@@ -1,0 +1,105 @@
+# 月光石
+
+ID: `chr-1f0a6ae4a0bf5d0099a79864f8da0baa` · 版本: 1 · 范围: source-analysis
+
+古剑法师与二队成员；1573问横向推进战术并带法团；1591二队五人名单包括她，1592现实探视。阶段：古剑二队持续征程成员身份由鬼说，最终冠军杯由李持；未逐人展示奖品和奖金入账
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-1f0a6ae4a0bf5d0099a79864f8da0baa",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "choices": [
+      "1573问横向推进战术并带法团；1591二队五人名单包括她，1592现实探视"
+    ],
+    "claim_kind": "fact",
+    "constraints": [
+      "不同阵容分工/神级本体条件不可由队名推全知"
+    ],
+    "goals": [
+      "组织圣魔法师火力与竞技贡献"
+    ],
+    "knowledge_boundary": "本卡事实限定卷八对应时点；前段原文由primary阅读，后段由本代理阅读，未明终态不凭全体概述补齐。",
+    "relationships": [],
+    "role": "古剑法师与二队成员",
+    "stage_change": "古剑二队持续征程成员身份由鬼说，最终冠军杯由李持；未逐人展示奖品和奖金入账",
+    "summary": "古剑法师与二队成员；1573问横向推进战术并带法团；1591二队五人名单包括她，1592现实探视。阶段：古剑二队持续征程成员身份由鬼说，最终冠军杯由李持；未逐人展示奖品和奖金入账"
+  },
+  "created_at": "2026-10-25T00:16:54.935222+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1573",
+      "claim_kind": "fact",
+      "end_line": 124769,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 124690
+    },
+    {
+      "chapter_id": "ch-1587",
+      "claim_kind": "fact",
+      "end_line": 125842,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 125762
+    },
+    {
+      "chapter_id": "ch-1591",
+      "claim_kind": "fact",
+      "end_line": 126189,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 126119
+    },
+    {
+      "chapter_id": "ch-1593",
+      "claim_kind": "fact",
+      "end_line": 126354,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 126272
+    },
+    {
+      "chapter_id": "ch-1608",
+      "claim_kind": "fact",
+      "end_line": 127562,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 127484
+    },
+    {
+      "chapter_id": "ch-1609",
+      "claim_kind": "fact",
+      "end_line": 127662,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 127563
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol08/character/moonstone",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷八:天下无双"
+  ],
+  "title": "月光石",
+  "updated_at": "2026-10-25T00:16:54.936221+00:00",
+  "user_notes": ""
+}
+
+```

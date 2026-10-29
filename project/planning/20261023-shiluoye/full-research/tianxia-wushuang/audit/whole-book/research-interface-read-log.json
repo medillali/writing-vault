@@ -1,0 +1,498 @@
+{
+  "scope": "只记实际读到的派生研究接口字段，不是小说全文阅读账本。原小说本人亲读卷五和卷七；其他接口属各分卷读者贡献。",
+  "input_hash_manifest": "input-inventory.json",
+  "completed_fields": [
+    {
+      "volume": 1,
+      "interface": "analysis.open_questions plus graph.threads original records",
+      "range": [
+        0,
+        18
+      ],
+      "complete": true
+    },
+    {
+      "volume": 2,
+      "interface": "analysis.open_questions plus graph.threads original records",
+      "range": [
+        0,
+        26
+      ],
+      "complete": true
+    },
+    {
+      "volume": 3,
+      "interface": "analysis.open_questions plus graph.threads original records",
+      "range": [
+        0,
+        14
+      ],
+      "complete": true
+    },
+    {
+      "volume": 4,
+      "interface": "analysis.open_questions plus graph.threads original records",
+      "range": [
+        0,
+        22
+      ],
+      "complete": true
+    },
+    {
+      "volume": 5,
+      "interface": "analysis.open_questions plus graph.threads original records",
+      "range": [
+        0,
+        43
+      ],
+      "complete": true
+    },
+    {
+      "volume": 6,
+      "interface": "analysis.open_questions plus graph.threads original records",
+      "range": [
+        0,
+        26
+      ],
+      "complete": true
+    },
+    {
+      "volume": 7,
+      "interface": "analysis.open_questions plus graph.threads original records",
+      "range": [
+        0,
+        52
+      ],
+      "complete": true
+    },
+    {
+      "volume": 8,
+      "interface": "analysis.open_questions plus graph.threads original records",
+      "range": [
+        0,
+        13
+      ],
+      "complete": true
+    },
+    {
+      "volume": 8,
+      "interface": "analysis.character_states",
+      "range": [
+        0,
+        35
+      ],
+      "complete": true
+    },
+    {
+      "volume": 8,
+      "interface": "chapter-notes full four-column derived research",
+      "range": [
+        0,
+        105
+      ],
+      "complete": true
+    },
+    {
+      "volume": 6,
+      "interface": "analysis.character_states",
+      "range": [
+        0,
+        48
+      ],
+      "complete": true
+    },
+    {
+      "volume": 6,
+      "interface": "chapter-notes full four-column derived research",
+      "range": [
+        0,
+        12
+      ],
+      "complete": false
+    },
+    {
+      "volume": 6,
+      "interface": "chapter-notes full four-column derived research",
+      "range": [
+        135,
+        144
+      ],
+      "complete": false
+    },
+    {
+      "volume": 6,
+      "interface": "chapter-notes full four-column derived research",
+      "range": [
+        212,
+        215
+      ],
+      "complete": false
+    },
+    {
+      "volume": 7,
+      "interface": "chapter-notes full four-column research reread",
+      "range": [
+        2,
+        211
+      ],
+      "complete": true
+    },
+    {
+      "volume": 7,
+      "interface": "local candidates complete original records and atomic titles",
+      "range": [
+        0,
+        476
+      ],
+      "complete": true
+    }
+  ],
+  "truncation_handling": "首次多接口合并输出有裁切，已用只保全部语义字段/简写证据章节ID的格式重新完整输出卷一/二历史及卷八13线；没有把裁切部分记为已读。；最近晚段关键词notes合并输出在战痕/十月段裁切，已单独完整输出补读两词末三章；未以裁切输出登记完整。",
+  "not_personal_full_book_rereading": true,
+  "in_progress_fields": [],
+  "mechanical_scope_supplement": "卷一/三/八notes未明栏1291追加ID已保留。v1/v3由agent3独立完成995裁定、v8由本代理完成296；这不冒称本代理亲读v1/v3整卷原文或每条notes。实际主审以primary签表逐组SHA为准。",
+  "targeted_interfaces": [
+    {
+      "path": "cross-volume-focused-review.json",
+      "scope": "20 findings plus all attribution and source locators read in full"
+    },
+    {
+      "volume": 7,
+      "interface": "novel full chapter reread",
+      "chapter_id": "ch-1295",
+      "start_line": 103170,
+      "end_line": 103249,
+      "purpose": "九君王杀奖与龙心SS交付分开；此前本人已全读，不新增整卷实读计数"
+    },
+    {
+      "volume": 7,
+      "interface": "novel full chapter reread",
+      "chapter_id": "ch-1389",
+      "start_line": 110229,
+      "end_line": 110303,
+      "purpose": "核无火麒麟实骑镜头，明确实骑后证在1407；此前本人已全读，不新增整卷实读计数"
+    },
+    {
+      "volume": 7,
+      "interface": "novel full chapter reread",
+      "chapter_id": "ch-1427",
+      "start_line": 112979,
+      "end_line": 113051,
+      "purpose": "明确弓复活例外与吕布衣持隐龙扇；此前本人已全读，不新增整卷实读计数"
+    },
+    {
+      "volume": 7,
+      "interface": "novel full chapter reread",
+      "chapter_id": "ch-1440",
+      "start_line": 114038,
+      "end_line": 114109,
+      "purpose": "作者明确纠阳坐骑墨麒麟为笔误；此前本人已全读，不新增整卷实读计数"
+    },
+    {
+      "volume": 7,
+      "interface": "novel full chapter reread",
+      "chapter_id": "ch-1471",
+      "start_line": 116504,
+      "end_line": 116588,
+      "purpose": "缴械15秒与非缴械15秒轮换；此前本人已全读，不新增整卷实读计数"
+    },
+    {
+      "volume": 1,
+      "interface": "novel full chapter targeted audit reading",
+      "chapter_id": "ch-0039",
+      "start_line": 3759,
+      "end_line": 3833,
+      "purpose": "姓名/施为者/事件阶段定向复核，BEGIN-END输出完整；只此章，不冒整卷重读。"
+    },
+    {
+      "volume": 1,
+      "interface": "novel full chapter targeted audit reading",
+      "chapter_id": "ch-0042",
+      "start_line": 4016,
+      "end_line": 4119,
+      "purpose": "姓名/施为者/事件阶段定向复核，BEGIN-END输出完整；只此章，不冒整卷重读。"
+    },
+    {
+      "volume": 5,
+      "interface": "novel full chapter targeted audit reading",
+      "chapter_id": "ch-0889",
+      "start_line": 73421,
+      "end_line": 73508,
+      "purpose": "姓名/施为者/事件阶段定向复核，BEGIN-END输出完整；只此章，不冒整卷重读。"
+    },
+    {
+      "volume": 5,
+      "interface": "novel full chapter targeted audit reading",
+      "chapter_id": "ch-0986",
+      "start_line": 80940,
+      "end_line": 80997,
+      "purpose": "姓名/施为者/事件阶段定向复核，BEGIN-END输出完整；只此章，不冒整卷重读。"
+    },
+    {
+      "volume": 5,
+      "interface": "novel full chapter targeted audit reading",
+      "chapter_id": "ch-0987",
+      "start_line": 80998,
+      "end_line": 81073,
+      "purpose": "姓名/施为者/事件阶段定向复核，BEGIN-END输出完整；只此章，不冒整卷重读。"
+    },
+    {
+      "volume": 6,
+      "interface": "novel full chapter targeted audit reading",
+      "chapter_id": "ch-1082",
+      "start_line": 87748,
+      "end_line": 87812,
+      "purpose": "姓名/施为者/事件阶段定向复核，BEGIN-END输出完整；只此章，不冒整卷重读。"
+    },
+    {
+      "volume": 6,
+      "interface": "novel full chapter targeted audit reading",
+      "chapter_id": "ch-1147",
+      "start_line": 92613,
+      "end_line": 92687,
+      "purpose": "姓名/施为者/事件阶段定向复核，BEGIN-END输出完整；只此章，不冒整卷重读。"
+    },
+    {
+      "volume": 6,
+      "interface": "novel full chapter targeted audit reading",
+      "chapter_id": "ch-1268",
+      "start_line": 101248,
+      "end_line": 101323,
+      "purpose": "姓名/施为者/事件阶段定向复核，BEGIN-END输出完整；只此章，不冒整卷重读。"
+    },
+    {
+      "volume": 7,
+      "interface": "novel full chapter targeted audit reading",
+      "chapter_id": "ch-1299",
+      "start_line": 103488,
+      "end_line": 103544,
+      "purpose": "姓名/施为者/事件阶段定向复核，BEGIN-END输出完整；只此章，不冒整卷重读。"
+    },
+    {
+      "volume": 7,
+      "interface": "novel full chapter targeted audit reading",
+      "chapter_id": "ch-1367",
+      "start_line": 108548,
+      "end_line": 108647,
+      "purpose": "姓名/施为者/事件阶段定向复核，BEGIN-END输出完整；只此章，不冒整卷重读。"
+    },
+    {
+      "volume": 7,
+      "interface": "novel full chapter targeted audit reading",
+      "chapter_id": "ch-1368",
+      "start_line": 108648,
+      "end_line": 108756,
+      "purpose": "姓名/施为者/事件阶段定向复核，BEGIN-END输出完整；只此章，不冒整卷重读。"
+    },
+    {
+      "volume": 7,
+      "interface": "novel full chapter targeted audit reading",
+      "chapter_id": "ch-1380",
+      "start_line": 109610,
+      "end_line": 109675,
+      "purpose": "姓名/施为者/事件阶段定向复核，BEGIN-END输出完整；只此章，不冒整卷重读。"
+    },
+    {
+      "path": "local-v06-review/note-1117-mother-attribution-overlay-proposal.json",
+      "interface": "complete-correction-proposal-before-after-and-source-attribution-read",
+      "scope": "本代理完整读取1117纠正提案、四指针和before/after；原章本轮全文回读归agent5及primary，不计本代理亲读。"
+    }
+  ],
+  "character_state_interfaces": {
+    "status": "all_eight_character_state_fields_read",
+    "reader": "/root/zongheng_vol04_full",
+    "source_scope": "仅各卷人物状态接口；本代理原文亲读卷五/七，不宣称亲读其他卷全文。",
+    "interfaces": [
+      {
+        "volume": 1,
+        "field": "major_character_states",
+        "count": 20,
+        "indices_read": [
+          0,
+          20
+        ],
+        "field_semantics_read_in_full": true,
+        "input_sha256": "3c344053c5e8624fe263e760c5338980d784f730921ae790e9d2d2156ed2a77f",
+        "access_kind": "formal-derived-interface-reading",
+        "not_novel_full_reread": true
+      },
+      {
+        "volume": 2,
+        "field": "major_character_states",
+        "count": 28,
+        "indices_read": [
+          0,
+          28
+        ],
+        "field_semantics_read_in_full": true,
+        "input_sha256": "9d4fa24895880c8d416d0a61396d64602960968d6cc976845ddacab782961212",
+        "access_kind": "formal-derived-interface-reading",
+        "not_novel_full_reread": true
+      },
+      {
+        "volume": 3,
+        "field": "characters",
+        "count": 23,
+        "indices_read": [
+          0,
+          23
+        ],
+        "field_semantics_read_in_full": true,
+        "input_sha256": "d541e96bf61c47337d0008cc4fcf5042b3dd3815cb42a52717dac719e512d2e7",
+        "access_kind": "formal-derived-interface-reading",
+        "not_novel_full_reread": true
+      },
+      {
+        "volume": 4,
+        "field": "character_states",
+        "count": 30,
+        "indices_read": [
+          0,
+          30
+        ],
+        "field_semantics_read_in_full": true,
+        "input_sha256": "8b2067a3d64f4a9ba771a30155fd668aef6601bdc4c1b7301937636c7e79a549",
+        "access_kind": "formal-derived-interface-reading",
+        "not_novel_full_reread": true
+      },
+      {
+        "volume": 5,
+        "field": "major_character_states",
+        "count": 46,
+        "indices_read": [
+          0,
+          46
+        ],
+        "field_semantics_read_in_full": true,
+        "input_sha256": "d3b0e431a0a622e0a1efe0f8f95c2e854ddbd4b5c38f343e342c1705afb4638b",
+        "access_kind": "formal-derived-interface-reading",
+        "not_novel_full_reread": true
+      },
+      {
+        "volume": 6,
+        "field": "character_states",
+        "count": 48,
+        "indices_read": [
+          0,
+          48
+        ],
+        "field_semantics_read_in_full": true,
+        "input_sha256": "02064f7d7ff0a47602ba5676dc697542db9a6dddf68e73ef14b5de807722039a",
+        "access_kind": "formal-derived-interface-reading",
+        "not_novel_full_reread": true
+      },
+      {
+        "volume": 7,
+        "field": "major_character_states",
+        "count": 65,
+        "indices_read": [
+          0,
+          65
+        ],
+        "field_semantics_read_in_full": true,
+        "input_sha256": "5aed431e426a75bd77361dbc110e0bad9173fc71825be36f259bfb05a556d48f",
+        "access_kind": "formal-derived-interface-reading",
+        "not_novel_full_reread": true
+      },
+      {
+        "volume": 8,
+        "field": "character_states",
+        "count": 35,
+        "indices_read": [
+          0,
+          35
+        ],
+        "field_semantics_read_in_full": true,
+        "input_sha256": "390aa459e809f0d98f2fb44e29dc2a0895d57178cec74974ef2a227e009f1c66",
+        "access_kind": "formal-derived-interface-reading",
+        "not_novel_full_reread": true
+      }
+    ],
+    "total": 295
+  },
+  "additional_complete_targeted_note_reads": [
+    {
+      "volume": 2,
+      "raw_chapter_ids": [
+        "ch-0214",
+        "ch-0215",
+        "ch-0216"
+      ],
+      "access_kind": "full-four-column-derived-note-reading-not-full-novel-reread",
+      "input_sha256": "f331884051e1dff72c9a6fb8442d4d26caca7ca536325341be10334712d15236",
+      "reader": "/root/zongheng_vol04_full"
+    },
+    {
+      "volume": 4,
+      "raw_chapter_ids": [
+        "ch-0628",
+        "ch-0629",
+        "ch-0632",
+        "ch-0633",
+        "ch-0644",
+        "ch-0771",
+        "ch-0772"
+      ],
+      "access_kind": "full-four-column-derived-note-reading-not-full-novel-reread",
+      "input_sha256": "83a71c9335f52074064b751b728c2e790cde330923e6836e2674431cc5a4a48d",
+      "reader": "/root/zongheng_vol04_full"
+    },
+    {
+      "volume": 5,
+      "raw_chapter_ids": [
+        "ch-0888",
+        "ch-0889",
+        "ch-0890",
+        "ch-0943"
+      ],
+      "access_kind": "full-four-column-derived-note-reading-not-full-novel-reread",
+      "input_sha256": "7aee2e69453574efcc0306a6cd00dd268546fbe60368061a017a4df9febfad25",
+      "reader": "/root/zongheng_vol04_full"
+    },
+    {
+      "volume": 6,
+      "raw_chapter_ids": [
+        "ch-1086",
+        "ch-1087",
+        "ch-1098",
+        "ch-1145",
+        "ch-1146",
+        "ch-1165",
+        "ch-1185",
+        "ch-1194",
+        "ch-1199",
+        "ch-1202",
+        "ch-1209",
+        "ch-1212",
+        "ch-1215",
+        "ch-1216",
+        "ch-1219",
+        "ch-1221",
+        "ch-1239",
+        "ch-1257",
+        "ch-1258",
+        "ch-1259",
+        "ch-1260",
+        "ch-1261",
+        "ch-1262",
+        "ch-1263",
+        "ch-1264",
+        "ch-1265",
+        "ch-1266",
+        "ch-1267",
+        "ch-1268",
+        "ch-1269",
+        "ch-1270",
+        "ch-1271",
+        "ch-1272",
+        "ch-1273",
+        "ch-1290",
+        "ch-1291",
+        "ch-1293"
+      ],
+      "access_kind": "full-four-column-derived-note-reading-not-full-novel-reread",
+      "input_sha256": "21f98284ffc0e58a3b2dc55ab63804bc55722f1f3c322308975d40c4b5e3ddc4",
+      "reader": "/root/zongheng_vol04_full"
+    }
+  ]
+}

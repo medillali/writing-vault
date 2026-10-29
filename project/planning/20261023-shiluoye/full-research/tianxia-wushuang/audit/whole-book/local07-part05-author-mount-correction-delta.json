@@ -1,0 +1,56 @@
+{
+  "before_sha256": "37899728ef4ddf57d75ade35a722835741d824d2f64916cc3a357124412de267",
+  "after_sha256": "a5a8e2e1e8ed1b948a3d0f33d0c75504d3d4346ea584e47676ecebd7bc3fe5ed",
+  "unchanged_other_items": 58,
+  "deltas": [
+    {
+      "candidate_id": "v07-local-local_historical_questions-111-02",
+      "before": {
+        "candidate_id": "v07-local-local_historical_questions-111-02",
+        "status": "unknown",
+        "audit_domain": "mount-acquisition-route",
+        "rationale": "1404阳骑墨麟、1411又见踏云魔豹，文本没有完整取得或换骑过程；不能猜北境交付、借猪同骑型补为同一来源。",
+        "later_chapters": [
+          1404,
+          1411
+        ]
+      },
+      "after": {
+        "candidate_id": "v07-local-local_historical_questions-111-02",
+        "status": "answered",
+        "audit_domain": "mount-acquisition-route",
+        "rationale": "1440 L114048作者括号明确一抹阳光骑踏云魔豹，先前写墨麒麟纯属笔误、那是小小猪的坐骑；因此本项由源内明确纠错解决，不再编造取得/换骑过渡，也不把研究原观察抹去。",
+        "later_chapters": [
+          1404,
+          1411,
+          1440
+        ]
+      }
+    },
+    {
+      "candidate_id": "v07-local-local_historical_questions-118-02",
+      "before": {
+        "candidate_id": "v07-local-local_historical_questions-118-02",
+        "status": "unknown",
+        "audit_domain": "source-mount-transition",
+        "rationale": "墨麟与踏云魔豹阶段显示没有完整换骑说明，后骑乘事实不能补缺失过渡；不自行造购买、爆得或北境配给。",
+        "later_chapters": [
+          1404,
+          1411
+        ]
+      },
+      "after": {
+        "candidate_id": "v07-local-local_historical_questions-118-02",
+        "status": "answered",
+        "audit_domain": "source-mount-transition",
+        "rationale": "1440 L114048作者括号明确一抹阳光骑踏云魔豹，先前写墨麒麟纯属笔误、那是小小猪的坐骑；因此本项由源内明确纠错解决，不再编造取得/换骑过渡，也不把研究原观察抹去。",
+        "later_chapters": [
+          1404,
+          1411,
+          1440
+        ]
+      }
+    }
+  ],
+  "evidence_note": "本代理BEGIN-END完整重读raw1440，原文作者明确纠错。"
+}

@@ -1,0 +1,88 @@
+# 有效招法也会伤承载环境
+
+ID: `pat-06c0a5d06fa5527abaccfd7a8ebae757` · 版本: 1 · 范围: reusable-pattern
+
+胜利的工具可以制造下一场困难。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-06c0a5d06fa5527abaccfd7a8ebae757",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "强者置于有限空间或交通工具。",
+    "causal_steps": [
+      "提前展示工具高破坏力。",
+      "在脆弱载体上合理使用。",
+      "记录附带损坏。",
+      "用不同职业/日常物收拾后果。"
+    ],
+    "claim_kind": "synthesis",
+    "failure_mode": "附带后果若只为拖时间却无后续能力约束。",
+    "originality_transform": "原创可写消防高压切开舱门却损供氧，需要修补和共载逃生。",
+    "summary": "胜利的工具可以制造下一场困难。"
+  },
+  "created_at": "2026-10-25T00:01:47.680089+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-fb5e06d2414d51c79586a3f184744ad7",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-1b5ec4e05a93588893eb0b7b31d0f03f",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-1249",
+      "claim_kind": "synthesis",
+      "end_line": 99974,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 99890
+    },
+    {
+      "chapter_id": "ch-1250",
+      "claim_kind": "synthesis",
+      "end_line": 100065,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 99975
+    },
+    {
+      "chapter_id": "ch-1275",
+      "claim_kind": "synthesis",
+      "end_line": 101876,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 101806
+    },
+    {
+      "chapter_id": "ch-1276",
+      "claim_kind": "synthesis",
+      "end_line": 101945,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 101877
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/pattern/weapon-collateral",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:6",
+    "研究:全量九维"
+  ],
+  "title": "有效招法也会伤承载环境",
+  "updated_at": "2026-10-25T00:01:47.681089+00:00",
+  "user_notes": ""
+}
+
+```

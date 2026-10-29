@@ -1,0 +1,366 @@
+{
+  "status": "passed",
+  "reason": "root新后证860；本代理随后完整读原读者四栏notes确认20码新版实际可用，旧全屏删号形式禁用与后改版分层。",
+  "results": [
+    {
+      "batch": "01",
+      "changed_candidate_id": "v04-local-issue_log-030-01",
+      "unchanged_records": 59,
+      "historical_original_record_unchanged": true,
+      "before": {
+        "candidate_id": "v04-local-issue_log-030-01",
+        "volume": 4,
+        "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+        "original_field": "issue_log",
+        "original_index": 29,
+        "atomic_index": 0,
+        "original_record": {
+          "evidence": [
+            {
+              "chapter_id": "ch-0769",
+              "claim_kind": "fact",
+              "end_line": 64077,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 63937
+            },
+            {
+              "chapter_id": "ch-0774",
+              "claim_kind": "fact",
+              "end_line": 64525,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 64418
+            },
+            {
+              "chapter_id": "ch-0780",
+              "claim_kind": "fact",
+              "end_line": 65064,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 64981
+            }
+          ],
+          "id": "v04-issue-030",
+          "kind": "rules",
+          "observation": "769系统永久清号确实执行，774后经制度协商有限恢复，780仍不能再用；承认例外不改早观察。",
+          "state": "bounded",
+          "title": "神泣永久删号的例外"
+        },
+        "title": "769系统永久清号确实执行，774后经制度协商有限恢复，780仍不能再用",
+        "original_evidence": [
+          {
+            "chapter_id": "ch-0769",
+            "claim_kind": "fact",
+            "end_line": 64077,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 63937,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+          },
+          {
+            "chapter_id": "ch-0774",
+            "claim_kind": "fact",
+            "end_line": 64525,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 64418,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+          },
+          {
+            "chapter_id": "ch-0780",
+            "claim_kind": "fact",
+            "end_line": 65064,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 64981,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+          }
+        ],
+        "status": "answered",
+        "audit_domain": "deletion-executed-then-negotiated-limited-restoration",
+        "rationale": "769永久清号真实发生，774后经协商恢复为特殊制度例外，776面板1级并加回好友才是实际恢复补证；780禁再用神泣仍约束，不能写无限可删可还。",
+        "later_chapters": [
+          776
+        ],
+        "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0776",
+            "start_line": 64630,
+            "end_line": 64707,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+            "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+          }
+        ],
+        "reviewer": "/root/zongheng_vol05_full",
+        "review_status": "draft_for_primary_review"
+      },
+      "after": {
+        "candidate_id": "v04-local-issue_log-030-01",
+        "volume": 4,
+        "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+        "original_field": "issue_log",
+        "original_index": 29,
+        "atomic_index": 0,
+        "original_record": {
+          "evidence": [
+            {
+              "chapter_id": "ch-0769",
+              "claim_kind": "fact",
+              "end_line": 64077,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 63937
+            },
+            {
+              "chapter_id": "ch-0774",
+              "claim_kind": "fact",
+              "end_line": 64525,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 64418
+            },
+            {
+              "chapter_id": "ch-0780",
+              "claim_kind": "fact",
+              "end_line": 65064,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 64981
+            }
+          ],
+          "id": "v04-issue-030",
+          "kind": "rules",
+          "observation": "769系统永久清号确实执行，774后经制度协商有限恢复，780仍不能再用；承认例外不改早观察。",
+          "state": "bounded",
+          "title": "神泣永久删号的例外"
+        },
+        "title": "769系统永久清号确实执行，774后经制度协商有限恢复，780仍不能再用",
+        "original_evidence": [
+          {
+            "chapter_id": "ch-0769",
+            "claim_kind": "fact",
+            "end_line": 64077,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 63937,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+          },
+          {
+            "chapter_id": "ch-0774",
+            "claim_kind": "fact",
+            "end_line": 64525,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 64418,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+          },
+          {
+            "chapter_id": "ch-0780",
+            "claim_kind": "fact",
+            "end_line": 65064,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 64981,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+          }
+        ],
+        "status": "answered",
+        "audit_domain": "deletion-restoration-and-later-revised-god-cry",
+        "rationale": "769旧全屏神泣永久清号真实发生，774协商特许恢复、776面板1级/加好友补实际可玩证；780旧全屏形式不能再用。860林现场用20码水色剑新版神泣，并解释总部因联诉取消全屏删号改小群技；不能终点仍写所有神泣永禁。新版CD/神力耗未给，不补零代价或无限连放，亦不覆写旧删号。",
+        "later_chapters": [
+          776,
+          860
+        ],
+        "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0776",
+            "start_line": 64630,
+            "end_line": 64707,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+            "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0860",
+            "start_line": 71077,
+            "end_line": 71145,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+            "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+          }
+        ],
+        "reviewer": "/root/zongheng_vol05_full",
+        "review_status": "draft_for_primary_review"
+      },
+      "outputs": {
+        "adjudications-local-v04-part01.json": "b375785181ef7c92e444c24ea73c8ab76c295b7fdb4fb691a2e8ea91a65a5403",
+        "adjudications-local-v04-part01.md": "c466eda75c246f70b0febdf228330144a56986b3e02fc59696d16f9327ea43c7"
+      }
+    },
+    {
+      "batch": "06",
+      "changed_candidate_id": "v04-local-chapter_unresolved_index-170-02",
+      "unchanged_records": 59,
+      "historical_original_record_unchanged": true,
+      "before": {
+        "candidate_id": "v04-local-chapter_unresolved_index-170-02",
+        "volume": 4,
+        "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+        "original_field": "chapter_unresolved_index",
+        "original_index": 169,
+        "atomic_index": 1,
+        "original_record": {
+          "chapter_id": "ch-0776",
+          "items": [
+            "L64690说‘没有经验’上下文应装备，原错词保留。",
+            "神泣恢复后技能还在但本次是否可再用/代价未明，不据技能保留推无限神泣。"
+          ]
+        },
+        "title": "神泣恢复后技能还在但本次是否可再用/代价未明，不据技能保留推无限神泣。",
+        "original_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0776",
+            "start_line": 64630,
+            "end_line": 64707,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+          }
+        ],
+        "status": "answered",
+        "audit_domain": "retained-skill-icon-not-repeatable-god-cry",
+        "rationale": "780叙明逸再不能用神泣，794主约不再用而她当场未用亦不能当可无限重开。账号恢复保图标/技能与一次性权已耗分开，不能由保技能推出无代价再删再复。",
+        "later_chapters": [
+          780,
+          794
+        ],
+        "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0780",
+            "start_line": 64981,
+            "end_line": 65064,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+            "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0794",
+            "start_line": 65984,
+            "end_line": 66046,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+            "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+          }
+        ],
+        "reviewer": "/root/zongheng_vol05_full",
+        "review_status": "draft_for_primary_review"
+      },
+      "after": {
+        "candidate_id": "v04-local-chapter_unresolved_index-170-02",
+        "volume": 4,
+        "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+        "original_field": "chapter_unresolved_index",
+        "original_index": 169,
+        "atomic_index": 1,
+        "original_record": {
+          "chapter_id": "ch-0776",
+          "items": [
+            "L64690说‘没有经验’上下文应装备，原错词保留。",
+            "神泣恢复后技能还在但本次是否可再用/代价未明，不据技能保留推无限神泣。"
+          ]
+        },
+        "title": "神泣恢复后技能还在但本次是否可再用/代价未明，不据技能保留推无限神泣。",
+        "original_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0776",
+            "start_line": 64630,
+            "end_line": 64707,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+          }
+        ],
+        "status": "answered",
+        "audit_domain": "old-screenwide-ban-and-later-small-area-revision",
+        "rationale": "780不能再用指已耗尽的旧全屏删号形式，794主约不再用也非终点永久禁全部版本。860林现场实放20码水色剑神泣，说明昨日总部因王者之刃等联诉取消全屏删号改小群技；新版已可实用。改版原因保林解释、场景技能为实证，新CD/神力耗未给，不补无限频率或零代价，旧删号损失仍保。",
+        "later_chapters": [
+          780,
+          794,
+          860
+        ],
+        "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0780",
+            "start_line": 64981,
+            "end_line": 65064,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+            "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0794",
+            "start_line": 65984,
+            "end_line": 66046,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+            "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0860",
+            "start_line": 71077,
+            "end_line": 71145,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+            "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+          }
+        ],
+        "reviewer": "/root/zongheng_vol05_full",
+        "review_status": "draft_for_primary_review"
+      },
+      "outputs": {
+        "adjudications-local-v04-part06.json": "7c12a6a85dd89936629f2a9627c5caec134df76e7ac989a9f64dc62a51817df8",
+        "adjudications-local-v04-part06.md": "8d1b035ff006317e433fd56260771f8988988968ae50025fd026adee67221e34"
+      }
+    }
+  ]
+}

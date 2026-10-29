@@ -1,0 +1,401 @@
+{
+  "purpose": "仅定位/派生复核，root历史文件未改；检索不是原文阅读",
+  "inputs": [
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v01-batch001.json",
+      "sha256": "59ff688ceb3b31a61d6c38483d7da694374b0de493e872b5845c98745b542673"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v01-batch002.json",
+      "sha256": "04a1d700baa6c72336e17e7f155df2e84c0b393d2b03f135608397e75e66f047"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v02-batch001.json",
+      "sha256": "cde3f01983cd161d3c362b9dd1c17172f506bd41d6d6b38c8a45151da4de2108"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v02-batch002.json",
+      "sha256": "76857392d7fe0bcc69976015d82d258476c561b3159135a707e628dd6371007f"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v03-batch001.json",
+      "sha256": "d88721487ff4f1105224a3b73b18a361eea5356fc6d29d22eaa743736d09d9ce"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v03-batch002.json",
+      "sha256": "ff14133a1029597429a8a0e2816db6288ba91f67acf3581d965b7217690381c6"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v03-batch003.json",
+      "sha256": "259303baf1eb7f32e1b5813d918761888ba36c9bf038fb369878473c94ab71fe"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v04-batch001.json",
+      "sha256": "1bdb7213838ea3004a83ff421ef572134b793594cc3791ec7a92524606cd568e"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v04-batch002.json",
+      "sha256": "7aa268790b1e3a594e4deca1259a0a14e515e2816a6a771939e707ba3e0cfd3a"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v05-batch001.json",
+      "sha256": "2f41a7a2b7c98eeb2b8fc750e4c854f05f8894193a40473a26c0690d2d0bce10"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v05-batch002.json",
+      "sha256": "ca5b828f975d6441135222e3125c9ecf16d25e5ccd9800930b97f74cc14ac1b3"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v05-batch003.json",
+      "sha256": "0e8043bebf8f89d101abbf94c2e70c5c0f68430996f0649a25ee8532f93cd37c"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v06-batch001.json",
+      "sha256": "42da4e9dacb0c5dfca8f5cbb1ab2c05c5fe22c56b93d2db0265951c2347f4836"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v06-batch002.json",
+      "sha256": "d7a2601928a4dbe773c2e86ce7da05e9f63995fc20a16161d5f59f2988546b30"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-history-v06-batch003.json",
+      "sha256": "27d387696a3dec410f7ab6cda0c4baab5990590c5e8198d866b0d51795cd74d0"
+    }
+  ],
+  "hits": [
+    {
+      "file": "adjudications-history-v04-batch001.json",
+      "record": {
+        "candidate_id": "v04-question-v04-q-mine",
+        "status": "answered",
+        "audit_domain": "battle-result-and-resource-right",
+        "rationale": "970魔撤且夏火四万至少损三万，973近两万炎鹰空袭传送阵/神话援军使敌败，魔山与SAN安然回城。975御林原求2/11矿权被收回、改允扩20万，其他军得矿；本次主未夺火神矛，不能把战场胜利当私人资源产权全拿。",
+        "later_chapters": [
+          968,
+          970,
+          972,
+          973,
+          974,
+          975
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0968",
+            "start_line": 72165,
+            "end_line": 72228,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0970",
+            "start_line": 72232,
+            "end_line": 72289,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0972",
+            "start_line": 72339,
+            "end_line": 72380,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0973",
+            "start_line": 72381,
+            "end_line": 72437,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0974",
+            "start_line": 72438,
+            "end_line": 72490,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0975",
+            "start_line": 72491,
+            "end_line": 72548,
+            "claim_kind": "inference"
+          }
+        ],
+        "actual_reviewer": "primary",
+        "provenance": "完整原历史题与六卷派生主审，另逐页定向查后证原文/四栏；不是primary个人全文重读全书。",
+        "review_progress": "manually-adjudicated"
+      }
+    },
+    {
+      "file": "adjudications-history-v04-batch001.json",
+      "record": {
+        "candidate_id": "v04-question-v04-q-structure",
+        "status": "partial",
+        "audit_domain": "authorized-establishment-and-recruitment",
+        "rationale": "975浅林明确特赦御林可扩20万，解决931申请而非仅918个人cap；989八荒来的三万新兵真到并扎南营、996紧训/1007主述现12万是实兵后态。但八荒新兵不能无桥认作930佣兵后备同一批，莫文后指定谁补原缺也未独立说明。",
+        "later_chapters": [
+          918,
+          930,
+          931,
+          949,
+          975,
+          989,
+          996,
+          1007
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0918",
+            "start_line": 68965,
+            "end_line": 69029,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0930",
+            "start_line": 69720,
+            "end_line": 69790,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0931",
+            "start_line": 69791,
+            "end_line": 69877,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0949",
+            "start_line": 70915,
+            "end_line": 70985,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0975",
+            "start_line": 72491,
+            "end_line": 72548,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0989",
+            "start_line": 73378,
+            "end_line": 73436,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0996",
+            "start_line": 73798,
+            "end_line": 73875,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1007",
+            "start_line": 74541,
+            "end_line": 74595,
+            "claim_kind": "inference"
+          }
+        ],
+        "actual_reviewer": "primary",
+        "provenance": "完整原历史题与六卷派生主审，另逐页定向查后证原文/四栏；不是primary个人全文重读全书。",
+        "review_progress": "manually-adjudicated"
+      }
+    },
+    {
+      "file": "adjudications-history-v04-batch001.json",
+      "record": {
+        "candidate_id": "v04-thread-t-army",
+        "status": "answered",
+        "audit_domain": "power-cap-and-actual-army",
+        "rationale": "975制度准扩20万，989新军真来、1007现12万，制度/个人cap/现役实数继续分时；1360大执戈正式交燕与保御林统领不同职。末1386御林返7万与全NPC不足18万是败战后的新实数，不用早上限虚补满兵，也不把全50万当御林一军。",
+        "later_chapters": [
+          918,
+          931,
+          975,
+          989,
+          1007,
+          1360,
+          1386
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0918",
+            "start_line": 68965,
+            "end_line": 69029,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0931",
+            "start_line": 69791,
+            "end_line": 69877,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0975",
+            "start_line": 72491,
+            "end_line": 72548,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0989",
+            "start_line": 73378,
+            "end_line": 73436,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1007",
+            "start_line": 74541,
+            "end_line": 74595,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1360",
+            "start_line": 97824,
+            "end_line": 97897,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1386",
+            "start_line": 99656,
+            "end_line": 99818,
+            "claim_kind": "inference"
+          }
+        ],
+        "actual_reviewer": "primary",
+        "provenance": "完整原历史题与六卷派生主审，另逐页定向查后证原文/四栏；不是primary个人全文重读全书。",
+        "review_progress": "manually-adjudicated"
+      }
+    },
+    {
+      "file": "adjudications-history-v04-batch002.json",
+      "record": {
+        "candidate_id": "v04-thread-t-industry",
+        "status": "answered",
+        "audit_domain": "production-war-and-political-allocation",
+        "rationale": "地狱火与俄晶冰骑已有交货/群装，新矿970—973中国联军胜且敌首活返，975御林2/11被收回、以准20万代偿，回答战局与分配后果。量产产能不是每日实产，战术取胜不是永久私有矿/神矛全得，主既有火神山又是另矿。",
+        "later_chapters": [
+          931,
+          932,
+          933,
+          936,
+          968,
+          970,
+          972,
+          973,
+          975
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0931",
+            "start_line": 69791,
+            "end_line": 69877,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0932",
+            "start_line": 69878,
+            "end_line": 69954,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0933",
+            "start_line": 69955,
+            "end_line": 70025,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0936",
+            "start_line": 70128,
+            "end_line": 70167,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0968",
+            "start_line": 72165,
+            "end_line": 72228,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0970",
+            "start_line": 72232,
+            "end_line": 72289,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0972",
+            "start_line": 72339,
+            "end_line": 72380,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0973",
+            "start_line": 72381,
+            "end_line": 72437,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0975",
+            "start_line": 72491,
+            "end_line": 72548,
+            "claim_kind": "inference"
+          }
+        ],
+        "actual_reviewer": "primary",
+        "provenance": "完整原历史题与六卷派生主审，另逐页定向查后证原文/四栏；不是primary个人全文重读全书。",
+        "review_progress": "manually-adjudicated"
+      }
+    }
+  ]
+}

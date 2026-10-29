@@ -1,0 +1,30 @@
+{
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "volume": 2,
+  "total_raw_segments": 253,
+  "total_body_units": 252,
+  "complete_volume": true,
+  "complete_book": false,
+  "readers": [
+    {
+      "reader": "/root/zongheng_vol04_full",
+      "range": "raw0252—0404",
+      "raw_segments": 153,
+      "body_units": 152,
+      "primary_input": "prefix-chapter-notes.jsonl",
+      "sha256": "e9e4ca5c4aba895092916abe5c6f5e2a69d15c285392af81d7e51e47e8bec199"
+    },
+    {
+      "reader": "primary",
+      "range": "raw0405—0504",
+      "raw_segments": 100,
+      "body_units": 100,
+      "primary_input": "../primary-vol02-tail/chapter-notes.jsonl",
+      "sha256": "e7d2513c6b45f1e225e48ff4ff543d5d85a85f2147e83e55dfe73cfe05797878"
+    }
+  ],
+  "assembler": "/root/zongheng_vol04_full",
+  "tail_derived_receipt": "tail-derived-reading-receipt.json",
+  "personal_full_volume_claim": false
+}

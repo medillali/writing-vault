@@ -1,0 +1,152 @@
+{
+  "candidate_id": "v01-local-chapter_unresolved_index-0191-02",
+  "reason": "交付前复核252仅卷题无后证，移除无关引用；207合作转述保留。其他候选逐值不动。",
+  "before_sha256": "7cdb7bdf71a15738a2e98f19e739e50b2340a83a7b30b6c0ebac523128cfca7a",
+  "after_sha256": "73025d0d3857f65ec42f79d2c01b916870c06a488f234affe41ad525ea7de546",
+  "before": {
+    "candidate_id": "v01-local-chapter_unresolved_index-0191-02",
+    "original_question": "布拉格如何回应迁人？",
+    "original_record": {
+      "chapter_id": "ch-0200",
+      "evidence": [
+        {
+          "chapter_id": "ch-0200",
+          "claim_kind": "fact",
+          "end_line": 17793,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 17711
+        }
+      ],
+      "reader": "primary",
+      "unresolved": [
+        "二级与剩余忠烈接纳、微凉入会何时兑现；布拉格如何回应迁人？"
+      ]
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 190,
+      "atomic_index": 1
+    },
+    "status": "partial",
+    "audit_domain": "migration-and-response",
+    "rationale": "200倾浅与47精锐真转入，201微凉已入；207倾浅说燕赵将牵制龙翔，显示迁人后合作关系仍在，不能写布拉格因此必与斩龙决裂。直接对迁人逐项责罚/许可未给燕本人完整回应，角色转述合作不等全会所有人无不满。",
+    "later_chapters": [
+      200,
+      201,
+      207,
+      252
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0200",
+        "start_line": 17711,
+        "end_line": 17793,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0201",
+        "start_line": 17794,
+        "end_line": 17882,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0207",
+        "start_line": 18292,
+        "end_line": 18368,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0252",
+        "start_line": 21973,
+        "end_line": 21975,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整复读primary200—225、243—245四栏及卷2原reader296四栏；197令去向另定向实读L17489—17510，确认仅拟售。已读后卷合作接口不移作私卖/原饭账精确回执；原reader保持。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  "after": {
+    "candidate_id": "v01-local-chapter_unresolved_index-0191-02",
+    "original_question": "布拉格如何回应迁人？",
+    "original_record": {
+      "chapter_id": "ch-0200",
+      "evidence": [
+        {
+          "chapter_id": "ch-0200",
+          "claim_kind": "fact",
+          "end_line": 17793,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 17711
+        }
+      ],
+      "reader": "primary",
+      "unresolved": [
+        "二级与剩余忠烈接纳、微凉入会何时兑现；布拉格如何回应迁人？"
+      ]
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 190,
+      "atomic_index": 1
+    },
+    "status": "partial",
+    "audit_domain": "migration-and-response",
+    "rationale": "200倾浅与47精锐真转入，201微凉已入；207倾浅说燕赵将牵制龙翔，显示迁人后合作关系仍在，不能写布拉格因此必与斩龙决裂。直接对迁人逐项责罚/许可未给燕本人完整回应，角色转述合作不等全会所有人无不满。",
+    "later_chapters": [
+      200,
+      201,
+      207
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0200",
+        "start_line": 17711,
+        "end_line": 17793,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0201",
+        "start_line": 17794,
+        "end_line": 17882,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0207",
+        "start_line": 18292,
+        "end_line": 18368,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整复读primary200—225、243—245四栏及卷2原reader296四栏；197令去向另定向实读L17489—17510，确认仅拟售。已读后卷合作接口不移作私卖/原饭账精确回执；原reader保持。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  "other_rows_equal": true
+}

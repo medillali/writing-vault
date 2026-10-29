@@ -1,0 +1,2285 @@
+{
+  "status": "self_scope_mapping_for_primary_review_no_signed_rows_changed",
+  "actual_reviewer": "zongheng_vol05_full",
+  "source_roster_sha256": "bfc2c465497a65b015440788efc0c408490fe0432e1de04cc1f860f5dc04cc8a",
+  "formal_input_sha256": {
+    "writing-vault/library/reports/zhanlong/vol01-cards.json": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+    "writing-vault/library/reports/zhanlong/vol02-cards.json": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+    "writing-vault/library/reports/zhanlong/vol03-cards.json": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+    "writing-vault/library/reports/zhanlong/vol04-cards.json": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+    "writing-vault/library/reports/zhanlong/vol05-cards.json": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+    "writing-vault/library/reports/zhanlong/vol06-cards.json": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447"
+  },
+  "priority_interpretation_sha256": {
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-fox-identity.json": "b3773c8687b85a34f8051e925c08974aec274663919c7c2de90d273e236fcb02",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-wang-identity.json": "f1eb93aeb09d4dd5b1ee542610b0e4a734b224da6520a10bd758686352b79f0e",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-dongcheng-kinship.json": "90760c6c4926e9dc6047fc4c82119d61155dfc47857ae7cc954dc073b03c7e85"
+  },
+  "audit_group_sha256": {
+    "character-arcs-part01.json": "45104f6ccbba93f6703d4bbc0de8b4228b644053ff6fbb621d92fa0d655a26ea",
+    "character-arcs-part01.md": "7415e351f17c87b3af03d804b91fa560d99f905053f2b07beaee8c8d82fd21c2",
+    "character-arcs-part02.json": "4629326e89133a8dc661448ae395c76c43913dbe4b6ef2c170849a40891b4737",
+    "character-arcs-part02.md": "7d61d358bc0dd2a6cd93d7414395b83ce669bbd1a620deb3408c834650ab88f4",
+    "character-arcs-part03.json": "e53008001a884a4fa3519ce87f76cc9a075fd2cd002aefeb3b1fc4809f89d0d0",
+    "character-arcs-part03.md": "9672cc0c07e6f8c6fc4f8a7030b38fbd13fec44f7c0b44d9d521f02586feede1",
+    "character-arcs-part04.json": "32f95c828e654ecdf18016afbeadae203d43d63e8148960adda41391dace0c7b",
+    "character-arcs-part04.md": "bd3dd0cdda45a4b3c81da48f2f5356294e3097fab81e22929c50052017e3e0c9",
+    "character-arcs-part05.json": "b81b97727412d230ed9549f341fca5e8e6d2e2add4f6dfc0cc38214e8e3e3c87",
+    "character-arcs-part05.md": "57111879e256d732fd6b2e80e37902c4307961483d7ecee1bb8922d48b9f3cce",
+    "character-arcs-part06.json": "c18363ad52971a900a4128712aefe1fe5b80b91915b26688aabaa2c0b3e4444a",
+    "character-arcs-part06.md": "1db542ad04da323746cfc7f14e594645bc48110da36b60f25d78d1f53746c453",
+    "character-arcs-part07.json": "ab0f5048bb4d6777a81c7dd27121840af641b5bc4998fe9dce5ae6af4599ae08",
+    "character-arcs-part07.md": "97ec6804b81a90bf181fca5dda4ca7416b61c5ccd59df41a6701c84d0ae4f4d7",
+    "character-arcs-part08.json": "817461f7f8ca8babca3a5b4be090a844f9533dbf8805531717f7c762dafe4f34",
+    "character-arcs-part08.md": "372b018bd0951d548395d459f31fd69e792e365d5949e963e96e45a663da549c"
+  },
+  "counts": {
+    "global_stage_cards": 271,
+    "self_original_roster_entities": 39,
+    "self_unique_stage_cards": 128,
+    "self_unique_origins": 128,
+    "self_audit_rows": 47,
+    "individual_person_research_rows": 45,
+    "interface_rows": 2,
+    "additional_supplementary_rows_without_standalone_stage_card": 7,
+    "mismerged_stage_cards_split": 1,
+    "target_links": 129
+  },
+  "count_boundary": "47是研究条目数，含043三个现实原型实体的技术接口及046组织接口，不称47名独立人物。旧271张卡的全局唯一origin计数不因本区一张卡拆两个人而增加。",
+  "mappings": [
+    {
+      "volume": 1,
+      "index": 1,
+      "title": "李逍遥／逍遥自在｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xiaoyao",
+      "asset_id": "chr-fb5c681a53ba5cd7aeb72e64f0ea33e5",
+      "original_roster_entity": "李逍遥",
+      "audit_ids": [
+        "character-arc-001"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 2,
+      "title": "林婉儿／苍瞳｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/waner",
+      "asset_id": "chr-047adeb7209c569c809b0a100b0f43d3",
+      "original_roster_entity": "林婉儿",
+      "audit_ids": [
+        "character-arc-002"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 3,
+      "title": "东城月／苍月｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/dongcheng",
+      "asset_id": "chr-5daaa0f1f1195c83b480405bb33f9a1d",
+      "original_roster_entity": "东城月",
+      "audit_ids": [
+        "character-arc-003"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 4,
+      "title": "宋寒（小狼）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/songhan",
+      "asset_id": "chr-0da4b6847f69537a8e5365c2d193df10",
+      "original_roster_entity": "宋寒",
+      "audit_ids": [
+        "character-arc-007"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 5,
+      "title": "冉闵／英雄冉闵（老K）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/laok",
+      "asset_id": "chr-587b01f98c55567caa8033e213be96dc",
+      "original_roster_entity": "冉闵（玩家老K）",
+      "audit_ids": [
+        "character-arc-008"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 6,
+      "title": "刘庸／琉璃狐（狐狸）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/fox",
+      "asset_id": "chr-b0ac429a39b8592c82375b985feff985",
+      "original_roster_entity": "狐狸（刘庸）",
+      "audit_ids": [
+        "character-arc-014"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 7,
+      "title": "凫水囡囡｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/fushui",
+      "asset_id": "chr-b1b16ae0219a5487a20a419c318aaee8",
+      "original_roster_entity": "凫水囡囡",
+      "audit_ids": [
+        "character-arc-015"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 8,
+      "title": "薛柔／草莓抹茶｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/mocha",
+      "asset_id": "chr-7edf8a17d5c15b059a4d9303f3d69c1f",
+      "original_roster_entity": "薛柔",
+      "audit_ids": [
+        "character-arc-004"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 9,
+      "title": "东城雷／苍雷｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/canglei",
+      "asset_id": "chr-596ab525c4a45bbc90540619e74505f3",
+      "original_roster_entity": "东城雷",
+      "audit_ids": [
+        "character-arc-006"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 10,
+      "title": "上将李牧（原名李信）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/limu",
+      "asset_id": "chr-5a102b55b71250e38d979a81e6ce157e",
+      "original_roster_entity": "李牧",
+      "audit_ids": [
+        "character-arc-009"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 11,
+      "title": "上将王翦（原名王滕）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/wangjian",
+      "asset_id": "chr-e6d19954ccae54c1b36817276986a49f",
+      "original_roster_entity": "王翦",
+      "audit_ids": [
+        "character-arc-010"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 12,
+      "title": "上将白起（原名白英）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/baiqi",
+      "asset_id": "chr-cb50e263390b5b25a1251f97df73b381",
+      "original_roster_entity": "白起",
+      "audit_ids": [
+        "character-arc-011"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 13,
+      "title": "上将廉颇（原名孙宏）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/lianpo",
+      "asset_id": "chr-1ead49e0ca885ce9a64ba478e9f8ec51",
+      "original_roster_entity": "廉颇",
+      "audit_ids": [
+        "character-arc-012"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 19,
+      "title": "月倾浅｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/qingqian",
+      "asset_id": "chr-959c162b0db3523792fdcb557ca7ed2f",
+      "original_roster_entity": "月倾浅",
+      "audit_ids": [
+        "character-arc-016"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 20,
+      "title": "月微凉｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/weiliang",
+      "asset_id": "chr-d92fc117df3e5681aa13422341bda94f",
+      "original_roster_entity": "月微凉",
+      "audit_ids": [
+        "character-arc-017"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 22,
+      "title": "雪域千阳｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/qianyang",
+      "asset_id": "chr-5e60f318b29255c0a5ee47b96938e434",
+      "original_roster_entity": "雪域千阳（唐雪）",
+      "audit_ids": [
+        "character-arc-021"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 27,
+      "title": "林天南｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/lintian",
+      "asset_id": "chr-3e69ccc8395b5aa7b7243e4318d96496",
+      "original_roster_entity": "林天南",
+      "audit_ids": [
+        "character-arc-025"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 28,
+      "title": "王信｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/wangxin",
+      "asset_id": "chr-2a29f57a0acf5c28afb8b05199c3a5f5",
+      "original_roster_entity": "王信",
+      "audit_ids": [
+        "character-arc-029"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 29,
+      "title": "沈冰｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/shenbing",
+      "asset_id": "chr-fa7ca8ec031a5bbab0e7cefe148e1f15",
+      "original_roster_entity": "沈冰",
+      "audit_ids": [
+        "character-arc-005"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 30,
+      "title": "林成｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/lincheng",
+      "asset_id": "chr-38d4f72d0379548ab5367fe051234cfb",
+      "original_roster_entity": "林成",
+      "audit_ids": [
+        "character-arc-026"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 31,
+      "title": "汪泽诚／伊藤诚｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/wangze",
+      "asset_id": "chr-b0ee7b4386fb5011a18c5541f88cbfe9",
+      "original_roster_entity": "汪泽诚",
+      "audit_ids": [
+        "character-arc-032"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 40,
+      "title": "南宫决｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/nangongjue",
+      "asset_id": "chr-c28a9f0b557d5c3d85865c5c2b8ea7ab",
+      "original_roster_entity": "南宫决",
+      "audit_ids": [
+        "character-arc-023"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 1,
+      "index": 41,
+      "title": "南宫灵｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/nangongling",
+      "asset_id": "chr-820855f2396a52898bd347dc8f6e9250",
+      "original_roster_entity": "南宫灵",
+      "audit_ids": [
+        "character-arc-024"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 1,
+      "title": "李逍遥／逍遥自在｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/xiaoyao",
+      "asset_id": "chr-c916ea704d225619a0b58710522e73cd",
+      "original_roster_entity": "李逍遥",
+      "audit_ids": [
+        "character-arc-001"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 2,
+      "title": "林婉儿／苍瞳｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/waner",
+      "asset_id": "chr-711b79afc93e5b42a3431f704fcad189",
+      "original_roster_entity": "林婉儿",
+      "audit_ids": [
+        "character-arc-002"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 3,
+      "title": "东城月／苍月｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/dongcheng",
+      "asset_id": "chr-0853013191cb5c6eabd32f83bd8b212b",
+      "original_roster_entity": "东城月",
+      "audit_ids": [
+        "character-arc-003"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 4,
+      "title": "薛柔／抹茶／草莓抹茶｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/mocha",
+      "asset_id": "chr-5debe7a1b2ce5c5eab7a764658a0632c",
+      "original_roster_entity": "薛柔",
+      "audit_ids": [
+        "character-arc-004"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 5,
+      "title": "李牧｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/limu",
+      "asset_id": "chr-218fc62af2af5dc4bf1ddadfa7109c14",
+      "original_roster_entity": "李牧",
+      "audit_ids": [
+        "character-arc-009"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 6,
+      "title": "王翦／王将｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/wangjian",
+      "asset_id": "chr-04223464f4115843afe8e06dd1c4f08d",
+      "original_roster_entity": "王翦",
+      "audit_ids": [
+        "character-arc-010",
+        "character-arc-047"
+      ],
+      "mapping_relation": "split_mismerged_historical_card",
+      "scope_note": "旧卡王翦/王将误合：王翦剑士/龙骑及星痕关系归010；王将狂战/第一分盟长老及秦雨告白归047。原唯一asset/origin仅计一张，两个目标不是复制成两张来源卡；正式王身份优先层解释，不改原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 7,
+      "title": "宋寒／狼图腾｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/song",
+      "asset_id": "chr-a19e8439a9f4590d9788c5b1660a7ff7",
+      "original_roster_entity": "宋寒",
+      "audit_ids": [
+        "character-arc-007"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 8,
+      "title": "冉闵／老K｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/ran",
+      "asset_id": "chr-9599799c2a655e1d9c00a6253fd4d1e3",
+      "original_roster_entity": "冉闵（玩家老K）",
+      "audit_ids": [
+        "character-arc-008"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 9,
+      "title": "狐狸｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/fox",
+      "asset_id": "chr-a4b928a9ce485460b9f2af4ea321ec87",
+      "original_roster_entity": "狐狸（刘庸）",
+      "audit_ids": [
+        "character-arc-014"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 10,
+      "title": "月倾浅｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/qian",
+      "asset_id": "chr-4d572fb26e3e5f92a100e747d4db69b6",
+      "original_roster_entity": "月倾浅",
+      "audit_ids": [
+        "character-arc-016"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 11,
+      "title": "月微凉｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/weiliang",
+      "asset_id": "chr-7f917015382b5fa6a949dcaf4fde7ccd",
+      "original_roster_entity": "月微凉",
+      "audit_ids": [
+        "character-arc-017"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 12,
+      "title": "林小舞｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/xiaowu",
+      "asset_id": "chr-18f2b2b0219956c59bb69ace13a98fca",
+      "original_roster_entity": "林小舞",
+      "audit_ids": [
+        "character-arc-018"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 13,
+      "title": "唐雪／雪域千阳｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/qianyang",
+      "asset_id": "chr-5d50efee45c756bdaedf3c446e5e1b7c",
+      "original_roster_entity": "雪域千阳（唐雪）",
+      "audit_ids": [
+        "character-arc-021"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 14,
+      "title": "凫水囡囡｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/fushui",
+      "asset_id": "chr-0897c9da620855da8506ed09c2fb9776",
+      "original_roster_entity": "凫水囡囡",
+      "audit_ids": [
+        "character-arc-015"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 15,
+      "title": "千顷瑶池｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yaochi",
+      "asset_id": "chr-5056052b97cc53b186b1e663c757edf7",
+      "original_roster_entity": "千顷瑶池",
+      "audit_ids": [
+        "character-arc-019"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 16,
+      "title": "陈勇洁／一秒英雄｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yongjie",
+      "asset_id": "chr-6bf25d02a07b571db59d083c563204ff",
+      "original_roster_entity": "陈勇洁（一秒英雄）",
+      "audit_ids": [
+        "character-arc-022"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 17,
+      "title": "东城雷／雷子／阿雷｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/leizi",
+      "asset_id": "chr-5e8a74dce3005e0fb0c9707bf1f7d4d4",
+      "original_roster_entity": "东城雷",
+      "audit_ids": [
+        "character-arc-006"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 22,
+      "title": "汪泽诚／苍诚｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/cangcheng",
+      "asset_id": "chr-e1c71e3846fb5161a967cb27f6fbc226",
+      "original_roster_entity": "汪泽诚",
+      "audit_ids": [
+        "character-arc-032"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 23,
+      "title": "魏凡／未必平凡｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/weifan",
+      "asset_id": "chr-940359c24d365d5d8933048fd0fe6953",
+      "original_roster_entity": "魏凡",
+      "audit_ids": [
+        "character-arc-033"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 24,
+      "title": "沈冰／白墨颜｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/shen",
+      "asset_id": "chr-1ef7ef34a51b5e47a748757633115359",
+      "original_roster_entity": "沈冰",
+      "audit_ids": [
+        "character-arc-005"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 25,
+      "title": "王信｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/wangxin",
+      "asset_id": "chr-c722fff81c585f43854fd43bd7ff492b",
+      "original_roster_entity": "王信",
+      "audit_ids": [
+        "character-arc-029"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 26,
+      "title": "秦雨／若雨｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/qinyu",
+      "asset_id": "chr-37c1c4b4678d5c8a944b3530da6eebe2",
+      "original_roster_entity": "秦雨",
+      "audit_ids": [
+        "character-arc-037"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 27,
+      "title": "秦蒙｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/qinmeng",
+      "asset_id": "chr-0d96d3efb588528abd17e4e0d1a770cf",
+      "original_roster_entity": "秦蒙",
+      "audit_ids": [
+        "character-arc-038"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 28,
+      "title": "欧阳川｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/ouyang",
+      "asset_id": "chr-a7c2a8865673535d8a41ee69d45a43af",
+      "original_roster_entity": "欧阳川",
+      "audit_ids": [
+        "character-arc-034"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 29,
+      "title": "唐琦／唐七公子｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/tangqi",
+      "asset_id": "chr-3930e6c107615f16b8deb794d2ca2375",
+      "original_roster_entity": "唐琦",
+      "audit_ids": [
+        "character-arc-036"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 30,
+      "title": "林天南｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/lintian",
+      "asset_id": "chr-b079f92ca6de567191666e52b7ae43ab",
+      "original_roster_entity": "林天南",
+      "audit_ids": [
+        "character-arc-025"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 40,
+      "title": "南宫决｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/nangongjue",
+      "asset_id": "chr-c231436bb13b582087de36aa61745785",
+      "original_roster_entity": "南宫决",
+      "audit_ids": [
+        "character-arc-023"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 41,
+      "title": "南宫灵／灵儿｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/nangongling",
+      "asset_id": "chr-38d94941e6a85cee8ea7d4c8c4e28d25",
+      "original_roster_entity": "南宫灵",
+      "audit_ids": [
+        "character-arc-024"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 2,
+      "index": 42,
+      "title": "月妖颜｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yueyao",
+      "asset_id": "chr-05b8168f6fc95691adf8814a7e553418",
+      "original_roster_entity": "月妖颜",
+      "audit_ids": [
+        "character-arc-020"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 1,
+      "title": "李逍遥／逍遥自在｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaoyao",
+      "asset_id": "chr-02d76e91b80d57c2a8e67b917d0392ff",
+      "original_roster_entity": "李逍遥",
+      "audit_ids": [
+        "character-arc-001"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 2,
+      "title": "林婉儿／苍瞳｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/waner",
+      "asset_id": "chr-d0cbd26be9fb56ec91be9b1a0a56eac7",
+      "original_roster_entity": "林婉儿",
+      "audit_ids": [
+        "character-arc-002"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 3,
+      "title": "东城月／东城月｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/dongcheng",
+      "asset_id": "chr-76ee4bc680f453d8b1bebc45b8a8fc1a",
+      "original_roster_entity": "东城月",
+      "audit_ids": [
+        "character-arc-003"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 4,
+      "title": "抹茶／薛柔｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/mocha",
+      "asset_id": "chr-2ed57623231d5e81941c594cc5fa94f6",
+      "original_roster_entity": "薛柔",
+      "audit_ids": [
+        "character-arc-004"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 5,
+      "title": "李梦瑶／夕瑶歌尽｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/mengyao",
+      "asset_id": "chr-a395827d6f205162bce833de5d9d594d",
+      "original_roster_entity": "李梦瑶",
+      "audit_ids": [
+        "character-arc-013"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 6,
+      "title": "李牧／上将李牧｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/limu",
+      "asset_id": "chr-2427051377a65428ba276c323be87190",
+      "original_roster_entity": "李牧",
+      "audit_ids": [
+        "character-arc-009"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 7,
+      "title": "王翦／上将王翦｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/wangjian",
+      "asset_id": "chr-bc99cb0c5c0a54d59acfb2693d1c0e7d",
+      "original_roster_entity": "王翦",
+      "audit_ids": [
+        "character-arc-010"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 8,
+      "title": "冉闵／老K（玩家）｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/ranmin",
+      "asset_id": "chr-31a94f9de71d55a9b93a427942da10b2",
+      "original_roster_entity": "冉闵（玩家老K）",
+      "audit_ids": [
+        "character-arc-008"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 9,
+      "title": "宋寒／小狼｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/songhan",
+      "asset_id": "chr-680e0bc6f0335fc083bcc791d72d1d8a",
+      "original_roster_entity": "宋寒",
+      "audit_ids": [
+        "character-arc-007"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 10,
+      "title": "狐狸／慕天｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/fox",
+      "asset_id": "chr-238cd5b220265eea9f053e12c12b7d59",
+      "original_roster_entity": "狐狸（刘庸）",
+      "audit_ids": [
+        "character-arc-014"
+      ],
+      "mapping_relation": "same_entity_with_external_research_name_correction",
+      "scope_note": "旧题狐狸/慕天为派生误名，正式狐狸优先层指定刘庸/琉璃狐；保旧题作历史检索，不增慕天人物。"
+    },
+    {
+      "volume": 3,
+      "index": 11,
+      "title": "月倾浅｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/qingqian",
+      "asset_id": "chr-14347417c619531d952ccc18e81831e1",
+      "original_roster_entity": "月倾浅",
+      "audit_ids": [
+        "character-arc-016"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 12,
+      "title": "凫水囡囡｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/fushui",
+      "asset_id": "chr-40957bc36516579aae5fd4edfb0215d4",
+      "original_roster_entity": "凫水囡囡",
+      "audit_ids": [
+        "character-arc-015"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 13,
+      "title": "林小舞｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaowu",
+      "asset_id": "chr-b8570a0b3efe5449813bf65e4c9c003c",
+      "original_roster_entity": "林小舞",
+      "audit_ids": [
+        "character-arc-018"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 14,
+      "title": "东城雷／苍雷｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/leizi",
+      "asset_id": "chr-c4311be553505cfa9173253209d71fe0",
+      "original_roster_entity": "东城雷",
+      "audit_ids": [
+        "character-arc-006"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 16,
+      "title": "邢烈／形同烈火｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xinglie",
+      "asset_id": "chr-49a29fa2a7f45ea593788d8ca1b38d35",
+      "original_roster_entity": "邢烈",
+      "audit_ids": [
+        "character-arc-030"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 17,
+      "title": "唐琦／唐七公子｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/tangqi",
+      "asset_id": "chr-8bc8d36228735dabac85c42320ba6b33",
+      "original_roster_entity": "唐琦",
+      "audit_ids": [
+        "character-arc-036"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 19,
+      "title": "沈冰／白墨颜｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/shen",
+      "asset_id": "chr-2808df8126fe51e0a8898f80e287df10",
+      "original_roster_entity": "沈冰",
+      "audit_ids": [
+        "character-arc-005"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 20,
+      "title": "王信｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/wangxin",
+      "asset_id": "chr-f4b89ab573345d71a9c1564313362292",
+      "original_roster_entity": "王信",
+      "audit_ids": [
+        "character-arc-029"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 21,
+      "title": "林天南｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/linfather",
+      "asset_id": "chr-e41a5ba6510b5a70849f4430cc9a112e",
+      "original_roster_entity": "林天南",
+      "audit_ids": [
+        "character-arc-025"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 22,
+      "title": "游弋／赵冉｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/you",
+      "asset_id": "chr-3fb21d1c9ab351699cdca84e4a88b529",
+      "original_roster_entity": "游弋（赵冉）",
+      "audit_ids": [
+        "character-arc-035"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 23,
+      "title": "欧阳川｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/ouyang",
+      "asset_id": "chr-4605cd188e4451f285e09477c0ce6912",
+      "original_roster_entity": "欧阳川",
+      "audit_ids": [
+        "character-arc-034"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 24,
+      "title": "魏凡／未必平凡｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/weifan",
+      "asset_id": "chr-25e1a94cd0ea59f499f76cc9a9ec0472",
+      "original_roster_entity": "魏凡",
+      "audit_ids": [
+        "character-arc-033"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 25,
+      "title": "汪泽诚／苍诚｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/cangcheng",
+      "asset_id": "chr-9fc1579b8eb3519ebaa93696c09b77fc",
+      "original_roster_entity": "汪泽诚",
+      "audit_ids": [
+        "character-arc-032"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 3,
+      "index": 50,
+      "title": "秦雯｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/qinwen",
+      "asset_id": "chr-02a43424a89e5f8cbdd1a597e7160e15",
+      "original_roster_entity": "秦雯",
+      "audit_ids": [
+        "character-arc-027"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 1,
+      "title": "李逍遥／逍遥自在｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaoyao",
+      "asset_id": "chr-d4e759e1e4b65c598ea1182435120d40",
+      "original_roster_entity": "李逍遥",
+      "audit_ids": [
+        "character-arc-001"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 2,
+      "title": "林婉儿／苍瞳｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/waner",
+      "asset_id": "chr-268c6f683f1d52f5800240e0e3437aa8",
+      "original_roster_entity": "林婉儿",
+      "audit_ids": [
+        "character-arc-002"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 3,
+      "title": "东城月／苍月｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/dongcheng",
+      "asset_id": "chr-3e8c78659c365cddb101822f1563ddce",
+      "original_roster_entity": "东城月",
+      "audit_ids": [
+        "character-arc-003"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 4,
+      "title": "东城雷／苍雷（阿雷）｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/canglei",
+      "asset_id": "chr-6defdb70d0c15a17adf9c333b4556453",
+      "original_roster_entity": "东城雷",
+      "audit_ids": [
+        "character-arc-006"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 5,
+      "title": "薛柔／草莓抹茶／小妖｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/mocha",
+      "asset_id": "chr-65154fd8c4385416aeb67d20e09c3f75",
+      "original_roster_entity": "薛柔",
+      "audit_ids": [
+        "character-arc-004"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 26,
+      "title": "王信｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/wangxin",
+      "asset_id": "chr-95c99b64066b5a5683b187f0f1b6e369",
+      "original_roster_entity": "王信",
+      "audit_ids": [
+        "character-arc-029"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 27,
+      "title": "沈冰｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/shenbing",
+      "asset_id": "chr-8693c4a041125b31b2b61c6a319919b3",
+      "original_roster_entity": "沈冰",
+      "audit_ids": [
+        "character-arc-005"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 28,
+      "title": "林成｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/lincheng",
+      "asset_id": "chr-46e6dab4f609577c8c7d893c484f79c1",
+      "original_roster_entity": "林成",
+      "audit_ids": [
+        "character-arc-026"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 29,
+      "title": "汪泽诚／苍诚｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/wangze",
+      "asset_id": "chr-578b82c7468e58fbb0ccd3401a8a7d17",
+      "original_roster_entity": "汪泽诚",
+      "audit_ids": [
+        "character-arc-032"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 30,
+      "title": "上将李牧｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/limu",
+      "asset_id": "chr-fed7ed1f0dcf5c0d91d22d696b1252f2",
+      "original_roster_entity": "李牧",
+      "audit_ids": [
+        "character-arc-009"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 31,
+      "title": "上将王翦｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/wangjian",
+      "asset_id": "chr-50eb4c404fe259bc99d77c6f119a9d8b",
+      "original_roster_entity": "王翦",
+      "audit_ids": [
+        "character-arc-010"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 32,
+      "title": "冉闵／英雄冉闵（老K）｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/laok",
+      "asset_id": "chr-d35bdac5c34f5a969cae1d25761e1b91",
+      "original_roster_entity": "冉闵（玩家老K）",
+      "audit_ids": [
+        "character-arc-008"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 33,
+      "title": "宋寒／小狼｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/songhan",
+      "asset_id": "chr-fe0e812aa3af5cfbb61f0a022fc041dd",
+      "original_roster_entity": "宋寒",
+      "audit_ids": [
+        "character-arc-007"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 34,
+      "title": "月倾浅｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/qingqian",
+      "asset_id": "chr-a4bf2311745657428d6fdb88ba68de96",
+      "original_roster_entity": "月倾浅",
+      "audit_ids": [
+        "character-arc-016"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 35,
+      "title": "月微凉｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/weiliang",
+      "asset_id": "chr-e4863bcf44085ec988a2bd3cbbb99362",
+      "original_roster_entity": "月微凉",
+      "audit_ids": [
+        "character-arc-017"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 36,
+      "title": "凫水囡囡｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/fushui",
+      "asset_id": "chr-36a5bd8ee3545954bf8db7c890ea9241",
+      "original_roster_entity": "凫水囡囡",
+      "audit_ids": [
+        "character-arc-015"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 37,
+      "title": "一秒英雄｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/yimeng",
+      "asset_id": "chr-996c276f83d75e10a8c2a495f6614c91",
+      "original_roster_entity": "陈勇洁（一秒英雄）",
+      "audit_ids": [
+        "character-arc-022"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 38,
+      "title": "林小舞｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaowu",
+      "asset_id": "chr-0a9a74ab6f41542fb890978867b9eb2d",
+      "original_roster_entity": "林小舞",
+      "audit_ids": [
+        "character-arc-018"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 43,
+      "title": "南宫决｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/nangongjue",
+      "asset_id": "chr-c58867125b3f50d5a9379dadd4166a61",
+      "original_roster_entity": "南宫决",
+      "audit_ids": [
+        "character-arc-023"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 4,
+      "index": 44,
+      "title": "南宫灵｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/nangongling",
+      "asset_id": "chr-45835d84073a53d9a2812fba728b65ce",
+      "original_roster_entity": "南宫灵",
+      "audit_ids": [
+        "character-arc-024"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 1,
+      "title": "李逍遥／逍遥自在｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+      "asset_id": "chr-7ae018b52769585185ef7455816de5b5",
+      "original_roster_entity": "李逍遥",
+      "audit_ids": [
+        "character-arc-001"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 2,
+      "title": "林婉儿／苍瞳｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/waner",
+      "asset_id": "chr-0b1dda9204235df3b9d03df861e5ce38",
+      "original_roster_entity": "林婉儿",
+      "audit_ids": [
+        "character-arc-002"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 3,
+      "title": "东城月／苍月｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/dong",
+      "asset_id": "chr-dd4d69fd548259c08cf92d916e4d8135",
+      "original_roster_entity": "东城月",
+      "audit_ids": [
+        "character-arc-003"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 4,
+      "title": "薛柔／抹茶／小妖／为爱追寻｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/rou",
+      "asset_id": "chr-0f782b9be1dd5c4c91393338b8a7fffd",
+      "original_roster_entity": "薛柔",
+      "audit_ids": [
+        "character-arc-004"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 5,
+      "title": "李牧｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/li",
+      "asset_id": "chr-068ba99d38fc5776ab1cc78cf11b0750",
+      "original_roster_entity": "李牧",
+      "audit_ids": [
+        "character-arc-009"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 6,
+      "title": "王翦｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wang",
+      "asset_id": "chr-f27fa14a0bdf510d981061ab76617356",
+      "original_roster_entity": "王翦",
+      "audit_ids": [
+        "character-arc-010"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 7,
+      "title": "冉闵／老K（玩家）｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/ranplayer",
+      "asset_id": "chr-73b417ccd3315e6797b7ccca03bad29c",
+      "original_roster_entity": "冉闵（玩家老K）",
+      "audit_ids": [
+        "character-arc-008"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 9,
+      "title": "狐狸｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fox",
+      "asset_id": "chr-169c4c48c38a5b64a5b226ec0070288a",
+      "original_roster_entity": "狐狸（刘庸）",
+      "audit_ids": [
+        "character-arc-014"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 10,
+      "title": "宋寒｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/song",
+      "asset_id": "chr-881446cd3d4e55ca912598163ea477a7",
+      "original_roster_entity": "宋寒",
+      "audit_ids": [
+        "character-arc-007"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 11,
+      "title": "李梦瑶｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/meng",
+      "asset_id": "chr-6849bc16c0415b8d995577fcee49fbcc",
+      "original_roster_entity": "李梦瑶",
+      "audit_ids": [
+        "character-arc-013"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 12,
+      "title": "林小舞｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaowu",
+      "asset_id": "chr-9d7300e6af635357bb5a4d12b8e8f3ee",
+      "original_roster_entity": "林小舞",
+      "audit_ids": [
+        "character-arc-018"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 13,
+      "title": "凫水囡囡｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fu",
+      "asset_id": "chr-4d7bef33e8c956769059f681b92dcb6c",
+      "original_roster_entity": "凫水囡囡",
+      "audit_ids": [
+        "character-arc-015"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 14,
+      "title": "月倾浅｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/qian",
+      "asset_id": "chr-1d2bd534ebe1569f95cb6d7993e92f7e",
+      "original_roster_entity": "月倾浅",
+      "audit_ids": [
+        "character-arc-016"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 15,
+      "title": "月妖颜｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yueyao",
+      "asset_id": "chr-8707ac3a424f5d26afd6b16ea9739606",
+      "original_roster_entity": "月妖颜",
+      "audit_ids": [
+        "character-arc-020"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 21,
+      "title": "唐琦／唐七公子｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/tang",
+      "asset_id": "chr-15bbc87dd0f259feac39f37c55a03ecb",
+      "original_roster_entity": "唐琦",
+      "audit_ids": [
+        "character-arc-036"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 24,
+      "title": "沈冰｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/shen",
+      "asset_id": "chr-4c70ca1445b65a3c85f05cd472b461ea",
+      "original_roster_entity": "沈冰",
+      "audit_ids": [
+        "character-arc-005"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 25,
+      "title": "王信｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/police",
+      "asset_id": "chr-13f116687cf05c31914a965ae13ac88c",
+      "original_roster_entity": "王信",
+      "audit_ids": [
+        "character-arc-029"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 26,
+      "title": "林天南｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/linfather",
+      "asset_id": "chr-64ce44e171c4510fad7f0a943c6e6015",
+      "original_roster_entity": "林天南",
+      "audit_ids": [
+        "character-arc-025"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 27,
+      "title": "林成｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/lincheng",
+      "asset_id": "chr-dfc281ba400c5393af21b5bac5e26867",
+      "original_roster_entity": "林成",
+      "audit_ids": [
+        "character-arc-026"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 28,
+      "title": "北辰观｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/beichen",
+      "asset_id": "chr-4f37ad9d2cbf5d2c8f1697f6ad5daab4",
+      "original_roster_entity": "北辰观",
+      "audit_ids": [
+        "character-arc-028"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 29,
+      "title": "汪泽诚／苍诚｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wangze",
+      "asset_id": "chr-0f8653a4879c56e7a27a8e9b810e8809",
+      "original_roster_entity": "汪泽诚",
+      "audit_ids": [
+        "character-arc-032"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 30,
+      "title": "未具名日本天道流武士／A级龙血活口｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/japanese",
+      "asset_id": "chr-d4493d719a0f5dba94ccc8b86405f31d",
+      "original_roster_entity": "未具名日本天道流武士",
+      "audit_ids": [
+        "character-arc-039"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 6,
+      "index": 1,
+      "title": "李逍遥／逍遥自在",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/li-xiaoyao",
+      "asset_id": "chr-f20c020950c95d409dcb71791e2105b8",
+      "original_roster_entity": "李逍遥",
+      "audit_ids": [
+        "character-arc-001"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 6,
+      "index": 2,
+      "title": "林婉儿／苍瞳",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/lin-waner",
+      "asset_id": "chr-af8df9e00c765ce9ab9a3c347547c83e",
+      "original_roster_entity": "林婉儿",
+      "audit_ids": [
+        "character-arc-002"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 6,
+      "index": 3,
+      "title": "东城月／苍月",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/dongcheng-yue",
+      "asset_id": "chr-87ae144751a156838ef2523b2dd15bc3",
+      "original_roster_entity": "东城月",
+      "audit_ids": [
+        "character-arc-003"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 6,
+      "index": 11,
+      "title": "薛柔／抹茶／小妖",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xue-rou",
+      "asset_id": "chr-835278fd239f520bb52a719e60413d5d",
+      "original_roster_entity": "薛柔",
+      "audit_ids": [
+        "character-arc-004"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 6,
+      "index": 25,
+      "title": "王信",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/wang-xin",
+      "asset_id": "chr-e7ecc414dfa95fee8190f5a2c6a8441a",
+      "original_roster_entity": "王信",
+      "audit_ids": [
+        "character-arc-029"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 6,
+      "index": 26,
+      "title": "邢烈／形同烈火",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xing-lie",
+      "asset_id": "chr-1e9d39819ab95d1eba3b753b7a264492",
+      "original_roster_entity": "邢烈",
+      "audit_ids": [
+        "character-arc-030"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 6,
+      "index": 27,
+      "title": "斧头",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/axe",
+      "asset_id": "chr-2e021aa293c756a3b087d57a516906ed",
+      "original_roster_entity": "斧头",
+      "audit_ids": [
+        "character-arc-031"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 6,
+      "index": 28,
+      "title": "汪泽诚",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/wang-zecheng",
+      "asset_id": "chr-dcd79d96820459d6a2614891e84aa0df",
+      "original_roster_entity": "汪泽诚",
+      "audit_ids": [
+        "character-arc-032"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 6,
+      "index": 29,
+      "title": "沈冰／白墨颜",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/shen-bing",
+      "asset_id": "chr-1a7da1bda95c5869a91a7affb39c840b",
+      "original_roster_entity": "沈冰",
+      "audit_ids": [
+        "character-arc-005"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    },
+    {
+      "volume": 6,
+      "index": 30,
+      "title": "东城雷／阿雷",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/dongcheng-lei",
+      "asset_id": "chr-dbb0e390e7fa511ab162e273494d6d8d",
+      "original_roster_entity": "东城雷",
+      "audit_ids": [
+        "character-arc-006"
+      ],
+      "mapping_relation": "stage_observation_of_same_entity",
+      "scope_note": "原题与阶段只作历史来源，终态采用对应audit条的分时点研究，不覆盖原卡。"
+    }
+  ],
+  "audit_rows": [
+    {
+      "audit_id": "character-arc-001",
+      "name": "李逍遥／逍遥自在",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xiaoyao",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/xiaoyao",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaoyao",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaoyao",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/li-xiaoyao"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-002",
+      "name": "林婉儿／苍瞳",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/waner",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/waner",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/waner",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/waner",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/waner",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/lin-waner"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-003",
+      "name": "东城月／苍月",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/dongcheng",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/dongcheng",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/dongcheng",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/dongcheng",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/dong",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/dongcheng-yue"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-004",
+      "name": "薛柔／草莓抹茶／小妖",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/mocha",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/mocha",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/mocha",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/mocha",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/rou",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xue-rou"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-005",
+      "name": "沈冰／白墨颜",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/shenbing",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/shen",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/shen",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/shenbing",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/shen",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/shen-bing"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-006",
+      "name": "东城雷／苍雷／阿雷",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/canglei",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/leizi",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/leizi",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/canglei",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/dongcheng-lei"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-007",
+      "name": "宋寒／小狼／狼图腾",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/songhan",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/song",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/songhan",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/songhan",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/song"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-008",
+      "name": "冉闵／英雄冉闵／老K（玩家）",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/laok",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/ran",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/ranmin",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/laok",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/ranplayer"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-009",
+      "name": "上将李牧（原名李信，廉颇转述）",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/limu",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/limu",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/limu",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/limu",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/li"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-010",
+      "name": "上将王翦（原名王滕，廉颇转述）",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/wangjian",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/wangjian",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/wangjian",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/wangjian",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wang"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-011",
+      "name": "上将白起（原名白英，廉颇转述）",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/baiqi"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-012",
+      "name": "上将廉颇（原名孙宏）",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/lianpo"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-013",
+      "name": "李梦瑶／夕瑶歌尽",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/mengyao",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/meng"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-014",
+      "name": "狐狸／刘庸／琉璃狐",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/fox",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/fox",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/fox",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fox"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-015",
+      "name": "凫水囡囡",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/fushui",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/fushui",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/fushui",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/fushui",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fu"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-016",
+      "name": "月倾浅",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/qingqian",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/qian",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/qingqian",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/qingqian",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/qian"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-017",
+      "name": "月微凉",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/weiliang",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/weiliang",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/weiliang"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-018",
+      "name": "林小舞",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/xiaowu",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaowu",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaowu",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaowu"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-019",
+      "name": "千顷瑶池",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yaochi"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-020",
+      "name": "月妖颜",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yueyao",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yueyao"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-021",
+      "name": "唐雪／雪域千阳",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/qianyang",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/qianyang"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-022",
+      "name": "陈勇洁／一秒英雄／勇洁",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yongjie",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/yimeng"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-023",
+      "name": "南宫决",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/nangongjue",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/nangongjue",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/nangongjue"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-024",
+      "name": "南宫灵／灵儿（铸造者）",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/nangongling",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/nangongling",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/nangongling"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-025",
+      "name": "林天南",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/lintian",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/lintian",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/linfather",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/linfather"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-026",
+      "name": "林成（李逍遥之师）",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/lincheng",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/lincheng",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/lincheng"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-027",
+      "name": "秦雯",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/qinwen"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-028",
+      "name": "北辰观",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/beichen"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-029",
+      "name": "王信",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/wangxin",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/wangxin",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/wangxin",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/wangxin",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/police",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/wang-xin"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-030",
+      "name": "邢烈／形同烈火",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xinglie",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xing-lie"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-031",
+      "name": "斧头（现实守护者）",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/axe"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-032",
+      "name": "汪泽诚／苍诚／伊藤诚（早称）",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/wangze",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/cangcheng",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/cangcheng",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/wangze",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wangze",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/wang-zecheng"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-033",
+      "name": "魏凡／未必平凡",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/weifan",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/weifan"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-034",
+      "name": "欧阳川",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/ouyang",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/ouyang"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-035",
+      "name": "游弋／赵冉（现实B级殖装者）",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/you"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-036",
+      "name": "唐琦／唐七公子",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/tangqi",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/tangqi",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/tang"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-037",
+      "name": "秦雨／若雨",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/qinyu"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-038",
+      "name": "秦蒙",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/qinmeng"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-039",
+      "name": "未具名日本天道流武士／A级龙血活口",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/japanese"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-040",
+      "name": "东城风",
+      "entity_type": "real_person",
+      "source_stage_card_origins": [],
+      "scope": "approved_supplementary_source_interface_no_standalone_stage_card",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-041",
+      "name": "孙翔",
+      "entity_type": "real_person_military_officer",
+      "source_stage_card_origins": [],
+      "scope": "approved_supplementary_source_interface_no_standalone_stage_card",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-042",
+      "name": "欧阳喏颜",
+      "entity_type": "real_person_game_company_executive",
+      "source_stage_card_origins": [],
+      "scope": "approved_supplementary_source_interface_no_standalone_stage_card",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-043",
+      "name": "TOM／刘蔚／洛鸣（技术说明与NPC原型接口）",
+      "entity_type": "technology_and_character_prototype_interface",
+      "source_stage_card_origins": [],
+      "scope": "approved_supplementary_source_interface_no_standalone_stage_card",
+      "component_entities": [
+        {
+          "name": "TOM",
+          "role": "技术开发部门总监，现场说明者"
+        },
+        {
+          "name": "刘蔚",
+          "role": "研发部副总监，被TOM指为佩儿技术性格合成来源"
+        },
+        {
+          "name": "洛鸣",
+          "role": "兰州军区少将，被TOM指为洛浅林记忆衍生来源"
+        }
+      ]
+    },
+    {
+      "audit_id": "character-arc-044",
+      "name": "裴赢／安迪（社交称呼）",
+      "entity_type": "real_person_criminal_investigation_subject",
+      "source_stage_card_origins": [],
+      "scope": "approved_supplementary_source_interface_no_standalone_stage_card",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-045",
+      "name": "楚天寻",
+      "entity_type": "real_person_social_contact",
+      "source_stage_card_origins": [],
+      "scope": "approved_supplementary_source_interface_no_standalone_stage_card",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-046",
+      "name": "守护者基地／边境独立师／KILLS（组织与行动接口）",
+      "entity_type": "organization_and_operation_interface",
+      "source_stage_card_origins": [],
+      "scope": "approved_supplementary_source_interface_no_standalone_stage_card",
+      "component_entities": []
+    },
+    {
+      "audit_id": "character-arc-047",
+      "name": "王将（独立于王翦）",
+      "entity_type": "player_and_real_person",
+      "source_stage_card_origins": [
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/wangjian"
+      ],
+      "scope": "stage_card_entity_or_approved_identity_split",
+      "component_entities": []
+    }
+  ],
+  "assertions": {
+    "self_original_39_entities_all_mapped": true,
+    "original_card_asset_volume_index_title_preserved": true,
+    "unique_source_origins_counted_once": true,
+    "split_010_047_relation_explicit": true,
+    "no_other_agent_scope_claimed": true,
+    "signed_group_rows_unchanged": true
+  },
+  "reading_attribution": "六卷271人物卡已完整实际接读，handoff及必要四栏/指定原文另见阅读进度。本人的全章初读只有卷三505—653、卷六1180—1386；其他原reader保留。映射是派生研究身份对齐，不新增全书原文覆盖。"
+}

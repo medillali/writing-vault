@@ -1,0 +1,4426 @@
+[
+  {
+    "asset_type": "character",
+    "scope": "source-analysis",
+    "title": "轻狂书生：责任扩大后遭遇可承受与不可承受的损失",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/character/shusheng",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "人物选择"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "从冲首转、兑现收入到替队友承担风险；隐藏职业获得与旧等级装备损失并存，归属关系成为重练资源。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "首转靠红帽线索试验成功；世界第一转正获得闪避。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0055",
+              "start_line": 3851,
+              "end_line": 3885,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "为队友撤离引走将军，死亡复活后偶然落在悬灯；之后持久击杀。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0094",
+              "start_line": 6065,
+              "end_line": 6104,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0095",
+              "start_line": 6128,
+              "end_line": 6161,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "死亡降至0级并遗失当时装备后，才收到转职成功提示；职业收益与损失并存。第100章重练至10又死回9。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0100",
+              "start_line": 6531,
+              "end_line": 6576,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6684,
+              "end_line": 6697,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "他反复用收入和赠物证明价值，却在共同承担损失时接受更难结清的关系；重练并非单靠个人乐观。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0096",
+              "start_line": 6226,
+              "end_line": 6231,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6584,
+              "end_line": 6611,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6634,
+              "end_line": 6645,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "goal": "已表明希望帮助雪月并重登等级榜；这些是当前目标，不是后续完成。",
+      "limitations": "低防、蓝药/耐久/时间限制；会恋利、报复、误估他人心理；归零后新成长不自动消除仇恨风险。",
+      "stage_change": "38级任务期→首转与50级榜首→0级龙语者→卷末9级；50级不是本批最终状态。",
+      "directional_relationships": [
+        {
+          "from": "书生",
+          "to": "凌月/团队",
+          "state": "愿承担撤退代价",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0094",
+              "start_line": 6065,
+              "end_line": 6080,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "from": "书生",
+          "to": "凌雪",
+          "state": "愿赠高价戒指，但对其哭泣原因不知",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0096",
+              "start_line": 6264,
+              "end_line": 6271,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "applicability": "用于研究同一人物在本批事件中的选择与代价；可抽象角色功能，不能直接移植人名、关系网与独特履历。",
+      "failure_mode": "把本阶段能力写成永恒全能、把他人评价或主角心读写成客观人格，或将人物性格奉为用户偏好。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0055",
+        "start_line": 3851,
+        "end_line": 3885,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0094",
+        "start_line": 6065,
+        "end_line": 6104,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0095",
+        "start_line": 6128,
+        "end_line": 6161,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0100",
+        "start_line": 6531,
+        "end_line": 6576,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0101",
+        "start_line": 6684,
+        "end_line": 6697,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0096",
+        "start_line": 6226,
+        "end_line": 6231,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0101",
+        "start_line": 6584,
+        "end_line": 6611,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0101",
+        "start_line": 6634,
+        "end_line": 6645,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "character",
+    "scope": "source-analysis",
+    "title": "凌月：组织资源与隐藏脆弱同时推进",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/character/lingyue",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "人物选择"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "有分工、调动和撤退决断，也受父亲期待、双签资金制度牵制；不能把依赖书生写成无组织能力。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "承认继承责任、不甘被安排，仍说并非完全相信书生，并要求勿告诉妹妹。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0069",
+              "start_line": 4734,
+              "end_line": 4756,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "组织低等级拾取与高输出专杀筹5000金币；公司50万元因王不签而未取得。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0072",
+              "start_line": 4879,
+              "end_line": 4909,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0083",
+              "start_line": 5461,
+              "end_line": 5517,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0084",
+              "start_line": 5518,
+              "end_line": 5544,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "公开斥责书生，私下带走、赞许并道歉；第93章果断令所有人回城。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0084",
+              "start_line": 5518,
+              "end_line": 5544,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0094",
+              "start_line": 6074,
+              "end_line": 6080,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "公私话语分层保存她在制度中的行动空间，读者因获私下解释而重新理解公开表现。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0083",
+              "start_line": 5500,
+              "end_line": 5517,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0084",
+              "start_line": 5518,
+              "end_line": 5544,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "goal": "证明自己并建立有自主性的团队；建帮令尚未取得。",
+      "limitations": "组织资金并非可任意提取；对父亲与妹妹的责任抑制公开反抗，作战也会被集火秒杀。",
+      "stage_change": "从公司支持下组队转向资源自筹；承认需要帮手而仍保留边界。",
+      "directional_relationships": [
+        {
+          "from": "凌月",
+          "to": "书生",
+          "state": "部分信任并接受支持，非无条件完全信任",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0069",
+              "start_line": 4734,
+              "end_line": 4756,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "from": "凌月",
+          "to": "凌雪",
+          "state": "以保护为由隐瞒压力",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0069",
+              "start_line": 4734,
+              "end_line": 4756,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "applicability": "用于研究同一人物在本批事件中的选择与代价；可抽象角色功能，不能直接移植人名、关系网与独特履历。",
+      "failure_mode": "把本阶段能力写成永恒全能、把他人评价或主角心读写成客观人格，或将人物性格奉为用户偏好。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0069",
+        "start_line": 4734,
+        "end_line": 4756,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0072",
+        "start_line": 4879,
+        "end_line": 4909,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0083",
+        "start_line": 5461,
+        "end_line": 5517,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0084",
+        "start_line": 5518,
+        "end_line": 5544,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0094",
+        "start_line": 6074,
+        "end_line": 6080,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0083",
+        "start_line": 5500,
+        "end_line": 5517,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0084",
+        "start_line": 5518,
+        "end_line": 5544,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "character",
+    "scope": "source-analysis",
+    "title": "凌雪：战术主动者与拒绝清账的援助者",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/character/lingxue",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "人物选择"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "既能承伤、判断技能与分工，也会恋战；送戒误会未解，买回旧弓和带练使关系超出一次偿还。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "狂风套装实抗骷髅、同做护送；围战时恋战，需要书生拉走。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0067",
+              "start_line": 4558,
+              "end_line": 4624,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0092",
+              "start_line": 5962,
+              "end_line": 5970,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "第95章哭拒戒，第96章说下午收，第97章实际收下存库；醉倒缘由仍回避。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0096",
+              "start_line": 6264,
+              "end_line": 6271,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0097",
+              "start_line": 6324,
+              "end_line": 6334,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0098",
+              "start_line": 6378,
+              "end_line": 6393,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "第97章带行李搬入；第100章拿回旧黄金弓，自述花3万元，随后残血喂怪带练。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0098",
+              "start_line": 6346,
+              "end_line": 6353,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6634,
+              "end_line": 6669,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "她对还钱与两不相欠的反复回应，使赠物承担关系定义的争夺；不能据此断言已正式恋爱。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0096",
+              "start_line": 6264,
+              "end_line": 6271,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6636,
+              "end_line": 6641,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "goal": "帮助书生和雪月，同时保持自主与亲密关系中的解释权。",
+      "limitations": "会恋战与过度自信；等级前后存在源文疑点；与书生关系未获双方正式命名。",
+      "stage_change": "从到访支援者成为实际入住成员；由被赠装备者转为买回装备、带练者。",
+      "directional_relationships": [
+        {
+          "from": "凌雪",
+          "to": "书生",
+          "state": "主动援助，反对用还钱彻底分清",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6634,
+              "end_line": 6641,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "from": "凌雪",
+          "to": "姐姐",
+          "state": "保护其作战；是否知全部家族压力未明",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0093",
+              "start_line": 6034,
+              "end_line": 6036,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "applicability": "用于研究同一人物在本批事件中的选择与代价；可抽象角色功能，不能直接移植人名、关系网与独特履历。",
+      "failure_mode": "把本阶段能力写成永恒全能、把他人评价或主角心读写成客观人格，或将人物性格奉为用户偏好。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0067",
+        "start_line": 4558,
+        "end_line": 4624,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0092",
+        "start_line": 5962,
+        "end_line": 5970,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0096",
+        "start_line": 6264,
+        "end_line": 6271,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0097",
+        "start_line": 6324,
+        "end_line": 6334,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0098",
+        "start_line": 6378,
+        "end_line": 6393,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0098",
+        "start_line": 6346,
+        "end_line": 6353,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0101",
+        "start_line": 6634,
+        "end_line": 6669,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0096",
+        "start_line": 6264,
+        "end_line": 6271,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0101",
+        "start_line": 6636,
+        "end_line": 6641,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "character",
+    "scope": "source-analysis",
+    "title": "冰茶：维护边界和照料团队的中坚",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/character/bingcha",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "人物选择"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "对外阻止搜房、对内提醒生产员保护和照料伤者；能力有边界而仍参与危险选择。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "拒绝王以不信任为由查房，支持凌月；提出不能夺回林地就丢下生产员工。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0057",
+              "start_line": 3947,
+              "end_line": 3977,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0060",
+              "start_line": 4150,
+              "end_line": 4179,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "说不愿按家人安排生活；给书生处理现实伤势。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0079",
+              "start_line": 5282,
+              "end_line": 5308,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0084",
+              "start_line": 5537,
+              "end_line": 5552,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "对地牢高伤主动接受撤离；南门战死后第100章确认掉两级。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0078",
+              "start_line": 5182,
+              "end_line": 5215,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0100",
+              "start_line": 6483,
+              "end_line": 6489,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6589,
+              "end_line": 6591,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "她的作用常通过边界与照料呈现，而不是持续拿最高输出；把配角的现实愿望放入休整段能支撑危机中的共进退。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0057",
+              "start_line": 3947,
+              "end_line": 3977,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0079",
+              "start_line": 5282,
+              "end_line": 5308,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0100",
+              "start_line": 6483,
+              "end_line": 6489,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "goal": "自主生活并支持团队，具体家族矛盾尚未展开。",
+      "limitations": "防御不及凌雪；对无法承担的Boss需撤离，不能概括为总能兜底。",
+      "stage_change": "承诺共进退后实际掉级，且卷末表达关心书生。",
+      "directional_relationships": [
+        {
+          "from": "冰茶",
+          "to": "凌月",
+          "state": "维护私人空间与组织选择",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0057",
+              "start_line": 3947,
+              "end_line": 3977,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "from": "冰茶",
+          "to": "书生",
+          "state": "用赠武器行为评价其好人；评价归她本人",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0079",
+              "start_line": 5282,
+              "end_line": 5308,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "applicability": "用于研究同一人物在本批事件中的选择与代价；可抽象角色功能，不能直接移植人名、关系网与独特履历。",
+      "failure_mode": "把本阶段能力写成永恒全能、把他人评价或主角心读写成客观人格，或将人物性格奉为用户偏好。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0057",
+        "start_line": 3947,
+        "end_line": 3977,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0060",
+        "start_line": 4150,
+        "end_line": 4179,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0079",
+        "start_line": 5282,
+        "end_line": 5308,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0084",
+        "start_line": 5537,
+        "end_line": 5552,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0078",
+        "start_line": 5182,
+        "end_line": 5215,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0100",
+        "start_line": 6483,
+        "end_line": 6489,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0101",
+        "start_line": 6589,
+        "end_line": 6591,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0057",
+        "start_line": 3947,
+        "end_line": 3977,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0079",
+        "start_line": 5282,
+        "end_line": 5308,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0100",
+        "start_line": 6483,
+        "end_line": 6489,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "character",
+    "scope": "source-analysis",
+    "title": "紫韵儿：治疗判断与主动宽免",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/character/ziyun",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "人物选择"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "治疗输出重要，主动救陌生人和制止报复同样重要；她对团队损失的自责不证明其无能。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "转正后免费为路人加复活预言练技能，拒绝收1金币；高级效果持续两小时。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0072",
+              "start_line": 4909,
+              "end_line": 4929,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "误伤后制止书生反杀，随后治疗陌生队伍并劝其退至适合层数。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0090",
+              "start_line": 5845,
+              "end_line": 5888,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "第93章仍误以为书生要死而自责；第99章死前为书生附复活预言，之后生效。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0094",
+              "start_line": 6115,
+              "end_line": 6117,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0100",
+              "start_line": 6490,
+              "end_line": 6512,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "职业技能与价值选择分开塑造：能救与愿意救不是同一维度，避免把温柔仅作为男性主角的奖励。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0090",
+              "start_line": 5845,
+              "end_line": 5888,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "goal": "保护同伴、提高治疗能力；对陌生人也选择减少伤亡。",
+      "limitations": "治疗不能救超过总血的瞬间伤害；复活同人2小时受益限制仍有效，信息落后于主角。",
+      "stage_change": "从高疗支柱进一步显示冲突降温的主动权；最终也付死亡代价。",
+      "directional_relationships": [
+        {
+          "from": "紫韵儿",
+          "to": "书生",
+          "state": "按龙魂嘱咐保护，同时有个人判断",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0099",
+              "start_line": 6427,
+              "end_line": 6430,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "from": "紫韵儿",
+          "to": "陌生误伤者",
+          "state": "主动宽免",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0090",
+              "start_line": 5845,
+              "end_line": 5869,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "applicability": "用于研究同一人物在本批事件中的选择与代价；可抽象角色功能，不能直接移植人名、关系网与独特履历。",
+      "failure_mode": "把本阶段能力写成永恒全能、把他人评价或主角心读写成客观人格，或将人物性格奉为用户偏好。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0072",
+        "start_line": 4909,
+        "end_line": 4929,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0090",
+        "start_line": 5845,
+        "end_line": 5888,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0094",
+        "start_line": 6115,
+        "end_line": 6117,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0100",
+        "start_line": 6490,
+        "end_line": 6512,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0090",
+        "start_line": 5845,
+        "end_line": 5888,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "character",
+    "scope": "source-analysis",
+    "title": "剑火龙魂：把认同转换为组织承担",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/character/longhun",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "人物选择"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "带人、轮班护生产、任务开路把朋友承诺转为可见行动；战力联盟尚不等正式建帮。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "剑火大批援助后承认加盟意向，鬼炙解释识出书生旧ID；随后安排百人轮班守林。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0061",
+              "start_line": 4197,
+              "end_line": 4258,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0062",
+              "start_line": 4261,
+              "end_line": 4292,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "地龙任务分流迎敌并命令留最后击杀；末尾和刑天留下开路，队友多有死亡。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0099",
+              "start_line": 6418,
+              "end_line": 6427,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0099",
+              "start_line": 6454,
+              "end_line": 6462,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "人物认同不止用敬仰台词表达，还通过资源、风险与放弃Boss归属来量化；先救援再揭旧名重排读者对动机的理解。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0061",
+              "start_line": 4197,
+              "end_line": 4258,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0062",
+              "start_line": 4261,
+              "end_line": 4292,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0099",
+              "start_line": 6454,
+              "end_line": 6462,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "goal": "支持书生并让剑火与雪月合作。",
+      "limitations": "没有建帮令；他对林地归属的排他表态不能与人人公平混同；部下承担损失不应删去。",
+      "stage_change": "从友军到愿受书生名义统领的盟友，但组织制度仍未正式落定。",
+      "directional_relationships": [
+        {
+          "from": "龙魂",
+          "to": "书生",
+          "state": "认同旧高手、朋友关系与行动支持并存",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0062",
+              "start_line": 4261,
+              "end_line": 4292,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0099",
+              "start_line": 6427,
+              "end_line": 6429,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "applicability": "用于研究同一人物在本批事件中的选择与代价；可抽象角色功能，不能直接移植人名、关系网与独特履历。",
+      "failure_mode": "把本阶段能力写成永恒全能、把他人评价或主角心读写成客观人格，或将人物性格奉为用户偏好。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0061",
+        "start_line": 4197,
+        "end_line": 4258,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0062",
+        "start_line": 4261,
+        "end_line": 4292,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0099",
+        "start_line": 6418,
+        "end_line": 6427,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0099",
+        "start_line": 6454,
+        "end_line": 6462,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0061",
+        "start_line": 4197,
+        "end_line": 4258,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0062",
+        "start_line": 4261,
+        "end_line": 4292,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0099",
+        "start_line": 6454,
+        "end_line": 6462,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "character",
+    "scope": "source-analysis",
+    "title": "王俊杰：控制制度入口但并非从不行动的对手",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/character/wangjunjie",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "人物选择"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "权力表现为查房、签字和公开羞辱；他也带队突击过，需避免抹平反派具体行为。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "查房被冰茶挡回；现实资金单需他签字，他拒签撕毁/揉弃单据并先出拳。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0057",
+              "start_line": 3947,
+              "end_line": 3977,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0083",
+              "start_line": 5480,
+              "end_line": 5517,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "矿战中实际带百人突击，后被血饮杀；此前矿工指控其不救只是员工转述。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0080",
+              "start_line": 5320,
+              "end_line": 5347,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0081",
+              "start_line": 5361,
+              "end_line": 5406,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "同一对手跨现实制度与游戏战场施压，使主角的胜战不能直接解现实资源困境。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0081",
+              "start_line": 5361,
+              "end_line": 5406,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0083",
+              "start_line": 5480,
+              "end_line": 5517,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "goal": "要求获得对凌月、公司与战斗组织的支配地位；其内心未独立叙述。",
+      "limitations": "行动受公开形象和他人反抗约束；天之骄子职业在文本出现法师/剑士疑点。",
+      "stage_change": "军事表现未改变现实拒签权；雪月被迫自筹而非已经夺取公司权力。",
+      "directional_relationships": [
+        {
+          "from": "王俊杰",
+          "to": "凌月",
+          "state": "自称男友并要求进入私人空间，不等双方相爱",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0056",
+              "start_line": 3929,
+              "end_line": 3946,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0057",
+              "start_line": 3947,
+              "end_line": 3977,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "applicability": "用于研究同一人物在本批事件中的选择与代价；可抽象角色功能，不能直接移植人名、关系网与独特履历。",
+      "failure_mode": "把本阶段能力写成永恒全能、把他人评价或主角心读写成客观人格，或将人物性格奉为用户偏好。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0057",
+        "start_line": 3947,
+        "end_line": 3977,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0083",
+        "start_line": 5480,
+        "end_line": 5517,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0080",
+        "start_line": 5320,
+        "end_line": 5347,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0081",
+        "start_line": 5361,
+        "end_line": 5406,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0081",
+        "start_line": 5361,
+        "end_line": 5406,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0083",
+        "start_line": 5480,
+        "end_line": 5517,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "character",
+    "scope": "source-analysis",
+    "title": "淡淡稻花香：能力已实证、动机仍未明的关键阻力",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/character/daohuaxiang",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "人物选择"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "灵魂封印和按当前血量削减的锁链改变Boss战与转职争夺；不能用神秘形容代替未揭身世。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "在傲世队中施封印30秒；锁链每次削目标当前气血1%，不是固定伤害。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0091",
+              "start_line": 5922,
+              "end_line": 5938,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0092",
+              "start_line": 5972,
+              "end_line": 5983,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "受傲世狂人命令封凌月，遭雪月协同强杀；第99章又封凌雪及书生，成为截断交付的关键。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0093",
+              "start_line": 6001,
+              "end_line": 6032,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0100",
+              "start_line": 6493,
+              "end_line": 6502,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0100",
+              "start_line": 6523,
+              "end_line": 6527,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "她的控制技能把敌我差距从伤害排行转成行动权；外表迟疑与实际执行并存，不能由迟疑推定被迫或善恶真相。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0092",
+              "start_line": 5948,
+              "end_line": 5949,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0093",
+              "start_line": 6015,
+              "end_line": 6032,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0100",
+              "start_line": 6523,
+              "end_line": 6527,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "goal": "本阶段可见行为是帮助傲世作战；私人目标未知。",
+      "limitations": "可被集火击杀；全血加点是主角推断，正式隶属与行动动机未交代。",
+      "stage_change": "从榜单上的隐藏职业名字变成多次左右战局的人物，尚未有独立自述。",
+      "directional_relationships": [
+        {
+          "from": "稻花香",
+          "to": "傲世狂人",
+          "state": "可见受命协同，关系成因未知",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0092",
+              "start_line": 5948,
+              "end_line": 5949,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0093",
+              "start_line": 6001,
+              "end_line": 6016,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "applicability": "用于研究同一人物在本批事件中的选择与代价；可抽象角色功能，不能直接移植人名、关系网与独特履历。",
+      "failure_mode": "把本阶段能力写成永恒全能、把他人评价或主角心读写成客观人格，或将人物性格奉为用户偏好。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0091",
+        "start_line": 5922,
+        "end_line": 5938,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0092",
+        "start_line": 5972,
+        "end_line": 5983,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0093",
+        "start_line": 6001,
+        "end_line": 6032,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0100",
+        "start_line": 6493,
+        "end_line": 6502,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0100",
+        "start_line": 6523,
+        "end_line": 6527,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0092",
+        "start_line": 5948,
+        "end_line": 5949,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0093",
+        "start_line": 6015,
+        "end_line": 6032,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0100",
+        "start_line": 6523,
+        "end_line": 6527,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "character",
+    "scope": "source-analysis",
+    "title": "去年夏天：以喜剧进入、以生活目标获得重量",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/character/xiatian",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "人物选择"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "操作失误和嬉闹之外，她想靠职业游戏证明已长大；南门争夺中仍是实际承受损失的成员。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "生活闲谈中说想证明自己长大，书生承诺不抛弃成员。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0087",
+              "start_line": 5679,
+              "end_line": 5715,
+              "claim_kind": "fact"
+            }
+          ]
+        },
+        {
+          "claim_kind": "fact",
+          "statement": "南门召唤物被杀后本人也遭傲世狂人击杀；卷末忧虑书生十几天努力损失。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0100",
+              "start_line": 6484,
+              "end_line": 6486,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6593,
+              "end_line": 6596,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "在休整段补上经济/成人目标，可以使弱战力成员的死亡不只承担战况数字；但本批材料不足以推断其完整家庭史。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0087",
+              "start_line": 5679,
+              "end_line": 5715,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0100",
+              "start_line": 6484,
+              "end_line": 6486,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "goal": "靠自己的职业工作证明成人能力。",
+      "limitations": "输出和操作有限；第58章出现火之箭主体疑错，不能据之赋予弓手能力。",
+      "stage_change": "从日常玩笑到战败共同受损，独立成长尚未完成。",
+      "directional_relationships": [
+        {
+          "from": "夏天",
+          "to": "书生",
+          "state": "以按摩换面等玩笑互动，关心其损失",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0087",
+              "start_line": 5679,
+              "end_line": 5715,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6593,
+              "end_line": 6596,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "applicability": "用于研究同一人物在本批事件中的选择与代价；可抽象角色功能，不能直接移植人名、关系网与独特履历。",
+      "failure_mode": "把本阶段能力写成永恒全能、把他人评价或主角心读写成客观人格，或将人物性格奉为用户偏好。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0087",
+        "start_line": 5679,
+        "end_line": 5715,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0100",
+        "start_line": 6484,
+        "end_line": 6486,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0101",
+        "start_line": 6593,
+        "end_line": 6596,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0087",
+        "start_line": 5679,
+        "end_line": 5715,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0100",
+        "start_line": 6484,
+        "end_line": 6486,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "红帽头盔：从负价值物品到实验钥匙",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/red-hat",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "书生保留减敏头盔，听见树妖谈卡喉后投掷试验，系统确认四属性减半600秒，据此打通转正任务。",
+      "goal": "抢先完成转正。",
+      "obstacle": "洞内树妖强，常规逐只杀耗时。",
+      "choice": "保留低质掉落、听对话并小试验证。",
+      "consequence": "获得可重复战术，最后世界首转并获闪避。",
+      "state_change": "物品估价由无用转为情境工具；等级竞争获得具体时间收益。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "书生保留减敏头盔，听见树妖谈卡喉后投掷试验，系统确认四属性减半600秒，据此打通转正任务。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0055",
+              "start_line": 3812,
+              "end_line": 3828,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0055",
+              "start_line": 3851,
+              "end_line": 3885,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "信息先以抱怨出现，试验给出可核反馈，再允许规模使用，减少凭空顿悟感。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0055",
+              "start_line": 3812,
+              "end_line": 3828,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0055",
+              "start_line": 3851,
+              "end_line": 3885,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "信息先以抱怨出现，试验给出可核反馈，再允许规模使用，减少凭空顿悟感。",
+      "applicability": "已有物品与可观察生理/规则限制可组合的解谜。",
+      "failure_mode": "隐藏钥匙没有先出现，或弱点只凭主角宣称成立。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0055",
+        "start_line": 3812,
+        "end_line": 3828,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0055",
+        "start_line": 3851,
+        "end_line": 3885,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0055",
+        "start_line": 3812,
+        "end_line": 3828,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0055",
+        "start_line": 3851,
+        "end_line": 3885,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "卧室藏身与纸箱说辞：保护行动形成知识差",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/bed-concealment",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "凌月躲书生床上，冰茶阻王查房；离开后以纸箱说辞解释，真实位置只对当事人及读者明确。",
+      "goal": "避免被王发现凌月与迫入私人空间。",
+      "obstacle": "门外查房压力与解释风险。",
+      "choice": "书生掩护、冰茶拒绝，凌月指定事后说辞。",
+      "consequence": "即时查房解除，真正家庭/权力问题未解决。",
+      "state_change": "同伴合作增加，公开叙述与私下经历分离。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "凌月躲书生床上，冰茶阻王查房；离开后以纸箱说辞解释，真实位置只对当事人及读者明确。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0056",
+              "start_line": 3929,
+              "end_line": 3946,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0057",
+              "start_line": 3947,
+              "end_line": 3990,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "喜剧尴尬与权力边界同场存在，后续信任不能自动等同完整坦白。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0056",
+              "start_line": 3929,
+              "end_line": 3946,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0057",
+              "start_line": 3947,
+              "end_line": 3990,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "喜剧尴尬与权力边界同场存在，后续信任不能自动等同完整坦白。",
+      "applicability": "多人围绕同一秘密采取不同可见行为的场景。",
+      "failure_mode": "以亲密接触直接证明爱情，或把其他人的笑意写成确知。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0056",
+        "start_line": 3929,
+        "end_line": 3946,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0057",
+        "start_line": 3947,
+        "end_line": 3990,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0056",
+        "start_line": 3929,
+        "end_line": 3946,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0057",
+        "start_line": 3947,
+        "end_line": 3990,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "守林救援之后才说明旧身份",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/rescue-identity",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "生产资源争夺使雪月红名且不能轻撤；剑火大批来援并愿加盟，随后鬼炙解释认出了书生昔日ID。",
+      "goal": "守住青桦资源和生产员工。",
+      "obstacle": "红名死亡掉级及傲世召援。",
+      "choice": "雪月决定留下，剑火投入人数和轮班保护。",
+      "consequence": "本次围攻解除，联盟形成实际分工，建帮仍缺令牌。",
+      "state_change": "单队风险扩大为组织关系；旧高手信息取得旁人确认。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "生产资源争夺使雪月红名且不能轻撤；剑火大批来援并愿加盟，随后鬼炙解释认出了书生昔日ID。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0060",
+              "start_line": 4135,
+              "end_line": 4196,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0061",
+              "start_line": 4197,
+              "end_line": 4258,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0062",
+              "start_line": 4261,
+              "end_line": 4292,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "先看见有成本的援助，再获动机说明，旧身份不是悬空背景介绍。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0060",
+              "start_line": 4135,
+              "end_line": 4196,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0061",
+              "start_line": 4197,
+              "end_line": 4258,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0062",
+              "start_line": 4261,
+              "end_line": 4292,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "先看见有成本的援助，再获动机说明，旧身份不是悬空背景介绍。",
+      "applicability": "前有可供识别细节、后有可验证援助的身份揭示。",
+      "failure_mode": "仅凭名号收服大群人而省略识别过程或投入代价。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0060",
+        "start_line": 4135,
+        "end_line": 4196,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0061",
+        "start_line": 4197,
+        "end_line": 4258,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0062",
+        "start_line": 4261,
+        "end_line": 4292,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0060",
+        "start_line": 4135,
+        "end_line": 4196,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0061",
+        "start_line": 4197,
+        "end_line": 4258,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0062",
+        "start_line": 4261,
+        "end_line": 4292,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "红名独逃与大家等饭：制度代价进入生活",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/redname-meal",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "凌月让白名回城、承诺等饭；书生独逃遭刺客和法师截杀，离线发现众人实际等了两小时。",
+      "goal": "保住高罪恶值下的等级装备并归队。",
+      "obstacle": "红名限制回城，公开坐标和装备诱惑引追杀。",
+      "choice": "让同伴撤离，自己利用地形和药水冷却求生。",
+      "consequence": "暂保性命与装备，耗去冲级时间；等待承诺兑现。",
+      "state_change": "团队关心从言语转成现实时间支出。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "凌月让白名回城、承诺等饭；书生独逃遭刺客和法师截杀，离线发现众人实际等了两小时。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0063",
+              "start_line": 4334,
+              "end_line": 4377,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0064",
+              "start_line": 4378,
+              "end_line": 4448,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0065",
+              "start_line": 4471,
+              "end_line": 4506,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "战斗损耗有离线后可见回声，胜利不等于时间成本消失。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0063",
+              "start_line": 4334,
+              "end_line": 4377,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0064",
+              "start_line": 4378,
+              "end_line": 4448,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0065",
+              "start_line": 4471,
+              "end_line": 4506,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "战斗损耗有离线后可见回声，胜利不等于时间成本消失。",
+      "applicability": "双层生活叙事或任务后果需在关系中落地。",
+      "failure_mode": "用一句关心替代已承诺的行动，或将高风险胜利记作零成本。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0063",
+        "start_line": 4334,
+        "end_line": 4377,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0064",
+        "start_line": 4378,
+        "end_line": 4448,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0065",
+        "start_line": 4471,
+        "end_line": 4506,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0063",
+        "start_line": 4334,
+        "end_line": 4377,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0064",
+        "start_line": 4378,
+        "end_line": 4448,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0065",
+        "start_line": 4471,
+        "end_line": 4506,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "清怪之后还要护送：完成条件与关系推进",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/escort-and-trust",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "书生凌雪清完2073亡灵仍需护送士兵；团队分工保其回城后系统完成，随后凌月在阳台谈责任和有限信任。",
+      "goal": "完成遗忘之心并安全带队返城。",
+      "obstacle": "清零不等交付，敌人堵路、装备耐久将尽。",
+      "choice": "同伴与剑火分工护送，之后通过私下谈话处理压力。",
+      "consequence": "奖励实际到账；家庭束缚仍在，勿告妹妹的要求增加知识差。",
+      "state_change": "战斗互助延伸成可谈脆弱的关系，但非全知全信。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "书生凌雪清完2073亡灵仍需护送士兵；团队分工保其回城后系统完成，随后凌月在阳台谈责任和有限信任。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0067",
+              "start_line": 4595,
+              "end_line": 4624,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0068",
+              "start_line": 4625,
+              "end_line": 4676,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0069",
+              "start_line": 4677,
+              "end_line": 4698,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0069",
+              "start_line": 4734,
+              "end_line": 4756,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "任务完成拆成作业与交付，接着用低强度交流处理组织扩大后的情绪。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0067",
+              "start_line": 4595,
+              "end_line": 4624,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0068",
+              "start_line": 4625,
+              "end_line": 4676,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0069",
+              "start_line": 4677,
+              "end_line": 4698,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0069",
+              "start_line": 4734,
+              "end_line": 4756,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "任务完成拆成作业与交付，接着用低强度交流处理组织扩大后的情绪。",
+      "applicability": "交付本身可承受风险的任务及战后休整。",
+      "failure_mode": "清零立即算完成，或把坦白一部分等同秘密全部揭开。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0067",
+        "start_line": 4595,
+        "end_line": 4624,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0068",
+        "start_line": 4625,
+        "end_line": 4676,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0069",
+        "start_line": 4677,
+        "end_line": 4698,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0069",
+        "start_line": 4734,
+        "end_line": 4756,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0067",
+        "start_line": 4595,
+        "end_line": 4624,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0068",
+        "start_line": 4625,
+        "end_line": 4676,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0069",
+        "start_line": 4677,
+        "end_line": 4698,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0069",
+        "start_line": 4734,
+        "end_line": 4756,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "拾取分工：把低等级成员变成产能环节",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/fundraising",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "公司转职缺5000金币，凌月组织高输出专杀、低等级拾取，筹款并实际送公司。",
+      "goal": "补齐生产职业转正资金。",
+      "obstacle": "市场收币不足，高手停手拾取降低效率。",
+      "choice": "将战斗和拾取拆给不同成员。",
+      "consequence": "实际交付5000金币，生产投入得到资金；尚非工作室完全财务自由。",
+      "state_change": "原先低等级的劣势在分工中获得用途。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "公司转职缺5000金币，凌月组织高输出专杀、低等级拾取，筹款并实际送公司。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0072",
+              "start_line": 4879,
+              "end_line": 4909,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "经济问题通过任务流程解决，能把配角作用和资源系统连到同一因果链。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0072",
+              "start_line": 4879,
+              "end_line": 4909,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "经济问题通过任务流程解决，能把配角作用和资源系统连到同一因果链。",
+      "applicability": "任务有非战斗瓶颈且分工不会凭空复制资源。",
+      "failure_mode": "只给结果总额而不展示瓶颈与贡献，或把一次筹资写成长久盈利。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0072",
+        "start_line": 4879,
+        "end_line": 4909,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0072",
+        "start_line": 4879,
+        "end_line": 4909,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "护甲缝隙试验之后仍付死亡代价",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/armor-gap",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "魔化统领减防使坦克撑不住，书生观察护甲、诱抬手试腋下高伤；残血火雨仍杀凌月，书生挡击也死后复活，最后凌雪击杀。",
+      "goal": "击杀高强度Boss。",
+      "obstacle": "降攻/降防与火雨使原站位失效。",
+      "choice": "切换远程拉仇恨，观察弱点后验证并配合。",
+      "consequence": "击杀成功，复活受益次数消耗，风险未被一个弱点彻底抹去。",
+      "state_change": "从站桩输出转时机配合，成员互保可见。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "魔化统领减防使坦克撑不住，书生观察护甲、诱抬手试腋下高伤；残血火雨仍杀凌月，书生挡击也死后复活，最后凌雪击杀。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0074",
+              "start_line": 5011,
+              "end_line": 5034,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0075",
+              "start_line": 5035,
+              "end_line": 5076,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "解题带来优势而非免除失败，让能力展示与脆弱同时存在。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0074",
+              "start_line": 5011,
+              "end_line": 5034,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0075",
+              "start_line": 5035,
+              "end_line": 5076,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "解题带来优势而非免除失败，让能力展示与脆弱同时存在。",
+      "applicability": "多阶段敌人有可观察限制且队员各有补位行动。",
+      "failure_mode": "把弱点一发现就写成无损胜利，忽略原有复活冷却。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0074",
+        "start_line": 5011,
+        "end_line": 5034,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0075",
+        "start_line": 5035,
+        "end_line": 5076,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0074",
+        "start_line": 5011,
+        "end_line": 5034,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0075",
+        "start_line": 5035,
+        "end_line": 5076,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "一秒施法与楼层边界：入口困局的可测解法",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/casting-boundary",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "六层入口十三法怪令凌雪险死；书生探明约1.5秒咏唱，凌月用1秒火海进出楼层，怪不能追下五层。",
+      "goal": "给队伍打开六层入口。",
+      "obstacle": "高密度远程集火无法硬抗。",
+      "choice": "先探查施法间隔，再依楼层边界反复施放持续伤。",
+      "consequence": "入口清出；随后普通精英的群雷仍要求另换策略。",
+      "state_change": "受困队伍取得可进场空间，不是所有怪战同时解决。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "六层入口十三法怪令凌雪险死；书生探明约1.5秒咏唱，凌月用1秒火海进出楼层，怪不能追下五层。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0076",
+              "start_line": 5103,
+              "end_line": 5128,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0077",
+              "start_line": 5131,
+              "end_line": 5161,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "将空间边界、动作耗时和持续伤害组合，具体约束让策略可理解。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0076",
+              "start_line": 5103,
+              "end_line": 5128,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0077",
+              "start_line": 5131,
+              "end_line": 5161,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "将空间边界、动作耗时和持续伤害组合，具体约束让策略可理解。",
+      "applicability": "规则足够清楚、对手追踪范围和动作时间均可观察。",
+      "failure_mode": "突然增加敌人不能追的豁免或无解释无限刷同招。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0076",
+        "start_line": 5103,
+        "end_line": 5128,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0077",
+        "start_line": 5131,
+        "end_line": 5161,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0076",
+        "start_line": 5103,
+        "end_line": 5128,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0077",
+        "start_line": 5131,
+        "end_line": 5161,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "耐久崩盘：打得动不等于能撑到结束",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/durability-collapse",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "大祭司薄防高伤，冰茶被秒后由复活预言保住，按凌月指令脱战回城；半小时后凌雪第一件狂风装备耐久低于10%，防御下降后她、牧师、书生相继死，凌月最终带战利品归来。",
+      "goal": "完成六层Boss以开放七层。",
+      "obstacle": "资源消耗随时间累积，治疗不能长期抵消耐久衰减。",
+      "choice": "能撤者先撤，其余继续撑战。",
+      "consequence": "系统开放七层待48小时，个体掉级、装备损耗存在；凌月最后击杀动作未直接呈现。",
+      "state_change": "团队推进与个体失利并行。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "大祭司薄防高伤，冰茶被秒后由复活预言保住，按凌月指令脱战回城；半小时后凌雪第一件狂风装备耐久低于10%，防御下降后她、牧师、书生相继死，凌月最终带战利品归来。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0078",
+              "start_line": 5182,
+              "end_line": 5247,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0079",
+              "start_line": 5248,
+              "end_line": 5268,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "静态面板优势被时间变量侵蚀，胜负拆成任务、等级、资源多条轴。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0078",
+              "start_line": 5182,
+              "end_line": 5247,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0079",
+              "start_line": 5248,
+              "end_line": 5268,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "静态面板优势被时间变量侵蚀，胜负拆成任务、等级、资源多条轴。",
+      "applicability": "耐久或补给事先可见的持续战。",
+      "failure_mode": "事后突然添耗损规则，或替离开视野的角色虚构具体收尾。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0078",
+        "start_line": 5182,
+        "end_line": 5247,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0079",
+        "start_line": 5248,
+        "end_line": 5268,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0078",
+        "start_line": 5182,
+        "end_line": 5247,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0079",
+        "start_line": 5248,
+        "end_line": 5268,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "签字门槛与公开斥责：现实胜负另有规则",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/budget-and-public-face",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "凌月想提50万运营费但需要王签；遭拒和羞辱后王先拳击书生，书生反击。凌月公开斥责、私下带离道歉，款项未取得。",
+      "goal": "为工作室取得运营资金。",
+      "obstacle": "公司双签制度与王的阻拦。",
+      "choice": "冲突升级后以公开姿态处理现场，再私下说明。",
+      "consequence": "人离开，公司资金仍拿不到，转自力筹资。",
+      "state_change": "战场胜利未转换为现实财政控制；旁观者与读者认知分离。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "凌月想提50万运营费但需要王签；遭拒和羞辱后王先拳击书生，书生反击。凌月公开斥责、私下带离道歉，款项未取得。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0083",
+              "start_line": 5470,
+              "end_line": 5517,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0084",
+              "start_line": 5518,
+              "end_line": 5544,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "保留制度门槛让现实冲突有不同解法，私下回补改变公开对话的意义。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0083",
+              "start_line": 5470,
+              "end_line": 5517,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0084",
+              "start_line": 5518,
+              "end_line": 5544,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "保留制度门槛让现实冲突有不同解法，私下回补改变公开对话的意义。",
+      "applicability": "角色同时受组织程序和私人关系约束。",
+      "failure_mode": "将一场打架写成制度权力自动转移，或把人物自称正当防卫当法律判定。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0083",
+        "start_line": 5470,
+        "end_line": 5517,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0084",
+        "start_line": 5518,
+        "end_line": 5544,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0083",
+        "start_line": 5470,
+        "end_line": 5517,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0084",
+        "start_line": 5518,
+        "end_line": 5544,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "紫韵儿宽免误伤后救陌生队伍",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/stranger-healing",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "低层狂战误伤紫韵儿，她阻止书生反杀；到更高层又治疗陷险的小队并建议退至适合层数。",
+      "goal": "通过低层去目标层，同时避免扩大无谓冲突。",
+      "obstacle": "低级玩家紧张抢怪，误伤可能引发报复。",
+      "choice": "不追究误伤，并主动提供治疗与可执行建议。",
+      "consequence": "误伤未升级成杀戮，小队得到暂时救助；没有承诺他们此后永远安全。",
+      "state_change": "配角显出独立判断，不依附主角的报复冲动。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "低层狂战误伤紫韵儿，她阻止书生反杀；到更高层又治疗陷险的小队并建议退至适合层数。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0090",
+              "start_line": 5840,
+              "end_line": 5888,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "将有能力与如何使用能力分开，人物价值通过选择而非形容词建立。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0090",
+              "start_line": 5840,
+              "end_line": 5888,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "将有能力与如何使用能力分开，人物价值通过选择而非形容词建立。",
+      "applicability": "人物可在主线赶路中遇到低成本但有价值冲突的岔口。",
+      "failure_mode": "救人只为换奖励或给主角魅力背书，删除施救者自己的理由。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0090",
+        "start_line": 5840,
+        "end_line": 5888,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0090",
+        "start_line": 5840,
+        "end_line": 5888,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "封门把人数优势改成同室灾难",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/locked-room",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "双方进入七层达50人上限封门十小时；雪月协同杀控制者并利用Boss清傲世，但敌清后凌雪被Boss一击秒杀。",
+      "goal": "在包围中保命并争取Boss。",
+      "obstacle": "多人集火、控制技能和Boss同时施压。",
+      "choice": "先集火控制者、保远程群攻，再准备抗Boss。",
+      "consequence": "玩家敌人清除；Boss强度仍超可抗范围，需撤退。",
+      "state_change": "PVP获胜紧接PVE失败，原以为可获战利品的空间变成撤退危机。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "双方进入七层达50人上限封门十小时；雪月协同杀控制者并利用Boss清傲世，但敌清后凌雪被Boss一击秒杀。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0092",
+              "start_line": 5983,
+              "end_line": 5992,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0093",
+              "start_line": 6013,
+              "end_line": 6057,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "同一限制对双方都有效；排除一类敌人立即暴露另一类问题。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0092",
+              "start_line": 5983,
+              "end_line": 5992,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0093",
+              "start_line": 6013,
+              "end_line": 6057,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "同一限制对双方都有效；排除一类敌人立即暴露另一类问题。",
+      "applicability": "封闭空间有独立第三方威胁且人数限制已在场实证。",
+      "failure_mode": "事后只对敌方执行规则，或借第三方消灭对手后把其危险忘掉。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0092",
+        "start_line": 5983,
+        "end_line": 5992,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0093",
+        "start_line": 6013,
+        "end_line": 6057,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0092",
+        "start_line": 5983,
+        "end_line": 5992,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0093",
+        "start_line": 6013,
+        "end_line": 6057,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "悬灯偶然生机与十小时消耗",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/lamp-opportunity",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "书生为同伴撤离引Boss，击飞复活后偶然落在悬灯，获得远射安全位；近十小时耗完资源，在开门追兵赶到前击杀取装回城。",
+      "goal": "先保同伴，偶然生还后争取击杀收益。",
+      "obstacle": "Boss减速仍追得上、近战秒杀；安全位不解决回血、箭药和开门期限。",
+      "choice": "先承担牺牲，再利用偶然位置持续输出，最后放弃金币保装备。",
+      "consequence": "升50、得三装与龙之证明，金币未拾；没有建帮令。",
+      "state_change": "预期必死→可能成功→期限将到的紧张升级。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "书生为同伴撤离引Boss，击飞复活后偶然落在悬灯，获得远射安全位；近十小时耗完资源，在开门追兵赶到前击杀取装回城。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0094",
+              "start_line": 6065,
+              "end_line": 6124,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0095",
+              "start_line": 6128,
+              "end_line": 6167,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "幸运只提供机会，后续消耗与取舍决定收益；该段也有偶然便利偏强的局限。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0094",
+              "start_line": 6065,
+              "end_line": 6124,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0095",
+              "start_line": 6128,
+              "end_line": 6167,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "幸运只提供机会，后续消耗与取舍决定收益；该段也有偶然便利偏强的局限。",
+      "applicability": "前置复活和空间具备落脚条件，并愿意给偶然附加代价。",
+      "failure_mode": "把意外说成主角预判，或安全位后立即无成本收奖。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0094",
+        "start_line": 6065,
+        "end_line": 6124,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0095",
+        "start_line": 6128,
+        "end_line": 6167,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0094",
+        "start_line": 6065,
+        "end_line": 6124,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0095",
+        "start_line": 6128,
+        "end_line": 6167,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "高价礼物没有自动换来期待回应",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/ring-refusal",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "书生为抵欠情决定送暗金戒，并提旧以身相许玩笑；凌雪哭拒下线，后约见却回避醉倒原因，再实际收戒存库。",
+      "goal": "主角想回报并获得亲密回应；凌雪的拒绝原因未明。",
+      "obstacle": "双方未共享礼物的意义与往事信息。",
+      "choice": "拒收、约见、转移话题，稍后收下而不作完整解释。",
+      "consequence": "戒归凌雪但关系定义和醉因仍悬；不能因物品交付就写情感误会全部解除。",
+      "state_change": "高收益之后出现主角无法靠数值解决的失落。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "书生为抵欠情决定送暗金戒，并提旧以身相许玩笑；凌雪哭拒下线，后约见却回避醉倒原因，再实际收戒存库。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0096",
+              "start_line": 6226,
+              "end_line": 6231,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0096",
+              "start_line": 6264,
+              "end_line": 6271,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0097",
+              "start_line": 6324,
+              "end_line": 6331,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0098",
+              "start_line": 6378,
+              "end_line": 6378,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "物质奖励与关系回报拆开，保留另一人物的解释权；但反复回避也可能造成拖延感。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0096",
+              "start_line": 6226,
+              "end_line": 6231,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0096",
+              "start_line": 6264,
+              "end_line": 6271,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0097",
+              "start_line": 6324,
+              "end_line": 6331,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0098",
+              "start_line": 6378,
+              "end_line": 6378,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "物质奖励与关系回报拆开，保留另一人物的解释权；但反复回避也可能造成拖延感。",
+      "applicability": "前有具体约定或玩笑，礼物意义对双方不同。",
+      "failure_mode": "用昂贵礼物当同意或爱情证明，或替拒绝方编造未说的创伤。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0096",
+        "start_line": 6226,
+        "end_line": 6231,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0096",
+        "start_line": 6264,
+        "end_line": 6271,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0097",
+        "start_line": 6324,
+        "end_line": 6331,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0098",
+        "start_line": 6378,
+        "end_line": 6378,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0096",
+        "start_line": 6226,
+        "end_line": 6231,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0096",
+        "start_line": 6264,
+        "end_line": 6271,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0097",
+        "start_line": 6324,
+        "end_line": 6331,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0098",
+        "start_line": 6378,
+        "end_line": 6378,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "双路转职交付：成功与归零分别结算",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/split-quest",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "限时任务要求书生亲杀地龙，姐妹换证明；内核禁回卷与敌方堵路迫使队友开路。夺回证明启动融合→被封印→第二次死亡扣至0级并遗失装备→系统才提示转职成功且因死亡无经验。",
+      "goal": "60分钟内融合勇者证明与地龙内核。",
+      "obstacle": "必须本人击杀、两处距离、内核禁传送、两股敌人截断交付。",
+      "choice": "把唯一证明交姐妹，剑火牺牲开路；书生暴怒击杀后潜行夺证明并融合。",
+      "consequence": "职业成功、死亡无任务经验、等级归零且装备丢失；两条结算独立。",
+      "state_change": "从榜首弓手变0级龙语者，团队承担可见损失。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "限时任务要求书生亲杀地龙，姐妹换证明；内核禁回卷与敌方堵路迫使队友开路。夺回证明启动融合→被封印→第二次死亡扣至0级并遗失装备→系统才提示转职成功且因死亡无经验。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0098",
+              "start_line": 6381,
+              "end_line": 6394,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0099",
+              "start_line": 6418,
+              "end_line": 6427,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0099",
+              "start_line": 6451,
+              "end_line": 6462,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0100",
+              "start_line": 6493,
+              "end_line": 6566,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "流程分解迫使信任；先立红名代价再大幅兑现，成功没有抵销全部损失。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0098",
+              "start_line": 6381,
+              "end_line": 6394,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0099",
+              "start_line": 6418,
+              "end_line": 6427,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0099",
+              "start_line": 6451,
+              "end_line": 6462,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0100",
+              "start_line": 6493,
+              "end_line": 6566,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "流程分解迫使信任；先立红名代价再大幅兑现，成功没有抵销全部损失。",
+      "applicability": "多步目标各有独立完成判据与失败成本。",
+      "failure_mode": "让任意死亡自动成功或自动失败，或为爽感抹去先前队友牺牲。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0098",
+        "start_line": 6381,
+        "end_line": 6394,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0099",
+        "start_line": 6418,
+        "end_line": 6427,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0099",
+        "start_line": 6451,
+        "end_line": 6462,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0100",
+        "start_line": 6493,
+        "end_line": 6566,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0098",
+        "start_line": 6381,
+        "end_line": 6394,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0099",
+        "start_line": 6418,
+        "end_line": 6427,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0099",
+        "start_line": 6451,
+        "end_line": 6462,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0100",
+        "start_line": 6493,
+        "end_line": 6566,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "scene",
+    "scope": "source-analysis",
+    "title": "旧弓回购与带练再失手：重启保留关系和约束",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/old-bow-return",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "场景因果"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "凌雪拿回书生曾卖掉的黄金弓，自述花3万元；拒用还钱分清，借残血和30秒经验归属规则带他升10，随后他因拉到仇恨被秒回9。",
+      "goal": "在保留新职业与旧技能的条件下重练。",
+      "obstacle": "0级低攻、武器门槛、经验归属和仇恨规则。",
+      "choice": "买回旧物，降装备控制怪血、退队等30秒让书生收尾。",
+      "consequence": "到10后掉9，低级长矛掉落被捡回；45级烈焰枪尚不能装备。",
+      "state_change": "赠物方向反转，快速成长仍受新手风险约束。",
+      "facts": [
+        {
+          "claim_kind": "fact",
+          "statement": "凌雪拿回书生曾卖掉的黄金弓，自述花3万元；拒用还钱分清，借残血和30秒经验归属规则带他升10，随后他因拉到仇恨被秒回9。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0085",
+              "start_line": 5567,
+              "end_line": 5589,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6580,
+              "end_line": 6608,
+              "claim_kind": "fact"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6634,
+              "end_line": 6697,
+              "claim_kind": "fact"
+            }
+          ]
+        }
+      ],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "同一旧物连接两个阶段，技能资产和关系资产保存让重启不同于开篇；小失败防止强职业变无代价通行证。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0085",
+              "start_line": 5567,
+              "end_line": 5589,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6580,
+              "end_line": 6608,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6634,
+              "end_line": 6697,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "why_it_works": "同一旧物连接两个阶段，技能资产和关系资产保存让重启不同于开篇；小失败防止强职业变无代价通行证。",
+      "applicability": "损失后仍有可信保留项，旧物回收有持有者和取得路径。",
+      "failure_mode": "把价格全当市场成交审计，或把计划冲25/45写成本章已达到。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0085",
+        "start_line": 5567,
+        "end_line": 5589,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0101",
+        "start_line": 6580,
+        "end_line": 6608,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0101",
+        "start_line": 6634,
+        "end_line": 6697,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0085",
+        "start_line": 5567,
+        "end_line": 5589,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0101",
+        "start_line": 6580,
+        "end_line": 6608,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0101",
+        "start_line": 6634,
+        "end_line": 6697,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "pattern",
+    "scope": "reusable-pattern",
+    "title": "把低价值细节变成可验证策略",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/pattern/tested-clue",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "抽象写作机制"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "先让细节存在，再给可观察线索，经过小试得到反馈，最后扩大使用；聪明来自推理过程可见。",
+      "causal_chain": [
+        "物品/边界先存在",
+        "角色发现异常或限制",
+        "低成本试探",
+        "反馈明确",
+        "规模利用并仍受限制"
+      ],
+      "applicability": "谜题、战斗、工艺或谈判存在可操作规则。",
+      "failure_mode": "钥匙凭空出现；反馈只由角色自信替代；一次解法永久通吃。",
+      "facts": [],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "先让细节存在，再给可观察线索，经过小试得到反馈，最后扩大使用；聪明来自推理过程可见。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0055",
+              "start_line": 3851,
+              "end_line": 3885,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0075",
+              "start_line": 5039,
+              "end_line": 5056,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0076",
+              "start_line": 5117,
+              "end_line": 5128,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "derived_from_origin_keys": [
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/red-hat",
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/armor-gap",
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/casting-boundary"
+      ],
+      "originality_transform": "只保留因果关系与检验步骤；替换世界规则、目标、人物动机、物品、空间与后果，不复用原场景组合或措辞。",
+      "validation_status": "编辑研究推断，未在用户原创项目或真实读者中验证；待用户审阅。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0055",
+        "start_line": 3851,
+        "end_line": 3885,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0075",
+        "start_line": 5039,
+        "end_line": 5056,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0076",
+        "start_line": 5117,
+        "end_line": 5128,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "pattern",
+    "scope": "reusable-pattern",
+    "title": "让胜利代价在另一生活层继续发生",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/pattern/cost-across-layers",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "抽象写作机制"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "胜利消耗时间、耐久或资金，再让这些消耗改变下一场行动与关系；战斗与生活因此互为后果。",
+      "causal_chain": [
+        "取得局部胜利",
+        "留下时间/经济/身体成本",
+        "成本阻止原计划",
+        "日常选择或下一目标回应"
+      ],
+      "applicability": "双层生活、资源压力或长线冒险。",
+      "failure_mode": "每战自动刷新一切；休整只插科打诨不回应先前代价。",
+      "facts": [],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "胜利消耗时间、耐久或资金，再让这些消耗改变下一场行动与关系；战斗与生活因此互为后果。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0065",
+              "start_line": 4471,
+              "end_line": 4506,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0078",
+              "start_line": 5200,
+              "end_line": 5247,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0084",
+              "start_line": 5518,
+              "end_line": 5544,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "derived_from_origin_keys": [
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/redname-meal",
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/durability-collapse",
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/budget-and-public-face"
+      ],
+      "originality_transform": "只保留因果关系与检验步骤；替换世界规则、目标、人物动机、物品、空间与后果，不复用原场景组合或措辞。",
+      "validation_status": "编辑研究推断，未在用户原创项目或真实读者中验证；待用户审阅。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0065",
+        "start_line": 4471,
+        "end_line": 4506,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0078",
+        "start_line": 5200,
+        "end_line": 5247,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0084",
+        "start_line": 5518,
+        "end_line": 5544,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "pattern",
+    "scope": "reusable-pattern",
+    "title": "先让援助发生，再回补识别与动机",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/pattern/action-before-motive",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "抽象写作机制"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "先展示有成本的行动，延迟一小段揭示人物为何选择，从而让背景解释重估已发生行为。",
+      "causal_chain": [
+        "危机迫选择",
+        "援助付出人力/风险",
+        "主角感到原因不足",
+        "后续对话补识别证据",
+        "关系获得新含义"
+      ],
+      "applicability": "动机有前置可识别细节且延迟不破坏行为可信度。",
+      "failure_mode": "突然崇拜替代全部人格；只有名号没有识别路径与投入。",
+      "facts": [],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "先展示有成本的行动，延迟一小段揭示人物为何选择，从而让背景解释重估已发生行为。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0061",
+              "start_line": 4197,
+              "end_line": 4258,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0062",
+              "start_line": 4261,
+              "end_line": 4292,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "derived_from_origin_keys": [
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/rescue-identity"
+      ],
+      "originality_transform": "只保留因果关系与检验步骤；替换世界规则、目标、人物动机、物品、空间与后果，不复用原场景组合或措辞。",
+      "validation_status": "编辑研究推断，未在用户原创项目或真实读者中验证；待用户审阅。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0061",
+        "start_line": 4197,
+        "end_line": 4258,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0062",
+        "start_line": 4261,
+        "end_line": 4292,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "pattern",
+    "scope": "reusable-pattern",
+    "title": "把任务成功与个人损失分开结算",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/pattern/independent-outcomes",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "抽象写作机制"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "目标、等级、财产与关系分别结算，使同一高潮同时改变多种状态，后续故事由保留项和损失项共同驱动。",
+      "causal_chain": [
+        "先定义各项成本/条件",
+        "高潮中完成一项目标",
+        "同时兑现另一项惩罚",
+        "保留可重建资源",
+        "新行动处理损失"
+      ],
+      "applicability": "任务系统清楚、多角色共同承担成本。",
+      "failure_mode": "任意一声成功覆盖死亡损失；模糊先后顺序强行反转。",
+      "facts": [],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "目标、等级、财产与关系分别结算，使同一高潮同时改变多种状态，后续故事由保留项和损失项共同驱动。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0078",
+              "start_line": 5200,
+              "end_line": 5247,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0100",
+              "start_line": 6531,
+              "end_line": 6566,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6580,
+              "end_line": 6608,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "derived_from_origin_keys": [
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/durability-collapse",
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/split-quest",
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/old-bow-return"
+      ],
+      "originality_transform": "只保留因果关系与检验步骤；替换世界规则、目标、人物动机、物品、空间与后果，不复用原场景组合或措辞。",
+      "validation_status": "编辑研究推断，未在用户原创项目或真实读者中验证；待用户审阅。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0078",
+        "start_line": 5200,
+        "end_line": 5247,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0100",
+        "start_line": 6531,
+        "end_line": 6566,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0101",
+        "start_line": 6580,
+        "end_line": 6608,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "pattern",
+    "scope": "reusable-pattern",
+    "title": "用流程瓶颈分配队员的重要性",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/pattern/distributed-bottleneck",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "抽象写作机制"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "将战斗、拾取、交付和掩护分给不同成员，并让某一环失败威胁整体，配角贡献可从因果而非口号辨认。",
+      "causal_chain": [
+        "总目标被拆成环节",
+        "各环节要求不同能力",
+        "分工缩短时间",
+        "敌人攻击交界",
+        "团队承担交付风险"
+      ],
+      "applicability": "有并行任务且时间/空间不能由单人免费绕过。",
+      "failure_mode": "成员只是待救附件；能力差异无效；分工凭空增加资源。",
+      "facts": [],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "将战斗、拾取、交付和掩护分给不同成员，并让某一环失败威胁整体，配角贡献可从因果而非口号辨认。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0072",
+              "start_line": 4879,
+              "end_line": 4909,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0068",
+              "start_line": 4625,
+              "end_line": 4676,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0098",
+              "start_line": 6381,
+              "end_line": 6394,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0099",
+              "start_line": 6451,
+              "end_line": 6462,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "derived_from_origin_keys": [
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/fundraising",
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/escort-and-trust",
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/split-quest"
+      ],
+      "originality_transform": "只保留因果关系与检验步骤；替换世界规则、目标、人物动机、物品、空间与后果，不复用原场景组合或措辞。",
+      "validation_status": "编辑研究推断，未在用户原创项目或真实读者中验证；待用户审阅。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0072",
+        "start_line": 4879,
+        "end_line": 4909,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0068",
+        "start_line": 4625,
+        "end_line": 4676,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0098",
+        "start_line": 6381,
+        "end_line": 6394,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0099",
+        "start_line": 6451,
+        "end_line": 6462,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "pattern",
+    "scope": "reusable-pattern",
+    "title": "公开说辞、私人理由与读者所知分列",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/pattern/knowledge-separated",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "抽象写作机制"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "同一行为面向不同人产生不同解释，后续私下信息只更新获知者；这样能写信任进展而保留边界。",
+      "causal_chain": [
+        "公开情境限制表达",
+        "角色选替代说辞",
+        "读者或一人获私下事实",
+        "其他人仍保持原认知",
+        "后续选择受知识差影响"
+      ],
+      "applicability": "制度压力、保护动机或关系秘密有明确受众。",
+      "failure_mode": "把所有角色当作同步读过旁白；用暧昧表情代替知情证据。",
+      "facts": [],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "同一行为面向不同人产生不同解释，后续私下信息只更新获知者；这样能写信任进展而保留边界。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0057",
+              "start_line": 3947,
+              "end_line": 3990,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0084",
+              "start_line": 5518,
+              "end_line": 5544,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0096",
+              "start_line": 6264,
+              "end_line": 6271,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "derived_from_origin_keys": [
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/bed-concealment",
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/budget-and-public-face",
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/ring-refusal"
+      ],
+      "originality_transform": "只保留因果关系与检验步骤；替换世界规则、目标、人物动机、物品、空间与后果，不复用原场景组合或措辞。",
+      "validation_status": "编辑研究推断，未在用户原创项目或真实读者中验证；待用户审阅。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0057",
+        "start_line": 3947,
+        "end_line": 3990,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0084",
+        "start_line": 5518,
+        "end_line": 5544,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0096",
+        "start_line": 6264,
+        "end_line": 6271,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  },
+  {
+    "asset_type": "pattern",
+    "scope": "reusable-pattern",
+    "title": "礼物回流揭示关系不能只靠清账定义",
+    "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/pattern/gift-beyond-account",
+    "tags": [
+      "作者:失落叶",
+      "作品:网游之纵横天下",
+      "卷次:卷二",
+      "抽象写作机制"
+    ],
+    "content": {
+      "stage": "正文第50—100章，卷二阶段草稿",
+      "summary": "一人想用赠物抵债，另一人通过拒收、返赠或付出时间表达不同关系理解；物品回流不必自动解决情感疑点。",
+      "causal_chain": [
+        "赠予者赋予清账/试探意义",
+        "接受者回应偏离期待",
+        "关系意义进入冲突",
+        "后续以行动而非报价回应",
+        "仍保留未说出口部分"
+      ],
+      "applicability": "物品有前史且双方自主决定收取与回报。",
+      "failure_mode": "昂贵礼物等于爱或同意；把拒绝解释成欲拒还迎；照搬戒指旧弓组合。",
+      "facts": [],
+      "inferences": [
+        {
+          "claim_kind": "inference",
+          "statement": "一人想用赠物抵债，另一人通过拒收、返赠或付出时间表达不同关系理解；物品回流不必自动解决情感疑点。",
+          "evidence": [
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0096",
+              "start_line": 6226,
+              "end_line": 6231,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0096",
+              "start_line": 6264,
+              "end_line": 6271,
+              "claim_kind": "inference"
+            },
+            {
+              "source_id": "src-2a13958390274509b2af019f6b12d981",
+              "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+              "chapter_id": "ch-0101",
+              "start_line": 6634,
+              "end_line": 6641,
+              "claim_kind": "inference"
+            }
+          ]
+        }
+      ],
+      "derived_from_origin_keys": [
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/ring-refusal",
+        "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/old-bow-return"
+      ],
+      "originality_transform": "只保留因果关系与检验步骤；替换世界规则、目标、人物动机、物品、空间与后果，不复用原场景组合或措辞。",
+      "validation_status": "编辑研究推断，未在用户原创项目或真实读者中验证；待用户审阅。"
+    },
+    "evidence": [
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0096",
+        "start_line": 6226,
+        "end_line": 6231,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0096",
+        "start_line": 6264,
+        "end_line": 6271,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-2a13958390274509b2af019f6b12d981",
+        "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+        "chapter_id": "ch-0101",
+        "start_line": 6634,
+        "end_line": 6641,
+        "claim_kind": "inference"
+      }
+    ],
+    "derived_from": [],
+    "user_notes": "",
+    "favorite": false,
+    "review_status": "draft"
+  }
+]

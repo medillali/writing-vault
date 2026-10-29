@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "validation_kind": "local_structure_and_evidence_bounds_no_Vault",
+  "source_id": "src-2a13958390274509b2af019f6b12d981",
+  "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+  "volume": 7,
+  "body_units": 285,
+  "indexed_segments": 285,
+  "readers": {
+    "zongheng_vol03_full": 175,
+    "primary": 110
+  },
+  "dimensions": {
+    "worldbuilding": 4,
+    "characters": 4,
+    "plot": 4,
+    "style": 4,
+    "narrative": 4,
+    "dialogue": 4,
+    "pacing": 4,
+    "themes": 4,
+    "continuity": 4
+  },
+  "cards": {
+    "character": 29,
+    "scene": 37,
+    "pattern": 10
+  },
+  "nodes": 46,
+  "edges": 24,
+  "threads": 12,
+  "knowledge_entries": 16,
+  "evidence_references_checked": 2578,
+  "claim_kinds": {
+    "fact": 312,
+    "inference": 1023,
+    "synthesis": 1243
+  },
+  "pure_library_validate_graph": true,
+  "review_guards": "passed",
+  "pending_truncations": [],
+  "official_Vault_preflight": "not_run_by_subagent; primary_to_run_serially",
+  "literary_approval": "draft; revisions require primary final review"
+}

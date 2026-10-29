@@ -1,0 +1,87 @@
+# 杀沧肉体没有杀尽神魂
+
+ID: `scn-eb0fc95a825a5281bb35c5ddfb0b80bc` · 版本: 1 · 范围: source-analysis
+
+沧肉体毁无loot、黑魂逃；后石报被希镜反炼，两个时点分开。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-eb0fc95a825a5281bb35c5ddfb0b80bc",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "对手具有身体与意识可分离的存续方式时，可让战斗明确摧毁一层实体，留下更弱的另一层，通过后续渠道再核结局。",
+    "arc": "third-war",
+    "choice": "主抓戟定位/流锁星兰箭/主无敌避友伤",
+    "consequence": "沧肉体毁无loot、黑魂逃；后石报被希镜反炼，两个时点分开。",
+    "failure_mode": "若章节标题写杀敌就覆盖魂逃明文，或无掉落便替它补一次系统死亡，后续借体/反噬会失去连续性；残存强度的估计也不宜当精确测值。",
+    "goal": "救龙城同伴/阻沧",
+    "narrative_order": 1331,
+    "obstacle": "沧残威仍能断子舒翼/主臂十分钟废",
+    "stage_status": "resolved",
+    "state_change": "沧肉体毁无loot、黑魂逃；后石报被希镜反炼，两个时点分开。",
+    "summary": "沧肉体毁无loot、黑魂逃；后石报被希镜反炼，两个时点分开。",
+    "why_it_works": "胜利命名与实体剩余不一致可继续产生政治后果。"
+  },
+  "created_at": "2026-10-25T21:09:00.771121+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1328",
+      "claim_kind": "fact",
+      "end_line": 95799,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 95737
+    },
+    {
+      "chapter_id": "ch-1329",
+      "claim_kind": "fact",
+      "end_line": 95866,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 95800
+    },
+    {
+      "chapter_id": "ch-1330",
+      "claim_kind": "fact",
+      "end_line": 95926,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 95867
+    },
+    {
+      "chapter_id": "ch-1331",
+      "claim_kind": "fact",
+      "end_line": 95994,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 95927
+    },
+    {
+      "chapter_id": "ch-1350",
+      "claim_kind": "fact",
+      "end_line": 97213,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 97143
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/scene/canglan-soul",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷:6"
+  ],
+  "title": "杀沧肉体没有杀尽神魂",
+  "updated_at": "2026-10-25T21:09:00.771121+00:00",
+  "user_notes": ""
+}
+
+```

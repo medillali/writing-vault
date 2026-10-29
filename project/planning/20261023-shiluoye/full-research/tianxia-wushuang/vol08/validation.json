@@ -1,0 +1,86 @@
+{
+  "status": "local_preflight_passed_ready_for_primary_import",
+  "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+  "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+  "volume": 8,
+  "coverage": {
+    "segments": 105,
+    "body_units": 104,
+    "overlap": 0,
+    "gaps": 0,
+    "full_text_read": true,
+    "unresolved_truncations": 0,
+    "complete_volume": true,
+    "complete_book": false
+  },
+  "reading_attribution": [
+    {
+      "reader": "primary",
+      "start_chapter_id": "ch-1505",
+      "end_chapter_id": "ch-1572",
+      "segments": 68,
+      "body_units": 67,
+      "original_notes_path": "C:/Users/Administrator/Documents/ChatGPT/Novel/.planning/20261023-shiluoye/full-research/tianxia-wushuang/vol08/primary-original/chapter-notes.jsonl"
+    },
+    {
+      "reader": "/root/zongheng_vol03_full",
+      "start_chapter_id": "ch-1573",
+      "end_chapter_id": "ch-1609",
+      "segments": 37,
+      "body_units": 37,
+      "original_notes_path": "C:/Users/Administrator/Documents/ChatGPT/Novel/.planning/20261023-shiluoye/full-research/tianxia-wushuang/vol08-tail-agent3/chapter-notes.jsonl"
+    }
+  ],
+  "synthesizer": "/root/zongheng_vol03_full",
+  "primary_notes_fully_read_by_synthesizer": true,
+  "observations": 36,
+  "dimensions": {
+    "worldbuilding": 4,
+    "characters": 4,
+    "plot": 4,
+    "style": 4,
+    "narrative": 4,
+    "dialogue": 4,
+    "pacing": 4,
+    "themes": 4,
+    "continuity": 4
+  },
+  "cards": {
+    "character": 35,
+    "scene": 36,
+    "pattern": 10
+  },
+  "graph": {
+    "nodes": 45,
+    "edges": 28,
+    "threads": 13,
+    "knowledge": 19,
+    "all_thread_edges_within_members": true,
+    "knowledge_state_present": true,
+    "scene_character_navigation": true
+  },
+  "source_anomalies": 12,
+  "preflight": {
+    "book": "tianxia-wushuang",
+    "volume": 8,
+    "indexed_segments_read": 105,
+    "body_units_read": 104,
+    "cards": {
+      "character": 35,
+      "scene": 36,
+      "pattern": 10
+    },
+    "evidence_references_checked": 2386,
+    "nodes": 45,
+    "edges": 28,
+    "threads": 13,
+    "preflight": "passed",
+    "command": "python .planning/20261023-shiluoye/full-research/check_volume.py tianxia-wushuang 8",
+    "exit_code": 0,
+    "checked_at": "2026-10-24T23:54:17.043020+00:00",
+    "meaning": "真实本地只读结构/证据预检；不替代主审文学判断，不表示已导入正式库。"
+  },
+  "review_boundary": "父代理已消息逐项确认36九维/12源异常/全部卡/图和知识差语义核读，唯一未知措辞已改；最终六SHA与正式导入仍由父签，不自造primary review。",
+  "formal_import": false,
+  "user_approved": false
+}

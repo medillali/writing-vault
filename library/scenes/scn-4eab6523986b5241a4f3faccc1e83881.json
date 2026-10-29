@@ -1,0 +1,115 @@
+{
+  "asset_id": "scn-4eab6523986b5241a4f3faccc1e83881",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "已有物品与可观察生理/规则限制可组合的解谜。",
+    "choice": "保留低质掉落、听对话并小试验证。",
+    "consequence": "获得可重复战术，最后世界首转并获闪避。",
+    "facts": [
+      {
+        "claim_kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0055",
+            "claim_kind": "fact",
+            "end_line": 3828,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 3812
+          },
+          {
+            "chapter_id": "ch-0055",
+            "claim_kind": "fact",
+            "end_line": 3885,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 3851
+          }
+        ],
+        "statement": "书生保留减敏头盔，听见树妖谈卡喉后投掷试验，系统确认四属性减半600秒，据此打通转正任务。"
+      }
+    ],
+    "failure_mode": "隐藏钥匙没有先出现，或弱点只凭主角宣称成立。",
+    "goal": "抢先完成转正。",
+    "inferences": [
+      {
+        "claim_kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0055",
+            "claim_kind": "inference",
+            "end_line": 3828,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 3812
+          },
+          {
+            "chapter_id": "ch-0055",
+            "claim_kind": "inference",
+            "end_line": 3885,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 3851
+          }
+        ],
+        "statement": "信息先以抱怨出现，试验给出可核反馈，再允许规模使用，减少凭空顿悟感。"
+      }
+    ],
+    "obstacle": "洞内树妖强，常规逐只杀耗时。",
+    "stage": "正文第50—100章，卷二阶段草稿",
+    "state_change": "物品估价由无用转为情境工具；等级竞争获得具体时间收益。",
+    "summary": "书生保留减敏头盔，听见树妖谈卡喉后投掷试验，系统确认四属性减半600秒，据此打通转正任务。",
+    "why_it_works": "信息先以抱怨出现，试验给出可核反馈，再允许规模使用，减少凭空顿悟感。"
+  },
+  "created_at": "2026-10-22T17:53:52.245985+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0055",
+      "claim_kind": "fact",
+      "end_line": 3828,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 3812
+    },
+    {
+      "chapter_id": "ch-0055",
+      "claim_kind": "fact",
+      "end_line": 3885,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 3851
+    },
+    {
+      "chapter_id": "ch-0055",
+      "claim_kind": "inference",
+      "end_line": 3828,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 3812
+    },
+    {
+      "chapter_id": "ch-0055",
+      "claim_kind": "inference",
+      "end_line": 3885,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 3851
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/red-hat",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷次:卷二",
+    "场景因果"
+  ],
+  "title": "红帽头盔：从负价值物品到实验钥匙",
+  "updated_at": "2026-10-22T17:53:52.245985+00:00",
+  "user_notes": ""
+}

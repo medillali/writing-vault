@@ -1,0 +1,86 @@
+{
+  "status": "supplement_proposal_pending_primary_not_applied",
+  "supersedes": "仅替代priority-corrections-wang-identity-proposal.json内010 evidence的旧拟法；四文学提案保持584a5d原值",
+  "parent_proposal_sha256": "584a5d0123215cc224a5deaf38d90c9fa1e6077220c370ebbf096a1077f261e8",
+  "input_json_sha256": "3832d4b45a17e90ce5388b6a713f003ddffc61e65bc12f3938f2f0327c0063f6",
+  "input_md_sha256": "db35c6d2608f5388794b8e6783f4232d099fdb1fa485081a1b1bc38cc99d697c",
+  "target": [
+    "characters",
+    3,
+    "evidence"
+  ],
+  "correction_to_previous_description": "原数组24条，仅有500没有499，前述去499/500描述不精确；真实只去掉500原全章1ref，保其余23条原对象，再加4条身份用途精准ref。",
+  "original_count": 24,
+  "retained_count": 23,
+  "retained_original_objects_sha256": "c0911926059f52b9487f4a145a5bb4e8e00627a0c068f9256c2a6e3546c48a88",
+  "remove_exact_objects": [
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0500",
+      "start_line": 41037,
+      "end_line": 41107,
+      "claim_kind": "fact",
+      "access_level": "derived-formal-character-and-handoff-interface",
+      "research_path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "research_sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788"
+    }
+  ],
+  "append_exact_objects": [
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0445",
+      "start_line": 37035,
+      "end_line": 37043,
+      "claim_kind": "fact",
+      "access_level": "targeted-original-source-identity-boundary-reread",
+      "actual_reader": "zongheng_vol05_full",
+      "research_path": "writing-vault/private-sources/normalized/sources/src-20f2d16e3d1b472fa4b230ab0e1770c9/61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3.txt",
+      "research_sha256": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "evidence_purpose": "仅证明王将/王翦分体及500告白者为王将；不将王将恋情归给王翦。primary已独立核相同明确姓名段。"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0499",
+      "start_line": 40992,
+      "end_line": 40992,
+      "claim_kind": "fact",
+      "access_level": "targeted-original-source-identity-boundary-reread",
+      "actual_reader": "zongheng_vol05_full",
+      "research_path": "writing-vault/private-sources/normalized/sources/src-20f2d16e3d1b472fa4b230ab0e1770c9/61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3.txt",
+      "research_sha256": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "evidence_purpose": "仅证明王将/王翦分体及500告白者为王将；不将王将恋情归给王翦。primary已独立核相同明确姓名段。"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0500",
+      "start_line": 41038,
+      "end_line": 41043,
+      "claim_kind": "fact",
+      "access_level": "targeted-original-source-identity-boundary-reread",
+      "actual_reader": "zongheng_vol05_full",
+      "research_path": "writing-vault/private-sources/normalized/sources/src-20f2d16e3d1b472fa4b230ab0e1770c9/61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3.txt",
+      "research_sha256": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "evidence_purpose": "仅证明王将/王翦分体及500告白者为王将；不将王将恋情归给王翦。primary已独立核相同明确姓名段。"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-1199",
+      "start_line": 87375,
+      "end_line": 87384,
+      "claim_kind": "fact",
+      "access_level": "targeted-original-source-identity-boundary-reread",
+      "actual_reader": "zongheng_vol05_full",
+      "research_path": "writing-vault/private-sources/normalized/sources/src-20f2d16e3d1b472fa4b230ab0e1770c9/61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3.txt",
+      "research_sha256": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "evidence_purpose": "仅证明王将/王翦分体及500告白者为王将；不将王将恋情归给王翦。primary已独立核相同明确姓名段。"
+    }
+  ],
+  "result_count": 27,
+  "result_evidence_array_sha256": "6f838af08479ac2323fc72389e90aa8cd550121cd20739357de44dfd65ad87e2",
+  "other_scope": "010四文学新句按原584a5d提案；其余行/字段/wrapper逐值保留。MD只同步这四句和该行证据定位；尚未执行。"
+}

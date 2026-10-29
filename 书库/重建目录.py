@@ -40,7 +40,8 @@ def main():
         if b.get('map'):body+='- [全书剧情地图](剧情地图.md)：Git图片、可缩放HTML与证据阅读器。\n'
         for x in b['published_links']:body+='- '+link(x['label'],x['path'],page)+'\n'
         body+='\n来源身份：`'+b['source_id']+'`；文本修订：`'+b['source_revision']+'`。\n\n研究分析仍待用户审阅；这里的归类和目录不会自动进入原创项目正典。\n'
-        if not b.get('map'):body+='\n本书尚无已发布的全书剧情地图，开篇研究和建档不标成全书完成。\n'
+        if not b.get('map'):
+            body+=('\n本书全量研究已保存；本轮可读全书剧情树仍待重整，不以阶段快照冒称已完成。\n' if b.get('research_status')=='full' else '\n本书尚无已发布的全书剧情地图，开篇研究和建档不标成全书完成。\n')
         write(page,body)
         if b.get('map'):
             page='按书名/'+b['directory']+'/剧情地图.md';m=b['map']

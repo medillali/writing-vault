@@ -1,0 +1,87 @@
+# 贼胆｜猴子｜E0035
+
+ID: `chr-zeidan-legacy-e0035` · 版本: 1 · 范围: source-analysis
+
+繁华城市中自觉无容身处，把萧御当可搭命的唯一朋友，萧御当时只认熟识。；听萧御建议做职业玩家，捡起烟头丢垃圾桶，动作呼应萧御。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0035",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "causal_importance": "贫民生存镜像与建议回收",
+    "desires": [
+      "活下去",
+      "获得稳定出路与尊严",
+      "保有友情"
+    ],
+    "facts": [
+      "繁华城市中自觉无容身处，把萧御当可搭命的唯一朋友，萧御当时只认熟识。",
+      "听萧御建议做职业玩家，捡起烟头丢垃圾桶，动作呼应萧御。",
+      "269已23级、周赚两三千，感谢建议但不愿再受资助欠恩。",
+      "头盔被偷来的说法是旁白/萧御依据处境的推断，没有亲见盗窃场面。"
+    ],
+    "identity": "贫民窟旧识，后来成为亡灵盗贼玩家",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0035",
+    "limits": [],
+    "maintenance_depth": "高",
+    "name": "猴子",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0035",
+    "relationships": [
+      "萧御：双向情感投入不对称"
+    ],
+    "summary": "繁华城市中自觉无容身处，把萧御当可搭命的唯一朋友，萧御当时只认熟识。；听萧御建议做职业玩家，捡起烟头丢垃圾桶，动作呼应萧御。",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:12.033121+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0161",
+      "claim_kind": "fact",
+      "end_line": 7102,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 7043
+    },
+    {
+      "chapter_id": "ch-0162",
+      "claim_kind": "fact",
+      "end_line": 7161,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 7103
+    },
+    {
+      "chapter_id": "ch-0270",
+      "claim_kind": "fact",
+      "end_line": 14433,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14374
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0035",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜猴子｜E0035",
+  "updated_at": "2026-10-22T17:03:12.036125+00:00",
+  "user_notes": ""
+}
+
+```

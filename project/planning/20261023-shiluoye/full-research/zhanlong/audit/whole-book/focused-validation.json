@@ -1,0 +1,33 @@
+{
+  "status": "passed-structural-and-group-object-identity-not-a-new-semantic-review",
+  "count": 24,
+  "parts": [
+    {
+      "path": "focused-findings-part01.json",
+      "sha256": "cbafcb4e55667044901989d87897cf44faf45e15dd59ea630063d168b01f7f63",
+      "count": 8
+    },
+    {
+      "path": "focused-findings-part02.json",
+      "sha256": "c21c99602afdb152dfc6fa0af71ec472fec044a2046c370eb1213a83b79943f0",
+      "count": 8
+    },
+    {
+      "path": "focused-findings-part03.json",
+      "sha256": "b7604422e6dc3f852b746109f1ec6818432a38a6e41f3464f4c36834a2037cdf",
+      "count": 8
+    }
+  ],
+  "unique_keys": true,
+  "all_final_objects_equal_current_group_objects": true,
+  "source_ranges_sid_revision_and_material_sha_valid": true,
+  "formal_input_sha256_matches": true,
+  "by_status": {
+    "answered": 7,
+    "partial": 17
+  },
+  "evidence_count": 220,
+  "draft_json_sha256": "38aeeae5abea68ef4fea0e752d7a7e4f320b2afd8838c3e58d3d2f62710d7b4b",
+  "draft_md_sha256": "367c70aa2a5ce65600406e04e41f8a110d31f5bb8f59eb76cc0a856fbd4f4d41",
+  "limits": "primary已经实际全读各组，最后定向delta仍按root登记签收；此脚本不伪造语义或用户批准。"
+}

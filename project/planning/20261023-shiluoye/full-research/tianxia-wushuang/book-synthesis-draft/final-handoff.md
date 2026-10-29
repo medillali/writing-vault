@@ -1,0 +1,35 @@
+# 无双全书综合最终交接
+
+书根 book-synthesis-draft.json / book-synthesis-draft.md 为当前八卷正式材料上的最终待审版；子目录analysis.json/report.md仍是原卷一至五partial草稿，保留作历史，不作当前全书结论。
+
+36条（9维各4），rows claim_kind=synthesis，supporting_observations/evidence及upstream_documents均兼容现review/publisher。八卷analysis全部选正式版，暂存九维逐项与正式等同；50依赖文件SHA、363上游引用/310独立条目和2626继承证据定位本地核验通过。团队原文覆盖1599正文/1609原片并集完整；综合新增原文阅读为0，综合者不冒称一人读全书。
+
+卷七旧预读稿已撤回；最终正式45事实推断和90机制/反证已重新完整读，handoff与primary-review-delta亦完整读。三灰技1462凝格激活/1464九转另学、1455心向冰兰谈爱而主未听、虎豹骑及独立人物等采用最终已审版本。卷八保持冻结，纵横及无双卷三均未再改。
+
+primary已消息逐项审完36条，所有指定delta已落实；本代理没有代写primary-synthesis-review.json或执行发布。最终JSON/MD待primary真实钉SHA；研究仍待用户审美取舍，不自动收藏或成为原创设定。
+
+## 本次指定delta
+
+1. worldbuilding04：杀英雄君主未带来英雄城征服；终战四城青土/七星/泰坦/灼热，英雄城未征服。
+2. characters03→04：董欣然17岁/产权理解限制从林条移群像条，林条保自身限制；末分号修句号。
+3. 全36 mechanism：删重复模板尾句，各留独立实质方法。
+4. plot03：猛虎改虎豹骑。
+5. narrative01：1455心向冰兰谈爱陆之由，陆远未听/读者已知；1459才当面向陆说爱。
+6. pacing02：1462龙晶凝格激活原三灰技，1464九转另学狂撞。
+7. dialogue03：何陆床上亲密被慕容明月打断、未发生性交。
+8. themes03：明指恢复游戏中国区玩家资格。
+9. continuity02：仅采用李承风持WEL冠军杯明示，未示系统MVP；未把二队称谓补成此事实。
+10. continuity04 limits：去旧前五卷自限残留，改范围须依当前正式八卷证据、覆盖不等语义正确。
+
+上游 supporting_observations 为带字段定位的原报告忠实引述；没有为改本综合而篡改已冻结正式分卷。若上游措辞比本综合宽，本综合fact_summary/claim/limits按主审指定收窄。
+
+## 文件SHA
+
+- .planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft.json：`3e270c00e6ac14d25d62cc48faf9923040cc107cea0ed9b35e0283d2dc7c9c2d`
+- .planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft.md：`04864c47759b23ebded8a69a752984129e1fd6be7d469f3ef3a7b9299b1c585e`
+- .planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft/final-preflight.json：`6f9de63bc9d3ef9750340ad33e51878600601c4a6ec695ad389be058ed7f0158`
+- .planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft/final-validation.json：`56ed72304a4091d778decdf6c8db7a67c381993af90eeaf929c0d79e9a0e5bbb`
+- .planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft/primary-synthesis-delta-applied.json：`20e0b55da8f044ecdba65c22659296398b074720916a17706eb509c68582d321`
+- .planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft/late-material-read-log.json：`144012f081e629e1e7efa6cb3e5142ae754df8834aeae168c1e208c3e49164be`
+
+停止重跑生成器。后续正式发布、主审签收、人物弧和历史问题审计由primary/审计代理各自负责；本代理未提前阅读斩龙。

@@ -1,0 +1,92 @@
+{
+  "book": "tianxia-wushuang",
+  "volume": 4,
+  "indexed_segments_read": 186,
+  "body_units_read": 185,
+  "cards": {
+    "character": 30,
+    "scene": 50,
+    "pattern": 12
+  },
+  "evidence_references_checked": 3057,
+  "nodes": 60,
+  "edges": 45,
+  "threads": 22,
+  "preflight": "passed",
+  "reader": "zongheng_vol05_full",
+  "reader_full_text_segments": 186,
+  "body_units": 185,
+  "headers": 1,
+  "truncation_pending": [],
+  "notes_contiguous": true,
+  "user_drafts_preserved": true,
+  "relative_links": [
+    {
+      "from": "report.md",
+      "target": "analysis.json"
+    },
+    {
+      "from": "report.md",
+      "target": "cards.json"
+    },
+    {
+      "from": "report.md",
+      "target": "graph.json"
+    },
+    {
+      "from": "report.md",
+      "target": "read-log.json"
+    },
+    {
+      "from": "report.md",
+      "target": "chapter-notes.jsonl"
+    },
+    {
+      "from": "report.md",
+      "target": "reader-state.json"
+    },
+    {
+      "from": "report.md",
+      "target": "handoff.md"
+    },
+    {
+      "from": "report.md",
+      "target": "validation.json"
+    },
+    {
+      "from": "handoff.md",
+      "target": "analysis.json"
+    },
+    {
+      "from": "handoff.md",
+      "target": "cards.json"
+    },
+    {
+      "from": "handoff.md",
+      "target": "graph.json"
+    },
+    {
+      "from": "handoff.md",
+      "target": "chapter-notes.jsonl"
+    },
+    {
+      "from": "handoff.md",
+      "target": "validation.json"
+    }
+  ],
+  "source_index_sha256": "3f97324f6dfef3e6e8c9cc1dec889f4d47a27188575ac0e0dba9cd5cdbaeee58",
+  "output_sha256": {
+    "analysis.json": "34e5d875483ab370cce20850d3eb2f4c062f5af866588cf93bd9299648b5e5fa",
+    "cards.json": "17da732abdd77906089aba233848f3988752f49ca184d1bce4df45553f781c49",
+    "graph.json": "a1febb05bfb6560abaa6b010f82f1cb0135f73f301e470fee226abdbf446017b",
+    "read-log.json": "f2d4502971f6cf1d94c79b015608c3cef6cc9d4446676a83842618e1b581e83e",
+    "chapter-notes.jsonl": "83a71c9335f52074064b751b728c2e790cde330923e6836e2674431cc5a4a48d",
+    "reader-state.json": "8920f9caf40f9ee34cf9c45d3dd79e2f7a8399fb8017e01b5c15806c30fd6409",
+    "report.md": "29bd0a6934e5a2504848461b7655d82fbbe0606a1e7532eb7fd7996919ab9bdb",
+    "handoff.md": "cffdf1b830f1f9f8d1b4e20934910565e2d54032e626ff81977cca3458c1bf4c"
+  },
+  "validated_at": "2026-10-24T22:48:22.804778+00:00",
+  "literary_review": "pending_primary_and_user_review",
+  "formal_import": false,
+  "limitations": "本回执只证明实际阅读记录覆盖、证据有效范围、图结构和卡片/链接字段；不代替文学判断。"
+}

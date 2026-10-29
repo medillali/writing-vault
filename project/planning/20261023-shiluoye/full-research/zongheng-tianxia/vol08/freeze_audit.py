@@ -1,0 +1,30 @@
+"""冻结审计草稿供主代理整体审阅；不重建任何分卷核心。"""
+import json,hashlib,datetime,sys
+from pathlib import Path
+sys.stdout.reconfigure(encoding='utf-8')
+R=Path(__file__).parent;root=R.parents[4]
+V=json.loads((R/'audit-validation.json').read_text(encoding='utf-8'))
+P=json.loads((R/'historical-question-pool.json').read_text(encoding='utf-8'))
+assert V['status']=='draft-audit-structure-passed-ready-for-primary-review'
+assert V['pending_inputs']==[] and V['nonempty_depends_on_volumes']==0 and V['unadjudicated_candidates']==0
+stamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
+counts=dict(historical_open_questions_and_threads=V['historical_candidates'],local_unresolved_and_anomaly_items=V['local_candidates'],character_arcs=V['character_arcs'],focused_findings=V['focused_findings'],validated_evidence_references=V['evidence_references_checked'])
+state=dict(status='frozen-draft-awaiting-primary-whole-book-review',frozen_at_utc=stamp,frozen_volume08=True,do_not_rebuild_core=list(V['frozen_volume08_hashes']),current_counts=counts,scope='仅本vol08目录的全书审计草稿；八卷正式输入齐备。未改冻结卷八核心、正式库、Git、其他书。',completed=['八卷正式analysis.open_questions与graph.threads全部105条，保留原resolved32条及原卷末状态。','混合未明/源异常全部404原子项逐条有terminal_assessment；具体未知不等缺卷或作者遗漏。','48人人物弧含关键长期角色、死亡者、来源/认知差与代价；丁舒升正名、许琳同名借用、林克林丘分人。','27项重点覆盖末婚/回国/经营、奥丹存死与净化阶段、灵儿同一道最后封、NPC恢复、龙神身份候选等。','所有定位有claim_kind，章行界校验；冻结卷八六个核心SHA逐个相等。'],pending_inputs=[],depends_on_volumes=[],remaining_actions=['主代理整体文学审阅；如有新纠正，只改相关审计条目后重验并另冻。','用户审阅、审美、收藏与原创设定仍未自动填写。'],ownership_note='本代理亲读卷四178、卷八续101；卷八前20由primary亲读。其余卷采用正式研究/原读者笔记和独立复核，姓名等定点原行不计整章阅读。',validation='audit-validation.json',freeze_manifest='audit-freeze-manifest.json')
+(R/'audit-state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+lines=['# 《纵横》全书终点审计交接（冻结草稿）','',f'状态：八卷正式输入已齐，待主代理整体文学审阅。冻结时间：{stamp}。','',f"- 历史问题/线程 **{V['historical_candidates']}** 条：{V['historical_statuses']}；原 resolved **{V['original_resolved_preserved']}** 条全部保留。",f"- 混合问题/源异常 **{V['local_candidates']}** 原子项：{V['local_statuses']}；其中 source_anomaly **{V['local_domains'].get('source_anomaly',0)}**、阶段认知/来源边界 **{V['local_domains'].get('stage-knowledge-or-source-boundary',0)}**，不能将总unknown数当人物伏笔数。",f"- 人物弧 **{V['character_arcs']}**，重点 **{V['focused_findings']}**，校验 **{V['evidence_references_checked']}** 处证据定位。",'- pending_inputs、非空depends_on和未判候选均为0。','', '本轮八卷包426卡（150人物/205场景/71机制），加原开篇6卡后全源432（153/207/72）；本审计没有再创建这些正式卡。','', '## 阅读与证据归属','', '本代理实际全文亲读卷四178和卷八续101；卷八前20由primary实际亲读。其他卷采用正式分卷研究、原读者笔记与独立复核；primary-tail已并卷七，不重复累计。原名定点复核不计为另外完整阅读卷一/七。各证据的access_level在JSON，原source/revision/章行保留。','', '## 审阅顺序','', '1. [27项重点](end-state-audit-draft.md)：集中看生死、能力、物权、关系和身份。','2. [48人人物弧](character-arc-audit-draft.md)：初始比较阶段→决定→代价→终态，非首次出场伪声明。','3. [105条历史问题/线程](historical-question-pool.md)：保原resolved，terminal_assessment另判。','4. [404条地方问题/异常](local-question-pool.md)：各原混合记录全部有代表项，剧情未知与纯源异常分层。','5. [结构校验](audit-validation.json) 与 [SHA清单](audit-freeze-manifest.json)。','', '## 重点边界','', '- 丁舒升/轻狂书生是同人，丁书生为误称/招呼名；真堂姐许琳与冰茶1093借名分开。林克、林丘分人。','- 灵儿0922第三即最后封解除→沉睡→0963醒后归零裸装确认；不是第四封。母史未知另记。','- 冰茶0775隐去两天不证死；0780本人报平安回答存死。40%许琳转述/安慰、后10%人物说法不作现实医学数据。','- 奥丹1012系统陨落仍剧情活、后净化/梦境/任九军；1159明宇首级才为最终死。大巫单列实际死。冰兰半年封冻、笑声未证醒，非明文魂格永灭。','- 0669系统75%恢复物资军力与书估NPC复活分层，1012又有80%例外；不由战时全灭写永久损，也不按比例机械复有名人物。','- 1012物品介绍称奥丹杀龙神，1131血吼称杀老金龙龙神/自称新龙神；是否同体同事件未证，不造两代、不强合。','- 秦性关系、月亲密、雪同床拒性/未追问分场，终聚不等全知情协议；主雪婚与龙魂林霜婚尚未实际举行，随风雪见草婚已成。','- 0944黄金级据点曙光要塞200万与0983青云2000万分笔，前者非明宇后来毁的黄金城；逐人到账未展示。1077凌雪已用飞升证明，1090主取另一枚。','', '## 剩余未知如何理解','', '本轮没有把“完整研究中未匹配明确后证”直接判作者遗漏，故没有滥填unrecovered。unknown含源异文、人物推断/冲突证词、单物/单笔未证及母史/终局留白，均逐项说明；不是仍缺某卷待读。全部结果仍为研究草稿，结构有效不等文学解释已获用户认可。','', '已冻结本审计产物；卷八analysis/cards/graph/read-log/chapter-notes/reader-state核心SHA保持此前主审版本。未写正式库、Git或后续作品。','']
+(R/'whole-book-audit-handoff.md').write_text('\n'.join(lines),encoding='utf-8')
+files=['historical-question-pool.json','historical-question-pool.md','audit-terminal-decisions.json','local-question-pool.json','local-question-pool.md','local-terminal-decisions.json','character-arc-audit-draft.json','character-arc-audit-draft.md','end-state-audit-draft.json','end-state-audit-draft.md','audit-validation.json','audit-state.json','whole-book-audit-handoff.md','build_audit_pool.py','local_question_pool.py','adjudicate_pool.py','adjudicate_local_questions.py','build_character_arc_audit.py','build_end_audit.py','validate_audit.py','freeze_audit.py']
+input_hashes={}
+for inp in P['inputs']:
+ for kind in ['analysis','graph','cards']:
+  p=root/str(Path(inp['analysis']).with_name(f"vol{inp['volume']:02}-{kind}.json"))
+  input_hashes[str(p.relative_to(root)).replace('\\','/')]=hashlib.sha256(p.read_bytes()).hexdigest()
+prior=R/'audit-freeze-manifest.json'
+prior_hash=hashlib.sha256(prior.read_bytes()).hexdigest() if prior.exists() else None
+if prior.exists():
+ archive=R/f'audit-freeze-manifest-{prior_hash[:12]}.json'
+ if not archive.exists():archive.write_bytes(prior.read_bytes())
+manifest=dict(status='frozen-draft-for-primary-review',frozen_at_utc=stamp,previous_manifest_sha256=prior_hash,user_approved=False,source_id=json.loads((R.parent/'source.json').read_text(encoding='utf-8'))['source_id'],audit_sha256={f:hashlib.sha256((R/f).read_bytes()).hexdigest() for f in files},formal_input_sha256=input_hashes,frozen_volume08_hashes=V['frozen_volume08_hashes'],boundary='审计冻结与用户文学认可分开；若需修订，保留本次审阅结果并生成新冻结清单。')
+(R/'audit-freeze-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+for f,h in manifest['audit_sha256'].items():assert hashlib.sha256((R/f).read_bytes()).hexdigest()==h
+print(json.dumps(dict(status=state['status'],counts=counts,artifacts_hashed=len(files),formal_inputs_hashed=len(input_hashes),pending_inputs=[],audit_json_sha256={f:h for f,h in manifest['audit_sha256'].items() if f in ['historical-question-pool.json','local-question-pool.json','character-arc-audit-draft.json','end-state-audit-draft.json']},manifest_sha256=hashlib.sha256((R/'audit-freeze-manifest.json').read_bytes()).hexdigest()),ensure_ascii=False))

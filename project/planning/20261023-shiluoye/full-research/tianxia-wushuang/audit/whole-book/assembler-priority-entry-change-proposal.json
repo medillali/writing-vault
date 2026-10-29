@@ -1,0 +1,17 @@
+{
+  "status": "proposal_pending_primary_review_no_assembler_change",
+  "input_sha256": "0628da45a47b3e52cdbef0a344f5b508b8f426c7d5399dacc19f4cf7f2ee9830",
+  "changes": [
+    {
+      "target": "whole-book-audit-handoff.md",
+      "before": " output_text('whole-book-audit-handoff.md','\\n'.join(lines))",
+      "after": " output_text('whole-book-audit-handoff.md','先读[核源纠正叠加](priority-corrections-delta.json)：旧notes与旧正式派生的受影响文字以此叠加为解释优先，原件作为历史输入保留；不回写冻结分卷、不改变已签候选/研究结论。\\n\\n'+'\\n'.join(lines))"
+    },
+    {
+      "target": "whole-book-audit-report.md",
+      "before": " output_text('whole-book-audit-report.md','\\n'.join(lines))",
+      "after": " output_text('whole-book-audit-report.md','先读[核源纠正叠加](priority-corrections-delta.json)：旧notes与旧正式派生的受影响文字以此叠加为解释优先，原件作为历史输入保留；不回写冻结分卷、不改变已签候选/研究结论。\\n\\n'+'\\n'.join(lines))"
+    }
+  ],
+  "freeze_behavior": "priority-corrections-delta.json沿用现有根*-delta.json通配加入audit_sha256，无需改核心组装/语义比对逻辑。仅在root核定overlay后原样复制该正式叠加。"
+}

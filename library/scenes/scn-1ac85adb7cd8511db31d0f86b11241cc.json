@@ -1,0 +1,66 @@
+{
+  "asset_id": "scn-1ac85adb7cd8511db31d0f86b11241cc",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "类型克制型战斗",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/waner",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/fushui",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/dongcheng"
+    ],
+    "choice": "按攻击类型轮壳与输出",
+    "claim_kind": "inference",
+    "consequence": "此王零损框架/三仙分他人",
+    "failure_mode": "反魔壳对二层物攻无效，不可全场免伤",
+    "goal": "过八层少损",
+    "narrative_order": 644,
+    "obstacle": "高魔伤/壳耗蓝",
+    "state_change": "对策需职业资源而非单堆主防",
+    "summary": "黎魅灵攻/破甲后主初受29120，二十奶轮反魔壳耗蓝，林铁伞近战，20分钟实杀。",
+    "why_it_works": "把一个遭遇的零损讲清条件"
+  },
+  "created_at": "2026-10-25T20:23:25.205472+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0639",
+      "claim_kind": "fact",
+      "end_line": 50942,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 50864
+    },
+    {
+      "chapter_id": "ch-0643",
+      "claim_kind": "fact",
+      "end_line": 51236,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 51158
+    },
+    {
+      "chapter_id": "ch-0644",
+      "claim_kind": "fact",
+      "end_line": 51304,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 51237
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/scene/shell",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "八层零损依赖类型对策和轮壳",
+  "updated_at": "2026-10-25T20:23:25.205472+00:00",
+  "user_notes": ""
+}

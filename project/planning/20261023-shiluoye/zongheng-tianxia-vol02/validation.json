@@ -1,0 +1,31 @@
+{
+  "valid": true,
+  "fully_read_chapters": 51,
+  "range": "ch-0051—ch-0101 / L3567—6700",
+  "counts": {
+    "character": 9,
+    "scene": 16,
+    "pattern": 7
+  },
+  "graph_nodes": 35,
+  "graph_edges": 23,
+  "evidence_references_checked_including_repeated": 718,
+  "checks": [
+    "JSON读取",
+    "九维键",
+    "连续51章与全文标记",
+    "来源修订/章节/行号边界",
+    "官方卡片验证器只读检查",
+    "官方图验证器只读检查",
+    "卡片稳定键唯一与标签",
+    "机制到场景引用",
+    "图卡片origin_key引用",
+    "全书complete=false",
+    "用户字段draft且未填评价"
+  ],
+  "limits": [
+    "边界和结构验证不等于文学解释正确",
+    "不计入未读第101章后的原文",
+    "未运行正式入库、生成视图、提交或推送"
+  ]
+}

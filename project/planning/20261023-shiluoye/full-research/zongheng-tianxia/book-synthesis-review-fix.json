@@ -1,0 +1,28 @@
+{
+  "review_status": "draft",
+  "scope": "仅两处主审修改及生成器/MD同步；未重跑全书生成器，正式上游未改。",
+  "corrections": [
+    {
+      "id": "book-style-objects-change-function",
+      "field": "limits_and_counterevidence",
+      "result": "艾兰复明就业与林克、米拉、达芙妮死亡分别记录；后者终态以独立审计为准，不能凭相似意象自动算回收。"
+    },
+    {
+      "id": "book-characters-distributed-competence",
+      "field": "claim",
+      "result": "幕外劳动改为幕后劳动"
+    }
+  ],
+  "before_sha256": {
+    "build_book_synthesis.py": "56795e9c7e90ae0b51fe76a9dcd753cecb00b15715d151ebe084b01e89e03fe9",
+    "book-synthesis-draft.json": "2a9a6177558266b7a08f718b98467f8739f6d1e0511610cca1a66b2c15c6ff0b",
+    "book-synthesis-draft.md": "f12c1fcc39e2e5ff45767ea16cb52c4291e819f832ab23d9c06124077c4ea6aa"
+  },
+  "after_sha256": {
+    "build_book_synthesis.py": "a52b8af375f5004e060b35acde3efd18b80076ede37da28cf6d92b6c6b4c4e49",
+    "book-synthesis-draft.json": "ccf9450a57e5a694598c0abaab639103596e83fb3fb45c29b9d442256dc0195d",
+    "book-synthesis-draft.md": "105b3a2243f403b0a2a51d067db2307606252f4ae14c42b5f488df69fca26cc5"
+  },
+  "evidence_references_checked": 986,
+  "upstream_sha256_unchanged": true
+}

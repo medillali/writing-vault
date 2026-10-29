@@ -1,0 +1,2644 @@
+[
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-001-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 0,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "青甲狼面板156，旁白比185兽高1。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0810",
+          "claim_kind": "fact",
+          "end_line": 67320,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 67247
+        }
+      ],
+      "handling": "保字面与上下文冲突，不静改正文/计怪156必弱。",
+      "id": "v05-a-wolf-level",
+      "kind": "source_anomaly"
+    },
+    "title": "青甲狼面板156，旁白比185兽高1。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0810",
+        "claim_kind": "fact",
+        "end_line": 67320,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 67247,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-monster-level-discrepancy",
+    "rationale": "810青甲狼面板156与旁白比185高1不能同时构成同一精确等级，未见明文校正；强度与经验表现不能独立证明拟写186，不静改原数。",
+    "later_chapters": [
+      810
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0810",
+        "start_line": 67247,
+        "end_line": 67320,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-002-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 1,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "青刃/银刃头属性两行都标防御、部分套装皮甲后想给重骑。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0806",
+          "claim_kind": "fact",
+          "end_line": 67002,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 66919
+        },
+        {
+          "chapter_id": "ch-0815",
+          "claim_kind": "fact",
+          "end_line": 67695,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 67619
+        },
+        {
+          "chapter_id": "ch-0817",
+          "claim_kind": "fact",
+          "end_line": 67822,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 67754
+        }
+      ],
+      "handling": "保疑项，不能据分配意向定所有职业可穿。",
+      "id": "v05-a-armor-label",
+      "kind": "source_anomaly"
+    },
+    "title": "青刃/银刃头属性两行都标防御、部分套装皮甲后想给重骑。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0806",
+        "claim_kind": "fact",
+        "end_line": 67002,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 66919,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0815",
+        "claim_kind": "fact",
+        "end_line": 67695,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 67619,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0817",
+        "claim_kind": "fact",
+        "end_line": 67822,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 67754,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-armor-label-and-class-compatibility",
+    "rationale": "806青刃头、815银刃皮盔各有两行同标防御，817又拟给铁骑；未明示更正属性列或跨职业穿戴豁免。分配意图不等实际可穿，保类型和面板疑项。",
+    "later_chapters": [
+      806,
+      815,
+      817
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0806",
+        "start_line": 66919,
+        "end_line": 67002,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0815",
+        "start_line": 67619,
+        "end_line": 67695,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0817",
+        "start_line": 67754,
+        "end_line": 67822,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-003-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 2,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "林套装暗伤10/30、五件到四件。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0822",
+          "claim_kind": "fact",
+          "end_line": 68237,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 68152
+        },
+        {
+          "chapter_id": "ch-0825",
+          "claim_kind": "fact",
+          "end_line": 68517,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 68443
+        },
+        {
+          "chapter_id": "ch-0848",
+          "claim_kind": "fact",
+          "end_line": 70260,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 70205
+        },
+        {
+          "chapter_id": "ch-0852",
+          "claim_kind": "fact",
+          "end_line": 70550,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 70471
+        }
+      ],
+      "handling": "暗伤不擅合算；四件变化0852明确为恶魔铃换装后证，可解部分而非全当错。",
+      "id": "v05-a-set",
+      "kind": "source_anomaly"
+    },
+    "title": "林套装暗伤10/30、五件到四件。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0822",
+        "claim_kind": "fact",
+        "end_line": 68237,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 68152,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0825",
+        "claim_kind": "fact",
+        "end_line": 68517,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 68443,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0848",
+        "claim_kind": "fact",
+        "end_line": 70260,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 70205,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0852",
+        "claim_kind": "fact",
+        "end_line": 70550,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 70471,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "set-replacement-explained-percentage-unresolved",
+    "rationale": "825林实际穿五件，848四件原因当时未述，852已明确因恶魔铃未全穿，可关闭件数变化疑问；822两件10%暗伤与随后30%说法仍无统一算法或改版说明，不强合算。",
+    "later_chapters": [
+      822,
+      825,
+      848,
+      852
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0822",
+        "start_line": 68152,
+        "end_line": 68237,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0825",
+        "start_line": 68443,
+        "end_line": 68517,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0848",
+        "start_line": 70205,
+        "end_line": 70260,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0852",
+        "start_line": 70471,
+        "end_line": 70550,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-004-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 3,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "主八层掉一级/免费不死后加二至164与先162链有一级不齐；幸运54/+1等面板。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0823",
+          "claim_kind": "fact",
+          "end_line": 68342,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 68238
+        },
+        {
+          "chapter_id": "ch-0826",
+          "claim_kind": "fact",
+          "end_line": 68587,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 68518
+        },
+        {
+          "chapter_id": "ch-0827",
+          "claim_kind": "fact",
+          "end_line": 68656,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 68588
+        },
+        {
+          "chapter_id": "ch-0828",
+          "claim_kind": "fact",
+          "end_line": 68736,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 68657
+        },
+        {
+          "chapter_id": "ch-0835",
+          "claim_kind": "fact",
+          "end_line": 69275,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 69206
+        },
+        {
+          "chapter_id": "ch-0865",
+          "claim_kind": "fact",
+          "end_line": 71515,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 71436
+        }
+      ],
+      "handling": "按各时点显式数值，不造场外升级抵差。",
+      "id": "v05-a-level-arithmetic",
+      "kind": "source_anomaly"
+    },
+    "title": "主八层掉一级/免费不死后加二至164与先162链有一级不齐",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0823",
+        "claim_kind": "fact",
+        "end_line": 68342,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 68238,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0826",
+        "claim_kind": "fact",
+        "end_line": 68587,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 68518,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0827",
+        "claim_kind": "fact",
+        "end_line": 68656,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 68588,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0828",
+        "claim_kind": "fact",
+        "end_line": 68736,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 68657,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0835",
+        "claim_kind": "fact",
+        "end_line": 69275,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 69206,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0865",
+        "claim_kind": "fact",
+        "end_line": 71515,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 71436,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-level-accounting-gap",
+    "rationale": "823末162，826实掉1级、827免费不死不掉级，828再+2却写164；中间未明示另一升级，不能编场外经验抵差。835后167是独立后显，不反写此前全配平。",
+    "later_chapters": [
+      823,
+      826,
+      827,
+      828,
+      835
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0823",
+        "start_line": 68238,
+        "end_line": 68342,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0826",
+        "start_line": 68518,
+        "end_line": 68587,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0827",
+        "start_line": 68588,
+        "end_line": 68656,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0828",
+        "start_line": 68657,
+        "end_line": 68736,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0835",
+        "start_line": 69206,
+        "end_line": 69275,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-004-02",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 3,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "主八层掉一级/免费不死后加二至164与先162链有一级不齐；幸运54/+1等面板。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0823",
+          "claim_kind": "fact",
+          "end_line": 68342,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 68238
+        },
+        {
+          "chapter_id": "ch-0826",
+          "claim_kind": "fact",
+          "end_line": 68587,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 68518
+        },
+        {
+          "chapter_id": "ch-0827",
+          "claim_kind": "fact",
+          "end_line": 68656,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 68588
+        },
+        {
+          "chapter_id": "ch-0828",
+          "claim_kind": "fact",
+          "end_line": 68736,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 68657
+        },
+        {
+          "chapter_id": "ch-0835",
+          "claim_kind": "fact",
+          "end_line": 69275,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 69206
+        },
+        {
+          "chapter_id": "ch-0865",
+          "claim_kind": "fact",
+          "end_line": 71515,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 71436
+        }
+      ],
+      "handling": "按各时点显式数值，不造场外升级抵差。",
+      "id": "v05-a-level-arithmetic",
+      "kind": "source_anomaly"
+    },
+    "title": "幸运54/+1等面板。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0823",
+        "claim_kind": "fact",
+        "end_line": 68342,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 68238,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0826",
+        "claim_kind": "fact",
+        "end_line": 68587,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 68518,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0827",
+        "claim_kind": "fact",
+        "end_line": 68656,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 68588,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0828",
+        "claim_kind": "fact",
+        "end_line": 68736,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 68657,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0835",
+        "claim_kind": "fact",
+        "end_line": 69275,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 69206,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0865",
+        "claim_kind": "fact",
+        "end_line": 71515,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 71436,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-luck-snapshot-drift",
+    "rationale": "835系统幸运+1由54应到55的链与865自报54并存，未有对应扣幸运动作；分时保存回执和自报，不能因后大奖再增就抹早差。",
+    "later_chapters": [
+      835,
+      865
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0835",
+        "start_line": 69206,
+        "end_line": 69275,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0865",
+        "start_line": 71436,
+        "end_line": 71515,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-005-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 4,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "8级会系统5万，后称10万/已8万。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0838",
+          "claim_kind": "fact",
+          "end_line": 69499,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 69434
+        },
+        {
+          "chapter_id": "ch-0862",
+          "claim_kind": "fact",
+          "end_line": 71310,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 71246
+        }
+      ],
+      "handling": "不统一或虚构中间升9；规模按具体时段。",
+      "id": "v05-a-guild-cap",
+      "kind": "source_anomaly"
+    },
+    "title": "8级会系统5万，后称10万/已8万。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0838",
+        "claim_kind": "fact",
+        "end_line": 69499,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 69434,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0862",
+        "claim_kind": "fact",
+        "end_line": 71310,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 71246,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-guild-capacity-drift",
+    "rationale": "838系统8级上限3万升5万，862又称8级上限10万且现8万余；缺9级升级回执或扩容特例，保时点口径，不自动造中间升会。",
+    "later_chapters": [
+      838,
+      862
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0838",
+        "start_line": 69434,
+        "end_line": 69499,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0862",
+        "start_line": 71246,
+        "end_line": 71310,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-006-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 5,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "阿扎尔委托万夜灵头，后叙刷蜈蚣满万且任务结算，前说没见亡灵。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0859",
+          "claim_kind": "fact",
+          "end_line": 71076,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 71030
+        },
+        {
+          "chapter_id": "ch-0860",
+          "claim_kind": "fact",
+          "end_line": 71145,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 71077
+        },
+        {
+          "chapter_id": "ch-0862",
+          "claim_kind": "fact",
+          "end_line": 71310,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 71246
+        }
+      ],
+      "handling": "任务完成和物种计数异常并列，不补杀夜灵。",
+      "id": "v05-a-azar",
+      "kind": "source_anomaly"
+    },
+    "title": "阿扎尔委托万夜灵头，后叙刷蜈蚣满万且任务结算，前说没见亡灵。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0859",
+        "claim_kind": "fact",
+        "end_line": 71076,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 71030,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0860",
+        "claim_kind": "fact",
+        "end_line": 71145,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 71077,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0862",
+        "claim_kind": "fact",
+        "end_line": 71310,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 71246,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "quest-completed-species-count-unexplained",
+    "rationale": "859委托至少万夜灵取头，860刷蜈蚣仍说未见夜灵，862刷满万蜈蚣后却实际交任务获奖。完成确有回执，计数物种转换未解释，不补一场杀万夜灵。",
+    "later_chapters": [
+      859,
+      860,
+      862
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0859",
+        "start_line": 71030,
+        "end_line": 71076,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0860",
+        "start_line": 71077,
+        "end_line": 71145,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0862",
+        "start_line": 71246,
+        "end_line": 71310,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-007-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 6,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "七层怪简介末青铜锤/林坐骑冰麟误名、冰龙克斯利等。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0821",
+          "claim_kind": "fact",
+          "end_line": 68151,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 68070
+        },
+        {
+          "chapter_id": "ch-0868",
+          "claim_kind": "fact",
+          "end_line": 71781,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 71721
+        },
+        {
+          "chapter_id": "ch-0881",
+          "claim_kind": "fact",
+          "end_line": 72788,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 72692
+        }
+      ],
+      "handling": "依持续场景同一实体保异名，不另建人宠。",
+      "id": "v05-a-roar-name",
+      "kind": "source_anomaly"
+    },
+    "title": "七层怪简介末青铜锤/林坐骑冰麟误名、冰龙克斯利等。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0821",
+        "claim_kind": "fact",
+        "end_line": 68151,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 68070,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0868",
+        "claim_kind": "fact",
+        "end_line": 71781,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 71721,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0881",
+        "claim_kind": "fact",
+        "end_line": 72788,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 72692,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "continuous-entity-with-source-misnaming",
+    "rationale": "821牢狱者简介末用青铜兽战锤、同章林坐骑冰麟后又冰镰，868冰龙又称克斯利。持续场景可按疑误名关联既有实体，未有明文校字；不因此新造怪、坐骑或第二条冰龙。",
+    "later_chapters": [
+      821,
+      868
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0821",
+        "start_line": 68070,
+        "end_line": 68151,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0868",
+        "start_line": 71721,
+        "end_line": 71781,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-008-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 7,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "现场李杀柏丽/主杀奥力，系统称主杀郡主。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0854",
+          "claim_kind": "fact",
+          "end_line": 70700,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 70622
+        }
+      ],
+      "handling": "并列动作/系统文本，不任选覆盖。",
+      "id": "v05-a-baili-credit",
+      "kind": "source_anomaly"
+    },
+    "title": "现场李杀柏丽/主杀奥力，系统称主杀郡主。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0854",
+        "claim_kind": "fact",
+        "end_line": 70700,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 70622,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-action-system-kill-credit-conflict",
+    "rationale": "854现场李承风刺死柏丽、陆斩奥力，公告却称陆杀郡主。实际动作与系统字样分别保留，未有作者重释归功规则，不任选一层覆盖另一层。",
+    "later_chapters": [
+      854
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0854",
+        "start_line": 70622,
+        "end_line": 70700,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-009-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 8,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "苏斩首/奥魂散，系统北冥获杀奥奖励。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0884",
+          "claim_kind": "fact",
+          "end_line": 73059,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 72944
+        }
+      ],
+      "handling": "保剧情处置和游戏归属；北解释持续三箭为人物证词。",
+      "id": "v05-a-ouwei-credit",
+      "kind": "source_anomaly"
+    },
+    "title": "苏斩首/奥魂散，系统北冥获杀奥奖励。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0884",
+        "claim_kind": "fact",
+        "end_line": 73059,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 72944,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "narrative-death-versus-system-reward-attribution",
+    "rationale": "884苏伦实际斩首、奥魂消散与系统北冥杀王得奖是不同记录层；北冥说明持续射、跪求时仍三箭为本人证词。可记录剧情处置归苏、游戏奖归北，不把北的解释写系统公布完整算法。",
+    "later_chapters": [
+      884
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0884",
+        "start_line": 72944,
+        "end_line": 73059,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-010-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 9,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "龙盾0耐后下一面板防仍旧，竞技可用但修过程省；云无心被两人早称死。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0881",
+          "claim_kind": "fact",
+          "end_line": 72788,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 72692
+        },
+        {
+          "chapter_id": "ch-0885",
+          "claim_kind": "fact",
+          "end_line": 73155,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 73060
+        },
+        {
+          "chapter_id": "ch-0887",
+          "claim_kind": "fact",
+          "end_line": 73345,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 73257
+        }
+      ],
+      "handling": "龙盾归省略/面板连续性；云有明确呼吸后证纠为误认，非同类数错。",
+      "id": "v05-a-death-gear",
+      "kind": "source_anomaly"
+    },
+    "title": "龙盾0耐后下一面板防仍旧，竞技可用但修过程省",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0881",
+        "claim_kind": "fact",
+        "end_line": 72788,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 72692,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0885",
+        "claim_kind": "fact",
+        "end_line": 73155,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 73060,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0887",
+        "claim_kind": "fact",
+        "end_line": 73345,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 73257,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "later-shield-usable-repair-process-omitted",
+    "rationale": "881龙盾耐0待修、885防御面板仍旧，887实际用盾挡壁垒。后可用已证，但修理动作和0耐时面板口径未说明；不写永久毁盾，也不虚构具体修理场景。",
+    "later_chapters": [
+      881,
+      885,
+      887
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0881",
+        "start_line": 72692,
+        "end_line": 72788,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0885",
+        "start_line": 73060,
+        "end_line": 73155,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0887",
+        "start_line": 73257,
+        "end_line": 73345,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-010-02",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 9,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "龙盾0耐后下一面板防仍旧，竞技可用但修过程省；云无心被两人早称死。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0881",
+          "claim_kind": "fact",
+          "end_line": 72788,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 72692
+        },
+        {
+          "chapter_id": "ch-0885",
+          "claim_kind": "fact",
+          "end_line": 73155,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 73060
+        },
+        {
+          "chapter_id": "ch-0887",
+          "claim_kind": "fact",
+          "end_line": 73345,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 73257
+        }
+      ],
+      "handling": "龙盾归省略/面板连续性；云有明确呼吸后证纠为误认，非同类数错。",
+      "id": "v05-a-death-gear",
+      "kind": "source_anomaly"
+    },
+    "title": "云无心被两人早称死。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0881",
+        "claim_kind": "fact",
+        "end_line": 72788,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 72692,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0885",
+        "claim_kind": "fact",
+        "end_line": 73155,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 73060,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0887",
+        "claim_kind": "fact",
+        "end_line": 73345,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 73257,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "misrecognized-death-corrected-by-observed-breathing",
+    "rationale": "885陆实探云无心仍有呼吸、心然确认生命波动并龙心续命使其咳醒。先称死是人物误认，后证关闭实际已死的猜测；救濒死不等先魂散再无条件复活。",
+    "later_chapters": [
+      881,
+      885
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0881",
+        "start_line": 72692,
+        "end_line": 72788,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0885",
+        "start_line": 73060,
+        "end_line": 73155,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-011-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 10,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "多处120秒上限后127/125秒、3或5分钟。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0909",
+          "claim_kind": "fact",
+          "end_line": 75136,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 75048
+        },
+        {
+          "chapter_id": "ch-0914",
+          "claim_kind": "fact",
+          "end_line": 75577,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 75502
+        },
+        {
+          "chapter_id": "ch-0918",
+          "claim_kind": "fact",
+          "end_line": 75916,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 75835
+        },
+        {
+          "chapter_id": "ch-0951",
+          "claim_kind": "fact",
+          "end_line": 78408,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 78338
+        },
+        {
+          "chapter_id": "ch-0961",
+          "claim_kind": "fact",
+          "end_line": 79140,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 79075
+        }
+      ],
+      "handling": "列规则宣称与实叙冲突，不自行改秒或额外回合。",
+      "id": "v05-a-wellevel",
+      "kind": "source_anomaly"
+    },
+    "title": "多处120秒上限后127/125秒、3或5分钟。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0909",
+        "claim_kind": "fact",
+        "end_line": 75136,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 75048,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0914",
+        "claim_kind": "fact",
+        "end_line": 75577,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 75502,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0918",
+        "claim_kind": "fact",
+        "end_line": 75916,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 75835,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0951",
+        "claim_kind": "fact",
+        "end_line": 78408,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 78338,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0961",
+        "claim_kind": "fact",
+        "end_line": 79140,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 79075,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-match-time-limit-conflict",
+    "rationale": "909第三局127秒、951次局125秒及914/918/961三五分钟叙时与120秒上限不齐；未给延时赛制改版或完整分局钟，不擅改秒、拆成额外回合。",
+    "later_chapters": [
+      909,
+      914,
+      918,
+      951,
+      961
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0909",
+        "start_line": 75048,
+        "end_line": 75136,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0914",
+        "start_line": 75502,
+        "end_line": 75577,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0918",
+        "start_line": 75835,
+        "end_line": 75916,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0951",
+        "start_line": 78338,
+        "end_line": 78408,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0961",
+        "start_line": 79075,
+        "end_line": 79140,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-012-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 11,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "64强名单/16进8和8进4混、雪杉第一四强但维先入、英雄半决被称冠军。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0910",
+          "claim_kind": "fact",
+          "end_line": 75232,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 75137
+        },
+        {
+          "chapter_id": "ch-0950",
+          "claim_kind": "fact",
+          "end_line": 78337,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 78274
+        },
+        {
+          "chapter_id": "ch-0956",
+          "claim_kind": "fact",
+          "end_line": 78775,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 78719
+        },
+        {
+          "chapter_id": "ch-0963",
+          "claim_kind": "fact",
+          "end_line": 79290,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 79215
+        }
+      ],
+      "handling": "实际对阵和晋级结果优先定位，误称留存。",
+      "id": "v05-a-spectator",
+      "kind": "source_anomaly"
+    },
+    "title": "64强名单/16进8和8进4混、雪杉第一四强但维先入、英雄半决被称冠军。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0910",
+        "claim_kind": "fact",
+        "end_line": 75232,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 75137,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0950",
+        "claim_kind": "fact",
+        "end_line": 78337,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 78274,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0956",
+        "claim_kind": "fact",
+        "end_line": 78775,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 78719,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0963",
+        "claim_kind": "fact",
+        "end_line": 79290,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 79215,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "actual-tournament-results-known-stage-labels-drift",
+    "rationale": "910名单切换、950文字8进4而对阵实际16进8、956称雪杉第一入四而维已先入、963英雄半决胜误称冠军。具体对阵晋级可另核，字面赛程和顺序不全齐，不补隐含比赛；963当时仅进决赛。",
+    "later_chapters": [
+      910,
+      950,
+      956,
+      963
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0910",
+        "start_line": 75137,
+        "end_line": 75232,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0950",
+        "start_line": 78274,
+        "end_line": 78337,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0956",
+        "start_line": 78719,
+        "end_line": 78775,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0963",
+        "start_line": 79215,
+        "end_line": 79290,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-013-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 12,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "早末场出场才抽，明未内围上仍国内五人领奖；八强金额预报与官奖不齐。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0903",
+          "claim_kind": "fact",
+          "end_line": 74659,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 74584
+        },
+        {
+          "chapter_id": "ch-0915",
+          "claim_kind": "fact",
+          "end_line": 75657,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 75578
+        },
+        {
+          "chapter_id": "ch-0934",
+          "claim_kind": "fact",
+          "end_line": 77166,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 77095
+        }
+      ],
+      "handling": "实际颁奖结果优先，早预报作为历史规则差。",
+      "id": "v05-a-entry-reward",
+      "kind": "source_anomaly"
+    },
+    "title": "早末场出场才抽，明未内围上仍国内五人领奖",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0903",
+        "claim_kind": "fact",
+        "end_line": 74659,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 74584,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0915",
+        "claim_kind": "fact",
+        "end_line": 75657,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 75578,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0934",
+        "claim_kind": "fact",
+        "end_line": 77166,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 77095,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-draw-eligibility-rule-versus-receipt",
+    "rationale": "903细则称末场上场才可抽，934实际五人领奖含未在内围出场的明月。实发名单有效，但未给资格例外说明，不为配规则补明月参赛或删除其已领奖。",
+    "later_chapters": [
+      903,
+      934
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0903",
+        "start_line": 74584,
+        "end_line": 74659,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0934",
+        "start_line": 77095,
+        "end_line": 77166,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-013-02",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 12,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "早末场出场才抽，明未内围上仍国内五人领奖；八强金额预报与官奖不齐。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0903",
+          "claim_kind": "fact",
+          "end_line": 74659,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 74584
+        },
+        {
+          "chapter_id": "ch-0915",
+          "claim_kind": "fact",
+          "end_line": 75657,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 75578
+        },
+        {
+          "chapter_id": "ch-0934",
+          "claim_kind": "fact",
+          "end_line": 77166,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 77095
+        }
+      ],
+      "handling": "实际颁奖结果优先，早预报作为历史规则差。",
+      "id": "v05-a-entry-reward",
+      "kind": "source_anomaly"
+    },
+    "title": "八强金额预报与官奖不齐。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0903",
+        "claim_kind": "fact",
+        "end_line": 74659,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 74584,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0915",
+        "claim_kind": "fact",
+        "end_line": 75657,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 75578,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0934",
+        "claim_kind": "fact",
+        "end_line": 77166,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 77095,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "earlier-reward-forecast-versus-official-payout",
+    "rationale": "915清清预报八强2级3幸10万，934官方实际5—8为3级3幸25万并发奖。实际兑付有后证，以其记结果；早预报保历史异说，不将预测当另一笔也到账。",
+    "later_chapters": [
+      903,
+      915,
+      934
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0903",
+        "start_line": 74584,
+        "end_line": 74659,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0915",
+        "start_line": 75578,
+        "end_line": 75657,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0934",
+        "start_line": 77095,
+        "end_line": 77166,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-014-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 13,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "幽冥初25%→50%→25%，后幸运解释。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0871",
+          "claim_kind": "fact",
+          "end_line": 72029,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 71938
+        },
+        {
+          "chapter_id": "ch-0910",
+          "claim_kind": "fact",
+          "end_line": 75232,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 75137
+        },
+        {
+          "chapter_id": "ch-0928",
+          "claim_kind": "fact",
+          "end_line": 76670,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 76588
+        },
+        {
+          "chapter_id": "ch-0930",
+          "claim_kind": "fact",
+          "end_line": 76863,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 76776
+        }
+      ],
+      "handling": "不擅统一单基础概率或替源补公式。",
+      "id": "v05-a-curse",
+      "kind": "source_anomaly"
+    },
+    "title": "幽冥初25%→50%→25%，后幸运解释。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0871",
+        "claim_kind": "fact",
+        "end_line": 72029,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 71938,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0910",
+        "claim_kind": "fact",
+        "end_line": 75232,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 75137,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0928",
+        "claim_kind": "fact",
+        "end_line": 76670,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 76588,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0930",
+        "claim_kind": "fact",
+        "end_line": 76863,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 76776,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "probability-description-drift-luck-explanation-not-formula",
+    "rationale": "871幽冥提示25%、910叙50%、928回25%，928陆以幸运提高触发率解释是角色判断。实战可证某次控成或失败，不能独立重建单一基础概率或断定50%字样已正式修订。",
+    "later_chapters": [
+      871,
+      910,
+      928,
+      930
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0871",
+        "start_line": 71938,
+        "end_line": 72029,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0910",
+        "start_line": 75137,
+        "end_line": 75232,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0928",
+        "start_line": 76588,
+        "end_line": 76670,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0930",
+        "start_line": 76776,
+        "end_line": 76863,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-015-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 14,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "借张40万金币后转40万RMB；1250盒每资源10万、1000盒叙各1000万仓满算差。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0938",
+          "claim_kind": "fact",
+          "end_line": 77488,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 77411
+        },
+        {
+          "chapter_id": "ch-0939",
+          "claim_kind": "fact",
+          "end_line": 77551,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 77489
+        }
+      ],
+      "handling": "币别/仓容量按原列，不以脑补汇率/丢100修正。",
+      "id": "v05-a-currency",
+      "kind": "source_anomaly"
+    },
+    "title": "借张40万金币后转40万RMB",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0938",
+        "claim_kind": "fact",
+        "end_line": 77488,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 77411,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0939",
+        "claim_kind": "fact",
+        "end_line": 77551,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 77489,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-loan-and-repayment-currency-drift",
+    "rationale": "938借张淳40万金币，939口头承诺转40万RMB，币种不齐且非完整偿付账单。保借款与待转承诺，不编固定一比一汇率或两笔独立借款。",
+    "later_chapters": [
+      938,
+      939
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0938",
+        "start_line": 77411,
+        "end_line": 77488,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0939",
+        "start_line": 77489,
+        "end_line": 77551,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-015-02",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 14,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "借张40万金币后转40万RMB；1250盒每资源10万、1000盒叙各1000万仓满算差。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0938",
+          "claim_kind": "fact",
+          "end_line": 77488,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 77411
+        },
+        {
+          "chapter_id": "ch-0939",
+          "claim_kind": "fact",
+          "end_line": 77551,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 77489
+        }
+      ],
+      "handling": "币别/仓容量按原列，不以脑补汇率/丢100修正。",
+      "id": "v05-a-currency",
+      "kind": "source_anomaly"
+    },
+    "title": "1250盒每资源10万、1000盒叙各1000万仓满算差。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0938",
+        "claim_kind": "fact",
+        "end_line": 77488,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 77411,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0939",
+        "claim_kind": "fact",
+        "end_line": 77551,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 77489,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-resource-box-capacity-arithmetic",
+    "rationale": "938宝盒每种资源10万、939实际收1250并丢1000即称各1000万仓满，缺消耗/溢出计数过程，算术不能直接相合。不补丢100、隐藏仓或先前已用来强配。",
+    "later_chapters": [
+      938,
+      939
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0938",
+        "start_line": 77411,
+        "end_line": 77488,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0939",
+        "start_line": 77489,
+        "end_line": 77551,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-016-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 15,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "北戒3%九箭算27%、不死解释原1.65%倍。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0935",
+          "claim_kind": "fact",
+          "end_line": 77274,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 77167
+        },
+        {
+          "chapter_id": "ch-0972",
+          "claim_kind": "fact",
+          "end_line": 80010,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 79937
+        }
+      ],
+      "handling": "前线性粗算非严格独立概率；后原字误与算式1.65倍分列。",
+      "id": "v05-a-probability",
+      "kind": "source_anomaly"
+    },
+    "title": "北戒3%九箭算27%、不死解释原1.65%倍。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0935",
+        "claim_kind": "fact",
+        "end_line": 77274,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 77167,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0972",
+        "claim_kind": "fact",
+        "end_line": 80010,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 79937,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-linear-chance-estimate-and-malformed-multiplier",
+    "rationale": "972北戒3%乘九箭说27%是线性粗算，未交代独立性，不能当至少触发一次的严概率；935原1.65%倍字样与实际100%+65%=1.65倍算式并列保留，不以误字创造额外百分比公式。",
+    "later_chapters": [
+      935,
+      972
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0935",
+        "start_line": 77167,
+        "end_line": 77274,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0972",
+        "start_line": 79937,
+        "end_line": 80010,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-017-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 16,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "0923签证已全到而0936办/0940才获批。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0923",
+          "claim_kind": "fact",
+          "end_line": 76289,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 76227
+        },
+        {
+          "chapter_id": "ch-0936",
+          "claim_kind": "fact",
+          "end_line": 77337,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 77275
+        },
+        {
+          "chapter_id": "ch-0940",
+          "claim_kind": "fact",
+          "end_line": 77633,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 77552
+        },
+        {
+          "chapter_id": "ch-0943",
+          "claim_kind": "fact",
+          "end_line": 77842,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 77763
+        },
+        {
+          "chapter_id": "ch-0976",
+          "claim_kind": "fact",
+          "end_line": 80338,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 80269
+        }
+      ],
+      "handling": "保时间措辞差，实赴洛杉矶/归国另证。",
+      "id": "v05-a-signature",
+      "kind": "source_anomaly"
+    },
+    "title": "0923签证已全到而0936办/0940才获批。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0923",
+        "claim_kind": "fact",
+        "end_line": 76289,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 76227,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0936",
+        "claim_kind": "fact",
+        "end_line": 77337,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 77275,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0940",
+        "claim_kind": "fact",
+        "end_line": 77633,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 77552,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0943",
+        "claim_kind": "fact",
+        "end_line": 77842,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 77763,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0976",
+        "claim_kind": "fact",
+        "end_line": 80338,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 80269,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "actual-travel-confirmed-visa-chronology-inconsistent",
+    "rationale": "923已拿签证、936仍办理、940才获批的时间措辞不齐；943实际抵美、976实际归国使出行结果闭合，却不重排每次办证日期或编补签。",
+    "later_chapters": [
+      923,
+      936,
+      940,
+      943,
+      976
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0923",
+        "start_line": 76227,
+        "end_line": 76289,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0936",
+        "start_line": 77275,
+        "end_line": 77337,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0940",
+        "start_line": 77552,
+        "end_line": 77633,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0943",
+        "start_line": 77763,
+        "end_line": 77842,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0976",
+        "start_line": 80269,
+        "end_line": 80338,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  },
+  {
+    "candidate_id": "v05-local-unresolved_and_anomalies-018-01",
+    "volume": 5,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 17,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "synthesis",
+      "description": "冰之火/冰与火同场异文、维仙枪霜伤/天狱、国际死亡许愿性别。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0845",
+          "claim_kind": "fact",
+          "end_line": 70067,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 69979
+        },
+        {
+          "chapter_id": "ch-0916",
+          "claim_kind": "fact",
+          "end_line": 75742,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 75658
+        },
+        {
+          "chapter_id": "ch-0949",
+          "claim_kind": "fact",
+          "end_line": 78273,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 78202
+        },
+        {
+          "chapter_id": "ch-0968",
+          "claim_kind": "fact",
+          "end_line": 79712,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 79634
+        }
+      ],
+      "handling": "同一场连续行动保异名，不合成双人物或自选性别补设。",
+      "id": "v05-a-id",
+      "kind": "source_anomaly"
+    },
+    "title": "冰之火/冰与火同场异文、维仙枪霜伤/天狱、国际死亡许愿性别。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0845",
+        "claim_kind": "fact",
+        "end_line": 70067,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 69979,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0916",
+        "claim_kind": "fact",
+        "end_line": 75742,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 75658,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0949",
+        "claim_kind": "fact",
+        "end_line": 78273,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 78202,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      },
+      {
+        "chapter_id": "ch-0968",
+        "claim_kind": "fact",
+        "end_line": 79712,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 79634,
+        "access_level": "direct-reading-by-this-agent",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-id-weapon-alias-and-gender-descriptions",
+    "rationale": "916同场冰之火/冰与火、845维枪天狱与此前霜伤、968死亡许愿性别说法前后不齐；连续出场按疑异名或描述冲突保留，未有明确纠字/换枪说明。不拆双人物、无证补换装或自选性别。",
+    "later_chapters": [
+      845,
+      916,
+      949,
+      968
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0845",
+        "start_line": 69979,
+        "end_line": 70067,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0916",
+        "start_line": 75658,
+        "end_line": 75742,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0949",
+        "start_line": 78202,
+        "end_line": 78273,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0968",
+        "start_line": 79634,
+        "end_line": 79712,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "主代理本专项完整读四栏派生笔记；不冒认亲读本章原文"
+      }
+    ],
+    "reviewer": "/root",
+    "review_status": "primary-reviewed-user-draft"
+  }
+]

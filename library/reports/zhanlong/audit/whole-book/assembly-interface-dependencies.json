@@ -1,0 +1,39 @@
+{
+  "implementation_dependencies": [
+    "Python standard library"
+  ],
+  "reviewed_existing_interfaces": [
+    {
+      "original_path": ".planning/20261023-shiluoye/full-research/book_audit_common.py",
+      "sha256": "16df0af178f57ff76b25c2be8faf7075d152c250908ec7e481335e7804132330",
+      "snapshot_path": "input-snapshots/interfaces/book_audit_common.py"
+    },
+    {
+      "original_path": ".planning/20261023-shiluoye/full-research/record_primary_whole_book_review.py",
+      "sha256": "b11563d45d41a21459bb07745c9c81a287745859cb405e4958f0f6460a409394",
+      "snapshot_path": "input-snapshots/interfaces/record_primary_whole_book_review.py"
+    },
+    {
+      "original_path": ".planning/20261023-shiluoye/full-research/publish_book_audit.py",
+      "sha256": "c6cccce88f55b762185322429d8da429497c7af687fd04f66ba3422a12278f6d",
+      "snapshot_path": "input-snapshots/interfaces/publish_book_audit.py"
+    },
+    {
+      "original_path": ".planning/20261023-shiluoye/full-research/merge_zhanlong_adjudications.py",
+      "sha256": "f34e43e1add7e1b162428057ba707ec7e8746a891f94e16f9da488cdfb522c5b",
+      "snapshot_path": "input-snapshots/interfaces/merge_zhanlong_adjudications.py"
+    },
+    {
+      "original_path": ".planning/20261023-shiluoye/full-research/record_primary_research_group.py",
+      "sha256": "08c109ea08a8e40092ff34862be8b4d19101cb4db34aeb81b5ee4aef86b46244",
+      "snapshot_path": "input-snapshots/interfaces/record_primary_research_group.py"
+    },
+    {
+      "original_path": ".planning/20261023-shiluoye/full-research/publish_book_synthesis.py",
+      "sha256": "36ae8f791419a00274777dfa1e43e593019ce7c969ad57dccc945237828dc8ad",
+      "snapshot_path": "input-snapshots/interfaces/publish_book_synthesis.py"
+    }
+  ],
+  "production_tools_modified": false,
+  "material_validator_standalone": true
+}

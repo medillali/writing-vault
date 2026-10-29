@@ -1,0 +1,77 @@
+# 古秦多人接力杀帝王魂
+
+ID: `scn-0c0fd55db5275e4b957fefeb8a5eb77a` · 版本: 1 · 范围: source-analysis
+
+香/宠/众人接力扛、召魂殇、主升龙收；人际期待与可用技能出现差
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-0c0fd55db5275e4b957fefeb8a5eb77a",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "技能冷却/代价清楚的团战",
+    "choice": "香/宠/众人接力扛、召魂殇、主升龙收",
+    "consequence": "书生110、月悟情意，雪未悟",
+    "failure_mode": "一次爆发就删掉所有前置风险",
+    "goal": "过高难副本",
+    "obstacle": "鬼神降、召物、预言与香血限",
+    "state_change": "人际期待与可用技能出现差",
+    "summary": "香/宠/众人接力扛、召魂殇、主升龙收；人际期待与可用技能出现差",
+    "why_it_works": "用资源轮转让全队强弱互补"
+  },
+  "created_at": "2026-10-24T19:14:30.137647+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0317",
+      "claim_kind": "fact",
+      "end_line": 29376,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 29303
+    },
+    {
+      "chapter_id": "ch-0318",
+      "claim_kind": "fact",
+      "end_line": 29478,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 29377
+    },
+    {
+      "chapter_id": "ch-0319",
+      "claim_kind": "fact",
+      "end_line": 29586,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 29479
+    },
+    {
+      "chapter_id": "ch-0320",
+      "claim_kind": "fact",
+      "end_line": 29737,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 29587
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol04/scene/ancientqin",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷:四",
+    "状态:待审阅"
+  ],
+  "title": "古秦多人接力杀帝王魂",
+  "updated_at": "2026-10-24T19:14:30.137647+00:00",
+  "user_notes": ""
+}
+
+```

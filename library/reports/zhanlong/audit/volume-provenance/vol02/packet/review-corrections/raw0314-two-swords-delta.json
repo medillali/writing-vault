@@ -1,0 +1,218 @@
+{
+  "status": "applied-draft-primary-requested-correction",
+  "reader": "/root/zongheng_vol04_full",
+  "reread": "raw0314 BEGIN L26847—END L26930实际全文复核；必要回读不新增覆盖数",
+  "changes": [
+    {
+      "path": "dimensions.characters[2].limits_and_counterevidence",
+      "before": "未到84不提前佩旗；不可用卷五身份倒称本卷失误都装。",
+      "after": "未到84不提前佩旗；不可用后卷信息倒称本卷失误都装。"
+    },
+    {
+      "path": "dimensions.continuity[4]",
+      "before": {
+        "id": "v02-continuity-05",
+        "title": "分卷共同全文不冒个人整卷或全书",
+        "claim_kind": "inference",
+        "textual_fact": "raw252卷题/253—504正文252；本代理亲读252—404，primary405—504，本代理再全读尾100四栏。",
+        "observation": "研究覆盖和阅读归属是两个账，本卷末仍多任务未闭。",
+        "mechanism": "原行拼接保reader、前段快照/尾输入SHA、派生读取回执；图coverage全卷complete仍false表示非全书。",
+        "limits_and_counterevidence": "结构通过不等语义主审通过或用户收藏，后卷事实不能填前时点。",
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0252",
+            "start_line": 21973,
+            "end_line": 21975,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0404",
+            "start_line": 33753,
+            "end_line": 33830,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0405",
+            "start_line": 33831,
+            "end_line": 33926,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0504",
+            "start_line": 41318,
+            "end_line": 41378,
+            "claim_kind": "fact"
+          }
+        ],
+        "interpretation_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0252",
+            "start_line": 21973,
+            "end_line": 21975,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0404",
+            "start_line": 33753,
+            "end_line": 33830,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0405",
+            "start_line": 33831,
+            "end_line": 33926,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0504",
+            "start_line": 41318,
+            "end_line": 41378,
+            "claim_kind": "inference"
+          }
+        ],
+        "review_status": "draft"
+      },
+      "after": {
+        "id": "v02-continuity-05",
+        "title": "同场两剑的指代与流转分离",
+        "claim_kind": "inference",
+        "textual_fact": "314主先收巴林佩剑入包；26902—06看的却是流霜自己的斩华，她说请九黎大师重铸刻名。26912—23回龙城另持巴林权力剑献罗/建议毁，罗同意并带走；406霜再持斩华不矛盾。",
+        "observation": "连续场面中相近名词不保证同物，镜头对象和交接动作优先于研究者的顺读联想。",
+        "mechanism": "给两物独立持有链：霜自己的斩华与暂由主收、后霜持交罗的巴林权力剑；每次代词回指核最近明示对象，跨场再用时只接证过的物。",
+        "limits_and_counterevidence": "权力剑实交有证，毁剑只有建议与罗同意，未现场毁；不以噬灵后来参战替代人格解放/毁剑回执，也不虚构斩华失而复得。",
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0314",
+            "start_line": 26847,
+            "end_line": 26930,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0406",
+            "start_line": 33927,
+            "end_line": 34010,
+            "claim_kind": "fact"
+          }
+        ],
+        "interpretation_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0314",
+            "start_line": 26847,
+            "end_line": 26930,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0406",
+            "start_line": 33927,
+            "end_line": 34010,
+            "claim_kind": "inference"
+          }
+        ],
+        "review_status": "draft"
+      }
+    },
+    {
+      "path": "open_questions/v02-q-zhanhua",
+      "before": {
+        "id": "v02-q-zhanhua",
+        "question": "斩华之剑来源/诅咒与后来同名武器物链？",
+        "status": "open",
+        "claim_kind": "inference",
+        "stage_boundary": "314原巴林权剑称斩华且交罗拟毁，406霜用斩华；未证中间如何流转/是否同一物，不自造毁后重铸。",
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0314",
+            "start_line": 26847,
+            "end_line": 26930,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0406",
+            "start_line": 33927,
+            "end_line": 34010,
+            "claim_kind": "fact"
+          }
+        ]
+      },
+      "after": null,
+      "reason": "研究者误合两剑造成假物链，撤回；不删除原逐章笔记。"
+    },
+    {
+      "path": "cards.scene/unseal.content.obstacle",
+      "before": "无水晶通道/姐妹目的不同。",
+      "after": "无水晶通道/双方目的不同。",
+      "reason": "primary追加要求：双方是主队与池妹，不是姐妹。"
+    },
+    {
+      "path": "cards.character/leizi.content.stage_change",
+      "before": "402游戏实死；不使用卷五现实回顾反填本卷具体死因。",
+      "after": "402游戏实死；不以后卷信息反填本卷现实生死。",
+      "major_character_states_synchronized": true
+    },
+    {
+      "path": "cards.character/yelai.content.relationship_direction",
+      "before": "主与其友谊跨游戏敌阵但非上下级；不借卷五NPC夏禹职倒灌。",
+      "after": "主与其友谊跨游戏敌阵但非上下级；不将其他实体的职务套给叶来。",
+      "major_character_states_synchronized": true
+    }
+  ],
+  "unchanged": [
+    "graph.json",
+    "chapter-notes.jsonl",
+    "read-log.json"
+  ],
+  "analysis_other_values_equal": true,
+  "cards_other_values_equal": true,
+  "before_sha256": {
+    "analysis.json": "654388d592c7e339e2dd04b708a7ef03bdc1622321dfd3191e3df3a79b19a535",
+    "cards.json": "c29691bfb7a76b0a36b5eb3fc21886f0b7cb0805cfc1510834fec30c637acb8d",
+    "graph.json": "88837ca024767286ce1747dc3a61c0f3af9f07fb03d7a63713d3af155fb0d949",
+    "read-log.json": "539a4bb1dd144cfca61a38f6fdb8463a921b0b39df8f0f4486138451205a0b1e",
+    "reader-state.json": "869f51593c1e574dea01d2da5b89d2af5561b9f5d7e253d31756522a411bf76f",
+    "chapter-notes.jsonl": "c4e9e53af972f49532daa8f59af934afdd9330ff376a1ac6bc67fe3bc343e9b1",
+    "report.md": "9877d08aa055da57e50274820ede66cc5981d7566ab543292ab7d944e3e0cce0",
+    "handoff.md": "e2c9d664f72c5a3c84e137926ee16485aa32bcbd69fe668919f9c9185cf5a607",
+    "freeze-manifest.json": "ddd2dfb4254cc7569318d37c515577c4cb6a2dcd4b80af664ef8dea46c701f64",
+    "validation.json": "88ab3735c8c850cfcd67b7e84d94fefa36aac3d26f741025bf405aff40b507a2",
+    "research_dimensions.py": "4fa421d3968e7499b2e840da82cd5260696632958631d27df8f9421d4f7f814b",
+    "research_graph.py": "19987bf967071ced7598d03a968461b7cb79b6f66ce97408f502f5b84721cfe3"
+  },
+  "after_sha256": {
+    "analysis.json": "d891e90151cc5161caf33fd05bf369fe48e693f54a43ea5a0286d9490e80a484",
+    "cards.json": "45bed13c4dc6d74beb1608eaffd1f43f41689c691eb607bc200549f22a7b91a0",
+    "graph.json": "88837ca024767286ce1747dc3a61c0f3af9f07fb03d7a63713d3af155fb0d949",
+    "chapter-notes.jsonl": "c4e9e53af972f49532daa8f59af934afdd9330ff376a1ac6bc67fe3bc343e9b1",
+    "read-log.json": "539a4bb1dd144cfca61a38f6fdb8463a921b0b39df8f0f4486138451205a0b1e",
+    "report.md": "3d268a62ea34a5a52632beb3690eda5bb4f8f245599add4ec78111d2c062eec0",
+    "handoff.md": "c111c5df7a678f16e1e8d8356fea1a83431678ac6975bf6f841b0ac72c50b2a8"
+  },
+  "supporting_overlay": "../priority-corrections-delta.json"
+}

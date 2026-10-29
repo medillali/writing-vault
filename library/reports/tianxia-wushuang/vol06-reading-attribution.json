@@ -1,0 +1,41 @@
+{
+  "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+  "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+  "volume": 6,
+  "kind": "actual_reading_split",
+  "original_tail_files": {
+    "vol06-tail-primary/chapter-notes.jsonl": "156112120d33c0a7b258ca6a604c3b5c86a0406af695f1641d90673eff78c9c1",
+    "vol06-tail-primary/reader-state.json": "6f2144309d5f09900693bfe85e3935f272a2f7e05176f800c3798ca17103a55d"
+  },
+  "segments": [
+    {
+      "reader": "zongheng_vol05_full",
+      "first": "ch-1059",
+      "last": "ch-1233",
+      "raw_segments": 175,
+      "body_units": 174,
+      "headers": 1,
+      "actual_full_text": true,
+      "notes_copy": "prefix-chapter-notes.jsonl"
+    },
+    {
+      "reader": "primary",
+      "first": "ch-1234",
+      "last": "ch-1293",
+      "raw_segments": 60,
+      "body_units": 60,
+      "headers": 0,
+      "actual_full_text": true,
+      "notes_copy": "primary-tail-notes.jsonl"
+    }
+  ],
+  "integration": {
+    "reader": "zongheng_vol05_full",
+    "method": "完整逐条读取primary尾60条实际阅读笔记，连同本人前175片全文记录派生全卷研究；未声称本人重读尾60片正文。",
+    "tail_notes_rows_reviewed": 60,
+    "reviewed_at": "2026-10-24T23:37:50.339300+00:00"
+  },
+  "complete_volume": true,
+  "complete_book": false,
+  "formal_import": false
+}

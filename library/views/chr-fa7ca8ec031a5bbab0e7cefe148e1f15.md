@@ -1,0 +1,79 @@
+# 沈冰｜卷一阶段
+
+ID: `chr-fa7ca8ec031a5bbab0e7cefe148e1f15` · 版本: 1 · 范围: source-analysis
+
+警技术同事/主专线，既供刘雇人情报，也测超能量。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-fa7ca8ec031a5bbab0e7cefe148e1f15",
+  "asset_type": "character",
+  "content": {
+    "capability": "加密线路、技术分析，155测14点超能量经王转。",
+    "claim_kind": "inference",
+    "conflict": "其报告有来源和手段，黑邮箱不等司法最终结案。",
+    "decision_pattern": "先提供线索，交行动者核实。",
+    "goal": "支持案件技术调查。",
+    "limitations": "主未亲见其全部过程，不把数值推御气怪真实类型结论。",
+    "need": "保持线索可操作与隐蔽联络。",
+    "relationships": "王信同事、主旧识，不与别书同名人物合并。",
+    "stage_change": "仍技术支持，未写已解改造幕后。",
+    "summary": "警技术同事/主专线，既供刘雇人情报，也测超能量。",
+    "valid_at": "卷一raw0002—0251，非终点人物总评"
+  },
+  "created_at": "2026-10-25T19:20:31.132349+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0066",
+      "claim_kind": "fact",
+      "end_line": 5680,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 5577
+    },
+    {
+      "chapter_id": "ch-0072",
+      "claim_kind": "fact",
+      "end_line": 6243,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 6159
+    },
+    {
+      "chapter_id": "ch-0155",
+      "claim_kind": "fact",
+      "end_line": 13694,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 13623
+    },
+    {
+      "chapter_id": "ch-0168",
+      "claim_kind": "fact",
+      "end_line": 14974,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 14865
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/shenbing",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷1",
+    "待审阅"
+  ],
+  "title": "沈冰｜卷一阶段",
+  "updated_at": "2026-10-25T19:20:31.132349+00:00",
+  "user_notes": ""
+}
+
+```

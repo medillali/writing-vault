@@ -1,0 +1,52 @@
+{
+  "asset_id": "scn-643369ecf4f95928bbff9985f761fedf",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "局部反制如射眼、集炮确实有效，但城墙、炮弹和兵员都在持续耗损时，可让一次击退敌人仍留下总体败势，推动目标由守住转向寻生路。",
+    "arc": "ghost",
+    "choice": "绫罗射眼示范/林观察炮碎甲/花秋收外挡",
+    "consequence": "敌退仍NPC约30万含伤/玩家<15万，弹半、修墙两天，胜退敌不等胜战。",
+    "failure_mode": "不能发现一个弱点就让强敌整军失能，也不能把暂退当永久胜利；修墙所需两日若没有时间取得，就不能在下一波自动恢复。",
+    "goal": "守城活过下一波",
+    "narrative_order": 1382,
+    "obstacle": "战兽强/城多缺/单兵压制",
+    "stage_status": "resolved",
+    "state_change": "敌退仍NPC约30万含伤/玩家<15万，弹半、修墙两天，胜退敌不等胜战。",
+    "summary": "敌退仍NPC约30万含伤/玩家<15万，弹半、修墙两天，胜退敌不等胜战。",
+    "why_it_works": "局部有效解法与总资源耗竭并列，避免一个弱点瞬扭全局。"
+  },
+  "created_at": "2026-10-25T21:09:00.871387+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1382",
+      "claim_kind": "fact",
+      "end_line": 99420,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 99352
+    },
+    {
+      "chapter_id": "ch-1383",
+      "claim_kind": "fact",
+      "end_line": 99499,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 99421
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/scene/siege-shrinking",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷:6"
+  ],
+  "title": "瞄眼与集炮也只能延迟墙破",
+  "updated_at": "2026-10-25T21:09:00.871387+00:00",
+  "user_notes": ""
+}

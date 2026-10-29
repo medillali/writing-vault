@@ -1,0 +1,143 @@
+{
+  "book": "tianxia-wushuang",
+  "volume": 6,
+  "indexed_segments_read": 235,
+  "body_units_read": 234,
+  "cards": {
+    "character": 48,
+    "scene": 61,
+    "pattern": 15
+  },
+  "evidence_references_checked": 3165,
+  "nodes": 72,
+  "edges": 56,
+  "threads": 26,
+  "preflight": "passed",
+  "readers": {
+    "zongheng_vol05_full": {
+      "raw_segments": 175,
+      "body_units": 174,
+      "headers": 1
+    },
+    "primary": {
+      "raw_segments": 60,
+      "body_units": 60,
+      "headers": 0
+    }
+  },
+  "integration_attribution": "zongheng_vol05_full完整读primary60条notes后派生整合，不冒称尾正文独读",
+  "truncation_pending": [],
+  "notes_contiguous": true,
+  "original_primary_tail_unchanged": true,
+  "user_drafts_preserved": true,
+  "relative_links": [
+    {
+      "source": "report.md",
+      "target": "reading-attribution.json"
+    },
+    {
+      "source": "report.md",
+      "target": "merge-receipt.json"
+    },
+    {
+      "source": "report.md",
+      "target": "primary-corrections.json"
+    },
+    {
+      "source": "report.md",
+      "target": "analysis.json"
+    },
+    {
+      "source": "report.md",
+      "target": "cards.json"
+    },
+    {
+      "source": "report.md",
+      "target": "graph.json"
+    },
+    {
+      "source": "report.md",
+      "target": "read-log.json"
+    },
+    {
+      "source": "report.md",
+      "target": "chapter-notes.jsonl"
+    },
+    {
+      "source": "report.md",
+      "target": "reader-state.json"
+    },
+    {
+      "source": "report.md",
+      "target": "reading-attribution.json"
+    },
+    {
+      "source": "report.md",
+      "target": "handoff.md"
+    },
+    {
+      "source": "report.md",
+      "target": "validation.json"
+    },
+    {
+      "source": "handoff.md",
+      "target": "analysis.json"
+    },
+    {
+      "source": "handoff.md",
+      "target": "cards.json"
+    },
+    {
+      "source": "handoff.md",
+      "target": "graph.json"
+    },
+    {
+      "source": "handoff.md",
+      "target": "read-log.json"
+    },
+    {
+      "source": "handoff.md",
+      "target": "chapter-notes.jsonl"
+    },
+    {
+      "source": "handoff.md",
+      "target": "reading-attribution.json"
+    },
+    {
+      "source": "handoff.md",
+      "target": "primary-corrections.json"
+    },
+    {
+      "source": "handoff.md",
+      "target": "validation.json"
+    }
+  ],
+  "source_index_sha256": "3f97324f6dfef3e6e8c9cc1dec889f4d47a27188575ac0e0dba9cd5cdbaeee58",
+  "output_sha256": {
+    "analysis.json": "69c11d93161f25df193246e01553658176d54e3e6066b3441e1ddc2d4ac6ba0b",
+    "cards.json": "b58be6d06a81daa1bc91d532ef973c7fb33b47b11202c328cdf219d370e4b263",
+    "graph.json": "16771eea5bd86b2bfd0259d2612c59743c2e996e62b70c1ebba0d6f05c369fdb",
+    "read-log.json": "df0e6116133934c69808563d92662eda4d31bac4bf50797d21c4d95208c04dca",
+    "chapter-notes.jsonl": "21f98284ffc0e58a3b2dc55ab63804bc55722f1f3c322308975d40c4b5e3ddc4",
+    "reader-state.json": "737a03005956e2b6058abc79a489dea8190a0e5e763d1f023560baee6be79630",
+    "report.md": "9a28e022eef9b6a4dd16dc055c4fb88dd8c6386a3966cdcbdb782730fd9f10e0",
+    "handoff.md": "3f057c8f50b2f1e833e0663a7d395bdd21f52306a3d1820b9f5f1e632a7bc000",
+    "reading-attribution.json": "7a03fc1ea4f60dbe78f2fcc8e4a3b2d9d99251c910a560979b9fa4a7b17e24d4",
+    "primary-corrections.json": "2196d2363a385772ce8965bff5b849b88ef64c30cd1a5287e1b886a8b9131d17",
+    "merge-receipt.json": "fe99310374725d85dbdb4721bdaabfd72f58a35c85f1617f67d42d3fde42264d"
+  },
+  "validated_at": "2026-10-25T00:00:52.401800+00:00",
+  "freeze_state": "generated_draft_ready_for_primary_final_acceptance",
+  "literary_review": "primary_owns_review_receipt_not_filled_here",
+  "formal_import": false,
+  "limitations": "核验只证明实际阅读记录覆盖/读者归属、证据范围、图结构与卡片链接；不替文学解释和用户审美认可。",
+  "corrections_applied": [
+    "primary六项九维delta",
+    "三生弓交易错归删除",
+    "卡兰断臂明宇/断腿米分开",
+    "飞炎归野性王座非烛",
+    "保护伞整编/命名归因分开",
+    "艾蕾拉误信真悔过",
+    "降级续穿非盾规则冲突"
+  ]
+}

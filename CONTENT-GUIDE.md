@@ -36,7 +36,7 @@
 
 ## 可以直接这样说
 
-- “继续《网游之练级专家》第13章起，先读十章；更新人物变化、未解项和检查点。”
+- “从《贼胆》和《网游之练级专家》的全书研究中，比较一次任务成功仍付出损失的场景，保留各自来源与失效条件。”
 - “找出两本书中奖励暂时不能兑现的场景，比较为什么有效、什么时候会失效。”
 - “我喜欢小雨通过行动帮助哥哥，但不喜欢替人物解释太多；把这条评价记到对应卡片。”
 - “为我的新作品建立项目，引用两张机制卡的当前版本；先写原创方案，不直接套用参考人物。”
@@ -50,8 +50,10 @@
 novel.cmd search --query 奖励 --type pattern
 novel.cmd search --query 小雨 --type character
 novel.cmd search --tag 首轮细读
-novel.cmd checkpoint-show --id run-two-books-20261023-l
-novel.cmd checkpoint-show --id run-two-books-20261023-z
+novel.cmd checkpoint-show --id run-full-two-books-20261025-l
+novel.cmd checkpoint-show --id run-full-two-books-20261025-z
+novel.cmd checkpoint-show --id run-deep-tianxia-wushuang-20261025
+novel.cmd checkpoint-show --id run-deep-zhanlong-20261025
 novel.cmd checkpoint-show --id run-legacy-zeidan-20261023
 novel.cmd validate
 ```
@@ -83,3 +85,16 @@ novel.cmd validate
 ## 双书完整研究
 
 2026-10-25完整成果见[双书总入口](library/reports/two-books-full-20261025/README.md)，实际创作检索、评价与固定版本引用见[后续操作](library/reports/two-books-full-20261025/APPLICATION-WORKFLOW.md)。原来开篇试读与迁移检查点作为历史保留，最新覆盖以全书检查点为准。
+
+## 跨书检索与纠正
+
+从[统一目录](library/reports/collection/README.md)选作者和来源，从[五书写作机制比较](library/reports/collection/写作机制比较.md)按问题找对照。比较中的观察ID可在各书综合JSON中检索，并沿卷号和章节行号回到人物、场景与逐章记录；同名角色跨书仍以source_id分开。
+
+旧阶段材料保留当时判断，当前解释先看各书入口列出的核源纠正层。《斩龙》的狮盾时限、王者领域、乘风层数、人物身份、燕赵任职、东城家庭关系与狐狸本名均有独立说明；不能据旧标题另造人或把研究误读当成原文缺陷。卡片数量是阶段材料数，全书人物弧另按实际实体归并，不把二者混算。
+
+
+## 三书完成后的入口与恢复
+
+失落叶三书已全量研究和独立验收，从[统一目录](library/reports/collection/README.md)或[本轮最终研究验收](library/reports/collection/三书最终验收.md)进入。先查全书综合、人物研究和终点账本，再回看阶段卡；《斩龙》另有[271旧人物卡映射](library/reports/zhanlong/audit/whole-book/character-stage-card-resolution.md)，原误合卡只计一次。无源名称、技术原型与组织行动接口不冒充独立人物。
+
+本轮完整研究快照另附SHA支持恢复计划，覆盖标准CLI白名单外的根入口、指南、队列与模板；卡片和剧情视图可按归档计划重建。最新实际恢复结果见[本轮备份恢复回执](library/reports/collection/backup-verification.json)及归档目录README。原小说仍独立保存；本地验收与备份不等Git推送、Space或ChatGPT记忆同步。

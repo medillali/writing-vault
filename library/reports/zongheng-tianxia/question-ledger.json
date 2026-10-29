@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "artifact_type": "question-pools-index",
+  "not_a_merged_pool": true,
+  "source_id": "src-2a13958390274509b2af019f6b12d981",
+  "review_status": "draft",
+  "primary_review_status": "reviewed_for_library_import",
+  "boundary": "两池保留原schema与标识；分类未知不等于作者未回收，条目总数不等于伏笔总数。",
+  "pools": [
+    {
+      "pool": "historical",
+      "json_path": "audit/whole-book/historical-question-pool.json",
+      "markdown_path": "audit/whole-book/historical-question-pool.md",
+      "count": 105,
+      "terminal_statuses": {
+        "answered": 58,
+        "partial": 37,
+        "unknown": 10
+      },
+      "entry_types": {
+        "analysis.open_questions": 16,
+        "graph.threads": 89
+      },
+      "audit_domains": {
+        "not-classified-in-pool": 105
+      }
+    },
+    {
+      "pool": "local",
+      "json_path": "audit/whole-book/local-question-pool.json",
+      "markdown_path": "audit/whole-book/local-question-pool.md",
+      "count": 404,
+      "terminal_statuses": {
+        "answered": 44,
+        "partial": 78,
+        "unknown": 282
+      },
+      "entry_types": {
+        "local-atomic-item": 404
+      },
+      "audit_domains": {
+        "aggregate-versus-individual-death": 1,
+        "aggregate-versus-personal-payment": 2,
+        "character-knowledge": 1,
+        "conditional-ability-and-gift": 1,
+        "conflicting-testimony": 1,
+        "culprit-attribution": 1,
+        "culprit-inference": 1,
+        "defeat-versus-life-state": 1,
+        "earlier-event-cross-reference": 1,
+        "earlier-story-reference": 1,
+        "family-status-and-transaction": 1,
+        "health-and-knowledge": 1,
+        "item-state-and-unconfirmed-person-fate": 1,
+        "knowledge-boundary": 1,
+        "knowledge-continuity": 1,
+        "listing-versus-cash": 1,
+        "motive-inference": 1,
+        "narrator-motive-and-memory": 1,
+        "plot-or-character": 122,
+        "plot-plus-source-clock": 1,
+        "prediction-versus-result": 1,
+        "promise-and-transaction": 1,
+        "qualification-versus-use": 1,
+        "quest-plus-item-qualification": 1,
+        "reported-past-and-later-choice": 1,
+        "result-plus-unmeasured-clock": 1,
+        "scope-and-denominator": 1,
+        "source-anomaly-plus-promise": 1,
+        "source-time-and-reported-economy": 1,
+        "source_anomaly": 168,
+        "specific-exit-and-property": 1,
+        "specific-gifts-and-inventory-continuity": 1,
+        "specific-quest-delivery": 1,
+        "specific-scene-and-unproven-skill-generalization": 1,
+        "stage-knowledge-or-source-boundary": 80,
+        "unconfirmed-person-fates": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+# 弗雷｜卷五阶段
+
+ID: `chr-dd7ef1131bb35fac9c60ea1ff8a1e94e` · 版本: 1 · 范围: source-analysis
+
+九霄夏火强将，融合魂载体，与傅雷工匠分人。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-dd7ef1131bb35fac9c60ea1ff8a1e94e",
+  "asset_type": "character",
+  "content": {
+    "claim_kind": "inference",
+    "decision_pattern": "反击伤龙/被金筋绑、霜活剥第三魂，魔山求活主同意。",
+    "goal": "保九霄/自身军威。",
+    "limitations": "主不能因取魂就写他当场死；后死亡消息与此前留活分时。",
+    "relationship_direction": "与魔九霄上下军政，不把其死归主亲手；傅雷另伪装工匠。",
+    "stage_change": "1137活扶回；1155薛报被虫重伤后五星神将斩首，二十七万夏火归魔。",
+    "summary": "九霄夏火强将，融合魂载体，与傅雷工匠分人。",
+    "valid_at": "raw0969—1179卷末，不是全书终点"
+  },
+  "created_at": "2026-10-25T21:08:43.158646+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1134",
+      "claim_kind": "fact",
+      "end_line": 83073,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 83010
+    },
+    {
+      "chapter_id": "ch-1135",
+      "claim_kind": "fact",
+      "end_line": 83127,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 83074
+    },
+    {
+      "chapter_id": "ch-1136",
+      "claim_kind": "fact",
+      "end_line": 83181,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 83128
+    },
+    {
+      "chapter_id": "ch-1137",
+      "claim_kind": "fact",
+      "end_line": 83235,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 83182
+    },
+    {
+      "chapter_id": "ch-1155",
+      "claim_kind": "fact",
+      "end_line": 84399,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 84335
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fre",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "弗雷｜卷五阶段",
+  "updated_at": "2026-10-25T21:08:43.165152+00:00",
+  "user_notes": ""
+}
+
+```

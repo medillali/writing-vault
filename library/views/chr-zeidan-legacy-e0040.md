@@ -1,0 +1,65 @@
+# 贼胆｜影子｜E0040
+
+ID: `chr-zeidan-legacy-e0040` · 版本: 1 · 范围: source-analysis
+
+以一万元购萧御夺得的紫色法杖，报价让萧御重新估计不同阵营的装备需求。；前段交易关系已有建立，本段不是第一次遇见；不把富有推成未证实职业。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0040",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "causal_importance": "装备变现与市场差异",
+    "desires": [],
+    "facts": [
+      "以一万元购萧御夺得的紫色法杖，报价让萧御重新估计不同阵营的装备需求。",
+      "前段交易关系已有建立，本段不是第一次遇见；不把富有推成未证实职业。"
+    ],
+    "identity": "有购买力的客户",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0040",
+    "limits": [],
+    "maintenance_depth": "中",
+    "name": "影子",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0040",
+    "relationships": [
+      "萧御：客户/卖方关系"
+    ],
+    "summary": "以一万元购萧御夺得的紫色法杖，报价让萧御重新估计不同阵营的装备需求。；前段交易关系已有建立，本段不是第一次遇见；不把富有推成未证实职业。",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:12.079122+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0158",
+      "claim_kind": "fact",
+      "end_line": 6913,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 6865
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0040",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜影子｜E0040",
+  "updated_at": "2026-10-22T17:03:12.081121+00:00",
+  "user_notes": ""
+}
+
+```

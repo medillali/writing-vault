@@ -1,0 +1,125 @@
+# 把奖励写成组织生产链
+
+ID: `pat-8d8247832b165ebba9dfafccd8cf7fab` · 版本: 1 · 范围: reusable-pattern
+
+稀有掉落只有经过采购、资格、分配和训练，才会转成群体战力。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-8d8247832b165ebba9dfafccd8cf7fab",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "升级故事需要从个人成长转组织成长。",
+    "causal_steps": [
+      "先取核心资源但保工具短缺。",
+      "以交易补工具并暴露数量意图。",
+      "写捕捉/制造、人员筛选、实际装备。",
+      "小试验证，再到大战受补给和维修制约。"
+    ],
+    "claim_kind": "synthesis",
+    "failure_conditions": "略去分配过程会像凭空成军；密集清单需用人物决策承接。",
+    "limits": "抽象只来自已读卷四，不能作为作者全书或用户审美规则。",
+    "originality_transform": "原创可写医护站：设备捐赠还需耗材、培训、班表与运输，成效不以机器总数代替。",
+    "summary": "稀有掉落只有经过采购、资格、分配和训练，才会转成群体战力。"
+  },
+  "created_at": "2026-10-24T23:04:59.061893+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-3d72ed94523655aab7ca9753b1621f41",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-a572c3bafc9a51f794d5a1f6e2f17981",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-a4945547ab0a5917b9c52ad9fa1705fc",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-86e8460cabbe5f069e7b40ff88ea2d58",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-56308615221651cea94f44fc0233b5c9",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0704",
+      "claim_kind": "synthesis",
+      "end_line": 59236,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 59171
+    },
+    {
+      "chapter_id": "ch-0705",
+      "claim_kind": "synthesis",
+      "end_line": 59307,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 59237
+    },
+    {
+      "chapter_id": "ch-0709",
+      "claim_kind": "synthesis",
+      "end_line": 59587,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 59520
+    },
+    {
+      "chapter_id": "ch-0714",
+      "claim_kind": "synthesis",
+      "end_line": 59994,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 59929
+    },
+    {
+      "chapter_id": "ch-0718",
+      "claim_kind": "synthesis",
+      "end_line": 60242,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 60173
+    },
+    {
+      "chapter_id": "ch-0743",
+      "claim_kind": "synthesis",
+      "end_line": 62038,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 61983
+    },
+    {
+      "chapter_id": "ch-0749",
+      "claim_kind": "synthesis",
+      "end_line": 62466,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 62398
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol04/pattern/resource-chain",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:4",
+    "研究:全量九维"
+  ],
+  "title": "把奖励写成组织生产链",
+  "updated_at": "2026-10-24T23:04:59.063959+00:00",
+  "user_notes": ""
+}
+
+```

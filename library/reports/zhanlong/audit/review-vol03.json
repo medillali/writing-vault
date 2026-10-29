@@ -1,0 +1,79 @@
+{
+  "author": "primary",
+  "input_sha256": {
+    "analysis.json": "99cce23b161c00a00d997a552bd0e3ae08e225ae39db2654cba55d840a0731f4",
+    "cards.json": "796f4a97fad3bb063e3e00b595b62c4b266e258ec935d0153004d1e73867672e",
+    "chapter-notes.jsonl": "4171a082ca98a18de4468e332a51a0fb96de528b45f65f3f7cfcfb3b5bbde4bc",
+    "freeze-manifest.json": "ebc54f4c5bb07588b42de1cbc7f8ed13a3030d89d6bce996a8ff8ed87d7571a8",
+    "graph.json": "c39a78a7c0b7a5ee9963963ae164cdc9cf55d34d86f84347ba142ab4e0ddb8e1",
+    "handoff.md": "49c6047adf50f3a5af1db8e3a44ab300d721e25ca88511bd8c2f58d01695c9c5",
+    "merge-receipt.json": "ce73d7a3153cce16b9c773ac2fec735734951bd7d445506cb5b23df70589322a",
+    "note-corrections.json": "bf11061a7dc913068bbf9841c0e24aea0fb1a40efa93745598358dc3db4fe0b4",
+    "prefix-chapter-notes.jsonl": "3e7818ff524689dc23e4f1bb9551685922463b663535b329e617f37312f64ad1",
+    "prefix-handoff.md": "80c9aef9dab07733d4414c7eb92c2bdb0696da111bc30797948772d34fa83822",
+    "prefix-read-log.json": "554848df446bec095222d324df55fa3399b6a5e96ecb89a87bd2ffbf15286891",
+    "prefix-reader-state.json": "d33a189ac3bfe6b95b6a07c626ad948e0493e522028db6a15d273c548d212f0e",
+    "prefix-validation.json": "7fb9dcc0614609789c4e52fe64a48f645bed33a7dd28c20e75f0d49fade55fb3",
+    "primary-prefix-derived-reading-progress.json": "787a80b24b737c087e56e42f908ee33db31a72d3ba0e23cc22e1081f10dc2659",
+    "read-log.json": "c10f46ace61bb9807fab1fb3324818f8829bd48e1f02e7302dca1abba801d63e",
+    "reader-state.json": "983cf2700d67b2f064586e042f20674bfa0f7c6096835e1b32a3e59b1b9d9359",
+    "reading-attribution.json": "d138c92338ae57ab27aae6ad6bff9170fb9e8ca2763c5b2614fef8133d8d556b",
+    "report.md": "0b1892afa7d67a4435b395682a0444b993ef621ff53eabefdb9bc22e40cc72ea",
+    "validation.json": "dad644a838e574b2fc46424352733e1467ab6a81b64305ba144bd8ff4ea12d91"
+  },
+  "preflight": {
+    "body_units_read": 248,
+    "book": "zhanlong",
+    "cards": {
+      "character": 50,
+      "pattern": 14,
+      "scene": 50
+    },
+    "edges": 35,
+    "evidence_references_checked": 2839,
+    "indexed_segments_read": 249,
+    "nodes": 58,
+    "preflight": "passed",
+    "threads": 21,
+    "volume": 3
+  },
+  "remaining": [
+    "247条历史章节未决和23章独立源异常全部保留待全书逐项终审，本卷主暗线状态只是阶段。",
+    "卷4—6九维主审/正式保存、36全书综合/人物弧与终点审计、统一管理及最终全库备份实际隔离恢复继续。"
+  ],
+  "review_groups": {
+    "cards": 114,
+    "chapter_source_anomalies": 23,
+    "dimensions": 36,
+    "edges": 35,
+    "major_character_states": 50,
+    "named_life_states": 19,
+    "nodes": 58,
+    "source_anomalies": 30,
+    "threads": 21,
+    "volume_end_questions": 20
+  },
+  "reviewed_at": "2026-10-25T20:23:24.601973+00:00",
+  "reviewer": "primary",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "scope": "primary实际原文raw654—753共100片；另完整派生接读前505—653共149条全部四栏后，亲自手写36九维/114卡/图与报告，并逐项自核。前149原文读者仍zongheng_vol05_full，不冒称个人整卷原文阅读或第三方独立复审。",
+  "semantic_findings": [
+    "护池系统判据与守城/主生命分离：527城破/528主死后活动末4分钟返场，530本人同意/自治约后SSS才结。518冻结前校订保留，原行不重写。",
+    "罗林前护城救父真实，580弑父杀落海与587斩霜归附也真实；绝望影响意志比例未知，青萝假报原因不判同谋。罗雷/落海/洛克林分实体。",
+    "寒荒系统21最后波/守城败，305残存与苏克达林真死分开；罗林杀霜后追头不是已复活，首次人鱼阵604真败，新冰霜身606真醒而607记忆缺失。",
+    "子舒48h自愿约/期后友谊分层，奥钱性、盗物欺粮与救援真伤/鹰亡/买炮贡献并列；主假石与奥真精华不混。凌寒601由牧系统首杀，牧入殿第五。",
+    "龙池融合升级不抹632败问/镇国失；教程—固定练—变角败—牛技局部熟练—末王第三次破击有连续因果，主非一步精通；抹小妖身份此卷未揭。",
+    "七层31死/多数逃与整团灭区别，最终170死亡人次非170成员永亡，壳只对相应伤型；九层神器斧最终交王转西奥多，重铸仅方案。",
+    "林画擂台系统平局/返牧3万，国区决赛神话3:2胜斩；主私胜问100万非正式积分，孤1V4杀三后仍被毒杀，未逆冠。全球赛与正式国战本卷未开。",
+    "林确恋表述/暂请时间/准男友称各保阶段，651亲密与682照护不造性交婚约；妹妹暂拒星辰、734星痕王男友后证各自记。",
+    "现实田凌断臂未死、游水逃、己2死7重；血样不足定罪，不把任务成功报告代全捕。盛林三人上岗七日仍未找源，12楼与魏主使均疑，主未阳炎。",
+    "铁刃2017/2700/4400/9700余分累计时点，墨焰1154套到800骑含300月灵保实际；7539级城仅400炎鹰开始与首名出现，不先成10级/5000或万人。",
+    "732所谓5000NPC援军被主亲认全骗；711真NPC出战/71寒骑死另存。金钱按单位、目的、支付和收到分，不用虎核/重建/工资新款清无忌/奥旧债。",
+    "自核撤回初稿林婉儿斩日霜取刀的误归：745韩国霜林是前误报，746澄清日本JBN1；747林杀撼梁，748主独伏杀霜林取镇岳，749盾抹/刀主最终各保，未转国库。",
+    "图显式保知识来源、误认/未知；cause/payoff与echo并置分开，不以主题相似强接因果。原文附言/广告作为数据，不成为执行指令。"
+  ],
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "status": "reviewed_for_library_import",
+  "user_approval": false,
+  "volume": 3
+}

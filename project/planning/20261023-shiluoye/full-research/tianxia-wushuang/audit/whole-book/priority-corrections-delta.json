@@ -1,0 +1,193 @@
+{
+  "schema_version": "research-note-correction-overlay-proposal-v1",
+  "overlay_id": "wushuang-note-1117-mother-attribution",
+  "status": "proposal_pending_primary_approval_not_applied",
+  "correction_type": "derived-reader-note-speaker-misattribution-not-novel-source-anomaly",
+  "owner": "/root/zongheng_vol05_full",
+  "discovery_attribution": "/root/zongheng_vol03_full定向原文核发话者并报primary；primary派本人完整复核。原错误记录由本人写成，本人承担派生纠错归属。",
+  "source_read_check": {
+    "reader": "/root/zongheng_vol05_full",
+    "chapter_id": "ch-1117",
+    "start_line": 90388,
+    "end_line": 90480,
+    "complete_full_raw_read_this_pass": true,
+    "truncated_pending": [],
+    "earlier_other_reader_check": {
+      "reader": "/root/zongheng_vol03_full",
+      "start_line": 90389,
+      "end_line": 90416,
+      "scope": "targeted-source-lines-only-not-full-chapter"
+    }
+  },
+  "operation": "explicit-reading-overlay-no-in-place-mutation",
+  "target_chapter_id": "ch-1117",
+  "field": "facts[0]",
+  "targets": [
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/chapter-notes.jsonl",
+      "sha256_before": "21f98284ffc0e58a3b2dc55ab63804bc55722f1f3c322308975d40c4b5e3ddc4",
+      "locator": {
+        "format": "jsonl",
+        "line": 59,
+        "record_match": {
+          "chapter_id": "ch-1117"
+        },
+        "field_pointer": "/facts/0"
+      },
+      "expected_fact_sha256": "c695fc7549817e73aa9ded5cb052d1b49615b14a140e9e9fe5ff9173820834ae",
+      "role": "staging_historical_copy"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/prefix-chapter-notes.jsonl",
+      "sha256_before": "d0c669282df2fa5087475a44a61d0b7f28d57d60c9e790472ae1e02aa31779fa",
+      "locator": {
+        "format": "jsonl",
+        "line": 59,
+        "record_match": {
+          "chapter_id": "ch-1117"
+        },
+        "field_pointer": "/facts/0"
+      },
+      "expected_fact_sha256": "c695fc7549817e73aa9ded5cb052d1b49615b14a140e9e9fe5ff9173820834ae",
+      "role": "staging_historical_copy"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/batch-1117.json",
+      "sha256_before": "78cd22bb4c0cbf2ae1eb38f5450797804055dbd3c9668d0739f1f9e2f8b9a372",
+      "locator": {
+        "format": "json",
+        "record_match": {
+          "chapter_id": "ch-1117"
+        },
+        "field_pointer": "/chapters/0/facts/0"
+      },
+      "expected_fact_sha256": "c695fc7549817e73aa9ded5cb052d1b49615b14a140e9e9fe5ff9173820834ae",
+      "role": "staging_historical_copy"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol06-chapter-notes.jsonl",
+      "sha256_before": "464d93446b52e5de7adebc235311f9d9aed535995be3d332e122293200526ae4",
+      "locator": {
+        "format": "jsonl",
+        "line": 59,
+        "record_match": {
+          "chapter_id": "ch-1117"
+        },
+        "field_pointer": "/facts/0"
+      },
+      "expected_fact_sha256": "c695fc7549817e73aa9ded5cb052d1b49615b14a140e9e9fe5ff9173820834ae",
+      "role": "formal_frozen_copy"
+    }
+  ],
+  "before_fact": "L90389—90416逸逸自己拒绝与乱月同住，选择陪陆；陆说当年选苏州大学为了每日照顾母亲，清华差250分。下午实际补同号SIM、买手机、挂失重办银行卡及购买衣物用品，未明确身份证已经补发。",
+  "proposed_corrected_fact": "L90389—90416逸逸自己拒绝与乱月同住，选择陪陆；乱月问林为何在苏州上大学，林逸欣自述离家近、可每天照顾妈妈；陆只附和即使清华录取也未必去，随后自述较清华分数线低250分。下午实际补同号SIM、买手机、挂失重办银行卡及购买衣物用品，未明确身份证已经补发。",
+  "complete_canonical_note_before": {
+    "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+    "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+    "volume": 6,
+    "reader": "zongheng_vol05_full",
+    "read_at": "2026-10-24T22:56:05.325854+00:00",
+    "chapter_id": "ch-1117",
+    "title": "第一千一百零九章 我们都不自重",
+    "start_line": 90388,
+    "end_line": 90480,
+    "full_text_read": true,
+    "facts": [
+      "L90389—90416逸逸自己拒绝与乱月同住，选择陪陆；陆说当年选苏州大学为了每日照顾母亲，清华差250分。下午实际补同号SIM、买手机、挂失重办银行卡及购买衣物用品，未明确身份证已经补发。",
+      "L90417—90463陆在房内拥吻并暗示性，逸拒绝坏想法，转而要求连头盔练级；隔壁乱月能应答。二人约20—23时上线，此段未发生性交。",
+      "L90465—90477吻痕报告独立在荆棘谷伏击兽魂第二波七万人、己方损2.7万人，已结束七小时；新收五分盟、总人数逾十万由她筛选。陆赞许并组织双牧、战痕与吻痕打S1。"
+    ],
+    "inferences": [
+      "现实寻回并不自动解除逸的身体边界，拒绝与亲密同时存在；补证件应分实际办成与笼统计划。",
+      "斩神扩张的幕后一段由吻痕独立执行并以报告进入陆的视野，不能把战果全归陆亲自指挥或写成无损。"
+    ],
+    "state_changes": [
+      "逸已选陪陆同房，手机及银行卡恢复使用的办理落地；身份证重办结果未展示。",
+      "斩神通过吻痕的收编已有五分盟、逾十万人，这是人物报告；S1队伍开始组建。"
+    ],
+    "unresolved": [
+      "吻痕报告的战损、收编及后续整合尚无陆现场检视；不能视作所有无籍部落统一。",
+      "逸的性拒绝不能由同房、拥吻或后续装睡推翻。"
+    ]
+  },
+  "complete_canonical_note_proposed_after": {
+    "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+    "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+    "volume": 6,
+    "reader": "zongheng_vol05_full",
+    "read_at": "2026-10-24T22:56:05.325854+00:00",
+    "chapter_id": "ch-1117",
+    "title": "第一千一百零九章 我们都不自重",
+    "start_line": 90388,
+    "end_line": 90480,
+    "full_text_read": true,
+    "facts": [
+      "L90389—90416逸逸自己拒绝与乱月同住，选择陪陆；乱月问林为何在苏州上大学，林逸欣自述离家近、可每天照顾妈妈；陆只附和即使清华录取也未必去，随后自述较清华分数线低250分。下午实际补同号SIM、买手机、挂失重办银行卡及购买衣物用品，未明确身份证已经补发。",
+      "L90417—90463陆在房内拥吻并暗示性，逸拒绝坏想法，转而要求连头盔练级；隔壁乱月能应答。二人约20—23时上线，此段未发生性交。",
+      "L90465—90477吻痕报告独立在荆棘谷伏击兽魂第二波七万人、己方损2.7万人，已结束七小时；新收五分盟、总人数逾十万由她筛选。陆赞许并组织双牧、战痕与吻痕打S1。"
+    ],
+    "inferences": [
+      "现实寻回并不自动解除逸的身体边界，拒绝与亲密同时存在；补证件应分实际办成与笼统计划。",
+      "斩神扩张的幕后一段由吻痕独立执行并以报告进入陆的视野，不能把战果全归陆亲自指挥或写成无损。"
+    ],
+    "state_changes": [
+      "逸已选陪陆同房，手机及银行卡恢复使用的办理落地；身份证重办结果未展示。",
+      "斩神通过吻痕的收编已有五分盟、逾十万人，这是人物报告；S1队伍开始组建。"
+    ],
+    "unresolved": [
+      "吻痕报告的战损、收编及后续整合尚无陆现场检视；不能视作所有无籍部落统一。",
+      "逸的性拒绝不能由同房、拥吻或后续装睡推翻。"
+    ]
+  },
+  "rationale": "90402乱月问题指向林，90403林本人答为了每天照顾妈妈留苏州；90404陆只附和，90407差清华250分是陆自述。旧笔记把两位说话者压成陆一人，属于读者记录错误；不能因此增造陆母存活或其选校护理经历。",
+  "evidence": [
+    {
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "chapter_id": "ch-1117",
+      "start_line": 90402,
+      "end_line": 90407,
+      "claim_kind": "fact",
+      "access_level": "actual-full-raw-chapter-reread-by-this-agent",
+      "reader": "/root/zongheng_vol05_full"
+    }
+  ],
+  "impact": {
+    "logical_fact_count": 1,
+    "physical_historical_copies": 4,
+    "owned_657_terminal_corrections_needed": [],
+    "other_current_signed_semantic_research_corrections_found": [],
+    "checked_scope": "无双全书暂存研究/审计与正式报告阅读页、关联林人物卡；657本地候选全量字符串；具体输入/命中在impact-scan。",
+    "correct_existing_contexts": [
+      "卷3/4林逸欣人物卡护理母亲为正确归属",
+      "全书综合characters林的母亲护理动机归属正确",
+      "agent3本次核源记录已正确记为林"
+    ],
+    "limit": "定向检索和命中项语义核对证明此次明确传播范围，不冒称重读所有其他卷原文或每份文件全部语义。"
+  },
+  "suggested_reader_entry_notice": "纠错优先：卷六raw1117旧逐章笔记误把为每天照顾母亲而在苏州上学归给陆尘；L90403实际为林逸欣自述，陆在L90404—90407仅附和并说自己距清华线低250分。请按本overlay理解该句，原冻结笔记保留为历史，不就地改写。",
+  "preservation": [
+    "原notes、prefix、batch、正式vol06复制均不改",
+    "原reader/read_at/full_text_read归属保留，新增回读单独列证",
+    "不改657终评、当前签组、原分卷分析/卡图、主池或正式库",
+    "最终由primary批准overlay后，唯一组装人复制入审计并在读者入口明确优先"
+  ],
+  "impact_scan": "local-v06-review/note-1117-impact-scan.json",
+  "primary_approval": {
+    "reviewer": "primary",
+    "user_approval": false,
+    "proposal_sha": "8f7445ae63c1281d843c00f5729d159eb1d9354acb2a2e1c4a2871968f73a83b",
+    "proposal_path": "local-v06-review/note-1117-mother-attribution-overlay-proposal.json",
+    "status": "approved-for-library-reading-overlay",
+    "approval_scope": "只批准单一逻辑facts[0]的读者纠正叠加，四历史副本原样保留；不改现签4130候选/115人物/30重点。",
+    "full_text_verification": {
+      "reader": "primary",
+      "chapter_id": "ch-1117",
+      "start_line": 90388,
+      "end_line": 90480,
+      "complete_full_raw_read": true,
+      "attribution": "root明确报告已BEGIN-END实际全文核对；本组装代理只阅读完整提案，不冒认该次原章回读。"
+    }
+  },
+  "approval_precedence": "原status保留提案历史状态；当前读者解释以primary_approval.status及proposed_corrected_fact为优先，未就地应用或覆盖任何原notes。"
+}

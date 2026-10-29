@@ -1,0 +1,1828 @@
+[
+  {
+    "candidate_id": "v01-local-source_anomalies-0011-01",
+    "original_question": "143得洛戒/144说明24h，146同晚9即称寿尽，同时5000额满。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "143得洛戒/144说明24h，146同晚9即称寿尽，同时5000额满。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0143",
+          "claim_kind": "fact",
+          "end_line": 12613,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12510
+        },
+        {
+          "chapter_id": "ch-0144",
+          "claim_kind": "fact",
+          "end_line": 12703,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12614
+        },
+        {
+          "chapter_id": "ch-0145",
+          "claim_kind": "fact",
+          "end_line": 12772,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12704
+        },
+        {
+          "chapter_id": "ch-0146",
+          "claim_kind": "fact",
+          "end_line": 12871,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12773
+        }
+      ],
+      "handling": "额满可证停学，时长解释未知，不替作者说只次数限制。",
+      "id": "v01-a-ring-life",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 10,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "143得戒到146同晚九点已称寿尽，与144“24小时”不合；145新知5000总学习额/146额满另有直接证。在六卷正式洛戒材料中未见针对早期时长的解释，不能拿额满直接取消原24h条件，也不是一笔故事许诺遗忘。",
+    "later_chapters": [
+      143,
+      144,
+      145,
+      146
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0143",
+        "start_line": 12510,
+        "end_line": 12613,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0144",
+        "start_line": 12614,
+        "end_line": 12703,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0145",
+        "start_line": 12704,
+        "end_line": 12772,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0146",
+        "start_line": 12773,
+        "end_line": 12871,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0011-02",
+    "original_question": "额满可证停学，时长解释未知，不替作者说只次数限制。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "143得洛戒/144说明24h，146同晚9即称寿尽，同时5000额满。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0143",
+          "claim_kind": "fact",
+          "end_line": 12613,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12510
+        },
+        {
+          "chapter_id": "ch-0144",
+          "claim_kind": "fact",
+          "end_line": 12703,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12614
+        },
+        {
+          "chapter_id": "ch-0145",
+          "claim_kind": "fact",
+          "end_line": 12772,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12704
+        },
+        {
+          "chapter_id": "ch-0146",
+          "claim_kind": "fact",
+          "end_line": 12871,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12773
+        }
+      ],
+      "handling": "额满可证停学，时长解释未知，不替作者说只次数限制。",
+      "id": "v01-a-ring-life",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 10,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "rule-boundary",
+    "rationale": "1453479/5000、1465000/5000并书烂足证停止带学、旧生意已结。能回答“为何不能继续学”的额限制部分；戒寿尽的时间说法仍有源差，不能造官方只设次数无时长。",
+    "later_chapters": [
+      144,
+      145,
+      146
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0144",
+        "start_line": 12614,
+        "end_line": 12703,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0145",
+        "start_line": 12704,
+        "end_line": 12772,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0146",
+        "start_line": 12773,
+        "end_line": 12871,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0012-01",
+    "original_question": "146招稿3000而147抹说4000起，应与血色告示4000分别。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "146招稿3000而147抹说4000起，应与血色告示4000分别。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0146",
+          "claim_kind": "fact",
+          "end_line": 12871,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12773
+        },
+        {
+          "chapter_id": "ch-0147",
+          "claim_kind": "fact",
+          "end_line": 12946,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12872
+        }
+      ],
+      "handling": "保工资未签付具体细则，不能直接认主已改薪4千。",
+      "id": "v01-a-salary-mo",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 11,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "146斩龙手抄告示3000/月、同场血色打印4000起是两雇主；147薛柔却说为4000应聘。检索最终正式薪/工资/合同材料，没有这次广告金额的明确改薪或本人薪回执；915身份揭晓不能反过来证明当初工资一定假。",
+    "later_chapters": [
+      146,
+      147,
+      915
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0146",
+        "start_line": 12773,
+        "end_line": 12871,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0147",
+        "start_line": 12872,
+        "end_line": 12946,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0915",
+        "start_line": 68787,
+        "end_line": 68855,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0012-02",
+    "original_question": "保工资未签付具体细则，不能直接认主已改薪4千。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "146招稿3000而147抹说4000起，应与血色告示4000分别。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0146",
+          "claim_kind": "fact",
+          "end_line": 12871,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12773
+        },
+        {
+          "chapter_id": "ch-0147",
+          "claim_kind": "fact",
+          "end_line": 12946,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12872
+        }
+      ],
+      "handling": "保工资未签付具体细则，不能直接认主已改薪4千。",
+      "id": "v01-a-salary-mo",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 11,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "employment-boundary",
+    "rationale": "147已正式录/官网登记五人，但一年合同只是狐草拟，工资口述也不等主明确改为4000且支付。后915离开/删号表明组织关系变化，不提供当初合同和薪数签字；因此不得以录用泛闭具体细则。",
+    "later_chapters": [
+      147,
+      148,
+      915
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0147",
+        "start_line": 12872,
+        "end_line": 12946,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0148",
+        "start_line": 12947,
+        "end_line": 13039,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0915",
+        "start_line": 68787,
+        "end_line": 68855,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0013-01",
+    "original_question": "149抹30，150王连升2应32，151称死掉回32/主疑多杀。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "149抹30，150王连升2应32，151称死掉回32/主疑多杀。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0149",
+          "claim_kind": "fact",
+          "end_line": 13143,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13040
+        },
+        {
+          "chapter_id": "ch-0150",
+          "claim_kind": "fact",
+          "end_line": 13231,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13144
+        },
+        {
+          "chapter_id": "ch-0151",
+          "claim_kind": "fact",
+          "end_line": 13338,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13232
+        },
+        {
+          "chapter_id": "ch-0154",
+          "claim_kind": "fact",
+          "end_line": 13622,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13510
+        }
+      ],
+      "handling": "154明确32升36；不补151前隐藏35。",
+      "id": "v01-a-mo-level",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 12,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "149抹实际30、150王后连升两级，151死掉回32却隐含此前更高数；154原明32升36。主疑被多杀不是明确此前等级证明；后915操作身份反转也不能恢复缺失的升级/掉级次数。",
+    "later_chapters": [
+      149,
+      150,
+      151,
+      154,
+      915
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0149",
+        "start_line": 13040,
+        "end_line": 13143,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0150",
+        "start_line": 13144,
+        "end_line": 13231,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0151",
+        "start_line": 13232,
+        "end_line": 13338,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0154",
+        "start_line": 13510,
+        "end_line": 13622,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0915",
+        "start_line": 68787,
+        "end_line": 68855,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0013-02",
+    "original_question": "154明确32升36",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "149抹30，150王连升2应32，151称死掉回32/主疑多杀。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0149",
+          "claim_kind": "fact",
+          "end_line": 13143,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13040
+        },
+        {
+          "chapter_id": "ch-0150",
+          "claim_kind": "fact",
+          "end_line": 13231,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13144
+        },
+        {
+          "chapter_id": "ch-0151",
+          "claim_kind": "fact",
+          "end_line": 13338,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13232
+        },
+        {
+          "chapter_id": "ch-0154",
+          "claim_kind": "fact",
+          "end_line": 13622,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13510
+        }
+      ],
+      "handling": "154明确32升36；不补151前隐藏35。",
+      "id": "v01-a-mo-level",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 12,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "state-progression",
+    "rationale": "154明确系统首紫宠奖四级，状态从32到36；这是最近直接结果，不能因为151的掉级口述不齐否认这次真实增长。",
+    "later_chapters": [
+      151,
+      154
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0151",
+        "start_line": 13232,
+        "end_line": 13338,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0154",
+        "start_line": 13510,
+        "end_line": 13622,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0013-03",
+    "original_question": "不补151前隐藏35。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "149抹30，150王连升2应32，151称死掉回32/主疑多杀。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0149",
+          "claim_kind": "fact",
+          "end_line": 13143,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13040
+        },
+        {
+          "chapter_id": "ch-0150",
+          "claim_kind": "fact",
+          "end_line": 13231,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13144
+        },
+        {
+          "chapter_id": "ch-0151",
+          "claim_kind": "fact",
+          "end_line": 13338,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13232
+        },
+        {
+          "chapter_id": "ch-0154",
+          "claim_kind": "fact",
+          "end_line": 13622,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13510
+        }
+      ],
+      "handling": "154明确32升36；不补151前隐藏35。",
+      "id": "v01-a-mo-level",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 12,
+      "atomic_index": 2
+    },
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "原材料没有151前先到35的动作或面板，不能按“掉到32”倒补隐藏35。154从32升级和后915身份仅各证各阶段，不回填一段不存在的等级历程。",
+    "later_chapters": [
+      149,
+      150,
+      151,
+      154,
+      915
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0149",
+        "start_line": 13040,
+        "end_line": 13143,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0150",
+        "start_line": 13144,
+        "end_line": 13231,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0151",
+        "start_line": 13232,
+        "end_line": 13338,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0154",
+        "start_line": 13510,
+        "end_line": 13622,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0915",
+        "start_line": 68787,
+        "end_line": 68855,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0014-01",
+    "original_question": "早一骑共30秒CD，150抹按60与藤约50讨论。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "早一骑共30秒CD，150抹按60与藤约50讨论。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0059",
+          "claim_kind": "fact",
+          "end_line": 5028,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 4940
+        },
+        {
+          "chapter_id": "ch-0063",
+          "claim_kind": "fact",
+          "end_line": 5399,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 5309
+        },
+        {
+          "chapter_id": "ch-0150",
+          "claim_kind": "fact",
+          "end_line": 13231,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13144
+        }
+      ],
+      "handling": "各章口径存，未见明确改版解释，不据数学称每轮都可破所有藤。",
+      "id": "v01-a-combo-cd",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 13,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "59/63的一骑共30秒CD，与150抹按60对藤约50讨论不齐；150实际能破当次藤但没有给30→60的改版说明。845一骑升级圣灵是遥后新阶段，不应拿来解释150旧CD。",
+    "later_chapters": [
+      59,
+      63,
+      150,
+      845
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0059",
+        "start_line": 4940,
+        "end_line": 5028,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0063",
+        "start_line": 5309,
+        "end_line": 5399,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0150",
+        "start_line": 13144,
+        "end_line": 13231,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0845",
+        "start_line": 64586,
+        "end_line": 64643,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0014-02",
+    "original_question": "各章口径存，未见明确改版解释，不据数学称每轮都可破所有藤。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "早一骑共30秒CD，150抹按60与藤约50讨论。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0059",
+          "claim_kind": "fact",
+          "end_line": 5028,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 4940
+        },
+        {
+          "chapter_id": "ch-0063",
+          "claim_kind": "fact",
+          "end_line": 5399,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 5309
+        },
+        {
+          "chapter_id": "ch-0150",
+          "claim_kind": "fact",
+          "end_line": 13231,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13144
+        }
+      ],
+      "handling": "各章口径存，未见明确改版解释，不据数学称每轮都可破所有藤。",
+      "id": "v01-a-combo-cd",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 13,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "rule-boundary",
+    "rationale": "150真破一轮藤、蜂仍真死，证明只在该时序有用；即使按60也无法保证每50秒藤都能以同技解。保各章CD，不将一场成功推广为每轮/所有控制必破。",
+    "later_chapters": [
+      59,
+      63,
+      150
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0059",
+        "start_line": 4940,
+        "end_line": 5028,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0063",
+        "start_line": 5309,
+        "end_line": 5399,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0150",
+        "start_line": 13144,
+        "end_line": 13231,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0015-01",
+    "original_question": "99三月不离英雄冢，157至少一月，180再三月，232至少一月/再20天。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "99三月不离英雄冢，157至少一月，180再三月，232至少一月/再20天。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0099",
+          "claim_kind": "fact",
+          "end_line": 8647,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 8545
+        },
+        {
+          "chapter_id": "ch-0157",
+          "claim_kind": "fact",
+          "end_line": 13893,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13802
+        },
+        {
+          "chapter_id": "ch-0180",
+          "claim_kind": "fact",
+          "end_line": 16103,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 16023
+        },
+        {
+          "chapter_id": "ch-0232",
+          "claim_kind": "fact",
+          "end_line": 20494,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20395
+        }
+      ],
+      "handling": "承诺尚未履满/两女未转可证，期限差不强裁统一。",
+      "id": "v01-a-hero-promise",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 14,
+      "atomic_index": 0
+    },
+    "status": "partial",
+    "audit_domain": "promise-and-source-anomaly",
+    "rationale": "两女最终离旧会/入斩龙的结果有后证：421冲突、428离会意愿后，467近卫救主、468接分盟，469明述入主盟/470林副盟殿三已证。原三月/一月/20天怎样统一仍无解释，已入会不能倒选一个旧期限为唯一真值。",
+    "later_chapters": [
+      99,
+      157,
+      180,
+      232,
+      421,
+      428,
+      467,
+      468,
+      469,
+      470
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0099",
+        "start_line": 8545,
+        "end_line": 8647,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0157",
+        "start_line": 13802,
+        "end_line": 13893,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0180",
+        "start_line": 16023,
+        "end_line": 16103,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0232",
+        "start_line": 20395,
+        "end_line": 20494,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0421",
+        "start_line": 35074,
+        "end_line": 35143,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0428",
+        "start_line": 35585,
+        "end_line": 35663,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0467",
+        "start_line": 38554,
+        "end_line": 38635,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0468",
+        "start_line": 38636,
+        "end_line": 38711,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0469",
+        "start_line": 38712,
+        "end_line": 38776,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0470",
+        "start_line": 38777,
+        "end_line": 38852,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0015-02",
+    "original_question": "承诺尚未履满/两女未转可证，期限差不强裁统一。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "99三月不离英雄冢，157至少一月，180再三月，232至少一月/再20天。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0099",
+          "claim_kind": "fact",
+          "end_line": 8647,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 8545
+        },
+        {
+          "chapter_id": "ch-0157",
+          "claim_kind": "fact",
+          "end_line": 13893,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 13802
+        },
+        {
+          "chapter_id": "ch-0180",
+          "claim_kind": "fact",
+          "end_line": 16103,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 16023
+        },
+        {
+          "chapter_id": "ch-0232",
+          "claim_kind": "fact",
+          "end_line": 20494,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20395
+        }
+      ],
+      "handling": "承诺尚未履满/两女未转可证，期限差不强裁统一。",
+      "id": "v01-a-hero-promise",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 14,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "stage-boundary",
+    "rationale": "该处理在卷一末成立：两女仍旧会/曾许未来来；终点必须接上469—470会籍/林副盟已明。不能把“卷一未入”读成全书未入，也不因后来入会就静改早期期限差。",
+    "later_chapters": [
+      232,
+      251,
+      467,
+      468,
+      469,
+      470
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0232",
+        "start_line": 20395,
+        "end_line": 20494,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0251",
+        "start_line": 21899,
+        "end_line": 21972,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0467",
+        "start_line": 38554,
+        "end_line": 38635,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0468",
+        "start_line": 38636,
+        "end_line": 38711,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0469",
+        "start_line": 38712,
+        "end_line": 38776,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0470",
+        "start_line": 38777,
+        "end_line": 38852,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0016-01",
+    "original_question": "183职业总20/另1发烧没来，宋一度说两个20人团。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "183职业总20/另1发烧没来，宋一度说两个20人团。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0182",
+          "claim_kind": "fact",
+          "end_line": 16267,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 16202
+        },
+        {
+          "chapter_id": "ch-0183",
+          "claim_kind": "fact",
+          "end_line": 16336,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 16268
+        },
+        {
+          "chapter_id": "ch-0184",
+          "claim_kind": "fact",
+          "end_line": 16432,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 16337
+        }
+      ],
+      "handling": "按实际20，不扩40。",
+      "id": "v01-a-twenty-party",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 15,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "182原21/183刺客发烧缺一、职业总20，与宋“两个20人团”一句不齐。184仍20人杀王，后未对这句解释；未知只是为何该句变40，不是缺一支未记录队伍。",
+    "later_chapters": [
+      182,
+      183,
+      184
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0182",
+        "start_line": 16202,
+        "end_line": 16267,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0183",
+        "start_line": 16268,
+        "end_line": 16336,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0184",
+        "start_line": 16337,
+        "end_line": 16432,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0016-02",
+    "original_question": "按实际20，不扩40。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "183职业总20/另1发烧没来，宋一度说两个20人团。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0182",
+          "claim_kind": "fact",
+          "end_line": 16267,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 16202
+        },
+        {
+          "chapter_id": "ch-0183",
+          "claim_kind": "fact",
+          "end_line": 16336,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 16268
+        },
+        {
+          "chapter_id": "ch-0184",
+          "claim_kind": "fact",
+          "end_line": 16432,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 16337
+        }
+      ],
+      "handling": "按实际20，不扩40。",
+      "id": "v01-a-twenty-party",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 15,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "unit-boundary",
+    "rationale": "183职业相加/多处20与18420人实战同向，实际本队20可以确定。不得据孤句两个20团把原战参战者扩到40或增造未名成员。",
+    "later_chapters": [
+      183,
+      184
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0183",
+        "start_line": 16268,
+        "end_line": 16336,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0184",
+        "start_line": 16337,
+        "end_line": 16432,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0017-01",
+    "original_question": "196中途仅剩飞龙说法与系统终5活有跳省。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "196中途仅剩飞龙说法与系统终5活有跳省。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0195",
+          "claim_kind": "fact",
+          "end_line": 17359,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 17261
+        },
+        {
+          "chapter_id": "ch-0196",
+          "claim_kind": "fact",
+          "end_line": 17446,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 17360
+        }
+      ],
+      "handling": "终系统5:0/主死亡忠烈败优先，不补杀光全敌。",
+      "id": "v01-a-war-ending",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 16,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "195还2对10，196实写宋死/主临死斩飞龙后两骑杀主，却中途称仅飞龙与终5活不齐。197已进入败后重建而非补讲五人存活路径；无法精确修复中途计数，主败解会本身并不未知。",
+    "later_chapters": [
+      195,
+      196,
+      197
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0195",
+        "start_line": 17261,
+        "end_line": 17359,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0196",
+        "start_line": 17360,
+        "end_line": 17446,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0197",
+        "start_line": 17447,
+        "end_line": 17534,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0017-02",
+    "original_question": "终系统5:0/主死亡忠烈败优先，不补杀光全敌。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "196中途仅剩飞龙说法与系统终5活有跳省。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0195",
+          "claim_kind": "fact",
+          "end_line": 17359,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 17261
+        },
+        {
+          "chapter_id": "ch-0196",
+          "claim_kind": "fact",
+          "end_line": 17446,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 17360
+        }
+      ],
+      "handling": "终系统5:0/主死亡忠烈败优先，不补杀光全敌。",
+      "id": "v01-a-war-ending",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 16,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "outcome-boundary",
+    "rationale": "196系统5:0/忠烈强解365天不可同名重建、主17杀MVP同时成立，197成员分流又印证组织失败。不能用主杀飞龙或MVP改为全歼/胜会。",
+    "later_chapters": [
+      196,
+      197
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0196",
+        "start_line": 17360,
+        "end_line": 17446,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0197",
+        "start_line": 17447,
+        "end_line": 17534,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0018-01",
+    "original_question": "190斩龙临入一门一度6后明7。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "190斩龙临入一门一度6后明7。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0140",
+          "claim_kind": "fact",
+          "end_line": 12313,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12219
+        },
+        {
+          "chapter_id": "ch-0147",
+          "claim_kind": "fact",
+          "end_line": 12946,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12872
+        },
+        {
+          "chapter_id": "ch-0190",
+          "claim_kind": "fact",
+          "end_line": 16926,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 16844
+        }
+      ],
+      "handling": "140雷入、147抹入的独立成员链与后队七合核，不删一人。",
+      "id": "v01-a-seven-count",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 17,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "190多处七名却夹一句六，140阿雷入/147抹入和旧四人+囡的链可定位七人。没有解释为何那句话少一人，保局部称数冲突，不造谁已临时退队。",
+    "later_chapters": [
+      140,
+      147,
+      190
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0140",
+        "start_line": 12219,
+        "end_line": 12313,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0147",
+        "start_line": 12872,
+        "end_line": 12946,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0190",
+        "start_line": 16844,
+        "end_line": 16926,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0018-02",
+    "original_question": "140雷入、147抹入的独立成员链与后队七合核，不删一人。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "190斩龙临入一门一度6后明7。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0140",
+          "claim_kind": "fact",
+          "end_line": 12313,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12219
+        },
+        {
+          "chapter_id": "ch-0147",
+          "claim_kind": "fact",
+          "end_line": 12946,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12872
+        },
+        {
+          "chapter_id": "ch-0190",
+          "claim_kind": "fact",
+          "end_line": 16926,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 16844
+        }
+      ],
+      "handling": "140雷入、147抹入的独立成员链与后队七合核，不删一人。",
+      "id": "v01-a-seven-count",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 17,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "identity-and-membership",
+    "rationale": "成员链能闭：旧四人、135囡、140雷、147抹，190实际七人临入忠烈。七是现场多处明确数，不因一句六删除抹或雷，亦不把实体住室五人和游戏队七人混同。",
+    "later_chapters": [
+      135,
+      140,
+      147,
+      190
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0135",
+        "start_line": 11747,
+        "end_line": 11838,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0140",
+        "start_line": 12219,
+        "end_line": 12313,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0147",
+        "start_line": 12872,
+        "end_line": 12946,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0190",
+        "start_line": 16844,
+        "end_line": 16926,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0019-01",
+    "original_question": "207系统七星碎月斩而技能列表/后文碎岳斩。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "207系统七星碎月斩而技能列表/后文碎岳斩。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0207",
+          "claim_kind": "fact",
+          "end_line": 18368,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 18292
+        },
+        {
+          "chapter_id": "ch-0230",
+          "claim_kind": "fact",
+          "end_line": 20315,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20226
+        }
+      ],
+      "handling": "保同次破壳两称，不造两次独立学习。",
+      "id": "v01-a-star-name",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 18,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "207同一破碑奖励系统称碎月而列表碎岳，230按既有七星破柱未再学第二技。可以确定没有第二次独立取得，但究竟原命名哪字是作者选定未见勘误，仍保称名异文。",
+    "later_chapters": [
+      207,
+      230
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0207",
+        "start_line": 18292,
+        "end_line": 18368,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0230",
+        "start_line": 20226,
+        "end_line": 20315,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0019-02",
+    "original_question": "保同次破壳两称，不造两次独立学习。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "207系统七星碎月斩而技能列表/后文碎岳斩。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0207",
+          "claim_kind": "fact",
+          "end_line": 18368,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 18292
+        },
+        {
+          "chapter_id": "ch-0230",
+          "claim_kind": "fact",
+          "end_line": 20315,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20226
+        }
+      ],
+      "handling": "保同次破壳两称，不造两次独立学习。",
+      "id": "v01-a-star-name",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 18,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "ability-identity",
+    "rationale": "207只有一次融合/一次技能取得，230再用其建筑破坏效果回收旧工具；源近名不能机械生两技或写230新增另一套传承。",
+    "later_chapters": [
+      207,
+      208,
+      230,
+      231
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0207",
+        "start_line": 18292,
+        "end_line": 18368,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0208",
+        "start_line": 18369,
+        "end_line": 18432,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0230",
+        "start_line": 20226,
+        "end_line": 20315,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0231",
+        "start_line": 20316,
+        "end_line": 20394,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0020-01",
+    "original_question": "208口述七星30×3又约72平米。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "208口述七星30×3又约72平米。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0207",
+          "claim_kind": "fact",
+          "end_line": 18368,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 18292
+        },
+        {
+          "chapter_id": "ch-0208",
+          "claim_kind": "fact",
+          "end_line": 18432,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 18369
+        }
+      ],
+      "handling": "长度/面积为角色估，算术差留不补新宽。",
+      "id": "v01-a-star-area",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 19,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "208口述近30码乘3宽与约72平米算不齐；207实际放出近30码，230能破特定柱，只证用途而非精确几何。正式六卷七星材料没有针对这个面积数字的更正，不能新增2.4码宽或改换单位凑72。",
+    "later_chapters": [
+      207,
+      208,
+      230
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0207",
+        "start_line": 18292,
+        "end_line": 18368,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0208",
+        "start_line": 18369,
+        "end_line": 18432,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0230",
+        "start_line": 20226,
+        "end_line": 20315,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结21—40原记录和原子；复读145—150全四栏、primary154/182—184/190/195—197/207—208，以及primary卷2的467—470全四栏和正式v02迁会线程；检索六卷最终正式洛戒/薪资合同/期限/反弹/七星相关字段。原1—151与卷4本人全文经历为既有实读，其余上述均明确派生读，不增加原文覆盖。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  }
+]

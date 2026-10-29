@@ -1,0 +1,97 @@
+{
+  "asset_id": "pat-56bab9070cd7544492d7ada93321a990",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "重复冲突存在可学规则且配角有差异",
+    "causal_steps": [
+      "把失败明确归到仇恨/执行/阶段",
+      "给伙伴已有工具对应其中一项",
+      "用可见动作验证改进",
+      "保留新条件再次使其失效"
+    ],
+    "claim_kind": "synthesis",
+    "failure_conditions": "失败无信息、同招加伤害、无条件万能套路",
+    "originality_transform": "更换冲突媒介与角色职责，用协调成本替同样控制技能清单。",
+    "summary": "失败回合拆成下回合分工"
+  },
+  "created_at": "2026-10-24T20:20:05.362865+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-71bec7aa6aef5d21abea001153ea3a1d",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-b010f677f4f35ea98ba9c895caf21b67",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-a79a628cf899575bb4709264ca8230ec",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0546",
+      "claim_kind": "synthesis",
+      "end_line": 57300,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 57160
+    },
+    {
+      "chapter_id": "ch-0547",
+      "claim_kind": "synthesis",
+      "end_line": 57415,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 57301
+    },
+    {
+      "chapter_id": "ch-0575",
+      "claim_kind": "synthesis",
+      "end_line": 60868,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 60751
+    },
+    {
+      "chapter_id": "ch-0690",
+      "claim_kind": "synthesis",
+      "end_line": 75423,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 75335
+    },
+    {
+      "chapter_id": "ch-0691",
+      "claim_kind": "synthesis",
+      "end_line": 75480,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 75424
+    },
+    {
+      "chapter_id": "ch-0694",
+      "claim_kind": "synthesis",
+      "end_line": 75733,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 75607
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol06/pattern/tactic-learning",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷六:月神殿祭",
+    "待审阅"
+  ],
+  "title": "失败回合拆成下回合分工",
+  "updated_at": "2026-10-24T20:20:05.362865+00:00",
+  "user_notes": ""
+}

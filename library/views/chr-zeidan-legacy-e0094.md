@@ -1,0 +1,86 @@
+# 贼胆｜雷萨｜E0094
+
+ID: `chr-zeidan-legacy-e0094` · 版本: 1 · 范围: source-analysis
+
+长剑压制萧御，糖果加入以招架和两人循环控制完成击杀。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0094",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "causal_importance": "竞争者形成实战合作",
+    "desires": [],
+    "facts": [
+      "长剑压制萧御，糖果加入以招架和两人循环控制完成击杀。"
+    ],
+    "identity": "第三环目标",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0094",
+    "limits": [],
+    "maintenance_depth": "中",
+    "name": "雷萨",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0094",
+    "relationships": [],
+    "summary": "长剑压制萧御，糖果加入以招架和两人循环控制完成击杀。",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:12.575310+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0270",
+      "claim_kind": "fact",
+      "end_line": 14433,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14374
+    },
+    {
+      "chapter_id": "ch-0273",
+      "claim_kind": "fact",
+      "end_line": 14633,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14569
+    },
+    {
+      "chapter_id": "ch-0274",
+      "claim_kind": "fact",
+      "end_line": 14691,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14634
+    },
+    {
+      "chapter_id": "ch-0275",
+      "claim_kind": "fact",
+      "end_line": 14755,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14692
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0094",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜雷萨｜E0094",
+  "updated_at": "2026-10-22T17:03:12.579373+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,44 @@
+{
+  "volume": 3,
+  "reviewer": "primary",
+  "status": "reviewed_for_library_import",
+  "user_approval": false,
+  "scope": "主审完整36九维、23人物32场景10机制、40节点24边14线程16知识与10源异常；分卷读者全文亲读归属保留，主审未声称独立全文复读。",
+  "corrections_verified": [
+    "决赛古剑视角1:2负雪银，官方赛果与主观末秒让步并存。",
+    "捕狐升100武神与紫域后105实穿偷天/镶简易靴分开；读者完整复读363/367/368。",
+    "e-promotion收为setup；小蛮入盟不伪连第三城赌约；灵烹实用指谷战。",
+    "线程成员只补有语义实际作用节点；战天名称修正；金石误信及后续确认分开。",
+    "三婶十万L44853定点核查：实际受款为三婶，照父用途不写父亲直接收款。",
+    "寒刃活逃/骨毁与NPC复活例外分开；死者再在场、CD/声望/奖励/套数异常保源。",
+    "九龙诸人真死、末刀与分装独立、KOF新胜不撤1:4败及第三城约。",
+    "卷末双线未终结，斗死斧在乱包，青虎未返，未借后卷回填。"
+  ],
+  "preflight": {
+    "book": "tianxia-wushuang",
+    "volume": 3,
+    "indexed_segments_read": 378,
+    "body_units_read": 376,
+    "cards": {
+      "character": 23,
+      "scene": 32,
+      "pattern": 10
+    },
+    "evidence_references_checked": 2956,
+    "nodes": 40,
+    "edges": 24,
+    "threads": 14,
+    "preflight": "passed"
+  },
+  "remaining": [
+    "研究draft，未获用户风格认可；不得导原创canon。"
+  ],
+  "input_sha256": {
+    "analysis.json": "0345bb385deae5ae3923062f5999849483c42c52e90aa7bfba33eb7cfd5bd604",
+    "cards.json": "9ed77b288c23f5f9060aed22a02245ec3041fbd963f96bbd6a34c7928a180c4a",
+    "graph.json": "5aedbae9a66d41adc1cfb175044c64733ba36ce01c6f82337aba6b853aa023e2",
+    "read-log.json": "1b9e9e78911d4a33448e3de739420c46861de9b05b8f9c93ba2eea91b3515d02",
+    "chapter-notes.jsonl": "6b7018d485c077654bf042cfd10b393ef7284a3a413f79d8365a5ca080fe538f",
+    "reader-state.json": "636687226cf24f41a06ae80dbd8dbe53bd3a22cab9c0051d9cde5d915d4596ba"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "asset_id": "scn-e57cf6585a94501999b8b54401944005",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "救援失败后交差",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/waner",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/micro",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/dongcheng",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/qingqian"
+    ],
+    "choice": "追人、作战，回报选择隐瞒",
+    "claim_kind": "inference",
+    "consequence": "罗恒真死；父不知道真实凶手",
+    "failure_mode": "微笑误杀自辩未全证；不是五名敌全死",
+    "goal": "寻子/报仇",
+    "narrative_order": 717,
+    "obstacle": "外服冲突/真相伤害",
+    "state_change": "任务成功与道德隐瞒并存",
+    "summary": "罗肆委托，罗恒头在微笑马旁；主5V5杀三放牧，返报却谎称异魔所杀。",
+    "why_it_works": "当事人知识与读者知识分开"
+  },
+  "created_at": "2026-10-25T20:23:25.287120+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0715",
+      "claim_kind": "fact",
+      "end_line": 56298,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 56235
+    },
+    {
+      "chapter_id": "ch-0716",
+      "claim_kind": "fact",
+      "end_line": 56369,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 56299
+    },
+    {
+      "chapter_id": "ch-0717",
+      "claim_kind": "fact",
+      "end_line": 56445,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 56370
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/scene/deadson",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "帮人寻子成功却不能还一个活儿子",
+  "updated_at": "2026-10-25T20:23:25.287120+00:00",
+  "user_notes": ""
+}

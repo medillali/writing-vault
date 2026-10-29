@@ -1,0 +1,100 @@
+# 贼胆｜小雨｜E0177
+
+ID: `chr-zeidan-legacy-e0177` · 版本: 1 · 范围: source-analysis
+
+受哥哥保护，也主动挡逐风、给萧赵独处、推动嫂子关系；在燕琳回头时不愿哥哥脚踩两船。；赴新星意味着离同学朋友，先低落再准备告别；419休学和转学手续办妥。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0177",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "现实关系高、竞技低",
+    "facts": [
+      "受哥哥保护，也主动挡逐风、给萧赵独处、推动嫂子关系；在燕琳回头时不愿哥哥脚踩两船。",
+      "赴新星意味着离同学朋友，先低落再准备告别；419休学和转学手续办妥。",
+      "获萧要求代向燕琳告别；早前给错电话号码只是萧的推测，非确认事实。"
+    ],
+    "id": "part-c:entity:xiaoyu_sister",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0177",
+    "maintenance_depth": "重要",
+    "name": "小雨",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0177",
+    "summary": "受哥哥保护，也主动挡逐风、给萧赵独处、推动嫂子关系；在燕琳回头时不愿哥哥脚踩两船。；赴新星意味着离同学朋友，先低落再准备告别；419休学和转学手续办妥。",
+    "user_feedback": null,
+    "worker_part": "part-c"
+  },
+  "created_at": "2026-10-22T17:03:12.800534+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0327",
+      "claim_kind": "fact",
+      "end_line": 18041,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 17977
+    },
+    {
+      "chapter_id": "ch-0328",
+      "claim_kind": "fact",
+      "end_line": 18093,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18042
+    },
+    {
+      "chapter_id": "ch-0334",
+      "claim_kind": "fact",
+      "end_line": 18529,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18465
+    },
+    {
+      "chapter_id": "ch-0382",
+      "claim_kind": "fact",
+      "end_line": 23142,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 23076
+    },
+    {
+      "chapter_id": "ch-0417",
+      "claim_kind": "fact",
+      "end_line": 25601,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 25531
+    },
+    {
+      "chapter_id": "ch-0420",
+      "claim_kind": "fact",
+      "end_line": 25789,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 25724
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0177",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-c"
+  ],
+  "title": "贼胆｜小雨｜E0177",
+  "updated_at": "2026-10-22T17:03:12.806532+00:00",
+  "user_notes": ""
+}
+
+```

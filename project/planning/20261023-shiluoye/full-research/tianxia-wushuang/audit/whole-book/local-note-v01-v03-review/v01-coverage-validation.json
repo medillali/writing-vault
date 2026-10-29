@@ -1,0 +1,46 @@
+{
+  "status": "v01-scope-complete-pending-remaining-primary-batch-review",
+  "original_notes": 90,
+  "original_unresolved_strings": 209,
+  "atomic_candidates": 350,
+  "material_read": "90相关原notes完整facts/inferences/state_changes/unresolved均已输出判读；不是本代理重读卷一正文。",
+  "reading_attribution": "卷一正文primary亲读；本代理本轮仅派生四栏笔记与最终报告复核，无新增卷一全文覆盖。",
+  "status_counts": {
+    "unknown": 103,
+    "answered": 195,
+    "partial": 39,
+    "unrecovered": 13
+  },
+  "blocks": [
+    {
+      "path": "adjudications-local-note-v01-part01.json",
+      "count": 107,
+      "sha256": "f6b2453ea850c8b1c8d4ab8b0a4d4eb132bee3b8af0210e94a87e33ff23df55e"
+    },
+    {
+      "path": "adjudications-local-note-v01-part02.json",
+      "count": 77,
+      "sha256": "95ffd3f4655ac8a8e677e0e0e9fec2e679283cadbbd6b86cdf45a83d0384fb4d"
+    },
+    {
+      "path": "adjudications-local-note-v01-part03.json",
+      "count": 72,
+      "sha256": "57ee1c97ec4e32a54f2227cd0fee6f1fd8a6dcbcc6f298e522c831f204872f67"
+    },
+    {
+      "path": "adjudications-local-note-v01-part04.json",
+      "count": 94,
+      "sha256": "4439fb46297bb3e3b8e861e14da6fe95a1a9f9f95dadae3ef5a475fe2e4b50be"
+    }
+  ],
+  "checks": {
+    "exact_frozen_id_set": true,
+    "no_duplicate_ids": true,
+    "original_records_unchanged": true,
+    "blocks_equal_aggregate": true,
+    "all90_material_notes_logged": true
+  },
+  "local_identity_current": "1078780bc22b74289f154380601841d3f44ee85ee26097bb05b86fbd159f33bc",
+  "source_notes_sha256": "07dcdbeb47552dbc3ddef7089a8583f60774e92cf78d7de44022dc4907f17320",
+  "next_scope": "v03新增645，之后旧v05稳定556，均未宣完成。"
+}

@@ -1,0 +1,3 @@
+# 人物06依赖分类最小提案
+
+不改人物行或MD；仅将formal_input_sha256中的 .planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/local-question-pool.json = 0e54250c187f1d914ea48df565074e3767075446eaf40e902ff53522910736fb 移到additional_support_sha256，路径与SHA保持，依赖不删除。旧JSON SHA 1db6a17252d8e0fb164dd20c16ae3184077f7fc66ae6825c60dbcaa949e74714。

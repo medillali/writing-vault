@@ -1,0 +1,286 @@
+{
+  "status": "complete_after_approved_two_item_revision",
+  "candidate_count_scanned": 657,
+  "input_sha256": {
+    "adjudications-local-v06-part01.json": "d845c7a048742400dff9fcc126f7b5658c6a42a8866d56513a0d8f65a62fc9b9",
+    "adjudications-local-v06-part02.json": "32cd93ec2e8ee2591b0db18a127826cdc412cd288017cc31e0f24a83f28ef226",
+    "adjudications-local-v06-part03.json": "95c0ce3a2b971a31b98b06fb97cfb8b6842ae05492c17726790ce864d560a731",
+    "adjudications-local-v06-part04.json": "0bd7c23e7ecd4d845556083bef8b55a07092c6ca8921b729598e0185e91f1d56",
+    "adjudications-local-v06-part05.json": "41c52d10843144b0b5365466dd1f48b2bfd1917a85c78c8ce65b28a5424d0315",
+    "adjudications-local-v06-part06.json": "9dab082cae4a59c2bcecdb43faa9136126c3c0b2e41bdd1038a9e7be49f56db8",
+    "adjudications-local-v06-part07.json": "b922769dd8cc634b8c50242a0001e76f3ba523b3fbbcda13b912db707afcecb3",
+    "adjudications-local-v06-part08.json": "10749374f6fdc2b98d40326c76b4f915bae8246f82b8b15a1049934a7ed59169",
+    "adjudications-local-v06-part09.json": "4caa2b5a57bb4c39d45b30a432399cccb0e345856350745d89c1721028cafb28",
+    "adjudications-local-v06-part10.json": "eae8884e034a0874b825c52f89e49165e1959d37e10f534cb4939a95dc01f141",
+    "adjudications-local-v06-part11.json": "bf19304c230d952d85136fd960b3ba90b90e79bc3e04268fb1b6c36684c523f9"
+  },
+  "terms": [
+    "巴西",
+    "165",
+    "192",
+    "谁与争锋"
+  ],
+  "candidates_with_string_matches": 19,
+  "genuine_correction_candidate_ids": [
+    "v06-local-issue_log-001-01",
+    "v06-local-chapter_unresolved_index-151-02"
+  ],
+  "matches": [
+    {
+      "candidate_id": "v06-local-issue_log-001-01",
+      "file": "adjudications-local-v06-part01.json",
+      "matched_fields": [
+        {
+          "field": "original_record.observation",
+          "text": "吻痕荷兰199战/中165刺/美192战，谁中165刺/美192战/巴西212剑分别实体；小蛮第八刺盟与水云魂归盟主独立。"
+        },
+        {
+          "field": "title",
+          "text": "吻痕荷兰199战/中165刺/美192战，谁中165刺/美192战/巴西212剑分别实体"
+        },
+        {
+          "field": "rationale",
+          "text": "本项answered仅指实体消歧的研究记录约束已落实，并纠正原记录的误读：1098查询的是吻痕三同ID——中国165刺客、美国192战士及无籍199荷兰战士；中国刺客所属【谁与争锋】是公会名。1209另一玩家ID谁与争锋为巴西212剑术宗师、锋芒盟主，不能据1098公会名造出中国165刺客或美国192战士的同ID谁。原title/observation保为历史研究误读，不作新增人物事实；后续保护伞吻痕的行动不回填另服吻痕，巴西谁的盟约独立记录。"
+        }
+      ],
+      "disposition": "approved-research-misattribution-corrected-original-history-retained"
+    },
+    {
+      "candidate_id": "v06-local-issue_log-001-02",
+      "file": "adjudications-local-v06-part01.json",
+      "matched_fields": [
+        {
+          "field": "original_record.observation",
+          "text": "吻痕荷兰199战/中165刺/美192战，谁中165刺/美192战/巴西212剑分别实体；小蛮第八刺盟与水云魂归盟主独立。"
+        }
+      ],
+      "disposition": "shared-original-record-preserved-only-current-atomic-title-and-rationale-about-xiaoman-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-022-01",
+      "file": "adjudications-local-v06-part03.json",
+      "matched_fields": [
+        {
+          "field": "original_record.items[1]",
+          "text": "野王192与陆207等级不同，‘尊重’不等已证明全体新成员忠诚。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-022-02",
+      "file": "adjudications-local-v06-part03.json",
+      "matched_fields": [
+        {
+          "field": "original_record.items[1]",
+          "text": "野王192与陆207等级不同，‘尊重’不等已证明全体新成员忠诚。"
+        },
+        {
+          "field": "title",
+          "text": "野王192与陆207等级不同，‘尊重’不等已证明全体新成员忠诚。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-039-02",
+      "file": "adjudications-local-v06-part04.json",
+      "matched_fields": [
+        {
+          "field": "rationale",
+          "text": "12/十几个护卫及伤165050回血55010与20%不齐，未独立说明额外吸血来源；不补护卫或新33%技能。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-040-02",
+      "file": "adjudications-local-v06-part04.json",
+      "matched_fields": [
+        {
+          "field": "rationale",
+          "text": "中国165刺、美国192战与无籍199荷兰战在同一查询中分列，明确不同实体，不能跨服合成长史。"
+        }
+      ],
+      "disposition": "correct-kissmark-three-player-query-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-080-01",
+      "file": "adjudications-local-v06-part05.json",
+      "matched_fields": [
+        {
+          "field": "rationale",
+          "text": "1138估一小时，1139近一小时神象战确结、报杀52034/己损71929；行动有回执，需保代价与约时而非完美预言。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-082-01",
+      "file": "adjudications-local-v06-part05.json",
+      "matched_fields": [
+        {
+          "field": "original_record.items[0]",
+          "text": "本战己方总损未报，不能挪前场71929当本场。"
+        },
+        {
+          "field": "title",
+          "text": "本战己方总损未报，不能挪前场71929当本场。"
+        },
+        {
+          "field": "rationale",
+          "text": "1140未报本场己损，1141吻补骑死近四万/合近十万离场，损失有后报；前71929属神象战不能挪作此场，完整连续表仍不齐。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-082-02",
+      "file": "adjudications-local-v06-part05.json",
+      "matched_fields": [
+        {
+          "field": "original_record.items[0]",
+          "text": "本战己方总损未报，不能挪前场71929当本场。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-083-01",
+      "file": "adjudications-local-v06-part05.json",
+      "matched_fields": [
+        {
+          "field": "original_record.items[0]",
+          "text": "本章合计近10万/剩15万与最初35万及前71929不能得严格连续兵表，分场记录源数。"
+        },
+        {
+          "field": "title",
+          "text": "本章合计近10万/剩15万与最初35万及前71929不能得严格连续兵表，分场记录源数。"
+        },
+        {
+          "field": "rationale",
+          "text": "35万起兵、71929先损、后近10万与余15万统计范围/约数未全对上；不用复活、分队或隐藏援军无证配平。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-083-02",
+      "file": "adjudications-local-v06-part05.json",
+      "matched_fields": [
+        {
+          "field": "original_record.items[0]",
+          "text": "本章合计近10万/剩15万与最初35万及前71929不能得严格连续兵表，分场记录源数。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-092-03",
+      "file": "adjudications-local-v06-part06.json",
+      "matched_fields": [
+        {
+          "field": "rationale",
+          "text": "1150泪暂退别段、1165却已为矿再战，1167鬼说明实际交矿争飞炎。撤退是阶段行动不是一周全不来；边境控制动机仍陆分析，不自动定为她亲口全盘计划。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-102-04",
+      "file": "adjudications-local-v06-part06.json",
+      "matched_fields": [
+        {
+          "field": "rationale",
+          "text": "单挑无敌为陆夸口，后1165泪仍能控其/退、末龙战多死需心伞，未成为永不败的系统保证。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-129-01",
+      "file": "adjudications-local-v06-part08.json",
+      "matched_fields": [
+        {
+          "field": "rationale",
+          "text": "NPC死重不能判斯达/哈雷尔都死；1191统帅五龙伤卧尚活、1192明确斯达/紫妍/蒂雅等随龙送走。具名与群损分层，不补未列全名者的最终清册。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-130-02",
+      "file": "adjudications-local-v06-part08.json",
+      "matched_fields": [
+        {
+          "field": "rationale",
+          "text": "1189双环实发动，1192烛夺七星杖/神龙送NPC、1193棕实际占七星，1194天空君分七天。方案有行动与结果：保NPC并拆联盟，未立刻夺回天风或使天空当日可用。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-131-02",
+      "file": "adjudications-local-v06-part08.json",
+      "matched_fields": [
+        {
+          "field": "rationale",
+          "text": "1192烛杀七星君取杖只是主导权，1193棕灶鸟实际使用王杖七星归阿根廷并15天禁战，计划确实兑现；不止停‘拟送27’，也不把27全体都作同一产权人。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-134-01",
+      "file": "adjudications-local-v06-part08.json",
+      "matched_fields": [
+        {
+          "field": "rationale",
+          "text": "1192救统帅/龙骑士五龙并未逐列全名，不能复活整七军；1194系统又奖NPC87%恢复是真例外，也非逐名全复清册。群奖与幸存逃离分别存。"
+        }
+      ],
+      "disposition": "unrelated-number-or-identity-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-151-01",
+      "file": "adjudications-local-v06-part08.json",
+      "matched_fields": [
+        {
+          "field": "original_record.items[0]",
+          "text": "谁在27有直耿形象/巴西未参为陆叙述资料非本人读取其他服务器史。"
+        },
+        {
+          "field": "title",
+          "text": "谁在27有直耿形象/巴西未参为陆叙述资料非本人读取其他服务器史。"
+        },
+        {
+          "field": "rationale",
+          "text": "巴西谁未参中国国战/直耿声誉是陆叙资料，不等本审遍读所有服务器过去；其后握手交易以本场实际为准。"
+        }
+      ],
+      "disposition": "brazil-only-channel-boundary-no-false-same-id-no-change"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-151-02",
+      "file": "adjudications-local-v06-part08.json",
+      "matched_fields": [
+        {
+          "field": "original_record.items[0]",
+          "text": "谁在27有直耿形象/巴西未参为陆叙述资料非本人读取其他服务器史。"
+        },
+        {
+          "field": "rationale",
+          "text": "本项answered仅指身份记录约束，不是剧情伏笔回收。1209明确ID谁与争锋是巴西212剑术宗师、飞龙城锋芒盟主；1098中国165刺客、美国192战士及无籍199荷兰战士三个同ID均为吻痕，其中【谁与争锋】是中国吻痕所属公会。此前终评把公会名误当玩家ID并给巴西谁凑出中美同名者，属于研究误配，现明确撤回；本场国际盟约只归巴西谁，不无证增造同ID实体或跨服成长史。"
+        }
+      ],
+      "disposition": "approved-research-misattribution-corrected-original-history-retained"
+    }
+  ],
+  "scope_boundary": "递归检索657个稳定候选所有字符串字段，不把原始证据行号/候选编号误算语义；19个候选有字串命中，实际需纠两项。",
+  "corrected_candidate_ids": [
+    "v06-local-issue_log-001-01",
+    "v06-local-chapter_unresolved_index-151-02"
+  ],
+  "remaining_new_correction_candidate_ids": [],
+  "prior_scan": "same-name-identity-before-apply/same-name-identity-scan.json"
+}

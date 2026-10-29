@@ -1,0 +1,13 @@
+{
+  "status": "draft-frozen-for-primary-review",
+  "validation_sha256": "e4a623b98b155ddbb0cc45a575635b6b717154deb9518b192945e39ff6ab2d97",
+  "core_files": {
+    "analysis.json": "55cc926bb9729061ca997263f14f84586bc0bf9ce2270a63734b870a2ddadcee",
+    "cards.json": "23f445267b0c3d2849ca135d86f5022ffd4a37580c318ade71990178b820fe9d",
+    "graph.json": "72a198f63af2eff9ba8ee268f4e312941cf57c5cc116e72b4b7ad40564c0204c",
+    "report.md": "315c168c9e59e1f9f1479d349b08a2a9ac9cb0766714633a4fa70d17bca9affc",
+    "handoff.md": "438f63229dcbacd05ff8a00862da1a7394ac0f4e4e685aa6be8a88588a66b745",
+    "validation.json": "e4a623b98b155ddbb0cc45a575635b6b717154deb9518b192945e39ff6ab2d97"
+  },
+  "warning": "冻结后不重跑builder；若primary定向修改，保before/精确delta，复验后新freeze接续。"
+}

@@ -1,0 +1,429 @@
+{
+  "request": "root定向119-01补935直接升10；141-01补941同杯已存，其他58不变。",
+  "before_path": "primary-before\\part03-before-city935-cup941.json",
+  "before_sha256": "0a866cf8175aef37bb00b2ac4c63a4d435475a6c00b4521643132ae0e2fbf6c1",
+  "after_sha256": "720eac0e8959f4c3d2b0f6c0f766f8f7d28304d4787d5a647bd6eaa28fa97ea6",
+  "changes": [
+    {
+      "before": {
+        "candidate_id": "v05-local-local_historical_questions-119-01",
+        "volume": 5,
+        "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+        "original_field": "local_historical_questions",
+        "original_index": 118,
+        "atomic_index": 0,
+        "title": "新版本实施/暗月升级及上市均未完成",
+        "original_record": {
+          "chapter_id": "ch-0911",
+          "evidence": [
+            {
+              "chapter_id": "ch-0911",
+              "claim_kind": "fact",
+              "end_line": 75318,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 75233
+            }
+          ],
+          "original_record": [
+            "新版本实施/暗月升级及上市均未完成；首战等待近两分与120规则需保。"
+          ],
+          "time_scope": "该章读毕时的历史问题；不是卷末仍未解决的断言"
+        },
+        "original_evidence": [
+          {
+            "chapter_id": "ch-0911",
+            "claim_kind": "fact",
+            "end_line": 75318,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 75233,
+            "access_level": "direct-reading-by-this-agent",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+          }
+        ],
+        "scope_onebased_offset": 321,
+        "status": "partial",
+        "later_chapters": [
+          911,
+          979,
+          980,
+          981,
+          1584
+        ],
+        "rationale": "979—981苏菲攻神隐由预告走向实际危机，暗月后1584已11级可证越过升级目标；雨立方911仅筹备上市，在所核后续材料未见明确同公司上市完成公告，不能拿何持股或盈利证明IPO已成。",
+        "audit_domain": "version-and-city-execution-versus-listing-plan",
+        "access_level": "derived-complete-four-field-notes-and-final-research;no-new-full-source-reading",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0911",
+            "start_line": 75233,
+            "end_line": 75318,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0979",
+            "start_line": 80467,
+            "end_line": 80523,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0980",
+            "start_line": 80524,
+            "end_line": 80592,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0981",
+            "start_line": 80593,
+            "end_line": 80670,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-1584",
+            "start_line": 125537,
+            "end_line": 125618,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol03_full",
+            "research_path": "vol08/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          }
+        ]
+      },
+      "after": {
+        "candidate_id": "v05-local-local_historical_questions-119-01",
+        "volume": 5,
+        "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+        "original_field": "local_historical_questions",
+        "original_index": 118,
+        "atomic_index": 0,
+        "title": "新版本实施/暗月升级及上市均未完成",
+        "original_record": {
+          "chapter_id": "ch-0911",
+          "evidence": [
+            {
+              "chapter_id": "ch-0911",
+              "claim_kind": "fact",
+              "end_line": 75318,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 75233
+            }
+          ],
+          "original_record": [
+            "新版本实施/暗月升级及上市均未完成；首战等待近两分与120规则需保。"
+          ],
+          "time_scope": "该章读毕时的历史问题；不是卷末仍未解决的断言"
+        },
+        "original_evidence": [
+          {
+            "chapter_id": "ch-0911",
+            "claim_kind": "fact",
+            "end_line": 75318,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 75233,
+            "access_level": "direct-reading-by-this-agent",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+          }
+        ],
+        "scope_onebased_offset": 321,
+        "status": "partial",
+        "later_chapters": [
+          911,
+          935,
+          979,
+          980,
+          981,
+          1584
+        ],
+        "rationale": "979—981苏菲攻神隐由预告走向实际危机；暗月935由国内MVP系统奖励城池规模+1，从此前9级实际升10，1584已11级为后阶段。雨立方911仅筹备上市，后续未见明确同公司上市完成公告，不能拿何持股或盈利证明IPO已成。",
+        "audit_domain": "version-and-city-execution-versus-listing-plan",
+        "access_level": "derived-complete-four-field-notes-and-final-research;no-new-full-source-reading",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0911",
+            "start_line": 75233,
+            "end_line": 75318,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0935",
+            "start_line": 77167,
+            "end_line": 77274,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0979",
+            "start_line": 80467,
+            "end_line": 80523,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0980",
+            "start_line": 80524,
+            "end_line": 80592,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0981",
+            "start_line": 80593,
+            "end_line": 80670,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-1584",
+            "start_line": 125537,
+            "end_line": 125618,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol03_full",
+            "research_path": "vol08/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "candidate_id": "v05-local-local_historical_questions-141-01",
+        "volume": 5,
+        "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+        "original_field": "local_historical_questions",
+        "original_index": 140,
+        "atomic_index": 0,
+        "title": "MVP/奖金/奖杯未发",
+        "original_record": {
+          "chapter_id": "ch-0933",
+          "evidence": [
+            {
+              "chapter_id": "ch-0933",
+              "claim_kind": "fact",
+              "end_line": 77094,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 77037
+            }
+          ],
+          "original_record": [
+            "MVP/奖金/奖杯未发；何姐姐前史待前卷非倒填。"
+          ],
+          "time_scope": "该章读毕时的历史问题；不是卷末仍未解决的断言"
+        },
+        "original_evidence": [
+          {
+            "chapter_id": "ch-0933",
+            "claim_kind": "fact",
+            "end_line": 77094,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 77037,
+            "access_level": "direct-reading-by-this-agent",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+          }
+        ],
+        "scope_onebased_offset": 357,
+        "status": "partial",
+        "later_chapters": [
+          933,
+          934,
+          935,
+          936
+        ],
+        "rationale": "934国内冠军/五人200万即时到账，935系统MVP/城池+1和骑神枪明确，荣誉与钱已兑；933奖杯约放联想的实体运送未见专属交付镜头，936庆功不独证杯已运公司。区分系统奖励完成和特定杯保管回执。",
+        "audit_domain": "paid-awards-versus-specific-cup-custody",
+        "access_level": "derived-complete-four-field-notes-and-final-research;no-new-full-source-reading",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0933",
+            "start_line": 77037,
+            "end_line": 77094,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0934",
+            "start_line": 77095,
+            "end_line": 77166,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0935",
+            "start_line": 77167,
+            "end_line": 77274,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0936",
+            "start_line": 77275,
+            "end_line": 77337,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          }
+        ]
+      },
+      "after": {
+        "candidate_id": "v05-local-local_historical_questions-141-01",
+        "volume": 5,
+        "original_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json",
+        "original_field": "local_historical_questions",
+        "original_index": 140,
+        "atomic_index": 0,
+        "title": "MVP/奖金/奖杯未发",
+        "original_record": {
+          "chapter_id": "ch-0933",
+          "evidence": [
+            {
+              "chapter_id": "ch-0933",
+              "claim_kind": "fact",
+              "end_line": 77094,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 77037
+            }
+          ],
+          "original_record": [
+            "MVP/奖金/奖杯未发；何姐姐前史待前卷非倒填。"
+          ],
+          "time_scope": "该章读毕时的历史问题；不是卷末仍未解决的断言"
+        },
+        "original_evidence": [
+          {
+            "chapter_id": "ch-0933",
+            "claim_kind": "fact",
+            "end_line": 77094,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 77037,
+            "access_level": "direct-reading-by-this-agent",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json"
+          }
+        ],
+        "scope_onebased_offset": 357,
+        "status": "answered",
+        "later_chapters": [
+          933,
+          934,
+          935,
+          941
+        ],
+        "rationale": "934国内冠军/五人200万即时到账，935系统MVP/城池+1和骑神枪明确；941 CEO捧金杯并刻陆何北连明五ID、留存俱乐部，回收933奖杯放联想约。941另许每人200万为新账未此章到账，不与934系统款混。",
+        "audit_domain": "paid-awards-and-specific-cup-custody",
+        "access_level": "derived-complete-four-field-notes-and-final-research;no-new-full-source-reading",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0933",
+            "start_line": 77037,
+            "end_line": 77094,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0934",
+            "start_line": 77095,
+            "end_line": 77166,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0935",
+            "start_line": 77167,
+            "end_line": 77274,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0941",
+            "start_line": 77634,
+            "end_line": 77688,
+            "claim_kind": "synthesis",
+            "source_reader": "/root/zongheng_vol04_full",
+            "research_path": "vol05/chapter-notes.jsonl",
+            "evidence_role": "同一原事件/后状态/反例的具体关系见rationale，章界有效不等单章独证整项。"
+          }
+        ]
+      }
+    }
+  ],
+  "other_58_unchanged": true
+}

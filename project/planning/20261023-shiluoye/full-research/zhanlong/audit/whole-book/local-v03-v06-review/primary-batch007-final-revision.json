@@ -1,0 +1,23 @@
+{
+  "status": "exact-four-approved-deltas-verified-and-two-domain-labels-aligned",
+  "primary_full_batch_reread": 20,
+  "four_changed_objects_exact": true,
+  "other_16_unchanged": true,
+  "previous_sha256": "51e9a14a7fea7f688fe5d10aee3c9583c835c6c0b02f2822c134065a01c95d5c",
+  "current_sha256": "88be5c924eec92b7a14540c2b28357b56ba3a8d65431c838e4e283e056a32038",
+  "changes": [
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-0028-01",
+      "field": "audit_domain",
+      "before": "rescued-survivors-and-unrealized-mirror-army",
+      "after": "rescued-survivors-and-unitemized-return-roster"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-0031-01",
+      "field": "audit_domain",
+      "before": "person-recovered-but-mirror-threat-unseen",
+      "after": "person-recovered-and-mirror-battle-realized"
+    }
+  ],
+  "boundary": "仅将仍称未成军的分类标签与已核实的炼魂实战理由对齐，不改status/理由/来源/其他字段。"
+}

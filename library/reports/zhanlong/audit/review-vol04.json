@@ -1,0 +1,77 @@
+{
+  "delta_verification": {
+    "all_other_research_values_exactly_equal": true,
+    "approved_anomaly_description": 1,
+    "approved_character_relationship": 1,
+    "approved_continuity_objects": 4,
+    "approved_edge": 1,
+    "chapter_notes_read_log_handoff_byte_unchanged": true,
+    "reader_state_coverage_and_other_values_unchanged": true,
+    "reader_state_metadata_changes": 3
+  },
+  "input_sha256": {
+    "analysis.json": "55cc926bb9729061ca997263f14f84586bc0bf9ce2270a63734b870a2ddadcee",
+    "cards.json": "23f445267b0c3d2849ca135d86f5022ffd4a37580c318ade71990178b820fe9d",
+    "chapter-notes.jsonl": "3d919761eff9a2065ebc7ec3865dd95b4b6d4b8427180d34d82d165b2ab5286f",
+    "freeze-receipt.json": "cba499af614c46d86483b155c6dbea258d1249d0ca0f0c5352a819df90ec9d7a",
+    "graph.json": "72a198f63af2eff9ba8ee268f4e312941cf57c5cc116e72b4b7ad40564c0204c",
+    "handoff.md": "438f63229dcbacd05ff8a00862da1a7394ac0f4e4e685aa6be8a88588a66b745",
+    "read-log.json": "52cc8ff05049b57be7a5b2e20d6ca11ec67a66bab75faa2164d7afc88f8754ef",
+    "reader-state.json": "dadaf5569e894f391798daf8b3b3bbe878a90450b746723f2bd4b74f541d2e4c",
+    "report.md": "315c168c9e59e1f9f1479d349b08a2a9ac9cb0766714633a4fa70d17bca9affc",
+    "validation.json": "e4a623b98b155ddbb0cc45a575635b6b717154deb9518b192945e39ff6ab2d97"
+  },
+  "preflight": {
+    "body_units_read": 214,
+    "book": "zhanlong",
+    "cards": {
+      "character": 45,
+      "pattern": 12,
+      "scene": 47
+    },
+    "edges": 39,
+    "evidence_references_checked": 2865,
+    "indexed_segments_read": 215,
+    "nodes": 54,
+    "preflight": "passed",
+    "threads": 20,
+    "volume": 4
+  },
+  "remaining": [
+    "依次正式保存4/5/6后，全候选终审、全书综合/人物弧、跨书管理与fresh全量备份实际恢复。"
+  ],
+  "review_groups": {
+    "approved_continuity_objects": 4,
+    "approved_edge": 1,
+    "approved_other_fields": 2,
+    "cards": 104,
+    "dimensions": 36,
+    "edges": 39,
+    "nodes": 54,
+    "source_anomalies": 32,
+    "stage_characters_exact_projection": 45,
+    "threads": 20,
+    "transferable_patterns": 12,
+    "volume_end_questions": 19
+  },
+  "reviewed_at": "2026-10-25T21:08:30.223710+00:00",
+  "reviewer": "primary",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "scope": "逐项完整主审36九维、104卡、54节点39边20线、32异常19卷末问题12机制摘要；report全文1100行与handoff全文。45人物阶段与20线是已读卡/图精确投影。不是primary个人整卷原文阅读，逐章历史疑点留全书终审。",
+  "semantic_findings": [
+    "军职/统兵cap/编制批准/实到兵数分别记录，死亡、伤兵、补员与战报口径不能用总数相抵。",
+    "兰馨活返、剿盗任务完成、俘兵五千被杀等分别回答不同承诺；护弱愿望不能洗去明确失败和主动舍救。",
+    "843主重创昏迷后844醒与雷现实死亡、唐琦救月分开；主当时已有阳炎，师父林成活归不等父母失踪已解。",
+    "佩儿是西奥多/欧恩之妹；徐翊/佩儿死亡不由占双城抵消，临海中国王权、印度居留、系统委托及税额各属不同层。",
+    "抹茶夺城杀友是实际行动；方召回不自动证明每步命令，915行动/916舞揭名林释亲缘/960堂姐妹与946爱主推测分开，956主修正强逼说。",
+    "两把蝴蝶不同币种与工序，现实10万材料款/926剑到，游戏957龙池重铸；968原镇国刀比较疑误称，主武实际蝴蝶/镇岳。",
+    "罗鼎破甲/拘逃/池三剑与主末刀分功；英雄盔761实戴、778/781免晕实效，纠正原图把装备所得与后续实用误接。",
+    "连续性四项改为旧物后用、死者缺席留代价、身份揭露重估关系、承诺不同回声的实际叙事机制；不把我们的研究管理流程当原作技巧。",
+    "兰馨非813已死少女；魏854保释与959仍羁押留源差，百里伦两死保异常，不能自造再捕或复活。",
+    "矿战尚未定权、刺杀魔山失败、最高酒未制、寻薛柔未回、主父母未明等按卷末保存，待全书后证终审。"
+  ],
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "status": "reviewed_for_library_import",
+  "user_approval": false,
+  "volume": 4
+}

@@ -1,0 +1,177 @@
+{
+  "candidate_id": "v04-local-source_anomalies-0032-03",
+  "reason": "交付前自核去除与本题无关的乘风27潜力旁述；其余19逐值不变。",
+  "before_sha256": "ab73841e2a065be5e5c2d2b1f47a556cf879645e563e9d6b99ec76389dbe4175",
+  "after_sha256": "2591160b77d9a2b53c7f3cf10f8d3315483f1d5d18f92ad7ef7137c1cf67353c",
+  "before": {
+    "candidate_id": "v04-local-source_anomalies-0032-03",
+    "original_question": "原称保，疑镇岳误称而未强改源",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "968林比较火神矛说比镇国刀强，899镇国刀无攻政治道具；主此时已持蝴蝶/镇岳，龙池在957重铸为蝴蝶。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0899",
+          "claim_kind": "fact",
+          "end_line": 67836,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 67785
+        },
+        {
+          "chapter_id": "ch-0957",
+          "claim_kind": "fact",
+          "end_line": 71550,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 71463
+        },
+        {
+          "chapter_id": "ch-0968",
+          "claim_kind": "fact",
+          "end_line": 72228,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 72165
+        }
+      ],
+      "handling": "原称保，疑镇岳误称而未强改源；不合两刀。",
+      "id": "v04-a-volcano-weapon",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 31,
+      "atomic_index": 2
+    },
+    "status": "unknown",
+    "audit_domain": "source-name-inference-limit",
+    "rationale": "968比较攻击/大范围特技的上下文支持镇岳为所指，原句镇国仍不能被研究者当作作者已纠字。可附较可信读法，同时明确27潜力之类其他能力不由本武器混名旁推；未找到本句直接勘误。",
+    "later_chapters": [
+      899,
+      957,
+      968
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0899",
+        "start_line": 67785,
+        "end_line": 67836,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0957",
+        "start_line": 71463,
+        "end_line": 71550,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0968",
+        "start_line": 72165,
+        "end_line": 72228,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  "after": {
+    "candidate_id": "v04-local-source_anomalies-0032-03",
+    "original_question": "原称保，疑镇岳误称而未强改源",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "968林比较火神矛说比镇国刀强，899镇国刀无攻政治道具；主此时已持蝴蝶/镇岳，龙池在957重铸为蝴蝶。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0899",
+          "claim_kind": "fact",
+          "end_line": 67836,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 67785
+        },
+        {
+          "chapter_id": "ch-0957",
+          "claim_kind": "fact",
+          "end_line": 71550,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 71463
+        },
+        {
+          "chapter_id": "ch-0968",
+          "claim_kind": "fact",
+          "end_line": 72228,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 72165
+        }
+      ],
+      "handling": "原称保，疑镇岳误称而未强改源；不合两刀。",
+      "id": "v04-a-volcano-weapon",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 31,
+      "atomic_index": 2
+    },
+    "status": "unknown",
+    "audit_domain": "source-name-inference-limit",
+    "rationale": "968比较攻击/大范围特技的上下文支持镇岳为所指，原句镇国仍不能被研究者当作作者已纠字。可附较可信读法，保原字与实际所指的证据等级；未找到本句直接勘误。",
+    "later_chapters": [
+      899,
+      957,
+      968
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0899",
+        "start_line": 67785,
+        "end_line": 67836,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0957",
+        "start_line": 71463,
+        "end_line": 71550,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0968",
+        "start_line": 72165,
+        "end_line": 72228,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  "other_rows_equal": true
+}

@@ -1,0 +1,87 @@
+{
+  "section": "unresolved_roster_names",
+  "status": "scope-slots-resolved-without-inventing-entities",
+  "actual_reviewer": "/root/zongheng_vol03_full",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "items": [
+    {
+      "audit_id": "character-arc-r3-046",
+      "name": "罗戟",
+      "roster_onebased_index": 46,
+      "initial_comparison_stage": "补核提案中只有“罗戟”这一名称槽位，未附阶段卡或源定位；不能把名单提案自动当原文已确认人物。",
+      "key_decisions": "没有可证的独立行动，不借罗嗣、罗特、罗林、罗雷或罗戟近字词的行动填补。",
+      "costs": "没有可归属的个人代价，暂缺来源不等原作人物被遗忘。",
+      "terminal_state": "待身份来源核实；当前不是已确认实体，不新增确定人物ID、不与他人合并。",
+      "evidence_boundaries": "固定SID/rev规范全文精确字符串0命中；正式六卷cards/analysis/四栏精确字符串亦0命中。此为查找范围说明，不冒称本次逐章全书新读。root已明确同意保槽待核。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "名单与六接口定位复核；无来源可供阅读全文，诚实保留0证据。",
+      "priority_layers": [],
+      "entity_type": "unresolved_roster_name",
+      "confirmed_entity": false,
+      "name_search_scope": {
+        "normalized_source_exact_matches": 0,
+        "formal_six_volumes_cards_analysis_notes_exact_matches": 0,
+        "candidate_roster_is_not_source_evidence": true
+      }
+    },
+    {
+      "audit_id": "character-arc-r3-054",
+      "original_roster_name": "火犁（异魔军团统领，勿并已死神圣魔龙）",
+      "entity_type": "duplicate_or_misdescribed_roster_reference",
+      "confirmed_entity": false,
+      "linked_existing_audit_id": "character-arc-r3-015",
+      "terminal_assessment": "保原补核名称为历史提案。现无另一个异魔统领火犁的证据；1041明言火犁军原统就是已被李杀的魔龙火犁。后军团由少师阳统，是军团名称延续，不是魔龙复生或第二火犁本人。勿无证拆成第二实体，也不删除已死魔龙阶段卡映射。",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1041",
+          "start_line": 76714,
+          "end_line": 76720,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1048",
+          "start_line": 77222,
+          "end_line": 77235,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1220",
+          "start_line": 88744,
+          "end_line": 88753,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1321",
+          "start_line": 95247,
+          "end_line": 95250,
+          "claim_kind": "fact"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "scope_treatment_authorized_by_primary": "primary实际复读1041 L76714—20后批准：54仅历史误述/重复引用，不设第二确认实体；原roster不改。非代写primary签收。",
+      "review_status": "draft",
+      "source_access": "上述原文命中上下文实际读；非新独读整卷，原reader保留。"
+    }
+  ],
+  "confirmed_separate_entities_in_this_file": 0,
+  "additional_support_sha256": {
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/character-arc-entity-roster-proposal.json": "bfc2c465497a65b015440788efc0c408490fe0432e1de04cc1f860f5dc04cc8a",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader3-review/fireli-supplemental-roster-boundary-proposal.json": "cdd8d4ee492b435407c623bab62f3089775e223961b9f73bc827e0d6655f322d",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader3-review/character-arc-reader3-scope.json": "2de47ada958be76f0365be2343de65053702cb38d3d54893b25e43b53f6601d7"
+  }
+}

@@ -1,0 +1,819 @@
+{
+  "status": "stable_group_draft_pending_primary_review",
+  "section": "characters",
+  "scope": "仅primary分配reader3前40既有NPC及24补核对象；六卷团队全文覆盖，不冒本人全书独读。",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "group_number": 6,
+  "actual_reviewer": "/root/zongheng_vol03_full",
+  "formal_input_sha256": {
+    "writing-vault/library/reports/zhanlong/vol01-cards.json": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+    "writing-vault/library/reports/zhanlong/vol01-analysis.json": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+    "writing-vault/library/reports/zhanlong/vol01-handoff.md": "d7d0ba462756640ae5cea1a449c8323630afaf4bda1ad377e2e82d22d2a2bf75",
+    "writing-vault/library/reports/zhanlong/vol01-read-log.json": "e44fc5ac3cf94fc934636d617b4a884106b20226e4efa29cc569970e4d707c95",
+    "writing-vault/library/reports/zhanlong/vol02-cards.json": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+    "writing-vault/library/reports/zhanlong/vol02-analysis.json": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+    "writing-vault/library/reports/zhanlong/vol02-handoff.md": "83252ea006170d1d6f1c21fe8f5ae3708ca4481304458c7f23dfb6a0a05d8960",
+    "writing-vault/library/reports/zhanlong/vol02-read-log.json": "cfedfdf3d250fa877eca46430d71e9578f488435c8a1980e29aff98fa07b0f1b",
+    "writing-vault/library/reports/zhanlong/vol03-cards.json": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+    "writing-vault/library/reports/zhanlong/vol03-analysis.json": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+    "writing-vault/library/reports/zhanlong/vol03-handoff.md": "ac83c6ce60443f122241171ee2297ad9d33542cf128ce203d12c1f332b56dec1",
+    "writing-vault/library/reports/zhanlong/vol03-read-log.json": "a1907247e1e00f640955d17c1f82ed174367a1b299f4e6e179650f46f56f6bf1",
+    "writing-vault/library/reports/zhanlong/vol04-cards.json": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+    "writing-vault/library/reports/zhanlong/vol04-analysis.json": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+    "writing-vault/library/reports/zhanlong/vol04-handoff.md": "438f63229dcbacd05ff8a00862da1a7394ac0f4e4e685aa6be8a88588a66b745",
+    "writing-vault/library/reports/zhanlong/vol04-read-log.json": "2acb9d39121940006bdbe431cdceba5ed94432278351a2ffad8b1cdfb1404d00",
+    "writing-vault/library/reports/zhanlong/vol05-cards.json": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+    "writing-vault/library/reports/zhanlong/vol05-analysis.json": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+    "writing-vault/library/reports/zhanlong/vol05-handoff.md": "008ab7e94733b989dbb1ca2fe2d2dc1f948e6b35eb7c69cde468b91e3d4560f2",
+    "writing-vault/library/reports/zhanlong/vol05-read-log.json": "f97dacd7289fead98521943c163c3fb7b043e8b3d9f730e7545774b3e4a5d787",
+    "writing-vault/library/reports/zhanlong/vol06-cards.json": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+    "writing-vault/library/reports/zhanlong/vol06-analysis.json": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+    "writing-vault/library/reports/zhanlong/vol06-handoff.md": "476c27db8d91a0ac05f068964ea7c55f59558511b3910f505d3c6e9f2ab3c012",
+    "writing-vault/library/reports/zhanlong/vol06-read-log.json": "f425106d4776356ee90ab294a11ead8163126e6201e5cbf939b6e0ecafa9f5ea",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-identity.json": "a39e58be5de82b3ba128651880e03596b66e4d8e98bdc87ea5deccaff3e3a619",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-luoxun-timing.json": "ac5904385447b4560175631bbd4157901b646a86c7e407d32392aff74a5f5152"
+  },
+  "characters": [
+    {
+      "audit_id": "character-arc-r3-035",
+      "name": "徐翊",
+      "roster_onebased_index": 35,
+      "initial_comparison_stage": "炎龙统帅与南征将领，既护西奥多遗体，也能为李逍遥旧战绩作证；不是御林四将龙硎。",
+      "key_decisions": "接受元戎和南征权，参与争功与追击，在黑水河局势中依赖骑兵优势却追入敌诱饵和水势。此前834作证支持李的战绩，不等后来每次军令都正确。",
+      "costs": "骑兵和本人在洪水战中丧失，882已辨认尸体并安葬；军事失败是不可用下任统帅消去的永久代价。",
+      "terminal_state": "882实证死亡，未见本人复苏。899炎龙新统帅是龙忠，不能沿冻结旧卡误录把龙硎当他的继任，也不能由军团仍在推徐翊仍在。",
+      "evidence_boundaries": "黑水中失踪到认尸有阶段差；龙忠后官衔变化另属其本人。旧卡“后炎龙统领换龙硎”仅作原记录，优先外置身份纠正层。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "chapter_id": "ch-0833",
+          "claim_kind": "fact",
+          "end_line": 63852,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 63793,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0834",
+          "claim_kind": "fact",
+          "end_line": 63906,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 63853,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0835",
+          "claim_kind": "fact",
+          "end_line": 63970,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 63907,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0863",
+          "claim_kind": "fact",
+          "end_line": 65761,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 65704,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0866",
+          "claim_kind": "fact",
+          "end_line": 65911,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 65856,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0867",
+          "claim_kind": "fact",
+          "end_line": 65962,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 65912,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0880",
+          "claim_kind": "fact",
+          "end_line": 66680,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 66624,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0882",
+          "claim_kind": "fact",
+          "end_line": 66794,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 66737,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0899",
+          "claim_kind": "fact",
+          "end_line": 67836,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 67785,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        }
+      ],
+      "stage_card_mapping": [
+        {
+          "volume": 4,
+          "index": 19,
+          "title": "徐翊｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xuyi",
+          "asset_id": "chr-736d302e333e5484906b47dc0eb1a44f",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "material_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+          "json_pointer": "/18/content"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读对应正式卡content/evidence、六卷对应人物状态及交接；必要四栏另列，非新独读全书。",
+      "priority_layers": [
+        "writing-vault/library/reports/zhanlong/audit/priority-corrections-identity.json"
+      ]
+    },
+    {
+      "audit_id": "character-arc-r3-036",
+      "name": "罗嗣",
+      "roster_onebased_index": 36,
+      "initial_comparison_stage": "禁侯、火斧统帅与罗特之父，对新崛起的李逍遥抱有竞争与敌意，能调兵争功也会真负伤。",
+      "key_decisions": "曾争首功并抵牾御林，947又亲援、948失子，949获汪救；后参与洛洵一方兵败被俘。1001受降千夫长处置，1023断手仍在场争称禁侯、万夫长，1033又有率火斧作战惨败的战报。",
+      "costs": "断腕与失子是真实损失，兵败削权并非处死；不能因他曾敌对主角，把他后期一切受挫当无主体惩罚。",
+      "terminal_state": "最后所接到的本人军事后证是1033战报中的火斧作战惨败，未见明确死亡。1001千夫诏、1023万夫自称、1033火斧统称及罗飞受命之间存在未演的职位变化，不静默拼成顺畅晋升链。",
+      "evidence_boundaries": "罗特是其子，儿子948死亡不可替父判死；在场自称和战报称谓的证明力分开，不补未演复官诏。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "chapter_id": "ch-0787",
+          "claim_kind": "fact",
+          "end_line": 61006,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60948,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0788",
+          "claim_kind": "fact",
+          "end_line": 61067,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61007,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0850",
+          "claim_kind": "fact",
+          "end_line": 64975,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 64912,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0864",
+          "claim_kind": "fact",
+          "end_line": 65818,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 65762,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0947",
+          "claim_kind": "fact",
+          "end_line": 70861,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 70806,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0949",
+          "claim_kind": "fact",
+          "end_line": 70985,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 70915,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0966",
+          "claim_kind": "fact",
+          "end_line": 72112,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 72051,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0999",
+          "start_line": 74019,
+          "end_line": 74080,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1001",
+          "start_line": 74161,
+          "end_line": 74230,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1023",
+          "start_line": 75581,
+          "end_line": 75643,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1033",
+          "start_line": 76142,
+          "end_line": 76224,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [
+        {
+          "volume": 4,
+          "index": 20,
+          "title": "罗嗣｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/luosi",
+          "asset_id": "chr-04f1863d6a46573c9183405babf4b5f3",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "material_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+          "json_pointer": "/19/content"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读对应正式卡content/evidence、六卷对应人物状态及交接；必要四栏另列，非新独读全书。",
+      "priority_layers": []
+    },
+    {
+      "audit_id": "character-arc-r3-037",
+      "name": "罗特",
+      "roster_onebased_index": 37,
+      "initial_comparison_stage": "火斧副统、罗嗣之子，早期御林囚女事件与逃避职责显示他不是单纯待发光的友军。",
+      "key_decisions": "早先参与军纪恶行并逃避风险，864又真实随军复堡；948为救火斧炮阵冲入危险，被旋风绞碎，950确认死者副统身份。",
+      "costs": "死亡不可逆，不因后来勇敢便抹去早期受害者；也不能因旧罪否认这一场为同袍救炮的行动与牺牲。",
+      "terminal_state": "948战场实际死亡、950身份后证，未见本人恢复。父亲后来被降与再战是罗嗣的弧，不作罗特继续活跃的替代证据。",
+      "evidence_boundaries": "不并罗嗣、罗戟、罗雷或罗林；死亡的价值判断与事实分别处理。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "chapter_id": "ch-0764",
+          "claim_kind": "fact",
+          "end_line": 59611,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59537,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0765",
+          "claim_kind": "fact",
+          "end_line": 59677,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59612,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0787",
+          "claim_kind": "fact",
+          "end_line": 61006,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60948,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0788",
+          "claim_kind": "fact",
+          "end_line": 61067,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61007,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0864",
+          "claim_kind": "fact",
+          "end_line": 65818,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 65762,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0947",
+          "claim_kind": "fact",
+          "end_line": 70861,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 70806,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0948",
+          "claim_kind": "fact",
+          "end_line": 70914,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 70862,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        },
+        {
+          "chapter_id": "ch-0950",
+          "claim_kind": "fact",
+          "end_line": 71047,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 70986,
+          "access_level": "direct-initial-assigned-full-text",
+          "research_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "research_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7"
+        }
+      ],
+      "stage_card_mapping": [
+        {
+          "volume": 4,
+          "index": 21,
+          "title": "罗特｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/luote",
+          "asset_id": "chr-a59efa30b8155368ad4603a8de65b375",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+          "material_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+          "json_pointer": "/20/content"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读对应正式卡content/evidence、六卷对应人物状态及交接；必要四栏另列，非新独读全书。",
+      "priority_layers": []
+    },
+    {
+      "audit_id": "character-arc-r3-038",
+      "name": "兰娜瑟尔",
+      "roster_onebased_index": 38,
+      "initial_comparison_stage": "异魔弓系强者，既与人类为敌，也会为自身和旧同伴求生；并非进入龙城前已无罪的伙伴。",
+      "key_decisions": "借主所携器物救援并出兵，杀民行为被主逼止；濒死后1107获流霜取龙骨与世界树花救醒，1108本人选择效霜并任教弓营，1167训练等后证使承诺落到实际工作。1177与众人协力射击银戈，1329—1330仍在战沧队中持续放箭。",
+      "costs": "囚禁、濒死和1330腿伤都真实；救回身体不自动免除旧屠民责任。1331腿伤难站而以弓撑起，流霜要求三五天不宜动武。",
+      "terminal_state": "最后明确本人实证为1331负伤活着随队撤退；没有后证说明永久死，也未演完整康复。教官/协战身份已实履，不把伤后暂退判永久离队。",
+      "evidence_boundaries": "1177射银是协同而非独杀；兰对希芙借体的问话当时仅疑问，不因后揭真相倒填她早已全知；不是李的已确情人。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "chapter_id": "ch-1070",
+          "claim_kind": "fact",
+          "end_line": 78574,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 78521,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1071",
+          "claim_kind": "fact",
+          "end_line": 78646,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 78575,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1076",
+          "claim_kind": "fact",
+          "end_line": 78959,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 78900,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1077",
+          "claim_kind": "fact",
+          "end_line": 79027,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 78960,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1105",
+          "claim_kind": "fact",
+          "end_line": 80999,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 80929,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1107",
+          "claim_kind": "fact",
+          "end_line": 81181,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 81105,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1108",
+          "claim_kind": "fact",
+          "end_line": 81276,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 81182,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1131",
+          "claim_kind": "fact",
+          "end_line": 82880,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 82810,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1167",
+          "claim_kind": "fact",
+          "end_line": 85271,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 85201,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1177",
+          "claim_kind": "fact",
+          "end_line": 85951,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 85870,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1329",
+          "start_line": 95800,
+          "end_line": 95866,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1330",
+          "start_line": 95867,
+          "end_line": 95926,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1331",
+          "start_line": 95927,
+          "end_line": 95994,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [
+        {
+          "volume": 5,
+          "index": 33,
+          "title": "兰娜瑟尔｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/lanna",
+          "asset_id": "chr-a662082c89c351f695c1b3e26e89d12a",
+          "material_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "material_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+          "json_pointer": "/32/content"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读对应正式卡content/evidence、六卷对应人物状态及交接；必要四栏另列，非新独读全书。",
+      "priority_layers": []
+    },
+    {
+      "audit_id": "character-arc-r3-039",
+      "name": "莓儿",
+      "roster_onebased_index": 39,
+      "initial_comparison_stage": "子舒与第17代龙神之女，由死胎龙心复生后神智尚未全复，最初处于他人保护、安排与契约之间。",
+      "key_decisions": "1163在饮血中成契，后迅速成长、实际首飞与双人乘载，能主动护母、攻击敌人和表达不愿他人骑。后期仍由李驾驭参与机动，1282载众入皇陵，1375实际载李穿过北境入口。",
+      "costs": "复生和成年不等最初充分知情同意；母亲认可与她本人的意愿不能互代。载人、护母的主体选择与契约效力同时保留。",
+      "terminal_state": "1375 L98893仍活且实际被李驾驭进入北境森林；后续大战不从群体损失推她必死或全愈。没有已立为龙神的本人授位场景。",
+      "evidence_boundaries": "“哥哥”是关系称呼，不是李与她有血缘；生父是第17代龙神，不是银戈。神烈飞行与莓儿骑乘为不同资源，不能看见李飞行便一律算莓出场。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "chapter_id": "ch-1162",
+          "claim_kind": "fact",
+          "end_line": 84911,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 84826,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1163",
+          "claim_kind": "fact",
+          "end_line": 84985,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 84912,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1166",
+          "claim_kind": "fact",
+          "end_line": 85200,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 85139,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1167",
+          "claim_kind": "fact",
+          "end_line": 85271,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 85201,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1168",
+          "claim_kind": "fact",
+          "end_line": 85350,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 85272,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1170",
+          "claim_kind": "fact",
+          "end_line": 85492,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 85430,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1174",
+          "claim_kind": "fact",
+          "end_line": 85728,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 85661,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1177",
+          "claim_kind": "fact",
+          "end_line": 85951,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 85870,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1282",
+          "start_line": 92730,
+          "end_line": 92792,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1375",
+          "start_line": 98887,
+          "end_line": 98904,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [
+        {
+          "volume": 5,
+          "index": 36,
+          "title": "莓儿／龙神之女｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/mei",
+          "asset_id": "chr-68481c9d92845803905a79bb30267499",
+          "material_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "material_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+          "json_pointer": "/35/content"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读人物卡与四栏；本轮原文1375 BEGIN-END完整核验莓儿最后具名载主入北境，其他阶段沿原分卷读者，不增唯一覆盖。",
+      "priority_layers": []
+    },
+    {
+      "audit_id": "character-arc-r3-040",
+      "name": "云飘飘",
+      "roster_onebased_index": 40,
+      "initial_comparison_stage": "洛洵的近人，早期主角只能由举止与政治位置猜她为洛复仇；这份猜测不是读者一开始就掌握的自供。",
+      "key_decisions": "借火狮榛与战争力量攻临海、利用徐焰感情，1056本人承认洛洵是最爱并表示复仇，拒绝被简单解释为爱榛。政治行动、恋情和被俘处置分别发生。",
+      "costs": "复仇失败、受俘后被处死；不能把她受刑倒证此前所有阴谋猜测都为真，也不把被利用者的情感单向洗成纯骗局无成本。",
+      "terminal_state": "1056问斩叙述后，1057医工缝合首身并运与洛洵合葬，足够确认死亡；不要求主亲眼看刀落才承认。未见她本人复生。",
+      "evidence_boundaries": "不并温雯或其他同为洛洵近人的女子；与榛合作不等深爱榛，假近主亦无实性行为后证。洛洵真正死在1000，999仅逼令，旧原记录保外置纠正。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "chapter_id": "ch-1013",
+          "claim_kind": "fact",
+          "end_line": 74990,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 74932,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1019",
+          "claim_kind": "fact",
+          "end_line": 75391,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 75317,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1039",
+          "claim_kind": "fact",
+          "end_line": 76599,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 76533,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1056",
+          "claim_kind": "fact",
+          "end_line": 77747,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 77674,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        },
+        {
+          "chapter_id": "ch-1057",
+          "claim_kind": "fact",
+          "end_line": 77806,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 77748,
+          "access_level": "derived-formal-character-state-and-handoff",
+          "research_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "research_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa"
+        }
+      ],
+      "stage_card_mapping": [
+        {
+          "volume": 5,
+          "index": 39,
+          "title": "云飘飘｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yun",
+          "asset_id": "chr-08d267ff930d5c1e96ae82f984f45fb5",
+          "material_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+          "material_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+          "json_pointer": "/38/content"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读对应正式卡content/evidence、六卷对应人物状态及交接；必要四栏另列，非新独读全书。",
+      "priority_layers": [
+        "writing-vault/library/reports/zhanlong/audit/priority-corrections-luoxun-timing.json"
+      ]
+    }
+  ],
+  "access_log": "r3-035—040全阶段卡content/evidence、对应状态及handoff接读；本轮补读1001/1023/1033/1274/1282/1323/1331/1371/1378四栏，1375原文全章核。检索仅用于末次具名定位，不冒全书新全文。"
+}

@@ -1,0 +1,32 @@
+{
+  "scope": "primary指定两项，不改逐章原notes/其他文学语义",
+  "changes": [
+    {
+      "files": [
+        "analysis.json",
+        "report.md",
+        "build_research.py"
+      ],
+      "before": "如204老K换斧是归还后证",
+      "after": "如205老K换斧是归还后证",
+      "verification": "本代理2026-10-26定向全文复读raw0205 BEGIN-END L18130—18216；L18164明确冉闵换了一把战斧；204掉落/李牧拾与205换斧分别保留。该定向复读不新增原全量覆盖或改primary reader归属。",
+      "evidence_added": {
+        "chapter_id": "ch-0205",
+        "start_line": 18164,
+        "end_line": 18164,
+        "claim_kind": "fact"
+      }
+    },
+    {
+      "files": [
+        "handoff.md"
+      ],
+      "before": "实体官网由原4加薛柔为5",
+      "after": "实体工作室由原4加薛柔为5",
+      "verification": "按primary指定纠正用词，不改人数和住处归属。"
+    }
+  ],
+  "before_directory": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\vol01\\before-primary-delta-20261026",
+  "semantic_other_changes": false,
+  "core_semantic_equality_except_target": true
+}

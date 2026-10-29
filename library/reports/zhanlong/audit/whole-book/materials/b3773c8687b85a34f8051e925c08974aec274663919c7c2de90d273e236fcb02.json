@@ -1,0 +1,448 @@
+{
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "issue": "狐狸本名刘庸，惯用ID琉璃狐；慕天为派生标题无证别名。",
+  "primary_approval": {
+    "reviewer": "primary",
+    "status": "approved-for-library-reading-overlay",
+    "user_approval": false,
+    "approved_fields": 12,
+    "original_files_unchanged": true,
+    "proposal_sha256": "f2a24e3398a2d9905295f6ab9d7ce21b1838c4107771791f6b839323528e1180",
+    "actual_verification": {
+      "limited_rereads": [
+        "ch-0102 L8859—8885",
+        "ch-0103 L8967—8977"
+      ],
+      "full_book_reread": false,
+      "additional_unique_chapters": 0
+    }
+  },
+  "affected_fields": [
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol03/analysis.json",
+      "sha256": "99cce23b161c00a00d997a552bd0e3ae08e225ae39db2654cba55d840a0731f4",
+      "field_path": [
+        "major_character_states",
+        9,
+        "name"
+      ],
+      "before": "狐狸／慕天｜卷三阶段",
+      "after": "狐狸／刘庸｜卷三阶段",
+      "issue_id": "fox-liuyong-unsupported-mutian-alias",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0102",
+          "start_line": 8859,
+          "end_line": 8885,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0103",
+          "start_line": 8967,
+          "end_line": 8977,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol03/cards.json",
+      "sha256": "796f4a97fad3bb063e3e00b595b62c4b266e258ec935d0153004d1e73867672e",
+      "field_path": [
+        9,
+        "title"
+      ],
+      "before": "狐狸／慕天｜卷三阶段",
+      "after": "狐狸／刘庸｜卷三阶段",
+      "issue_id": "fox-liuyong-unsupported-mutian-alias",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0102",
+          "start_line": 8859,
+          "end_line": 8885,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0103",
+          "start_line": 8967,
+          "end_line": 8977,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol03/import-result.json",
+      "sha256": "e320a362cb7f943d94968c4bbfa5fd0a5c8c2ac7c0758c74232a6abdbeafee53",
+      "field_path": [
+        "formal_assets",
+        9,
+        "title"
+      ],
+      "before": "狐狸／慕天｜卷三阶段",
+      "after": "狐狸／刘庸｜卷三阶段",
+      "issue_id": "fox-liuyong-unsupported-mutian-alias",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0102",
+          "start_line": 8859,
+          "end_line": 8885,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0103",
+          "start_line": 8967,
+          "end_line": 8977,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol03/report.md",
+      "sha256": "0b1892afa7d67a4435b395682a0444b993ef621ff53eabefdb9bc22e40cc72ea",
+      "field_path": [
+        "line",
+        575
+      ],
+      "before": "### 狐狸／慕天｜卷三阶段",
+      "after": "### 狐狸／刘庸｜卷三阶段",
+      "issue_id": "fox-liuyong-unsupported-mutian-alias",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0102",
+          "start_line": 8859,
+          "end_line": 8885,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0103",
+          "start_line": 8967,
+          "end_line": 8977,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol03/research_characters.py",
+      "sha256": "7639c5ba5ead9d3278254b0e23dc6c11979051450c186658926d731c6472ba3f",
+      "field_path": [
+        "line",
+        10
+      ],
+      "before": "char('fox','狐狸／慕天','离线也做经济后勤，10万麦押运与材料归仓；原料交接不是成品已量产。','资源供给/会运营','不擅攀岩需林救；购水晶千未见逐笔到齐','可联系各城限购并实际交粮','693125万实到账；元老车购仍有意向/授权阶段','工作室财务骨干；与林/主配合调物',[612,616,637,643,693,713])",
+      "after": "char('fox','狐狸／刘庸','离线也做经济后勤，10万麦押运与材料归仓；原料交接不是成品已量产。','资源供给/会运营','不擅攀岩需林救；购水晶千未见逐笔到齐','可联系各城限购并实际交粮','693125万实到账；元老车购仍有意向/授权阶段','工作室财务骨干；与林/主配合调物',[612,616,637,643,693,713])",
+      "issue_id": "fox-liuyong-unsupported-mutian-alias",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0102",
+          "start_line": 8859,
+          "end_line": 8885,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0103",
+          "start_line": 8967,
+          "end_line": 8977,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/characters/chr-238cd5b220265eea9f053e12c12b7d59.json",
+      "sha256": "056129b06d8113e804b4f3f6dc41b0cb81bfde2af84472fee348b47658cbd428",
+      "field_path": [
+        "title"
+      ],
+      "before": "狐狸／慕天｜卷三阶段",
+      "after": "狐狸／刘庸｜卷三阶段",
+      "issue_id": "fox-liuyong-unsupported-mutian-alias",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0102",
+          "start_line": 8859,
+          "end_line": 8885,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0103",
+          "start_line": 8967,
+          "end_line": 8977,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+      "sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+      "field_path": [
+        "imported_assets",
+        9,
+        "title"
+      ],
+      "before": "狐狸／慕天｜卷三阶段",
+      "after": "狐狸／刘庸｜卷三阶段",
+      "issue_id": "fox-liuyong-unsupported-mutian-alias",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0102",
+          "start_line": 8859,
+          "end_line": 8885,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0103",
+          "start_line": 8967,
+          "end_line": 8977,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+      "sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+      "field_path": [
+        "major_character_states",
+        9,
+        "name"
+      ],
+      "before": "狐狸／慕天｜卷三阶段",
+      "after": "狐狸／刘庸｜卷三阶段",
+      "issue_id": "fox-liuyong-unsupported-mutian-alias",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0102",
+          "start_line": 8859,
+          "end_line": 8885,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0103",
+          "start_line": 8967,
+          "end_line": 8977,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol03-asset-map.json",
+      "sha256": "fcc9e9c71dfbca8d19aa37ae66d2846e2546f63bc14a1d951f1152a03a17497a",
+      "field_path": [
+        9,
+        "title"
+      ],
+      "before": "狐狸／慕天｜卷三阶段",
+      "after": "狐狸／刘庸｜卷三阶段",
+      "issue_id": "fox-liuyong-unsupported-mutian-alias",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0102",
+          "start_line": 8859,
+          "end_line": 8885,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0103",
+          "start_line": 8967,
+          "end_line": 8977,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol03-cards.json",
+      "sha256": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+      "field_path": [
+        9,
+        "title"
+      ],
+      "before": "狐狸／慕天｜卷三阶段",
+      "after": "狐狸／刘庸｜卷三阶段",
+      "issue_id": "fox-liuyong-unsupported-mutian-alias",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0102",
+          "start_line": 8859,
+          "end_line": 8885,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0103",
+          "start_line": 8967,
+          "end_line": 8977,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/views/chr-238cd5b220265eea9f053e12c12b7d59.md",
+      "sha256": "b3b9b6d025b128e43ab511068af8b285b27382218fd21e4deae90862c14f0d6a",
+      "field_path": [
+        "line",
+        1
+      ],
+      "before": "# 狐狸／慕天｜卷三阶段",
+      "after": "# 狐狸／刘庸｜卷三阶段",
+      "issue_id": "fox-liuyong-unsupported-mutian-alias",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0102",
+          "start_line": 8859,
+          "end_line": 8885,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0103",
+          "start_line": 8967,
+          "end_line": 8977,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/views/chr-238cd5b220265eea9f053e12c12b7d59.md",
+      "sha256": "b3b9b6d025b128e43ab511068af8b285b27382218fd21e4deae90862c14f0d6a",
+      "field_path": [
+        "line",
+        87
+      ],
+      "before": "  \"title\": \"狐狸／慕天｜卷三阶段\",",
+      "after": "  \"title\": \"狐狸／刘庸｜卷三阶段\",",
+      "issue_id": "fox-liuyong-unsupported-mutian-alias",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0102",
+          "start_line": 8859,
+          "end_line": 8885,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0103",
+          "start_line": 8967,
+          "end_line": 8977,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0102",
+      "start_line": 8859,
+      "end_line": 8885,
+      "claim_kind": "fact",
+      "actual_reader": "primary",
+      "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0103",
+      "start_line": 8967,
+      "end_line": 8977,
+      "claim_kind": "fact",
+      "actual_reader": "primary",
+      "reading_scope": "本次定向复读；新增唯一覆盖0，首次读者归属保持。"
+    }
+  ],
+  "proposal_archive": "priority-corrections-fox-identity-proposal.json",
+  "proposal_sha256": "f2a24e3398a2d9905295f6ab9d7ce21b1838c4107771791f6b839323528e1180",
+  "reading_precedence": "当前采用after；冻结卡片、分析、导入映射和派生阅读页保留历史字节，不据错名另造人或称源文姓名漂移。",
+  "scan_boundary": "12处传播字段已逐值核验；全源字符串零命中仅作排查支持，不等本次重读全书。"
+}

@@ -1,0 +1,220 @@
+{
+  "status": "applied-exact-primary-approved-awaiting-resign",
+  "primary_approval": "root消息明确批准限定版；不是用户品味批准",
+  "proposal_sha256": "bdd4a358a6b7080be582c049fe2265e2a53e3f74767296c69339a1e595f4d6f8",
+  "batch_before_sha256": "15f6735f4c2b2295d1916c3b20307d35f9668ba2904263838c87a789cdeaa7c1",
+  "batch_after_sha256": "b08bb204e078b6bffd9f2ae3254fbd8a1d92a74e20693d4eaae06c6eece4952d",
+  "before_snapshot": "history/adjudications-local-v02-batch007-before-sword-growth-quota-limited.json",
+  "change": {
+    "path": "adjudications-local-v02-batch007.json",
+    "candidate_id": "v02-local-chapter_unresolved_index-0050-01",
+    "input_sha256": "15f6735f4c2b2295d1916c3b20307d35f9668ba2904263838c87a789cdeaa7c1",
+    "before": {
+      "candidate_id": "v02-local-chapter_unresolved_index-0050-01",
+      "volume": 2,
+      "title": "秦王补丁上线/两次进化实际过程与千阳去留待核。",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 49,
+      "atomic_index": 0,
+      "original_record_sha256": "1adde3f577ae751caee2b6042c3cddb92dd863ca1bc68fb6264215448c098a60",
+      "status": "partial",
+      "audit_domain": "composite-result",
+      "rationale": "309补丁面板真生效，443秦王进化龙池/452南宫灵识出均有证；587龙池与镇月遭绝望崩残，未展示原剑第二次可进化权实际兑现。309唐雪亲拒旧恋留会、310黎明等被挡离，千阳去留已闭。",
+      "later_chapters": [
+        308,
+        309,
+        310,
+        443,
+        452,
+        587
+      ],
+      "later_evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0308",
+          "start_line": 26396,
+          "end_line": 26464,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0309",
+          "start_line": 26465,
+          "end_line": 26533,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0310",
+          "start_line": 26534,
+          "end_line": 26608,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0443",
+          "start_line": 36875,
+          "end_line": 36960,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "primary"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0452",
+          "start_line": 37482,
+          "end_line": 37550,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "primary"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0587",
+          "start_line": 47134,
+          "end_line": 47282,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol03-chapter-notes.jsonl",
+          "material_sha256": "c38395d6a665f189de112f74eeb028c52583586bcf417cc3c816ff606bcd2e20",
+          "source_reader": "zongheng_vol05_full"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol04_full",
+      "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+    },
+    "after": {
+      "candidate_id": "v02-local-chapter_unresolved_index-0050-01",
+      "volume": 2,
+      "title": "秦王补丁上线/两次进化实际过程与千阳去留待核。",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 49,
+      "atomic_index": 0,
+      "original_record_sha256": "1adde3f577ae751caee2b6042c3cddb92dd863ca1bc68fb6264215448c098a60",
+      "status": "partial",
+      "audit_domain": "composite-result",
+      "rationale": "309补丁面板真生效，443秦王进化龙池；633以圣天融合升鬼阶且面板仍可进化1，957旧龙池加罗鼎神晶/定海石重铸五星游戏蝴蝶并实装，撤回587崩残等于后续成长未成的旧判断。补丁、后成长和千阳309亲拒旧恋/310对方撤离均已答；但633仍可进化1而957明确为重铸，原协商第二进化额度是否以何机制实际消费未独立说明，不将面板可能性当故事保证或作者遗忘。",
+      "later_chapters": [
+        308,
+        309,
+        310,
+        443,
+        587,
+        633,
+        957
+      ],
+      "later_evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0308",
+          "start_line": 26396,
+          "end_line": 26464,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生完整读取；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0309",
+          "start_line": 26465,
+          "end_line": 26533,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生完整读取；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0310",
+          "start_line": 26534,
+          "end_line": 26608,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生完整读取；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0443",
+          "start_line": 36875,
+          "end_line": 36960,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生完整读取；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "primary"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0587",
+          "start_line": 47134,
+          "end_line": 47282,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生完整读取；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol03-chapter-notes.jsonl",
+          "material_sha256": "c38395d6a665f189de112f74eeb028c52583586bcf417cc3c816ff606bcd2e20",
+          "source_reader": "zongheng_vol05_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0633",
+          "start_line": 50444,
+          "end_line": 50523,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生完整读取；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol03-chapter-notes.jsonl",
+          "material_sha256": "c38395d6a665f189de112f74eeb028c52583586bcf417cc3c816ff606bcd2e20",
+          "source_reader": "zongheng_vol05_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0957",
+          "start_line": 71463,
+          "end_line": 71550,
+          "claim_kind": "fact",
+          "evidence_access": "本轮定向BEGIN-END全文复读且匹配正式原reader笔记",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-chapter-notes.jsonl",
+          "material_sha256": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+          "source_reader": "/root/zongheng_vol03_full"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol04_full",
+      "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+    },
+    "scope": "仅所列终判/理由/后证字段；原ID/title/reader/原记录及其余对象完全不动"
+  },
+  "other_objects_equal": true
+}

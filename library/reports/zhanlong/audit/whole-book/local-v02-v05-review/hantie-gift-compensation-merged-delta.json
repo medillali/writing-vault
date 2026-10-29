@@ -1,0 +1,168 @@
+{
+  "status": "applied-exact-primary-approved-awaiting-resign",
+  "primary_approval": "root完整读后明确批准，仅所列一条；非用户品味批准",
+  "proposal_sha256": "1125c5b05e94857b2f1347e6b26cd67cb020bfb08c59295e4a1c7786ee161094",
+  "before_snapshot": "history\\batch010-before-hantie-gift.json",
+  "batch_before_sha256": "2a4f9c7d6674c2ca210521fe53efbbab4bbc6bdbbd331d70967fc6b1b4f28d27",
+  "batch_after_sha256": "44f2b32de6311ae08a99602902a869248cffbfe6147f0e72a738c40719ed1560",
+  "change": {
+    "path": "adjudications-local-v02-batch010.json",
+    "candidate_id": "v02-local-chapter_unresolved_index-0085-01",
+    "input_sha256": "2a4f9c7d6674c2ca210521fe53efbbab4bbc6bdbbd331d70967fc6b1b4f28d27",
+    "before": {
+      "candidate_id": "v02-local-chapter_unresolved_index-0085-01",
+      "volume": 2,
+      "title": "主给林寒铁剑补偿尚未实交",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 84,
+      "atomic_index": 0,
+      "original_record_sha256": "c9195fc30fff704a743da351f32a3b71717d6e44d240111084a84c353802f1b3",
+      "status": "partial",
+      "audit_domain": "gift-reciprocity",
+      "rationale": "350 L29848—49主允想办法补偿、林说等补偿，未定某件或定额；469主确把神隐者证明给林且她接，互赠已有实际后续，不能写从未回赠。文本未把该证明明确记为偿清寒铁剑这笔，不编具体等价/转账闭账。",
+      "later_chapters": [
+        350,
+        469,
+        470
+      ],
+      "later_evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0350",
+          "start_line": 29817,
+          "end_line": 29914,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0469",
+          "start_line": 38712,
+          "end_line": 38776,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "primary"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0470",
+          "start_line": 38777,
+          "end_line": 38852,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "primary"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol04_full",
+      "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+    },
+    "after": {
+      "candidate_id": "v02-local-chapter_unresolved_index-0085-01",
+      "volume": 2,
+      "title": "主给林寒铁剑补偿尚未实交",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 84,
+      "atomic_index": 0,
+      "original_record_sha256": "c9195fc30fff704a743da351f32a3b71717d6e44d240111084a84c353802f1b3",
+      "status": "answered",
+      "audit_domain": "gift-reciprocity",
+      "rationale": "350主收寒铁剑后许补偿，416约送龙吻时亲自联系“你连寒铁剑都送我了”，明确回馈关系；418龙吻实交林且林坚持转20万元，419已80级实穿。补偿承诺已有具体礼物与收用后证，不再以没有逐字偿清账单留作全未知；这是半赠半卖的亲密互赠，不写全白送、等价现金债已结清，也不把交剑附会为性同意。",
+      "later_chapters": [
+        350,
+        469,
+        470,
+        416,
+        418,
+        419
+      ],
+      "later_evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0350",
+          "start_line": 29817,
+          "end_line": 29914,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0469",
+          "start_line": 38712,
+          "end_line": 38776,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "primary"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0470",
+          "start_line": 38777,
+          "end_line": 38852,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "primary"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0416",
+          "start_line": 34694,
+          "end_line": 34781,
+          "claim_kind": "fact",
+          "evidence_access": "正式完整四栏派生；416另本轮BEGIN-END定向原文复读",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "primary"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0418",
+          "start_line": 34850,
+          "end_line": 34931,
+          "claim_kind": "fact",
+          "evidence_access": "正式完整四栏派生；416另本轮BEGIN-END定向原文复读",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "primary"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0419",
+          "start_line": 34932,
+          "end_line": 35004,
+          "claim_kind": "fact",
+          "evidence_access": "正式完整四栏派生；416另本轮BEGIN-END定向原文复读",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "primary"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol04_full",
+      "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+    },
+    "scope": "仅此条status/rationale及新增416/418/419证据，其余19逐值不动"
+  },
+  "other_objects_equal": true
+}

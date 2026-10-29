@@ -1,0 +1,62 @@
+# 花间抢王反夹与北认脸
+
+ID: `scn-b35cc23fafcb54b4af211071b56ccef0` · 版本: 1 · 范围: source-analysis
+
+鬼北亚正/陆背、北见脸哭并尾杀真爱；5v10胜/王死盾鬼腕北暗戒鬼，仅得未wear
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-b35cc23fafcb54b4af211071b56ccef0",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "研究候选，须重新创造人物/制度/场景后迁移。",
+    "characters": [
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/lu",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/bei",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/gui",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/du",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/ya",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/cheng"
+    ],
+    "choice": "鬼北亚正/陆背、北见脸哭并尾杀真爱",
+    "consequence": "5v10胜/王死盾鬼腕北暗戒鬼，仅得未wear",
+    "failure_mode": "抹去拒绝、代价、其他贡献或知识边界将失真。",
+    "goal": "守75暗金",
+    "narrative_order": 217,
+    "obstacle": "对方情报主不在/北被盯",
+    "state_change": "5v10胜/王死盾鬼腕北暗戒鬼，仅得未wear",
+    "summary": "鬼北亚正/陆背、北见脸哭并尾杀真爱；5v10胜/王死盾鬼腕北暗戒鬼，仅得未wear",
+    "why_it_works": "战斗胜利不等队友情绪已安全"
+  },
+  "created_at": "2026-10-24T22:43:24.281491+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0217",
+      "claim_kind": "fact",
+      "end_line": 20753,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 20646
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/chen-game",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:2",
+    "状态:待审阅"
+  ],
+  "title": "花间抢王反夹与北认脸",
+  "updated_at": "2026-10-24T22:43:24.281491+00:00",
+  "user_notes": ""
+}
+
+```

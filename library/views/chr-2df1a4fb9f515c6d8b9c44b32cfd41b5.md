@@ -1,0 +1,99 @@
+# 杜十三／杰出高手（卷五阶段）
+
+ID: `chr-2df1a4fb9f515c6d8b9c44b32cfd41b5` · 版本: 1 · 范围: source-analysis
+
+从对春泥求援者到能担殿后与战术控制的大将，生存由主回接实成；1056只写其中闪雷眩晕，未明确本卷最终死，不随幽斗补判。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-2df1a4fb9f515c6d8b9c44b32cfd41b5",
+  "asset_type": "character",
+  "content": {
+    "changes": "从对春泥求援者到能担殿后与战术控制的大将，生存由主回接实成；1056只写其中闪雷眩晕，未明确本卷最终死，不随幽斗补判。",
+    "decisions": "水神堵路协杀；冰河领500殿后，撞开红救斗幽并残存回城；国战按命分兵拦包",
+    "goal": "维系血色佣兵与保护队友",
+    "knowledge_boundary": "仅本卷时点。现场/系统/共享画面/角色自述/传闻分别见逐章笔记；前四卷未亲读，未借纵横同名人物生平，不预写卷六以后。",
+    "limits": "个人单挑比顶尖差，能靠协同/路线/队伍补",
+    "relationship_direction": "与主老友、鬼谷血佣；生日亚麻袋等玩笑不等新恋",
+    "summary": "从对春泥求援者到能担殿后与战术控制的大将，生存由主回接实成；1056只写其中闪雷眩晕，未明确本卷最终死，不随幽斗补判。"
+  },
+  "created_at": "2026-10-24T23:05:00.150659+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0795",
+      "claim_kind": "fact",
+      "end_line": 66127,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 66047
+    },
+    {
+      "chapter_id": "ch-0805",
+      "claim_kind": "fact",
+      "end_line": 66918,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 66846
+    },
+    {
+      "chapter_id": "ch-1012",
+      "claim_kind": "fact",
+      "end_line": 83015,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 82943
+    },
+    {
+      "chapter_id": "ch-1025",
+      "claim_kind": "fact",
+      "end_line": 83968,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 83899
+    },
+    {
+      "chapter_id": "ch-1026",
+      "claim_kind": "fact",
+      "end_line": 84030,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 83969
+    },
+    {
+      "chapter_id": "ch-1053",
+      "claim_kind": "fact",
+      "end_line": 85790,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 85739
+    },
+    {
+      "chapter_id": "ch-1056",
+      "claim_kind": "fact",
+      "end_line": 85989,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 85911
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol05/character/shisan",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:5",
+    "状态:待审阅"
+  ],
+  "title": "杜十三／杰出高手（卷五阶段）",
+  "updated_at": "2026-10-24T23:05:00.151657+00:00",
+  "user_notes": ""
+}
+
+```

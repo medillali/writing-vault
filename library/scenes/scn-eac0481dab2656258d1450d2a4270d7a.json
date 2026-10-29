@@ -1,0 +1,61 @@
+{
+  "asset_id": "scn-eac0481dab2656258d1450d2a4270d7a",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "远征需王准/运载/侦图，己方射程占优而劝降也可能先损人员。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/luoqian",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/flower",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/qing",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wen",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/han",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiao"
+    ],
+    "choice": "请示/侦图/长射程先清港",
+    "claim_kind": "inference",
+    "consequence": "劝降兵死，港破龙骑次梯上",
+    "failure_mode": "神威射程数值源差，工部未逐船验造。",
+    "goal": "取列岛补给",
+    "narrative_order": 1170,
+    "obstacle": "船运六小时/岛炮和拒降",
+    "state_change": "政治许可与战术条件相接",
+    "summary": "花枪正领/王准出军，1052船二十万玩家三十龙骑；劝降船被轰后千米外炮一小时。",
+    "why_it_works": "战争不是只靠主冲入，物力/情报/命令分层。"
+  },
+  "created_at": "2026-10-25T21:08:43.413084+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1169",
+      "claim_kind": "fact",
+      "end_line": 85429,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 85351
+    },
+    {
+      "chapter_id": "ch-1170",
+      "claim_kind": "fact",
+      "end_line": 85492,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 85430
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/sea",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "王准远征与港外火炮",
+  "updated_at": "2026-10-25T21:08:43.413084+00:00",
+  "user_notes": ""
+}

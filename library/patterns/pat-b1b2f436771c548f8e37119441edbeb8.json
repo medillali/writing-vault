@@ -1,0 +1,91 @@
+{
+  "asset_id": "pat-b1b2f436771c548f8e37119441edbeb8",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "大地图与多人同时行动叙事。",
+    "causal_steps": [
+      "先限定视角看不到什么",
+      "由有身份的人提供消息",
+      "后用独立接口确认或反证",
+      "保错误信念的阶段位置"
+    ],
+    "failure_mode": "把说话者确信度当事实；或用虚假梦长时间不清回撤。",
+    "originality_transform": "在原创里换成电台、证词、传感器而非游戏UI，并让渠道可信度各有理由。",
+    "summary": "现场、系统、转述、推测和梦境分别改变读者确信度。"
+  },
+  "created_at": "2026-10-25T21:09:00.956070+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-72bc63b4a859533398b475a401ddf4f0",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-eb0fc95a825a5281bb35c5ddfb0b80bc",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-305b5a734f555b5cbcd8001a0f818fb1",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-ba7168fc9b255275a23809967107940e",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-1331",
+      "claim_kind": "synthesis",
+      "end_line": 95994,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 95927
+    },
+    {
+      "chapter_id": "ch-1346",
+      "claim_kind": "synthesis",
+      "end_line": 96906,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 96838
+    },
+    {
+      "chapter_id": "ch-1350",
+      "claim_kind": "synthesis",
+      "end_line": 97213,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 97143
+    },
+    {
+      "chapter_id": "ch-1371",
+      "claim_kind": "synthesis",
+      "end_line": 98638,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 98559
+    },
+    {
+      "chapter_id": "ch-1385",
+      "claim_kind": "synthesis",
+      "end_line": 99655,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 99581
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/pattern/knowledge-channel",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷:6"
+  ],
+  "title": "让每条重要信息有视野与渠道",
+  "updated_at": "2026-10-25T21:09:00.956070+00:00",
+  "user_notes": ""
+}

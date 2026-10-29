@@ -1,0 +1,324 @@
+# 资格、物权与使用的多级兑现
+
+ID: `pat-8c71bcef337554dda80cfe2fe0f1dc8b` · 版本: 1 · 范围: reusable-pattern
+
+把奖励拆成可检验的阶段，延迟使用为同伴和任务创造需求。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-8c71bcef337554dda80cfe2fe0f1dc8b",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "有稀缺装备/身份/制度的成长故事。",
+    "causal_steps": [
+      "先列获得条件",
+      "实际取得但缺等级/鉴定/训练",
+      "付额成本或合作",
+      "首次使用验证收益",
+      "保未满足部分到下阶段"
+    ],
+    "failure_mode": "只有列表没有首次用途，或暗改资格让所有东西立穿。",
+    "originality_transform": "改成原创法术许可、工程设备或社会通行权，重做门槛成本和失败后果，去除原物名/数值。",
+    "summary": "把奖励拆成可检验的阶段，延迟使用为同伴和任务创造需求。"
+  },
+  "created_at": "2026-10-24T20:26:45.871600+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-b721108920ca5655a18da4b00f991429",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-9387c732820b5934a4308e2614dfd3db",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-695df1461a015221adb6db2ee1b88883",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-960be760de665531876e46282f64b9c3",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-d68dd00b32985a85900afad197d87325",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0778",
+      "claim_kind": "inference",
+      "end_line": 86043,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 85891
+    },
+    {
+      "chapter_id": "ch-0779",
+      "claim_kind": "inference",
+      "end_line": 86214,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 86044
+    },
+    {
+      "chapter_id": "ch-0781",
+      "claim_kind": "inference",
+      "end_line": 86498,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 86355
+    },
+    {
+      "chapter_id": "ch-0785",
+      "claim_kind": "inference",
+      "end_line": 87013,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 86873
+    },
+    {
+      "chapter_id": "ch-0786",
+      "claim_kind": "inference",
+      "end_line": 87172,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 87014
+    },
+    {
+      "chapter_id": "ch-0787",
+      "claim_kind": "inference",
+      "end_line": 87321,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 87173
+    },
+    {
+      "chapter_id": "ch-0891",
+      "claim_kind": "inference",
+      "end_line": 99944,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 99831
+    },
+    {
+      "chapter_id": "ch-0893",
+      "claim_kind": "inference",
+      "end_line": 100128,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 100043
+    },
+    {
+      "chapter_id": "ch-0896",
+      "claim_kind": "inference",
+      "end_line": 100430,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 100335
+    },
+    {
+      "chapter_id": "ch-0898",
+      "claim_kind": "inference",
+      "end_line": 100630,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 100525
+    },
+    {
+      "chapter_id": "ch-0899",
+      "claim_kind": "inference",
+      "end_line": 100752,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 100631
+    },
+    {
+      "chapter_id": "ch-0900",
+      "claim_kind": "inference",
+      "end_line": 100863,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 100753
+    },
+    {
+      "chapter_id": "ch-0901",
+      "claim_kind": "inference",
+      "end_line": 100951,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 100864
+    },
+    {
+      "chapter_id": "ch-0902",
+      "claim_kind": "inference",
+      "end_line": 101064,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 100952
+    },
+    {
+      "chapter_id": "ch-0984",
+      "claim_kind": "inference",
+      "end_line": 108745,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 108630
+    },
+    {
+      "chapter_id": "ch-0985",
+      "claim_kind": "inference",
+      "end_line": 108867,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 108746
+    },
+    {
+      "chapter_id": "ch-0986",
+      "claim_kind": "inference",
+      "end_line": 108975,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 108868
+    },
+    {
+      "chapter_id": "ch-0987",
+      "claim_kind": "inference",
+      "end_line": 109100,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 108976
+    },
+    {
+      "chapter_id": "ch-0988",
+      "claim_kind": "inference",
+      "end_line": 109227,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 109101
+    },
+    {
+      "chapter_id": "ch-0989",
+      "claim_kind": "inference",
+      "end_line": 109367,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 109228
+    },
+    {
+      "chapter_id": "ch-0990",
+      "claim_kind": "inference",
+      "end_line": 109496,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 109368
+    },
+    {
+      "chapter_id": "ch-0991",
+      "claim_kind": "inference",
+      "end_line": 109618,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 109497
+    },
+    {
+      "chapter_id": "ch-0992",
+      "claim_kind": "inference",
+      "end_line": 109768,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 109619
+    },
+    {
+      "chapter_id": "ch-0993",
+      "claim_kind": "inference",
+      "end_line": 109879,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 109769
+    },
+    {
+      "chapter_id": "ch-1036",
+      "claim_kind": "inference",
+      "end_line": 114221,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 114132
+    },
+    {
+      "chapter_id": "ch-1037",
+      "claim_kind": "inference",
+      "end_line": 114286,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 114222
+    },
+    {
+      "chapter_id": "ch-1038",
+      "claim_kind": "inference",
+      "end_line": 114376,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 114287
+    },
+    {
+      "chapter_id": "ch-1039",
+      "claim_kind": "inference",
+      "end_line": 114467,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 114377
+    },
+    {
+      "chapter_id": "ch-1040",
+      "claim_kind": "inference",
+      "end_line": 114543,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 114468
+    },
+    {
+      "chapter_id": "ch-1058",
+      "claim_kind": "inference",
+      "end_line": 116173,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 116080
+    },
+    {
+      "chapter_id": "ch-1059",
+      "claim_kind": "inference",
+      "end_line": 116258,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 116174
+    },
+    {
+      "chapter_id": "ch-1060",
+      "claim_kind": "inference",
+      "end_line": 116347,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 116259
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/pattern/gates",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷七",
+    "可迁移机制"
+  ],
+  "title": "资格、物权与使用的多级兑现",
+  "updated_at": "2026-10-24T20:26:45.871600+00:00",
+  "user_notes": ""
+}
+
+```

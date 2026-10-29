@@ -1,0 +1,74 @@
+{
+  "asset_id": "pat-ce4bbc27355d5dfd93236cfafc6fdefe",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "适合升级、职业成长与经营线。",
+    "claim_kind": "inference",
+    "controls": {
+      "代价说明": "至少一种即时成本与一种后续依赖",
+      "复测频率": "每次重要升级后给出不同场景的验证",
+      "奖励可见度": "高"
+    },
+    "failure_mode": "连环幸运若没有技能、风险和损耗参与，会使积累失去说服力。",
+    "mechanism": "需求→有代价的投入→获得受限资源→选择路线→实战验证→新限制。",
+    "originality_boundary": "迁移因果和控制变量，不复制专名、职业装备组合、特定桥段或原文措辞。",
+    "summary": "有价值的奖励同时改变能力、路线与维护成本。"
+  },
+  "created_at": "2026-10-22T17:36:53.990850+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-b78c7493b6b6586ebca3cd580bde7e57",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-82d1042da8cc5b61a0887b5ab86ecc1d",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-213a526f71955fbe9f457be75f694fc3",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0009",
+      "claim_kind": "inference",
+      "end_line": 575,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 513
+    },
+    {
+      "chapter_id": "ch-0013",
+      "claim_kind": "inference",
+      "end_line": 884,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 824
+    },
+    {
+      "chapter_id": "ch-0050",
+      "claim_kind": "inference",
+      "end_line": 3534,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 3533
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/standard-20261023/pattern-resource-choice",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "机制",
+    "可迁移",
+    "待用户评价"
+  ],
+  "title": "资源改变选择，再由选择产出下一轮资源",
+  "updated_at": "2026-10-22T17:36:53.991898+00:00",
+  "user_notes": ""
+}

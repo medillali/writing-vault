@@ -1,0 +1,723 @@
+{
+  "status": "passed_metadata_precheck",
+  "signed_candidates": 4130,
+  "counts": {
+    "reference_shapes": 14630,
+    "references_to_build_from_signed_chapter_lists": 3023
+  },
+  "source_metadata_null_fields_to_enrich": 142,
+  "metadata_null_locations": [
+    {
+      "path": "v01-question-001/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-001/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-001/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-001/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-002/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-002/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-002/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-002/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-002/later_evidence/2",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-002/later_evidence/2",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-003/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-003/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-003/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-003/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-003/later_evidence/2",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-003/later_evidence/2",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-004/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-004/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-004/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-004/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-005/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-005/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-007/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-007/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-007/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-007/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-007/later_evidence/2",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-007/later_evidence/2",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-008/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-008/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-question-008/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-question-008/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-001/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-001/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-002/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-002/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-002/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-002/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-002/later_evidence/2",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-002/later_evidence/2",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-003/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-003/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-003/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-003/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-003/later_evidence/2",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-003/later_evidence/2",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-004/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-004/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-005/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-005/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-005/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-005/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-005/later_evidence/2",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-005/later_evidence/2",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-006/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-006/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-009/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-009/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-009/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-009/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-010/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-010/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v01-thread-010/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v01-thread-010/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-002/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-002/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-002/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-002/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-003/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-003/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-003/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-003/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-004/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-004/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-004/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-004/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-004/later_evidence/2",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-004/later_evidence/2",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-004/later_evidence/3",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-004/later_evidence/3",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-004/later_evidence/4",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-004/later_evidence/4",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-008/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-008/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-008/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-008/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-008/later_evidence/2",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-008/later_evidence/2",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-009/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-009/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-009/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-009/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-011/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-011/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-011/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-011/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-011/later_evidence/2",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-011/later_evidence/2",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-011/later_evidence/3",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-011/later_evidence/3",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-question-011/later_evidence/4",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-question-011/later_evidence/4",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-002/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-002/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-002/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-002/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-003/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-003/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-003/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-003/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-004/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-004/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-004/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-004/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-004/later_evidence/2",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-004/later_evidence/2",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-004/later_evidence/3",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-004/later_evidence/3",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-004/later_evidence/4",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-004/later_evidence/4",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-008/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-008/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-008/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-008/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-008/later_evidence/2",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-008/later_evidence/2",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-009/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-009/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-009/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-009/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-011/later_evidence/0",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-011/later_evidence/0",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-011/later_evidence/1",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-011/later_evidence/1",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-011/later_evidence/2",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-011/later_evidence/2",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-011/later_evidence/3",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-011/later_evidence/3",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v02-thread-011/later_evidence/4",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v02-thread-011/later_evidence/4",
+      "key": "revision",
+      "before": null
+    },
+    {
+      "path": "v04-thread-009/later_evidence/7",
+      "key": "source_id",
+      "before": null
+    },
+    {
+      "path": "v04-thread-009/later_evidence/7",
+      "key": "revision",
+      "before": null
+    }
+  ],
+  "issues": [],
+  "no_writes_to_signed_groups_or_pools": true
+}

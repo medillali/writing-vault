@@ -1,0 +1,1894 @@
+[
+  {
+    "candidate_id": "v06-local-source_anomalies-0001-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 0,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1188",
+          "claim_kind": "inference",
+          "end_line": 86655,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 86586
+        },
+        {
+          "chapter_id": "ch-1192",
+          "claim_kind": "inference",
+          "end_line": 86902,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 86857
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-summer-kill",
+      "interpretation": "可疑击杀归属连续性，不据此增两次同名死。",
+      "observation": "1188汪泽诚杀夏果拿箱，1192回述夏果被跪下叫主上杀，击杀者口径不合；后者不是李逍遥。",
+      "status": "unresolved_source_interface",
+      "title": "夏果首尾击归属漂移"
+    },
+    "title": "夏果首尾击归属漂移",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1188",
+        "claim_kind": "inference",
+        "end_line": 86655,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 86586
+      },
+      {
+        "chapter_id": "ch-1192",
+        "claim_kind": "inference",
+        "end_line": 86902,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 86857
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-kill-attribution-drift",
+    "rationale": "1188叙汪亲参以三将死代价杀夏果取箱，1192回顾却说夏果被跪下叫主上干掉，两处指同次失箱，没有另一次中间复起再死的交代。后夏果继续游戏及后战被倾浅杀不更正这次末刀，保汪/主上归属口径差，不替换成主角击杀。",
+    "later_chapters": [
+      1188,
+      1192
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1188",
+        "start_line": 86636,
+        "end_line": 86640,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1192",
+        "start_line": 86887,
+        "end_line": 86887,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0001-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 0,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1188",
+          "claim_kind": "inference",
+          "end_line": 86655,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 86586
+        },
+        {
+          "chapter_id": "ch-1192",
+          "claim_kind": "inference",
+          "end_line": 86902,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 86857
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-summer-kill",
+      "interpretation": "可疑击杀归属连续性，不据此增两次同名死。",
+      "observation": "1188汪泽诚杀夏果拿箱，1192回述夏果被跪下叫主上杀，击杀者口径不合；后者不是李逍遥。",
+      "status": "unresolved_source_interface",
+      "title": "夏果首尾击归属漂移"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1188",
+        "claim_kind": "inference",
+        "end_line": 86655,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 86586
+      },
+      {
+        "chapter_id": "ch-1192",
+        "claim_kind": "inference",
+        "end_line": 86902,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 86857
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-preserves-attribution-channels",
+    "rationale": "本次流转夏果失箱已定，但1188直接叙汪参战与1192回顾主上杀必须分别列；不增两次同名死亡、不用后玩家返场倒证第一次确由谁末刀。保源限缩这一研究约束已落实，answered不是作者已唯一裁决汪或主上。",
+    "later_chapters": [
+      1188,
+      1192
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1188",
+        "start_line": 86636,
+        "end_line": 86640,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1192",
+        "start_line": 86887,
+        "end_line": 86887,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0001-03",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 0,
+    "atomic_index": 2,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1188",
+          "claim_kind": "inference",
+          "end_line": 86655,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 86586
+        },
+        {
+          "chapter_id": "ch-1192",
+          "claim_kind": "inference",
+          "end_line": 86902,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 86857
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-summer-kill",
+      "interpretation": "可疑击杀归属连续性，不据此增两次同名死。",
+      "observation": "1188汪泽诚杀夏果拿箱，1192回述夏果被跪下叫主上杀，击杀者口径不合；后者不是李逍遥。",
+      "status": "unresolved_source_interface",
+      "title": "夏果首尾击归属漂移"
+    },
+    "title": "不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1188",
+        "claim_kind": "inference",
+        "end_line": 86655,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 86586
+      },
+      {
+        "chapter_id": "ch-1192",
+        "claim_kind": "inference",
+        "end_line": 86902,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 86857
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-does-not-repair-frozen-records",
+    "rationale": "两种击杀称谓仍随原证据保留，原1188/1192笔记和分卷不重写；没有以新死亡规则或作者遗忘消除差异。本项关闭的是保存与表述范围，不意味着小说在终点又交一份唯一末刀清单。",
+    "later_chapters": [
+      1188,
+      1192
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1188",
+        "start_line": 86586,
+        "end_line": 86655,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1192",
+        "start_line": 86857,
+        "end_line": 86902,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0002-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 1,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1209",
+          "claim_kind": "inference",
+          "end_line": 88046,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 87984
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-zero-health",
+      "interpretation": "可能省略或字面误写，不能用归零宣一场未写的永久死亡。",
+      "observation": "主被击气血归零，后仍继续活动，未显系统死亡/复活衔接。",
+      "status": "unresolved_source_interface",
+      "title": "1209气血归零后续打未给死亡过程"
+    },
+    "title": "1209气血归零后续打未给死亡过程",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1209",
+        "claim_kind": "inference",
+        "end_line": 88046,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 87984
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-zero-health-transition",
+    "rationale": "1209 L88012字面血再度归零，随后仍漂浮独战、血起落，没有系统死亡/霸王提示、掉级或复起过渡。1214—1215真正霸王死亡有明确次数和叠层，不能移来解释此场；保零血与继续打的接口未明，不静默改‘差点归零’。",
+    "later_chapters": [
+      1209,
+      1214,
+      1215
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1209",
+        "start_line": 88012,
+        "end_line": 88023,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1214",
+        "start_line": 88327,
+        "end_line": 88352,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1215",
+        "start_line": 88355,
+        "end_line": 88433,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0002-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 1,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1209",
+          "claim_kind": "inference",
+          "end_line": 88046,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 87984
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-zero-health",
+      "interpretation": "可能省略或字面误写，不能用归零宣一场未写的永久死亡。",
+      "observation": "主被击气血归零，后仍继续活动，未显系统死亡/复活衔接。",
+      "status": "unresolved_source_interface",
+      "title": "1209气血归零后续打未给死亡过程"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1209",
+        "claim_kind": "inference",
+        "end_line": 88046,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 87984
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-no-extra-death-from-zero-word",
+    "rationale": "1209可确认主危险但继续行动、流霜随后援护，零血句不足独立添一场永久死亡或一次未叙霸王叠层。把伤势文字与死亡结算分开即可闭此研究约束，具体为什么零后仍动则保unknown源接口。",
+    "later_chapters": [
+      1209
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1209",
+        "start_line": 88012,
+        "end_line": 88044,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0002-03",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 1,
+    "atomic_index": 2,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1209",
+          "claim_kind": "inference",
+          "end_line": 88046,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 87984
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-zero-health",
+      "interpretation": "可能省略或字面误写，不能用归零宣一场未写的永久死亡。",
+      "observation": "主被击气血归零，后仍继续活动，未显系统死亡/复活衔接。",
+      "status": "unresolved_source_interface",
+      "title": "1209气血归零后续打未给死亡过程"
+    },
+    "title": "不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1209",
+        "claim_kind": "inference",
+        "end_line": 88046,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 87984
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-preserves-zero-wording",
+    "rationale": "原1209零血文字和后动作都保、不改冻结笔记为近零、不造自动回生规则；后1214真正复生另按明文计五次。此保存约束落实，不自动将源表述问题判作者遗漏某场戏。",
+    "later_chapters": [
+      1209,
+      1214,
+      1215
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1209",
+        "start_line": 88012,
+        "end_line": 88023,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1214",
+        "start_line": 88327,
+        "end_line": 88352,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1215",
+        "start_line": 88355,
+        "end_line": 88433,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0003-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 2,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1212",
+          "claim_kind": "inference",
+          "end_line": 88236,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 88178
+        },
+        {
+          "chapter_id": "ch-1214",
+          "claim_kind": "inference",
+          "end_line": 88354,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 88296
+        },
+        {
+          "chapter_id": "ch-1215",
+          "claim_kind": "inference",
+          "end_line": 88433,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 88355
+        },
+        {
+          "chapter_id": "ch-1219",
+          "claim_kind": "inference",
+          "end_line": 88706,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 88651
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-failure-exception",
+      "interpretation": "任务宣称与实际系统接口不合，霸王例外没有明文。",
+      "observation": "查真相任务先说死则败，主霸王多次死后任务却成。",
+      "status": "unresolved_source_interface",
+      "title": "任务初死失败与霸王仍成功"
+    },
+    "title": "任务初死失败与霸王仍成功",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1212",
+        "claim_kind": "inference",
+        "end_line": 88236,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 88178
+      },
+      {
+        "chapter_id": "ch-1214",
+        "claim_kind": "inference",
+        "end_line": 88354,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 88296
+      },
+      {
+        "chapter_id": "ch-1215",
+        "claim_kind": "inference",
+        "end_line": 88433,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 88355
+      },
+      {
+        "chapter_id": "ch-1219",
+        "claim_kind": "inference",
+        "end_line": 88706,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 88651
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-task-failure-versus-rebirth",
+    "rationale": "1212系统写死亡自动失败，1214—1215主确五死霸王原地回生，1219又系统找到真相任务成功奖三级75魅2000金。成功回执明确、例外原理未说明，不能仍判任务已失败，也不无证把霸王定成普遍不算死亡的规则补丁。",
+    "later_chapters": [
+      1212,
+      1214,
+      1215,
+      1219
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1212",
+        "start_line": 88179,
+        "end_line": 88191,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1214",
+        "start_line": 88327,
+        "end_line": 88352,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1215",
+        "start_line": 88355,
+        "end_line": 88433,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1219",
+        "start_line": 88669,
+        "end_line": 88685,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0003-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 2,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1212",
+          "claim_kind": "inference",
+          "end_line": 88236,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 88178
+        },
+        {
+          "chapter_id": "ch-1214",
+          "claim_kind": "inference",
+          "end_line": 88354,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 88296
+        },
+        {
+          "chapter_id": "ch-1215",
+          "claim_kind": "inference",
+          "end_line": 88433,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 88355
+        },
+        {
+          "chapter_id": "ch-1219",
+          "claim_kind": "inference",
+          "end_line": 88706,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 88651
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-failure-exception",
+      "interpretation": "任务宣称与实际系统接口不合，霸王例外没有明文。",
+      "observation": "查真相任务先说死则败，主霸王多次死后任务却成。",
+      "status": "unresolved_source_interface",
+      "title": "任务初死失败与霸王仍成功"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1212",
+        "claim_kind": "inference",
+        "end_line": 88236,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 88178
+      },
+      {
+        "chapter_id": "ch-1214",
+        "claim_kind": "inference",
+        "end_line": 88354,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 88296
+      },
+      {
+        "chapter_id": "ch-1215",
+        "claim_kind": "inference",
+        "end_line": 88433,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 88355
+      },
+      {
+        "chapter_id": "ch-1219",
+        "claim_kind": "inference",
+        "end_line": 88706,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 88651
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-outcome-and-explanation-separated",
+    "rationale": "已把死失败的宣称、五次霸王的真实代价和1219最终系统成功并列，不为了配规则删成功奖或另补一次失败。研究限缩完成，回答任务结果是成功而解释缺口仍留，不称当时永远没死。",
+    "later_chapters": [
+      1212,
+      1215,
+      1219
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1212",
+        "start_line": 88179,
+        "end_line": 88191,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1215",
+        "start_line": 88355,
+        "end_line": 88433,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1219",
+        "start_line": 88669,
+        "end_line": 88685,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0003-03",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 2,
+    "atomic_index": 2,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1212",
+          "claim_kind": "inference",
+          "end_line": 88236,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 88178
+        },
+        {
+          "chapter_id": "ch-1214",
+          "claim_kind": "inference",
+          "end_line": 88354,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 88296
+        },
+        {
+          "chapter_id": "ch-1215",
+          "claim_kind": "inference",
+          "end_line": 88433,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 88355
+        },
+        {
+          "chapter_id": "ch-1219",
+          "claim_kind": "inference",
+          "end_line": 88706,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 88651
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-failure-exception",
+      "interpretation": "任务宣称与实际系统接口不合，霸王例外没有明文。",
+      "observation": "查真相任务先说死则败，主霸王多次死后任务却成。",
+      "status": "unresolved_source_interface",
+      "title": "任务初死失败与霸王仍成功"
+    },
+    "title": "不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1212",
+        "claim_kind": "inference",
+        "end_line": 88236,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 88178
+      },
+      {
+        "chapter_id": "ch-1214",
+        "claim_kind": "inference",
+        "end_line": 88354,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 88296
+      },
+      {
+        "chapter_id": "ch-1215",
+        "claim_kind": "inference",
+        "end_line": 88433,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 88355
+      },
+      {
+        "chapter_id": "ch-1219",
+        "claim_kind": "inference",
+        "end_line": 88706,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 88651
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-no-invented-task-exemption",
+    "rationale": "原逐章死亡次数与任务成功未改，当前只说明霸王执行与失败条款存在未解释接口，未扩成所有任务都豁免或作者正式增设例外。answered关的是不造设定的记录要求，不是文本已经解释了判定算法。",
+    "later_chapters": [
+      1212,
+      1219
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1212",
+        "start_line": 88179,
+        "end_line": 88191,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1219",
+        "start_line": 88669,
+        "end_line": 88685,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0004-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 3,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1251",
+          "claim_kind": "inference",
+          "end_line": 90654,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 90595
+        },
+        {
+          "chapter_id": "ch-1253",
+          "claim_kind": "inference",
+          "end_line": 90784,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 90719
+        },
+        {
+          "chapter_id": "ch-1254",
+          "claim_kind": "inference",
+          "end_line": 90851,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 90785
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-space-name",
+      "interpretation": "同剧情功能暂称空间神尊，不虚构一个正确汉字名或拆三人。",
+      "observation": "同神尊来仇/带路段离陨…/离裕/离缘等名字字形变化。",
+      "status": "unresolved_source_interface",
+      "title": "空间神尊名字乱码与异写"
+    },
+    "title": "空间神尊名字乱码与异写",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1251",
+        "claim_kind": "inference",
+        "end_line": 90654,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 90595
+      },
+      {
+        "chapter_id": "ch-1253",
+        "claim_kind": "inference",
+        "end_line": 90784,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 90719
+      },
+      {
+        "chapter_id": "ch-1254",
+        "claim_kind": "inference",
+        "end_line": 90851,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 90785
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-damaged-name-orthography",
+    "rationale": "1251克雷斯求救、1253旧友空间神尊来攻、1254俘虏带路后被主杀是同一连续人物链，乱码及离裕/离缘等异写没有独立规范姓名公告。可用‘空间神尊’稳定指人，不能凭自己偏好补一个全书正确汉字名。",
+    "later_chapters": [
+      1251,
+      1253,
+      1254
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1251",
+        "start_line": 90621,
+        "end_line": 90622,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1253",
+        "start_line": 90719,
+        "end_line": 90784,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1254",
+        "start_line": 90785,
+        "end_line": 90851,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0004-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 3,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1251",
+          "claim_kind": "inference",
+          "end_line": 90654,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 90595
+        },
+        {
+          "chapter_id": "ch-1253",
+          "claim_kind": "inference",
+          "end_line": 90784,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 90719
+        },
+        {
+          "chapter_id": "ch-1254",
+          "claim_kind": "inference",
+          "end_line": 90851,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 90785
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-space-name",
+      "interpretation": "同剧情功能暂称空间神尊，不虚构一个正确汉字名或拆三人。",
+      "observation": "同神尊来仇/带路段离陨…/离裕/离缘等名字字形变化。",
+      "status": "unresolved_source_interface",
+      "title": "空间神尊名字乱码与异写"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1251",
+        "claim_kind": "inference",
+        "end_line": 90654,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 90595
+      },
+      {
+        "chapter_id": "ch-1253",
+        "claim_kind": "inference",
+        "end_line": 90784,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 90719
+      },
+      {
+        "chapter_id": "ch-1254",
+        "claim_kind": "inference",
+        "end_line": 90851,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 90785
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-follows-continuous-entity",
+    "rationale": "1253压到2%俘获、1254同俘虏无须审讯带路、主随即杀取格，连续角色功能足以暂按同一空间神尊记录。保字形不能化出三名敌人或三枚神格，此实体边界可闭，规范名仍未获独立更正。",
+    "later_chapters": [
+      1253,
+      1254
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1253",
+        "start_line": 90719,
+        "end_line": 90784,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1254",
+        "start_line": 90785,
+        "end_line": 90851,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0004-03",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 3,
+    "atomic_index": 2,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1251",
+          "claim_kind": "inference",
+          "end_line": 90654,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 90595
+        },
+        {
+          "chapter_id": "ch-1253",
+          "claim_kind": "inference",
+          "end_line": 90784,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 90719
+        },
+        {
+          "chapter_id": "ch-1254",
+          "claim_kind": "inference",
+          "end_line": 90851,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 90785
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-space-name",
+      "interpretation": "同剧情功能暂称空间神尊，不虚构一个正确汉字名或拆三人。",
+      "observation": "同神尊来仇/带路段离陨…/离裕/离缘等名字字形变化。",
+      "status": "unresolved_source_interface",
+      "title": "空间神尊名字乱码与异写"
+    },
+    "title": "不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1251",
+        "claim_kind": "inference",
+        "end_line": 90654,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 90595
+      },
+      {
+        "chapter_id": "ch-1253",
+        "claim_kind": "inference",
+        "end_line": 90784,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 90719
+      },
+      {
+        "chapter_id": "ch-1254",
+        "claim_kind": "inference",
+        "end_line": 90851,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 90785
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-keeps-corruption-without-canonical-rewrite",
+    "rationale": "1251损坏字串与1253—1254异写留在原始材料；终评暂用职能名，未改冻结源或自造新神尊规则。此为可关闭的保存约束，不能借终点主已上神阶反推这名旧敌应该是谁。",
+    "later_chapters": [
+      1251,
+      1253,
+      1254
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1251",
+        "start_line": 90595,
+        "end_line": 90654,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1253",
+        "start_line": 90719,
+        "end_line": 90784,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1254",
+        "start_line": 90785,
+        "end_line": 90851,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0005-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 4,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1251",
+          "claim_kind": "inference",
+          "end_line": 90654,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 90595
+        },
+        {
+          "chapter_id": "ch-1260",
+          "claim_kind": "inference",
+          "end_line": 91258,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91194
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-entry-day",
+      "interpretation": "可能对入境次数/上线表述混用，未明解释则保源，不扩无限进。",
+      "observation": "1251说明每天上线一次，后1260日内又上线继续协同。",
+      "status": "unresolved_source_interface",
+      "title": "碎寂每天一次与当日再上线"
+    },
+    "title": "碎寂每天一次与当日再上线",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1251",
+        "claim_kind": "inference",
+        "end_line": 90654,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 90595
+      },
+      {
+        "chapter_id": "ch-1260",
+        "claim_kind": "inference",
+        "end_line": 91258,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91194
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-daily-login-interface",
+    "rationale": "1251明说境内每天只可上线一次、离境七天冷却；1260主为阻东炼下位格下线熔锁敲盔，随即再上都灵开军会。未给该现实日跨午夜或上线次数例外的明确说明，‘下线不等离境’可区分七天冷却却不自动解释每天一次，保此具体接口。",
+    "later_chapters": [
+      1251,
+      1260
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1251",
+        "start_line": 90639,
+        "end_line": 90652,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1260",
+        "start_line": 91209,
+        "end_line": 91223,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1260",
+        "start_line": 91224,
+        "end_line": 91258,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0005-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 4,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1251",
+          "claim_kind": "inference",
+          "end_line": 90654,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 90595
+        },
+        {
+          "chapter_id": "ch-1260",
+          "claim_kind": "inference",
+          "end_line": 91258,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91194
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-entry-day",
+      "interpretation": "可能对入境次数/上线表述混用，未明解释则保源，不扩无限进。",
+      "observation": "1251说明每天上线一次，后1260日内又上线继续协同。",
+      "status": "unresolved_source_interface",
+      "title": "碎寂每天一次与当日再上线"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1251",
+        "claim_kind": "inference",
+        "end_line": 90654,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 90595
+      },
+      {
+        "chapter_id": "ch-1260",
+        "claim_kind": "inference",
+        "end_line": 91258,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91194
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-separates-login-and-reentry",
+    "rationale": "将1251每日上线一次、最长连续停留七天、离境后七天冷却分别记，不把1260境内再上线误作主已离境重进而虚清冷却。日内次数仍未解释，研究限缩完成，不扩大无限进入碎寂。",
+    "later_chapters": [
+      1251,
+      1260
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1251",
+        "start_line": 90639,
+        "end_line": 90652,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1260",
+        "start_line": 91194,
+        "end_line": 91258,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0005-03",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 4,
+    "atomic_index": 2,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1251",
+          "claim_kind": "inference",
+          "end_line": 90654,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 90595
+        },
+        {
+          "chapter_id": "ch-1260",
+          "claim_kind": "inference",
+          "end_line": 91258,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91194
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-entry-day",
+      "interpretation": "可能对入境次数/上线表述混用，未明解释则保源，不扩无限进。",
+      "observation": "1251说明每天上线一次，后1260日内又上线继续协同。",
+      "status": "unresolved_source_interface",
+      "title": "碎寂每天一次与当日再上线"
+    },
+    "title": "不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1251",
+        "claim_kind": "inference",
+        "end_line": 90654,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 90595
+      },
+      {
+        "chapter_id": "ch-1260",
+        "claim_kind": "inference",
+        "end_line": 91258,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91194
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-no-invented-login-patch",
+    "rationale": "原1251规则与1260行动均保存，不补凌晨刷新、特许或神位豁免来修平。没有据接口差改冻结逐章，也没有把不明原因称作者遗忘；answered仅记录边界落实，次数规则的疑点仍单列。",
+    "later_chapters": [
+      1251,
+      1260
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1251",
+        "start_line": 90641,
+        "end_line": 90641,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1260",
+        "start_line": 91209,
+        "end_line": 91258,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0006-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 5,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1262",
+          "claim_kind": "inference",
+          "end_line": 91389,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91320
+        },
+        {
+          "chapter_id": "ch-1263",
+          "claim_kind": "inference",
+          "end_line": 91457,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91390
+        },
+        {
+          "chapter_id": "ch-1266",
+          "claim_kind": "inference",
+          "end_line": 91652,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91586
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-winter-tier",
+      "interpretation": "以实际中位飞升为阶段结果，保单处上位字面，不当另得一枚上格。",
+      "observation": "围冬茗前后均中位，1262一处称上位；后圣冰用于林中位。",
+      "status": "unresolved_source_interface",
+      "title": "冬茗格中位/上位漂移"
+    },
+    "title": "冬茗格中位/上位漂移",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1262",
+        "claim_kind": "inference",
+        "end_line": 91389,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91320
+      },
+      {
+        "chapter_id": "ch-1263",
+        "claim_kind": "inference",
+        "end_line": 91457,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91390
+      },
+      {
+        "chapter_id": "ch-1266",
+        "claim_kind": "inference",
+        "end_line": 91652,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91586
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-divinity-tier-wording",
+    "rationale": "1262一处确称冬茗上位神格，同段仍称神王；1263夺回交东的是中位，1266林真正以神圣冰霜中位飞升。实际用于林的是中位有系统回执，上位那一词未获作者正式解释，不额外发一枚上位格或说林曾上位后降格。",
+    "later_chapters": [
+      1262,
+      1263,
+      1266
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1262",
+        "start_line": 91369,
+        "end_line": 91381,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1263",
+        "start_line": 91390,
+        "end_line": 91457,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1266",
+        "start_line": 91586,
+        "end_line": 91652,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0006-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 5,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1262",
+          "claim_kind": "inference",
+          "end_line": 91389,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91320
+        },
+        {
+          "chapter_id": "ch-1263",
+          "claim_kind": "inference",
+          "end_line": 91457,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91390
+        },
+        {
+          "chapter_id": "ch-1266",
+          "claim_kind": "inference",
+          "end_line": 91652,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91586
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-winter-tier",
+      "interpretation": "以实际中位飞升为阶段结果，保单处上位字面，不当另得一枚上格。",
+      "observation": "围冬茗前后均中位，1262一处称上位；后圣冰用于林中位。",
+      "status": "unresolved_source_interface",
+      "title": "冬茗格中位/上位漂移"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1262",
+        "claim_kind": "inference",
+        "end_line": 91389,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91320
+      },
+      {
+        "chapter_id": "ch-1263",
+        "claim_kind": "inference",
+        "end_line": 91457,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91390
+      },
+      {
+        "chapter_id": "ch-1266",
+        "claim_kind": "inference",
+        "end_line": 91652,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91586
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-system-result-bounds-tier",
+    "rationale": "以1263交冬中位格与1266苍瞳系统中位飞升记实际结果，单处上位留原文而不扩成新掉落；林最终另轮追更高格也不能倒改此次起点。研究对位阶结论已限缩，不称上位字样获得唯一勘误。",
+    "later_chapters": [
+      1262,
+      1263,
+      1266
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1262",
+        "start_line": 91377,
+        "end_line": 91377,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1263",
+        "start_line": 91390,
+        "end_line": 91457,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1266",
+        "start_line": 91586,
+        "end_line": 91652,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0006-03",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 5,
+    "atomic_index": 2,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1262",
+          "claim_kind": "inference",
+          "end_line": 91389,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91320
+        },
+        {
+          "chapter_id": "ch-1263",
+          "claim_kind": "inference",
+          "end_line": 91457,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91390
+        },
+        {
+          "chapter_id": "ch-1266",
+          "claim_kind": "inference",
+          "end_line": 91652,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91586
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-winter-tier",
+      "interpretation": "以实际中位飞升为阶段结果，保单处上位字面，不当另得一枚上格。",
+      "observation": "围冬茗前后均中位，1262一处称上位；后圣冰用于林中位。",
+      "status": "unresolved_source_interface",
+      "title": "冬茗格中位/上位漂移"
+    },
+    "title": "不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1262",
+        "claim_kind": "inference",
+        "end_line": 91389,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91320
+      },
+      {
+        "chapter_id": "ch-1263",
+        "claim_kind": "inference",
+        "end_line": 91457,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91390
+      },
+      {
+        "chapter_id": "ch-1266",
+        "claim_kind": "inference",
+        "end_line": 91652,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91586
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-preserves-tier-source-difference",
+    "rationale": "原中/上位差与最终中位系统奖并存，不重写冻结事实、不造失格重炼过程或归为作者漏写一战。answered仅保存及不增设规则的约束已闭，小说这处用词原因仍未明。",
+    "later_chapters": [
+      1262,
+      1266
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1262",
+        "start_line": 91377,
+        "end_line": 91377,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1266",
+        "start_line": 91586,
+        "end_line": 91652,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0007-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 6,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1262",
+          "claim_kind": "inference",
+          "end_line": 91389,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91320
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-npc-player",
+      "interpretation": "叙称混用不证明他们全体转玩家。",
+      "observation": "1262主旁的己NPC守军单处用玩家称谓。",
+      "status": "unresolved_source_interface",
+      "title": "冬战中NPC被称玩家"
+    },
+    "title": "冬战中NPC被称玩家",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1262",
+        "claim_kind": "inference",
+        "end_line": 91389,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91320
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-npc-player-label",
+    "rationale": "1262主奉大将军职命开门后写‘一群玩家’冲出，前后实际是都灵守军与主东两名玩家的协作，未介绍新入境玩家团名或组队。保单处称谓而不新增玩家军；后云浅屠数百御林仍是NPC损失，不能由一个词认全军转玩家。",
+    "later_chapters": [
+      1262,
+      1263
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1262",
+        "start_line": 91333,
+        "end_line": 91344,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1263",
+        "start_line": 91390,
+        "end_line": 91457,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0007-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 6,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1262",
+          "claim_kind": "inference",
+          "end_line": 91389,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 91320
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-npc-player",
+      "interpretation": "叙称混用不证明他们全体转玩家。",
+      "observation": "1262主旁的己NPC守军单处用玩家称谓。",
+      "status": "unresolved_source_interface",
+      "title": "冬战中NPC被称玩家"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1262",
+        "claim_kind": "inference",
+        "end_line": 91389,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 91320
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-does-not-convert-npc-army",
+    "rationale": "1262这支受主将令出城的守军沿都灵NPC编制记录，1263皇子以盟约阻云浅也按当地军政链，不凭‘玩家’词补外服援军或玩家掉级复起清掉NPC死亡。保源称谓与实体依据分开，记录约束已闭。",
+    "later_chapters": [
+      1262,
+      1263
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1262",
+        "start_line": 91333,
+        "end_line": 91344,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1263",
+        "start_line": 91390,
+        "end_line": 91457,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:04:18.944338+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  }
+]

@@ -1,0 +1,78 @@
+# 现实董欣然与徐宁的解释
+
+ID: `scn-ebdcc2ec26a95b4eaa3f08568a809e75` · 版本: 1 · 范围: source-analysis
+
+主确见董欣然现实昏睡；徐托游戏带回再告她睁眼，未醒
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-ebdcc2ec26a95b4eaa3f08568a809e75",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "重造人物目的、约束、信息渠道与代价后才可迁移；不直接搬用情节、数表或世界设定。",
+    "choice": "三人赴京，主单入看营养液少女，徐讲造脑/父亡/脑波峰",
+    "claim_kind": "synthesis",
+    "consequence": "主确见董欣然现实昏睡；徐托游戏带回再告她睁眼，未醒",
+    "failure_mode": "本书主脑设定非现实技术证明；两女未进单门不写同亲见",
+    "goal": "核神秘电话并找心数据问题",
+    "obstacle": "保密/权限，现实少女无知觉",
+    "state_change": "现实实体见证与研发解释分层揭身份",
+    "summary": "主确见董欣然现实昏睡；徐托游戏带回再告她睁眼，未醒",
+    "why_it_works": "大揭示能改变任务目标而不立刻解决行动难题"
+  },
+  "created_at": "2026-10-25T00:16:11.704401+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1487",
+      "claim_kind": "fact",
+      "end_line": 117895,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 117797
+    },
+    {
+      "chapter_id": "ch-1498",
+      "claim_kind": "fact",
+      "end_line": 118816,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 118730
+    },
+    {
+      "chapter_id": "ch-1499",
+      "claim_kind": "fact",
+      "end_line": 118901,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 118817
+    },
+    {
+      "chapter_id": "ch-1500",
+      "claim_kind": "fact",
+      "end_line": 118983,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 118902
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol07/scene/beijing",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:7",
+    "状态:待审阅"
+  ],
+  "title": "现实董欣然与徐宁的解释",
+  "updated_at": "2026-10-25T00:16:11.704401+00:00",
+  "user_notes": ""
+}
+
+```

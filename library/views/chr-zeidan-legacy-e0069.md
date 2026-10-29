@@ -1,0 +1,70 @@
+# 贼胆｜乌鸦｜E0069
+
+ID: `chr-zeidan-legacy-e0069` · 版本: 1 · 范围: source-analysis
+
+六人欲诱萧先手，反被欺招诱攻击；正防下五死一逃，萧仍追击余者。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0069",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "causal_importance": "规则利用与主角冷酷面",
+    "desires": [],
+    "facts": [
+      "六人欲诱萧先手，反被欺招诱攻击；正防下五死一逃，萧仍追击余者。"
+    ],
+    "identity": "黑市六人组相关玩家",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0069",
+    "limits": [],
+    "maintenance_depth": "中",
+    "name": "乌鸦",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0069",
+    "relationships": [],
+    "summary": "六人欲诱萧先手，反被欺招诱攻击；正防下五死一逃，萧仍追击余者。",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:12.300126+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0213",
+      "claim_kind": "fact",
+      "end_line": 10520,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 10444
+    },
+    {
+      "chapter_id": "ch-0214",
+      "claim_kind": "fact",
+      "end_line": 10598,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 10521
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0069",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜乌鸦｜E0069",
+  "updated_at": "2026-10-22T17:03:12.302130+00:00",
+  "user_notes": ""
+}
+
+```

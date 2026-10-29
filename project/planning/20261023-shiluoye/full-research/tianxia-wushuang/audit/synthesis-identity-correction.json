@@ -1,0 +1,86 @@
+{
+  "status": "primary-source-verified-correction",
+  "error_class": "derived-research-guild-name-and-role-id-field-confusion",
+  "before_fact_summary": "陆尘的现实与旧新ID有本书证据，其他人物也有别名和误称；同名NPC、近称龙类、跨书人物出场及原章号与片段号均需分别处理。 卷6：吻痕/谁与争锋至少各三服职业实体，明宇借体自述只本书证据；龙类同称不合并。 卷7：现实昏睡董欣然主亲见，徐宁技术解释另层；游戏心到最后才听现实说法，不能前置知情。 卷8：本卷心签董欣然/关悦即无关风月/清风破即林凡有明证；许阳杜十三、苏菲索菲娅独立，匿名旧称不跨书补实名。",
+  "corrected_identity": "1098的官方查找列出吻痕三同ID，谁与争锋仅为中国吻痕的公会字段；1209角色ID谁与争锋属于巴西212剑术宗师、锋芒盟主。旧研究给后者造中美同名玩家，属于派生读者误配，已撤回；不是小说新增实体或源文矛盾。",
+  "evidence": [
+    {
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "chapter_id": "ch-1098",
+      "start_line": 88904,
+      "end_line": 88909,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "chapter_id": "ch-1209",
+      "start_line": 97115,
+      "end_line": 97121,
+      "claim_kind": "fact"
+    }
+  ],
+  "reviewer": "primary",
+  "user_approval": false,
+  "actual_source_read_scope": "root此前已BEGIN-END完整原章1098及1209；本次重读已发表36条综合的全部顶层文学语义时发现尚未同步的一处派生摘要。",
+  "retained_historical_upstream": {
+    "material_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json",
+    "json_pointer": "/dimensions/continuity/1",
+    "quoted_observation": "吻痕至少荷兰战士/中国刺客/美国战士三实体，谁与争锋中国165刺/美国192战/巴西212锋芒剑师不同；小蛮为第八分刺，水云为魂归盟主。",
+    "policy": "原reported_observation是旧读者误读的来源历史，不作为当前小说事实；原正式卷六不就地改写。"
+  },
+  "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+  "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+  "amended_at": "2026-10-25T03:03:38.540127+00:00",
+  "changed_synthesis_observation_id": "wushuang-book-continuity-01",
+  "after_fact_summary": "陆尘的现实与旧新ID有本书证据，其他人物也有别名和误称；同名NPC、近称龙类、跨书人物出场及原章号与片段号均需分别处理。 卷6：1098同ID三项均为吻痕：中国165刺客、美国192战士和无籍199荷兰战士；其中谁与争锋是中国吻痕所属公会名，1209巴西212剑师另以谁与争锋为角色ID，不能混字段或造出中美同名谁。明宇借体自述只本书证据；龙类同称不合并。 卷7：现实昏睡董欣然主亲见，徐宁技术解释另层；游戏心到最后才听现实说法，不能前置知情。 卷8：本卷心签董欣然/关悦即无关风月/清风破即林凡有明证；许阳杜十三、苏菲索菲娅独立，匿名旧称不跨书补实名。",
+  "other_35_observations_equal": true,
+  "original_upstream_quotation_preserved": true,
+  "before_snapshots": {
+    ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft.json": {
+      "snapshot": "audit/synthesis-revisions/before-identity-guild-field-fix/00-book-synthesis-draft.json",
+      "sha256": "1a02dda183cd807ea2b2544cf96880b18e42bc8d9128db76a9f9ca0d3e142df8"
+    },
+    ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft.md": {
+      "snapshot": "audit/synthesis-revisions/before-identity-guild-field-fix/01-book-synthesis-draft.md",
+      "sha256": "04864c47759b23ebded8a69a752984129e1fd6be7d469f3ef3a7b9299b1c585e"
+    },
+    ".planning/20261023-shiluoye/full-research/tianxia-wushuang/primary-synthesis-review.json": {
+      "snapshot": "audit/synthesis-revisions/before-identity-guild-field-fix/02-primary-synthesis-review.json",
+      "sha256": "65754c8753dd4dfd22afbdb7f1e170b306e6e2ff51c761fb349c2cc348f4e37e"
+    },
+    "writing-vault/library/reports/tianxia-wushuang/book-synthesis.json": {
+      "snapshot": "audit/synthesis-revisions/before-identity-guild-field-fix/03-book-synthesis.json",
+      "sha256": "bc01c693645d24ff64fb967222282a4026b802cf2a0129fe16c44679d16000ec"
+    },
+    "writing-vault/library/reports/tianxia-wushuang/book-synthesis.md": {
+      "snapshot": "audit/synthesis-revisions/before-identity-guild-field-fix/04-book-synthesis.md",
+      "sha256": "8232051fa6ee5827b1a3bc2c45effb2c34e5a7fa218b9eeb272ff021c8a73aee"
+    },
+    "writing-vault/library/reports/tianxia-wushuang/audit/book-synthesis-review.json": {
+      "snapshot": "audit/synthesis-revisions/before-identity-guild-field-fix/05-book-synthesis-review.json",
+      "sha256": "6be951af2d1297cd5e1ea1f7453369b7e3abd9ad276aca88a6ddaf2cb1e82459"
+    },
+    "writing-vault/library/reports/tianxia-wushuang/ACCEPTANCE.json": {
+      "snapshot": "audit/synthesis-revisions/before-identity-guild-field-fix/06-ACCEPTANCE.json",
+      "sha256": "6c25e04bfd5129306450c3aaf00480a387b552afe09914982ec202fdf629de9b"
+    },
+    "writing-vault/library/reports/tianxia-wushuang/ACCEPTANCE.md": {
+      "snapshot": "audit/synthesis-revisions/before-identity-guild-field-fix/07-ACCEPTANCE.md",
+      "sha256": "acb5f010eb51ca14579d96670d8a4d053e674a7ccdc8709f10e9945c42df286b"
+    }
+  },
+  "formal_terminal_audit_changed": false,
+  "publication_verification": {
+    "status": "passed",
+    "other_35_observations_equal": true,
+    "historical_upstream_quote_preserved": true,
+    "current_draft_sha256": "ee349d3cd188b4e83b99f1a798acd1aff2ae1a3c6a9d313d160da41cc54611d7",
+    "published_json_sha256": "3542669def640d916e14dd6d9580a6dd2eaa59e796080529a87f4232419e7a7d",
+    "published_markdown_sha256": "f5ca91b9c93bafb58a91903518c05a2ceed1b160034973195079f1f6176763e1",
+    "current_review_sha256": "fd6231c3793c4cc50505825c22c4d212903f8f81ba27f736d6c139603fbff08d",
+    "canonical_asset_field_scan": "当前无双正式卡片递归字符串定向检索只命中巴西谁卡标题，未见旧中美谁名单传播；不等重读所有卡全部事实。",
+    "terminal_four_packages_and_manifest_unchanged": true
+  }
+}

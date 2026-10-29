@@ -1,0 +1,149 @@
+{
+  "status": "self_scope_complete_pending_primary_final_review_and_root_assembly",
+  "actual_reviewer": "zongheng_vol05_full",
+  "scope": "八个稳定分组47研究条；本代理不覆盖reader3/reader4范围，不生成冒充全书覆盖的总稿。",
+  "groups": [
+    {
+      "path": "character-arcs-part01.json",
+      "json_sha256": "45104f6ccbba93f6703d4bbc0de8b4228b644053ff6fbb621d92fa0d655a26ea",
+      "md_sha256": "7415e351f17c87b3af03d804b91fa560d99f905053f2b07beaee8c8d82fd21c2",
+      "count": 3,
+      "audit_ids": [
+        "character-arc-001",
+        "character-arc-002",
+        "character-arc-003"
+      ],
+      "status": "primary_signed_current_bytes"
+    },
+    {
+      "path": "character-arcs-part02.json",
+      "json_sha256": "4629326e89133a8dc661448ae395c76c43913dbe4b6ef2c170849a40891b4737",
+      "md_sha256": "7d61d358bc0dd2a6cd93d7414395b83ce669bbd1a620deb3408c834650ab88f4",
+      "count": 3,
+      "audit_ids": [
+        "character-arc-004",
+        "character-arc-005",
+        "character-arc-006"
+      ],
+      "status": "primary_signed_current_bytes"
+    },
+    {
+      "path": "character-arcs-part03.json",
+      "json_sha256": "e53008001a884a4fa3519ce87f76cc9a075fd2cd002aefeb3b1fc4809f89d0d0",
+      "md_sha256": "9672cc0c07e6f8c6fc4f8a7030b38fbd13fec44f7c0b44d9d521f02586feede1",
+      "count": 7,
+      "audit_ids": [
+        "character-arc-007",
+        "character-arc-008",
+        "character-arc-009",
+        "character-arc-010",
+        "character-arc-011",
+        "character-arc-012",
+        "character-arc-013"
+      ],
+      "status": "primary_signed_current_bytes"
+    },
+    {
+      "path": "character-arcs-part04.json",
+      "json_sha256": "32f95c828e654ecdf18016afbeadae203d43d63e8148960adda41391dace0c7b",
+      "md_sha256": "bd3dd0cdda45a4b3c81da48f2f5356294e3097fab81e22929c50052017e3e0c9",
+      "count": 8,
+      "audit_ids": [
+        "character-arc-014",
+        "character-arc-015",
+        "character-arc-016",
+        "character-arc-017",
+        "character-arc-018",
+        "character-arc-019",
+        "character-arc-020",
+        "character-arc-021"
+      ],
+      "status": "primary_signed_current_bytes"
+    },
+    {
+      "path": "character-arcs-part05.json",
+      "json_sha256": "b81b97727412d230ed9549f341fca5e8e6d2e2add4f6dfc0cc38214e8e3e3c87",
+      "md_sha256": "57111879e256d732fd6b2e80e37902c4307961483d7ecee1bb8922d48b9f3cce",
+      "count": 7,
+      "audit_ids": [
+        "character-arc-022",
+        "character-arc-023",
+        "character-arc-024",
+        "character-arc-025",
+        "character-arc-026",
+        "character-arc-027",
+        "character-arc-028"
+      ],
+      "status": "primary_signed_current_bytes"
+    },
+    {
+      "path": "character-arcs-part06.json",
+      "json_sha256": "c18363ad52971a900a4128712aefe1fe5b80b91915b26688aabaa2c0b3e4444a",
+      "md_sha256": "1db542ad04da323746cfc7f14e594645bc48110da36b60f25d78d1f53746c453",
+      "count": 6,
+      "audit_ids": [
+        "character-arc-029",
+        "character-arc-030",
+        "character-arc-031",
+        "character-arc-032",
+        "character-arc-033",
+        "character-arc-034"
+      ],
+      "status": "primary_signed_current_bytes"
+    },
+    {
+      "path": "character-arcs-part07.json",
+      "json_sha256": "ab0f5048bb4d6777a81c7dd27121840af641b5bc4998fe9dce5ae6af4599ae08",
+      "md_sha256": "97ec6804b81a90bf181fca5dda4ca7416b61c5ccd59df41a6701c84d0ae4f4d7",
+      "count": 7,
+      "audit_ids": [
+        "character-arc-035",
+        "character-arc-036",
+        "character-arc-037",
+        "character-arc-038",
+        "character-arc-039",
+        "character-arc-040",
+        "character-arc-047"
+      ],
+      "status": "primary_signed_current_bytes"
+    },
+    {
+      "path": "character-arcs-part08.json",
+      "json_sha256": "817461f7f8ca8babca3a5b4be090a844f9533dbf8805531717f7c762dafe4f34",
+      "md_sha256": "372b018bd0951d548395d459f31fd69e792e365d5949e963e96e45a663da549c",
+      "count": 6,
+      "audit_ids": [
+        "character-arc-041",
+        "character-arc-042",
+        "character-arc-043",
+        "character-arc-044",
+        "character-arc-045",
+        "character-arc-046"
+      ],
+      "status": "primary_signed_current_bytes"
+    }
+  ],
+  "counts": {
+    "groups": 8,
+    "research_rows": 47,
+    "person_rows": 45,
+    "interface_rows": 2,
+    "evidence_refs": 699,
+    "self_unique_stage_cards": 128,
+    "stage_card_target_links": 129
+  },
+  "validation_path": "character-arcs-self-validation.json",
+  "validation_sha256": "946fd640c555fccc300ea37cf602576920ea6ae07e8cadad01b1dc1280129568",
+  "mapping_path": "character-arcs-self-stage-card-mapping.json",
+  "mapping_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+  "reading_progress_sha256": "89e07063d9aaa72898eb340b1308e76d31c8f0e42bf0ee32e06362d1ca76ac44",
+  "root_ledger_observed_sha256": "f58c0b444be26c26e2c2c30ce578a38402673840fcb04092c2ca4ea91856ae70",
+  "assembly_rules": [
+    "按audit_id合并已审稳定row，逐值保持；不把wrapper待审状态写进row，row仍draft。",
+    "formal_input仅writing-vault；additional_support保存stage池依赖，不丢依赖也不让portable恢复要求旧.planning。",
+    "010新证据材料走正式王身份纠正回执f1而非private TXT，原23refs保序+4=27；旧cff只历史。",
+    "128唯一阶段卡只计128；一张旧合卡有010/047两个目标，不能以链接129声称新增来源卡。",
+    "人物终态按渠道和域：现实死亡、玩家返场、NPC特殊复苏、数字记忆工程分开；白墨颜实醒/雷计划，订婚/婚礼，南京入队/西南完战分开。"
+  ],
+  "limits": "结构验证通过不是primary文学签收或用户审美认可。原分卷/正式库/root账均未改；初读归属与定向再读见进度，不能说一人全文读全书。"
+}

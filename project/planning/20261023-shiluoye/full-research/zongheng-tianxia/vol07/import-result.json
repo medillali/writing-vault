@@ -1,0 +1,596 @@
+{
+  "body_units_read": 285,
+  "book": "zongheng-tianxia",
+  "cards": {
+    "character": 29,
+    "pattern": 10,
+    "scene": 37
+  },
+  "complete_source_coverage": false,
+  "completed_body_units": 1059,
+  "edges": 24,
+  "evidence_references_checked": 2578,
+  "formal_assets": [
+    {
+      "asset_id": "chr-7e3ed60ab784569798bab060b3148adb",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/shusheng",
+      "revision": 1,
+      "title": "轻狂书生（丁书生）"
+    },
+    {
+      "asset_id": "chr-b723c69a27265f878c711e6ca5a41382",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/lingxue",
+      "revision": 1,
+      "title": "凌雪（清风飞雪）"
+    },
+    {
+      "asset_id": "chr-fe23cb1809385f298fd459f69e679678",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/lingyue",
+      "revision": 1,
+      "title": "凌月（清风揽月）"
+    },
+    {
+      "asset_id": "chr-00ab3c7bd3c453b9847ce5b4b7bc01af",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/qinyun",
+      "revision": 1,
+      "title": "秦韵（紫韵儿）"
+    },
+    {
+      "asset_id": "chr-0e8f68c3420d519290b922f547af6edd",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/bingcha",
+      "revision": 1,
+      "title": "冰茶（许冰）"
+    },
+    {
+      "asset_id": "chr-1f31bccca9e856df9ef7f96a16ed1906",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/xiang",
+      "revision": 1,
+      "title": "稻花香（林香）"
+    },
+    {
+      "asset_id": "chr-2ec4f4c7aa475fdb953b427814ed22df",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/linger",
+      "revision": 1,
+      "title": "灵儿（幻灵女神）"
+    },
+    {
+      "asset_id": "chr-b3afcf6ad5df535bb111581a988ea652",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/yix",
+      "revision": 1,
+      "title": "冰之逸"
+    },
+    {
+      "asset_id": "chr-6f88778879a753f9aefcc1cdd2214c5d",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/huahuo",
+      "revision": 1,
+      "title": "流年花火"
+    },
+    {
+      "asset_id": "chr-bf51193e32e4520a81770f4603a4159d",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/aini",
+      "revision": 1,
+      "title": "勇敢的心（艾妮）"
+    },
+    {
+      "asset_id": "chr-85afeb4b018756d0b2fc9cf3c9e2f1f3",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/qixing",
+      "revision": 1,
+      "title": "七星灯"
+    },
+    {
+      "asset_id": "chr-ebf95307d6395a0c8b2599ffc5ab781b",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/linshuang",
+      "revision": 1,
+      "title": "林霜"
+    },
+    {
+      "asset_id": "chr-20e859b3b2d15d74a783986497645380",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/longhun",
+      "revision": 1,
+      "title": "龙魂"
+    },
+    {
+      "asset_id": "chr-3750863b91fa585d91c3ea9699e239b6",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/suifeng",
+      "revision": 1,
+      "title": "暗影随风"
+    },
+    {
+      "asset_id": "chr-dac3b4e2e51f50e3a013e62ec185e55d",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/mofang",
+      "revision": 1,
+      "title": "命运魔方"
+    },
+    {
+      "asset_id": "chr-26ea799c75275e5e8fcd251b9b78f01a",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/lesi",
+      "revision": 1,
+      "title": "南宫乐兮"
+    },
+    {
+      "asset_id": "chr-0bee0bc285bb5e5f983f6f581a9343c5",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/red",
+      "revision": 1,
+      "title": "红绫舞（小舞）"
+    },
+    {
+      "asset_id": "chr-372a78084e81527abeb79597b000f788",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/gufen",
+      "revision": 1,
+      "title": "孤坟（邱华）"
+    },
+    {
+      "asset_id": "chr-17879f29f8975e4ba3e00c2ec09d9baf",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/xuejiancao",
+      "revision": 1,
+      "title": "雪见草"
+    },
+    {
+      "asset_id": "chr-e4d28e59e2a550b5bfce579a364fdcd4",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/binglan",
+      "revision": 1,
+      "title": "冰兰"
+    },
+    {
+      "asset_id": "chr-b199699dd4a052e68507f3876cda7548",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/feiya",
+      "revision": 1,
+      "title": "菲雅"
+    },
+    {
+      "asset_id": "chr-885ae190fcad52878091d9cf5d47b0b6",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/audan",
+      "revision": 1,
+      "title": "奥丹（暮色游侠）"
+    },
+    {
+      "asset_id": "chr-301fbbd5f28453b794d363ebc8771578",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/linqiu",
+      "revision": 1,
+      "title": "林丘"
+    },
+    {
+      "asset_id": "chr-2ce8ff27b45759359cc4a631fa18f707",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/wangzuo",
+      "revision": 1,
+      "title": "野蛮王座"
+    },
+    {
+      "asset_id": "chr-361a904dade05696abf1c7fc16c9036f",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/xunfang",
+      "revision": 1,
+      "title": "荀方"
+    },
+    {
+      "asset_id": "chr-cd01dd79fa515fbf84514b3a03c1c1ff",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/ziyue",
+      "revision": 1,
+      "title": "紫月"
+    },
+    {
+      "asset_id": "chr-bb500c168f555851b8ced5e290996358",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/xiatian",
+      "revision": 1,
+      "title": "去年夏天（夏天）"
+    },
+    {
+      "asset_id": "chr-bbcf876859c3565b81bd58308514210e",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/luoyu",
+      "revision": 1,
+      "title": "落雨无声"
+    },
+    {
+      "asset_id": "chr-dc563aca8d0a59ccb78d3b00baf53bd7",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/lingtian",
+      "revision": 1,
+      "title": "凌天"
+    },
+    {
+      "asset_id": "scn-b721108920ca5655a18da4b00f991429",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/relevel",
+      "revision": 1,
+      "title": "归零后的弓靴与留怪"
+    },
+    {
+      "asset_id": "scn-f12ba5a8508d5dfcbe4002a5c2816e73",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/lifeduel",
+      "revision": 1,
+      "title": "生死决与毁耐久"
+    },
+    {
+      "asset_id": "scn-ec74fed080a2576ca45df6b43a057f81",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/qingfeng",
+      "revision": 1,
+      "title": "清风回收的传送后勤链"
+    },
+    {
+      "asset_id": "scn-99de19f19ae351dcb4770c7342cdace0",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/sagelong",
+      "revision": 1,
+      "title": "柱距与毒的萨格隆"
+    },
+    {
+      "asset_id": "scn-2c60f76d5b5f56e69e87a4187d85a983",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/s3",
+      "revision": 1,
+      "title": "玄武与死后毒续"
+    },
+    {
+      "asset_id": "scn-d44641d321af52cca2fa48429e381427",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/gale",
+      "revision": 1,
+      "title": "疾风城火攻与撤军"
+    },
+    {
+      "asset_id": "scn-3663cb55cc405a16b661245418341f1e",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/s4",
+      "revision": 1,
+      "title": "S4首通：治疗判断与蛇王控"
+    },
+    {
+      "asset_id": "scn-580b95bf3c565372b9a940793df29387",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/split",
+      "revision": 1,
+      "title": "剑火出离与组织重建"
+    },
+    {
+      "asset_id": "scn-ae37eea976c956dfab1806418ef12319",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/business",
+      "revision": 1,
+      "title": "南京创业与有限的自主"
+    },
+    {
+      "asset_id": "scn-391567a4b29959268ed9b14ce454931c",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/destroy",
+      "revision": 1,
+      "title": "诸神之怒：守不住再建设"
+    },
+    {
+      "asset_id": "scn-c76d395ddc835ce9b46bc451b5dc013f",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/mine",
+      "revision": 1,
+      "title": "无牧金窟与后线袭村"
+    },
+    {
+      "asset_id": "scn-9387c732820b5934a4308e2614dfd3db",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/bloodblade",
+      "revision": 1,
+      "title": "白云再取与血刃尾杀"
+    },
+    {
+      "asset_id": "scn-78bd4ac1050a50fdbe9ca810bc254d2d",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/industry",
+      "revision": 1,
+      "title": "银曜与毁灭剑的军团生产"
+    },
+    {
+      "asset_id": "scn-36fa99f9498e5ad8a935a21f728d746b",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/minewar",
+      "revision": 1,
+      "title": "紫矿冲突到千秋平原战"
+    },
+    {
+      "asset_id": "scn-da299e8fe9ce5118be15f35ef8c2df50",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/aryan",
+      "revision": 1,
+      "title": "暗黑镜囚与灵儿第三封"
+    },
+    {
+      "asset_id": "scn-4b335ae3cffb58f3bb71b2b7a0ec0d25",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/qinreturn",
+      "revision": 1,
+      "title": "秦韵的拒返、退租与归队"
+    },
+    {
+      "asset_id": "scn-8a1457787eb053458ef261809621079c",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/points",
+      "revision": 1,
+      "title": "据点竞令、三线调会与补偿"
+    },
+    {
+      "asset_id": "scn-7cf0b85445ef531fa3a7b0eed0e2769f",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/annight",
+      "revision": 1,
+      "title": "安定夜援失败与战略反制"
+    },
+    {
+      "asset_id": "scn-3ece6e1ae1985beab6a8b50c720e65e7",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/tiger",
+      "revision": 1,
+      "title": "烈虎艰难破城与内部分配"
+    },
+    {
+      "asset_id": "scn-1c8f359c046f5c00bc325886546734a4",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/bait",
+      "revision": 1,
+      "title": "翡翠两败诱敌与轮替"
+    },
+    {
+      "asset_id": "scn-75aa0de1d2205609909640630317b1e3",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/relic",
+      "revision": 1,
+      "title": "遗迹卷轴、物权与以一敌三"
+    },
+    {
+      "asset_id": "scn-fb5aa780d8435ed48c8db78aa3d5289e",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/icewolf",
+      "revision": 1,
+      "title": "青云委托转四千万冰狼战"
+    },
+    {
+      "asset_id": "scn-a070494284225ef489a007963f977218",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/redtrauma",
+      "revision": 1,
+      "title": "现实暴力与红绫的重建"
+    },
+    {
+      "asset_id": "scn-695df1461a015221adb6db2ee1b88883",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/canglong",
+      "revision": 1,
+      "title": "七人沧龙：团灭后追踪回场"
+    },
+    {
+      "asset_id": "scn-9f60f0acfff552e98b3fe9409a11aa37",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/recruit",
+      "revision": 1,
+      "title": "月神新队的佣约与信任"
+    },
+    {
+      "asset_id": "scn-dd19d710b1ab5b3194a7eb945aa9d628",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/threecities",
+      "revision": 1,
+      "title": "暮色攻三领与安定双线救"
+    },
+    {
+      "asset_id": "scn-aaee9c1512bd5069b4a92ab902438b94",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/audan",
+      "revision": 1,
+      "title": "奥丹人心、梦境与授职"
+    },
+    {
+      "asset_id": "scn-6af3b069907654558117e47c2666da79",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/luoyue",
+      "revision": 1,
+      "title": "落月游牧战与不灭盟议和"
+    },
+    {
+      "asset_id": "scn-c92e09ce2f2158cd94ec29d07467c4bf",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/dragonrace",
+      "revision": 1,
+      "title": "两巢抢蛋反被旧属取"
+    },
+    {
+      "asset_id": "scn-4d7fb1b479de576f9a71bf0dfc0aeb80",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/wilds",
+      "revision": 1,
+      "title": "蛮荒禁空与军团马甲"
+    },
+    {
+      "asset_id": "scn-090bb9b977b65f06a8903aaf643dce65",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/dal",
+      "revision": 1,
+      "title": "达尔胜利同时全灭与失城"
+    },
+    {
+      "asset_id": "scn-960be760de665531876e46282f64b9c3",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/tianyao",
+      "revision": 1,
+      "title": "名义城主至实转与天钥经营"
+    },
+    {
+      "asset_id": "scn-786c2d290c0d57aba7317310ec9c15f9",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/qinamerica",
+      "revision": 1,
+      "title": "秦失联、酒店与跨洋连接"
+    },
+    {
+      "asset_id": "scn-ace980eba1aa5c70bd9546109c56c389",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/flowers",
+      "revision": 1,
+      "title": "墓地之花与主动复仇分支"
+    },
+    {
+      "asset_id": "scn-6ea102aef55a553a94d281d865ccae8e",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/manhunt",
+      "revision": 1,
+      "title": "十二小时通缉的低阶工具与组织债"
+    },
+    {
+      "asset_id": "scn-9c8df11ae59a5992a03658d3f256a977",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/xun",
+      "revision": 1,
+      "title": "同学会身份与自主拒赌"
+    },
+    {
+      "asset_id": "scn-d68dd00b32985a85900afad197d87325",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/s6threshold",
+      "revision": 1,
+      "title": "S6入场与十火魄的门槛"
+    },
+    {
+      "asset_id": "pat-8c71bcef337554dda80cfe2fe0f1dc8b",
+      "asset_type": "pattern",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/pattern/gates",
+      "revision": 1,
+      "title": "资格、物权与使用的多级兑现"
+    },
+    {
+      "asset_id": "pat-57c580b6fe6f5ffd81979372cb91cb47",
+      "asset_type": "pattern",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/pattern/jobs",
+      "revision": 1,
+      "title": "职业和后勤共同造窗口"
+    },
+    {
+      "asset_id": "pat-42c2a582c91c55629bcfbb784118270e",
+      "asset_type": "pattern",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/pattern/diagnosis",
+      "revision": 1,
+      "title": "失败诊断后换方案"
+    },
+    {
+      "asset_id": "pat-36341de185285f2bb5f0997e8e227855",
+      "asset_type": "pattern",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/pattern/ownership",
+      "revision": 1,
+      "title": "战术、任务、生命与主权分账"
+    },
+    {
+      "asset_id": "pat-7e110aa7cf2a5b23b5e010f95d562894",
+      "asset_type": "pattern",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/pattern/debate",
+      "revision": 1,
+      "title": "异议进入领导决策"
+    },
+    {
+      "asset_id": "pat-30e249968bc75a60bf526b8736b501e3",
+      "asset_type": "pattern",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/pattern/repair",
+      "revision": 1,
+      "title": "关系修复分离情感、地点与身份"
+    },
+    {
+      "asset_id": "pat-33554f96ea7958d188f4d7ff03ad31a5",
+      "asset_type": "pattern",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/pattern/knowledge",
+      "revision": 1,
+      "title": "知识分配和可错推断"
+    },
+    {
+      "asset_id": "pat-2a4f8083665258f0af9f9e9de542605f",
+      "asset_type": "pattern",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/pattern/economy",
+      "revision": 1,
+      "title": "战力生产与分配的组织循环"
+    },
+    {
+      "asset_id": "pat-00a47a18bc9b51fbaa6c05dc0f303879",
+      "asset_type": "pattern",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/pattern/tool",
+      "revision": 1,
+      "title": "低价值物件的功能回收"
+    },
+    {
+      "asset_id": "pat-82fc6b231a945fb7b980f3c36860db0e",
+      "asset_type": "pattern",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/pattern/moral",
+      "revision": 1,
+      "title": "宣称、行动和系统评价并列"
+    }
+  ],
+  "graph_revision": 8,
+  "indexed_segments_read": 285,
+  "next_unit": {
+    "end_line": 116432,
+    "kind": "body",
+    "printed_numbers": [
+      1053
+    ],
+    "segment_ids": [
+      "ch-1061"
+    ],
+    "segments": [
+      {
+        "chapter_id": "ch-1061",
+        "end_line": 116432,
+        "end_offset": 4582181,
+        "start_line": 116348,
+        "start_offset": 4578732,
+        "title": "卷八 纵横天下 第1053章 火神怒"
+      }
+    ],
+    "start_line": 116348,
+    "title": "卷八 纵横天下 第1053章 火神怒",
+    "unit_id": "ch-1061"
+  },
+  "nodes": 46,
+  "preflight": "passed",
+  "reading": {
+    "cards": {
+      "character": 131,
+      "pattern": 64,
+      "scene": 178
+    },
+    "checkpoint_indexed_segments": 1060,
+    "formal_volumes": [
+      "vol01",
+      "vol02",
+      "vol03",
+      "vol04",
+      "vol05",
+      "vol06",
+      "vol07"
+    ],
+    "markdown_pages": 384,
+    "source_id": "src-2a13958390274509b2af019f6b12d981",
+    "source_revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52"
+  },
+  "threads": 12,
+  "volume": 7
+}

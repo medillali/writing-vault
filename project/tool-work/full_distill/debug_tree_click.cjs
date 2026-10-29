@@ -1,0 +1,5 @@
+const {chromium}=require('playwright'); const {pathToFileURL}=require('node:url');
+(async()=>{const b=await chromium.launch({headless:true,channel:'msedge'}); const p=await b.newPage({viewport:{width:1500,height:1000}});await p.goto(pathToFileURL(process.argv[2]).href);await p.evaluate(()=>document.fonts.ready);
+await p.selectOption('#volume','18');await p.evaluate(()=>{window.trace=[];for(const kind of ['pointerdown','pointerup','click'])document.addEventListener(kind,e=>window.trace.push({kind,target:e.target.id||e.target.tagName}),true)});
+await p.locator('#v18-e07 rect').click();console.log(JSON.stringify(await p.evaluate(()=>({trace:window.trace,title:document.getElementById('detail-title').textContent,selected:document.querySelectorAll('.selected').length}))));
+await b.close()})().catch(e=>{console.error(e);process.exitCode=1});

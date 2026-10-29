@@ -1,0 +1,97 @@
+# 贼胆｜标记粉与故意不提醒的诱饵｜S0048
+
+ID: `scn-zeidan-legacy-s0048` · 版本: 1 · 范围: source-analysis
+
+梦虚妖孽先死，小鬼愤怒，沉沦察反潜异常。；糖果识粉却不告诉三人，萧默许诱敌；自己去粉，糖果把右腰粉移到左。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-zeidan-legacy-s0048",
+  "asset_type": "scene",
+  "content": {
+    "causal_importance": "局部情节关键",
+    "choices": [
+      "两高手利用队友信息不足换胜机"
+    ],
+    "facts": [
+      "梦虚妖孽先死，小鬼愤怒，沉沦察反潜异常。",
+      "糖果识粉却不告诉三人，萧默许诱敌；自己去粉，糖果把右腰粉移到左。",
+      "蜗牛被错误定位引入联合控制。"
+    ],
+    "inferences": [],
+    "interesting_unresolved": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/scenes.json#S0048",
+    "name": "标记粉与故意不提醒的诱饵",
+    "previous_context": "蜗牛制36剂粉，全队沾粉却误认初袭无力。",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "S0048",
+    "result": "蜗牛死，锁定被偷、肩掉落；胜利带队内代价。",
+    "summary": "梦虚妖孽先死，小鬼愤怒，沉沦察反潜异常。；糖果识粉却不告诉三人，萧默许诱敌；自己去粉，糖果把右腰粉移到左。",
+    "title": "标记粉与故意不提醒的诱饵",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:13.950399+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0276",
+      "claim_kind": "fact",
+      "end_line": 14799,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14756
+    },
+    {
+      "chapter_id": "ch-0277",
+      "claim_kind": "fact",
+      "end_line": 14853,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14800
+    },
+    {
+      "chapter_id": "ch-0278",
+      "claim_kind": "fact",
+      "end_line": 14921,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14854
+    },
+    {
+      "chapter_id": "ch-0279",
+      "claim_kind": "fact",
+      "end_line": 14979,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14922
+    },
+    {
+      "chapter_id": "ch-0280",
+      "claim_kind": "fact",
+      "end_line": 15043,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14980
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/S0048",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜标记粉与故意不提醒的诱饵｜S0048",
+  "updated_at": "2026-10-22T17:03:13.955398+00:00",
+  "user_notes": ""
+}
+
+```

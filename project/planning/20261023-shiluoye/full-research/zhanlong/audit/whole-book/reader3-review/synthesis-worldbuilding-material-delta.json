@@ -1,0 +1,37 @@
+{
+  "approval": "primary指定仅fact_summary材料名修正；其余逐值相同",
+  "before_json_sha256": "4b3d0b4f78d09a1a5c72be59f4ff69a4a9f10879603880045fca2606c3482646",
+  "before_md_sha256": "96f05e531a629731852b9961d1e9ffff1f139e481a54dc95f5ae7cf74d965b17",
+  "after_json_sha256": "a5ca756dc0eb69f74411757cbb46a41c7b5f0cba3906697ad2dc36e4d522d7f8",
+  "after_md_sha256": "0e96db877c788f241bafc4b2e48a3bd3c1e1cfb5924fb7f88a7624bcc1372bb2",
+  "changes": [
+    {
+      "json_pointer": "/rows/1/fact_summary",
+      "before": "青麟草开采与炼药使早期收益依赖采集劳动；秦王重铸要百炼铁与双方工艺。中后段城建、粮草和龙晶炮要人口、纯度、搬运与制造时间；龙谷须形成食物河道生态，泽城神威弹打空后北伐的新炮另由采晶与制造补充。鬼城又出现粮尽和炮引线避雨。",
+      "after": "青麟草开采与炼药使早期收益依赖采集劳动；秦王重铸要100份麒麟铁与双方工艺。中后段城建、粮草和龙晶炮要人口、纯度、搬运与制造时间；龙谷须形成食物河道生态，泽城神威弹打空后北伐的新炮另由采晶与制造补充。鬼城又出现粮尽和炮引线避雨。",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0257",
+          "start_line": 22394,
+          "end_line": 22418,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0258",
+          "start_line": 22424,
+          "end_line": 22449,
+          "claim_kind": "fact"
+        }
+      ]
+    }
+  ],
+  "unchanged_rows": [
+    0,
+    2,
+    3
+  ]
+}

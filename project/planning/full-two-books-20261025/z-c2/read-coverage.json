@@ -1,0 +1,41 @@
+{
+  "source_key": "z",
+  "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+  "source_revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+  "assigned_unit_start": 371,
+  "assigned_unit_end": 390,
+  "total_source_units": 463,
+  "full_read_intervals": [
+    [
+      371,
+      390
+    ]
+  ],
+  "read_unit_count": 20,
+  "missing_units": [],
+  "saved_batches": [
+    {
+      "file": "batch-01.json",
+      "unit_start": 371,
+      "unit_end": 390
+    }
+  ],
+  "method": "read_source.py每次2–3实际reading-units全文模型阅读，所有输出完整；不用目录、搜索、旧摘要或自动循环替代阅读。",
+  "next_boundary": {
+    "ordinal": 391,
+    "unit_id": "ch-0392",
+    "start_line": 23817
+  },
+  "evidence": [
+    {
+      "chapter_id": "ch-0372",
+      "start_line": 22348,
+      "end_line": 22428
+    },
+    {
+      "chapter_id": "ch-0391",
+      "start_line": 23752,
+      "end_line": 23816
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "asset_id": "scn-d6a8732e2afe527cb433c3b96c1eb78a",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "组织退出纠纷。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/waner",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/dongcheng",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/wenjian"
+    ],
+    "choice": "林说不是奴仆、主东介入但未在此退会。",
+    "claim_kind": "inference",
+    "consequence": "艾死/众退，问处理和转会仍后事。",
+    "failure_mode": "说想离当系统已退，主先动手抹掉。",
+    "goal": "继续任务/回应迁会控制。",
+    "narrative_order": 421,
+    "obstacle": "投资被解释为人身所属。",
+    "state_change": "公开冲突不等实际会籍已变。",
+    "summary": "艾先同意后辱林主，主先击退艾，艾下全杀令后主东反杀。",
+    "why_it_works": "发言/动手顺序保留，给离职理由与执行门槛。"
+  },
+  "created_at": "2026-10-25T19:26:00.400941+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0421",
+      "claim_kind": "fact",
+      "end_line": 35143,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 35074
+    },
+    {
+      "chapter_id": "ch-0422",
+      "claim_kind": "fact",
+      "end_line": 35206,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 35144
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/scene/exitright",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷2",
+    "待审阅"
+  ],
+  "title": "英雄二分冲突中的成员自主",
+  "updated_at": "2026-10-25T19:26:00.400941+00:00",
+  "user_notes": ""
+}

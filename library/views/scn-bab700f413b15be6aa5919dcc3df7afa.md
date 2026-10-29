@@ -1,0 +1,71 @@
+# 少将仪式与新的未执行任务
+
+ID: `scn-bab700f413b15be6aa5919dcc3df7afa` · 版本: 1 · 范围: source-analysis
+
+KILLS一月内时间未定，末才南京待出；不写已斩全部西南S。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-bab700f413b15be6aa5919dcc3df7afa",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "一次事件后的社会角色发生正式变化，新的身份又与私人生活时间冲突时，可用授衔仪式回收旧预告，同时为尚未执行的新职责设边界。",
+    "arc": "real",
+    "choice": "接受空军少将/7000余独立师长，邢少校斧上尉归队",
+    "consequence": "KILLS一月内时间未定，末才南京待出；不写已斩全部西南S。",
+    "failure_mode": "若把获授职务、准备出发与已完成行动混成同一战果，职业线会靠头衔代替行为；同伴玩笑中的嫂嫂也不能替代关系承诺。",
+    "goal": "确定现实军务身份",
+    "narrative_order": 1359,
+    "obstacle": "家庭相守与边境需要冲突",
+    "stage_status": "open",
+    "state_change": "KILLS一月内时间未定，末才南京待出；不写已斩全部西南S。",
+    "summary": "KILLS一月内时间未定，末才南京待出；不写已斩全部西南S。",
+    "why_it_works": "正式授职回收电话预告但新任务仍独立开。"
+  },
+  "created_at": "2026-10-25T21:09:00.818012+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1358",
+      "claim_kind": "fact",
+      "end_line": 97755,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 97679
+    },
+    {
+      "chapter_id": "ch-1359",
+      "claim_kind": "fact",
+      "end_line": 97823,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 97756
+    },
+    {
+      "chapter_id": "ch-1386",
+      "claim_kind": "fact",
+      "end_line": 99818,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 99656
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/scene/military-commission",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷:6"
+  ],
+  "title": "少将仪式与新的未执行任务",
+  "updated_at": "2026-10-25T21:09:00.818012+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,221 @@
+{
+  "status": "passed_metadata_only",
+  "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+  "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+  "source_index_count": 1609,
+  "body_units": 1599,
+  "volume_headers": 8,
+  "front_matter_segments": 1,
+  "all_reading_units": 1608,
+  "nonpreface_raw_segments": 1608,
+  "one_body_unit_has_two_segments": "ch-0398",
+  "printed_body_numbers_continuous": true,
+  "volume_specs": [
+    {
+      "volume": 1,
+      "title": "卷一 血色风云",
+      "body_units": 90,
+      "units_including_header": 91,
+      "raw_segments": 91,
+      "first_segment": "ch-0002",
+      "last_segment": "ch-0092",
+      "first_body_segment": "ch-0003",
+      "printed_body_range": [
+        1,
+        90
+      ],
+      "line_range": [
+        357,
+        8902
+      ],
+      "characters_from_existing_spec": 313422
+    },
+    {
+      "volume": 2,
+      "title": "卷二 兄弟盟约",
+      "body_units": 135,
+      "units_including_header": 136,
+      "raw_segments": 136,
+      "first_segment": "ch-0093",
+      "last_segment": "ch-0228",
+      "first_body_segment": "ch-0094",
+      "printed_body_range": [
+        91,
+        225
+      ],
+      "line_range": [
+        8903,
+        21743
+      ],
+      "characters_from_existing_spec": 467590
+    },
+    {
+      "volume": 3,
+      "title": "卷三 天下名将",
+      "body_units": 376,
+      "units_including_header": 377,
+      "raw_segments": 378,
+      "first_segment": "ch-0229",
+      "last_segment": "ch-0606",
+      "first_body_segment": "ch-0230",
+      "printed_body_range": [
+        226,
+        601
+      ],
+      "line_range": [
+        21744,
+        52260
+      ],
+      "characters_from_existing_spec": 1306793
+    },
+    {
+      "volume": 4,
+      "title": "卷四 铁血丹心1",
+      "body_units": 185,
+      "units_including_header": 186,
+      "raw_segments": 186,
+      "first_segment": "ch-0607",
+      "last_segment": "ch-0792",
+      "first_body_segment": "ch-0608",
+      "printed_body_range": [
+        602,
+        786
+      ],
+      "line_range": [
+        52261,
+        65980
+      ],
+      "characters_from_existing_spec": 643715
+    },
+    {
+      "volume": 5,
+      "title": "卷五 铁血丹心2",
+      "body_units": 265,
+      "units_including_header": 266,
+      "raw_segments": 266,
+      "first_segment": "ch-0793",
+      "last_segment": "ch-1058",
+      "first_body_segment": "ch-0794",
+      "printed_body_range": [
+        787,
+        1051
+      ],
+      "line_range": [
+        65981,
+        86173
+      ],
+      "characters_from_existing_spec": 919128
+    },
+    {
+      "volume": 6,
+      "title": "卷六 英雄王座",
+      "body_units": 234,
+      "units_including_header": 235,
+      "raw_segments": 235,
+      "first_segment": "ch-1059",
+      "last_segment": "ch-1293",
+      "first_body_segment": "ch-1060",
+      "printed_body_range": [
+        1052,
+        1285
+      ],
+      "line_range": [
+        86174,
+        103166
+      ],
+      "characters_from_existing_spec": 799393
+    },
+    {
+      "volume": 7,
+      "title": "卷七 不醒之梦",
+      "body_units": 210,
+      "units_including_header": 211,
+      "raw_segments": 211,
+      "first_segment": "ch-1294",
+      "last_segment": "ch-1504",
+      "first_body_segment": "ch-1295",
+      "printed_body_range": [
+        1286,
+        1495
+      ],
+      "line_range": [
+        103167,
+        119331
+      ],
+      "characters_from_existing_spec": 725458
+    },
+    {
+      "volume": 8,
+      "title": "卷八 天下无双",
+      "body_units": 104,
+      "units_including_header": 105,
+      "raw_segments": 105,
+      "first_segment": "ch-1505",
+      "last_segment": "ch-1609",
+      "first_body_segment": "ch-1506",
+      "printed_body_range": [
+        1496,
+        1599
+      ],
+      "line_range": [
+        119332,
+        127662
+      ],
+      "characters_from_existing_spec": 357906
+    }
+  ],
+  "index_corrections": [
+    {
+      "segment_id": "ch-0399",
+      "attached_to": "ch-0398",
+      "reason": "正文句以第一节课或回合开头，被通用解析器误当标题；通过阅读单元映射连接回上一个正文段，不更改已登记的原证据ID。",
+      "title": "第二回合，GO！"
+    }
+  ],
+  "reading_units_index_fingerprint": "0cb9382e080757d374529173582703b664b2ba68b8f468ca80360feadc09fe18",
+  "registry_spec_units_queue_revision_match": true,
+  "all_segments_exactly_once": true,
+  "normalized_file_exists": true,
+  "normalized_file_bytes_from_stat": 16003658,
+  "normalized_content_opened": false,
+  "normalized_hash_recomputed": false,
+  "revision_validation_boundary": "只核spec/registry/reading-units/queue元数据同修订；没有本轮重读/重算正文hash。",
+  "tool_static_checks": {
+    "read_chapters.py": {
+      "syntax": "passed",
+      "sha256": "5af40425594c56e3e42313d5a6bbc77f2d24f3fb5292d86e7c2917c57342ab67"
+    },
+    "save_primary_notes.py": {
+      "syntax": "passed",
+      "sha256": "82875f825f31c715d8636d1a6c4a1918bd373b828c1ddc956b7fe48a73edbfe9"
+    },
+    "check_volume.py": {
+      "syntax": "passed",
+      "sha256": "5232a44325b2d880ac6b93c092e532967d6976ffb9619c98d69fcc6a526f7be2"
+    },
+    "import_volume.py": {
+      "syntax": "passed",
+      "sha256": "975e9195d62db79ae6606ba6f9b1296f31b6358d49fb32be05d036513a75c5d5"
+    }
+  },
+  "actual_full_Vault_check_volume_run": false,
+  "actual_import_volume_run": false,
+  "body_read_count": 0,
+  "catalog_active_source_unchanged": "src-2a13958390274509b2af019f6b12d981",
+  "existing_queue_state": "queued_after_zongheng",
+  "vol03_prepared_files": [
+    "assignment.json",
+    "reader-state.json",
+    "read-log.json",
+    "chapter-notes.jsonl"
+  ],
+  "required_shared_tool_code_changes": [],
+  "recommendations": [
+    "不要运行prepare.py作本轮验证；它会打开三书正文并重写source.json",
+    "现read_chapters可按raw覆盖，但上层须按units列全segments，勿跳ch0399",
+    "save_primary_notes.py硬编码reader=primary，不能用于本子代理原样记读者；未来采用本卷专用保存器或加显式reader参数",
+    "front-matter ch0001须启动后另分责任并实际读/存supplementary-read-log，全8卷只覆盖1608不足全1609",
+    "不运行check_volume/import_volume直到真实阅读/产物/主审齐备；合章现schema兼容，勿伪造完成包来试",
+    "正式导卷三前须卷一二已导；作者顺序/active source切换由主代理在门槛满足后执行"
+  ]
+}

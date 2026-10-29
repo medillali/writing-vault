@@ -1,0 +1,2289 @@
+{
+  "status": "stable-mapping-draft-pending-primary-review",
+  "scope": "仅reader4获授权的32玩家与20NPC；不声称覆盖其他reader的人物或全部全书卡。",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "counts": {
+    "entities": 52,
+    "player_person": 32,
+    "npc_person": 20,
+    "stage_cards": 69,
+    "supplementary_entities_without_stage_cards": 6,
+    "assigned_organization_or_nonentity_stage_cards": 0
+  },
+  "entity_classification_boundary": "本辖52目标均为单一人物。神话、锋芒、英雄冢、龙翔、六宫粉黛等是人物所属或对阵组织，职衔与会名不另计人物；未把场景、军团、神格或物品建为人物。此说明不替其他reader的组织接口分类。",
+  "input_sha256": {
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json": "bb9e2c64dbf387363d571c086a11848e0d9ffbfff280478c0c4ac467b940875c",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json": "3528e2a21fcce99d403edfd08002cc0d4fc26263fbb27f415172cc456c1b9110",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json": "1b0c958cad7d2dbc5fd6dcb42a25548b83c1f27b0a2216af1bce6888c2543e6e",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json": "8a037376ca8aa05a23d8d16db911cd09412d6415fa97d26d33e01bb3bb41544f",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part05.json": "d18b3e3cfcb149df18695fa552a3a25096367ec248ce77d8203c8c453b24ed9e",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json": "86ecb6d286050abc3ff6f7a0a7adcaaf910b0ab8885bb597c1d7aa29f9315609",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json": "82a144cde23c4c8a02b43bfb3ea34948a7fdc9b15e78ac45e4afb3b4ebabcf41",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json": "2b3b5eebaa3c7665ddd128a902a20a5c2ffb1954f7a2a76523e306028ca213b2",
+    "writing-vault/library/reports/zhanlong/vol01-cards.json": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+    "writing-vault/library/reports/zhanlong/vol02-cards.json": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+    "writing-vault/library/reports/zhanlong/vol03-cards.json": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+    "writing-vault/library/reports/zhanlong/vol04-cards.json": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+    "writing-vault/library/reports/zhanlong/vol05-cards.json": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+    "writing-vault/library/reports/zhanlong/vol06-cards.json": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447"
+  },
+  "roster_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/character-arc-entity-roster-proposal.json",
+  "roster_sha256": "bfc2c465497a65b015440788efc0c408490fe0432e1de04cc1f860f5dc04cc8a",
+  "assignment_receipt_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-review/input-receipt.json",
+  "assignment_receipt_sha256": "9652f8925fcf80b3cc0ae999986455df3143a4d26515d9fa58f404d485e4ef85",
+  "stage_card_rows": [
+    {
+      "volume": 1,
+      "index": 14,
+      "title": "剑锋寒｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/jianfeng",
+      "asset_id": "chr-f668bcfca16053e3914878142a4caa7e",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol01-cards.json",
+      "source_cards_sha256": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-001",
+      "target_entity_name": "剑锋寒",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 2,
+      "index": 19,
+      "title": "剑锋寒｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/jianfeng",
+      "asset_id": "chr-c0c80b74f5de546d932eb51d0e0cf5ee",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "source_cards_sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-001",
+      "target_entity_name": "剑锋寒",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 3,
+      "index": 27,
+      "title": "剑锋寒｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/jianfeng",
+      "asset_id": "chr-aecf30e56d9e5d68b92eef756c442e5f",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol03-cards.json",
+      "source_cards_sha256": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-001",
+      "target_entity_name": "剑锋寒",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 1,
+      "index": 15,
+      "title": "简简单单｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/simple",
+      "asset_id": "chr-be3c1cf34be05e6988fcffd644c22b55",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol01-cards.json",
+      "source_cards_sha256": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-002",
+      "target_entity_name": "简简单单／慕容韵",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 2,
+      "index": 43,
+      "title": "简简单单｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/jiandan",
+      "asset_id": "chr-d98c2d1cef8c57d38a096337d5ffb805",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "source_cards_sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-002",
+      "target_entity_name": "简简单单／慕容韵",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 3,
+      "index": 28,
+      "title": "简简单单／慕容韵｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/jian",
+      "asset_id": "chr-8e660e3e16345608b64f4da3989cacb3",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol03-cards.json",
+      "source_cards_sha256": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-002",
+      "target_entity_name": "简简单单／慕容韵",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 1,
+      "index": 16,
+      "title": "堕落苍狼｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/canglang",
+      "asset_id": "chr-31ed8e7a2c1b504a9c5013067c0f48cf",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol01-cards.json",
+      "source_cards_sha256": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-003",
+      "target_entity_name": "堕落苍狼",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 1,
+      "index": 17,
+      "title": "飞龙在天／徐龙｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/dragon",
+      "asset_id": "chr-f149e0105e3e5accbd15ce21cb153f5e",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol01-cards.json",
+      "source_cards_sha256": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-004",
+      "target_entity_name": "飞龙在天／徐龙",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 1,
+      "index": 18,
+      "title": "花枪一壶酒／周宁（转述实名）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/huagun",
+      "asset_id": "chr-2f875e32213858e6a4ce3a8b825582db",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol01-cards.json",
+      "source_cards_sha256": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-005",
+      "target_entity_name": "周宁／花枪一壶酒",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 4,
+      "index": 39,
+      "title": "花枪一壶酒／周宁｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/huaqiang",
+      "asset_id": "chr-dec982dd81945626839e8f8afce9a0f6",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+      "source_cards_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-005",
+      "target_entity_name": "周宁／花枪一壶酒",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 18,
+      "title": "周宁／花枪一壶酒｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/flower",
+      "asset_id": "chr-6440535c4dcc55cc928d8fba36c01ab2",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-005",
+      "target_entity_name": "周宁／花枪一壶酒",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 1,
+      "index": 21,
+      "title": "寒碑颂｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/hanbei",
+      "asset_id": "chr-459c6835b43b5156ae889d29cee028c9",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol01-cards.json",
+      "source_cards_sha256": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-006",
+      "target_entity_name": "寒碑颂",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 1,
+      "index": 23,
+      "title": "刘英／西楚霸王｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/liuying",
+      "asset_id": "chr-1f019840e3fe552cb8d75719ffe21bb4",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol01-cards.json",
+      "source_cards_sha256": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-007",
+      "target_entity_name": "刘英／西楚霸王",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 1,
+      "index": 24,
+      "title": "小猪快跑｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xiaozhu",
+      "asset_id": "chr-e3df4992da3e54c09f0ec23be35f677b",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol01-cards.json",
+      "source_cards_sha256": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-008",
+      "target_entity_name": "小猪快跑",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 1,
+      "index": 25,
+      "title": "徐月／烟锁风月｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xuyue",
+      "asset_id": "chr-041c951e083059808703f0f58344de90",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol01-cards.json",
+      "source_cards_sha256": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-009",
+      "target_entity_name": "徐月／烟锁风月",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 1,
+      "index": 26,
+      "title": "问剑／北辰风（网页渠道名）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/wenjian",
+      "asset_id": "chr-9ee387f79bd5543c8b154dc99e636027",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol01-cards.json",
+      "source_cards_sha256": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-010",
+      "target_entity_name": "北辰风／问剑",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 2,
+      "index": 20,
+      "title": "问剑｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/wenjian",
+      "asset_id": "chr-2810dd2390645834b168fd720344f79f",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "source_cards_sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-010",
+      "target_entity_name": "北辰风／问剑",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 3,
+      "index": 26,
+      "title": "问剑｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/wenjian",
+      "asset_id": "chr-90204824ebbd56f1a7c12585bfe9f5ed",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol03-cards.json",
+      "source_cards_sha256": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-010",
+      "target_entity_name": "北辰风／问剑",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 4,
+      "index": 40,
+      "title": "问剑／北辰风｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/wenjian",
+      "asset_id": "chr-f32ce9284c805ed881e0a1cca97c227e",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+      "source_cards_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-010",
+      "target_entity_name": "北辰风／问剑",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 20,
+      "title": "北辰风／问剑｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wen",
+      "asset_id": "chr-dfefc18977a45f2ab8f1f7ed868baef4",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-010",
+      "target_entity_name": "北辰风／问剑",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 6,
+      "index": 10,
+      "title": "问剑",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/wenjian",
+      "asset_id": "chr-0e0bc5d6e824527d9650bbcacb03a090",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-010",
+      "target_entity_name": "北辰风／问剑",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 1,
+      "index": 42,
+      "title": "与子成说｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/yuzicheng",
+      "asset_id": "chr-f262fad6c9bf54d188afaf6680b00934",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol01-cards.json",
+      "source_cards_sha256": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-011",
+      "target_entity_name": "与子成说",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 1,
+      "index": 43,
+      "title": "谁家蓝颜｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/lanyan",
+      "asset_id": "chr-20ed3ab322ee5f35b0b53e069dc05ce4",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol01-cards.json",
+      "source_cards_sha256": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-012",
+      "target_entity_name": "谁家蓝颜",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 2,
+      "index": 18,
+      "title": "飘渺云烟｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/piaomiao",
+      "asset_id": "chr-55841c652a37518ab24b2891aafe52e0",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "source_cards_sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-013",
+      "target_entity_name": "飘渺云烟",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 2,
+      "index": 21,
+      "title": "方歌阙｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/fang",
+      "asset_id": "chr-7d5ba2dfead55fbab978b667ecb5c18a",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "source_cards_sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-014",
+      "target_entity_name": "方歌阙",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 3,
+      "index": 29,
+      "title": "方歌阙｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/fang",
+      "asset_id": "chr-a2f8289be663527fbe22a8b4ad46a9b8",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol03-cards.json",
+      "source_cards_sha256": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-014",
+      "target_entity_name": "方歌阙",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 4,
+      "index": 6,
+      "title": "方歌阙｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/fangge",
+      "asset_id": "chr-1a0f1884659853d4a0ac6df494e95ab7",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+      "source_cards_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-014",
+      "target_entity_name": "方歌阙",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 19,
+      "title": "方歌阙｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fang",
+      "asset_id": "chr-3be0468d5d5b5c9b82035d2a7cee8bcc",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-014",
+      "target_entity_name": "方歌阙",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 6,
+      "index": 9,
+      "title": "方歌阙",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/fang-geque",
+      "asset_id": "chr-8516034bbd5757b18779f4ceb448225b",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-014",
+      "target_entity_name": "方歌阙",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 2,
+      "index": 44,
+      "title": "叶来｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yelai",
+      "asset_id": "chr-1bd457aeb72c5c32affe9f4cf2a0c18b",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "source_cards_sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-015",
+      "target_entity_name": "叶来",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 3,
+      "index": 49,
+      "title": "叶来｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/ye",
+      "asset_id": "chr-e8f11f72e2575fdea362bd576a8a926b",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol03-cards.json",
+      "source_cards_sha256": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-015",
+      "target_entity_name": "叶来",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 22,
+      "title": "叶来｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yelai",
+      "asset_id": "chr-64433e629ef35c4dbebbb7c4b74f3698",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-015",
+      "target_entity_name": "叶来",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 2,
+      "index": 45,
+      "title": "燕赵无双｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yanzhao",
+      "asset_id": "chr-f82180419ea9522e8e5442ce7189aed2",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "source_cards_sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-016",
+      "target_entity_name": "赵开国／燕赵无双",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 6,
+      "index": 8,
+      "title": "燕赵无双／赵开国",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/yan-zhao",
+      "asset_id": "chr-74dea04ca77f57c6920beb173a1cfe16",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-016",
+      "target_entity_name": "赵开国／燕赵无双",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 3,
+      "index": 15,
+      "title": "上将星痕｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xinghen",
+      "asset_id": "chr-24b853e152895820a2456425f24bee29",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol03-cards.json",
+      "source_cards_sha256": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-017",
+      "target_entity_name": "星痕（旧阶段卡题作上将星痕）",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "原卡题“上将星痕”与新弧采用星痕的规范指向并列保存；不以标题前缀增造第二人。658实际ID说明已列本组证据。"
+    },
+    {
+      "volume": 3,
+      "index": 18,
+      "title": "唐古／唐门巨子｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/tanggu",
+      "asset_id": "chr-8e01e95f3fa356939295533e9f90bb01",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol03-cards.json",
+      "source_cards_sha256": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-018",
+      "target_entity_name": "唐古／唐门巨子",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 3,
+      "index": 30,
+      "title": "纸上画魅｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/zhimei",
+      "asset_id": "chr-7d84474947b154c59b5f8522604b5511",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol03-cards.json",
+      "source_cards_sha256": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-019",
+      "target_entity_name": "薛景／纸上画魅",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 4,
+      "index": 7,
+      "title": "纸上画魅／薛景｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/huamei",
+      "asset_id": "chr-a882972e25305ffd8e1f4fe79833c1b8",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+      "source_cards_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-019",
+      "target_entity_name": "薛景／纸上画魅",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 16,
+      "title": "纸上画魅／小景｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/paper",
+      "asset_id": "chr-e9779d18b42d5db1b08930e514d58e0f",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-019",
+      "target_entity_name": "薛景／纸上画魅",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 3,
+      "index": 47,
+      "title": "流言／刘彦｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/liuguang",
+      "asset_id": "chr-0f6d5ec2d5005c4abca0ee3e52d3d7a2",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol03-cards.json",
+      "source_cards_sha256": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-020",
+      "target_entity_name": "刘彦／流言",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 3,
+      "index": 48,
+      "title": "微笑（外服玩家）｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/micro",
+      "asset_id": "chr-28c7ade695515bf2b7450c5d5da1a974",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol03-cards.json",
+      "source_cards_sha256": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-021",
+      "target_entity_name": "微笑（英国雷神盟主玩家）",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 4,
+      "index": 41,
+      "title": "美丽清眸｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/qingmou",
+      "asset_id": "chr-623eb778fd0255228d29785a5a75b4f1",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+      "source_cards_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-022",
+      "target_entity_name": "清眸拓墨",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "mapping_basis": "原卷四题“美丽清眸”不按标题直接并人；861指挥与系统公告、898延续场景的限定原文核对支持清眸拓墨。原题、asset与索引原样保留。"
+    },
+    {
+      "volume": 5,
+      "index": 49,
+      "title": "清眸拓墨｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/clear",
+      "asset_id": "chr-9680e89cd0605bc49c46da3a598a5038",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-022",
+      "target_entity_name": "清眸拓墨",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "mapping_basis": "原卷四题“美丽清眸”不按标题直接并人；861指挥与系统公告、898延续场景的限定原文核对支持清眸拓墨。原题、asset与索引原样保留。"
+    },
+    {
+      "volume": 6,
+      "index": 17,
+      "title": "清眸拓墨",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/qingmou",
+      "asset_id": "chr-525b9665dbe95cc693b66270b9c68258",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-022",
+      "target_entity_name": "清眸拓墨",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "mapping_basis": "原卷四题“美丽清眸”不按标题直接并人；861指挥与系统公告、898延续场景的限定原文核对支持清眸拓墨。原题、asset与索引原样保留。"
+    },
+    {
+      "volume": 4,
+      "index": 42,
+      "title": "魔山｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/moshan",
+      "asset_id": "chr-92b65a4946dc55f8b646ab6e3ad4af40",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol04-cards.json",
+      "source_cards_sha256": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-023",
+      "target_entity_name": "魔山",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 48,
+      "title": "魔山｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/moda",
+      "asset_id": "chr-3d97b71a070553c486b3ca1d3a5db3ea",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-023",
+      "target_entity_name": "魔山",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 17,
+      "title": "颜沫／牛奶／六宫粉黛盟主｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/milk",
+      "asset_id": "chr-18501c1f799c5c11861563c849ae5c30",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-024",
+      "target_entity_name": "颜沫／暴走牛奶",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 23,
+      "title": "慕萱｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/mu",
+      "asset_id": "chr-2fe94fd332605d6c8f51d896626d57bd",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-025",
+      "target_entity_name": "慕萱",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 50,
+      "title": "枫林醉｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/maple",
+      "asset_id": "chr-c487e9b1f5d950e2aa2f2947a30edd71",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-026",
+      "target_entity_name": "枫林醉",
+      "target_entity_type": "player_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 40,
+      "title": "火狮榛（原文姓名有乱码异文）｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/huoshi",
+      "asset_id": "chr-f7b69f20a3ae5902a3fdcd8b9b0bb95d",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-033",
+      "target_entity_name": "火狮榛（姓名乱码异文保留）",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 41,
+      "title": "刘骏｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/liujun",
+      "asset_id": "chr-8b3864e815b75d04938e3a11782c62a1",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-034",
+      "target_entity_name": "刘骏",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 47,
+      "title": "梁印｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/liang",
+      "asset_id": "chr-804af921b3065fecbb6a4500f8b04269",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-035",
+      "target_entity_name": "梁印",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 51,
+      "title": "弗雷｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fre",
+      "asset_id": "chr-dd7ef1131bb35fac9c60ea1ff8a1e94e",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-036",
+      "target_entity_name": "弗雷（九霄夏火军统领）",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json",
+      "mapping_basis": "本弧仅九霄夏火统领弗雷；472八荒宫廷魔导师同名缺跨职务桥，不据同字强并，也不凭空添一张旧卡。傅雷伪装工匠另人。"
+    },
+    {
+      "volume": 5,
+      "index": 52,
+      "title": "徐焰｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xuyan",
+      "asset_id": "chr-36eaf0a80230530c92963612fcccc15f",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-037",
+      "target_entity_name": "徐焰",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json",
+      "mapping_basis": "原卡summary的御林归属已另提最小外置纠正；本弧据1001狂雷任命及1067死亡保存真实军属。映射不改原卡。"
+    },
+    {
+      "volume": 5,
+      "index": 53,
+      "title": "雷丁｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/lerding",
+      "asset_id": "chr-1e28e00e24ad55239b1daa9fc256e534",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-038",
+      "target_entity_name": "狂暴者雷丁",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 54,
+      "title": "银戈／巨龙之擎｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yinge",
+      "asset_id": "chr-5b0c38e8739558708022b19f5634b14a",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-039",
+      "target_entity_name": "银戈／巨龙之擎",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 55,
+      "title": "安娜／龙骨之痕／冰龙女王｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/anna",
+      "asset_id": "chr-f41200fd553656a488c9b6e277d728f5",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-040",
+      "target_entity_name": "安娜／龙骨之痕／冰龙女王",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 5,
+      "index": 56,
+      "title": "罗布｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/robu",
+      "asset_id": "chr-3204124233b151f88f0d9fa195f229cb",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "source_cards_sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-041",
+      "target_entity_name": "罗布",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 6,
+      "index": 6,
+      "title": "西瓦娜／佩体内邪灵",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xiwanna",
+      "asset_id": "chr-b2b79441acf65598b05e77b6eddb8941",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-042",
+      "target_entity_name": "西瓦娜（占据佩儿身体的虚空天使）",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "mapping_basis": "实体目标为佩儿身体内的西瓦娜意志；身体连续不等原佩与占据者无条件同一实体。"
+    },
+    {
+      "volume": 6,
+      "index": 13,
+      "title": "景音",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/jing-yin",
+      "asset_id": "chr-77e1d9abc0b6517dac4baf572252faae",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-043",
+      "target_entity_name": "景音",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 6,
+      "index": 16,
+      "title": "祝海／海公",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/zhuhai",
+      "asset_id": "chr-37ed98b3b6495443acf75d89f156c56e",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-044",
+      "target_entity_name": "祝海／海公",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 6,
+      "index": 18,
+      "title": "希芙",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xi-fu",
+      "asset_id": "chr-f7ffe42ff16a552a8691a28e9e0c8602",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-045",
+      "target_entity_name": "希芙／永恒月刃",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 6,
+      "index": 20,
+      "title": "兰蔻",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/lanse",
+      "asset_id": "chr-d0435c4e0f6c5c7e96866574041d1089",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-046",
+      "target_entity_name": "兰蔻",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "mapping_basis": "原origin尾名lanse保留，但卡题与内容明确目标为兰蔻，不由机器键把祖父兰斯并入。"
+    },
+    {
+      "volume": 6,
+      "index": 21,
+      "title": "伊薇",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/yiwei",
+      "asset_id": "chr-908d856e3f8c5d22b359db0fad5faf55",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-047",
+      "target_entity_name": "伊薇",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 6,
+      "index": 22,
+      "title": "奈克",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/naike",
+      "asset_id": "chr-489837236634591b88164468224e329e",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-048",
+      "target_entity_name": "奈克",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 6,
+      "index": 23,
+      "title": "罗躁",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/luo-zao",
+      "asset_id": "chr-27a2135d950d50be994fa74b2142b943",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-049",
+      "target_entity_name": "罗躁",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 6,
+      "index": 24,
+      "title": "云浅／天境神帝",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/yun-qian",
+      "asset_id": "chr-f5d31d6d8d93598d89399e42f24f9fb9",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-050",
+      "target_entity_name": "云浅／天境神帝",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 6,
+      "index": 31,
+      "title": "傲天战皇",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/aotian-emperor",
+      "asset_id": "chr-1294068bf7ff5a9e96c9f6114296cd68",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-051",
+      "target_entity_name": "傲天战皇",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "volume": 6,
+      "index": 32,
+      "title": "北海神侯",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/north-sea-lord",
+      "asset_id": "chr-fcb386f6e24b583c888c3ecc430a1904",
+      "index_convention": "one-based-full-original-card-array",
+      "source_cards_path": "writing-vault/library/reports/zhanlong/vol06-cards.json",
+      "source_cards_sha256": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+      "original_asset_type": "character",
+      "target_audit_id": "character-arc-r4-052",
+      "target_entity_name": "北海神侯",
+      "target_entity_type": "npc_person",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    }
+  ],
+  "entities": [
+    {
+      "audit_id": "character-arc-r4-001",
+      "entity_name": "剑锋寒",
+      "entity_type": "player_person",
+      "assignment_roster_name": "剑锋寒",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 14,
+          "title": "剑锋寒｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/jianfeng",
+          "asset_id": "chr-f668bcfca16053e3914878142a4caa7e"
+        },
+        {
+          "volume": 2,
+          "index": 19,
+          "title": "剑锋寒｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/jianfeng",
+          "asset_id": "chr-c0c80b74f5de546d932eb51d0e0cf5ee"
+        },
+        {
+          "volume": 3,
+          "index": 27,
+          "title": "剑锋寒｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/jianfeng",
+          "asset_id": "chr-aecf30e56d9e5d68b92eef756c442e5f"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-002",
+      "entity_name": "简简单单／慕容韵",
+      "entity_type": "player_person",
+      "assignment_roster_name": "简简单单",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 15,
+          "title": "简简单单｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/simple",
+          "asset_id": "chr-be3c1cf34be05e6988fcffd644c22b55"
+        },
+        {
+          "volume": 2,
+          "index": 43,
+          "title": "简简单单｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/jiandan",
+          "asset_id": "chr-d98c2d1cef8c57d38a096337d5ffb805"
+        },
+        {
+          "volume": 3,
+          "index": 28,
+          "title": "简简单单／慕容韵｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/jian",
+          "asset_id": "chr-8e660e3e16345608b64f4da3989cacb3"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-003",
+      "entity_name": "堕落苍狼",
+      "entity_type": "player_person",
+      "assignment_roster_name": "堕落苍狼",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 16,
+          "title": "堕落苍狼｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/canglang",
+          "asset_id": "chr-31ed8e7a2c1b504a9c5013067c0f48cf"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-004",
+      "entity_name": "飞龙在天／徐龙",
+      "entity_type": "player_person",
+      "assignment_roster_name": "飞龙在天",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 17,
+          "title": "飞龙在天／徐龙｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/dragon",
+          "asset_id": "chr-f149e0105e3e5accbd15ce21cb153f5e"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-005",
+      "entity_name": "周宁／花枪一壶酒",
+      "entity_type": "player_person",
+      "assignment_roster_name": "花枪一壶酒",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 18,
+          "title": "花枪一壶酒／周宁（转述实名）｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/huagun",
+          "asset_id": "chr-2f875e32213858e6a4ce3a8b825582db"
+        },
+        {
+          "volume": 4,
+          "index": 39,
+          "title": "花枪一壶酒／周宁｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/huaqiang",
+          "asset_id": "chr-dec982dd81945626839e8f8afce9a0f6"
+        },
+        {
+          "volume": 5,
+          "index": 18,
+          "title": "周宁／花枪一壶酒｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/flower",
+          "asset_id": "chr-6440535c4dcc55cc928d8fba36c01ab2"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-006",
+      "entity_name": "寒碑颂",
+      "entity_type": "player_person",
+      "assignment_roster_name": "寒碑颂",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json",
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 21,
+          "title": "寒碑颂｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/hanbei",
+          "asset_id": "chr-459c6835b43b5156ae889d29cee028c9"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-007",
+      "entity_name": "刘英／西楚霸王",
+      "entity_type": "player_person",
+      "assignment_roster_name": "刘英",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 23,
+          "title": "刘英／西楚霸王｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/liuying",
+          "asset_id": "chr-1f019840e3fe552cb8d75719ffe21bb4"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-008",
+      "entity_name": "小猪快跑",
+      "entity_type": "player_person",
+      "assignment_roster_name": "小猪快跑",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 24,
+          "title": "小猪快跑｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xiaozhu",
+          "asset_id": "chr-e3df4992da3e54c09f0ec23be35f677b"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-009",
+      "entity_name": "徐月／烟锁风月",
+      "entity_type": "player_person",
+      "assignment_roster_name": "徐月",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 25,
+          "title": "徐月／烟锁风月｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xuyue",
+          "asset_id": "chr-041c951e083059808703f0f58344de90"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-010",
+      "entity_name": "北辰风／问剑",
+      "entity_type": "player_person",
+      "assignment_roster_name": "问剑",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 26,
+          "title": "问剑／北辰风（网页渠道名）｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/wenjian",
+          "asset_id": "chr-9ee387f79bd5543c8b154dc99e636027"
+        },
+        {
+          "volume": 2,
+          "index": 20,
+          "title": "问剑｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/wenjian",
+          "asset_id": "chr-2810dd2390645834b168fd720344f79f"
+        },
+        {
+          "volume": 3,
+          "index": 26,
+          "title": "问剑｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/wenjian",
+          "asset_id": "chr-90204824ebbd56f1a7c12585bfe9f5ed"
+        },
+        {
+          "volume": 4,
+          "index": 40,
+          "title": "问剑／北辰风｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/wenjian",
+          "asset_id": "chr-f32ce9284c805ed881e0a1cca97c227e"
+        },
+        {
+          "volume": 5,
+          "index": 20,
+          "title": "北辰风／问剑｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wen",
+          "asset_id": "chr-dfefc18977a45f2ab8f1f7ed868baef4"
+        },
+        {
+          "volume": 6,
+          "index": 10,
+          "title": "问剑",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/wenjian",
+          "asset_id": "chr-0e0bc5d6e824527d9650bbcacb03a090"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-011",
+      "entity_name": "与子成说",
+      "entity_type": "player_person",
+      "assignment_roster_name": "与子成说",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 42,
+          "title": "与子成说｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/yuzicheng",
+          "asset_id": "chr-f262fad6c9bf54d188afaf6680b00934"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-012",
+      "entity_name": "谁家蓝颜",
+      "entity_type": "player_person",
+      "assignment_roster_name": "谁家蓝颜",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 43,
+          "title": "谁家蓝颜｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/lanyan",
+          "asset_id": "chr-20ed3ab322ee5f35b0b53e069dc05ce4"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-013",
+      "entity_name": "飘渺云烟",
+      "entity_type": "player_person",
+      "assignment_roster_name": "飘渺云烟",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json",
+      "stage_cards": [
+        {
+          "volume": 2,
+          "index": 18,
+          "title": "飘渺云烟｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/piaomiao",
+          "asset_id": "chr-55841c652a37518ab24b2891aafe52e0"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-014",
+      "entity_name": "方歌阙",
+      "entity_type": "player_person",
+      "assignment_roster_name": "方歌阙",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "stage_cards": [
+        {
+          "volume": 2,
+          "index": 21,
+          "title": "方歌阙｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/fang",
+          "asset_id": "chr-7d5ba2dfead55fbab978b667ecb5c18a"
+        },
+        {
+          "volume": 3,
+          "index": 29,
+          "title": "方歌阙｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/fang",
+          "asset_id": "chr-a2f8289be663527fbe22a8b4ad46a9b8"
+        },
+        {
+          "volume": 4,
+          "index": 6,
+          "title": "方歌阙｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/fangge",
+          "asset_id": "chr-1a0f1884659853d4a0ac6df494e95ab7"
+        },
+        {
+          "volume": 5,
+          "index": 19,
+          "title": "方歌阙｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fang",
+          "asset_id": "chr-3be0468d5d5b5c9b82035d2a7cee8bcc"
+        },
+        {
+          "volume": 6,
+          "index": 9,
+          "title": "方歌阙",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/fang-geque",
+          "asset_id": "chr-8516034bbd5757b18779f4ceb448225b"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-015",
+      "entity_name": "叶来",
+      "entity_type": "player_person",
+      "assignment_roster_name": "叶来",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "stage_cards": [
+        {
+          "volume": 2,
+          "index": 44,
+          "title": "叶来｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yelai",
+          "asset_id": "chr-1bd457aeb72c5c32affe9f4cf2a0c18b"
+        },
+        {
+          "volume": 3,
+          "index": 49,
+          "title": "叶来｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/ye",
+          "asset_id": "chr-e8f11f72e2575fdea362bd576a8a926b"
+        },
+        {
+          "volume": 5,
+          "index": 22,
+          "title": "叶来｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yelai",
+          "asset_id": "chr-64433e629ef35c4dbebbb7c4b74f3698"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-016",
+      "entity_name": "赵开国／燕赵无双",
+      "entity_type": "player_person",
+      "assignment_roster_name": "燕赵无双",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "stage_cards": [
+        {
+          "volume": 2,
+          "index": 45,
+          "title": "燕赵无双｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yanzhao",
+          "asset_id": "chr-f82180419ea9522e8e5442ce7189aed2"
+        },
+        {
+          "volume": 6,
+          "index": 8,
+          "title": "燕赵无双／赵开国",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/yan-zhao",
+          "asset_id": "chr-74dea04ca77f57c6920beb173a1cfe16"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-017",
+      "entity_name": "星痕（旧阶段卡题作上将星痕）",
+      "entity_type": "player_person",
+      "assignment_roster_name": "上将星痕",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "stage_cards": [
+        {
+          "volume": 3,
+          "index": 15,
+          "title": "上将星痕｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xinghen",
+          "asset_id": "chr-24b853e152895820a2456425f24bee29"
+        }
+      ],
+      "mapping_basis": "原卡题“上将星痕”与新弧采用星痕的规范指向并列保存；不以标题前缀增造第二人。658实际ID说明已列本组证据。"
+    },
+    {
+      "audit_id": "character-arc-r4-018",
+      "entity_name": "唐古／唐门巨子",
+      "entity_type": "player_person",
+      "assignment_roster_name": "唐古",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "stage_cards": [
+        {
+          "volume": 3,
+          "index": 18,
+          "title": "唐古／唐门巨子｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/tanggu",
+          "asset_id": "chr-8e01e95f3fa356939295533e9f90bb01"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-019",
+      "entity_name": "薛景／纸上画魅",
+      "entity_type": "player_person",
+      "assignment_roster_name": "纸上画魅（薛景）",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "stage_cards": [
+        {
+          "volume": 3,
+          "index": 30,
+          "title": "纸上画魅｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/zhimei",
+          "asset_id": "chr-7d84474947b154c59b5f8522604b5511"
+        },
+        {
+          "volume": 4,
+          "index": 7,
+          "title": "纸上画魅／薛景｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/huamei",
+          "asset_id": "chr-a882972e25305ffd8e1f4fe79833c1b8"
+        },
+        {
+          "volume": 5,
+          "index": 16,
+          "title": "纸上画魅／小景｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/paper",
+          "asset_id": "chr-e9779d18b42d5db1b08930e514d58e0f"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-020",
+      "entity_name": "刘彦／流言",
+      "entity_type": "player_person",
+      "assignment_roster_name": "流言（刘彦）",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json",
+      "stage_cards": [
+        {
+          "volume": 3,
+          "index": 47,
+          "title": "流言／刘彦｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/liuguang",
+          "asset_id": "chr-0f6d5ec2d5005c4abca0ee3e52d3d7a2"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-021",
+      "entity_name": "微笑（英国雷神盟主玩家）",
+      "entity_type": "player_person",
+      "assignment_roster_name": "微笑",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "stage_cards": [
+        {
+          "volume": 3,
+          "index": 48,
+          "title": "微笑（外服玩家）｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/micro",
+          "asset_id": "chr-28c7ade695515bf2b7450c5d5da1a974"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-022",
+      "entity_name": "清眸拓墨",
+      "entity_type": "player_person",
+      "assignment_roster_name": "清眸拓墨",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "stage_cards": [
+        {
+          "volume": 4,
+          "index": 41,
+          "title": "美丽清眸｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/qingmou",
+          "asset_id": "chr-623eb778fd0255228d29785a5a75b4f1"
+        },
+        {
+          "volume": 5,
+          "index": 49,
+          "title": "清眸拓墨｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/clear",
+          "asset_id": "chr-9680e89cd0605bc49c46da3a598a5038"
+        },
+        {
+          "volume": 6,
+          "index": 17,
+          "title": "清眸拓墨",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/qingmou",
+          "asset_id": "chr-525b9665dbe95cc693b66270b9c68258"
+        }
+      ],
+      "mapping_basis": "原卷四题“美丽清眸”不按标题直接并人；861指挥与系统公告、898延续场景的限定原文核对支持清眸拓墨。原题、asset与索引原样保留。"
+    },
+    {
+      "audit_id": "character-arc-r4-023",
+      "entity_name": "魔山",
+      "entity_type": "player_person",
+      "assignment_roster_name": "魔山",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "stage_cards": [
+        {
+          "volume": 4,
+          "index": 42,
+          "title": "魔山｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/moshan",
+          "asset_id": "chr-92b65a4946dc55f8b646ab6e3ad4af40"
+        },
+        {
+          "volume": 5,
+          "index": 48,
+          "title": "魔山｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/moda",
+          "asset_id": "chr-3d97b71a070553c486b3ca1d3a5db3ea"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-024",
+      "entity_name": "颜沫／暴走牛奶",
+      "entity_type": "player_person",
+      "assignment_roster_name": "颜沫（牛奶）",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 17,
+          "title": "颜沫／牛奶／六宫粉黛盟主｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/milk",
+          "asset_id": "chr-18501c1f799c5c11861563c849ae5c30"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-025",
+      "entity_name": "慕萱",
+      "entity_type": "player_person",
+      "assignment_roster_name": "慕萱",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 23,
+          "title": "慕萱｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/mu",
+          "asset_id": "chr-2fe94fd332605d6c8f51d896626d57bd"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-026",
+      "entity_name": "枫林醉",
+      "entity_type": "player_person",
+      "assignment_roster_name": "枫林醉",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json",
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 50,
+          "title": "枫林醉｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/maple",
+          "asset_id": "chr-c487e9b1f5d950e2aa2f2947a30edd71"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-027",
+      "entity_name": "天空玫瑰",
+      "entity_type": "player_person",
+      "assignment_roster_name": "天空玫瑰",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part05.json",
+      "stage_cards": [],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-028",
+      "entity_name": "百里若风（名门世家玩家）",
+      "entity_type": "player_person",
+      "assignment_roster_name": "百里若风（玩家，勿并百里伦）",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part05.json",
+      "stage_cards": [],
+      "mapping_basis": "玩家百里若风与NPC百里伦独立；本条补核玩家，没有占用或复用NPC卡。"
+    },
+    {
+      "audit_id": "character-arc-r4-029",
+      "entity_name": "剑泪",
+      "entity_type": "player_person",
+      "assignment_roster_name": "剑泪",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part05.json",
+      "stage_cards": [],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-030",
+      "entity_name": "吕纯阳",
+      "entity_type": "player_person",
+      "assignment_roster_name": "吕纯阳",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part05.json",
+      "stage_cards": [],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-031",
+      "entity_name": "轩辕枫",
+      "entity_type": "player_person",
+      "assignment_roster_name": "轩辕枫",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part05.json",
+      "stage_cards": [],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-032",
+      "entity_name": "长生诀",
+      "entity_type": "player_person",
+      "assignment_roster_name": "长生诀",
+      "original_proposed_owner": "reader4_external_players",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part05.json",
+      "stage_cards": [],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-033",
+      "entity_name": "火狮榛（姓名乱码异文保留）",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "火狮榛",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json",
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 40,
+          "title": "火狮榛（原文姓名有乱码异文）｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/huoshi",
+          "asset_id": "chr-f7b69f20a3ae5902a3fdcd8b9b0bb95d"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-034",
+      "entity_name": "刘骏",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "刘骏",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json",
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 41,
+          "title": "刘骏｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/liujun",
+          "asset_id": "chr-8b3864e815b75d04938e3a11782c62a1"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-035",
+      "entity_name": "梁印",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "梁印",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json",
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 47,
+          "title": "梁印｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/liang",
+          "asset_id": "chr-804af921b3065fecbb6a4500f8b04269"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-036",
+      "entity_name": "弗雷（九霄夏火军统领）",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "弗雷",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json",
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 51,
+          "title": "弗雷｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fre",
+          "asset_id": "chr-dd7ef1131bb35fac9c60ea1ff8a1e94e"
+        }
+      ],
+      "mapping_basis": "本弧仅九霄夏火统领弗雷；472八荒宫廷魔导师同名缺跨职务桥，不据同字强并，也不凭空添一张旧卡。傅雷伪装工匠另人。"
+    },
+    {
+      "audit_id": "character-arc-r4-037",
+      "entity_name": "徐焰",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "徐焰",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json",
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 52,
+          "title": "徐焰｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xuyan",
+          "asset_id": "chr-36eaf0a80230530c92963612fcccc15f"
+        }
+      ],
+      "mapping_basis": "原卡summary的御林归属已另提最小外置纠正；本弧据1001狂雷任命及1067死亡保存真实军属。映射不改原卡。"
+    },
+    {
+      "audit_id": "character-arc-r4-038",
+      "entity_name": "狂暴者雷丁",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "雷丁",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json",
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 53,
+          "title": "雷丁｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/lerding",
+          "asset_id": "chr-1e28e00e24ad55239b1daa9fc256e534"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-039",
+      "entity_name": "银戈／巨龙之擎",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "银戈",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 54,
+          "title": "银戈／巨龙之擎｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yinge",
+          "asset_id": "chr-5b0c38e8739558708022b19f5634b14a"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-040",
+      "entity_name": "安娜／龙骨之痕／冰龙女王",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "安娜",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 55,
+          "title": "安娜／龙骨之痕／冰龙女王｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/anna",
+          "asset_id": "chr-f41200fd553656a488c9b6e277d728f5"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-041",
+      "entity_name": "罗布",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "罗布",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 56,
+          "title": "罗布｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/robu",
+          "asset_id": "chr-3204124233b151f88f0d9fa195f229cb"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-042",
+      "entity_name": "西瓦娜（占据佩儿身体的虚空天使）",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "西瓦娜",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 6,
+          "title": "西瓦娜／佩体内邪灵",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xiwanna",
+          "asset_id": "chr-b2b79441acf65598b05e77b6eddb8941"
+        }
+      ],
+      "mapping_basis": "实体目标为佩儿身体内的西瓦娜意志；身体连续不等原佩与占据者无条件同一实体。"
+    },
+    {
+      "audit_id": "character-arc-r4-043",
+      "entity_name": "景音",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "景音",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 13,
+          "title": "景音",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/jing-yin",
+          "asset_id": "chr-77e1d9abc0b6517dac4baf572252faae"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-044",
+      "entity_name": "祝海／海公",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "祝海",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 16,
+          "title": "祝海／海公",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/zhuhai",
+          "asset_id": "chr-37ed98b3b6495443acf75d89f156c56e"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-045",
+      "entity_name": "希芙／永恒月刃",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "希芙",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json",
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 18,
+          "title": "希芙",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xi-fu",
+          "asset_id": "chr-f7ffe42ff16a552a8691a28e9e0c8602"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-046",
+      "entity_name": "兰蔻",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "兰蔻",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 20,
+          "title": "兰蔻",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/lanse",
+          "asset_id": "chr-d0435c4e0f6c5c7e96866574041d1089"
+        }
+      ],
+      "mapping_basis": "原origin尾名lanse保留，但卡题与内容明确目标为兰蔻，不由机器键把祖父兰斯并入。"
+    },
+    {
+      "audit_id": "character-arc-r4-047",
+      "entity_name": "伊薇",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "伊薇",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 21,
+          "title": "伊薇",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/yiwei",
+          "asset_id": "chr-908d856e3f8c5d22b359db0fad5faf55"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-048",
+      "entity_name": "奈克",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "奈克",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 22,
+          "title": "奈克",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/naike",
+          "asset_id": "chr-489837236634591b88164468224e329e"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-049",
+      "entity_name": "罗躁",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "罗躁",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 23,
+          "title": "罗躁",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/luo-zao",
+          "asset_id": "chr-27a2135d950d50be994fa74b2142b943"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-050",
+      "entity_name": "云浅／天境神帝",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "云浅",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 24,
+          "title": "云浅／天境神帝",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/yun-qian",
+          "asset_id": "chr-f5d31d6d8d93598d89399e42f24f9fb9"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-051",
+      "entity_name": "傲天战皇",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "傲天战皇",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 31,
+          "title": "傲天战皇",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/aotian-emperor",
+          "asset_id": "chr-1294068bf7ff5a9e96c9f6114296cd68"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    },
+    {
+      "audit_id": "character-arc-r4-052",
+      "entity_name": "北海神侯",
+      "entity_type": "npc_person",
+      "assignment_roster_name": "北海神侯",
+      "original_proposed_owner": "reader3_npc",
+      "current_owner": "/root/zongheng_vol04_full",
+      "character_group_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json",
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 32,
+          "title": "北海神侯",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/north-sea-lord",
+          "asset_id": "chr-fcb386f6e24b583c888c3ecc430a1904"
+        }
+      ],
+      "mapping_basis": "已完整接读对应卡content/evidence与analysis同源阶段状态；按卡的行动者指向对应单一人物，不把其所属组织另当人物。"
+    }
+  ],
+  "supplementary_entities_without_stage_cards": [
+    {
+      "audit_id": "character-arc-r4-027",
+      "entity_name": "天空玫瑰",
+      "entity_type": "player_person",
+      "stage_card_count": 0,
+      "reason": "获授权补核实体；真实旧阶段卡为零，不凭空生成旧asset。"
+    },
+    {
+      "audit_id": "character-arc-r4-028",
+      "entity_name": "百里若风（名门世家玩家）",
+      "entity_type": "player_person",
+      "stage_card_count": 0,
+      "reason": "获授权补核实体；真实旧阶段卡为零，不凭空生成旧asset。"
+    },
+    {
+      "audit_id": "character-arc-r4-029",
+      "entity_name": "剑泪",
+      "entity_type": "player_person",
+      "stage_card_count": 0,
+      "reason": "获授权补核实体；真实旧阶段卡为零，不凭空生成旧asset。"
+    },
+    {
+      "audit_id": "character-arc-r4-030",
+      "entity_name": "吕纯阳",
+      "entity_type": "player_person",
+      "stage_card_count": 0,
+      "reason": "获授权补核实体；真实旧阶段卡为零，不凭空生成旧asset。"
+    },
+    {
+      "audit_id": "character-arc-r4-031",
+      "entity_name": "轩辕枫",
+      "entity_type": "player_person",
+      "stage_card_count": 0,
+      "reason": "获授权补核实体；真实旧阶段卡为零，不凭空生成旧asset。"
+    },
+    {
+      "audit_id": "character-arc-r4-032",
+      "entity_name": "长生诀",
+      "entity_type": "player_person",
+      "stage_card_count": 0,
+      "reason": "获授权补核实体；真实旧阶段卡为零，不凭空生成旧asset。"
+    }
+  ],
+  "verification": "52目标ID恰一次、各stage_card_mapping与已交组逐值相等、每个旧卷/索引恰一次、asset/origin/title与正式卡数组实值完全相等；不改任何原卡或已交组。"
+}

@@ -1,0 +1,45 @@
+{
+  "checked_at_utc": "2026-10-26T17:33:09.306272+00:00",
+  "scope": "freshly fetched remote refs reachable Git objects only; uncommitted local research excluded",
+  "repositories": [
+    {
+      "repository": "medillali/distill-novels",
+      "remote_refs": {
+        "HEAD": "e5313ae8439c74d551948a024ccf1a3f037a083a",
+        "refs/heads/main": "e5313ae8439c74d551948a024ccf1a3f037a083a"
+      },
+      "unique_objects": 127,
+      "object_types": {
+        "commit": 9,
+        "tree": 48,
+        "blob": 70
+      },
+      "object_bytes": 429006,
+      "largest_blob_bytes": 24309,
+      "all_history_paths": 42,
+      "credential_or_private_path_findings": [],
+      "large_text_or_archive_candidates": [],
+      "git_push_performed": false
+    },
+    {
+      "repository": "medillali/writing-vault",
+      "remote_refs": {
+        "HEAD": "4ba677a97a38d27520ccc0af265aad278a202714",
+        "refs/heads/main": "4ba677a97a38d27520ccc0af265aad278a202714"
+      },
+      "unique_objects": 6097,
+      "object_types": {
+        "commit": 35,
+        "tree": 1035,
+        "blob": 5027
+      },
+      "object_bytes": 229696304,
+      "largest_blob_bytes": 18188982,
+      "all_history_paths": 4145,
+      "credential_or_private_path_findings": [],
+      "large_text_or_archive_candidates": [],
+      "git_push_performed": false
+    }
+  ],
+  "limits": "路径与高确定性凭据模式核查，不作绝对保密性担保；不自动修改或上传本地工作树。"
+}

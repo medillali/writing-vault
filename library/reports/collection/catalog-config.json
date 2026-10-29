@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "title": "小说研究总目录",
+  "ordering_rule": "作者内按实际创作先后排列；本轮失落叶研究依序进行，已完成旧研究保留。没有可靠日期时不强行给不同作者混排绝对时间线。",
+  "active_source_id": null,
+  "author_orders": [
+    {
+      "author": "失落叶",
+      "evidence_url": "https://news.chenggua.com/detail/6435.html",
+      "evidence_type": "作者本人访谈中按顺序列举作品",
+      "note": "所选三书顺序为纵横天下、天下无双、斩龙；完整创作履历中天下无双与斩龙之间有斗神。未提供的书不自动加入蒸馏。作品最近更新时间不作为创作先后证据。",
+      "source_ids": [
+        "src-2a13958390274509b2af019f6b12d981",
+        "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "src-20f2d16e3d1b472fa4b230ab0e1770c9"
+      ]
+    },
+    {
+      "author": "发飙的蜗牛",
+      "evidence_url": "https://www.readnovel.com/chapter/22401264000667402/9735512227124488",
+      "alternate_url": "https://www.xs8.cn/chapter/22401264000667402/9735512227124488",
+      "supporting_url": "https://www.webnovel.com/book/22394715000136302/catalog",
+      "evidence_type": "作者三江访谈感言的历程说明及正版平台练级专家目录中的新书公告",
+      "note": "本地已提供作品按练级专家、贼胆、重生之贼行天下排列；作者两本贼系列之间还写过其他作品，不称为连续三部曲。日期未在此统一认证。",
+      "source_ids": [
+        "src-359a2bd5a60747038b12a7ba483a5f80",
+        "src-2d8a13f33737429da512e5cc9e839712",
+        "src-7e18e3668cd940a7b76e7a7e76f4e292"
+      ]
+    },
+    {
+      "author": "情终流水",
+      "evidence_type": "既有项目保留，本轮不核定创作年表",
+      "note": "保留既有作品与研究入口，不属于本轮两位作者的比较结论。",
+      "source_ids": [
+        "src-9ff09c395734410b856f77c77a652834",
+        "src-3827106c3eb24e58a7a70dc66eda226f"
+      ]
+    }
+  ],
+  "books": {
+    "src-2a13958390274509b2af019f6b12d981": {
+      "title": "网游之纵横天下",
+      "author": "失落叶",
+      "slug": "zongheng-tianxia",
+      "report": "../zongheng-tianxia/README.md",
+      "task_state": "completed_full_nine",
+      "note": "1180正文及书首已全文阅读，8卷九维、全书综合和终态审计已正式保存；研究仍待用户审阅。研究纳入2026-10-30同步批次，远端状态见根协作入口。保留旧来源、卡片历史和人工评价。",
+      "additional_reports": [
+        {
+          "title": "优先审阅：贯通全书的剧情地图与人物库",
+          "path": "../zongheng-tianxia/atlas/README.md"
+        },
+        {
+          "title": "本地整书研究验收",
+          "path": "../zongheng-tianxia/ACCEPTANCE.md"
+        }
+      ]
+    },
+    "src-d8926e2a35f04bcf8139cff0ea516bbd": {
+      "title": "网游之天下无双",
+      "author": "失落叶",
+      "slug": "tianxia-wushuang",
+      "task_state": "completed_full_nine",
+      "note": "1599正文及书首已全文阅读，逐卷九维、全书综合和终态审计均正式验收；研究仍待用户审阅。本批研究纳入Git同步；旧来源及人工评价保留。",
+      "additional_reports": [
+        {
+          "title": "本地整书研究验收",
+          "path": "../tianxia-wushuang/ACCEPTANCE.md"
+        },
+        {
+          "title": "身份字段核源更正及旧版",
+          "path": "../tianxia-wushuang/audit/synthesis-identity-correction.md"
+        }
+      ]
+    },
+    "src-20f2d16e3d1b472fa4b230ab0e1770c9": {
+      "title": "斩龙",
+      "author": "失落叶",
+      "slug": "zhanlong",
+      "report": "../zhanlong/README.md",
+      "task_state": "completed_full_nine",
+      "note": "1378正文及书首已全文阅读，逐卷九维、全书综合和终态审计均正式验收；研究仍待用户审阅。本批研究纳入Git同步；旧来源及人工评价保留。",
+      "additional_reports": [
+        {
+          "title": "狮王盾时限与提前交付核源纠正",
+          "path": "../zhanlong/audit/priority-corrections-lion-shield.md"
+        },
+        {
+          "title": "王者领域适用目标及前后版本核源纠正",
+          "path": "../zhanlong/audit/priority-corrections-kings-domain.md"
+        },
+        {
+          "title": "乘风斩当前层数与成长潜力核源纠正",
+          "path": "../zhanlong/audit/priority-corrections-wind-layers.md"
+        },
+        {
+          "title": "百里若风与百里伦、龙硎与龙忠等人物身份核源纠正",
+          "path": "../zhanlong/audit/priority-corrections-identity.md"
+        },
+        {
+          "title": "燕赵无双举荐对象、代理与正式任职核源纠正",
+          "path": "../zhanlong/audit/priority-corrections-yan-recommendation.md"
+        },
+        {
+          "title": "东城月与东城雷收养家庭关系核源纠正",
+          "path": "../zhanlong/audit/priority-corrections-dongcheng-kinship.md"
+        },
+        {
+          "title": "狐狸刘庸与旧卡无证别名核源纠正",
+          "path": "../zhanlong/audit/priority-corrections-fox-identity.md"
+        },
+        {
+          "title": "已主审的全书九维综合36条",
+          "path": "../zhanlong/book-synthesis.md"
+        },
+        {
+          "title": "王将与王翦独立身份及恋情归属核源纠正",
+          "path": "../zhanlong/audit/priority-corrections-wang-identity.md"
+        },
+        {
+          "title": "洛洵逼令与实际自刎时点核源纠正",
+          "path": "../zhanlong/audit/priority-corrections-luoxun-timing.md"
+        },
+        {
+          "title": "徐焰所属狂雷军核源纠正",
+          "path": "../zhanlong/audit/priority-corrections-xuyan-army.md"
+        },
+        {
+          "title": "本地整书研究验收",
+          "path": "../zhanlong/ACCEPTANCE.md"
+        }
+      ]
+    },
+    "src-359a2bd5a60747038b12a7ba483a5f80": {
+      "title": "网游之练级专家",
+      "author": "发飙的蜗牛",
+      "slug": "leveling-expert",
+      "task_state": "completed_full_nine",
+      "note": "既有双书任务已完成387个实际阅读单元的全书九维、人物与问题终态核验；由正式检查点及专题验收证明。本轮仅刷新统一管理入口，不宣称重新阅读；旧试读和迁移记录保留。",
+      "report": "../two-books-full-20261025/leveling/README.md",
+      "additional_reports": [
+        {
+          "title": "保留的旧研究入口",
+          "path": "../two-books-20261023/leveling/analysis.md"
+        }
+      ]
+    },
+    "src-2d8a13f33737429da512e5cc9e839712": {
+      "title": "贼胆",
+      "author": "发飙的蜗牛",
+      "slug": "zeidan",
+      "report": "../two-books-full-20261025/zeidan/README.md",
+      "task_state": "completed_full_nine",
+      "note": "既有双书任务已完成463个实际阅读单元的全书九维、人物与问题终态核验；由正式检查点及专题验收证明。本轮仅刷新统一管理入口，不宣称重新阅读；旧试读和迁移记录保留。",
+      "additional_reports": [
+        {
+          "title": "本次前10章回读与双书研究",
+          "path": "../two-books-20261023/README.md"
+        },
+        {
+          "title": "保留的旧研究入口",
+          "path": "../zeidan/README.md"
+        }
+      ]
+    },
+    "src-7e18e3668cd940a7b76e7a7e76f4e292": {
+      "title": "重生之贼行天下",
+      "author": "发飙的蜗牛",
+      "slug": "rebirth-thief",
+      "task_state": "opening_only",
+      "note": "既有研究仅前4章，前世知识与当前事实分开。"
+    },
+    "src-9ff09c395734410b856f77c77a652834": {
+      "title": "超级骷髅兵",
+      "author": "情终流水",
+      "slug": "super-skeleton",
+      "report": "../super-skeleton/README.md",
+      "task_state": "existing_full_nine",
+      "note": "既有18集183正文/序章九维研究；不改动已有地图阅读器。"
+    },
+    "src-3827106c3eb24e58a7a70dc66eda226f": {
+      "title": "骷髅魔导师",
+      "author": "情终流水",
+      "slug": "skeleton-mage",
+      "task_state": "opening_only",
+      "note": "既有研究仅开篇4章，保持原范围。"
+    }
+  }
+}

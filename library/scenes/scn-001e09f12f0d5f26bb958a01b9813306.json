@@ -1,0 +1,66 @@
+{
+  "asset_id": "scn-001e09f12f0d5f26bb958a01b9813306",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "复活剧情避免泛化所有死者能活。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/ran-npc",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/rolin",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/frost",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/darin"
+    ],
+    "choice": "罗林发誓，魂有条件接受；主抱尸入泉/法师施咒/流霜缝合。",
+    "claim_kind": "inference",
+    "consequence": "178NPC冉闵站起、SS终奖主58新戒实戴，非只是完成宣言。",
+    "failure_mode": "老K玩家独立；云辰后来不可复身不矛盾为同一恢复规则。",
+    "goal": "使古王战魂解脱。",
+    "obstacle": "魂不愿被野心利用、身首分离与入城资格。",
+    "state_change": "留守已成、罗林终身忠诚未证。",
+    "summary": "取头只新阶段，登城后魂求轮回、罗林求留并受警告，流霜缝首等多方才实复生。",
+    "why_it_works": "任务结局可改变最初“救”定义而保被救者选择和条件。"
+  },
+  "created_at": "2026-10-25T19:20:31.324253+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0177",
+      "claim_kind": "fact",
+      "end_line": 15858,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 15739
+    },
+    {
+      "chapter_id": "ch-0178",
+      "claim_kind": "fact",
+      "end_line": 15947,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 15859
+    },
+    {
+      "chapter_id": "ch-0179",
+      "claim_kind": "fact",
+      "end_line": 16022,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 15948
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/scene/kingreborn",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷1",
+    "待审阅"
+  ],
+  "title": "拿头之后才是复生守城",
+  "updated_at": "2026-10-25T19:20:31.324253+00:00",
+  "user_notes": ""
+}

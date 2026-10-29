@@ -1,0 +1,2345 @@
+{
+  "artifact_type": "derived-book-synthesis-dimension-draft",
+  "dimension": "continuity",
+  "label": "连续性",
+  "review_status": "draft-awaiting-primary",
+  "actual_synthesizer": "/root/zongheng_vol03_full",
+  "personal_complete_book_read": false,
+  "rows": [
+    {
+      "id": "zhanlong-book-continuity-01",
+      "key": "an-old-tool-can-carry-a-new-expectation",
+      "title": "旧物的新用途让读者把前后经历连在一起",
+      "claim_kind": "synthesis",
+      "claim": "旧物重现时若带着原先的取得代价、持有人与使用条件，新的用途会唤回旧经历。延迟到手与后续实用因此能形成跨段期待。",
+      "fact_summary": "早期小工具的攀援、采集和站位用途逐渐接入军战资源；重铸保留旧特性又增加新功能，国器转手、保有和实用则跨场分段。末期命人取镇国刀求援、王印开放民心信息、战车承担运输，旧物未只被更高品阶彻底替换。现实实体蝴蝶与游戏蝴蝶同名，须依持有空间和事件辨认。",
+      "supporting_observations": [
+        {
+          "volume": 1,
+          "dimension": "plot",
+          "index_zero_based": 2,
+          "observation_id": "v01-plot-03",
+          "reported_fact": "刚拾吞噬者匕首成为逃崖攀援工具；旧背碑207融合七星，230按云辰星位破柱救援；草丛术在忠烈败后取得、231避冰怒并在199隐伏劫令。",
+          "reported_interpretation": "可迁移的回收不是名称重复，而是物件/规则有明确中间持有与后用动作。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+          "material_sha256": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+          "json_pointer": "/dimensions/plot/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 2,
+          "dimension": "plot",
+          "index_zero_based": 1,
+          "observation_id": "v02-plot-02",
+          "reported_fact": "秦王重铸才可装、进化石443真用；龙吻先待80后林实穿；旗462展示/463给/504实佩。",
+          "reported_interpretation": "物件连续性提供延迟兑现和现实选择，不只是新增名称。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+          "material_sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+          "json_pointer": "/dimensions/plot/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 2,
+          "dimension": "plot",
+          "index_zero_based": 3,
+          "observation_id": "v02-plot-04",
+          "reported_fact": "445刀锤实际卖并分款，454锤从雷厉爆回、489刀从汪爆回。",
+          "reported_interpretation": "市场与战斗造成产权多次变化，可让旧承诺产生新选择。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+          "material_sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+          "json_pointer": "/dimensions/plot/3",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 3,
+          "dimension": "worldbuilding",
+          "index_zero_based": 2,
+          "observation_id": "v03-worldbuilding-03",
+          "reported_fact": "龙池融合圣天保特性而阶变；狮盾十小时转手后抹终持，镇岳在多国多手后归主；NPC佩剑与王权剑各有身份。",
+          "reported_interpretation": "物品以约束、归属与使用时机参与政治和战术。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+          "material_sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+          "json_pointer": "/dimensions/worldbuilding/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。",
+          "reported_fact_boundary": {
+            "claim_kind": "fact",
+            "text": "740公告十小时内为争夺期；743尚余9小时17分即交抹茶，抹茶已实装并开盾技，不是等满十小时才转手。最终保满与无追杀状态另依749判断；原reported_fact保冻结字面。",
+            "evidence": [
+              {
+                "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+                "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+                "chapter_id": "ch-0740",
+                "start_line": 57970,
+                "end_line": 57980,
+                "claim_kind": "fact"
+              },
+              {
+                "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+                "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+                "chapter_id": "ch-0743",
+                "start_line": 58114,
+                "end_line": 58186,
+                "claim_kind": "fact"
+              },
+              {
+                "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+                "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+                "chapter_id": "ch-0749",
+                "start_line": 58537,
+                "end_line": 58600,
+                "claim_kind": "fact"
+              }
+            ]
+          }
+        },
+        {
+          "volume": 4,
+          "dimension": "continuity",
+          "index_zero_based": 0,
+          "observation_id": "v04-continuity-01",
+          "reported_fact": "英雄盔761实戴/781验证免控；紫链761李获/781限复实用；斩龙戒807真换，820赏炮823到。现实蝴蝶922付款926收到，957游戏以龙池/罗神晶/定海石造同名五星；冠军残刃955是项链。",
+          "reported_interpretation": "早得的盔、链和炮隔场才发挥作用，读者能从持有的资源期待下一次用途；重铸又使旧武器的积累延续。现实和游戏两把蝴蝶通过不同材料、价币、制作与试用分开，同名因此形成呼应而非同一物凭空跨界。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "material_sha256": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+          "json_pointer": "/dimensions/continuity/0",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 5,
+          "dimension": "continuity",
+          "index_zero_based": 1,
+          "observation_id": "v05-continuity-02",
+          "reported_fact": "宋寒生日匕寄存/纸钥匙收未提车、雷丁首交任务完成、旧膝月代送李未独收、龙牙1179直接实装。",
+          "reported_interpretation": "物品从约定到接收、装用的间隔，使获得感延后且可追；真正交到手的一幕又能给旧期待明确收束。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol05-analysis.json",
+          "material_sha256": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+          "json_pointer": "/dimensions/continuity/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 5,
+          "dimension": "plot",
+          "index_zero_based": 3,
+          "observation_id": "v05-plot-04",
+          "reported_fact": "霸王膝复制龙腾/铠复制弑神使旧装失特效，三魂精晶加百万金魅才全五星，1151首次死复，1177卡牌赌末刀。",
+          "reported_interpretation": "升级获得感靠取材、选择代价和后用回收，不是不断叠上所有旧技能。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol05-analysis.json",
+          "material_sha256": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+          "json_pointer": "/dimensions/plot/3",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "style",
+          "index_zero_based": 0,
+          "observation_id": "v06-objects-change-function",
+          "reported_fact": "战车从冲阵变运油木、镇国刀由府藏物变求流援信物、王印由荣耀变民心信息入口；现实断蝴蝶与游戏两剑梦毁分开。",
+          "reported_interpretation": "反复出现的物件从战力转关系/知识工具，比新物件堆砌更容易使长篇记忆连续。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/style/0",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        }
+      ],
+      "mechanism": "让旧物在新问题中发挥一个曾被读者认识的特征，或让迟到的交付真正改变持有人的行动；少量明确回声比反复重报全属性更有连续感。",
+      "conditions": "必须是同一对象、承诺或可解释的改造链；同名不同物不应靠读者自行补合。",
+      "limits_and_counterevidence": "314斩华为流霜自己的佩剑，巴林权力剑另交罗林建议毁但未实毁，406流霜仍用斩华不构成失物返还。旧王域“自身”可指各友方目标，不把指代误解造成假冲突；后强化参数也不可倒灌。",
+      "originality_transform": "原创长线可选择一件低阶旧物，保留其原特征并赋一次新用途；对同名异物用稳定的场所、持有者或物感提示，不复制原剑戒。",
+      "literary_choice": {
+        "take": "让旧物在新问题中发挥一个曾被读者认识的特征，或让迟到的交付真正改变持有人的行动；少量明确回声比反复重报全属性更有连续感。",
+        "leave": "314斩华为流霜自己的佩剑，巴林权力剑另交罗林建议毁但未实毁，406流霜仍用斩华不构成失物返还。旧王域“自身”可指各友方目标，不把指代误解造成假冲突；后强化参数也不可倒灌。",
+        "claim_kind": "inference",
+        "user_approval": false
+      },
+      "late_stage_result": "1289—1290游戏蝴蝶进化、1355实体剑断与1371梦毁两国器各属不同层。回声成立依赖辨认，而非只靠名称相同。",
+      "later_tests": {
+        "claim_kind": "synthesis",
+        "test": "1289—1290游戏蝴蝶进化、1355实体剑断与1371梦毁两国器各属不同层。回声成立依赖辨认，而非只靠名称相同。",
+        "boundary": "全书末期的实际动作与开放状态分别判断；不将终点评语倒填原阶段。"
+      },
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0151",
+          "start_line": 13232,
+          "end_line": 13338,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/plot/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0153",
+          "start_line": 13417,
+          "end_line": 13509,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/plot/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0154",
+          "start_line": 13510,
+          "end_line": 13622,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/plot/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0196",
+          "start_line": 17360,
+          "end_line": 17446,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/plot/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0197",
+          "start_line": 17447,
+          "end_line": 17534,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/plot/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0199",
+          "start_line": 17618,
+          "end_line": 17710,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/plot/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0207",
+          "start_line": 18292,
+          "end_line": 18368,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/plot/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0230",
+          "start_line": 20226,
+          "end_line": 20315,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/plot/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0231",
+          "start_line": 20316,
+          "end_line": 20394,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/plot/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0258",
+          "start_line": 22422,
+          "end_line": 22529,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0414",
+          "start_line": 34536,
+          "end_line": 34616,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0419",
+          "start_line": 34932,
+          "end_line": 35004,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0443",
+          "start_line": 36875,
+          "end_line": 36960,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0462",
+          "start_line": 38142,
+          "end_line": 38247,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0463",
+          "start_line": 38248,
+          "end_line": 38302,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0481",
+          "start_line": 39593,
+          "end_line": 39675,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0504",
+          "start_line": 41318,
+          "end_line": 41378,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37031,
+          "end_line": 37097,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/plot/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0454",
+          "start_line": 37616,
+          "end_line": 37680,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/plot/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0489",
+          "start_line": 40186,
+          "end_line": 40251,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/plot/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0548",
+          "start_line": 44274,
+          "end_line": 44346,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0576",
+          "start_line": 46273,
+          "end_line": 46344,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0577",
+          "start_line": 46345,
+          "end_line": 46424,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0631",
+          "start_line": 50315,
+          "end_line": 50375,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0632",
+          "start_line": 50376,
+          "end_line": 50443,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0633",
+          "start_line": 50444,
+          "end_line": 50523,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0740",
+          "start_line": 57910,
+          "end_line": 57980,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0743",
+          "start_line": 58114,
+          "end_line": 58186,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0748",
+          "start_line": 58462,
+          "end_line": 58536,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0749",
+          "start_line": 58537,
+          "end_line": 58600,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0761",
+          "start_line": 59291,
+          "end_line": 59410,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0781",
+          "start_line": 60584,
+          "end_line": 60649,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0807",
+          "start_line": 62225,
+          "end_line": 62326,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0820",
+          "start_line": 63066,
+          "end_line": 63118,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0823",
+          "start_line": 63231,
+          "end_line": 63280,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0899",
+          "start_line": 67785,
+          "end_line": 67836,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0922",
+          "start_line": 69240,
+          "end_line": 69311,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0926",
+          "start_line": 69486,
+          "end_line": 69558,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0954",
+          "start_line": 71222,
+          "end_line": 71314,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0955",
+          "start_line": 71315,
+          "end_line": 71390,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0957",
+          "start_line": 71463,
+          "end_line": 71550,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0966",
+          "start_line": 72051,
+          "end_line": 72112,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0968",
+          "start_line": 72165,
+          "end_line": 72228,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0981",
+          "start_line": 72865,
+          "end_line": 72932,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1110",
+          "start_line": 81361,
+          "end_line": 81431,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1126",
+          "start_line": 82470,
+          "end_line": 82568,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1178",
+          "start_line": 85952,
+          "end_line": 86042,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1179",
+          "start_line": 86043,
+          "end_line": 86110,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1090",
+          "start_line": 79809,
+          "end_line": 79896,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1109",
+          "start_line": 81277,
+          "end_line": 81360,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/plot/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1127",
+          "start_line": 82569,
+          "end_line": 82626,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/plot/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1129",
+          "start_line": 82689,
+          "end_line": 82754,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/plot/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1133",
+          "start_line": 82947,
+          "end_line": 83009,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/plot/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1137",
+          "start_line": 83182,
+          "end_line": 83235,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/plot/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1138",
+          "start_line": 83236,
+          "end_line": 83316,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/plot/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1151",
+          "start_line": 84060,
+          "end_line": 84131,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/plot/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1344",
+          "start_line": 96721,
+          "end_line": 96775,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/style/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1355",
+          "start_line": 97475,
+          "end_line": 97547,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/style/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1371",
+          "start_line": 98559,
+          "end_line": 98638,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/style/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1372",
+          "start_line": 98639,
+          "end_line": 98705,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/style/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1384",
+          "start_line": 99500,
+          "end_line": 99580,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/style/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0314",
+          "start_line": 26847,
+          "end_line": 26930,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0406",
+          "start_line": 33927,
+          "end_line": 34010,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0530",
+          "start_line": 42939,
+          "end_line": 42950,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0541",
+          "start_line": 43775,
+          "end_line": 43782,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1289",
+          "start_line": 93204,
+          "end_line": 93281,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1290",
+          "start_line": 93282,
+          "end_line": 93364,
+          "claim_kind": "fact"
+        }
+      ],
+      "review_status": "draft",
+      "priority_corrections": [
+        {
+          "path": "writing-vault/library/reports/zhanlong/audit/priority-corrections-kings-domain.json",
+          "sha256": "9525be1c71ea178849e97a9d107ef031b215cf94d113cccd784e54a5d35f2360",
+          "application": "初版各目标自身回血与实际群回相容，后强化数值分期。"
+        },
+        {
+          "path": "writing-vault/library/reports/zhanlong/vol02-primary-corrections.json",
+          "sha256": "e0f2a45c5a97c7dc09bbf5120d5df8b797170bb94a35babfdc8378c68078d005",
+          "application": "斩华与巴林权力剑分物，撤回假失物链。"
+        },
+        {
+          "path": "writing-vault/library/reports/zhanlong/audit/priority-corrections-lion-shield.json",
+          "sha256": "ae71dd7a224fb36a50ba83bcbed3878e61887a740a987e4b451e99fedbdb2f5f",
+          "application": "狮盾期间交付/实用与最后保满分开；原内字不可误改后。"
+        }
+      ]
+    },
+    {
+      "id": "zhanlong-book-continuity-02",
+      "key": "a-return-must-explain-what-was-lost",
+      "title": "不同恢复路径维持不同损失的重量",
+      "claim_kind": "synthesis",
+      "claim": "长篇允许人物回返，但回返应说明失去的是身体、灵魂、资格还是关系。把救回、伤后再现、补员和玩家复活区分，才能保留死亡与战争成本。",
+      "fact_summary": "玩家普通死亡、活动禁入与NPC死伤有不同代价；苏克装死不是复活证据，普通单位相关概率也不能推广BOSS。流霜死后经残魂与阵法醒来且记忆有缺，佩儿后期原魂驱逐借体者才醒；羽平伤后再现不等确死复生，补招士兵更不等原兵归来。现实雷沈死亡与数字记忆重塑又另有机制。",
+      "supporting_observations": [
+        {
+          "volume": 2,
+          "dimension": "continuity",
+          "index_zero_based": 2,
+          "observation_id": "v02-continuity-03",
+          "reported_fact": "紫星林煌灰死，林穹断臂逃/洛克林伤退；苏克装死，池兄妹血空仍活；秦蒙见尸。",
+          "reported_interpretation": "有结算不必真死，有死亡报告也须更新；现实和游戏不能相互代称。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+          "material_sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+          "json_pointer": "/dimensions/continuity/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 3,
+          "dimension": "continuity",
+          "index_zero_based": 1,
+          "observation_id": "v03-continuity-02",
+          "reported_fact": "流霜真死后两阶段复活；寒荒败有305残活；雷744游戏死745回合，680现实2死7重；游与欧阳活。",
+          "reported_interpretation": "不同世界、观察渠道、时间决定状态，不用“全灭/牺牲”一词串平。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+          "material_sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+          "json_pointer": "/dimensions/continuity/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 4,
+          "dimension": "continuity",
+          "index_zero_based": 1,
+          "observation_id": "v04-continuity-02",
+          "reported_fact": "西/罗林/凯尔/塞林/佩/欧/罗鼎各有不同尾杀者；主842昏843醒，罗嗣断腕后活再战；羽平龙重伤未见本卷明确痊愈，唐麟/罗特/莫文真亡。",
+          "reported_interpretation": "死亡后有尸、棺、墓或空缺，后场不能轻易抹去读者已承受的失落；负伤者再出现则允许关系延续。大军后来补足人数只恢复组织规模，不能把唐麟、罗特等具体人的位置和记忆一起还原。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "material_sha256": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+          "json_pointer": "/dimensions/continuity/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 5,
+          "dimension": "continuity",
+          "index_zero_based": 2,
+          "observation_id": "v05-continuity-03",
+          "reported_fact": "徐焰1067尸、雷丁系统死、兰濒死回城被救醒、安娜子舒杀/银戈主杀；铁靴游戏再现补装备。",
+          "reported_interpretation": "玩家可复活维持长战，NPC与现实身体的不同恢复代价仍使风险有层次；具名死者让胜后奖励不能把全场痛感清零。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol05-analysis.json",
+          "material_sha256": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+          "json_pointer": "/dimensions/continuity/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "worldbuilding",
+          "index_zero_based": 1,
+          "observation_id": "v06-separate-mortality",
+          "reported_fact": "玩家可掉级复活，鬼城死亡返天翎；NPC兵会饥死且不能以此返。佩原魂躲体内经流霜驱西瓦娜后醒，沈现实死后末章只演白墨颜的游戏记忆人物醒来。",
+          "reported_interpretation": "相同“重生”词承载不同实体/代价，必须拆身体、意识、游戏资格、记忆技术。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/worldbuilding/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "themes",
+          "index_zero_based": 2,
+          "observation_id": "v06-cost-does-not-rollback",
+          "reported_fact": "沈死后追凶成功、订婚续办，仍祭墓/两人殉职；鬼城玩家能复，NPC50万返不足18万，死者祝海不因开幕复活。",
+          "reported_interpretation": "让新的快乐与不可回滚的损并存，可避免大团圆把人物代价清空。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/themes/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        }
+      ],
+      "mechanism": "回返时保留上一次损失的具体对象，补一条专属恢复途径，并展示仍缺的部分；永久损失旁边可以有成功救援，但不能用后者替所有人结账。",
+      "conditions": "人物身份、死伤确认、恢复主体与路径须能辨认；新招、同名与回忆不能冒充旧人本人。",
+      "limits_and_counterevidence": "861清眸杀的是玩家百里若风，NPC百里伦后来活跃不是同人复现。龙硎1380为骨折而非截肢，子舒断右臂后再生另属一链；不要为增强损失感扩大伤势。",
+      "originality_transform": "原创可为不同生命形态各设一种损失成本与一种有限恢复，重点写回来后仍改变的关系或功能；不用通用复活覆盖所有代价。",
+      "literary_choice": {
+        "take": "回返时保留上一次损失的具体对象，补一条专属恢复途径，并展示仍缺的部分；永久损失旁边可以有成功救援，但不能用后者替所有人结账。",
+        "leave": "861清眸杀的是玩家百里若风，NPC百里伦后来活跃不是同人复现。龙硎1380为骨折而非截肢，子舒断右臂后再生另属一链；不要为增强损失感扩大伤势。",
+        "claim_kind": "inference",
+        "user_approval": false
+      },
+      "late_stage_result": "鬼城玩家能死亡回城，NPC不能用同法撤退；末归不足18万与军中补员不互相抵消。佩儿醒来与白墨颜数字上线亦不保证雷或现实尸身同样恢复。",
+      "later_tests": {
+        "claim_kind": "synthesis",
+        "test": "鬼城玩家能死亡回城，NPC不能用同法撤退；末归不足18万与军中补员不互相抵消。佩儿醒来与白墨颜数字上线亦不保证雷或现实尸身同样恢复。",
+        "boundary": "全书末期的实际动作与开放状态分别判断；不将终点评语倒填原阶段。"
+      },
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0405",
+          "start_line": 33831,
+          "end_line": 33926,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0407",
+          "start_line": 34011,
+          "end_line": 34092,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0408",
+          "start_line": 34093,
+          "end_line": 34179,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0423",
+          "start_line": 35207,
+          "end_line": 35289,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0429",
+          "start_line": 35664,
+          "end_line": 35736,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0490",
+          "start_line": 40252,
+          "end_line": 40349,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0495",
+          "start_line": 40640,
+          "end_line": 40698,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0504",
+          "start_line": 41318,
+          "end_line": 41378,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0547",
+          "start_line": 44197,
+          "end_line": 44273,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0580",
+          "start_line": 46576,
+          "end_line": 46650,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0587",
+          "start_line": 47134,
+          "end_line": 47282,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0589",
+          "start_line": 47349,
+          "end_line": 47414,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0606",
+          "start_line": 48509,
+          "end_line": 48577,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0607",
+          "start_line": 48578,
+          "end_line": 48658,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0679",
+          "start_line": 53910,
+          "end_line": 53991,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0680",
+          "start_line": 53992,
+          "end_line": 54060,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0744",
+          "start_line": 58187,
+          "end_line": 58267,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0745",
+          "start_line": 58268,
+          "end_line": 58345,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0788",
+          "start_line": 61007,
+          "end_line": 61067,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0792",
+          "start_line": 61258,
+          "end_line": 61324,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0801",
+          "start_line": 61862,
+          "end_line": 61936,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0806",
+          "start_line": 62150,
+          "end_line": 62224,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0829",
+          "start_line": 63570,
+          "end_line": 63618,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0830",
+          "start_line": 63619,
+          "end_line": 63680,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0832",
+          "start_line": 63730,
+          "end_line": 63792,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0833",
+          "start_line": 63793,
+          "end_line": 63852,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0842",
+          "start_line": 64367,
+          "end_line": 64450,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0843",
+          "start_line": 64451,
+          "end_line": 64527,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0861",
+          "start_line": 65583,
+          "end_line": 65645,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0880",
+          "start_line": 66624,
+          "end_line": 66680,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0885",
+          "start_line": 66908,
+          "end_line": 66992,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0914",
+          "start_line": 68713,
+          "end_line": 68786,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0948",
+          "start_line": 70862,
+          "end_line": 70914,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0949",
+          "start_line": 70915,
+          "end_line": 70985,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0953",
+          "start_line": 71173,
+          "end_line": 71221,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1053",
+          "start_line": 77496,
+          "end_line": 77556,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1067",
+          "start_line": 78313,
+          "end_line": 78377,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1105",
+          "start_line": 80929,
+          "end_line": 80999,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1107",
+          "start_line": 81105,
+          "end_line": 81181,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1125",
+          "start_line": 82413,
+          "end_line": 82469,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1126",
+          "start_line": 82470,
+          "end_line": 82568,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1160",
+          "start_line": 84686,
+          "end_line": 84749,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1177",
+          "start_line": 85870,
+          "end_line": 85951,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1178",
+          "start_line": 85952,
+          "end_line": 86042,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1094",
+          "start_line": 80115,
+          "end_line": 80179,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1219",
+          "start_line": 88651,
+          "end_line": 88706,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1349",
+          "start_line": 97068,
+          "end_line": 97142,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1352",
+          "start_line": 97275,
+          "end_line": 97343,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1359",
+          "start_line": 97756,
+          "end_line": 97823,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1377",
+          "start_line": 98981,
+          "end_line": 99073,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1386",
+          "start_line": 99656,
+          "end_line": 99818,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1276",
+          "start_line": 92255,
+          "end_line": 92342,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/themes/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1355",
+          "start_line": 97475,
+          "end_line": 97547,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/themes/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1356",
+          "start_line": 97548,
+          "end_line": 97620,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/themes/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1357",
+          "start_line": 97621,
+          "end_line": 97678,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/themes/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1384",
+          "start_line": 99500,
+          "end_line": 99580,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/themes/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0988",
+          "start_line": 73306,
+          "end_line": 73377,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1127",
+          "start_line": 82569,
+          "end_line": 82626,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1380",
+          "start_line": 99222,
+          "end_line": 99289,
+          "claim_kind": "fact"
+        }
+      ],
+      "review_status": "draft",
+      "priority_corrections": [
+        {
+          "path": "writing-vault/library/reports/zhanlong/audit/priority-corrections-identity.json",
+          "sha256": "a39e58be5de82b3ba128651880e03596b66e4d8e98bdc87ea5deccaff3e3a619",
+          "application": "分开玩家百里若风与NPC百里伦，不诊断假复现。"
+        },
+        {
+          "path": "writing-vault/library/reports/zhanlong/audit/primary-rereads/longxing-arm-1380-addendum.json",
+          "sha256": "ae2b79ceeebbbbc1d144efc34d6042381841055c2412efde85fb4fc2ebedeabb",
+          "application": "骨折不推截肢，与子舒再生分人。"
+        }
+      ]
+    },
+    {
+      "id": "zhanlong-book-continuity-03",
+      "key": "a-late-name-changes-an-old-scene",
+      "title": "化名与关系揭晓使旧行动被重新衡量",
+      "claim_kind": "synthesis",
+      "claim": "身份连续性的阅读效果不止认出一个人。后来的姓名、亲缘和本人陈述会让旧贡献、迟疑与伤害获得新意义，而人物当时不知道的部分仍应保留。",
+      "fact_summary": "抹茶的旧贡献在915背叛和916舞林揭小妖后产生张力，960堂姐妹关系再添一层；946方猜爱与956李修正未强逼夺城，不等薛柔已向李坦白。后期1086本人确认身份才跨过另一认知门槛。其他相似人名、官衔与实体武器同样需要在场景中辨认，不能用近名填补行动。",
+      "supporting_observations": [
+        {
+          "volume": 1,
+          "dimension": "continuity",
+          "index_zero_based": 1,
+          "observation_id": "v01-continuity-02",
+          "reported_fact": "老K冉闵与古王NPC冉闵会面任务中分开；雷龙洛林与城主罗林不同；流霜/寒霜近误称须保；玄武劫周玄与花枪周宁为狐宋转述堂亲。",
+          "reported_interpretation": "身份主张必须有本人/系统/可定位关系的证据，不能按同名和称谓推同实体。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+          "material_sha256": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+          "json_pointer": "/dimensions/continuity/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 2,
+          "dimension": "continuity",
+          "index_zero_based": 4,
+          "observation_id": "v02-continuity-05",
+          "reported_fact": "314主先收巴林佩剑入包；26902—06看的却是流霜自己的斩华，她说请九黎大师重铸刻名。26912—23回龙城另持巴林权力剑献罗/建议毁，罗同意并带走；406霜再持斩华不矛盾。",
+          "reported_interpretation": "连续场面中相近名词不保证同物，镜头对象和交接动作优先于研究者的顺读联想。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+          "material_sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+          "json_pointer": "/dimensions/continuity/4",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 3,
+          "dimension": "continuity",
+          "index_zero_based": 0,
+          "observation_id": "v03-continuity-01",
+          "reported_fact": "落海断臂后580被杀；洛克林526已死；罗林后归附；两冉闵、现实Kyle/异魔凯尔、唐古/唐琦/战争唐各有明确场景。",
+          "reported_interpretation": "动作主体和死者连续性先于好听概括，跨卷异名不靠音近合并。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+          "material_sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+          "json_pointer": "/dimensions/continuity/0",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 4,
+          "dimension": "continuity",
+          "index_zero_based": 2,
+          "observation_id": "v04-continuity-03",
+          "reported_fact": "915抹茶夺城、亲杀旧友并显神话身份；916林小舞揭薛柔即小妖、林婉儿说明薛景亲缘，960明确堂姐妹，并非抹向主当面完整坦白。北辰风是问剑称；唐古挡剑与唐琦六爻是分人动作。林成活归为旧师，主亲生父母仍幼时失踪；裴涉案只有警方怀疑。",
+          "reported_interpretation": "读者在已付出信任和共同战斗之后获知另一身份，旧行动因此出现第二层意义；文本又让方的召回解释、主的怨与后来的修正并存，避免一项揭晓替所有未见动机下结论。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "material_sha256": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+          "json_pointer": "/dimensions/continuity/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 5,
+          "dimension": "continuity",
+          "index_zero_based": 0,
+          "observation_id": "v05-continuity-01",
+          "reported_fact": "为爱追寻本人认薛/抹/小妖；颜沫牛奶另人，纸上画魅=薛景，是薛柔堂妹；玩家冉闵与NPC战魂冉闵同时存在。",
+          "reported_interpretation": "本人当面认多别名、另人的自我介绍和亲属说明，逐步把失联时的陌生行动接回旧关系；同名NPC与玩家的不同场面又保住世界的辨识度。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol05-analysis.json",
+          "material_sha256": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+          "json_pointer": "/dimensions/continuity/0",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        }
+      ],
+      "mechanism": "延迟给出能重估旧行动的身份信息，保留先前人物的限知位置；揭晓后用一次新的相处或责任选择检验旧关系能否继续。",
+      "conditions": "线索应能回到具体行动，揭晓者与听者明确；称号、亲称和姓名变化须有独立的身份锚点。",
+      "limits_and_counterevidence": "真实源文称衔或数值漂移会加重辨认负担，不应全部升格为精巧伏笔。899炎龙统领是龙忠非龙硎，919称衔差属龙忠自身；845乘风当前10、后15与潜力27可相容，不能拿误读硬上限来论证规则崩坏。",
+      "originality_transform": "原创身份线让早期一次行动在揭晓后同时有合理性与代价；对多个相似名称主动给稳定锚点，不搬运双身份和亲缘反转。",
+      "literary_choice": {
+        "take": "延迟给出能重估旧行动的身份信息，保留先前人物的限知位置；揭晓后用一次新的相处或责任选择检验旧关系能否继续。",
+        "leave": "真实源文称衔或数值漂移会加重辨认负担，不应全部升格为精巧伏笔。899炎龙统领是龙忠非龙硎，919称衔差属龙忠自身；845乘风当前10、后15与潜力27可相容，不能拿误读硬上限来论证规则崩坏。",
+        "claim_kind": "inference",
+        "user_approval": false
+      },
+      "late_stage_result": "薛柔后期归队使旧善意与旧伤害并存，未把所有误会都写成全知爱情。终点清晰来自分层揭晓，不要求前阶段角色提前懂得全部。",
+      "later_tests": {
+        "claim_kind": "synthesis",
+        "test": "薛柔后期归队使旧善意与旧伤害并存，未把所有误会都写成全知爱情。终点清晰来自分层揭晓，不要求前阶段角色提前懂得全部。",
+        "boundary": "全书末期的实际动作与开放状态分别判断；不将终点评语倒填原阶段。"
+      },
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0054",
+          "start_line": 4479,
+          "end_line": 4577,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0139",
+          "start_line": 12116,
+          "end_line": 12218,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0156",
+          "start_line": 13695,
+          "end_line": 13801,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0159",
+          "start_line": 13978,
+          "end_line": 14066,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0160",
+          "start_line": 14067,
+          "end_line": 14148,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0161",
+          "start_line": 14149,
+          "end_line": 14235,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0178",
+          "start_line": 15859,
+          "end_line": 15947,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0219",
+          "start_line": 19263,
+          "end_line": 19335,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/continuity/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0314",
+          "start_line": 26847,
+          "end_line": 26930,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/continuity/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0406",
+          "start_line": 33927,
+          "end_line": 34010,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/continuity/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0526",
+          "start_line": 42615,
+          "end_line": 42680,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0549",
+          "start_line": 44347,
+          "end_line": 44414,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0559",
+          "start_line": 45056,
+          "end_line": 45116,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0580",
+          "start_line": 46576,
+          "end_line": 46650,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0585",
+          "start_line": 46956,
+          "end_line": 47027,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0622",
+          "start_line": 49756,
+          "end_line": 49810,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0744",
+          "start_line": 58187,
+          "end_line": 58267,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0774",
+          "start_line": 60181,
+          "end_line": 60264,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0840",
+          "start_line": 64228,
+          "end_line": 64297,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0841",
+          "start_line": 64298,
+          "end_line": 64366,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0842",
+          "start_line": 64367,
+          "end_line": 64450,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0851",
+          "start_line": 64976,
+          "end_line": 65036,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0853",
+          "start_line": 65094,
+          "end_line": 65170,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0854",
+          "start_line": 65171,
+          "end_line": 65253,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0899",
+          "start_line": 67785,
+          "end_line": 67836,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0915",
+          "start_line": 68787,
+          "end_line": 68855,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0916",
+          "start_line": 68856,
+          "end_line": 68909,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0959",
+          "start_line": 71613,
+          "end_line": 71689,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0960",
+          "start_line": 71690,
+          "end_line": 71763,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0968",
+          "start_line": 72165,
+          "end_line": 72228,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0946",
+          "start_line": 70737,
+          "end_line": 70805,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0956",
+          "start_line": 71391,
+          "end_line": 71462,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1006",
+          "start_line": 74484,
+          "end_line": 74540,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1086",
+          "start_line": 79559,
+          "end_line": 79633,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1108",
+          "start_line": 81182,
+          "end_line": 81276,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1109",
+          "start_line": 81277,
+          "end_line": 81360,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1110",
+          "start_line": 81361,
+          "end_line": 81431,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1131",
+          "start_line": 82810,
+          "end_line": 82880,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1134",
+          "start_line": 83010,
+          "end_line": 83073,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1149",
+          "start_line": 83960,
+          "end_line": 84010,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/1，定位来自正式分卷，非本次新原文阅读"
+        }
+      ],
+      "review_status": "draft",
+      "priority_corrections": [
+        {
+          "path": "writing-vault/library/reports/zhanlong/audit/priority-corrections-identity.json",
+          "sha256": "a39e58be5de82b3ba128651880e03596b66e4d8e98bdc87ea5deccaff3e3a619",
+          "application": "龙忠与龙硎各自实体保留；不借误录制造调军异动。"
+        },
+        {
+          "path": "writing-vault/library/reports/zhanlong/audit/priority-corrections-wind-layers.json",
+          "sha256": "81a4e48bd0bcf05b94e0caef71b287909b10638d1a4e50325fd8c8bf775ebd83",
+          "application": "乘风层数按当前/后实用/潜力分层，撤旧过强自冲解读。"
+        }
+      ]
+    },
+    {
+      "id": "zhanlong-book-continuity-04",
+      "key": "a-promise-returns-through-an-action",
+      "title": "承诺靠不同时点的动作兑现，留下未完的余波",
+      "claim_kind": "synthesis",
+      "claim": "跨段期待由具体承诺及其后续动作维持：重约、到账、交付、使用、授权或任职分别回答不同部分。回收可以换一种场景发生，却不能由同类事件替代原对象。",
+      "fact_summary": "早期西溪“明日”约定未统一日历，后316重约、318抵达和319入园实游已回应同一愿望。181拜访邀约很久后在1163—1165赴河南实见与实练中获得回声。卷四半矿口约938已有首次履行，军团扩编975已获批准；燕1192自荐请求到1234代理、1244正式亦分步兑现。",
+      "supporting_observations": [
+        {
+          "volume": 4,
+          "dimension": "continuity",
+          "index_zero_based": 3,
+          "observation_id": "v04-continuity-04",
+          "reported_fact": "兰馨814活救任务闭、五千降俘821真实处死；夏侯仁879报粮到、神殿958仅200准骑+1800强普回；968矿战与找薛柔、裴案、20万建制等仍未结。",
+          "reported_interpretation": "兰馨的营救在系统完成处给即时释放，粮运则隔着袭粮危机直到报到才使前段担心回落；五千降俘处死让不杀诺以失败落地。神殿首批返军又把完成与未完成叠在同一结果里，使希望向后延伸而不假装全部团圆。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "material_sha256": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+          "json_pointer": "/dimensions/continuity/3",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 5,
+          "dimension": "continuity",
+          "index_zero_based": 4,
+          "observation_id": "v05-continuity-05",
+          "reported_fact": "百岛SSS闭、抢龙SSS闭/群龙迁回、两王系统死；子舒封龙神、首批斩新龙骑、重排君王与戒款仍未发生。",
+          "reported_interpretation": "系统奖励关闭局部行动，同时把新资源、未触发条件和关系承诺推向下一段，既给本卷完成感又保继续阅读的方向。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol05-analysis.json",
+          "material_sha256": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+          "json_pointer": "/dimensions/continuity/4",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "continuity",
+          "index_zero_based": 2,
+          "observation_id": "v06-retirement-stages",
+          "reported_fact": "1348先王系统/佩醒后退口允，1350明正式令未下仍调军，1360实际交燕执戈，主仍御林王；末林接斩盟主但现实KILLS启动又接职责。",
+          "reported_interpretation": "多种职位分别交接才能准确描画终态，标题或自说“已辞”不能独立决定全部权限归零。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/continuity/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "continuity",
+          "index_zero_based": 3,
+          "observation_id": "v06-open-end-not-erasure",
+          "reported_fact": "刑任职、子舒复臂、兹爵营业执照、沈母签字均有后证；秦皇尸去向、长老回格、旧贪查等没有本卷明确完成。",
+          "reported_interpretation": "职位正式授任、身体恢复、营业资格和授权签字的再次出现，使不同旧承诺分别获得可见回收；秦皇空棺、长老回赠与旧贪查仍留空缺，完成感因而是局部累积，并非一次全清。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/continuity/3",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        }
+      ],
+      "mechanism": "让读者记得一项尚欠的行动，后来用收物、使用或关系变化确认其兑现；复合承诺可分段完成，并让完成后的责任继续存在。",
+      "conditions": "后证须能匹配同一人、物或愿望，不要求重复原台词才承认回收；但不能拿后来相似奖励顶旧账。",
+      "limits_and_counterevidence": "精确“明日”与全书统一日历仍不明，不影响后来确有实游；获准20万不等已经实编20万。武魂早先猜测后来1240炼魂面板、1241问剑与方歌阙魂实际作战已有后证，不能终评仍称仅预测。",
+      "originality_transform": "原创可选一项关系承诺、一项物质欠项和一项制度目标，让它们通过不同动作回收；只保会改变人物处境的余项，不机械每章制造悬题。",
+      "literary_choice": {
+        "take": "让读者记得一项尚欠的行动，后来用收物、使用或关系变化确认其兑现；复合承诺可分段完成，并让完成后的责任继续存在。",
+        "leave": "精确“明日”与全书统一日历仍不明，不影响后来确有实游；获准20万不等已经实编20万。武魂早先猜测后来1240炼魂面板、1241问剑与方歌阙魂实际作战已有后证，不能终评仍称仅预测。",
+        "claim_kind": "inference",
+        "user_approval": false
+      },
+      "late_stage_result": "末期已封王、交执戈、交盟主与订婚分别完成；KILLS赴任、战皇新战、七日裂缝实闭和雷真正醒来仍未演。结尾以阶段闭合支持前进，同时保留开放后果。",
+      "later_tests": {
+        "claim_kind": "synthesis",
+        "test": "末期已封王、交执戈、交盟主与订婚分别完成；KILLS赴任、战皇新战、七日裂缝实闭和雷真正醒来仍未演。结尾以阶段闭合支持前进，同时保留开放后果。",
+        "boundary": "全书末期的实际动作与开放状态分别判断；不将终点评语倒填原阶段。"
+      },
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0814",
+          "start_line": 62682,
+          "end_line": 62744,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0821",
+          "start_line": 63119,
+          "end_line": 63175,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0879",
+          "start_line": 66578,
+          "end_line": 66623,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0880",
+          "start_line": 66624,
+          "end_line": 66680,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0891",
+          "start_line": 67277,
+          "end_line": 67340,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0931",
+          "start_line": 69791,
+          "end_line": 69877,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0958",
+          "start_line": 71551,
+          "end_line": 71612,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0959",
+          "start_line": 71613,
+          "end_line": 71689,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0960",
+          "start_line": 71690,
+          "end_line": 71763,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0966",
+          "start_line": 72051,
+          "end_line": 72112,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0968",
+          "start_line": 72165,
+          "end_line": 72228,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1173",
+          "start_line": 85604,
+          "end_line": 85660,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1175",
+          "start_line": 85729,
+          "end_line": 85795,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1178",
+          "start_line": 85952,
+          "end_line": 86042,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1179",
+          "start_line": 86043,
+          "end_line": 86110,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/continuity/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1348",
+          "start_line": 96998,
+          "end_line": 97067,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1350",
+          "start_line": 97143,
+          "end_line": 97213,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1360",
+          "start_line": 97824,
+          "end_line": 97897,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1372",
+          "start_line": 98639,
+          "end_line": 98705,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1386",
+          "start_line": 99656,
+          "end_line": 99818,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/continuity/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1248",
+          "start_line": 90387,
+          "end_line": 90455,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1289",
+          "start_line": 93204,
+          "end_line": 93281,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1345",
+          "start_line": 96776,
+          "end_line": 96837,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1358",
+          "start_line": 97679,
+          "end_line": 97755,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1359",
+          "start_line": 97756,
+          "end_line": 97823,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/continuity/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0316",
+          "start_line": 27015,
+          "end_line": 27096,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0318",
+          "start_line": 27182,
+          "end_line": 27265,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0319",
+          "start_line": 27266,
+          "end_line": 27327,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1163",
+          "start_line": 84912,
+          "end_line": 84985,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1164",
+          "start_line": 84986,
+          "end_line": 85067,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1165",
+          "start_line": 85068,
+          "end_line": 85138,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0938",
+          "start_line": 70223,
+          "end_line": 70277,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0975",
+          "start_line": 72491,
+          "end_line": 72509,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1192",
+          "start_line": 86860,
+          "end_line": 86869,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1234",
+          "start_line": 89535,
+          "end_line": 89546,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1240",
+          "start_line": 89895,
+          "end_line": 89961,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1241",
+          "start_line": 89962,
+          "end_line": 90011,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1244",
+          "start_line": 90159,
+          "end_line": 90170,
+          "claim_kind": "fact"
+        }
+      ],
+      "review_status": "draft",
+      "priority_corrections": [
+        {
+          "path": "writing-vault/library/reports/zhanlong/audit/primary-rereads/late-crosschecks-20261026.json",
+          "sha256": "ba44b49b84a8e50c75cb5174414f7ca1ebd6e80e680c4141a9584bfb249d865b",
+          "application": "采用938已分、975已批与1240—41武魂后改炼魂且实战的直接后证。"
+        },
+        {
+          "path": "writing-vault/library/reports/zhanlong/audit/priority-corrections-yan-recommendation.json",
+          "sha256": "e2e4799a7fd9ef187af296f6b93c1d0aefcfbf0c01e67deaf8c4fbea5b7b13ea",
+          "application": "自荐、代理与正式任职依时间展开。"
+        }
+      ]
+    }
+  ]
+}

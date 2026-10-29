@@ -1,0 +1,57 @@
+{
+  "status": "proposal-only-no-roster-change",
+  "entity": {
+    "name": "百炼老人",
+    "proposed_owner": "reader3_npc",
+    "status": "not_yet_authored",
+    "audit_id": null,
+    "stage_cards": [
+      {
+        "volume": 1,
+        "index": 38,
+        "title": "百炼老人｜卷一阶段",
+        "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/bailian",
+        "asset_id": "chr-b9b86ddfccf55b1db59abf725da3d94c"
+      }
+    ]
+  },
+  "issue": "早期荒陵百炼老人与1366无尽之地新访回同称工匠，缺明确同人回指，不能凭同名职业硬并。",
+  "before": "现roster既有百炼老人仅映射卷1卡#38，为荒陵藤囚老人；无1366阶段卡。",
+  "proposed_after": "保持原r3-007古墓百炼映射与177实际救出；在evidence_boundaries并列1366另称百炼老人：韩渊称从无尽之地找回70余岁隐士，兵部已聘制器大师，主亲见韩/龙/景新武器。姓名与工艺相似但未明说即早期老人，暂列同名关联未合案；不把此后证当早期老人终态，也不擅造确定两人。若primary判需新增独立实体，由root另定补核ID。",
+  "evidence": [
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0162",
+      "start_line": 14236,
+      "end_line": 14332,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0163",
+      "start_line": 14333,
+      "end_line": 14419,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0177",
+      "start_line": 15739,
+      "end_line": 15858,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-1366",
+      "start_line": 98259,
+      "end_line": 98265,
+      "claim_kind": "fact"
+    }
+  ],
+  "actual_access": "本轮完整原文BEGIN-END重读1366（98246—98303）无截断；早卷本代理原首读/primary尾段四栏分工保留；另完整接读既有卡与状态/交接。",
+  "no_mutation": "不改roster、正式卡、池或已交人物组。"
+}

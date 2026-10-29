@@ -1,0 +1,83 @@
+# 神骨／神骨（卷五阶段）
+
+ID: `chr-b8a777097ecc5d109efddfccdb62a8e0` · 版本: 1 · 范围: source-analysis
+
+国内亚/国际止32；剑枪异名保源不拆两人，旧光辉关系不补未述对象。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-b8a777097ecc5d109efddfccdb62a8e0",
+  "asset_type": "character",
+  "content": {
+    "changes": "国内亚/国际止32；剑枪异名保源不拆两人，旧光辉关系不补未述对象。",
+    "decisions": "在国内赢明眸/清、被连法阵压制，国际达风筝0:2",
+    "goal": "守旧承诺并以重甲骑扛魂归",
+    "knowledge_boundary": "仅本卷时点。现场/系统/共享画面/角色自述/传闻分别见逐章笔记；前四卷未亲读，未借纵横同名人物生平，不预写卷六以后。",
+    "limits": "怕高法/远程风筝，纯防不能制所有职业",
+    "relationship_direction": "冰火队友、水领袖；承诺具体对谁未点名",
+    "summary": "国内亚/国际止32；剑枪异名保源不拆两人，旧光辉关系不补未述对象。"
+  },
+  "created_at": "2026-10-24T23:05:00.249148+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0908",
+      "claim_kind": "fact",
+      "end_line": 75047,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 74967
+    },
+    {
+      "chapter_id": "ch-0916",
+      "claim_kind": "fact",
+      "end_line": 75742,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 75658
+    },
+    {
+      "chapter_id": "ch-0925",
+      "claim_kind": "fact",
+      "end_line": 76424,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 76352
+    },
+    {
+      "chapter_id": "ch-0933",
+      "claim_kind": "fact",
+      "end_line": 77094,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 77037
+    },
+    {
+      "chapter_id": "ch-0945",
+      "claim_kind": "fact",
+      "end_line": 77984,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 77914
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol05/character/shengu",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:5",
+    "状态:待审阅"
+  ],
+  "title": "神骨／神骨（卷五阶段）",
+  "updated_at": "2026-10-24T23:05:00.249148+00:00",
+  "user_notes": ""
+}
+
+```

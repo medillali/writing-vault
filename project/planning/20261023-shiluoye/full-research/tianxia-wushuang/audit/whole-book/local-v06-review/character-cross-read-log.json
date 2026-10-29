@@ -1,0 +1,174 @@
+{
+  "reviewer": "/root/zongheng_vol05_full",
+  "status": "complete_read_only_cross_review",
+  "scope": "人物组01—08共103条，另按primary定向核组09之105/107/109",
+  "provenance": "本人实际原全文阅读卷四raw0607—0792、卷六raw1059—1233；primary原读卷六1234—1293尾段，本人完整读取其派生笔记；其他卷依正式派生材料，不宣本人重读全书原文。",
+  "complete_character_record_ranges": [
+    [
+      1,
+      103
+    ],
+    [
+      104,
+      109
+    ]
+  ],
+  "truncated_pending": [],
+  "truncation_repair": "组01最初6—12输出后段截断，后已完整补读11—12；01—10此前完整可见。",
+  "additional_full_notes_read": [
+    943,
+    1123,
+    1147,
+    1162,
+    1185,
+    1199,
+    1219,
+    1290,
+    1291
+  ],
+  "source_ranges_read_this_pass": [
+    {
+      "raw": 1185,
+      "start_line": 95428,
+      "end_line": 95501,
+      "scope": "full_raw_chapter"
+    },
+    {
+      "raw": 1098,
+      "start_line": 88876,
+      "end_line": 88946,
+      "scope": "targeted_range"
+    },
+    {
+      "raw": 1123,
+      "start_line": 90916,
+      "end_line": 90931,
+      "scope": "targeted_range"
+    },
+    {
+      "raw": 1147,
+      "start_line": 92615,
+      "end_line": 92636,
+      "scope": "targeted_range"
+    },
+    {
+      "raw": 1162,
+      "start_line": 93803,
+      "end_line": 93840,
+      "scope": "targeted_range"
+    },
+    {
+      "raw": 943,
+      "start_line": 77763,
+      "end_line": 77797,
+      "scope": "targeted_range"
+    },
+    {
+      "raw": 1219,
+      "start_line": 97861,
+      "end_line": 97867,
+      "scope": "targeted_range"
+    }
+  ],
+  "provisional_new_issues": [
+    {
+      "audit_id": "character-arc-14",
+      "field": "costs",
+      "finding": "1185L95482已有晴空本人承认喜欢陆，终点不能仍说只十三转述。"
+    },
+    {
+      "audit_id": "character-arc-105",
+      "field": "terminal_state",
+      "finding": "943L77768—77773旧借法已换不归还+千骑新约；未证骑交付与个人后手续应另分。"
+    }
+  ],
+  "known_fixes_excluded": [
+    "05/07明宇借体和原王子意志归属",
+    "08之94—99已知章号亲缘动作五项",
+    "81云栈1202后证",
+    "63/93拾荒者1299证词与1458同名再现",
+    "本轮已读63/93、69/88、81与94—99的修后条目，不将已知旧稿错误当新发现"
+  ],
+  "final_input_files": [
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part01.json",
+      "sha256": "b5051394798319792f07900b9c71eeb84c024356eda14982a4ec0980cfd90a47",
+      "group": 1,
+      "character_count": 12,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part02.json",
+      "sha256": "217194710fc4f756e88e17ad66fbec2981c78e6c6c832edef7a50e9522ca959e",
+      "group": 2,
+      "character_count": 18,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part03.json",
+      "sha256": "225bbb3eddf30e8467fec86cc98aee5a3c6fd6e09eecde6e2c74cca3f3ad7087",
+      "group": 3,
+      "character_count": 16,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part04.json",
+      "sha256": "94f45bb3f786483c2c7f6eba07c1954a70b5fc9129ccc17d97ccb7db4a2687e5",
+      "group": 4,
+      "character_count": 14,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part05.json",
+      "sha256": "adc3010fbf64dda7cbce28e248d62d3691a084737ae4fe72ba7aa43c55c23a03",
+      "group": 5,
+      "character_count": 9,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part06.json",
+      "sha256": "20388ae51ccf7b93416cb3a26878f843c9bdd6c4a1b37530ecac0b72e6376759",
+      "group": 6,
+      "character_count": 9,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part07.json",
+      "sha256": "a3c9e10b6993853f1cf96adcf74a430c34a0e77968a5c35c65b32e20094aa733",
+      "group": 7,
+      "character_count": 13,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part08.json",
+      "sha256": "4919621fc8d7fc7a77d60cb9c236ddc0e8ec1b0764ef127957e67c3cb9524d35",
+      "group": 8,
+      "character_count": 12,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part09.json",
+      "sha256": "322bb63391af1e10c8ac205e913c3196d26c19fbc4bdf0da20656820fb5595f1",
+      "group": 9,
+      "character_count_read": 6,
+      "targeted_source_checked_ids": [
+        105,
+        107,
+        109
+      ],
+      "read_scope": "104-through-109-character-prose-and-evidence-locators-plus-105-owner-delta"
+    }
+  ],
+  "supplemental_reads": [
+    {
+      "type": "character-record",
+      "audit_id": "character-arc-14",
+      "reason": "owner-delta-applied完整补读"
+    },
+    {
+      "type": "owner-delta",
+      "path": "character09-loan-contract-delta.json",
+      "reason": "105 before/after完整读取"
+    }
+  ]
+}

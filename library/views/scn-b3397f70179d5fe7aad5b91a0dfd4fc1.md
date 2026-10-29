@@ -1,0 +1,70 @@
+# 以命担保还要问被保护者愿不愿意
+
+ID: `scn-b3397f70179d5fe7aad5b91a0dfd4fc1` · 版本: 1 · 范围: source-analysis
+
+罗雷有反悔风险，霜以命担池不反，主选自治城；兄妹本人同意后系统SSS结。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-b3397f70179d5fe7aad5b91a0dfd4fc1",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "救援会改变归属的故事",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/frost",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/rolay",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/chiyuhan",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/chiyuqing"
+    ],
+    "choice": "提出自治盟约/亲询意愿",
+    "claim_kind": "inference",
+    "consequence": "池入玩家城，奖励实得",
+    "failure_mode": "不能把同意合作写成无条件奴属或两龙城同一",
+    "goal": "终止追讨并安置",
+    "narrative_order": 530,
+    "obstacle": "王权禁令/旧冤与主承诺",
+    "state_change": "救命关系转自愿政治关系",
+    "summary": "罗雷有反悔风险，霜以命担池不反，主选自治城；兄妹本人同意后系统SSS结。",
+    "why_it_works": "救援后补安置条件而非奖品一领就散"
+  },
+  "created_at": "2026-10-25T20:23:25.087001+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0529",
+      "claim_kind": "fact",
+      "end_line": 42910,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 42849
+    },
+    {
+      "chapter_id": "ch-0530",
+      "claim_kind": "fact",
+      "end_line": 43013,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 42911
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/scene/covenant",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "以命担保还要问被保护者愿不愿意",
+  "updated_at": "2026-10-25T20:23:25.087001+00:00",
+  "user_notes": ""
+}
+
+```

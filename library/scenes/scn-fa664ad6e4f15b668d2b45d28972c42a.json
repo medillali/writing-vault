@@ -1,0 +1,59 @@
+{
+  "asset_id": "scn-fa664ad6e4f15b668d2b45d28972c42a",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "研究候选，须重新创造人物/制度/场景后迁移。",
+    "characters": [
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/lu",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/xin",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/li",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/he",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/xu",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/gui"
+    ],
+    "choice": "50虫一层蜂及时收/20毒二层召晚蜂死",
+    "consequence": "李系统喊被秒/二层也被封、蜂需10min",
+    "failure_mode": "抹去拒绝、代价、其他贡献或知识边界将失真。",
+    "goal": "独占练级",
+    "narrative_order": 228,
+    "obstacle": "多人来塔/一格入口/麻与毒",
+    "state_change": "李系统喊被秒/二层也被封、蜂需10min",
+    "summary": "50虫一层蜂及时收/20毒二层召晚蜂死；李系统喊被秒/二层也被封、蜂需10min",
+    "why_it_works": "排他收益与他人/宠代价同时记录"
+  },
+  "created_at": "2026-10-24T22:43:24.319827+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0226",
+      "claim_kind": "fact",
+      "end_line": 21557,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 21459
+    },
+    {
+      "chapter_id": "ch-0228",
+      "claim_kind": "fact",
+      "end_line": 21743,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 21656
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/block",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:2",
+    "状态:待审阅"
+  ],
+  "title": "两次堵入口与蜂死成本",
+  "updated_at": "2026-10-24T22:43:24.319827+00:00",
+  "user_notes": ""
+}

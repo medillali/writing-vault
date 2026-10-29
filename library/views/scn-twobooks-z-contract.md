@@ -1,0 +1,56 @@
+# 《贼胆》升级费变委托：帮助产生长期义务
+
+ID: `scn-twobooks-z-contract` · 版本: 1 · 范围: source-analysis
+
+能力提升，但任务和潜在违约责任留下。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-twobooks-z-contract",
+  "asset_type": "scene",
+  "content": {
+    "analysis_kind": "goal 至 consequence 为本批事件概述；state_change/why_it_works/applicability/failure_mode 为研究解释。",
+    "applicability": "交易、资助、培训、营救等以义务延长影响的情节。",
+    "choice": "接受先升级后做两项任务、放弃须付500金的条件。",
+    "consequence": "能力提升，但任务和潜在违约责任留下。",
+    "failure_mode": "回报无限而条款从不执行，或仅用合同文字代替真实选择。",
+    "goal": "继续升级已练满技能。",
+    "obstacle": "仅有63银，付不起5金升级费。",
+    "state_change": "短期收益转换成后续行动约束。",
+    "summary": "能力提升，但任务和潜在违约责任留下。",
+    "why_it_works": "稀缺资源和人物关系合流，承诺可在后文检验。"
+  },
+  "created_at": "2026-10-22T17:03:56.932439+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0011",
+      "claim_kind": "inference",
+      "end_line": 492,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 470
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/scene/contract",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "首轮细读",
+    "因果链",
+    "可迁移候选",
+    "作者:发飙的蜗牛",
+    "作品:贼胆"
+  ],
+  "title": "《贼胆》升级费变委托：帮助产生长期义务",
+  "updated_at": "2026-10-22T17:03:56.940439+00:00",
+  "user_notes": ""
+}
+
+```

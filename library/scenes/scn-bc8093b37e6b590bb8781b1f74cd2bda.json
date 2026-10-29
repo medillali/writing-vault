@@ -1,0 +1,59 @@
+{
+  "asset_id": "scn-bc8093b37e6b590bb8781b1f74cd2bda",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "目标可替换且系统允许占有",
+    "choice": "催眠回收、绕位冷却，反复一小时驯服",
+    "claim_kind": "synthesis",
+    "consequence": "雪羽化仙骑给凌雪，白虎给冰茶；NPC返程仍伤亡",
+    "failure_mode": "若无限重试无丢级/队友代价，会消解战斗风险",
+    "goal": "在魔法仙Boss前带队存活并获益",
+    "obstacle": "重甲被克、队友宠物死亡、驯服概率低",
+    "state_change": "玩家工具获得不抹去任务队伍损失",
+    "summary": "在魔法仙Boss前带队存活并获益；催眠回收、绕位冷却，反复一小时驯服；雪羽化仙骑给凌雪，白虎给冰茶；NPC返程仍伤亡",
+    "why_it_works": "转换目标从击杀改占有，控制与冷却撑重试"
+  },
+  "created_at": "2026-10-24T19:14:36.175579+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0437",
+      "claim_kind": "synthesis",
+      "end_line": 44198,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 44046
+    },
+    {
+      "chapter_id": "ch-0438",
+      "claim_kind": "synthesis",
+      "end_line": 44348,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 44199
+    },
+    {
+      "chapter_id": "ch-0439",
+      "claim_kind": "synthesis",
+      "end_line": 44474,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 44349
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol05/scene/taming",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷:5",
+    "待审阅"
+  ],
+  "title": "卷五场景｜不求硬杀改驯雪羽",
+  "updated_at": "2026-10-24T19:14:36.175579+00:00",
+  "user_notes": ""
+}

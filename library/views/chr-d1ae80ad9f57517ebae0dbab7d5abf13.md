@@ -1,0 +1,66 @@
+# 神之舞｜卷二末
+
+ID: `chr-d1ae80ad9f57517ebae0dbab7d5abf13` · 版本: 1 · 范围: source-analysis
+
+206实际林破盾匕尾杀，未进十人灵堂
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-d1ae80ad9f57517ebae0dbab7d5abf13",
+  "asset_type": "character",
+  "content": {
+    "changes": "206实际林破盾匕尾杀，未进十人灵堂",
+    "decisions": "对林龙啸/备伏夺令",
+    "goal": "烛龙法师核心",
+    "knowledge_boundary": "只截至raw0228；不借后卷，不把角色猜测或对外说辞升级成事实。",
+    "limits": "魔盾可破/被林接近",
+    "summary": "206实际林破盾匕尾杀，未进十人灵堂"
+  },
+  "created_at": "2026-10-24T22:43:24.008245+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0205",
+      "claim_kind": "fact",
+      "end_line": 19512,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 19421
+    },
+    {
+      "chapter_id": "ch-0206",
+      "claim_kind": "fact",
+      "end_line": 19608,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 19513
+    },
+    {
+      "chapter_id": "ch-0209",
+      "claim_kind": "fact",
+      "end_line": 19918,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 19817
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/wu",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:2",
+    "状态:待审阅"
+  ],
+  "title": "神之舞｜卷二末",
+  "updated_at": "2026-10-24T22:43:24.008245+00:00",
+  "user_notes": ""
+}
+
+```

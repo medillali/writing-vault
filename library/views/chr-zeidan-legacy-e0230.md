@@ -1,0 +1,70 @@
+# 贼胆｜知风与知羽｜E0230
+
+ID: `chr-zeidan-legacy-e0230` · 版本: 1 · 范围: source-analysis
+
+死神双人狩猎者：知风刺客、知羽木法；收入五千三百余万，决定各两千万余款赠老五婚礼。；知风更欲竞技，知羽爱寻欢；酒吧与女郎交易引敖龙愤怒，知风获先攻自卫时间杀之，得十六万报酬。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0230",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "中：竞技对手与独立插段",
+    "facts": [
+      "死神双人狩猎者：知风刺客、知羽木法；收入五千三百余万，决定各两千万余款赠老五婚礼。",
+      "知风更欲竞技，知羽爱寻欢；酒吧与女郎交易引敖龙愤怒，知风获先攻自卫时间杀之，得十六万报酬。",
+      "知风用普通匕首杀后丢尸旁成为签名；二人赛给萧御赵造成麻烦但落败，战斗未详写。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0230",
+    "maintenance_depth": "高：不同欲望、互相埋怨与熟练协作",
+    "name": "知风与知羽",
+    "open_questions": [
+      "敖龙雇主不明；女郎是否知情参与设局未明"
+    ],
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0230",
+    "summary": "死神双人狩猎者：知风刺客、知羽木法；收入五千三百余万，决定各两千万余款赠老五婚礼。；知风更欲竞技，知羽爱寻欢；酒吧与女郎交易引敖龙愤怒，知风获先攻自卫时间杀之，得十六万报酬。",
+    "user_feedback": null,
+    "worker_part": "part-d"
+  },
+  "created_at": "2026-10-22T17:03:13.435773+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0441",
+      "claim_kind": "fact",
+      "end_line": 27341,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27271
+    },
+    {
+      "chapter_id": "ch-0453",
+      "claim_kind": "fact",
+      "end_line": 28166,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28107
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0230",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-d"
+  ],
+  "title": "贼胆｜知风与知羽｜E0230",
+  "updated_at": "2026-10-22T17:03:13.437773+00:00",
+  "user_notes": ""
+}
+
+```

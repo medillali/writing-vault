@@ -1,0 +1,1852 @@
+{
+  "artifact_type": "derived-book-synthesis-dimension-draft",
+  "dimension": "worldbuilding",
+  "label": "世界观",
+  "review_status": "draft-awaiting-primary",
+  "actual_synthesizer": "/root/zongheng_vol03_full",
+  "personal_complete_book_read": false,
+  "rows": [
+    {
+      "id": "zhanlong-book-worldbuilding-01",
+      "key": "power-needs-an-environment",
+      "title": "能力扩大动作范围，环境持续改写胜算",
+      "claim_kind": "synthesis",
+      "claim": "长篇成长可由可行动作的增加体现，再用对象、场地和资源改变它的有效范围。读者既能看见升级收益，也须重新判断这一次能否成功。",
+      "fact_summary": "早期医者需要换用武器、攀援和协作，火枪会受水影响；中段龙钩、飞行、火炮都有地形或装填条件，千霜化翼不能携重要任务NPC欧恩逃离。末期235级入境、神格持有和位面通路又成新门槛，上位神也挡不住鬼城巨人与集群。",
+      "supporting_observations": [
+        {
+          "volume": 1,
+          "dimension": "worldbuilding",
+          "index_zero_based": 0,
+          "observation_id": "v01-worldbuilding-01",
+          "reported_fact": "李最初全力医者仍受职业成长、仇恨与技能CD限制；两战剑锋寒先真死，第二借寒冰鼠仇转获胜。",
+          "reported_interpretation": "现实专长是能迁移的起点，游戏规则拥有独立约束，不让角色既往履历包办解题。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+          "material_sha256": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+          "json_pointer": "/dimensions/worldbuilding/0",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 1,
+          "dimension": "worldbuilding",
+          "index_zero_based": 3,
+          "observation_id": "v01-worldbuilding-04",
+          "reported_fact": "水下火枪实哑；神庙风精灵受离地高度限制；雷龙单体雷可传导而水下能减群雷伤；七星到242得符才可启动墨家前三技。",
+          "reported_interpretation": "环境不是一条万能增益，常把先前优势变限制，新的强能力仍有材料门槛。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+          "material_sha256": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+          "json_pointer": "/dimensions/worldbuilding/3",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 2,
+          "dimension": "worldbuilding",
+          "index_zero_based": 2,
+          "observation_id": "v02-worldbuilding-03",
+          "reported_fact": "秦王初饮血无在线上限，308访谈协商后309绑不掉/50%封顶；443石进龙池又100层。",
+          "reported_interpretation": "强度是有时点的系统变量，不能以一套终值统管整卷。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+          "material_sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+          "json_pointer": "/dimensions/worldbuilding/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 2,
+          "dimension": "worldbuilding",
+          "index_zero_based": 4,
+          "observation_id": "v02-worldbuilding-05",
+          "reported_fact": "虎符夜显图、开结界、封四魂；弩有符耗/韧性/CD；龙须钩可攀壁、脱仇、拖活目标。",
+          "reported_interpretation": "世界可解题之处是权限与可重复检验的操作，不只是装备数字。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+          "material_sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+          "json_pointer": "/dimensions/worldbuilding/4",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 3,
+          "dimension": "worldbuilding",
+          "index_zero_based": 3,
+          "observation_id": "v03-worldbuilding-04",
+          "reported_fact": "主先采龙涎/龙晶，切藤后藤再生；碎刃风暴47分12秒周期经过复测，安全凹槽与矿工实际进入。",
+          "reported_interpretation": "探索优势来自可验证的局部环境知识，也受系统恢复和敌人进入制约。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+          "material_sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+          "json_pointer": "/dimensions/worldbuilding/3",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 4,
+          "dimension": "worldbuilding",
+          "index_zero_based": 3,
+          "observation_id": "v04-worldbuilding-04",
+          "reported_fact": "夜叉浪湿火岩炮，龙晶仍射；连续五炮后再装有自爆险；黑水需等弩清鳄后过河；火象铜墙使首紫雷失利。963后酒同60秒CD/缩特技CD不叠取最高，主10级却缺仙人果未制最高酒。",
+          "reported_interpretation": "设定的可信度来自强项被具体条件约束，而非只靠更大伤害压下一层敌人。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "material_sha256": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+          "json_pointer": "/dimensions/worldbuilding/3",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "worldbuilding",
+          "index_zero_based": 2,
+          "observation_id": "v06-power-with-access",
+          "reported_fact": "235方可进碎寂、七天入境与不能带格出；主拒低格等待30日的稳案，死返丢冰中位、空间下位两枚格。上位神形态强，却仍被275巨人与集群压制。",
+          "reported_interpretation": "升级空间的入口、持有时间和位面阻隔使力量不是独立数值；旧战法有新失效域。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/worldbuilding/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        }
+      ],
+      "mechanism": "给新能力一个清楚成功样本，随后只改变一两个关键变量，使强项变成有条件的选项；解决限制时引入别的行动或协作者，保留原条件的效力。",
+      "conditions": "读者须能辨认能力已学、可施放、命中对象与环境这四层；限制最好在结果前出现，并实际影响方案。",
+      "limits_and_counterevidence": "本书后段仍有品阶与数值通胀，也有入境次数口径问题；不能把所有失利解释成严密平衡。角色夸称无敌、上位神称号或一次单杀都不能推广为绝对规则。",
+      "originality_transform": "为原创能力设计一项明确收益、一个首次验证和一个换环境后的失效；另选原创资源与空间约束，不沿用神格、龙钩或等级名。",
+      "literary_choice": {
+        "take": "给新能力一个清楚成功样本，随后只改变一两个关键变量，使强项变成有条件的选项；解决限制时引入别的行动或协作者，保留原条件的效力。",
+        "leave": "本书后段仍有品阶与数值通胀，也有入境次数口径问题；不能把所有失利解释成严密平衡。角色夸称无敌、上位神称号或一次单杀都不能推广为绝对规则。",
+        "claim_kind": "inference",
+        "user_approval": false
+      },
+      "late_stage_result": "鬼城战中主角仍能杀个体，却无法凭神格带全军穿越位面或抵住巨军，最后须靠开幕撤退。成长兑现了局部能力，未兑现全能。",
+      "later_tests": {
+        "claim_kind": "synthesis",
+        "test": "鬼城战中主角仍能杀个体，却无法凭神格带全军穿越位面或抵住巨军，最后须靠开幕撤退。成长兑现了局部能力，未兑现全能。",
+        "boundary": "全书末期的实际动作与开放状态分别判断；不将终点评语倒填原阶段。"
+      },
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0010",
+          "start_line": 657,
+          "end_line": 757,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0011",
+          "start_line": 758,
+          "end_line": 859,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0012",
+          "start_line": 860,
+          "end_line": 963,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0014",
+          "start_line": 1041,
+          "end_line": 1125,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0050",
+          "start_line": 4117,
+          "end_line": 4206,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0062",
+          "start_line": 5208,
+          "end_line": 5308,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0063",
+          "start_line": 5309,
+          "end_line": 5399,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0065",
+          "start_line": 5489,
+          "end_line": 5576,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0137",
+          "start_line": 11930,
+          "end_line": 12017,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0215",
+          "start_line": 18935,
+          "end_line": 19020,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0218",
+          "start_line": 19191,
+          "end_line": 19262,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0219",
+          "start_line": 19263,
+          "end_line": 19335,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0220",
+          "start_line": 19336,
+          "end_line": 19420,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0233",
+          "start_line": 20495,
+          "end_line": 20557,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0241",
+          "start_line": 21151,
+          "end_line": 21226,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0242",
+          "start_line": 21227,
+          "end_line": 21317,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0258",
+          "start_line": 22422,
+          "end_line": 22529,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0303",
+          "start_line": 25940,
+          "end_line": 26061,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0308",
+          "start_line": 26396,
+          "end_line": 26464,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0309",
+          "start_line": 26465,
+          "end_line": 26533,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0443",
+          "start_line": 36875,
+          "end_line": 36960,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0454",
+          "start_line": 37616,
+          "end_line": 37680,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0429",
+          "start_line": 35664,
+          "end_line": 35736,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0430",
+          "start_line": 35737,
+          "end_line": 35811,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0441",
+          "start_line": 36664,
+          "end_line": 36760,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0490",
+          "start_line": 40252,
+          "end_line": 40349,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0494",
+          "start_line": 40579,
+          "end_line": 40639,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0503",
+          "start_line": 41241,
+          "end_line": 41317,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0612",
+          "start_line": 48955,
+          "end_line": 49038,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0615",
+          "start_line": 49221,
+          "end_line": 49300,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0629",
+          "start_line": 50196,
+          "end_line": 50253,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0630",
+          "start_line": 50254,
+          "end_line": 50314,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0713",
+          "start_line": 56107,
+          "end_line": 56183,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0714",
+          "start_line": 56184,
+          "end_line": 56234,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0720",
+          "start_line": 56589,
+          "end_line": 56644,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0721",
+          "start_line": 56645,
+          "end_line": 56741,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0794",
+          "start_line": 61385,
+          "end_line": 61442,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0810",
+          "start_line": 62432,
+          "end_line": 62499,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0823",
+          "start_line": 63231,
+          "end_line": 63280,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0827",
+          "start_line": 63448,
+          "end_line": 63498,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0867",
+          "start_line": 65912,
+          "end_line": 65962,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0869",
+          "start_line": 66017,
+          "end_line": 66061,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0911",
+          "start_line": 68483,
+          "end_line": 68549,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0963",
+          "start_line": 71876,
+          "end_line": 71938,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0964",
+          "start_line": 71939,
+          "end_line": 71994,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0966",
+          "start_line": 72051,
+          "end_line": 72112,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0968",
+          "start_line": 72165,
+          "end_line": 72228,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1245",
+          "start_line": 90185,
+          "end_line": 90252,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1246",
+          "start_line": 90253,
+          "end_line": 90319,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1251",
+          "start_line": 90595,
+          "end_line": 90654,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1264",
+          "start_line": 91458,
+          "end_line": 91520,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1266",
+          "start_line": 91586,
+          "end_line": 91652,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1272",
+          "start_line": 92011,
+          "end_line": 92076,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1378",
+          "start_line": 99074,
+          "end_line": 99149,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1379",
+          "start_line": 99150,
+          "end_line": 99221,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "zhanlong-book-worldbuilding-02",
+      "key": "production-leaves-a-next-battle",
+      "title": "资源把一次胜利接入下一次困境",
+      "claim_kind": "synthesis",
+      "claim": "世界的规模感来自生产、运输、库存与消耗之间的连接。前一战取得的资源和付出的损失成为后一战的条件，战场不在章末自动复满。",
+      "fact_summary": "青麟草开采与炼药使早期收益依赖采集劳动；秦王重铸要100份麒麟铁与双方工艺。中后段城建、粮草和龙晶炮要人口、纯度、搬运与制造时间；龙谷须形成食物河道生态，泽城神威弹打空后北伐的新炮另由采晶与制造补充。鬼城又出现粮尽和炮引线避雨。",
+      "supporting_observations": [
+        {
+          "volume": 1,
+          "dimension": "worldbuilding",
+          "index_zero_based": 1,
+          "observation_id": "v01-worldbuilding-02",
+          "reported_fact": "青麟草需凿岩采得、炼药后卖布拉格；洛戒可携一人带学/24小时限与5000总额；赤金被控制阻南宫决练采矿。",
+          "reported_interpretation": "经济不是装饰性金币计数，资源位置、加工、物流与通行权直接生成冲突和协作。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+          "material_sha256": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+          "json_pointer": "/dimensions/worldbuilding/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 2,
+          "dimension": "worldbuilding",
+          "index_zero_based": 1,
+          "observation_id": "v02-worldbuilding-02",
+          "reported_fact": "兄妹拒转会，百麒麟铁、双10技、七淬和强化失败后258秦王实成。",
+          "reported_interpretation": "高端物不是盟主一句命令取得，外部专家可自主合作且保原组织。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+          "material_sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+          "json_pointer": "/dimensions/worldbuilding/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 3,
+          "dimension": "worldbuilding",
+          "index_zero_based": 1,
+          "observation_id": "v03-worldbuilding-02",
+          "reported_fact": "池兄妹同意入玩家龙城，劳役获救形成劳动人口；城7/8/9级依次有军种，711寒骑真损71。",
+          "reported_interpretation": "城建数字通过人、资源与作战回流故事，自治不等没有政治归属。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+          "material_sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+          "json_pointer": "/dimensions/worldbuilding/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 4,
+          "dimension": "plot",
+          "index_zero_based": 1,
+          "observation_id": "v04-plot-02",
+          "reported_fact": "敌烧大仓，林夺关截船；主分兵护粮仍有紫灵遇袭，夏侯仁护运后879报足月。火象粮仓被问剑烧而失守；但882明说火云粮富不能照搬围饿，只能另用炮与兵。",
+          "reported_interpretation": "胜因在仓、船、关、护送与剩余天数间传递，策略有适用范围。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "material_sha256": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+          "json_pointer": "/dimensions/plot/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 5,
+          "dimension": "worldbuilding",
+          "index_zero_based": 2,
+          "observation_id": "v05-worldbuilding-03",
+          "reported_fact": "1145十神威需95%以上龙墓晶/四万斤二十人抬；1168百万箭签约，1172四百炮上岸，龙群每日肉粮需求推动征岛。",
+          "reported_interpretation": "强单位的价值取决于纯度、运输、补给和合适目标，非出一件就能无限量复制。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol05-analysis.json",
+          "material_sha256": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+          "json_pointer": "/dimensions/worldbuilding/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "worldbuilding",
+          "index_zero_based": 0,
+          "observation_id": "v06-stateful-resources",
+          "reported_fact": "龙谷要以食物、河道和生态引龙；地雷使用库存火药，泽城最后神威弹打空；北伐补炮来自新采晶/一个月128门制造，鬼城又遭粮尽与炮引线受潮风险；防雨后炮仍能发射。",
+          "reported_interpretation": "把宏观领土、生产时间和可用弹粮关联起来，旧胜利会改变下一战资源而非重置。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/worldbuilding/0",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        }
+      ],
+      "mechanism": "以一条可以追踪的供应链连接冒险、建设和战争：材料取得后先处理运输或加工，投入后显示存量改变，再让短缺迫使战术转向。",
+      "conditions": "资源须有不同用途和不可瞬时替代的瓶颈；关键消耗要在场景中可感，而非只出现庞大总数。",
+      "limits_and_counterevidence": "本书补军与造炮有时很快，军数也多用约数，并非完整经济模拟。半矿已有938罗嗣所述首次分得物资，不能因未逐笔展示就称从未履行；反过来首次分得也不证明全期账目齐全。",
+      "originality_transform": "原创设计只保留会改变选择的两三类资源，为每类设置来源、加工、运输和耗尽后的替代动作；避免照抄炼药配方或炮种。",
+      "literary_choice": {
+        "take": "以一条可以追踪的供应链连接冒险、建设和战争：材料取得后先处理运输或加工，投入后显示存量改变，再让短缺迫使战术转向。",
+        "leave": "本书补军与造炮有时很快，军数也多用约数，并非完整经济模拟。半矿已有938罗嗣所述首次分得物资，不能因未逐笔展示就称从未履行；反过来首次分得也不证明全期账目齐全。",
+        "claim_kind": "inference",
+        "user_approval": false
+      },
+      "late_stage_result": "末战新炮并未免除弹药、雨水与粮食负担；50万NPC返不足18万，战争的资源成本没有被七大主城的胜利清零。",
+      "later_tests": {
+        "claim_kind": "synthesis",
+        "test": "末战新炮并未免除弹药、雨水与粮食负担；50万NPC返不足18万，战争的资源成本没有被七大主城的胜利清零。",
+        "boundary": "全书末期的实际动作与开放状态分别判断；不将终点评语倒填原阶段。"
+      },
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0113",
+          "start_line": 9796,
+          "end_line": 9863,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0118",
+          "start_line": 10221,
+          "end_line": 10328,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0130",
+          "start_line": 11308,
+          "end_line": 11390,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0144",
+          "start_line": 12614,
+          "end_line": 12703,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0145",
+          "start_line": 12704,
+          "end_line": 12772,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0146",
+          "start_line": 12773,
+          "end_line": 12871,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0245",
+          "start_line": 21453,
+          "end_line": 21531,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0247",
+          "start_line": 21605,
+          "end_line": 21668,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0257",
+          "start_line": 22331,
+          "end_line": 22421,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0258",
+          "start_line": 22422,
+          "end_line": 22529,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0529",
+          "start_line": 42849,
+          "end_line": 42910,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0530",
+          "start_line": 42911,
+          "end_line": 43013,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0531",
+          "start_line": 43014,
+          "end_line": 43093,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0533",
+          "start_line": 43171,
+          "end_line": 43254,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0609",
+          "start_line": 48735,
+          "end_line": 48812,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0683",
+          "start_line": 54206,
+          "end_line": 54278,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0707",
+          "start_line": 55714,
+          "end_line": 55773,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0711",
+          "start_line": 55973,
+          "end_line": 56042,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0753",
+          "start_line": 58808,
+          "end_line": 58873,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/worldbuilding/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0870",
+          "start_line": 66062,
+          "end_line": 66131,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0871",
+          "start_line": 66132,
+          "end_line": 66187,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0873",
+          "start_line": 66249,
+          "end_line": 66310,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0875",
+          "start_line": 66362,
+          "end_line": 66419,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0876",
+          "start_line": 66420,
+          "end_line": 66473,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0877",
+          "start_line": 66474,
+          "end_line": 66518,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0879",
+          "start_line": 66578,
+          "end_line": 66623,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0882",
+          "start_line": 66737,
+          "end_line": 66794,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/plot/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1133",
+          "start_line": 82947,
+          "end_line": 83009,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1145",
+          "start_line": 83731,
+          "end_line": 83798,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1156",
+          "start_line": 84400,
+          "end_line": 84465,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1168",
+          "start_line": 85272,
+          "end_line": 85350,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1170",
+          "start_line": 85430,
+          "end_line": 85492,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1172",
+          "start_line": 85548,
+          "end_line": 85603,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1182",
+          "start_line": 86179,
+          "end_line": 86235,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1183",
+          "start_line": 86236,
+          "end_line": 86303,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1234",
+          "start_line": 89517,
+          "end_line": 89582,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1235",
+          "start_line": 89583,
+          "end_line": 89646,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1344",
+          "start_line": 96721,
+          "end_line": 96775,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1361",
+          "start_line": 97898,
+          "end_line": 97968,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1383",
+          "start_line": 99421,
+          "end_line": 99499,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1385",
+          "start_line": 99581,
+          "end_line": 99655,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0938",
+          "start_line": 70223,
+          "end_line": 70277,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1386",
+          "start_line": 99656,
+          "end_line": 99818,
+          "claim_kind": "fact"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "zhanlong-book-worldbuilding-03",
+      "key": "authority-is-an-action-interface",
+      "title": "职位同时分配行动权限、信息与责任",
+      "claim_kind": "synthesis",
+      "claim": "组织成长不仅是人数变大。职位让角色能看见某类信息、调用某类力量，也使其接受上级节制、下属需求和制度后果。",
+      "fact_summary": "斩龙名号到实际建会仍需建帮条件与容量；御林扩军要合法授权、兵源和家属安置。918个人统兵上限与931军团扩编申请不是一件事，975才明确特赦御林可扩20万；后期大执戈由口头任用走向正式册封与界面权限，王爵能看民心而继任军事职的燕赵无双看不到。",
+      "supporting_observations": [
+        {
+          "volume": 1,
+          "dimension": "worldbuilding",
+          "index_zero_based": 2,
+          "observation_id": "v01-worldbuilding-03",
+          "reported_fact": "锋芒早有后缀但130才系统建；斩龙200交令金币正式建立，201二级300满，245倾浅报告三级972。七人临入忠烈不等斩龙提前成立。",
+          "reported_interpretation": "名号、认同、临时队伍、实体工作室、系统行会并存，各层的约束可推动不同情节。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+          "material_sha256": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+          "json_pointer": "/dimensions/worldbuilding/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 4,
+          "dimension": "worldbuilding",
+          "index_zero_based": 0,
+          "observation_id": "v04-worldbuilding-01",
+          "reported_fact": "鹿角交付后763才确认统御林/142级；765释放囚女并逐罗特损兵，766军校选500，767安置家属才招蛮兵；835拒调离四将保镇南并获十万上限，853才真正升护国。",
+          "reported_interpretation": "扩军不是经验条一跳即满：政治准许、可招人口、组织信任、武器与后勤各有入口。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "material_sha256": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+          "json_pointer": "/dimensions/worldbuilding/0",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 5,
+          "dimension": "worldbuilding",
+          "index_zero_based": 0,
+          "observation_id": "v05-worldbuilding-01",
+          "reported_fact": "1021王口授大执戈，1048正式拜/1049界面；1169主先请示远征，再王准与花枪正式复统领。",
+          "reported_interpretation": "权力的成长以可调兵、任命和财政行为表现，称号不代完整权限。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol05-analysis.json",
+          "material_sha256": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+          "json_pointer": "/dimensions/worldbuilding/0",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "worldbuilding",
+          "index_zero_based": 4,
+          "observation_id": "v06-authority-interfaces",
+          "reported_fact": "主王爵先系统封再公开典礼，仍保御林统领及十万调军权；燕任大执戈军事，主王政界面可见民心97→82→78，燕看不到。九霄法师能远传却不能跨鬼城位面。",
+          "reported_interpretation": "职权是行动能力与信息权限的组合，交职不等交尽私人忠诚网络。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/worldbuilding/4",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        }
+      ],
+      "mechanism": "让每次升任带来一种新动作与一项新负担；把个人威望、法定职权、编制上限和当前实编之间的差距变成冲突，而不是一次授衔解决全部。",
+      "conditions": "制度须通过招募、领物、下令、问责或被拒等行动落地；同一角色的多重身份不能互相代替。",
+      "limits_and_counterevidence": "主角私人忠诚网络常比官印稳固，交职并不平滑。20万是获准上限而非瞬间实编；燕1192请求荐自己、1234战时代理、1244正式任长风统领须分时，不能把早期提议当成全部任命。",
+      "originality_transform": "为原创组织列出谁能调人、谁能供给、谁知道真数、谁承担失败；晋升时只新增其中部分权限，让旧关系与新制度发生摩擦。",
+      "literary_choice": {
+        "take": "让每次升任带来一种新动作与一项新负担；把个人威望、法定职权、编制上限和当前实编之间的差距变成冲突，而不是一次授衔解决全部。",
+        "leave": "主角私人忠诚网络常比官印稳固，交职并不平滑。20万是获准上限而非瞬间实编；燕1192请求荐自己、1234战时代理、1244正式任长风统领须分时，不能把早期提议当成全部任命。",
+        "claim_kind": "inference",
+        "user_approval": false
+      },
+      "late_stage_result": "主角交出大执戈后仍保王爵、御林及私人拥戴，民心下落也未随最高地位消失。职位是能力与责任的组合，未成为免责凭证。",
+      "later_tests": {
+        "claim_kind": "synthesis",
+        "test": "主角交出大执戈后仍保王爵、御林及私人拥戴，民心下落也未随最高地位消失。职位是能力与责任的组合，未成为免责凭证。",
+        "boundary": "全书末期的实际动作与开放状态分别判断；不将终点评语倒填原阶段。"
+      },
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0125",
+          "start_line": 10869,
+          "end_line": 10944,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0130",
+          "start_line": 11308,
+          "end_line": 11390,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0140",
+          "start_line": 12219,
+          "end_line": 12313,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0190",
+          "start_line": 16844,
+          "end_line": 16926,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0200",
+          "start_line": 17711,
+          "end_line": 17793,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0201",
+          "start_line": 17794,
+          "end_line": 17882,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0245",
+          "start_line": 21453,
+          "end_line": 21531,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0247",
+          "start_line": 21605,
+          "end_line": 21668,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0250",
+          "start_line": 21826,
+          "end_line": 21898,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0762",
+          "start_line": 59411,
+          "end_line": 59464,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0763",
+          "start_line": 59465,
+          "end_line": 59536,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0765",
+          "start_line": 59612,
+          "end_line": 59677,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0766",
+          "start_line": 59678,
+          "end_line": 59720,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0767",
+          "start_line": 59721,
+          "end_line": 59775,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0808",
+          "start_line": 62327,
+          "end_line": 62382,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0822",
+          "start_line": 63176,
+          "end_line": 63230,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0835",
+          "start_line": 63907,
+          "end_line": 63970,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0853",
+          "start_line": 65094,
+          "end_line": 65170,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0918",
+          "start_line": 68965,
+          "end_line": 69029,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0931",
+          "start_line": 69791,
+          "end_line": 69877,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1021",
+          "start_line": 75461,
+          "end_line": 75522,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1022",
+          "start_line": 75523,
+          "end_line": 75580,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1048",
+          "start_line": 77181,
+          "end_line": 77246,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1049",
+          "start_line": 77247,
+          "end_line": 77322,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1169",
+          "start_line": 85351,
+          "end_line": 85429,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1179",
+          "start_line": 86043,
+          "end_line": 86110,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1348",
+          "start_line": 96998,
+          "end_line": 97067,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1360",
+          "start_line": 97824,
+          "end_line": 97897,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1372",
+          "start_line": 98639,
+          "end_line": 98705,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1377",
+          "start_line": 98981,
+          "end_line": 99073,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0975",
+          "start_line": 72491,
+          "end_line": 72509,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1192",
+          "start_line": 86860,
+          "end_line": 86869,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1234",
+          "start_line": 89535,
+          "end_line": 89546,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1244",
+          "start_line": 90159,
+          "end_line": 90170,
+          "claim_kind": "fact"
+        }
+      ],
+      "review_status": "draft",
+      "priority_corrections": [
+        {
+          "path": "writing-vault/library/reports/zhanlong/audit/priority-corrections-yan-recommendation.json",
+          "sha256": "e2e4799a7fd9ef187af296f6b93c1d0aefcfbf0c01e67deaf8c4fbea5b7b13ea",
+          "application": "使用1192自荐请求→1234代理→1244正式的分期，不沿用荐百里宁误读。"
+        }
+      ]
+    },
+    {
+      "id": "zhanlong-book-worldbuilding-04",
+      "key": "sovereignty-has-several-beneficiaries",
+      "title": "城被夺下之后，利益与控制仍可分给不同人",
+      "claim_kind": "synthesis",
+      "claim": "战争结果可通过系统归属、税收、日常治理和军队忠诚的拆分延长。夺城没有自动终止政治，反而制造新的分配问题。",
+      "fact_summary": "临海委托清眸拓墨后，中方仍保半税及NPC王权；龙城失去城权时原池军仍听李指挥。后期九霄系统归中国而委托紫风笛治理，税中70葡30、NPC资源归葡；战时指挥不等所有权再次转手，七大一级主城的胜利也不等每座次级城都被征服。",
+      "supporting_observations": [
+        {
+          "volume": 4,
+          "dimension": "worldbuilding",
+          "index_zero_based": 2,
+          "observation_id": "v04-worldbuilding-03",
+          "reported_fact": "唐门巨子毁火象王座占中国，叶来毁火云；临海896先60秒待定、898系统委托清眸且中方保半税/NPC王权；909凡书王座被毁选废弃，915龙城归神话而916原池军仍听李。",
+          "reported_interpretation": "主权不是一面旗可以概括；税权、驻军、系统国家归属、日常治理可分配给不同主体。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "material_sha256": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+          "json_pointer": "/dimensions/worldbuilding/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 5,
+          "dimension": "worldbuilding",
+          "index_zero_based": 4,
+          "observation_id": "v05-worldbuilding-05",
+          "reported_fact": "望月女王称臣/月灵定居，临海葡籍为爱实取；金鳞天翎系统占而主选名下第二城，列岛资源定供龙城。",
+          "reported_interpretation": "同一块资源的王国主权、城主管理、公会会籍与个人名下收益是分开的。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol05-analysis.json",
+          "material_sha256": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+          "json_pointer": "/dimensions/worldbuilding/4",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "worldbuilding",
+          "index_zero_based": 3,
+          "observation_id": "v06-ownership-ledgers",
+          "reported_fact": "九霄系统列中国、委托紫风笛后税中70葡30/NPC资源葡；主可临战令艾琴等。铁泽占领在国战结束前可再被夺，帝国时代又给失主服诸侯补给。",
+          "reported_interpretation": "游戏统一并未取消多层产权；军事控制、资源受益和服务资格分开维持后续冲突。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/worldbuilding/3",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "worldbuilding",
+          "index_zero_based": 4,
+          "observation_id": "v06-authority-interfaces",
+          "reported_fact": "主王爵先系统封再公开典礼，仍保御林统领及十万调军权；燕任大执戈军事，主王政界面可见民心97→82→78，燕看不到。九霄法师能远传却不能跨鬼城位面。",
+          "reported_interpretation": "职权是行动能力与信息权限的组合，交职不等交尽私人忠诚网络。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/worldbuilding/4",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        }
+      ],
+      "mechanism": "占领后立即回答谁收税、谁治理、谁能调军和谁能使用补给，再让这些主体的目标产生差别。胜利可关闭军事问题，同时开启治理问题。",
+      "conditions": "场景中须出现明确触发动作和执行者；政治口约与系统通知、临时委托与长期归属都能被读者区分。",
+      "limits_and_counterevidence": "本书分配常由强者主导，不能当成普遍公平协约；局部给地、临时省任和传送协调不证明所有产权改变。凡书被废与重建、私军跟随与城权转移亦不能合为一次送城。",
+      "originality_transform": "原创城邦可把经营、军事、税赋和合法名义分别给不同主体，再选一项分离造成的现实难题；不移植原城名或国战地图。",
+      "literary_choice": {
+        "take": "占领后立即回答谁收税、谁治理、谁能调军和谁能使用补给，再让这些主体的目标产生差别。胜利可关闭军事问题，同时开启治理问题。",
+        "leave": "本书分配常由强者主导，不能当成普遍公平协约；局部给地、临时省任和传送协调不证明所有产权改变。凡书被废与重建、私军跟随与城权转移亦不能合为一次送城。",
+        "claim_kind": "inference",
+        "user_approval": false
+      },
+      "late_stage_result": "七主统一后仍有诸侯补给机制、民心和北境军政诉求。领土版图的完成没有让世界只剩一个意志。",
+      "later_tests": {
+        "claim_kind": "synthesis",
+        "test": "七主统一后仍有诸侯补给机制、民心和北境军政诉求。领土版图的完成没有让世界只剩一个意志。",
+        "boundary": "全书末期的实际动作与开放状态分别判断；不将终点评语倒填原阶段。"
+      },
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0864",
+          "start_line": 65762,
+          "end_line": 65818,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0880",
+          "start_line": 66624,
+          "end_line": 66680,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0885",
+          "start_line": 66908,
+          "end_line": 66992,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0896",
+          "start_line": 67607,
+          "end_line": 67668,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0897",
+          "start_line": 67669,
+          "end_line": 67721,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0898",
+          "start_line": 67722,
+          "end_line": 67784,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0909",
+          "start_line": 68346,
+          "end_line": 68413,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0915",
+          "start_line": 68787,
+          "end_line": 68855,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0916",
+          "start_line": 68856,
+          "end_line": 68909,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0923",
+          "start_line": 69312,
+          "end_line": 69369,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/worldbuilding/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1071",
+          "start_line": 78575,
+          "end_line": 78646,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1075",
+          "start_line": 78830,
+          "end_line": 78899,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1078",
+          "start_line": 79028,
+          "end_line": 79082,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1086",
+          "start_line": 79559,
+          "end_line": 79633,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1108",
+          "start_line": 81182,
+          "end_line": 81276,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1172",
+          "start_line": 85548,
+          "end_line": 85603,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1173",
+          "start_line": 85604,
+          "end_line": 85660,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1317",
+          "start_line": 94986,
+          "end_line": 95053,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1319",
+          "start_line": 95117,
+          "end_line": 95175,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1341",
+          "start_line": 96526,
+          "end_line": 96590,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1345",
+          "start_line": 96776,
+          "end_line": 96837,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1346",
+          "start_line": 96838,
+          "end_line": 96906,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1347",
+          "start_line": 96907,
+          "end_line": 96997,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1348",
+          "start_line": 96998,
+          "end_line": 97067,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1360",
+          "start_line": 97824,
+          "end_line": 97897,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1372",
+          "start_line": 98639,
+          "end_line": 98705,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1377",
+          "start_line": 98981,
+          "end_line": 99073,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/worldbuilding/5，定位来自正式分卷，非本次新原文阅读"
+        }
+      ],
+      "review_status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "authorization": "primary消息批准仅三row review_status修为draft；其他字段逐值不变",
+  "before_json_sha256": "464201e36fee72f025fb77e01085a2dff4f595db6755ea51e4a8a6cc6b0f9358",
+  "after_json_sha256": "45104f6ccbba93f6703d4bbc0de8b4228b644053ff6fbb621d92fa0d655a26ea",
+  "before_md_sha256": "7415e351f17c87b3af03d804b91fa560d99f905053f2b07beaee8c8d82fd21c2",
+  "after_md_sha256": "7415e351f17c87b3af03d804b91fa560d99f905053f2b07beaee8c8d82fd21c2",
+  "changes": [
+    {
+      "path": [
+        "characters",
+        0,
+        "review_status"
+      ],
+      "before": "draft_pending_primary",
+      "after": "draft"
+    },
+    {
+      "path": [
+        "characters",
+        1,
+        "review_status"
+      ],
+      "before": "draft_pending_primary",
+      "after": "draft"
+    },
+    {
+      "path": [
+        "characters",
+        2,
+        "review_status"
+      ],
+      "before": "draft_pending_primary",
+      "after": "draft"
+    }
+  ],
+  "other_values_unchanged": true,
+  "md_bytes_unchanged": true
+}

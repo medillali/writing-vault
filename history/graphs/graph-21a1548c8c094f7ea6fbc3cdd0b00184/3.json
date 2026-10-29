@@ -1,0 +1,3884 @@
+{
+  "coverage": [
+    {
+      "chapter_ids": [
+        "ch-0002",
+        "ch-0003",
+        "ch-0004",
+        "ch-0005",
+        "ch-0006",
+        "ch-0007",
+        "ch-0008",
+        "ch-0009",
+        "ch-0010",
+        "ch-0011",
+        "ch-0012",
+        "ch-0013",
+        "ch-0014",
+        "ch-0015",
+        "ch-0016",
+        "ch-0017",
+        "ch-0018",
+        "ch-0019",
+        "ch-0020",
+        "ch-0021",
+        "ch-0022",
+        "ch-0023",
+        "ch-0024",
+        "ch-0025",
+        "ch-0026",
+        "ch-0027",
+        "ch-0028",
+        "ch-0029",
+        "ch-0030",
+        "ch-0031",
+        "ch-0032",
+        "ch-0033",
+        "ch-0034",
+        "ch-0035",
+        "ch-0036",
+        "ch-0037",
+        "ch-0038",
+        "ch-0039",
+        "ch-0040",
+        "ch-0041",
+        "ch-0042",
+        "ch-0043",
+        "ch-0044",
+        "ch-0045",
+        "ch-0046",
+        "ch-0047",
+        "ch-0048",
+        "ch-0049",
+        "ch-0050",
+        "ch-0051",
+        "ch-0052",
+        "ch-0053",
+        "ch-0054",
+        "ch-0055",
+        "ch-0056",
+        "ch-0057",
+        "ch-0058",
+        "ch-0059",
+        "ch-0060",
+        "ch-0061",
+        "ch-0062",
+        "ch-0063",
+        "ch-0064",
+        "ch-0065",
+        "ch-0066",
+        "ch-0067",
+        "ch-0068",
+        "ch-0069",
+        "ch-0070",
+        "ch-0071",
+        "ch-0072",
+        "ch-0073",
+        "ch-0074",
+        "ch-0075",
+        "ch-0076",
+        "ch-0077",
+        "ch-0078",
+        "ch-0079",
+        "ch-0080",
+        "ch-0081",
+        "ch-0082",
+        "ch-0083",
+        "ch-0084",
+        "ch-0085",
+        "ch-0086",
+        "ch-0087",
+        "ch-0088",
+        "ch-0089",
+        "ch-0090",
+        "ch-0091",
+        "ch-0092",
+        "ch-0093",
+        "ch-0094",
+        "ch-0095",
+        "ch-0096",
+        "ch-0097",
+        "ch-0098",
+        "ch-0099",
+        "ch-0100",
+        "ch-0101"
+      ],
+      "complete": false,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981"
+    }
+  ],
+  "edges": [
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "fact",
+          "end_line": 65,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 43
+        }
+      ],
+      "from": "v1-rescue",
+      "id": "v1-flashback",
+      "kind": "reveal",
+      "label": "后叙原因解释开篇结果",
+      "to": "v1-locked"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "inference",
+          "end_line": 94,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 88
+        },
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 124,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 114
+        }
+      ],
+      "from": "v1-poor",
+      "id": "v1-need",
+      "kind": "cause",
+      "label": "缺头盔与房外等待催生试用",
+      "to": "v1-bind"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 180,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 173
+        }
+      ],
+      "from": "v1-locked",
+      "id": "v1-contrast",
+      "kind": "reversal",
+      "label": "制造麻烦的来客转为主动照顾",
+      "to": "v1-share"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 200,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 193
+        }
+      ],
+      "from": "v1-bind",
+      "id": "v1-ownership",
+      "kind": "payoff",
+      "label": "绑定冲突通过明确赠与收束",
+      "to": "v1-gift"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 180,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 177
+        },
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "inference",
+          "end_line": 220,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 216
+        }
+      ],
+      "from": "v1-share",
+      "id": "v1-care",
+      "kind": "echo",
+      "label": "具体照顾延伸为经济与求职帮助",
+      "to": "v1-note"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 251,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 235
+        }
+      ],
+      "from": "v1-note",
+      "id": "v1-referral",
+      "kind": "payoff",
+      "label": "地址指引兑现为工作室入口",
+      "to": "v1-team"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 264,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 261
+        }
+      ],
+      "from": "v1-gift",
+      "id": "v1-access",
+      "kind": "cause",
+      "label": "设备使游戏目标具备条件",
+      "to": "v1-enter"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "inference",
+          "end_line": 261,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 254
+        }
+      ],
+      "from": "v1-team",
+      "id": "v1-deadline",
+      "kind": "cause",
+      "label": "谋生目标附加首夜指标",
+      "to": "v1-enter"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "inference",
+          "end_line": 145,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 145
+        },
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "inference",
+          "end_line": 240,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 235
+        }
+      ],
+      "from": "v1-bind",
+      "id": "v1-identity",
+      "kind": "setup",
+      "label": "特殊头盔与组织关系提供身份线索",
+      "to": "v1-team"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0007",
+          "claim_kind": "fact",
+          "end_line": 392,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 378
+        },
+        {
+          "chapter_id": "ch-0009",
+          "claim_kind": "fact",
+          "end_line": 575,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 513
+        }
+      ],
+      "from": "v1-v1c06",
+      "id": "v1-reinvest",
+      "kind": "cause",
+      "label": "任务资金与装备支撑越级和后续再投资",
+      "to": "v1-v1c08"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0009",
+          "claim_kind": "fact",
+          "end_line": 570,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 569
+        },
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "fact",
+          "end_line": 714,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 706
+        },
+        {
+          "chapter_id": "ch-0012",
+          "claim_kind": "fact",
+          "end_line": 808,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 795
+        }
+      ],
+      "from": "v1-v1c08",
+      "id": "v1-old_trade",
+      "kind": "setup",
+      "label": "铁剑交易提供再识别与交易关系",
+      "to": "v1-v1c11"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0013",
+          "claim_kind": "fact",
+          "end_line": 884,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 863
+        },
+        {
+          "chapter_id": "ch-0015",
+          "claim_kind": "fact",
+          "end_line": 1022,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 991
+        }
+      ],
+      "from": "v1-v1c12",
+      "id": "v1-bow_route",
+      "kind": "payoff",
+      "label": "必中弓与破甲技能在高防怪实测",
+      "to": "v1-v1c14"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0018",
+          "claim_kind": "fact",
+          "end_line": 1264,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1256
+        },
+        {
+          "chapter_id": "ch-0019",
+          "claim_kind": "fact",
+          "end_line": 1341,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1268
+        }
+      ],
+      "from": "v1-v1c17",
+      "id": "v1-heal_position",
+      "kind": "cause",
+      "label": "狼王击杀与交任务产出新资源",
+      "to": "v1-v1c18"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0019",
+          "claim_kind": "fact",
+          "end_line": 1341,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1339
+        },
+        {
+          "chapter_id": "ch-0024",
+          "claim_kind": "fact",
+          "end_line": 1686,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1672
+        }
+      ],
+      "from": "v1-v1c18",
+      "id": "v1-book_gift",
+      "kind": "payoff",
+      "label": "赤焰海由库存转赠法师",
+      "to": "v1-v1c23"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0024",
+          "claim_kind": "fact",
+          "end_line": 1686,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1682
+        },
+        {
+          "chapter_id": "ch-0026",
+          "claim_kind": "fact",
+          "end_line": 1856,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1853
+        }
+      ],
+      "from": "v1-v1c23",
+      "id": "v1-book_battle",
+      "kind": "payoff",
+      "label": "群法在三层解围",
+      "to": "v1-v1c25"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0021",
+          "claim_kind": "fact",
+          "end_line": 1496,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1472
+        },
+        {
+          "chapter_id": "ch-0028",
+          "claim_kind": "fact",
+          "end_line": 1965,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1964
+        }
+      ],
+      "from": "v1-v1c20",
+      "id": "v1-rescue_repay",
+      "kind": "payoff",
+      "label": "龙魂明确称先前护紫韵儿是回援缘由",
+      "to": "v1-v1c27"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0027",
+          "claim_kind": "fact",
+          "end_line": 1939,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1929
+        },
+        {
+          "chapter_id": "ch-0028",
+          "claim_kind": "fact",
+          "end_line": 1976,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1967
+        }
+      ],
+      "from": "v1-v1c26",
+      "id": "v1-rescue_act",
+      "kind": "cause",
+      "label": "救援后形成互补六人队",
+      "to": "v1-v1c27"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0030",
+          "claim_kind": "fact",
+          "end_line": 2138,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2128
+        },
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 2170,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2162
+        }
+      ],
+      "from": "v1-v1c29",
+      "id": "v1-lose_quest",
+      "kind": "cause",
+      "label": "召唤千军引发死亡；击杀不保证任务完成",
+      "to": "v1-v1c30"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0029",
+          "claim_kind": "fact",
+          "end_line": 2076,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2073
+        },
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 2151,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2147
+        }
+      ],
+      "from": "v1-v1c28",
+      "id": "v1-save_set",
+      "kind": "payoff",
+      "label": "已有消亡套装成为让鬼炙撤离的明确理由",
+      "to": "v1-v1c30"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 251,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 235
+        },
+        {
+          "chapter_id": "ch-0016",
+          "claim_kind": "fact",
+          "end_line": 1102,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1093
+        }
+      ],
+      "from": "v1-team",
+      "id": "v1-phone_reveal",
+      "kind": "reveal",
+      "label": "工作室入口后揭总监为电话中的姐姐",
+      "to": "v1-v1c15"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0023",
+          "claim_kind": "fact",
+          "end_line": 1608,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1603
+        },
+        {
+          "chapter_id": "ch-0024",
+          "claim_kind": "fact",
+          "end_line": 1657,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1649
+        }
+      ],
+      "from": "v1-v1c22",
+      "id": "v1-rank_identity",
+      "kind": "reveal",
+      "label": "视频中的清风揽月被确认为凌月",
+      "to": "v1-v1c23"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 200,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 193
+        },
+        {
+          "chapter_id": "ch-0036",
+          "claim_kind": "fact",
+          "end_line": 2528,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2521
+        }
+      ],
+      "from": "v1-gift",
+      "id": "v1-helmet_sword",
+      "kind": "payoff",
+      "label": "书生明确以头盔之情解释赠流光剑",
+      "to": "v1-v1c35"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 2229,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2225
+        },
+        {
+          "chapter_id": "ch-0036",
+          "claim_kind": "fact",
+          "end_line": 2566,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2510
+        }
+      ],
+      "from": "v1-v1c30",
+      "id": "v1-sword_use",
+      "kind": "payoff",
+      "label": "曾计划留卖的流光剑转为赠予和战力",
+      "to": "v1-v1c35"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 2189,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2186
+        },
+        {
+          "chapter_id": "ch-0038",
+          "claim_kind": "fact",
+          "end_line": 2655,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2651
+        }
+      ],
+      "from": "v1-v1c30",
+      "id": "v1-aoe_escape",
+      "kind": "payoff",
+      "label": "新得千刃箭首次使用于打断群体回城",
+      "to": "v1-v1c37"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0039",
+          "claim_kind": "fact",
+          "end_line": 2710,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2708
+        },
+        {
+          "chapter_id": "ch-0040",
+          "claim_kind": "fact",
+          "end_line": 2832,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2830
+        }
+      ],
+      "from": "v1-v1c38",
+      "id": "v1-video_public",
+      "kind": "payoff",
+      "label": "提前录制战斗成为回应公开指控的证据",
+      "to": "v1-v1c39"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0039",
+          "claim_kind": "fact",
+          "end_line": 2754,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2742
+        },
+        {
+          "chapter_id": "ch-0040",
+          "claim_kind": "fact",
+          "end_line": 2854,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2849
+        },
+        {
+          "chapter_id": "ch-0041",
+          "claim_kind": "fact",
+          "end_line": 2929,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2920
+        }
+      ],
+      "from": "v1-v1c38",
+      "id": "v1-staff_cash",
+      "kind": "payoff",
+      "label": "法杖掉落经现实付款和游戏交付成交",
+      "to": "v1-v1c40"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0040",
+          "claim_kind": "fact",
+          "end_line": 2854,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2843
+        },
+        {
+          "chapter_id": "ch-0041",
+          "claim_kind": "fact",
+          "end_line": 2912,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2903
+        }
+      ],
+      "from": "v1-v1c39",
+      "id": "v1-cash_agency",
+      "kind": "cause",
+      "label": "实际收入与主角不再完全受工作要挟并置",
+      "to": "v1-v1c40"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0041",
+          "claim_kind": "fact",
+          "end_line": 2954,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2940
+        },
+        {
+          "chapter_id": "ch-0043",
+          "claim_kind": "fact",
+          "end_line": 3084,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3075
+        }
+      ],
+      "from": "v1-v1c40",
+      "id": "v1-invite_team",
+      "kind": "payoff",
+      "label": "邀牧师使四人队组建并发挥治疗作用",
+      "to": "v1-v1c42"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0045",
+          "claim_kind": "fact",
+          "end_line": 3168,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3157
+        },
+        {
+          "chapter_id": "ch-0047",
+          "claim_kind": "fact",
+          "end_line": 3304,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3294
+        }
+      ],
+      "from": "v1-v1c44",
+      "id": "v1-revive_use",
+      "kind": "payoff",
+      "label": "复活预言先获得再实战生效且遇限制",
+      "to": "v1-v1c46"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0047",
+          "claim_kind": "fact",
+          "end_line": 3351,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3344
+        },
+        {
+          "chapter_id": "ch-0048",
+          "claim_kind": "fact",
+          "end_line": 3403,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3396
+        }
+      ],
+      "from": "v1-v1c46",
+      "id": "v1-newbow_gate",
+      "kind": "reveal",
+      "label": "45级新弓经鉴定揭示降10级特技",
+      "to": "v1-v1c47"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0048",
+          "claim_kind": "fact",
+          "end_line": 3412,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3403
+        },
+        {
+          "chapter_id": "ch-0050",
+          "claim_kind": "fact",
+          "end_line": 3534,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3533
+        }
+      ],
+      "from": "v1-v1c47",
+      "id": "v1-newbow_cost",
+      "kind": "echo",
+      "label": "火力跃升与失去必中后的担忧同时保留",
+      "to": "v1-v1c49"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0049",
+          "claim_kind": "fact",
+          "end_line": 3475,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3465
+        },
+        {
+          "chapter_id": "ch-0050",
+          "claim_kind": "fact",
+          "end_line": 3504,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3495
+        },
+        {
+          "chapter_id": "ch-0050",
+          "claim_kind": "fact",
+          "end_line": 3564,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3541
+        }
+      ],
+      "from": "v1-v1c48",
+      "id": "v1-grave_chain",
+      "kind": "payoff",
+      "label": "收集肋骨任务完成，继续两环但第三未完",
+      "to": "v1-v1c49"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0060",
+          "claim_kind": "inference",
+          "end_line": 4196,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4170
+        },
+        {
+          "chapter_id": "ch-0061",
+          "claim_kind": "inference",
+          "end_line": 4258,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4197
+        }
+      ],
+      "from": "v2-red",
+      "id": "v2-e1",
+      "kind": "cause",
+      "label": "守林危机引入有成本救援",
+      "to": "v2-rescue"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0056",
+          "claim_kind": "inference",
+          "end_line": 3928,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3923
+        },
+        {
+          "chapter_id": "ch-0062",
+          "claim_kind": "inference",
+          "end_line": 4270,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4261
+        }
+      ],
+      "from": "v2-memory",
+      "id": "v2-e2",
+      "kind": "reveal",
+      "label": "旁人识别补证先前主角旧名自述",
+      "to": "v2-identity"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0061",
+          "claim_kind": "inference",
+          "end_line": 4258,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4240
+        },
+        {
+          "chapter_id": "ch-0062",
+          "claim_kind": "inference",
+          "end_line": 4270,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4261
+        }
+      ],
+      "from": "v2-rescue",
+      "id": "v2-e3",
+      "kind": "reveal",
+      "label": "行动在先，识别动机后补",
+      "to": "v2-identity"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0060",
+          "claim_kind": "inference",
+          "end_line": 4150,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4135
+        },
+        {
+          "chapter_id": "ch-0063",
+          "claim_kind": "inference",
+          "end_line": 4377,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4334
+        },
+        {
+          "chapter_id": "ch-0065",
+          "claim_kind": "inference",
+          "end_line": 4506,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4471
+        }
+      ],
+      "from": "v2-red",
+      "id": "v2-e4",
+      "kind": "cause",
+      "label": "高罪恶与围捕迫独逃，承诺等饭获兑现",
+      "to": "v2-escape"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0069",
+          "claim_kind": "inference",
+          "end_line": 4698,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4677
+        },
+        {
+          "chapter_id": "ch-0069",
+          "claim_kind": "inference",
+          "end_line": 4756,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4734
+        }
+      ],
+      "from": "v2-escort",
+      "id": "v2-e5",
+      "kind": "echo",
+      "label": "协作完成后的生活段承接有限信任",
+      "to": "v2-balcony"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0070",
+          "claim_kind": "inference",
+          "end_line": 4788,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4773
+        },
+        {
+          "chapter_id": "ch-0072",
+          "claim_kind": "inference",
+          "end_line": 4909,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4879
+        }
+      ],
+      "from": "v2-exchange",
+      "id": "v2-e6",
+      "kind": "setup",
+      "label": "银行兑换与生产资金需求建立不同资源目标",
+      "to": "v2-fund"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0075",
+          "claim_kind": "inference",
+          "end_line": 5076,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5060
+        },
+        {
+          "chapter_id": "ch-0076",
+          "claim_kind": "inference",
+          "end_line": 5128,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5077
+        }
+      ],
+      "from": "v2-gap",
+      "id": "v2-e7",
+      "kind": "cause",
+      "label": "击杀所得火龙/冰甲后继续面对下一层新瓶颈",
+      "to": "v2-cast"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0076",
+          "claim_kind": "inference",
+          "end_line": 5128,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5117
+        },
+        {
+          "chapter_id": "ch-0077",
+          "claim_kind": "inference",
+          "end_line": 5173,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5131
+        },
+        {
+          "chapter_id": "ch-0078",
+          "claim_kind": "inference",
+          "end_line": 5247,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5200
+        }
+      ],
+      "from": "v2-cast",
+      "id": "v2-e8",
+      "kind": "cause",
+      "label": "打开入口后推进，持续战新增耐久压力",
+      "to": "v2-wear"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0078",
+          "claim_kind": "inference",
+          "end_line": 5247,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5230
+        },
+        {
+          "chapter_id": "ch-0079",
+          "claim_kind": "inference",
+          "end_line": 5279,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5250
+        },
+        {
+          "chapter_id": "ch-0080",
+          "claim_kind": "inference",
+          "end_line": 5360,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5340
+        }
+      ],
+      "from": "v2-wear",
+      "id": "v2-e9",
+      "kind": "payoff",
+      "label": "战利品潜行从低估到侦察应用",
+      "to": "v2-cloak"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0080",
+          "claim_kind": "inference",
+          "end_line": 5360,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5340
+        },
+        {
+          "chapter_id": "ch-0081",
+          "claim_kind": "inference",
+          "end_line": 5416,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5361
+        },
+        {
+          "chapter_id": "ch-0082",
+          "claim_kind": "inference",
+          "end_line": 5460,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5417
+        }
+      ],
+      "from": "v2-cloak",
+      "id": "v2-e10",
+      "kind": "cause",
+      "label": "侦察偷袭进入矿战，团队群攻完成夺回",
+      "to": "v2-mine"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0082",
+          "claim_kind": "inference",
+          "end_line": 5460,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5440
+        },
+        {
+          "chapter_id": "ch-0083",
+          "claim_kind": "inference",
+          "end_line": 5517,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5480
+        },
+        {
+          "chapter_id": "ch-0084",
+          "claim_kind": "inference",
+          "end_line": 5544,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5518
+        }
+      ],
+      "from": "v2-mine",
+      "id": "v2-e11",
+      "kind": "reversal",
+      "label": "游戏资源胜利未解除现实财政门槛",
+      "to": "v2-budget"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0091",
+          "claim_kind": "inference",
+          "end_line": 5938,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5922
+        },
+        {
+          "chapter_id": "ch-0092",
+          "claim_kind": "inference",
+          "end_line": 5983,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5972
+        },
+        {
+          "chapter_id": "ch-0093",
+          "claim_kind": "inference",
+          "end_line": 6032,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6001
+        }
+      ],
+      "from": "v2-seal",
+      "id": "v2-e12",
+      "kind": "cause",
+      "label": "控制能力成为协同强杀优先目标",
+      "to": "v2-locked"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0093",
+          "claim_kind": "inference",
+          "end_line": 6057,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6045
+        },
+        {
+          "chapter_id": "ch-0094",
+          "claim_kind": "inference",
+          "end_line": 6104,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6065
+        }
+      ],
+      "from": "v2-locked",
+      "id": "v2-e13",
+      "kind": "cause",
+      "label": "Boss秒杀迫撤离，断后触发偶然生机",
+      "to": "v2-lamp"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0094",
+          "claim_kind": "inference",
+          "end_line": 6124,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6119
+        },
+        {
+          "chapter_id": "ch-0095",
+          "claim_kind": "inference",
+          "end_line": 6167,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6128
+        }
+      ],
+      "from": "v2-lamp",
+      "id": "v2-e14",
+      "kind": "payoff",
+      "label": "熬过回血与开门期限取得证明",
+      "to": "v2-token"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0096",
+          "claim_kind": "inference",
+          "end_line": 6231,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6218
+        },
+        {
+          "chapter_id": "ch-0096",
+          "claim_kind": "inference",
+          "end_line": 6271,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6264
+        }
+      ],
+      "from": "v2-token",
+      "id": "v2-e15",
+      "kind": "reversal",
+      "label": "战利品的高价值没有兑换预期情感回应",
+      "to": "v2-refuse"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0097",
+          "claim_kind": "inference",
+          "end_line": 6331,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6324
+        },
+        {
+          "chapter_id": "ch-0098",
+          "claim_kind": "inference",
+          "end_line": 6378,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6378
+        }
+      ],
+      "from": "v2-refuse",
+      "id": "v2-e16",
+      "kind": "payoff",
+      "label": "物品最终交付，但拒绝原因未完整回收",
+      "to": "v2-accept"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0095",
+          "claim_kind": "inference",
+          "end_line": 6193,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6188
+        },
+        {
+          "chapter_id": "ch-0098",
+          "claim_kind": "inference",
+          "end_line": 6394,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6379
+        }
+      ],
+      "from": "v2-token",
+      "id": "v2-e17",
+      "kind": "setup",
+      "label": "保留证明待集人再启动限时任务",
+      "to": "v2-accept"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0098",
+          "claim_kind": "inference",
+          "end_line": 6394,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6383
+        },
+        {
+          "chapter_id": "ch-0099",
+          "claim_kind": "inference",
+          "end_line": 6456,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6444
+        }
+      ],
+      "from": "v2-accept",
+      "id": "v2-e18",
+      "kind": "cause",
+      "label": "两路分工取得内核，新增返程瓶颈",
+      "to": "v2-core"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0099",
+          "claim_kind": "inference",
+          "end_line": 6462,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6454
+        },
+        {
+          "chapter_id": "ch-0100",
+          "claim_kind": "inference",
+          "end_line": 6566,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6473
+        }
+      ],
+      "from": "v2-core",
+      "id": "v2-e19",
+      "kind": "cause",
+      "label": "开路后城门交付再受阻，暴怒红名兑现严重掉级",
+      "to": "v2-zero"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0091",
+          "claim_kind": "inference",
+          "end_line": 5938,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5922
+        },
+        {
+          "chapter_id": "ch-0100",
+          "claim_kind": "inference",
+          "end_line": 6527,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6493
+        }
+      ],
+      "from": "v2-seal",
+      "id": "v2-e20",
+      "kind": "payoff",
+      "label": "封印能力从Boss控制转为阻断交付",
+      "to": "v2-zero"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0100",
+          "claim_kind": "inference",
+          "end_line": 6566,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6531
+        },
+        {
+          "chapter_id": "ch-0101",
+          "claim_kind": "inference",
+          "end_line": 6608,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6580
+        },
+        {
+          "chapter_id": "ch-0101",
+          "claim_kind": "inference",
+          "end_line": 6697,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6634
+        }
+      ],
+      "from": "v2-zero",
+      "id": "v2-e21",
+      "kind": "cause",
+      "label": "损失之后用保留职业、技能与关系重建",
+      "to": "v2-return"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0085",
+          "claim_kind": "inference",
+          "end_line": 5589,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5567
+        },
+        {
+          "chapter_id": "ch-0101",
+          "claim_kind": "inference",
+          "end_line": 6641,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6634
+        }
+      ],
+      "from": "v2-sold",
+      "id": "v2-e22",
+      "kind": "payoff",
+      "label": "已卖旧弓由凌雪交还成为重启资源，购回金额出自其自述",
+      "to": "v2-return"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0096",
+          "claim_kind": "inference",
+          "end_line": 6231,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6226
+        },
+        {
+          "chapter_id": "ch-0096",
+          "claim_kind": "inference",
+          "end_line": 6271,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6264
+        },
+        {
+          "chapter_id": "ch-0101",
+          "claim_kind": "inference",
+          "end_line": 6641,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6636
+        }
+      ],
+      "from": "v2-refuse",
+      "id": "v2-e23",
+      "kind": "echo",
+      "label": "清账式赠物遭遇拒绝分清的回赠",
+      "to": "v2-return"
+    }
+  ],
+  "graph_id": "graph-21a1548c8c094f7ea6fbc3cdd0b00184",
+  "nodes": [
+    {
+      "claim_kind": "synthesis",
+      "id": "collected-story",
+      "kind": "story",
+      "parent_id": null,
+      "summary": "每卷的线索状态以各自卷末为准；尚未完成全书或跨卷综合。",
+      "title": "第1—100章：两卷阶段快照"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "v1-story",
+      "kind": "volume",
+      "narrative_order": 1,
+      "parent_id": "collected-story",
+      "title": "卷1末快照｜卷土重来：生计、升级与结盟"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "v1-encounter",
+      "kind": "arc",
+      "parent_id": "v1-story",
+      "title": "困境与陌生来客"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "v1-opportunity",
+      "kind": "arc",
+      "parent_id": "v1-story",
+      "title": "帮助变为新任务"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30",
+        "chr-e0af4a5a9dfd475e8a82ff293968e46a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "fact",
+          "end_line": 36,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 16
+        }
+      ],
+      "id": "v1-locked",
+      "kind": "scene",
+      "narrative_order": 1,
+      "parent_id": "v1-encounter",
+      "title": "先见结果：主人被来客锁在房外"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30",
+        "chr-e0af4a5a9dfd475e8a82ff293968e46a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "claim_kind": "fact",
+          "end_line": 65,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 43
+        }
+      ],
+      "id": "v1-rescue",
+      "kind": "scene",
+      "narrative_order": 2,
+      "parent_id": "v1-encounter",
+      "title": "倒叙解释：为脱离地痞而带她上楼"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 89,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 69
+        }
+      ],
+      "id": "v1-poor",
+      "kind": "event",
+      "narrative_order": 3,
+      "parent_id": "v1-encounter",
+      "title": "补叙失业缺钱，头盔购买受阻"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 125,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 116
+        },
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 145,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 145
+        }
+      ],
+      "id": "v1-bind",
+      "kind": "scene",
+      "knowledge": [
+        {
+          "belief": "不清楚凌雪为何能提前拿到头盔",
+          "observer": "chr-055c3deac10149bf8f9a51198570da30",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 4,
+      "parent_id": "v1-encounter",
+      "title": "试戴提前拿到的头盔，意外锁定身份"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30",
+        "chr-e0af4a5a9dfd475e8a82ff293968e46a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 180,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 173
+        }
+      ],
+      "id": "v1-share",
+      "kind": "scene",
+      "narrative_order": 5,
+      "parent_id": "v1-opportunity",
+      "title": "来客主动分粥，缓和关系"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30",
+        "chr-e0af4a5a9dfd475e8a82ff293968e46a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 200,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 193
+        }
+      ],
+      "id": "v1-gift",
+      "kind": "scene",
+      "narrative_order": 6,
+      "parent_id": "v1-opportunity",
+      "title": "发现误绑定后仍赠出头盔"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30",
+        "chr-e0af4a5a9dfd475e8a82ff293968e46a"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 224,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 216
+        }
+      ],
+      "id": "v1-note",
+      "kind": "scene",
+      "narrative_order": 7,
+      "parent_id": "v1-opportunity",
+      "title": "留下钱与工作地址"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30",
+        "chr-7e27b7c45aa344dda7988d6d8dc8b4b5"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 259,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 235
+        }
+      ],
+      "id": "v1-team",
+      "kind": "scene",
+      "narrative_order": 8,
+      "parent_id": "v1-opportunity",
+      "title": "加入雪月，接到首夜任务"
+    },
+    {
+      "characters": [
+        "chr-055c3deac10149bf8f9a51198570da30"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 316,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 282
+        }
+      ],
+      "id": "v1-enter",
+      "kind": "scene",
+      "narrative_order": 9,
+      "parent_id": "v1-opportunity",
+      "title": "开服抢入获经验，开始练级"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "v1-growth",
+      "kind": "arc",
+      "parent_id": "v1-story",
+      "title": "资源和职业路线"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "v1-network",
+      "kind": "arc",
+      "parent_id": "v1-story",
+      "title": "身份、互助与洞穴任务"
+    },
+    {
+      "claim_kind": "inference",
+      "id": "v1-reciprocal",
+      "kind": "arc",
+      "parent_id": "v1-story",
+      "title": "赠予、现实收入与继续追赶"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0007",
+          "claim_kind": "fact",
+          "end_line": 400,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 374
+        }
+      ],
+      "id": "v1-v1c06",
+      "kind": "event",
+      "narrative_order": 10,
+      "parent_id": "v1-growth",
+      "summary": "完成哥布林任务获得铁剑，并用两银币购买药水。",
+      "title": "任务得剑，收益换药"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0008",
+          "claim_kind": "fact",
+          "end_line": 509,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 470
+        }
+      ],
+      "id": "v1-v1c07",
+      "kind": "event",
+      "narrative_order": 11,
+      "parent_id": "v1-growth",
+      "summary": "取得皮甲与任务材料后遭变异蝙蝠攻击。",
+      "title": "越级打蝙蝠并遭变异怪"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0009",
+          "claim_kind": "fact",
+          "end_line": 575,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 513
+        }
+      ],
+      "id": "v1-v1c08",
+      "kind": "event",
+      "narrative_order": 12,
+      "parent_id": "v1-growth",
+      "summary": "击杀变异蝙蝠得战斧，旧铁剑卖龙魂并补充药品。",
+      "title": "弱点险胜，售旧装备再投入"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0010",
+          "claim_kind": "fact",
+          "end_line": 670,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 615
+        }
+      ],
+      "id": "v1-v1c09",
+      "kind": "event",
+      "narrative_order": 13,
+      "parent_id": "v1-growth",
+      "summary": "击退强买者，随后凑齐史莱姆勋章。",
+      "title": "诱灰名反击，推进哨岗任务"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "claim_kind": "fact",
+          "end_line": 738,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 692
+        }
+      ],
+      "id": "v1-v1c10",
+      "kind": "event",
+      "narrative_order": 14,
+      "parent_id": "v1-growth",
+      "summary": "傲世围堵，剑火加入争夺，书生藏林观察。",
+      "title": "组织争夺首领"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0012",
+          "claim_kind": "fact",
+          "end_line": 808,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 751
+        }
+      ],
+      "id": "v1-v1c11",
+      "kind": "event",
+      "narrative_order": 15,
+      "parent_id": "v1-growth",
+      "summary": "剑火遭狂化团灭，书生杀虚弱首领并与核心成员交友。",
+      "title": "补刀首领，结识剑火核心"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0013",
+          "claim_kind": "fact",
+          "end_line": 889,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 824
+        }
+      ],
+      "id": "v1-v1c12",
+      "kind": "event",
+      "narrative_order": 16,
+      "parent_id": "v1-growth",
+      "summary": "弓鉴定白银必中，铠甲换破甲箭和金币，暂拒加盟。",
+      "title": "黄金弓定职业，交易铠甲"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0014",
+          "claim_kind": "fact",
+          "end_line": 968,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 895
+        }
+      ],
+      "id": "v1-v1c13",
+      "kind": "event",
+      "narrative_order": 17,
+      "parent_id": "v1-growth",
+      "summary": "学技能、交哨岗任务、升15级装备黄金弓。",
+      "title": "就职与旧任务奖励兑现"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0015",
+          "claim_kind": "fact",
+          "end_line": 1029,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 991
+        }
+      ],
+      "id": "v1-v1c14",
+      "kind": "event",
+      "narrative_order": 18,
+      "parent_id": "v1-growth",
+      "summary": "冰箭和破甲箭使越级任务可行。",
+      "title": "组合技能杀高防蜥蜴"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0016",
+          "claim_kind": "fact",
+          "end_line": 1109,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1093
+        }
+      ],
+      "id": "v1-v1c15",
+      "kind": "event",
+      "narrative_order": 19,
+      "parent_id": "v1-network",
+      "summary": "书生误认凌月为凌雪，凌月纠正身份。",
+      "title": "总监被揭为双胞胎姐姐"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0017",
+          "claim_kind": "fact",
+          "end_line": 1182,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1140
+        }
+      ],
+      "id": "v1-v1c16",
+      "kind": "event",
+      "narrative_order": 20,
+      "parent_id": "v1-network",
+      "summary": "以冰火组合应对剑狼，接受剑狼王任务。",
+      "title": "探索剑狼弱点并接首领任务"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0018",
+          "claim_kind": "fact",
+          "end_line": 1264,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1196
+        }
+      ],
+      "id": "v1-v1c17",
+      "kind": "event",
+      "narrative_order": 21,
+      "parent_id": "v1-network",
+      "summary": "被围后利用侍卫挡王，治疗维持并击杀。",
+      "title": "侍卫占位阻狼王"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0019",
+          "claim_kind": "fact",
+          "end_line": 1355,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1271
+        }
+      ],
+      "id": "v1-v1c18",
+      "kind": "event",
+      "narrative_order": 22,
+      "parent_id": "v1-network",
+      "summary": "交任务升25级，获得套装、匕首和赤焰海书。",
+      "title": "赤炎套装与新技能书"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "claim_kind": "fact",
+          "end_line": 1459,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1380
+        }
+      ],
+      "id": "v1-v1c19",
+      "kind": "event",
+      "narrative_order": 23,
+      "parent_id": "v1-network",
+      "summary": "双人拉扯杀首领，书生只取金币留装备给她。",
+      "title": "协助紫韵儿完成豪猪击杀"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0021",
+          "claim_kind": "fact",
+          "end_line": 1521,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1465
+        }
+      ],
+      "id": "v1-v1c20",
+      "kind": "event",
+      "narrative_order": 24,
+      "parent_id": "v1-network",
+      "summary": "诱敌灰名，先清法师保护紫韵儿。",
+      "title": "保护牧师击退傲世"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0022",
+          "claim_kind": "fact",
+          "end_line": 1583,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1556
+        }
+      ],
+      "id": "v1-v1c21",
+      "kind": "event",
+      "narrative_order": 25,
+      "parent_id": "v1-network",
+      "summary": "王俊杰提出资源集中，凌月另召工作室谈话。",
+      "title": "公司会议与权力差异"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0023",
+          "claim_kind": "fact",
+          "end_line": 1645,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1599
+        }
+      ],
+      "id": "v1-v1c22",
+      "kind": "event",
+      "narrative_order": 26,
+      "parent_id": "v1-network",
+      "summary": "书生观PK视频，再赴暮光城集合。",
+      "title": "清风揽月的能力先展示"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0024",
+          "claim_kind": "fact",
+          "end_line": 1693,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1649
+        }
+      ],
+      "id": "v1-v1c23",
+      "kind": "event",
+      "narrative_order": 27,
+      "parent_id": "v1-network",
+      "summary": "明确凌月是清风揽月，书生给金币和技能书。",
+      "title": "凌月身份揭晓并获赤焰海"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0025",
+          "claim_kind": "fact",
+          "end_line": 1799,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1741
+        }
+      ],
+      "id": "v1-v1c24",
+      "kind": "event",
+      "narrative_order": 28,
+      "parent_id": "v1-network",
+      "summary": "共享战力，接五层任务并遇高防怪。",
+      "title": "双方共享装备进入洞穴"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0026",
+          "claim_kind": "fact",
+          "end_line": 1861,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1804
+        }
+      ],
+      "id": "v1-v1c25",
+      "kind": "event",
+      "narrative_order": 29,
+      "parent_id": "v1-network",
+      "summary": "技能与补给支持双人通过前两层，三层遇人。",
+      "title": "赤焰海解除三层群袭"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0027",
+          "claim_kind": "fact",
+          "end_line": 1939,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1890
+        }
+      ],
+      "id": "v1-v1c26",
+      "kind": "event",
+      "narrative_order": 30,
+      "parent_id": "v1-network",
+      "summary": "主动开战后处险，紫韵儿救凌月、刑天杀铁翼。",
+      "title": "战魂冲突与剑火救援"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0028",
+          "claim_kind": "fact",
+          "end_line": 1999,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 1964
+        }
+      ],
+      "id": "v1-v1c27",
+      "kind": "event",
+      "narrative_order": 31,
+      "parent_id": "v1-network",
+      "summary": "龙魂说明援助缘由，六人补齐角色清三层。",
+      "title": "前次保护获明确回报"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0029",
+          "claim_kind": "fact",
+          "end_line": 2079,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2031
+        }
+      ],
+      "id": "v1-v1c28",
+      "kind": "event",
+      "narrative_order": 32,
+      "parent_id": "v1-network",
+      "summary": "鬼炙收套装并补偿，团队进入五层。",
+      "title": "消亡套装按职业分配"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0030",
+          "claim_kind": "fact",
+          "end_line": 2138,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2104
+        }
+      ],
+      "id": "v1-v1c29",
+      "kind": "event",
+      "narrative_order": 33,
+      "parent_id": "v1-network",
+      "summary": "三角战术后遭变招，刑天和龙魂阵亡。",
+      "title": "残血首领召唤千军"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 2229,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2144
+        }
+      ],
+      "id": "v1-v1c30",
+      "kind": "event",
+      "narrative_order": 34,
+      "parent_id": "v1-network",
+      "summary": "保鬼炙离开，书生最后击杀取物后死；获千刃箭与流光剑。",
+      "title": "击杀得物，死亡导致任务失败"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0032",
+          "claim_kind": "fact",
+          "end_line": 2295,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2239
+        }
+      ],
+      "id": "v1-v1c31",
+      "kind": "event",
+      "narrative_order": 35,
+      "parent_id": "v1-reciprocal",
+      "summary": "付租修装备，寻找将军冢并遇被追队伍。",
+      "title": "现实交租，再探新地图"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0033",
+          "claim_kind": "fact",
+          "end_line": 2356,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2302
+        }
+      ],
+      "id": "v1-v1c32",
+      "kind": "event",
+      "narrative_order": 36,
+      "parent_id": "v1-reciprocal",
+      "summary": "以协作约定获坐标，因队友避战停疗转变合作方式。",
+      "title": "救陌生队换地图入口"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0034",
+          "claim_kind": "fact",
+          "end_line": 2428,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2360
+        }
+      ],
+      "id": "v1-v1c33",
+      "kind": "event",
+      "narrative_order": 37,
+      "parent_id": "v1-reciprocal",
+      "summary": "认出清风飞雪，与她红名杀敌并听延迟开服缘由。",
+      "title": "重遇凌雪并约30级惊喜"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0035",
+          "claim_kind": "fact",
+          "end_line": 2500,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2453
+        }
+      ],
+      "id": "v1-v1c34",
+      "kind": "event",
+      "narrative_order": 38,
+      "parent_id": "v1-reciprocal",
+      "summary": "凌雪攻击不足，两人练级和闲聊后她升30索惊喜。",
+      "title": "共同练级到30级"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0036",
+          "claim_kind": "fact",
+          "end_line": 2569,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2510
+        }
+      ],
+      "id": "v1-v1c35",
+      "kind": "event",
+      "narrative_order": 39,
+      "parent_id": "v1-reciprocal",
+      "summary": "书生说明偿头盔之情并赠剑，效率显著变化。",
+      "title": "赠流光剑，凌雪成为输出主力"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0037",
+          "claim_kind": "fact",
+          "end_line": 2635,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2606
+        }
+      ],
+      "id": "v1-v1c36",
+      "kind": "event",
+      "narrative_order": 40,
+      "parent_id": "v1-reciprocal",
+      "summary": "双方打残首领后遇50人围堵，书生凌雪分头引怪。",
+      "title": "傲世围攻，决定引怪反制"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0038",
+          "claim_kind": "fact",
+          "end_line": 2700,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2639
+        }
+      ],
+      "id": "v1-v1c37",
+      "kind": "event",
+      "narrative_order": 41,
+      "parent_id": "v1-reciprocal",
+      "summary": "千刃箭阻撤退，凌雪后侧引怪完成夹击。",
+      "title": "群箭断回城，怪群闭合"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0039",
+          "claim_kind": "fact",
+          "end_line": 2804,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2705
+        }
+      ],
+      "id": "v1-v1c38",
+      "kind": "event",
+      "narrative_order": 42,
+      "parent_id": "v1-reciprocal",
+      "summary": "录像已录，敌人被首领技能灭团；二人击杀得烈焰法杖。",
+      "title": "傲世团灭，记录与掉落"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0040",
+          "claim_kind": "fact",
+          "end_line": 2884,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2825
+        }
+      ],
+      "id": "v1-v1c39",
+      "kind": "event",
+      "narrative_order": 43,
+      "parent_id": "v1-reciprocal",
+      "summary": "凌雪公开录像；凌月付800与5000元；电梯避王。",
+      "title": "录像回应宣战，现金预付法杖"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0041",
+          "claim_kind": "fact",
+          "end_line": 2954,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2895
+        }
+      ],
+      "id": "v1-v1c40",
+      "kind": "event",
+      "narrative_order": 44,
+      "parent_id": "v1-reciprocal",
+      "summary": "书生拒王俊杰威胁，随后交付已付费法杖并约四人队。",
+      "title": "职场威胁与法杖交付"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0042",
+          "claim_kind": "fact",
+          "end_line": 3024,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2965
+        }
+      ],
+      "id": "v1-v1c41",
+      "kind": "event",
+      "narrative_order": 45,
+      "parent_id": "v1-reciprocal",
+      "summary": "以慢速怪练群技，将散件凑森白套装售出。",
+      "title": "群技训练和套装变现"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0043",
+          "claim_kind": "fact",
+          "end_line": 3084,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3062
+        }
+      ],
+      "id": "v1-v1c42",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "书生应凌月要求对凌雪隐瞒王俊杰相关冲突；尚无后续回收。",
+          "observer": "reader",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 46,
+      "parent_id": "v1-reciprocal",
+      "summary": "凌月要求隐瞒王俊杰，四人以坦治双群攻推进。",
+      "title": "四人互补与信息隐瞒"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0044",
+          "claim_kind": "fact",
+          "end_line": 3151,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3093
+        }
+      ],
+      "id": "v1-v1c43",
+      "kind": "event",
+      "narrative_order": 47,
+      "parent_id": "v1-reciprocal",
+      "summary": "三层高防怪使凌月主输出，击杀腐臭吞噬者。",
+      "title": "高防迫使主攻与抗怪换位"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0045",
+          "claim_kind": "fact",
+          "end_line": 3221,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3157
+        }
+      ],
+      "id": "v1-v1c44",
+      "kind": "event",
+      "narrative_order": 48,
+      "parent_id": "v1-reciprocal",
+      "summary": "紫韵儿学复活预言，四层改单体诅咒战术。",
+      "title": "复活技能与诅咒成为保障"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0046",
+          "claim_kind": "fact",
+          "end_line": 3279,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3241
+        }
+      ],
+      "id": "v1-v1c45",
+      "kind": "event",
+      "narrative_order": 49,
+      "parent_id": "v1-reciprocal",
+      "summary": "只凑三件狂风套装；书生谈孤独，朋友回应，尸王现身。",
+      "title": "孤独被同伴回应，黄金首领出现"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0047",
+          "claim_kind": "fact",
+          "end_line": 3351,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3286
+        }
+      ],
+      "id": "v1-v1c46",
+      "kind": "event",
+      "narrative_order": 50,
+      "parent_id": "v1-reciprocal",
+      "summary": "首领秒杀触发无损复活，限用迫使改远程，最终获新弓。",
+      "title": "复活限制与远程击杀"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0048",
+          "claim_kind": "fact",
+          "end_line": 3427,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3355
+        }
+      ],
+      "id": "v1-v1c47",
+      "kind": "event",
+      "narrative_order": 51,
+      "parent_id": "v1-reciprocal",
+      "summary": "300金鉴定，降级特技使36级可以使用45级弓。",
+      "title": "追星弓降低使用门槛"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0049",
+          "claim_kind": "fact",
+          "end_line": 3491,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3433
+        }
+      ],
+      "id": "v1-v1c48",
+      "kind": "event",
+      "narrative_order": 52,
+      "parent_id": "v1-reciprocal",
+      "summary": "高等级装备暂存，选择低速敌人收骨并升37级。",
+      "title": "库存卖不动，改墓园群刷"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0050",
+          "claim_kind": "fact",
+          "end_line": 3564,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3495
+        }
+      ],
+      "id": "v1-v1c49",
+      "kind": "event",
+      "narrative_order": 53,
+      "parent_id": "v1-reciprocal",
+      "summary": "交骨和蝴蝶兰升38，接受巫师之心并只清外围。",
+      "title": "守墓两环完成，第三环开放"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0051",
+          "claim_kind": "fact",
+          "end_line": 3635,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3567
+        },
+        {
+          "chapter_id": "ch-0101",
+          "claim_kind": "fact",
+          "end_line": 6700,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6579
+        }
+      ],
+      "id": "v2-vol02",
+      "kind": "volume",
+      "narrative_order": 2,
+      "parent_id": "collected-story",
+      "summary": "本批51章全文已读；全书覆盖仍不完整。",
+      "title": "卷2末快照｜卷二 · 龙吟天下（正文50—100章）"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0051",
+          "claim_kind": "inference",
+          "end_line": 3635,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3567
+        },
+        {
+          "chapter_id": "ch-0058",
+          "claim_kind": "inference",
+          "end_line": 4075,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4000
+        }
+      ],
+      "id": "v2-arc1",
+      "kind": "arc",
+      "parent_id": "v2-vol02",
+      "summary": "研究分段，按本批连续阅读窗口组织，不声称原文另有这些分章标题。",
+      "title": "50—57：任务收尾、首转与入住关系"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0059",
+          "claim_kind": "inference",
+          "end_line": 4134,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4076
+        },
+        {
+          "chapter_id": "ch-0072",
+          "claim_kind": "inference",
+          "end_line": 4929,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4879
+        }
+      ],
+      "id": "v2-arc2",
+      "kind": "arc",
+      "parent_id": "v2-vol02",
+      "summary": "研究分段，按本批连续阅读窗口组织，不声称原文另有这些分章标题。",
+      "title": "58—71：资源战争、旧名与团队协作"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0073",
+          "claim_kind": "inference",
+          "end_line": 4975,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4930
+        },
+        {
+          "chapter_id": "ch-0086",
+          "claim_kind": "inference",
+          "end_line": 5678,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5625
+        }
+      ],
+      "id": "v2-arc3",
+      "kind": "arc",
+      "parent_id": "v2-vol02",
+      "summary": "研究分段，按本批连续阅读窗口组织，不声称原文另有这些分章标题。",
+      "title": "72—85：古刹推进与现实资金门槛"
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0087",
+          "claim_kind": "inference",
+          "end_line": 5732,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5679
+        },
+        {
+          "chapter_id": "ch-0101",
+          "claim_kind": "inference",
+          "end_line": 6700,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6579
+        }
+      ],
+      "id": "v2-arc4",
+      "kind": "arc",
+      "parent_id": "v2-vol02",
+      "summary": "研究分段，按本批连续阅读窗口组织，不声称原文另有这些分章标题。",
+      "title": "86—100：职业机会、交付危机与重练"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0051",
+          "claim_kind": "fact",
+          "end_line": 3601,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3590
+        }
+      ],
+      "id": "v2-heal",
+      "kind": "event",
+      "narrative_order": 50,
+      "parent_id": "v2-arc1",
+      "summary": "守墓人恢复行动，奖励到账。",
+      "title": "巫师之心实际完成"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0053",
+          "claim_kind": "fact",
+          "end_line": 3761,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3706
+        }
+      ],
+      "id": "v2-move",
+      "kind": "event",
+      "narrative_order": 52,
+      "parent_id": "v2-arc1",
+      "summary": "书生与团队入住，凌雪帮忙后返校。",
+      "title": "七人工作室实际搬入"
+    },
+    {
+      "asset_id": "scn-4eab6523986b5241a4f3faccc1e83881",
+      "characters": [
+        "chr-91465c9406bc5e27bc5ae4fac5af7338"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0055",
+          "claim_kind": "fact",
+          "end_line": 3885,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3851
+        }
+      ],
+      "id": "v2-hat",
+      "kind": "event",
+      "narrative_order": 54,
+      "parent_id": "v2-arc1",
+      "summary": "听线索、试验减半、完成首转获闪避。",
+      "title": "红帽试验赢首转"
+    },
+    {
+      "characters": [
+        "chr-91465c9406bc5e27bc5ae4fac5af7338"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0056",
+          "claim_kind": "fact",
+          "end_line": 3928,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3923
+        }
+      ],
+      "id": "v2-memory",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "已读到主角旧ID自述；外部核实尚在后面。",
+          "observer": "reader",
+          "state": "knows"
+        }
+      ],
+      "narrative_order": 55,
+      "parent_id": "v2-arc1",
+      "summary": "叙述者回忆昔日身份和损失，未全揭火灾细节。",
+      "title": "旧ID与火灾回忆"
+    },
+    {
+      "asset_id": "scn-47c91ce54ee356318500819813fe49f4",
+      "characters": [
+        "chr-584438836bf65917a1d6e4f4a71fea79",
+        "chr-91465c9406bc5e27bc5ae4fac5af7338",
+        "chr-4c6badcbfed453db9a31c42915d2db76",
+        "chr-4d6e8d8cca395a4aab0e405dadca7273"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0057",
+          "claim_kind": "fact",
+          "end_line": 3990,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3947
+        }
+      ],
+      "id": "v2-hide",
+      "kind": "event",
+      "narrative_order": 56,
+      "parent_id": "v2-arc1",
+      "summary": "王未查到凌月，私下事实与对外解释不同。",
+      "title": "藏床与纸箱说辞"
+    },
+    {
+      "asset_id": "scn-089372bf6124527e8506d35aa3622841",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0060",
+          "claim_kind": "fact",
+          "end_line": 4196,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4135
+        }
+      ],
+      "id": "v2-red",
+      "kind": "event",
+      "narrative_order": 59,
+      "parent_id": "v2-arc2",
+      "summary": "夺林后决定保生产员，书生高罪恶使死亡代价增大。",
+      "title": "守林与红名风险"
+    },
+    {
+      "asset_id": "scn-089372bf6124527e8506d35aa3622841",
+      "characters": [
+        "chr-26298ad0150b518cb922da00062801fd"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0061",
+          "claim_kind": "fact",
+          "end_line": 4258,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4197
+        }
+      ],
+      "id": "v2-rescue",
+      "kind": "event",
+      "narrative_order": 60,
+      "parent_id": "v2-arc2",
+      "summary": "大批援助解除本次包围并提出加盟。",
+      "title": "剑火投入救援"
+    },
+    {
+      "asset_id": "scn-089372bf6124527e8506d35aa3622841",
+      "characters": [
+        "chr-91465c9406bc5e27bc5ae4fac5af7338",
+        "chr-26298ad0150b518cb922da00062801fd",
+        "chr-314d837ade615377b565f16d719e57ed"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0062",
+          "claim_kind": "fact",
+          "end_line": 4320,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4261
+        }
+      ],
+      "id": "v2-identity",
+      "kind": "event",
+      "narrative_order": 61,
+      "parent_id": "v2-arc2",
+      "summary": "以过去装备和截图解释认出书生，凌雪面前未获承认。",
+      "title": "鬼炙说明旧名识别"
+    },
+    {
+      "asset_id": "scn-649675041c7f5e6988c50d346a9412e4",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0063",
+          "claim_kind": "fact",
+          "end_line": 4377,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4334
+        },
+        {
+          "chapter_id": "ch-0065",
+          "claim_kind": "fact",
+          "end_line": 4506,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4471
+        }
+      ],
+      "id": "v2-escape",
+      "kind": "event",
+      "narrative_order": 64,
+      "parent_id": "v2-arc2",
+      "summary": "红名独逃保住装备，团队实际等其两小时吃饭。",
+      "title": "独逃后等饭兑现"
+    },
+    {
+      "asset_id": "scn-6e3f55ed4fa35a7980f37a2e9392f36a",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0068",
+          "claim_kind": "fact",
+          "end_line": 4676,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4625
+        },
+        {
+          "chapter_id": "ch-0069",
+          "claim_kind": "fact",
+          "end_line": 4698,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4677
+        }
+      ],
+      "id": "v2-escort",
+      "kind": "event",
+      "narrative_order": 68,
+      "parent_id": "v2-arc2",
+      "summary": "清怪只是前半；同伴护送回城后奖励。",
+      "title": "护送而后任务完成"
+    },
+    {
+      "asset_id": "scn-6e3f55ed4fa35a7980f37a2e9392f36a",
+      "characters": [
+        "chr-584438836bf65917a1d6e4f4a71fea79",
+        "chr-91465c9406bc5e27bc5ae4fac5af7338"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0069",
+          "claim_kind": "fact",
+          "end_line": 4756,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4734
+        }
+      ],
+      "id": "v2-balcony",
+      "kind": "event",
+      "narrative_order": 68,
+      "parent_id": "v2-arc2",
+      "summary": "谈继承压力并要求书生勿告诉妹妹。",
+      "title": "凌月诉说有限信任"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0070",
+          "claim_kind": "fact",
+          "end_line": 4779,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4773
+        }
+      ],
+      "id": "v2-exchange",
+      "kind": "event",
+      "narrative_order": 69,
+      "parent_id": "v2-arc2",
+      "summary": "本批实际兑换2000金币，正文称近一万元；9860元是按所述4.93元/金计算值。",
+      "title": "金币第一次银行实兑"
+    },
+    {
+      "asset_id": "scn-cad7044f6d60521daadf168597386b87",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0072",
+          "claim_kind": "fact",
+          "end_line": 4909,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 4879
+        }
+      ],
+      "id": "v2-fund",
+      "kind": "event",
+      "narrative_order": 71,
+      "parent_id": "v2-arc2",
+      "summary": "分杀怪和拾取筹资并送公司。",
+      "title": "分工筹5000金币"
+    },
+    {
+      "asset_id": "scn-4b60a89e0d8056b285cebeaff275dabc",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0075",
+          "claim_kind": "fact",
+          "end_line": 5076,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5035
+        }
+      ],
+      "id": "v2-gap",
+      "kind": "event",
+      "narrative_order": 74,
+      "parent_id": "v2-arc3",
+      "summary": "打护甲缝隙增伤，最终仍有两人死亡复活，凌雪收尾。",
+      "title": "弱点试验仍消耗复活"
+    },
+    {
+      "asset_id": "scn-9eaac29145b150eea349134e017148be",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0076",
+          "claim_kind": "fact",
+          "end_line": 5128,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5103
+        }
+      ],
+      "id": "v2-cast",
+      "kind": "event",
+      "narrative_order": 75,
+      "parent_id": "v2-arc3",
+      "summary": "利用施法速度与楼层边界清入口。",
+      "title": "时间差打开入口"
+    },
+    {
+      "asset_id": "scn-ba88bb5411ee54ac8d0540c34605d2a6",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0078",
+          "claim_kind": "fact",
+          "end_line": 5247,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5182
+        }
+      ],
+      "id": "v2-wear",
+      "kind": "event",
+      "narrative_order": 77,
+      "parent_id": "v2-arc3",
+      "summary": "多人死；系统开放七层需48小时，凌月带披风归来。",
+      "title": "耐久崩盘与团队过关"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0079",
+          "claim_kind": "fact",
+          "end_line": 5279,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5250
+        },
+        {
+          "chapter_id": "ch-0080",
+          "claim_kind": "fact",
+          "end_line": 5360,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5340
+        }
+      ],
+      "id": "v2-cloak",
+      "kind": "event",
+      "narrative_order": 79,
+      "parent_id": "v2-arc3",
+      "summary": "幽影披风先被主角嫌弃，随后用于矿区侦察。",
+      "title": "嫌弃潜行转用于侦察"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0082",
+          "claim_kind": "fact",
+          "end_line": 5460,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5417
+        }
+      ],
+      "id": "v2-mine",
+      "kind": "event",
+      "narrative_order": 81,
+      "parent_id": "v2-arc3",
+      "summary": "剑火支持群攻战术，凌月杀血饮，生产员进驻。",
+      "title": "矿战胜利"
+    },
+    {
+      "asset_id": "scn-71c94ebdaf485eb5826dbef71d003a44",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0083",
+          "claim_kind": "fact",
+          "end_line": 5517,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5480
+        },
+        {
+          "chapter_id": "ch-0084",
+          "claim_kind": "fact",
+          "end_line": 5544,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5518
+        }
+      ],
+      "id": "v2-budget",
+      "kind": "event",
+      "narrative_order": 83,
+      "parent_id": "v2-arc3",
+      "summary": "50万未取得，公开斥责后私下支持并转自立。",
+      "title": "现实提款受阻"
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0085",
+          "claim_kind": "fact",
+          "end_line": 5591,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5567
+        }
+      ],
+      "id": "v2-sold",
+      "kind": "event",
+      "narrative_order": 84,
+      "parent_id": "v2-arc3",
+      "summary": "旧弓卖2800金，另兑4000金17000元。",
+      "title": "旧弓售出与再次实兑"
+    },
+    {
+      "asset_id": "scn-e37b9a69fc0e5bb6a5395decfc7022ad",
+      "characters": [
+        "chr-753860bd811c508dbf6a4f5f60a03d78"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0090",
+          "claim_kind": "fact",
+          "end_line": 5888,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5840
+        }
+      ],
+      "id": "v2-kindness",
+      "kind": "event",
+      "narrative_order": 89,
+      "parent_id": "v2-arc4",
+      "summary": "紫韵儿制止误伤报复并救别队。",
+      "title": "宽免并救助陌生人"
+    },
+    {
+      "characters": [
+        "chr-05fd5c70558e5394ad970b3c7f6f21e3"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0091",
+          "claim_kind": "fact",
+          "end_line": 5938,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5922
+        }
+      ],
+      "id": "v2-seal",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "已知同场行动，尚不知她与傲世的关系成因。",
+          "observer": "reader",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 90,
+      "parent_id": "v2-arc4",
+      "summary": "同场协助傲世，封Boss30秒；动机未知。",
+      "title": "稻花香控制能力出现"
+    },
+    {
+      "asset_id": "scn-07e3d1f9953a57e7a182bd0cb2972305",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0092",
+          "claim_kind": "fact",
+          "end_line": 5992,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 5983
+        },
+        {
+          "chapter_id": "ch-0093",
+          "claim_kind": "fact",
+          "end_line": 6057,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6013
+        }
+      ],
+      "id": "v2-locked",
+      "kind": "event",
+      "narrative_order": 92,
+      "parent_id": "v2-arc4",
+      "summary": "50人封门，控制者被杀，傲世清除，Boss仍一击秒凌雪。",
+      "title": "封门后玩家战胜利"
+    },
+    {
+      "asset_id": "scn-78191918e23e53ba80750b29b0425593",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0094",
+          "claim_kind": "fact",
+          "end_line": 6124,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6065
+        }
+      ],
+      "id": "v2-lamp",
+      "kind": "event",
+      "narrative_order": 93,
+      "parent_id": "v2-arc4",
+      "summary": "复活和偶然落点创造射击机会，十小时开门期限逼近。",
+      "title": "替队友断后偶落悬灯"
+    },
+    {
+      "asset_id": "scn-78191918e23e53ba80750b29b0425593",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0095",
+          "claim_kind": "fact",
+          "end_line": 6193,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6133
+        }
+      ],
+      "id": "v2-token",
+      "kind": "event",
+      "narrative_order": 94,
+      "parent_id": "v2-arc4",
+      "summary": "等级50；取三装与证明，非建帮令；未立刻启动任务。",
+      "title": "暗金首领死、龙之证明到手"
+    },
+    {
+      "asset_id": "scn-ec7c8022c60a57bb807fbbc5d8d8584f",
+      "characters": [
+        "chr-91465c9406bc5e27bc5ae4fac5af7338",
+        "chr-314d837ade615377b565f16d719e57ed",
+        "chr-584438836bf65917a1d6e4f4a71fea79"
+      ],
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0096",
+          "claim_kind": "fact",
+          "end_line": 6271,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6264
+        }
+      ],
+      "id": "v2-refuse",
+      "kind": "event",
+      "knowledge": [
+        {
+          "belief": "知道拒戒事实，不知道哭泣与醉倒的完整原因。",
+          "observer": "reader",
+          "state": "unknown"
+        }
+      ],
+      "narrative_order": 95,
+      "parent_id": "v2-arc4",
+      "summary": "主角预期被打破；凌月提示他不了解凌雪。",
+      "title": "送戒哭拒、醉因未揭"
+    },
+    {
+      "asset_id": "scn-4bd67544fed75a1180e51e0081cb8c14",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0098",
+          "claim_kind": "fact",
+          "end_line": 6353,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6346
+        },
+        {
+          "chapter_id": "ch-0098",
+          "claim_kind": "fact",
+          "end_line": 6394,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6378
+        }
+      ],
+      "id": "v2-accept",
+      "kind": "event",
+      "narrative_order": 97,
+      "parent_id": "v2-arc4",
+      "summary": "凌雪实际搬入，实际收戒存库；两路分工转职任务。",
+      "title": "入住、收戒与启动任务"
+    },
+    {
+      "asset_id": "scn-4bd67544fed75a1180e51e0081cb8c14",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0099",
+          "claim_kind": "fact",
+          "end_line": 6462,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6444
+        }
+      ],
+      "id": "v2-core",
+      "kind": "event",
+      "narrative_order": 98,
+      "parent_id": "v2-arc4",
+      "summary": "本人完成最后击杀，内核禁传送，盟友牺牲开路。",
+      "title": "取内核却不能回卷"
+    },
+    {
+      "asset_id": "scn-4bd67544fed75a1180e51e0081cb8c14",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0100",
+          "claim_kind": "fact",
+          "end_line": 6566,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6493
+        }
+      ],
+      "id": "v2-zero",
+      "kind": "event",
+      "narrative_order": 99,
+      "parent_id": "v2-arc4",
+      "summary": "首次死亡由复活预言无损复活；夺回证明启动融合，遭封印后第二次死亡降至0并遗失当时装备，随后系统才提示转职成功、死亡无经验。职业与损失分别结算。",
+      "title": "死亡归零后收到转职成功提示"
+    },
+    {
+      "asset_id": "scn-bab15655db76572eb0fcca5b25350ad3",
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0101",
+          "claim_kind": "fact",
+          "end_line": 6608,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6596
+        },
+        {
+          "chapter_id": "ch-0101",
+          "claim_kind": "fact",
+          "end_line": 6697,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6634
+        }
+      ],
+      "id": "v2-return",
+      "kind": "event",
+      "narrative_order": 100,
+      "parent_id": "v2-arc4",
+      "summary": "同伴知道转职已成功；凌雪实际交还旧弓，自述花3万元买回；重练升10后死回9。",
+      "title": "旧弓回流、带练回9级"
+    }
+  ],
+  "notes": "卷一、卷二并置保留阶段观察；不能把卷一未解项当成卷二末仍未解。后续综合须依据逐卷证据另建跨卷因果。",
+  "owner": {
+    "id": "src-2a13958390274509b2af019f6b12d981",
+    "kind": "source"
+  },
+  "revision": 3,
+  "schema_version": 1,
+  "threads": [
+    {
+      "edge_ids": [
+        "v1-need",
+        "v1-ownership",
+        "v1-referral",
+        "v1-access",
+        "v1-deadline",
+        "v1-staff_cash",
+        "v1-cash_agency"
+      ],
+      "id": "v1-main",
+      "kind": "main",
+      "node_ids": [
+        "v1-poor",
+        "v1-bind",
+        "v1-gift",
+        "v1-note",
+        "v1-team",
+        "v1-enter",
+        "v1-v1c39",
+        "v1-v1c40",
+        "v1-v1c49",
+        "v1-v1c38"
+      ],
+      "resolution_note": "现实入口兑现；法杖5000元成交、升38级已发生。后续职业与收入发展仍未读。",
+      "status": "partial",
+      "title": "卷1末｜从现实窘境进入职业游戏"
+    },
+    {
+      "edge_ids": [
+        "v1-flashback",
+        "v1-contrast",
+        "v1-care",
+        "v1-helmet_sword"
+      ],
+      "id": "v1-relation",
+      "kind": "subplot",
+      "node_ids": [
+        "v1-rescue",
+        "v1-locked",
+        "v1-share",
+        "v1-note",
+        "v1-v1c33",
+        "v1-v1c35",
+        "v1-gift"
+      ],
+      "resolution_note": "与凌雪重逢并赠剑回报已发生；长期关系未闭合。",
+      "status": "partial",
+      "title": "卷1末｜由误会到相互帮助"
+    },
+    {
+      "edge_ids": [
+        "v1-identity",
+        "v1-phone_reveal",
+        "v1-rank_identity"
+      ],
+      "id": "v1-mystery",
+      "kind": "hidden",
+      "node_ids": [
+        "v1-bind",
+        "v1-team",
+        "v1-v1c15",
+        "v1-v1c23",
+        "v1-v1c33",
+        "v1-v1c22"
+      ],
+      "resolution_note": "姐妹、集团关系和游戏身份已明确；提前头盔渠道与醉酒缘由仍未知。",
+      "status": "partial",
+      "title": "卷1末｜凌雪身份与提前拿到头盔的原因"
+    },
+    {
+      "edge_ids": [
+        "v1-rescue_repay",
+        "v1-rescue_act",
+        "v1-save_set"
+      ],
+      "id": "v1-friend_repay",
+      "kind": "subplot",
+      "node_ids": [
+        "v1-v1c08",
+        "v1-v1c19",
+        "v1-v1c20",
+        "v1-v1c26",
+        "v1-v1c27",
+        "v1-v1c28",
+        "v1-v1c30"
+      ],
+      "resolution_note": "已有多次互助，但关系后续未读。",
+      "status": "partial",
+      "title": "卷1末｜剑火互助与分配"
+    },
+    {
+      "edge_ids": [
+        "v1-book_battle",
+        "v1-lose_quest"
+      ],
+      "id": "v1-nether_quest",
+      "kind": "subplot",
+      "node_ids": [
+        "v1-v1c24",
+        "v1-v1c25",
+        "v1-v1c26",
+        "v1-v1c27",
+        "v1-v1c28",
+        "v1-v1c29",
+        "v1-v1c30",
+        "v1-v1c23"
+      ],
+      "resolution_note": "本次任务以系统失败结算；首领击杀和掉落成功是另两个结果。",
+      "status": "resolved",
+      "title": "卷1末｜幽冥洞穴任务"
+    },
+    {
+      "edge_ids": [
+        "v1-sword_use",
+        "v1-revive_use"
+      ],
+      "id": "v1-ancient_temple",
+      "kind": "subplot",
+      "node_ids": [
+        "v1-v1c32",
+        "v1-v1c33",
+        "v1-v1c34",
+        "v1-v1c35",
+        "v1-v1c36",
+        "v1-v1c37",
+        "v1-v1c38",
+        "v1-v1c42",
+        "v1-v1c43",
+        "v1-v1c44",
+        "v1-v1c45",
+        "v1-v1c46",
+        "v1-v1c30"
+      ],
+      "resolution_note": "探索和击杀到四层，五至七层未完成。",
+      "status": "partial",
+      "title": "卷1末｜幽魂古刹探索"
+    },
+    {
+      "edge_ids": [
+        "v1-video_public"
+      ],
+      "id": "v1-public_conflict",
+      "kind": "subplot",
+      "node_ids": [
+        "v1-v1c09",
+        "v1-v1c10",
+        "v1-v1c20",
+        "v1-v1c36",
+        "v1-v1c37",
+        "v1-v1c38",
+        "v1-v1c39"
+      ],
+      "resolution_note": "局部获胜与视频反驳不等于长期宣战解除。",
+      "status": "open",
+      "title": "卷1末｜傲世冲突与论坛声誉"
+    },
+    {
+      "edge_ids": [
+        "v1-cash_agency"
+      ],
+      "id": "v1-workplace",
+      "kind": "hidden",
+      "node_ids": [
+        "v1-v1c21",
+        "v1-v1c23",
+        "v1-v1c39",
+        "v1-v1c40",
+        "v1-v1c42"
+      ],
+      "resolution_note": "凌月要求对凌雪隐瞒；后续结果未知。",
+      "status": "open",
+      "title": "卷1末｜王俊杰威胁与姐妹信息差"
+    },
+    {
+      "edge_ids": [
+        "v1-bow_route",
+        "v1-newbow_gate",
+        "v1-newbow_cost"
+      ],
+      "id": "v1-build_risk",
+      "kind": "main",
+      "node_ids": [
+        "v1-v1c12",
+        "v1-v1c13",
+        "v1-v1c14",
+        "v1-v1c47",
+        "v1-v1c48",
+        "v1-v1c49",
+        "v1-v1c46"
+      ],
+      "resolution_note": "换弓增伤已实现，命中下降与后期风险待观察。",
+      "status": "partial",
+      "title": "卷1末｜全力量弓箭路线"
+    },
+    {
+      "edge_ids": [
+        "v1-grave_chain"
+      ],
+      "id": "v1-grave",
+      "kind": "subplot",
+      "node_ids": [
+        "v1-v1c48",
+        "v1-v1c49"
+      ],
+      "resolution_note": "肋骨和蝴蝶兰两环完成；巫师之心仅接受、清外围，阿杰斯未击杀。",
+      "status": "partial",
+      "title": "卷1末｜守墓人的连续委托"
+    },
+    {
+      "edge_ids": [
+        "v2-e2",
+        "v2-e3"
+      ],
+      "id": "v2-old-identity",
+      "kind": "hidden",
+      "node_ids": [
+        "v2-memory",
+        "v2-rescue",
+        "v2-identity"
+      ],
+      "resolution_note": "旧ID已获旁人识别，全部往事与各人知情未完全说明。",
+      "status": "partial",
+      "title": "卷2末｜旧高手身份分层揭示"
+    },
+    {
+      "edge_ids": [
+        "v2-e1",
+        "v2-e3",
+        "v2-e6",
+        "v2-e10",
+        "v2-e11"
+      ],
+      "id": "v2-organization",
+      "kind": "main",
+      "node_ids": [
+        "v2-red",
+        "v2-rescue",
+        "v2-identity",
+        "v2-exchange",
+        "v2-fund",
+        "v2-cloak",
+        "v2-mine",
+        "v2-budget"
+      ],
+      "resolution_note": "有协作和自筹，但未取得建帮令，公司权力问题未解决。",
+      "status": "partial",
+      "title": "卷2末｜资源自主和组织形成"
+    },
+    {
+      "edge_ids": [
+        "v2-e4",
+        "v2-e5"
+      ],
+      "id": "v2-care",
+      "kind": "subplot",
+      "node_ids": [
+        "v2-red",
+        "v2-escape",
+        "v2-escort",
+        "v2-balcony",
+        "v2-hide",
+        "v2-kindness"
+      ],
+      "status": "partial",
+      "title": "卷2末｜承诺、护送与有限信任"
+    },
+    {
+      "edge_ids": [
+        "v2-e7",
+        "v2-e8",
+        "v2-e9",
+        "v2-e12",
+        "v2-e13",
+        "v2-e14"
+      ],
+      "id": "v2-dungeon",
+      "kind": "main",
+      "node_ids": [
+        "v2-gap",
+        "v2-cast",
+        "v2-wear",
+        "v2-cloak",
+        "v2-seal",
+        "v2-locked",
+        "v2-lamp",
+        "v2-token"
+      ],
+      "resolution_note": "本次古刹最终将军已击杀并带回证明；不表示全书所有地牢线结束。",
+      "status": "resolved",
+      "title": "卷2末｜古刹升级与多重代价"
+    },
+    {
+      "edge_ids": [
+        "v2-e15",
+        "v2-e16",
+        "v2-e22",
+        "v2-e23"
+      ],
+      "id": "v2-gift",
+      "kind": "subplot",
+      "node_ids": [
+        "v2-sold",
+        "v2-token",
+        "v2-refuse",
+        "v2-accept",
+        "v2-return"
+      ],
+      "resolution_note": "收戒与旧弓回购已兑现，哭因醉因及关系终局未明。",
+      "status": "partial",
+      "title": "卷2末｜赠物与关系解释权"
+    },
+    {
+      "edge_ids": [
+        "v2-e17",
+        "v2-e18",
+        "v2-e19",
+        "v2-e21"
+      ],
+      "id": "v2-dragon",
+      "kind": "main",
+      "node_ids": [
+        "v2-token",
+        "v2-accept",
+        "v2-core",
+        "v2-zero",
+        "v2-return"
+      ],
+      "resolution_note": "转职成功；重练末尾9级，尚未恢复榜首或使用烈焰枪。",
+      "status": "partial",
+      "title": "卷2末｜转职、归零与重练"
+    },
+    {
+      "edge_ids": [
+        "v2-e12",
+        "v2-e20"
+      ],
+      "id": "v2-daohua",
+      "kind": "hidden",
+      "node_ids": [
+        "v2-seal",
+        "v2-locked",
+        "v2-zero"
+      ],
+      "resolution_note": "技能和参战行为已见，个人动机/身份关系未知。",
+      "status": "unknown",
+      "title": "卷2末｜稻花香的作用与未知动机"
+    }
+  ],
+  "title": "纵横天下｜已读前两卷的阶段结构",
+  "updated_at": "2026-10-22T17:54:29.530209+00:00"
+}

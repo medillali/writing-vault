@@ -1,0 +1,59 @@
+{
+  "asset_id": "scn-8d72fd532bcf5dbfaf04c9046814c5d7",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "赛局反制通过前一局信息而非先知",
+    "choice": "首败后改变顺序与领域挡减，次两局先杀关键输出",
+    "consequence": "雪3:2出线，小组强敌规则被观测",
+    "core_original_chapter": 748,
+    "failure_mode": "对手神技初败后无解释突然失效",
+    "goal": "小组胜蓝天",
+    "obstacle": "月被魔反，书隐被真视减；双首杀吟仍战鼓600秒留",
+    "state_change": "杀施者不能取消已生效效果",
+    "summary": "杀施者不能取消已生效效果",
+    "why_it_works": "与此前技能不能撤的规则同类回声"
+  },
+  "created_at": "2026-10-24T20:20:05.308267+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0750",
+      "claim_kind": "fact",
+      "end_line": 82051,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 81931
+    },
+    {
+      "chapter_id": "ch-0751",
+      "claim_kind": "fact",
+      "end_line": 82192,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 82052
+    },
+    {
+      "chapter_id": "ch-0752",
+      "claim_kind": "fact",
+      "end_line": 82331,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 82193
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol06/scene/blue-counter",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷六:月神殿祭",
+    "待审阅"
+  ],
+  "title": "战鼓留存推翻杀施者即安全",
+  "updated_at": "2026-10-24T20:20:05.309349+00:00",
+  "user_notes": ""
+}

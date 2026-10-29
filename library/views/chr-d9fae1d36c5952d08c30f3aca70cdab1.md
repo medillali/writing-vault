@@ -1,0 +1,95 @@
+# 罗林｜卷四阶段
+
+ID: `chr-d9fae1d36c5952d08c30f3aca70cdab1` · 版本: 1 · 范围: source-analysis
+
+昔人类统帅已成异魔君，北征援盖文/复仇追击至833系统问剑尾杀。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-d9fae1d36c5952d08c30f3aca70cdab1",
+  "asset_type": "character",
+  "content": {
+    "capability": "绝望剑、火盾/君王力、骑射与龙援。",
+    "claim_kind": "inference",
+    "conflict": "与流霜怀旧比试违约反刺；许盖文矿/复兵仍承诺。",
+    "decision_pattern": "利益许诺拉援、失利时逃，不把每次逃等死后复生。",
+    "goal": "保持战地力量并压人类/龙域。",
+    "limitations": "绝望被流霜熔，夺元戎虽无攻仍可伤人；群战累积后真死。",
+    "need": "旧同袍情感被其利用，完整私需不代补。",
+    "relationships": "流霜旧情/主敌，盖文盟友；不与雷龙洛林合。",
+    "stage_change": "833真死问剑系统尾杀，徐斩尸头祭西非再杀活罗；无人类忠誓终身兑现。",
+    "summary": "昔人类统帅已成异魔君，北征援盖文/复仇追击至833系统问剑尾杀。",
+    "valid_at": "卷四raw0754—0968，非全书终点人物总评"
+  },
+  "created_at": "2026-10-25T21:08:35.398544+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0798",
+      "claim_kind": "fact",
+      "end_line": 61739,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 61672
+    },
+    {
+      "chapter_id": "ch-0828",
+      "claim_kind": "fact",
+      "end_line": 63569,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 63499
+    },
+    {
+      "chapter_id": "ch-0829",
+      "claim_kind": "fact",
+      "end_line": 63618,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 63570
+    },
+    {
+      "chapter_id": "ch-0830",
+      "claim_kind": "fact",
+      "end_line": 63680,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 63619
+    },
+    {
+      "chapter_id": "ch-0832",
+      "claim_kind": "fact",
+      "end_line": 63792,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 63730
+    },
+    {
+      "chapter_id": "ch-0833",
+      "claim_kind": "fact",
+      "end_line": 63852,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 63793
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/rolin",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷4",
+    "待审阅"
+  ],
+  "title": "罗林｜卷四阶段",
+  "updated_at": "2026-10-25T21:08:35.398544+00:00",
+  "user_notes": ""
+}
+
+```

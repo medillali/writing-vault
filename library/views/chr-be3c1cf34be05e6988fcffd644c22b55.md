@@ -1,0 +1,103 @@
+# 简简单单｜卷一阶段
+
+ID: `chr-be3c1cf34be05e6988fcffd644c22b55` · 版本: 1 · 范围: source-analysis
+
+锋芒副盟/法系核心，参与早期改约却在后来战场劝勿无休敌主并个人离场。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-be3c1cf34be05e6988fcffd644c22b55",
+  "asset_type": "character",
+  "content": {
+    "capability": "调药/群法/瞬移与指挥，251令第一分盟重排盾阵。",
+    "claim_kind": "inference",
+    "conflict": "不能把后劝退倒洗天策期立场，也不能把一次离场写退会。",
+    "decision_pattern": "提出收束/留缺口，必要时退出该战，之后仍执行阵营指挥。",
+    "goal": "管理锋芒并保组织名声。",
+    "limitations": "意见可被剑驳，末首闪不等已被杀。",
+    "need": "对战争尺度的判断能被听取。",
+    "relationships": "剑的管理搭档有意见差；不是已加入主队。",
+    "stage_change": "238回城仅离战；251仍敌法指挥/虎扑逼首折跃未死。",
+    "summary": "锋芒副盟/法系核心，参与早期改约却在后来战场劝勿无休敌主并个人离场。",
+    "valid_at": "卷一raw0002—0251，非终点人物总评"
+  },
+  "created_at": "2026-10-25T19:20:31.068172+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0083",
+      "claim_kind": "fact",
+      "end_line": 7172,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 7087
+    },
+    {
+      "chapter_id": "ch-0085",
+      "claim_kind": "fact",
+      "end_line": 7352,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 7254
+    },
+    {
+      "chapter_id": "ch-0087",
+      "claim_kind": "fact",
+      "end_line": 7521,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 7438
+    },
+    {
+      "chapter_id": "ch-0099",
+      "claim_kind": "fact",
+      "end_line": 8647,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 8545
+    },
+    {
+      "chapter_id": "ch-0237",
+      "claim_kind": "fact",
+      "end_line": 20885,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 20803
+    },
+    {
+      "chapter_id": "ch-0238",
+      "claim_kind": "fact",
+      "end_line": 20977,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 20886
+    },
+    {
+      "chapter_id": "ch-0251",
+      "claim_kind": "fact",
+      "end_line": 21972,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 21899
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/simple",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷1",
+    "待审阅"
+  ],
+  "title": "简简单单｜卷一阶段",
+  "updated_at": "2026-10-25T19:20:31.068172+00:00",
+  "user_notes": ""
+}
+
+```

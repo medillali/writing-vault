@@ -1,0 +1,172 @@
+# 可理解的复仇与不可抵销的行为代价
+
+ID: `pat-bb7a892fa8ed55d08d7973b88bcf34dc` · 版本: 1 · 范围: reusable-pattern
+
+可理解的复仇与不可抵销的行为代价
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-bb7a892fa8ed55d08d7973b88bcf34dc",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "多方组织/复仇故事",
+    "boundary": "研究者抽象，不代表用户审美认可或原创设定。强制、性侵、民族/性别贬抑与酷刑不自动成为可学价值。",
+    "causal_steps": [
+      "呈受害线索但不编全知案卷",
+      "让复仇者主动选择组织/方法",
+      "分别记录援敌及无辜代价",
+      "局部合作不等永久洗白或司法结案"
+    ],
+    "failure_mode": "让受害者沉默只为男人升级或以暴制暴当法律结果",
+    "originality_transform": "重造受害者声音、程序/修复与利益，不复用原罪案细节",
+    "summary": "可理解的复仇与不可抵销的行为代价"
+  },
+  "created_at": "2026-10-25T00:16:11.768623+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-d2f96fd2448c57a483ad30601dcb691c",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-31c1eb8da7d05ea589f84d44a56beff4",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-2c6b22debbc95cf494d44b3a0f9cd9e8",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-1372",
+      "claim_kind": "fact",
+      "end_line": 109083,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 109002
+    },
+    {
+      "chapter_id": "ch-1374",
+      "claim_kind": "fact",
+      "end_line": 109221,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 109144
+    },
+    {
+      "chapter_id": "ch-1375",
+      "claim_kind": "fact",
+      "end_line": 109279,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 109222
+    },
+    {
+      "chapter_id": "ch-1376",
+      "claim_kind": "fact",
+      "end_line": 109346,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 109280
+    },
+    {
+      "chapter_id": "ch-1383",
+      "claim_kind": "fact",
+      "end_line": 109869,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 109796
+    },
+    {
+      "chapter_id": "ch-1384",
+      "claim_kind": "fact",
+      "end_line": 109936,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 109870
+    },
+    {
+      "chapter_id": "ch-1385",
+      "claim_kind": "fact",
+      "end_line": 109999,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 109937
+    },
+    {
+      "chapter_id": "ch-1386",
+      "claim_kind": "fact",
+      "end_line": 110056,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 110000
+    },
+    {
+      "chapter_id": "ch-1408",
+      "claim_kind": "fact",
+      "end_line": 111702,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 111631
+    },
+    {
+      "chapter_id": "ch-1420",
+      "claim_kind": "fact",
+      "end_line": 112562,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 112476
+    },
+    {
+      "chapter_id": "ch-1441",
+      "claim_kind": "fact",
+      "end_line": 114190,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 114110
+    },
+    {
+      "chapter_id": "ch-1442",
+      "claim_kind": "fact",
+      "end_line": 114269,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 114191
+    },
+    {
+      "chapter_id": "ch-1443",
+      "claim_kind": "fact",
+      "end_line": 114368,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 114270
+    },
+    {
+      "chapter_id": "ch-1444",
+      "claim_kind": "fact",
+      "end_line": 114435,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 114369
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol07/pattern/ethical-split",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:7",
+    "状态:待审阅"
+  ],
+  "title": "可理解的复仇与不可抵销的行为代价",
+  "updated_at": "2026-10-25T00:16:11.770623+00:00",
+  "user_notes": ""
+}
+
+```

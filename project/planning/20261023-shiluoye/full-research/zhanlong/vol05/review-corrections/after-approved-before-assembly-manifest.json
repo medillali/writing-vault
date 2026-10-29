@@ -1,0 +1,35 @@
+{
+  "status": "draft-frozen-after-approved-primary-proposals",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "volume": 5,
+  "complete_book": false,
+  "core_sha256": {
+    "analysis.json": "48c8e30f459c51d1f44fe8f4923c7daff997a6f10ddf047cf5dfd4edc01d3fb8",
+    "cards.json": "115ed7de9625f036d0f49a68cde2150a2d517e9450d9df124ff3df3f5f7604db",
+    "graph.json": "83343ba91080f9c9e4b638138d4686df78e09791644d9246e7daf2465f2df2ab",
+    "chapter-notes.jsonl": "908e7c4f01fe342fe61cd4d8e7494da0266e830c02fe73acffef9fc76bb871b9",
+    "read-log.json": "e16491213242360310074560e0c5d250c27d86819a026c4042e71c99053842be",
+    "reader-state.json": "542bb43bd2ea2882d35a73d52e255144bd33ba87531b2f29dc1d502b994d25a0"
+  },
+  "support_sha256": {
+    "report.md": "855a69518244a136d0e4e0db797f8dfa3ae171d50ecbdd56849be6c35ca045bc",
+    "handoff.md": "7d0870447666f7dfa924b0c02e6e07dc22b26523e7323499cb17ee17daf31e24",
+    "validation.json": "467e7e300f9e2764fc6792d25b4163e610c43bf68c8298e399f86d402651ac7b",
+    "self-review-receipt.json": "c67e223edd7f37130850991388c7cfa069fe93e0dbab9e083538825ec6a7bb1d",
+    "research-checkpoint.json": "8c5bdb8f7b21a002a99cd132b7a8016c1a98ad618e0ed8373a203368bf91cf58",
+    "primary-review-proposal.json": "aad046aaea881c6801ed6c290d6a7b464eb90bdd7ad6abcb499ade105e6570fb",
+    "primary-review-impact-scan.json": "13fdbb98d88e470a8998d29ebdeb5aad5fd7b1a2ec8315f52325ea7fe0759473",
+    "review-corrections/primary-before/snapshot.json": "432ec58c0b8944d1c9a9a51ab7fc0e64008ccf21ce84f2dee94006fe5787030a",
+    "primary-review-supplement-delta.json": "4cc1b74086f2558e6b7731503464ae27f807244e5ea2fc1cd11918c3843f5697",
+    "review-corrections/primary-proposal-before-supplement.json": "be135ca11b1d6cc4de1c301d2d632f9e3aed8b076a2dc42ebdb0290ef3dc82c2",
+    "review-corrections/manifest-before-proposal-supplement.json": "7fc0e252bc973ceebce17c27817c52c34944f9f9c5e197837d325071ca1cb2d9",
+    "primary-review-merged-delta.json": "3c98d2b8b91a6f002374b602c263c77bfd85ae09d91510e75421b20632931b14",
+    "review-corrections/primary-before/freeze-manifest.json": "016499112751bf1a46c1eca90caabd7e9224840222de94186071e598bb14c8cf"
+  },
+  "external_input_sha256": {
+    "../source.json": "d7f33406cf8791e9cb0339f3dfb589b29a03eb52141fa44dbf8a8c3258a420cd",
+    "collection/reading-units.json": "1449dac8ed3e3d21b220d4968ba02740056d2b6fe07b10e33f902af9b50a63a0"
+  },
+  "notes": "10路径获primary明确批准后精准合入；原note/log/state不变；待primary复读delta与正式保存，不等用户审美认可。"
+}

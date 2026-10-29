@@ -1,0 +1,15 @@
+{
+  "status": "verified-byte-level",
+  "actual_before_snapshot": "batch001-before-primary-precision.json",
+  "actual_before_file_sha256": "c0f890475026d2b4935c31f3a0722de98745dd19c84639b13dee7b1f2cade87e",
+  "delta_reported_before_sha256": "6f9d27c215f945eb7c97c12d919a8cd0867724941d62a381c485a9ed14b187b9",
+  "reason": "保存器Path.write_text在Windows产生CRLF；delta代码对内存JSON的UTF-8/LF字节直接hash，故误把LF序列化指纹标成batch_before_sha256。不是中间文学字段漂移。",
+  "proof": {
+    "lf_normalization_only_equal": true,
+    "crlf_count": 1480,
+    "json_values_equal": true,
+    "first_delivered_rationale_already_contains_1265_restriction": true
+  },
+  "current_batch_sha256": "12e68ef48548194f4406fd2117a574f65ec8fdfef05d85f9fccd00f0ec2b631a",
+  "correction": "真正before文件SHA以actual_before_file_sha256为准，保原delta误标值作为历史；不改当前20对象。"
+}

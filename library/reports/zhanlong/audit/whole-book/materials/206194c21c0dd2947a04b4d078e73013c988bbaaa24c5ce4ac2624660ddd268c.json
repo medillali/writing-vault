@@ -1,0 +1,3784 @@
+{
+  "status": "independently-verified-stage-card-coverage",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "unique_stage_cards": 271,
+  "target_links": 272,
+  "research_rows": 161,
+  "individual_subject_research_rows": 159,
+  "interface_research_rows": 2,
+  "count_boundary": "161为159项单一人物/具名NPC身份研究及2项关联接口；043含3名现实技术来源，046为组织与行动，不冒161名独立人物。",
+  "original_card_arrays_sha256": {
+    "1": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+    "2": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+    "3": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+    "4": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+    "5": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+    "6": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447"
+  },
+  "mappings": [
+    {
+      "volume": 1,
+      "index": 1,
+      "title": "李逍遥／逍遥自在｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xiaoyao",
+      "asset_id": "chr-fb5c681a53ba5cd7aeb72e64f0ea33e5",
+      "audit_ids": [
+        "character-arc-001"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 2,
+      "title": "林婉儿／苍瞳｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/waner",
+      "asset_id": "chr-047adeb7209c569c809b0a100b0f43d3",
+      "audit_ids": [
+        "character-arc-002"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 3,
+      "title": "东城月／苍月｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/dongcheng",
+      "asset_id": "chr-5daaa0f1f1195c83b480405bb33f9a1d",
+      "audit_ids": [
+        "character-arc-003"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 4,
+      "title": "宋寒（小狼）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/songhan",
+      "asset_id": "chr-0da4b6847f69537a8e5365c2d193df10",
+      "audit_ids": [
+        "character-arc-007"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 5,
+      "title": "冉闵／英雄冉闵（老K）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/laok",
+      "asset_id": "chr-587b01f98c55567caa8033e213be96dc",
+      "audit_ids": [
+        "character-arc-008"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 6,
+      "title": "刘庸／琉璃狐（狐狸）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/fox",
+      "asset_id": "chr-b0ac429a39b8592c82375b985feff985",
+      "audit_ids": [
+        "character-arc-014"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 7,
+      "title": "凫水囡囡｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/fushui",
+      "asset_id": "chr-b1b16ae0219a5487a20a419c318aaee8",
+      "audit_ids": [
+        "character-arc-015"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 8,
+      "title": "薛柔／草莓抹茶｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/mocha",
+      "asset_id": "chr-7edf8a17d5c15b059a4d9303f3d69c1f",
+      "audit_ids": [
+        "character-arc-004"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 9,
+      "title": "东城雷／苍雷｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/canglei",
+      "asset_id": "chr-596ab525c4a45bbc90540619e74505f3",
+      "audit_ids": [
+        "character-arc-006"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 10,
+      "title": "上将李牧（原名李信）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/limu",
+      "asset_id": "chr-5a102b55b71250e38d979a81e6ce157e",
+      "audit_ids": [
+        "character-arc-009"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 11,
+      "title": "上将王翦（原名王滕）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/wangjian",
+      "asset_id": "chr-e6d19954ccae54c1b36817276986a49f",
+      "audit_ids": [
+        "character-arc-010"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 12,
+      "title": "上将白起（原名白英）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/baiqi",
+      "asset_id": "chr-cb50e263390b5b25a1251f97df73b381",
+      "audit_ids": [
+        "character-arc-011"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 13,
+      "title": "上将廉颇（原名孙宏）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/lianpo",
+      "asset_id": "chr-1ead49e0ca885ce9a64ba478e9f8ec51",
+      "audit_ids": [
+        "character-arc-012"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 14,
+      "title": "剑锋寒｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/jianfeng",
+      "asset_id": "chr-f668bcfca16053e3914878142a4caa7e",
+      "audit_ids": [
+        "character-arc-r4-001"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 15,
+      "title": "简简单单｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/simple",
+      "asset_id": "chr-be3c1cf34be05e6988fcffd644c22b55",
+      "audit_ids": [
+        "character-arc-r4-002"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 16,
+      "title": "堕落苍狼｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/canglang",
+      "asset_id": "chr-31ed8e7a2c1b504a9c5013067c0f48cf",
+      "audit_ids": [
+        "character-arc-r4-003"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 17,
+      "title": "飞龙在天／徐龙｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/dragon",
+      "asset_id": "chr-f149e0105e3e5accbd15ce21cb153f5e",
+      "audit_ids": [
+        "character-arc-r4-004"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 18,
+      "title": "花枪一壶酒／周宁（转述实名）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/huagun",
+      "asset_id": "chr-2f875e32213858e6a4ce3a8b825582db",
+      "audit_ids": [
+        "character-arc-r4-005"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 19,
+      "title": "月倾浅｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/qingqian",
+      "asset_id": "chr-959c162b0db3523792fdcb557ca7ed2f",
+      "audit_ids": [
+        "character-arc-016"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 20,
+      "title": "月微凉｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/weiliang",
+      "asset_id": "chr-d92fc117df3e5681aa13422341bda94f",
+      "audit_ids": [
+        "character-arc-017"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 21,
+      "title": "寒碑颂｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/hanbei",
+      "asset_id": "chr-459c6835b43b5156ae889d29cee028c9",
+      "audit_ids": [
+        "character-arc-r4-006"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 22,
+      "title": "雪域千阳｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/qianyang",
+      "asset_id": "chr-5e60f318b29255c0a5ee47b96938e434",
+      "audit_ids": [
+        "character-arc-021"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 23,
+      "title": "刘英／西楚霸王｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/liuying",
+      "asset_id": "chr-1f019840e3fe552cb8d75719ffe21bb4",
+      "audit_ids": [
+        "character-arc-r4-007"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 24,
+      "title": "小猪快跑｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xiaozhu",
+      "asset_id": "chr-e3df4992da3e54c09f0ec23be35f677b",
+      "audit_ids": [
+        "character-arc-r4-008"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 25,
+      "title": "徐月／烟锁风月｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xuyue",
+      "asset_id": "chr-041c951e083059808703f0f58344de90",
+      "audit_ids": [
+        "character-arc-r4-009"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 26,
+      "title": "问剑／北辰风（网页渠道名）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/wenjian",
+      "asset_id": "chr-9ee387f79bd5543c8b154dc99e636027",
+      "audit_ids": [
+        "character-arc-r4-010"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 27,
+      "title": "林天南｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/lintian",
+      "asset_id": "chr-3e69ccc8395b5aa7b7243e4318d96496",
+      "audit_ids": [
+        "character-arc-025"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 28,
+      "title": "王信｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/wangxin",
+      "asset_id": "chr-2a29f57a0acf5c28afb8b05199c3a5f5",
+      "audit_ids": [
+        "character-arc-029"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 29,
+      "title": "沈冰｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/shenbing",
+      "asset_id": "chr-fa7ca8ec031a5bbab0e7cefe148e1f15",
+      "audit_ids": [
+        "character-arc-005"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 30,
+      "title": "林成｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/lincheng",
+      "asset_id": "chr-38d4f72d0379548ab5367fe051234cfb",
+      "audit_ids": [
+        "character-arc-026"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 31,
+      "title": "汪泽诚／伊藤诚｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/wangze",
+      "asset_id": "chr-b0ee7b4386fb5011a18c5541f88cbfe9",
+      "audit_ids": [
+        "character-arc-032"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 32,
+      "title": "流霜｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/frost",
+      "asset_id": "chr-da208645859b5584b6c4624eb1cf6f1e",
+      "audit_ids": [
+        "character-arc-r3-001"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 33,
+      "title": "驯兽者达林｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/darin",
+      "asset_id": "chr-af49fd478635563495f534d384e8ff34",
+      "audit_ids": [
+        "character-arc-r3-002"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 34,
+      "title": "龙墓守护者卡尔｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/karl",
+      "asset_id": "chr-bd5118ff51a95a60a041426765f57917",
+      "audit_ids": [
+        "character-arc-r3-003"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 35,
+      "title": "龙骑统帅罗林｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/rolin",
+      "asset_id": "chr-bb62c940374358bb8764935911c7ce00",
+      "audit_ids": [
+        "character-arc-r3-004"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 36,
+      "title": "古王冉闵（NPC战魂）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/ran-npc",
+      "asset_id": "chr-c7dc1ef71212572ca3c01e8742bd7124",
+      "audit_ids": [
+        "character-arc-r3-005"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 37,
+      "title": "墨家云辰（NPC灵念）｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/yunchen",
+      "asset_id": "chr-beab569649ea5228b52fd984bd2ddebf",
+      "audit_ids": [
+        "character-arc-r3-006"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 38,
+      "title": "百炼老人｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/bailian",
+      "asset_id": "chr-b9b86ddfccf55b1db59abf725da3d94c",
+      "audit_ids": [
+        "character-arc-r3-007"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 39,
+      "title": "铸剑师风烨｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/fengye",
+      "asset_id": "chr-87d8c36d1c1d55e0b2c59c16073c770f",
+      "audit_ids": [
+        "character-arc-r3-008"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 40,
+      "title": "南宫决｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/nangongjue",
+      "asset_id": "chr-c28a9f0b557d5c3d85865c5c2b8ea7ab",
+      "audit_ids": [
+        "character-arc-023"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 41,
+      "title": "南宫灵｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/nangongling",
+      "asset_id": "chr-820855f2396a52898bd347dc8f6e9250",
+      "audit_ids": [
+        "character-arc-024"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 42,
+      "title": "与子成说｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/yuzicheng",
+      "asset_id": "chr-f262fad6c9bf54d188afaf6680b00934",
+      "audit_ids": [
+        "character-arc-r4-011"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 1,
+      "index": 43,
+      "title": "谁家蓝颜｜卷一阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/lanyan",
+      "asset_id": "chr-20ed3ab322ee5f35b0b53e069dc05ce4",
+      "audit_ids": [
+        "character-arc-r4-012"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 1,
+      "title": "李逍遥／逍遥自在｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/xiaoyao",
+      "asset_id": "chr-c916ea704d225619a0b58710522e73cd",
+      "audit_ids": [
+        "character-arc-001"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 2,
+      "title": "林婉儿／苍瞳｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/waner",
+      "asset_id": "chr-711b79afc93e5b42a3431f704fcad189",
+      "audit_ids": [
+        "character-arc-002"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 3,
+      "title": "东城月／苍月｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/dongcheng",
+      "asset_id": "chr-0853013191cb5c6eabd32f83bd8b212b",
+      "audit_ids": [
+        "character-arc-003"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 4,
+      "title": "薛柔／抹茶／草莓抹茶｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/mocha",
+      "asset_id": "chr-5debe7a1b2ce5c5eab7a764658a0632c",
+      "audit_ids": [
+        "character-arc-004"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 5,
+      "title": "李牧｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/limu",
+      "asset_id": "chr-218fc62af2af5dc4bf1ddadfa7109c14",
+      "audit_ids": [
+        "character-arc-009"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 6,
+      "title": "王翦／王将｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/wangjian",
+      "asset_id": "chr-04223464f4115843afe8e06dd1c4f08d",
+      "audit_ids": [
+        "character-arc-010",
+        "character-arc-047"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "split_mismerged_historical_card"
+    },
+    {
+      "volume": 2,
+      "index": 7,
+      "title": "宋寒／狼图腾｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/song",
+      "asset_id": "chr-a19e8439a9f4590d9788c5b1660a7ff7",
+      "audit_ids": [
+        "character-arc-007"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 8,
+      "title": "冉闵／老K｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/ran",
+      "asset_id": "chr-9599799c2a655e1d9c00a6253fd4d1e3",
+      "audit_ids": [
+        "character-arc-008"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 9,
+      "title": "狐狸｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/fox",
+      "asset_id": "chr-a4b928a9ce485460b9f2af4ea321ec87",
+      "audit_ids": [
+        "character-arc-014"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 10,
+      "title": "月倾浅｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/qian",
+      "asset_id": "chr-4d572fb26e3e5f92a100e747d4db69b6",
+      "audit_ids": [
+        "character-arc-016"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 11,
+      "title": "月微凉｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/weiliang",
+      "asset_id": "chr-7f917015382b5fa6a949dcaf4fde7ccd",
+      "audit_ids": [
+        "character-arc-017"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 12,
+      "title": "林小舞｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/xiaowu",
+      "asset_id": "chr-18f2b2b0219956c59bb69ace13a98fca",
+      "audit_ids": [
+        "character-arc-018"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 13,
+      "title": "唐雪／雪域千阳｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/qianyang",
+      "asset_id": "chr-5d50efee45c756bdaedf3c446e5e1b7c",
+      "audit_ids": [
+        "character-arc-021"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 14,
+      "title": "凫水囡囡｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/fushui",
+      "asset_id": "chr-0897c9da620855da8506ed09c2fb9776",
+      "audit_ids": [
+        "character-arc-015"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 15,
+      "title": "千顷瑶池｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yaochi",
+      "asset_id": "chr-5056052b97cc53b186b1e663c757edf7",
+      "audit_ids": [
+        "character-arc-019"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 16,
+      "title": "陈勇洁／一秒英雄｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yongjie",
+      "asset_id": "chr-6bf25d02a07b571db59d083c563204ff",
+      "audit_ids": [
+        "character-arc-022"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 17,
+      "title": "东城雷／雷子／阿雷｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/leizi",
+      "asset_id": "chr-5e8a74dce3005e0fb0c9707bf1f7d4d4",
+      "audit_ids": [
+        "character-arc-006"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 18,
+      "title": "飘渺云烟｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/piaomiao",
+      "asset_id": "chr-55841c652a37518ab24b2891aafe52e0",
+      "audit_ids": [
+        "character-arc-r4-013"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 19,
+      "title": "剑锋寒｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/jianfeng",
+      "asset_id": "chr-c0c80b74f5de546d932eb51d0e0cf5ee",
+      "audit_ids": [
+        "character-arc-r4-001"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 20,
+      "title": "问剑｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/wenjian",
+      "asset_id": "chr-2810dd2390645834b168fd720344f79f",
+      "audit_ids": [
+        "character-arc-r4-010"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 21,
+      "title": "方歌阙｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/fang",
+      "asset_id": "chr-7d5ba2dfead55fbab978b667ecb5c18a",
+      "audit_ids": [
+        "character-arc-r4-014"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 22,
+      "title": "汪泽诚／苍诚｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/cangcheng",
+      "asset_id": "chr-e1c71e3846fb5161a967cb27f6fbc226",
+      "audit_ids": [
+        "character-arc-032"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 23,
+      "title": "魏凡／未必平凡｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/weifan",
+      "asset_id": "chr-940359c24d365d5d8933048fd0fe6953",
+      "audit_ids": [
+        "character-arc-033"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 24,
+      "title": "沈冰／白墨颜｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/shen",
+      "asset_id": "chr-1ef7ef34a51b5e47a748757633115359",
+      "audit_ids": [
+        "character-arc-005"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 25,
+      "title": "王信｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/wangxin",
+      "asset_id": "chr-c722fff81c585f43854fd43bd7ff492b",
+      "audit_ids": [
+        "character-arc-029"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 26,
+      "title": "秦雨／若雨｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/qinyu",
+      "asset_id": "chr-37c1c4b4678d5c8a944b3530da6eebe2",
+      "audit_ids": [
+        "character-arc-037"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 27,
+      "title": "秦蒙｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/qinmeng",
+      "asset_id": "chr-0d96d3efb588528abd17e4e0d1a770cf",
+      "audit_ids": [
+        "character-arc-038"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 28,
+      "title": "欧阳川｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/ouyang",
+      "asset_id": "chr-a7c2a8865673535d8a41ee69d45a43af",
+      "audit_ids": [
+        "character-arc-034"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 29,
+      "title": "唐琦／唐七公子｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/tangqi",
+      "asset_id": "chr-3930e6c107615f16b8deb794d2ca2375",
+      "audit_ids": [
+        "character-arc-036"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 30,
+      "title": "林天南｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/lintian",
+      "asset_id": "chr-b079f92ca6de567191666e52b7ae43ab",
+      "audit_ids": [
+        "character-arc-025"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 31,
+      "title": "流霜｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/frost",
+      "asset_id": "chr-101cb1b6b73456358978d5ad1209266b",
+      "audit_ids": [
+        "character-arc-r3-001"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 32,
+      "title": "罗雷｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/rolei",
+      "asset_id": "chr-63ee592028e658949eace2efa62caf56",
+      "audit_ids": [
+        "character-arc-r3-009"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 33,
+      "title": "罗林｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/rolin",
+      "asset_id": "chr-9d29f6646b9d5914a388de653d59fb46",
+      "audit_ids": [
+        "character-arc-r3-004"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 34,
+      "title": "安吉拉｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/angela",
+      "asset_id": "chr-5e002f14c9505e909a2c5be784428b32",
+      "audit_ids": [
+        "character-arc-r3-010"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 35,
+      "title": "池羽寒｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/chiyuhan",
+      "asset_id": "chr-e346015e8f345d6bb92b17c4eea39944",
+      "audit_ids": [
+        "character-arc-r3-011"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 36,
+      "title": "池玉清｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/chiyuqing",
+      "asset_id": "chr-5743b5cfc992564bb72d0cf4c694c59b",
+      "audit_ids": [
+        "character-arc-r3-012"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 37,
+      "title": "池阳｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/chiyang",
+      "asset_id": "chr-8c5f128a96c15cdbbae53762f78493cb",
+      "audit_ids": [
+        "character-arc-r3-013"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 38,
+      "title": "林穹｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/linqiong",
+      "asset_id": "chr-3dda2a5fe4e159ff9e85a56da5009a5b",
+      "audit_ids": [
+        "character-arc-r3-014"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 39,
+      "title": "火犁／神圣魔龙｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/huoli",
+      "asset_id": "chr-bd188d45aef45fc8a33e4b66bc7d7ee2",
+      "audit_ids": [
+        "character-arc-r3-015"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 40,
+      "title": "南宫决｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/nangongjue",
+      "asset_id": "chr-c231436bb13b582087de36aa61745785",
+      "audit_ids": [
+        "character-arc-023"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 41,
+      "title": "南宫灵／灵儿｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/nangongling",
+      "asset_id": "chr-38d94941e6a85cee8ea7d4c8c4e28d25",
+      "audit_ids": [
+        "character-arc-024"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 42,
+      "title": "月妖颜｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yueyao",
+      "asset_id": "chr-05b8168f6fc95691adf8814a7e553418",
+      "audit_ids": [
+        "character-arc-020"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 43,
+      "title": "简简单单｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/jiandan",
+      "asset_id": "chr-d98c2d1cef8c57d38a096337d5ffb805",
+      "audit_ids": [
+        "character-arc-r4-002"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 44,
+      "title": "叶来｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yelai",
+      "asset_id": "chr-1bd457aeb72c5c32affe9f4cf2a0c18b",
+      "audit_ids": [
+        "character-arc-r4-015"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 2,
+      "index": 45,
+      "title": "燕赵无双｜卷二阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yanzhao",
+      "asset_id": "chr-f82180419ea9522e8e5442ce7189aed2",
+      "audit_ids": [
+        "character-arc-r4-016"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 1,
+      "title": "李逍遥／逍遥自在｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaoyao",
+      "asset_id": "chr-02d76e91b80d57c2a8e67b917d0392ff",
+      "audit_ids": [
+        "character-arc-001"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 2,
+      "title": "林婉儿／苍瞳｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/waner",
+      "asset_id": "chr-d0cbd26be9fb56ec91be9b1a0a56eac7",
+      "audit_ids": [
+        "character-arc-002"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 3,
+      "title": "东城月／东城月｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/dongcheng",
+      "asset_id": "chr-76ee4bc680f453d8b1bebc45b8a8fc1a",
+      "audit_ids": [
+        "character-arc-003"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 4,
+      "title": "抹茶／薛柔｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/mocha",
+      "asset_id": "chr-2ed57623231d5e81941c594cc5fa94f6",
+      "audit_ids": [
+        "character-arc-004"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 5,
+      "title": "李梦瑶／夕瑶歌尽｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/mengyao",
+      "asset_id": "chr-a395827d6f205162bce833de5d9d594d",
+      "audit_ids": [
+        "character-arc-013"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 6,
+      "title": "李牧／上将李牧｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/limu",
+      "asset_id": "chr-2427051377a65428ba276c323be87190",
+      "audit_ids": [
+        "character-arc-009"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 7,
+      "title": "王翦／上将王翦｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/wangjian",
+      "asset_id": "chr-bc99cb0c5c0a54d59acfb2693d1c0e7d",
+      "audit_ids": [
+        "character-arc-010"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 8,
+      "title": "冉闵／老K（玩家）｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/ranmin",
+      "asset_id": "chr-31a94f9de71d55a9b93a427942da10b2",
+      "audit_ids": [
+        "character-arc-008"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 9,
+      "title": "宋寒／小狼｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/songhan",
+      "asset_id": "chr-680e0bc6f0335fc083bcc791d72d1d8a",
+      "audit_ids": [
+        "character-arc-007"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 10,
+      "title": "狐狸／慕天｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/fox",
+      "asset_id": "chr-238cd5b220265eea9f053e12c12b7d59",
+      "audit_ids": [
+        "character-arc-014"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "same_entity_with_external_research_name_correction"
+    },
+    {
+      "volume": 3,
+      "index": 11,
+      "title": "月倾浅｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/qingqian",
+      "asset_id": "chr-14347417c619531d952ccc18e81831e1",
+      "audit_ids": [
+        "character-arc-016"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 12,
+      "title": "凫水囡囡｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/fushui",
+      "asset_id": "chr-40957bc36516579aae5fd4edfb0215d4",
+      "audit_ids": [
+        "character-arc-015"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 13,
+      "title": "林小舞｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaowu",
+      "asset_id": "chr-b8570a0b3efe5449813bf65e4c9c003c",
+      "audit_ids": [
+        "character-arc-018"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 14,
+      "title": "东城雷／苍雷｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/leizi",
+      "asset_id": "chr-c4311be553505cfa9173253209d71fe0",
+      "audit_ids": [
+        "character-arc-006"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 15,
+      "title": "上将星痕｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xinghen",
+      "asset_id": "chr-24b853e152895820a2456425f24bee29",
+      "audit_ids": [
+        "character-arc-r4-017"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 16,
+      "title": "邢烈／形同烈火｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xinglie",
+      "asset_id": "chr-49a29fa2a7f45ea593788d8ca1b38d35",
+      "audit_ids": [
+        "character-arc-030"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 17,
+      "title": "唐琦／唐七公子｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/tangqi",
+      "asset_id": "chr-8bc8d36228735dabac85c42320ba6b33",
+      "audit_ids": [
+        "character-arc-036"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 18,
+      "title": "唐古／唐门巨子｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/tanggu",
+      "asset_id": "chr-8e01e95f3fa356939295533e9f90bb01",
+      "audit_ids": [
+        "character-arc-r4-018"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 19,
+      "title": "沈冰／白墨颜｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/shen",
+      "asset_id": "chr-2808df8126fe51e0a8898f80e287df10",
+      "audit_ids": [
+        "character-arc-005"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 20,
+      "title": "王信｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/wangxin",
+      "asset_id": "chr-f4b89ab573345d71a9c1564313362292",
+      "audit_ids": [
+        "character-arc-029"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 21,
+      "title": "林天南｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/linfather",
+      "asset_id": "chr-e41a5ba6510b5a70849f4430cc9a112e",
+      "audit_ids": [
+        "character-arc-025"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 22,
+      "title": "游弋／赵冉｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/you",
+      "asset_id": "chr-3fb21d1c9ab351699cdca84e4a88b529",
+      "audit_ids": [
+        "character-arc-035"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 23,
+      "title": "欧阳川｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/ouyang",
+      "asset_id": "chr-4605cd188e4451f285e09477c0ce6912",
+      "audit_ids": [
+        "character-arc-034"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 24,
+      "title": "魏凡／未必平凡｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/weifan",
+      "asset_id": "chr-25e1a94cd0ea59f499f76cc9a9ec0472",
+      "audit_ids": [
+        "character-arc-033"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 25,
+      "title": "汪泽诚／苍诚｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/cangcheng",
+      "asset_id": "chr-9fc1579b8eb3519ebaa93696c09b77fc",
+      "audit_ids": [
+        "character-arc-032"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 26,
+      "title": "问剑｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/wenjian",
+      "asset_id": "chr-90204824ebbd56f1a7c12585bfe9f5ed",
+      "audit_ids": [
+        "character-arc-r4-010"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 27,
+      "title": "剑锋寒｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/jianfeng",
+      "asset_id": "chr-aecf30e56d9e5d68b92eef756c442e5f",
+      "audit_ids": [
+        "character-arc-r4-001"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 28,
+      "title": "简简单单／慕容韵｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/jian",
+      "asset_id": "chr-8e660e3e16345608b64f4da3989cacb3",
+      "audit_ids": [
+        "character-arc-r4-002"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 29,
+      "title": "方歌阙｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/fang",
+      "asset_id": "chr-a2f8289be663527fbe22a8b4ad46a9b8",
+      "audit_ids": [
+        "character-arc-r4-014"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 30,
+      "title": "纸上画魅｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/zhimei",
+      "asset_id": "chr-7d84474947b154c59b5f8522604b5511",
+      "audit_ids": [
+        "character-arc-r4-019"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 31,
+      "title": "流霜／流霜·华｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/frost",
+      "asset_id": "chr-b1252acd12ab5c1fa03701b8a28d49d1",
+      "audit_ids": [
+        "character-arc-r3-001"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 32,
+      "title": "罗林｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/rolin",
+      "asset_id": "chr-80d1b2c8e5a3573ea7fe5dfb83e3fcb2",
+      "audit_ids": [
+        "character-arc-r3-004"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 33,
+      "title": "罗雷｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/rolay",
+      "asset_id": "chr-3e6f919984b35219a6e17b2762ee55a7",
+      "audit_ids": [
+        "character-arc-r3-009"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 34,
+      "title": "安吉拉｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/angela",
+      "asset_id": "chr-900dcb6a780953839d6cc2b6a40a19fd",
+      "audit_ids": [
+        "character-arc-r3-010"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 35,
+      "title": "苏克｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/suke",
+      "asset_id": "chr-b373c17d1a7a5c668ebbdd85a376d5f8",
+      "audit_ids": [
+        "character-arc-r3-016"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 36,
+      "title": "达林｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/darin",
+      "asset_id": "chr-9494dd2a5f1752909d6732e7c4f255ba",
+      "audit_ids": [
+        "character-arc-r3-002"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 37,
+      "title": "青萝｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/qingluo",
+      "asset_id": "chr-a3015a8064b459508deae02edcdccccb",
+      "audit_ids": [
+        "character-arc-r3-017"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 38,
+      "title": "上古冉闵／武悼天王（NPC）｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/npcmin",
+      "asset_id": "chr-8e2a9822a3285ebab3d64cd9f3caaeda",
+      "audit_ids": [
+        "character-arc-r3-005"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 39,
+      "title": "池玉清｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/chiyuqing",
+      "asset_id": "chr-6ffc9be99c065cfd8fa0a602fed513e2",
+      "audit_ids": [
+        "character-arc-r3-012"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 40,
+      "title": "池羽寒｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/chiyuhan",
+      "asset_id": "chr-3e1c1b904811507cb2d82f713a94e8c3",
+      "audit_ids": [
+        "character-arc-r3-011"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 41,
+      "title": "落海（NPC统领）｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/lohai",
+      "asset_id": "chr-861a853bf97858dab66f9ee5dc9a61be",
+      "audit_ids": [
+        "character-arc-r3-018"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 42,
+      "title": "洛克林（NPC）｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/luokelin",
+      "asset_id": "chr-1648dca2bbe251288dec7a52be82aba0",
+      "audit_ids": [
+        "character-arc-r3-019"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 43,
+      "title": "奥蒂莉亚·达芙｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/otia",
+      "asset_id": "chr-15df779db2595feca4b5b8c43f31a271",
+      "audit_ids": [
+        "character-arc-r3-020"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 44,
+      "title": "子舒／红龙女王｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/zishu",
+      "asset_id": "chr-e491333e152e54d2964ab4a33111c5be",
+      "audit_ids": [
+        "character-arc-r3-021"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 45,
+      "title": "神隐者艾伦｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/allen",
+      "asset_id": "chr-79baa9ef106f5a88a324577fd33dc265",
+      "audit_ids": [
+        "character-arc-r3-022"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 46,
+      "title": "复仇者凌寒｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/linghan",
+      "asset_id": "chr-625e9f486e3a5274affc65f23ffc40bc",
+      "audit_ids": [
+        "character-arc-r3-023"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 47,
+      "title": "流言／刘彦｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/liuguang",
+      "asset_id": "chr-0f6d5ec2d5005c4abca0ee3e52d3d7a2",
+      "audit_ids": [
+        "character-arc-r4-020"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 48,
+      "title": "微笑（外服玩家）｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/micro",
+      "asset_id": "chr-28c7ade695515bf2b7450c5d5da1a974",
+      "audit_ids": [
+        "character-arc-r4-021"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 49,
+      "title": "叶来｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/ye",
+      "asset_id": "chr-e8f11f72e2575fdea362bd576a8a926b",
+      "audit_ids": [
+        "character-arc-r4-015"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 3,
+      "index": 50,
+      "title": "秦雯｜卷三阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/qinwen",
+      "asset_id": "chr-02a43424a89e5f8cbdd1a597e7160e15",
+      "audit_ids": [
+        "character-arc-027"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 1,
+      "title": "李逍遥／逍遥自在｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaoyao",
+      "asset_id": "chr-d4e759e1e4b65c598ea1182435120d40",
+      "audit_ids": [
+        "character-arc-001"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 2,
+      "title": "林婉儿／苍瞳｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/waner",
+      "asset_id": "chr-268c6f683f1d52f5800240e0e3437aa8",
+      "audit_ids": [
+        "character-arc-002"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 3,
+      "title": "东城月／苍月｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/dongcheng",
+      "asset_id": "chr-3e8c78659c365cddb101822f1563ddce",
+      "audit_ids": [
+        "character-arc-003"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 4,
+      "title": "东城雷／苍雷（阿雷）｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/canglei",
+      "asset_id": "chr-6defdb70d0c15a17adf9c333b4556453",
+      "audit_ids": [
+        "character-arc-006"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 5,
+      "title": "薛柔／草莓抹茶／小妖｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/mocha",
+      "asset_id": "chr-65154fd8c4385416aeb67d20e09c3f75",
+      "audit_ids": [
+        "character-arc-004"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 6,
+      "title": "方歌阙｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/fangge",
+      "asset_id": "chr-1a0f1884659853d4a0ac6df494e95ab7",
+      "audit_ids": [
+        "character-arc-r4-014"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 7,
+      "title": "纸上画魅／薛景｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/huamei",
+      "asset_id": "chr-a882972e25305ffd8e1f4fe79833c1b8",
+      "audit_ids": [
+        "character-arc-r4-019"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 8,
+      "title": "韩渊｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/hanyuan",
+      "asset_id": "chr-12ecb227b36e58a0affcaeccd84b74a1",
+      "audit_ids": [
+        "character-arc-r3-024"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 9,
+      "title": "萧厉｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaoli",
+      "asset_id": "chr-f9b720cba7ed5d2089078298d54468b2",
+      "audit_ids": [
+        "character-arc-r3-025"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 10,
+      "title": "龙硎｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/longxing",
+      "asset_id": "chr-db3efcc2697e551d88e12c1439e2bc6f",
+      "audit_ids": [
+        "character-arc-r3-026"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 11,
+      "title": "夏叶｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaye",
+      "asset_id": "chr-435de247474e54f0a69a82b9f5a36abe",
+      "audit_ids": [
+        "character-arc-r3-027"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 12,
+      "title": "绫罗｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/lingluo",
+      "asset_id": "chr-1f18b33fb82a590e95c3c26e902cd0f1",
+      "audit_ids": [
+        "character-arc-r3-028"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 13,
+      "title": "菲奥娜｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/fiona",
+      "asset_id": "chr-ea977a2ced135d509576cffcc0e5e3e3",
+      "audit_ids": [
+        "character-arc-r3-029"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 14,
+      "title": "佩儿｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/peier",
+      "asset_id": "chr-2a40464175915a0393ee0eeea4b51884",
+      "audit_ids": [
+        "character-arc-r3-030"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 15,
+      "title": "欧恩｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/ouen",
+      "asset_id": "chr-4188e4c839c45d61b8c5300f9697c778",
+      "audit_ids": [
+        "character-arc-r3-031"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 16,
+      "title": "洛克大帝｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/luoke",
+      "asset_id": "chr-7d70a754c39c59578bfc0716911a8997",
+      "audit_ids": [
+        "character-arc-r3-032"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 17,
+      "title": "洛浅林｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaolin",
+      "asset_id": "chr-8857610186685fb488bb8e647fa199b5",
+      "audit_ids": [
+        "character-arc-r3-033"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 18,
+      "title": "洛洵｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/luoxun",
+      "asset_id": "chr-0dfcaa165eb2586485ef60161335ab61",
+      "audit_ids": [
+        "character-arc-r3-034"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 19,
+      "title": "徐翊｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xuyi",
+      "asset_id": "chr-736d302e333e5484906b47dc0eb1a44f",
+      "audit_ids": [
+        "character-arc-r3-035"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 20,
+      "title": "罗嗣｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/luosi",
+      "asset_id": "chr-04f1863d6a46573c9183405babf4b5f3",
+      "audit_ids": [
+        "character-arc-r3-036"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 21,
+      "title": "罗特｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/luote",
+      "asset_id": "chr-a59efa30b8155368ad4603a8de65b375",
+      "audit_ids": [
+        "character-arc-r3-037"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 22,
+      "title": "流霜·华｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/frost",
+      "asset_id": "chr-a6a3ff6d75a75bfd9180d921ab4c8e42",
+      "audit_ids": [
+        "character-arc-r3-001"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 23,
+      "title": "青萝｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/qingluo",
+      "asset_id": "chr-946212f55170536d96bfa8698ac0171a",
+      "audit_ids": [
+        "character-arc-r3-017"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 24,
+      "title": "子舒｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/zishu",
+      "asset_id": "chr-fb0238c735ae5148ba770e168b4c515a",
+      "audit_ids": [
+        "character-arc-r3-021"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 25,
+      "title": "奥蒂莉亚｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/otilia",
+      "asset_id": "chr-86be3bcdb6af531c95de4099bd67c3f5",
+      "audit_ids": [
+        "character-arc-r3-020"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 26,
+      "title": "王信｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/wangxin",
+      "asset_id": "chr-95c99b64066b5a5683b187f0f1b6e369",
+      "audit_ids": [
+        "character-arc-029"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 27,
+      "title": "沈冰｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/shenbing",
+      "asset_id": "chr-8693c4a041125b31b2b61c6a319919b3",
+      "audit_ids": [
+        "character-arc-005"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 28,
+      "title": "林成｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/lincheng",
+      "asset_id": "chr-46e6dab4f609577c8c7d893c484f79c1",
+      "audit_ids": [
+        "character-arc-026"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 29,
+      "title": "汪泽诚／苍诚｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/wangze",
+      "asset_id": "chr-578b82c7468e58fbb0ccd3401a8a7d17",
+      "audit_ids": [
+        "character-arc-032"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 30,
+      "title": "上将李牧｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/limu",
+      "asset_id": "chr-fed7ed1f0dcf5c0d91d22d696b1252f2",
+      "audit_ids": [
+        "character-arc-009"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 31,
+      "title": "上将王翦｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/wangjian",
+      "asset_id": "chr-50eb4c404fe259bc99d77c6f119a9d8b",
+      "audit_ids": [
+        "character-arc-010"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 32,
+      "title": "冉闵／英雄冉闵（老K）｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/laok",
+      "asset_id": "chr-d35bdac5c34f5a969cae1d25761e1b91",
+      "audit_ids": [
+        "character-arc-008"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 33,
+      "title": "宋寒／小狼｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/songhan",
+      "asset_id": "chr-fe0e812aa3af5cfbb61f0a022fc041dd",
+      "audit_ids": [
+        "character-arc-007"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 34,
+      "title": "月倾浅｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/qingqian",
+      "asset_id": "chr-a4bf2311745657428d6fdb88ba68de96",
+      "audit_ids": [
+        "character-arc-016"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 35,
+      "title": "月微凉｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/weiliang",
+      "asset_id": "chr-e4863bcf44085ec988a2bd3cbbb99362",
+      "audit_ids": [
+        "character-arc-017"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 36,
+      "title": "凫水囡囡｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/fushui",
+      "asset_id": "chr-36a5bd8ee3545954bf8db7c890ea9241",
+      "audit_ids": [
+        "character-arc-015"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 37,
+      "title": "一秒英雄｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/yimeng",
+      "asset_id": "chr-996c276f83d75e10a8c2a495f6614c91",
+      "audit_ids": [
+        "character-arc-022"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 38,
+      "title": "林小舞｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaowu",
+      "asset_id": "chr-0a9a74ab6f41542fb890978867b9eb2d",
+      "audit_ids": [
+        "character-arc-018"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 39,
+      "title": "花枪一壶酒／周宁｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/huaqiang",
+      "asset_id": "chr-dec982dd81945626839e8f8afce9a0f6",
+      "audit_ids": [
+        "character-arc-r4-005"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 40,
+      "title": "问剑／北辰风｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/wenjian",
+      "asset_id": "chr-f32ce9284c805ed881e0a1cca97c227e",
+      "audit_ids": [
+        "character-arc-r4-010"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 41,
+      "title": "美丽清眸｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/qingmou",
+      "asset_id": "chr-623eb778fd0255228d29785a5a75b4f1",
+      "audit_ids": [
+        "character-arc-r4-022"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 42,
+      "title": "魔山｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/moshan",
+      "asset_id": "chr-92b65a4946dc55f8b646ab6e3ad4af40",
+      "audit_ids": [
+        "character-arc-r4-023"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 43,
+      "title": "南宫决｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/nangongjue",
+      "asset_id": "chr-c58867125b3f50d5a9379dadd4166a61",
+      "audit_ids": [
+        "character-arc-023"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 44,
+      "title": "南宫灵｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/nangongling",
+      "asset_id": "chr-45835d84073a53d9a2812fba728b65ce",
+      "audit_ids": [
+        "character-arc-024"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 4,
+      "index": 45,
+      "title": "罗林｜卷四阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/rolin",
+      "asset_id": "chr-d9fae1d36c5952d08c30f3aca70cdab1",
+      "audit_ids": [
+        "character-arc-r3-004"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 1,
+      "title": "李逍遥／逍遥自在｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+      "asset_id": "chr-7ae018b52769585185ef7455816de5b5",
+      "audit_ids": [
+        "character-arc-001"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 2,
+      "title": "林婉儿／苍瞳｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/waner",
+      "asset_id": "chr-0b1dda9204235df3b9d03df861e5ce38",
+      "audit_ids": [
+        "character-arc-002"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 3,
+      "title": "东城月／苍月｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/dong",
+      "asset_id": "chr-dd4d69fd548259c08cf92d916e4d8135",
+      "audit_ids": [
+        "character-arc-003"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 4,
+      "title": "薛柔／抹茶／小妖／为爱追寻｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/rou",
+      "asset_id": "chr-0f782b9be1dd5c4c91393338b8a7fffd",
+      "audit_ids": [
+        "character-arc-004"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 5,
+      "title": "李牧｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/li",
+      "asset_id": "chr-068ba99d38fc5776ab1cc78cf11b0750",
+      "audit_ids": [
+        "character-arc-009"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 6,
+      "title": "王翦｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wang",
+      "asset_id": "chr-f27fa14a0bdf510d981061ab76617356",
+      "audit_ids": [
+        "character-arc-010"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 7,
+      "title": "冉闵／老K（玩家）｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/ranplayer",
+      "asset_id": "chr-73b417ccd3315e6797b7ccca03bad29c",
+      "audit_ids": [
+        "character-arc-008"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 8,
+      "title": "冉闵（NPC战魂／炼坊者）｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/rannpc",
+      "asset_id": "chr-99ad6cee6e775e2bbdee6bff88d711e9",
+      "audit_ids": [
+        "character-arc-r3-005"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 9,
+      "title": "狐狸｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fox",
+      "asset_id": "chr-169c4c48c38a5b64a5b226ec0070288a",
+      "audit_ids": [
+        "character-arc-014"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 10,
+      "title": "宋寒｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/song",
+      "asset_id": "chr-881446cd3d4e55ca912598163ea477a7",
+      "audit_ids": [
+        "character-arc-007"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 11,
+      "title": "李梦瑶｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/meng",
+      "asset_id": "chr-6849bc16c0415b8d995577fcee49fbcc",
+      "audit_ids": [
+        "character-arc-013"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 12,
+      "title": "林小舞｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaowu",
+      "asset_id": "chr-9d7300e6af635357bb5a4d12b8e8f3ee",
+      "audit_ids": [
+        "character-arc-018"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 13,
+      "title": "凫水囡囡｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fu",
+      "asset_id": "chr-4d7bef33e8c956769059f681b92dcb6c",
+      "audit_ids": [
+        "character-arc-015"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 14,
+      "title": "月倾浅｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/qian",
+      "asset_id": "chr-1d2bd534ebe1569f95cb6d7993e92f7e",
+      "audit_ids": [
+        "character-arc-016"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 15,
+      "title": "月妖颜｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yueyao",
+      "asset_id": "chr-8707ac3a424f5d26afd6b16ea9739606",
+      "audit_ids": [
+        "character-arc-020"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 16,
+      "title": "纸上画魅／小景｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/paper",
+      "asset_id": "chr-e9779d18b42d5db1b08930e514d58e0f",
+      "audit_ids": [
+        "character-arc-r4-019"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 17,
+      "title": "颜沫／牛奶／六宫粉黛盟主｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/milk",
+      "asset_id": "chr-18501c1f799c5c11861563c849ae5c30",
+      "audit_ids": [
+        "character-arc-r4-024"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 18,
+      "title": "周宁／花枪一壶酒｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/flower",
+      "asset_id": "chr-6440535c4dcc55cc928d8fba36c01ab2",
+      "audit_ids": [
+        "character-arc-r4-005"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 19,
+      "title": "方歌阙｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fang",
+      "asset_id": "chr-3be0468d5d5b5c9b82035d2a7cee8bcc",
+      "audit_ids": [
+        "character-arc-r4-014"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 20,
+      "title": "北辰风／问剑｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wen",
+      "asset_id": "chr-dfefc18977a45f2ab8f1f7ed868baef4",
+      "audit_ids": [
+        "character-arc-r4-010"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 21,
+      "title": "唐琦／唐七公子｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/tang",
+      "asset_id": "chr-15bbc87dd0f259feac39f37c55a03ecb",
+      "audit_ids": [
+        "character-arc-036"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 22,
+      "title": "叶来｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yelai",
+      "asset_id": "chr-64433e629ef35c4dbebbb7c4b74f3698",
+      "audit_ids": [
+        "character-arc-r4-015"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 23,
+      "title": "慕萱｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/mu",
+      "asset_id": "chr-2fe94fd332605d6c8f51d896626d57bd",
+      "audit_ids": [
+        "character-arc-r4-025"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 24,
+      "title": "沈冰｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/shen",
+      "asset_id": "chr-4c70ca1445b65a3c85f05cd472b461ea",
+      "audit_ids": [
+        "character-arc-005"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 25,
+      "title": "王信｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/police",
+      "asset_id": "chr-13f116687cf05c31914a965ae13ac88c",
+      "audit_ids": [
+        "character-arc-029"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 26,
+      "title": "林天南｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/linfather",
+      "asset_id": "chr-64ce44e171c4510fad7f0a943c6e6015",
+      "audit_ids": [
+        "character-arc-025"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 27,
+      "title": "林成｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/lincheng",
+      "asset_id": "chr-dfc281ba400c5393af21b5bac5e26867",
+      "audit_ids": [
+        "character-arc-026"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 28,
+      "title": "北辰观｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/beichen",
+      "asset_id": "chr-4f37ad9d2cbf5d2c8f1697f6ad5daab4",
+      "audit_ids": [
+        "character-arc-028"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 29,
+      "title": "汪泽诚／苍诚｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wangze",
+      "asset_id": "chr-0f8653a4879c56e7a27a8e9b810e8809",
+      "audit_ids": [
+        "character-arc-032"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 30,
+      "title": "未具名日本天道流武士／A级龙血活口｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/japanese",
+      "asset_id": "chr-d4493d719a0f5dba94ccc8b86405f31d",
+      "audit_ids": [
+        "character-arc-039"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 31,
+      "title": "流霜｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/frost",
+      "asset_id": "chr-48d6b6a2b0775ab6a7742543f58881ee",
+      "audit_ids": [
+        "character-arc-r3-001"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 32,
+      "title": "子舒｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/zishu",
+      "asset_id": "chr-2a46e80df8e35c6fb1d3fa6617b838e1",
+      "audit_ids": [
+        "character-arc-r3-021"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 33,
+      "title": "兰娜瑟尔｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/lanna",
+      "asset_id": "chr-a662082c89c351f695c1b3e26e89d12a",
+      "audit_ids": [
+        "character-arc-r3-038"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 34,
+      "title": "奥蒂莉亚｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/oti",
+      "asset_id": "chr-ef0350f405c35f9898a4eb27dfcbe5f9",
+      "audit_ids": [
+        "character-arc-r3-020"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 35,
+      "title": "青萝｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/qing",
+      "asset_id": "chr-842581b61cb85801b6a22ce0738385ab",
+      "audit_ids": [
+        "character-arc-r3-017"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 36,
+      "title": "莓儿／龙神之女｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/mei",
+      "asset_id": "chr-68481c9d92845803905a79bb30267499",
+      "audit_ids": [
+        "character-arc-r3-039"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 37,
+      "title": "洛浅林｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/luoqian",
+      "asset_id": "chr-d79fbc3e8b425ea78aba65347d0433d3",
+      "audit_ids": [
+        "character-arc-r3-033"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 38,
+      "title": "洛洵｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/luoxun",
+      "asset_id": "chr-f2d8afcb79655bbb9b0f2314268e7810",
+      "audit_ids": [
+        "character-arc-r3-034"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 39,
+      "title": "云飘飘｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yun",
+      "asset_id": "chr-08d267ff930d5c1e96ae82f984f45fb5",
+      "audit_ids": [
+        "character-arc-r3-040"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 40,
+      "title": "火狮榛（原文姓名有乱码异文）｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/huoshi",
+      "asset_id": "chr-f7b69f20a3ae5902a3fdcd8b9b0bb95d",
+      "audit_ids": [
+        "character-arc-r4-033"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 41,
+      "title": "刘骏｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/liujun",
+      "asset_id": "chr-8b3864e815b75d04938e3a11782c62a1",
+      "audit_ids": [
+        "character-arc-r4-034"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 42,
+      "title": "韩渊｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/han",
+      "asset_id": "chr-6ddcd2904df356258ba0355b7669c390",
+      "audit_ids": [
+        "character-arc-r3-024"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 43,
+      "title": "萧厉｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiao",
+      "asset_id": "chr-3a4b9d659dcc5c21ac29834d0699b267",
+      "audit_ids": [
+        "character-arc-r3-025"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 44,
+      "title": "龙硎｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/longxing",
+      "asset_id": "chr-2854dae6350f5c0aa3d10c8554875250",
+      "audit_ids": [
+        "character-arc-r3-026"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 45,
+      "title": "夏叶｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xia",
+      "asset_id": "chr-b7dbafc386b3542aa501470254298329",
+      "audit_ids": [
+        "character-arc-r3-027"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 46,
+      "title": "林穹｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/linqiong",
+      "asset_id": "chr-c4ae8912ce8752989a9c7a967859ad6a",
+      "audit_ids": [
+        "character-arc-r3-014"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 47,
+      "title": "梁印｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/liang",
+      "asset_id": "chr-804af921b3065fecbb6a4500f8b04269",
+      "audit_ids": [
+        "character-arc-r4-035"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 48,
+      "title": "魔山｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/moda",
+      "asset_id": "chr-3d97b71a070553c486b3ca1d3a5db3ea",
+      "audit_ids": [
+        "character-arc-r4-023"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 49,
+      "title": "清眸拓墨｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/clear",
+      "asset_id": "chr-9680e89cd0605bc49c46da3a598a5038",
+      "audit_ids": [
+        "character-arc-r4-022"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 50,
+      "title": "枫林醉｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/maple",
+      "asset_id": "chr-c487e9b1f5d950e2aa2f2947a30edd71",
+      "audit_ids": [
+        "character-arc-r4-026"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 51,
+      "title": "弗雷｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fre",
+      "asset_id": "chr-dd7ef1131bb35fac9c60ea1ff8a1e94e",
+      "audit_ids": [
+        "character-arc-r4-036"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 52,
+      "title": "徐焰｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xuyan",
+      "asset_id": "chr-36eaf0a80230530c92963612fcccc15f",
+      "audit_ids": [
+        "character-arc-r4-037"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 53,
+      "title": "雷丁｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/lerding",
+      "asset_id": "chr-1e28e00e24ad55239b1daa9fc256e534",
+      "audit_ids": [
+        "character-arc-r4-038"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 54,
+      "title": "银戈／巨龙之擎｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yinge",
+      "asset_id": "chr-5b0c38e8739558708022b19f5634b14a",
+      "audit_ids": [
+        "character-arc-r4-039"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 55,
+      "title": "安娜／龙骨之痕／冰龙女王｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/anna",
+      "asset_id": "chr-f41200fd553656a488c9b6e277d728f5",
+      "audit_ids": [
+        "character-arc-r4-040"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 5,
+      "index": 56,
+      "title": "罗布｜卷五阶段",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/robu",
+      "asset_id": "chr-3204124233b151f88f0d9fa195f229cb",
+      "audit_ids": [
+        "character-arc-r4-041"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 1,
+      "title": "李逍遥／逍遥自在",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/li-xiaoyao",
+      "asset_id": "chr-f20c020950c95d409dcb71791e2105b8",
+      "audit_ids": [
+        "character-arc-001"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 2,
+      "title": "林婉儿／苍瞳",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/lin-waner",
+      "asset_id": "chr-af8df9e00c765ce9ab9a3c347547c83e",
+      "audit_ids": [
+        "character-arc-002"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 3,
+      "title": "东城月／苍月",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/dongcheng-yue",
+      "asset_id": "chr-87ae144751a156838ef2523b2dd15bc3",
+      "audit_ids": [
+        "character-arc-003"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 4,
+      "title": "流霜",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/frost",
+      "asset_id": "chr-9769b86bafd154dda24f69c2de7616cb",
+      "audit_ids": [
+        "character-arc-r3-001"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 5,
+      "title": "佩儿／原天翎公主",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/peier",
+      "asset_id": "chr-be47384b97c35606a7a6f4f59b2c7574",
+      "audit_ids": [
+        "character-arc-r3-030"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 6,
+      "title": "西瓦娜／佩体内邪灵",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xiwanna",
+      "asset_id": "chr-b2b79441acf65598b05e77b6eddb8941",
+      "audit_ids": [
+        "character-arc-r4-042"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 7,
+      "title": "洛浅林",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/luo-qianlin",
+      "asset_id": "chr-a29ad07fa09b58b88e99231208ec7001",
+      "audit_ids": [
+        "character-arc-r3-033"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 8,
+      "title": "燕赵无双／赵开国",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/yan-zhao",
+      "asset_id": "chr-74dea04ca77f57c6920beb173a1cfe16",
+      "audit_ids": [
+        "character-arc-r4-016"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 9,
+      "title": "方歌阙",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/fang-geque",
+      "asset_id": "chr-8516034bbd5757b18779f4ceb448225b",
+      "audit_ids": [
+        "character-arc-r4-014"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 10,
+      "title": "问剑",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/wenjian",
+      "asset_id": "chr-0e0bc5d6e824527d9650bbcacb03a090",
+      "audit_ids": [
+        "character-arc-r4-010"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 11,
+      "title": "薛柔／抹茶／小妖",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xue-rou",
+      "asset_id": "chr-835278fd239f520bb52a719e60413d5d",
+      "audit_ids": [
+        "character-arc-004"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 12,
+      "title": "韩渊",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/han-yuan",
+      "asset_id": "chr-f6c8559d0b3352438203f34eec8eb9c0",
+      "audit_ids": [
+        "character-arc-r3-024"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 13,
+      "title": "景音",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/jing-yin",
+      "asset_id": "chr-77e1d9abc0b6517dac4baf572252faae",
+      "audit_ids": [
+        "character-arc-r4-043"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 14,
+      "title": "夏叶",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xia-ye",
+      "asset_id": "chr-6f14a2c03d2351bfad9198b8464f471a",
+      "audit_ids": [
+        "character-arc-r3-027"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 15,
+      "title": "龙硎",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/long-xing",
+      "asset_id": "chr-c07c85c8f7b05336bdf26b9438802a37",
+      "audit_ids": [
+        "character-arc-r3-026"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 16,
+      "title": "祝海／海公",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/zhuhai",
+      "asset_id": "chr-37ed98b3b6495443acf75d89f156c56e",
+      "audit_ids": [
+        "character-arc-r4-044"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 17,
+      "title": "清眸拓墨",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/qingmou",
+      "asset_id": "chr-525b9665dbe95cc693b66270b9c68258",
+      "audit_ids": [
+        "character-arc-r4-022"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 18,
+      "title": "希芙",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xi-fu",
+      "asset_id": "chr-f7ffe42ff16a552a8691a28e9e0c8602",
+      "audit_ids": [
+        "character-arc-r4-045"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 19,
+      "title": "子舒女王",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/zi-shu",
+      "asset_id": "chr-bf6ae8999a27589abda66b776e2c12f5",
+      "audit_ids": [
+        "character-arc-r3-021"
+      ],
+      "mapping_source": "reader3-stage-card-arc-map.json",
+      "mapping_source_sha256": "209edf88b77ad4e34690e23ff40ff8ff402fc386bd2fe9378bff9e74176cbbe6",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 20,
+      "title": "兰蔻",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/lanse",
+      "asset_id": "chr-d0435c4e0f6c5c7e96866574041d1089",
+      "audit_ids": [
+        "character-arc-r4-046"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 21,
+      "title": "伊薇",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/yiwei",
+      "asset_id": "chr-908d856e3f8c5d22b359db0fad5faf55",
+      "audit_ids": [
+        "character-arc-r4-047"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 22,
+      "title": "奈克",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/naike",
+      "asset_id": "chr-489837236634591b88164468224e329e",
+      "audit_ids": [
+        "character-arc-r4-048"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 23,
+      "title": "罗躁",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/luo-zao",
+      "asset_id": "chr-27a2135d950d50be994fa74b2142b943",
+      "audit_ids": [
+        "character-arc-r4-049"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 24,
+      "title": "云浅／天境神帝",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/yun-qian",
+      "asset_id": "chr-f5d31d6d8d93598d89399e42f24f9fb9",
+      "audit_ids": [
+        "character-arc-r4-050"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 25,
+      "title": "王信",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/wang-xin",
+      "asset_id": "chr-e7ecc414dfa95fee8190f5a2c6a8441a",
+      "audit_ids": [
+        "character-arc-029"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 26,
+      "title": "邢烈／形同烈火",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xing-lie",
+      "asset_id": "chr-1e9d39819ab95d1eba3b753b7a264492",
+      "audit_ids": [
+        "character-arc-030"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 27,
+      "title": "斧头",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/axe",
+      "asset_id": "chr-2e021aa293c756a3b087d57a516906ed",
+      "audit_ids": [
+        "character-arc-031"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 28,
+      "title": "汪泽诚",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/wang-zecheng",
+      "asset_id": "chr-dcd79d96820459d6a2614891e84aa0df",
+      "audit_ids": [
+        "character-arc-032"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 29,
+      "title": "沈冰／白墨颜",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/shen-bing",
+      "asset_id": "chr-1a7da1bda95c5869a91a7affb39c840b",
+      "audit_ids": [
+        "character-arc-005"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 30,
+      "title": "东城雷／阿雷",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/dongcheng-lei",
+      "asset_id": "chr-dbb0e390e7fa511ab162e273494d6d8d",
+      "audit_ids": [
+        "character-arc-006"
+      ],
+      "mapping_source": "character-arcs-self-stage-card-mapping.json",
+      "mapping_source_sha256": "26f724ccaa840bc23bb156f53d6f069a8016c85cbd92bcd376406368262fe727",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 31,
+      "title": "傲天战皇",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/aotian-emperor",
+      "asset_id": "chr-1294068bf7ff5a9e96c9f6114296cd68",
+      "audit_ids": [
+        "character-arc-r4-051"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    },
+    {
+      "volume": 6,
+      "index": 32,
+      "title": "北海神侯",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/north-sea-lord",
+      "asset_id": "chr-fcb386f6e24b583c888c3ecc430a1904",
+      "audit_ids": [
+        "character-arc-r4-052"
+      ],
+      "mapping_source": "reader4-character-review/stage-card-to-character-arc-map.json",
+      "mapping_source_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+      "relation": "stage_observation_of_same_entity"
+    }
+  ],
+  "entity_classification": {
+    "character-arc-001": "player_and_real_person",
+    "character-arc-002": "player_and_real_person",
+    "character-arc-003": "player_and_real_person",
+    "character-arc-004": "player_and_real_person",
+    "character-arc-005": "player_and_real_person",
+    "character-arc-006": "player_and_real_person",
+    "character-arc-007": "player_and_real_person",
+    "character-arc-008": "player_and_real_person",
+    "character-arc-009": "player_and_real_person",
+    "character-arc-010": "player_and_real_person",
+    "character-arc-011": "player_and_real_person",
+    "character-arc-012": "player_and_real_person",
+    "character-arc-013": "player_and_real_person",
+    "character-arc-014": "player_and_real_person",
+    "character-arc-015": "player_and_real_person",
+    "character-arc-016": "player_and_real_person",
+    "character-arc-017": "player_and_real_person",
+    "character-arc-018": "player_and_real_person",
+    "character-arc-019": "player_and_real_person",
+    "character-arc-020": "player_and_real_person",
+    "character-arc-021": "player_and_real_person",
+    "character-arc-022": "player_and_real_person",
+    "character-arc-023": "player_and_real_person",
+    "character-arc-024": "player_and_real_person",
+    "character-arc-025": "real_person",
+    "character-arc-026": "real_person",
+    "character-arc-027": "real_person",
+    "character-arc-028": "real_person",
+    "character-arc-029": "real_person",
+    "character-arc-030": "real_person",
+    "character-arc-031": "real_person",
+    "character-arc-032": "real_person",
+    "character-arc-033": "real_person",
+    "character-arc-034": "real_person",
+    "character-arc-035": "real_person",
+    "character-arc-036": "player_and_real_person",
+    "character-arc-037": "player_and_real_person",
+    "character-arc-038": "real_person",
+    "character-arc-039": "real_person",
+    "character-arc-040": "real_person",
+    "character-arc-041": "real_person_military_officer",
+    "character-arc-042": "real_person_game_company_executive",
+    "character-arc-043": "technology_and_character_prototype_interface",
+    "character-arc-044": "real_person_criminal_investigation_subject",
+    "character-arc-045": "real_person_social_contact",
+    "character-arc-046": "organization_and_operation_interface",
+    "character-arc-047": "player_and_real_person",
+    "character-arc-r4-001": "player_person",
+    "character-arc-r4-002": "player_person",
+    "character-arc-r4-003": "player_person",
+    "character-arc-r4-004": "player_person",
+    "character-arc-r4-005": "player_person",
+    "character-arc-r4-006": "player_person",
+    "character-arc-r4-007": "player_person",
+    "character-arc-r4-008": "player_person",
+    "character-arc-r4-009": "player_person",
+    "character-arc-r4-010": "player_person",
+    "character-arc-r4-011": "player_person",
+    "character-arc-r4-012": "player_person",
+    "character-arc-r4-013": "player_person",
+    "character-arc-r4-014": "player_person",
+    "character-arc-r4-015": "player_person",
+    "character-arc-r4-016": "player_person",
+    "character-arc-r4-017": "player_person",
+    "character-arc-r4-018": "player_person",
+    "character-arc-r4-019": "player_person",
+    "character-arc-r4-020": "player_person",
+    "character-arc-r4-021": "player_person",
+    "character-arc-r4-022": "player_person",
+    "character-arc-r4-023": "player_person",
+    "character-arc-r4-024": "player_person",
+    "character-arc-r4-025": "player_person",
+    "character-arc-r4-026": "player_person",
+    "character-arc-r4-033": "npc_person",
+    "character-arc-r4-034": "npc_person",
+    "character-arc-r4-035": "npc_person",
+    "character-arc-r4-036": "npc_person",
+    "character-arc-r4-037": "npc_person",
+    "character-arc-r4-038": "npc_person",
+    "character-arc-r4-039": "npc_person",
+    "character-arc-r4-040": "npc_person",
+    "character-arc-r4-041": "npc_person",
+    "character-arc-r4-042": "npc_person",
+    "character-arc-r4-043": "npc_person",
+    "character-arc-r4-044": "npc_person",
+    "character-arc-r4-045": "npc_person",
+    "character-arc-r4-046": "npc_person",
+    "character-arc-r4-047": "npc_person",
+    "character-arc-r4-048": "npc_person",
+    "character-arc-r4-049": "npc_person",
+    "character-arc-r4-050": "npc_person",
+    "character-arc-r4-051": "npc_person",
+    "character-arc-r4-052": "npc_person",
+    "character-arc-r3-001": "npc",
+    "character-arc-r3-002": "npc",
+    "character-arc-r3-003": "npc",
+    "character-arc-r3-004": "npc",
+    "character-arc-r3-005": "npc",
+    "character-arc-r3-006": "npc",
+    "character-arc-r3-007": "npc",
+    "character-arc-r3-008": "npc",
+    "character-arc-r3-009": "npc",
+    "character-arc-r3-010": "npc",
+    "character-arc-r3-011": "npc",
+    "character-arc-r3-012": "npc",
+    "character-arc-r3-013": "npc",
+    "character-arc-r3-014": "npc",
+    "character-arc-r3-015": "npc",
+    "character-arc-r3-016": "npc",
+    "character-arc-r3-017": "npc",
+    "character-arc-r3-018": "npc",
+    "character-arc-r3-019": "npc",
+    "character-arc-r3-020": "npc",
+    "character-arc-r3-021": "npc",
+    "character-arc-r3-022": "npc",
+    "character-arc-r3-023": "npc",
+    "character-arc-r3-024": "npc",
+    "character-arc-r3-025": "npc",
+    "character-arc-r3-026": "npc",
+    "character-arc-r3-027": "npc",
+    "character-arc-r3-028": "npc",
+    "character-arc-r3-029": "npc",
+    "character-arc-r3-030": "npc",
+    "character-arc-r3-031": "npc",
+    "character-arc-r3-032": "npc",
+    "character-arc-r3-033": "npc",
+    "character-arc-r3-034": "npc",
+    "character-arc-r3-035": "npc",
+    "character-arc-r3-036": "npc",
+    "character-arc-r3-037": "npc",
+    "character-arc-r3-038": "npc",
+    "character-arc-r3-039": "npc",
+    "character-arc-r3-040": "npc",
+    "character-arc-r4-027": "player_person",
+    "character-arc-r4-028": "player_person",
+    "character-arc-r4-029": "player_person",
+    "character-arc-r4-030": "player_person",
+    "character-arc-r4-031": "player_person",
+    "character-arc-r4-032": "player_person",
+    "character-arc-r3-041": "npc",
+    "character-arc-r3-042": "npc",
+    "character-arc-r3-043": "npc",
+    "character-arc-r3-044": "npc",
+    "character-arc-r3-045": "npc",
+    "character-arc-r3-047": "npc",
+    "character-arc-r3-048": "npc",
+    "character-arc-r3-049": "npc",
+    "character-arc-r3-050": "npc",
+    "character-arc-r3-051": "npc",
+    "character-arc-r3-052": "npc",
+    "character-arc-r3-053": "npc",
+    "character-arc-r3-055": "npc",
+    "character-arc-r3-056": "npc",
+    "character-arc-r3-057": "npc",
+    "character-arc-r3-058": "npc",
+    "character-arc-r3-059": "npc",
+    "character-arc-r3-060": "npc",
+    "character-arc-r3-061": "npc",
+    "character-arc-r3-062": "npc",
+    "character-arc-r3-063": "referenced_npc_identity_with_player_impersonation",
+    "character-arc-r3-064": "historical_npc_reported_by_characters"
+  },
+  "unresolved_or_duplicate_roster_slots": [
+    {
+      "audit_id": "character-arc-r3-046",
+      "name": "罗戟",
+      "roster_onebased_index": 46,
+      "initial_comparison_stage": "补核提案中只有“罗戟”这一名称槽位，未附阶段卡或源定位；不能把名单提案自动当原文已确认人物。",
+      "key_decisions": "没有可证的独立行动，不借罗嗣、罗特、罗林、罗雷或罗戟近字词的行动填补。",
+      "costs": "没有可归属的个人代价，暂缺来源不等原作人物被遗忘。",
+      "terminal_state": "待身份来源核实；当前不是已确认实体，不新增确定人物ID、不与他人合并。",
+      "evidence_boundaries": "固定SID/rev规范全文精确字符串0命中；正式六卷cards/analysis/四栏精确字符串亦0命中。此为查找范围说明，不冒称本次逐章全书新读。root已明确同意保槽待核。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "名单与六接口定位复核；无来源可供阅读全文，诚实保留0证据。",
+      "priority_layers": [],
+      "entity_type": "unresolved_roster_name",
+      "confirmed_entity": false,
+      "name_search_scope": {
+        "normalized_source_exact_matches": 0,
+        "formal_six_volumes_cards_analysis_notes_exact_matches": 0,
+        "candidate_roster_is_not_source_evidence": true
+      }
+    },
+    {
+      "audit_id": "character-arc-r3-054",
+      "original_roster_name": "火犁（异魔军团统领，勿并已死神圣魔龙）",
+      "entity_type": "duplicate_or_misdescribed_roster_reference",
+      "confirmed_entity": false,
+      "linked_existing_audit_id": "character-arc-r3-015",
+      "terminal_assessment": "保原补核名称为历史提案。现无另一个异魔统领火犁的证据；1041明言火犁军原统就是已被李杀的魔龙火犁。后军团由少师阳统，是军团名称延续，不是魔龙复生或第二火犁本人。勿无证拆成第二实体，也不删除已死魔龙阶段卡映射。",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1041",
+          "start_line": 76714,
+          "end_line": 76720,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1048",
+          "start_line": 77222,
+          "end_line": 77235,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1220",
+          "start_line": 88744,
+          "end_line": 88753,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1321",
+          "start_line": 95247,
+          "end_line": 95250,
+          "claim_kind": "fact"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "scope_treatment_authorized_by_primary": "primary实际复读1041 L76714—20后批准：54仅历史误述/重复引用，不设第二确认实体；原roster不改。非代写primary签收。",
+      "review_status": "draft",
+      "source_access": "上述原文命中上下文实际读；非新独读整卷，原reader保留。"
+    }
+  ],
+  "original_cards_unchanged": true,
+  "signed_characters_unchanged": true
+}

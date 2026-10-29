@@ -1,0 +1,2143 @@
+# 无双历史问题与线程终点审计（研究草稿）
+
+保留原ID、原阶段和原记录；完整原记录在同名JSON。answered包含明确失败、规则解释与记录边界澄清，不等全部人物愿望成功。
+
+## v01-question-001 陆何何时相认及健康稳定？
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-analysis.json；原序号：0
+
+终点：partial；审计领域：recognition-and-bounded-health
+
+164何艺清醒相认、168陆尘实际回古剑，身份隐瞒已关闭；695病历又确认林逸欣为早期500cc供者。健康不能随相认结案：1599抑制初效后1604再失能，1609仅赴美治疗明示与恢复强暗示，未给绝对医学根治。复合问题因此部分答，不把后期取抗原替换早期输血身份。
+
+后证raw：0164, 0168, 0695, 1599, 1604, 1609
+
+## v01-question-002 心然牧师约定是否兑现？
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-analysis.json；原序号：1
+
+终点：answered；审计领域：explicit-mission-failure
+
+118确实护送心然到圣堂，但仅约三日后试炼；124原SSS《约定》系统明确失败，故原银月牧师入职愿望未兑现已有明确失败回执。126另转《复苏》并召骷髅妖仆，不是牧师旧约成功，不以最终董欣然身份或苏醒倒改本次失败。answered在此表示失败已明，不表示愿望成功。
+
+后证raw：0118, 0124, 0126
+
+## v01-question-003 血佣何时系统建会/回古剑？
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-analysis.json；原序号：2
+
+终点：answered；审计领域：organization-milestone
+
+159英雄令实际提交、血色佣兵系统建会；167交十三掌会及168陆鬼北实际入古剑，使系统建会与主力回归两问均有回执。血佣仍保独立组织角色，不能写成全体自动并会；未来工资/基金另账。
+
+后证raw：0159, 0167, 0168
+
+## v01-question-004 北冥现实抵苏与乾坤书归属？
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-analysis.json；原序号：3
+
+终点：answered；审计领域：arrival-and-property
+
+94深红王已杀，鬼把攻击乾坤书让陆，陆实付北冥200金并实学；99北冥与马岱现实抵苏入住。书的归属/使用和赴苏均已具体兑现，早卷半月约不能留到终点仍未到。
+
+后证raw：0094, 0099
+
+## v01-question-005 雪薇/索菲娅阵营说法完整真相？
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-analysis.json；原序号：4
+
+终点：partial；审计领域：faction-and-testimony
+
+134索菲娅查问后正式接纳陆、实际授血舞徽，302—303紫罗兰复国与后续1527—1535护物资进一步给阵营行动证。可以关闭赴岛/入血舞、复国这些具体环节；雪薇百年不害人及阵营全部古史仍有角色自述层，不能宣称完整历史和所有善恶评价已由独立证据证实。
+
+后证raw：0134, 0302, 0303, 1527, 1535
+
+## v01-question-006 50装备降级还能用是否矛盾？
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-analysis.json；原序号：5
+
+终点：answered；审计领域：rule-explanation
+
+0089明文说明降级后不卸已穿高等装备仍可用，修理亦不要求卸。原先50级装备继续使用有明确规则解释，不能在终点仍列矛盾；该解释也能核后期221续穿已装225盾，不能凭掉级强判失格。
+
+后证raw：0089, 1293
+
+## v01-question-007 明月治疗十金、50救援谢金是否收？
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-analysis.json；原序号：6
+
+终点：unrecovered；审计领域：specific-obligation
+
+原67明月治疗十金与37/74五十金谢礼各是独立交割疑点。96明月另实交200金打王佣金属于新委托，不能用它冲销早期两笔；后期赠款/公司财富也不等同原账回执。终点研究材料未找到明确追缴、支付或免除这两笔的专属回收，保未见回收，不断言现实一定未付，更不写作者忘记。
+
+后证raw：0067, 0074, 0096
+
+## v01-question-008 李血宠追回再卖的责任是否处理？
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-analysis.json；原序号：7
+
+终点：unrecovered；审计领域：property-and-consent-debt
+
+67—68血宠追回后二卖/分利已经发生，未见李乐同意或获偿。278、795仍有花间派/李乐敌对交锋，不能把后期击败或其他财富安排当成对原血宠处理的同意/补偿。未找到这项特定责任被明确处理的回收；文学未回收不等法律裁判或肯定永未赔偿。
+
+后证raw：0067, 0068, 0278, 0795
+
+## v01-thread-001 从删号到新职业恢复
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-graph.json；原序号：0
+
+终点：partial；审计领域：growth-and-health-ledgers
+
+139吸火成修罗、579修罗王、1462龙晶凝格和1464九转学习将早期新职业恢复推进至高阶，1590满级有后证；但原阶段附带的现实病稳未能随游戏成长关闭，抑制反复与1609赴美/恢复暗示须另记。游戏成长已答，医学稳定仅部分进展。
+
+后证raw：0139, 0579, 1462, 1464, 1590, 1604, 1609
+
+## v01-thread-002 独立收入与血佣组织
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-graph.json；原序号：1
+
+终点：answered；审计领域：livelihood-and-organization
+
+99北冥/亚现实到位，159系统血佣建会、168核心回古剑；237金鳞弓拍定净金币入账且14万金币已兑换，238炼狱权杖成交净金币入账、其银行兑换仍预计，显示独立收入渠道实际成形。本条关闭从四人实体工作室到系统组织与收入渠道成形的目标，不把全部未来债务、每期工资或基金缴足并作已结。236仅候拍，不能写成已分账。
+
+后证raw：0099, 0159, 0168, 0237, 0238
+
+## v01-thread-003 陆尘存活与古剑相认
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-graph.json；原序号：2
+
+终点：answered；审计领域：identity-recognition
+
+164何艺醒后清醒确认折戟即陆尘、168实际回古剑，原存活与身份隐瞒已被明确后证关闭。明月先知与何后知保时点；一月研究、疾病因果和根治是另一条账，不强附在本条相认成功上。
+
+后证raw：0164, 0166, 0168
+
+## v01-thread-004 林逸欣的盟友与情感
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-graph.json；原序号：3
+
+终点：answered；审计领域：bounded-relationship-development
+
+首会合作及后续会盟继续落地；425、451等互吻/爱语与1596林明确拒欧爱陆、1609独陪赴美，使从有限敌意到盟友和相爱关系有具体行动。只关闭这一关系方向，不补排他婚约、三方协议或雪银杉并入血佣。
+
+后证raw：0086, 0425, 0451, 1596, 1609
+
+## v01-thread-005 心然成为银月牧师的约定
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-graph.json；原序号：4
+
+终点：answered；审计领域：explicit-mission-failure
+
+118只到圣堂预约试炼，124原SSS系统明确失败，126新复苏任务返回骷髅妖仆。银月牧师约定的本次执行以失败关闭；不能把后来兄妹、吟风者/董欣然和现实苏醒当作转职入学成功。
+
+后证raw：0118, 0124, 0126
+
+## v01-thread-006 善夜灵与血舞资格
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-graph.json；原序号：5
+
+终点：answered；审计领域：faction-qualification
+
+134实际抵血舞营，经索菲娅审查后授徽正式加入，301—303与军协作复国提供后用证。火种试炼与邀请不再停在尚未赴岛阶段；这里只关闭血舞资格与实际合作，不替所有阵营自述作全历史真伪担保。
+
+后证raw：0134, 0301, 0302, 0303
+
+## v01-thread-007 首英雄令与雪银杉
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-graph.json；原序号：6
+
+终点：answered；审计领域：historical-milestone
+
+首英雄令从王不掉到追回、1000佣和盾实际支付，中国首会雪银杉系统成立已完成。本条只问第一次建会竞争，后来领地或联盟变化不撤销这一历史事实，也不扩大成主个人已拥有雪银杉。
+
+后证raw：0073, 0085, 0086
+
+## v01-thread-008 独霸/狂龙敌对升级
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-graph.json；原序号：7
+
+终点：partial；审计领域：opponent-organizations
+
+后续古剑与狂龙/独霸衍生组织持续有胜负，1519炼狱狂龙本次制度挑战后确实解散；灭神在1566仍是独立会、仅借伪徽协战。敌对升级有后续与部分组织结局，但不能把狂龙解散泛化成所有旧敌组织全灭、全部旧怨已和解。
+
+后证raw：0278, 0795, 1519, 1566, 1571
+
+## v01-thread-009 李乐的现实与游戏纠葛
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-graph.json；原序号：8
+
+终点：partial；审计领域：conflict-and-property-debt
+
+278、795李乐/花间派仍实际对抗并有本次败亡，现实与游戏纠葛继续进入组织战争；原67—68血宠二卖未找到李乐明确同意/获偿或全面和解回执。不能拿李承风后期友谊或同姓新角色回答李乐的旧责任。
+
+后证raw：0067, 0068, 0278, 0795
+
+## v01-thread-010 第四成员共享的深红Boss战
+
+原卷：1；原记录：writing-vault/library/reports/tianxia-wushuang/vol01-graph.json；原序号：9
+
+终点：answered；审计领域：boss-and-reward-settlement
+
+94陆1870最后杀深红王，北冥实际获腕/斗篷、鬼获珊瑚长矛；乾坤书经鬼让、陆200金补北并实学。原卷末Boss未死/书只提的悬口在下一正文已经逐项回收，不能留终点未交未学。
+
+后证raw：0094, 0095
+
+## v02-question-001 陆何相认
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json；原序号：0
+
+终点：answered；审计领域：identity-recognition
+
+何艺164清醒认出陆、三核168真实回古剑，早陆何身份隐瞒已被后证关闭。LC疾病因果和后期现实治疗另为独立问题，不因相认而算医学稳定。
+
+后证raw：0164, 0166, 0168
+
+## v02-question-002 LC与匿名供血
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json；原序号：1
+
+终点：partial；审计领域：donor-identity-and-health
+
+695病历遗留的林逸欣500CC献血凭证明确且要求保密，关闭141匿名输血者身份；不能再停在B型/脸白线索，也不靠1595抗原取样猜早期供者。LC/冰毒病理与根治另账：1599初效、1604再毒发及1609赴美治疗/恢复暗示没有绝对临床根治回执，复合题部分答。
+
+后证raw：0141, 0145, 0695, 1595, 1599, 1604, 1609
+
+## v02-question-003 心然约定与真实身份
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json；原序号：2
+
+终点：answered；审计领域：failed-promise-and-revealed-identity
+
+124原约定SSS明确失败；126是新复苏任务并召永久妖仆，255解除主仆转兄妹不能改旧任务成功。1500主亲见现实董欣然并听徐解释，1508实际醒认、1512签董欣然实名，真实身份与现实苏醒有后证。原牧师约以失败回答，身份以揭示回答，二者不混。
+
+后证raw：0124, 0126, 0255, 1500, 1508, 1512
+
+## v02-question-004 血佣自治与古剑回归
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json；原序号：3
+
+终点：partial；审计领域：organization-and-independent-accounts
+
+159血佣已建、167交十三、168核心回古剑，220四人新居实际搬成，组织与居住部分均有动作。220基地三位各15万薪决定/律师拟签与221基金空卡规则不是实际发薪/缴足；后1230CGL新制或1526公司订单也不能补原合同首款、逐笔基金流水，故复合项仍部分而非全额结清。
+
+后证raw：0159, 0167, 0168, 0220, 0221, 1230, 1526
+
+## v02-question-005 谁与争锋夺冠
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json；原序号：4
+
+终点：answered；审计领域：competition
+
+谁与争锋本届系统冠军/MVP+3、英雄令实用于建会已有明确结算；末局四友游戏死亡与6%不死触发同时保留。后来的WEL是另一赛事，不重开本条历史胜负。
+
+后证raw：0145, 0158, 0159
+
+## v02-question-006 雪莲与雪薇毒伤
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json；原序号：5
+
+终点：answered；审计领域：bounded-healing
+
+雪莲已实际交、敷后雪薇醒而仍乏，足以回答本次毒伤救治；她以后复国和所有伤势是否痊愈不是这次已完成药疗的同义项。
+
+后证raw：0175, 0187, 0188
+
+## v02-question-007 林独立目标与陆关系
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json；原序号：6
+
+终点：partial；审计领域：independent-relationship-and-consent
+
+695供血身份明确、林长期保雪银杉独立，1319等互爱/亲密及1596拒欧、1609独陪赴美均已回收关系发展。1524搬家不能写林全迁，互爱/同床也不等正式长期合租或三方协议全部终定。原条同时问独立组织、情感、同住与献血，逐项仅部分关闭，不用后记匿名场景补合同/婚约。
+
+后证raw：0695, 1319, 1524, 1596, 1609
+
+## v02-question-008 父卡与亲情
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json；原序号：7
+
+终点：partial；审计领域：family-and-money-purpose
+
+214—216父卡到手、原款/另五万返资有其各自回执；1342—1343真实父访家餐送站与更多陪伴承诺继续，买养老别墅尚无已购证。1591鬼代保五亿是陆托尽孝的新卡，不是旧父卡已动用、旧400万全部返清或父迁居落实的证据。已有探亲/给钱部分不等长期养老全部完成。
+
+后证raw：0214, 0215, 0216, 1342, 1343, 1591
+
+## v02-question-009 陈生纠缠与北妊娠误认
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json；原序号：8
+
+终点：partial；审计领域：misdiagnosis-and-legal-unknown
+
+219检查明确未孕、肠胃炎且无流产，误认以否定结果关闭；220迁居已实际执行，278陈生继续纠缠并被游戏杀。陈生吸毒等仍北冥转述，现实被打不等刑事或医疗追责已结；后未找到针对他的司法结果/全面和解，不拿北后来正常生活自动补法律结局。
+
+后证raw：0219, 0220, 0278
+
+## v02-question-010 恶魔灵堂神威令
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json；原序号：9
+
+终点：answered；审计领域：mission-and-property
+
+恶魔灵堂所得神威令已实际用使古剑2升3，任务所得与组织升级对应；飘云烟活逃及霸先约后背刺仍按原阶段保留，不补四敌全杀。
+
+后证raw：0207, 0208, 0209, 0210, 0211, 0212
+
+## v02-question-011 林十金佣与百药预订
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json；原序号：10
+
+终点：unrecovered；审计领域：specific-drug-and-commission-obligation
+
+原十金佣和190百药预订是独立义务；210免费二十、225另购六十各有不同交割与未列金额，不能凑数当百药旧约自动兑清。到终点未找到明确指向这两项的付款/免除/交清证；1603仙云草采集是另种材料与目标，绝不能当早期预订回收。此为未见特定回收，不肯定客观没付、不称作者遗忘。
+
+后证raw：0190, 0193, 0202, 0210, 0225, 1603
+
+## v02-question-012 锁魔塔神念/镇魔剑
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json；原序号：11
+
+终点：answered；审计领域：mission-object-and-later-use
+
+230—235实际完成塔战、镇魔剑取得/交付，302—303该剑在紫罗兰封门复国实际使用并正式结算。原228仅见未打的王与未拿未交已后续闭合；保队友/心然主伤和任务层次，不以主获奖改写独杀或炼狱全灭。
+
+后证raw：0230, 0231, 0232, 0233, 0234, 0235, 0302, 0303
+
+## v02-question-013 古剑与花间/狂龙/灭神/烛龙
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-analysis.json；原序号：12
+
+终点：partial；审计领域：multiple-opponent-and-alliance-lines
+
+514—515等古剑/雪银实际协作会盟、1519炼狱狂龙制度解散、1566灭神仍独立但共享伪徽、1593烛等现实探病互敬均给后续；不等全部敌组织销毁/永盟或和解。早卷泄密内奸身份没有可直接匹配的独立后证，不能把后来零度第八叛离倒填成226同一早期泄密者。
+
+后证raw：0514, 0515, 0618, 1519, 1566, 1593
+
+## v02-thread-001 陆何相认
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-graph.json；原序号：0
+
+终点：answered；审计领域：identity-recognition
+
+陆何相认已由164清醒识认与168回归行动兑现，终点继续保这一完成结果；不将同场身份解答误作LC秘密也已解释。
+
+后证raw：0164, 0166, 0168
+
+## v02-thread-002 LC与匿名供血
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-graph.json；原序号：1
+
+终点：partial；审计领域：donor-identity-and-health
+
+695病历遗留的林逸欣500CC献血凭证明确且要求保密，关闭141匿名输血者身份；不能再停在B型/脸白线索，也不靠1595抗原取样猜早期供者。LC/冰毒病理与根治另账：1599初效、1604再毒发及1609赴美治疗/恢复暗示没有绝对临床根治回执，复合题部分答。
+
+后证raw：0141, 0145, 0695, 1595, 1599, 1604, 1609
+
+## v02-thread-003 心然约定与真实身份
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-graph.json；原序号：2
+
+终点：answered；审计领域：failed-promise-and-revealed-identity
+
+124原约定SSS明确失败；126是新复苏任务并召永久妖仆，255解除主仆转兄妹不能改旧任务成功。1500主亲见现实董欣然并听徐解释，1508实际醒认、1512签董欣然实名，真实身份与现实苏醒有后证。原牧师约以失败回答，身份以揭示回答，二者不混。
+
+后证raw：0124, 0126, 0255, 1500, 1508, 1512
+
+## v02-thread-004 血佣自治与古剑回归
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-graph.json；原序号：3
+
+终点：partial；审计领域：organization-and-independent-accounts
+
+159血佣已建、167交十三、168核心回古剑，220四人新居实际搬成，组织与居住部分均有动作。220基地三位各15万薪决定/律师拟签与221基金空卡规则不是实际发薪/缴足；后1230CGL新制或1526公司订单也不能补原合同首款、逐笔基金流水，故复合项仍部分而非全额结清。
+
+后证raw：0159, 0167, 0168, 0220, 0221, 1230, 1526
+
+## v02-thread-005 谁与争锋夺冠
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-graph.json；原序号：4
+
+终点：answered；审计领域：competition
+
+本届夺冠与奖令建会均有系统/行动证，只关闭具体赛事目标，不据冠军推主所有小局无损或同伴没死。
+
+后证raw：0158, 0159
+
+## v02-thread-006 雪莲与雪薇毒伤
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-graph.json；原序号：5
+
+终点：answered；审计领域：bounded-healing
+
+本次雪莲解毒有交物和醒来后证，保仍乏限制；不把局部治疗推广为所有NPC无条件复原。
+
+后证raw：0187, 0188
+
+## v02-thread-007 林独立目标与陆关系
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-graph.json；原序号：6
+
+终点：partial；审计领域：independent-relationship-and-consent
+
+695供血身份明确、林长期保雪银杉独立，1319等互爱/亲密及1596拒欧、1609独陪赴美均已回收关系发展。1524搬家不能写林全迁，互爱/同床也不等正式长期合租或三方协议全部终定。原条同时问独立组织、情感、同住与献血，逐项仅部分关闭，不用后记匿名场景补合同/婚约。
+
+后证raw：0695, 1319, 1524, 1596, 1609
+
+## v02-thread-008 父卡与亲情
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-graph.json；原序号：7
+
+终点：partial；审计领域：family-and-money-purpose
+
+214—216父卡到手、原款/另五万返资有其各自回执；1342—1343真实父访家餐送站与更多陪伴承诺继续，买养老别墅尚无已购证。1591鬼代保五亿是陆托尽孝的新卡，不是旧父卡已动用、旧400万全部返清或父迁居落实的证据。已有探亲/给钱部分不等长期养老全部完成。
+
+后证raw：0214, 0215, 0216, 1342, 1343, 1591
+
+## v02-thread-009 陈生纠缠与北妊娠误认
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-graph.json；原序号：8
+
+终点：partial；审计领域：misdiagnosis-and-legal-unknown
+
+219检查明确未孕、肠胃炎且无流产，误认以否定结果关闭；220迁居已实际执行，278陈生继续纠缠并被游戏杀。陈生吸毒等仍北冥转述，现实被打不等刑事或医疗追责已结；后未找到针对他的司法结果/全面和解，不拿北后来正常生活自动补法律结局。
+
+后证raw：0219, 0220, 0278
+
+## v02-thread-010 恶魔灵堂神威令
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-graph.json；原序号：9
+
+终点：answered；审计领域：mission-and-property
+
+具体神威令交割/古剑升级已完成，终点状态不因后来更高会级而失去本次证据，也不把击退敌人扩成全歼。
+
+后证raw：0210, 0211, 0212
+
+## v02-thread-011 林十金佣与百药预订
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-graph.json；原序号：10
+
+终点：unrecovered；审计领域：specific-drug-and-commission-obligation
+
+原十金佣和190百药预订是独立义务；210免费二十、225另购六十各有不同交割与未列金额，不能凑数当百药旧约自动兑清。到终点未找到明确指向这两项的付款/免除/交清证；1603仙云草采集是另种材料与目标，绝不能当早期预订回收。此为未见特定回收，不肯定客观没付、不称作者遗忘。
+
+后证raw：0190, 0193, 0202, 0210, 0225, 1603
+
+## v02-thread-012 锁魔塔神念/镇魔剑
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-graph.json；原序号：11
+
+终点：answered；审计领域：mission-object-and-later-use
+
+230—235实际完成塔战、镇魔剑取得/交付，302—303该剑在紫罗兰封门复国实际使用并正式结算。原228仅见未打的王与未拿未交已后续闭合；保队友/心然主伤和任务层次，不以主获奖改写独杀或炼狱全灭。
+
+后证raw：0230, 0231, 0232, 0233, 0234, 0235, 0302, 0303
+
+## v02-thread-013 古剑与花间/狂龙/灭神/烛龙
+
+原卷：2；原记录：writing-vault/library/reports/tianxia-wushuang/vol02-graph.json；原序号：12
+
+终点：partial；审计领域：multiple-opponent-and-alliance-lines
+
+514—515等古剑/雪银实际协作会盟、1519炼狱狂龙制度解散、1566灭神仍独立但共享伪徽、1593烛等现实探病互敬均给后续；不等全部敌组织销毁/永盟或和解。早卷泄密内奸身份没有可直接匹配的独立后证，不能把后来零度第八叛离倒填成226同一早期泄密者。
+
+后证raw：0514, 0515, 0618, 1519, 1566, 1593
+
+## v03-thread-001 职业/种族/装备与技能门槛
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：0
+
+终点：answered；审计领域：growth-and-qualification
+
+649六转系统回执、150级技能实学，1462龙晶凝格激活原三灰技、1464九转另学狂撞，1590后达275，把早143/五转、150骑与新境界未到的阶段推进为实际高阶成长。只关闭这些已到达的门槛，不将神位视作全部技能自动可用，不以事后成功替源规则冲突配平。
+
+后证raw：0649, 1462, 1464, 1590
+
+## v03-thread-002 心然兄妹、封印与记忆
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：1
+
+终点：partial；审计领域：npc-identity-memory-and-recovery
+
+255主仆解为兄妹、274疗伤及复国回归已有结果，后1503游戏救返、1508现实真醒、1512董欣然实名进一步回答身份与关系。旧封力/全部记忆并没有逐条100%全解回执，不能把陆的修罗神晋阶或其他作品灵儿的封印链代入心然；末仍现实康复/寻主有边界。
+
+后证raw：0255, 0274, 1500, 1503, 1508, 1512, 1609
+
+## v03-thread-003 紫罗兰复国阶段
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：2
+
+终点：answered；审计领域：historical-mission
+
+302—303索菲娅封门与紫罗兰复国正式结算、陆MVP奖装已落，关闭本次复国行动。后来的阵营战争与政权安全另审，不用“复国”宣告永远无战争。
+
+后证raw：0234, 0302, 0303
+
+## v03-thread-004 首领地归属与经营
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：3
+
+终点：answered；审计领域：territory-milestone
+
+450系统确认首城归古剑、陆获管理权且453/455实际建设，首领地争夺已回收。后来暗月守城、升级乃至移城主有独立证据，不将夺首城等同永久个人所有。
+
+后证raw：0450, 0453, 0455, 1606
+
+## v03-thread-005 寒刃入侵与五转任务
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：4
+
+终点：answered；审计领域：bounded-war-and-promotion
+
+500毁杖桥消/政权交接，501系统战争胜并交导师完成五转、502付费学技；本次保城与职业任务均关闭。寒刃当时活逃、后1433才真被合杀，不能把后死亡倒灌进这次战争。
+
+后证raw：0500, 0501, 0502, 1433
+
+## v03-thread-006 共同生活、多方亲密与边界
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：5
+
+终点：partial；审计领域：multi-person-consent
+
+1319陆林成年亲密临门止、1476陆何被慕打断、1596林当众明确爱陆并拒欧、1609林独陪赴美均更新真实关系和共同生活。何单独不逼离林、慕单人吻与北表白不等林何慕北共同签订排他/多方婚姻规则；结尾匿名亲密也不补所有人全面同意或婚礼。爱与照护有回收，多方制度边界仍未终定。
+
+后证raw：0783, 1319, 1476, 1545, 1596, 1605, 1609
+
+## v03-thread-007 第二城联盟分配
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：6
+
+终点：answered；审计领域：territory-and-alliance
+
+515系统第二领地归雪银杉，古剑外围协助已经执行。只结第二城分配，不把第三城将来承诺或全部联盟义务一起标履行。
+
+后证raw：0510, 0512, 0514, 0515
+
+## v03-thread-008 九龙九鳞交付与奖励
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：7
+
+终点：answered；审计领域：mission-and-reward
+
+562九鳞实齐、563交公主并系统给青冥/等级/幸运/城级奖，564青冥达140实穿。获取来自多人协作/交鳞换装，不能因主获奖励就改为独杀九王；任务成功不抹真死与补偿。
+
+后证raw：0535, 0543, 0549, 0559, 0560, 0561, 0562, 0563, 0564
+
+## v03-thread-009 地下红毛身份
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：8
+
+终点：answered；审计领域：identity-recognition
+
+550红发百战与陆互认断手腿旧事、随后主盟援兵归属提供后证，地下红毛身份已答。不把身份确认扩写为现实后台全揭或司法结案。
+
+后证raw：0527, 0528, 0550, 0551
+
+## v03-thread-010 赞助与公开切磋
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：9
+
+终点：partial；审计领域：contracts-contest-and-bounded-promise
+
+联想/华硕/苹果签约及两场1:4与5:0已有具体结算，598第三城不争仍有效且外围规避有伦理争议；621盟友报新地受阻后转援暗月，不能据另场684永生归属宣旧赌约自动撤销/全额履行。后1230CGL新薪制也不是这几份俱乐部合同首期工资流水。赛事与签约已答，原首款/承诺全部履行未获独立专属回执。
+
+后证raw：0525, 0568, 0570, 0572, 0598, 0621, 0684, 1230
+
+## v03-thread-011 雨立方筹建与家
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：10
+
+终点：answered；审计领域：business-establishment-and-home
+
+584陆2000万真实出资及625南京人员迁移计划之后，857何艺实际解决蓝星技术并正式签约，1524实际新居搬入、1526总公司确认及雨立方供货决定显示公司已在经营。原筹建/迁居/蓝星未签阶段已向后兑现；只关闭筹建运营与实际居所，不把5亿预计利润、估值、上市筹备或所有未来订单计到账。
+
+后证raw：0584, 0625, 0857, 1524, 1526
+
+## v03-thread-012 猎神者救治与灵烹
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：11
+
+终点：answered；审计领域：mission-and-skill
+
+581头实交、系统任务成并实际学灵烹，卡修真正抹药起身离开；前段取药牙尚不是终交。声望学习数值异常另保，不撤已发生任务完成/传技。
+
+后证raw：0575, 0577, 0578, 0580, 0581
+
+## v03-thread-013 吕布衣、小蛮与第八治理
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：12
+
+终点：answered；审计领域：organization-repair-and-autonomy
+
+618第八自动转敌而吕主动退会、619拒旧恩勒索后被杀、624正式入古剑主盟；625新第八刺盟收购/改名/资金和近800人转入已实际完成。732与1446吕的紫龙/救援/护工匠提供后用，小蛮后亦持续作战。零度旧壳与新刺盟分实体，吕布衣不与吕超混同，不能因紫龙强就补未写名将资格。关闭本次招募与治理修复，不宣所有成员永不背叛。
+
+后证raw：0618, 0619, 0624, 0625, 0732, 1446, 1573
+
+## v03-thread-014 第三城/暗月掠夺双线
+
+原卷：3；原记录：writing-vault/library/reports/tianxia-wushuang/vol03-graph.json；原序号：13
+
+终点：partial；审计领域：two-front-war-settlement
+
+608青石谷步队真全灭、复活返暗月且烈影弓实还，鬼青虎也归队；621盟友称新地受战天等联盟所阻而回援，623暗月本次系统守胜6升8。两线中暗月守城与谷地损失已有明确后证，不能仍写原末仅在等骑；但不凭684白帝得永生或别场新城回填原第三新地所有分配/绕约终判，故复合线部分结清。
+
+后证raw：0608, 0609, 0621, 0623, 0684
+
+## v04-thread-001 暗月领地守护与升级
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：0
+
+终点：answered；审计领域：territory-defense-and-upgrade
+
+794雪银紫龙骑出击、795古剑迂回断退、796系统因攻方不足判暗月守胜，当时仍9级而非立刻10。935另次MVP系统规模+1才实际全服首10城，之后1606城主管理权实转何艺。原本次守御与升级至10两项都有后证，分别标时点；不宣之后所有战争自动守胜或陆永久个人产权。
+
+后证raw：0794, 0795, 0796, 0935, 1606
+
+## v04-thread-002 布衣转属与自主归属
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：1
+
+终点：answered；审计领域：organization-and-consent
+
+布衣拒旧会后被杀、自主选择古剑，618—624归属与732实际紫龙/救援贡献相接，足以关闭本次转属争议；不是预设主动内奸。1446仍持扇护工匠提供后段同人功能证，不能与吕超混实体。
+
+后证raw：0618, 0619, 0624, 0732, 1446
+
+## v04-thread-003 新刺盟能力与失败
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：2
+
+终点：answered；审计领域：assassin-guild-and-failure
+
+625新第八刺盟实际成立，734伏击与757传送陷阱死亡/未停阵是不同结果；1573陆尘又实际命漂亮小蛮第八分盟到碎石林设伏，证明其后阶段组织角色。不由玩家可复通则编造757精确复活位置/时刻，也不把后活反证当场从未阵亡。本条目标是新刺盟成军/能力检验，包含真实失败而关闭；不把1573聚歼战策扩大为敌无人生还。
+
+后证raw：0625, 0734, 0757, 1573
+
+## v04-thread-004 蒙川罗兰德复生任务
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：3
+
+终点：answered；审计领域：death-and-revival
+
+蒙川肉身仪式实际复生与任务结算已明确。本次可复有特定仪式证，达达原身死亡/忠魂融狼是另一阶段，不能用蒙川复法替达达补肉身复生。
+
+后证raw：0633, 0644
+
+## v04-thread-005 达达忠魂与幻影狼
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：4
+
+终点：partial；审计领域：soul-transfer-not-bodily-revival
+
+633达达原犬死亡后忠魂融幻影狼、644与后687/776等狼继续参与行动，使灵魂承续有后用。未找到达达独立原犬肉身回归，蒙川644血祭复身或1194的NPC87%群体恢复不能代它补身体复活。部分答在于融狼承续，原身未证；不称永远不能复或作者忘记。
+
+后证raw：0633, 0644, 0687, 0776, 1194
+
+## v04-thread-006 六转与装备资格
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：5
+
+终点：partial；审计领域：qualification-versus-unshown-process
+
+649陆六转系统第2/实际学惊心，1462与1464后来凝格/九转也有明确后证；774有限复号与后装备/等级成长分期记录。逸第一神将此前具体前置过程和某些低级再骑旧坐骑资格没有补出完整过程，不能用1514后成神或新装备已穿倒写旧门槛当时皆已合理执行。已发生晋阶答，省略与源边界保留。
+
+后证raw：0649, 0774, 0791, 1462, 1464, 1514
+
+## v04-thread-007 白帝最终永生归属
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：6
+
+终点：answered；审计领域：territory-and-ownership
+
+684盟友退出后白帝最终系统持有永生，本次城权以正式结算关闭，陆斩首并不等陆获城。后续其他城争夺不改这场历史归属。
+
+后证raw：0684
+
+## v04-thread-008 鬼神预言与明镜
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：7
+
+终点：partial；审计领域：specific-status-effect-instance
+
+665明月组十月雨用明镜实际洗掉本次预言，技能解除能力已答；667陆另中、668及671续战仍未交代这一次具体解除过程。1354明镜解除铜眼对陆控制是另一对象/实例，不可用它补667那次早预言；也不能因缺省略就把明镜或鬼神预言写全无效。
+
+后证raw：0665, 0667, 0668, 0671, 1354
+
+## v04-thread-009 克里斯从敌龙到逸宠
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：8
+
+终点：answered；审计领域：pet-conversion-and-continued-use
+
+690退蛋/692取得、695青青确认收蛋、704实孵，794克里斯150级实际龙息群杀、1144/1154继续参战。1259还明确它依然宠物非坐骑，不能与林骑追月虎、陆上古神龙坐骑合并。原敌龙到赠宠、复号后重长与后用已回收，不要求它最终必变坐骑才算完成。
+
+后证raw：0690, 0692, 0695, 0704, 0794, 1144, 1154, 1259
+
+## v04-thread-010 母亲治疗与出国离别
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：9
+
+终点：partial；审计领域：family-healing-and-consent
+
+772青青报母醒、775现实见母已答，1595刘婉茹能实际出席家聚提供后生活证；1596林公开拒欧选陆、财富/身份使长辈态度变化，但没有父亲完整消除旧怨或正式婚约全体同意的明确结案。赴加/母醒并不等所有家庭压力与关系和解完成，病醒亦不外推绝对临床痊愈。
+
+后证raw：0772, 0775, 1595, 1596, 1609
+
+## v04-thread-011 陆何逸亲密边界
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：10
+
+终点：partial；审计领域：relationship-agreement
+
+783何单独提出不逼离林、1319陆林互爱仍临门停、1476陆何亲密被慕打断、1596林公开选陆与1609独陪治疗均是不同当事人动作。何的让步不是林在场共同协议，末匿名场景不补三人婚姻/多伴制度或所有人全面同意。亲密实有进展，共同规则仍未明。
+
+后证raw：0783, 1319, 1476, 1596, 1609
+
+## v04-thread-012 龙曜生产分配与实战
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：11
+
+终点：answered；审计领域：production-and-deployment
+
+普通2000龙曜坐骑分配、王蛋另骑、小试与国战实际使用均已有后证，初成军已完成。后来军团扩张/战损持续，不能以初2000作全书总数或永久不死兵。
+
+后证raw：0714, 0716, 0718, 0747, 1385, 1411
+
+## v04-thread-013 借款与个人承诺未兑
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：12
+
+终点：unrecovered；审计领域：specific-loans-and-conditioned-promise
+
+705猫20万赊套与另借100万是两项，709十月450万买封石之外附个人一诺且有不伤天害理等边界。742猫实际步魂参战不证明还清钱；后合作、赠款与巨富也非这两笔还款或十月正式索诺履诺。终点材料未找到专属归还/免除/索诺回执，保未见回收，不肯定没履行、不把承诺解释无条件交往。
+
+后证raw：0705, 0709, 0742, 1591
+
+## v04-thread-014 晨曦国战保城
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：13
+
+终点：answered；审计领域：bounded-war
+
+晨曦最终守住、陆MVP的正式结果明确；林用神泣实际清号及普通军/资源损失不因保城而消失。它关闭本次保城目标，不等林旧号资源已全部恢复。
+
+后证raw：0769, 0770, 0773, 0774
+
+## v04-thread-015 粮道与护粮战区
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：14
+
+终点：partial；审计领域：logistics-and-bounded-battle
+
+743前粮队被截、761/766李护粮队战死与陆夺千粮返城是各自结果；769—773晨曦守成/MVP及李回归已有后证，不再停于战时危机。没有全城每军库存/人人饱食清册，不能从保城倒推所有物资无损/每批皆送到；这项明细未知也不自动构成作者忘记某个必回收伏笔。
+
+后证raw：0743, 0749, 0761, 0766, 0769, 0770, 0773
+
+## v04-thread-016 复仇者挟持与烛知情度
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：15
+
+终点：partial；审计领域：coercion-and-knowledge-attribution
+
+763外视角给复仇者抢功/挟持的实际政治动作，773论坛报告17小时灼热败、烛等阵亡，事件后果已更新。烛是否事前明知/默认该次挟持仍无独立亲令或自认；1315他承听风失管是另一次现实组织事件，不能拿后来承责为旧773动机盖章。何猜与陆评保为推断，不能写全部共谋已证或烛全不知。
+
+后证raw：0763, 0773, 0782, 1315
+
+## v04-thread-017 维多次脱险后的实杀
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：16
+
+终点：answered；审计领域：game-death
+
+先前撤逃/无敌/幸福时光代换并未杀维，769陆符印才实际游戏杀；782战后会面复活，终点不能写永久或现实死亡。末卷维再死/删号报告是另一次事件，不倒改本次过程。
+
+后证raw：0736, 0760, 0769, 0782, 1588, 1589
+
+## v04-thread-018 李的护粮牺牲与神将
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：17
+
+终点：answered；审计领域：promotion-and-game-death
+
+李第2神将实际触发、护粮三英雄斩首后真实游戏死，战后回归带练毁港已有回收。后末卷成神/持杯进一步反证不能把护粮“牺牲”当现实死亡。
+
+后证raw：0761, 0766, 0773, 0790, 1526, 1609
+
+## v04-thread-019 神泣一次性与有限恢复
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：18
+
+终点：answered；审计领域：single-use-rule-and-limited-restoration
+
+769神泣真实清号、774有限复号分字段、780明确神泣不可再用，本规则与恢复范围已有明确回答；794主请求别再用不等新获得一次，也未本战再用。此后重新练级/1514成神是新成长，不撤曾清掉的等级装备/声望损失，不能凭后来强大写复号当时全返。
+
+后证raw：0769, 0774, 0780, 0794, 1514
+
+## v04-thread-020 北境协议与永爱诱局
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：19
+
+终点：answered；审计领域：pact-and-reported-war-outcome
+
+782无系统强制的北境协议与其后海袭实际并存，790—791不能用黑海守胜替永爱判胜；797李承风报告烛龙攻永爱被退，改取下辖望天次城归天风并刷新，给原未结永爱局具体后结果。只按盟友调查报告层记录，未编主亲见城战或把望天误作永爱已征服，也不将一次后果推广成条约永久有效。
+
+后证raw：0782, 0784, 0790, 0791, 0796, 0797
+
+## v04-thread-021 黑海拦截与毁港
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：20
+
+终点：answered；审计领域：bounded-naval-war
+
+千舰直播毁灼港、守方残舰返己港与黑海系统胜结都有行动/公告，黑海拦截本战已答。永爱另一战区不随之判同胜；港口后来重建或政权另变不扩进本条。
+
+后证raw：0790, 0791
+
+## v04-thread-022 霸王再攻与雪银召骑
+
+原卷：4；原记录：writing-vault/library/reports/tianxia-wushuang/vol04-graph.json；原序号：21
+
+终点：answered；审计领域：mounted-counterattack-and-defense
+
+794明确召出的近万为紫龙骑并已反冲，林仍骑冰镰、克里斯为150级宠；795李迂回切退成为实战，796系统因攻方不足确认暗月守胜。原末正在召骑/近三小时未结两悬口均关闭；本次城仍9级，935另奖才10，不能把预期升10前置给796。
+
+后证raw：0794, 0795, 0796, 0935
+
+## v05-question-001 九虎顶锁魂盒中的万魂是否实际释放？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：0
+
+终点：unrecovered；审计领域：specific-soul-release
+
+九魄/转任务/取首交付均已成，但后卷没有九虎顶原魂盒开盒放万魂的特定行动回执。1469解盅少女及运输魂属另一器物/任务，不能用同为放魂替旧盒清账。
+
+后证raw：0803, 0858, 0886, 1469
+
+## v05-question-002 特兰炼狱眼是否关闭、旧帝是否光复？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：1
+
+终点：partial；审计领域：portal-and-restoration
+
+1202官方给云栈参与神隐重建后证，王国恢复有推进；但不是卷五特兰炼狱眼关闭的动作/系统回执，也未独示其七塞百万军全返光复旧地。相近复国不替具体传门任务。
+
+后证raw：0876, 0885, 0886, 1202
+
+## v05-question-003 狄傲罗劫财逃西后的结果？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：2
+
+终点：unknown；审计领域：fugitive-fate
+
+狄傲罗带五千与财物西逃、侍卫报叛是原末点；后续未找到该人被捕/追款/处分的明确结答，不因白马父女死亡或其他官案给他定终局。
+
+后证raw：0853, 0854, 1328
+
+## v05-question-004 奥维亚被弃粮、密约、爱苏与十英雄屠杀旧史可信度？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：3
+
+终点：unknown；审计领域：historical-testimony
+
+奥维亚旧史仍分本人证词、苏回忆与装备简介；后续苏菲入盟/存活和炼狱新战没有独立重演补全密约/爱苏/十英雄屠杀。净魂复体不使全部证词自动真或假。
+
+后证raw：0880, 0884, 0986, 1198
+
+## v05-question-005 寒夜镇屠杀与卡兰斯隔离/烧盗的责任？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：4
+
+终点：partial；审计领域：historical-responsibility
+
+母亡体尚存反证烧灰一项、苏母灵告别与卡兰斯被杀均已成；卡只隔离/烧盗的自辩未被独立全证，后来的卡兰龙骑队长是另一人，不能以其伤亡替旧责任结案。
+
+后证raw：0983, 0984, 0986, 0987, 1268
+
+## v05-question-006 苏母房间保留、苏最终归宿与对林纳的战斗？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：5
+
+终点：partial；审计领域：sophie-ending-and-room-promise
+
+苏后与卡琳互保、仍控紫葡萄有后证；林纳1503被击退仍活，苏没有明确终归母房的场面。保存房间的承诺不等已经完成最终归宿。
+
+后证raw：0987, 0988, 1202, 1503, 1596
+
+## v05-question-007 追影实际穿戴何时、何艺特兰盾等？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：6
+
+终点：partial；审计领域：item-delivery-vs-equipping
+
+何0907实用特兰盾可闭该交付；林后来高于155级不独证何时穿原追影，后得斩风/换逐日披风也是别物。追影确切穿戴镜头仍未找到，不用等级资格代动作。
+
+后证raw：0796, 0907, 1461, 1462
+
+## v05-question-008 红唇千骑换永久千法是否履行？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：7
+
+终点：partial；审计领域：resource-exchange
+
+千法已借用与400万资源实付保存；一月后千龙曜给红唇的特定交付未找到。后两会共同国战及新马铁供应不能替原交易逐项履约。
+
+后证raw：0889, 0890, 0943, 1162, 1563
+
+## v05-question-009 林藏事与主何林关系最后协商？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：8
+
+终点：partial；审计领域：romance-and-disclosure
+
+林早藏事的具体全因未被一段明确自述回收；后陆林多次相爱/林主动抗原、何持续照护均有行动，但终点没有婚礼或三方统一协议。情感更明不等旧哭因与多伴条款全闭。
+
+后证raw：0904, 0974, 0993, 1197, 1595, 1596, 1609
+
+## v05-question-010 主与乱是否返苏、回国后首见林之约？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：9
+
+终点：partial；审计领域：return-and-first-meeting
+
+1195—1197陆乱真实返苏，关闭新疆回程；世界赛先前归苏是另一旅程。1197林与众接风/回校有后证，但无严格“回国第一眼只先见林”的独立履约回执，不用群体团聚全代私约。
+
+后证raw：0976, 0998, 1020, 1195, 1196, 1197
+
+## v05-question-011 父亲是否知道三年前报名费/七夜地铁真相？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：10
+
+终点：unknown；审计领域：family-knowledge
+
+父听到的首轮淘汰与陆内叙未报名/七夜地铁为不对称知识；1342家庭相见及1591赡养卡未给向父完整坦白此旧事的明证，终点仍不定他已知。
+
+后证raw：0892, 0894, 1342, 1591
+
+## v05-question-012 何艺方案纯利、上市与俱乐部另奖是否到账？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：11
+
+终点：partial；审计领域：business-and-prize-ledger
+
+方案/合同真验签和国内各200万入账保持；五亿纯利、上市筹备、俱乐部另奖与白马分款未找到同笔到账回执。1512供应讨论/后CEO身价不是旧雨立方利润表或上市公告。
+
+后证raw：0855, 0857, 0911, 0934, 0941, 1512, 1596
+
+## v05-question-013 股份、辞总、春游等附条件愿望？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：12
+
+终点：partial；审计领域：shares-and-conditional-life-plans
+
+雨立方早期何50/陆慕北10与卷五何10现说需保阶段来源，没有新股转过程解释；辞总/分红/春游为附条件愿景未见特定回执。后月恒25%是另一公司/合同不清旧愿。
+
+后证raw：0947, 0973, 0995, 1512, 1526
+
+## v05-question-014 南宫月薪/副职与训练兑现？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：13
+
+终点：partial；审计领域：recruitment-and-pay
+
+南宫乐兮已入/参与国战，后仍在雪银照林与接待有持续归属；具体月薪逐笔发放、副职正式任命/练到北水准没有独立证明，不把后来熟练等于原训练目标完全达成。
+
+后证raw：0925, 0951, 1048, 1594, 1595
+
+## v05-question-015 月光石不向古剑施法与返门？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：14
+
+终点：partial；审计领域：return-and-future-vow
+
+1314本人愿离烛龙、1315救出与1324回归后为古剑法师，1413/1526在会实活动，返门已有后证；永不向古剑施法之全未来誓无法由有限场面穷证，保承诺层。
+
+后证raw：0837, 0900, 1313, 1314, 1315, 1324, 1413, 1526
+
+## v05-question-016 冰火/神骨守旧承诺具体对象与旧部迁入？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：15
+
+终点：partial；审计领域：old-loyalty-and-migration
+
+水云是七星妹妹、1582冰火维护七哥为旧情后证；1571魂归骨干换古徽成为独立分盟，迁入/改组已发生。但原守旧承诺的逐项内容未全述，1592搬基地也只是安排。
+
+后证raw：0908, 0944, 0945, 1571, 1582, 1592
+
+## v05-question-017 战天北方联盟领袖/红馆新领与三分盟？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：16
+
+终点：unrecovered；审计领域：leadership-and-alliance-promises
+
+战天后来多次领军与参与国战可证能力，不能替北29城联盟正式推领袖；红馆新领与转三分盟亦未找到对应系统交割回执，不把互助战斗当这笔组织交易已成。
+
+后证raw：0906, 0919, 0961, 1570, 1593
+
+## v05-question-018 WEL后的私约/报复是否发生？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：17
+
+终点：partial；审计领域：multiple-duels-and-revenge
+
+红枫侵浮冰及谷战真死有回收，泪后天荒/灼热战、清追主林亦有实际敌对；但李离十局、删血色号、越山夺暗月等特定叫阵未都得到对应回执，1543两局陆离也不是李离十局。
+
+后证raw：0899, 0944, 0955, 0956, 0971, 0999, 1058, 1543, 1585
+
+## v05-question-019 浮冰主城何时由NPC重夺重建？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：18
+
+终点：unrecovered；审计领域：specific-city-reconstruction
+
+后来白玫要塞1112明确重筑、1202是神隐重建，均非浮冰原主城的NPC申请/重夺重建回执。终点未找到该具体动作，不用整个中国恢复替浮冰清账。
+
+后证raw：1018, 1019, 1058, 1112, 1202
+
+## v05-question-020 上古神龙何时到100可骑与以后未知阶段？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：19
+
+终点：answered；审计领域：mount-growth
+
+1077九人击杀后龙实际100并骑飞/呼风雨，1182实150铠化，1461系统200悟神期。各阈值有后证，不把卷五83成长倒写已经能骑，也不保证面板外所有未知阶段。
+
+后证raw：0994, 1045, 1077, 1182, 1461
+
+## v05-question-021 暗月1000骨龙城防是否经国战攻击检验？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：20
+
+终点：answered；审计领域：city-defense-tested
+
+1177陆实际调暗月千骨龙毁重甲器械/逼野王撤，1596李再报千龙出守退清；城防已有实际检验，不等每次无损或全世界不可破。
+
+后证raw：0989, 1007, 1177, 1596
+
+## v05-question-022 国战最终MVP与具体物品/个人奖？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：21
+
+终点：answered；审计领域：reward-denial
+
+1064乱月明确陆积分高、第二仅56%却因被剥身份失去该次奖励资格；洛神/连分别得寒武物。上古神器只是她若能领奖的推测，不能借后次MVP奖追补本次神器。
+
+后证raw：1045, 1058, 1064, 1194
+
+## v05-question-023 生死谷古剑五万人重练、装备回收与赔偿？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：22
+
+终点：partial；审计领域：retraining-and-compensation
+
+1061重练已实开、1068五百装实交乱月，1086李140/天堂132实参战，后高等级作战可证个人恢复；唐虚拟部补偿未有五万人逐人实款/全装备回收表，不说原损失已全偿。
+
+后证raw：1050, 1057, 1061, 1068, 1086, 1590
+
+## v05-question-024 谷里雪杉万/红唇十万/人间等非古剑守军存亡？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：23
+
+终点：unknown；审计领域：allied-casualty-scope
+
+原五万归零指古剑，其他会出征人数不能自动套同规则结局；后部分个人重现并无谷里全部非古剑十六万以上逐人存亡表，不补全体归零或无损。
+
+后证raw：1049, 1050, 1057, 1061, 1197
+
+## v05-question-025 剥籍后主下一步去向、官介可否撤回？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：24
+
+终点：answered；审计领域：exile-and-restoration
+
+陆先谷中在野/被踢，后外域建组织；1194系统中国徽与资格实际恢复，1197现实返苏。阶段去向/能否撤回已答，亲密好友值仍需重练不伪称所有损失复原。
+
+后证raw：1058, 1060, 1068, 1173, 1194, 1197, 1199
+
+## v05-question-026 唐禁收留与25%归城协议执行？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：25
+
+终点：partial；审计领域：authority-and-unaccepted-agreement
+
+25%归城提议被毁徽打断未成交易；1064仍传禁援威胁、1086多会实际救援并无全被逐，1194陆复籍且唐案后判终身消息。禁令未全执行与未签收益协议分开。
+
+后证raw：0941, 1058, 1064, 1086, 1194, 1328
+
+## v05-question-027 外部断阵与印援终局？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：26
+
+终点：partial；审计领域：external-front-and-force-scope
+
+原俄/战破阵消息与1058中国胜可证战术目标推进；后来两城仍能出军/再战，不能将其当四千万都杀尽或传送永久停用。敌援最终逐人去向无全表。
+
+后证raw：1048, 1049, 1058, 1193, 1585, 1586
+
+## v05-question-028 卷末未单独报死亡的具名伙伴？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：27
+
+终点：partial；审计领域：named-survival-and-original-death
+
+1060李天堂现实通话反证谷死非现实死，后连明北等继续作战有后续存活；但不补1056—1058每名同伴的未报死法/具体游戏战损。后活不等原战全程未死。
+
+后证raw：1056, 1057, 1060, 1061, 1197, 1590
+
+## v05-question-029 乱表哥毒赌/报复与保护？
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-analysis.json；原序号：28
+
+终点：unknown；审计领域：threat-and-family-fate
+
+乱表哥索钱辱骂/主殴与乱求止已成，毒赌部分是乱陈述；后没有该次找人报复真正发生或司法侦结回执。乱后归苏和受照护不反证威胁必假。
+
+后证raw：0992, 0997, 0998, 1197
+
+## v05-thread-001 九魄已集与魂盒释放未示
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：0
+
+终点：partial；审计领域：quest-vs-soul-release
+
+集魄/转神级与交首结算已闭，但原九虎顶魂盒群魂释放没有独立回执；1469另一盅魂不能同名义代偿，保原任务结与旧承诺未示。
+
+后证raw：0803, 0858, 0886, 1469
+
+## v05-thread-002 法师缺口与连昕回归
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：1
+
+终点：answered；审计领域：return-and-organization
+
+连昕正式转籍、归国入古剑及后副职实际指挥已兑现法师核心回归。千人覆盖/训练仍需要组织供给，不能把她回归当所有法师缺口永久解决；关系上连后来明确最亲人而非主女人。
+
+后证raw：0856, 0858, 0889, 1463
+
+## v05-thread-003 白马弑君与毁约
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：2
+
+终点：answered；审计领域：promise-failure
+
+柏丽/父王真实死、弃城中国胜与连殿后归队均已发生；主对柏丽不杀父的承诺是明确未守，而非未知或因胜利被重新算履行。狄傲罗携财逃的结局另列未明，不能随城战成就补追讨。
+
+后证raw：0854, 0856
+
+## v05-thread-004 取首主线与云续命
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：3
+
+终点：answered；审计领域：mission-and-life-state
+
+奥维亚死亡/取首任务正式结，云栈误认已死后由呼吸生命波动与植龙心续命回收；不是魂灭后无条件复活。特兰眼关闭/光复的后续独立，不以任务奖励代答。
+
+后证raw：0884, 0885, 0886
+
+## v05-thread-005 苏仇与母灵救赎
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：4
+
+终点：answered；审计领域：belief-correction-and-faction
+
+母亡体仍存反证烧成灰、母灵枯与苏告别/系统入银月均有后证；本条转盟与母灵救赎已收。卡兰斯历史全责仍未全证、0984真被苏杀不因其转盟抹去；苏后仍活守人界。
+
+后证raw：0984, 0986, 0987, 1513, 1596
+
+## v05-thread-006 国内/国际两冠与王城
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：5
+
+终点：answered；审计领域：competition-and-reward
+
+国内3:1魂归、世界3:0英雄、主两阶段MVP与奖励选A王者之城均有明确系统/动作。保小局真败和队友贡献，不能把两冠扩为全员从不失分；末第二季主队淘汰是新赛事，不撤旧冠。
+
+后证raw：0934, 0935, 0970, 0974, 1606
+
+## v05-thread-007 千法借约改千骑交易
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：6
+
+终点：partial；审计领域：resource-exchange
+
+千法实际借用、400万资源实付为既成；后改约一月千骑未找到专门交付，持续联战不等旧借约永久交换全兑。
+
+后证raw：0890, 0943, 0978, 1563
+
+## v05-thread-008 何林双亲密与尚未协商的关系
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：7
+
+终点：partial；审计领域：romance-and-multiple-agreement
+
+爱林与何互吻的关系持续，林抗原/赴美、何照护均有后证；原藏事并无全因明确解释，亦无三方婚约或多伴协议。后记强指陆林不倒抹何的亲密与未协议边界。
+
+后证raw：0904, 0974, 0993, 1595, 1596, 1605, 1609
+
+## v05-thread-009 父辈与现实陪伴
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：8
+
+终点：partial；审计领域：family-presence-and-open-knowledge
+
+春节/药/生日/扫墓已实际完成，1197归苏亦闭；父是否获报名真相、乱表哥是否真报复仍无后证，1591五亿保管不替家庭沟通或旧债。
+
+后证raw：0892, 0894, 0942, 0998, 1197, 1591
+
+## v05-thread-010 幼神龙的成长时延
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：9
+
+终点：answered；审计领域：mount-growth
+
+幼龙成长时延后1077实100骑飞，1182实150铠化、1461实200悟神，保每阶段门槛/代价，不因末强删早期不能骑的紧张。
+
+后证raw：0976, 0992, 1045, 1077, 1182, 1461
+
+## v05-thread-011 浮冰灾难至紫葡萄国战正式胜
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：10
+
+终点：answered；审计领域：bounded-national-war
+
+紫葡萄君主死、徽碎/荒废、中国胜与15日不可攻是正式结算，关闭本次国战胜负。浮冰/白玫瑰灾损和五万谷守归零另保，不能把本次胜判为无代价全图经营完成。
+
+后证raw：1019, 1042, 1058
+
+## v05-thread-012 红枫对地形的部署与最终谷亡
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：11
+
+终点：answered；审计领域：game-death-and-strategy
+
+红枫多次借地形逃后离城袭谷、系统杀李，天堂雨系统杀红已证，关闭本次最终谷亡。末卷红枫已成神且再参战说明此为游戏本次死亡，不是永久或现实死亡。
+
+后证raw：1017, 1043, 1055, 1057, 1058, 1530, 1579
+
+## v05-thread-013 归零代价与不负的承诺
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：12
+
+终点：partial；审计领域：sacrifice-and-material-repair
+
+归零牺牲与主胜战回应誓均原成；1061实重练/1068实送装、1086部分骨干恢复到140/132证明修复在做，但没有五万人补款/物件全回清单，不将不负誓言算物质偿尽。
+
+后证raw：1050, 1057, 1058, 1061, 1068, 1086
+
+## v05-thread-014 宴会官员到正式剥籍
+
+原卷：5；原记录：writing-vault/library/reports/tianxia-wushuang/vol05-graph.json；原序号：13
+
+终点：answered；审计领域：authority-and-judicial-update
+
+逐籍真发生后1194复籍、1197现实返苏；唐1196被捕、1328乱月转述终身监禁为后来判决消息。不能停在卷五去向未知，也不把角色报告伪装成亲见判决书。
+
+后证raw：0941, 1058, 1194, 1196, 1197, 1328
+
+## v06-thread-001 放逐、替代组织与复籍
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：0
+
+终点：answered；审计领域：game-citizenship-and-travel
+
+1194游戏玩家中国身份恢复与1197—1199现实回苏均成，原逐籍/放逐归来有明确后证。它不是现实国籍曾被剥夺，亦不意味保护伞所有成员自动改籍或旧亲密无需协商。
+
+后证raw：1194, 1197, 1199
+
+## v06-thread-002 莫娜营地与马铁供应
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：1
+
+终点：answered；审计领域：production-and-supply
+
+图谱、材料采运、实际马铁批装及防供应线完成初建，证明供给闭环从计划转行动。只关闭本次初建，不给往后永不遇袭或无限产能保证。
+
+后证raw：1151, 1162, 1164, 1167
+
+## v06-thread-003 保护伞的自治与义援
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：2
+
+终点：partial；审计领域：autonomous-alliance
+
+1219已明确吻痕现为保护伞盟主；1571她带七十万自愿义援，1572意见改变陆部署。组织自治/义援有延续，非中国国籍或古剑正式并会，未来无限服从不证。
+
+后证raw：1219, 1235, 1571, 1572, 1596
+
+## v06-thread-004 行云雇援与霜风终占
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：3
+
+终点：unrecovered；审计领域：specific-territory-timer
+
+1143战胜后尚余17小时，后续行云仍活动/保霜风优势未给本次24小时终占系统回执。她抢剑或攻别城不能代偿该特定领地计时。
+
+后证raw：1143, 1270, 1575
+
+## v06-thread-005 血佣假退的知识差
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：4
+
+终点：answered；审计领域：knowledge-correction
+
+1147何艺当面说明血佣假叛离是命令，动机被揭；陆此前不知仍是历史知识差，不能因为后知道就把早疑虑删掉。
+
+后证raw：1147
+
+## v06-thread-006 S3成长与赌款
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：5
+
+终点：partial；审计领域：dungeon-and-bet-ledger
+
+S3套装/斗气/守护刃的成长成果已成，后更强装备不抹这段；四份赌款未找到各笔实际到账，不能以主后富/其他拍卖净收冲销。
+
+后证raw：1160, 1161, 1208, 1511
+
+## v06-thread-007 保天空王权而非当场保城可用
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：6
+
+终点：answered；审计领域：bounded-rescue-and-city-return
+
+卡琳五龙实际救出，天空先7日君分后1221实回，神隐1202官方收/天风1223归；保王权与当时城不可用分段均有结果。NPC胜后群体恢复限各次奖，不能反说前阵亡全永久或全从未亡。
+
+后证raw：1192, 1194, 1202, 1221, 1223
+
+## v06-thread-008 唐龙现实司法进度
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：7
+
+终点：answered；审计领域：judicial-update-by-report
+
+卷六已捕/待公审属正确快照；1328乱月明确转述唐龙终身监禁，司法结果有后消息。保为角色报告，赃款是否全追/境外冻结未因此补成。
+
+后证raw：1195, 1196, 1217, 1328
+
+## v06-thread-009 陆何逸北慕的关系边界
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：8
+
+终点：partial；审计领域：relationship-and-consent
+
+林自陈抗原/现实选陆、何持续照护/临别约、北明表爱/慕主动吻均有后续行动；终点仍无各方统一婚/多伴规则，林赴美不自动解决何北慕的全部关系。
+
+后证raw：1230, 1250, 1595, 1596, 1605, 1609
+
+## v06-thread-010 账号一次遗迹与古技取得
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：9
+
+终点：answered；审计领域：skill-acquisition
+
+陆SSS轩辕实际学成第四天河，李1250实际SS赤霄与诸队部分学技均有证，关闭各已展示古技取得。辅助者或其他队员未逐一完成不能由群体推进自动补成。
+
+后证raw：1210, 1217, 1218, 1221, 1250
+
+## v06-thread-011 玄女融剑未来醒否
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：10
+
+终点：unknown；审计领域：spirit-awakening-and-hostile-remnant
+
+玄女融剑沉睡已成，1461九州进轩辕可证武器阶段成长，却未明她醒来或蚩恶灵永灭；不能以终形称谓替灵魂苏醒回执。
+
+后证raw：1215, 1216, 1461
+
+## v06-thread-012 谁的交换与未来守城诺
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：11
+
+终点：partial；审计领域：exchange-and-future-vow
+
+双方SS交换/赴会原已兑现；以后的守城/终身约束没有一份全程履行清单。有限终点不能验证终身永诺，也不因未叙认背约。
+
+后证raw：1210, 1219, 1609
+
+## v06-thread-013 天风热沙反攻与日落分化
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：12
+
+终点：answered；审计领域：bounded-national-war
+
+天风归中、1235热沙归中、日落韩实际接管/英德退与1239本次72h系统胜均有后证。只结当次反攻与分化，未扩成其他服务器永久臣服。
+
+后证raw：1223, 1235, 1238, 1239
+
+## v06-thread-014 现役工资新制与首款
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：13
+
+终点：partial；审计领域：institution-and-payment
+
+官网新CGL排名/工资制度确出，1525/1592等组织活动不能代首笔薪水到账；前千额外奖金也未有对应流水。制度已成、现金未独回执。
+
+后证raw：1196, 1220, 1238, 1525, 1592
+
+## v06-thread-015 玄冥赠北、爆落与返还
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：14
+
+终点：answered；审计领域：lost-property-return
+
+玄冥奖弓已赠北，艾战爆落由陆拾且实际还北，闭合此轮失而复得。末卷玄冥继续北用可互证，不因后来另一弓交易而误把此弓归别人。
+
+后证raw：1239, 1261, 1578
+
+## v06-thread-016 SSS寻斩龙剑
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：15
+
+终点：answered；审计领域：mission-delivery
+
+1272斩龙剑作为任务物实际交雪薇并系统结，任务验收已成；1273后来再被夺另开追剑线，不回撤已发生奖励回执。1455卡实献冰说明后产权继续流转，但中间具体辗转不能补全。
+
+后证raw：1272, 1273, 1455
+
+## v06-thread-017 验收后斩龙剑再失
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：16
+
+终点：partial；审计领域：recovered-object-and-missing-route
+
+1455卡琳令取并实际交斩龙剑、冰兰接认，可闭合旧失物最终再现；雪薇/索怀疑拾荒者受卡指使仍推断，1273到卡手的具体路程未全证。
+
+后证raw：1273, 1455
+
+## v06-thread-018 三魂验收与救赎背约
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：17
+
+终点：answered；审计领域：mission-and-betrayal
+
+三魂已收交/SS奖励已成，林浅吞魂且承骗，约定救赎明确没有照原意完成；任务成与承诺败均有结果。不因吞魂词就宣布三魂永久灭，后去向缺明证另保。
+
+后证raw：1262, 1264, 1265
+
+## v06-thread-019 100骑射训练承诺
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：18
+
+终点：unrecovered；审计领域：specific-training-contract
+
+十万补偿已付与100骑射需战天自备资源的约定分开；后有二百友训/别批龙骑不能证明原百名/资源已实际训练，未找到该笔对应回执。
+
+后证raw：1263, 1264, 1341
+
+## v06-thread-020 明宇借林浅体与续命米
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：19
+
+终点：partial；审计领域：borrowed-body-and-later-deaths
+
+1452心然斩米头、1453明踩毁；1456大圣者取明宇心/破神格化尘，两者后死已明。林浅自身魂/意志仍未交代，不由借体者死自动补原主获救或也死。
+
+后证raw：1268, 1273, 1280, 1452, 1453, 1456
+
+## v06-thread-021 卡兰守护与回魂恢复
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：20
+
+终点：partial；审计领域：injury-recovery-and-affiliation
+
+卡兰后1452请单挑战米且1457请冰活着重建、1467邀同行，明确仍活并参与；没有失肢重塑/完整伤愈过程。正式天空归属有1452当章后证，不能维持全书从未入军。
+
+后证raw：1268, 1273, 1452, 1457, 1467
+
+## v06-thread-022 血盟幕后雇主
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：21
+
+终点：unknown；审计领域：early-employer-and-payment
+
+血盟与暗佣/炼狱后期合作有1301/1350现场线索，不能反推1281逐人十万悬赏必同雇主。完整委托人/该笔赏金到账仍未明，不由谁获益定罪。
+
+后证raw：1281, 1282, 1291, 1301, 1350, 1351
+
+## v06-thread-023 长生刀得主与爆落风险
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：22
+
+终点：answered；审计领域：historical-possession
+
+1264—1291战天实得长生刀、多次危/真死而刀未爆，关闭该阶段持有争议，不归陆或烛。末卷1575战被行云杀而爆刀是后续新变化，不能把卷六安全延成全书永久不掉；再转谁须按后证另查。
+
+后证raw：1264, 1270, 1291, 1575
+
+## v06-thread-024 菲盖真身与妻龙误认
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：23
+
+终点：answered；审计领域：identity-reveal-and-death
+
+菲盖真实变斯特、锁龙被认妻，1291陆对妻龙真正终杀，身份误认与本次死局已明确。冷尸/谁屠众的互斥字面仍是源疑，不能因真身揭晓把全套旧叙都统一成可信历史。
+
+后证raw：1290, 1291, 1293
+
+## v06-thread-025 龙心SS与真斯特战
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：24
+
+终点：partial；审计领域：boss-death-vs-quest-handin
+
+1295实际杀斯特有九君王系统奖励，但公告不是龙心SS交付；本次复读整章未见取心交委托/该SS结算。主线怪已死，不能据战奖替具体交心任务回执。
+
+后证raw：1287, 1293, 1295
+
+## v06-thread-026 心然互救和断腿伤情
+
+原卷：6；原记录：writing-vault/library/reports/tianxia-wushuang/vol06-graph.json；原序号：25
+
+终点：partial；审计领域：injury-and-two-world-recovery
+
+1298醒仍缺腿，1311腿长出/97%后新囚伤，1504活返人界；现实1508才睁眼并渐练走。互救已有行动，原断腿不是假、100%伤愈与新伤/现实肌力不可互代。
+
+后证raw：1292, 1293, 1298, 1311, 1504, 1508, 1524
+
+## v07-question-001 董欣然现实是否苏醒、心然如何接受另一世界？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：0
+
+终点：partial；审计领域：real-awakening-and-adjustment
+
+1506心表怕醒后无哥哥，1507抓手发声未睁、1508才实睁眼相认，1512签字/1524练走/后记受护寻主。现实醒已闭且逐步接受生活，非1504哭即已醒或现实完全独立/全部心理已解。
+
+后证raw：1504, 1506, 1507, 1508, 1512, 1524, 1609
+
+## v07-question-002 陆尘紫鳞紫血/乏晕与林所知究为何？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：1
+
+终点：partial；审计领域：illness-and-earlier-knowledge
+
+1589杜父解释林血清抑制一年多后变种抗性，后样本/药效/衰退链将紫症接现实冰毒病变；但1317当时化验正常与林早哭所知没有逐句完整揭底，不把后知倒填全员原已知。
+
+后证raw：1317, 1322, 1586, 1589, 1595, 1599, 1608
+
+## v07-question-003 一年身体正常后亲密/旅游的条件是否兑现？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：2
+
+终点：partial；审计领域：conditional-intimacy-and-travel
+
+互爱/同被已成，1609赴美与加州匿名生活强暗示陆林亲密/生还；没有“一年正常”已完整过去的时间回执，也无原条件旅游/性生活的实名逐项履约，不能将暗示倒填1319。
+
+后证raw：1319, 1322, 1398, 1596, 1609
+
+## v07-question-004 何林与主多方长期关系是否已协商终定？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：3
+
+终点：unknown；审计领域：multiple-partner-agreement
+
+何林亲密、互助与林独陪赴美均明确，但未见三方婚约/排他或多伴统一条款。北连仍最亲者称谓、明月深吻不等同意共同关系制度。
+
+后证raw：1319, 1463, 1499, 1595, 1605, 1609
+
+## v07-question-005 心然龙神伤后是否100%完全恢复？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：4
+
+终点：partial；审计领域：game-injury-recovery
+
+失腿/长出/97%与后神战实有，1504新囚伤仍休；1558心述苏十击未破伞可证能力恢复使用，不是100%旧伤/新伤统一医学结算，更不反证原伤假。
+
+后证raw：1295, 1311, 1504, 1558
+
+## v07-question-006 奥丹七日神力代价是否全部恢复？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：5
+
+终点：partial；审计领域：odan-recovery
+
+奥丹1492未死、1504活入紫罗兰并有落脚，七日耗力后仍不能飞/腿弱；终点未给全神力复原回执，不以她不再出场判死亡或永久残疾。
+
+后证raw：1492, 1493, 1501, 1504, 1609
+
+## v07-question-007 蒂雅在雷鸣穿胸坠坑后存死？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：6
+
+终点：unknown；审计领域：named-npc-fate
+
+蒂雅1425穿胸坠坑原叙未知死活，后文未找到具名救治/尸体/系统死亡回执；远征胜与其他NPC群奖不能单独派她复活或死亡。
+
+后证raw：1425, 1426, 1461
+
+## v07-question-008 听风旧罪调查与现实追责是否落实？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：7
+
+终点：unknown；审计领域：sexual-accusation-and-justice
+
+月1315已救出，李找黄局是请求调查；后没有听风拘捕/起诉/审判回执。47女指控仍来自人物，不因游戏烛宣战或月返会当司法证实。
+
+后证raw：1312, 1315, 1324, 1444
+
+## v07-question-009 上官婉儿本人康复/不诉决定与吕王追责？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：8
+
+终点：partial；审计领域：survivor-agency-and-justice
+
+1519婉与猪删旧号、1522本人现实赴约/新号弓手、1524实带练，证明她有后续自主活动；临床康复/不诉决定完整本人叙述及吕王司法处理仍未示，游戏复仇不替这些。
+
+后证raw：1372, 1408, 1444, 1519, 1522, 1524
+
+## v07-question-010 猪与北境八周斩铁、钱装及不干预约是否全履？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：9
+
+终点：partial；审计领域：conditional-resource-contract
+
+首批斩铁/盟权实用已明；1519暗佣挑战获胜、猪随后删号重练改变组织阶段。八周十万、10亿仓/5万装全量交割未给，北境不干预还附交换十会条件，不能写无条件自由全兑。
+
+后证raw：1375, 1376, 1382, 1499, 1519, 1522
+
+## v07-question-011 小小猪复仇是否全部终结？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：10
+
+终点：partial；审计领域：revenge-and-rebuilding
+
+首挑战、夺镇天/拔地属原成果，1519炼狱被挑战解散、1522新号另起也是后阶段；未见吕王现实判罚或婉临床全康，猪1516还被烛杀，不能宣全部仇已终结/未付代价。
+
+后证raw：1420, 1435, 1444, 1463, 1516, 1519, 1522
+
+## v07-question-012 魂归战袍加入暗佣的协议/后挑战？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：11
+
+终点：partial；审计领域：temporary-membership-vs-merge
+
+1519—1520魂归旧部徽归魂归、与古剑先结盟，1571才全骨干换古徽为独立分盟；首战名单不证明1435已永久并暗佣。旧参战协议细则/所有余令目标仍未全列。
+
+后证raw：1435, 1442, 1519, 1520, 1571
+
+## v07-question-013 早血盟雇主与完整委托链？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：12
+
+终点：unknown；审计领域：early-employer
+
+1301抢周鞭与1350后合作现场不能倒证早期一笔必由同雇主；1511周另鞭交易也不揭旧委托。完整委托/付款链未有特定后证。
+
+后证raw：1301, 1310, 1350, 1351, 1511
+
+## v07-question-014 古剑四城收益/开放低费和后税兑现？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：13
+
+终点：partial；审计领域：city-policy-and-income
+
+1337系统四城30日/五千万全退，1343白银2元传送为低费行动后证；长期税费/各日净收益无全账，1591四征服税增是末卷别批城不能清旧30日收益。
+
+后证raw：1336, 1337, 1343, 1591
+
+## v07-question-015 募幸新人观察期/两万分盟龙曜与友训是否全部成？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：14
+
+终点：partial；审计领域：training-and-observation
+
+1341已有四万圣法/二百友训等初成果，后续龙骑法团实际战显示扩编；但各5998幸新人一月观察、两万分盟后批逐一结业无回执，不能以资格/末大战人数倒证全员达标。
+
+后证raw：1339, 1340, 1341, 1342, 1546, 1577
+
+## v07-question-016 父养老别墅与更多陪伴是否实现？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：15
+
+终点：partial；审计领域：family-care-and-property
+
+父叔苏访/家餐/送站已成；1524新墅为工作室居住、1591五亿卡代保为若死赡养委托，并非原千万养老别墅已购/父叔实迁。更多陪伴愿景未被财物替完。
+
+后证raw：1338, 1342, 1343, 1524, 1591
+
+## v07-question-017 欧文车损是否实际赔偿/父商关系后果？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：16
+
+终点：partial；审计领域：car-damage-and-business-relation
+
+1595—1596欧再提三月前砸车且退出追求/广告被拒，关系后续有场面；原车损赔款未见实际转账，林父公司是否解约亦未给，不由欧服输推已清法律/商业账。
+
+后证raw：1320, 1398, 1595, 1596
+
+## v07-question-018 1128龙鳞剩料、三日500甲与单价报酬？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：17
+
+终点：partial；审计领域：manufacturing-and-pay
+
+1128鳞全交、345甲分发/穿有后证；余783及三日500是否达全量、每件一万制作者报酬未见实付。后大团强不补原批生产表。
+
+后证raw：1409, 1436, 1546
+
+## v07-question-019 小萌传媒合同与现实见北冥是否落实？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：18
+
+终点：partial；审计领域：media-contract-and-meeting
+
+小萌签名北实收、何谈妥为角色转述保持；终点未给传媒合同/付款或北现实见小萌的特定回执，其他演讲媒体活动不能代约。
+
+后证raw：1371, 1409, 1592
+
+## v07-question-020 瑟琳娜紫水离去后生活及旧记矛盾？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：19
+
+终点：partial；审计领域：rescue-and-unfinished-life
+
+1367紫死后石复、女咒醒/1368拒父同行明确，冥婚没办；往后生活、梦识与面板曾救的历史关系无新解释，不把成功救出等终身幸福已验证。
+
+后证raw：1365, 1367, 1368
+
+## v07-question-021 龙域百骑/蛋重建三五年后是否完成？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：20
+
+终点：partial；审计领域：dragonrealm-rebuilding
+
+1467幼龙孵化/百骑血契实启动，木石火魔石结界仍筹，3—5年成长未到回执；1609龙域未名241战士再访/冰兰提9000万透支显示仍经营，不证明成熟军/结界全建。
+
+后证raw：1455, 1467, 1609
+
+## v07-question-022 冰兰旧爱/斩龙剑辗转来源是否明确？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：21
+
+终点：unknown；审计领域：old-love-and-sword-route
+
+斩龙剑1455卡琳实交冰兰可证当前归属，拾荒者受卡命取仍雪索推；旧爱是否枯骨是冰忧虑，后记未名龙域战士不凭旧书映射补相认/剑的完整辗转。
+
+后证raw：1455, 1467, 1609
+
+## v07-question-023 卡兰对米迦勒的私仇及邀请冰同行？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：22
+
+终点：partial；审计领域：revenge-vs-personal-agency
+
+1452米由心然斩首，卡单战未成；1457卡请冰活着重建/1467邀同行，她仍选重建。仇敌死不等卡亲报仇，未有两人远行或恋爱回执。
+
+后证raw：1452, 1455, 1457, 1467
+
+## v07-question-024 圣盔/三主城收复与MVP最终奖？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：23
+
+终点：partial；审计领域：city-restoration-and-prize
+
+诸城后复有论坛/伙伴报告，维杀奥佩罗/得绝风由报告到1588实持可支持结果；完整各城重夺过程/本次活动最终MVP及奖未全示，不借末国战盘古奖替本场。
+
+后证raw：1459, 1463, 1477, 1486, 1499, 1588, 1589
+
+## v07-question-025 四神率军出后的逐名状态？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：24
+
+终点：partial；审计领域：four-commanders-fates
+
+琳达伤逃/奥佩罗被维杀仍依后报告，1588维实持绝风为物件后证；艾莉亚/卡佩拉无逐名死或救回结论，不能把四神出军全部套成已灭。
+
+后证raw：1459, 1486, 1499, 1588
+
+## v07-question-026 林纳最后是否死亡/未来反扑与复原机制？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：25
+
+终点：partial；审计领域：linna-survival-and-rule
+
+1504林纳确被冰击吐血退裂而未死，无心仍活/能量臂实景可定；一尘可复是自称未实测，1600论坛旧震冰不算新反扑或死亡，终点保活着败退的最后确态。
+
+后证raw：1459, 1496, 1503, 1504, 1600
+
+## v07-question-027 第五层未名神兽是否佩妮娜/是否被杀？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：26
+
+终点：unknown；审计领域：unnamed-beast-identity
+
+五层巨兽1504被断一掌仍活、无姓名面板；佩妮娜称号不能由层主/巨兽形象推同一。卷八未另揭名/击杀回执。
+
+后证raw：1489, 1504
+
+## v07-question-028 雷神提拉斯的旧指控与未来结局？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：27
+
+终点：unknown；审计领域：prisoner-and-testimony
+
+提拉斯1485—1486仍囚、主奥拒放未杀；其控奥屈服是敌对证词，后奥活返不独证旧事真假，亦无雷神获释/死亡后证。
+
+后证raw：1485, 1486, 1504
+
+## v07-question-029 解放魂盅的少女/运输众魂最终安全吗？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：28
+
+终点：partial；审计领域：soul-release-and-safety
+
+1469十九岁少女魂真放、1470运输众魂也放，行动已成；没有后镜头证每魂永久安全或炼狱捕魂系统全拆。旧九虎顶魂盒是另器，不互相结算。
+
+后证raw：1469, 1470, 1504
+
+## v07-question-030 狱内新物拟交是否实交/孵化？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：29
+
+终点：partial；审计领域：loot-delivery-and-equipping
+
+1506分青峰李/紫云北/炎神斗/帝海乱、凰蛋北，1511噬灵卖周，1514北已真骑凰/1517斗乱用器。多笔已交/孵有后证；紫云等逐件实穿未全展示，不将拟给何的旧方案写成末实配。
+
+后证raw：1506, 1511, 1514, 1517
+
+## v07-question-031 斩风换神烈补100万是否转？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：30
+
+终点：partial；审计领域：exchange-and-cash
+
+1461交换/1462双方实穿闭器物交割，林后来约百万购油是另一支出；全书未见原补100万实际转款，不用钱多或相爱抵清。
+
+后证raw：1461, 1462, 1466, 1609
+
+## v07-question-032 伙伴百品晶凝格结果/概率？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：31
+
+终点：partial；审计领域：progression-and-probability
+
+1514林首100失败/第二100成，1526李自述100一次成，1519何失败而1590列表后来已神；明/北又职业积分途径。成神结果可更新，统一固定概率仍无统计证，不用主1/100或25%猜作真率。
+
+后证raw：1472, 1499, 1514, 1519, 1526, 1562, 1578, 1590
+
+## v07-question-033 公主全族是否被屠、未来领地/称王？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：32
+
+终点：unknown；审计领域：royal-family-and-future-rule
+
+1502送亲队外军近千死、公主崩洞活可证；三万围谷/全族灭为夜自述无逐人核。心未来王者是评价，本书末没有公主全族名单、领地获封或登位回执。
+
+后证raw：1501, 1502, 1503, 1609
+
+## v07-question-034 龙骨枪折损后完整可用的修复？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：33
+
+终点：unknown；审计领域：weapon-repair-route
+
+龙骨枪1459折断/刺心，1502—1503后可重用有实景；何人/何时重铸或复原未解释，不能因能用补一段修复行动。
+
+后证raw：1459, 1502, 1503
+
+## v07-question-035 离狱时修油/药、满晶精确库存？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：34
+
+终点：unknown；审计领域：consumable-ledger
+
+起50油/2万药、多次维修/战用与后晶27/9皆按当场报数；全书无逐次完整流水，1506分物不列全部油药余额，不能算精确离狱存货。
+
+后证raw：1466, 1481, 1487, 1503, 1504, 1506
+
+## v07-question-036 书生找冰兰旧记与主脑权限结果？
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json；原序号：35
+
+终点：unknown；审计领域：cameo-intent-and-anonymous-ending
+
+1463电话想找冰兰旧记/自称无权查主脑，1500到基地不证已办；1609龙域241战士/书生ID未逐一实名，不能由前书认知强接“本人已见冰/获主脑权限”。
+
+后证raw：1463, 1500, 1609
+
+## v07-thread-001 龙神余波与照护恢复
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：0
+
+终点：partial；审计领域：injury-and-care
+
+腿由断到长出97%是真恢复，1311当前装病求陪不否旧伤；新囚伤后1504休养、1558可再用伞为能力恢复证。100%旧新伤统一结算未给，现实肌力另层。
+
+后证raw：1295, 1311, 1504, 1558
+
+## v07-thread-002 周龙鞭追回与信任交易
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：1
+
+终点：answered；审计领域：lost-property-and-payment
+
+1303售龙骨鞭760万RMB净款实际到主，1310主追回鞭实归周且拒200万悬赏，本次售后追物闭合。血盟早雇主仍另未明；卷八噬灵鞭竞拍是不同物，不用后拍卖替这次归还。
+
+后证raw：1303, 1310, 1509, 1510
+
+## v07-thread-003 月光救援与听风追责分账
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：2
+
+终点：partial；审计领域：rescue-vs-justice
+
+1315六男真实救月、1324她/虎到，后月光石游戏法师持续为会出力；听风旧案/47女指控未司法回执，烛宣战/回门不替追责已成。
+
+后证raw：1313, 1315, 1324, 1444, 1413, 1526
+
+## v07-thread-004 现实身体谜、何林亲密及一年条件
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：3
+
+终点：partial；审计领域：illness-relationship-and-condition
+
+后段冰毒变种/抗性及抑制疗法解释现实异常，林抗原/赴美明确爱与代价；一年正常条件未明确满期，三方长期规则未定，后记匿名亲密不回填早期性交或完全治愈。
+
+后证raw：1317, 1319, 1322, 1589, 1595, 1609
+
+## v07-thread-005 四城正式归属/退款与训练成长
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：4
+
+终点：answered；审计领域：territory-and-refund
+
+1337正式古剑白银/战天黄金/雪银青铜/烛龙玄铁、30日保护与售金5000万全退，1338古剑榜首、1341部分训练成均已回收。本条只关闭四城结算与已示训练，不把所有新募资格、后批军力和长期税收入算成。
+
+后证raw：1336, 1337, 1338, 1341
+
+## v07-thread-006 救女SSS与委托目的反转
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：5
+
+终点：answered；审计领域：mission-and-subject-choice
+
+SSS已系统完成，紫水被真杀后石复、瑟琳娜亡咒解醒并拒父随紫离去，父欲冥婚明确没有实现。任务完成与父权私愿败是不同结果，未来生活/记忆矛盾不影响本次救出回收。
+
+后证raw：1367, 1368
+
+## v07-thread-007 婉指控、猪转盟及复仇进行
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：6
+
+终点：partial；审计领域：revenge-survivor-and-justice
+
+猪改盟/首挑战等原成，1519炼狱解散、旧号删后与婉新练回归有后证；婉临床康复/吕王司法结果仍未示，游戏尊严重建不抵销援敌/杀俄代价。
+
+后证raw：1372, 1376, 1435, 1444, 1519, 1522, 1524
+
+## v07-thread-008 混乱远征正式完成与多方死伤
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：7
+
+终点：answered；审计领域：bounded-expedition-and-cost
+
+1460—1461系统混乱远征完成、陆MVP及轩辕/神烈奖成，正式远征结算已关闭。斯达克、血指、明宇、大圣者等真死各有来源；蒂雅未知、心坠尚未确存死不能被成功公告替判，后救心为新行动线。
+
+后证raw：1426, 1454, 1456, 1458, 1459, 1460, 1461, 1503
+
+## v07-thread-009 军需、鳞甲/火套、奖励与未交物
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：8
+
+终点：partial；审计领域：supplies-and-ledger
+
+345甲/30火套及林采50油2万药交陆原成，1506分多件狱物/1511鞭售/1514凰骑又有后证；余鳞后批与100万交换补价未独回执，不能合成军需全清。
+
+后证raw：1398, 1436, 1461, 1466, 1506, 1511, 1514
+
+## v07-thread-010 冰兰短控、灭圣与龙域重建
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：9
+
+终点：partial；审计领域：gods-and-rebuilding
+
+冰短控后自述恢复、圣被林吞灭、1504接应击退林均明；1467重建初启/3—5年未来，1609仍提透支经营，不证全军成熟或旧爱相认完成。
+
+后证raw：1455, 1458, 1467, 1504, 1609
+
+## v07-thread-011 修罗神格/九转逐步可行动
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：10
+
+终点：answered；审计领域：staged-ability-unlock
+
+1462龙200吐晶凝神格后原三灰技已激活；1464九转另外学狂神冲撞，1468真入炼狱、1471艾斯战实用。两次解锁不混前置；苏伦可前摇打断/夜煞可MISS、帝海可逼初败，晋升不是所有敌人必胜。
+
+后证raw：1461, 1462, 1464, 1468, 1471, 1483, 1491, 1497
+
+## v07-thread-012 奥丹从误认获救到互救伙伴
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：11
+
+终点：partial；审计领域：odan-survival-and-cost
+
+奥丹多次互救且1504活返/入紫罗兰明确；七日代价后双腿弱不能飞未见全量恢复回执，后没再出场不能改成死亡牺牲。
+
+后证raw：1475, 1492, 1501, 1504
+
+## v07-thread-013 心然坠渊寻人至游戏实救返
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：12
+
+终点：answered；审计领域：game-rescue
+
+从坠渊时未知到1503主亲见心活、心主共同杀夜/主耗油破笼，1504心奥飞银真实返人界，这个游戏寻救目标已完成。不能把苏伦心死之说立实，也不能由游戏回返跳到现实董已醒；1507先抓手发声，1508才有现实睁眼后证。
+
+后证raw：1459, 1483, 1495, 1503, 1504, 1507, 1508
+
+## v07-thread-014 神石轻踏与返程接应
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：13
+
+终点：answered；审计领域：setup-and-return-path
+
+1493神石入包、1495轻踏准备，到1503逆阵返七且奥明说预印，再1504心阻追/开位裂与冰接应，返程资源/分工均兑现。飞银最后也活回但具体何时穿界主不知道，不补细节，不将未释逃法扩大成全部队伍尚未返。
+
+后证raw：1493, 1495, 1503, 1504
+
+## v07-thread-015 现实董欣然的身份与尚未醒来
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：14
+
+终点：partial；审计领域：real-awakening-and-agency
+
+1506表怕现实无哥哥、1507先抓手发声、1508真睁眼，1512双合同/1524逐步练走有现实自主动作；后记仍受护寻主，醒与完全独立/全部认知适应不合一。
+
+后证raw：1500, 1504, 1506, 1507, 1508, 1512, 1524, 1609
+
+## v07-thread-016 林纳力量/断臂/追击后仍活
+
+原卷：7；原记录：writing-vault/library/reports/tianxia-wushuang/vol07-graph.json；原序号：15
+
+终点：partial；审计领域：unfinished-antagonist
+
+林吞圣/无心仍活/能量臂、1504被击退仍活为确态；五王仅断掌、其他追者多未杀，末卷未见新反扑或林死亡。不能把救心成功写炼狱全清，一尘可复仍自称未试。
+
+后证raw：1458, 1459, 1496, 1504, 1600
+
+## v08-thread-001 心然现实苏醒与代理控制
+
+原卷：8；原记录：writing-vault/library/reports/tianxia-wushuang/vol08-graph.json；原序号：0
+
+终点：partial；审计领域：identity-and-agency
+
+现实真醒、双合同签字及总部确认均已有直接后证，25%转陆名下附随时无条件归还，不是无偿剥走心的财产。她现实仍逐步学习站立/生活，后记由两保镖陪去扬州永安寻人未相见；不能把游戏力量换算成现实完全独立，更不能替她补成年或性关系。
+
+后证raw：1507, 1508, 1512, 1526, 1608, 1609
+
+## v08-thread-002 噬灵鞭竞拍与返款
+
+原卷：8；原记录：writing-vault/library/reports/tianxia-wushuang/vol08-graph.json；原序号：1
+
+终点：answered；审计领域：property-and-economy
+
+本次噬灵鞭已成交扣费、兑钱，陆另2亿RMB真实返周，周实际用鞭召虎。这关闭本次拍卖/返款，不证明后提500骑500弓换100美女已全部转会；币种未知不强算总净利，返款也不自动证明程序毫无争议。
+
+后证raw：1509, 1510, 1511
+
+## v08-thread-003 小猪尊严与另号重建
+
+原卷：8；原记录：writing-vault/library/reports/tianxia-wushuang/vol08-graph.json；原序号：2
+
+终点：partial；审计领域：character-and-identity
+
+旧号真实删、新战士另号重练/带婉回归是后证，不能把新号当旧等级资产复原。林后来获知真实身份，小猪在燕耳本次游戏再死；1592乱月据录像报赤龙臂用于爆杖，支持后段恢复持有/使用，但交还动作未场景化。尊严/自主重建已有行动，现实婉康复及司法追责仍不能由此代答。
+
+后证raw：1516, 1519, 1522, 1524, 1579, 1580, 1592
+
+## v08-thread-004 神级资格、职业与操作边界
+
+原卷：8；原记录：writing-vault/library/reports/tianxia-wushuang/vol08-graph.json；原序号：3
+
+终点：partial；审计领域：rules-and-costs
+
+神晶与职业积分第一随机条件是两条资格链，李/明/北等实际成神不意味着统一投入100晶必成。神级仍需治疗/同伴且受现实疾病限制；陆275满级与装备可借已明确，短效恢复、抑制剂再失效与赴美治疗/后记强暗示生还不是一项绝对根治证明。
+
+后证raw：1526, 1557, 1562, 1578, 1590, 1599, 1600, 1604, 1609
+
+## v08-thread-005 护送与分基地毁炮
+
+原卷：8；原记录：writing-vault/library/reports/tianxia-wushuang/vol08-graph.json；原序号：4
+
+终点：answered；审计领域：mission-and-delivery
+
+三车护送正式交付、十炮实毁、长城破及天岭三炮团毁有分场次结果；本条限定本次护送/分基地毁炮目标已回收。不能从几处器械消灭概括世界永久无炮，也不能拿一场金属规则覆盖全部器械。
+
+后证raw：1535, 1541, 1558, 1564, 1578, 1580
+
+## v08-thread-006 公共权威与盲战控制
+
+原卷：8；原记录：writing-vault/library/reports/tianxia-wushuang/vol08-graph.json；原序号：5
+
+终点：partial；审计领域：authority-and-economy
+
+离歌两局真实败，第三因照护中止，不是三局全败；公证600万未给实际到账，因此技战权威和照护抉择可确认，钱款仍未确认。1593现实对手致敬/探视不等永久撤销游戏竞争。
+
+后证raw：1542, 1543, 1544, 1557, 1593
+
+## v08-thread-007 国战指挥、诱敌与不可兼救
+
+原卷：8；原记录：writing-vault/library/reports/tianxia-wushuang/vol08-graph.json；原序号：6
+
+终点：partial；审计领域：war-and-accountability
+
+救援只部分成功，8394己方真实阵亡，不能以终战胜利洗去。战天一亿实到陆与逐人赔分是两个交付层，分赔未逐人回执且原币量有差；斗志游戏死后现实火锅反证不能判现实死亡。战术局部成效已答，受损者补偿并未全结。
+
+后证raw：1554, 1563, 1569, 1570, 1571, 1574, 1579, 1580
+
+## v08-thread-008 真假徽记与自主入盟
+
+原卷：8；原记录：writing-vault/library/reports/tianxia-wushuang/vol08-graph.json；原序号：7
+
+终点：partial；审计领域：organization-and-consent
+
+雇佣、结盟、伪徽与独立分盟是不同状态。魂归1571正式换徽成为古剑独立分盟，不是1520即已并入；1592搬基地是安排，末未见搬家实录。组织归属已有明确回收，成员逐一同意与现实迁居不由领袖承诺代证。
+
+后证raw：1519, 1520, 1522, 1566, 1570, 1571, 1592
+
+## v08-thread-009 征服、废弃、城权与盟友利益
+
+原卷：8；原记录：writing-vault/library/reports/tianxia-wushuang/vol08-graph.json；原序号：8
+
+终点：answered；审计领域：territory-and-ownership
+
+1589终战报告给出征服青土/七星/泰坦/灼热四城、英雄城被保的明确结算，燕耳与天荒为废弃，巨象另俄控；本次城权已回答。单杀君主不能替正式终判，之后90日制度持续执行并未完整描写，不扩展本条为未来统治永久稳固。
+
+后证raw：1579, 1585, 1586, 1588, 1589
+
+## v08-thread-010 财产、孝养与组织资源
+
+原卷：8；原记录：writing-vault/library/reports/tianxia-wushuang/vol08-graph.json；原序号：9
+
+终点：partial；审计领域：property-and-care
+
+25%股权签字/总部确认代理生效，估值不等现金收入；五亿由鬼代保、没有花或归还后证。神装实借李而未明还，暗月城主实移何；500亿美元协议/机器和赴美治疗有推进，却不能算绝对治愈。已交割与保管/未来义务分别保留。
+
+后证raw：1512, 1526, 1591, 1594, 1606, 1607, 1608, 1609
+
+## v08-thread-011 抗原研究、照护与知情权
+
+原卷：8；原记录：writing-vault/library/reports/tianxia-wushuang/vol08-graph.json；原序号：10
+
+终点：partial；审计领域：health-and-knowledge
+
+采样从秘密到明揭，抑制初效后再失效、解析最近87.2%、赴美实治是分段后证；行云171种变种资料为转述并获研究者评有用，但不是她一人已给根治。后记匿名生活/游戏镜头强暗示陆与林仍活及恢复活动，未给100%解析或临床绝对根治回执。何末疗蒙纱也未展示拆纱完全复明。
+
+后证raw：1589, 1591, 1593, 1595, 1599, 1604, 1605, 1606, 1608, 1609
+
+## v08-thread-012 WEL参与权、借装与冠军杯
+
+原卷：8；原记录：writing-vault/library/reports/tianxia-wushuang/vol08-graph.json；原序号：11
+
+终点：partial；审计领域：competition-and-property
+
+霜云首夜五胜后主队缺席最终淘汰；后记李承风实持WEL世界冠军杯，故不能沿用早期仍参赛待定。此处只据持杯结果，不凭1609补全二队参赛名单或未展示赛程；最终击烛具体对局、系统MVP及借装归还没有展开。李把唯一MVP归陆是人物评价，不替系统公告。
+
+后证raw：1594, 1598, 1606, 1607, 1608, 1609
+
+## v08-thread-013 多方亲密与结尾辨识边界
+
+原卷：8；原记录：writing-vault/library/reports/tianxia-wushuang/vol08-graph.json；原序号：12
+
+终点：partial；审计领域：relationships-and-identity
+
+林独陪陆赴美明示，后记匿名生活与游戏行为强指陆林生还/活动；仍不是实名公开医疗证。何最后日蒙纱、心未成年受护、明月深吻告别不等排他契约。没有婚礼或全体多伴协议回执，不能由同行、暧昧与候人互相替代。
+
+后证raw：1545, 1595, 1596, 1605, 1608, 1609

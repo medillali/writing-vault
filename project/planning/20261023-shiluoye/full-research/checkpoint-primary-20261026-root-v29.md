@@ -1,0 +1,58 @@
+# 主审续接 v29：斩龙36综合逐项已审签，人物继续
+
+用户继续的是整个三书全量蒸馏及统一管理、fresh完整备份+实际恢复；不在卷/书里程碑final。v28较早，以下为最新覆盖。B为本目录，A=B/zhanlong/audit/whole-book，P=A/reader3-review。均用cmd.exe工作区根执行，Python路径沿既有。不要重跑任何once-only修改脚本。
+
+## 已实读签收的36综合
+
+root本轮完整逐项读plot/style/narrative/dialogue/pacing/themes/continuity七维全部top与support语义；characters/worldbuilding已在前一上下文全读。read_zhanlong_synthesis_dimension.py现支持新增语义字段，不再白名单隐藏reported_fact_boundary。primary-synthesis-dimension-reviews.json现在9维36条，整书仍false，未签总稿。
+
+最终JSON SHA：
+- worldbuilding a5ca756dc0eb69f74411757cbb46a41c7b5f0cba3906697ad2dc36e4d522d7f8。
+- characters 91fec4df7247d7d2d660caf67aeae7ce775770d6c85299747d360ddec34b7657。
+- plot f4c493af720b4c6b866ad0227f13fc0ef9f3e8fdba976c35e73e4c30a7c50d7f。
+- style 66b23da45a59e823af85294c1f0a6f055c4900899044e830eb4c599eea881b2a。
+- narrative 59711c6be12135623951bbbbab5ca073c1cb9c1113ffc8b2bd283a9ee4e91d00。
+- dialogue 28d472f1dc16bb1a63379506602b29bc55f42c25890b0addfacc69cf3ed1bf7c。
+- pacing 837f9fd350d7698ccf305ddc5c66a9a4d75e23778afcac7c940b5e24056fe1ce。
+- themes eb50788f3fe38b4fba16fe9a4c88414265a2d9a27a38496db967dec59ab608a7。
+- continuity ed1b98830e1d6c85d80079970b08ee70e611559ef091d55ebe1da326e6713393。
+
+本轮root实际全读820/821、1357、1359；定向356L30280—30309、965L72015—72043、102L8859—8885、103L8967—8977、1358L97679—97703。额外唯一覆盖0，不改首次归属。上一上下文另全139/1262、定向257/258还未统一补formal主审复读回执。
+
+36的受控修订：P/synthesis-three-facts-selfcheck-proposal.json eada…与approved-selfcheck-combined-delta；characters01收窄准尸桥/降俘保全失败最终退让/矿工仅心想善待无改善令，人名盛临；themes01同收窄；plot03秦王→现实秦蒙；characters02保上游‘方持刀’原字面，新增reported_fact_boundary限定1384仅命取刀/1385回报霜来而无取持场景。root verify_zhanlong_synthesis_selfcheck.py独立重放3事实+新增边界，其他全值不变/MD仅相应替换与新增段，已通过。
+
+continuity01另仅3路径：顶fact‘后期镇国刀用于求援’→‘末期命人取镇国刀求援’；support卷3‘狮盾十小时转手’旧字面不改，加boundary740十小时内争夺/743尚余9h17交盾实用/749最终保有；priority追加ae71狮盾层。proposal4aba…，P/synthesis-continuity-approved-boundaries-delta.json与before原件，root verify_zhanlong_synthesis_continuity.py精确重放通过；JSON ed1b…MD2a4967c023998fc2cef5260a8a190a00173ae7e65ff64d108425abbbb80c3cb3。
+
+worldbuilding原百炼铁只改100份麒麟铁，JSON签a5ca…；MD曾CRCRLF根已按原字节仅换词修好，最终77094caa34cb47d68441e88ad426a2d961f69ffccab2c9616d554f8bc7ba4ec1，root verifier通过，reader3已知不可再动。
+
+reader3 /root/zongheng_vol03_full现在正在兼容总稿book-synthesis-draft.json/md，逐值聚合9已签维，不代primary凭据。root待总稿引言结论实际读、36逐值匹配及schema后写真primary-synthesis-review，再publish_book_synthesis.py zhanlong。此发布器不接--help，只直接slug；rootREADME须audit发布前定稿。
+
+## 人物现状
+
+character-arcs-part01三条李/林/东已root全读签，JSON45104f6ccbba93f6703d4bbc0de8b4228b644053ff6fbb621d92fa0d655a26ea。仅review_status schema修三处原draft_pending_primary→draft有before/delta，MD未改。
+
+part02三条薛柔/沈冰/雷root本轮已全部全字段读，未签，因为005 terminal_state误把祭墓与沈母授权raw时点对换。root刚全读1357/1359证明：1357 L97667—76祭墓，1359L97757尚拒到97805—07签。已批准reader5提案character-arcs-part02-time-correction-proposal.json SHA d7bfccb9a15446257cbfefc9750c0a7b2ba7ce1c5446e0555e66d2f1add8fa91，仅此句两数字互换、MD同句替换，其他值/证据/004/006不动；待reader5应用delta交后独立重放再签。原组JSON1beb29e39d3e3de9a4a6168fa3c1a89217af561c2c479f03854bae7ce0a0922c、MDc93b4d5bb53eac66d7c9842a3f56a98e95aff9a06cf118ce4edf9bf85870a695。0041358执照正确，root定向读97679—97703确认，方薛景交往97703—10reader5全读，root尚未新增定向后段。
+
+part03已交未读未签：007宋寒/008玩家老K/009李牧/010王翦/011白起/012廉颇/013梦瑶七条。JSON3832d4b45a17e90ce5388b6a713f003ddffc61e65bc12f3938f2f0327c0063f6，MDdb35c6d2608f5388794b8e6783f4232d099fdb1fa485081a1b1bc38cc99d697c。
+
+reader5已完整接读271阶段人物材料（不冒称一人全文）；root请其给归并实际人物清单与互斥分工，拟沿用现有reader3/reader4处理独立NPC/对手子集、reader5主角队友现实人物，**尚未最终分工，不要新spawn**。reader4现idle，已有交编译器工作完成。
+
+## 当前优先层117字段记录/8逻辑问题（不是117唯一字段）
+
+此前kinship90760c6c4926e9dc6047fc4c82119d61155dfc47857ae7cc954dc073b03c7e85正式，五字段保原件，雷为故人子由风收养，非据亲妹判血缘。旧combined100SHA829…已material-history第二条保字节；105SHA5e796e3dd706f6bfd59c6f7eabf3b5a0e0f1288063fce2dcbd4c6261c47b4c01。
+
+本轮新增狐狸无证别名：reader5proposal A/priority-corrections-fox-identity-proposal.json SHA f2a24e3398a2d9905295f6ab9d7ce21b1838c4107771791f6b839323528e1180，root完整读12字段+实读102/103，狐狸刘庸/惯用琉璃狐明确，旧卷3‘慕天’是派生录入错误，不称源内漂移、不另造人。
+root已运行once-only save_zhanlong_fox_priority.py：正式audit/priority-corrections-fox-identity.json SHA b3773c8687b85a34f8051e925c08974aec274663919c7c2de90d273e236fcb02，MD及proposalbyte副本已保存；12原字段及SHA逐一验证且均未改（含历史import-map/view）。
+最新A/priority-corrections-delta.json **622d7815796ff0ed6b1f6b79318f9537be538fd23cd2fd94c469c96cc08cc5c6**，117字段记录/8issues。旧105完整快照A/priority-corrections-before-fox-identity.json及formal material-history第三条存档。reader3/5已通知，新狐人物pin独立b377层，旧签组不倒填。collection/nav还待最终刷新：此前只有6navdoc，现需7（雷月+狐狸都接齐），RESEARCH-QUEUE更旧仅5。
+
+## 编译器root已完整代码阅读与实跑测试
+
+A/assembly-prep/assemble_zhanlong_signed_audit.py SHA3953c5c3f152145199039162b34060508f6e362fdddaf1502f38a6994607e1e8共294实际行本轮root全部读。独立20guard测试root实跑全部通过（测试文件本身未逐行全读，不冒称）。默认真实运行not-ready-no-write（缺人物总稿），未--write、未freeze、未primaryreceipt。仍等全部人物和36综合签齐，不重生两池证据。
+standalone validate_material_archive(auditpath)按包内path+SHA验证，不需.planning，publisher把.py放provenance亦兼容。
+root已编辑validate_final_collection.py：新增check_material_archive(root,slug)，在ZL validate_audit成功后加载正式audit/assembly-prep或provenance/assembly-prep内本脚本，关闭pycache，纯只读验归档映射，回执entries及planning_directory_required=false。最终check原库与实际恢复库都调用。此bridge尚待正式包发布后实跑（当前ZL未accepted不可提前claimpassed）。
+
+## 整体终点尚未完成
+
+2694候选141批已全部读签合入，DO NOT再次merge--apply。两个afterSHA仍hist9bf5a6…、local0e5425…，详v28。24focus已全签，总稿38aee…仍原样，2history版本现第三版历史resolve支持。
+根刚重读backup_and_restore_final.py和validate_final_collection.py全文件及cross-book-comparison-draft.md，方案不变。待完成人物总稿/36总稿→freeze四包→真primary整书review→publish/independentvalidate→acceptbook→正式比较ID与链接→START-HERE/CONTENT-GUIDE/RESEARCH-QUEUE/collection本批验收/机制索引/currentstatus→freshfullbackup+实际隔离恢复文件清单SHA全等及材料归档映射验收。backup还未执行。
+无Git提交推送、Space、记忆写入。最终才短中文汇报入口/完整覆盖/备份恢复，最后既定memorycitation见上下文摘要。现在持续继续，不要里程碑final。

@@ -1,0 +1,80 @@
+# 征服青土与俄盟友交涉
+
+ID: `scn-0efda748863c5ea3be32a0a84dc1ed0e` · 版本: 1 · 范围: source-analysis
+
+先取空虚青土挡同盟扩张；飞行斩首取杖选征服交许阳，面对借道夺城以实力威慑/利益交换。当前指挥先成/终战四城后证；俄退不全面开战
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-0efda748863c5ea3be32a0a84dc1ed0e",
+  "asset_type": "scene",
+  "content": {
+    "characters": [
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol08/character/lu",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol08/character/he",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol08/character/li",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol08/character/gui",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol08/character/xu",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol08/character/snow"
+    ],
+    "choice": "飞行斩首取杖选征服交许阳，面对借道夺城以实力威慑/利益交换",
+    "claim_kind": "fact",
+    "failure_conditions": "须保具体时点、观察者与不同结算对象；不以机制解释替代原文未写的履约、复活或产权变更。",
+    "goal": "先取空虚青土挡同盟扩张",
+    "literary_claim_kind": "inference",
+    "literary_mechanism": "产权程序和联盟利益",
+    "obstacle": "仍三百万NPC、雪夜500万到门",
+    "outcome": "当前指挥先成/终战四城后证；俄退不全面开战",
+    "state_change": "当前指挥先成/终战四城后证；俄退不全面开战",
+    "summary": "先取空虚青土挡同盟扩张；飞行斩首取杖选征服交许阳，面对借道夺城以实力威慑/利益交换。当前指挥先成/终战四城后证；俄退不全面开战"
+  },
+  "created_at": "2026-10-25T00:16:55.052159+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1585",
+      "claim_kind": "fact",
+      "end_line": 125684,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 125619
+    },
+    {
+      "chapter_id": "ch-1586",
+      "claim_kind": "fact",
+      "end_line": 125761,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 125685
+    },
+    {
+      "chapter_id": "ch-1589",
+      "claim_kind": "fact",
+      "end_line": 126026,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 125943
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol08/scene/qingtu",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷八:天下无双"
+  ],
+  "title": "征服青土与俄盟友交涉",
+  "updated_at": "2026-10-25T00:16:55.053159+00:00",
+  "user_notes": ""
+}
+
+```

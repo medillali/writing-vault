@@ -1,0 +1,1406 @@
+{
+  "source_key": "z",
+  "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+  "source_revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+  "status": "provisional",
+  "direct_read_units_by_this_agent": 232,
+  "collective_actual_read_units": 433,
+  "basis": "z 1–232为本代理逐正文阅读；z-b/z-c/z-c2/z-d为各分工实际阅读全文后保存的新九维研究，本文件是二次综合。旧研究不计新增正文阅读。",
+  "stage_names": "全部阶段名称为研究分段，非虚构原书卷名。",
+  "basis_files": [
+    {
+      "path": "z\\batch-01.json",
+      "start": 1,
+      "end": 20
+    },
+    {
+      "path": "z\\batch-02.json",
+      "start": 21,
+      "end": 40
+    },
+    {
+      "path": "z\\batch-03.json",
+      "start": 41,
+      "end": 60
+    },
+    {
+      "path": "z\\batch-04.json",
+      "start": 61,
+      "end": 80
+    },
+    {
+      "path": "z\\batch-05.json",
+      "start": 81,
+      "end": 100
+    },
+    {
+      "path": "z\\batch-06.json",
+      "start": 101,
+      "end": 120
+    },
+    {
+      "path": "z\\batch-07.json",
+      "start": 121,
+      "end": 140
+    },
+    {
+      "path": "z\\batch-08.json",
+      "start": 141,
+      "end": 160
+    },
+    {
+      "path": "z\\batch-09.json",
+      "start": 161,
+      "end": 180
+    },
+    {
+      "path": "z\\batch-10.json",
+      "start": 181,
+      "end": 200
+    },
+    {
+      "path": "z\\batch-11.json",
+      "start": 201,
+      "end": 220
+    },
+    {
+      "path": "z\\batch-12.json",
+      "start": 221,
+      "end": 232
+    },
+    {
+      "path": "z-b\\batch-01.json",
+      "start": 233,
+      "end": 243
+    },
+    {
+      "path": "z-b\\batch-02.json",
+      "start": 244,
+      "end": 252
+    },
+    {
+      "path": "z-b\\batch-03.json",
+      "start": 253,
+      "end": 264
+    },
+    {
+      "path": "z-b\\batch-04.json",
+      "start": 265,
+      "end": 276
+    },
+    {
+      "path": "z-b\\batch-05.json",
+      "start": 277,
+      "end": 285
+    },
+    {
+      "path": "z-b\\batch-06.json",
+      "start": 286,
+      "end": 299
+    },
+    {
+      "path": "z-b\\batch-07.json",
+      "start": 300,
+      "end": 310
+    },
+    {
+      "path": "z-b\\batch-08.json",
+      "start": 311,
+      "end": 320
+    },
+    {
+      "path": "z-c\\batch-01.json",
+      "start": 321,
+      "end": 340
+    },
+    {
+      "path": "z-c\\batch-02.json",
+      "start": 341,
+      "end": 360
+    },
+    {
+      "path": "z-d\\batch-01.json",
+      "start": 391,
+      "end": 410
+    },
+    {
+      "path": "z-d\\batch-02.json",
+      "start": 411,
+      "end": 430
+    },
+    {
+      "path": "z-d\\batch-03.json",
+      "start": 431,
+      "end": 450
+    },
+    {
+      "path": "z-d\\batch-04.json",
+      "start": 451,
+      "end": 463
+    }
+  ],
+  "dimensions": {
+    "worldbuilding": [
+      {
+        "claim": "动作完成度、连击点、连贯技、能量和攻击准位分层展开；规则先由受挫与试验进入行动，再由数值结果校验。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0008",
+            "start_line": 370,
+            "end_line": 383
+          },
+          {
+            "chapter_id": "ch-0009",
+            "start_line": 409,
+            "end_line": 416
+          },
+          {
+            "chapter_id": "ch-0010",
+            "start_line": 432,
+            "end_line": 442
+          },
+          {
+            "chapter_id": "ch-0209",
+            "start_line": 10203,
+            "end_line": 10218
+          },
+          {
+            "chapter_id": "ch-0217",
+            "start_line": 10718,
+            "end_line": 10759
+          }
+        ]
+      },
+      {
+        "claim": "强技能有条件：无反抗驯兽师可打出稳定完美技能，不等于正常PK；宠物从一级培养、召唤次数和免控范围也约束装备收益。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0249",
+            "start_line": 12959,
+            "end_line": 12975
+          },
+          {
+            "chapter_id": "ch-0250",
+            "start_line": 12980,
+            "end_line": 12992
+          },
+          {
+            "chapter_id": "ch-0325",
+            "start_line": 17887,
+            "end_line": 17918
+          },
+          {
+            "chapter_id": "ch-0414",
+            "start_line": 25326,
+            "end_line": 25392
+          }
+        ]
+      },
+      {
+        "claim": "经济通过雇佣平台、市场竞价、公会生产、黑赛、转播与分红逐级扩张；物品价值随专才和普及变化。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0070",
+            "start_line": 3043,
+            "end_line": 3053
+          },
+          {
+            "chapter_id": "ch-0112",
+            "start_line": 4803,
+            "end_line": 4833
+          },
+          {
+            "chapter_id": "ch-0215",
+            "start_line": 10602,
+            "end_line": 10618
+          },
+          {
+            "chapter_id": "ch-0410",
+            "start_line": 25008,
+            "end_line": 25012
+          },
+          {
+            "chapter_id": "ch-0416",
+            "start_line": 25487,
+            "end_line": 25528
+          }
+        ]
+      },
+      {
+        "claim": "国家战与神界把竞技嵌入世界政治：刺杀可改变出兵主动权，但攻城、和解、选使徒各有后续程序。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0409",
+            "start_line": 24953,
+            "end_line": 24979
+          },
+          {
+            "chapter_id": "ch-0420",
+            "start_line": 25725,
+            "end_line": 25787
+          },
+          {
+            "chapter_id": "ch-0421",
+            "start_line": 25799,
+            "end_line": 25815
+          },
+          {
+            "chapter_id": "ch-0428",
+            "start_line": 26372,
+            "end_line": 26379
+          }
+        ]
+      },
+      {
+        "claim": "大规模冲级写成生产循环：地形、盾位、回魔装、NPC购药和拾取补成本共同运转，消耗又影响金币价格与公会竞争。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0352",
+            "start_line": 19695,
+            "end_line": 19766
+          },
+          {
+            "chapter_id": "ch-0353",
+            "start_line": 19767,
+            "end_line": 19936
+          },
+          {
+            "chapter_id": "ch-0354",
+            "start_line": 19946,
+            "end_line": 20059
+          }
+        ]
+      },
+      {
+        "claim": "成神分临时引导和永久神格：任务临时主神在完成后撤去，只留永久下位神与发布任务、赐福权限；肖恩杂务实际展示新权限。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0459",
+            "start_line": 28516,
+            "end_line": 28520
+          },
+          {
+            "chapter_id": "ch-0460",
+            "start_line": 28525,
+            "end_line": 28535
+          },
+          {
+            "chapter_id": "ch-0463",
+            "start_line": 28736,
+            "end_line": 28771
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "claim": "萧御由为妹妹隐瞒盗窃与伤痛，转以游戏劳动养家；首单与630万经现实银行核，最高黑赛后自认原始生计目标完成。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0002",
+            "start_line": 33,
+            "end_line": 68
+          },
+          {
+            "chapter_id": "ch-0070",
+            "start_line": 3043,
+            "end_line": 3053
+          },
+          {
+            "chapter_id": "ch-0203",
+            "start_line": 9771,
+            "end_line": 9776
+          },
+          {
+            "chapter_id": "ch-0204",
+            "start_line": 9832,
+            "end_line": 9860
+          },
+          {
+            "chapter_id": "ch-0416",
+            "start_line": 25487,
+            "end_line": 25528
+          }
+        ]
+      },
+      {
+        "claim": "独行者的变化不是正式入会，而是愿意承认朋友和专长、承担团队救援、接受生产与救尸支持。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0159",
+            "start_line": 6920,
+            "end_line": 6948
+          },
+          {
+            "chapter_id": "ch-0300",
+            "start_line": 16289,
+            "end_line": 16296
+          },
+          {
+            "chapter_id": "ch-0306",
+            "start_line": 16690,
+            "end_line": 16714
+          },
+          {
+            "chapter_id": "ch-0316",
+            "start_line": 17288,
+            "end_line": 17294
+          },
+          {
+            "chapter_id": "ch-0399",
+            "start_line": 24313,
+            "end_line": 24338
+          }
+        ]
+      },
+      {
+        "claim": "赵岚馨由医者、同住邀请者、被误判的低级玩家，发展为独立治疗控制与群练伙伴；求爱与共同冒险并行。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0071",
+            "start_line": 3097,
+            "end_line": 3121
+          },
+          {
+            "chapter_id": "ch-0080",
+            "start_line": 3517,
+            "end_line": 3523
+          },
+          {
+            "chapter_id": "ch-0169",
+            "start_line": 7555,
+            "end_line": 7589
+          },
+          {
+            "chapter_id": "ch-0336",
+            "start_line": 18601,
+            "end_line": 18623
+          },
+          {
+            "chapter_id": "ch-0338",
+            "start_line": 18730,
+            "end_line": 18748
+          }
+        ]
+      },
+      {
+        "claim": "糖果由拒救与好胜到公平取消稳胜赌约、合击反追踪和接任指挥；公平、友谊与其诱饵伦理必须分开评价。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0237",
+            "start_line": 12128,
+            "end_line": 12136
+          },
+          {
+            "chapter_id": "ch-0251",
+            "start_line": 13041,
+            "end_line": 13059
+          },
+          {
+            "chapter_id": "ch-0279",
+            "start_line": 14928,
+            "end_line": 14955
+          },
+          {
+            "chapter_id": "ch-0399",
+            "start_line": 24336,
+            "end_line": 24338
+          }
+        ]
+      },
+      {
+        "claim": "后段主角主动标出能力适用条件：丛林一挑50不等于竞技任意强队，改有利规则的二对十仍双亡认输。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0435",
+            "start_line": 26823,
+            "end_line": 26846
+          },
+          {
+            "chapter_id": "ch-0439",
+            "start_line": 27119,
+            "end_line": 27141
+          }
+        ]
+      },
+      {
+        "claim": "赵的终局有独立实验和战果：试水元素全蓝召唤、改末时自爆，再在神战以二百水元素贡献肉身击杀；她不是只分享主角冠军。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0456",
+            "start_line": 28320,
+            "end_line": 28337
+          },
+          {
+            "chapter_id": "ch-0462",
+            "start_line": 28683,
+            "end_line": 28688
+          }
+        ]
+      },
+      {
+        "claim": "风野能够认输雷焰并释解会众耻感，萧翎能复活后坦认末战输；作品对体面对手保留竞争后的关系。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0461",
+            "start_line": 28580,
+            "end_line": 28586
+          },
+          {
+            "chapter_id": "ch-0464",
+            "start_line": 28870,
+            "end_line": 28882
+          }
+        ]
+      }
+    ],
+    "plot": [
+      {
+        "claim": "训练—费用—冒险—收入—再训练的早期回路，逐渐扩为竞技名誉、国家任务、现实移民等多条收益回路。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0011",
+            "start_line": 470,
+            "end_line": 485
+          },
+          {
+            "chapter_id": "ch-0070",
+            "start_line": 3043,
+            "end_line": 3053
+          },
+          {
+            "chapter_id": "ch-0204",
+            "start_line": 9832,
+            "end_line": 9860
+          },
+          {
+            "chapter_id": "ch-0409",
+            "start_line": 24953,
+            "end_line": 24979
+          },
+          {
+            "chapter_id": "ch-0417",
+            "start_line": 25532,
+            "end_line": 25576
+          }
+        ]
+      },
+      {
+        "claim": "长期伏笔靠可复用资源兑现：童灵友情使终战放行，尖牙链及魂珠后来捕获比蒙，旧钥匙使开箱避过预想杀守卫路线。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0152",
+            "start_line": 6532,
+            "end_line": 6574
+          },
+          {
+            "chapter_id": "ch-0319",
+            "start_line": 17434,
+            "end_line": 17439
+          },
+          {
+            "chapter_id": "ch-0319",
+            "start_line": 17497,
+            "end_line": 17504
+          },
+          {
+            "chapter_id": "ch-0325",
+            "start_line": 17865,
+            "end_line": 17918
+          },
+          {
+            "chapter_id": "ch-0326",
+            "start_line": 17924,
+            "end_line": 17932
+          }
+        ]
+      },
+      {
+        "claim": "局部失败与目标成功可同时成立：误杀善良NPC截断潜在支线，护蛋成功却本人被杀，抢宝成功却靠公会救尸。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0191",
+            "start_line": 9109,
+            "end_line": 9111
+          },
+          {
+            "chapter_id": "ch-0192",
+            "start_line": 9118,
+            "end_line": 9119
+          },
+          {
+            "chapter_id": "ch-0287",
+            "start_line": 15420,
+            "end_line": 15442
+          },
+          {
+            "chapter_id": "ch-0306",
+            "start_line": 16690,
+            "end_line": 16714
+          }
+        ]
+      },
+      {
+        "claim": "长决斗以旧办法的新边界推进；小刀不硬碰种族反凿，书生需逼转豹，阳炎被耗蓝，刺刀需同时计算影子与宠物的生命资源。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0198",
+            "start_line": 9483,
+            "end_line": 9489
+          },
+          {
+            "chapter_id": "ch-0202",
+            "start_line": 9735,
+            "end_line": 9760
+          },
+          {
+            "chapter_id": "ch-0333",
+            "start_line": 18393,
+            "end_line": 18410
+          },
+          {
+            "chapter_id": "ch-0415",
+            "start_line": 25414,
+            "end_line": 25424
+          },
+          {
+            "chapter_id": "ch-0415",
+            "start_line": 25443,
+            "end_line": 25481
+          }
+        ]
+      },
+      {
+        "claim": "伯爵套先作为掉落奖励，再以梦魇精神攻击解除列昂控制、给赵最后击杀；奖励在同任务中成为解法，且最终承认队友贡献。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0344",
+            "start_line": 19100,
+            "end_line": 19149
+          },
+          {
+            "chapter_id": "ch-0345",
+            "start_line": 19150,
+            "end_line": 19217
+          },
+          {
+            "chapter_id": "ch-0346",
+            "start_line": 19282,
+            "end_line": 19324
+          }
+        ]
+      },
+      {
+        "claim": "冠军积分有真实比赛与关系让赛两种来源。循环前四轮熟人认输，刀剑实战又以狂化时限和藏底牌风险决胜，不能将九胜全写为逐场击杀。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0449",
+            "start_line": 27863,
+            "end_line": 27878
+          },
+          {
+            "chapter_id": "ch-0451",
+            "start_line": 27997,
+            "end_line": 28043
+          }
+        ]
+      },
+      {
+        "claim": "全服竞技的奖品继续造成下一主线：五千群传看似多余，之后明确服务五千团任务；空间转换解封和开光暗门使单人任务与团战汇合。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0454",
+            "start_line": 28188,
+            "end_line": 28202
+          },
+          {
+            "chapter_id": "ch-0457",
+            "start_line": 28352,
+            "end_line": 28379
+          },
+          {
+            "chapter_id": "ch-0459",
+            "start_line": 28466,
+            "end_line": 28475
+          },
+          {
+            "chapter_id": "ch-0461",
+            "start_line": 28594,
+            "end_line": 28601
+          }
+        ]
+      },
+      {
+        "claim": "末战不是主角独自灭神：万人付阵亡杀沃顿肉身，分身甲才减弱，灵魂融合时出现胸口窗口，萧御抓住后系统结算。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0462",
+            "start_line": 28680,
+            "end_line": 28692
+          },
+          {
+            "chapter_id": "ch-0463",
+            "start_line": 28697,
+            "end_line": 28704
+          },
+          {
+            "chapter_id": "ch-0463",
+            "start_line": 28719,
+            "end_line": 28736
+          }
+        ]
+      }
+    ],
+    "style": [
+      {
+        "claim": "动作段采用技能短行、位移、伤害、冷却与身体动作交替，战后及时解释因果；易读而有惊叹与强度词反复的风险。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0016",
+            "start_line": 686,
+            "end_line": 706
+          },
+          {
+            "chapter_id": "ch-0239",
+            "start_line": 12223,
+            "end_line": 12260
+          },
+          {
+            "chapter_id": "ch-0333",
+            "start_line": 18377,
+            "end_line": 18408
+          }
+        ]
+      },
+      {
+        "claim": "游戏数值语体之外，旧伤、手、雨夜、孤城花木、歌谣和铭文承载关系记忆；旧项链被追回后，其意义明显超过属性。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0081",
+            "start_line": 3532,
+            "end_line": 3563
+          },
+          {
+            "chapter_id": "ch-0220",
+            "start_line": 10925,
+            "end_line": 10933
+          },
+          {
+            "chapter_id": "ch-0232",
+            "start_line": 11706,
+            "end_line": 11743
+          },
+          {
+            "chapter_id": "ch-0424",
+            "start_line": 26080,
+            "end_line": 26090
+          },
+          {
+            "chapter_id": "ch-0428",
+            "start_line": 26335,
+            "end_line": 26343
+          }
+        ]
+      },
+      {
+        "claim": "列昂记忆转为花、阳光、寒夜和反复追问的短行，形成与技能面板不同的抒情节奏。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0341",
+            "start_line": 18890,
+            "end_line": 18920
+          }
+        ]
+      },
+      {
+        "claim": "后期神战数值与奇观急剧放大，结尾PK又用连控、召唤物与11%险胜回到竞技语体；结局思想议论集中而压缩本命实体说明。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0462",
+            "start_line": 28683,
+            "end_line": 28692
+          },
+          {
+            "chapter_id": "ch-0463",
+            "start_line": 28715,
+            "end_line": 28740
+          },
+          {
+            "chapter_id": "ch-0464",
+            "start_line": 28820,
+            "end_line": 28868
+          }
+        ]
+      }
+    ],
+    "narrative": [
+      {
+        "claim": "主焦点萧御与短切敌友视角交替，读者先知的标记粉、妹妹识谎及人物误认直接改变悬念条件。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0004",
+            "start_line": 192,
+            "end_line": 202
+          },
+          {
+            "chapter_id": "ch-0277",
+            "start_line": 14840,
+            "end_line": 14850
+          },
+          {
+            "chapter_id": "ch-0279",
+            "start_line": 14923,
+            "end_line": 14936
+          },
+          {
+            "chapter_id": "ch-0331",
+            "start_line": 18224,
+            "end_line": 18225
+          }
+        ]
+      },
+      {
+        "claim": "壁画、笔记、当事者自述与神权资料都有立场；哈尔的族史和主角关于主脑设计、神王方盒的猜测不得升为无争议事实。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0178",
+            "start_line": 8180,
+            "end_line": 8189
+          },
+          {
+            "chapter_id": "ch-0218",
+            "start_line": 10829,
+            "end_line": 10837
+          },
+          {
+            "chapter_id": "ch-0226",
+            "start_line": 11345,
+            "end_line": 11348
+          },
+          {
+            "chapter_id": "ch-0224",
+            "start_line": 11191,
+            "end_line": 11197
+          },
+          {
+            "chapter_id": "ch-0428",
+            "start_line": 26372,
+            "end_line": 26379
+          }
+        ]
+      },
+      {
+        "claim": "跨书萧翎在399以后是与萧御互相认识、实际切磋的独立人物；早期局部错名须按动作语境处理，不能由同字归并身份。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0003",
+            "start_line": 97,
+            "end_line": 97
+          },
+          {
+            "chapter_id": "ch-0400",
+            "start_line": 24403,
+            "end_line": 24407
+          },
+          {
+            "chapter_id": "ch-0408",
+            "start_line": 24869,
+            "end_line": 24876
+          },
+          {
+            "chapter_id": "ch-0409",
+            "start_line": 24934,
+            "end_line": 24949
+          }
+        ]
+      },
+      {
+        "claim": "早期威胁的最终解释会被补述修正：列昂未真想伤赵的叙述澄清，加上主动给恢复药和出口，使读者重估其言语而非抹去当时主角的恐惧。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0342",
+            "start_line": 18961,
+            "end_line": 18987
+          },
+          {
+            "chapter_id": "ch-0346",
+            "start_line": 19321,
+            "end_line": 19324
+          }
+        ]
+      },
+      {
+        "claim": "万人战先由萧御看水晶获取全局，肉身与分身战交替后读者知道护甲弱化原因，主角局部感知与外部因果并行。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0460",
+            "start_line": 28535,
+            "end_line": 28542
+          },
+          {
+            "chapter_id": "ch-0461",
+            "start_line": 28588,
+            "end_line": 28590
+          },
+          {
+            "chapter_id": "ch-0462",
+            "start_line": 28679,
+            "end_line": 28692
+          },
+          {
+            "chapter_id": "ch-0463",
+            "start_line": 28697,
+            "end_line": 28704
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "claim": "交易与任务对白以条件改变状态：导师赊账、配方换定期供货、宝物竞价和分配都有可回查的承诺。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0011",
+            "start_line": 475,
+            "end_line": 480
+          },
+          {
+            "chapter_id": "ch-0317",
+            "start_line": 17325,
+            "end_line": 17332
+          },
+          {
+            "chapter_id": "ch-0401",
+            "start_line": 24460,
+            "end_line": 24474
+          },
+          {
+            "chapter_id": "ch-0402",
+            "start_line": 24480,
+            "end_line": 24503
+          }
+        ]
+      },
+      {
+        "claim": "亲密关系常以双层表达推进：任务爱慕后私下否认、妹妹岔开搬家、赵代押保管钱与玩笑暂不应允，同时保留内心真实程度。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0165",
+            "start_line": 7328,
+            "end_line": 7334
+          },
+          {
+            "chapter_id": "ch-0166",
+            "start_line": 7365,
+            "end_line": 7369
+          },
+          {
+            "chapter_id": "ch-0204",
+            "start_line": 9842,
+            "end_line": 9850
+          },
+          {
+            "chapter_id": "ch-0331",
+            "start_line": 18233,
+            "end_line": 18240
+          },
+          {
+            "chapter_id": "ch-0338",
+            "start_line": 18730,
+            "end_line": 18738
+          }
+        ]
+      },
+      {
+        "claim": "忠诚与爱通过相同词语的不同践行形成对照：哈尔欲占有，费思自爆守护；列昂一面求自由一面索绝对服从。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0231",
+            "start_line": 11652,
+            "end_line": 11677
+          },
+          {
+            "chapter_id": "ch-0232",
+            "start_line": 11688,
+            "end_line": 11713
+          },
+          {
+            "chapter_id": "ch-0341",
+            "start_line": 18913,
+            "end_line": 18935
+          }
+        ]
+      },
+      {
+        "claim": "成神奖励先用对话解释权限，再用盗神肖恩恶作剧发杂务兑现；末战我输了与坏酒玩笑把明确胜负收成友谊。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0459",
+            "start_line": 28516,
+            "end_line": 28520
+          },
+          {
+            "chapter_id": "ch-0463",
+            "start_line": 28744,
+            "end_line": 28771
+          },
+          {
+            "chapter_id": "ch-0464",
+            "start_line": 28873,
+            "end_line": 28882
+          }
+        ]
+      }
+    ],
+    "pacing": [
+      {
+        "claim": "首次领悟和濒死抉择展开到秒，重复练级炼药压缩为小时或天；恢复冷却的间歇同时用于复盘和判断。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0016",
+            "start_line": 686,
+            "end_line": 706
+          },
+          {
+            "chapter_id": "ch-0228",
+            "start_line": 11444,
+            "end_line": 11461
+          },
+          {
+            "chapter_id": "ch-0333",
+            "start_line": 18349,
+            "end_line": 18360
+          },
+          {
+            "chapter_id": "ch-0335",
+            "start_line": 18553,
+            "end_line": 18573
+          }
+        ]
+      },
+      {
+        "claim": "试用一月、十日采草、人偶与赐福三小时、移民日期等多层时限，迫使角色在继续搜刮与及时推进之间选择。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0004",
+            "start_line": 195,
+            "end_line": 202
+          },
+          {
+            "chapter_id": "ch-0180",
+            "start_line": 8336,
+            "end_line": 8337
+          },
+          {
+            "chapter_id": "ch-0228",
+            "start_line": 11444,
+            "end_line": 11461
+          },
+          {
+            "chapter_id": "ch-0395",
+            "start_line": 24033,
+            "end_line": 24050
+          },
+          {
+            "chapter_id": "ch-0392",
+            "start_line": 23857,
+            "end_line": 23865
+          }
+        ]
+      },
+      {
+        "claim": "副本、竞技、生活、市场和分赃交错：领奖和早餐既缓冲连续战斗，又更新下一目标；短暂妹妹追求者日常位于大型竞技前。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0203",
+            "start_line": 9771,
+            "end_line": 9776
+          },
+          {
+            "chapter_id": "ch-0334",
+            "start_line": 18502,
+            "end_line": 18526
+          },
+          {
+            "chapter_id": "ch-0409",
+            "start_line": 24953,
+            "end_line": 24979
+          },
+          {
+            "chapter_id": "ch-0430",
+            "start_line": 26446,
+            "end_line": 26513
+          },
+          {
+            "chapter_id": "ch-0431",
+            "start_line": 26517,
+            "end_line": 26600
+          }
+        ]
+      },
+      {
+        "claim": "竞技余轮和2v2快速报结果，神战后再用盗神喜剧、最高友战、机场离别三段尾声换压力；死神场外铺陈与对战一句带过的兑现粒度不均。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0441",
+            "start_line": 27283,
+            "end_line": 27341
+          },
+          {
+            "chapter_id": "ch-0453",
+            "start_line": 28108,
+            "end_line": 28164
+          },
+          {
+            "chapter_id": "ch-0463",
+            "start_line": 28741,
+            "end_line": 28772
+          },
+          {
+            "chapter_id": "ch-0464",
+            "start_line": 28776,
+            "end_line": 28799
+          },
+          {
+            "chapter_id": "ch-0464",
+            "start_line": 28883,
+            "end_line": 28894
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "claim": "技艺带来正当收入与尊严，但高位成就越发依赖资本、组织和稀缺资源；个人英雄的成本由真实阵亡显现。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0070",
+            "start_line": 3043,
+            "end_line": 3053
+          },
+          {
+            "chapter_id": "ch-0306",
+            "start_line": 16690,
+            "end_line": 16714
+          },
+          {
+            "chapter_id": "ch-0324",
+            "start_line": 17815,
+            "end_line": 17825
+          },
+          {
+            "chapter_id": "ch-0416",
+            "start_line": 25487,
+            "end_line": 25528
+          }
+        ]
+      },
+      {
+        "claim": "信念可支撑受难者，也能被神权和创造者用于控制。列昂的控制与威胁先呈现复制压迫风险，随后叙述澄清他未真想伤赵，并以帮助脱身和留洞牺牲改写单一反派理解。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0139",
+            "start_line": 5866,
+            "end_line": 5874
+          },
+          {
+            "chapter_id": "ch-0226",
+            "start_line": 11345,
+            "end_line": 11348
+          },
+          {
+            "chapter_id": "ch-0341",
+            "start_line": 18913,
+            "end_line": 18927
+          },
+          {
+            "chapter_id": "ch-0342",
+            "start_line": 18961,
+            "end_line": 18987
+          },
+          {
+            "chapter_id": "ch-0346",
+            "start_line": 19321,
+            "end_line": 19324
+          }
+        ]
+      },
+      {
+        "claim": "守护与占有的张力不只属于反派：萧御以保护伙伴拒收益，同时会因嫉妒报复全团并自省，不能把人物所有高效行为都作正面技法。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0341",
+            "start_line": 18950,
+            "end_line": 18958
+          },
+          {
+            "chapter_id": "ch-0426",
+            "start_line": 26202,
+            "end_line": 26240
+          },
+          {
+            "chapter_id": "ch-0427",
+            "start_line": 26275,
+            "end_line": 26315
+          },
+          {
+            "chapter_id": "ch-0428",
+            "start_line": 26319,
+            "end_line": 26325
+          }
+        ]
+      },
+      {
+        "claim": "兽类强迫交配被调侃并转为坐骑收益、部分竞技笑料诉诸性羞辱和同性污名；这些是文本价值局限，不能连同机制原样吸收为用户写作偏好。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0358",
+            "start_line": 20995,
+            "end_line": 21007
+          },
+          {
+            "chapter_id": "ch-0359",
+            "start_line": 21011,
+            "end_line": 21058
+          },
+          {
+            "chapter_id": "ch-0448",
+            "start_line": 27800,
+            "end_line": 27802
+          },
+          {
+            "chapter_id": "ch-0449",
+            "start_line": 27806,
+            "end_line": 27839
+          }
+        ]
+      },
+      {
+        "claim": "沃顿为给黑星造生命而毁另一星，结局以立场相对和移民政策集中议论；这能改写单一恶神，却不能替侵略、殖民灭族免除责任，也不是外部政策事实。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0418",
+            "start_line": 25603,
+            "end_line": 25655
+          },
+          {
+            "chapter_id": "ch-0463",
+            "start_line": 28731,
+            "end_line": 28735
+          }
+        ]
+      },
+      {
+        "claim": "结局把个人上升收在成为其他玩家的任务入口和离开贫困母星，同时让普通玩家继续探图；燕琳独等缺乏独立新生活，保留感情收束局限。",
+        "kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0463",
+            "start_line": 28738,
+            "end_line": 28771
+          },
+          {
+            "chapter_id": "ch-0464",
+            "start_line": 28883,
+            "end_line": 28894
+          }
+        ]
+      }
+    ],
+    "continuity": [
+      {
+        "claim": "计划、物品获得、实际使用、任务完成和奖励结算是不同状态；准备拍卖匕不等于卖、开箱不等于取宝、神言杖未写交付但实际使用证其已持有。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0154",
+            "start_line": 6675,
+            "end_line": 6679
+          },
+          {
+            "chapter_id": "ch-0168",
+            "start_line": 7531,
+            "end_line": 7533
+          },
+          {
+            "chapter_id": "ch-0319",
+            "start_line": 17497,
+            "end_line": 17504
+          },
+          {
+            "chapter_id": "ch-0320",
+            "start_line": 17571,
+            "end_line": 17579
+          },
+          {
+            "chapter_id": "ch-0419",
+            "start_line": 25690,
+            "end_line": 25693
+          }
+        ]
+      },
+      {
+        "claim": "源文多处数字和身体状态不一致：32+35合68、千夫长重复晋升、断右臂后右手持刀、凤凰三/五次及417提前称公爵。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0272",
+            "start_line": 14531,
+            "end_line": 14546
+          },
+          {
+            "chapter_id": "ch-0273",
+            "start_line": 14599,
+            "end_line": 14607
+          },
+          {
+            "chapter_id": "ch-0263",
+            "start_line": 13950,
+            "end_line": 13954
+          },
+          {
+            "chapter_id": "ch-0280",
+            "start_line": 15000,
+            "end_line": 15006
+          },
+          {
+            "chapter_id": "ch-0294",
+            "start_line": 15834,
+            "end_line": 15848
+          },
+          {
+            "chapter_id": "ch-0294",
+            "start_line": 15877,
+            "end_line": 15879
+          },
+          {
+            "chapter_id": "ch-0288",
+            "start_line": 15467,
+            "end_line": 15474
+          },
+          {
+            "chapter_id": "ch-0307",
+            "start_line": 16718,
+            "end_line": 16719
+          },
+          {
+            "chapter_id": "ch-0418",
+            "start_line": 25619,
+            "end_line": 25619
+          },
+          {
+            "chapter_id": "ch-0429",
+            "start_line": 26420,
+            "end_line": 26422
+          }
+        ]
+      },
+      {
+        "claim": "圣言/神言是不同物，萧御/小雨是不同人物；元帅已晋却未换旧准将勋的旁观误认有解释，不能记成降衔。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0401",
+            "start_line": 24449,
+            "end_line": 24459
+          },
+          {
+            "chapter_id": "ch-0403",
+            "start_line": 24554,
+            "end_line": 24556
+          },
+          {
+            "chapter_id": "ch-0411",
+            "start_line": 25143,
+            "end_line": 25148
+          }
+        ]
+      },
+      {
+        "claim": "三次双萧交手不能混写：354未决、407–408条件切磋停手、463实际萧翎先死萧御余11%生还且对方复活认输；终局明确胜却仍有下位神属性差。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0355",
+            "start_line": 20283,
+            "end_line": 20344
+          },
+          {
+            "chapter_id": "ch-0409",
+            "start_line": 24934,
+            "end_line": 24949
+          },
+          {
+            "chapter_id": "ch-0464",
+            "start_line": 28812,
+            "end_line": 28812
+          },
+          {
+            "chapter_id": "ch-0464",
+            "start_line": 28863,
+            "end_line": 28882
+          }
+        ]
+      },
+      {
+        "claim": "沃顿任务系统完成与本命实物解释分开：460旧盒不见仍属猜测，462写融合分身胸口击杀而未独立指认或毁盒。",
+        "kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0461",
+            "start_line": 28624,
+            "end_line": 28625
+          },
+          {
+            "chapter_id": "ch-0463",
+            "start_line": 28719,
+            "end_line": 28737
+          }
+        ]
+      }
+    ]
+  }
+}

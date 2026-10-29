@@ -1,0 +1,142 @@
+{
+  "status": "applied-exact-primary-approved-awaiting-resign",
+  "primary_approval": "root消息明确批准限定版；不是用户品味批准",
+  "proposal_sha256": "a3ef8b3626179035bd747dfd7994d04d36654de5a645a20f77b48f04ec58c445",
+  "batch_before_sha256": "27e60d5f778a0dacf94416b5ad04fe88b67f24745f4237f062ff1b153f0df9b0",
+  "batch_after_sha256": "3b3502d38fb3482e94b2385b34d93ad417d12f6611c572ad47c4baa9bd4162f1",
+  "before_snapshot": "history/adjudications-local-v02-batch009-before-private-branches398.json",
+  "change": {
+    "path": "adjudications-local-v02-batch009.json",
+    "candidate_id": "v02-local-chapter_unresolved_index-0073-02",
+    "input_sha256": "27e60d5f778a0dacf94416b5ad04fe88b67f24745f4237f062ff1b153f0df9b0",
+    "before": {
+      "candidate_id": "v02-local-chapter_unresolved_index-0073-02",
+      "volume": 2,
+      "title": "汪三分盟返凡书承诺未兑。",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 72,
+      "atomic_index": 1,
+      "original_record_sha256": "4cc32c19cb6b6ffcaff9829ffc7ab5a145e7c8de7fc09327c7357b46ed81433d",
+      "status": "unknown",
+      "audit_domain": "conditional-promise",
+      "rationale": "335汪称发展三个分盟后返凡书；360第一盟仍在八荒实战、963英雄冢主盟解散后余分盟尚存，只证组织后续变化。未独立演出该三个分盟条件已齐和按约迁返过程，不能无条件断言已返或必违约。",
+      "later_chapters": [
+        335,
+        360,
+        963
+      ],
+      "later_evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0335",
+          "start_line": 28553,
+          "end_line": 28626,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0360",
+          "start_line": 30574,
+          "end_line": 30647,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0963",
+          "start_line": 71876,
+          "end_line": 71938,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-chapter-notes.jsonl",
+          "material_sha256": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+          "source_reader": "/root/zongheng_vol03_full"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol04_full",
+      "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+    },
+    "after": {
+      "candidate_id": "v02-local-chapter_unresolved_index-0073-02",
+      "volume": 2,
+      "title": "汪三分盟返凡书承诺未兑。",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 72,
+      "atomic_index": 1,
+      "original_record_sha256": "4cc32c19cb6b6ffcaff9829ffc7ab5a145e7c8de7fc09327c7357b46ed81433d",
+      "status": "partial",
+      "audit_domain": "conditional-promise",
+      "rationale": "335汪称发展三个分盟后返凡书；398烟与汪单独对话已说在八荒另建四个私分盟/近万，汪谈问剑或更高兴，故必须保条件后规模已越三的当事人后述，不能说全书连后规模都未提。此时仍在八荒作战，实际迁回凡书及何时履约未给；不因缺UI否认已叙组织发展，也不强断书外永不返。",
+      "later_chapters": [
+        335,
+        360,
+        963,
+        398
+      ],
+      "later_evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0335",
+          "start_line": 28553,
+          "end_line": 28626,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0360",
+          "start_line": 30574,
+          "end_line": 30647,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0963",
+          "start_line": 71876,
+          "end_line": 71938,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-chapter-notes.jsonl",
+          "material_sha256": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+          "source_reader": "/root/zongheng_vol03_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0398",
+          "start_line": 33348,
+          "end_line": 33407,
+          "claim_kind": "fact",
+          "evidence_access": "本轮BEGIN-END定向完整复读398；亦完整读正式原notes",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol04_full",
+      "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+    },
+    "scope": "仅所列判断/理由和新增398后证，其他对象不变"
+  },
+  "other_objects_equal": true
+}

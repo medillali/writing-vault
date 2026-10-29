@@ -1,0 +1,102 @@
+# 蛮荒禁空与军团马甲
+
+ID: `scn-4d7fb1b479de576f9a71bf0dfc0aeb80` · 版本: 1 · 范围: source-analysis
+
+初遇鹰差点杀宠，落地/高空不同边界才可通行。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-4d7fb1b479de576f9a71bf0dfc0aeb80",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "新地区以生态动作演示边界。",
+    "characters": [
+      "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/shusheng",
+      "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/lingxue",
+      "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/lingyue",
+      "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/qinyun",
+      "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/bingcha",
+      "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/xiang",
+      "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/linger"
+    ],
+    "choice": "灵儿落地避鹰；杀千怪百链实交图；地底救女、西蒙多坦死亡后配合杀。",
+    "consequence": "图得/人救出/交人国君/400余甲成分次；龙无法穿甲有实试。",
+    "failure_mode": "不能用一处无鹰推出全深处永无；五万骑不等400甲全覆盖。",
+    "goal": "得图和救最后生命。",
+    "obstacle": "禁空感知、材料/战马条件、狮蟒/禁骑王。",
+    "state_change": "环境规则重排交通与生产。",
+    "summary": "初遇鹰差点杀宠，落地/高空不同边界才可通行。",
+    "why_it_works": "装备收益先用任务再用制造验证，非预览即批量。"
+  },
+  "created_at": "2026-10-24T20:26:45.823411+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1024",
+      "claim_kind": "synthesis",
+      "end_line": 113012,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 112923
+    },
+    {
+      "chapter_id": "ch-1025",
+      "claim_kind": "synthesis",
+      "end_line": 113127,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 113013
+    },
+    {
+      "chapter_id": "ch-1026",
+      "claim_kind": "synthesis",
+      "end_line": 113227,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 113128
+    },
+    {
+      "chapter_id": "ch-1027",
+      "claim_kind": "synthesis",
+      "end_line": 113340,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 113228
+    },
+    {
+      "chapter_id": "ch-1028",
+      "claim_kind": "synthesis",
+      "end_line": 113464,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 113341
+    },
+    {
+      "chapter_id": "ch-1029",
+      "claim_kind": "synthesis",
+      "end_line": 113557,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 113465
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/wilds",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷七",
+    "场景机制"
+  ],
+  "title": "蛮荒禁空与军团马甲",
+  "updated_at": "2026-10-24T20:26:45.823411+00:00",
+  "user_notes": ""
+}
+
+```

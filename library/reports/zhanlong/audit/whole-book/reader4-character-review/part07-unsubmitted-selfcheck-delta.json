@@ -1,0 +1,35 @@
+{
+  "status": "selfcheck-before-first-submission-not-primary-review",
+  "changes": [
+    {
+      "audit_id": "character-arc-r4-040",
+      "field_path": "key_decisions",
+      "before": "趁子舒与银戈交战背袭，以龙皇认可与子孙仇为自身立场；子舒求同族饶命时她拒绝并反咬，莓护母及奥/主/林/东共同反击。",
+      "after": "趁子舒与银戈交战背袭，以龙皇认可与子孙仇为自身立场；子舒提出替她向流霜求情、以加入龙城换饶她一命，她拒绝并反咬，莓护母及奥/主/林/东共同反击。"
+    }
+  ],
+  "source_check": {
+    "chapter_id": "ch-1177",
+    "start_line": 85870,
+    "end_line": 85951,
+    "scope": "full-indexed-chapter-BEGIN-END",
+    "precise_lines": [
+      85921,
+      85922
+    ],
+    "additional_unique_chapters": 0
+  },
+  "metadata_change": "access receipt adds actual full reread 1177; dependent hashes refreshed; other literary fields unchanged",
+  "before_sha256": {
+    "authored-part07.json": "e935761e5a9efd05812980cd9cee9386ae17e2e46c9b4aa9170db1bd9ad88734",
+    "part07-access-receipt.json": "8f7cf57bc0b058284c29a08943102c9f20b1bcc9edd5123a194334e5a6f6fc08",
+    "reader4-character-arcs-part07.json": "81ddc141b9015f05d8d3ba348802be7df8c9d5e010dd2acc673452a85b714ea3",
+    "reader4-character-arcs-part07.md": "1239d446dd3ef2227597f7f8db83d4c8bdf71d065f985af6898b0bcb25ac1777"
+  },
+  "after_sha256": {
+    "authored-part07.json": "16590c57d18f4faddab96b994a75e83a044cde639eb202edf8cdba06130b02a3",
+    "part07-access-receipt.json": "0358c9edfd1fd0cb09fd78d16cb2b1dbd5e1e802b70bb56ad978e26426009313",
+    "reader4-character-arcs-part07.json": "82a144cde23c4c8a02b43bfb3ea34948a7fdc9b15e78ac45e4afb3b4ebabcf41",
+    "reader4-character-arcs-part07.md": "083891028e762b60135883ebd0b48fca2d432c24b0fef64e132d2ae7951041a3"
+  }
+}

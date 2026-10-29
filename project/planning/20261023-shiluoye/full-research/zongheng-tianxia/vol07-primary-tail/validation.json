@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "reader": "primary",
+  "source_id": "src-2a13958390274509b2af019f6b12d981",
+  "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+  "first": "ch-0951",
+  "last": "ch-1060",
+  "chapters": 110,
+  "batches": 55,
+  "chapter_notes_sha256": "017844261485cc7e997cacdeea2ae4c6ac2c4fe7684a8edca27787413ff6bbd9",
+  "checks": [
+    "exact-assigned-coverage",
+    "no-duplicates",
+    "source-line-boundaries",
+    "batch-and-notes-consistent",
+    "reader-attribution",
+    "no-unresolved-truncation"
+  ],
+  "limits": "覆盖和一致性验证不能单独证明阅读已发生或研究解释正确；实际阅读由会话全文输出、观察和审阅共同支撑。"
+}

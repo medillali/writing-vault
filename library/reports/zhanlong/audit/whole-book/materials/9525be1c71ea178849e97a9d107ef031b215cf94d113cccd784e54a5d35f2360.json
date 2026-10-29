@@ -1,0 +1,256 @@
+{
+  "status": "proposal_only_not_applied",
+  "issue_id": "kings-domain-pronoun-scope",
+  "book": "zhanlong",
+  "actual_reviewer": "zongheng_vol05_full",
+  "finding": "原面板“所有友方目标…并且每秒获自身10%”可分配指各目标自身血量，没有明说仅装备者；实际群体回血不构成必然矛盾。旧研究误把指代收为佩戴者，不当小说异常。",
+  "source_evidence": [
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0530",
+      "start_line": 42939,
+      "end_line": 42950,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0541",
+      "start_line": 43775,
+      "end_line": 43782,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-1109",
+      "start_line": 81317,
+      "end_line": 81329,
+      "claim_kind": "fact"
+    }
+  ],
+  "affected_fields": [
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-chapter-notes.jsonl",
+      "input_sha256": "c38395d6a665f189de112f74eeb028c52583586bcf417cc3c816ff606bcd2e20",
+      "jsonl_index": 25,
+      "chapter_id": "ch-0530",
+      "json_path_within_row": [
+        "facts",
+        1
+      ],
+      "before": "L42940—42963李MVP杀2987，叠人界正道与营救奖：等级+4/魅力25/金币50000/天翎声望、仙霖王者之戒。戒20%吸血不可叠；王者领域500码友攻防抗+100%、每秒自己10%回血，120秒、怒120/CD12小时。李实际换灵血戒戴王戒，靠战膝额外50怒上限才足启动条件。",
+      "proposed_after": "L42940—42963李MVP杀2987，叠人界正道与营救奖：等级+4/魅力25/金币50000/天翎声望、仙霖王者之戒。戒20%吸血不可叠；王者领域500码友攻防抗+100%、各友方目标每秒获自身10%回血，120秒、怒120/CD12小时。李实际换灵血戒戴王戒，靠战膝额外50怒上限才足启动条件。",
+      "original_research_reader": "zongheng_vol05_full",
+      "original_read_at": "2026-10-25T03:12:35.377197+00:00"
+    },
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-chapter-notes.jsonl",
+      "input_sha256": "c38395d6a665f189de112f74eeb028c52583586bcf417cc3c816ff606bcd2e20",
+      "jsonl_index": 36,
+      "chapter_id": "ch-0541",
+      "json_path_within_row": [
+        "inferences",
+        0
+      ],
+      "before": "王戒初物介L42957类自身秒回与此次L43779逐玩家秒回有描述差，不能擅统一；此章范围收益明确跨敌会。",
+      "proposed_after": "530 L42945的“自身10%”承接所有友方目标，可指每个受益目标自身血量，不能强读成仅佩戴者回血；541实际群体回血与此不直接冲突。1109 L81321同句式及L81328队友解释可作终审回指，非新补丁；此章范围收益明确跨敌会。",
+      "original_research_reader": "zongheng_vol05_full",
+      "original_read_at": "2026-10-25T03:16:11.277948+00:00"
+    },
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-chapter-notes.jsonl",
+      "input_sha256": "c38395d6a665f189de112f74eeb028c52583586bcf417cc3c816ff606bcd2e20",
+      "jsonl_index": 36,
+      "chapter_id": "ch-0541",
+      "json_path_within_row": [
+        "unresolved",
+        0
+      ],
+      "before": "蛮王BOSS/装备分法尚未落实；王戒回复范围表述差未解释。",
+      "proposed_after": "蛮王BOSS/装备分法尚未落实；王戒实际群体收益已见，不据“自身”指代另造回复范围冲突。",
+      "original_research_reader": "zongheng_vol05_full",
+      "original_read_at": "2026-10-25T03:16:11.277948+00:00"
+    },
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-prefix-chapter-notes.jsonl",
+      "input_sha256": "232558a451defb269cf1e87635b3830dbc27533d3b819382f9fac7036c82350d",
+      "jsonl_index": 25,
+      "chapter_id": "ch-0530",
+      "json_path_within_row": [
+        "facts",
+        1
+      ],
+      "before": "L42940—42963李MVP杀2987，叠人界正道与营救奖：等级+4/魅力25/金币50000/天翎声望、仙霖王者之戒。戒20%吸血不可叠；王者领域500码友攻防抗+100%、每秒自己10%回血，120秒、怒120/CD12小时。李实际换灵血戒戴王戒，靠战膝额外50怒上限才足启动条件。",
+      "proposed_after": "L42940—42963李MVP杀2987，叠人界正道与营救奖：等级+4/魅力25/金币50000/天翎声望、仙霖王者之戒。戒20%吸血不可叠；王者领域500码友攻防抗+100%、各友方目标每秒获自身10%回血，120秒、怒120/CD12小时。李实际换灵血戒戴王戒，靠战膝额外50怒上限才足启动条件。",
+      "original_research_reader": "zongheng_vol05_full",
+      "original_read_at": "2026-10-25T03:12:35.377197+00:00"
+    },
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-prefix-chapter-notes.jsonl",
+      "input_sha256": "232558a451defb269cf1e87635b3830dbc27533d3b819382f9fac7036c82350d",
+      "jsonl_index": 36,
+      "chapter_id": "ch-0541",
+      "json_path_within_row": [
+        "inferences",
+        0
+      ],
+      "before": "王戒初物介L42957类自身秒回与此次L43779逐玩家秒回有描述差，不能擅统一；此章范围收益明确跨敌会。",
+      "proposed_after": "530 L42945的“自身10%”承接所有友方目标，可指每个受益目标自身血量，不能强读成仅佩戴者回血；541实际群体回血与此不直接冲突。1109 L81321同句式及L81328队友解释可作终审回指，非新补丁；此章范围收益明确跨敌会。",
+      "original_research_reader": "zongheng_vol05_full",
+      "original_read_at": "2026-10-25T03:16:11.277948+00:00"
+    },
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-prefix-chapter-notes.jsonl",
+      "input_sha256": "232558a451defb269cf1e87635b3830dbc27533d3b819382f9fac7036c82350d",
+      "jsonl_index": 36,
+      "chapter_id": "ch-0541",
+      "json_path_within_row": [
+        "unresolved",
+        0
+      ],
+      "before": "蛮王BOSS/装备分法尚未落实；王戒回复范围表述差未解释。",
+      "proposed_after": "蛮王BOSS/装备分法尚未落实；王戒实际群体收益已见，不据“自身”指代另造回复范围冲突。",
+      "original_research_reader": "zongheng_vol05_full",
+      "original_read_at": "2026-10-25T03:16:11.277948+00:00"
+    },
+    {
+      "file": ".planning/20261023-shiluoye/full-research/zhanlong/vol03/chapter-notes.jsonl",
+      "input_sha256": "4171a082ca98a18de4468e332a51a0fb96de528b45f65f3f7cfcfb3b5bbde4bc",
+      "jsonl_index": 25,
+      "chapter_id": "ch-0530",
+      "json_path_within_row": [
+        "facts",
+        1
+      ],
+      "before": "L42940—42963李MVP杀2987，叠人界正道与营救奖：等级+4/魅力25/金币50000/天翎声望、仙霖王者之戒。戒20%吸血不可叠；王者领域500码友攻防抗+100%、每秒自己10%回血，120秒、怒120/CD12小时。李实际换灵血戒戴王戒，靠战膝额外50怒上限才足启动条件。",
+      "proposed_after": "L42940—42963李MVP杀2987，叠人界正道与营救奖：等级+4/魅力25/金币50000/天翎声望、仙霖王者之戒。戒20%吸血不可叠；王者领域500码友攻防抗+100%、各友方目标每秒获自身10%回血，120秒、怒120/CD12小时。李实际换灵血戒戴王戒，靠战膝额外50怒上限才足启动条件。",
+      "original_research_reader": "zongheng_vol05_full",
+      "original_read_at": "2026-10-25T03:12:35.377197+00:00"
+    },
+    {
+      "file": ".planning/20261023-shiluoye/full-research/zhanlong/vol03/chapter-notes.jsonl",
+      "input_sha256": "4171a082ca98a18de4468e332a51a0fb96de528b45f65f3f7cfcfb3b5bbde4bc",
+      "jsonl_index": 36,
+      "chapter_id": "ch-0541",
+      "json_path_within_row": [
+        "inferences",
+        0
+      ],
+      "before": "王戒初物介L42957类自身秒回与此次L43779逐玩家秒回有描述差，不能擅统一；此章范围收益明确跨敌会。",
+      "proposed_after": "530 L42945的“自身10%”承接所有友方目标，可指每个受益目标自身血量，不能强读成仅佩戴者回血；541实际群体回血与此不直接冲突。1109 L81321同句式及L81328队友解释可作终审回指，非新补丁；此章范围收益明确跨敌会。",
+      "original_research_reader": "zongheng_vol05_full",
+      "original_read_at": "2026-10-25T03:16:11.277948+00:00"
+    },
+    {
+      "file": ".planning/20261023-shiluoye/full-research/zhanlong/vol03/chapter-notes.jsonl",
+      "input_sha256": "4171a082ca98a18de4468e332a51a0fb96de528b45f65f3f7cfcfb3b5bbde4bc",
+      "jsonl_index": 36,
+      "chapter_id": "ch-0541",
+      "json_path_within_row": [
+        "unresolved",
+        0
+      ],
+      "before": "蛮王BOSS/装备分法尚未落实；王戒回复范围表述差未解释。",
+      "proposed_after": "蛮王BOSS/装备分法尚未落实；王戒实际群体收益已见，不据“自身”指代另造回复范围冲突。",
+      "original_research_reader": "zongheng_vol05_full",
+      "original_read_at": "2026-10-25T03:16:11.277948+00:00"
+    },
+    {
+      "file": ".planning/20261023-shiluoye/full-research/zhanlong/vol03/prefix-chapter-notes.jsonl",
+      "input_sha256": "3e7818ff524689dc23e4f1bb9551685922463b663535b329e617f37312f64ad1",
+      "jsonl_index": 25,
+      "chapter_id": "ch-0530",
+      "json_path_within_row": [
+        "facts",
+        1
+      ],
+      "before": "L42940—42963李MVP杀2987，叠人界正道与营救奖：等级+4/魅力25/金币50000/天翎声望、仙霖王者之戒。戒20%吸血不可叠；王者领域500码友攻防抗+100%、每秒自己10%回血，120秒、怒120/CD12小时。李实际换灵血戒戴王戒，靠战膝额外50怒上限才足启动条件。",
+      "proposed_after": "L42940—42963李MVP杀2987，叠人界正道与营救奖：等级+4/魅力25/金币50000/天翎声望、仙霖王者之戒。戒20%吸血不可叠；王者领域500码友攻防抗+100%、各友方目标每秒获自身10%回血，120秒、怒120/CD12小时。李实际换灵血戒戴王戒，靠战膝额外50怒上限才足启动条件。",
+      "original_research_reader": "zongheng_vol05_full",
+      "original_read_at": "2026-10-25T03:12:35.377197+00:00"
+    },
+    {
+      "file": ".planning/20261023-shiluoye/full-research/zhanlong/vol03/prefix-chapter-notes.jsonl",
+      "input_sha256": "3e7818ff524689dc23e4f1bb9551685922463b663535b329e617f37312f64ad1",
+      "jsonl_index": 36,
+      "chapter_id": "ch-0541",
+      "json_path_within_row": [
+        "inferences",
+        0
+      ],
+      "before": "王戒初物介L42957类自身秒回与此次L43779逐玩家秒回有描述差，不能擅统一；此章范围收益明确跨敌会。",
+      "proposed_after": "530 L42945的“自身10%”承接所有友方目标，可指每个受益目标自身血量，不能强读成仅佩戴者回血；541实际群体回血与此不直接冲突。1109 L81321同句式及L81328队友解释可作终审回指，非新补丁；此章范围收益明确跨敌会。",
+      "original_research_reader": "zongheng_vol05_full",
+      "original_read_at": "2026-10-25T03:16:11.277948+00:00"
+    },
+    {
+      "file": ".planning/20261023-shiluoye/full-research/zhanlong/vol03/prefix-chapter-notes.jsonl",
+      "input_sha256": "3e7818ff524689dc23e4f1bb9551685922463b663535b329e617f37312f64ad1",
+      "jsonl_index": 36,
+      "chapter_id": "ch-0541",
+      "json_path_within_row": [
+        "unresolved",
+        0
+      ],
+      "before": "蛮王BOSS/装备分法尚未落实；王戒回复范围表述差未解释。",
+      "proposed_after": "蛮王BOSS/装备分法尚未落实；王戒实际群体收益已见，不据“自身”指代另造回复范围冲突。",
+      "original_research_reader": "zongheng_vol05_full",
+      "original_read_at": "2026-10-25T03:16:11.277948+00:00"
+    },
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+      "input_sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+      "json_path": [
+        "chapter_unresolved_index",
+        34,
+        "unresolved",
+        0
+      ],
+      "before": "蛮王BOSS/装备分法尚未落实；王戒回复范围表述差未解释。",
+      "proposed_after": "蛮王BOSS/装备分法尚未落实；王戒实际群体收益已见，不据“自身”指代另造回复范围冲突。",
+      "original_research_reader": "zongheng_vol05_full（原逐章行）；primary合卷"
+    }
+  ],
+  "dependent_local_candidates": [
+    "v03-local-chapter_unresolved_index-0035-02"
+  ],
+  "reading_attribution": "530/541原初全文与本轮定向段落由本裁定者实际读；1109原初全文属卷5原reader，本轮只实际读L81317—81329定向段，不冒整章。",
+  "preserved_boundaries": [
+    "只收窄原研究“自身=仅佩戴者”和必然冲突断言，不删原阶段蛮王未杀/尚待分配。",
+    "1109是后来的成长强化版；1000码/150%/10分钟/4小时不能倒灌530的500码/100%/120秒/12小时。",
+    "初读notes、reader/read_at、原批次、冻结研究、正式库和原池均未修改。",
+    "stage原批次batch0529-0530与batch0539-0542仅保历史；若从这些归档引用同原句，亦须遵优先纠正层，提案不改原件。"
+  ],
+  "scan_scope": "正式卷3 analysis/cards/graph/report/handoff与canonical/prefix notes已扫描并逐命中读；除列明13字段之外，诸如吸血/披风秒回/团体实用属于不同语义，不改。",
+  "primary_approval": {
+    "reviewer": "primary",
+    "status": "approved-for-library-reading-overlay",
+    "user_approval": false,
+    "proposal_sha256": "42f38a82b9103ff1b67540913da3011dfa6f9e74f2bf8cbd33c9d23e9f0eb38c",
+    "scope": "只收窄自身指代的旧研究断言，不改冻结原稿/原reader/read_at；不倒灌后强化面板。",
+    "actual_verification": [
+      {
+        "chapter_id": "ch-0530",
+        "start_line": 42940,
+        "end_line": 42963,
+        "full_raw_reread_this_turn": false
+      },
+      {
+        "chapter_id": "ch-0541",
+        "start_line": 43770,
+        "end_line": 43784,
+        "full_raw_reread_this_turn": false
+      },
+      {
+        "chapter_id": "ch-1109",
+        "start_line": 81317,
+        "end_line": 81329,
+        "full_raw_reread_this_turn": false
+      }
+    ],
+    "findings": "原句的自身可分配指每个友方目标，541实际全体玩家获回血与1109同句式下队友回血印证；无依据认原句限定只佩戴者，不再列必然源冲突。"
+  },
+  "approval_precedence": "原提案status是历史字段，当前按primary_approval与proposed_after阅读。"
+}

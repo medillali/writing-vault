@@ -1,0 +1,155 @@
+{
+  "status": "scope-complete-structural-checks-passed-pending-primary-semantic-review-and-assembler-merge",
+  "atomic_candidates": 995,
+  "scope": [
+    1,
+    3
+  ],
+  "original_unresolved_strings": 580,
+  "complete_four_field_notes": 450,
+  "volumes": [
+    {
+      "volume": 1,
+      "total": 350,
+      "complete_four_field_notes": 90,
+      "status_counts": {
+        "unknown": 103,
+        "answered": 195,
+        "partial": 39,
+        "unrecovered": 13
+      },
+      "original_notes_sha256": "07dcdbeb47552dbc3ddef7089a8583f60774e92cf78d7de44022dc4907f17320",
+      "blocks": [
+        {
+          "path": "adjudications-local-note-v01-part01.json",
+          "atomic_candidates": 107,
+          "sha256": "f6b2453ea850c8b1c8d4ab8b0a4d4eb132bee3b8af0210e94a87e33ff23df55e"
+        },
+        {
+          "path": "adjudications-local-note-v01-part02.json",
+          "atomic_candidates": 77,
+          "sha256": "95ffd3f4655ac8a8e677e0e0e9fec2e679283cadbbd6b86cdf45a83d0384fb4d"
+        },
+        {
+          "path": "adjudications-local-note-v01-part03.json",
+          "atomic_candidates": 72,
+          "sha256": "57ee1c97ec4e32a54f2227cd0fee6f1fd8a6dcbcc6f298e522c831f204872f67"
+        },
+        {
+          "path": "adjudications-local-note-v01-part04.json",
+          "atomic_candidates": 94,
+          "sha256": "4439fb46297bb3e3b8e861e14da6fe95a1a9f9f95dadae3ef5a475fe2e4b50be"
+        }
+      ],
+      "aggregate_path": "adjudications-local-note-v01.json",
+      "aggregate_sha256": "1a4622a2abfb12d4e65671726bb0f84811c2afc5e1f1c3f5e21894f1ec1ed98f",
+      "checks": {
+        "exact_candidate_set": true,
+        "no_duplicate": true,
+        "original_record_and_evidence_unchanged": true,
+        "frozen_blocks_equal_aggregate": true,
+        "all_later_chapter_bounds_and_readers_match_notes": true,
+        "all_scope_four_field_notes_logged": true
+      }
+    },
+    {
+      "volume": 3,
+      "total": 645,
+      "complete_four_field_notes": 360,
+      "status_counts": {
+        "answered": 354,
+        "unknown": 185,
+        "partial": 97,
+        "unrecovered": 9
+      },
+      "original_notes_sha256": "6b7018d485c077654bf042cfd10b393ef7284a3a413f79d8365a5ca080fe538f",
+      "blocks": [
+        {
+          "path": "adjudications-local-note-v03-part01.json",
+          "atomic_candidates": 82,
+          "sha256": "9a77517e022a0ce87b343c1e16e320d85244aeee10b61854feecf7109cb55840"
+        },
+        {
+          "path": "adjudications-local-note-v03-part02.json",
+          "atomic_candidates": 52,
+          "sha256": "3486c7edfc2538d03a3dfaedfcc94ae82ba7bd04213d30ec4afef6eee016d6a9"
+        },
+        {
+          "path": "adjudications-local-note-v03-part03.json",
+          "atomic_candidates": 51,
+          "sha256": "301282a2486d8ec17f36780a647961180a8cb7f8328d306a4b5c69575c428808"
+        },
+        {
+          "path": "adjudications-local-note-v03-part04.json",
+          "atomic_candidates": 75,
+          "sha256": "17956a5f422033361e71927e85652c31bd9734f0da3821fa399f98555688778c"
+        },
+        {
+          "path": "adjudications-local-note-v03-part05.json",
+          "atomic_candidates": 93,
+          "sha256": "7ab63382281edabbf4a14c9e8179c8c921c369156613d6dcbe717724b95bb9fe"
+        },
+        {
+          "path": "adjudications-local-note-v03-part06.json",
+          "atomic_candidates": 94,
+          "sha256": "d515d4cce3ab03b92ccab1fbdba6aa90316acbde89d432433e40c0da647e8f96"
+        },
+        {
+          "path": "adjudications-local-note-v03-part07.json",
+          "atomic_candidates": 68,
+          "sha256": "db021041d390c741c01a10284bb1317989fcbd9ade7094d0d975abb3c335f377"
+        },
+        {
+          "path": "adjudications-local-note-v03-part08.json",
+          "atomic_candidates": 49,
+          "sha256": "98ba7b63b00daac776e98096f70ecbf99640302ca3705995696e01a58d6d039b"
+        },
+        {
+          "path": "adjudications-local-note-v03-part09.json",
+          "atomic_candidates": 81,
+          "sha256": "c2bf9f5deaa3992df1c018d9c7975b061b2d956fc8c7223a2d4f0c799ac437f7"
+        }
+      ],
+      "aggregate_path": "adjudications-local-note-v03.json",
+      "aggregate_sha256": "9955a5af0891cdd195587aaa87c51f7954aeb70ea01a5455a0485daccdf51ae7",
+      "checks": {
+        "exact_candidate_set": true,
+        "no_duplicate": true,
+        "original_record_and_evidence_unchanged": true,
+        "frozen_blocks_equal_aggregate": true,
+        "all_later_chapter_bounds_and_readers_match_notes": true,
+        "all_scope_four_field_notes_logged": true
+      }
+    }
+  ],
+  "local_identity_sha256": "1078780bc22b74289f154380601841d3f44ee85ee26097bb05b86fbd159f33bc",
+  "method": {
+    "answered": "原事件有明确完成/失败/拒绝/规则后释/作者纠错或边界判据，不等愿望成功。",
+    "partial": "复合原子中部分有专属回收、部分仍未明；逐子项记。",
+    "unrecovered": "特定承诺/账目/物件去向未找到匹配回执；不称客观必未履行/作者忘。",
+    "unknown": "源差、精确数字、身份、动机或证词不足，不能由相似后期事补早期。"
+  },
+  "reader_attribution": "卷1原文primary，本代理派生完整四栏复核；卷3原先本代理实读，本轮四栏复核不虚增覆盖；其他卷后证为实际分工读者notes/最终研究。",
+  "targeted_repeated_source_rereads": {
+    "raw_chapters": [
+      316,
+      320,
+      323,
+      333,
+      352
+    ],
+    "new_coverage": false,
+    "logs": [
+      "targeted-source-rereads.json",
+      "targeted-source-reread-105.json"
+    ]
+  },
+  "merge_instruction": "只由agent4合并已primary主审签名冻结块；聚合与快照不是重复增量输入。未改主池/正式库/冻结分卷。",
+  "next_assignment": "旧local卷5 offset178—556共379，独立local-v05-tail-review；root已完成前177/5批。",
+  "documents": [
+    {
+      "path": "adjudications-local-note-v03.md",
+      "sha256": "5d0a4f112897102ec2f20702777d694ab3542d20e8ce18371aa2ec786d8a42b7"
+    }
+  ]
+}

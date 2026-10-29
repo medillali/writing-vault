@@ -1,0 +1,123 @@
+{
+  "status": "proposal-only-awaiting-primary",
+  "new_actual_original_rereads": [
+    {
+      "chapter_id": "ch-0965",
+      "start_line": 71995,
+      "end_line": 72050,
+      "full_text_read": true,
+      "actual_reader": "/root/zongheng_vol03_full",
+      "unique_coverage_increment": 0
+    },
+    {
+      "chapter_id": "ch-0821",
+      "start_line": 63119,
+      "end_line": 63175,
+      "full_text_read": true,
+      "actual_reader": "/root/zongheng_vol03_full",
+      "unique_coverage_increment": 0
+    },
+    {
+      "chapter_id": "ch-0356",
+      "start_line": 30270,
+      "end_line": 30362,
+      "full_text_read": true,
+      "actual_reader": "/root/zongheng_vol03_full",
+      "unique_coverage_increment": 0
+    },
+    {
+      "chapter_id": "ch-0941",
+      "start_line": 70406,
+      "end_line": 70468,
+      "full_text_read": true,
+      "actual_reader": "/root/zongheng_vol03_full",
+      "unique_coverage_increment": 0
+    }
+  ],
+  "changes": [
+    {
+      "file": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader3-review/synthesis-characters.json",
+      "input_sha256": "dc24bd9163455e43b17e7b1938392d6cfa505174181a10e3948048f37d6338cb",
+      "json_pointer": "/rows/0/fact_summary",
+      "row_id": "zhanlong-book-characters-01",
+      "before": "李逍遥早期凭承伤、救援和个人武力保护同伴；紫魔林追击造成四千人损失后须面对指挥错误。成为军将后，他能救囚女、安置军属，也亲自选择杀降、尸桥、不救盛林与压制矿夫；后期更参与强迁及镇压平民。末战选择让玩家断后、救NPC，但50万NPC返不足18万。",
+      "after": "李逍遥早期凭承伤、救援和个人武力保护同伴；紫魔林追击造成四千人损失后须面对指挥错误。成为军将后，他能救囚女、安置军属，也准尸填沟、对降俘未获保全最终退让、支持不救盛临；见危险矿工只内想善待而无改善令。后期更参与强迁及镇压平民。末战选择让玩家断后、救NPC，但50万NPC返不足18万。",
+      "reason": "准用尸桥/降俘失保/矿工未改善的行动者层次",
+      "source_evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0821",
+          "start_line": 63119,
+          "end_line": 63175,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0941",
+          "start_line": 70406,
+          "end_line": 70468,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0965",
+          "start_line": 71995,
+          "end_line": 72050,
+          "claim_kind": "fact"
+        }
+      ],
+      "other_fields": "全部不动，仅顶层事实句精确收窄/更正，引用原本已有相应章，不改上游"
+    },
+    {
+      "file": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader3-review/synthesis-themes.json",
+      "input_sha256": "a3f67ac709c4ddcb306ccf6c54944491920e4f4d34af016547f75124786475b6",
+      "json_pointer": "/rows/0/fact_summary",
+      "row_id": "zhanlong-book-themes-01",
+      "before": "李多次救同伴、囚女和军属，逐渐以保护者自居；同一人物也选择杀降、尸桥、压制矿夫、强迁与镇压平民。后期结盟与讨伐仍伴平民真实死亡，花枪等质问其刽子手式行为，李以战争机器自况而未形成彻底无暴力的解决。",
+      "after": "李多次救同伴、囚女和军属，逐渐以保护者自居；同一人物仍准尸桥、未能兑现降俘不杀承诺，对危险矿工只想善待未下改善令，后期又参与强迁与镇压平民。后期结盟与讨伐仍伴平民真实死亡，花枪等质问其刽子手式行为，李以战争机器自况而未形成彻底无暴力的解决。",
+      "reason": "区分不作为/退让与主动施暴，不扩大矿工事件",
+      "source_evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0821",
+          "start_line": 63119,
+          "end_line": 63175,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0965",
+          "start_line": 71995,
+          "end_line": 72050,
+          "claim_kind": "fact"
+        }
+      ],
+      "other_fields": "全部不动，仅顶层事实句精确收窄/更正，引用原本已有相应章，不改上游"
+    },
+    {
+      "file": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader3-review/synthesis-plot.json",
+      "input_sha256": "883a87878f8f1c08eef5dcc5251a1fe349041c7ba80b0799fc7ab805d44c992d",
+      "json_pointer": "/rows/2/fact_summary",
+      "row_id": "zhanlong-book-plot-03",
+      "before": "早期匕首攀援、站位与草丛利用把弱属性变成战术题；秦王救援受挫后改用卧底和协作，比赛败给问剑后又有技术学习及实战验证。国家战截粮、烧仓在不同敌军上并非都有效：亡灵可食尸、火云条件亦限制围粮。后段地雷、盖亚与传送各有用处，却不能穿越鬼城位面障碍。",
+      "after": "早期匕首攀援、站位与草丛利用把弱属性变成战术题；现实秦蒙救援受挫后改用卧底和协作，比赛败给问剑后又有技术学习及实战验证。国家战截粮、烧仓在不同敌军上并非都有效：亡灵可食尸、火云条件亦限制围粮。后段地雷、盖亚与传送各有用处，却不能穿越鬼城位面障碍。",
+      "reason": "秦蒙是现实失踪者，不能误写游戏秦王",
+      "source_evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0356",
+          "start_line": 30270,
+          "end_line": 30362,
+          "claim_kind": "fact"
+        }
+      ],
+      "other_fields": "全部不动，仅顶层事实句精确收窄/更正，引用原本已有相应章，不改上游"
+    }
+  ]
+}

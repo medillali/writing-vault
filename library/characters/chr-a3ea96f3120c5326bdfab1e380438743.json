@@ -1,0 +1,107 @@
+{
+  "asset_id": "chr-a3ea96f3120c5326bdfab1e380438743",
+  "asset_type": "character",
+  "content": {
+    "changes": "公共战争短暂并肩不能消除国内领地竞争。",
+    "constraints": "公会名号有招人效力但精锐与150万数量不同；本轮攻城未结。",
+    "current_state": "本卷末攻暗月已三小时，未夺/未败/未死结算；其近80万霸王与其余组成150万联军。",
+    "decisions": [
+      "国战阶段抗外阵亡后回；趁海战拟空城进攻，实际交令开启10h围城。"
+    ],
+    "goals": "以霸王及联军夺暗月、追王者公会位置。",
+    "interpretation": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0738",
+          "claim_kind": "inference",
+          "end_line": 61695,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 61624
+        },
+        {
+          "chapter_id": "ch-0765",
+          "claim_kind": "inference",
+          "end_line": 63657,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 63588
+        },
+        {
+          "chapter_id": "ch-0791",
+          "claim_kind": "inference",
+          "end_line": 65912,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 65826
+        },
+        {
+          "chapter_id": "ch-0792",
+          "claim_kind": "inference",
+          "end_line": 65980,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 65913
+        }
+      ],
+      "text": "以本卷实际决定与变化观察，不把角色评语当全人格定论。"
+    },
+    "knowledge_boundary": "陆评乌合之众是敌方评价，不能据此提前判无力攻城。",
+    "relationship_directions": [
+      "国栋→小猪：雇佣组织效力；国栋→狂龙花间：盟首。"
+    ],
+    "summary": "本卷末攻暗月已三小时，未夺/未败/未死结算；其近80万霸王与其余组成150万联军。"
+  },
+  "created_at": "2026-10-24T23:04:58.788458+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0738",
+      "claim_kind": "fact",
+      "end_line": 61695,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 61624
+    },
+    {
+      "chapter_id": "ch-0765",
+      "claim_kind": "fact",
+      "end_line": 63657,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 63588
+    },
+    {
+      "chapter_id": "ch-0791",
+      "claim_kind": "fact",
+      "end_line": 65912,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 65826
+    },
+    {
+      "chapter_id": "ch-0792",
+      "claim_kind": "fact",
+      "end_line": 65980,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 65913
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol04/character/guodong",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:4",
+    "研究:全量九维"
+  ],
+  "title": "王栋梁／国之栋梁",
+  "updated_at": "2026-10-24T23:04:58.788458+00:00",
+  "user_notes": ""
+}

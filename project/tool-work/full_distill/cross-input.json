@@ -1,0 +1,5756 @@
+{
+  "aliases": {
+    "th-heida-awareness": "children-consciousness",
+    "th-nana-persecution": "nana-protection",
+    "th-redemption-soul": "redemption-soul",
+    "th-tank-war-soul": "tank-battle-soul",
+    "th-thunder-aftermath": "thunder-mercenary-conflict",
+    "th-undead-autonomy": "blackdragon-autonomy-and-companionship",
+    "th-undead-mark": "red-moon-destination",
+    "th-undead-territory": "undead-territory"
+  },
+  "edges": [
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0010",
+          "end_line": 1088,
+          "start_line": 1045
+        },
+        {
+          "chapter_id": "ch-0020",
+          "end_line": 2290,
+          "start_line": 2273
+        }
+      ],
+      "from": "v01-e06",
+      "id": "cross-children-01",
+      "kind": "payoff",
+      "label": "自发护主的意识线索发展为主动称呼和解释；觉醒原因仍未知",
+      "to": "v02-e05",
+      "tracking_keys": [
+        "children-consciousness"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "end_line": 1238,
+          "start_line": 1216
+        },
+        {
+          "chapter_id": "ch-0014",
+          "end_line": 1412,
+          "start_line": 1380
+        }
+      ],
+      "from": "v01-e10",
+      "id": "cross-ruins-01",
+      "kind": "reveal",
+      "label": "已发现的荒废遗迹在红月下出现祭坛反应，古史仍未证实",
+      "to": "v02-e01",
+      "tracking_keys": [
+        "sunken-undead-kingdom"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0009",
+          "end_line": 977,
+          "start_line": 963
+        },
+        {
+          "chapter_id": "ch-0015",
+          "end_line": 1579,
+          "start_line": 1555
+        }
+      ],
+      "from": "v01-e05",
+      "id": "cross-blockade-01",
+      "kind": "cause",
+      "label": "前集全面围捕延续为出沼泽障碍，促成改貌携魂的突围方案",
+      "to": "v02-e02",
+      "tracking_keys": [
+        "thunder-mercenary-conflict"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "end_line": 327,
+          "start_line": 293
+        },
+        {
+          "chapter_id": "ch-0021",
+          "end_line": 2357,
+          "start_line": 2336
+        }
+      ],
+      "from": "v01-e03",
+      "id": "cross-memory-01",
+      "kind": "payoff",
+      "label": "吞噬阿罗约留下的记忆逐步解锁，旧物触发完整融合而魔力未继承",
+      "to": "v02-e06",
+      "tracking_keys": [
+        "memory-and-power"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0023",
+          "end_line": 2759,
+          "start_line": 2748
+        },
+        {
+          "chapter_id": "ch-0026",
+          "end_line": 3120,
+          "start_line": 3103
+        }
+      ],
+      "from": "v02-e09",
+      "id": "cross-nana-01",
+      "kind": "payoff",
+      "label": "上集未答复的托付转为洛特复生，并经条件协商加入队伍",
+      "to": "v03-e01",
+      "tracking_keys": [
+        "nana-protection"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "end_line": 2200,
+          "start_line": 2193
+        },
+        {
+          "chapter_id": "ch-0028",
+          "end_line": 3431,
+          "start_line": 3385
+        },
+        {
+          "chapter_id": "ch-0029",
+          "end_line": 3515,
+          "start_line": 3514
+        }
+      ],
+      "from": "v02-e04",
+      "id": "cross-tank-01",
+      "kind": "payoff",
+      "label": "未炼化的坦克战魂被释放拖延雷克丁，随后再次压回体内",
+      "to": "v03-e03",
+      "tracking_keys": [
+        "tank-battle-soul",
+        "thunder-mercenary-conflict"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0014",
+          "end_line": 1430,
+          "start_line": 1418
+        },
+        {
+          "chapter_id": "ch-0029",
+          "end_line": 3628,
+          "start_line": 3595
+        }
+      ],
+      "from": "v02-e01",
+      "id": "cross-redemption-01",
+      "kind": "reveal",
+      "label": "被隐瞒的救赎目标取得实物后曝光，引发同伴关系危机",
+      "to": "v03-e04",
+      "tracking_keys": [
+        "redemption-soul",
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0021",
+          "end_line": 2351,
+          "start_line": 2336
+        },
+        {
+          "chapter_id": "ch-0029",
+          "end_line": 3616,
+          "start_line": 3599
+        }
+      ],
+      "from": "v02-e06",
+      "id": "cross-memory-02",
+      "kind": "payoff",
+      "label": "完整继承记忆使黑龙能够识别圣物，伙伴不知道这项认知优势",
+      "to": "v03-e04",
+      "tracking_keys": [
+        "memory-and-power",
+        "redemption-soul"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "end_line": 2295,
+          "start_line": 2273
+        },
+        {
+          "chapter_id": "ch-0031",
+          "end_line": 3874,
+          "start_line": 3863
+        }
+      ],
+      "from": "v02-e05",
+      "id": "cross-autonomy-01",
+      "kind": "payoff",
+      "label": "意识确认继续发展为主动反哺和身体自主讨论，尚未解除灵魂依附",
+      "to": "v03-e06",
+      "tracking_keys": [
+        "children-consciousness",
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0017",
+          "end_line": 1819,
+          "start_line": 1787
+        },
+        {
+          "chapter_id": "ch-0032",
+          "end_line": 4125,
+          "start_line": 4104
+        }
+      ],
+      "from": "v02-e03",
+      "id": "cross-alliance-01",
+      "kind": "reversal",
+      "label": "互利联盟在胜利后转为权限与情报边界争论，合作仍继续",
+      "to": "v03-e09",
+      "tracking_keys": [
+        "thunder-mercenary-conflict"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0026",
+          "end_line": 3120,
+          "start_line": 3103
+        },
+        {
+          "chapter_id": "ch-0034",
+          "end_line": 4190,
+          "start_line": 4151
+        },
+        {
+          "chapter_id": "ch-0034",
+          "end_line": 4239,
+          "start_line": 4215
+        }
+      ],
+      "from": "v03-e01",
+      "id": "cross-nana-02",
+      "kind": "echo",
+      "label": "对娜娜的守护从维持照料者生命延伸到理解失亲痛苦",
+      "to": "v04-e01",
+      "tracking_keys": [
+        "nana-protection",
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0031",
+          "end_line": 3884,
+          "start_line": 3875
+        },
+        {
+          "chapter_id": "ch-0041",
+          "end_line": 5192,
+          "start_line": 5158
+        }
+      ],
+      "from": "v03-e06",
+      "id": "cross-home-01",
+      "kind": "echo",
+      "label": "朗克岭沉睡领地与绝幽谷生活据点分别体现安全归属需求；两处不可合并为同一基地",
+      "to": "v04-e07",
+      "tracking_keys": [
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0032",
+          "end_line": 4002,
+          "start_line": 3999
+        },
+        {
+          "chapter_id": "ch-0047",
+          "end_line": 5769,
+          "start_line": 5738
+        }
+      ],
+      "from": "v03-e08",
+      "id": "cross-redemption-02",
+      "kind": "payoff",
+      "label": "圣焰后果回收为星获救与盒文释义：救赎是净化，并非恢复生前身份",
+      "to": "v05-e02",
+      "tracking_keys": [
+        "redemption-soul",
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0043",
+          "end_line": 5428,
+          "start_line": 5410
+        },
+        {
+          "chapter_id": "ch-0045",
+          "end_line": 5586,
+          "start_line": 5560
+        },
+        {
+          "chapter_id": "ch-0046",
+          "end_line": 5597,
+          "start_line": 5590
+        }
+      ],
+      "from": "v04-e09",
+      "id": "cross-holy-fire-01",
+      "kind": "payoff",
+      "label": "上集救援与战局在本集突围中续接，黑七存活而黑龙随后因透支昏迷",
+      "to": "v05-e01",
+      "tracking_keys": [
+        "th-heiqi-holy-fire"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0037",
+          "end_line": 4674,
+          "start_line": 4638
+        },
+        {
+          "chapter_id": "ch-0048",
+          "end_line": 5941,
+          "start_line": 5876
+        }
+      ],
+      "from": "v04-e03",
+      "id": "cross-mark-01",
+      "kind": "setup",
+      "label": "印记的北方召归声从未明信息发展为寻求力量的旅行方向",
+      "to": "v05-e04",
+      "tracking_keys": [
+        "red-moon-destination"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0038",
+          "end_line": 4809,
+          "start_line": 4804
+        },
+        {
+          "chapter_id": "ch-0051",
+          "end_line": 6388,
+          "start_line": 6335
+        }
+      ],
+      "from": "v04-e04",
+      "id": "cross-roder-01",
+      "kind": "reveal",
+      "label": "此前独立出现且逃过审判的音乐家经异常琴召唤进入主角队伍，逃脱原理仍不能据此推定",
+      "to": "v05-e05",
+      "tracking_keys": [
+        "th-rode-music",
+        "roder-song-and-wife"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0040",
+          "end_line": 5087,
+          "start_line": 5042
+        },
+        {
+          "chapter_id": "ch-0041",
+          "end_line": 5115,
+          "start_line": 5088
+        },
+        {
+          "chapter_id": "ch-0057",
+          "end_line": 7008,
+          "start_line": 6963
+        }
+      ],
+      "from": "v04-e06",
+      "id": "cross-children-02",
+      "kind": "payoff",
+      "label": "对泰戈的特殊反应发展为黑大主动开口和控制断开；骨架原主仍未确认",
+      "to": "v06-e01",
+      "tracking_keys": [
+        "children-consciousness"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0047",
+          "end_line": 5815,
+          "start_line": 5773
+        },
+        {
+          "chapter_id": "ch-0064",
+          "end_line": 7897,
+          "start_line": 7861
+        }
+      ],
+      "from": "v05-e03",
+      "id": "cross-angel-01",
+      "kind": "reversal",
+      "label": "借体降临的强敌被群体控制后封印本源；封印不等于杀灭",
+      "to": "v06-e06",
+      "tracking_keys": [
+        "rosy-angel-identity"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0047",
+          "end_line": 5815,
+          "start_line": 5813
+        },
+        {
+          "chapter_id": "ch-0066",
+          "end_line": 8214,
+          "start_line": 8177
+        }
+      ],
+      "from": "v05-e03",
+      "id": "cross-angel-02",
+      "kind": "reveal",
+      "label": "降临者采用萝茜名字的疑问回收为天使与原残灵分离；原萝茜补魂醒来仍失忆",
+      "to": "v06-e09",
+      "tracking_keys": [
+        "rosy-angel-identity"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0048",
+          "end_line": 5941,
+          "start_line": 5876
+        },
+        {
+          "chapter_id": "ch-0064",
+          "end_line": 7897,
+          "start_line": 7881
+        }
+      ],
+      "from": "v05-e04",
+      "id": "cross-mark-02",
+      "kind": "payoff",
+      "label": "北行寻找印记源头后，斯科特确认自己散播印记；龙墓假设未成立",
+      "to": "v06-e06",
+      "tracking_keys": [
+        "red-moon-destination"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0055",
+          "end_line": 6869,
+          "start_line": 6847
+        },
+        {
+          "chapter_id": "ch-0065",
+          "end_line": 7968,
+          "start_line": 7945
+        }
+      ],
+      "from": "v05-e08",
+      "id": "cross-desert-01",
+      "kind": "reveal",
+      "label": "沙下骨骸得到斯科特的远古战争解释，史诗有起始边界；战因胜负仍未明",
+      "to": "v06-e07",
+      "tracking_keys": [
+        "desert-bones-and-mourning-soul"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0051",
+          "end_line": 6388,
+          "start_line": 6335
+        },
+        {
+          "chapter_id": "ch-0065",
+          "end_line": 8081,
+          "start_line": 8048
+        }
+      ],
+      "from": "v05-e05",
+      "id": "cross-roder-02",
+      "kind": "payoff",
+      "label": "音乐家随队后的安魂琴歌产生战力之外的集体价值；亡妻现状未因此解决",
+      "to": "v06-e07",
+      "tracking_keys": [
+        "roder-song-and-wife",
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0045",
+          "end_line": 5568,
+          "start_line": 5540
+        },
+        {
+          "chapter_id": "ch-0058",
+          "end_line": 7145,
+          "start_line": 7110
+        },
+        {
+          "chapter_id": "ch-0059",
+          "end_line": 7226,
+          "start_line": 7200
+        }
+      ],
+      "from": "v05-e01",
+      "id": "cross-identity-news-01",
+      "kind": "cause",
+      "label": "幸存者带回的不死身份情报引起疾风、同盟及教会不同应对",
+      "to": "v06-e02",
+      "tracking_keys": [
+        "god-knight-pursuit"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0029",
+          "end_line": 3515,
+          "start_line": 3514
+        },
+        {
+          "chapter_id": "ch-0046",
+          "end_line": 5632,
+          "start_line": 5623
+        }
+      ],
+      "from": "v03-e03",
+      "id": "cross-tank-02",
+      "kind": "reveal",
+      "label": "再压回体内的战魂仍未炼化，神圣伤只造成共同压制而非根除",
+      "to": "v05-e09",
+      "tracking_keys": [
+        "tank-battle-soul"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0064",
+          "end_line": 7897,
+          "start_line": 7861
+        },
+        {
+          "chapter_id": "ch-0073",
+          "end_line": 9116,
+          "start_line": 9089
+        },
+        {
+          "chapter_id": "ch-0073",
+          "end_line": 9216,
+          "start_line": 9203
+        },
+        {
+          "chapter_id": "ch-0074",
+          "end_line": 9240,
+          "start_line": 9221
+        }
+      ],
+      "from": "v06-e06",
+      "id": "cross-angel-03",
+      "kind": "payoff",
+      "label": "封存天使后来成为元力知识来源；其遭吸收与原萝茜失忆后的经历分别记录",
+      "to": "v07-e05",
+      "tracking_keys": [
+        "rosy-angel-identity",
+        "desert-bones-and-mourning-soul"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0066",
+          "end_line": 8214,
+          "start_line": 8177
+        },
+        {
+          "chapter_id": "ch-0071",
+          "end_line": 8776,
+          "start_line": 8735
+        }
+      ],
+      "from": "v06-e09",
+      "id": "cross-rosy-01",
+      "kind": "reveal",
+      "label": "补魂失忆后仍有姓名触发的敌意，娜娜的关心使本次杀意退去；未证明完整恢复记忆",
+      "to": "v07-e03",
+      "tracking_keys": [
+        "rosy-angel-identity"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0065",
+          "end_line": 8081,
+          "start_line": 7945
+        },
+        {
+          "chapter_id": "ch-0073",
+          "end_line": 9116,
+          "start_line": 9089
+        },
+        {
+          "chapter_id": "ch-0073",
+          "end_line": 9216,
+          "start_line": 9203
+        },
+        {
+          "chapter_id": "ch-0074",
+          "end_line": 9240,
+          "start_line": 9221
+        }
+      ],
+      "from": "v06-e07",
+      "id": "cross-history-01",
+      "kind": "reveal",
+      "label": "斯科特承认先前隐瞒并补充古帝国史，已知历史的来源边界进一步收紧",
+      "to": "v07-e05",
+      "tracking_keys": [
+        "desert-bones-and-mourning-soul"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0059",
+          "end_line": 7226,
+          "start_line": 7200
+        },
+        {
+          "chapter_id": "ch-0058",
+          "end_line": 7145,
+          "start_line": 7110
+        },
+        {
+          "chapter_id": "ch-0075",
+          "end_line": 9509,
+          "start_line": 9446
+        }
+      ],
+      "from": "v06-e02",
+      "id": "cross-knight-01",
+      "kind": "payoff",
+      "label": "出岛的暗之神骑提供持续方位，追索在同盟败亡后转为出口拦截",
+      "to": "v07-e08",
+      "tracking_keys": [
+        "god-knight-pursuit"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0048",
+          "end_line": 5941,
+          "start_line": 5876
+        },
+        {
+          "chapter_id": "ch-0070",
+          "end_line": 8731,
+          "start_line": 8718
+        },
+        {
+          "chapter_id": "ch-0071",
+          "end_line": 8859,
+          "start_line": 8848
+        },
+        {
+          "chapter_id": "ch-0071",
+          "end_line": 8899,
+          "start_line": 8892
+        }
+      ],
+      "from": "v05-e04",
+      "id": "cross-dragon-01",
+      "kind": "payoff",
+      "label": "北行求力遇到曾预告的龙墓危险；损失使风险判断改变，但不重开已解决的印记源头疑问",
+      "to": "v07-e02",
+      "tracking_keys": [
+        "dragon-tomb-expedition"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0066",
+          "end_line": 8162,
+          "start_line": 8102
+        },
+        {
+          "chapter_id": "ch-0075",
+          "end_line": 9521,
+          "start_line": 9510
+        },
+        {
+          "chapter_id": "ch-0076",
+          "end_line": 9569,
+          "start_line": 9543
+        },
+        {
+          "chapter_id": "ch-0076",
+          "end_line": 9576,
+          "start_line": 9569
+        },
+        {
+          "chapter_id": "ch-0076",
+          "end_line": 9605,
+          "start_line": 9585
+        }
+      ],
+      "from": "v06-e08",
+      "id": "cross-armour-01",
+      "kind": "setup",
+      "label": "已掌握的灵魂运用与武装支撑正面应战信心，战果留待下一集；不归因为本集金属化实验",
+      "to": "v07-e09",
+      "tracking_keys": [
+        "god-knight-pursuit"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0075",
+          "end_line": 9445,
+          "start_line": 9369
+        },
+        {
+          "chapter_id": "ch-0153",
+          "end_line": 18963,
+          "start_line": 18915
+        },
+        {
+          "chapter_id": "ch-0153",
+          "end_line": 19004,
+          "start_line": 18968
+        },
+        {
+          "chapter_id": "ch-0154",
+          "end_line": 19008,
+          "start_line": 19005
+        }
+      ],
+      "from": "v07-e07",
+      "id": "cross-v14-autonomy",
+      "kind": "echo",
+      "label": "早期重订伙伴边界与后期代理者提出全城活尸计划相对照，组织扩大后授权问题再次出现",
+      "to": "v14-e08",
+      "tracking_keys": [
+        "blackdragon-autonomy-and-companionship",
+        "seiyne-living-corpse-plan"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0075",
+          "end_line": 9521,
+          "start_line": 9510
+        },
+        {
+          "chapter_id": "ch-0076",
+          "end_line": 9569,
+          "start_line": 9543
+        },
+        {
+          "chapter_id": "ch-0076",
+          "end_line": 9576,
+          "start_line": 9569
+        },
+        {
+          "chapter_id": "ch-0076",
+          "end_line": 9605,
+          "start_line": 9585
+        },
+        {
+          "chapter_id": "ch-0078",
+          "end_line": 9677,
+          "start_line": 9634
+        },
+        {
+          "chapter_id": "ch-0078",
+          "end_line": 9744,
+          "start_line": 9700
+        }
+      ],
+      "from": "v07-e09",
+      "id": "cross-cliffhanger-01",
+      "kind": "payoff",
+      "label": "上集盾墙冲撞前的悬停在本集战斗中兑现；雷奥救主教并灭口使胜负之外再生身份问题",
+      "to": "v08-e01",
+      "tracking_keys": [
+        "god-knight-pursuit"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0066",
+          "end_line": 8162,
+          "start_line": 8102
+        },
+        {
+          "chapter_id": "ch-0078",
+          "end_line": 9677,
+          "start_line": 9634
+        },
+        {
+          "chapter_id": "ch-0078",
+          "end_line": 9744,
+          "start_line": 9700
+        }
+      ],
+      "from": "v06-e08",
+      "id": "cross-armour-02",
+      "kind": "payoff",
+      "label": "此前制作后尚待实测的战装在圣力攻击中得到验证；能量仍消耗，不扩展为所有单位均免疫",
+      "to": "v08-e01",
+      "tracking_keys": [
+        "desert-bones-and-mourning-soul"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0071",
+          "end_line": 8776,
+          "start_line": 8735
+        },
+        {
+          "chapter_id": "ch-0087",
+          "end_line": 10953,
+          "start_line": 10888
+        }
+      ],
+      "from": "v07-e03",
+      "id": "cross-rosy-02",
+      "kind": "setup",
+      "label": "与娜娜建立的新关系进一步成为接触克丽丝的渠道，旧人格和记忆仍未恢复",
+      "to": "v08-e08",
+      "tracking_keys": [
+        "rosy-angel-identity",
+        "christine-identity"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "end_line": 338,
+          "start_line": 299
+        },
+        {
+          "chapter_id": "ch-0006",
+          "end_line": 448,
+          "start_line": 437
+        },
+        {
+          "chapter_id": "ch-0084",
+          "end_line": 10519,
+          "start_line": 10464
+        },
+        {
+          "chapter_id": "ch-0085",
+          "end_line": 10610,
+          "start_line": 10542
+        }
+      ],
+      "from": "v01-e03",
+      "id": "cross-aroyo-01",
+      "kind": "payoff",
+      "label": "早期吞噬阿罗约留下的记忆在氓族相遇时产生亲近与识别，也让被隐瞒的旧杀戮进入联盟关系",
+      "to": "v08-e05",
+      "tracking_keys": [
+        "memory-and-power",
+        "aroyo-memory-and-mang-clan"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0014",
+          "end_line": 1431,
+          "start_line": 1380
+        },
+        {
+          "chapter_id": "ch-0087",
+          "end_line": 10844,
+          "start_line": 10821
+        },
+        {
+          "chapter_id": "ch-0087",
+          "end_line": 10986,
+          "start_line": 10954
+        }
+      ],
+      "from": "v02-e01",
+      "id": "cross-altar-01",
+      "kind": "payoff",
+      "label": "曾观察到活性的古祭坛回到主线，经修复后首批限载启动；本集结尾还不能确认全族转生成功",
+      "to": "v08-e09",
+      "tracking_keys": [
+        "sunken-undead-kingdom",
+        "transformation-altar-and-mang-survival"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "end_line": 1129,
+          "start_line": 1105
+        },
+        {
+          "chapter_id": "ch-0087",
+          "end_line": 10844,
+          "start_line": 10821
+        },
+        {
+          "chapter_id": "ch-0087",
+          "end_line": 10986,
+          "start_line": 10954
+        }
+      ],
+      "from": "v01-e07",
+      "id": "cross-tuk-01",
+      "kind": "setup",
+      "label": "早期提供沼泽与祭坛信息的图克，面对新启动景象显出熟悉感；守护使命的来源仍未揭",
+      "to": "v08-e09",
+      "tracking_keys": [
+        "tuk-and-the-transformation-altar"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0075",
+          "end_line": 9445,
+          "start_line": 9369
+        },
+        {
+          "chapter_id": "ch-0086",
+          "end_line": 10813,
+          "start_line": 10711
+        }
+      ],
+      "from": "v07-e07",
+      "id": "cross-autonomy-03",
+      "kind": "echo",
+      "label": "自由存在的宣言与强迫族群接受死亡/运魂安排形成价值冲突；这是主题对照，不声称宣言导致屠杀",
+      "to": "v08-e07",
+      "tracking_keys": [
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0087",
+          "end_line": 10844,
+          "start_line": 10821
+        },
+        {
+          "chapter_id": "ch-0087",
+          "end_line": 10986,
+          "start_line": 10954
+        },
+        {
+          "chapter_id": "ch-0089",
+          "end_line": 11046,
+          "start_line": 11014
+        },
+        {
+          "chapter_id": "ch-0089",
+          "end_line": 11126,
+          "start_line": 11084
+        }
+      ],
+      "from": "v08-e09",
+      "id": "cross-altar-02",
+      "kind": "payoff",
+      "label": "祭坛启动后的声音与图克守护来源得到解释，混合灵魂的分批转生完成；知识继承不等于力量或原人格直接替换",
+      "to": "v09-e01",
+      "tracking_keys": [
+        "tuk-and-the-transformation-altar",
+        "sunken-undead-kingdom",
+        "transformation-altar-and-mang-survival"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0072",
+          "end_line": 9046,
+          "start_line": 9021
+        },
+        {
+          "chapter_id": "ch-0073",
+          "end_line": 9088,
+          "start_line": 9050
+        },
+        {
+          "chapter_id": "ch-0091",
+          "end_line": 11394,
+          "start_line": 11374
+        },
+        {
+          "chapter_id": "ch-0091",
+          "end_line": 11458,
+          "start_line": 11423
+        }
+      ],
+      "from": "v07-e04",
+      "id": "cross-prophet-01",
+      "kind": "reveal",
+      "label": "先知披露本名、分身和先前隐瞒，并提高筹码使拒绝转为有条件承诺；尚未实际取回安息石",
+      "to": "v09-e03",
+      "tracking_keys": [
+        "dragon-soul-oath-and-prophet",
+        "dragon-tomb-expedition"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0046",
+          "end_line": 5632,
+          "start_line": 5623
+        },
+        {
+          "chapter_id": "ch-0046",
+          "end_line": 5665,
+          "start_line": 5661
+        },
+        {
+          "chapter_id": "ch-0095",
+          "end_line": 12245,
+          "start_line": 12214
+        },
+        {
+          "chapter_id": "ch-0095",
+          "end_line": 12277,
+          "start_line": 12261
+        }
+      ],
+      "from": "v05-e09",
+      "id": "cross-tank-03",
+      "kind": "payoff",
+      "label": "先前不能炼化的战魂再次脱困后出现身体权限控制，独立战意仍反抗；内患只获有限进展",
+      "to": "v09-e09",
+      "tracking_keys": [
+        "tank-battle-soul"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0087",
+          "end_line": 10953,
+          "start_line": 10888
+        },
+        {
+          "chapter_id": "ch-0094",
+          "end_line": 12067,
+          "start_line": 12019
+        },
+        {
+          "chapter_id": "ch-0094",
+          "end_line": 12143,
+          "start_line": 12121
+        },
+        {
+          "chapter_id": "ch-0095",
+          "end_line": 12213,
+          "start_line": 12181
+        }
+      ],
+      "from": "v08-e08",
+      "id": "cross-rosy-03",
+      "kind": "payoff",
+      "label": "接触克丽丝后产生保护黑龙的新使命，萝茜行动履行使命但不认旧友；不据使命本身确认克丽丝神性",
+      "to": "v09-e08",
+      "tracking_keys": [
+        "rosy-angel-identity",
+        "christine-identity"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0068",
+          "end_line": 8298,
+          "start_line": 8263
+        },
+        {
+          "chapter_id": "ch-0069",
+          "end_line": 8529,
+          "start_line": 8478
+        },
+        {
+          "chapter_id": "ch-0070",
+          "end_line": 8569,
+          "start_line": 8559
+        },
+        {
+          "chapter_id": "ch-0090",
+          "end_line": 11193,
+          "start_line": 11180
+        },
+        {
+          "chapter_id": "ch-0090",
+          "end_line": 11357,
+          "start_line": 11319
+        },
+        {
+          "chapter_id": "ch-0091",
+          "end_line": 11532,
+          "start_line": 11515
+        },
+        {
+          "chapter_id": "ch-0091",
+          "end_line": 11422,
+          "start_line": 11418
+        }
+      ],
+      "from": "v07-e01",
+      "id": "cross-industry-01",
+      "kind": "cause",
+      "label": "人工金属化进入扩张阶段后受钢材供给与单人产能限制，促成城中采购和贸易谈判",
+      "to": "v09-e02",
+      "tracking_keys": [
+        "blackdragon-territory-and-industry"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0053",
+          "end_line": 6677,
+          "start_line": 6663
+        },
+        {
+          "chapter_id": "ch-0092",
+          "end_line": 11683,
+          "start_line": 11656
+        },
+        {
+          "chapter_id": "ch-0092",
+          "end_line": 11745,
+          "start_line": 11707
+        },
+        {
+          "chapter_id": "ch-0095",
+          "end_line": 12307,
+          "start_line": 12279
+        }
+      ],
+      "from": "v05-e07",
+      "id": "cross-hero-01",
+      "kind": "echo",
+      "label": "两次私人取利与公共救援结果重叠，见证和组织传播分别塑造英雄形象；不是同一宣传活动",
+      "to": "v09-e05",
+      "tracking_keys": [
+        "soul-consumption-ethics",
+        "alliance-war-and-divine-power"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0085",
+          "end_line": 10651,
+          "start_line": 10641
+        },
+        {
+          "chapter_id": "ch-0086",
+          "end_line": 10689,
+          "start_line": 10655
+        },
+        {
+          "chapter_id": "ch-0090",
+          "end_line": 11303,
+          "start_line": 11282
+        },
+        {
+          "chapter_id": "ch-0093",
+          "end_line": 11794,
+          "start_line": 11757
+        },
+        {
+          "chapter_id": "ch-0093",
+          "end_line": 11823,
+          "start_line": 11801
+        },
+        {
+          "chapter_id": "ch-0094",
+          "end_line": 11942,
+          "start_line": 11936
+        }
+      ],
+      "from": "v08-e06",
+      "id": "cross-knight-02",
+      "kind": "setup",
+      "label": "撤回总部的雷奥获得噬魂，先前离开的追兵转成新武器威胁；本集尚未交锋",
+      "to": "v09-e06",
+      "tracking_keys": [
+        "god-knight-pursuit"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0057",
+          "end_line": 7008,
+          "start_line": 6963
+        },
+        {
+          "chapter_id": "ch-0092",
+          "end_line": 11614,
+          "start_line": 11564
+        },
+        {
+          "chapter_id": "ch-0095",
+          "end_line": 12380,
+          "start_line": 12308
+        }
+      ],
+      "from": "v06-e01",
+      "id": "cross-taige-01",
+      "kind": "reveal",
+      "label": "转生后的泰戈继续经历沉睡与苏醒，身体变化有表现，修魂解释来自斯科特而具体能力仍待检验",
+      "to": "v09-e04",
+      "tracking_keys": [
+        "taige-soul-repair"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0092",
+          "end_line": 11614,
+          "start_line": 11564
+        },
+        {
+          "chapter_id": "ch-0095",
+          "end_line": 12380,
+          "start_line": 12308
+        },
+        {
+          "chapter_id": "ch-0097",
+          "end_line": 12448,
+          "start_line": 12406
+        }
+      ],
+      "from": "v09-e04",
+      "id": "cross-taige-02",
+      "kind": "payoff",
+      "label": "苏醒时发现的泰戈变化由刀火测试与问答进一步确认，特殊变异原因仍是研究者解释",
+      "to": "v10-e01",
+      "tracking_keys": [
+        "taige-soul-repair"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0093",
+          "end_line": 11920,
+          "start_line": 11848
+        },
+        {
+          "chapter_id": "ch-0094",
+          "end_line": 11977,
+          "start_line": 11950
+        },
+        {
+          "chapter_id": "ch-0099",
+          "end_line": 12739,
+          "start_line": 12707
+        },
+        {
+          "chapter_id": "ch-0099",
+          "end_line": 12793,
+          "start_line": 12740
+        },
+        {
+          "chapter_id": "ch-0099",
+          "end_line": 12818,
+          "start_line": 12794
+        }
+      ],
+      "from": "v09-e07",
+      "id": "cross-emperor-skill-01",
+      "kind": "payoff",
+      "label": "黑龙通过实践掌握的意控能力进一步进入教学，黑大和黑二参与练习，不扩为十孩全会",
+      "to": "v10-e03",
+      "tracking_keys": [
+        "children-consciousness"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0090",
+          "end_line": 11303,
+          "start_line": 11282
+        },
+        {
+          "chapter_id": "ch-0093",
+          "end_line": 11794,
+          "start_line": 11757
+        },
+        {
+          "chapter_id": "ch-0093",
+          "end_line": 11823,
+          "start_line": 11801
+        },
+        {
+          "chapter_id": "ch-0094",
+          "end_line": 11942,
+          "start_line": 11936
+        },
+        {
+          "chapter_id": "ch-0099",
+          "end_line": 12861,
+          "start_line": 12843
+        },
+        {
+          "chapter_id": "ch-0100",
+          "end_line": 12944,
+          "start_line": 12885
+        },
+        {
+          "chapter_id": "ch-0100",
+          "end_line": 13014,
+          "start_line": 12965
+        },
+        {
+          "chapter_id": "ch-0101",
+          "end_line": 13052,
+          "start_line": 13048
+        }
+      ],
+      "from": "v09-e06",
+      "id": "cross-knight-03",
+      "kind": "reversal",
+      "label": "雷奥所持噬魂因同源亲和未能伤害黑龙灵魂，刺杀反转为雷奥死亡及同形傀儡生成，教皇动机仍未明",
+      "to": "v10-e04",
+      "tracking_keys": [
+        "god-knight-pursuit",
+        "soul-devourer-weapon-and-puppets"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0091",
+          "end_line": 11394,
+          "start_line": 11374
+        },
+        {
+          "chapter_id": "ch-0091",
+          "end_line": 11458,
+          "start_line": 11423
+        },
+        {
+          "chapter_id": "ch-0103",
+          "end_line": 13442,
+          "start_line": 13403
+        },
+        {
+          "chapter_id": "ch-0103",
+          "end_line": 13480,
+          "start_line": 13460
+        }
+      ],
+      "from": "v09-e03",
+      "id": "cross-expedition-01",
+      "kind": "payoff",
+      "label": "暂不定时的龙岛承诺进入夺船启航阶段，旅程两月仅至中继岛，不等于取得安息石",
+      "to": "v10-e06",
+      "tracking_keys": [
+        "dragon-tomb-expedition",
+        "dragon-soul-oath-and-prophet"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0094",
+          "end_line": 12067,
+          "start_line": 12019
+        },
+        {
+          "chapter_id": "ch-0094",
+          "end_line": 12143,
+          "start_line": 12121
+        },
+        {
+          "chapter_id": "ch-0095",
+          "end_line": 12213,
+          "start_line": 12181
+        },
+        {
+          "chapter_id": "ch-0105",
+          "end_line": 13769,
+          "start_line": 13695
+        }
+      ],
+      "from": "v09-e08",
+      "id": "cross-christine-01",
+      "kind": "reveal",
+      "label": "萝茜的新使命后来显出观察黑龙视野的联系用途，角色与读者获知的时点分别保留",
+      "to": "v10-e08",
+      "tracking_keys": [
+        "christine-identity",
+        "rosy-angel-identity"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0022",
+          "end_line": 2596,
+          "start_line": 2531
+        },
+        {
+          "chapter_id": "ch-0105",
+          "end_line": 13802,
+          "start_line": 13770
+        },
+        {
+          "chapter_id": "ch-0105",
+          "end_line": 13836,
+          "start_line": 13815
+        },
+        {
+          "chapter_id": "ch-0105",
+          "end_line": 13871,
+          "start_line": 13843
+        },
+        {
+          "chapter_id": "ch-0105",
+          "end_line": 13769,
+          "start_line": 13695
+        }
+      ],
+      "from": "v02-e08",
+      "id": "cross-christine-02",
+      "kind": "reveal",
+      "label": "早期女神自称在私人视角和菲力普独立识认下获得更强证据；不据神性推定全部历史自述真实",
+      "to": "v10-e09",
+      "tracking_keys": [
+        "christine-identity"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0095",
+          "end_line": 12245,
+          "start_line": 12214
+        },
+        {
+          "chapter_id": "ch-0095",
+          "end_line": 12277,
+          "start_line": 12261
+        },
+        {
+          "chapter_id": "ch-0097",
+          "end_line": 12496,
+          "start_line": 12468
+        },
+        {
+          "chapter_id": "ch-0098",
+          "end_line": 12565,
+          "start_line": 12544
+        },
+        {
+          "chapter_id": "ch-0098",
+          "end_line": 12696,
+          "start_line": 12616
+        },
+        {
+          "chapter_id": "ch-0099",
+          "end_line": 12734,
+          "start_line": 12716
+        }
+      ],
+      "from": "v09-e09",
+      "id": "cross-tank-04",
+      "kind": "payoff",
+      "label": "取得身体指令权限的战魂在伏击战中被调用，仍会受克制和自行脱离，不能视作意志已驯服",
+      "to": "v10-e02",
+      "tracking_keys": [
+        "tank-battle-soul"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0086",
+          "end_line": 10813,
+          "start_line": 10711
+        },
+        {
+          "chapter_id": "ch-0103",
+          "end_line": 13442,
+          "start_line": 13403
+        },
+        {
+          "chapter_id": "ch-0103",
+          "end_line": 13480,
+          "start_line": 13460
+        }
+      ],
+      "from": "v08-e07",
+      "id": "cross-coercion-01",
+      "kind": "echo",
+      "label": "两次以转生和魂约组织行动均包含强迫，后来获得人力不抹去当时的拒绝权缺失",
+      "to": "v10-e06",
+      "tracking_keys": [
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0105",
+          "end_line": 13802,
+          "start_line": 13770
+        },
+        {
+          "chapter_id": "ch-0105",
+          "end_line": 13836,
+          "start_line": 13815
+        },
+        {
+          "chapter_id": "ch-0105",
+          "end_line": 13871,
+          "start_line": 13843
+        },
+        {
+          "chapter_id": "ch-0107",
+          "end_line": 13913,
+          "start_line": 13880
+        },
+        {
+          "chapter_id": "ch-0107",
+          "end_line": 13977,
+          "start_line": 13964
+        },
+        {
+          "chapter_id": "ch-0108",
+          "end_line": 13992,
+          "start_line": 13981
+        }
+      ],
+      "from": "v10-e09",
+      "id": "cross-seal-01",
+      "kind": "payoff",
+      "label": "外封破除后继续解除内部封印，海皇此时才真正获释",
+      "to": "v11-e01",
+      "tracking_keys": [
+        "sea-emperor-double-seal"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0105",
+          "end_line": 13769,
+          "start_line": 13695
+        },
+        {
+          "chapter_id": "ch-0109",
+          "end_line": 14208,
+          "start_line": 14180
+        },
+        {
+          "chapter_id": "ch-0110",
+          "end_line": 14294,
+          "start_line": 14214
+        },
+        {
+          "chapter_id": "ch-0110",
+          "end_line": 14316,
+          "start_line": 14295
+        }
+      ],
+      "from": "v10-e08",
+      "id": "cross-christine-03",
+      "kind": "reveal",
+      "label": "观察与教学的深层目的由独处叙述解释为求自身脱困；黑龙并不因此获得读者全部知识",
+      "to": "v11-e03",
+      "tracking_keys": [
+        "christine-identity"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0094",
+          "end_line": 12067,
+          "start_line": 12019
+        },
+        {
+          "chapter_id": "ch-0094",
+          "end_line": 12143,
+          "start_line": 12121
+        },
+        {
+          "chapter_id": "ch-0095",
+          "end_line": 12213,
+          "start_line": 12181
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14331,
+          "start_line": 14321
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14354,
+          "start_line": 14344
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14397,
+          "start_line": 14360
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14435,
+          "start_line": 14428
+        }
+      ],
+      "from": "v09-e08",
+      "id": "cross-christine-04",
+      "kind": "reversal",
+      "label": "先借萝茜保护并接近黑龙，黑龙拒援后转向娜娜求助；新请求尚未等于脱困成功",
+      "to": "v11-e04",
+      "tracking_keys": [
+        "christine-identity",
+        "nana-protection"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0099",
+          "end_line": 12739,
+          "start_line": 12707
+        },
+        {
+          "chapter_id": "ch-0099",
+          "end_line": 12793,
+          "start_line": 12740
+        },
+        {
+          "chapter_id": "ch-0099",
+          "end_line": 12818,
+          "start_line": 12794
+        },
+        {
+          "chapter_id": "ch-0114",
+          "end_line": 14775,
+          "start_line": 14762
+        },
+        {
+          "chapter_id": "ch-0114",
+          "end_line": 14803,
+          "start_line": 14776
+        },
+        {
+          "chapter_id": "ch-0114",
+          "end_line": 14856,
+          "start_line": 14809
+        },
+        {
+          "chapter_id": "ch-0115",
+          "end_line": 14890,
+          "start_line": 14860
+        }
+      ],
+      "from": "v10-e03",
+      "id": "cross-emperor-skill-02",
+      "kind": "payoff",
+      "label": "教学与个体意识发展进入实战，黑大自主提出投枪，不代表其余八孩觉醒",
+      "to": "v11-e07",
+      "tracking_keys": [
+        "children-consciousness"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0099",
+          "end_line": 12861,
+          "start_line": 12843
+        },
+        {
+          "chapter_id": "ch-0100",
+          "end_line": 12944,
+          "start_line": 12885
+        },
+        {
+          "chapter_id": "ch-0100",
+          "end_line": 13014,
+          "start_line": 12965
+        },
+        {
+          "chapter_id": "ch-0101",
+          "end_line": 13052,
+          "start_line": 13048
+        },
+        {
+          "chapter_id": "ch-0108",
+          "end_line": 14051,
+          "start_line": 13998
+        },
+        {
+          "chapter_id": "ch-0108",
+          "end_line": 14086,
+          "start_line": 14062
+        },
+        {
+          "chapter_id": "ch-0109",
+          "end_line": 14143,
+          "start_line": 14097
+        }
+      ],
+      "from": "v10-e04",
+      "id": "cross-armament-02",
+      "kind": "reveal",
+      "label": "已有神器和实体附能并非真正纯魂武装，海皇危机中十孩供力促成黑龙凝兵",
+      "to": "v11-e02",
+      "tracking_keys": [
+        "soul-devourer-weapon-and-puppets",
+        "desert-bones-and-mourning-soul"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0103",
+          "end_line": 13442,
+          "start_line": 13403
+        },
+        {
+          "chapter_id": "ch-0103",
+          "end_line": 13480,
+          "start_line": 13460
+        },
+        {
+          "chapter_id": "ch-0112",
+          "end_line": 14556,
+          "start_line": 14551
+        },
+        {
+          "chapter_id": "ch-0113",
+          "end_line": 14639,
+          "start_line": 14560
+        },
+        {
+          "chapter_id": "ch-0113",
+          "end_line": 14695,
+          "start_line": 14642
+        },
+        {
+          "chapter_id": "ch-0113",
+          "end_line": 14696,
+          "start_line": 14696
+        },
+        {
+          "chapter_id": "ch-0114",
+          "end_line": 14708,
+          "start_line": 14700
+        }
+      ],
+      "from": "v10-e06",
+      "id": "cross-expedition-02",
+      "kind": "payoff",
+      "label": "中继岛之后终于登龙岛，现场政治和守卫改变取石行动，尚未取得安息石",
+      "to": "v11-e06",
+      "tracking_keys": [
+        "dragon-tomb-expedition"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0103",
+          "end_line": 13499,
+          "start_line": 13489
+        },
+        {
+          "chapter_id": "ch-0104",
+          "end_line": 13548,
+          "start_line": 13509
+        },
+        {
+          "chapter_id": "ch-0104",
+          "end_line": 13608,
+          "start_line": 13576
+        },
+        {
+          "chapter_id": "ch-0104",
+          "end_line": 13689,
+          "start_line": 13653
+        },
+        {
+          "chapter_id": "ch-0104",
+          "end_line": 13644,
+          "start_line": 13640
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14331,
+          "start_line": 14321
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14354,
+          "start_line": 14344
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14397,
+          "start_line": 14360
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14435,
+          "start_line": 14428
+        }
+      ],
+      "from": "v10-e07",
+      "id": "cross-seabeast-01",
+      "kind": "payoff",
+      "label": "海兽被杀后其躯体进一步被转生为远征资源，转生耗半魂而非无成本扩军",
+      "to": "v11-e04",
+      "tracking_keys": [
+        "dragon-tomb-expedition"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0085",
+          "end_line": 10651,
+          "start_line": 10641
+        },
+        {
+          "chapter_id": "ch-0086",
+          "end_line": 10689,
+          "start_line": 10655
+        },
+        {
+          "chapter_id": "ch-0112",
+          "end_line": 14480,
+          "start_line": 14439
+        },
+        {
+          "chapter_id": "ch-0112",
+          "end_line": 14520,
+          "start_line": 14481
+        }
+      ],
+      "from": "v08-e06",
+      "id": "cross-church-agency-02",
+      "kind": "reveal",
+      "label": "菲力普独处展露的工具恐惧在对克罗斯的猎犬解释中进一步公开，听者动摇不等于已投效",
+      "to": "v11-e05",
+      "tracking_keys": [
+        "church-institution-and-angel-agency"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0116",
+          "end_line": 15109,
+          "start_line": 15075
+        },
+        {
+          "chapter_id": "ch-0116",
+          "end_line": 15146,
+          "start_line": 15117
+        },
+        {
+          "chapter_id": "ch-0116",
+          "end_line": 15167,
+          "start_line": 15155
+        },
+        {
+          "chapter_id": "ch-0118",
+          "end_line": 15229,
+          "start_line": 15193
+        },
+        {
+          "chapter_id": "ch-0118",
+          "end_line": 15270,
+          "start_line": 15232
+        },
+        {
+          "chapter_id": "ch-0119",
+          "end_line": 15312,
+          "start_line": 15275
+        },
+        {
+          "chapter_id": "ch-0119",
+          "end_line": 15364,
+          "start_line": 15340
+        }
+      ],
+      "from": "v11-e09",
+      "id": "cross-dragon-prayer-01",
+      "kind": "reveal",
+      "label": "祈祷白光揭为拿不列斯转出元力与记忆，帝勒获得能力并自主退战，拿本源仍沉睡",
+      "to": "v12-e01",
+      "tracking_keys": [
+        "dragon-bloodline-and-confinement"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0105",
+          "end_line": 13802,
+          "start_line": 13770
+        },
+        {
+          "chapter_id": "ch-0105",
+          "end_line": 13836,
+          "start_line": 13815
+        },
+        {
+          "chapter_id": "ch-0105",
+          "end_line": 13871,
+          "start_line": 13843
+        },
+        {
+          "chapter_id": "ch-0120",
+          "end_line": 15383,
+          "start_line": 15368
+        }
+      ],
+      "from": "v10-e09",
+      "id": "cross-rosy-memory-01",
+      "kind": "payoff",
+      "label": "分身借体后的记忆变化在萝茜醒来时得到局部说明，新生活经验主导并夹异源碎忆，三实体不合并",
+      "to": "v12-e02",
+      "tracking_keys": [
+        "rosy-angel-identity"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0116",
+          "end_line": 15109,
+          "start_line": 15075
+        },
+        {
+          "chapter_id": "ch-0116",
+          "end_line": 15146,
+          "start_line": 15117
+        },
+        {
+          "chapter_id": "ch-0116",
+          "end_line": 15167,
+          "start_line": 15155
+        },
+        {
+          "chapter_id": "ch-0120",
+          "end_line": 15458,
+          "start_line": 15420
+        },
+        {
+          "chapter_id": "ch-0121",
+          "end_line": 15534,
+          "start_line": 15460
+        }
+      ],
+      "from": "v11-e09",
+      "id": "cross-expedition-03",
+      "kind": "payoff",
+      "label": "岛上冲突最终伴随取得安息石和毁峰重损，取物成功不等于击败龙皇或保全队伍",
+      "to": "v12-e03",
+      "tracking_keys": [
+        "dragon-tomb-expedition"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0091",
+          "end_line": 11394,
+          "start_line": 11374
+        },
+        {
+          "chapter_id": "ch-0091",
+          "end_line": 11458,
+          "start_line": 11423
+        },
+        {
+          "chapter_id": "ch-0121",
+          "end_line": 15589,
+          "start_line": 15541
+        },
+        {
+          "chapter_id": "ch-0122",
+          "end_line": 15683,
+          "start_line": 15593
+        },
+        {
+          "chapter_id": "ch-0122",
+          "end_line": 15725,
+          "start_line": 15685
+        }
+      ],
+      "from": "v09-e03",
+      "id": "cross-prophet-03",
+      "kind": "reveal",
+      "label": "早先效忠承诺在交付宝物时显出分身半魂漏洞，控制范围并非黑龙最初所想",
+      "to": "v12-e04",
+      "tracking_keys": [
+        "dragon-soul-oath-and-prophet"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0109",
+          "end_line": 14208,
+          "start_line": 14180
+        },
+        {
+          "chapter_id": "ch-0110",
+          "end_line": 14294,
+          "start_line": 14214
+        },
+        {
+          "chapter_id": "ch-0110",
+          "end_line": 14316,
+          "start_line": 14295
+        },
+        {
+          "chapter_id": "ch-0128",
+          "end_line": 16344,
+          "start_line": 16266
+        },
+        {
+          "chapter_id": "ch-0128",
+          "end_line": 16393,
+          "start_line": 16345
+        }
+      ],
+      "from": "v11-e03",
+      "id": "cross-crystal-awakening-01",
+      "kind": "payoff",
+      "label": "海皇战后接受分流的金属骨后来呈晶体并有八具初觉醒；海皇本源是否为觉醒机制仍属人物推测",
+      "to": "v12-e09",
+      "tracking_keys": [
+        "children-consciousness"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0114",
+          "end_line": 14775,
+          "start_line": 14762
+        },
+        {
+          "chapter_id": "ch-0114",
+          "end_line": 14803,
+          "start_line": 14776
+        },
+        {
+          "chapter_id": "ch-0114",
+          "end_line": 14856,
+          "start_line": 14809
+        },
+        {
+          "chapter_id": "ch-0115",
+          "end_line": 14890,
+          "start_line": 14860
+        },
+        {
+          "chapter_id": "ch-0127",
+          "end_line": 16262,
+          "start_line": 16216
+        }
+      ],
+      "from": "v11-e07",
+      "id": "cross-emperor-skill-03",
+      "kind": "payoff",
+      "label": "黑大的自主战法之后，黑大黑二进一步承担赐魂与指挥，八个旧孩子仍没有自主意识",
+      "to": "v12-e08",
+      "tracking_keys": [
+        "children-consciousness"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0132",
+          "end_line": 16690,
+          "start_line": 16659
+        },
+        {
+          "chapter_id": "ch-0134",
+          "end_line": 16894,
+          "start_line": 16868
+        },
+        {
+          "chapter_id": "ch-0134",
+          "end_line": 16916,
+          "start_line": 16901
+        },
+        {
+          "chapter_id": "ch-0135",
+          "end_line": 16957,
+          "start_line": 16948
+        },
+        {
+          "chapter_id": "ch-0156",
+          "end_line": 19118,
+          "start_line": 19055
+        },
+        {
+          "chapter_id": "ch-0157",
+          "end_line": 19267,
+          "start_line": 19212
+        }
+      ],
+      "from": "v13-e03",
+      "id": "cross-v15-church-agency",
+      "kind": "reveal",
+      "label": "菲力普对放逐原因作自我说明，确认其重视黑龙对自身的利用价值",
+      "to": "v15-e01",
+      "tracking_keys": [
+        "church-institution-and-angel-agency"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0101",
+          "end_line": 13126,
+          "start_line": 13108
+        },
+        {
+          "chapter_id": "ch-0101",
+          "end_line": 13215,
+          "start_line": 13174
+        },
+        {
+          "chapter_id": "ch-0102",
+          "end_line": 13309,
+          "start_line": 13219
+        },
+        {
+          "chapter_id": "ch-0102",
+          "end_line": 13375,
+          "start_line": 13310
+        },
+        {
+          "chapter_id": "ch-0132",
+          "end_line": 16641,
+          "start_line": 16606
+        },
+        {
+          "chapter_id": "ch-0133",
+          "end_line": 16714,
+          "start_line": 16710
+        },
+        {
+          "chapter_id": "ch-0133",
+          "end_line": 16773,
+          "start_line": 16750
+        },
+        {
+          "chapter_id": "ch-0133",
+          "end_line": 16813,
+          "start_line": 16787
+        }
+      ],
+      "from": "v10-e05",
+      "id": "cross-forest-01",
+      "kind": "reveal",
+      "label": "以惩罚与恩赐逼取信仰的巨树确认为自然神，合作出现不抹去其先前强迫行为",
+      "to": "v13-e02",
+      "tracking_keys": [
+        "forest-tree-and-dwarf-faith"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0112",
+          "end_line": 14480,
+          "start_line": 14439
+        },
+        {
+          "chapter_id": "ch-0112",
+          "end_line": 14520,
+          "start_line": 14481
+        },
+        {
+          "chapter_id": "ch-0132",
+          "end_line": 16690,
+          "start_line": 16659
+        },
+        {
+          "chapter_id": "ch-0134",
+          "end_line": 16894,
+          "start_line": 16868
+        },
+        {
+          "chapter_id": "ch-0134",
+          "end_line": 16916,
+          "start_line": 16901
+        },
+        {
+          "chapter_id": "ch-0135",
+          "end_line": 16957,
+          "start_line": 16948
+        }
+      ],
+      "from": "v11-e05",
+      "id": "cross-church-agency-03",
+      "kind": "reveal",
+      "label": "猎犬比喻背后的自我保存目的发展为扶植敌对势力，强制放逐并非征得黑龙同意的救援",
+      "to": "v13-e03",
+      "tracking_keys": [
+        "church-institution-and-angel-agency"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14331,
+          "start_line": 14321
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14354,
+          "start_line": 14344
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14397,
+          "start_line": 14360
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14435,
+          "start_line": 14428
+        },
+        {
+          "chapter_id": "ch-0132",
+          "end_line": 16641,
+          "start_line": 16606
+        },
+        {
+          "chapter_id": "ch-0133",
+          "end_line": 16714,
+          "start_line": 16710
+        },
+        {
+          "chapter_id": "ch-0133",
+          "end_line": 16773,
+          "start_line": 16750
+        },
+        {
+          "chapter_id": "ch-0133",
+          "end_line": 16813,
+          "start_line": 16787
+        }
+      ],
+      "from": "v11-e04",
+      "id": "cross-nana-03",
+      "kind": "payoff",
+      "label": "克丽丝向娜娜求助后进入双神共同传承安排，已选定与开始准备不等于完成仪式或解除封印",
+      "to": "v13-e02",
+      "tracking_keys": [
+        "nana-protection",
+        "christine-identity"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0103",
+          "end_line": 13442,
+          "start_line": 13403
+        },
+        {
+          "chapter_id": "ch-0103",
+          "end_line": 13480,
+          "start_line": 13460
+        },
+        {
+          "chapter_id": "ch-0137",
+          "end_line": 17238,
+          "start_line": 17204
+        },
+        {
+          "chapter_id": "ch-0138",
+          "end_line": 17286,
+          "start_line": 17272
+        },
+        {
+          "chapter_id": "ch-0138",
+          "end_line": 17356,
+          "start_line": 17307
+        }
+      ],
+      "from": "v10-e06",
+      "id": "cross-friendship-01",
+      "kind": "echo",
+      "label": "夺船时的杀转与拘魂，同异界无约束互助并置，显示主角关系选择存在差异而非已经普遍尊重自由",
+      "to": "v13-e05",
+      "tracking_keys": [
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14331,
+          "start_line": 14321
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14354,
+          "start_line": 14344
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14397,
+          "start_line": 14360
+        },
+        {
+          "chapter_id": "ch-0111",
+          "end_line": 14435,
+          "start_line": 14428
+        },
+        {
+          "chapter_id": "ch-0141",
+          "end_line": 17638,
+          "start_line": 17604
+        },
+        {
+          "chapter_id": "ch-0141",
+          "end_line": 17662,
+          "start_line": 17646
+        }
+      ],
+      "from": "v11-e04",
+      "id": "cross-empire-history-01",
+      "kind": "reveal",
+      "label": "海蛇腹中遗物留下的古国问题，进一步获得皇冠、权杖与永恒之眼的追索方向；帝国消失原因仍未回答",
+      "to": "v13-e08",
+      "tracking_keys": [
+        "desert-bones-and-mourning-soul"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0123",
+          "end_line": 15791,
+          "start_line": 15732
+        },
+        {
+          "chapter_id": "ch-0124",
+          "end_line": 15939,
+          "start_line": 15837
+        },
+        {
+          "chapter_id": "ch-0138",
+          "end_line": 17372,
+          "start_line": 17358
+        },
+        {
+          "chapter_id": "ch-0139",
+          "end_line": 17427,
+          "start_line": 17382
+        }
+      ],
+      "from": "v12-e05",
+      "id": "cross-dragon-loss-01",
+      "kind": "reversal",
+      "label": "取石破封后获得的龙群遭遇天使袭击，72无智龙覆灭而36有智龙保留；这是远征完成后的新代价",
+      "to": "v13-e06",
+      "tracking_keys": [
+        "dragon-tomb-expedition",
+        "undead-dragon-force-survival"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0123",
+          "end_line": 15791,
+          "start_line": 15732
+        },
+        {
+          "chapter_id": "ch-0124",
+          "end_line": 15939,
+          "start_line": 15837
+        },
+        {
+          "chapter_id": "ch-0137",
+          "end_line": 17238,
+          "start_line": 17204
+        },
+        {
+          "chapter_id": "ch-0138",
+          "end_line": 17286,
+          "start_line": 17272
+        },
+        {
+          "chapter_id": "ch-0138",
+          "end_line": 17356,
+          "start_line": 17307
+        }
+      ],
+      "from": "v12-e05",
+      "id": "cross-prophet-friendship-01",
+      "kind": "echo",
+      "label": "先知被逼交出完整魂约，金龙则与黑龙交换无约束烙印；依存与平等关系的条件不同",
+      "to": "v13-e05",
+      "tracking_keys": [
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0128",
+          "end_line": 16344,
+          "start_line": 16266
+        },
+        {
+          "chapter_id": "ch-0128",
+          "end_line": 16393,
+          "start_line": 16345
+        },
+        {
+          "chapter_id": "ch-0131",
+          "end_line": 16518,
+          "start_line": 16470
+        },
+        {
+          "chapter_id": "ch-0131",
+          "end_line": 16565,
+          "start_line": 16538
+        },
+        {
+          "chapter_id": "ch-0131",
+          "end_line": 16530,
+          "start_line": 16519
+        },
+        {
+          "chapter_id": "ch-0130",
+          "end_line": 16419,
+          "start_line": 16406
+        }
+      ],
+      "from": "v12-e09",
+      "id": "cross-swamp-visitor-01",
+      "kind": "payoff",
+      "label": "来者悬念由沼泽边矮人与追兵的交战接续，托雷所载预录消息进一步解释神的邀请",
+      "to": "v13-e01",
+      "tracking_keys": [
+        "swamp-approaching-lives"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0132",
+          "end_line": 16690,
+          "start_line": 16659
+        },
+        {
+          "chapter_id": "ch-0134",
+          "end_line": 16894,
+          "start_line": 16868
+        },
+        {
+          "chapter_id": "ch-0134",
+          "end_line": 16916,
+          "start_line": 16901
+        },
+        {
+          "chapter_id": "ch-0135",
+          "end_line": 16957,
+          "start_line": 16948
+        },
+        {
+          "chapter_id": "ch-0154",
+          "end_line": 19047,
+          "start_line": 19009
+        }
+      ],
+      "from": "v13-e03",
+      "id": "cross-return-01",
+      "kind": "payoff",
+      "label": "强制放逐导致的失联以实体返场和魂链恢复收束，会议危机仍待处置",
+      "to": "v14-e09",
+      "tracking_keys": [
+        "death-world-return"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0141",
+          "end_line": 17706,
+          "start_line": 17672
+        },
+        {
+          "chapter_id": "ch-0143",
+          "end_line": 17780,
+          "start_line": 17714
+        },
+        {
+          "chapter_id": "ch-0143",
+          "end_line": 17807,
+          "start_line": 17798
+        },
+        {
+          "chapter_id": "ch-0144",
+          "end_line": 17840,
+          "start_line": 17811
+        }
+      ],
+      "from": "v13-e09",
+      "id": "cross-training-01",
+      "kind": "payoff",
+      "label": "入阵后的实际训练在七月回溯中提升感应与分控，能力提升须与后续记忆传承分开",
+      "to": "v14-e01",
+      "tracking_keys": [
+        "desert-bones-and-mourning-soul"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0139",
+          "end_line": 17459,
+          "start_line": 17428
+        },
+        {
+          "chapter_id": "ch-0140",
+          "end_line": 17539,
+          "start_line": 17529
+        },
+        {
+          "chapter_id": "ch-0140",
+          "end_line": 17600,
+          "start_line": 17555
+        },
+        {
+          "chapter_id": "ch-0139",
+          "end_line": 17480,
+          "start_line": 17460
+        },
+        {
+          "chapter_id": "ch-0145",
+          "end_line": 18000,
+          "start_line": 17959
+        },
+        {
+          "chapter_id": "ch-0145",
+          "end_line": 18039,
+          "start_line": 18024
+        },
+        {
+          "chapter_id": "ch-0146",
+          "end_line": 18122,
+          "start_line": 18043
+        },
+        {
+          "chapter_id": "ch-0147",
+          "end_line": 18197,
+          "start_line": 18189
+        },
+        {
+          "chapter_id": "ch-0150",
+          "end_line": 18495,
+          "start_line": 18492
+        }
+      ],
+      "from": "v13-e07",
+      "id": "cross-mission-cost-01",
+      "kind": "reversal",
+      "label": "守候使命的霍夫曼因漏带黑龙而遭君王分身灭魂，传承体系显露强制与暴力代价",
+      "to": "v14-e02",
+      "tracking_keys": [
+        "desert-bones-and-mourning-soul",
+        "cutroman-legacy-and-mission"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0137",
+          "end_line": 17238,
+          "start_line": 17204
+        },
+        {
+          "chapter_id": "ch-0138",
+          "end_line": 17286,
+          "start_line": 17272
+        },
+        {
+          "chapter_id": "ch-0138",
+          "end_line": 17356,
+          "start_line": 17307
+        },
+        {
+          "chapter_id": "ch-0147",
+          "end_line": 18213,
+          "start_line": 18157
+        },
+        {
+          "chapter_id": "ch-0148",
+          "end_line": 18292,
+          "start_line": 18243
+        },
+        {
+          "chapter_id": "ch-0148",
+          "end_line": 18350,
+          "start_line": 18339
+        },
+        {
+          "chapter_id": "ch-0149",
+          "end_line": 18488,
+          "start_line": 18418
+        }
+      ],
+      "from": "v13-e05",
+      "id": "cross-friendship-02",
+      "kind": "payoff",
+      "label": "无约束互助烙印支持金龙应邀随行；同行不等于改为主从魂约",
+      "to": "v14-e03",
+      "tracking_keys": [
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0125",
+          "end_line": 15987,
+          "start_line": 15978
+        },
+        {
+          "chapter_id": "ch-0125",
+          "end_line": 16052,
+          "start_line": 16025
+        },
+        {
+          "chapter_id": "ch-0126",
+          "end_line": 16131,
+          "start_line": 16072
+        },
+        {
+          "chapter_id": "ch-0151",
+          "end_line": 18655,
+          "start_line": 18623
+        },
+        {
+          "chapter_id": "ch-0151",
+          "end_line": 18719,
+          "start_line": 18664
+        },
+        {
+          "chapter_id": "ch-0153",
+          "end_line": 18990,
+          "start_line": 18985
+        }
+      ],
+      "from": "v12-e06",
+      "id": "cross-state-building-01",
+      "kind": "payoff",
+      "label": "夺取沙里克的计划由缺席期回叙补明，财政工程扩张同时伴随统治者秘密转生",
+      "to": "v14-e05",
+      "tracking_keys": [
+        "blackdragon-territory-and-industry"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0132",
+          "end_line": 16641,
+          "start_line": 16606
+        },
+        {
+          "chapter_id": "ch-0133",
+          "end_line": 16714,
+          "start_line": 16710
+        },
+        {
+          "chapter_id": "ch-0133",
+          "end_line": 16773,
+          "start_line": 16750
+        },
+        {
+          "chapter_id": "ch-0133",
+          "end_line": 16813,
+          "start_line": 16787
+        },
+        {
+          "chapter_id": "ch-0151",
+          "end_line": 18655,
+          "start_line": 18623
+        },
+        {
+          "chapter_id": "ch-0151",
+          "end_line": 18719,
+          "start_line": 18664
+        },
+        {
+          "chapter_id": "ch-0153",
+          "end_line": 18990,
+          "start_line": 18985
+        }
+      ],
+      "from": "v13-e02",
+      "id": "cross-faith-01",
+      "kind": "payoff",
+      "label": "传承安排之后娜娜承担信仰媒介作用，但此处不能据此宣布双神传承全部完成",
+      "to": "v14-e05",
+      "tracking_keys": [
+        "forest-tree-and-dwarf-faith",
+        "nana-protection"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0153",
+          "end_line": 18963,
+          "start_line": 18915
+        },
+        {
+          "chapter_id": "ch-0153",
+          "end_line": 19004,
+          "start_line": 18968
+        },
+        {
+          "chapter_id": "ch-0154",
+          "end_line": 19008,
+          "start_line": 19005
+        },
+        {
+          "chapter_id": "ch-0156",
+          "end_line": 19118,
+          "start_line": 19055
+        },
+        {
+          "chapter_id": "ch-0157",
+          "end_line": 19267,
+          "start_line": 19212
+        }
+      ],
+      "from": "v14-e08",
+      "id": "cross-corpse-plan-01",
+      "kind": "reversal",
+      "label": "黑龙回归后暂时否决全城活尸计划，依据是时机与收益，并非宣布永久放弃或普遍人道原则",
+      "to": "v15-e01",
+      "tracking_keys": [
+        "seiyne-living-corpse-plan",
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0153",
+          "end_line": 18963,
+          "start_line": 18915
+        },
+        {
+          "chapter_id": "ch-0153",
+          "end_line": 19004,
+          "start_line": 18968
+        },
+        {
+          "chapter_id": "ch-0154",
+          "end_line": 19008,
+          "start_line": 19005
+        },
+        {
+          "chapter_id": "ch-0167",
+          "end_line": 20465,
+          "start_line": 20344
+        }
+      ],
+      "from": "v14-e08",
+      "id": "cross-corpse-plan-02",
+      "kind": "echo",
+      "label": "原先全城方案在红月转机中获得重新准备授权，仍未实际发动",
+      "to": "v15-e08",
+      "tracking_keys": [
+        "seiyne-living-corpse-plan",
+        "alliance-war-and-divine-power"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0128",
+          "end_line": 16344,
+          "start_line": 16266
+        },
+        {
+          "chapter_id": "ch-0128",
+          "end_line": 16393,
+          "start_line": 16345
+        },
+        {
+          "chapter_id": "ch-0159",
+          "end_line": 19529,
+          "start_line": 19462
+        },
+        {
+          "chapter_id": "ch-0160",
+          "end_line": 19600,
+          "start_line": 19533
+        },
+        {
+          "chapter_id": "ch-0161",
+          "end_line": 19649,
+          "start_line": 19604
+        }
+      ],
+      "from": "v12-e09",
+      "id": "cross-crystal-loss-01",
+      "kind": "reversal",
+      "label": "八晶体初觉醒后的武装成长伴随十七、十八冻碎损失，成长不能抹去个体存亡代价",
+      "to": "v15-e03",
+      "tracking_keys": [
+        "children-consciousness"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0123",
+          "end_line": 15791,
+          "start_line": 15732
+        },
+        {
+          "chapter_id": "ch-0124",
+          "end_line": 15939,
+          "start_line": 15837
+        },
+        {
+          "chapter_id": "ch-0161",
+          "end_line": 19730,
+          "start_line": 19693
+        },
+        {
+          "chapter_id": "ch-0162",
+          "end_line": 19779,
+          "start_line": 19731
+        }
+      ],
+      "from": "v12-e05",
+      "id": "cross-prophet-control-02",
+      "kind": "payoff",
+      "label": "先知自身完整魂约之后，黑龙进一步收走剩余三十六龙的魂约；保留其指挥职不等于解除主从限制",
+      "to": "v15-e04",
+      "tracking_keys": [
+        "dragon-soul-oath-and-prophet",
+        "undead-dragon-force-survival"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0141",
+          "end_line": 17638,
+          "start_line": 17604
+        },
+        {
+          "chapter_id": "ch-0141",
+          "end_line": 17662,
+          "start_line": 17646
+        },
+        {
+          "chapter_id": "ch-0164",
+          "end_line": 20090,
+          "start_line": 19997
+        },
+        {
+          "chapter_id": "ch-0165",
+          "end_line": 20207,
+          "start_line": 20091
+        }
+      ],
+      "from": "v13-e08",
+      "id": "cross-relics-01",
+      "kind": "payoff",
+      "label": "权杖和第三圣器的追索在海底遗迹推进，三器联系红月通道；见到彼端并不等于已实体抵达",
+      "to": "v15-e06",
+      "tracking_keys": [
+        "desert-bones-and-mourning-soul"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0145",
+          "end_line": 18000,
+          "start_line": 17959
+        },
+        {
+          "chapter_id": "ch-0145",
+          "end_line": 18039,
+          "start_line": 18024
+        },
+        {
+          "chapter_id": "ch-0146",
+          "end_line": 18122,
+          "start_line": 18043
+        },
+        {
+          "chapter_id": "ch-0147",
+          "end_line": 18197,
+          "start_line": 18189
+        },
+        {
+          "chapter_id": "ch-0150",
+          "end_line": 18495,
+          "start_line": 18492
+        },
+        {
+          "chapter_id": "ch-0164",
+          "end_line": 20090,
+          "start_line": 19997
+        },
+        {
+          "chapter_id": "ch-0165",
+          "end_line": 20207,
+          "start_line": 20091
+        }
+      ],
+      "from": "v14-e02",
+      "id": "cross-legacy-use-01",
+      "kind": "payoff",
+      "label": "继承的知识支持识别遗物和寻找旧帝国，使命接续仍不保证继承者理解全部隐情",
+      "to": "v15-e06",
+      "tracking_keys": [
+        "cutroman-legacy-and-mission",
+        "desert-bones-and-mourning-soul"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0154",
+          "end_line": 19047,
+          "start_line": 19009
+        },
+        {
+          "chapter_id": "ch-0166",
+          "end_line": 20335,
+          "start_line": 20239
+        },
+        {
+          "chapter_id": "ch-0161",
+          "end_line": 19725,
+          "start_line": 19708
+        }
+      ],
+      "from": "v14-e09",
+      "id": "cross-faith-02",
+      "kind": "reveal",
+      "label": "后文进一步说明自然神本源借娜娜、分身留树；少女主体与神明仍须分开记录",
+      "to": "v15-e07",
+      "tracking_keys": [
+        "forest-tree-and-dwarf-faith",
+        "nana-protection"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0061",
+          "end_line": 7578,
+          "start_line": 7503
+        },
+        {
+          "chapter_id": "ch-0075",
+          "end_line": 9445,
+          "start_line": 9369
+        }
+      ],
+      "from": "v06-e04",
+      "id": "cross-autonomy-02",
+      "kind": "echo",
+      "label": "对具体伙伴的关爱边界发展为明确的自由存在宣言；两次选择都未解除灵魂支配关系",
+      "to": "v07-e07",
+      "tracking_keys": [
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0112",
+          "end_line": 14480,
+          "start_line": 14439
+        },
+        {
+          "chapter_id": "ch-0112",
+          "end_line": 14520,
+          "start_line": 14481
+        },
+        {
+          "chapter_id": "ch-0123",
+          "end_line": 15833,
+          "start_line": 15800
+        },
+        {
+          "chapter_id": "ch-0127",
+          "end_line": 16215,
+          "start_line": 16135
+        }
+      ],
+      "from": "v11-e05",
+      "id": "cross-church-agency-04",
+      "kind": "reveal",
+      "label": "菲力普对工具制度的解释扩展到备用身体来源与机构盲区，了解一层安排不代表掌握教会全局",
+      "to": "v12-e07",
+      "tracking_keys": [
+        "church-institution-and-angel-agency"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0167",
+          "end_line": 20499,
+          "start_line": 20470
+        },
+        {
+          "chapter_id": "ch-0169",
+          "end_line": 20530,
+          "start_line": 20511
+        },
+        {
+          "chapter_id": "ch-0169",
+          "end_line": 20591,
+          "start_line": 20583
+        },
+        {
+          "chapter_id": "ch-0170",
+          "end_line": 20655,
+          "start_line": 20595
+        },
+        {
+          "chapter_id": "ch-0171",
+          "end_line": 20676,
+          "start_line": 20659
+        }
+      ],
+      "from": "v15-e09",
+      "id": "cross-v16-redmoon",
+      "kind": "reveal",
+      "label": "红月聚合后的宣告被解释为达罗亚借信徒传力强降；向菲力普说切里莫之名并非二者同一人的证据",
+      "to": "v16-e01",
+      "tracking_keys": [
+        "desert-bones-and-mourning-soul"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0099",
+          "end_line": 12861,
+          "start_line": 12843
+        },
+        {
+          "chapter_id": "ch-0100",
+          "end_line": 12944,
+          "start_line": 12885
+        },
+        {
+          "chapter_id": "ch-0100",
+          "end_line": 13014,
+          "start_line": 12965
+        },
+        {
+          "chapter_id": "ch-0101",
+          "end_line": 13052,
+          "start_line": 13048
+        },
+        {
+          "chapter_id": "ch-0169",
+          "end_line": 20530,
+          "start_line": 20511
+        },
+        {
+          "chapter_id": "ch-0169",
+          "end_line": 20591,
+          "start_line": 20583
+        },
+        {
+          "chapter_id": "ch-0170",
+          "end_line": 20655,
+          "start_line": 20595
+        },
+        {
+          "chapter_id": "ch-0171",
+          "end_line": 20676,
+          "start_line": 20659
+        }
+      ],
+      "from": "v10-e04",
+      "id": "cross-v16-puppet",
+      "kind": "reveal",
+      "label": "噬魂枪的无意识傀儡阶段出现新进展：雷奥因吞魂进化并恢复神智；后来的恢复不能倒填此前意识状态",
+      "to": "v16-e01",
+      "tracking_keys": [
+        "soul-devourer-weapon-and-puppets",
+        "god-knight-pursuit"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0156",
+          "end_line": 19118,
+          "start_line": 19055
+        },
+        {
+          "chapter_id": "ch-0157",
+          "end_line": 19267,
+          "start_line": 19212
+        },
+        {
+          "chapter_id": "ch-0172",
+          "end_line": 20883,
+          "start_line": 20830
+        },
+        {
+          "chapter_id": "ch-0173",
+          "end_line": 20971,
+          "start_line": 20914
+        },
+        {
+          "chapter_id": "ch-0174",
+          "end_line": 21044,
+          "start_line": 20975
+        },
+        {
+          "chapter_id": "ch-0175",
+          "end_line": 21105,
+          "start_line": 21083
+        }
+      ],
+      "from": "v15-e01",
+      "id": "cross-v16-angel-agency",
+      "kind": "payoff",
+      "label": "菲力普对自身价值的重视进一步落实为临阵逃离，弗里昂的拒逃构成另一个选择",
+      "to": "v16-e02",
+      "tracking_keys": [
+        "church-institution-and-angel-agency"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0167",
+          "end_line": 20465,
+          "start_line": 20344
+        },
+        {
+          "chapter_id": "ch-0177",
+          "end_line": 21441,
+          "start_line": 21422
+        },
+        {
+          "chapter_id": "ch-0178",
+          "end_line": 21466,
+          "start_line": 21445
+        },
+        {
+          "chapter_id": "ch-0179",
+          "end_line": 21613,
+          "start_line": 21583
+        }
+      ],
+      "from": "v15-e08",
+      "id": "cross-v16-corpse-limit",
+      "kind": "payoff",
+      "label": "此前最后关头才启阵的限制在主角再次失联时被援引，塞茵祭魂阵仍未发动",
+      "to": "v16-e06",
+      "tracking_keys": [
+        "seiyne-living-corpse-plan",
+        "dragon-soul-oath-and-prophet"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0132",
+          "end_line": 16641,
+          "start_line": 16606
+        },
+        {
+          "chapter_id": "ch-0133",
+          "end_line": 16714,
+          "start_line": 16710
+        },
+        {
+          "chapter_id": "ch-0133",
+          "end_line": 16773,
+          "start_line": 16750
+        },
+        {
+          "chapter_id": "ch-0133",
+          "end_line": 16813,
+          "start_line": 16787
+        },
+        {
+          "chapter_id": "ch-0176",
+          "end_line": 21265,
+          "start_line": 21189
+        }
+      ],
+      "from": "v13-e02",
+      "id": "cross-v16-two-inheritances",
+      "kind": "payoff",
+      "label": "双神传承安排获得后文叙述确认，但媒介娜娜的意愿、神明本源与成神仍是不同问题",
+      "to": "v16-e04",
+      "tracking_keys": [
+        "nana-protection",
+        "christine-identity"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0166",
+          "end_line": 20335,
+          "start_line": 20239
+        },
+        {
+          "chapter_id": "ch-0176",
+          "end_line": 21265,
+          "start_line": 21189
+        }
+      ],
+      "from": "v15-e07",
+      "id": "cross-v16-nature-cost",
+      "kind": "reversal",
+      "label": "合作中的自然神以暗害旧长老保障神谕，娜娜的亲见与质问揭开维系联盟的代价",
+      "to": "v16-e04",
+      "tracking_keys": [
+        "forest-tree-and-dwarf-faith",
+        "nana-protection"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0145",
+          "end_line": 18000,
+          "start_line": 17959
+        },
+        {
+          "chapter_id": "ch-0145",
+          "end_line": 18039,
+          "start_line": 18024
+        },
+        {
+          "chapter_id": "ch-0146",
+          "end_line": 18122,
+          "start_line": 18043
+        },
+        {
+          "chapter_id": "ch-0147",
+          "end_line": 18197,
+          "start_line": 18189
+        },
+        {
+          "chapter_id": "ch-0150",
+          "end_line": 18495,
+          "start_line": 18492
+        },
+        {
+          "chapter_id": "ch-0172",
+          "end_line": 20883,
+          "start_line": 20830
+        },
+        {
+          "chapter_id": "ch-0173",
+          "end_line": 20971,
+          "start_line": 20914
+        },
+        {
+          "chapter_id": "ch-0174",
+          "end_line": 21044,
+          "start_line": 20975
+        },
+        {
+          "chapter_id": "ch-0175",
+          "end_line": 21105,
+          "start_line": 21083
+        }
+      ],
+      "from": "v14-e02",
+      "id": "cross-v16-cutroman-death",
+      "kind": "reveal",
+      "label": "君王遗产线补明切罗曼尔被两神植入光明神格、因持续信仰供能消融而亡的机制",
+      "to": "v16-e02",
+      "tracking_keys": [
+        "cutroman-legacy-and-mission"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0164",
+          "end_line": 20090,
+          "start_line": 19997
+        },
+        {
+          "chapter_id": "ch-0165",
+          "end_line": 20207,
+          "start_line": 20091
+        },
+        {
+          "chapter_id": "ch-0177",
+          "end_line": 21319,
+          "start_line": 21312
+        },
+        {
+          "chapter_id": "ch-0177",
+          "end_line": 21419,
+          "start_line": 21340
+        }
+      ],
+      "from": "v15-e06",
+      "id": "cross-v16-betrayal",
+      "kind": "reversal",
+      "label": "寻回旧帝国的共同方向被达罗亚用来骗取信任，黑龙随后遭封魂夺体；同族并不保证利益一致",
+      "to": "v16-e05",
+      "tracking_keys": [
+        "desert-bones-and-mourning-soul",
+        "daro-possession-crisis"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0065",
+          "end_line": 8081,
+          "start_line": 7945
+        },
+        {
+          "chapter_id": "ch-0178",
+          "end_line": 21563,
+          "start_line": 21541
+        },
+        {
+          "chapter_id": "ch-0179",
+          "end_line": 21633,
+          "start_line": 21614
+        },
+        {
+          "chapter_id": "ch-0179",
+          "end_line": 21734,
+          "start_line": 21647
+        },
+        {
+          "chapter_id": "ch-0065",
+          "end_line": 8036,
+          "start_line": 8018
+        }
+      ],
+      "from": "v06-e07",
+      "id": "cross-v16-consumption",
+      "kind": "echo",
+      "label": "早期围绕异族危险与吞魂的争论，到毁掉忠诚子民取能时呈现具体权力代价；不能以同族求存理由抹去被牺牲者意愿",
+      "to": "v16-e07",
+      "tracking_keys": [
+        "soul-consumption-ethics"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0177",
+          "end_line": 21339,
+          "start_line": 21320
+        },
+        {
+          "chapter_id": "ch-0180",
+          "end_line": 21828,
+          "start_line": 21800
+        },
+        {
+          "chapter_id": "ch-0182",
+          "end_line": 21939,
+          "start_line": 21850
+        }
+      ],
+      "from": "v16-e09",
+      "id": "cross-v17-false-flag",
+      "kind": "payoff",
+      "label": "秘密不死献祭的后果落实为安德鲁与光之神骑转生、奉命冒用黑龙名义；转生没有使他们成为黑龙真实部属",
+      "to": "v17-e01",
+      "tracking_keys": [
+        "church-institution-and-angel-agency",
+        "church-false-flag-and-cleansing-army"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0180",
+          "end_line": 21798,
+          "start_line": 21738
+        },
+        {
+          "chapter_id": "ch-0180",
+          "end_line": 21842,
+          "start_line": 21829
+        },
+        {
+          "chapter_id": "ch-0183",
+          "end_line": 22025,
+          "start_line": 21943
+        },
+        {
+          "chapter_id": "ch-0184",
+          "end_line": 22089,
+          "start_line": 22064
+        },
+        {
+          "chapter_id": "ch-0185",
+          "end_line": 22168,
+          "start_line": 22093
+        },
+        {
+          "chapter_id": "ch-0185",
+          "end_line": 22200,
+          "start_line": 22179
+        },
+        {
+          "chapter_id": "ch-0186",
+          "end_line": 22224,
+          "start_line": 22201
+        },
+        {
+          "chapter_id": "ch-0186",
+          "end_line": 22311,
+          "start_line": 22264
+        }
+      ],
+      "from": "v16-e08",
+      "id": "cross-v17-chaos",
+      "kind": "payoff",
+      "label": "混沌之灵的悬念由形成过程、战技传授和反吞神格接续，黑龙此次夺体危机解除",
+      "to": "v17-e02",
+      "tracking_keys": [
+        "daro-possession-crisis",
+        "desert-bones-and-mourning-soul"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0166",
+          "end_line": 20335,
+          "start_line": 20239
+        },
+        {
+          "chapter_id": "ch-0189",
+          "end_line": 22642,
+          "start_line": 22606
+        },
+        {
+          "chapter_id": "ch-0190",
+          "end_line": 22689,
+          "start_line": 22657
+        }
+      ],
+      "from": "v15-e07",
+      "id": "cross-v17-history",
+      "kind": "reveal",
+      "label": "先前缺席君王与三主神的推测得到向读者展开的历史说明；黑龙此时并未同步获得全部历史",
+      "to": "v17-e05",
+      "tracking_keys": [
+        "desert-bones-and-mourning-soul",
+        "niruda-split-personhood-and-divinity"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0147",
+          "end_line": 18213,
+          "start_line": 18157
+        },
+        {
+          "chapter_id": "ch-0148",
+          "end_line": 18292,
+          "start_line": 18243
+        },
+        {
+          "chapter_id": "ch-0148",
+          "end_line": 18350,
+          "start_line": 18339
+        },
+        {
+          "chapter_id": "ch-0149",
+          "end_line": 18488,
+          "start_line": 18418
+        },
+        {
+          "chapter_id": "ch-0191",
+          "end_line": 22820,
+          "start_line": 22788
+        },
+        {
+          "chapter_id": "ch-0191",
+          "end_line": 22862,
+          "start_line": 22821
+        },
+        {
+          "chapter_id": "ch-0192",
+          "end_line": 22874,
+          "start_line": 22872
+        }
+      ],
+      "from": "v14-e03",
+      "id": "cross-v17-knight",
+      "kind": "reversal",
+      "label": "曾按位面职责放行黑龙的光之神骑，后执行私令成为假旗统帅并被黑龙吞魂，职务与当前选择并不等同",
+      "to": "v17-e07",
+      "tracking_keys": [
+        "god-knight-pursuit",
+        "church-institution-and-angel-agency"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0161",
+          "end_line": 19730,
+          "start_line": 19693
+        },
+        {
+          "chapter_id": "ch-0162",
+          "end_line": 19779,
+          "start_line": 19731
+        },
+        {
+          "chapter_id": "ch-0184",
+          "end_line": 22063,
+          "start_line": 22030
+        },
+        {
+          "chapter_id": "ch-0187",
+          "end_line": 22362,
+          "start_line": 22315
+        },
+        {
+          "chapter_id": "ch-0187",
+          "end_line": 22418,
+          "start_line": 22375
+        }
+      ],
+      "from": "v15-e04",
+      "id": "cross-v17-prophet-control",
+      "kind": "payoff",
+      "label": "收走先知私兵魂约形成后续组织制衡，但其平民杀戮仍发生，权力受限不等于道德问题解决",
+      "to": "v17-e03",
+      "tracking_keys": [
+        "dragon-soul-oath-and-prophet"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0177",
+          "end_line": 21441,
+          "start_line": 21422
+        },
+        {
+          "chapter_id": "ch-0178",
+          "end_line": 21466,
+          "start_line": 21445
+        },
+        {
+          "chapter_id": "ch-0179",
+          "end_line": 21613,
+          "start_line": 21583
+        },
+        {
+          "chapter_id": "ch-0184",
+          "end_line": 22063,
+          "start_line": 22030
+        },
+        {
+          "chapter_id": "ch-0187",
+          "end_line": 22362,
+          "start_line": 22315
+        },
+        {
+          "chapter_id": "ch-0187",
+          "end_line": 22418,
+          "start_line": 22375
+        }
+      ],
+      "from": "v16-e06",
+      "id": "cross-v17-war",
+      "kind": "payoff",
+      "label": "收复里斯特及扩军之后，同盟领土光复；后续继续入侵与假旗危机须另计，不能当战争已彻底结束",
+      "to": "v17-e03",
+      "tracking_keys": [
+        "alliance-war-and-divine-power"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0127",
+          "end_line": 16262,
+          "start_line": 16216
+        },
+        {
+          "chapter_id": "ch-0190",
+          "end_line": 22710,
+          "start_line": 22690
+        },
+        {
+          "chapter_id": "ch-0190",
+          "end_line": 22755,
+          "start_line": 22735
+        },
+        {
+          "chapter_id": "ch-0191",
+          "end_line": 22787,
+          "start_line": 22774
+        }
+      ],
+      "from": "v12-e08",
+      "id": "cross-v17-children",
+      "kind": "echo",
+      "label": "承担赋魂工作后的大二在战场违先知命令救同类，工具能力与独立价值选择形成不同层次的成长",
+      "to": "v17-e06",
+      "tracking_keys": [
+        "children-consciousness",
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0176",
+          "end_line": 21265,
+          "start_line": 21189
+        },
+        {
+          "chapter_id": "ch-0192",
+          "end_line": 22945,
+          "start_line": 22927
+        },
+        {
+          "chapter_id": "ch-0192",
+          "end_line": 22975,
+          "start_line": 22969
+        },
+        {
+          "chapter_id": "ch-0193",
+          "end_line": 23016,
+          "start_line": 22990
+        },
+        {
+          "chapter_id": "ch-0193",
+          "end_line": 23108,
+          "start_line": 23024
+        }
+      ],
+      "from": "v16-e04",
+      "id": "cross-v17-divine-control",
+      "kind": "echo",
+      "label": "自然神控制神谕与尼鲁达双灵格经营恐惧信仰相互映照，均把群体信仰转为可调动的权力资源，具体责任和人格仍各自独立",
+      "to": "v17-e09",
+      "tracking_keys": [
+        "forest-tree-and-dwarf-faith",
+        "church-institution-and-angel-agency"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0192",
+          "end_line": 22945,
+          "start_line": 22927
+        },
+        {
+          "chapter_id": "ch-0192",
+          "end_line": 22975,
+          "start_line": 22969
+        },
+        {
+          "chapter_id": "ch-0193",
+          "end_line": 23016,
+          "start_line": 22990
+        },
+        {
+          "chapter_id": "ch-0193",
+          "end_line": 23108,
+          "start_line": 23024
+        },
+        {
+          "chapter_id": "ch-0195",
+          "end_line": 23138,
+          "start_line": 23122
+        },
+        {
+          "chapter_id": "ch-0196",
+          "end_line": 23261,
+          "start_line": 23183
+        }
+      ],
+      "from": "v17-e09",
+      "id": "cross-v18-return",
+      "kind": "payoff",
+      "label": "红月通道开启接续为哈力与子民灵魂跨界归来，并非把被放逐的物理大陆搬回",
+      "to": "v18-e01",
+      "tracking_keys": [
+        "desert-bones-and-mourning-soul"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0118",
+          "end_line": 15229,
+          "start_line": 15193
+        },
+        {
+          "chapter_id": "ch-0118",
+          "end_line": 15270,
+          "start_line": 15232
+        },
+        {
+          "chapter_id": "ch-0119",
+          "end_line": 15312,
+          "start_line": 15275
+        },
+        {
+          "chapter_id": "ch-0119",
+          "end_line": 15364,
+          "start_line": 15340
+        },
+        {
+          "chapter_id": "ch-0196",
+          "end_line": 23321,
+          "start_line": 23290
+        },
+        {
+          "chapter_id": "ch-0197",
+          "end_line": 23374,
+          "start_line": 23325
+        }
+      ],
+      "from": "v12-e01",
+      "id": "cross-v18-dragon-people",
+      "kind": "reveal",
+      "label": "帝勒带族退离后的去向得到补叙：贫荒促使迁往深渊，侵略后不足两千返归；不能据此补全每位族人的命运",
+      "to": "v18-e02",
+      "tracking_keys": [
+        "dragon-bloodline-and-confinement"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0169",
+          "end_line": 20530,
+          "start_line": 20511
+        },
+        {
+          "chapter_id": "ch-0169",
+          "end_line": 20591,
+          "start_line": 20583
+        },
+        {
+          "chapter_id": "ch-0170",
+          "end_line": 20655,
+          "start_line": 20595
+        },
+        {
+          "chapter_id": "ch-0171",
+          "end_line": 20676,
+          "start_line": 20659
+        },
+        {
+          "chapter_id": "ch-0199",
+          "end_line": 23813,
+          "start_line": 23795
+        },
+        {
+          "chapter_id": "ch-0199",
+          "end_line": 23873,
+          "start_line": 23828
+        },
+        {
+          "chapter_id": "ch-0200",
+          "end_line": 23904,
+          "start_line": 23874
+        },
+        {
+          "chapter_id": "ch-0201",
+          "end_line": 24172,
+          "start_line": 24158
+        }
+      ],
+      "from": "v16-e01",
+      "id": "cross-v18-gun",
+      "kind": "reveal",
+      "label": "雷奥恢复神智后续出送枪机缘的布局说明：教皇借他送枪，为黑龙布置机缘，不等雷奥知晓全部计划",
+      "to": "v18-e05",
+      "tracking_keys": [
+        "soul-devourer-weapon-and-puppets",
+        "god-knight-pursuit"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0145",
+          "end_line": 18000,
+          "start_line": 17959
+        },
+        {
+          "chapter_id": "ch-0145",
+          "end_line": 18039,
+          "start_line": 18024
+        },
+        {
+          "chapter_id": "ch-0146",
+          "end_line": 18122,
+          "start_line": 18043
+        },
+        {
+          "chapter_id": "ch-0147",
+          "end_line": 18197,
+          "start_line": 18189
+        },
+        {
+          "chapter_id": "ch-0150",
+          "end_line": 18495,
+          "start_line": 18492
+        },
+        {
+          "chapter_id": "ch-0198",
+          "end_line": 23748,
+          "start_line": 23680
+        },
+        {
+          "chapter_id": "ch-0199",
+          "end_line": 23788,
+          "start_line": 23755
+        }
+      ],
+      "from": "v14-e02",
+      "id": "cross-v18-memory-practice",
+      "kind": "payoff",
+      "label": "切罗曼尔传承的知识在投影反追、时间干扰与跨界行动中转为应用；记忆继承不等原力量和人格复活",
+      "to": "v18-e04",
+      "tracking_keys": [
+        "cutroman-legacy-and-mission",
+        "memory-and-power"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0157",
+          "end_line": 19295,
+          "start_line": 19289
+        },
+        {
+          "chapter_id": "ch-0158",
+          "end_line": 19397,
+          "start_line": 19296
+        },
+        {
+          "chapter_id": "ch-0200",
+          "end_line": 24029,
+          "start_line": 23974
+        },
+        {
+          "chapter_id": "ch-0200",
+          "end_line": 24093,
+          "start_line": 24049
+        },
+        {
+          "chapter_id": "ch-0201",
+          "end_line": 24157,
+          "start_line": 24111
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24304,
+          "start_line": 24295
+        }
+      ],
+      "from": "v15-e02",
+      "id": "cross-v18-music",
+      "kind": "payoff",
+      "label": "音乐教学形成乐团，安魂稳军与雷霆清场取得实际战果；乐师有伤亡，杀敌同时给本源供能，不能当全场战争已胜",
+      "to": "v18-e06",
+      "tracking_keys": [
+        "music-magic-and-ordinary-specialists",
+        "roder-song-and-wife"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0189",
+          "end_line": 22642,
+          "start_line": 22606
+        },
+        {
+          "chapter_id": "ch-0190",
+          "end_line": 22689,
+          "start_line": 22657
+        },
+        {
+          "chapter_id": "ch-0201",
+          "end_line": 24218,
+          "start_line": 24189
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24334,
+          "start_line": 24239
+        }
+      ],
+      "from": "v17-e05",
+      "id": "cross-v18-source",
+      "kind": "reveal",
+      "label": "旧帝国与神祇历史接续为切里莫制造本源并被反噬；旧宇宙起源的口述尚未讲完，已证死亡与未证传说分别保留",
+      "to": "v18-e07",
+      "tracking_keys": [
+        "desert-bones-and-mourning-soul",
+        "source-consciousness-and-world-freedom"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0178",
+          "end_line": 21563,
+          "start_line": 21541
+        },
+        {
+          "chapter_id": "ch-0179",
+          "end_line": 21633,
+          "start_line": 21614
+        },
+        {
+          "chapter_id": "ch-0179",
+          "end_line": 21734,
+          "start_line": 21647
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24369,
+          "start_line": 24335
+        }
+      ],
+      "from": "v16-e07",
+      "id": "cross-v18-ethics",
+      "kind": "echo",
+      "label": "达罗亚毁己民取能与黑龙要求减少所有种族死亡、托付子民形成价值对照；这一选择不抹去黑龙阵营此前杀戮责任",
+      "to": "v18-e08",
+      "tracking_keys": [
+        "soul-consumption-ethics",
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0190",
+          "end_line": 22710,
+          "start_line": 22690
+        },
+        {
+          "chapter_id": "ch-0190",
+          "end_line": 22755,
+          "start_line": 22735
+        },
+        {
+          "chapter_id": "ch-0191",
+          "end_line": 22787,
+          "start_line": 22774
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24369,
+          "start_line": 24335
+        }
+      ],
+      "from": "v17-e06",
+      "id": "cross-v18-children",
+      "kind": "echo",
+      "label": "大二主动救同类之后，黑龙把君王烙印交哈力保子民，主体选择与保护责任相连；其余孩子是否觉醒仍未知",
+      "to": "v18-e08",
+      "tracking_keys": [
+        "children-consciousness",
+        "blackdragon-autonomy-and-companionship"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0192",
+          "end_line": 22945,
+          "start_line": 22927
+        },
+        {
+          "chapter_id": "ch-0192",
+          "end_line": 22975,
+          "start_line": 22969
+        },
+        {
+          "chapter_id": "ch-0193",
+          "end_line": 23016,
+          "start_line": 22990
+        },
+        {
+          "chapter_id": "ch-0193",
+          "end_line": 23108,
+          "start_line": 23024
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24369,
+          "start_line": 24335
+        }
+      ],
+      "from": "v17-e09",
+      "id": "cross-v18-divinity",
+      "kind": "payoff",
+      "label": "曾重掌公正神格的女灵格最终主动赠格并疲惫离去，教皇另一人格的寿命后果并未同时得到交代",
+      "to": "v18-e08",
+      "tracking_keys": [
+        "niruda-split-personhood-and-divinity",
+        "church-institution-and-angel-agency"
+      ]
+    },
+    {
+      "claim_kind": "fact",
+      "evidence": [
+        {
+          "chapter_id": "ch-0176",
+          "end_line": 21265,
+          "start_line": 21189
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24397,
+          "start_line": 24373
+        }
+      ],
+      "from": "v16-e04",
+      "id": "cross-v18-nana",
+      "kind": "payoff",
+      "label": "双神传承与自然神控制的代价之后，后记确认娜娜成长并保青春；未据此补写正式成神或克丽丝本体解封",
+      "to": "v18-e09",
+      "tracking_keys": [
+        "nana-protection",
+        "forest-tree-and-dwarf-faith"
+      ]
+    },
+    {
+      "claim_kind": "synthesis",
+      "evidence": [
+        {
+          "chapter_id": "ch-0125",
+          "end_line": 15987,
+          "start_line": 15978
+        },
+        {
+          "chapter_id": "ch-0125",
+          "end_line": 16052,
+          "start_line": 16025
+        },
+        {
+          "chapter_id": "ch-0126",
+          "end_line": 16131,
+          "start_line": 16072
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24397,
+          "start_line": 24373
+        }
+      ],
+      "from": "v12-e06",
+      "id": "cross-v18-home",
+      "kind": "echo",
+      "label": "旧领地供应与治理困难在后记自由城市生活中获得方向性回应，具体停战和制度过程仍被省略",
+      "to": "v18-e09",
+      "tracking_keys": [
+        "blackdragon-territory-and-industry",
+        "blackdragon-autonomy-and-companionship"
+      ]
+    }
+  ],
+  "state_updates": [
+    {
+      "evidence": [
+        {
+          "chapter_id": "ch-0046",
+          "end_line": 5665,
+          "start_line": 5661
+        }
+      ],
+      "key": "th-heiqi-holy-fire",
+      "kind": "subplot",
+      "question": "第四集圣焰危机中黑七是否获救？",
+      "resolution_note": "第五集确认黑七存活，黄金骨架保留而灵魂退近白银；只关闭这次生死悬念，灵魂恢复与后续受伤仍分别追踪。",
+      "status": "resolved",
+      "title": "黑七圣焰救援的生死结局",
+      "volume": 5
+    },
+    {
+      "evidence": [
+        {
+          "chapter_id": "ch-0051",
+          "end_line": 6388,
+          "start_line": 6335
+        }
+      ],
+      "key": "th-rode-music",
+      "kind": "hidden",
+      "question": "罗得早先如何逃过审判，何时转生？",
+      "resolution_note": "第五集已与黑龙相遇并随队；旧次逃生方式和转生时间仍未明，异常召唤不能自动解释旧案。",
+      "status": "partial",
+      "title": "罗得的旧次逃生与新相遇",
+      "volume": 5
+    },
+    {
+      "evidence": [
+        {
+          "chapter_id": "ch-0064",
+          "end_line": 7897,
+          "start_line": 7881
+        }
+      ],
+      "key": "red-moon-destination",
+      "kind": "main",
+      "question": "亡灵印记由谁散播，指向哪里？",
+      "resolution_note": "斯科特确认散播印记，目的地为哀嚎森林的往生者国度。本状态只关闭定位问题；印记与传统诅咒功能的关系、具体触发机制仍待解释，已保留原问题历史。",
+      "status": "resolved",
+      "title": "亡灵印记的发出者与目的地",
+      "volume": 6
+    },
+    {
+      "evidence": [
+        {
+          "chapter_id": "ch-0061",
+          "end_line": 7578,
+          "start_line": 7522
+        }
+      ],
+      "key": "nana-protection",
+      "kind": "subplot",
+      "question": "娜娜的暗黑气息来源、失亲后果与自主选择将怎样发展？",
+      "resolution_note": "第六集明确她能表达保护伙伴的愿望，并已受克丽丝教授法术；天生气息来源、父母遗体后续与追捕后果不能据此关闭。",
+      "status": "partial",
+      "title": "娜娜的保护、身世与主动性",
+      "volume": 6
+    },
+    {
+      "evidence": [
+        {
+          "chapter_id": "ch-0089",
+          "end_line": 11046,
+          "start_line": 11014
+        },
+        {
+          "chapter_id": "ch-0089",
+          "end_line": 11126,
+          "start_line": 11084
+        }
+      ],
+      "key": "transformation-altar-and-mang-survival",
+      "kind": "main",
+      "question": "已完成转生者如何适应存在形式，其人格与意愿将如何延续？",
+      "resolution_note": "本集三千余混合灵魂完成分批转生，并非全都是氓族。存续结果已明确，弱魂适应、威逼忠誓和自主性问题仍保留；不能用后来成功倒推早先强制行为获得同意。",
+      "status": "partial",
+      "title": "氓族与骑士灵魂转生后的存续",
+      "volume": 9
+    },
+    {
+      "evidence": [
+        {
+          "chapter_id": "ch-0130",
+          "end_line": 16419,
+          "start_line": 16406
+        },
+        {
+          "chapter_id": "ch-0131",
+          "end_line": 16518,
+          "start_line": 16470
+        },
+        {
+          "chapter_id": "ch-0131",
+          "end_line": 16565,
+          "start_line": 16538
+        },
+        {
+          "chapter_id": "ch-0131",
+          "end_line": 16530,
+          "start_line": 16519
+        }
+      ],
+      "key": "swamp-approaching-lives",
+      "kind": "subplot",
+      "question": "第12集末靠近沼泽的生物是谁、当次来意为何？",
+      "resolution_note": "开篇接续托雷矮人一行与追兵在沼泽边的交战；黑龙介入后出现自然神预录邀请。只关闭当次来访悬念，合作真实目的由自然神线继续追踪。",
+      "status": "resolved",
+      "title": "沼泽新来者的身份与邀请",
+      "volume": 13
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0196",
+          "end_line": 23255,
+          "start_line": 23230
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24396,
+          "start_line": 24343
+        }
+      ],
+      "key": "blackdragon-autonomy-and-companionship",
+      "kind": "main",
+      "question": "黑龙如何在成为顶层存在后保住自己想要的自由与关系？",
+      "resolution_note": "从被召唤、拒绝支配到愿为同伴承担风险，终卷明确保留自由存在的动机；托付子民、投入本源和后记重新归来给出核心选择的结果。仅关闭这一价值选择与主体归来，不把它扩大为所有同伴命运或社会制度完成。",
+      "status": "resolved",
+      "title": "自由存在与同伴关系",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0047",
+          "end_line": 5769,
+          "start_line": 5753
+        }
+      ],
+      "key": "redemption-soul",
+      "kind": "subplot",
+      "question": "救赎是否能够让星恢复生前身份？",
+      "resolution_note": "第五集已揭明救赎的净化目的，星获救归队，恢复生前身份的该次尝试得到否定与救援的实际结果。后文没有把这次救赎改成恢复原身份；仅关闭此项尝试，星的全部后记生活仍未逐项交代。",
+      "status": "resolved",
+      "title": "救赎之魂的真实作用",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0200",
+          "end_line": 23995,
+          "start_line": 23990
+        },
+        {
+          "chapter_id": "ch-0200",
+          "end_line": 24064,
+          "start_line": 24055
+        },
+        {
+          "chapter_id": "ch-0200",
+          "end_line": 24093,
+          "start_line": 24088
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24361,
+          "start_line": 24352
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24383,
+          "start_line": 24381
+        },
+        {
+          "chapter_id": "ch-0191",
+          "end_line": 22787,
+          "start_line": 22769
+        }
+      ],
+      "key": "children-consciousness",
+      "kind": "subplot",
+      "question": "黑龙子民的意识与存续是否获得完整交代？",
+      "resolution_note": "黑大、黑二的觉醒和违令救同类已有实证，终卷继续参战；黑龙托付君王烙印保护深约子民。原黑三至黑十是否全部觉醒、十七十八能否恢复、每位子民最终契约与生死均未逐名交代。后记未署名蓝晶工匠不能充作这些问题的答案。",
+      "status": "partial",
+      "title": "子民意识与生存",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0032",
+          "end_line": 4026,
+          "start_line": 4006
+        },
+        {
+          "chapter_id": "ch-0032",
+          "end_line": 4114,
+          "start_line": 4104
+        }
+      ],
+      "key": "thunder-mercenary-conflict",
+      "kind": "main",
+      "question": "雷神残余和撒拉丁部族如何应对领袖及贸易体系丧失？",
+      "resolution_note": "雷神总部与雷克丁败亡的直接冲突已结束，但外围成员、撒拉丁部族与贸易丧失的具体后果没有完整后续。不能以故事转场或后记繁荣推成所有相关利益均已安置。",
+      "status": "partial",
+      "title": "雷神败亡后的利益与部族余波",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0089",
+          "end_line": 11011,
+          "start_line": 10994
+        },
+        {
+          "chapter_id": "ch-0089",
+          "end_line": 11046,
+          "start_line": 11040
+        },
+        {
+          "chapter_id": "ch-0195",
+          "end_line": 23138,
+          "start_line": 23122
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24283,
+          "start_line": 24239
+        }
+      ],
+      "key": "sunken-undead-kingdom",
+      "kind": "hidden",
+      "question": "祭坛遗产如何延续，帝国消失为何？",
+      "resolution_note": "沼泽遗迹的诅咒、图克诞生与旧领主守护记忆获得说明；后来揭示的是三君王、放逐大陆及帝国子民回归。两层历史不可凭同称不死国度直接等同，旧沼泽古国消失的完整因由仍未充分解释。",
+      "status": "partial",
+      "title": "沼泽古国与转生遗产",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0095",
+          "end_line": 12245,
+          "start_line": 12221
+        },
+        {
+          "chapter_id": "ch-0095",
+          "end_line": 12245,
+          "start_line": 12214
+        },
+        {
+          "chapter_id": "ch-0095",
+          "end_line": 12277,
+          "start_line": 12261
+        }
+      ],
+      "key": "tank-battle-soul",
+      "kind": "hidden",
+      "question": "战魂能否真正炼化或可靠驾驭？",
+      "resolution_note": "第九集确定黑龙可限制坦克躯体行动，不能支配其战意；身体权限与人格炼化有别。后文没有给出战意完全服从或最终处置的直接结果，保留这项控制边界。",
+      "status": "partial",
+      "title": "坦克战魂的控制边界",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0176",
+          "end_line": 21265,
+          "start_line": 21255
+        },
+        {
+          "chapter_id": "ch-0195",
+          "end_line": 23138,
+          "start_line": 23131
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24390,
+          "start_line": 24388
+        }
+      ],
+      "key": "christine-identity",
+      "kind": "hidden",
+      "question": "克丽丝是否能借黑龙和媒介摆脱封印？",
+      "resolution_note": "克丽丝冥月女神身份、封印、选择娜娜传承和萝茜代言陆续明确，终卷又交代她独立领悟、未参加当年放逐。没有直接写本体解封或后记个人去向；娜娜青春不能替代她本人获释的证据。",
+      "status": "partial",
+      "title": "克丽丝的传承与脱封机会",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24360,
+          "start_line": 24358
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24390,
+          "start_line": 24388
+        },
+        {
+          "chapter_id": "ch-0176",
+          "end_line": 21265,
+          "start_line": 21255
+        }
+      ],
+      "key": "nana-protection",
+      "kind": "subplot",
+      "question": "娜娜能否从被争夺的传承者成为自由生活的主体？",
+      "resolution_note": "娜娜由遭迫害、被救护到承双神传承并质问自然神，后记明确成长、青春与认出黑龙。她已活到终景，但正式成神、完整身世、克丽丝本体结局没有相应直接证据；保留主体意愿与被选作媒介之间的张力。",
+      "status": "partial",
+      "title": "娜娜传承与被保护的生活",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0031",
+          "end_line": 3884,
+          "start_line": 3875
+        },
+        {
+          "chapter_id": "ch-0031",
+          "end_line": 3936,
+          "start_line": 3926
+        },
+        {
+          "chapter_id": "ch-0090",
+          "end_line": 11180,
+          "start_line": 11179
+        },
+        {
+          "chapter_id": "ch-0092",
+          "end_line": 11559,
+          "start_line": 11556
+        },
+        {
+          "chapter_id": "ch-0092",
+          "end_line": 11595,
+          "start_line": 11589
+        }
+      ],
+      "key": "undead-territory",
+      "kind": "subplot",
+      "question": "上千长期亡者能否隐蔽成长，何时出现自我意识？",
+      "resolution_note": "第九集明确把朗克岭全部骷髅召到暗黑沼泽采矿、改造，旧领地因此消散，安置去向已有直接答案。群体后来参与建设不等于逐个获得自我意识；这一意识问题仍未完整回收。旧址与沼泽新城分开，但人物群体迁移有明确文本连接。",
+      "status": "partial",
+      "title": "隐蔽不死领地",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0064",
+          "end_line": 7897,
+          "start_line": 7881
+        }
+      ],
+      "key": "red-moon-destination",
+      "kind": "main",
+      "question": "亡灵印记由谁散播，指向哪里？",
+      "resolution_note": "亡灵印记由斯科特散播、指向哀嚎森林往生者国度的定位问题已明确。此项只关闭发行者和地点；不能把印记旧诅咒功能、红月自然周期等其他问题一并关闭。",
+      "status": "resolved",
+      "title": "亡灵印记的发出者与目的地",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0041",
+          "end_line": 5197,
+          "start_line": 5158
+        },
+        {
+          "chapter_id": "ch-0090",
+          "end_line": 11180,
+          "start_line": 11179
+        }
+      ],
+      "key": "th-jueyou-home",
+      "kind": "main",
+      "question": "新家能否容纳不同生活需求并承受身份暴露后的攻击？",
+      "resolution_note": "绝幽谷已有水渠房屋并遭身份暴露后的攻击，后文明确原为谷地购买的冶炼工具用于沼泽祭坛炼炉，家园重心发生迁移。终景城市共处不等于旧谷城堡地下城规划完成；旧基地自身结局与新家成果分别记录。",
+      "status": "partial",
+      "title": "绝幽谷的建设与庇护",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0037",
+          "end_line": 4592,
+          "start_line": 4590
+        },
+        {
+          "chapter_id": "ch-0039",
+          "end_line": 4897,
+          "start_line": 4880
+        },
+        {
+          "chapter_id": "ch-0039",
+          "end_line": 4937,
+          "start_line": 4926
+        },
+        {
+          "chapter_id": "ch-0090",
+          "end_line": 11357,
+          "start_line": 11325
+        },
+        {
+          "chapter_id": "ch-0091",
+          "end_line": 11409,
+          "start_line": 11405
+        }
+      ],
+      "key": "th-meliya-politics",
+      "kind": "subplot",
+      "question": "谁派死士，梅丽雅去首都的具体使命是什么？",
+      "resolution_note": "护送交付已完成，后文海图家族招揽黑龙的资源与臣服条件明确，梅丽雅的家族立场并非始终未知。但死士主使与当次首都之行完整政治任务没有被直接查清，不能以更大的教会战争反推此次刺杀责任。",
+      "status": "partial",
+      "title": "海图护送背后的政治风险",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0051",
+          "end_line": 6388,
+          "start_line": 6335
+        },
+        {
+          "chapter_id": "ch-0200",
+          "end_line": 24085,
+          "start_line": 24065
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24386,
+          "start_line": 24385
+        }
+      ],
+      "key": "th-rode-music",
+      "kind": "hidden",
+      "question": "罗得早先如何逃过审判，何时转生？",
+      "resolution_note": "第五集相遇、后来的音乐发展和后记演奏都没有回答此处所问的旧次逃过审判方式与准确转生时点，因此保留open。后续生存和专长进展属其他问法，不能仅凭同一人物的新经历把本项旧案标为部分获答。",
+      "status": "open",
+      "title": "罗得的旧次逃生与新相遇",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0043",
+          "end_line": 5457,
+          "start_line": 5436
+        }
+      ],
+      "key": "th-guardian-vow",
+      "kind": "subplot",
+      "question": "他长期默默支援萝茜的私人动机是什么？",
+      "resolution_note": "破吊坠揭出岗撒罗斯十年前缘由，神圣牺牲兑现守护。该私人承诺已有明确动机与行动终点；不把守护者的牺牲泛化成萝茜此后无危险。",
+      "status": "resolved",
+      "title": "岗撒罗斯的守护心愿",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0046",
+          "end_line": 5665,
+          "start_line": 5661
+        }
+      ],
+      "key": "th-heiqi-holy-fire",
+      "kind": "subplot",
+      "question": "第四集圣焰危机中黑七是否获救？",
+      "resolution_note": "第五集明确黑七在第四集圣焰危机后存活，黄金骨架尚在而灵魂退近白银。关闭的是当次生死悬念，并未据此保证其后每次战斗无伤或后记已逐名出现。",
+      "status": "resolved",
+      "title": "黑七圣焰救援的生死结局",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0156",
+          "end_line": 19102,
+          "start_line": 19082
+        },
+        {
+          "chapter_id": "ch-0166",
+          "end_line": 20230,
+          "start_line": 20215
+        },
+        {
+          "chapter_id": "ch-0166",
+          "end_line": 20335,
+          "start_line": 20274
+        },
+        {
+          "chapter_id": "ch-0074",
+          "end_line": 9240,
+          "start_line": 9238
+        },
+        {
+          "chapter_id": "ch-0074",
+          "end_line": 9291,
+          "start_line": 9287
+        }
+      ],
+      "key": "rosy-angel-identity",
+      "kind": "hidden",
+      "question": "原萝茜能否整合残忆并自主运用借来力量？",
+      "resolution_note": "原萝茜苏醒、异源残忆与借克丽丝力量护墙都已呈现，旧恨和亲近并存。第七集降临天使意念被吞并不等于原萝茜人格与克丽丝合并，后记未点名她；记忆完全整合及最终生活仍保留未知。",
+      "status": "partial",
+      "title": "原萝茜的记忆与借力主体",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0066",
+          "end_line": 8094,
+          "start_line": 8085
+        },
+        {
+          "chapter_id": "ch-0200",
+          "end_line": 24085,
+          "start_line": 24065
+        },
+        {
+          "chapter_id": "ch-0201",
+          "end_line": 24157,
+          "start_line": 24134
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24386,
+          "start_line": 24385
+        }
+      ],
+      "key": "roder-song-and-wife",
+      "kind": "subplot",
+      "question": "安魂创作会怎样发展，亡妻线将何时重返？",
+      "resolution_note": "安魂和新曲能力后来发展为乐团教学、稳军与雷霆杀伤，后记罗得继续演奏，音乐用途获得明确延伸。亡妻及相关旧事没有因此获答；音乐成功不能代替亡妻线回收。",
+      "status": "partial",
+      "title": "罗得的音乐与未明往事",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0065",
+          "end_line": 8036,
+          "start_line": 8018
+        },
+        {
+          "chapter_id": "ch-0180",
+          "end_line": 21772,
+          "start_line": 21738
+        },
+        {
+          "chapter_id": "ch-0184",
+          "end_line": 22061,
+          "start_line": 22054
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24360,
+          "start_line": 24343
+        },
+        {
+          "chapter_id": "ch-0179",
+          "end_line": 21734,
+          "start_line": 21715
+        }
+      ],
+      "key": "soul-consumption-ethics",
+      "kind": "subplot",
+      "question": "公平看待异族风险能否兼容对实际杀戮的约束？",
+      "resolution_note": "吸魂风险争论后出现强制转生、先知杀平民与达罗亚毁己民取能等具体代价。终卷黑龙要求减少任何种族死亡并托付子民，给出价值选择，但未逐项清算己方旧杀戮、所有魂约同意或建立完整约束制度。不能把最终选择写成此前行为均合理。",
+      "status": "partial",
+      "title": "吸魂与异族伦理",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0195",
+          "end_line": 23138,
+          "start_line": 23122
+        },
+        {
+          "chapter_id": "ch-0196",
+          "end_line": 23229,
+          "start_line": 23183
+        },
+        {
+          "chapter_id": "ch-0200",
+          "end_line": 23904,
+          "start_line": 23901
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24283,
+          "start_line": 24239
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24334,
+          "start_line": 24322
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24334,
+          "start_line": 24239
+        }
+      ],
+      "key": "desert-bones-and-mourning-soul",
+      "kind": "hidden",
+      "question": "旧帝国及黑晶的来源与放逐后果怎样得到说明？",
+      "resolution_note": "三君王及放逐史、哈力与子民灵魂回归、黑晶为混沌之灵实体、残印被抹及切里莫造新本源陆续明确。起始之夜旧本源觉醒到爆炸的完整讲述被打断，切里莫口述不等独立证实的全部宇宙史；回归也不是物理大陆迁来。",
+      "status": "partial",
+      "title": "帝国来源、黑晶与回归",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0182",
+          "end_line": 21920,
+          "start_line": 21862
+        },
+        {
+          "chapter_id": "ch-0191",
+          "end_line": 22859,
+          "start_line": 22825
+        },
+        {
+          "chapter_id": "ch-0192",
+          "end_line": 22874,
+          "start_line": 22872
+        },
+        {
+          "chapter_id": "ch-0171",
+          "end_line": 20676,
+          "start_line": 20659
+        },
+        {
+          "chapter_id": "ch-0199",
+          "end_line": 23871,
+          "start_line": 23865
+        }
+      ],
+      "key": "god-knight-pursuit",
+      "kind": "subplot",
+      "question": "神骑追索和教会私人指令之间有何关系？",
+      "resolution_note": "雷奥经历死亡、噬魂傀儡阶段及恢复神智，谢菲里安转为假旗统帅后被黑龙吞灭；女灵格为历代神骑老师。终卷补明教皇借雷奥送枪布置机缘，但全部武器流转、雷奥最后状态和其他神骑命运未逐一补足。",
+      "status": "partial",
+      "title": "神骑职责与转生后的终局",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0120",
+          "end_line": 15446,
+          "start_line": 15420
+        },
+        {
+          "chapter_id": "ch-0121",
+          "end_line": 15518,
+          "start_line": 15482
+        },
+        {
+          "chapter_id": "ch-0123",
+          "end_line": 15791,
+          "start_line": 15774
+        },
+        {
+          "chapter_id": "ch-0124",
+          "end_line": 15939,
+          "start_line": 15928
+        }
+      ],
+      "key": "dragon-tomb-expedition",
+      "kind": "main",
+      "question": "能否取得安息石并让龙墓力量离开封印？",
+      "resolution_note": "取安息石、破龙墓封印与取得受制龙群的本次目标已完成，金属兵及大量骨骸损失是代价。仅关闭远征目标，龙皇族群命运、皇冠历史全部细节和后来组织稳定另行追踪。",
+      "status": "resolved",
+      "title": "取石远征与龙墓解封",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0184",
+          "end_line": 22061,
+          "start_line": 22054
+        },
+        {
+          "chapter_id": "ch-0187",
+          "end_line": 22327,
+          "start_line": 22322
+        },
+        {
+          "chapter_id": "ch-0191",
+          "end_line": 22787,
+          "start_line": 22769
+        },
+        {
+          "chapter_id": "ch-0192",
+          "end_line": 22968,
+          "start_line": 22962
+        },
+        {
+          "chapter_id": "ch-0200",
+          "end_line": 24020,
+          "start_line": 23990
+        },
+        {
+          "chapter_id": "ch-0200",
+          "end_line": 24064,
+          "start_line": 24049
+        }
+      ],
+      "key": "dragon-soul-oath-and-prophet",
+      "kind": "subplot",
+      "question": "先知在龙群被收归黑龙后怎样行使代理权？",
+      "resolution_note": "先知先以半魂约和私兵保自主，后来三十六龙转约黑龙并受多阵营制约；这未消除其平民杀戮，终卷又与施乃图协作守门。组织权限制衡有进展，责任结算及最终权力安排未完整交代。",
+      "status": "partial",
+      "title": "先知失去私兵优势后的组织制衡",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0184",
+          "end_line": 22061,
+          "start_line": 22043
+        },
+        {
+          "chapter_id": "ch-0187",
+          "end_line": 22327,
+          "start_line": 22315
+        },
+        {
+          "chapter_id": "ch-0189",
+          "end_line": 22567,
+          "start_line": 22555
+        },
+        {
+          "chapter_id": "ch-0190",
+          "end_line": 22755,
+          "start_line": 22735
+        },
+        {
+          "chapter_id": "ch-0192",
+          "end_line": 22924,
+          "start_line": 22872
+        },
+        {
+          "chapter_id": "ch-0193",
+          "end_line": 23108,
+          "start_line": 23087
+        },
+        {
+          "chapter_id": "ch-0196",
+          "end_line": 23261,
+          "start_line": 23230
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24349,
+          "start_line": 24343
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24386,
+          "start_line": 24377
+        }
+      ],
+      "key": "alliance-war-and-divine-power",
+      "kind": "main",
+      "question": "同盟光复后，战争怎样演变，群众和军队将付出什么代价？",
+      "resolution_note": "同盟光复后发生继续进攻、假旗屠杀与联盟破裂，继而转为深渊门战场。终卷有限退兵约定、止损要求和后记多族共处给出方向性结果；停战过程、各国协议与战争代价的完整处置没有展示。",
+      "status": "partial",
+      "title": "光复、假旗战争与神力介入",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0084",
+          "end_line": 10505,
+          "start_line": 10475
+        },
+        {
+          "chapter_id": "ch-0089",
+          "end_line": 11126,
+          "start_line": 11084
+        }
+      ],
+      "key": "aroyo-memory-and-mang-clan",
+      "kind": "hidden",
+      "question": "氓族若得知阿罗约真实遭遇，联盟会如何改变？",
+      "resolution_note": "阿罗约与氓族的身份关系已确认，黑龙记忆上的亲近与隐瞒杀人事实同时成立。没有直接展示族长或族民得知死因后的反应，不能以后来奉誓或共同作战视作已知情谅解。",
+      "status": "open",
+      "title": "阿罗约记忆与被隐藏的旧杀戮",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0089",
+          "end_line": 11046,
+          "start_line": 11014
+        },
+        {
+          "chapter_id": "ch-0089",
+          "end_line": 11126,
+          "start_line": 11084
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24361,
+          "start_line": 24352
+        }
+      ],
+      "key": "transformation-altar-and-mang-survival",
+      "kind": "main",
+      "question": "已完成转生者如何适应存在形式，其人格与意愿将如何延续？",
+      "resolution_note": "三千余混合灵魂的分批转生成功已明确，其中并非全部为氓族；强制奉誓与弱魂适应问题没有被成功结果抹平。后来无智部属扩张和君王烙印托付也未逐项解释这些原始族民的自主选择与最终命运。",
+      "status": "partial",
+      "title": "氓族与骑士灵魂转生后的存续",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0199",
+          "end_line": 23871,
+          "start_line": 23865
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24230,
+          "start_line": 24224
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24368,
+          "start_line": 24362
+        }
+      ],
+      "key": "church-institution-and-angel-agency",
+      "kind": "hidden",
+      "question": "信徒力量的分配与神祇代理权最终如何重组？",
+      "resolution_note": "受教会支配的天使可以作不同选择，三主神与尼鲁达双灵格的制度操作逐渐揭明。终卷补送枪机缘、虚设至高称号以及女灵格赠格改立的行为；教皇个人结局、改立的具体执行和完整新制度没有展示。",
+      "status": "partial",
+      "title": "光明制度与神祇主体",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0089",
+          "end_line": 11046,
+          "start_line": 11040
+        },
+        {
+          "chapter_id": "ch-0089",
+          "end_line": 11015,
+          "start_line": 10994
+        }
+      ],
+      "key": "tuk-and-the-transformation-altar",
+      "kind": "subplot",
+      "question": "图克如何诞生，守护本能和祭坛苍老声音来自何处？",
+      "resolution_note": "祭坛苍老声音来自旧领主记忆烙印，灵魂重新汇聚为图克、末执念形成守护本能，来源问题已明。图克承记忆知识而非旧领主人格复活；后期重伤、祭坛未来与古国消失不能并入本项已回收范围。",
+      "status": "resolved",
+      "title": "图克诞生、守护与祭坛声音来源",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0178",
+          "end_line": 21466,
+          "start_line": 21454
+        },
+        {
+          "chapter_id": "ch-0179",
+          "end_line": 21613,
+          "start_line": 21601
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24386,
+          "start_line": 24377
+        }
+      ],
+      "key": "blackdragon-territory-and-industry",
+      "kind": "subplot",
+      "question": "无智兵力扩张如何得到资源与治理配套？",
+      "resolution_note": "资源供应、赋魂分工、无智骑兵扩张与智慧治理不足贯穿领地发展。后记自由城市交通、交易与多族劳动提供生活结果，祭坛被雕像占用且叙述判断原用途已无用；具体制度如何建立、旧居民安置及战争到共处的转换过程仍留白。",
+      "status": "partial",
+      "title": "军力扩张与智慧治理缺口",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0092",
+          "end_line": 11683,
+          "start_line": 11677
+        },
+        {
+          "chapter_id": "ch-0092",
+          "end_line": 11724,
+          "start_line": 11708
+        }
+      ],
+      "key": "roge-soul-and-prayer",
+      "kind": "hidden",
+      "question": "祈愿与死后凝聚魂火有何关系？",
+      "resolution_note": "临终祈愿与死后魂火凝聚相邻出现，黑龙也观察到异常，但没有直接说明特殊契约或具体信仰因果。不能用后期一般信仰机制自动补成老罗格这次现象的确切解释。",
+      "status": "open",
+      "title": "老罗格凝魂与临终祈愿",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0097",
+          "end_line": 12448,
+          "start_line": 12406
+        }
+      ],
+      "key": "taige-soul-repair",
+      "kind": "subplot",
+      "question": "泰戈的身体与智力将怎样发展？",
+      "resolution_note": "泰戈转生、补魂后的体力弹跳和认知提升有观察与实验依据，机制仍有角色推论成分。没有逐项排除训练或体质因素，亦未展示达到普通成人全部认知能力或后记个人终局。",
+      "status": "partial",
+      "title": "泰戈变异与认知成长",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0100",
+          "end_line": 12944,
+          "start_line": 12917
+        },
+        {
+          "chapter_id": "ch-0100",
+          "end_line": 13014,
+          "start_line": 12979
+        },
+        {
+          "chapter_id": "ch-0101",
+          "end_line": 13052,
+          "start_line": 13050
+        },
+        {
+          "chapter_id": "ch-0102",
+          "end_line": 13237,
+          "start_line": 13226
+        },
+        {
+          "chapter_id": "ch-0170",
+          "end_line": 20631,
+          "start_line": 20621
+        },
+        {
+          "chapter_id": "ch-0171",
+          "end_line": 20676,
+          "start_line": 20659
+        },
+        {
+          "chapter_id": "ch-0186",
+          "end_line": 22311,
+          "start_line": 22305
+        },
+        {
+          "chapter_id": "ch-0199",
+          "end_line": 23871,
+          "start_line": 23865
+        }
+      ],
+      "key": "soul-devourer-weapon-and-puppets",
+      "kind": "hidden",
+      "question": "如何认主、吞魂制造傀儡，古主遗产何来？",
+      "resolution_note": "噬魂与达罗亚旧主关系、吞魂形成傀儡并进化、雷奥恢复神智均获后证。黑龙能复制枪却仍不能支配枪内傀儡；教皇借雷奥送枪布置机缘已明。武器完整流转链、所有傀儡人格记忆及最终权限并未全面解释。",
+      "status": "partial",
+      "title": "噬魂权限与死息傀儡",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0176",
+          "end_line": 21265,
+          "start_line": 21219
+        },
+        {
+          "chapter_id": "ch-0177",
+          "end_line": 21441,
+          "start_line": 21422
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24390,
+          "start_line": 24388
+        }
+      ],
+      "key": "forest-tree-and-dwarf-faith",
+      "kind": "hidden",
+      "question": "自然神的生存策略会付出什么道德和制度代价？",
+      "resolution_note": "自然神身份、媒介娜娜、保教合作与暗杀旧大长老的代价逐步显现；后记娜娜青春验证传承持续影响。不能据此补自然神本源全部转移、全部信徒自愿接受或政治后果已解决，早期本源与分身通路的疑点仍保留。",
+      "status": "partial",
+      "title": "自然神保教与政治杀人",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0108",
+          "end_line": 14018,
+          "start_line": 13988
+        },
+        {
+          "chapter_id": "ch-0110",
+          "end_line": 14254,
+          "start_line": 14214
+        }
+      ],
+      "key": "sea-emperor-double-seal",
+      "kind": "subplot",
+      "question": "海皇是否获释，夺躯危机结果如何？",
+      "resolution_note": "外封被破后仍有灵魂封印，继而海皇获释并谋夺黑龙躯体，其神识被吞灭。本次封印和夺躯危机已回收；吸收所得记忆力量另有作用，不构成海皇原人格继续存活。",
+      "status": "resolved",
+      "title": "海皇解封与夺躯危机",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0197",
+          "end_line": 23360,
+          "start_line": 23325
+        }
+      ],
+      "key": "dragon-bloodline-and-confinement",
+      "kind": "subplot",
+      "question": "失踪龙人去了哪里，能否获得自由家园？",
+      "resolution_note": "帝勒与泰特尼斯存活返场，族群因贫荒迁深渊、遭侵略后不足两千返回，失踪去向得到说明。各具名族人的命运、龙皇与龙人关系及自由家园的具体落实并未逐项完结。",
+      "status": "partial",
+      "title": "龙人迁徙与族群存续",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0130",
+          "end_line": 16419,
+          "start_line": 16406
+        },
+        {
+          "chapter_id": "ch-0131",
+          "end_line": 16518,
+          "start_line": 16470
+        },
+        {
+          "chapter_id": "ch-0131",
+          "end_line": 16565,
+          "start_line": 16538
+        },
+        {
+          "chapter_id": "ch-0131",
+          "end_line": 16530,
+          "start_line": 16519
+        }
+      ],
+      "key": "swamp-approaching-lives",
+      "kind": "subplot",
+      "question": "第12集末靠近沼泽的生物是谁、当次来意为何？",
+      "resolution_note": "第十二集末的新来者由托雷矮人一行与追兵的开篇行动接续，带出自然神预录邀请。本条仅关闭该次来访身份和当次来意，合作的真实风险由自然神等线程继续追踪。",
+      "status": "resolved",
+      "title": "沼泽新来者的身份与邀请",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0161",
+          "end_line": 19683,
+          "start_line": 19664
+        },
+        {
+          "chapter_id": "ch-0162",
+          "end_line": 19760,
+          "start_line": 19731
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24383,
+          "start_line": 24377
+        }
+      ],
+      "key": "undead-dragon-force-survival",
+      "kind": "main",
+      "question": "余下智慧龙如何存续并参与教会战争？",
+      "resolution_note": "三十六智慧龙存活并从先知转约黑龙，代理指挥与实际魂约归属分离。终卷没有对该固定名单逐名结算；后记出现运输巨龙不能自动认作这些龙全部存活或获得自由。",
+      "status": "partial",
+      "title": "剩余不死龙的作战与归属",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0156",
+          "end_line": 19118,
+          "start_line": 19055
+        }
+      ],
+      "key": "death-world-return",
+      "kind": "main",
+      "question": "黑龙能否回到物质位面并恢复同伴联系？",
+      "resolution_note": "黑龙在第十四集抵达归途、十五集开篇带十五同伴重返并参与决策，放逐后的该次归家目标明确完成。终卷再次跨界是另一次行动，不重新打开这项已经达成的旧目标。",
+      "status": "resolved",
+      "title": "放逐后的定位与归途",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0197",
+          "end_line": 23487,
+          "start_line": 23481
+        },
+        {
+          "chapter_id": "ch-0198",
+          "end_line": 23728,
+          "start_line": 23713
+        },
+        {
+          "chapter_id": "ch-0199",
+          "end_line": 23871,
+          "start_line": 23865
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24360,
+          "start_line": 24357
+        }
+      ],
+      "key": "cutroman-legacy-and-mission",
+      "kind": "main",
+      "question": "黑龙如何把继承的知识转为自己的行动，帝国使命是否获得全部实现？",
+      "resolution_note": "记忆传承、分身三年内消失和主意识之死的说明与黑龙自主人格分开；终卷把反向力、时间干扰和追踪知识用于行动。哈力及子民回归兑现部分帝国目标，但未证明所有旧制度重建；两神植格等历史口径问题未获完整统一。",
+      "status": "partial",
+      "title": "切罗曼尔遗产的自主使用",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0177",
+          "end_line": 21441,
+          "start_line": 21422
+        },
+        {
+          "chapter_id": "ch-0178",
+          "end_line": 21466,
+          "start_line": 21454
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24379,
+          "start_line": 24378
+        }
+      ],
+      "key": "seiyne-living-corpse-plan",
+      "kind": "main",
+      "question": "百万平民是否免于被阵法牺牲，谁有决定权？",
+      "resolution_note": "活尸祭魂阵提出、预备后被黑龙设限，第十六集失联时仍援引限令，没有展示全城发动。另界五十多万毁魂是达罗亚行为，不是此阵。后记塞茵繁华不能证明一百五十万原居民逐名安全或阵法已永久拆除。",
+      "status": "partial",
+      "title": "塞茵祭魂阵的禁令约束",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0186",
+          "end_line": 22311,
+          "start_line": 22264
+        },
+        {
+          "chapter_id": "ch-0191",
+          "end_line": 22820,
+          "start_line": 22788
+        }
+      ],
+      "key": "daro-possession-crisis",
+      "kind": "main",
+      "question": "黑龙能否摆脱此次夺体并重建与子民联系？",
+      "resolution_note": "混沌之灵形成后黑龙反制达罗亚，回归部分躯体及所夺赫米亚躯体遭毁，黑龙复躯、恢复魂链并重返队伍。仅关闭这次夺体现场求存；另界残余本源没有被直接证明完全消亡。",
+      "status": "resolved",
+      "title": "达罗亚夺体危机的现场解除",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0182",
+          "end_line": 21939,
+          "start_line": 21908
+        },
+        {
+          "chapter_id": "ch-0188",
+          "end_line": 22530,
+          "start_line": 22509
+        },
+        {
+          "chapter_id": "ch-0189",
+          "end_line": 22641,
+          "start_line": 22640
+        },
+        {
+          "chapter_id": "ch-0190",
+          "end_line": 22689,
+          "start_line": 22679
+        },
+        {
+          "chapter_id": "ch-0192",
+          "end_line": 22921,
+          "start_line": 22872
+        },
+        {
+          "chapter_id": "ch-0193",
+          "end_line": 23091,
+          "start_line": 23058
+        }
+      ],
+      "key": "church-false-flag-and-cleansing-army",
+      "kind": "hidden",
+      "question": "谁把不死军团挂到黑龙名下，借此获取什么？",
+      "resolution_note": "教皇安排安德鲁与光冒用黑龙名义、尼鲁达双灵格收恐惧信仰已明确，两个假统帅被吞灭、旧控制瓦解。仅关闭现问的操盘者、执行者与获益目的；黑龙阵营此前真实平民杀戮、公众污名是否澄清及责任处置没有被后记共处消除，继续归入alliance-war-and-divine-power与church-institution-and-angel-agency的partial广线。",
+      "status": "resolved",
+      "title": "净世假旗与恐惧信仰",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0195",
+          "end_line": 23130,
+          "start_line": 23122
+        },
+        {
+          "chapter_id": "ch-0199",
+          "end_line": 23871,
+          "start_line": 23860
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24367,
+          "start_line": 24362
+        }
+      ],
+      "key": "niruda-split-personhood-and-divinity",
+      "kind": "hidden",
+      "question": "两独立灵格怎样面对共同历史与本源危机？",
+      "resolution_note": "教皇与迦莲娜躯内尼鲁达灵格已有独立人格，不能按共同来源合并。女灵格终卷交公正神格后削翼疲惫离开，教皇余寿没有直接结局；未显示二者复合、原天使人格恢复或二者后记去向。",
+      "status": "partial",
+      "title": "尼鲁达双灵格与神格",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0197",
+          "end_line": 23374,
+          "start_line": 23325
+        },
+        {
+          "chapter_id": "ch-0200",
+          "end_line": 24020,
+          "start_line": 24010
+        },
+        {
+          "chapter_id": "ch-0201",
+          "end_line": 24157,
+          "start_line": 24111
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24349,
+          "start_line": 24343
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24386,
+          "start_line": 24377
+        }
+      ],
+      "key": "abyss-invasion-and-coexistence",
+      "kind": "main",
+      "question": "如何阻止无尽深渊入侵并结束死亡循环？",
+      "resolution_note": "守门军、稳魂乐章和雷霆清场获得局部战果，魔龙未因此尽灭且门继续输兵。黑龙要求减少各族死亡，后记深渊门转为往来通道；具体停战、统一势力后续和军队终局缺失，不能把方向性和平写成完整军事过程。",
+      "status": "partial",
+      "title": "深渊入侵与跨族共处",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24349,
+          "start_line": 24309
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24396,
+          "start_line": 24368
+        }
+      ],
+      "key": "source-consciousness-and-world-freedom",
+      "kind": "hidden",
+      "question": "制造者如何失去本源控制，黑龙能否阻止其吞噬世界？",
+      "resolution_note": "切里莫造本源求超脱却被吞灭有明确叙述；黑龙投入争夺意志，后记世界存续并醒返。没有展示内部胜负经过、切里莫所造本源的原有意识如何处置或黑龙最终权限，不能补成全机制解释或全能等级。",
+      "status": "partial",
+      "title": "独立本源与超脱规则",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0200",
+          "end_line": 24085,
+          "start_line": 24065
+        },
+        {
+          "chapter_id": "ch-0201",
+          "end_line": 24157,
+          "start_line": 24134
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24302,
+          "start_line": 24298
+        },
+        {
+          "chapter_id": "ch-0202",
+          "end_line": 24386,
+          "start_line": 24385
+        }
+      ],
+      "key": "music-magic-and-ordinary-specialists",
+      "kind": "subplot",
+      "question": "罗得与普通乐师的体系能否在顶层战争中产生真实作用？",
+      "resolution_note": "安魂曲保护己方灵魂，乐团雷霆造成近十五万魔物死亡，证明非顶层战力的音乐专长有实际作用；后记罗得仍演奏。仅关闭用途问题，同时保留六名乐师魂散、魔龙幸存与杀伤反给本源供能的代价。",
+      "status": "resolved",
+      "title": "音乐魔法与弱者专长",
+      "volume": 18
+    },
+    {
+      "audit_scope": "whole-book",
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "end_line": 327,
+          "start_line": 293
+        },
+        {
+          "chapter_id": "ch-0021",
+          "end_line": 2357,
+          "start_line": 2336
+        },
+        {
+          "chapter_id": "ch-0185",
+          "end_line": 22153,
+          "start_line": 22111
+        },
+        {
+          "chapter_id": "ch-0197",
+          "end_line": 23487,
+          "start_line": 23481
+        },
+        {
+          "chapter_id": "ch-0198",
+          "end_line": 23728,
+          "start_line": 23713
+        },
+        {
+          "chapter_id": "ch-0199",
+          "end_line": 23873,
+          "start_line": 23865
+        }
+      ],
+      "key": "memory-and-power",
+      "kind": "hidden",
+      "question": "记忆所得如何改变选择，哪些能力仍不能继承？",
+      "resolution_note": "吞魂记忆能提供知识和技能线索，却不等于原力量、人格或所有理解自动继承。切罗曼尔记忆要经判断与试用，哈力传的是战技经验，终卷反向力及追踪付出受伤和失控风险后才能应用。此为跨阶段机制归纳，不据结尾推成所有能力已掌握或无上限。",
+      "status": "partial",
+      "title": "记忆、知识与力量",
+      "volume": 18
+    }
+  ]
+}

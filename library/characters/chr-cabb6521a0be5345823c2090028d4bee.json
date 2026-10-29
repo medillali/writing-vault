@@ -1,0 +1,123 @@
+{
+  "asset_id": "chr-cabb6521a0be5345823c2090028d4bee",
+  "asset_type": "character",
+  "content": {
+    "changes": "从怪物背后被遗忘者变守护盟友，仍可失败。",
+    "constraints": "亡灵残躯、17链、后断臂腿/被偷袭。",
+    "current_state": "失一臂一腿但活，卡琳回魂已止血；未肢体重塑、未正式入军回执。",
+    "decisions": [
+      "以身锁九头十万为其自述，获释放离去；认明宇欲炼魂杀，被米中断。"
+    ],
+    "goals": "护冰兰之剑和龙域，不使明宇重返。",
+    "interpretation": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1246",
+          "claim_kind": "inference",
+          "end_line": 99735,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 99662
+        },
+        {
+          "chapter_id": "ch-1267",
+          "claim_kind": "inference",
+          "end_line": 101247,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 101182
+        },
+        {
+          "chapter_id": "ch-1268",
+          "claim_kind": "inference",
+          "end_line": 101323,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 101248
+        },
+        {
+          "chapter_id": "ch-1269",
+          "claim_kind": "inference",
+          "end_line": 101389,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 101324
+        },
+        {
+          "chapter_id": "ch-1273",
+          "claim_kind": "inference",
+          "end_line": 101712,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 101636
+        }
+      ],
+      "text": "以本卷可证行动与变化观察，不把角色评语当全人格定论。"
+    },
+    "knowledge_boundary": "冰兰/菲雅历史为陆讲述及其反应，不是跨书对照确认。",
+    "relationship_directions": [
+      "陆先解链，他后独援；卡琳实际回魂止血并接纳。"
+    ],
+    "summary": "失一臂一腿但活，卡琳回魂已止血；未肢体重塑、未正式入军回执。"
+  },
+  "created_at": "2026-10-25T00:01:47.095197+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1246",
+      "claim_kind": "fact",
+      "end_line": 99735,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 99662
+    },
+    {
+      "chapter_id": "ch-1267",
+      "claim_kind": "fact",
+      "end_line": 101247,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 101182
+    },
+    {
+      "chapter_id": "ch-1268",
+      "claim_kind": "fact",
+      "end_line": 101323,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 101248
+    },
+    {
+      "chapter_id": "ch-1269",
+      "claim_kind": "fact",
+      "end_line": 101389,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 101324
+    },
+    {
+      "chapter_id": "ch-1273",
+      "claim_kind": "fact",
+      "end_line": 101712,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 101636
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/kalan",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:6",
+    "研究:全量九维"
+  ],
+  "title": "卡兰（龙骑队长）",
+  "updated_at": "2026-10-25T00:01:47.095703+00:00",
+  "user_notes": ""
+}

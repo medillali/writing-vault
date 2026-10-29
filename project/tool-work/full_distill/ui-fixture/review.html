@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="zh-CN" data-ready="true">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>《超级骷髅兵》全书蒸馏审查</title>
+<style>
+:root{--ink:#202521;--muted:#657067;--paper:#f6f2e8;--card:#fffdf7;--line:#d9d3c5;--green:#235f4a;--green-soft:#dce9df;--amber:#996519;--amber-soft:#f4e9cf;--red:#8b3b35;--shadow:0 9px 28px rgba(57,49,35,.08);font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.72}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;overflow-wrap:anywhere}a{color:inherit}.page{width:min(1180px,100%);margin:auto;padding:34px 26px 72px}header{padding:30px 0 24px;border-bottom:1px solid var(--line)}.eyebrow,.section-kicker{font-size:12px;letter-spacing:.15em;color:var(--green);font-weight:700}h1{font-family:serif;font-size:clamp(31px,6vw,58px);line-height:1.14;margin:10px 0 14px}h2{font-family:serif;font-size:clamp(25px,4vw,38px);line-height:1.25;margin:8px 0}h3{font-size:24px;line-height:1.35;margin:7px 0 13px}h4{font-size:17px;margin:7px 0}p{margin:.5em 0}.lead{max-width:820px;color:#4e5b52}.metrics{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.metric{min-width:150px;padding:13px 16px;background:var(--card);border:1px solid var(--line);border-radius:12px}.metric b{display:block;font-size:23px;color:var(--green)}.metric span,.muted,small{color:var(--muted)}nav{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}nav a,.plot-link{text-decoration:none;border:1px solid var(--green);border-radius:999px;padding:8px 14px;color:var(--green);font-weight:700}.plot-link{display:inline-flex;margin-top:12px}main>section{margin-top:44px}.progress-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:18px}.progress-card{display:grid;grid-template-columns:38px 1fr;text-decoration:none;border:1px solid var(--line);border-radius:12px;padding:13px;background:var(--card);box-shadow:var(--shadow)}.progress-card.complete{border-color:#94b5a0;background:#f3faf4}.progress-card.pending{background:#f2efe7;color:var(--muted)}.progress-card.error{border-color:#d3a6a2;background:#fff2f0}.progress-card small{grid-column:2}.volume-number{grid-row:1/3;font:700 19px/1 serif;color:var(--green);padding-top:3px}.synthesis,.volume,.assets,.source-material{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:clamp(20px,4vw,38px);box-shadow:var(--shadow)}.pending-synthesis,.pending-volume{background:#f1eee5;box-shadow:none}.error-volume{border-color:#d3a6a2}.overview{max-width:900px;font-size:16px;color:#3f4b43}.volume-block{margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}details>summary{cursor:pointer;color:var(--green);font-weight:700}.dimension-list{display:grid;gap:14px;margin-top:15px}.dimension-group{border-left:3px solid #9bb7a5;padding:5px 0 5px 18px}.analysis-item{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 18px;margin:12px 0;padding:16px;border:1px solid #e4ded0;border-radius:10px;background:#fff}.analysis-field b{font-size:13px;color:var(--green)}.analysis-field p{font-size:14px}.evidence{grid-column:1/-1;border-top:1px dashed var(--line);padding-top:9px}.evidence summary{font-size:13px}.evidence ul{font-size:13px;color:var(--muted)}.chapter-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}.chapter-note{border:1px solid var(--line);border-radius:10px;padding:15px}.card-meta{font-size:12px;color:var(--muted)}.review-columns{display:grid;grid-template-columns:1fr 1fr;gap:22px}.review-columns>section{min-width:0}pre{white-space:pre-wrap;word-break:break-word;background:#252a26;color:#f1f1e8;padding:18px;border-radius:10px;max-height:520px;overflow:auto;font:12px/1.55 Consolas,monospace}.tools{position:sticky;top:0;z-index:3;display:grid;grid-template-columns:minmax(180px,1fr) 170px 170px;gap:9px;padding:13px 0;background:rgba(246,242,232,.96)}input,select{width:100%;min-width:0;border:1px solid #aeb9af;background:#fff;color:var(--ink);border-radius:9px;padding:10px 12px;font:inherit;font-size:14px}.asset-status{font-size:13px;color:var(--muted);margin:5px 0 13px}.asset-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.asset-card{border:1px solid var(--line);border-radius:12px;padding:18px;background:#fff}.badges{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0}.badge{font-size:12px;color:var(--green);background:var(--green-soft);border-radius:99px;padding:2px 8px}.badge.origin{color:var(--amber);background:var(--amber-soft)}.asset-card dl{margin:10px 0}.asset-card dt{font-size:13px;font-weight:700;color:var(--green);margin-top:9px}.asset-card dd{margin:2px 0;white-space:pre-line;font-size:14px;color:#445048}.empty{grid-column:1/-1;padding:24px;color:var(--muted)}.source-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}.source-grid details{min-width:0;border:1px solid var(--line);border-radius:10px;padding:14px}footer{margin-top:42px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+@media(max-width:760px){.page{padding:22px 16px 54px}.progress-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.analysis-item,.chapter-grid,.review-columns,.asset-grid,.source-grid{grid-template-columns:1fr}.tools{position:static;grid-template-columns:1fr}.synthesis,.volume,.assets,.source-material{border-radius:13px}}
+@media(max-width:430px){.page{padding-left:12px;padding-right:12px}.progress-grid{grid-template-columns:1fr}.metrics{display:grid;grid-template-columns:1fr 1fr}.metric{min-width:0;padding:10px}h3{font-size:21px}.analysis-item{padding:12px}pre{padding:12px}}
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+<div class="eyebrow">本地资料库 · 全书蒸馏审查</div>
+<h1>《超级骷髅兵》全书审查</h1>
+<p class="lead">《超级骷髅兵》原创合成审查样本。页面只呈现已经到达的逐集报告；未读集与尚未形成的全书综合均明确保留为空。</p>
+<div class="metrics"><div class="metric"><b>1 / 18</b><span>已完成集数</span></div><div class="metric"><b>1</b><span>已读正文章节</span></div><div class="metric"><b>2</b><span>标题／章前索引段</span></div><div class="metric"><b>4</b><span>本来源资产</span></div></div>
+<nav><a href="#progress">阅读进度</a><a href="#dimensions">逐集九维</a><a href="#assets">资料卡</a><a href="#source-material">来源材料</a></nav>
+<a class="plot-link" id="plot-link" href="vault/library/views/plots/src-9ff09c395734410b856f77c77a652834-full-nine/index.html">打开主线／暗线图 ↗</a>
+</header>
+<main>
+<section id="progress"><div class="section-kicker">覆盖范围</div><h2>18 集阅读进度</h2><div class="progress-grid"><a class="progress-card complete" data-volume="1" href="#vol-01"><span class="volume-number">01</span><b>第01集 · 已完成</b><small>1 章正文 · 2 个标题/章前</small></a><a class="progress-card pending" data-volume="2" href="#vol-02"><span class="volume-number">02</span><b>第02集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="3" href="#vol-03"><span class="volume-number">03</span><b>第03集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="4" href="#vol-04"><span class="volume-number">04</span><b>第04集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="5" href="#vol-05"><span class="volume-number">05</span><b>第05集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="6" href="#vol-06"><span class="volume-number">06</span><b>第06集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="7" href="#vol-07"><span class="volume-number">07</span><b>第07集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="8" href="#vol-08"><span class="volume-number">08</span><b>第08集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="9" href="#vol-09"><span class="volume-number">09</span><b>第09集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="10" href="#vol-10"><span class="volume-number">10</span><b>第10集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="11" href="#vol-11"><span class="volume-number">11</span><b>第11集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="12" href="#vol-12"><span class="volume-number">12</span><b>第12集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="13" href="#vol-13"><span class="volume-number">13</span><b>第13集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="14" href="#vol-14"><span class="volume-number">14</span><b>第14集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="15" href="#vol-15"><span class="volume-number">15</span><b>第15集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="16" href="#vol-16"><span class="volume-number">16</span><b>第16集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="17" href="#vol-17"><span class="volume-number">17</span><b>第17集 · 尚未阅读</b><small>等待读取与九维分析</small></a><a class="progress-card pending" data-volume="18" href="#vol-18"><span class="volume-number">18</span><b>第18集 · 尚未阅读</b><small>等待读取与九维分析</small></a></div></section>
+<section class="synthesis pending-synthesis" id="synthesis"><div class="section-kicker">全书综合</div><h2>全书九维综合尚未完成</h2><p>逐集阅读完成后才会形成跨集判断；当前页面不会用未读内容补齐结论。</p></section>
+<section id="dimensions"><div class="section-kicker">逐集报告</div><h2>逐集九维分析、疑点与修订</h2><div id="review-notes"><div id="dimension-evidence"><section class="volume" id="vol-01"><div class="section-kicker">第01集 · 已完成 · 1章正文 · 2个标题/章前</div><h3>第一集 &lt;script&gt;window.__xss=2&lt;/script&gt; 黄金骷髅</h3><p class="overview">本集通过一个完整选择链展示角色目标、阻碍与后果，合成内容仅用于验证界面。</p><details class="volume-block" open><summary>九维实质分析</summary><div class="dimension-list"><section class="dimension-group"><h4>世界构建</h4><article class="analysis-item"><div class="analysis-field"><b>主张</b><p>worldbuilding：恶意字符串 &lt;img src=x onerror=&quot;window.__xss=1&quot;&gt; 只能作为文字显示</p></div><div class="analysis-field"><b>机制</b><p>用角色选择制造因果推进</p></div><div class="analysis-field"><b>迁移</b><p>迁移时保留选择与代价的对应关系</p></div><div class="analysis-field"><b>边界</b><p>证据不足时不得外推</p></div><details class="evidence"><summary>展开证据（1 条）</summary><ul><li>第一章 合成正文（ch-0003） · 第4–8行 · 推断</li></ul></details></article></section><section class="dimension-group"><h4>人物</h4><article class="analysis-item"><div class="analysis-field"><b>主张</b><p>characters：恶意字符串 &lt;img src=x onerror=&quot;window.__xss=1&quot;&gt; 只能作为文字显示</p></div><div class="analysis-field"><b>机制</b><p>用角色选择制造因果推进</p></div><div class="analysis-field"><b>迁移</b><p>迁移时保留选择与代价的对应关系</p></div><div class="analysis-field"><b>边界</b><p>证据不足时不得外推</p></div><details class="evidence"><summary>展开证据（1 条）</summary><ul><li>第一章 合成正文（ch-0003） · 第4–8行 · 推断</li></ul></details></article></section><section class="dimension-group"><h4>情节</h4><article class="analysis-item"><div class="analysis-field"><b>主张</b><p>plot：恶意字符串 &lt;img src=x onerror=&quot;window.__xss=1&quot;&gt; 只能作为文字显示</p></div><div class="analysis-field"><b>机制</b><p>用角色选择制造因果推进</p></div><div class="analysis-field"><b>迁移</b><p>迁移时保留选择与代价的对应关系</p></div><div class="analysis-field"><b>边界</b><p>证据不足时不得外推</p></div><details class="evidence"><summary>展开证据（1 条）</summary><ul><li>第一章 合成正文（ch-0003） · 第4–8行 · 推断</li></ul></details></article></section><section class="dimension-group"><h4>文风</h4><article class="analysis-item"><div class="analysis-field"><b>主张</b><p>style：恶意字符串 &lt;img src=x onerror=&quot;window.__xss=1&quot;&gt; 只能作为文字显示</p></div><div class="analysis-field"><b>机制</b><p>用角色选择制造因果推进</p></div><div class="analysis-field"><b>迁移</b><p>迁移时保留选择与代价的对应关系</p></div><div class="analysis-field"><b>边界</b><p>证据不足时不得外推</p></div><details class="evidence"><summary>展开证据（1 条）</summary><ul><li>第一章 合成正文（ch-0003） · 第4–8行 · 推断</li></ul></details></article></section><section class="dimension-group"><h4>叙事</h4><article class="analysis-item"><div class="analysis-field"><b>主张</b><p>narrative：恶意字符串 &lt;img src=x onerror=&quot;window.__xss=1&quot;&gt; 只能作为文字显示</p></div><div class="analysis-field"><b>机制</b><p>用角色选择制造因果推进</p></div><div class="analysis-field"><b>迁移</b><p>迁移时保留选择与代价的对应关系</p></div><div class="analysis-field"><b>边界</b><p>证据不足时不得外推</p></div><details class="evidence"><summary>展开证据（1 条）</summary><ul><li>第一章 合成正文（ch-0003） · 第4–8行 · 推断</li></ul></details></article></section><section class="dimension-group"><h4>对话</h4><article class="analysis-item"><div class="analysis-field"><b>主张</b><p>dialogue：恶意字符串 &lt;img src=x onerror=&quot;window.__xss=1&quot;&gt; 只能作为文字显示</p></div><div class="analysis-field"><b>机制</b><p>用角色选择制造因果推进</p></div><div class="analysis-field"><b>迁移</b><p>迁移时保留选择与代价的对应关系</p></div><div class="analysis-field"><b>边界</b><p>证据不足时不得外推</p></div><details class="evidence"><summary>展开证据（1 条）</summary><ul><li>第一章 合成正文（ch-0003） · 第4–8行 · 推断</li></ul></details></article></section><section class="dimension-group"><h4>节奏</h4><article class="analysis-item"><div class="analysis-field"><b>主张</b><p>pacing：恶意字符串 &lt;img src=x onerror=&quot;window.__xss=1&quot;&gt; 只能作为文字显示</p></div><div class="analysis-field"><b>机制</b><p>用角色选择制造因果推进</p></div><div class="analysis-field"><b>迁移</b><p>迁移时保留选择与代价的对应关系</p></div><div class="analysis-field"><b>边界</b><p>证据不足时不得外推</p></div><details class="evidence"><summary>展开证据（1 条）</summary><ul><li>第一章 合成正文（ch-0003） · 第4–8行 · 推断</li></ul></details></article></section><section class="dimension-group"><h4>主题</h4><article class="analysis-item"><div class="analysis-field"><b>主张</b><p>themes：恶意字符串 &lt;img src=x onerror=&quot;window.__xss=1&quot;&gt; 只能作为文字显示</p></div><div class="analysis-field"><b>机制</b><p>用角色选择制造因果推进</p></div><div class="analysis-field"><b>迁移</b><p>迁移时保留选择与代价的对应关系</p></div><div class="analysis-field"><b>边界</b><p>证据不足时不得外推</p></div><details class="evidence"><summary>展开证据（1 条）</summary><ul><li>第一章 合成正文（ch-0003） · 第4–8行 · 推断</li></ul></details></article></section><section class="dimension-group"><h4>连续性</h4><article class="analysis-item"><div class="analysis-field"><b>主张</b><p>continuity：恶意字符串 &lt;img src=x onerror=&quot;window.__xss=1&quot;&gt; 只能作为文字显示</p></div><div class="analysis-field"><b>机制</b><p>用角色选择制造因果推进</p></div><div class="analysis-field"><b>迁移</b><p>迁移时保留选择与代价的对应关系</p></div><div class="analysis-field"><b>边界</b><p>证据不足时不得外推</p></div><details class="evidence"><summary>展开证据（1 条）</summary><ul><li>第一章 合成正文（ch-0003） · 第4–8行 · 推断</li></ul></details></article></section></div></details><details class="volume-block"><summary>逐章观察</summary><div class="chapter-grid"><article class="chapter-note"><div class="card-meta">非正文 · ch-0001</div><h4>章前内容</h4><p>章前内容，非叙事。</p></article><article class="chapter-note"><div class="card-meta">非正文 · ch-0002</div><h4>第一集 黄金骷髅</h4><p>集标题，非叙事。</p></article><article class="chapter-note"><div class="card-meta">正文 · ch-0003</div><h4>第一章 合成正文</h4><p>正文观察：角色承担选择后果。</p></article></div></details><div class="volume-block"><h4>疑点与修订</h4><div class="review-columns"><section><h4>疑点</h4><ul><li><b>该线索是否会在后文回收？</b><p>当前只读到第一集。</p><details class="evidence"><summary>展开证据（1 条）</summary><ul><li>第一章 合成正文（ch-0003） · 第4–8行 · 事实</li></ul></details></li></ul></section><section><h4>对前序判断的修订</h4><ul><li><p>合成样本修订：前序判断需要收窄。</p><details class="evidence"><summary>展开证据（1 条）</summary><ul><li>第一章 合成正文（ch-0003） · 第4–8行 · 事实</li></ul></details></li></ul></section></div></div><details class="volume-block raw-json"><summary>展开本集 JSON 主档</summary><pre>{
+  &quot;volume&quot;: 1,
+  &quot;title&quot;: &quot;第一集 &lt;script&gt;window.__xss=2&lt;/script&gt; 黄金骷髅&quot;,
+  &quot;source_id&quot;: &quot;src-9ff09c395734410b856f77c77a652834&quot;,
+  &quot;revision&quot;: &quot;fixture-revision&quot;,
+  &quot;read_parts&quot;: [
+    1
+  ],
+  &quot;chapter_ids&quot;: [
+    &quot;ch-0001&quot;,
+    &quot;ch-0002&quot;,
+    &quot;ch-0003&quot;
+  ],
+  &quot;overview&quot;: &quot;本集通过一个完整选择链展示角色目标、阻碍与后果，合成内容仅用于验证界面。&quot;,
+  &quot;chapter_notes&quot;: [
+    {
+      &quot;chapter_id&quot;: &quot;ch-0001&quot;,
+      &quot;observation&quot;: &quot;章前内容，非叙事。&quot;,
+      &quot;dimensions_checked&quot;: []
+    },
+    {
+      &quot;chapter_id&quot;: &quot;ch-0002&quot;,
+      &quot;observation&quot;: &quot;集标题，非叙事。&quot;,
+      &quot;dimensions_checked&quot;: []
+    },
+    {
+      &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+      &quot;observation&quot;: &quot;正文观察：角色承担选择后果。&quot;,
+      &quot;dimensions_checked&quot;: [
+        &quot;worldbuilding&quot;,
+        &quot;characters&quot;,
+        &quot;plot&quot;,
+        &quot;style&quot;,
+        &quot;narrative&quot;,
+        &quot;dialogue&quot;,
+        &quot;pacing&quot;,
+        &quot;themes&quot;,
+        &quot;continuity&quot;
+      ]
+    }
+  ],
+  &quot;dimensions&quot;: {
+    &quot;worldbuilding&quot;: [
+      {
+        &quot;claim&quot;: &quot;worldbuilding：恶意字符串 &lt;img src=x onerror=\&quot;window.__xss=1\&quot;&gt; 只能作为文字显示&quot;,
+        &quot;mechanism&quot;: &quot;用角色选择制造因果推进&quot;,
+        &quot;application&quot;: &quot;迁移时保留选择与代价的对应关系&quot;,
+        &quot;limitation&quot;: &quot;证据不足时不得外推&quot;,
+        &quot;claim_kind&quot;: &quot;inference&quot;,
+        &quot;evidence&quot;: [
+          {
+            &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+            &quot;start_line&quot;: 4,
+            &quot;end_line&quot;: 8
+          }
+        ]
+      }
+    ],
+    &quot;characters&quot;: [
+      {
+        &quot;claim&quot;: &quot;characters：恶意字符串 &lt;img src=x onerror=\&quot;window.__xss=1\&quot;&gt; 只能作为文字显示&quot;,
+        &quot;mechanism&quot;: &quot;用角色选择制造因果推进&quot;,
+        &quot;application&quot;: &quot;迁移时保留选择与代价的对应关系&quot;,
+        &quot;limitation&quot;: &quot;证据不足时不得外推&quot;,
+        &quot;claim_kind&quot;: &quot;inference&quot;,
+        &quot;evidence&quot;: [
+          {
+            &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+            &quot;start_line&quot;: 4,
+            &quot;end_line&quot;: 8
+          }
+        ]
+      }
+    ],
+    &quot;plot&quot;: [
+      {
+        &quot;claim&quot;: &quot;plot：恶意字符串 &lt;img src=x onerror=\&quot;window.__xss=1\&quot;&gt; 只能作为文字显示&quot;,
+        &quot;mechanism&quot;: &quot;用角色选择制造因果推进&quot;,
+        &quot;application&quot;: &quot;迁移时保留选择与代价的对应关系&quot;,
+        &quot;limitation&quot;: &quot;证据不足时不得外推&quot;,
+        &quot;claim_kind&quot;: &quot;inference&quot;,
+        &quot;evidence&quot;: [
+          {
+            &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+            &quot;start_line&quot;: 4,
+            &quot;end_line&quot;: 8
+          }
+        ]
+      }
+    ],
+    &quot;style&quot;: [
+      {
+        &quot;claim&quot;: &quot;style：恶意字符串 &lt;img src=x onerror=\&quot;window.__xss=1\&quot;&gt; 只能作为文字显示&quot;,
+        &quot;mechanism&quot;: &quot;用角色选择制造因果推进&quot;,
+        &quot;application&quot;: &quot;迁移时保留选择与代价的对应关系&quot;,
+        &quot;limitation&quot;: &quot;证据不足时不得外推&quot;,
+        &quot;claim_kind&quot;: &quot;inference&quot;,
+        &quot;evidence&quot;: [
+          {
+            &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+            &quot;start_line&quot;: 4,
+            &quot;end_line&quot;: 8
+          }
+        ]
+      }
+    ],
+    &quot;narrative&quot;: [
+      {
+        &quot;claim&quot;: &quot;narrative：恶意字符串 &lt;img src=x onerror=\&quot;window.__xss=1\&quot;&gt; 只能作为文字显示&quot;,
+        &quot;mechanism&quot;: &quot;用角色选择制造因果推进&quot;,
+        &quot;application&quot;: &quot;迁移时保留选择与代价的对应关系&quot;,
+        &quot;limitation&quot;: &quot;证据不足时不得外推&quot;,
+        &quot;claim_kind&quot;: &quot;inference&quot;,
+        &quot;evidence&quot;: [
+          {
+            &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+            &quot;start_line&quot;: 4,
+            &quot;end_line&quot;: 8
+          }
+        ]
+      }
+    ],
+    &quot;dialogue&quot;: [
+      {
+        &quot;claim&quot;: &quot;dialogue：恶意字符串 &lt;img src=x onerror=\&quot;window.__xss=1\&quot;&gt; 只能作为文字显示&quot;,
+        &quot;mechanism&quot;: &quot;用角色选择制造因果推进&quot;,
+        &quot;application&quot;: &quot;迁移时保留选择与代价的对应关系&quot;,
+        &quot;limitation&quot;: &quot;证据不足时不得外推&quot;,
+        &quot;claim_kind&quot;: &quot;inference&quot;,
+        &quot;evidence&quot;: [
+          {
+            &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+            &quot;start_line&quot;: 4,
+            &quot;end_line&quot;: 8
+          }
+        ]
+      }
+    ],
+    &quot;pacing&quot;: [
+      {
+        &quot;claim&quot;: &quot;pacing：恶意字符串 &lt;img src=x onerror=\&quot;window.__xss=1\&quot;&gt; 只能作为文字显示&quot;,
+        &quot;mechanism&quot;: &quot;用角色选择制造因果推进&quot;,
+        &quot;application&quot;: &quot;迁移时保留选择与代价的对应关系&quot;,
+        &quot;limitation&quot;: &quot;证据不足时不得外推&quot;,
+        &quot;claim_kind&quot;: &quot;inference&quot;,
+        &quot;evidence&quot;: [
+          {
+            &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+            &quot;start_line&quot;: 4,
+            &quot;end_line&quot;: 8
+          }
+        ]
+      }
+    ],
+    &quot;themes&quot;: [
+      {
+        &quot;claim&quot;: &quot;themes：恶意字符串 &lt;img src=x onerror=\&quot;window.__xss=1\&quot;&gt; 只能作为文字显示&quot;,
+        &quot;mechanism&quot;: &quot;用角色选择制造因果推进&quot;,
+        &quot;application&quot;: &quot;迁移时保留选择与代价的对应关系&quot;,
+        &quot;limitation&quot;: &quot;证据不足时不得外推&quot;,
+        &quot;claim_kind&quot;: &quot;inference&quot;,
+        &quot;evidence&quot;: [
+          {
+            &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+            &quot;start_line&quot;: 4,
+            &quot;end_line&quot;: 8
+          }
+        ]
+      }
+    ],
+    &quot;continuity&quot;: [
+      {
+        &quot;claim&quot;: &quot;continuity：恶意字符串 &lt;img src=x onerror=\&quot;window.__xss=1\&quot;&gt; 只能作为文字显示&quot;,
+        &quot;mechanism&quot;: &quot;用角色选择制造因果推进&quot;,
+        &quot;application&quot;: &quot;迁移时保留选择与代价的对应关系&quot;,
+        &quot;limitation&quot;: &quot;证据不足时不得外推&quot;,
+        &quot;claim_kind&quot;: &quot;inference&quot;,
+        &quot;evidence&quot;: [
+          {
+            &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+            &quot;start_line&quot;: 4,
+            &quot;end_line&quot;: 8
+          }
+        ]
+      }
+    ]
+  },
+  &quot;characters&quot;: [
+    {
+      &quot;name&quot;: &quot;样本角色&quot;,
+      &quot;aliases&quot;: [],
+      &quot;summary&quot;: &quot;用于筛选测试的新增人物。&quot;,
+      &quot;goal&quot;: &quot;完成选择&quot;,
+      &quot;conflict&quot;: &quot;证据边界&quot;,
+      &quot;arc_change&quot;: &quot;犹豫到行动&quot;,
+      &quot;relationships&quot;: [],
+      &quot;knowledge_limits&quot;: &quot;不知道后文&quot;,
+      &quot;evidence&quot;: [
+        {
+          &quot;source_id&quot;: &quot;src-9ff09c395734410b856f77c77a652834&quot;,
+          &quot;revision&quot;: &quot;fixture-revision&quot;,
+          &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+          &quot;start_line&quot;: 4,
+          &quot;end_line&quot;: 8,
+          &quot;claim_kind&quot;: &quot;fact&quot;
+        }
+      ]
+    }
+  ],
+  &quot;scenes&quot;: [
+    {
+      &quot;key&quot;: &quot;v01-s01&quot;,
+      &quot;title&quot;: &quot;样本场景&quot;,
+      &quot;summary&quot;: &quot;角色在阻碍中选择。&quot;,
+      &quot;goal&quot;: &quot;前进&quot;,
+      &quot;obstacle&quot;: &quot;风险&quot;,
+      &quot;choice&quot;: &quot;行动&quot;,
+      &quot;consequence&quot;: &quot;付出代价&quot;,
+      &quot;state_change&quot;: &quot;局势变化&quot;,
+      &quot;why_it_works&quot;: &quot;因果清晰&quot;,
+      &quot;applicability&quot;: &quot;转折场景&quot;,
+      &quot;failure_mode&quot;: &quot;代价虚假时失效&quot;,
+      &quot;evidence&quot;: [
+        {
+          &quot;source_id&quot;: &quot;src-9ff09c395734410b856f77c77a652834&quot;,
+          &quot;revision&quot;: &quot;fixture-revision&quot;,
+          &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+          &quot;start_line&quot;: 4,
+          &quot;end_line&quot;: 8,
+          &quot;claim_kind&quot;: &quot;fact&quot;
+        }
+      ]
+    }
+  ],
+  &quot;patterns&quot;: [
+    {
+      &quot;key&quot;: &quot;v01-p01&quot;,
+      &quot;title&quot;: &quot;样本机制&quot;,
+      &quot;summary&quot;: &quot;用选择展示价值。&quot;,
+      &quot;steps&quot;: [
+        &quot;设定目标&quot;,
+        &quot;施加阻碍&quot;,
+        &quot;兑现代价&quot;
+      ],
+      &quot;applicability&quot;: &quot;人物转折&quot;,
+      &quot;failure_mode&quot;: &quot;缺少铺垫时失效&quot;,
+      &quot;scene_keys&quot;: [
+        &quot;v01-s01&quot;
+      ],
+      &quot;evidence&quot;: [
+        {
+          &quot;source_id&quot;: &quot;src-9ff09c395734410b856f77c77a652834&quot;,
+          &quot;revision&quot;: &quot;fixture-revision&quot;,
+          &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+          &quot;start_line&quot;: 4,
+          &quot;end_line&quot;: 8,
+          &quot;claim_kind&quot;: &quot;fact&quot;
+        }
+      ]
+    }
+  ],
+  &quot;events&quot;: [],
+  &quot;edges&quot;: [],
+  &quot;threads&quot;: [],
+  &quot;questions&quot;: [
+    {
+      &quot;question&quot;: &quot;该线索是否会在后文回收？&quot;,
+      &quot;reason&quot;: &quot;当前只读到第一集。&quot;,
+      &quot;evidence&quot;: [
+        {
+          &quot;source_id&quot;: &quot;src-9ff09c395734410b856f77c77a652834&quot;,
+          &quot;revision&quot;: &quot;fixture-revision&quot;,
+          &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+          &quot;start_line&quot;: 4,
+          &quot;end_line&quot;: 8,
+          &quot;claim_kind&quot;: &quot;fact&quot;
+        }
+      ]
+    }
+  ],
+  &quot;revisions_to_earlier&quot;: [
+    {
+      &quot;description&quot;: &quot;合成样本修订：前序判断需要收窄。&quot;,
+      &quot;evidence&quot;: [
+        {
+          &quot;source_id&quot;: &quot;src-9ff09c395734410b856f77c77a652834&quot;,
+          &quot;revision&quot;: &quot;fixture-revision&quot;,
+          &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+          &quot;start_line&quot;: 4,
+          &quot;end_line&quot;: 8,
+          &quot;claim_kind&quot;: &quot;fact&quot;
+        }
+      ]
+    }
+  ]
+}</pre></details></section><section class="volume pending-volume" id="vol-02"><div class="section-kicker">第02集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-03"><div class="section-kicker">第03集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-04"><div class="section-kicker">第04集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-05"><div class="section-kicker">第05集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-06"><div class="section-kicker">第06集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-07"><div class="section-kicker">第07集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-08"><div class="section-kicker">第08集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-09"><div class="section-kicker">第09集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-10"><div class="section-kicker">第10集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-11"><div class="section-kicker">第11集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-12"><div class="section-kicker">第12集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-13"><div class="section-kicker">第13集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-14"><div class="section-kicker">第14集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-15"><div class="section-kicker">第15集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-16"><div class="section-kicker">第16集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-17"><div class="section-kicker">第17集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section><section class="volume pending-volume" id="vol-18"><div class="section-kicker">第18集</div><h3>尚未阅读</h3><p class="muted">对应报告到达后，重新运行生成脚本即可纳入审查页。</p></section></div></div></section>
+<section class="assets" id="assets"><div class="section-kicker">来源资产</div><h2>人物、场景与机制卡</h2><p class="lead">仅收录证据指向本书来源的卡片。原有开篇样段与带“第NN集”或逐集变化记录的全书蒸馏资产分开标识。</p>
+<div class="tools"><input id="asset-search" aria-label="搜索资料卡" placeholder="搜索人物、场景、机制或内容"><select id="asset-type" aria-label="按类型筛选"><option value="">全部类型</option><option value="character">人物</option><option value="scene">场景</option><option value="pattern">机制</option></select><select id="asset-volume" aria-label="按集数筛选"><option value="">全部集数</option><option value="1">第01集</option><option value="2">第02集</option><option value="3">第03集</option><option value="4">第04集</option><option value="5">第05集</option><option value="6">第06集</option><option value="7">第07集</option><option value="8">第08集</option><option value="9">第09集</option><option value="10">第10集</option><option value="11">第11集</option><option value="12">第12集</option><option value="13">第13集</option><option value="14">第14集</option><option value="15">第15集</option><option value="16">第16集</option><option value="17">第17集</option><option value="18">第18集</option></select></div>
+<div class="asset-status" id="asset-status" aria-live="polite"></div><div class="asset-grid" id="asset-cards"></div></section>
+<section class="source-material" id="source-material"><div class="section-kicker">核对入口</div><h2>研究主档与证据索引</h2><p class="lead">来源主档记录版本、章节及行号；逐集研究JSON可在各集末尾展开。小说原文单独保存在本机，不包含在审查页中。</p><div class="source-grid"><details><summary>展开来源主档</summary><pre>{
+  &quot;source_id&quot;: &quot;src-9ff09c395734410b856f77c77a652834&quot;,
+  &quot;title&quot;: &quot;《超级骷髅兵》原创合成审查样本&quot;,
+  &quot;revision&quot;: &quot;fixture-revision&quot;,
+  &quot;revisions&quot;: [
+    {
+      &quot;revision&quot;: &quot;fixture-revision&quot;,
+      &quot;characters&quot;: 321,
+      &quot;line_count&quot;: 30,
+      &quot;chapters&quot;: [
+        {
+          &quot;chapter_id&quot;: &quot;ch-0001&quot;,
+          &quot;title&quot;: &quot;章前内容&quot;,
+          &quot;start_line&quot;: 1,
+          &quot;end_line&quot;: 2
+        },
+        {
+          &quot;chapter_id&quot;: &quot;ch-0002&quot;,
+          &quot;title&quot;: &quot;第一集 黄金骷髅&quot;,
+          &quot;start_line&quot;: 3,
+          &quot;end_line&quot;: 3
+        },
+        {
+          &quot;chapter_id&quot;: &quot;ch-0003&quot;,
+          &quot;title&quot;: &quot;第一章 合成正文&quot;,
+          &quot;start_line&quot;: 4,
+          &quot;end_line&quot;: 30
+        }
+      ]
+    }
+  ]
+}</pre></details></div></section>
+</main>
+<footer>离线静态审查页 · 重新运行生成脚本可纳入后续 volNN.json 与 book-synthesis.json。</footer>
+</div>
+<script type="application/json" id="asset-data">[{"asset_id":"chr-new","asset_type":"character","title":"第01集新增人物","content":{"summary":"全书蒸馏新增资产。","volume_history":[{"volume":1,"note":"第01集变化"}]},"tags":["第01集","全书蒸馏"],"evidence":[{"source_id":"src-9ff09c395734410b856f77c77a652834","revision":"fixture-revision","chapter_id":"ch-0003","start_line":4,"end_line":8,"claim_kind":"fact"}],"revision":2,"volumes":[1],"origin":"全书蒸馏"},{"asset_id":"chr-original","asset_type":"character","title":"原有样段人物","content":{"summary":"原有开篇样段资产。"},"tags":["开篇样段"],"evidence":[{"source_id":"src-9ff09c395734410b856f77c77a652834","revision":"fixture-revision","chapter_id":"ch-0003","start_line":4,"end_line":8,"claim_kind":"fact"}],"revision":1,"volumes":[],"origin":"原有开篇样段"},{"asset_id":"scn-new","asset_type":"scene","title":"可检索针线场景","content":{"summary":"搜索关键字：蓝铜针。","volume_history":{"第01集":"建立场景"}},"tags":["第01集"],"evidence":[{"source_id":"src-9ff09c395734410b856f77c77a652834","revision":"fixture-revision","chapter_id":"ch-0003","start_line":4,"end_line":8,"claim_kind":"fact"}],"revision":1,"volumes":[1],"origin":"全书蒸馏"},{"asset_id":"pat-new","asset_type":"pattern","title":"第02集未来机制","content":{"summary":"未读卷资产不应被错归第一集。"},"tags":["第02集"],"evidence":[{"source_id":"src-9ff09c395734410b856f77c77a652834","revision":"fixture-revision","chapter_id":"ch-0003","start_line":4,"end_line":8,"claim_kind":"fact"}],"revision":1,"volumes":[2],"origin":"全书蒸馏"}]</script>
+<script type="application/json" id="chapter-data">{"ch-0001":"章前内容","ch-0002":"第一集 黄金骷髅","ch-0003":"第一章 合成正文"}</script>
+<script>
+const assets=JSON.parse(document.getElementById('asset-data').textContent);
+const chapterTitles=JSON.parse(document.getElementById('chapter-data').textContent);
+const typeLabels={character:'人物',scene:'场景',pattern:'机制'};
+const kindLabels={fact:'事实',inference:'推断',synthesis:'机制抽象',plan:'计划'};
+const fieldLabels={"summary":"概述","goal":"目标","conflict":"冲突","arc_change":"本集变化","relationships":"关系","knowledge_limits":"认知边界","obstacle":"阻碍","choice":"选择","consequence":"后果","state_change":"状态变化","why_it_works":"有效原因","applicability":"适用场景","failure_mode":"失效条件","steps":"迁移步骤","limits":"适用边界","volume_history":"逐集变化","coverage_note":"阅读范围","unknowns":"尚未确认","decision_pattern":"决策方式","contradiction":"内在矛盾","originality_note":"原创使用提示","aliases_in_source":"原文别名","alias_basis":"别名依据","relationship":"关系","confirmed":"可确认行为","uncertain":"不确定项","narrative_function":"叙事作用","knowledge_boundary":"认知边界","misbeliefs":"错误判断","perspective_boundary":"视角边界","relationship_in_sample":"样段关系","name_note":"姓名辨析","arc_in_sample":"样段变化","volume":"集数","note":"记录","status":"状态","title":"标题"};
+const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+function textValue(value){
+  if(Array.isArray(value))return value.map((item,index)=>`${index+1}. ${textValue(item)}`).join('\n');
+  if(value&&typeof value==='object')return Object.entries(value).map(([key,item])=>`${fieldLabels[key]||'补充信息'}：${textValue(item)}`).join('\n');
+  return value??'';
+}
+function evidenceHtml(items){
+  if(!Array.isArray(items)||!items.length)return '<p class="muted">未附章节证据。</p>';
+  return `<details class="evidence"><summary>展开证据（${items.length} 条）</summary><ul>${items.map(item=>{const id=item.chapter_id||'未标章节';const title=chapterTitles[id]||id;const lines=item.start_line!=null&&item.end_line!=null?`第${item.start_line}–${item.end_line}行`:'未标行号';const kind=kindLabels[item.claim_kind]||item.claim_kind||'';return `<li>${escapeHtml(title)}（${escapeHtml(id)}） · ${escapeHtml(lines)}${kind?' · '+escapeHtml(kind):''}</li>`}).join('')}</ul></details>`;
+}
+function renderAssets(){
+  const query=document.getElementById('asset-search').value.trim().toLocaleLowerCase();
+  const type=document.getElementById('asset-type').value;
+  const volume=Number(document.getElementById('asset-volume').value||0);
+  const shown=assets.filter(asset=>(!type||asset.asset_type===type)&&(!volume||asset.volumes.includes(volume))&&(!query||JSON.stringify(asset).toLocaleLowerCase().includes(query)));
+  document.getElementById('asset-status').textContent=`显示 ${shown.length} / ${assets.length} 张本来源卡片`;
+  document.getElementById('asset-cards').innerHTML=shown.map(asset=>{
+    const fields=Object.entries(asset.content||{}).filter(([key])=>key!=='summary').map(([key,value])=>`<dt>${escapeHtml(fieldLabels[key]||key)}</dt><dd>${escapeHtml(textValue(value))}</dd>`).join('');
+    const tags=(asset.tags||[]).map(tag=>`<span class="badge">${escapeHtml(tag)}</span>`).join('');
+    const volumes=asset.volumes.map(item=>`<span class="badge">第${String(item).padStart(2,'0')}集</span>`).join('');
+    return `<article class="asset-card"><div class="card-meta">${escapeHtml(typeLabels[asset.asset_type]||asset.asset_type)} · v${escapeHtml(asset.revision)}</div><h3>${escapeHtml(asset.title)}</h3><p>${escapeHtml(asset.content?.summary||'未填写概述。')}</p><div class="badges"><span class="badge origin">${escapeHtml(asset.origin)}</span>${volumes}${tags}</div><details><summary>展开分析与证据</summary><dl>${fields}</dl>${evidenceHtml(asset.evidence)}<details class="raw-json"><summary>展开卡片 JSON</summary><pre>${escapeHtml(JSON.stringify(asset,null,2))}</pre></details></details></article>`;
+  }).join('')||'<p class="empty">没有符合当前条件的卡片。</p>';
+}
+for(const id of ['asset-search','asset-type','asset-volume'])document.getElementById(id).addEventListener('input',renderAssets);
+renderAssets();
+</script>
+</body>
+</html>

@@ -1,0 +1,2130 @@
+[
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0018-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 17,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "东称地龙王掉镇国而631实蓝龙；编号总1万/第七为人物推断。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0631",
+          "claim_kind": "fact",
+          "end_line": 50375,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 50315
+        },
+        {
+          "chapter_id": "ch-0633",
+          "claim_kind": "fact",
+          "end_line": 50523,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 50444
+        },
+        {
+          "chapter_id": "ch-0634",
+          "claim_kind": "fact",
+          "end_line": 50590,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 50524
+        },
+        {
+          "chapter_id": "ch-0642",
+          "claim_kind": "fact",
+          "end_line": 51157,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51099
+        }
+      ],
+      "handling": "原掉落事实和角色误称分层，不把推算作系统总量。",
+      "id": "v03-a-number-items",
+      "status": "unknown"
+    },
+    "title": "编号总1万/第七为人物推断。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0631",
+        "claim_kind": "fact",
+        "end_line": 50375,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 50315
+      },
+      {
+        "chapter_id": "ch-0633",
+        "claim_kind": "fact",
+        "end_line": 50523,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 50444
+      },
+      {
+        "chapter_id": "ch-0634",
+        "claim_kind": "fact",
+        "end_line": 50590,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 50524
+      },
+      {
+        "chapter_id": "ch-0642",
+        "claim_kind": "fact",
+        "end_line": 51157,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51099
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "numbering-knowledge-channel",
+    "rationale": "634林从编号0007推总数一万及属性第七，642东继续同口径；935第一人称叙述也采用全服鬼器一万的说法，不能把后续沿用遗漏掉。不过没有展示编号与属性排序的完整系统表，尤其“0007必为第七强”仍是人物推演；总量口径已反复出现，精确排序不能据此认证。",
+    "later_chapters": [
+      634,
+      642,
+      935
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0634",
+        "start_line": 50525,
+        "end_line": 50548,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0642",
+        "start_line": 51113,
+        "end_line": 51129,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0935",
+        "start_line": 70100,
+        "end_line": 70107,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0018-03",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 17,
+    "atomic_index": 2,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "东称地龙王掉镇国而631实蓝龙；编号总1万/第七为人物推断。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0631",
+          "claim_kind": "fact",
+          "end_line": 50375,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 50315
+        },
+        {
+          "chapter_id": "ch-0633",
+          "claim_kind": "fact",
+          "end_line": 50523,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 50444
+        },
+        {
+          "chapter_id": "ch-0634",
+          "claim_kind": "fact",
+          "end_line": 50590,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 50524
+        },
+        {
+          "chapter_id": "ch-0642",
+          "claim_kind": "fact",
+          "end_line": 51157,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51099
+        }
+      ],
+      "handling": "原掉落事实和角色误称分层，不把推算作系统总量。",
+      "id": "v03-a-number-items",
+      "status": "unknown"
+    },
+    "title": "原掉落事实和角色误称分层，不把推算作系统总量。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0631",
+        "claim_kind": "fact",
+        "end_line": 50375,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 50315
+      },
+      {
+        "chapter_id": "ch-0633",
+        "claim_kind": "fact",
+        "end_line": 50523,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 50444
+      },
+      {
+        "chapter_id": "ch-0634",
+        "claim_kind": "fact",
+        "end_line": 50590,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 50524
+      },
+      {
+        "chapter_id": "ch-0642",
+        "claim_kind": "fact",
+        "end_line": 51157,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51099
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "loot-and-estimate-boundary",
+    "rationale": "631蓝龙掉镇国是实际掉落，642地龙王为后来的角色误称；编号一万与排名解释须按634人物推断、935叙述沿用分别记录。即使多次沿用总量，也不能让它修正掉落对象或提供从未展示的精确编号排序表。answered关闭的是这三层信息不得互相替代。",
+    "later_chapters": [
+      631,
+      634,
+      642,
+      935
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0631",
+        "start_line": 50350,
+        "end_line": 50373,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0634",
+        "start_line": 50525,
+        "end_line": 50548,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0642",
+        "start_line": 51113,
+        "end_line": 51129,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0935",
+        "start_line": 70107,
+        "end_line": 70107,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0019-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 18,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "644到最后层写第三/第十与系统九层/前八层不齐。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0637",
+          "claim_kind": "fact",
+          "end_line": 50800,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 50737
+        },
+        {
+          "chapter_id": "ch-0643",
+          "claim_kind": "fact",
+          "end_line": 51236,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51158
+        },
+        {
+          "chapter_id": "ch-0644",
+          "claim_kind": "fact",
+          "end_line": 51304,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51237
+        },
+        {
+          "chapter_id": "ch-0647",
+          "claim_kind": "fact",
+          "end_line": 51554,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51455
+        }
+      ],
+      "handling": "据行进与系统保最后层，同时保原层数异文，不扩成十层新地图。",
+      "id": "v03-a-layers",
+      "status": "unknown"
+    },
+    "title": "644到最后层写第三/第十与系统九层/前八层不齐。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0637",
+        "claim_kind": "fact",
+        "end_line": 50800,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 50737
+      },
+      {
+        "chapter_id": "ch-0643",
+        "claim_kind": "fact",
+        "end_line": 51236,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51158
+      },
+      {
+        "chapter_id": "ch-0644",
+        "claim_kind": "fact",
+        "end_line": 51304,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51237
+      },
+      {
+        "chapter_id": "ch-0647",
+        "claim_kind": "fact",
+        "end_line": 51554,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51455
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-map-layer-wording",
+    "rationale": "637系统介绍九层，643已经走八层，644开头又说最后一层，却在同段写下第三层、第十层，再由抹说九层大殿。最后清图取斧的进度可确定，三个层号字面无法同时作为地图结构，未有作者勘误说明，保原异文而不补隐藏的第十层。",
+    "later_chapters": [
+      637,
+      643,
+      644,
+      647
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0637",
+        "start_line": 50759,
+        "end_line": 50776,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0643",
+        "start_line": 51159,
+        "end_line": 51190,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0644",
+        "start_line": 51260,
+        "end_line": 51286,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0647",
+        "start_line": 51456,
+        "end_line": 51467,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0019-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 18,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "644到最后层写第三/第十与系统九层/前八层不齐。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0637",
+          "claim_kind": "fact",
+          "end_line": 50800,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 50737
+        },
+        {
+          "chapter_id": "ch-0643",
+          "claim_kind": "fact",
+          "end_line": 51236,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51158
+        },
+        {
+          "chapter_id": "ch-0644",
+          "claim_kind": "fact",
+          "end_line": 51304,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51237
+        },
+        {
+          "chapter_id": "ch-0647",
+          "claim_kind": "fact",
+          "end_line": 51554,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51455
+        }
+      ],
+      "handling": "据行进与系统保最后层，同时保原层数异文，不扩成十层新地图。",
+      "id": "v03-a-layers",
+      "status": "unknown"
+    },
+    "title": "据行进与系统保最后层，同时保原层数异文，不扩成十层新地图。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0637",
+        "claim_kind": "fact",
+        "end_line": 50800,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 50737
+      },
+      {
+        "chapter_id": "ch-0643",
+        "claim_kind": "fact",
+        "end_line": 51236,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51158
+      },
+      {
+        "chapter_id": "ch-0644",
+        "claim_kind": "fact",
+        "end_line": 51304,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51237
+      },
+      {
+        "chapter_id": "ch-0647",
+        "claim_kind": "fact",
+        "end_line": 51554,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51455
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "map-state-boundary",
+    "rationale": "按实际行进可记从第八层下到底层并在647终杀、取盘古斧碎片，648实交任务；644第三/第十等层号仍另存异文。这样既不删清图后果，也不把孤立字面扩建成一张多一层的新地图，记录约束已经明确。",
+    "later_chapters": [
+      643,
+      644,
+      647,
+      648
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0643",
+        "start_line": 51159,
+        "end_line": 51190,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0644",
+        "start_line": 51260,
+        "end_line": 51286,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0647",
+        "start_line": 51456,
+        "end_line": 51467,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0648",
+        "start_line": 51584,
+        "end_line": 51605,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0020-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 19,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "644控岩靴需11而同批112，648火耀/火焰天王异称。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0644",
+          "claim_kind": "fact",
+          "end_line": 51304,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51237
+        },
+        {
+          "chapter_id": "ch-0648",
+          "claim_kind": "fact",
+          "end_line": 51641,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51555
+        }
+      ],
+      "handling": "不补数字判11真实低阶；同剑异称保，不新造额外副手。",
+      "id": "v03-a-gear-typos",
+      "status": "unknown"
+    },
+    "title": "644控岩靴需11而同批112，648火耀/火焰天王异称。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0644",
+        "claim_kind": "fact",
+        "end_line": 51304,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51237
+      },
+      {
+        "chapter_id": "ch-0648",
+        "claim_kind": "fact",
+        "end_line": 51641,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51555
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "gear-level-wording-and-identity",
+    "rationale": "本轮全文复读644，控岩者长靴确写需要11级，而同批两物写112；没有同靴独立等级校正，不能擅补成112。另一半则可定：648火耀天王的同一介绍和使用叙述又称火焰天王，紧接同一副手替换，未发生取得第二剑的事件；名异写保留、实体不增。",
+    "later_chapters": [
+      644,
+      648
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0644",
+        "start_line": 51243,
+        "end_line": 51258,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0648",
+        "start_line": 51609,
+        "end_line": 51636,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0020-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 19,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "644控岩靴需11而同批112，648火耀/火焰天王异称。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0644",
+          "claim_kind": "fact",
+          "end_line": 51304,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51237
+        },
+        {
+          "chapter_id": "ch-0648",
+          "claim_kind": "fact",
+          "end_line": 51641,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51555
+        }
+      ],
+      "handling": "不补数字判11真实低阶；同剑异称保，不新造额外副手。",
+      "id": "v03-a-gear-typos",
+      "status": "unknown"
+    },
+    "title": "不补数字判11真实低阶",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0644",
+        "claim_kind": "fact",
+        "end_line": 51304,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51237
+      },
+      {
+        "chapter_id": "ch-0648",
+        "claim_kind": "fact",
+        "end_line": 51641,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51555
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "equipment-number-boundary",
+    "rationale": "控岩者长靴条目11级原样保留，但它不足以证明这件仙霖器真是低等级特殊物，也不能因同批112就把缺的2自行补回。分配给雪域千阳的行动可照实记，未给的唯一正确门槛仍不强定；answered是校录边界，不是原数已获勘误。",
+    "later_chapters": [
+      644
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0644",
+        "start_line": 51243,
+        "end_line": 51258,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0020-03",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 19,
+    "atomic_index": 2,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "644控岩靴需11而同批112，648火耀/火焰天王异称。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0644",
+          "claim_kind": "fact",
+          "end_line": 51304,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51237
+        },
+        {
+          "chapter_id": "ch-0648",
+          "claim_kind": "fact",
+          "end_line": 51641,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51555
+        }
+      ],
+      "handling": "不补数字判11真实低阶；同剑异称保，不新造额外副手。",
+      "id": "v03-a-gear-typos",
+      "status": "unknown"
+    },
+    "title": "同剑异称保，不新造额外副手。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0644",
+        "claim_kind": "fact",
+        "end_line": 51304,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51237
+      },
+      {
+        "chapter_id": "ch-0648",
+        "claim_kind": "fact",
+        "end_line": 51641,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51555
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "same-item-name-variation",
+    "rationale": "648火耀天王的面板、介绍中的火焰天王及换装评价处在同一连续持物场景，随后实际替镇月入副手；没有第二件独立奖励或第二次交易。故同一剑保异称，不为名称差增造额外副手，也不与NPC神器或现实蝴蝶合并。",
+    "later_chapters": [
+      648
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0648",
+        "start_line": 51584,
+        "end_line": 51636,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0021-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 20,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "641一群悬壶无差别“攻击”与治疗安排不合，653“都主动攻击”紧接互瞪10秒。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0641",
+          "claim_kind": "fact",
+          "end_line": 51098,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51019
+        },
+        {
+          "chapter_id": "ch-0653",
+          "claim_kind": "fact",
+          "end_line": 52020,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51944
+        }
+      ],
+      "handling": "保局部字句不按字面另造奶停疗或双方已攻的行动。",
+      "id": "v03-a-attack-word",
+      "status": "unknown"
+    },
+    "title": "641一群悬壶无差别“攻击”与治疗安排不合，653“都主动攻击”紧接互瞪10秒。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0641",
+        "claim_kind": "fact",
+        "end_line": 51098,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51019
+      },
+      {
+        "chapter_id": "ch-0653",
+        "claim_kind": "fact",
+        "end_line": 52020,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51944
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-action-wording",
+    "rationale": "定向原文641先命两刺客控制伤害、凫水瑶池加血，下一句却称悬壶无差别攻击；653又在“都主动攻击”后写互瞪十秒、再由主让纪先攻。上下文能保住治疗安排和实际交战顺序，不能给两个突兀词自动补出新的完整动作；唯一原拟字词仍未知。",
+    "later_chapters": [
+      641,
+      653
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0641",
+        "start_line": 51072,
+        "end_line": 51087,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0653",
+        "start_line": 51963,
+        "end_line": 51981,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0021-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 20,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "641一群悬壶无差别“攻击”与治疗安排不合，653“都主动攻击”紧接互瞪10秒。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0641",
+          "claim_kind": "fact",
+          "end_line": 51098,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51019
+        },
+        {
+          "chapter_id": "ch-0653",
+          "claim_kind": "fact",
+          "end_line": 52020,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51944
+        }
+      ],
+      "handling": "保局部字句不按字面另造奶停疗或双方已攻的行动。",
+      "id": "v03-a-attack-word",
+      "status": "unknown"
+    },
+    "title": "保局部字句不按字面另造奶停疗或双方已攻的行动。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0641",
+        "claim_kind": "fact",
+        "end_line": 51098,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51019
+      },
+      {
+        "chapter_id": "ch-0653",
+        "claim_kind": "fact",
+        "end_line": 52020,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51944
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "actor-and-action-boundary",
+    "rationale": "641两刺客实施控伤、奶被安排加血和最后叠满防御都保留，不能只凭一字就写奶全停疗；653实际可见的十秒让攻、格挡与其后反击按次序记录，不从“都主动”额外补一轮双方先打。answered关闭的是无证增加行动，并不替源文校字。",
+    "later_chapters": [
+      641,
+      653
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0641",
+        "start_line": 51075,
+        "end_line": 51086,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0653",
+        "start_line": 51969,
+        "end_line": 51981,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0022-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 21,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "638教程70—90%/后主说60%及个别技80%并列。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0634",
+          "claim_kind": "fact",
+          "end_line": 50590,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 50524
+        },
+        {
+          "chapter_id": "ch-0638",
+          "claim_kind": "fact",
+          "end_line": 50863,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 50801
+        },
+        {
+          "chapter_id": "ch-0643",
+          "claim_kind": "fact",
+          "end_line": 51236,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51158
+        }
+      ],
+      "handling": "区分教程一般建议、具体技能练习/估计，不统一世界精确成功率。",
+      "id": "v03-a-rates",
+      "status": "unknown"
+    },
+    "title": "638教程70—90%/后主说60%及个别技80%并列。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0634",
+        "claim_kind": "fact",
+        "end_line": 50590,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 50524
+      },
+      {
+        "chapter_id": "ch-0638",
+        "claim_kind": "fact",
+        "end_line": 50863,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 50801
+      },
+      {
+        "chapter_id": "ch-0643",
+        "claim_kind": "fact",
+        "end_line": 51236,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51158
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "training-metric-scope",
+    "rationale": "634教程给的是出手时机落在引导70—90%的建议，638超80%则是对同一种牛头技能反复练习后的局部成功率，两者指标不同。643主又口述引导60%以后，时机比例仍与前教程口径不同，未给统一修订；不能把60、70—90与80硬拼成全世界恒定成功率。",
+    "later_chapters": [
+      634,
+      638,
+      643
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0634",
+        "start_line": 50549,
+        "end_line": 50566,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0638",
+        "start_line": 50802,
+        "end_line": 50836,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0643",
+        "start_line": 51159,
+        "end_line": 51190,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0022-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 21,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "638教程70—90%/后主说60%及个别技80%并列。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0634",
+          "claim_kind": "fact",
+          "end_line": 50590,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 50524
+        },
+        {
+          "chapter_id": "ch-0638",
+          "claim_kind": "fact",
+          "end_line": 50863,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 50801
+        },
+        {
+          "chapter_id": "ch-0643",
+          "claim_kind": "fact",
+          "end_line": 51236,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 51158
+        }
+      ],
+      "handling": "区分教程一般建议、具体技能练习/估计，不统一世界精确成功率。",
+      "id": "v03-a-rates",
+      "status": "unknown"
+    },
+    "title": "区分教程一般建议、具体技能练习/估计，不统一世界精确成功率。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0634",
+        "claim_kind": "fact",
+        "end_line": 50590,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 50524
+      },
+      {
+        "chapter_id": "ch-0638",
+        "claim_kind": "fact",
+        "end_line": 50863,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 50801
+      },
+      {
+        "chapter_id": "ch-0643",
+        "claim_kind": "fact",
+        "end_line": 51236,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 51158
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "probability-and-training-boundary",
+    "rationale": "一般时机建议、特定招式的训练成功率和主人公转述分别记录即可；638明确换怪就不灵，后来练林也不是同一成功率。此项已能限定为需要重新观察具体引导动作的技法，不能用一次80%把所有技能、所有对手的截断定成80%。",
+    "later_chapters": [
+      634,
+      638,
+      643,
+      653
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0634",
+        "start_line": 50549,
+        "end_line": 50588,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0638",
+        "start_line": 50818,
+        "end_line": 50836,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0643",
+        "start_line": 51159,
+        "end_line": 51190,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0653",
+        "start_line": 51945,
+        "end_line": 51958,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0023-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 22,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "贪狼认证单方爆率/火狼额外爆率有1/2、单10与总20口径。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0683",
+          "claim_kind": "fact",
+          "end_line": 54278,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 54206
+        },
+        {
+          "chapter_id": "ch-0684",
+          "claim_kind": "fact",
+          "end_line": 54342,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 54279
+        },
+        {
+          "chapter_id": "ch-0695",
+          "claim_kind": "fact",
+          "end_line": 55006,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 54962
+        },
+        {
+          "chapter_id": "ch-0707",
+          "claim_kind": "fact",
+          "end_line": 55773,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 55714
+        }
+      ],
+      "handling": "逐条notes保，认证与坐骑对象分开，不代作者硬定所有阶段同表。",
+      "id": "v03-a-wolf-rates",
+      "status": "unknown"
+    },
+    "title": "贪狼认证单方爆率/火狼额外爆率有1/2、单10与总20口径。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0683",
+        "claim_kind": "fact",
+        "end_line": 54278,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 54206
+      },
+      {
+        "chapter_id": "ch-0684",
+        "claim_kind": "fact",
+        "end_line": 54342,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 54279
+      },
+      {
+        "chapter_id": "ch-0695",
+        "claim_kind": "fact",
+        "end_line": 55006,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 54962
+      },
+      {
+        "chapter_id": "ch-0707",
+        "claim_kind": "fact",
+        "end_line": 55773,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 55714
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "stacked-buffs-and-experience-wording",
+    "rationale": "原聚合题须拆量：683认证对敌/自身爆率各10%，687火狼坐骑也各10%，694主明确两层相加20%，所以单10与总20已有对应解释。真正1%/2%是攫取经验比例：687林报2%，697主说1%，不是爆率本身；该经验比例仍缺独立更正，不能把不同字段统称一组爆率冲突。",
+    "later_chapters": [
+      683,
+      687,
+      694,
+      697
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0683",
+        "start_line": 54214,
+        "end_line": 54214,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0687",
+        "start_line": 54485,
+        "end_line": 54496,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0694",
+        "start_line": 54913,
+        "end_line": 54922,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0697",
+        "start_line": 55091,
+        "end_line": 55102,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0023-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 22,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "贪狼认证单方爆率/火狼额外爆率有1/2、单10与总20口径。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0683",
+          "claim_kind": "fact",
+          "end_line": 54278,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 54206
+        },
+        {
+          "chapter_id": "ch-0684",
+          "claim_kind": "fact",
+          "end_line": 54342,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 54279
+        },
+        {
+          "chapter_id": "ch-0695",
+          "claim_kind": "fact",
+          "end_line": 55006,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 54962
+        },
+        {
+          "chapter_id": "ch-0707",
+          "claim_kind": "fact",
+          "end_line": 55773,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 55714
+        }
+      ],
+      "handling": "逐条notes保，认证与坐骑对象分开，不代作者硬定所有阶段同表。",
+      "id": "v03-a-wolf-rates",
+      "status": "unknown"
+    },
+    "title": "逐条notes保，认证与坐骑对象分开，不代作者硬定所有阶段同表。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0683",
+        "claim_kind": "fact",
+        "end_line": 54278,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 54206
+      },
+      {
+        "chapter_id": "ch-0684",
+        "claim_kind": "fact",
+        "end_line": 54342,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 54279
+      },
+      {
+        "chapter_id": "ch-0695",
+        "claim_kind": "fact",
+        "end_line": 55006,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 54962
+      },
+      {
+        "chapter_id": "ch-0707",
+        "claim_kind": "fact",
+        "end_line": 55773,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 55714
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "rule-field-boundary",
+    "rationale": "认证与坐骑各有自己的加成，694明确解释爆率叠加；经验1%/2%另作字面疑点，不并进爆率字段。保各条原notes、发话者与阶段，既不抹掉明确的10+10解释，也不替经验索取比例硬定唯一版本，该研究约束已关闭。",
+    "later_chapters": [
+      683,
+      687,
+      694,
+      697
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0683",
+        "start_line": 54214,
+        "end_line": 54214,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0687",
+        "start_line": 54490,
+        "end_line": 54492,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0694",
+        "start_line": 54917,
+        "end_line": 54917,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0697",
+        "start_line": 55094,
+        "end_line": 55098,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0024-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 23,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "碎刃实测并复测全47:12/持续10分，720口述37分。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0713",
+          "claim_kind": "fact",
+          "end_line": 56183,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 56107
+        },
+        {
+          "chapter_id": "ch-0714",
+          "claim_kind": "fact",
+          "end_line": 56234,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 56184
+        },
+        {
+          "chapter_id": "ch-0720",
+          "claim_kind": "fact",
+          "end_line": 56644,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 56589
+        }
+      ],
+      "handling": "保精确实测作为行动依据、口述异文另列，不能改日志。",
+      "id": "v03-a-ice-clock",
+      "status": "unknown"
+    },
+    "title": "碎刃实测并复测全47:12/持续10分，720口述37分。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0713",
+        "claim_kind": "fact",
+        "end_line": 56183,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 56107
+      },
+      {
+        "chapter_id": "ch-0714",
+        "claim_kind": "fact",
+        "end_line": 56234,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 56184
+      },
+      {
+        "chapter_id": "ch-0720",
+        "claim_kind": "fact",
+        "end_line": 56644,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 56589
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "cycle-versus-interval-wording",
+    "rationale": "713先测37分12秒空档加10分钟风暴，714复测并传达全周期47分12秒，具体行动时钟已确定；720心语简说37分钟规律，没有再交代指安全空档还是全周期。不能把它直接覆盖复测结果，也不必强断作者已改周期；精确时钟有解、这句简说的口径仍保歧义。",
+    "later_chapters": [
+      713,
+      714,
+      720
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0713",
+        "start_line": 56170,
+        "end_line": 56181,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0714",
+        "start_line": 56185,
+        "end_line": 56199,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0720",
+        "start_line": 56600,
+        "end_line": 56610,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0024-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 23,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "碎刃实测并复测全47:12/持续10分，720口述37分。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0713",
+          "claim_kind": "fact",
+          "end_line": 56183,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 56107
+        },
+        {
+          "chapter_id": "ch-0714",
+          "claim_kind": "fact",
+          "end_line": 56234,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 56184
+        },
+        {
+          "chapter_id": "ch-0720",
+          "claim_kind": "fact",
+          "end_line": 56644,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 56589
+        }
+      ],
+      "handling": "保精确实测作为行动依据、口述异文另列，不能改日志。",
+      "id": "v03-a-ice-clock",
+      "status": "unknown"
+    },
+    "title": "保精确实测作为行动依据、口述异文另列，不能改日志。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0713",
+        "claim_kind": "fact",
+        "end_line": 56183,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 56107
+      },
+      {
+        "chapter_id": "ch-0714",
+        "claim_kind": "fact",
+        "end_line": 56234,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 56184
+      },
+      {
+        "chapter_id": "ch-0720",
+        "claim_kind": "fact",
+        "end_line": 56644,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 56589
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "measurement-record-boundary",
+    "rationale": "行动依据取714已经复测并向矿工完整传达的47分12秒、持续10分钟，而不是把720的粗称37分钟静默改写到计时日志。37分12秒作为无风间隔确在713出现，保两种说法和定义缺口，不造新的随机风暴机制。",
+    "later_chapters": [
+      713,
+      714,
+      720
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0713",
+        "start_line": 56174,
+        "end_line": 56181,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0714",
+        "start_line": 56185,
+        "end_line": 56199,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0720",
+        "start_line": 56600,
+        "end_line": 56602,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0025-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 24,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "1154六件套/每件2000、预千万后估700万与口算有差。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0725",
+          "claim_kind": "fact",
+          "end_line": 57013,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 56947
+        },
+        {
+          "chapter_id": "ch-0726",
+          "claim_kind": "fact",
+          "end_line": 57084,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57014
+        },
+        {
+          "chapter_id": "ch-0727",
+          "claim_kind": "fact",
+          "end_line": 57154,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57085
+        }
+      ],
+      "handling": "最终套数与实际配装保；报价/估算不是完整已付财务账。",
+      "id": "v03-a-armor-cost",
+      "status": "unknown"
+    },
+    "title": "1154六件套/每件2000、预千万后估700万与口算有差。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0725",
+        "claim_kind": "fact",
+        "end_line": 57013,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 56947
+      },
+      {
+        "chapter_id": "ch-0726",
+        "claim_kind": "fact",
+        "end_line": 57084,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57014
+      },
+      {
+        "chapter_id": "ch-0727",
+        "claim_kind": "fact",
+        "end_line": 57154,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57085
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "procurement-estimate-versus-settlement",
+    "rationale": "725每部件2000与预估千套六件按满价算约1200万，正文却粗估1000万；随后许多玩家放弃款，700万又是折后预计而非明细。726实际终数1154套、727至少300月灵已配装可确认物资兑现，但没有最终逐笔应付、减免及实付清册，不能由口算补齐现金账。",
+    "later_chapters": [
+      725,
+      726,
+      727
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0725",
+        "start_line": 56955,
+        "end_line": 56996,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0726",
+        "start_line": 57014,
+        "end_line": 57084,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0727",
+        "start_line": 57085,
+        "end_line": 57120,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0025-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 24,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "1154六件套/每件2000、预千万后估700万与口算有差。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0725",
+          "claim_kind": "fact",
+          "end_line": 57013,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 56947
+        },
+        {
+          "chapter_id": "ch-0726",
+          "claim_kind": "fact",
+          "end_line": 57084,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57014
+        },
+        {
+          "chapter_id": "ch-0727",
+          "claim_kind": "fact",
+          "end_line": 57154,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57085
+        }
+      ],
+      "handling": "最终套数与实际配装保；报价/估算不是完整已付财务账。",
+      "id": "v03-a-armor-cost",
+      "status": "unknown"
+    },
+    "title": "最终套数与实际配装保",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0725",
+        "claim_kind": "fact",
+        "end_line": 57013,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 56947
+      },
+      {
+        "chapter_id": "ch-0726",
+        "claim_kind": "fact",
+        "end_line": 57084,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57014
+      },
+      {
+        "chapter_id": "ch-0727",
+        "claim_kind": "fact",
+        "end_line": 57154,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57085
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "inventory-and-distribution-stage",
+    "rationale": "726统计1154墨焰套是清图后的实数，并且梦瑶当场换上；727调800铁刃、含300月灵已全穿墨焰，提供真实分发后证。可确认库存与一部分实际配装，不能倒写725预估就已1154，也不声称所有1154套逐人分配均在镜头内。",
+    "later_chapters": [
+      726,
+      727
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0726",
+        "start_line": 57014,
+        "end_line": 57084,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0727",
+        "start_line": 57085,
+        "end_line": 57120,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0025-03",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 24,
+    "atomic_index": 2,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "1154六件套/每件2000、预千万后估700万与口算有差。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0725",
+          "claim_kind": "fact",
+          "end_line": 57013,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 56947
+        },
+        {
+          "chapter_id": "ch-0726",
+          "claim_kind": "fact",
+          "end_line": 57084,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57014
+        },
+        {
+          "chapter_id": "ch-0727",
+          "claim_kind": "fact",
+          "end_line": 57154,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57085
+        }
+      ],
+      "handling": "最终套数与实际配装保；报价/估算不是完整已付财务账。",
+      "id": "v03-a-armor-cost",
+      "status": "unknown"
+    },
+    "title": "报价/估算不是完整已付财务账。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0725",
+        "claim_kind": "fact",
+        "end_line": 57013,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 56947
+      },
+      {
+        "chapter_id": "ch-0726",
+        "claim_kind": "fact",
+        "end_line": 57084,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57014
+      },
+      {
+        "chapter_id": "ch-0727",
+        "claim_kind": "fact",
+        "end_line": 57154,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57085
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "financial-evidence-boundary",
+    "rationale": "每件报价、千套预测、减免后约700万与最终1154套属于不同口径，服装已经配发不能替银行或现金付款回执。记录这条边界即可关闭，未知实付不自动意味着主角违约或作者忘记，也不拿同额后期投资、装备销售冲清本次采购账。",
+    "later_chapters": [
+      725,
+      726,
+      727
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0725",
+        "start_line": 56994,
+        "end_line": 56999,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0726",
+        "start_line": 57014,
+        "end_line": 57084,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0727",
+        "start_line": 57085,
+        "end_line": 57120,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0026-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 25,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "738先40水晶、739200余用尽。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0738",
+          "claim_kind": "fact",
+          "end_line": 57834,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57769
+        },
+        {
+          "chapter_id": "ch-0739",
+          "claim_kind": "fact",
+          "end_line": 57909,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57835
+        }
+      ],
+      "handling": "不造中途购入或删任一时点；仅保最终耗尽/1级驯成实际动作。",
+      "id": "v03-a-crystals",
+      "status": "unknown"
+    },
+    "title": "738先40水晶、739200余用尽。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0738",
+        "claim_kind": "fact",
+        "end_line": 57834,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57769
+      },
+      {
+        "chapter_id": "ch-0739",
+        "claim_kind": "fact",
+        "end_line": 57909,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57835
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-scope-correction",
+    "rationale": "定向核原文后撤回数量冲突判断：738主问谁带水晶，倾浅明确说“我带了”共40枚，是她个人持有；739说“我们带来的200+枚”用完，是全队合计。不同持有人范围可自然并存，未展示别人的各自数量不等总量矛盾，也无需凭空补一场采购或运送。原误判只留历史，不改冻结源异常。",
+    "later_chapters": [
+      738,
+      739
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0738",
+        "start_line": 57812,
+        "end_line": 57820,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0739",
+        "start_line": 57839,
+        "end_line": 57855,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0026-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 25,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "738先40水晶、739200余用尽。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0738",
+          "claim_kind": "fact",
+          "end_line": 57834,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57769
+        },
+        {
+          "chapter_id": "ch-0739",
+          "claim_kind": "fact",
+          "end_line": 57909,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57835
+        }
+      ],
+      "handling": "不造中途购入或删任一时点；仅保最终耗尽/1级驯成实际动作。",
+      "id": "v03-a-crystals",
+      "status": "unknown"
+    },
+    "title": "不造中途购入或删任一时点",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0738",
+        "claim_kind": "fact",
+        "end_line": 57834,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57769
+      },
+      {
+        "chapter_id": "ch-0739",
+        "claim_kind": "fact",
+        "end_line": 57909,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57835
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "inventory-scope-boundary",
+    "rationale": "倾浅个人40枚与全队200余枚不要求同一个数，因此“不造补购、不删时点”的约束可以落实而且无需保作小说算差。739全队耗尽后再遇一级石虎改杀是实际后果；不反推具体是谁另带160余枚，也不据数量误读否定先前首只驯成。",
+    "later_chapters": [
+      738,
+      739
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0738",
+        "start_line": 57812,
+        "end_line": 57820,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0739",
+        "start_line": 57839,
+        "end_line": 57855,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:26:19.462308+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  }
+]

@@ -1,0 +1,86 @@
+# 禁疗、锁与赤臂合破镇天链
+
+ID: `scn-2c6b22debbc95cf494d44b3a0f9cd9e8` · 版本: 1 · 范围: source-analysis
+
+阳真死降十爆镇天猪戴退，吕游戏死；不逐名全十
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-2c6b22debbc95cf494d44b3a0f9cd9e8",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "重造人物目的、约束、信息渠道与代价后才可迁移；不直接搬用情节、数表或世界设定。",
+    "choice": "召月光死亡凄冷禁治/主锁/猪抓/轩辕破无敌",
+    "claim_kind": "synthesis",
+    "consequence": "阳真死降十爆镇天猪戴退，吕游戏死；不逐名全十",
+    "failure_mode": "若忽略禁疗及抓取仅说主秒百吸，强度账失真",
+    "goal": "夺链并破炼狱核心",
+    "obstacle": "100%吸血可砍弱敌回血、无敌回卷",
+    "state_change": "克制由前所得道具/人员实际分工兑现",
+    "summary": "阳真死降十爆镇天猪戴退，吕游戏死；不逐名全十",
+    "why_it_works": "把辅助角色奖物接回核心难题，主不是万能单挑"
+  },
+  "created_at": "2026-10-25T00:16:11.592943+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1420",
+      "claim_kind": "fact",
+      "end_line": 112562,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 112476
+    },
+    {
+      "chapter_id": "ch-1441",
+      "claim_kind": "fact",
+      "end_line": 114190,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 114110
+    },
+    {
+      "chapter_id": "ch-1442",
+      "claim_kind": "fact",
+      "end_line": 114269,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 114191
+    },
+    {
+      "chapter_id": "ch-1443",
+      "claim_kind": "fact",
+      "end_line": 114368,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 114270
+    },
+    {
+      "chapter_id": "ch-1444",
+      "claim_kind": "fact",
+      "end_line": 114435,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 114369
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol07/scene/sunhunt",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:7",
+    "状态:待审阅"
+  ],
+  "title": "禁疗、锁与赤臂合破镇天链",
+  "updated_at": "2026-10-25T00:16:11.592943+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,57 @@
+# 贼胆｜埃德拉｜E0029
+
+ID: `chr-zeidan-legacy-e0029` · 版本: 1 · 范围: source-analysis
+
+古德人在屠杀老弱后受其牺牲自身施下诅咒，祭坛与幽灵困境有历史原因。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0029",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "高：诅咒因果",
+    "facts": [
+      "古德人在屠杀老弱后受其牺牲自身施下诅咒，祭坛与幽灵困境有历史原因。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0029",
+    "maintenance_depth": "中：被回溯的历史主体",
+    "name": "埃德拉",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0029",
+    "summary": "古德人在屠杀老弱后受其牺牲自身施下诅咒，祭坛与幽灵困境有历史原因。",
+    "user_feedback": null,
+    "worker_part": "part-a"
+  },
+  "created_at": "2026-10-22T17:03:11.947915+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0151",
+      "claim_kind": "fact",
+      "end_line": 6517,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 6463
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0029",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-a"
+  ],
+  "title": "贼胆｜埃德拉｜E0029",
+  "updated_at": "2026-10-22T17:03:11.948913+00:00",
+  "user_notes": ""
+}
+
+```

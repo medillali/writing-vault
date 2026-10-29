@@ -1,0 +1,75 @@
+# 沈落雁｜证词冲突中的行动者
+
+ID: `chr-c18f49b3e88d5ceda73dfde0222fc43e` · 版本: 1 · 范围: source-analysis
+
+仍与七在，爱情宣称有出处但先前胁迫真相未独立解决。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-c18f49b3e88d5ceda73dfde0222fc43e",
+  "asset_type": "character",
+  "content": {
+    "change": "仍与七在，爱情宣称有出处但先前胁迫真相未独立解决。",
+    "decisions": "去月成为七转会契机、安定前劝红用自己作筹码、宴中自述选择。",
+    "directional_relationships": "七后来称早知诱贿并将计，沈宴称真爱；关系不能用主角鄙视一语定义。",
+    "goal": "自述爱七、承认愿承担复魂计划的代价。",
+    "limitations": "被下药说/自愿说/书雇佣猜互冲；不替任一方补调查证据。",
+    "summary": "仍与七在，爱情宣称有出处但先前胁迫真相未独立解决。",
+    "voice_and_evidence_boundary": "人物内心仅在自述/可见动作支持时标明；叙述者评价不自动成为作者或用户评价。"
+  },
+  "created_at": "2026-10-24T20:20:05.121511+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0641",
+      "claim_kind": "fact",
+      "end_line": 69007,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 68890
+    },
+    {
+      "chapter_id": "ch-0642",
+      "claim_kind": "fact",
+      "end_line": 69114,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 69008
+    },
+    {
+      "chapter_id": "ch-0739",
+      "claim_kind": "fact",
+      "end_line": 80990,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 80908
+    },
+    {
+      "chapter_id": "ch-0744",
+      "claim_kind": "fact",
+      "end_line": 81424,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 81327
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol06/character/shenyuluo",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷六:月神殿祭",
+    "待审阅"
+  ],
+  "title": "沈落雁｜证词冲突中的行动者",
+  "updated_at": "2026-10-24T20:20:05.121511+00:00",
+  "user_notes": ""
+}
+
+```

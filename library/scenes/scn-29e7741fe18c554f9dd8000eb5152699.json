@@ -1,0 +1,50 @@
+{
+  "asset_id": "scn-29e7741fe18c554f9dd8000eb5152699",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "有空窗护盾战。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/waner",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/fushui",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yaochi"
+    ],
+    "choice": "减速移动、宠接力，炼狱流星由冰封而非凿打断。",
+    "claim_kind": "inference",
+    "consequence": "37分天晶死/主91，双宠牺牲真实。",
+    "failure_mode": "所有控制等效/主全程硬扛/宠无死。",
+    "goal": "不在盾空时被秒。",
+    "narrative_order": 484,
+    "obstacle": "高伤技能/夜煞CD与凿MISS。",
+    "state_change": "硬T循环→动态减伤。",
+    "summary": "神域破壁留30秒，双宠死亡/林锁争时，主改减伤频率让盾撑55秒。",
+    "why_it_works": "动作降低受击而非凭空增防，失败控制也有证。"
+  },
+  "created_at": "2026-10-25T19:26:00.454807+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0484",
+      "claim_kind": "fact",
+      "end_line": 39887,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 39801
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/scene/shieldwindow",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷2",
+    "待审阅"
+  ],
+  "title": "天晶战的破盾空窗靠走位修复",
+  "updated_at": "2026-10-25T19:26:00.454807+00:00",
+  "user_notes": ""
+}

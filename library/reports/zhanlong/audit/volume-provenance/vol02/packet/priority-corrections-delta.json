@@ -1,0 +1,72 @@
+{
+  "status": "applied-as-priority-reading-overlay-original-notes-unchanged",
+  "reviewer": "primary",
+  "user_approval": false,
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "correction_id": "v02-research-correction-raw0314-two-swords",
+  "original_record": {
+    "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+    "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+    "reader": "/root/zongheng_vol04_full",
+    "volume": 2,
+    "read_at": "2026-10-25T03:22:27.794095+00:00",
+    "unit_id": "ch-0314",
+    "unit_kind": "body",
+    "chapter_id": "ch-0314",
+    "start_line": 26847,
+    "end_line": 26930,
+    "full_text_read": true,
+    "facts": [
+      "L26850—26876霜命骑守城只认持剑，主实令/众答，抱重伤霜走、虎护；普通十药止不了背伤，霜解释剑诅咒灵魂，要青叶泉/七叶草。主带到依她指引采十余株。",
+      "L26878—26909霜同意卸甲/洗敷，主见40cm见骨伤，敷痛哭，霜称为龙城死不悔，主不愿换导师；她不肯轻诺只能尽量不死。敷后实际止血能走，剑名斩华，霜说来历不明请九黎师重铸、希望沾血罪孽末杀自己；主‘NPC命注定不可左右’为其推感非终局。",
+      "L26912—26928霜实向罗林交剑，建议当军前毁诅咒剑还自由使人格完整，称自己灵念探查得；罗答好/命苏克达林备粮肉并持剑出发，未现场毁/军入城。主问霜是否爱罗，她答不知道，称兄长师长敬王愿一切。"
+    ],
+    "inferences": [
+      "回程治疗把军事成功与个体脆弱分开，灵魂诅咒用特殊环境条件解决，不外推现实药疗。",
+      "夺兵目标被霜改释成人格解放而非换主禁锢，罗同意是新约，尚非动作完成；感情问答拒确定恋情。"
+    ],
+    "state_changes": [
+      "霜止血恢复可行但仍重伤，权剑实交罗林；罗已出发未见毁剑/千军入龙城。"
+    ],
+    "unresolved": [
+      "罗林当众毁剑/释放骑兵与部队入住未见；囚女释放仍未述；斩华来源、霜末愿与尽量存活承诺未定。"
+    ],
+    "title": "第310章 你爱他？"
+  },
+  "original_record_sha256": "89290ee49d658f584be1c814c5f9d2a3f7a0ee9bee0ec61e415e9bf5326376bc",
+  "original_notes_file_sha256": "c4e9e53af972f49532daa8f59af934afdd9330ff376a1ac6bc67fe3bc343e9b1",
+  "original_field": "ch-0314/facts/2",
+  "before": "L26912—26928霜实向罗林交剑，建议当军前毁诅咒剑还自由使人格完整，称自己灵念探查得；罗答好/命苏克达林备粮肉并持剑出发，未现场毁/军入城。主问霜是否爱罗，她答不知道，称兄长师长敬王愿一切。",
+  "corrected_reading": "敷药后流霜止血能走；她提起的是自己长剑斩华，说明来历不明、曾请九黎大师重铸刻名，希望最后杀死自己。回龙城时她另外握巴林佩剑/权力之剑，献罗林并建议当噬灵面毁掉诅咒剑还人格；罗林同意、持巴林佩剑出发，但没有现场毁剑。两剑不是一件。",
+  "withdrawn_research_claim": "撤回v02-q-zhanhua：314巴林权剑名斩华/交罗拟毁→406霜再持的假物链；这是研究者误合，不是源文连续性异常。",
+  "retained_open_boundary": "巴林权力之剑毁剑仅建议与罗同意，未见现场毁；不以噬灵后参战代毁剑证。斩华来历不明是霜自说，不另造流转故事。",
+  "evidence": [
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0314",
+      "start_line": 26901,
+      "end_line": 26906,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0314",
+      "start_line": 26912,
+      "end_line": 26923,
+      "claim_kind": "fact"
+    }
+  ],
+  "reread_receipt": {
+    "reader": "/root/zongheng_vol04_full",
+    "method": "read_chapters.py zhanlong 314实际完整BEGIN—END回读",
+    "start_line": 26847,
+    "end_line": 26930,
+    "full_text_read": true,
+    "reason": "primary主审指出两剑误合后必要回读，不增加原覆盖计数。"
+  },
+  "primary_request": "主代理已完整回读314指出误合，要求原笔记不静改另加overlay；本更正不冒用户审批。",
+  "priority": "读本卷原314笔记及研究旧快照时先看此纠正；当前analysis/report/handoff已撤假问，原笔记/旧before保历史。"
+}

@@ -1,0 +1,66 @@
+{
+  "asset_id": "scn-bbb05e4439535235b1568c1db833c0c3",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "适用于目标明确、条件随阶段变化的长篇群像；转换为原创条件，不复用专名/数值/标志场面。",
+    "character_origin_keys": [
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol04/character/luchen",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol04/character/heyi",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol04/character/yixin",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol04/character/qingqing"
+    ],
+    "choice": "陆优先就医再赶机场，长等后读逸留言/青青补报。",
+    "consequence": "当日未见，逸赴温哥华；龙曜图礼物到手，联系未断。",
+    "core_chapter_id": "ch-0696",
+    "core_narrative_order": 696,
+    "failure_mode": "医生稳定报告与陆先猜擦伤分开；不说逸已永久分手。",
+    "goal": "赶逸临别约会。",
+    "obstacle": "何母事故需护送，陆未及时解释，逸等雨中后改航班。",
+    "state_change": "善意救人→另一关系受伤但未彻断。",
+    "summary": "当日未见，逸赴温哥华；龙曜图礼物到手，联系未断。",
+    "why_it_works": "同时间窗的正当目标冲突比误会强行拖延更有代价。"
+  },
+  "created_at": "2026-10-24T23:04:58.877069+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0695",
+      "claim_kind": "fact",
+      "end_line": 58599,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 58512
+    },
+    {
+      "chapter_id": "ch-0696",
+      "claim_kind": "fact",
+      "end_line": 58680,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 58600
+    },
+    {
+      "chapter_id": "ch-0697",
+      "claim_kind": "fact",
+      "end_line": 58759,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 58681
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol04/scene/rain-missed-flight",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:4",
+    "研究:全量九维"
+  ],
+  "title": "救人错约与改班信息差",
+  "updated_at": "2026-10-24T23:04:58.878075+00:00",
+  "user_notes": ""
+}

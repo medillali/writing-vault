@@ -1,0 +1,193 @@
+{
+  "status": "passed",
+  "changed_candidate_ids": [
+    "v04-local-issue_log-037-02"
+  ],
+  "unchanged_records": 59,
+  "historical_original_record_unchanged": true,
+  "reason": "root新发现935系统MVP使暗月升10，独立完整读该原读者notes后补证；不倒写796仍9级。",
+  "before": {
+    "candidate_id": "v04-local-issue_log-037-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "issue_log",
+    "original_index": 36,
+    "atomic_index": 1,
+    "original_record": {
+      "evidence": [
+        {
+          "chapter_id": "ch-0792",
+          "claim_kind": "fact",
+          "end_line": 65980,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 65913
+        }
+      ],
+      "id": "v04-issue-037",
+      "kind": "open",
+      "observation": "792九级、再战三小时、雪银近万正召坐骑；反冲/骑名/十级/最终归属均未在本卷给。",
+      "state": "open",
+      "title": "卷末暗月再守"
+    },
+    "title": "反冲/骑名/十级/最终归属均未在本卷给。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0792",
+        "claim_kind": "fact",
+        "end_line": 65980,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 65913,
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "later-battle-outcome-known-city-upgrade-unmatched",
+    "rationale": "反冲、骑名紫龙骑与系统守胜已在794—796补齐；796仍9级，明月望一月后10只是愿望，其后未匹配明确系统升10回执。多分题部分闭合，不因早卷末未决就全书仍未知，也不把10级当同时完成。",
+    "later_chapters": [
+      794,
+      795,
+      796
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0794",
+        "start_line": 65984,
+        "end_line": 66046,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0795",
+        "start_line": 66047,
+        "end_line": 66127,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0796",
+        "start_line": 66128,
+        "end_line": 66219,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  "after": {
+    "candidate_id": "v04-local-issue_log-037-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "issue_log",
+    "original_index": 36,
+    "atomic_index": 1,
+    "original_record": {
+      "evidence": [
+        {
+          "chapter_id": "ch-0792",
+          "claim_kind": "fact",
+          "end_line": 65980,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 65913
+        }
+      ],
+      "id": "v04-issue-037",
+      "kind": "open",
+      "observation": "792九级、再战三小时、雪银近万正召坐骑；反冲/骑名/十级/最终归属均未在本卷给。",
+      "state": "open",
+      "title": "卷末暗月再守"
+    },
+    "title": "反冲/骑名/十级/最终归属均未在本卷给。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0792",
+        "claim_kind": "fact",
+        "end_line": 65980,
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "start_line": 65913,
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "counterattack-win-and-later-city-ten-confirmed",
+    "rationale": "反冲、骑名紫龙骑与系统守胜已在794—796补齐；796当时仍9级，明月望一月后10只是愿望。935另一次系统MVP奖励暗月规模+1，明确已成全服首10级城，分题均有后证；不把935升级倒写为796守胜同时完成，也不把奖励后的10天建设期臆补进已成结果。",
+    "later_chapters": [
+      794,
+      795,
+      796,
+      935
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0794",
+        "start_line": 65984,
+        "end_line": 66046,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0795",
+        "start_line": 66047,
+        "end_line": 66127,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0796",
+        "start_line": 66128,
+        "end_line": 66219,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0935",
+        "start_line": 77167,
+        "end_line": 77274,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  "outputs": {
+    "adjudications-local-v04-part01.json": "180ce53d01259355e997f1b84d5edd1c304e318c45cdc6898f833ec8ebcb241e",
+    "adjudications-local-v04-part01.md": "2346457f7d5961919963af77ee1430c454e345b793e61b0e524958bdcb8e6548"
+  }
+}

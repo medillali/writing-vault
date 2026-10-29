@@ -1,0 +1,2295 @@
+{
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "issue": "王将与王翦为独立玩家；秦雨表白线归王将，不是王翦的早期恋情。",
+  "primary_approval": {
+    "reviewer": "primary",
+    "status": "approved-for-library-reading-overlay",
+    "user_approval": false,
+    "approved_fields": 38,
+    "original_files_unchanged": true,
+    "proposal_sha256": "584a5d0123215cc224a5deaf38d90c9fa1e6077220c370ebbf096a1077f261e8",
+    "actual_source_verification": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0445",
+        "start_line": 37035,
+        "end_line": 37045,
+        "claim_kind": "fact",
+        "actual_reader": "primary",
+        "full_text_read": false,
+        "unique_coverage_increment": 0
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0499",
+        "start_line": 40949,
+        "end_line": 41036,
+        "claim_kind": "fact",
+        "actual_reader": "primary",
+        "full_text_read": true,
+        "unique_coverage_increment": 0
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0500",
+        "start_line": 41037,
+        "end_line": 41107,
+        "claim_kind": "fact",
+        "actual_reader": "primary",
+        "full_text_read": true,
+        "unique_coverage_increment": 0
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1199",
+        "start_line": 87370,
+        "end_line": 87386,
+        "claim_kind": "fact",
+        "actual_reader": "primary",
+        "full_text_read": false,
+        "unique_coverage_increment": 0
+      }
+    ]
+  },
+  "affected_fields": [
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol02/analysis.json",
+      "sha256": "d891e90151cc5161caf33fd05bf369fe48e693f54a43ea5a0286d9490e80a484",
+      "field_path": [
+        "major_character_states",
+        5,
+        "name"
+      ],
+      "before": "王翦／王将｜卷二阶段",
+      "after": "王翦｜卷二阶段",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol02/analysis.json",
+      "sha256": "d891e90151cc5161caf33fd05bf369fe48e693f54a43ea5a0286d9490e80a484",
+      "field_path": [
+        "major_character_states",
+        5,
+        "summary"
+      ],
+      "before": "斩龙一分领袖/前排骨干，现实陪护秦雨并表白。",
+      "after": "斩龙第一分盟领袖/前排骨干；现实陪秦雨并表白者是独立玩家王将。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol02/analysis.json",
+      "sha256": "d891e90151cc5161caf33fd05bf369fe48e693f54a43ea5a0286d9490e80a484",
+      "field_path": [
+        "major_character_states",
+        5,
+        "relationships"
+      ],
+      "before": "秦雨暂称现在不能，不能写已情侣；一分权限不等兄弟间无利益安排。",
+      "after": "与主、李牧互救并有一分盟权限；王将和王翦分人，500秦雨暂拒王将，不归王翦。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol02/cards.json",
+      "sha256": "45bed13c4dc6d74beb1608eaffd1f43f41689c691eb607bc200549f22a7b91a0",
+      "field_path": [
+        5,
+        "title"
+      ],
+      "before": "王翦／王将｜卷二阶段",
+      "after": "王翦｜卷二阶段",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol02/cards.json",
+      "sha256": "45bed13c4dc6d74beb1608eaffd1f43f41689c691eb607bc200549f22a7b91a0",
+      "field_path": [
+        5,
+        "content",
+        "summary"
+      ],
+      "before": "斩龙一分领袖/前排骨干，现实陪护秦雨并表白。",
+      "after": "斩龙第一分盟领袖/前排骨干；现实陪秦雨并表白者是独立玩家王将。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol02/cards.json",
+      "sha256": "45bed13c4dc6d74beb1608eaffd1f43f41689c691eb607bc200549f22a7b91a0",
+      "field_path": [
+        5,
+        "content",
+        "goal"
+      ],
+      "before": "保同伴、取得战斗位并与若雨发展。",
+      "after": "保同伴、取得战斗位；王将对若雨的情感目标不归本角色。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol02/cards.json",
+      "sha256": "45bed13c4dc6d74beb1608eaffd1f43f41689c691eb607bc200549f22a7b91a0",
+      "field_path": [
+        5,
+        "content",
+        "limitations"
+      ],
+      "before": "多次真死复、掉级；若雨哀悼兄并未答应恋人。",
+      "after": "多次真死复、掉级；若雨暂拒的是独立玩家王将，不是王翦。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol02/cards.json",
+      "sha256": "45bed13c4dc6d74beb1608eaffd1f43f41689c691eb607bc200549f22a7b91a0",
+      "field_path": [
+        5,
+        "content",
+        "decision_pattern"
+      ],
+      "before": "为主吸火/后王战救刺再死，接让装与SS旋；向若雨说爱且愿等。",
+      "after": "为主吸火/后王战救刺再死，接让装与SS旋。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol02/cards.json",
+      "sha256": "45bed13c4dc6d74beb1608eaffd1f43f41689c691eb607bc200549f22a7b91a0",
+      "field_path": [
+        5,
+        "content",
+        "relationship_direction"
+      ],
+      "before": "秦雨暂称现在不能，不能写已情侣；一分权限不等兄弟间无利益安排。",
+      "after": "与主、李牧互救并有一分盟权限；王将和王翦分人，500秦雨暂拒王将，不归王翦。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol02/handoff.md",
+      "sha256": "c111c5df7a678f16e1e8d8356fea1a83431678ac6975bf6f841b0ac72c50b2a8",
+      "field_path": [
+        "line",
+        19
+      ],
+      "before": "- 李牧、王翦/王将、宋寒、冉闵/老K等多次真死并复，别压成零损攻略。玩家李牧/冉闵与古代同名NPC分开。王将500表白/若雨说现在不能，他愿等，未情侣。",
+      "after": "- 李牧、王翦、王将（独立两人）、宋寒、冉闵/老K等多次真死并复，别压成零损攻略。玩家李牧/冉闵与古代同名NPC分开。王将500表白/若雨说现在不能，他愿等，未情侣。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol02/import-result.json",
+      "sha256": "cdb24bcdee8b560a151ebed0fb06dbccb2c506fc377ffad37eadeecacadf084e",
+      "field_path": [
+        "formal_assets",
+        5,
+        "title"
+      ],
+      "before": "王翦／王将｜卷二阶段",
+      "after": "王翦｜卷二阶段",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol02/research_characters.py",
+      "sha256": "1d7d56752d9d8e4652c5bdc5b0d34f92068be9195dce25fec857ab6db57273ba",
+      "field_path": [
+        "line",
+        6
+      ],
+      "before": "char('wangjian','王翦／王将','斩龙一分领袖/前排骨干，现实陪护秦雨并表白。','保同伴、取得战斗位并与若雨发展。','多次真死复、掉级；若雨哀悼兄并未答应恋人。','为主吸火/后王战救刺再死，接让装与SS旋；向若雨说爱且愿等。','卫戍首套/天尘旧膝/寒羽剑及凌烈甲书各阶段取得；末随护送。','秦雨暂称现在不能，不能写已情侣；一分权限不等兄弟间无利益安排。',[407,445,479,481,495,496,499,500])",
+      "after": "char('wangjian','王翦','斩龙第一分盟领袖/前排骨干；现实陪秦雨并表白者是独立玩家王将。','保同伴、取得战斗位；王将对若雨的情感目标不归本角色。','多次真死复、掉级；若雨暂拒的是独立玩家王将，不是王翦。','为主吸火/后王战救刺再死，接让装与SS旋。','卫戍首套/天尘旧膝/寒羽剑及凌烈甲书各阶段取得；末随护送。','与主、李牧互救并有一分盟权限；王将和王翦分人，500秦雨暂拒王将，不归王翦。',[407,445,479,481,495,496,499,500])",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+      "sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+      "field_path": [
+        "imported_assets",
+        5,
+        "title"
+      ],
+      "before": "王翦／王将｜卷二阶段",
+      "after": "王翦｜卷二阶段",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+      "sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+      "field_path": [
+        "major_character_states",
+        5,
+        "name"
+      ],
+      "before": "王翦／王将｜卷二阶段",
+      "after": "王翦｜卷二阶段",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+      "sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+      "field_path": [
+        "major_character_states",
+        5,
+        "relationships"
+      ],
+      "before": "秦雨暂称现在不能，不能写已情侣；一分权限不等兄弟间无利益安排。",
+      "after": "与主、李牧互救并有一分盟权限；王将和王翦分人，500秦雨暂拒王将，不归王翦。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+      "sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+      "field_path": [
+        "major_character_states",
+        5,
+        "summary"
+      ],
+      "before": "斩龙一分领袖/前排骨干，现实陪护秦雨并表白。",
+      "after": "斩龙第一分盟领袖/前排骨干；现实陪秦雨并表白者是独立玩家王将。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol02-asset-map.json",
+      "sha256": "deab855c773f6da6bb24bad4f2a194975be0207d2a233dfd9793738ddefd63a9",
+      "field_path": [
+        5,
+        "title"
+      ],
+      "before": "王翦／王将｜卷二阶段",
+      "after": "王翦｜卷二阶段",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+      "field_path": [
+        5,
+        "content",
+        "decision_pattern"
+      ],
+      "before": "为主吸火/后王战救刺再死，接让装与SS旋；向若雨说爱且愿等。",
+      "after": "为主吸火/后王战救刺再死，接让装与SS旋。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+      "field_path": [
+        5,
+        "content",
+        "goal"
+      ],
+      "before": "保同伴、取得战斗位并与若雨发展。",
+      "after": "保同伴、取得战斗位；王将对若雨的情感目标不归本角色。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+      "field_path": [
+        5,
+        "content",
+        "limitations"
+      ],
+      "before": "多次真死复、掉级；若雨哀悼兄并未答应恋人。",
+      "after": "多次真死复、掉级；若雨暂拒的是独立玩家王将，不是王翦。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+      "field_path": [
+        5,
+        "content",
+        "relationship_direction"
+      ],
+      "before": "秦雨暂称现在不能，不能写已情侣；一分权限不等兄弟间无利益安排。",
+      "after": "与主、李牧互救并有一分盟权限；王将和王翦分人，500秦雨暂拒王将，不归王翦。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+      "field_path": [
+        5,
+        "content",
+        "summary"
+      ],
+      "before": "斩龙一分领袖/前排骨干，现实陪护秦雨并表白。",
+      "after": "斩龙第一分盟领袖/前排骨干；现实陪秦雨并表白者是独立玩家王将。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol02-cards.json",
+      "sha256": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+      "field_path": [
+        5,
+        "title"
+      ],
+      "before": "王翦／王将｜卷二阶段",
+      "after": "王翦｜卷二阶段",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol02-handoff.md",
+      "sha256": "83252ea006170d1d6f1c21fe8f5ae3708ca4481304458c7f23dfb6a0a05d8960",
+      "field_path": [
+        "line",
+        19
+      ],
+      "before": "- 李牧、王翦/王将、宋寒、冉闵/老K等多次真死并复，别压成零损攻略。玩家李牧/冉闵与古代同名NPC分开。王将500表白/若雨说现在不能，他愿等，未情侣。",
+      "after": "- 李牧、王翦、王将（独立两人）、宋寒、冉闵/老K等多次真死并复，别压成零损攻略。玩家李牧/冉闵与古代同名NPC分开。王将500表白/若雨说现在不能，他愿等，未情侣。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/characters/chr-04223464f4115843afe8e06dd1c4f08d.json",
+      "sha256": "bdc29dd2449b2e51659796aa6e212eb3bc760dfcb2a74bdc29d6184c316f1a82",
+      "field_path": [
+        "content",
+        "decision_pattern"
+      ],
+      "before": "为主吸火/后王战救刺再死，接让装与SS旋；向若雨说爱且愿等。",
+      "after": "为主吸火/后王战救刺再死，接让装与SS旋。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/characters/chr-04223464f4115843afe8e06dd1c4f08d.json",
+      "sha256": "bdc29dd2449b2e51659796aa6e212eb3bc760dfcb2a74bdc29d6184c316f1a82",
+      "field_path": [
+        "content",
+        "goal"
+      ],
+      "before": "保同伴、取得战斗位并与若雨发展。",
+      "after": "保同伴、取得战斗位；王将对若雨的情感目标不归本角色。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/characters/chr-04223464f4115843afe8e06dd1c4f08d.json",
+      "sha256": "bdc29dd2449b2e51659796aa6e212eb3bc760dfcb2a74bdc29d6184c316f1a82",
+      "field_path": [
+        "content",
+        "limitations"
+      ],
+      "before": "多次真死复、掉级；若雨哀悼兄并未答应恋人。",
+      "after": "多次真死复、掉级；若雨暂拒的是独立玩家王将，不是王翦。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/characters/chr-04223464f4115843afe8e06dd1c4f08d.json",
+      "sha256": "bdc29dd2449b2e51659796aa6e212eb3bc760dfcb2a74bdc29d6184c316f1a82",
+      "field_path": [
+        "content",
+        "relationship_direction"
+      ],
+      "before": "秦雨暂称现在不能，不能写已情侣；一分权限不等兄弟间无利益安排。",
+      "after": "与主、李牧互救并有一分盟权限；王将和王翦分人，500秦雨暂拒王将，不归王翦。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/characters/chr-04223464f4115843afe8e06dd1c4f08d.json",
+      "sha256": "bdc29dd2449b2e51659796aa6e212eb3bc760dfcb2a74bdc29d6184c316f1a82",
+      "field_path": [
+        "content",
+        "summary"
+      ],
+      "before": "斩龙一分领袖/前排骨干，现实陪护秦雨并表白。",
+      "after": "斩龙第一分盟领袖/前排骨干；现实陪秦雨并表白者是独立玩家王将。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/characters/chr-04223464f4115843afe8e06dd1c4f08d.json",
+      "sha256": "bdc29dd2449b2e51659796aa6e212eb3bc760dfcb2a74bdc29d6184c316f1a82",
+      "field_path": [
+        "title"
+      ],
+      "before": "王翦／王将｜卷二阶段",
+      "after": "王翦｜卷二阶段",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/views/chr-04223464f4115843afe8e06dd1c4f08d.md",
+      "sha256": "4a6ad665229289e1f4897a354158a44441bdb795141b778f21e758faaadbde37",
+      "field_path": [
+        "line",
+        1
+      ],
+      "before": "# 王翦／王将｜卷二阶段",
+      "after": "# 王翦｜卷二阶段",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/views/chr-04223464f4115843afe8e06dd1c4f08d.md",
+      "sha256": "4a6ad665229289e1f4897a354158a44441bdb795141b778f21e758faaadbde37",
+      "field_path": [
+        "line",
+        103
+      ],
+      "before": "  \"title\": \"王翦／王将｜卷二阶段\",",
+      "after": "  \"title\": \"王翦｜卷二阶段\",",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/views/chr-04223464f4115843afe8e06dd1c4f08d.md",
+      "sha256": "4a6ad665229289e1f4897a354158a44441bdb795141b778f21e758faaadbde37",
+      "field_path": [
+        "line",
+        5
+      ],
+      "before": "斩龙一分领袖/前排骨干，现实陪护秦雨并表白。",
+      "after": "斩龙第一分盟领袖/前排骨干；现实陪秦雨并表白者是独立玩家王将。",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/views/chr-04223464f4115843afe8e06dd1c4f08d.md",
+      "sha256": "4a6ad665229289e1f4897a354158a44441bdb795141b778f21e758faaadbde37",
+      "field_path": [
+        "line",
+        15
+      ],
+      "before": "    \"decision_pattern\": \"为主吸火/后王战救刺再死，接让装与SS旋；向若雨说爱且愿等。\",",
+      "after": "    \"decision_pattern\": \"为主吸火/后王战救刺再死，接让装与SS旋。\",",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/views/chr-04223464f4115843afe8e06dd1c4f08d.md",
+      "sha256": "4a6ad665229289e1f4897a354158a44441bdb795141b778f21e758faaadbde37",
+      "field_path": [
+        "line",
+        16
+      ],
+      "before": "    \"goal\": \"保同伴、取得战斗位并与若雨发展。\",",
+      "after": "    \"goal\": \"保同伴、取得战斗位；王将对若雨的情感目标不归本角色。\",",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/views/chr-04223464f4115843afe8e06dd1c4f08d.md",
+      "sha256": "4a6ad665229289e1f4897a354158a44441bdb795141b778f21e758faaadbde37",
+      "field_path": [
+        "line",
+        17
+      ],
+      "before": "    \"limitations\": \"多次真死复、掉级；若雨哀悼兄并未答应恋人。\",",
+      "after": "    \"limitations\": \"多次真死复、掉级；若雨暂拒的是独立玩家王将，不是王翦。\",",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/views/chr-04223464f4115843afe8e06dd1c4f08d.md",
+      "sha256": "4a6ad665229289e1f4897a354158a44441bdb795141b778f21e758faaadbde37",
+      "field_path": [
+        "line",
+        18
+      ],
+      "before": "    \"relationship_direction\": \"秦雨暂称现在不能，不能写已情侣；一分权限不等兄弟间无利益安排。\",",
+      "after": "    \"relationship_direction\": \"与主、李牧互救并有一分盟权限；王将和王翦分人，500秦雨暂拒王将，不归王翦。\",",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/views/chr-04223464f4115843afe8e06dd1c4f08d.md",
+      "sha256": "4a6ad665229289e1f4897a354158a44441bdb795141b778f21e758faaadbde37",
+      "field_path": [
+        "line",
+        20
+      ],
+      "before": "    \"summary\": \"斩龙一分领袖/前排骨干，现实陪护秦雨并表白。\",",
+      "after": "    \"summary\": \"斩龙第一分盟领袖/前排骨干；现实陪秦雨并表白者是独立玩家王将。\",",
+      "issue_id": "wangjiang-and-wangjian-distinct-players",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0445",
+          "start_line": 37035,
+          "end_line": 37045,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0499",
+          "start_line": 40949,
+          "end_line": 41036,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0500",
+          "start_line": 41037,
+          "end_line": 41107,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": true,
+          "unique_coverage_increment": 0
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1199",
+          "start_line": 87370,
+          "end_line": 87386,
+          "claim_kind": "fact",
+          "actual_reader": "primary",
+          "full_text_read": false,
+          "unique_coverage_increment": 0
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0445",
+      "start_line": 37035,
+      "end_line": 37045,
+      "claim_kind": "fact",
+      "actual_reader": "primary",
+      "full_text_read": false,
+      "unique_coverage_increment": 0
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0499",
+      "start_line": 40949,
+      "end_line": 41036,
+      "claim_kind": "fact",
+      "actual_reader": "primary",
+      "full_text_read": true,
+      "unique_coverage_increment": 0
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0500",
+      "start_line": 41037,
+      "end_line": 41107,
+      "claim_kind": "fact",
+      "actual_reader": "primary",
+      "full_text_read": true,
+      "unique_coverage_increment": 0
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-1199",
+      "start_line": 87370,
+      "end_line": 87386,
+      "claim_kind": "fact",
+      "actual_reader": "primary",
+      "full_text_read": false,
+      "unique_coverage_increment": 0
+    }
+  ],
+  "proposal_archive": "priority-corrections-wang-identity-proposal.json",
+  "proposal_sha256": "584a5d0123215cc224a5deaf38d90c9fa1e6077220c370ebbf096a1077f261e8",
+  "reading_precedence": "采用after作为当前解释；分卷原件、历史导入、canonical与阅读副本保原字节及署名。纠正层不等用户审美批准。",
+  "candidate_pools_unchanged": true,
+  "pool_check_boundary": "原终评中相关条目已由提案者实际核查，未发现需改终评；root本次不重审全部两池，也不把原错录倒变成新故事事实。"
+}

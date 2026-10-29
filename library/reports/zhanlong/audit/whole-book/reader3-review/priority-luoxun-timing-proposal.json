@@ -1,0 +1,332 @@
+{
+  "status": "proposal-only-not-applied",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "actual_reviewer": "/root/zongheng_vol03_full",
+  "finding": "死亡事实不变，原部分阶段研究把999逼令提前写为现场自刎；实际自刎在raw1000 L74085。",
+  "actual_source_access": "本轮完整BEGIN-END实读raw999 L74019—74080与raw1000 L74081—74160，无截断；分工首次reader保持。",
+  "affected_fields": [
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol05-analysis.json",
+      "sha256": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+      "field_path": [
+        "major_character_states",
+        37,
+        "stage_change"
+      ],
+      "before": "999现场自刎真死；云自认深爱并报复，被斩后与其合葬。",
+      "after": "999被逼令自尽、1000现场自刎真死；云自认深爱并报复，被斩后与其合葬。",
+      "issue_id": "luoxun-command-999-execution-1000",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0999",
+          "start_line": 74070,
+          "end_line": 74078,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1000",
+          "start_line": 74083,
+          "end_line": 74088,
+          "claim_kind": "fact"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "field_path": [
+        37,
+        "content",
+        "stage_change"
+      ],
+      "before": "999现场自刎真死；云自认深爱并报复，被斩后与其合葬。",
+      "after": "999被逼令自尽、1000现场自刎真死；云自认深爱并报复，被斩后与其合葬。",
+      "issue_id": "luoxun-command-999-execution-1000",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0999",
+          "start_line": 74070,
+          "end_line": 74078,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1000",
+          "start_line": 74083,
+          "end_line": 74088,
+          "claim_kind": "fact"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol05-handoff.md",
+      "sha256": "008ab7e94733b989dbb1ca2fe2d2dc1f948e6b35eb7c69cde468b91e3d4560f2",
+      "field_path": [
+        "line",
+        15
+      ],
+      "before": "洛洵999现场自刎；洛浅林自刺可救、后来持续执政，不能同判死亡。榛1056由王现场斩，云问斩由叙述/1057首身缝运确证，鎏龙1020榛亲斩。徐焰1040活降什长，1067尸证战死；主许统领礼葬未见仪式。韩穿胸后起身/后雷龙活，欧冶啼活，未名红龙骑995死不套青萝。敌BOSS周海984倒/985斩首交任务，不是御林千兵中某个友将。",
+      "after": "洛洵999被逼令自尽、1000现场自刎；洛浅林自刺可救、后来持续执政，不能同判死亡。榛1056由王现场斩，云问斩由叙述/1057首身缝运确证，鎏龙1020榛亲斩。徐焰1040活降什长，1067尸证战死；主许统领礼葬未见仪式。韩穿胸后起身/后雷龙活，欧冶啼活，未名红龙骑995死不套青萝。敌BOSS周海984倒/985斩首交任务，不是御林千兵中某个友将。",
+      "issue_id": "luoxun-command-999-execution-1000",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0999",
+          "start_line": 74070,
+          "end_line": 74078,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1000",
+          "start_line": 74083,
+          "end_line": 74088,
+          "claim_kind": "fact"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol05/analysis.json",
+      "sha256": "48c8e30f459c51d1f44fe8f4923c7daff997a6f10ddf047cf5dfd4edc01d3fb8",
+      "field_path": [
+        "major_character_states",
+        37,
+        "stage_change"
+      ],
+      "before": "999现场自刎真死；云自认深爱并报复，被斩后与其合葬。",
+      "after": "999被逼令自尽、1000现场自刎真死；云自认深爱并报复，被斩后与其合葬。",
+      "issue_id": "luoxun-command-999-execution-1000",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0999",
+          "start_line": 74070,
+          "end_line": 74078,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1000",
+          "start_line": 74083,
+          "end_line": 74088,
+          "claim_kind": "fact"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol05/cards.json",
+      "sha256": "115ed7de9625f036d0f49a68cde2150a2d517e9450d9df124ff3df3f5f7604db",
+      "field_path": [
+        37,
+        "content",
+        "stage_change"
+      ],
+      "before": "999现场自刎真死；云自认深爱并报复，被斩后与其合葬。",
+      "after": "999被逼令自尽、1000现场自刎真死；云自认深爱并报复，被斩后与其合葬。",
+      "issue_id": "luoxun-command-999-execution-1000",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0999",
+          "start_line": 74070,
+          "end_line": 74078,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1000",
+          "start_line": 74083,
+          "end_line": 74088,
+          "claim_kind": "fact"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol05/handoff.md",
+      "sha256": "7d0870447666f7dfa924b0c02e6e07dc22b26523e7323499cb17ee17daf31e24",
+      "field_path": [
+        "line",
+        15
+      ],
+      "before": "洛洵999现场自刎；洛浅林自刺可救、后来持续执政，不能同判死亡。榛1056由王现场斩，云问斩由叙述/1057首身缝运确证，鎏龙1020榛亲斩。徐焰1040活降什长，1067尸证战死；主许统领礼葬未见仪式。韩穿胸后起身/后雷龙活，欧冶啼活，未名红龙骑995死不套青萝。敌BOSS周海984倒/985斩首交任务，不是御林千兵中某个友将。",
+      "after": "洛洵999被逼令自尽、1000现场自刎；洛浅林自刺可救、后来持续执政，不能同判死亡。榛1056由王现场斩，云问斩由叙述/1057首身缝运确证，鎏龙1020榛亲斩。徐焰1040活降什长，1067尸证战死；主许统领礼葬未见仪式。韩穿胸后起身/后雷龙活，欧冶啼活，未名红龙骑995死不套青萝。敌BOSS周海984倒/985斩首交任务，不是御林千兵中某个友将。",
+      "issue_id": "luoxun-command-999-execution-1000",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0999",
+          "start_line": 74070,
+          "end_line": 74078,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1000",
+          "start_line": 74083,
+          "end_line": 74088,
+          "claim_kind": "fact"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/characters/chr-f2d8afcb79655bbb9b0f2314268e7810.json",
+      "sha256": "323ec3bbed905003dc1b56b7199a5829437f5834ee43b859bbdb300f2dde7668",
+      "field_path": [
+        "content",
+        "stage_change"
+      ],
+      "before": "999现场自刎真死；云自认深爱并报复，被斩后与其合葬。",
+      "after": "999被逼令自尽、1000现场自刎真死；云自认深爱并报复，被斩后与其合葬。",
+      "issue_id": "luoxun-command-999-execution-1000",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0999",
+          "start_line": 74070,
+          "end_line": 74078,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1000",
+          "start_line": 74083,
+          "end_line": 74088,
+          "claim_kind": "fact"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/views/chr-f2d8afcb79655bbb9b0f2314268e7810.md",
+      "sha256": "f515c3e15d75106cc171774dfb7bd9d25becb3c3f3a28fd00bea73cdfea0dbce",
+      "field_path": [
+        "line",
+        19
+      ],
+      "before": "    \"stage_change\": \"999现场自刎真死；云自认深爱并报复，被斩后与其合葬。\",",
+      "after": "    \"stage_change\": \"999被逼令自尽、1000现场自刎真死；云自认深爱并报复，被斩后与其合葬。\",",
+      "issue_id": "luoxun-command-999-execution-1000",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0999",
+          "start_line": 74070,
+          "end_line": 74078,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1000",
+          "start_line": 74083,
+          "end_line": 74088,
+          "claim_kind": "fact"
+        }
+      ]
+    }
+  ],
+  "scan_scope": "正式六卷报告根与stage卷5顶层JSON/MD，再核洛洵canonical character/view；定位扫描后逐一完整读取8命中值。未宣全量脚本或所有历史快照语义重读。",
+  "terminal_pool_check": {
+    "pool_sha256": {
+      "historical-question-pool.json": "9bf5a603e2c05a921babcd40f343a7366d48f3eb68c30a71b54d83c505f309dd",
+      "local-question-pool.json": "0e54250c187f1d914ea48df565074e3767075446eaf40e902ff53522910736fb"
+    },
+    "method": "只筛terminal_assessment中999与洛洵/自刎同现，8项逐项读完整rationale/later_chapters/later_evidence；原record不是待涂改终评。",
+    "matched_and_reviewed": [
+      {
+        "pool": "historical-question-pool.json",
+        "candidate_id": "v04-question-v04-q-luoxun",
+        "adjudication_provenance": {
+          "path": "adjudications-history-v04-batch001.json",
+          "sha256": "1bdb7213838ea3004a83ff421ef572134b793594cc3791ec7a92524606cd568e"
+        },
+        "finding": "终评已含1000且叙述分期或999—1000连续范围，没有把仅999当实死回执；不建议改此终评。"
+      },
+      {
+        "pool": "historical-question-pool.json",
+        "candidate_id": "v04-thread-t-royalty",
+        "adjudication_provenance": {
+          "path": "adjudications-history-v04-batch002.json",
+          "sha256": "7aa268790b1e3a594e4deca1259a0a14e515e2816a6a771939e707ba3e0cfd3a"
+        },
+        "finding": "终评已含1000且叙述分期或999—1000连续范围，没有把仅999当实死回执；不建议改此终评。"
+      },
+      {
+        "pool": "local-question-pool.json",
+        "candidate_id": "v04-local-chapter_unresolved_index-0127-01",
+        "adjudication_provenance": {
+          "path": "adjudications-local-v04-batch013.json",
+          "sha256": "d8f0dfe60644dc35b1bb54e11d0d6c1002224ff61558367c76586fa0a6c978b1"
+        },
+        "finding": "终评已含1000且叙述分期或999—1000连续范围，没有把仅999当实死回执；不建议改此终评。"
+      },
+      {
+        "pool": "local-question-pool.json",
+        "candidate_id": "v04-local-chapter_unresolved_index-0128-02",
+        "adjudication_provenance": {
+          "path": "adjudications-local-v04-batch014.json",
+          "sha256": "7f0b5ab0b21f07c0a82cfbdff9b9ac3b9191c463bfa3e27c66ba0481ddef1b07"
+        },
+        "finding": "终评已含1000且叙述分期或999—1000连续范围，没有把仅999当实死回执；不建议改此终评。"
+      },
+      {
+        "pool": "local-question-pool.json",
+        "candidate_id": "v04-local-chapter_unresolved_index-0156-02",
+        "adjudication_provenance": {
+          "path": "adjudications-local-v04-batch016.json",
+          "sha256": "5413b9176d1d44083ac52e126e50b6c372bc0fb196564a0762d07f3a22c7455f"
+        },
+        "finding": "终评已含1000且叙述分期或999—1000连续范围，没有把仅999当实死回执；不建议改此终评。"
+      },
+      {
+        "pool": "local-question-pool.json",
+        "candidate_id": "v04-local-chapter_unresolved_index-0159-01",
+        "adjudication_provenance": {
+          "path": "adjudications-local-v04-batch016.json",
+          "sha256": "5413b9176d1d44083ac52e126e50b6c372bc0fb196564a0762d07f3a22c7455f"
+        },
+        "finding": "终评已含1000且叙述分期或999—1000连续范围，没有把仅999当实死回执；不建议改此终评。"
+      },
+      {
+        "pool": "local-question-pool.json",
+        "candidate_id": "v05-local-chapter_unresolved_index-0028-01",
+        "adjudication_provenance": {
+          "path": "local-v02-v05-review/adjudications-local-v05-batch005.json",
+          "sha256": "049b52f195bfd5a575ea0917a5e42d8f329ac50c3379a83a43373722a14172ed"
+        },
+        "finding": "终评已含1000且叙述分期或999—1000连续范围，没有把仅999当实死回执；不建议改此终评。"
+      },
+      {
+        "pool": "local-question-pool.json",
+        "candidate_id": "v05-local-chapter_unresolved_index-0030-01",
+        "adjudication_provenance": {
+          "path": "local-v02-v05-review/adjudications-local-v05-batch005.json",
+          "sha256": "049b52f195bfd5a575ea0917a5e42d8f329ac50c3379a83a43373722a14172ed"
+        },
+        "finding": "终评已含1000且叙述分期或999—1000连续范围，没有把仅999当实死回执；不建议改此终评。"
+      }
+    ],
+    "affected_candidate_ids": [],
+    "finding": "8个命中终评均已含1000，未发现只用999断现场死而缺1000的已合池终评。"
+  },
+  "original_notes": "原999四栏本来写章末未自刎，不改其原文或reader；1000笔记/原文相符。",
+  "limits": "只修8字段定位，不改变死亡、人物责任、原阶段证据数组与其他值，不写池/正式库/primary账。"
+}

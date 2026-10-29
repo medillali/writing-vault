@@ -1,0 +1,78 @@
+# 贼胆｜马星河｜E0064
+
+ID: `chr-zeidan-legacy-e0064` · 版本: 1 · 范围: source-analysis
+
+加赌6000万，风野隐萧御底牌并示弱，比赛含场外博弈。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0064",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "causal_importance": "萨满战赔率与收益",
+    "desires": [],
+    "facts": [
+      "加赌6000万，风野隐萧御底牌并示弱，比赛含场外博弈。"
+    ],
+    "identity": "矿主、黑赛赌局参与者",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0064",
+    "limits": [],
+    "maintenance_depth": "中",
+    "name": "马星河",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0064",
+    "relationships": [],
+    "summary": "加赌6000万，风野隐萧御底牌并示弱，比赛含场外博弈。",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:12.264284+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0266",
+      "claim_kind": "fact",
+      "end_line": 14153,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14100
+    },
+    {
+      "chapter_id": "ch-0267",
+      "claim_kind": "fact",
+      "end_line": 14220,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14154
+    },
+    {
+      "chapter_id": "ch-0269",
+      "claim_kind": "fact",
+      "end_line": 14373,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14297
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0064",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜马星河｜E0064",
+  "updated_at": "2026-10-22T17:03:12.268282+00:00",
+  "user_notes": ""
+}
+
+```

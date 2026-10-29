@@ -1,0 +1,944 @@
+{
+  "body_units_read": 210,
+  "book": "zhanlong",
+  "cards": {
+    "character": 56,
+    "pattern": 16,
+    "scene": 54
+  },
+  "complete_source_coverage": false,
+  "completed_body_units": 1172,
+  "edges": 44,
+  "evidence_references_checked": 2520,
+  "formal_assets": [
+    {
+      "asset_id": "chr-7ae018b52769585185ef7455816de5b5",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+      "revision": 1,
+      "title": "李逍遥／逍遥自在｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-0b1dda9204235df3b9d03df861e5ce38",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/waner",
+      "revision": 1,
+      "title": "林婉儿／苍瞳｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-dd4d69fd548259c08cf92d916e4d8135",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/dong",
+      "revision": 1,
+      "title": "东城月／苍月｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-0f782b9be1dd5c4c91393338b8a7fffd",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/rou",
+      "revision": 1,
+      "title": "薛柔／抹茶／小妖／为爱追寻｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-068ba99d38fc5776ab1cc78cf11b0750",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/li",
+      "revision": 1,
+      "title": "李牧｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-f27fa14a0bdf510d981061ab76617356",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wang",
+      "revision": 1,
+      "title": "王翦｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-73b417ccd3315e6797b7ccca03bad29c",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/ranplayer",
+      "revision": 1,
+      "title": "冉闵／老K（玩家）｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-99ad6cee6e775e2bbdee6bff88d711e9",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/rannpc",
+      "revision": 1,
+      "title": "冉闵（NPC战魂／炼坊者）｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-169c4c48c38a5b64a5b226ec0070288a",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fox",
+      "revision": 1,
+      "title": "狐狸｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-881446cd3d4e55ca912598163ea477a7",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/song",
+      "revision": 1,
+      "title": "宋寒｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-6849bc16c0415b8d995577fcee49fbcc",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/meng",
+      "revision": 1,
+      "title": "李梦瑶｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-9d7300e6af635357bb5a4d12b8e8f3ee",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaowu",
+      "revision": 1,
+      "title": "林小舞｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-4d7bef33e8c956769059f681b92dcb6c",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fu",
+      "revision": 1,
+      "title": "凫水囡囡｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-1d2bd534ebe1569f95cb6d7993e92f7e",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/qian",
+      "revision": 1,
+      "title": "月倾浅｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-8707ac3a424f5d26afd6b16ea9739606",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yueyao",
+      "revision": 1,
+      "title": "月妖颜｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-e9779d18b42d5db1b08930e514d58e0f",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/paper",
+      "revision": 1,
+      "title": "纸上画魅／小景｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-18501c1f799c5c11861563c849ae5c30",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/milk",
+      "revision": 1,
+      "title": "颜沫／牛奶／六宫粉黛盟主｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-6440535c4dcc55cc928d8fba36c01ab2",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/flower",
+      "revision": 1,
+      "title": "周宁／花枪一壶酒｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-3be0468d5d5b5c9b82035d2a7cee8bcc",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fang",
+      "revision": 1,
+      "title": "方歌阙｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-dfefc18977a45f2ab8f1f7ed868baef4",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wen",
+      "revision": 1,
+      "title": "北辰风／问剑｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-15bbc87dd0f259feac39f37c55a03ecb",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/tang",
+      "revision": 1,
+      "title": "唐琦／唐七公子｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-64433e629ef35c4dbebbb7c4b74f3698",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yelai",
+      "revision": 1,
+      "title": "叶来｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-2fe94fd332605d6c8f51d896626d57bd",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/mu",
+      "revision": 1,
+      "title": "慕萱｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-4c70ca1445b65a3c85f05cd472b461ea",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/shen",
+      "revision": 1,
+      "title": "沈冰｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-13f116687cf05c31914a965ae13ac88c",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/police",
+      "revision": 1,
+      "title": "王信｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-64ce44e171c4510fad7f0a943c6e6015",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/linfather",
+      "revision": 1,
+      "title": "林天南｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-dfc281ba400c5393af21b5bac5e26867",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/lincheng",
+      "revision": 1,
+      "title": "林成｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-4f37ad9d2cbf5d2c8f1697f6ad5daab4",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/beichen",
+      "revision": 1,
+      "title": "北辰观｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-0f8653a4879c56e7a27a8e9b810e8809",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wangze",
+      "revision": 1,
+      "title": "汪泽诚／苍诚｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-d4493d719a0f5dba94ccc8b86405f31d",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/japanese",
+      "revision": 1,
+      "title": "未具名日本天道流武士／A级龙血活口｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-48d6b6a2b0775ab6a7742543f58881ee",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/frost",
+      "revision": 1,
+      "title": "流霜｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-2a46e80df8e35c6fb1d3fa6617b838e1",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/zishu",
+      "revision": 1,
+      "title": "子舒｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-a662082c89c351f695c1b3e26e89d12a",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/lanna",
+      "revision": 1,
+      "title": "兰娜瑟尔｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-ef0350f405c35f9898a4eb27dfcbe5f9",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/oti",
+      "revision": 1,
+      "title": "奥蒂莉亚｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-842581b61cb85801b6a22ce0738385ab",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/qing",
+      "revision": 1,
+      "title": "青萝｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-68481c9d92845803905a79bb30267499",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/mei",
+      "revision": 1,
+      "title": "莓儿／龙神之女｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-d79fbc3e8b425ea78aba65347d0433d3",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/luoqian",
+      "revision": 1,
+      "title": "洛浅林｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-f2d8afcb79655bbb9b0f2314268e7810",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/luoxun",
+      "revision": 1,
+      "title": "洛洵｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-08d267ff930d5c1e96ae82f984f45fb5",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yun",
+      "revision": 1,
+      "title": "云飘飘｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-f7b69f20a3ae5902a3fdcd8b9b0bb95d",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/huoshi",
+      "revision": 1,
+      "title": "火狮榛（原文姓名有乱码异文）｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-8b3864e815b75d04938e3a11782c62a1",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/liujun",
+      "revision": 1,
+      "title": "刘骏｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-6ddcd2904df356258ba0355b7669c390",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/han",
+      "revision": 1,
+      "title": "韩渊｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-3a4b9d659dcc5c21ac29834d0699b267",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiao",
+      "revision": 1,
+      "title": "萧厉｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-2854dae6350f5c0aa3d10c8554875250",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/longxing",
+      "revision": 1,
+      "title": "龙硎｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-b7dbafc386b3542aa501470254298329",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xia",
+      "revision": 1,
+      "title": "夏叶｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-c4ae8912ce8752989a9c7a967859ad6a",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/linqiong",
+      "revision": 1,
+      "title": "林穹｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-804af921b3065fecbb6a4500f8b04269",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/liang",
+      "revision": 1,
+      "title": "梁印｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-3d97b71a070553c486b3ca1d3a5db3ea",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/moda",
+      "revision": 1,
+      "title": "魔山｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-9680e89cd0605bc49c46da3a598a5038",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/clear",
+      "revision": 1,
+      "title": "清眸拓墨｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-c487e9b1f5d950e2aa2f2947a30edd71",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/maple",
+      "revision": 1,
+      "title": "枫林醉｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-dd7ef1131bb35fac9c60ea1ff8a1e94e",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fre",
+      "revision": 1,
+      "title": "弗雷｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-36eaf0a80230530c92963612fcccc15f",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xuyan",
+      "revision": 1,
+      "title": "徐焰｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-1e28e00e24ad55239b1daa9fc256e534",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/lerding",
+      "revision": 1,
+      "title": "雷丁｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-5b0c38e8739558708022b19f5634b14a",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yinge",
+      "revision": 1,
+      "title": "银戈／巨龙之擎｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-f41200fd553656a488c9b6e277d728f5",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/anna",
+      "revision": 1,
+      "title": "安娜／龙骨之痕／冰龙女王｜卷五阶段"
+    },
+    {
+      "asset_id": "chr-3204124233b151f88f0d9fa195f229cb",
+      "asset_type": "character",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/robu",
+      "revision": 1,
+      "title": "罗布｜卷五阶段"
+    },
+    {
+      "asset_id": "scn-66468cd1c70c55afb4724855a97b3456",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/mine",
+      "revision": 1,
+      "title": "矿区利益未随战功归御林"
+    },
+    {
+      "asset_id": "scn-fed69c8aafd7580da6b8cdabb1e79dcc",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/north",
+      "revision": 1,
+      "title": "北迁炮杀与流霜救军"
+    },
+    {
+      "asset_id": "scn-99e173ee5cdf51b380e2ad1f50e4a7eb",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/rescue",
+      "revision": 1,
+      "title": "救龙硎不抹周海死"
+    },
+    {
+      "asset_id": "scn-c7dd0ea7f2855182b66d96e9105303ee",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/molten",
+      "revision": 1,
+      "title": "熔神马由破坏炮场中发现并绝版"
+    },
+    {
+      "asset_id": "scn-0af5886246715451b919b25f68c24d01",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/coup",
+      "revision": 1,
+      "title": "逼洛洵自刎与王仍活"
+    },
+    {
+      "asset_id": "scn-b81bc987a1f558ca92831312cd1b4885",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/arena",
+      "revision": 1,
+      "title": "镜像竞技保主八强止"
+    },
+    {
+      "asset_id": "scn-1b627ed62b245c22900eaf1c195ac8e8",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/gonggong",
+      "revision": 1,
+      "title": "共工百团的插秒与分装"
+    },
+    {
+      "asset_id": "scn-f802017f03615eb19249e1c884813726",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/seven",
+      "revision": 1,
+      "title": "七转御天的条件与副作用"
+    },
+    {
+      "asset_id": "scn-e91740c2580a5b3ab648ba15c6b4d89b",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/prison",
+      "revision": 1,
+      "title": "三百死囚替七千后的边兵账"
+    },
+    {
+      "asset_id": "scn-aa5582ee647e5019bf6998fd7dafa715",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/firelion",
+      "revision": 1,
+      "title": "临海夺城与诱徐的双线"
+    },
+    {
+      "asset_id": "scn-d83fd0d8138653639721379d2add1519",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/lake",
+      "revision": 1,
+      "title": "会猎夜袭到御天破湖"
+    },
+    {
+      "asset_id": "scn-d3e0f2d608605eef98ac66627d9e2373",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/huntaward",
+      "revision": 1,
+      "title": "王者会猎系统胜与两国器去向"
+    },
+    {
+      "asset_id": "scn-f8e9c2a0fcc05be19b4f599ba37d6fc2",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/office",
+      "revision": 1,
+      "title": "正式大执戈与退一米挑战"
+    },
+    {
+      "asset_id": "scn-213dc5d1e9d951d280c5c83846a1e68d",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/emperor",
+      "revision": 1,
+      "title": "皇城胜负不归参与最高光者"
+    },
+    {
+      "asset_id": "scn-e51474491a3553fc91a820ef82410029",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/release",
+      "revision": 1,
+      "title": "放刘骏的威慑回收"
+    },
+    {
+      "asset_id": "scn-c6808dc7f26f59e0b85e6770f38f1e17",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/fan",
+      "revision": 1,
+      "title": "凡书长守的累积破损"
+    },
+    {
+      "asset_id": "scn-3cc4d4b48f005fe5b22289e973f01f3c",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/borrow",
+      "revision": 1,
+      "title": "血渊借兰的危险交易"
+    },
+    {
+      "asset_id": "scn-b4286c67bc9a58a1854cb11b1252fd5e",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/moon",
+      "revision": 1,
+      "title": "取望月却只解一部分凡书围"
+    },
+    {
+      "asset_id": "scn-8db60067b0e1531f8e91535997d6513b",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/forced",
+      "revision": 1,
+      "title": "女神泪解奴又强迁"
+    },
+    {
+      "asset_id": "scn-f570c6a4e5cd56cba99140a243a55772",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/queen",
+      "revision": 1,
+      "title": "月灵定居与菲奥娜臣属协议"
+    },
+    {
+      "asset_id": "scn-d427cfd8fdab5aba9549b126790fcbae",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/lastfan",
+      "revision": 1,
+      "title": "残局反杀仍要盟友死次"
+    },
+    {
+      "asset_id": "scn-b62a20670ae2559ba4dc1afeca105165",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/capital",
+      "revision": 1,
+      "title": "怨拒援到末刻保天翎"
+    },
+    {
+      "asset_id": "scn-4941b8d811c45b63b81278f9d2c63c8f",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/return",
+      "revision": 1,
+      "title": "薛柔回归的多道门"
+    },
+    {
+      "asset_id": "scn-0e8cdf4bba78536b94a53bd5ae5d675c",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/warreward",
+      "revision": 1,
+      "title": "二国战系统恢复分项"
+    },
+    {
+      "asset_id": "scn-cccefe7307885ef3ac2025439d4f9dc5",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/boost",
+      "revision": 1,
+      "title": "武汉A袭主与两个C活擒"
+    },
+    {
+      "asset_id": "scn-cf1736ccc1c35101a366d52f549179a2",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/lan",
+      "revision": 1,
+      "title": "五人救兰的分工与真路"
+    },
+    {
+      "asset_id": "scn-91e2b4c727b458adaef987438698a57f",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/ring",
+      "revision": 1,
+      "title": "百酒与百万金的王戒升级"
+    },
+    {
+      "asset_id": "scn-f173df2e4c075d1ba73eecced29a2606",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/copy",
+      "revision": 1,
+      "title": "旧技随装备复制失效"
+    },
+    {
+      "asset_id": "scn-a21e9ffb63175ddb964aa78d7ca77090",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/regiment",
+      "revision": 1,
+      "title": "百人征召不是全明星都自愿来"
+    },
+    {
+      "asset_id": "scn-1434f6c559e85bc783b8e64e02a64458",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/corpse",
+      "revision": 1,
+      "title": "尸王四命与层间奖励节奏"
+    },
+    {
+      "asset_id": "scn-58a1422e02a855209cbde534d59cbbac",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/stealth",
+      "revision": 1,
+      "title": "阿蜜隐身被小舞短窗口破解"
+    },
+    {
+      "asset_id": "scn-466de6b7ec355d9f8d227f3299416d14",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/thunder",
+      "revision": 1,
+      "title": "雷丁前没有霸王重生"
+    },
+    {
+      "asset_id": "scn-fa6d26c8b8ef58229b648f54af679f3b",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/souls",
+      "revision": 1,
+      "title": "三魂与精晶的分段取材"
+    },
+    {
+      "asset_id": "scn-34263096714b5596858b45317f8ec69f",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/work",
+      "revision": 1,
+      "title": "婉约从工商手续到首单签收"
+    },
+    {
+      "asset_id": "scn-a4baa3a81df5511389722b1adbdce58b",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/freeze",
+      "revision": 1,
+      "title": "九霄剥魂破不侵口约"
+    },
+    {
+      "asset_id": "scn-9b08e1374f8e5d9d8d6eaf1f91d49d55",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/clue",
+      "revision": 1,
+      "title": "公开假搜与壁虎基因的证明范围"
+    },
+    {
+      "asset_id": "scn-2bfd5894e7605f38b898d87fed0ff1ab",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/cannon",
+      "revision": 1,
+      "title": "神威试炮到运弹限制"
+    },
+    {
+      "asset_id": "scn-12dafa3979635604ae47c6b92921840b",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/coast",
+      "revision": 1,
+      "title": "守海岸至三军先撤"
+    },
+    {
+      "asset_id": "scn-6d087a946fe2560b9c03484c4ae61d2c",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/revive",
+      "revision": 1,
+      "title": "首次霸王重生逼枫失无敌后反杀"
+    },
+    {
+      "asset_id": "scn-ee1e6f6013c2580699a305858f641ac5",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/lamp",
+      "revision": 1,
+      "title": "空船识隐与天眼树油灯"
+    },
+    {
+      "asset_id": "scn-0ead9bd9607e5d70a201ef1aed99285c",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/bomb",
+      "revision": 1,
+      "title": "灵花零攻击面板与连锁自爆"
+    },
+    {
+      "asset_id": "scn-6ff9961482f954e1ac13377328af2cb9",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/bones",
+      "revision": 1,
+      "title": "诸神分散混战迫重炮转目标"
+    },
+    {
+      "asset_id": "scn-08267ae133265b5a801e44452ab72feb",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/revenge",
+      "revision": 1,
+      "title": "沧复仇正式胜与一只包订单"
+    },
+    {
+      "asset_id": "scn-f0c311020d5b5dde933ee85801aa352f",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/assault",
+      "revision": 1,
+      "title": "宴后花坊五A与活口"
+    },
+    {
+      "asset_id": "scn-f8a30c38cab75de3b64f067620187f14",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/heart",
+      "revision": 1,
+      "title": "龙心奖励救活子舒女"
+    },
+    {
+      "asset_id": "scn-8929d6afbd945234ae599fbcaaf880b3",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/blood",
+      "revision": 1,
+      "title": "未复神智时成血契"
+    },
+    {
+      "asset_id": "scn-bbb96143c1e653aabdf7125ca2e02b7e",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/training",
+      "revision": 1,
+      "title": "三天阳炎训练有温度与覆盖验收"
+    },
+    {
+      "asset_id": "scn-2fdd103ae4c95e259894d891079371de",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/fly",
+      "revision": 1,
+      "title": "血契后成年试飞才可召骑"
+    },
+    {
+      "asset_id": "scn-6cf8b73b80ee5dae943af057144f6366",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/diplomacy",
+      "revision": 1,
+      "title": "泽渊通商诱惑与附庸代价"
+    },
+    {
+      "asset_id": "scn-eac0481dab2656258d1450d2a4270d7a",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/sea",
+      "revision": 1,
+      "title": "王准远征与港外火炮"
+    },
+    {
+      "asset_id": "scn-42bd0fe41c2e5b3190ddb7e36d22cfbe",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/land",
+      "revision": 1,
+      "title": "弃谷翻山与金鳞分权治理"
+    },
+    {
+      "asset_id": "scn-69fb5537005d5519aaad19f8d3f5f109",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/dragons",
+      "revision": 1,
+      "title": "抢蛋升级为迁族重建龙域"
+    },
+    {
+      "asset_id": "scn-29f5f6624d845854a109b6495340f088",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/kill",
+      "revision": 1,
+      "title": "安娜拒降死/银戈补刀死"
+    },
+    {
+      "asset_id": "scn-6263b55369e2570eac66028043c639c6",
+      "asset_type": "scene",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/auction",
+      "revision": 1,
+      "title": "千万元叫价之前未落槌"
+    },
+    {
+      "asset_id": "pat-2801837be0575336b558ba30674ff273",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/multi-ledger",
+      "revision": 1,
+      "title": "把一次胜利拆成不同主体的账"
+    },
+    {
+      "asset_id": "pat-f1c0bfa9e7415e6d99637d742e2a17b9",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/costed-power",
+      "revision": 1,
+      "title": "强力需材料、运输和适合目标"
+    },
+    {
+      "asset_id": "pat-6115f93ed4ac5dd5a55092544ee4952b",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/mission-aftercare",
+      "revision": 1,
+      "title": "系统闭环与道德后果错开"
+    },
+    {
+      "asset_id": "pat-5ffe29e22ee3587094fb77bad8cf0255",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/return-gates",
+      "revision": 1,
+      "title": "信任重建经过多道可验门"
+    },
+    {
+      "asset_id": "pat-91ab25f51125544fb381fac5eb6173bf",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/material-chain",
+      "revision": 1,
+      "title": "取得与失去构成装备选择"
+    },
+    {
+      "asset_id": "pat-face55ffd8b65361af424c32cc3ba6a6",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/narrow-test",
+      "revision": 1,
+      "title": "把抽象突破拆成小测试"
+    },
+    {
+      "asset_id": "pat-20c3feb385595ed393b5db7c3fed8798",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/window-team",
+      "revision": 1,
+      "title": "让短窗口有明确创造者和接手者"
+    },
+    {
+      "asset_id": "pat-6066baca3dc85b289be2702e609b33b4",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/channel-evidence",
+      "revision": 1,
+      "title": "把怀疑、见证和定责分层"
+    },
+    {
+      "asset_id": "pat-f03fcaa9d6885df6b9614268534e05e5",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/double-threat",
+      "revision": 1,
+      "title": "让既有优势因目标空间失效"
+    },
+    {
+      "asset_id": "pat-e86cd0daff3e51afaac0cf03f4173f8c",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/retreat-choice",
+      "revision": 1,
+      "title": "撤退是目标重新排序"
+    },
+    {
+      "asset_id": "pat-37e09ef35dae5aa19c4ca65a189c9d6f",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/resource-loop",
+      "revision": 1,
+      "title": "资源胜利会改造下一轮敌我关系"
+    },
+    {
+      "asset_id": "pat-b58ec4297fb05ac98f81877a1acb4a67",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/consent-ledger",
+      "revision": 1,
+      "title": "救助获益和主体同意不能互代"
+    },
+    {
+      "asset_id": "pat-84e0d4c431e55f1db9c393be7f15b0b3",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/dialogue-deal",
+      "revision": 1,
+      "title": "对话条款必须有交付链"
+    },
+    {
+      "asset_id": "pat-3824667a825b5e12a874cdf6d5c4467c",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/controlled-unknown",
+      "revision": 1,
+      "title": "只留下缺特定最后一步的悬念"
+    },
+    {
+      "asset_id": "pat-7aaec8ed249f5389a4f51c23d63761c1",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/relief-failure",
+      "revision": 1,
+      "title": "日常小败让强者回到人的尺度"
+    },
+    {
+      "asset_id": "pat-a1178fa2ab175e48a7b723433be1c235",
+      "asset_type": "pattern",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/enemy-motive",
+      "revision": 1,
+      "title": "敌方拒降理由保留镜像责任"
+    }
+  ],
+  "graph_revision": 5,
+  "indexed_segments_read": 211,
+  "next_unit": {
+    "end_line": 86178,
+    "kind": "body",
+    "printed_numbers": [
+      1173
+    ],
+    "segment_ids": [
+      "ch-1181"
+    ],
+    "segments": [
+      {
+        "chapter_id": "ch-1181",
+        "end_line": 86178,
+        "end_offset": 4034197,
+        "start_line": 86114,
+        "start_offset": 4030775,
+        "title": "第1173章 5000W成交价"
+      }
+    ],
+    "start_line": 86114,
+    "title": "第1173章 5000W成交价",
+    "unit_id": "ch-1181"
+  },
+  "nodes": 64,
+  "preflight": "passed",
+  "reading": {
+    "cards": {
+      "character": 239,
+      "pattern": 66,
+      "scene": 242
+    },
+    "checkpoint_indexed_segments": 1179,
+    "formal_volumes": [
+      "vol01",
+      "vol02",
+      "vol03",
+      "vol04",
+      "vol05"
+    ],
+    "markdown_pages": 556,
+    "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+    "source_revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3"
+  },
+  "threads": 19,
+  "volume": 5
+}

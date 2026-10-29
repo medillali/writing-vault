@@ -1,0 +1,523 @@
+{
+  "status": "applied_after_primary_semantic_approval_pending_root_resign_of_new_sha",
+  "applied_at_utc": "2026-10-25T02:39:49.646777+00:00",
+  "primary_authorization": "primary已完整读两项before/proposed_after，批准仅这2项列字段应用；保两批其余各59及全部原字段，要求保存before/merged delta后重签。",
+  "approved_proposal_sha256": "91e893ce09b500c851396fbb8ff2548bb2892adc5300eedd60a2991bc4065e33",
+  "error_class": "derived-research-entity-misattribution-not-novel-source-anomaly",
+  "changed_items": [
+    {
+      "candidate_id": "v06-local-issue_log-001-01",
+      "path": "adjudications-local-v06-part01.json",
+      "changed_fields": [
+        "rationale",
+        "later_chapters",
+        "later_evidence"
+      ],
+      "before": {
+        "candidate_id": "v06-local-issue_log-001-01",
+        "volume": 6,
+        "original_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json",
+        "original_field": "issue_log",
+        "original_index": 0,
+        "atomic_index": 0,
+        "original_record": {
+          "evidence": [
+            {
+              "chapter_id": "ch-1105",
+              "claim_kind": "fact",
+              "end_line": 89503,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 89452
+            },
+            {
+              "chapter_id": "ch-1106",
+              "claim_kind": "fact",
+              "end_line": 89559,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 89504
+            },
+            {
+              "chapter_id": "ch-1168",
+              "claim_kind": "fact",
+              "end_line": 94276,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 94215
+            },
+            {
+              "chapter_id": "ch-1209",
+              "claim_kind": "fact",
+              "end_line": 97183,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 97112
+            },
+            {
+              "chapter_id": "ch-1229",
+              "claim_kind": "fact",
+              "end_line": 98585,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 98521
+            }
+          ],
+          "id": "v06-issue-001",
+          "kind": "identity",
+          "observation": "吻痕荷兰199战/中165刺/美192战，谁中165刺/美192战/巴西212剑分别实体；小蛮第八刺盟与水云魂归盟主独立。",
+          "state": "bounded",
+          "title": "同ID分实体"
+        },
+        "title": "吻痕荷兰199战/中165刺/美192战，谁中165刺/美192战/巴西212剑分别实体",
+        "original_evidence": [
+          {
+            "chapter_id": "ch-1105",
+            "claim_kind": "fact",
+            "end_line": 89503,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 89452,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1106",
+            "claim_kind": "fact",
+            "end_line": 89559,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 89504,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1168",
+            "claim_kind": "fact",
+            "end_line": 94276,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 94215,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1209",
+            "claim_kind": "fact",
+            "end_line": 97183,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 97112,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1229",
+            "claim_kind": "fact",
+            "end_line": 98585,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 98521,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          }
+        ],
+        "status": "answered",
+        "audit_domain": "identity-recording",
+        "rationale": "本项为实体消歧约束：荷兰战士吻痕与中美服同ID、巴西剑士等以服务器/职业/等级分别记录，不能仅凭名字拼成跨服履历；后续保护伞吻痕的行动不回填另服实体。",
+        "later_chapters": [
+          1105,
+          1106,
+          1209,
+          1229
+        ],
+        "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/chapter-notes.jsonl",
+        "later_evidence": [
+          {
+            "chapter_id": "ch-1105",
+            "claim_kind": "fact",
+            "end_line": 89503,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 89452,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1106",
+            "claim_kind": "fact",
+            "end_line": 89559,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 89504,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1209",
+            "claim_kind": "fact",
+            "end_line": 97183,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 97112,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1229",
+            "claim_kind": "fact",
+            "end_line": 98585,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 98521,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          }
+        ],
+        "reviewer": "/root/zongheng_vol05_full",
+        "review_status": "draft_for_primary_review"
+      },
+      "after": {
+        "candidate_id": "v06-local-issue_log-001-01",
+        "volume": 6,
+        "original_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json",
+        "original_field": "issue_log",
+        "original_index": 0,
+        "atomic_index": 0,
+        "original_record": {
+          "evidence": [
+            {
+              "chapter_id": "ch-1105",
+              "claim_kind": "fact",
+              "end_line": 89503,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 89452
+            },
+            {
+              "chapter_id": "ch-1106",
+              "claim_kind": "fact",
+              "end_line": 89559,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 89504
+            },
+            {
+              "chapter_id": "ch-1168",
+              "claim_kind": "fact",
+              "end_line": 94276,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 94215
+            },
+            {
+              "chapter_id": "ch-1209",
+              "claim_kind": "fact",
+              "end_line": 97183,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 97112
+            },
+            {
+              "chapter_id": "ch-1229",
+              "claim_kind": "fact",
+              "end_line": 98585,
+              "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+              "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+              "start_line": 98521
+            }
+          ],
+          "id": "v06-issue-001",
+          "kind": "identity",
+          "observation": "吻痕荷兰199战/中165刺/美192战，谁中165刺/美192战/巴西212剑分别实体；小蛮第八刺盟与水云魂归盟主独立。",
+          "state": "bounded",
+          "title": "同ID分实体"
+        },
+        "title": "吻痕荷兰199战/中165刺/美192战，谁中165刺/美192战/巴西212剑分别实体",
+        "original_evidence": [
+          {
+            "chapter_id": "ch-1105",
+            "claim_kind": "fact",
+            "end_line": 89503,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 89452,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1106",
+            "claim_kind": "fact",
+            "end_line": 89559,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 89504,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1168",
+            "claim_kind": "fact",
+            "end_line": 94276,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 94215,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1209",
+            "claim_kind": "fact",
+            "end_line": 97183,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 97112,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1229",
+            "claim_kind": "fact",
+            "end_line": 98585,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 98521,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          }
+        ],
+        "status": "answered",
+        "audit_domain": "identity-recording",
+        "rationale": "本项answered仅指实体消歧的研究记录约束已落实，并纠正原记录的误读：1098查询的是吻痕三同ID——中国165刺客、美国192战士及无籍199荷兰战士；中国刺客所属【谁与争锋】是公会名。1209另一玩家ID谁与争锋为巴西212剑术宗师、锋芒盟主，不能据1098公会名造出中国165刺客或美国192战士的同ID谁。原title/observation保为历史研究误读，不作新增人物事实；后续保护伞吻痕的行动不回填另服吻痕，巴西谁的盟约独立记录。",
+        "later_chapters": [
+          1098,
+          1105,
+          1106,
+          1209,
+          1229
+        ],
+        "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/chapter-notes.jsonl",
+        "later_evidence": [
+          {
+            "chapter_id": "ch-1105",
+            "claim_kind": "fact",
+            "end_line": 89503,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 89452,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1106",
+            "claim_kind": "fact",
+            "end_line": 89559,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 89504,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1209",
+            "claim_kind": "fact",
+            "end_line": 97183,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 97112,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "chapter_id": "ch-1229",
+            "claim_kind": "fact",
+            "end_line": 98585,
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "start_line": 98521,
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-1098",
+            "start_line": 88904,
+            "end_line": 88909,
+            "claim_kind": "fact",
+            "access_level": "full-raw-chapter-reread-by-this-agent",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/local-v06-review/same-name-identity-source-check.json",
+            "reader": "/root/zongheng_vol05_full"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-1209",
+            "start_line": 97115,
+            "end_line": 97121,
+            "claim_kind": "fact",
+            "access_level": "full-raw-chapter-reread-by-this-agent",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/local-v06-review/same-name-identity-source-check.json",
+            "reader": "/root/zongheng_vol05_full"
+          }
+        ],
+        "reviewer": "/root/zongheng_vol05_full",
+        "review_status": "draft_for_primary_review"
+      },
+      "unchanged_other_items": 59,
+      "original_fields_preserved": true,
+      "status_and_domain_preserved": true,
+      "before_json_sha256": "becef8a797c0e38c8f3d842f91be19c1287a63012fade47ee8f6f68f2e8a76a0",
+      "after_json_sha256": "d845c7a048742400dff9fcc126f7b5658c6a42a8866d56513a0d8f65a62fc9b9",
+      "after_markdown_sha256": "353bdd12f00993e8256d6003ba1bc26880443783fd0d125a346fb419c661fd0d"
+    },
+    {
+      "candidate_id": "v06-local-chapter_unresolved_index-151-02",
+      "path": "adjudications-local-v06-part08.json",
+      "changed_fields": [
+        "rationale",
+        "later_chapters",
+        "later_evidence"
+      ],
+      "before": {
+        "candidate_id": "v06-local-chapter_unresolved_index-151-02",
+        "volume": 6,
+        "original_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json",
+        "original_field": "chapter_unresolved_index",
+        "original_index": 150,
+        "atomic_index": 1,
+        "original_record": {
+          "chapter_id": "ch-1209",
+          "items": [
+            "谁在27有直耿形象/巴西未参为陆叙述资料非本人读取其他服务器史。",
+            "同名人物必须服务器/职业/等级联辨不合。"
+          ],
+          "reader": "zongheng_vol05_full"
+        },
+        "title": "同名人物必须服务器/职业/等级联辨不合。",
+        "original_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-1209",
+            "start_line": 97112,
+            "end_line": 97183,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          }
+        ],
+        "status": "answered",
+        "audit_domain": "same-name-identity-key",
+        "rationale": "谁与争锋按巴西212剑术宗师与中165刺/美192战分别实体，后国际盟约只属于本场巴西谁；不把同ID跨服合并。",
+        "later_chapters": [
+          1209
+        ],
+        "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/chapter-notes.jsonl",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-1209",
+            "start_line": 97112,
+            "end_line": 97183,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          }
+        ],
+        "reviewer": "/root/zongheng_vol05_full",
+        "review_status": "draft_for_primary_review"
+      },
+      "after": {
+        "candidate_id": "v06-local-chapter_unresolved_index-151-02",
+        "volume": 6,
+        "original_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json",
+        "original_field": "chapter_unresolved_index",
+        "original_index": 150,
+        "atomic_index": 1,
+        "original_record": {
+          "chapter_id": "ch-1209",
+          "items": [
+            "谁在27有直耿形象/巴西未参为陆叙述资料非本人读取其他服务器史。",
+            "同名人物必须服务器/职业/等级联辨不合。"
+          ],
+          "reader": "zongheng_vol05_full"
+        },
+        "title": "同名人物必须服务器/职业/等级联辨不合。",
+        "original_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-1209",
+            "start_line": 97112,
+            "end_line": 97183,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          }
+        ],
+        "status": "answered",
+        "audit_domain": "same-name-identity-key",
+        "rationale": "本项answered仅指身份记录约束，不是剧情伏笔回收。1209明确ID谁与争锋是巴西212剑术宗师、飞龙城锋芒盟主；1098中国165刺客、美国192战士及无籍199荷兰战士三个同ID均为吻痕，其中【谁与争锋】是中国吻痕所属公会。此前终评把公会名误当玩家ID并给巴西谁凑出中美同名者，属于研究误配，现明确撤回；本场国际盟约只归巴西谁，不无证增造同ID实体或跨服成长史。",
+        "later_chapters": [
+          1098,
+          1209
+        ],
+        "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/chapter-notes.jsonl",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-1209",
+            "start_line": 97112,
+            "end_line": 97183,
+            "claim_kind": "fact",
+            "access_level": "derived-volume-research",
+            "research_path": "writing-vault/library/reports/tianxia-wushuang/vol06-analysis.json"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-1098",
+            "start_line": 88904,
+            "end_line": 88909,
+            "claim_kind": "fact",
+            "access_level": "full-raw-chapter-reread-by-this-agent",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/local-v06-review/same-name-identity-source-check.json",
+            "reader": "/root/zongheng_vol05_full"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-1209",
+            "start_line": 97115,
+            "end_line": 97121,
+            "claim_kind": "fact",
+            "access_level": "full-raw-chapter-reread-by-this-agent",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/local-v06-review/same-name-identity-source-check.json",
+            "reader": "/root/zongheng_vol05_full"
+          }
+        ],
+        "reviewer": "/root/zongheng_vol05_full",
+        "review_status": "draft_for_primary_review"
+      },
+      "unchanged_other_items": 59,
+      "original_fields_preserved": true,
+      "status_and_domain_preserved": true,
+      "before_json_sha256": "ba23aee642636a2746c4077bd0a9148f2eb18a59766d269a59833fcd7065d7fd",
+      "after_json_sha256": "10749374f6fdc2b98d40326c76b4f915bae8246f82b8b15a1049934a7ed59169",
+      "after_markdown_sha256": "40b810d75436f1c902c97202f0b8cea15add20d73c2a3877f1334215da4f9b10"
+    }
+  ],
+  "unchanged_other_items_per_batch": 59,
+  "unaffected_other_batch_count": 9,
+  "before_manifest": "same-name-identity-before-apply/manifest.json",
+  "reading_log_unchanged_sha256": "38e00c4d28511078f90b880b436dc3409882b3f7b3d5621ac0d0634832ad8a41",
+  "supplemental_source_check": "same-name-identity-source-check.json",
+  "source_check_sha256": "02413ba1d10e8b9cd6f6a54742c0bb2ef4989dfab21d188b08af594028338efb",
+  "revised_scan": "same-name-identity-scan.json",
+  "revised_scan_sha256": "2ea011849a9c4393b6db7d9cfd91208319c3b2b7802c10b79cc0442c583504d6",
+  "no_new_whole_book_reading_claim": true,
+  "regeneration_boundary": "spec/decisions仅同步这两个理由和章列表；不要重跑旧finalize覆盖两条新增直接原文后证。"
+}

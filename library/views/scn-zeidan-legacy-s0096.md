@@ -1,0 +1,66 @@
+# 贼胆｜糖糖拒让赛，却没学第四招｜S0096
+
+ID: `scn-zeidan-legacy-s0096` · 版本: 1 · 范围: source-analysis
+
+糖糖坚持堂堂正正打，缩小成掌大轰炸，萧御回血隐逃；器效结束她承认哥哥没教之后怎么打。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-zeidan-legacy-s0096",
+  "asset_type": "scene",
+  "content": {
+    "choice": "不哭而认输",
+    "facts": [
+      "糖糖坚持堂堂正正打，缩小成掌大轰炸，萧御回血隐逃；器效结束她承认哥哥没教之后怎么打。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/scenes.json#S0096",
+    "name": "糖糖拒让赛，却没学第四招",
+    "prehistory": "十三岁受神佑、有好装又真练过",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "S0096",
+    "result": "反差来自训练边界，不能删掉此前真实能力",
+    "summary": "糖糖坚持堂堂正正打，缩小成掌大轰炸，萧御回血隐逃；器效结束她承认哥哥没教之后怎么打。",
+    "user_feedback": null,
+    "worker_part": "part-d"
+  },
+  "created_at": "2026-10-22T17:03:14.246499+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0443",
+      "claim_kind": "fact",
+      "end_line": 27470,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27405
+    },
+    {
+      "chapter_id": "ch-0444",
+      "claim_kind": "fact",
+      "end_line": 27528,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27471
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/S0096",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-d"
+  ],
+  "title": "贼胆｜糖糖拒让赛，却没学第四招｜S0096",
+  "updated_at": "2026-10-22T17:03:14.249601+00:00",
+  "user_notes": ""
+}
+
+```

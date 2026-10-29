@@ -1,0 +1,130 @@
+{
+  "asset_id": "pat-b2e4300bdbaf5f4883ca13a379975309",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "长篇存在重复数额或多次转手。",
+    "causal_steps": [
+      "记原持者/债权人",
+      "记录转移或支付动作",
+      "把使用和所有权分开",
+      "结算到实际可见终点",
+      "未见回执保持待核"
+    ],
+    "claim_kind": "synthesis",
+    "failure_mode": "同名合物、拿新奖清旧债、获得时便假定所有技能已用。",
+    "originality_transform": "在原创中换成证件/配额/关系义务等资源，保自身账目，不迁移国器属性。",
+    "summary": "钱要分单位/目的/是否收到；器物可暂持、转赠、被夺、实装、终锁定。"
+  },
+  "created_at": "2026-10-25T20:23:25.402857+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-dc33c7cab24f5655b7e2a68d7c1b9106",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-240da417bb6150c79559af038c8c880b",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-723acd93dce7528e93e25006577f1579",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-cebce4d455df5790b57fc19fe9d733e3",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-06df4c54d8225be290e8a181feb23a69",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0532",
+      "claim_kind": "synthesis",
+      "end_line": 43170,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 43094
+    },
+    {
+      "chapter_id": "ch-0548",
+      "claim_kind": "synthesis",
+      "end_line": 44346,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 44274
+    },
+    {
+      "chapter_id": "ch-0583",
+      "claim_kind": "synthesis",
+      "end_line": 46891,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 46804
+    },
+    {
+      "chapter_id": "ch-0589",
+      "claim_kind": "synthesis",
+      "end_line": 47414,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 47349
+    },
+    {
+      "chapter_id": "ch-0601",
+      "claim_kind": "synthesis",
+      "end_line": 48225,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 48149
+    },
+    {
+      "chapter_id": "ch-0693",
+      "claim_kind": "synthesis",
+      "end_line": 54908,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 54848
+    },
+    {
+      "chapter_id": "ch-0743",
+      "claim_kind": "synthesis",
+      "end_line": 58186,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 58114
+    },
+    {
+      "chapter_id": "ch-0749",
+      "claim_kind": "synthesis",
+      "end_line": 58600,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 58537
+    },
+    {
+      "chapter_id": "ch-0750",
+      "claim_kind": "synthesis",
+      "end_line": 58666,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 58601
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/pattern/ledger",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "将承诺、资源、所有权写成状态链",
+  "updated_at": "2026-10-25T20:23:25.402857+00:00",
+  "user_notes": ""
+}

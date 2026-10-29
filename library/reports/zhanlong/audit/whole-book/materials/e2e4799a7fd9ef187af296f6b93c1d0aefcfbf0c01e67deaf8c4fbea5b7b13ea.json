@@ -1,0 +1,117 @@
+{
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "issue": "1192燕请求被荐为长风统领，而不是荐百里宁",
+  "primary_approval": {
+    "reviewer": "primary",
+    "status": "approved-for-library-reading-overlay",
+    "user_approval": false,
+    "approved_fields": 3,
+    "original_files_unchanged": true,
+    "proposal_sha256": "514ca22194d8352bf5854928a4a8f81585c04f9be8773ceb0d987ad883d39684",
+    "actual_verification": [
+      {
+        "chapter_id": "ch-1192",
+        "start_line": 86860,
+        "end_line": 86869,
+        "full_text_read": false
+      },
+      {
+        "chapter_id": "ch-1234",
+        "start_line": 89535,
+        "end_line": 89546,
+        "full_text_read": false
+      },
+      {
+        "chapter_id": "ch-1244",
+        "start_line": 90159,
+        "end_line": 90170,
+        "full_text_read": false
+      }
+    ]
+  },
+  "affected_fields": [
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol06/batch1192-1195.json",
+      "sha256": "bef3e82a26ebfefa4dfd25ffe71856cea6a6e081419ffab60a984c89b98bffc9",
+      "field": "/chapters/0/facts/0",
+      "before": "L86858—86870李请燕援右/燕要下军会荐百里宁长风统领，李口允须功勋达，是交换承诺非实任。斩龙7万多全到/活动无人可调NPC协战无重炮，主先借船不等违禁带战军。",
+      "after": "L86858—86870李请燕援右；燕请求主在下次军团会议举荐燕本人接替年迈百里宁、担任长风军统领，李答允以功勋达到为条件；此时只是举荐承诺，非百里宁被新荐、也非燕已经实任。斩龙7万多全到/活动无人可调NPC协战无重炮，主先借船不等违禁带战军。",
+      "issue_id": "yan-recommendation-subject-object",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1192",
+          "start_line": 86857,
+          "end_line": 86870,
+          "claim_kind": "fact"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol06/chapter-notes.jsonl",
+      "sha256": "390d10740eec447ba04babff420b862a03ab0647d8c92f1ba9e7a6461abac48c",
+      "field": "/jsonl/12/facts/0",
+      "before": "L86858—86870李请燕援右/燕要下军会荐百里宁长风统领，李口允须功勋达，是交换承诺非实任。斩龙7万多全到/活动无人可调NPC协战无重炮，主先借船不等违禁带战军。",
+      "after": "L86858—86870李请燕援右；燕请求主在下次军团会议举荐燕本人接替年迈百里宁、担任长风军统领，李答允以功勋达到为条件；此时只是举荐承诺，非百里宁被新荐、也非燕已经实任。斩龙7万多全到/活动无人可调NPC协战无重炮，主先借船不等违禁带战军。",
+      "issue_id": "yan-recommendation-subject-object",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1192",
+          "start_line": 86857,
+          "end_line": 86870,
+          "claim_kind": "fact"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol06-chapter-notes.jsonl",
+      "sha256": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57",
+      "field": "/jsonl/12/facts/0",
+      "before": "L86858—86870李请燕援右/燕要下军会荐百里宁长风统领，李口允须功勋达，是交换承诺非实任。斩龙7万多全到/活动无人可调NPC协战无重炮，主先借船不等违禁带战军。",
+      "after": "L86858—86870李请燕援右；燕请求主在下次军团会议举荐燕本人接替年迈百里宁、担任长风军统领，李答允以功勋达到为条件；此时只是举荐承诺，非百里宁被新荐、也非燕已经实任。斩龙7万多全到/活动无人可调NPC协战无重炮，主先借船不等违禁带战军。",
+      "issue_id": "yan-recommendation-subject-object",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1192",
+          "start_line": 86857,
+          "end_line": 86870,
+          "claim_kind": "fact"
+        }
+      ]
+    }
+  ],
+  "later_outcome_evidence": [
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-1234",
+      "start_line": 89535,
+      "end_line": 89546,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-1244",
+      "start_line": 90159,
+      "end_line": 90170,
+      "claim_kind": "fact"
+    }
+  ],
+  "later_outcome_scope": "1234主临战任燕代理统领；1244正式升任且佩徽，不倒写1192已任。这两条仅本次实核补充，不改历史阶段。",
+  "proposal_archive": "priority-corrections-yan-recommendation-proposal.json",
+  "proposal_sha256": "514ca22194d8352bf5854928a4a8f81585c04f9be8773ceb0d987ad883d39684",
+  "scan_summary": {
+    "files": 1255,
+    "hits": 6,
+    "true_correction_fields": 3,
+    "other_hits": "1229牺牲师长/燕职位机会的推断正确，不改；扫描未发现analysis/cards/readable/canonical其他百里宁误荐句。"
+  },
+  "reading_precedence": "本层after优于旧误读；原始事实笔记、读者与人工字段均保历史。"
+}

@@ -1,0 +1,51 @@
+{
+  "status": "scope-complete-structural-checks-passed-pending-primary-semantic-review-and-assembler-merge",
+  "scope_total": 995,
+  "by_volume": {
+    "1": {
+      "total": 350,
+      "completed": 350,
+      "groups_reviewed": 90,
+      "next_group": null,
+      "status_counts": {
+        "unknown": 103,
+        "answered": 195,
+        "partial": 39,
+        "unrecovered": 13
+      },
+      "pending_count": 0,
+      "pending_ids": []
+    },
+    "3": {
+      "total": 645,
+      "completed": 645,
+      "groups_reviewed": 360,
+      "next_group": null,
+      "status_counts": {
+        "answered": 354,
+        "unknown": 185,
+        "partial": 97,
+        "unrecovered": 9
+      },
+      "pending_count": 0,
+      "pending_ids": []
+    }
+  },
+  "next_action": "旧local卷5 offset178—556共379，独立local-v05-tail-review；root已完成前177/5批。",
+  "method": "unknown保文本矛盾/证词界限；answered可为否定/失败/已界定来源；unrecovered只特定承诺未见回执；partial逐子项分账，不推作者忘记。",
+  "reader_attribution": "卷1原文primary亲读，本代理派生四栏笔记复核；卷3原文为本代理先前实读，本轮复核笔记不虚增实读覆盖；其他后证来自分工终稿和notes。",
+  "local_identity_at_checkpoint": "1078780bc22b74289f154380601841d3f44ee85ee26097bb05b86fbd159f33bc",
+  "source_notes": [
+    {
+      "volume": 1,
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+      "sha256": "07dcdbeb47552dbc3ddef7089a8583f60774e92cf78d7de44022dc4907f17320"
+    },
+    {
+      "volume": 3,
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+      "sha256": "6b7018d485c077654bf042cfd10b393ef7284a3a413f79d8365a5ca080fe538f"
+    }
+  ],
+  "scope_complete": true
+}

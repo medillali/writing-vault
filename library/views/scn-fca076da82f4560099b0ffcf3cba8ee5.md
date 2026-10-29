@@ -1,0 +1,78 @@
+# 弑君弃城与殿后救回
+
+ID: `scn-fca076da82f4560099b0ffcf3cba8ee5` · 版本: 1 · 范围: source-analysis
+
+欧诺死王座毁冰河荒废，十三斗幽等救回，红枫残活
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-fca076da82f4560099b0ffcf3cba8ee5",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "研究机制须重造人物、规则与利益，不直接搬运本场景。",
+    "choice": "狼拉阴影不杀、多人轮坦欧诺；500殿后、主独回接、25秒无敌撤",
+    "claim_kind": "synthesis",
+    "consequence": "欧诺死王座毁冰河荒废，十三斗幽等救回，红枫残活",
+    "failure_mode": "写独杀满血或杀敌领袖成，忽略数百骑真实死。",
+    "goal": "以一万奇袭废冰河",
+    "obstacle": "225欧诺/220阴影+三路援，己在敌境死不可返",
+    "state_change": "限时目标优于清怪/杀红，胜利须保护留存中坚",
+    "summary": "欧诺死王座毁冰河荒废，十三斗幽等救回，红枫残活",
+    "why_it_works": "君主简介勤治抗魔与玩家复仇并陈以保价值张力"
+  },
+  "created_at": "2026-10-24T23:05:00.490039+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1023",
+      "claim_kind": "fact",
+      "end_line": 83835,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 83771
+    },
+    {
+      "chapter_id": "ch-1024",
+      "claim_kind": "fact",
+      "end_line": 83898,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 83836
+    },
+    {
+      "chapter_id": "ch-1025",
+      "claim_kind": "fact",
+      "end_line": 83968,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 83899
+    },
+    {
+      "chapter_id": "ch-1026",
+      "claim_kind": "fact",
+      "end_line": 84030,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 83969
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol05/scene/icecity",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:5",
+    "状态:待审阅"
+  ],
+  "title": "弑君弃城与殿后救回",
+  "updated_at": "2026-10-24T23:05:00.490039+00:00",
+  "user_notes": ""
+}
+
+```

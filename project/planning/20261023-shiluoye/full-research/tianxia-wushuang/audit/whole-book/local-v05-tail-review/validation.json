@@ -1,0 +1,124 @@
+{
+  "status": "scope-complete-structural-checks-passed-pending-primary-semantic-review-and-assembler-merge",
+  "scope_onebased": [
+    178,
+    556
+  ],
+  "count": 379,
+  "status_counts": {
+    "unknown": 68,
+    "answered": 199,
+    "partial": 101,
+    "unrecovered": 11
+  },
+  "checks": {
+    "exact_ids_offsets": true,
+    "no_overlap_primary_prefix_177": true,
+    "original_records_and_evidence_unchanged": true,
+    "assigned_identity_hash_matches": true,
+    "interfaces_exactly_cover_379_once": true,
+    "seven_parts_equal_aggregate": true,
+    "later_evidence_bounds_revision_reader_verified": true,
+    "all_later_notes_logged_complete_or_reused": true,
+    "eight_notes_sha_unchanged": true
+  },
+  "parts": [
+    {
+      "path": "local-v05-tail-review/adjudications-local-v05-tail-part01.json",
+      "count": 60,
+      "onebased_offsets": [
+        178,
+        237
+      ],
+      "sha256": "6eb1b021676985c4ebcf72fdec3bd729fa11c017a5c332f7a1bdb793ee939e2b"
+    },
+    {
+      "path": "local-v05-tail-review/adjudications-local-v05-tail-part02.json",
+      "count": 60,
+      "onebased_offsets": [
+        238,
+        297
+      ],
+      "sha256": "037bcd4b356948d9623f6d6fbb9bf58064c36db0d50c83fd26352fa7a3c5c282"
+    },
+    {
+      "path": "local-v05-tail-review/adjudications-local-v05-tail-part03.json",
+      "count": 60,
+      "onebased_offsets": [
+        298,
+        357
+      ],
+      "sha256": "720eac0e8959f4c3d2b0f6c0f766f8f7d28304d4787d5a647bd6eaa28fa97ea6"
+    },
+    {
+      "path": "local-v05-tail-review/adjudications-local-v05-tail-part04.json",
+      "count": 60,
+      "onebased_offsets": [
+        358,
+        417
+      ],
+      "sha256": "d3c935fb1b227b47e35cb56db6888de91e47fb0d19e3aacf9d3534e15b98d575"
+    },
+    {
+      "path": "local-v05-tail-review/adjudications-local-v05-tail-part05.json",
+      "count": 60,
+      "onebased_offsets": [
+        418,
+        477
+      ],
+      "sha256": "3ff6648889ea2dfcb0192f288563103416c16535eace75908254333e2f07445f"
+    },
+    {
+      "path": "local-v05-tail-review/adjudications-local-v05-tail-part06.json",
+      "count": 60,
+      "onebased_offsets": [
+        478,
+        537
+      ],
+      "sha256": "496b0a948978fd38e1c34b35e60ab767dac0da97f6b848e2e47ba76c1c8082d4"
+    },
+    {
+      "path": "local-v05-tail-review/adjudications-local-v05-tail-part07.json",
+      "count": 19,
+      "onebased_offsets": [
+        538,
+        556
+      ],
+      "sha256": "a84c895dff7f45c631faff4bfd8a4316d6336e86d2252537ae5aa477f7468d37"
+    }
+  ],
+  "inputs_manifest_sha256": "c5fb9ae0b90be60b5a6fc067f63e6bda2db4e225d44df5319f0e5f91d17137ea",
+  "material_read_log_sha256": "910ec8a534b124c66ba1f3823ea72fe5aa499c308a6d0ab2cfce405054c6e04b",
+  "outputs": [
+    {
+      "path": "adjudications-local-v05-tail.json",
+      "sha256": "e7a57f03bfabc99747fc6027cf357f5fb64ac928e8098cc5f382cb46b7cfdcd0"
+    },
+    {
+      "path": "adjudications-local-v05-tail.md",
+      "sha256": "db9a2e3e56080eb28904894d9407ec4e6e445323540dd51d429059bcf2b8d2a3"
+    },
+    {
+      "path": "handoff.md",
+      "sha256": "77a57f1b866573a11d33e2590023436d677386ed8b5daf345eaa61cb71a190cc"
+    }
+  ],
+  "targeted_point_only": {
+    "chapter_id": "ch-1117",
+    "lines": [
+      90389,
+      90416
+    ],
+    "new_full_text_coverage": false
+  },
+  "later_notes_inheriting_source_metadata_from_book_manifest": [
+    "ch-1265"
+  ],
+  "not_written": [
+    "formal library",
+    "source notes",
+    "main audit pools",
+    "primary prefix directory",
+    "other agents files"
+  ]
+}

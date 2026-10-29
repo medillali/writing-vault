@@ -1,0 +1,682 @@
+{
+  "body_units_read": 135,
+  "book": "tianxia-wushuang",
+  "cards": {
+    "character": 28,
+    "pattern": 10,
+    "scene": 51
+  },
+  "complete_source_coverage": false,
+  "completed_body_units": 225,
+  "edges": 41,
+  "evidence_references_checked": 1775,
+  "formal_assets": [
+    {
+      "asset_id": "chr-f8a1941daf6456929b4a2ecc94a24fb2",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/lu",
+      "revision": 1,
+      "title": "陆尘（折戟沉沙／落尘／Night_chen）｜卷二末"
+    },
+    {
+      "asset_id": "chr-b6407c870f0555fc8fad5ba69692d36a",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/he",
+      "revision": 1,
+      "title": "何艺（EVE／在水一方）｜卷二末"
+    },
+    {
+      "asset_id": "chr-f0f5c07302605601ad0d588c4884172b",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/lin",
+      "revision": 1,
+      "title": "林逸欣（风色幻想）｜卷二末"
+    },
+    {
+      "asset_id": "chr-bf8abdf955c351598c0f1f4635ab3392",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/moon",
+      "revision": 1,
+      "title": "慕容明月｜卷二末"
+    },
+    {
+      "asset_id": "chr-137cd9115df95507a69e4ec89fd061ca",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/bei",
+      "revision": 1,
+      "title": "北冥雪｜卷二末"
+    },
+    {
+      "asset_id": "chr-2be92e6bfca854928b6a685f84ab94ae",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/gui",
+      "revision": 1,
+      "title": "公孙谷（鬼谷子）｜卷二末"
+    },
+    {
+      "asset_id": "chr-36e05921722c5b6a81da39a138ad00a4",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/du",
+      "revision": 1,
+      "title": "杜十三（杰出高手）｜卷二末"
+    },
+    {
+      "asset_id": "chr-8749851eb4ae552faee3ee60ab3c0dce",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/ya",
+      "revision": 1,
+      "title": "马岱（亚麻袋／袋妈妈）｜卷二末"
+    },
+    {
+      "asset_id": "chr-ccc4c456ee275ea98fe9be139f0a2293",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/xin",
+      "revision": 1,
+      "title": "心然（未知生物）｜卷二末"
+    },
+    {
+      "asset_id": "chr-a01247ed1ea15321afa7c3af35fd2fcf",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/xu",
+      "revision": 1,
+      "title": "许阳（烈日）｜卷二末"
+    },
+    {
+      "asset_id": "chr-49f6ab0655ce528f8875cfcf42e4eca7",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/qing",
+      "revision": 1,
+      "title": "孙青青（清清水香）｜卷二末"
+    },
+    {
+      "asset_id": "chr-6d093393bc3b5a9d8793ddb4133efcd1",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/zi",
+      "revision": 1,
+      "title": "紫衣侯｜卷二末"
+    },
+    {
+      "asset_id": "chr-1fa4768b52fd56c88e5337ac1ab74902",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/ba",
+      "revision": 1,
+      "title": "霸天刀｜卷二末"
+    },
+    {
+      "asset_id": "chr-77deb31d05565b42aa0b3573daae3958",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/lie",
+      "revision": 1,
+      "title": "烈风影｜卷二末"
+    },
+    {
+      "asset_id": "chr-07c6fcd04bfe5802bb9e5a6e6b0040c2",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/bi",
+      "revision": 1,
+      "title": "碧空痕｜卷二末"
+    },
+    {
+      "asset_id": "chr-d1ae80ad9f57517ebae0dbab7d5abf13",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/wu",
+      "revision": 1,
+      "title": "神之舞｜卷二末"
+    },
+    {
+      "asset_id": "chr-f8f59948c916586190148b125f44c9e8",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/piao",
+      "revision": 1,
+      "title": "飘云烟｜卷二末"
+    },
+    {
+      "asset_id": "chr-a73c5b024ebf5cb2a2815f524bbba889",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/cheng",
+      "revision": 1,
+      "title": "陈生（真爱一生）｜卷二末"
+    },
+    {
+      "asset_id": "chr-72d7da3d6f58578282528e115716a809",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/chun",
+      "revision": 1,
+      "title": "春泥（狂人工作室）｜卷二末"
+    },
+    {
+      "asset_id": "chr-432220eb76465482ba8eec470df18d15",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/li",
+      "revision": 1,
+      "title": "李乐（乐少）｜卷二末"
+    },
+    {
+      "asset_id": "chr-226620ce9d3b57c69964eb3712a34208",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/long",
+      "revision": 1,
+      "title": "吕超（龙行天下）｜卷二末"
+    },
+    {
+      "asset_id": "chr-ca77f0bfcb2853adb69a9ba3176ef559",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/tomboy",
+      "revision": 1,
+      "title": "青青子衿｜卷二末"
+    },
+    {
+      "asset_id": "chr-d93a527198da524c888be9ce8e5ecd25",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/qin",
+      "revision": 1,
+      "title": "秦韵（紫韵儿）｜卷二末"
+    },
+    {
+      "asset_id": "chr-95d5d32e0378589ab00c6a4a6e38b9fc",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/father",
+      "revision": 1,
+      "title": "陆父（陆木匠，实名未知）｜卷二末"
+    },
+    {
+      "asset_id": "chr-6454f0a2fa0a59768752a5722bb74cfb",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/suren",
+      "revision": 1,
+      "title": "苏伦｜卷二末"
+    },
+    {
+      "asset_id": "chr-36643299ecd55e258a4829c45b9460cc",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/sofia",
+      "revision": 1,
+      "title": "索菲娅｜卷二末"
+    },
+    {
+      "asset_id": "chr-adf283af54565eee90afc881a456d97b",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/xuewei",
+      "revision": 1,
+      "title": "影舞者雪薇｜卷二末"
+    },
+    {
+      "asset_id": "chr-cafbc2f8df9f5683aba4e3a94639d06c",
+      "asset_type": "character",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/character/blai",
+      "revision": 1,
+      "title": "先知布莱｜卷二末"
+    },
+    {
+      "asset_id": "scn-bb974fea96dc51d08bdf47e3fbfecc05",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/skill",
+      "revision": 1,
+      "title": "乾坤书实付与新队友目标"
+    },
+    {
+      "asset_id": "scn-2b146cfb10445a08bf7d4e986ffd7771",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/wolf",
+      "revision": 1,
+      "title": "狼王失血险与五制甲"
+    },
+    {
+      "asset_id": "scn-1737aa1dbe7a510eafbc52ea66cf5803",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/dream",
+      "revision": 1,
+      "title": "醉何夜护并非清醒相认"
+    },
+    {
+      "asset_id": "scn-873b002c86c4583b9ecf657b4ca6cb24",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/arrival",
+      "revision": 1,
+      "title": "五人赴苏互认落尘"
+    },
+    {
+      "asset_id": "scn-630d0085807d5a0ebb872c9a1961156c",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/temple",
+      "revision": 1,
+      "title": "浮雷古刹门槛与雷阵失败"
+    },
+    {
+      "asset_id": "scn-e9f5697673d95e5a822c14d67da72b42",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/trio",
+      "revision": 1,
+      "title": "古刹令给何与三转准备"
+    },
+    {
+      "asset_id": "scn-443b4bd5a28955199433b8dfe289b5f2",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/night",
+      "revision": 1,
+      "title": "竞技网吧与送酒店"
+    },
+    {
+      "asset_id": "scn-a4879736acb250baa22f174ed863c609",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/mine",
+      "revision": 1,
+      "title": "雪银矿争与25金灼热刃"
+    },
+    {
+      "asset_id": "scn-531048fe5fc9527c8718a65106835392",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/suren",
+      "revision": 1,
+      "title": "约定失败与杀师复仇"
+    },
+    {
+      "asset_id": "scn-ca5e7355a8455211aa5ded22a7c59cf0",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/rebirth",
+      "revision": 1,
+      "title": "新SSS妖仆与冰窟试炼"
+    },
+    {
+      "asset_id": "scn-55fa6763dfea56759b061de0c634209a",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/ice",
+      "revision": 1,
+      "title": "先袭侯到借宠护入冰窟"
+    },
+    {
+      "asset_id": "scn-7d01f0437f595303aef942579cd2620e",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/tea",
+      "revision": 1,
+      "title": "林调停侯陆与两队报名"
+    },
+    {
+      "asset_id": "scn-5beeb8a10e6358a68b9198253a6b1f2c",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/blood",
+      "revision": 1,
+      "title": "加入血舞与塔防修罗"
+    },
+    {
+      "asset_id": "scn-cca5de36ec3253bdb3b8b64388d4d479",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/lie-duel",
+      "revision": 1,
+      "title": "跨城烈对决与林反杀"
+    },
+    {
+      "asset_id": "scn-4a2fa8a0a2ae52358a91e22ab545b403",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/hospital",
+      "revision": 1,
+      "title": "身体警报与匿名输血"
+    },
+    {
+      "asset_id": "scn-cc4471ef51645df8b87cbff8a0141a7a",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/prelim",
+      "revision": 1,
+      "title": "病床文字指挥的预赛"
+    },
+    {
+      "asset_id": "scn-ad273d72e5325422a951d23cee0dba8d",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/cross",
+      "revision": 1,
+      "title": "交叉换位与法队双胜"
+    },
+    {
+      "asset_id": "scn-093ae88f5f4d57d4873a92bd4735f59b",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/thunder",
+      "revision": 1,
+      "title": "雷厉先歌策略失败后的改策"
+    },
+    {
+      "asset_id": "scn-bcc3965988115940b623e5a8cb15bd76",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/semis",
+      "revision": 1,
+      "title": "灭神半决与古剑内耗"
+    },
+    {
+      "asset_id": "scn-5f1bd73fc82f5dad8519442ca2080e61",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/final",
+      "revision": 1,
+      "title": "桃园决赛概率复起夺冠"
+    },
+    {
+      "asset_id": "scn-1e16c89362c25481bfeade59c7252842",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/guild",
+      "revision": 1,
+      "title": "血色系统建会与千人目标"
+    },
+    {
+      "asset_id": "scn-1281fd9b244d5e3a9e9ed0458c3b1477",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/wolves",
+      "revision": 1,
+      "title": "狼林176反攻与雪银截援"
+    },
+    {
+      "asset_id": "scn-9bfb8f319b3f5fa2a2789be99a4d350d",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/fire",
+      "revision": 1,
+      "title": "工厂爆炸清醒相认"
+    },
+    {
+      "asset_id": "scn-db6c0192bade5e3ba23a2a9daa9442f3",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/return",
+      "revision": 1,
+      "title": "分盟自治与古剑回归"
+    },
+    {
+      "asset_id": "scn-e6c7931f1eb157238d9467962aac2f72",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/teach",
+      "revision": 1,
+      "title": "教蟹步法与十人对花间"
+    },
+    {
+      "asset_id": "scn-9694e30242a15e6fa29b2cecdd87b1a3",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/expel",
+      "revision": 1,
+      "title": "内战驱逐与30人拒叛"
+    },
+    {
+      "asset_id": "scn-d7288923b4705696b8488e434ccddeee",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/cave",
+      "revision": 1,
+      "title": "毒窟任务三层以雪莲救雪薇"
+    },
+    {
+      "asset_id": "scn-c169e2fae9445b37af9af7d8ed3afb67",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/poison",
+      "revision": 1,
+      "title": "毒鬼四死重战与实际补金"
+    },
+    {
+      "asset_id": "scn-8a1b0492c44d516eb650db2efa6c9901",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/lotus",
+      "revision": 1,
+      "title": "雪莲交付与70新装"
+    },
+    {
+      "asset_id": "scn-88bd4341a60c520d8600bea623eacdbd",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/father-lin",
+      "revision": 1,
+      "title": "晚饭与商场父亲"
+    },
+    {
+      "asset_id": "scn-520d8f5d08e657d1b2303fed8a9cd493",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/pheasant",
+      "revision": 1,
+      "title": "野雉宠争与三狂再杀"
+    },
+    {
+      "asset_id": "scn-d6334a76d34d59bcbc7e1e9641992bc7",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/contract",
+      "revision": 1,
+      "title": "十金雇佣与两王让利"
+    },
+    {
+      "asset_id": "scn-3d5349ac587b57c2a12a3e2fa41a1df6",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/intrusion",
+      "revision": 1,
+      "title": "牛营灭神来袭与桃园介入"
+    },
+    {
+      "asset_id": "scn-8872f0186bc859199fb3128f9a28d76f",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/moonblade",
+      "revision": 1,
+      "title": "德克多人击杀与月华交割"
+    },
+    {
+      "asset_id": "scn-b255205a10ae5918a36436cd93051b81",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/limited",
+      "revision": 1,
+      "title": "灵堂抢十名与何资金短缺"
+    },
+    {
+      "asset_id": "scn-3327aa7cf0e151b0a53c83263b440344",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/alliance",
+      "revision": 1,
+      "title": "敌临盟履约后背刺"
+    },
+    {
+      "asset_id": "scn-4ecb7b08796654ab9b80dbd1f6ae063c",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/mana",
+      "revision": 1,
+      "title": "圣光王回血耗蓝与令交割"
+    },
+    {
+      "asset_id": "scn-769eb893180f5f13bfb4fbdb4b448168",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/inferno",
+      "revision": 1,
+      "title": "炼狱剑靴/回血实用与食材瓶颈"
+    },
+    {
+      "asset_id": "scn-325b0973674552e4b3ccef6a8114305f",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/home",
+      "revision": 1,
+      "title": "返乡见父旧卡已到"
+    },
+    {
+      "asset_id": "scn-0b134946b38f5d63818fc6390a7a094c",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/grave",
+      "revision": 1,
+      "title": "旧访父与400万回收"
+    },
+    {
+      "asset_id": "scn-c5eecd16de3557edb807b861403f2195",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/tractor",
+      "revision": 1,
+      "title": "拖拉机与父资交割"
+    },
+    {
+      "asset_id": "scn-b35cc23fafcb54b4af211071b56ccef0",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/chen-game",
+      "revision": 1,
+      "title": "花间抢王反夹与北认脸"
+    },
+    {
+      "asset_id": "scn-d402fd16af9153f993a35923dddea7f8",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/rumor",
+      "revision": 1,
+      "title": "现实纠缠与猜孕升级"
+    },
+    {
+      "asset_id": "scn-68ec8b70466057159f686fcf89dfe609",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/test",
+      "revision": 1,
+      "title": "检验否孕与对林误会"
+    },
+    {
+      "asset_id": "scn-ccba1f6a5ce258a9a0fda8be7ecd30e2",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/move",
+      "revision": 1,
+      "title": "四人移居与基地任命"
+    },
+    {
+      "asset_id": "scn-8cd15207dc58564e89e8fa6e3bcea421",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/fund",
+      "revision": 1,
+      "title": "25%基金规则与未命名工作室"
+    },
+    {
+      "asset_id": "scn-3d52c45a1e185f08b016809ebfea4674",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/lake",
+      "revision": 1,
+      "title": "追食材改争湖中塔"
+    },
+    {
+      "asset_id": "scn-76b56ca1b1bc5e19af35fdf139851de9",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/turtle",
+      "revision": 1,
+      "title": "甲鱼前置与心自主成长"
+    },
+    {
+      "asset_id": "scn-5176967d1ffb5ce5a7898dcf943e6f94",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/ring-gift",
+      "revision": 1,
+      "title": "补药赠戒与破塔门"
+    },
+    {
+      "asset_id": "scn-fa664ad6e4f15b668d2b45d28972c42a",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/block",
+      "revision": 1,
+      "title": "两次堵入口与蜂死成本"
+    },
+    {
+      "asset_id": "scn-b2d916f6d06e52a19cdf41718469db10",
+      "asset_type": "scene",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/scene/paralysis",
+      "revision": 1,
+      "title": "魔甲/冤魂打断到麻痹戒换装"
+    },
+    {
+      "asset_id": "pat-8dbc702d328d5c34b0c06af90efe75cd",
+      "asset_type": "pattern",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/pattern/conditional-resource",
+      "revision": 1,
+      "title": "把能力强化与新瓶颈相接"
+    },
+    {
+      "asset_id": "pat-5bb940f6fd475f7bb8d3b875dd9380bb",
+      "asset_type": "pattern",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/pattern/partial-outcome",
+      "revision": 1,
+      "title": "把胜负拆成目标、伤亡和责任"
+    },
+    {
+      "asset_id": "pat-d8e02559128156dd99101767102dbab6",
+      "asset_type": "pattern",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/pattern/test-knowledge",
+      "revision": 1,
+      "title": "先保存误认再用证据回收"
+    },
+    {
+      "asset_id": "pat-c272b71f6a4f5f1b878ff1343a1e6e65",
+      "asset_type": "pattern",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/pattern/limited-alliance",
+      "revision": 1,
+      "title": "临时合作按具体行动更新信任"
+    },
+    {
+      "asset_id": "pat-b8ca1429ad285529bc34e7bbb3a61c67",
+      "asset_type": "pattern",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/pattern/resource-team",
+      "revision": 1,
+      "title": "以交割和实用证明团队互投"
+    },
+    {
+      "asset_id": "pat-fd85d423b2da5da681e5c6f9fb998480",
+      "asset_type": "pattern",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/pattern/learning-tactics",
+      "revision": 1,
+      "title": "失败让战术规则变得可信"
+    },
+    {
+      "asset_id": "pat-8cd66c949e9b5f4299710c98caa7b3f3",
+      "asset_type": "pattern",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/pattern/autonomous-companion",
+      "revision": 1,
+      "title": "伙伴自主成长也能拒绝任务"
+    },
+    {
+      "asset_id": "pat-ef061eb6466a5a90badc10c9cf11abff",
+      "asset_type": "pattern",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/pattern/different-organizations",
+      "revision": 1,
+      "title": "居住、组织与职权分轴重组"
+    },
+    {
+      "asset_id": "pat-62fa34cc336859198da2b556ff2488c9",
+      "asset_type": "pattern",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/pattern/domestic-consequence",
+      "revision": 1,
+      "title": "日常物件承接冒险后的关系变化"
+    },
+    {
+      "asset_id": "pat-80fcff7703d05bb0a35a04cb8a3dbf11",
+      "asset_type": "pattern",
+      "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol02/pattern/media-distance",
+      "revision": 1,
+      "title": "把英雄叙述与真实战果分账"
+    }
+  ],
+  "graph_revision": 2,
+  "indexed_segments_read": 136,
+  "next_unit": {
+    "end_line": 21847,
+    "kind": "body",
+    "printed_numbers": [
+      226
+    ],
+    "segment_ids": [
+      "ch-0230"
+    ],
+    "segments": [
+      {
+        "chapter_id": "ch-0230",
+        "end_line": 21847,
+        "end_offset": 795845,
+        "start_line": 21747,
+        "start_offset": 792212,
+        "title": "第二百二十六章 幽魂炼阵"
+      }
+    ],
+    "start_line": 21747,
+    "title": "第二百二十六章 幽魂炼阵",
+    "unit_id": "ch-0230"
+  },
+  "nodes": 59,
+  "preflight": "passed",
+  "reading": {
+    "cards": {
+      "character": 48,
+      "pattern": 19,
+      "scene": 77
+    },
+    "checkpoint_indexed_segments": 228,
+    "formal_volumes": [
+      "vol01",
+      "vol02"
+    ],
+    "markdown_pages": 150,
+    "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+    "source_revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857"
+  },
+  "threads": 13,
+  "volume": 2
+}

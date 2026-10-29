@@ -1,0 +1,43 @@
+{
+  "book": "zongheng-tianxia",
+  "source_id": "src-2a13958390274509b2af019f6b12d981",
+  "policy": "只索引已审人物条目与明确姓名层级，不以同名字面或称号自动合并正式人物卡。",
+  "subjects": {
+    "character-arc-01": {
+      "expected_name": "丁舒升／轻狂书生",
+      "entity_scope": "one-audited-person-with-layered-names",
+      "names": [
+        {"name": "丁舒升", "level": "real-name"},
+        {"name": "轻狂书生", "level": "game-name"},
+        {"name": "丁书生", "level": "misnomer-or-address", "separate_entity": false}
+      ],
+      "boundary": "丁书生为误称或称呼，不另建人物；原名证据沿用人物弧及聚焦审计。"
+    },
+    "character-arc-05": {
+      "expected_name": "许冰／冰茶",
+      "entity_scope": "one-audited-person-with-layered-names",
+      "names": [{"name": "许冰", "level": "real-name"}, {"name": "冰茶", "level": "game-name"}]
+    },
+    "character-arc-06": {
+      "expected_name": "林香／稻花香",
+      "entity_scope": "one-audited-person-with-layered-names",
+      "names": [{"name": "林香", "level": "real-name"}, {"name": "稻花香", "level": "game-name"}]
+    },
+    "character-arc-29": {
+      "expected_name": "龙神（称号／实体未合案）",
+      "entity_scope": "unresolved-title-and-entity-group",
+      "names": [{"name": "龙神", "level": "title-with-unresolved-entity-reference"}],
+      "do_not_merge_with": ["character-arc-28"],
+      "boundary": "物品史的龙神、血吼自述的旧黄金龙神及其新龙神主张分别保留来源层；不能据称号判同体，也不据差异自动补造两代。血吼人物条目不与本组自动合并。"
+    },
+    "character-arc-45": {
+      "expected_name": "勇敢的心／艾妮",
+      "entity_scope": "one-audited-person-with-layered-names",
+      "names": [{"name": "勇敢的心", "level": "game-name"}, {"name": "艾妮", "level": "real-name"}]
+    }
+  },
+  "collision_guards": [
+    {"surface_name": "邱华", "context": "CGL同名", "auto_merge": false,
+     "boundary": "同名字面不足以确认同一实体；本索引不据姓名合并CGL场景与其他语境中的人物，也不凭本条新造人物卡。"}
+  ]
+}

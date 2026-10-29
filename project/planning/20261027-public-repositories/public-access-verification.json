@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-26T17:37:06.939972+00:00",
+  "git_credentials_disabled": true,
+  "git_global_and_system_config_disabled": true,
+  "git_push_performed": false,
+  "repositories": [
+    {
+      "nameWithOwner": "medillali/distill-novels",
+      "url": "https://github.com/medillali/distill-novels",
+      "visibility": "PUBLIC",
+      "anonymous_git_read_passed": false,
+      "remote_refs": {},
+      "git_exit_code": 128,
+      "git_error": "fatal: unable to access 'https://github.com/medillali/distill-novels.git/': Recv failure: Connection was reset"
+    },
+    {
+      "nameWithOwner": "medillali/writing-vault",
+      "url": "https://github.com/medillali/writing-vault",
+      "visibility": "PUBLIC",
+      "anonymous_git_read_passed": false,
+      "remote_refs": {},
+      "git_exit_code": 128,
+      "git_error": "fatal: unable to access 'https://github.com/medillali/writing-vault.git/': Failed to connect to github.com:443 after 21077 ms: Could not connect to server"
+    }
+  ],
+  "web_verification_notes": "两仓库CLI可见性回读均为PUBLIC。匿名API被限流；工具库网页返回500，研究库匿名网页可访问并显示Public；本次匿名Git读取因网络连接错误未通过，详见各仓库条目。"
+}

@@ -1,0 +1,57 @@
+{
+  "asset_id": "scn-91e2b4c727b458adaef987438698a57f",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "商谈有可替代的特殊对价，朋友拥有取得稀缺物的技能，但仍要亲交后升级。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/rannpc",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/flower"
+    ],
+    "choice": "谈对价并找朋友真实供货",
+    "claim_kind": "inference",
+    "consequence": "王域等新面板实得",
+    "failure_mode": "花枪无偿不等无劳动，百酒交不代将来所有军需到货。",
+    "goal": "升级王戒",
+    "narrative_order": 1109,
+    "obstacle": "夸大开价/酒资源",
+    "state_change": "许诺转交付与可用技能",
+    "summary": "冉闵开价十亿金，主改百坛仙醉加百万；花枪次早实交百瓶再升五星。",
+    "why_it_works": "交易每一物具体收讫才能闭。"
+  },
+  "created_at": "2026-10-25T21:08:43.304697+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1108",
+      "claim_kind": "fact",
+      "end_line": 81276,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 81182
+    },
+    {
+      "chapter_id": "ch-1109",
+      "claim_kind": "fact",
+      "end_line": 81360,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 81277
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/ring",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "百酒与百万金的王戒升级",
+  "updated_at": "2026-10-25T21:08:43.304697+00:00",
+  "user_notes": ""
+}

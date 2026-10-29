@@ -4,3 +4,10 @@ private-sources/
 .journal.json
 .write-*
 *.local.json
+
+# 运行缓存和平台临时文件
+__pycache__/
+*.py[cod]
+.verify/
+.DS_Store
+Thumbs.db

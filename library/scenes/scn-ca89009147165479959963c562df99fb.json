@@ -1,0 +1,60 @@
+{
+  "asset_id": "scn-ca89009147165479959963c562df99fb",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "敌人能复制熟悉人物的能力，而原人物仍能与守军通信时，可用本体对自身技能的知识帮助识别时机，让熟悉感既制造威胁也提供解法。",
+    "arc": "dragon-war",
+    "choice": "真方说明技能CD/主计时杀影",
+    "consequence": "影像袭杀仍是真敌，问本体复活参战不是叛变。",
+    "failure_mode": "不能因复制体杀了队友就判原人物叛变，也不能默认复制体冷却与本体相同；可迁移时需要给出复制规则与信息为何可信。",
+    "goal": "守龙城并区分敌方影像",
+    "narrative_order": 1240,
+    "obstacle": "炼魂百万/熟面孔误导",
+    "stage_status": "resolved",
+    "state_change": "影像袭杀仍是真敌，问本体复活参战不是叛变。",
+    "summary": "影像袭杀仍是真敌，问本体复活参战不是叛变。",
+    "why_it_works": "同形知识差需要外部通信与时间窗口校验。"
+  },
+  "created_at": "2026-10-25T21:09:00.670841+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1240",
+      "claim_kind": "fact",
+      "end_line": 89961,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 89895
+    },
+    {
+      "chapter_id": "ch-1241",
+      "claim_kind": "fact",
+      "end_line": 90011,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 89962
+    },
+    {
+      "chapter_id": "ch-1242",
+      "claim_kind": "fact",
+      "end_line": 90068,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 90012
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/scene/soul-army",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷:6"
+  ],
+  "title": "熟人炼魂影与真问剑并存",
+  "updated_at": "2026-10-25T21:09:00.670841+00:00",
+  "user_notes": ""
+}

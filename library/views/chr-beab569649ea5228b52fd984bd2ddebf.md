@@ -1,0 +1,103 @@
+# 墨家云辰（NPC灵念）｜卷一阶段
+
+ID: `chr-beab569649ea5228b52fd984bd2ddebf` · 版本: 1 · 范围: source-analysis
+
+龙庙真正受囚的墨家传人，230地底灵念指导，233以机关蜈蚣携魂交卷消散。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-beab569649ea5228b52fd984bd2ddebf",
+  "asset_type": "character",
+  "content": {
+    "capability": "辨双星阵眼、控制机关神虎援、交墨家五卷。",
+    "claim_kind": "inference",
+    "conflict": "技艺可留而身体不复，不能以传艺成功写本人复活。",
+    "decision_pattern": "用知识交换解救，认可虎追主。",
+    "goal": "脱困/传承并救仍困局的人。",
+    "limitations": "明说不能复身，必须主破柱施行才援；后技能受符/等级限制。",
+    "need": "接受不可复身的终局。",
+    "relationships": "主传承关系；假老人为寒岩伪装不认云辰变坏。",
+    "stage_change": "233真灵体交五卷后魂机关消散，本卷不活留城。",
+    "summary": "龙庙真正受囚的墨家传人，230地底灵念指导，233以机关蜈蚣携魂交卷消散。",
+    "valid_at": "卷一raw0002—0251，非终点人物总评"
+  },
+  "created_at": "2026-10-25T19:20:31.174821+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0214",
+      "claim_kind": "fact",
+      "end_line": 18934,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 18859
+    },
+    {
+      "chapter_id": "ch-0228",
+      "claim_kind": "fact",
+      "end_line": 20135,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 20050
+    },
+    {
+      "chapter_id": "ch-0229",
+      "claim_kind": "fact",
+      "end_line": 20225,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 20136
+    },
+    {
+      "chapter_id": "ch-0230",
+      "claim_kind": "fact",
+      "end_line": 20315,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 20226
+    },
+    {
+      "chapter_id": "ch-0231",
+      "claim_kind": "fact",
+      "end_line": 20394,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 20316
+    },
+    {
+      "chapter_id": "ch-0232",
+      "claim_kind": "fact",
+      "end_line": 20494,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 20395
+    },
+    {
+      "chapter_id": "ch-0233",
+      "claim_kind": "fact",
+      "end_line": 20557,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 20495
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/yunchen",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷1",
+    "待审阅"
+  ],
+  "title": "墨家云辰（NPC灵念）｜卷一阶段",
+  "updated_at": "2026-10-25T19:20:31.174821+00:00",
+  "user_notes": ""
+}
+
+```

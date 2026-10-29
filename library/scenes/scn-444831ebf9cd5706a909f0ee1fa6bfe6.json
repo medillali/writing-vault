@@ -1,0 +1,75 @@
+{
+  "asset_id": "scn-444831ebf9cd5706a909f0ee1fa6bfe6",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "须预置NPC能力/入场理由和可中断敌招时窗。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/frost",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/qingluo",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/otilia",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/rolin",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/zishu"
+    ],
+    "choice": "流霜拒比试旧关系/毁剑，奥抓短窗直接杀。",
+    "claim_kind": "inference",
+    "consequence": "盖死但玩家无装备，罗林仍活逃。",
+    "failure_mode": "不能将盖文死亡归主尾；羽平坠仍活不判战死，毁剑不变主持物。",
+    "goal": "破敌重火/活过君王攻势。",
+    "obstacle": "两君压制、群杀禁咒和守旧情框。",
+    "state_change": "救场和抢宝双重结果。",
+    "summary": "主登城两君打落活退，十五龙毁灵魂炮/羽平重伤；流霜夺毁绝望，盖文禁咒被奥斩首夺紫风。",
+    "why_it_works": "把神器从奖品转成伤害媒介，另一自利盟友给必要但不免费救。"
+  },
+  "created_at": "2026-10-25T21:08:35.509917+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0828",
+      "claim_kind": "fact",
+      "end_line": 63569,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 63499
+    },
+    {
+      "chapter_id": "ch-0829",
+      "claim_kind": "fact",
+      "end_line": 63618,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 63570
+    },
+    {
+      "chapter_id": "ch-0830",
+      "claim_kind": "fact",
+      "end_line": 63680,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 63619
+    },
+    {
+      "chapter_id": "ch-0831",
+      "claim_kind": "fact",
+      "end_line": 63729,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 63681
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/scene/despair",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷4",
+    "待审阅"
+  ],
+  "title": "绝望毁灭与盖文收益落空",
+  "updated_at": "2026-10-25T21:08:35.509917+00:00",
+  "user_notes": ""
+}

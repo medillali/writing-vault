@@ -1,0 +1,2817 @@
+{
+  "schema_version": 1,
+  "scope": "截至第7集的阶段问题账本；第8集及以后未用于判定，不代表全书最终答案",
+  "completion": "complete_as_of_volume_7",
+  "coverage": {
+    "question_records_read": 62,
+    "questions_adjudicated": 62,
+    "questions_pending": 0,
+    "revision_records_read": 25,
+    "cross_audit_read": "cross-audit-01-06.md",
+    "source_reread_this_task": 3,
+    "source_reread_lines": 54,
+    "source_reread_ranges": [
+      {
+        "start_line": 3103,
+        "end_line": 3120
+      },
+      {
+        "start_line": 5302,
+        "end_line": 5322
+      },
+      {
+        "start_line": 5323,
+        "end_line": 5337
+      }
+    ],
+    "reports_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "as_of_volume": 7
+  },
+  "policy": "保留62条原问法，完全重复检查后无删除；相似问题分别保留。状态answered仅指该问法的已证子范围，partial保留未解部分，open表示核心问题无答案，text-uncertain表示文本异文、口径张力或缺漏尚无可靠订正。latest_volume为answer_evidence最新支持证据所在卷次，不是审查完成卷次；未有后续答案时可沿用原问题证据。",
+  "entries": [
+    {
+      "origin_volume": 1,
+      "source_question_index": 1,
+      "question": "黑龙独有智慧和黑二自发挡招是否同源？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "start_line": 129,
+          "end_line": 131
+        },
+        {
+          "chapter_id": "ch-0011",
+          "start_line": 1141,
+          "end_line": 1144
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v01-01",
+      "origin_volumes": [
+        1
+      ],
+      "status": "open",
+      "answer": "第2集已确认黑二能主动称呼、解释和表达感受；第6集又确认黑大觉醒，但这些是意识出现的事实。斯科特仍不能解释黑龙及其孩子的异常，独有智慧与早期护主是否同源没有答案。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "start_line": 2273,
+          "end_line": 2295
+        },
+        {
+          "chapter_id": "ch-0065",
+          "start_line": 8003,
+          "end_line": 8027
+        }
+      ],
+      "revisit_focus": "核对黑龙智慧起源、黑二护主与各孩子觉醒是否获得共同机制解释。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 1,
+      "source_question_index": 2,
+      "question": "十子为何未掌握黄金骷髅基本技能，成熟条件是什么？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "start_line": 249,
+          "end_line": 253
+        },
+        {
+          "chapter_id": "ch-0006",
+          "start_line": 313,
+          "end_line": 313
+        },
+        {
+          "chapter_id": "ch-0011",
+          "start_line": 1116,
+          "end_line": 1117
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v01-02",
+      "origin_volumes": [
+        1
+      ],
+      "status": "partial",
+      "answer": "第2集黑大已有死神镰刀不完全体，第6集十孩均获武装，但只有黑大、黑二有独立意识。灵与魂框架解释了力量和意识可以不同步；最初缺技能的原因、全部成熟条件及皇者驾临仍未明确。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "start_line": 2294,
+          "end_line": 2308
+        },
+        {
+          "chapter_id": "ch-0065",
+          "start_line": 8003,
+          "end_line": 8027
+        },
+        {
+          "chapter_id": "ch-0066",
+          "start_line": 8143,
+          "end_line": 8162
+        }
+      ],
+      "revisit_focus": "分别核对十孩意识、王者技能与武装的完成条件，勿把装备齐全等同全员成熟。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 1,
+      "source_question_index": 3,
+      "question": "凝心后无法继续吸收普通残魂壮大，与后来吞噬智慧灵魂如何兼容？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "start_line": 94,
+          "end_line": 95
+        },
+        {
+          "chapter_id": "ch-0006",
+          "start_line": 299,
+          "end_line": 306
+        },
+        {
+          "chapter_id": "ch-0011",
+          "start_line": 1098,
+          "end_line": 1102
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v01-03",
+      "origin_volumes": [
+        1
+      ],
+      "status": "partial",
+      "answer": "第3集吸魂再次精进、第5集积累后转紫，确认早期吸收无益不是黑龙全部成长经历的永久上限；第6集区分灵与魂并把吸取生命尸体能量列为异常。普通残魂、智慧灵魂和生命遗体能量的收益差别及凝心后再成长的完整机制仍无解释。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0030",
+          "start_line": 3714,
+          "end_line": 3717
+        },
+        {
+          "chapter_id": "ch-0055",
+          "start_line": 6837,
+          "end_line": 6842
+        },
+        {
+          "chapter_id": "ch-0065",
+          "start_line": 8009,
+          "end_line": 8027
+        }
+      ],
+      "revisit_focus": "核对吸收对象、能量与意识成分、恢复与提升上限是否有明确区分。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "id": "q-v01-04",
+      "origin_volume": 1,
+      "origin_volumes": [
+        1
+      ],
+      "question": "救赎之魂的实际效果及可获得路径是什么？",
+      "status": "partial",
+      "answer": "第3集已取得并由星试用；第5集明确其净化不死者、反复圣焰伤害，星由黑二清除圣力后归队，未恢复活精灵。取得与此次效果已回答，不能泛化为所有使用条件完整明确。",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "start_line": 437,
+          "end_line": 446
+        },
+        {
+          "chapter_id": "ch-0007",
+          "start_line": 584,
+          "end_line": 590
+        }
+      ],
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0030",
+          "start_line": 3674,
+          "end_line": 3694
+        },
+        {
+          "chapter_id": "ch-0032",
+          "start_line": 3999,
+          "end_line": 4002
+        },
+        {
+          "chapter_id": "ch-0046",
+          "start_line": 5669,
+          "end_line": 5678
+        },
+        {
+          "chapter_id": "ch-0047",
+          "start_line": 5747,
+          "end_line": 5769
+        }
+      ],
+      "latest_volume": 5,
+      "source_question_index": 4,
+      "review_state": "reviewed",
+      "revisit_at_book_end": true,
+      "revisit_focus": "复查其他获取渠道和使用条件；保留星本次未恢复活精灵的已知结果。"
+    },
+    {
+      "id": "q-v01-05",
+      "origin_volume": 1,
+      "origin_volumes": [
+        1
+      ],
+      "question": "黑二的新骨架何时获得，弱化会持续多久？",
+      "status": "partial",
+      "answer": "第2集已更换上半身，因此何时获得新骨已回答；脆弱持续多久及恢复过程仍未明确，第4集黄金骨骼称呼不能代替过程证据。",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0010",
+          "start_line": 1089,
+          "end_line": 1091
+        },
+        {
+          "chapter_id": "ch-0011",
+          "start_line": 1136,
+          "end_line": 1136
+        }
+      ],
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "start_line": 2267,
+          "end_line": 2270
+        },
+        {
+          "chapter_id": "ch-0043",
+          "start_line": 5326,
+          "end_line": 5326
+        }
+      ],
+      "latest_volume": 4,
+      "source_question_index": 5,
+      "review_state": "reviewed",
+      "revisit_at_book_end": true,
+      "revisit_focus": "复查黑二换骨后的具体恢复耗时与过程。"
+    },
+    {
+      "origin_volume": 1,
+      "source_question_index": 6,
+      "question": "扫黑组与反黑组是否为同一队伍的笔误称谓？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "start_line": 202,
+          "end_line": 207
+        },
+        {
+          "chapter_id": "ch-0007",
+          "start_line": 581,
+          "end_line": 582
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v01-06",
+      "origin_volumes": [
+        1
+      ],
+      "status": "text-uncertain",
+      "answer": "复生四人与解散加入的连续情境支持两称谓指向同一队伍，但第7集以前没有明确订正或另立队伍的说明。按同一情境记录异文，不能断言哪一处必为笔误。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "start_line": 202,
+          "end_line": 207
+        },
+        {
+          "chapter_id": "ch-0007",
+          "start_line": 581,
+          "end_line": 582
+        }
+      ],
+      "revisit_focus": "全书结束后核对组织称谓；若无明确订正，保留扫黑/反黑异文。",
+      "revisit_at_book_end": true,
+      "latest_volume": 1
+    },
+    {
+      "origin_volume": 1,
+      "source_question_index": 7,
+      "question": "星月年龄、兄妹称谓及秘银弓材料量的局部差异如何处理？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "start_line": 407,
+          "end_line": 407
+        },
+        {
+          "chapter_id": "ch-0009",
+          "start_line": 918,
+          "end_line": 918
+        },
+        {
+          "chapter_id": "ch-0012",
+          "start_line": 1321,
+          "end_line": 1331
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v01-07",
+      "origin_volumes": [
+        1
+      ],
+      "status": "text-uncertain",
+      "answer": "同集存在两百多岁/快两百、兄妹/兄弟、半公斤/半斤及价格计算差异。后续行动不能倒推出唯一正确年龄或用量，截至第7集未见明确订正。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "start_line": 407,
+          "end_line": 407
+        },
+        {
+          "chapter_id": "ch-0009",
+          "start_line": 918,
+          "end_line": 918
+        },
+        {
+          "chapter_id": "ch-0012",
+          "start_line": 1321,
+          "end_line": 1331
+        }
+      ],
+      "revisit_focus": "分别复查年龄、亲属称谓、材料数量及价格；不得用统一猜测覆盖四类差异。",
+      "revisit_at_book_end": true,
+      "latest_volume": 1
+    },
+    {
+      "origin_volume": 1,
+      "source_question_index": 8,
+      "question": "黑龙完全没有愤怒等负面情绪的陈述是否过强？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "start_line": 304,
+          "end_line": 306
+        },
+        {
+          "chapter_id": "ch-0007",
+          "start_line": 607,
+          "end_line": 608
+        },
+        {
+          "chapter_id": "ch-0010",
+          "start_line": 1077,
+          "end_line": 1077
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v01-08",
+      "origin_volumes": [
+        1
+      ],
+      "status": "text-uncertain",
+      "answer": "把黑龙概括为所有情境都没有愤怒明显过强：同集已有发怒，第7集又因金属骷髅魂散而怒杀骨龙。对嘲讽无感可以局部成立，但文本未说明早期全称表述与这些行为如何协调，不能替作者补成已解释的成长阶段。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "start_line": 304,
+          "end_line": 306
+        },
+        {
+          "chapter_id": "ch-0007",
+          "start_line": 607,
+          "end_line": 608
+        },
+        {
+          "chapter_id": "ch-0010",
+          "start_line": 1077,
+          "end_line": 1077
+        },
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8830,
+          "end_line": 8848
+        }
+      ],
+      "revisit_focus": "保留情境限定，复查是否有明确说明情绪产生时间或早期说法的叙述立场。",
+      "revisit_at_book_end": true,
+      "latest_volume": 7
+    },
+    {
+      "origin_volume": 1,
+      "source_question_index": 9,
+      "question": "黑武士等级排序中的伯爵是否误写？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "start_line": 1116,
+          "end_line": 1118
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v01-09",
+      "origin_volumes": [
+        1
+      ],
+      "status": "text-uncertain",
+      "answer": "等级序列将侯爵排在伯爵之上，紧接的危险举例却使用伯爵或皇帝。现有记录未给明确勘误，不据此倒置等级或擅改称号。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0011",
+          "start_line": 1116,
+          "end_line": 1118
+        }
+      ],
+      "revisit_focus": "核对后文明确等级序列；若仍无订正，保留原句冲突。",
+      "revisit_at_book_end": true,
+      "latest_volume": 1
+    },
+    {
+      "origin_volume": 2,
+      "source_question_index": 1,
+      "question": "黑二意识产生的原因、与自发护主及更换躯体的关系是什么？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "start_line": 2267,
+          "end_line": 2290
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v02-01",
+      "origin_volumes": [
+        2
+      ],
+      "status": "open",
+      "answer": "黑二在换骨后出现自主语言和感受，但他也不知道原因；自发护主、换身与觉醒的先后不构成因果证明。第6集灵魂框架仍未解释这一特例。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "start_line": 2267,
+          "end_line": 2290
+        },
+        {
+          "chapter_id": "ch-0065",
+          "start_line": 8003,
+          "end_line": 8027
+        }
+      ],
+      "revisit_focus": "核对换骨、护主和觉醒的因果，避免从时间相邻推定原因。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 2,
+      "source_question_index": 2,
+      "question": "黑大其他王者技能何时觉醒？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0019",
+          "start_line": 2077,
+          "end_line": 2078
+        },
+        {
+          "chapter_id": "ch-0020",
+          "start_line": 2294,
+          "end_line": 2308
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v02-02",
+      "origin_volumes": [
+        2
+      ],
+      "status": "partial",
+      "answer": "死神镰刀不完全体已在第2集出现，第6集黑大完整觉醒并拥有个性化武装；意识、武装与王者天赋须分别计。皇者驾临及其他王者技能的觉醒时点，截至第7集未确认。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "start_line": 2294,
+          "end_line": 2308
+        },
+        {
+          "chapter_id": "ch-0057",
+          "start_line": 6984,
+          "end_line": 7005
+        },
+        {
+          "chapter_id": "ch-0066",
+          "start_line": 8132,
+          "end_line": 8166
+        }
+      ],
+      "revisit_focus": "核对死神镰刀是否完善、皇者驾临及其他技能有无明确获得与实测。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 2,
+      "source_question_index": 3,
+      "question": "坦克战魂能否炼化或会否反噬？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "start_line": 2193,
+          "end_line": 2200
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v02-03",
+      "origin_volumes": [
+        2
+      ],
+      "status": "open",
+      "answer": "战魂第3集曾被释放拖延敌人后重新吸回，第5集仍无法炼化；神圣伤同时压制双方，黑龙恢复后战魂也恢复。没有根除或最终安全的证据，短期压制不等于永久解决。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0028",
+          "start_line": 3427,
+          "end_line": 3431
+        },
+        {
+          "chapter_id": "ch-0029",
+          "start_line": 3514,
+          "end_line": 3515
+        },
+        {
+          "chapter_id": "ch-0046",
+          "start_line": 5623,
+          "end_line": 5632
+        }
+      ],
+      "revisit_focus": "核对战魂最终炼化、脱体、反噬或被弃置的结果及代价。",
+      "revisit_at_book_end": true,
+      "latest_volume": 5
+    },
+    {
+      "origin_volume": 2,
+      "source_question_index": 4,
+      "question": "黑二上半身与黑四手臂的脆弱状态是否已恢复？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "start_line": 2208,
+          "end_line": 2209
+        },
+        {
+          "chapter_id": "ch-0020",
+          "start_line": 2269,
+          "end_line": 2270
+        },
+        {
+          "chapter_id": "ch-0023",
+          "start_line": 2644,
+          "end_line": 2658
+        },
+        {
+          "chapter_id": "ch-0023",
+          "start_line": 2715,
+          "end_line": 2732
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v02-04",
+      "origin_volumes": [
+        2
+      ],
+      "status": "partial",
+      "answer": "第4集明确称黑二为骨骼金属化的黄金骷髅，说明后期状态已有表述；但更换上半身后的具体恢复过程未写。黑四旧臂恢复也无明确过程或完成时点，不由穿甲和参战反推全伤痊愈。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0020",
+          "start_line": 2208,
+          "end_line": 2209
+        },
+        {
+          "chapter_id": "ch-0020",
+          "start_line": 2269,
+          "end_line": 2270
+        },
+        {
+          "chapter_id": "ch-0043",
+          "start_line": 5326,
+          "end_line": 5326
+        }
+      ],
+      "revisit_focus": "分别核对黑二换身与黑四旧臂恢复；区分后续新伤和旧伤。",
+      "revisit_at_book_end": true,
+      "latest_volume": 4
+    },
+    {
+      "origin_volume": 2,
+      "source_question_index": 5,
+      "question": "黑龙诅咒究竟是默发还是瞬发？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0017",
+          "start_line": 1855,
+          "end_line": 1856
+        },
+        {
+          "chapter_id": "ch-0019",
+          "start_line": 2053,
+          "end_line": 2054
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v02-05",
+      "origin_volumes": [
+        2
+      ],
+      "status": "text-uncertain",
+      "answer": "同一类诅咒先被解释为默发而非瞬发，后又称瞬发并同时写默念。可疑为术语松用，但无明确解释；第5—6集幽暗幻界瞬发是另一法术，不能代替本问题的订正。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0017",
+          "start_line": 1855,
+          "end_line": 1856
+        },
+        {
+          "chapter_id": "ch-0019",
+          "start_line": 2053,
+          "end_line": 2054
+        }
+      ],
+      "revisit_focus": "按法术分别复查吟唱、默念及施法时间，不统一替换术语。",
+      "revisit_at_book_end": true,
+      "latest_volume": 2
+    },
+    {
+      "origin_volume": 2,
+      "source_question_index": 6,
+      "question": "二十六个孩子的统计包括谁？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0015",
+          "start_line": 1528,
+          "end_line": 1529
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v02-06",
+      "origin_volumes": [
+        2
+      ],
+      "status": "text-uncertain",
+      "answer": "该处列十名骷髅加十五匹马，合计二十五，却称二十六个孩子；文本未交代额外计数对象。不得把后续新增坐骑倒填进这一时点。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0015",
+          "start_line": 1528,
+          "end_line": 1529
+        }
+      ],
+      "revisit_focus": "核对当时成员清单或后文明确回述；否则保留计数差异。",
+      "revisit_at_book_end": true,
+      "latest_volume": 2
+    },
+    {
+      "origin_volume": 2,
+      "source_question_index": 7,
+      "question": "莫菲/莫非、法兰西斯/佛朗西斯/佛朗西朗与雷丁克异写如何统一？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0018",
+          "start_line": 1935,
+          "end_line": 1939
+        },
+        {
+          "chapter_id": "ch-0021",
+          "start_line": 2439,
+          "end_line": 2459
+        },
+        {
+          "chapter_id": "ch-0022",
+          "start_line": 2471,
+          "end_line": 2472
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v02-07",
+      "origin_volumes": [
+        2
+      ],
+      "status": "text-uncertain",
+      "answer": "连续职责与事件语境支持相关异写的同人关联，但没有充分依据判定每一异写都是作者正式改名或哪字为唯一正确字。检索可保留有语境的异名映射，展示时注明来源形式。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0018",
+          "start_line": 1935,
+          "end_line": 1939
+        },
+        {
+          "chapter_id": "ch-0021",
+          "start_line": 2439,
+          "end_line": 2459
+        },
+        {
+          "chapter_id": "ch-0022",
+          "start_line": 2471,
+          "end_line": 2472
+        }
+      ],
+      "revisit_focus": "终点复核每组姓名的身份连续性与正式写法，避免仅凭近似拼写合并新人物。",
+      "revisit_at_book_end": true,
+      "latest_volume": 2
+    },
+    {
+      "origin_volume": 2,
+      "source_question_index": 8,
+      "question": "圣战周期为几十年还是几百年？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0023",
+          "start_line": 2710,
+          "end_line": 2710
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v02-08",
+      "origin_volumes": [
+        2
+      ],
+      "status": "text-uncertain",
+      "answer": "第1集报告记几百年、第2集此处为几十年；第4集又给近期不足三十年及更早约一百二十年的叙述。具体年代信息增加，但截至第7集没有一条解释能消除全部口径差异。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0023",
+          "start_line": 2710,
+          "end_line": 2710
+        },
+        {
+          "chapter_id": "ch-0035",
+          "start_line": 4334,
+          "end_line": 4342
+        }
+      ],
+      "revisit_focus": "汇总有来源的圣战时间轴，分别保留概数、间隔及单次战争年代。",
+      "revisit_at_book_end": true,
+      "latest_volume": 4
+    },
+    {
+      "origin_volume": 2,
+      "source_question_index": 9,
+      "question": "两名失去武器的孩子编号是否笔误？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0018",
+          "start_line": 1989,
+          "end_line": 1998
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v02-09",
+      "origin_volumes": [
+        2
+      ],
+      "status": "text-uncertain",
+      "answer": "同段先说黑大、黑四武器碎裂，后称失去武器的黑三。未交代第三个失械动作，不能静默替换编号。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0018",
+          "start_line": 1989,
+          "end_line": 1998
+        }
+      ],
+      "revisit_focus": "核对同战斗的武器分配和损毁；无新增证据则保留编号疑点。",
+      "revisit_at_book_end": true,
+      "latest_volume": 2
+    },
+    {
+      "origin_volume": 2,
+      "source_question_index": 10,
+      "question": "沉渊木信息与克丽丝女神自称是否可信？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0022",
+          "start_line": 2544,
+          "end_line": 2577
+        },
+        {
+          "chapter_id": "ch-0022",
+          "start_line": 2587,
+          "end_line": 2596
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v02-10",
+      "origin_volumes": [
+        2
+      ],
+      "status": "partial",
+      "answer": "沉渊木联络确实发生；第6集娜娜明确学会克丽丝所教冥月抚慰，证明具体教学和能力，非空泛自称。女神身份、邀学动机及沉渊木全部材质能力仍未被独立验证。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0022",
+          "start_line": 2544,
+          "end_line": 2577
+        },
+        {
+          "chapter_id": "ch-0022",
+          "start_line": 2587,
+          "end_line": 2596
+        },
+        {
+          "chapter_id": "ch-0061",
+          "start_line": 7561,
+          "end_line": 7578
+        }
+      ],
+      "revisit_focus": "核对神性、来历、媒介限制与教学动机，勿用单个法术证明全部自述。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 2,
+      "source_question_index": 11,
+      "question": "光明教会为何能够进入同盟境内追杀娜娜？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0023",
+          "start_line": 2680,
+          "end_line": 2714
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v02-11",
+      "origin_volumes": [
+        2
+      ],
+      "status": "partial",
+      "answer": "第2集出现隐匿身份的白衣信众，第5集的隐蔽渗透支持公开限制与秘密行动并存；早期安全判断不能当作物理禁入规则。具体通行网络、制度漏洞及追杀部署仍未完整解释，第7集战时占领也不能倒证此前许可。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0023",
+          "start_line": 2680,
+          "end_line": 2714
+        },
+        {
+          "chapter_id": "ch-0045",
+          "start_line": 5563,
+          "end_line": 5569
+        }
+      ],
+      "revisit_focus": "核对教会在同盟的渗透渠道和政策背景，分清战前秘密行动与战时公开控制。",
+      "revisit_at_book_end": true,
+      "latest_volume": 5
+    },
+    {
+      "id": "q-v02-12",
+      "origin_volume": 2,
+      "origin_volumes": [
+        2
+      ],
+      "question": "娜娜的暗黑气息及洛特托付将如何处理？",
+      "status": "partial",
+      "answer": "第3集洛特被转生，七天后醒来，以守护娜娜为条件接受服从；托付状态已推进。娜娜天生暗黑气息来源仍未知，第6集学习冥月抚慰不构成起源解释。",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0023",
+          "start_line": 2695,
+          "end_line": 2706
+        },
+        {
+          "chapter_id": "ch-0023",
+          "start_line": 2748,
+          "end_line": 2759
+        }
+      ],
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0025",
+          "start_line": 2773,
+          "end_line": 2787
+        },
+        {
+          "chapter_id": "ch-0026",
+          "start_line": 3082,
+          "end_line": 3120
+        },
+        {
+          "chapter_id": "ch-0061",
+          "start_line": 7561,
+          "end_line": 7578
+        }
+      ],
+      "latest_volume": 6,
+      "source_question_index": 12,
+      "review_state": "reviewed",
+      "revisit_at_book_end": true,
+      "revisit_focus": "复查娜娜天生暗黑气息、失亲与追捕后果；已完成的洛特转生与守护条件不重置。"
+    },
+    {
+      "id": "q-v03-01",
+      "origin_volume": 3,
+      "origin_volumes": [
+        3
+      ],
+      "question": "星饮下救赎之魂后究竟发生什么，月是否使用？",
+      "status": "partial",
+      "answer": "星承受反复神圣焚烧，后由黑二清除圣力而归队，未恢复生前活精灵身份；月无明确饮用证据，不能把兄妹均记作饮药获救。",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0032",
+          "start_line": 3999,
+          "end_line": 4002
+        }
+      ],
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0046",
+          "start_line": 5669,
+          "end_line": 5678
+        },
+        {
+          "chapter_id": "ch-0047",
+          "start_line": 5747,
+          "end_line": 5769
+        }
+      ],
+      "latest_volume": 5,
+      "source_question_index": 1,
+      "review_state": "reviewed",
+      "revisit_at_book_end": true,
+      "revisit_focus": "复查月是否饮用及其后果；星此次试药结果已有答案。"
+    },
+    {
+      "origin_volume": 3,
+      "source_question_index": 2,
+      "question": "左臂受损为何宝库写为右手残缺？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0028",
+          "start_line": 3359,
+          "end_line": 3360
+        },
+        {
+          "chapter_id": "ch-0029",
+          "start_line": 3558,
+          "end_line": 3561
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v03-02",
+      "origin_volumes": [
+        3
+      ],
+      "status": "text-uncertain",
+      "answer": "受伤处明写左小臂断裂，宝库处改为残缺右手；未写伤侧变更或另一处新伤。保留左右异文，不能替换原文。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0028",
+          "start_line": 3359,
+          "end_line": 3360
+        },
+        {
+          "chapter_id": "ch-0029",
+          "start_line": 3558,
+          "end_line": 3561
+        }
+      ],
+      "revisit_focus": "核对该战伤势后续回述；若无明确校正，保留侧别不确定。",
+      "revisit_at_book_end": true,
+      "latest_volume": 3
+    },
+    {
+      "origin_volume": 3,
+      "source_question_index": 3,
+      "question": "水战中黑龙对砍对象的坦克是否误写？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0028",
+          "start_line": 3354,
+          "end_line": 3358
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v03-03",
+      "origin_volumes": [
+        3
+      ],
+      "status": "text-uncertain",
+      "answer": "当前水战对手是雷克丁，该句却写与坦克对砍。战魂另有释放情节，但没有证据把此处对砍者变化解释为战魂替身；保持姓名错置疑点。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0028",
+          "start_line": 3354,
+          "end_line": 3358
+        },
+        {
+          "chapter_id": "ch-0028",
+          "start_line": 3427,
+          "end_line": 3431
+        }
+      ],
+      "revisit_focus": "复查同场对手与战魂行动，不能把后续战魂利用倒用为此句解释。",
+      "revisit_at_book_end": true,
+      "latest_volume": 3
+    },
+    {
+      "origin_volume": 3,
+      "source_question_index": 4,
+      "question": "外部观察者星与爱琳是否应为月与爱琳？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0028",
+          "start_line": 3363,
+          "end_line": 3364
+        },
+        {
+          "chapter_id": "ch-0028",
+          "start_line": 3421,
+          "end_line": 3423
+        },
+        {
+          "chapter_id": "ch-0029",
+          "start_line": 3520,
+          "end_line": 3521
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v03-04",
+      "origin_volumes": [
+        3
+      ],
+      "status": "text-uncertain",
+      "answer": "星已随队进入战场，外部隐蔽观察段又写星与爱琳；撤退段也把星置于内线。尚无移动说明足以消除位置冲突，月替字只属合理疑测。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0028",
+          "start_line": 3363,
+          "end_line": 3364
+        },
+        {
+          "chapter_id": "ch-0028",
+          "start_line": 3421,
+          "end_line": 3423
+        },
+        {
+          "chapter_id": "ch-0029",
+          "start_line": 3520,
+          "end_line": 3521
+        }
+      ],
+      "revisit_focus": "按同场位置重核星/月指代；若无证据，不擅定替换字。",
+      "revisit_at_book_end": true,
+      "latest_volume": 3
+    },
+    {
+      "origin_volume": 3,
+      "source_question_index": 5,
+      "question": "朗克岭守军不足二百与近二百五十如何协调？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0027",
+          "start_line": 3160,
+          "end_line": 3162
+        },
+        {
+          "chapter_id": "ch-0030",
+          "start_line": 3701,
+          "end_line": 3708
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v03-05",
+      "origin_volumes": [
+        3
+      ],
+      "status": "text-uncertain",
+      "answer": "进攻前总部人数不足二百，灾后描述接近二百五十，未交代相应增援或统计范围变化。后文战果不能补出缺失增援。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0027",
+          "start_line": 3160,
+          "end_line": 3162
+        },
+        {
+          "chapter_id": "ch-0030",
+          "start_line": 3701,
+          "end_line": 3708
+        }
+      ],
+      "revisit_focus": "核对守军口径是否含其他人员；无说明则保留数目差异。",
+      "revisit_at_book_end": true,
+      "latest_volume": 3
+    },
+    {
+      "origin_volume": 3,
+      "source_question_index": 6,
+      "question": "灵魂之心为何从此前吸魂无益转为再次精进？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0030",
+          "start_line": 3714,
+          "end_line": 3717
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v03-06",
+      "origin_volumes": [
+        3
+      ],
+      "status": "partial",
+      "answer": "再次增长现象在第3集出现，第5集吸收积累并进阶，第6集提供灵与魂及异常吸能框架；这些确认能力持续发展，却没有解释凝心后的旧限制为何改变。不能仅以疲惫恢复替代上限增长。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0030",
+          "start_line": 3714,
+          "end_line": 3717
+        },
+        {
+          "chapter_id": "ch-0055",
+          "start_line": 6837,
+          "end_line": 6842
+        },
+        {
+          "chapter_id": "ch-0065",
+          "start_line": 8009,
+          "end_line": 8027
+        }
+      ],
+      "revisit_focus": "与q-v01-03联动复查成长机制，但保留本问的再次增长时点。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 3,
+      "source_question_index": 7,
+      "question": "黑二替换身体后的骨质如何恢复？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0027",
+          "start_line": 3168,
+          "end_line": 3172
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v03-07",
+      "origin_volumes": [
+        3
+      ],
+      "status": "open",
+      "answer": "第4集已明确黑二骨骼金属化，但从第2集换入普通上半身到这一状态的过程、耗时和所需条件仍未交代。后期黄金称呼只证明表述状态，未回答如何恢复。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0027",
+          "start_line": 3168,
+          "end_line": 3172
+        },
+        {
+          "chapter_id": "ch-0043",
+          "start_line": 5326,
+          "end_line": 5326
+        }
+      ],
+      "revisit_focus": "查找是否回补换身金化机制或恢复时间；不可从现有战力倒推。",
+      "revisit_at_book_end": true,
+      "latest_volume": 4
+    },
+    {
+      "origin_volume": 3,
+      "source_question_index": 8,
+      "question": "艾力克斯与艾克力斯是否同一名字的排字异写？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0027",
+          "start_line": 3148,
+          "end_line": 3159
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v03-08",
+      "origin_volumes": [
+        3
+      ],
+      "status": "text-uncertain",
+      "answer": "同一死讯连续使用艾力克斯与艾克力斯，没有第二人物引入；同人关联有语境支持，但具体排字错误未获明确订正。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0027",
+          "start_line": 3148,
+          "end_line": 3159
+        }
+      ],
+      "revisit_focus": "终点核对身份连续性，保留原始拼写并注明疑似异写。",
+      "revisit_at_book_end": true,
+      "latest_volume": 3
+    },
+    {
+      "origin_volume": 4,
+      "source_question_index": 1,
+      "question": "星和月在救赎之魂后的命运如何？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0036",
+          "start_line": 4538,
+          "end_line": 4544
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v04-01",
+      "origin_volumes": [
+        4
+      ],
+      "status": "answered",
+      "answer": "该次失联与试药后的生死结果已回收：星受反复圣焰焚烧，经黑二清除圣力后苏醒；月求援并接受归队条件，两人回到队伍。星未恢复生前活精灵身份；月是否饮用属于q-v03-01保留的独立未决子项。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0046",
+          "start_line": 5669,
+          "end_line": 5678
+        },
+        {
+          "chapter_id": "ch-0047",
+          "start_line": 5722,
+          "end_line": 5769
+        }
+      ],
+      "revisit_focus": "",
+      "revisit_at_book_end": false,
+      "latest_volume": 5
+    },
+    {
+      "id": "q-v04-02",
+      "origin_volume": 4,
+      "origin_volumes": [
+        4
+      ],
+      "question": "黑七、黑龙及谷外战斗的最终结果是什么？",
+      "status": "answered",
+      "answer": "圣焰悬崖的生死结果已回收：黑龙昏迷后醒来，黑七存活而灵魂退近白银、黄金骨架保留；岗撒和原萝茜死亡。恢复程度、坦克战魂内患属于后续独立问题。",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0043",
+          "start_line": 5424,
+          "end_line": 5428
+        },
+        {
+          "chapter_id": "ch-0043",
+          "start_line": 5444,
+          "end_line": 5457
+        }
+      ],
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0046",
+          "start_line": 5661,
+          "end_line": 5665
+        },
+        {
+          "chapter_id": "ch-0045",
+          "start_line": 5483,
+          "end_line": 5487
+        },
+        {
+          "chapter_id": "ch-0045",
+          "start_line": 5540,
+          "end_line": 5562
+        }
+      ],
+      "latest_volume": 5,
+      "source_question_index": 2,
+      "review_state": "reviewed",
+      "revisit_at_book_end": false,
+      "revisit_focus": ""
+    },
+    {
+      "origin_volume": 4,
+      "source_question_index": 3,
+      "question": "黑大骨架是否确为阿格？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0040",
+          "start_line": 5057,
+          "end_line": 5063
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v04-03",
+      "origin_volumes": [
+        4
+      ],
+      "status": "open",
+      "answer": "第6集黑大追问伍格并接受自己是黑大的身份，确认的是新自我及觉醒；没有证实骨架原主或继承阿格记忆。相貌相似、战场年代及泰戈误认仍不足作骨源结论。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0040",
+          "start_line": 5057,
+          "end_line": 5063
+        },
+        {
+          "chapter_id": "ch-0057",
+          "start_line": 6997,
+          "end_line": 7005
+        }
+      ],
+      "revisit_focus": "核对骨架原主、原记忆与黑大独立人格是否最终有明确证据。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 4,
+      "source_question_index": 4,
+      "question": "阿格与伍格是否同一人名的笔误？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0040",
+          "start_line": 5054,
+          "end_line": 5058
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v04-04",
+      "origin_volumes": [
+        4
+      ],
+      "status": "text-uncertain",
+      "answer": "老妇同段先提阿格又问伍格，第6集继续提伍格也未明确说明这是同人改名、异写或另一个人。后文复用某拼写不能自动订正前文。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0040",
+          "start_line": 5054,
+          "end_line": 5058
+        },
+        {
+          "chapter_id": "ch-0057",
+          "start_line": 6997,
+          "end_line": 7005
+        }
+      ],
+      "revisit_focus": "核对阿格/伍格是否获明确身份对应；与骨源问题分开处理。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 4,
+      "source_question_index": 5,
+      "question": "黑二对敌角力段为何写成黑大眼中火盛？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0042",
+          "start_line": 5311,
+          "end_line": 5320
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v04-05",
+      "origin_volumes": [
+        4
+      ],
+      "status": "text-uncertain",
+      "answer": "角力前后均为黑二与圣骑士，5313突然转为黑大眼中火盛；没有换人动作。已短段复核，仍只能标记疑似指代错字。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0042",
+          "start_line": 5311,
+          "end_line": 5320
+        }
+      ],
+      "revisit_focus": "若终点没有明确回述纠错，保留黑大/黑二指代疑点。",
+      "revisit_at_book_end": true,
+      "latest_volume": 4
+    },
+    {
+      "origin_volume": 4,
+      "source_question_index": 6,
+      "question": "黑龙没有道谢观念的全称说法如何与已学会感谢协调？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0034",
+          "start_line": 4190,
+          "end_line": 4191
+        },
+        {
+          "chapter_id": "ch-0041",
+          "start_line": 5175,
+          "end_line": 5178
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v04-06",
+      "origin_volumes": [
+        4
+      ],
+      "status": "text-uncertain",
+      "answer": "第4集先说没有道谢观念，同集又主动谢花，前集也已有感谢行为。可以把概括限缩为习惯尚不稳定，但这只是解释假设；截至第7集没有明确协调这些表述的说明。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0034",
+          "start_line": 4190,
+          "end_line": 4191
+        },
+        {
+          "chapter_id": "ch-0041",
+          "start_line": 5175,
+          "end_line": 5178
+        }
+      ],
+      "revisit_focus": "核对人物学习时间线与叙述概括，勿把假设当成文本已解释。",
+      "revisit_at_book_end": true,
+      "latest_volume": 4
+    },
+    {
+      "origin_volume": 4,
+      "source_question_index": 7,
+      "question": "战争时间和黑龙造子取骨时间是否完全相容？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0035",
+          "start_line": 4334,
+          "end_line": 4342
+        },
+        {
+          "chapter_id": "ch-0040",
+          "start_line": 5057,
+          "end_line": 5061
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v04-07",
+      "origin_volumes": [
+        4
+      ],
+      "status": "text-uncertain",
+      "answer": "圣战间隔、三十年前出征与造子多取刚死尸骨的叙述尚未形成无歧义时间线；黑大骨源本身也未确认。不能用未证骨源反推战争日期，再用该日期证明骨源。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0035",
+          "start_line": 4334,
+          "end_line": 4342
+        },
+        {
+          "chapter_id": "ch-0040",
+          "start_line": 5057,
+          "end_line": 5063
+        }
+      ],
+      "revisit_focus": "终点并列核对战争日期、取骨日期及骨源证据，避免循环论证。",
+      "revisit_at_book_end": true,
+      "latest_volume": 4
+    },
+    {
+      "id": "q-v04-08",
+      "origin_volume": 4,
+      "origin_volumes": [
+        4
+      ],
+      "question": "亡灵印记是否还存在其他触发条件，召归者是谁？",
+      "status": "partial",
+      "answer": "第6集斯科特确认亡灵印记的发出者与哀嚎森林往生者国度目的地；第4集所问其他触发条件及其与传统诅咒功能关系未由定位答案自动解决。",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0037",
+          "start_line": 4647,
+          "end_line": 4674
+        }
+      ],
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0064",
+          "start_line": 7881,
+          "end_line": 7897
+        }
+      ],
+      "latest_volume": 6,
+      "source_question_index": 8,
+      "review_state": "reviewed",
+      "revisit_at_book_end": true,
+      "revisit_focus": "复查亡灵印记其他触发条件、力量本质与传统诅咒功能，不重开已解决的发出者和目的地。"
+    },
+    {
+      "origin_volume": 4,
+      "source_question_index": 9,
+      "question": "罗得宾士如何在被焚后再次出现？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0038",
+          "start_line": 4804,
+          "end_line": 4809
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v04-09",
+      "origin_volumes": [
+        4
+      ],
+      "status": "open",
+      "answer": "第5集罗得再次出现并随队，证明他仍存在；琴上烙印召唤、后来音乐能力与亡妻自述，均未解释第4集那次被焚后的脱身方式。假身、幻象或其他机制都不能先定。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0038",
+          "start_line": 4804,
+          "end_line": 4809
+        },
+        {
+          "chapter_id": "ch-0051",
+          "start_line": 6339,
+          "end_line": 6369
+        }
+      ],
+      "revisit_focus": "核对旧次火刑逃脱机制与转生时间，勿用后来召唤覆盖旧案。",
+      "revisit_at_book_end": true,
+      "latest_volume": 5
+    },
+    {
+      "origin_volume": 4,
+      "source_question_index": 10,
+      "question": "娜娜与克丽丝的持续联络会产生什么后果？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0034",
+          "start_line": 4192,
+          "end_line": 4203
+        },
+        {
+          "chapter_id": "ch-0036",
+          "start_line": 4490,
+          "end_line": 4491
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v04-10",
+      "origin_volumes": [
+        4
+      ],
+      "status": "partial",
+      "answer": "第6集已明确持续联络带来冥月抚慰教学，娜娜实际用法术照护小黑，同伴也开始知情。女神身份、招徒目的、长期后果与天生暗黑气息来源仍未知。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0061",
+          "start_line": 7561,
+          "end_line": 7578
+        }
+      ],
+      "revisit_focus": "核对教学关系、娜娜自主性、身世与克丽丝动机的后续变化。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 4,
+      "source_question_index": 11,
+      "question": "正文乱码与错字应如何保留？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0037",
+          "start_line": 4630,
+          "end_line": 4631
+        },
+        {
+          "chapter_id": "ch-0042",
+          "start_line": 5265,
+          "end_line": 5268
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v04-11",
+      "origin_volumes": [
+        4
+      ],
+      "status": "text-uncertain",
+      "answer": "徽章句乱码及复活/复合诅咒等疑似错字继续保留来源异常；可分析上下文明确的动作，不从损坏字符补造规则。第7集类似异常仍出现，不能仅凭模式断言原始字词。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0037",
+          "start_line": 4630,
+          "end_line": 4631
+        },
+        {
+          "chapter_id": "ch-0042",
+          "start_line": 5265,
+          "end_line": 5268
+        },
+        {
+          "chapter_id": "ch-0075",
+          "start_line": 9491,
+          "end_line": 9491
+        },
+        {
+          "chapter_id": "ch-0075",
+          "start_line": 9515,
+          "end_line": 9515
+        }
+      ],
+      "revisit_focus": "终点汇总影响结论的损坏位置；若无更可靠文本，标不可恢复而非擅修。",
+      "revisit_at_book_end": true,
+      "latest_volume": 7
+    },
+    {
+      "id": "q-v05-01",
+      "origin_volume": 5,
+      "origin_volumes": [
+        5
+      ],
+      "question": "萝茜天使是否保有原人格或只继承肉体名字？",
+      "status": "answered",
+      "answer": "已明确区分占用身体并使用名字的天使与原萝茜残灵。原残灵获补魂后仍残缺失忆；第7集只有姓名和仇恨片段，无旧力量。不能写作原人格完整复活，也不能因同名合并实体。",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0047",
+          "start_line": 5801,
+          "end_line": 5815
+        }
+      ],
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0057",
+          "start_line": 6882,
+          "end_line": 6897
+        },
+        {
+          "chapter_id": "ch-0062",
+          "start_line": 7631,
+          "end_line": 7634
+        },
+        {
+          "chapter_id": "ch-0066",
+          "start_line": 8177,
+          "end_line": 8208
+        },
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8735,
+          "end_line": 8748
+        }
+      ],
+      "latest_volume": 7,
+      "source_question_index": 1,
+      "review_state": "reviewed",
+      "revisit_at_book_end": false,
+      "revisit_focus": ""
+    },
+    {
+      "id": "q-v05-02",
+      "origin_volume": 5,
+      "origin_volumes": [
+        5
+      ],
+      "question": "吸灵魂能量是否等同消灭灵魂？",
+      "status": "partial",
+      "answer": "第7集补明不死生物遭吞噬会消散，吞噬更强者会反噬；不能推广到黑龙仅吸生命遗体能量的所有情形，罗得早先永灭说仍不是所有场景的客观定律。",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0053",
+          "start_line": 6620,
+          "end_line": 6629
+        }
+      ],
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8823,
+          "end_line": 8826
+        }
+      ],
+      "latest_volume": 7,
+      "source_question_index": 2,
+      "review_state": "reviewed",
+      "revisit_at_book_end": true,
+      "revisit_focus": "分别复查吞噬不死者、吸取生命遗体能量与灵魂意识消散的关系。"
+    },
+    {
+      "origin_volume": 5,
+      "source_question_index": 3,
+      "question": "招魂曲能在同一世界召来作者并产生契约的完整规则是什么？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0051",
+          "start_line": 6339,
+          "end_line": 6365
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v05-03",
+      "origin_volumes": [
+        5
+      ],
+      "status": "partial",
+      "answer": "本次确有同界召来罗得、契约压制及无法遣返的表现；罗得把原因归于琴上精神烙印，但其解释带猜测。第6集音乐安魂被验证，不等于召唤条件、契约权限和解除办法已完整明确。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0051",
+          "start_line": 6339,
+          "end_line": 6369
+        },
+        {
+          "chapter_id": "ch-0066",
+          "start_line": 8085,
+          "end_line": 8094
+        }
+      ],
+      "revisit_focus": "核对招魂曲适用对象、同界召唤条件、契约来源及解除规则。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 5,
+      "source_question_index": 4,
+      "question": "文本的‘洛特·加龙省’是否名称替换污染，‘群啊/群懊’等是否损坏？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0055",
+          "start_line": 6843,
+          "end_line": 6844
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v05-04",
+      "origin_volumes": [
+        5
+      ],
+      "status": "text-uncertain",
+      "answer": "异常扩展人名及灵魂动作句乱码确实妨碍字面解释；第7集仍有同类字符问题。名称替换污染是可能解释，现有报告不能确定具体损坏链或逐字恢复原稿。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0055",
+          "start_line": 6843,
+          "end_line": 6844
+        },
+        {
+          "chapter_id": "ch-0075",
+          "start_line": 9515,
+          "end_line": 9515
+        }
+      ],
+      "revisit_focus": "终点整理异文表，保留可确认人物关联与不可恢复字句的区别。",
+      "revisit_at_book_end": true,
+      "latest_volume": 7
+    },
+    {
+      "origin_volume": 5,
+      "source_question_index": 5,
+      "question": "第八章洛特被留后照顾孩子却在观战段直接评价，具体距离如何？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0052",
+          "start_line": 6488,
+          "end_line": 6498
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v05-05",
+      "origin_volumes": [
+        5
+      ],
+      "status": "text-uncertain",
+      "answer": "留后照顾孩子与随后给出观战评价同时存在，可能远望但距离及移动未交代。不能因此断言洛特实际入阵，也不能确认绝对空间矛盾已被消除。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0052",
+          "start_line": 6488,
+          "end_line": 6498
+        }
+      ],
+      "revisit_focus": "核对该场位置说明；若后文无回补，保留距离/视点缺口。",
+      "revisit_at_book_end": true,
+      "latest_volume": 5
+    },
+    {
+      "origin_volume": 5,
+      "source_question_index": 6,
+      "question": "黑龙不取商队无辜死者灵魂，却吸取同盟被杀溃兵的边界如何成立？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0049",
+          "start_line": 6020,
+          "end_line": 6023
+        },
+        {
+          "chapter_id": "ch-0053",
+          "start_line": 6607,
+          "end_line": 6609
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v05-06",
+      "origin_volumes": [
+        5
+      ],
+      "status": "open",
+      "answer": "商队死者被排除与溃兵死者被吸取之间没有明确、稳定的伦理规则。第6集同伴仍担忧吸魂，第7集自主与控制争论也未解决谁可以被资源化；场合不同只是解释可能，不能写成已成立的统一边界。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0049",
+          "start_line": 6020,
+          "end_line": 6023
+        },
+        {
+          "chapter_id": "ch-0053",
+          "start_line": 6607,
+          "end_line": 6629
+        },
+        {
+          "chapter_id": "ch-0065",
+          "start_line": 8018,
+          "end_line": 8036
+        },
+        {
+          "chapter_id": "ch-0075",
+          "start_line": 9405,
+          "end_line": 9424
+        }
+      ],
+      "revisit_focus": "终点复查黑龙和同伴是否形成一致限制，区分行为事实、角色辩护与研究评价。",
+      "revisit_at_book_end": true,
+      "latest_volume": 7
+    },
+    {
+      "id": "q-v06-01",
+      "origin_volume": 6,
+      "origin_volumes": [
+        6
+      ],
+      "question": "黑大究竟何时开始觉醒，是否与伍格骸骨有关？",
+      "status": "partial",
+      "answer": "第6集完整觉醒有明确身份问答和断开深层控制证据；更早渐进时点仍由黑龙回顾推断，阿格或伍格骨源未证，第7集亦未补足。",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0057",
+          "start_line": 6984,
+          "end_line": 7005
+        }
+      ],
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0057",
+          "start_line": 6984,
+          "end_line": 7005
+        }
+      ],
+      "latest_volume": 6,
+      "source_question_index": 1,
+      "review_state": "reviewed",
+      "revisit_at_book_end": true,
+      "revisit_focus": "复查黑大渐进觉醒时点与骨架来源，保留第6集已完整觉醒的事实。"
+    },
+    {
+      "origin_volume": 6,
+      "source_question_index": 2,
+      "question": "泰戈力量增长是否由紫魂直接造成？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0059",
+          "start_line": 7229,
+          "end_line": 7232
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v06-02",
+      "origin_volumes": [
+        6
+      ],
+      "status": "open",
+      "answer": "转生后泰戈力量增长与紫魂使用先后相连，黑龙也提出因果疑问；但没有排除原有体质、转生通常增幅等解释。第7集未给独立验证。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0059",
+          "start_line": 7229,
+          "end_line": 7232
+        }
+      ],
+      "revisit_focus": "核对紫魂对受赐者的具体增幅及其他转生对照。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 6,
+      "source_question_index": 3,
+      "question": "教皇许可天使独行又派神骑的确切目标是什么？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0059",
+          "start_line": 7200,
+          "end_line": 7206
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v06-03",
+      "origin_volumes": [
+        6
+      ],
+      "status": "open",
+      "answer": "本界力量审判是安德鲁传达的说法，光有质疑；第7集证明雷奥持续定位并促成拦截，仍未揭示教皇同时许可天使与调神骑的确切策略。追捕事实不等于幕后动机已明。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0059",
+          "start_line": 7200,
+          "end_line": 7206
+        },
+        {
+          "chapter_id": "ch-0074",
+          "start_line": 9313,
+          "end_line": 9335
+        },
+        {
+          "chapter_id": "ch-0075",
+          "start_line": 9500,
+          "end_line": 9509
+        }
+      ],
+      "revisit_focus": "核对教皇真实目标、不同执行者任务与知情层级，避免用后续推测冒充早期命令。",
+      "revisit_at_book_end": true,
+      "latest_volume": 7
+    },
+    {
+      "origin_volume": 6,
+      "source_question_index": 4,
+      "question": "同盟身份情报是否为教会有意释放？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0058",
+          "start_line": 7110,
+          "end_line": 7118
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v06-04",
+      "origin_volumes": [
+        6
+      ],
+      "status": "open",
+      "answer": "疾风因间谍暴露而怀疑情报可能被有意释放；截至第7集没有操盘者、放料行为或目的的直接证据。保留角色怀疑，不写教会已确认布局。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0058",
+          "start_line": 7110,
+          "end_line": 7118
+        }
+      ],
+      "revisit_focus": "核对泄露来源及是否有后文回收或可靠自述。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 6,
+      "source_question_index": 5,
+      "question": "吸取生命种族尸体能量的特殊能力从何而来？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0065",
+          "start_line": 8009,
+          "end_line": 8027
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v06-05",
+      "origin_volumes": [
+        6
+      ],
+      "status": "open",
+      "answer": "斯科特及族民做不到吸取生命遗体能量，传承也无先例。第7集解释信仰元力和灵魂联系，并未证明它们就是此特殊吸能能力的来源。现象已知，起源未知。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0065",
+          "start_line": 8009,
+          "end_line": 8027
+        },
+        {
+          "chapter_id": "ch-0074",
+          "start_line": 9279,
+          "end_line": 9291
+        }
+      ],
+      "revisit_focus": "核对特殊吸能、造灵和快速进化是否获得共同来源解释，保留各能力差别。",
+      "revisit_at_book_end": true,
+      "latest_volume": 7
+    },
+    {
+      "origin_volume": 6,
+      "source_question_index": 6,
+      "question": "本集有两处能力绝对表述需限制到具体条件。",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0060",
+          "start_line": 7335,
+          "end_line": 7339
+        },
+        {
+          "chapter_id": "ch-0066",
+          "start_line": 8084,
+          "end_line": 8086
+        },
+        {
+          "chapter_id": "ch-0059",
+          "start_line": 7259,
+          "end_line": 7262
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v06-06",
+      "origin_volumes": [
+        6
+      ],
+      "status": "text-uncertain",
+      "answer": "先前黑龙不受音乐影响，后来琴歌合奏能影响，说明不能继续使用绝对免疫概括；强化演奏是可见条件变化。沙暴数百公里与平常数十公里感知范围的区别仍未明确解释，不能擅设固定上限或把两种场景硬合。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0060",
+          "start_line": 7335,
+          "end_line": 7339
+        },
+        {
+          "chapter_id": "ch-0066",
+          "start_line": 8084,
+          "end_line": 8086
+        },
+        {
+          "chapter_id": "ch-0059",
+          "start_line": 7259,
+          "end_line": 7262
+        }
+      ],
+      "revisit_focus": "分别核对音乐作用条件与感知距离，若无规则补充则保留场景口径差异。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 6,
+      "source_question_index": 7,
+      "question": "活性肉引子的定义有局部张力。",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0061",
+          "start_line": 7513,
+          "end_line": 7516
+        },
+        {
+          "chapter_id": "ch-0062",
+          "start_line": 7583,
+          "end_line": 7592
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v06-07",
+      "origin_volumes": [
+        6
+      ],
+      "status": "text-uncertain",
+      "answer": "不死者已有皮肉被说成失活不可作引子，随后刚长出的黑龙肉却能接续施术。短暂活性窗口能解释现象但未被明确命名或计时，不能将该假设写成确定设定。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0061",
+          "start_line": 7513,
+          "end_line": 7516
+        },
+        {
+          "chapter_id": "ch-0062",
+          "start_line": 7583,
+          "end_line": 7592
+        }
+      ],
+      "revisit_focus": "核对活性定义、取肉时机及持续时长；没有补充则保留规则张力。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 6,
+      "source_question_index": 8,
+      "question": "神骑补给出访次数的时间如何对应？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0059",
+          "start_line": 7168,
+          "end_line": 7171
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v06-08",
+      "origin_volumes": [
+        6
+      ],
+      "status": "text-uncertain",
+      "answer": "八年前晋升、两年一次、此前五次补给与当前第六次之间缺完整日历。若含晋升当次及临时出访可成立，但文本未明确，不能自行补齐起算与例外。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0059",
+          "start_line": 7168,
+          "end_line": 7171
+        }
+      ],
+      "revisit_focus": "核对首次补给、例行周期与临时出访；若无补充保留时间口径疑点。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 6,
+      "source_question_index": 9,
+      "question": "‘六百亡灵’与‘六七百’是否口径变化，天使阶数高低表述是否笔误？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0065",
+          "start_line": 7969,
+          "end_line": 7975
+        },
+        {
+          "chapter_id": "ch-0066",
+          "start_line": 8173,
+          "end_line": 8175
+        },
+        {
+          "chapter_id": "ch-0063",
+          "start_line": 7745,
+          "end_line": 7752
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v06-09",
+      "origin_volumes": [
+        6
+      ],
+      "status": "text-uncertain",
+      "answer": "六百与六七百可能分别为约数，但文本没有明确统计口径；天使阶数的高低方向与十三阶最强描述也存在表述张力。第7集未给明确订正，不据此绘制精确数量或强度排序表。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0065",
+          "start_line": 7969,
+          "end_line": 7975
+        },
+        {
+          "chapter_id": "ch-0066",
+          "start_line": 8173,
+          "end_line": 8175
+        },
+        {
+          "chapter_id": "ch-0063",
+          "start_line": 7745,
+          "end_line": 7752
+        }
+      ],
+      "revisit_focus": "分别复查亡灵人数口径和天使阶序，避免以概数解释替代阶序校正。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 6,
+      "source_question_index": 10,
+      "question": "娜娜与黑龙能否通过项链克丽丝以外的灵魂渠道沟通，借肉场景为何必须恢复声带？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0061",
+          "start_line": 7531,
+          "end_line": 7536
+        },
+        {
+          "chapter_id": "ch-0060",
+          "start_line": 7363,
+          "end_line": 7371
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v06-10",
+      "origin_volumes": [
+        6
+      ],
+      "status": "open",
+      "answer": "已见黑龙用过量魂问伤及亡灵使者，借肉时又需恢复语音；这不足以证明他能安全地与娜娜普遍心灵对话。经项链与克丽丝交流及不死者的灵魂联系不能直接推广到活人娜娜，通道限制仍未交代。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0060",
+          "start_line": 7363,
+          "end_line": 7371
+        },
+        {
+          "chapter_id": "ch-0061",
+          "start_line": 7531,
+          "end_line": 7536
+        }
+      ],
+      "revisit_focus": "核对活人、亡灵、赐魂者与沉渊木各自的沟通条件及技巧门槛。",
+      "revisit_at_book_end": true,
+      "latest_volume": 6
+    },
+    {
+      "origin_volume": 7,
+      "source_question_index": 1,
+      "question": "先知声称龙岛千年未诞幼龙、只剩衰老龙皇，是否属实且完整？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0073",
+          "start_line": 9061,
+          "end_line": 9070
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v07-01",
+      "origin_volumes": [
+        7
+      ],
+      "status": "open",
+      "answer": "千年无幼龙及仅余衰老龙皇是有求于黑龙的先知所述；读者见他隐瞒龙亡灵身份，并不意味着他的龙岛情报已被证伪或证实。截至第7集无人赴岛独立核验。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0073",
+          "start_line": 9058,
+          "end_line": 9070
+        }
+      ],
+      "revisit_focus": "核对龙岛现场、龙皇与幼龙情况，以及先知是否隐瞒其他条件。",
+      "revisit_at_book_end": true,
+      "latest_volume": 7
+    },
+    {
+      "origin_volume": 7,
+      "source_question_index": 2,
+      "question": "古不死帝国所在大陆为何完全消失，安息之海与其有何完整关系？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0073",
+          "start_line": 9190,
+          "end_line": 9216
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v07-02",
+      "origin_volumes": [
+        7
+      ],
+      "status": "open",
+      "answer": "古大陆消失与安息之海的对应由斯科特口述，他明确不知道消失原因；空间转移仅为类比。古战争得到补充不能关闭大陆消失的机制，也不能等同沼泽古国祭坛之谜。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0073",
+          "start_line": 9190,
+          "end_line": 9216
+        }
+      ],
+      "revisit_focus": "分别核对古大陆、安息之海及沼泽古国的历史与机制，避免把不同地点合并。",
+      "revisit_at_book_end": true,
+      "latest_volume": 7
+    },
+    {
+      "origin_volume": 7,
+      "source_question_index": 3,
+      "question": "萝茜背后阴影匕首是否由魅发出？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8771,
+          "end_line": 8776
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v07-03",
+      "origin_volumes": [
+        7
+      ],
+      "status": "open",
+      "answer": "本场只写萝茜背后阴影匕首隐护，没有点名施术者。魅的能力与留守情境构成候选线索，不足建立确定出手关系。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8771,
+          "end_line": 8776
+        }
+      ],
+      "revisit_focus": "核对是否点名暗中保护者；未点名时保留候选而非直接认作魅。",
+      "revisit_at_book_end": true,
+      "latest_volume": 7
+    },
+    {
+      "origin_volume": 7,
+      "source_question_index": 4,
+      "question": "被骨龙扫飞散架的首具金属骷髅何时彻底死亡？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8803,
+          "end_line": 8803
+        },
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8830,
+          "end_line": 8833
+        },
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8880,
+          "end_line": 8880
+        },
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8895,
+          "end_line": 8896
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v07-04",
+      "origin_volumes": [
+        7
+      ],
+      "status": "partial",
+      "answer": "战斗损失两具、逃亡后总损失七具是明确统计，可作为总账。首具被扫飞时只写散架，另一具魂散有直接描写；首具何时失去灵魂未展开，不能把散架自动等同死亡。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8803,
+          "end_line": 8803
+        },
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8830,
+          "end_line": 8833
+        },
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8880,
+          "end_line": 8880
+        },
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8895,
+          "end_line": 8896
+        }
+      ],
+      "revisit_focus": "终点检查是否回补个体损失；若无，保留总数已知、个体过程缺失的双层结论。",
+      "revisit_at_book_end": true,
+      "latest_volume": 7
+    },
+    {
+      "origin_volume": 7,
+      "source_question_index": 5,
+      "question": "信仰元力联系的距离、供给上限及不同誓约的权限有什么限制？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0074",
+          "start_line": 9281,
+          "end_line": 9291
+        },
+        {
+          "chapter_id": "ch-0075",
+          "start_line": 9442,
+          "end_line": 9445
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v07-05",
+      "origin_volumes": [
+        7
+      ],
+      "status": "partial",
+      "answer": "黑龙已感知远端能量；第7集同时明确深层赐魂联系可能连带死亡，斯科特忠诚誓言能供力而无同样后果。供给距离、容量、持续性与其他权限仍无完整规则，不能推为无限供能。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0074",
+          "start_line": 9281,
+          "end_line": 9291
+        },
+        {
+          "chapter_id": "ch-0075",
+          "start_line": 9429,
+          "end_line": 9445
+        }
+      ],
+      "revisit_focus": "核对不同誓约的权限、解除和死亡后果，以及元力距离与供给上限。",
+      "revisit_at_book_end": true,
+      "latest_volume": 7
+    },
+    {
+      "origin_volume": 7,
+      "source_question_index": 6,
+      "question": "本版“蹦Q”“神o”“k”等字符与正文夹入书名是否为编码或替换污染？",
+      "origin_evidence": [
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8837,
+          "end_line": 8837
+        },
+        {
+          "chapter_id": "ch-0073",
+          "start_line": 9103,
+          "end_line": 9105
+        },
+        {
+          "chapter_id": "ch-0075",
+          "start_line": 9491,
+          "end_line": 9491
+        },
+        {
+          "chapter_id": "ch-0075",
+          "start_line": 9515,
+          "end_line": 9515
+        }
+      ],
+      "review_state": "reviewed",
+      "id": "q-v07-06",
+      "origin_volumes": [
+        7
+      ],
+      "status": "text-uncertain",
+      "answer": "现版多处字符和夹入书名影响字面阅读，足以登记来源异常；但仅凭此版不能确定是编码、替换还是传抄造成，更不能恢复全部缺字。",
+      "answer_evidence": [
+        {
+          "chapter_id": "ch-0071",
+          "start_line": 8837,
+          "end_line": 8837
+        },
+        {
+          "chapter_id": "ch-0073",
+          "start_line": 9103,
+          "end_line": 9105
+        },
+        {
+          "chapter_id": "ch-0075",
+          "start_line": 9491,
+          "end_line": 9491
+        },
+        {
+          "chapter_id": "ch-0075",
+          "start_line": 9515,
+          "end_line": 9515
+        }
+      ],
+      "revisit_focus": "全书终点汇总异常对推断的影响；若无可靠对照文本，保留不可确定而不擅修。",
+      "revisit_at_book_end": true,
+      "latest_volume": 7
+    }
+  ],
+  "pending_questions": [],
+  "revision_sources": [
+    {
+      "recorded_volume": 2,
+      "source": "第一集黑二自发护主只能视作意识线索；本集ch-0020 L2273–2290主动称呼、解释和感受表达明确确认意识出现，同时仍无条件服从。"
+    },
+    {
+      "recorded_volume": 2,
+      "source": "第一集十子缺少黄金骷髅天生技能；本集ch-0019 L2074–2078、ch-0020 L2294–2308确认黑大觉醒死神镰刀不完全体，尚不能等同全部成熟骷髅王能力，也仍无自我意识。"
+    },
+    {
+      "recorded_volume": 2,
+      "source": "第一集阿罗约记忆融合不足百分之五且次元空间打不开；本集ch-0020 L2330–2332成功打开，ch-0021 L2336–2351及2374明确完整融合，但魔力不随记忆继承。"
+    },
+    {
+      "recorded_volume": 2,
+      "source": "第一集黑二仅剩头颅和下肢、等待新骨；本集ch-0020 L2267–2270已更换上半身，但长期脆弱状态仍在。"
+    },
+    {
+      "recorded_volume": 2,
+      "source": "第一集斯文哥尔认为同盟境内较安全；本集ch-0023 L2680–2714出现隐匿身份的光明教会白衣信众，证明此判断不能作为绝对禁入规则。"
+    },
+    {
+      "recorded_volume": 2,
+      "source": "第一集图克训练尚未实战出师；本集ch-0014 L1349–1371用耐力和非正统方法赢得出师认可，纯技艺仍不及图克。"
+    },
+    {
+      "recorded_volume": 3,
+      "source": "第二集托付未完成的洛特，本集已由黑龙转生并在七天后醒来，以守护娜娜为条件接受服从；不能继续标为死亡后去向未明。"
+    },
+    {
+      "recorded_volume": 3,
+      "source": "黑龙此前自认为不会疲惫，本集明确体验灵魂耗竭；不死耐力应区分身体与灵魂能量。"
+    },
+    {
+      "recorded_volume": 3,
+      "source": "救赎之魂此前只是追寻目标，本集已获得且星开始使用，但恢复人身的实际效能仍不得确认。"
+    },
+    {
+      "recorded_volume": 4,
+      "source": "第三集疾风合作摩擦后，第四集队伍已离开其据点并开始建设绝幽谷；独立据点从需求转为实施。"
+    },
+    {
+      "recorded_volume": 4,
+      "source": "黑大仍不能标作完成觉醒：本集新增多次自发行为，但L5090仍明确尚未觉醒；可升级为觉醒迹象，不可升级为独立意识已确认。"
+    },
+    {
+      "recorded_volume": 4,
+      "source": "光明教会天使团长传闻获得部分现场证据：副团长亚美里克斯展翼并献祭；正团长未现场出现，不能把部分证实扩大到两人全部身份。"
+    },
+    {
+      "recorded_volume": 4,
+      "source": "圣光对不死者的克制须增加传递方式限制：人皮肌肉能挡低阶直接照射，附剑圣力和打入体内的审判仍有效。"
+    },
+    {
+      "recorded_volume": 4,
+      "source": "黑二本集被明确称为骨骼金属化的黄金骷髅，但与第二集换身后的具体恢复过程仍有缺口，不应自行补一段进化史。"
+    },
+    {
+      "recorded_volume": 5,
+      "source": {
+        "description": "第4集黑七生死未决在本集明确为存活，但灵魂之心缩小到接近白银水平，肉体仍黄金。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0046",
+            "start_line": 5661,
+            "end_line": 5664
+          }
+        ]
+      }
+    },
+    {
+      "recorded_volume": 5,
+      "source": {
+        "description": "第4集岗撒垂手与萝茜受伤的终局本集明确：岗撒死亡，萝茜被黑龙飞剑杀死，圣骑共九名阵亡；随后天使借体另立身份问题。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0045",
+            "start_line": 5483,
+            "end_line": 5487
+          },
+          {
+            "chapter_id": "ch-0045",
+            "start_line": 5540,
+            "end_line": 5562
+          }
+        ]
+      }
+    },
+    {
+      "recorded_volume": 5,
+      "source": {
+        "description": "第3集星饮用救赎之魂、至第4集仍未交代的结果，本集明确为反复神圣焚烧，最终由黑二清除；不代表恢复成活精灵。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0046",
+            "start_line": 5669,
+            "end_line": 5678
+          },
+          {
+            "chapter_id": "ch-0047",
+            "start_line": 5747,
+            "end_line": 5769
+          }
+        ]
+      }
+    },
+    {
+      "recorded_volume": 6,
+      "source": {
+        "description": "第5集的萝茜天使同名疑问本集明确分离：天使占身体、魂气陌生；结尾原萝茜残灵另获黑龙补魂，记忆不完整。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0057",
+            "start_line": 6882,
+            "end_line": 6897
+          },
+          {
+            "chapter_id": "ch-0062",
+            "start_line": 7631,
+            "end_line": 7634
+          },
+          {
+            "chapter_id": "ch-0066",
+            "start_line": 8177,
+            "end_line": 8208
+          }
+        ]
+      }
+    },
+    {
+      "recorded_volume": 6,
+      "source": {
+        "description": "第5集黑大仍未明确真正觉醒；本集自主身份问答并断开深层控制，首次确证完整觉醒。此前可能渐进只能作为本集回顾推测。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0057",
+            "start_line": 6984,
+            "end_line": 7005
+          }
+        ]
+      }
+    },
+    {
+      "recorded_volume": 6,
+      "source": {
+        "description": "第5集认为呼唤可能来自龙墓是黑龙假设，本集斯科特确认亡灵印记与哀嚎森林往生者国度的联系。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0064",
+            "start_line": 7881,
+            "end_line": 7897
+          }
+        ]
+      }
+    },
+    {
+      "recorded_volume": 6,
+      "source": {
+        "description": "第5集沙下大量骸骨来历未明，本集斯科特叙述为远古跨种族大战遗迹；大战原因、胜负依然无据。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0065",
+            "start_line": 7945,
+            "end_line": 7955
+          }
+        ]
+      }
+    },
+    {
+      "recorded_volume": 6,
+      "source": {
+        "description": "第5集瞬发幽暗幻界只示免物理伤，本集补明施法耗时耗能且加持者也不能物攻；黑龙可瞬发是异常优势。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0057",
+            "start_line": 6907,
+            "end_line": 6924
+          }
+        ]
+      }
+    },
+    {
+      "recorded_volume": 6,
+      "source": {
+        "description": "第5集泰戈仍活人、抽魂只是风暴备用计划；本集先黑大杀死、再黑龙紫魂转生，随后确为尸巫。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0057",
+            "start_line": 7007,
+            "end_line": 7008
+          },
+          {
+            "chapter_id": "ch-0058",
+            "start_line": 7064,
+            "end_line": 7073
+          },
+          {
+            "chapter_id": "ch-0059",
+            "start_line": 7227,
+            "end_line": 7232
+          }
+        ]
+      }
+    },
+    {
+      "recorded_volume": 7,
+      "source": {
+        "description": "第6集的斯科特史诗说明并非完整公开史料：本集他明确承认隐瞒，补充生死之战与古帝国压迫史；此前关于他全知或完全坦白的推断均应收回。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0073",
+            "start_line": 9106,
+            "end_line": 9116
+          }
+        ]
+      }
+    },
+    {
+      "recorded_volume": 7,
+      "source": {
+        "description": "此前对吞噬是否必然灭魂的疑问获得限定补充：本集明确说不死生物被吞噬会消散、吞噬更强者会反噬；仍不能直接推广到黑龙只吸生命遗体能量的所有情形。",
+        "evidence": [
+          {
+            "chapter_id": "ch-0071",
+            "start_line": 8823,
+            "end_line": 8826
+          }
+        ]
+      }
+    }
+  ],
+  "status_counts": {
+    "open": 15,
+    "partial": 18,
+    "text-uncertain": 26,
+    "answered": 3
+  },
+  "book_end_review": {
+    "required": true,
+    "basis": "本账本只登记第1—7集所提问题；之后新增问题须另行纳入全书终点回核。",
+    "unresolved_question_ids": [
+      "q-v01-01",
+      "q-v01-02",
+      "q-v01-03",
+      "q-v01-04",
+      "q-v01-05",
+      "q-v01-06",
+      "q-v01-07",
+      "q-v01-08",
+      "q-v01-09",
+      "q-v02-01",
+      "q-v02-02",
+      "q-v02-03",
+      "q-v02-04",
+      "q-v02-05",
+      "q-v02-06",
+      "q-v02-07",
+      "q-v02-08",
+      "q-v02-09",
+      "q-v02-10",
+      "q-v02-11",
+      "q-v02-12",
+      "q-v03-01",
+      "q-v03-02",
+      "q-v03-03",
+      "q-v03-04",
+      "q-v03-05",
+      "q-v03-06",
+      "q-v03-07",
+      "q-v03-08",
+      "q-v04-03",
+      "q-v04-04",
+      "q-v04-05",
+      "q-v04-06",
+      "q-v04-07",
+      "q-v04-08",
+      "q-v04-09",
+      "q-v04-10",
+      "q-v04-11",
+      "q-v05-02",
+      "q-v05-03",
+      "q-v05-04",
+      "q-v05-05",
+      "q-v05-06",
+      "q-v06-01",
+      "q-v06-02",
+      "q-v06-03",
+      "q-v06-04",
+      "q-v06-05",
+      "q-v06-06",
+      "q-v06-07",
+      "q-v06-08",
+      "q-v06-09",
+      "q-v06-10",
+      "q-v07-01",
+      "q-v07-02",
+      "q-v07-03",
+      "q-v07-04",
+      "q-v07-05",
+      "q-v07-06"
+    ],
+    "narrative_and_rule_questions": [
+      "q-v01-01",
+      "q-v01-02",
+      "q-v01-03",
+      "q-v01-04",
+      "q-v01-05",
+      "q-v02-01",
+      "q-v02-02",
+      "q-v02-03",
+      "q-v02-04",
+      "q-v02-10",
+      "q-v02-11",
+      "q-v02-12",
+      "q-v03-01",
+      "q-v03-06",
+      "q-v03-07",
+      "q-v04-03",
+      "q-v04-08",
+      "q-v04-09",
+      "q-v04-10",
+      "q-v05-02",
+      "q-v05-03",
+      "q-v05-06",
+      "q-v06-01",
+      "q-v06-02",
+      "q-v06-03",
+      "q-v06-04",
+      "q-v06-05",
+      "q-v06-10",
+      "q-v07-01",
+      "q-v07-02",
+      "q-v07-03",
+      "q-v07-04",
+      "q-v07-05"
+    ],
+    "textual_uncertainties": [
+      "q-v01-06",
+      "q-v01-07",
+      "q-v01-08",
+      "q-v01-09",
+      "q-v02-05",
+      "q-v02-06",
+      "q-v02-07",
+      "q-v02-08",
+      "q-v02-09",
+      "q-v03-02",
+      "q-v03-03",
+      "q-v03-04",
+      "q-v03-05",
+      "q-v03-08",
+      "q-v04-04",
+      "q-v04-05",
+      "q-v04-06",
+      "q-v04-07",
+      "q-v04-11",
+      "q-v05-04",
+      "q-v05-05",
+      "q-v06-06",
+      "q-v06-07",
+      "q-v06-08",
+      "q-v06-09",
+      "q-v07-06"
+    ],
+    "already_answered_narrow_questions": [
+      "q-v04-01",
+      "q-v04-02",
+      "q-v05-01"
+    ],
+    "instruction": "全书终点按原问法逐条追查后续证据；没有答案的仍保留open/partial，文本差异没有可靠校勘依据的仍保留text-uncertain。不得因读到末尾或线索不再出现而自动关闭。"
+  },
+  "source_id": "src-9ff09c395734410b856f77c77a652834",
+  "revision": "5f301997b4d29495fcd6a6e3b9237e977741b84efafd6603e5e1d56e2a567f7d",
+  "validation": {
+    "question_count": 62,
+    "unique_ids": 62,
+    "evidence_references": 243,
+    "evidence_flat": true,
+    "evidence_within_chapter": true,
+    "max_evidence_volume": 7,
+    "pending_count": 0
+  }
+}

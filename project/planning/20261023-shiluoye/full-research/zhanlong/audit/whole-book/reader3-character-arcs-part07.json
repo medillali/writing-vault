@@ -1,0 +1,418 @@
+{
+  "status": "stable_group_draft_pending_primary_review",
+  "section": "characters",
+  "scope": "仅primary分配reader3前40既有NPC及24补核对象；六卷团队全文覆盖，不冒本人全书独读。",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "group_number": 7,
+  "actual_reviewer": "/root/zongheng_vol03_full",
+  "formal_input_sha256": {
+    "writing-vault/library/reports/zhanlong/vol01-cards.json": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+    "writing-vault/library/reports/zhanlong/vol01-analysis.json": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+    "writing-vault/library/reports/zhanlong/vol01-handoff.md": "d7d0ba462756640ae5cea1a449c8323630afaf4bda1ad377e2e82d22d2a2bf75",
+    "writing-vault/library/reports/zhanlong/vol01-read-log.json": "e44fc5ac3cf94fc934636d617b4a884106b20226e4efa29cc569970e4d707c95",
+    "writing-vault/library/reports/zhanlong/vol02-cards.json": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+    "writing-vault/library/reports/zhanlong/vol02-analysis.json": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+    "writing-vault/library/reports/zhanlong/vol02-handoff.md": "83252ea006170d1d6f1c21fe8f5ae3708ca4481304458c7f23dfb6a0a05d8960",
+    "writing-vault/library/reports/zhanlong/vol02-read-log.json": "cfedfdf3d250fa877eca46430d71e9578f488435c8a1980e29aff98fa07b0f1b",
+    "writing-vault/library/reports/zhanlong/vol03-cards.json": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+    "writing-vault/library/reports/zhanlong/vol03-analysis.json": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+    "writing-vault/library/reports/zhanlong/vol03-handoff.md": "ac83c6ce60443f122241171ee2297ad9d33542cf128ce203d12c1f332b56dec1",
+    "writing-vault/library/reports/zhanlong/vol03-read-log.json": "a1907247e1e00f640955d17c1f82ed174367a1b299f4e6e179650f46f56f6bf1",
+    "writing-vault/library/reports/zhanlong/vol04-cards.json": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+    "writing-vault/library/reports/zhanlong/vol04-analysis.json": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+    "writing-vault/library/reports/zhanlong/vol04-handoff.md": "438f63229dcbacd05ff8a00862da1a7394ac0f4e4e685aa6be8a88588a66b745",
+    "writing-vault/library/reports/zhanlong/vol04-read-log.json": "2acb9d39121940006bdbe431cdceba5ed94432278351a2ffad8b1cdfb1404d00",
+    "writing-vault/library/reports/zhanlong/vol05-cards.json": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+    "writing-vault/library/reports/zhanlong/vol05-analysis.json": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+    "writing-vault/library/reports/zhanlong/vol05-handoff.md": "008ab7e94733b989dbb1ca2fe2d2dc1f948e6b35eb7c69cde468b91e3d4560f2",
+    "writing-vault/library/reports/zhanlong/vol05-read-log.json": "f97dacd7289fead98521943c163c3fb7b043e8b3d9f730e7545774b3e4a5d787",
+    "writing-vault/library/reports/zhanlong/vol06-cards.json": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+    "writing-vault/library/reports/zhanlong/vol06-analysis.json": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+    "writing-vault/library/reports/zhanlong/vol06-handoff.md": "476c27db8d91a0ac05f068964ea7c55f59558511b3910f505d3c6e9f2ab3c012",
+    "writing-vault/library/reports/zhanlong/vol06-read-log.json": "f425106d4776356ee90ab294a11ead8163126e6201e5cbf939b6e0ecafa9f5ea",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-yan-recommendation.json": "e2e4799a7fd9ef187af296f6b93c1d0aefcfbf0c01e67deaf8c4fbea5b7b13ea",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-identity.json": "a39e58be5de82b3ba128651880e03596b66e4d8e98bdc87ea5deccaff3e3a619"
+  },
+  "characters": [
+    {
+      "audit_id": "character-arc-r3-041",
+      "name": "沧澜",
+      "roster_onebased_index": 41,
+      "initial_comparison_stage": "被神话史、武器名与其他异魔的恐惧逐步引出的首王；1068兰娜瑟尔以献祭左臂、死契与诸王生存危机介绍其复苏危险，渠道并非主角现场看破封。",
+      "key_decisions": "突破封印后实际率军，对佩身、流霜与人类形成控制和吞噬威胁。1217亲自破土追击，1237以无视玩家不灭的攻击杀李并毁刀锋山，随后因战局变化带王退兵。1330再战中受李牵制、流霜星域与兰娜三箭夹击，不能归成李单杀。",
+      "costs": "长期压迫同阵营者使兰娜等寻求敌方保护；战力优势仍受召魔分力、协同命中与反噬限制。肉体被毁不等灵魂即时灭绝。",
+      "terminal_state": "1331肉身毁、黑气魂逃；1350石林卡报告其欲吞希芙反被玄月镜炼魂、部分力量归希。1369主旁白与当面交涉沿用此结果，不是希芙亲口供述吞魂全过程，亦不是主现场目睹。未见沧独立再现。",
+      "evidence_boundaries": "首王夸称要养流霜后吞是其言论，不当已完成。魂逃与后反炼分期，不把1330爆炸提前写永久魂灭；后证有败军报告及叙述层，不因缺完整战斗镜头拒认后文本确立的结局。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1068",
+          "start_line": 78378,
+          "end_line": 78446,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1094",
+          "start_line": 80115,
+          "end_line": 80179,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1217",
+          "start_line": 88499,
+          "end_line": 88553,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1237",
+          "start_line": 89717,
+          "end_line": 89783,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1330",
+          "start_line": 95867,
+          "end_line": 95926,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1331",
+          "start_line": 95927,
+          "end_line": 95994,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1350",
+          "start_line": 97143,
+          "end_line": 97213,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1369",
+          "start_line": 98431,
+          "end_line": 98502,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "六卷对应状态无独立人物条；完整接读西瓦娜卡及相关六handoff；所列八章四栏完整派生读，后文渠道按primary已核边界保留，非个人全书独读。",
+      "priority_layers": []
+    },
+    {
+      "audit_id": "character-arc-r3-042",
+      "name": "西奥多",
+      "roster_onebased_index": 42,
+      "initial_comparison_stage": "天翎皇储与炎龙军权代表；607对九泉地盘的夺取受安吉拉与流霜阻止，说明其权威受城邦和超常武力制约。",
+      "key_decisions": "整军、用刑和南征时既要战绩又维护皇权，820提出杀降并获国王授权，执行与主角最终退让均保；临战听龙劫预言后急撤，832被罗林破中军并斩首。",
+      "costs": "权势与护军无法保他免于溃败，自己的弃阵又扩大危机；其死后元戎短暂被夺，军队仍由他人接管，不等皇储权位被李继承。",
+      "terminal_state": "832真正斩首死亡，徐翊护尸及后续追究死亡归责为后证；917两个不足十岁的儿子也有被杀死讯，但幕后凶手仍未证实。未见西奥多本人复活。",
+      "evidence_boundaries": "不并欧恩/洛浅林，旧皇储亲属链不等后新君为其子。不得因李临掌元戎就写李亲杀西奥多；杀者罗林与后罗林系统尾刀问剑各自分开。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0607",
+          "start_line": 48578,
+          "end_line": 48658,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0820",
+          "start_line": 63066,
+          "end_line": 63118,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0821",
+          "start_line": 63119,
+          "end_line": 63175,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0832",
+          "start_line": 63730,
+          "end_line": 63792,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0834",
+          "start_line": 63853,
+          "end_line": 63906,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0917",
+          "start_line": 68910,
+          "end_line": 68964,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读安吉拉/佩儿关系卡、六handoff、607/832/917四栏；820/821本轮综合阶段已完整核源，卷4首读本人。",
+      "priority_layers": []
+    },
+    {
+      "audit_id": "character-arc-r3-043",
+      "name": "百里宁",
+      "roster_onebased_index": 43,
+      "initial_comparison_stage": "长风军统领与佩儿的老师，以军纪、皇统和魔法能力参与帝国军政；792—799与御林协作并有教练/传技关系，不只是待退休占位者。",
+      "key_decisions": "能反对不合皇统的拥立，也在撤退中作战；1192燕想获荐接其职位，彼时只是燕的申请。1229以风种禁咒重创斯特拉并托李救佩，不愿则毁其体以免受辱；力竭时先被李救活，1230才见其被佩身斩首后的头颅。",
+      "costs": "耗力仍没有当场杀王，后来遭自己学生的身体所害；身体与原佩意志不能不分。1231头被注雷掷出毁伤军士，死亡没有因救回原公主而逆转。",
+      "terminal_state": "1230真死、1231头毁；追赠与亲王礼葬属于纪念，燕战时代理再正式接职属于继任，均非百里宁复生。原救佩托付后来1349原魂救回有实际回收，而非他临终愿望永不落实。",
+      "evidence_boundaries": "不并火象国王百里伦或玩家百里若风。燕的1192荐替、1234战时代理、1244正式分期，优先yan纠正层；不把原先“命将尽”预期提前当1229已死。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0792",
+          "start_line": 61258,
+          "end_line": 61324,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0799",
+          "start_line": 61740,
+          "end_line": 61802,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0917",
+          "start_line": 68910,
+          "end_line": 68964,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1192",
+          "start_line": 86857,
+          "end_line": 86902,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1229",
+          "start_line": 89200,
+          "end_line": 89267,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1230",
+          "start_line": 89268,
+          "end_line": 89342,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1231",
+          "start_line": 89343,
+          "end_line": 89404,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1234",
+          "start_line": 89517,
+          "end_line": 89582,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1244",
+          "start_line": 90127,
+          "end_line": 90184,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1349",
+          "start_line": 97068,
+          "end_line": 97142,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读对应正式卡content/evidence、六卷对应人物状态及交接；必要四栏另列，非新独读全书。",
+      "priority_layers": [
+        "writing-vault/library/reports/zhanlong/audit/priority-corrections-yan-recommendation.json"
+      ]
+    },
+    {
+      "audit_id": "character-arc-r3-044",
+      "name": "百里伦",
+      "roster_onebased_index": 44,
+      "initial_comparison_stage": "火象城国王，是城战中的NPC君主；与人类玩家百里若风的同姓和战场相邻容易造成身份误合。",
+      "key_decisions": "指挥守城并继续抵抗，879本人仍实际现身；884射中佩儿，885由李逍遥斩首。对佩儿的致命伤与自己被斩具有各自行动者，不能全归成系统攻城结算。",
+      "costs": "王城易手和本人死亡是真实失败；他的箭导致佩原身真死，不能以佩后来被借体/原魂复苏抹去这一阶段后果。",
+      "terminal_state": "885现场被李斩首，未见其本人专属复活后证。861清眸杀的是玩家百里若风，不存在先杀死百里伦后又无解释复现的必然矛盾。",
+      "evidence_boundaries": "原卡与旧notes的“861百里伦死后再现”是研究误录，保原record而以identity外置层纠正；不能为它编同名两王或NPC复活机制。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0859",
+          "start_line": 65487,
+          "end_line": 65534,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0861",
+          "start_line": 65583,
+          "end_line": 65645,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0879",
+          "start_line": 66578,
+          "end_line": 66623,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0884",
+          "start_line": 66846,
+          "end_line": 66907,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0885",
+          "start_line": 66908,
+          "end_line": 66992,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读对应正式卡content/evidence、六卷对应人物状态及交接；必要四栏另列，非新独读全书。",
+      "priority_layers": [
+        "writing-vault/library/reports/zhanlong/audit/priority-corrections-identity.json"
+      ]
+    },
+    {
+      "audit_id": "character-arc-r3-045",
+      "name": "龙忠",
+      "roster_onebased_index": 45,
+      "initial_comparison_stage": "899以前为偏将军，朝会实际擢为上将并任炎龙新统帅，接续徐翊死后的军权；与守御林的龙硎为独立人物，不能因检索命中“斩龙忠烈营”造其早期龙城履历。",
+      "key_decisions": "接受朝封并在后续朝政/军争中支持对御林的压制，978与秦烨一方迎战。韩渊断双臂、萧厉穿胸，李等玩家与池兄妹炎鹰协同杀死他，不能写成李一人单杀。",
+      "costs": "政治站队与战场判断付出军败及本人死亡代价，军衔高不能免协同围击。后续新统领不能反证龙忠复活。",
+      "terminal_state": "978明确死亡。源1288命中“龙忠”实为“斩龙忠烈营”词内，并非人物提名或复生后证；未见本人恢复。",
+      "evidence_boundaries": "899上将、919正二称衔差可保在其本人记录，不能转嫁龙硎；秦烨与龙忠同战死亡但分人分动作。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0899",
+          "start_line": 67785,
+          "end_line": 67836,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0919",
+          "start_line": 69030,
+          "end_line": 69087,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0975",
+          "start_line": 72491,
+          "end_line": 72548,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0978",
+          "start_line": 72684,
+          "end_line": 72755,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1288",
+          "start_line": 93141,
+          "end_line": 93203,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读对应正式卡content/evidence、六卷对应人物状态及交接；必要四栏另列，非新独读全书。",
+      "priority_layers": [
+        "writing-vault/library/reports/zhanlong/audit/priority-corrections-identity.json"
+      ]
+    }
+  ],
+  "access_log": "r3-041—045补核五人：六卷对应人物状态检索无独立条，完整接读相关安吉拉/佩儿/清眸/西瓦娜卡content与证据、六handoff相关段；1068/1094/1114/1217/1229/1230/1231/1237/1243/1288/1330/1350/1369/607/832/885/899/978/917四栏完整读。卷4本代理首读、其他卷派生归属不改；沿identity/yan层纠正文。"
+}

@@ -1,0 +1,104 @@
+# 贼胆｜列昂纳多｜E0202
+
+ID: `chr-zeidan-legacy-e0202` · 版本: 1 · 范围: source-analysis
+
+少年父母被霍尔斯杀，凶手伪恩收他为吸血后裔驱使杀牧师；后知真相。；莉莎接纳吸血鬼的他，愿舍永生求短暂普通相伴，霍尔斯杀莉莎毁爱；列假忠图复仇。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0202",
+  "asset_type": "character",
+  "content": {
+    "aliases": [
+      "黑夜憎恨者",
+      "黑暗憎恨者"
+    ],
+    "causal_importance": "副本高",
+    "facts": [
+      "少年父母被霍尔斯杀，凶手伪恩收他为吸血后裔驱使杀牧师；后知真相。",
+      "莉莎接纳吸血鬼的他，愿舍永生求短暂普通相伴，霍尔斯杀莉莎毁爱；列假忠图复仇。",
+      "控制萧吸血转化、威吓赵但内心并未真拟伤她，最终借二人杀霍尔斯，给恢复药与出口后留崩塌洞中，叙述判必死无尸确认。"
+    ],
+    "id": "part-c:entity:leonardo",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0202",
+    "maintenance_depth": "重要",
+    "name": "列昂纳多",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0202",
+    "summary": "少年父母被霍尔斯杀，凶手伪恩收他为吸血后裔驱使杀牧师；后知真相。；莉莎接纳吸血鬼的他，愿舍永生求短暂普通相伴，霍尔斯杀莉莎毁爱；列假忠图复仇。",
+    "user_feedback": null,
+    "worker_part": "part-c"
+  },
+  "created_at": "2026-10-22T17:03:13.114313+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0339",
+      "claim_kind": "fact",
+      "end_line": 18825,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18773
+    },
+    {
+      "chapter_id": "ch-0340",
+      "claim_kind": "fact",
+      "end_line": 18888,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18826
+    },
+    {
+      "chapter_id": "ch-0341",
+      "claim_kind": "fact",
+      "end_line": 18960,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18889
+    },
+    {
+      "chapter_id": "ch-0342",
+      "claim_kind": "fact",
+      "end_line": 19023,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18961
+    },
+    {
+      "chapter_id": "ch-0345",
+      "claim_kind": "fact",
+      "end_line": 19217,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 19150
+    },
+    {
+      "chapter_id": "ch-0346",
+      "claim_kind": "fact",
+      "end_line": 19361,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 19218
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0202",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-c"
+  ],
+  "title": "贼胆｜列昂纳多｜E0202",
+  "updated_at": "2026-10-22T17:03:13.120312+00:00",
+  "user_notes": ""
+}
+
+```

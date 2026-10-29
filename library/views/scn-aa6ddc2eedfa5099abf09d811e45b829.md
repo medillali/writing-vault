@@ -1,0 +1,70 @@
+# 艾斯战与装备不适用
+
+ID: `scn-aa6ddc2eedfa5099abf09d811e45b829` · 版本: 1 · 范围: source-analysis
+
+艾斯斩首、三满晶/炎神不换镇龙、耀阳拟斗未交
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-aa6ddc2eedfa5099abf09d811e45b829",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "重造人物目的、约束、信息渠道与代价后才可迁移；不直接搬用情节、数表或世界设定。",
+    "choice": "15缴15非缴轮转狼分卡位/狂撞真退晕",
+    "claim_kind": "synthesis",
+    "consequence": "艾斯斩首、三满晶/炎神不换镇龙、耀阳拟斗未交",
+    "failure_mode": "单人胜不能概括全炼狱神一模一样易打",
+    "goal": "破首层镇守",
+    "obstacle": "322神明/9亿血，缴械空档/补给耗",
+    "state_change": "击杀不等每件可装备/已给伙伴",
+    "summary": "艾斯斩首、三满晶/炎神不换镇龙、耀阳拟斗未交",
+    "why_it_works": "将新神技放入旧技节奏检验并保药耗"
+  },
+  "created_at": "2026-10-25T00:16:11.650985+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1470",
+      "claim_kind": "fact",
+      "end_line": 116503,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 116432
+    },
+    {
+      "chapter_id": "ch-1471",
+      "claim_kind": "fact",
+      "end_line": 116588,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 116504
+    },
+    {
+      "chapter_id": "ch-1472",
+      "claim_kind": "fact",
+      "end_line": 116665,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 116589
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol07/scene/first",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:7",
+    "状态:待审阅"
+  ],
+  "title": "艾斯战与装备不适用",
+  "updated_at": "2026-10-25T00:16:11.651985+00:00",
+  "user_notes": ""
+}
+
+```

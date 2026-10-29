@@ -1,0 +1,42 @@
+{
+  "authorization": "primary批准d7bf最小提案，仅一文学字段两raw数互换",
+  "before_json_sha256": "1beb29e39d3e3de9a4a6168fa3c1a89217af561c2c479f03854bae7ce0a0922c",
+  "after_json_sha256": "4629326e89133a8dc661448ae395c76c43913dbe4b6ef2c170849a40891b4737",
+  "before_md_sha256": "c93b4d5bb53eac66d7c9842a3f56a98e95aff9a06cf118ce4edf9bf85870a695",
+  "after_md_sha256": "7d61d358bc0dd2a6cd93d7414395b83ce669bbd1a620deb3408c834650ab88f4",
+  "changes": [
+    {
+      "path": [
+        "characters",
+        1,
+        "terminal_state"
+      ],
+      "before": "现实沈冰已殉职并安葬；1357沈母由拒绝到签署授权，1359队友祭墓仍成立。1386白墨颜记忆人物实际苏醒并进入公会交流，属于游戏衍生存在的明确后证，不能称沈冰现实复活。阿雷同列记忆系统计划，但没有与白墨颜同等的实际醒来镜头，不把两人一并宣为已经复生。",
+      "proposed_after": "现实沈冰已殉职并安葬；1359沈母由拒绝到签署授权，1357队友祭墓仍成立。1386白墨颜记忆人物实际苏醒并进入公会交流，属于游戏衍生存在的明确后证，不能称沈冰现实复活。阿雷同列记忆系统计划，但没有与白墨颜同等的实际醒来镜头，不把两人一并宣为已经复生。"
+    }
+  ],
+  "all_other_values_unchanged": true,
+  "md_only_same_sentence_replaced": true,
+  "source_check": {
+    "actual_reviewer": "zongheng_vol05_full",
+    "attribution": "本次实际逐行完整再读raw1357/1358/1359全部索引行L97621—97823，原首次全文归属不变；primary已独立读并指出时点。",
+    "evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1357",
+        "start_line": 97667,
+        "end_line": 97676,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1359",
+        "start_line": 97757,
+        "end_line": 97807,
+        "claim_kind": "fact"
+      }
+    ]
+  }
+}

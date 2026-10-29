@@ -1,0 +1,80 @@
+{
+  "status": "passed-structural-checks",
+  "review_status": "draft",
+  "source_id": "src-2a13958390274509b2af019f6b12d981",
+  "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+  "volume": 4,
+  "body_units": 178,
+  "index_segments": 178,
+  "full_text_read": 178,
+  "complete_volume": true,
+  "complete_book": false,
+  "truncated_pending": [],
+  "dimensions": {
+    "worldbuilding": 4,
+    "characters": 4,
+    "plot": 4,
+    "style": 4,
+    "narrative": 4,
+    "dialogue": 4,
+    "pacing": 4,
+    "themes": 4,
+    "continuity": 4
+  },
+  "cards": {
+    "character": 18,
+    "scene": 22,
+    "pattern": 8
+  },
+  "graph": {
+    "nodes": 33,
+    "edges": 27,
+    "threads": 7,
+    "knowledge_entries": 7
+  },
+  "evidence_locators_checked": 914,
+  "checks": [
+    "read-log/notes/state/analysis/graph精确连续同覆盖",
+    "每个evidence源修订/章内行号/claim_kind齐全",
+    "九维事实与解释分开",
+    "卡片origin_key唯一且机制引用本批场景",
+    "树单根无环，边线程端点有效，枚举合法，主线未误标resolved",
+    "narrative_order对准主事件章且有本节点证据",
+    "图事件asset_origin_key可映射本批场景，人物/知识observer可映射本批人物",
+    "全部draft无用户收藏审美写入"
+  ],
+  "limitations": [
+    "结构校验不证明文学解释正确或用户认可。",
+    "本阅读者卷三前史待主代理衔接，卷五结算未倒灌。"
+  ],
+  "artifacts": {
+    "chapter-notes.jsonl": {
+      "bytes": 164592,
+      "sha256": "71c994377d216fca46d0e570de015ad03d5839a5decbf921210b7dd7485bdbc8"
+    },
+    "read-log.json": {
+      "bytes": 24109,
+      "sha256": "512dcf51cc228996db5cd6b6d68bb7141032688608e4ca9e2d19fe1b2713cf3b"
+    },
+    "analysis.json": {
+      "bytes": 219531,
+      "sha256": "7d23553deef2a37e9520ffcfde6ce7ba604939695f7d2d44accac416a480ca61"
+    },
+    "cards.json": {
+      "bytes": 132210,
+      "sha256": "8d710efce8d973e1aa298b069e2b65128e3049c93e3d0f038158d4631551bfd4"
+    },
+    "graph.json": {
+      "bytes": 92462,
+      "sha256": "bf5f475705876a413be38c9eba6a4e08c582ec704105da2cd2f6c51a65c686a4"
+    },
+    "report.md": {
+      "bytes": 10551,
+      "sha256": "2da2afec9cc0c8c31d6c0430c65af81b8954f4546cffd699cb26862a175391b4"
+    },
+    "handoff.md": {
+      "bytes": 6136,
+      "sha256": "3a4e368ed50a1b384992f6d5683436d11b3f1c5e57f377743873b85b4f0da10c"
+    }
+  }
+}

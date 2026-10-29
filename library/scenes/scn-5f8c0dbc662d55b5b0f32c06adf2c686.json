@@ -1,0 +1,84 @@
+{
+  "asset_id": "scn-5f8c0dbc662d55b5b0f32c06adf2c686",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "现实生活线",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/waner",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/dongcheng",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/tangqi",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/linfather",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/qinwen"
+    ],
+    "choice": "问父、实付、分房、配保安员工",
+    "claim_kind": "inference",
+    "consequence": "四人真迁/秦后到，非全已情侣或同床",
+    "failure_mode": "不拿父同住许可作婚约，买房仍未实购",
+    "goal": "提高现实安全并共同生活",
+    "narrative_order": 651,
+    "obstacle": "父控制/恋爱边界/租金",
+    "state_change": "生活愿望有钱、权限和空间的可见条件",
+    "summary": "林8万转租南苑，父允且派一楼人，李林东唐实搬、秦后来实际入住。",
+    "why_it_works": "从提案到履行有回执"
+  },
+  "created_at": "2026-10-25T20:23:25.165127+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0608",
+      "claim_kind": "fact",
+      "end_line": 48734,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 48659
+    },
+    {
+      "chapter_id": "ch-0609",
+      "claim_kind": "fact",
+      "end_line": 48812,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 48735
+    },
+    {
+      "chapter_id": "ch-0620",
+      "claim_kind": "fact",
+      "end_line": 49678,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 49605
+    },
+    {
+      "chapter_id": "ch-0640",
+      "claim_kind": "fact",
+      "end_line": 51018,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 50943
+    },
+    {
+      "chapter_id": "ch-0651",
+      "claim_kind": "fact",
+      "end_line": 51863,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 51784
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/scene/cohabit",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "同居的兑现是住进各自房间",
+  "updated_at": "2026-10-25T20:23:25.165127+00:00",
+  "user_notes": ""
+}

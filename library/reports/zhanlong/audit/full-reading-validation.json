@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-25T21:16:20.486569+00:00",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "source_revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "body_units": 1378,
+  "indexed_segments": 1386,
+  "volumes": [
+    {
+      "volume": 1,
+      "body_units": 248,
+      "indexed_segments": 250,
+      "dimensions": 9,
+      "cards": {
+        "character": 43,
+        "scene": 47,
+        "pattern": 12
+      },
+      "notes": "vol01-chapter-notes.jsonl",
+      "readers": {
+        "/root/zongheng_vol03_full": 150,
+        "primary": 100
+      }
+    },
+    {
+      "volume": 2,
+      "body_units": 252,
+      "indexed_segments": 253,
+      "dimensions": 9,
+      "cards": {
+        "character": 45,
+        "scene": 44,
+        "pattern": 12
+      },
+      "notes": "vol02-chapter-notes.jsonl",
+      "readers": {
+        "/root/zongheng_vol04_full": 153,
+        "primary": 100
+      }
+    },
+    {
+      "volume": 3,
+      "body_units": 248,
+      "indexed_segments": 249,
+      "dimensions": 9,
+      "cards": {
+        "character": 50,
+        "scene": 50,
+        "pattern": 14
+      },
+      "notes": "vol03-chapter-notes.jsonl",
+      "readers": {
+        "zongheng_vol05_full": 149,
+        "primary": 100
+      }
+    },
+    {
+      "volume": 4,
+      "body_units": 214,
+      "indexed_segments": 215,
+      "dimensions": 9,
+      "cards": {
+        "character": 45,
+        "scene": 47,
+        "pattern": 12
+      },
+      "notes": "vol04-chapter-notes.jsonl",
+      "readers": {
+        "/root/zongheng_vol03_full": 215
+      }
+    },
+    {
+      "volume": 5,
+      "body_units": 210,
+      "indexed_segments": 211,
+      "dimensions": 9,
+      "cards": {
+        "character": 56,
+        "scene": 54,
+        "pattern": 16
+      },
+      "notes": "vol05-chapter-notes.jsonl",
+      "readers": {
+        "/root/zongheng_vol04_full": 211
+      }
+    },
+    {
+      "volume": 6,
+      "body_units": 206,
+      "indexed_segments": 207,
+      "dimensions": 9,
+      "cards": {
+        "character": 32,
+        "scene": 58,
+        "pattern": 12
+      },
+      "notes": "vol06-chapter-notes.jsonl",
+      "readers": {
+        "zongheng_vol05_full": 207
+      }
+    }
+  ],
+  "cards": {
+    "character": 271,
+    "scene": 300,
+    "pattern": 78
+  },
+  "source_total_cards": {
+    "character": 271,
+    "scene": 300,
+    "pattern": 78
+  },
+  "retained_cards_outside_volume_packages": [],
+  "formal_input_sha256": {
+    "vol01-analysis.json": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+    "vol01-read-log.json": "e44fc5ac3cf94fc934636d617b4a884106b20226e4efa29cc569970e4d707c95",
+    "vol01-graph.json": "0c25e6b7205a9ffa382f5c668f71331494b3c38e72065de2b871591bc7ba8848",
+    "vol01-cards.json": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+    "vol01-chapter-notes.jsonl": "d7fe8d4763764d39cc5e383d51947ef7abae166448d7849336b23a7f6467adf5",
+    "vol02-analysis.json": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+    "vol02-read-log.json": "cfedfdf3d250fa877eca46430d71e9578f488435c8a1980e29aff98fa07b0f1b",
+    "vol02-graph.json": "6337f87e59ec5bf5390f16eba60c822c9775e73e745d5bc993315047c1df4db3",
+    "vol02-cards.json": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+    "vol02-chapter-notes.jsonl": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+    "vol03-analysis.json": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+    "vol03-read-log.json": "a1907247e1e00f640955d17c1f82ed174367a1b299f4e6e179650f46f56f6bf1",
+    "vol03-graph.json": "80a5cbed006ff9b600e3ad1f87feebe13281bd7c4712c5cd7c98051311f2c248",
+    "vol03-cards.json": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+    "vol03-chapter-notes.jsonl": "c38395d6a665f189de112f74eeb028c52583586bcf417cc3c816ff606bcd2e20",
+    "vol04-analysis.json": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+    "vol04-read-log.json": "2acb9d39121940006bdbe431cdceba5ed94432278351a2ffad8b1cdfb1404d00",
+    "vol04-graph.json": "a4d0a2eeba7a8ea5fca1d92bcfa843d742e16ccacb0e6e0e128d7ecd21373c04",
+    "vol04-cards.json": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+    "vol04-chapter-notes.jsonl": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+    "vol05-analysis.json": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+    "vol05-read-log.json": "f97dacd7289fead98521943c163c3fb7b043e8b3d9f730e7545774b3e4a5d787",
+    "vol05-graph.json": "2a6ad806f3b9328d05cbdaafc2a95fb0294f4f3538c071ed0c234769798bc1c7",
+    "vol05-cards.json": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+    "vol05-chapter-notes.jsonl": "07d8db90c0acbfc0511b5a5940aebbd643a5cf20d59723f8a05035a0f176ac9a",
+    "vol06-analysis.json": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+    "vol06-read-log.json": "f425106d4776356ee90ab294a11ead8163126e6201e5cbf939b6e0ecafa9f5ea",
+    "vol06-graph.json": "b2bec142607da68c578fbf67c4eb5c6965733e5bd8fd5b1095fce0ea8ec7a836",
+    "vol06-cards.json": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+    "vol06-chapter-notes.jsonl": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57"
+  },
+  "limits": [
+    "全文实际阅读由逐章笔记及读者记录证明，结构检查只核对它们的一致性",
+    "分卷包卡数与本书全部卡数分列；旧开篇卡独立保留，不重复计为本次新卡",
+    "本回执只确认正式分卷资料与覆盖，不等全书综合终点审计或用户审阅完成"
+  ]
+}

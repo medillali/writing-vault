@@ -1,0 +1,59 @@
+{
+  "book": "tianxia-wushuang",
+  "volume": 3,
+  "review_status": "draft",
+  "indexed_segments_read": 378,
+  "body_units_read": 376,
+  "batches": 95,
+  "reader": "/root/zongheng_vol03_full",
+  "pending_truncations": 0,
+  "dimensions": {
+    "worldbuilding": 4,
+    "characters": 4,
+    "plot": 4,
+    "style": 4,
+    "narrative": 4,
+    "dialogue": 4,
+    "pacing": 4,
+    "themes": 4,
+    "continuity": 4
+  },
+  "cards": {
+    "character": 23,
+    "scene": 32,
+    "pattern": 10
+  },
+  "nodes": 40,
+  "edges": 24,
+  "threads": 14,
+  "knowledge": 16,
+  "evidence_references_checked": 2956,
+  "preflight": "passed",
+  "vault_validation": "passed_check_volume_serial",
+  "literary_review": "primary_full_reviewed_delta_submitted_user_unapproved",
+  "checks": [
+    "片段/正文映射及完整覆盖一致",
+    "日志/笔记/状态索引无缺重",
+    "所有证据身份/修订/区间在本卷章内且自身带claim_kind",
+    "卡origin/派生源与图端点/人物引用有效",
+    "knowledge state/observer及resolved回收字段齐全",
+    "全书complete保持false",
+    "find_thread_outside无越成员输出",
+    "check_volume完整Vault证据与图校验通过；2956引用"
+  ],
+  "limitations": [
+    "文学解释与风格取舍仍draft，未由用户批准",
+    "正式导入与最终SHA冻结由主代理执行；子代理不写正式库"
+  ],
+  "sha256": {
+    "analysis.json": "0345bb385deae5ae3923062f5999849483c42c52e90aa7bfba33eb7cfd5bd604",
+    "cards.json": "9ed77b288c23f5f9060aed22a02245ec3041fbd963f96bbd6a34c7928a180c4a",
+    "graph.json": "5aedbae9a66d41adc1cfb175044c64733ba36ce01c6f82337aba6b853aa023e2",
+    "report.md": "aa0e2d3926968033cb8577dfde9746dc6f0efc1db21bc2c6043d5095f42cfbed",
+    "handoff.md": "57b47b0864bd3476a3cb6242611bb9e3614a8b7b1a724b7270270bb289f281d8",
+    "read-log.json": "1b9e9e78911d4a33448e3de739420c46861de9b05b8f9c93ba2eea91b3515d02",
+    "chapter-notes.jsonl": "6b7018d485c077654bf042cfd10b393ef7284a3a413f79d8365a5ca080fe538f",
+    "reader-state.json": "636687226cf24f41a06ae80dbd8dbe53bd3a22cab9c0051d9cde5d915d4596ba"
+  },
+  "review_changes": "review-changes.md"
+}

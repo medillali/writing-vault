@@ -1,0 +1,487 @@
+{
+  "status": "complete_targeted_semantic_string_impact_scan",
+  "summary": {
+    "files_scanned": 2173,
+    "files_with_semantic_string_hits": 37,
+    "string_hits": 46
+  },
+  "terms": {
+    "mother": [
+      "母亲",
+      "妈妈",
+      "林母",
+      "母病"
+    ],
+    "care": [
+      "照顾",
+      "照护",
+      "照料",
+      "护理",
+      "看护",
+      "陪护"
+    ],
+    "school": [
+      "清华",
+      "北大",
+      "苏州大学",
+      "苏大",
+      "离家近"
+    ]
+  },
+  "affected_logical_fact_count": 1,
+  "affected_physical_file_count": 4,
+  "affected": [
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/batch-1117.json",
+      "sha256": "78cd22bb4c0cbf2ae1eb38f5450797804055dbd3c9668d0739f1f9e2f8b9a372",
+      "matches": [
+        {
+          "pointer": "/chapters/0/facts/0",
+          "text": "L90389—90416逸逸自己拒绝与乱月同住，选择陪陆；陆说当年选苏州大学为了每日照顾母亲，清华差250分。下午实际补同号SIM、买手机、挂失重办银行卡及购买衣物用品，未明确身份证已经补发。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/chapter-notes.jsonl",
+      "sha256": "21f98284ffc0e58a3b2dc55ab63804bc55722f1f3c322308975d40c4b5e3ddc4",
+      "matches": [
+        {
+          "pointer": "line:59/facts/0",
+          "text": "L90389—90416逸逸自己拒绝与乱月同住，选择陪陆；陆说当年选苏州大学为了每日照顾母亲，清华差250分。下午实际补同号SIM、买手机、挂失重办银行卡及购买衣物用品，未明确身份证已经补发。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/prefix-chapter-notes.jsonl",
+      "sha256": "d0c669282df2fa5087475a44a61d0b7f28d57d60c9e790472ae1e02aa31779fa",
+      "matches": [
+        {
+          "pointer": "line:59/facts/0",
+          "text": "L90389—90416逸逸自己拒绝与乱月同住，选择陪陆；陆说当年选苏州大学为了每日照顾母亲，清华差250分。下午实际补同号SIM、买手机、挂失重办银行卡及购买衣物用品，未明确身份证已经补发。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol06-chapter-notes.jsonl",
+      "sha256": "464d93446b52e5de7adebc235311f9d9aed535995be3d332e122293200526ae4",
+      "matches": [
+        {
+          "pointer": "line:59/facts/0",
+          "text": "L90389—90416逸逸自己拒绝与乱月同住，选择陪陆；陆说当年选苏州大学为了每日照顾母亲，清华差250分。下午实际补同号SIM、买手机、挂失重办银行卡及购买衣物用品，未明确身份证已经补发。"
+        }
+      ]
+    }
+  ],
+  "owned_657_count_checked": 657,
+  "owned_657_matching_candidate_count": 0,
+  "owned_657_matches": [],
+  "matches": [
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/local-v05-tail-review/finalize_review.py",
+      "sha256": "5e6785e65d1001cc8d0ad26af746a344f85ee0f8cd920da641cb46bac2f85ee0",
+      "matches": [
+        {
+          "pointer": "line:51",
+          "text": "log['targeted_source_points']=[{'chapter_id':'ch-1117','start_line':90389,'end_line':90416,'reader':'/root/zongheng_vol03_full','mode':'targeted-source-lines-only','full_chapter_read':False,'finding':'L90403每日照顾母亲为林逸欣自述，非陆；L90404—407陆附和/差清华250分。已报root，未改原notes/正式库。'}]"
+        },
+        {
+          "pointer": "line:66",
+          "text": " f'材料为分工原文 reader 的完整四栏笔记及最终研究派生，{len(log[\"complete_four_field_notes_read\"])}条本轮完整四栏阅读/{len(log[\"complete_four_field_notes_reused_from_prior_scope\"])}条前域复用；另 raw1117 28行定点原文确认照顾母亲为林。不是本代理卷五全文或全书新增全文覆盖。','',"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/local-v05-tail-review/handoff.md",
+      "sha256": "77a57f1b866573a11d33e2590023436d677386ed8b5daf345eaa61cb71a190cc",
+      "matches": [
+        {
+          "pointer": "line:7",
+          "text": "材料为分工原文 reader 的完整四栏笔记及最终研究派生，263条本轮完整四栏阅读/4条前域复用；另 raw1117 28行定点原文确认照顾母亲为林。不是本代理卷五全文或全书新增全文覆盖。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/local-v05-tail-review/material-read-log.json",
+      "sha256": "910ec8a534b124c66ba1f3823ea72fe5aa499c308a6d0ab2cfce405054c6e04b",
+      "matches": [
+        {
+          "pointer": "/targeted_source_points/0/finding",
+          "text": "L90403每日照顾母亲为林逸欣自述，非陆；L90404—407陆附和/差清华250分。已报root，未改原notes/正式库。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/write_character_arcs_part04.py",
+      "sha256": "1bf8d766a19347e5f6c82de95c0e7688b15681572de2b765dd984a4cd5c15770",
+      "matches": [
+        {
+          "pointer": "line:9",
+          "text": "('陆父（陆木匠，实名未明）','轮椅独居的父亲，希望儿子工作住房稳定，早不知陆病情和电竞全史。','拒何接养老、存款愿赠/亲属借款→1338电话与梦境事故线部分呼应→1342与三叔实到苏家餐住夜、1343送站→1591主以五亿委托未来照料。','行动不便与旧事故/经济条件是真限制；父子相见一次不等一生赡养或城南别墅计划全兑。','父仍活，有真实探访和父子陪伴；原养老购房/迁入未见对应回执，五亿是鬼代保未来用，不写父已收五亿。','梦中救主车祸与父电话说明分层，不把梦全部细节当客观重演；母亲离开不证明已亡，不把别人扫墓主体归给陆母。',[214,215,216,1338,1342,1343,1591]),"
+        },
+        {
+          "pointer": "line:18",
+          "text": "('林逸欣母亲（未明实名）','长期昏睡而需护理，构成林家庭与生活压力；完整自主独白很少。','与其说完整主动决策弧，本书给的是护理/复苏状态链：青青电话报醒后775林现实见母验证，之后1319家庭引介时已苏醒。','长期病况不能由角色一句概率当独立医学统计；林父母压力和林选择相互关联，不能给母补全部立场。','已实际苏醒并有家中活动后证；末完整病理全愈/对多方伴侣与婚姻的正式态度未给，不由家庭一次相见全清。','与何母事故后稳定是另一病链，不能合成同一母亲；母醒不等林血清/抗原或主疾病同时根治。',[651,692,695,697,715,775,1319,1342]),"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft/analysis.json",
+      "sha256": "72fa8ec93f4a60641189f7c3d1520a1f7ee6e05750c6b1f280ff13b9fd2419fe",
+      "matches": [
+        {
+          "pointer": "/dimensions/characters/2/fact/text",
+          "text": "林逸欣早期经营采药与自己的公会，能够拒绝、议价、独胜和让利；后有护理母亲、商业签约、神泣删号及有限复号后的重建，始终保留雪银组织利益。"
+        },
+        {
+          "pointer": "/dimensions/characters/2/stage_sources/2/source_fact",
+          "text": "林保雪银独立产权、赢赛事、据先得地图/弱点知识、倾国破碎和双飞协作；母亲护理资金与苹果签约另有目标。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft/extended-seed-work.json",
+      "sha256": "bdcf58624675374f0db0d35e7cead1440c122abf62343a930818353c6870fb4a",
+      "matches": [
+        {
+          "pointer": "/dimensions/characters/2/fact",
+          "text": "林逸欣早期经营采药与自己的公会，能够拒绝、议价、独胜和让利；后有护理母亲、商业签约、神泣删号及有限复号后的重建，始终保留雪银组织利益。 卷6：林提浅水/滋扰/绕后方案，多次拒陆越界，保独立信息和亲密拒绝。 卷7：林与陆临门停止并约一年恢复正常再，拒绝/等待不被同床和亲吻覆盖。 卷8：林逸欣独立攻成燕耳最后双杀、自愿抗原取样又劝主靠队友；"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft/final-seed.json",
+      "sha256": "6fe096a8cff52eda77d86d82e0887fc36c055873f2677075ecbb19b811522105",
+      "matches": [
+        {
+          "pointer": "/characters/2/fact",
+          "text": "林逸欣早期经营采药与自己的公会，能够拒绝、议价、独胜和让利；后有护理母亲、商业签约、神泣删号及有限复号后的重建，始终保留雪银组织利益。 卷6：林提浅水/滋扰/绕后方案，多次拒陆越界，保独立信息和亲密拒绝。 卷7：林与陆临门停止并约一年恢复正常再，拒绝/等待不被同床和亲吻覆盖。 卷8：林逸欣独立攻成燕耳最后双杀、自愿抗原取样又劝主靠队友。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft/report.md",
+      "sha256": "6f7f40f2e4e4b49d47f6e01231c1a574efb8e69cdc4914cc449aad54c9f46696",
+      "matches": [
+        {
+          "pointer": "line:85",
+          "text": "已见事实：林逸欣早期经营采药与自己的公会，能够拒绝、议价、独胜和让利；后有护理母亲、商业签约、神泣删号及有限复号后的重建，始终保留雪银组织利益。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft/synthesis-seed.json",
+      "sha256": "e48754d688781d98990e7a202a295daae83c81de128700bf3fc64a2b596ea089",
+      "matches": [
+        {
+          "pointer": "/characters/2/fact",
+          "text": "林逸欣早期经营采药与自己的公会，能够拒绝、议价、独胜和让利；后有护理母亲、商业签约、神泣删号及有限复号后的重建，始终保留雪银组织利益。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft.json",
+      "sha256": "1a02dda183cd807ea2b2544cf96880b18e42bc8d9128db76a9f9ca0d3e142df8",
+      "matches": [
+        {
+          "pointer": "/dimensions/characters/2/fact_summary",
+          "text": "林逸欣早期经营采药与自己的公会，能够拒绝、议价、独胜和让利；后有护理母亲、商业签约、神泣删号及有限复号后的重建，始终保留雪银组织利益。 卷6：林提浅水/滋扰/绕后方案，多次拒陆越界，保独立信息和亲密拒绝。 卷7：林与陆临门停止并约一年恢复正常再，拒绝/等待不被同床和亲吻覆盖。 卷8：林逸欣独立攻成燕耳最后双杀、自愿抗原取样又劝主靠队友。"
+        },
+        {
+          "pointer": "/dimensions/characters/2/supporting_observations/2/reported_observation",
+          "text": "林保雪银独立产权、赢赛事、据先得地图/弱点知识、倾国破碎和双飞协作；母亲护理资金与苹果签约另有目标。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft.md",
+      "sha256": "04864c47759b23ebded8a69a752984129e1fd6be7d469f3ef3a7b9299b1c585e",
+      "matches": [
+        {
+          "pointer": "line:121",
+          "text": "跨卷事实：林逸欣早期经营采药与自己的公会，能够拒绝、议价、独胜和让利；后有护理母亲、商业签约、神泣删号及有限复号后的重建，始终保留雪银组织利益。 卷6：林提浅水/滋扰/绕后方案，多次拒陆越界，保独立信息和亲密拒绝。 卷7：林与陆临门停止并约一年恢复正常再，拒绝/等待不被同床和亲吻覆盖。 卷8：林逸欣独立攻成燕耳最后双杀、自愿抗原取样又劝主靠队友。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/analysis.json",
+      "sha256": "0345bb385deae5ae3923062f5999849483c42c52e90aa7bfba33eb7cfd5bd604",
+      "matches": [
+        {
+          "pointer": "/dimensions/characters/2/fact",
+          "text": "林保雪银独立产权、赢赛事、据先得地图/弱点知识、倾国破碎和双飞协作；母亲护理资金与苹果签约另有目标。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/batch-0313-0316.json",
+      "sha256": "30cb6ba3e6c5ee0eec32c22a052b92ddd812697162bccff2209f5e994c9e2091",
+      "matches": [
+        {
+          "pointer": "/1/inferences/0",
+          "text": "药材财迷外观被母亲护理成本重新解释，改变理解不抹此前赊欠与高价；亲密由见脆弱/实际借款而非战力炫耀推进。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/build_cards.py",
+      "sha256": "73ba64e5d234b239201f38fc49420c92ce2abb703783f378944085e85d3e5ba1",
+      "matches": [
+        {
+          "pointer": "line:6",
+          "text": "('lin','林逸欣（风色幻想）','经营独立雪银、母亲护理经济自主、与陆合作又竞争','高王也不能独杀，群刷需地形/队友；关系不愿被他人定义','赛事胜古剑、首城败后认输援守、独建第二城、替古剑杀王/交鳞换装、签苹果、带秘图/实学双飞','592明确140、之后未精确新级；135紫电实穿、皓月/冰镰/寒狐实用，倾国80%到上限；与陆互吻喜欢但无本卷排他伴侣定约。',['lu','he','qing'],[353,421,423,449,451,459,515,542,562,565,590,591,592,593,596,597]),"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/build_research.py",
+      "sha256": "bc13c621fbf9057e1e25bcc5486f96b5585ed5c3f850926dbe702eda7c78e632",
+      "matches": [
+        {
+          "pointer": "line:27",
+          "text": " O('lin-independent-partner','林保雪银独立产权、赢赛事、据先得地图/弱点知识、倾国破碎和双飞协作；母亲护理资金与苹果签约另有目标。','对等感来自可拒绝/议价/独自获胜/主导引怪，而非只以外貌与暧昧定义；“不爱”口硬与早述爱、实际吻并置不裁单一标签。',[353,421,423,449,451,515,542,562,565,590,591,593]),"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/cards.json",
+      "sha256": "9ed77b288c23f5f9060aed22a02245ec3041fbd963f96bbd6a34c7928a180c4a",
+      "matches": [
+        {
+          "pointer": "/2/content/summary",
+          "text": "经营独立雪银、母亲护理经济自主、与陆合作又竞争；592明确140、之后未精确新级；135紫电实穿、皓月/冰镰/寒狐实用，倾国80%到上限；与陆互吻喜欢但无本卷排他伴侣定约。"
+        },
+        {
+          "pointer": "/2/content/goal",
+          "text": "经营独立雪银、母亲护理经济自主、与陆合作又竞争"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+      "sha256": "6b7018d485c077654bf042cfd10b393ef7284a3a413f79d8365a5ca080fe538f",
+      "matches": [
+        {
+          "pointer": "line:86/inferences/0",
+          "text": "药材财迷外观被母亲护理成本重新解释，改变理解不抹此前赊欠与高价；亲密由见脆弱/实际借款而非战力炫耀推进。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/report.md",
+      "sha256": "aa0e2d3926968033cb8577dfde9746dc6f0efc1db21bc2c6043d5095f42cfbed",
+      "matches": [
+        {
+          "pointer": "line:25",
+          "text": "- **源事实：**林保雪银独立产权、赢赛事、据先得地图/弱点知识、倾国破碎和双飞协作；母亲护理资金与苹果签约另有目标。 **研究解释：**对等感来自可拒绝/议价/独自获胜/主导引怪，而非只以外貌与暧昧定义；“不爱”口硬与早述爱、实际吻并置不裁单一标签。（ch-0353 L32386—32454、ch-0421 L38117—38210、ch-0423 L38315—38403、ch-0449 L40378—40453、ch-0451 L40527—40646、ch-0515 L45334—45401、ch-0542 L47456—47545、ch-0562 L48912—49021、ch-0565 L49185—49273、ch-0590 L51048—51126、ch-0591 L51127—51203、ch-0593 L51274—51345）"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/build_artifacts.py",
+      "sha256": "6517654d4b95572f59db689911b95a3e999e28e44750a79ab7dc21ac8481ab2c",
+      "matches": [
+        {
+          "pointer": "line:311",
+          "text": "char('yixin','林逸欣／风色幻想','照顾母亲、保雪银杉及共同守城，重建与陆联系。',"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/cards.json",
+      "sha256": "17da732abdd77906089aba233848f3988752f49ca184d1bce4df45553f781c49",
+      "matches": [
+        {
+          "pointer": "/2/content/goals",
+          "text": "照顾母亲、保雪银杉及共同守城，重建与陆联系。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/batch-1117.json",
+      "sha256": "78cd22bb4c0cbf2ae1eb38f5450797804055dbd3c9668d0739f1f9e2f8b9a372",
+      "matches": [
+        {
+          "pointer": "/chapters/0/facts/0",
+          "text": "L90389—90416逸逸自己拒绝与乱月同住，选择陪陆；陆说当年选苏州大学为了每日照顾母亲，清华差250分。下午实际补同号SIM、买手机、挂失重办银行卡及购买衣物用品，未明确身份证已经补发。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/chapter-notes.jsonl",
+      "sha256": "21f98284ffc0e58a3b2dc55ab63804bc55722f1f3c322308975d40c4b5e3ddc4",
+      "matches": [
+        {
+          "pointer": "line:59/facts/0",
+          "text": "L90389—90416逸逸自己拒绝与乱月同住，选择陪陆；陆说当年选苏州大学为了每日照顾母亲，清华差250分。下午实际补同号SIM、买手机、挂失重办银行卡及购买衣物用品，未明确身份证已经补发。"
+        }
+      ]
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/prefix-chapter-notes.jsonl",
+      "sha256": "d0c669282df2fa5087475a44a61d0b7f28d57d60c9e790472ae1e02aa31779fa",
+      "matches": [
+        {
+          "pointer": "line:59/facts/0",
+          "text": "L90389—90416逸逸自己拒绝与乱月同住，选择陪陆；陆说当年选苏州大学为了每日照顾母亲，清华差250分。下午实际补同号SIM、买手机、挂失重办银行卡及购买衣物用品，未明确身份证已经补发。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/characters/chr-bcb0eab749ce507599d2144bd0c27e3c.json",
+      "sha256": "be3059ec3fa98177f1c9b8d96cd72b2d6729ed9e1fc9728a7285b0b6a2e9fd7b",
+      "matches": [
+        {
+          "pointer": "/content/goals",
+          "text": "照顾母亲、保雪银杉及共同守城，重建与陆联系。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/audit/research-corrections/before-scale-book-synthesis.json",
+      "sha256": "23b45a0e780c918b9436d854c2a14bee275db10f38e9054bb79f46d4bdfefc8e",
+      "matches": [
+        {
+          "pointer": "/dimensions/characters/2/fact_summary",
+          "text": "林逸欣早期经营采药与自己的公会，能够拒绝、议价、独胜和让利；后有护理母亲、商业签约、神泣删号及有限复号后的重建，始终保留雪银组织利益。 卷6：林提浅水/滋扰/绕后方案，多次拒陆越界，保独立信息和亲密拒绝。 卷7：林与陆临门停止并约一年恢复正常再，拒绝/等待不被同床和亲吻覆盖。 卷8：林逸欣独立攻成燕耳最后双杀、自愿抗原取样又劝主靠队友。"
+        },
+        {
+          "pointer": "/dimensions/characters/2/supporting_observations/2/reported_observation",
+          "text": "林保雪银独立产权、赢赛事、据先得地图/弱点知识、倾国破碎和双飞协作；母亲护理资金与苹果签约另有目标。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/audit/research-corrections/before-scale-book-synthesis.md",
+      "sha256": "8232051fa6ee5827b1a3bc2c45effb2c34e5a7fa218b9eeb272ff021c8a73aee",
+      "matches": [
+        {
+          "pointer": "line:121",
+          "text": "跨卷事实：林逸欣早期经营采药与自己的公会，能够拒绝、议价、独胜和让利；后有护理母亲、商业签约、神泣删号及有限复号后的重建，始终保留雪银组织利益。 卷6：林提浅水/滋扰/绕后方案，多次拒陆越界，保独立信息和亲密拒绝。 卷7：林与陆临门停止并约一年恢复正常再，拒绝/等待不被同床和亲吻覆盖。 卷8：林逸欣独立攻成燕耳最后双杀、自愿抗原取样又劝主靠队友。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/book-synthesis.json",
+      "sha256": "bc01c693645d24ff64fb967222282a4026b802cf2a0129fe16c44679d16000ec",
+      "matches": [
+        {
+          "pointer": "/dimensions/characters/2/fact_summary",
+          "text": "林逸欣早期经营采药与自己的公会，能够拒绝、议价、独胜和让利；后有护理母亲、商业签约、神泣删号及有限复号后的重建，始终保留雪银组织利益。 卷6：林提浅水/滋扰/绕后方案，多次拒陆越界，保独立信息和亲密拒绝。 卷7：林与陆临门停止并约一年恢复正常再，拒绝/等待不被同床和亲吻覆盖。 卷8：林逸欣独立攻成燕耳最后双杀、自愿抗原取样又劝主靠队友。"
+        },
+        {
+          "pointer": "/dimensions/characters/2/supporting_observations/2/reported_observation",
+          "text": "林保雪银独立产权、赢赛事、据先得地图/弱点知识、倾国破碎和双飞协作；母亲护理资金与苹果签约另有目标。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/book-synthesis.md",
+      "sha256": "8232051fa6ee5827b1a3bc2c45effb2c34e5a7fa218b9eeb272ff021c8a73aee",
+      "matches": [
+        {
+          "pointer": "line:121",
+          "text": "跨卷事实：林逸欣早期经营采药与自己的公会，能够拒绝、议价、独胜和让利；后有护理母亲、商业签约、神泣删号及有限复号后的重建，始终保留雪银组织利益。 卷6：林提浅水/滋扰/绕后方案，多次拒陆越界，保独立信息和亲密拒绝。 卷7：林与陆临门停止并约一年恢复正常再，拒绝/等待不被同床和亲吻覆盖。 卷8：林逸欣独立攻成燕耳最后双杀、自愿抗原取样又劝主靠队友。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/reading/cards/chr-bcb0eab749ce507599d2144bd0c27e3c.md",
+      "sha256": "56b717b8b37441440b696c028012325fbcbb678511136d770a810ae6ecf3111f",
+      "matches": [
+        {
+          "pointer": "line:29",
+          "text": "照顾母亲、保雪银杉及共同守城，重建与陆联系。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/reading/cards/chr-bd19a5af54915ad18d830a9c81d8e839.md",
+      "sha256": "773b54e7321fe86f48c5b0db28880ee6f6fbc8d12648458a7216b47ca90a6a76",
+      "matches": [
+        {
+          "pointer": "line:19",
+          "text": "经营独立雪银、母亲护理经济自主、与陆合作又竞争"
+        },
+        {
+          "pointer": "line:57",
+          "text": "经营独立雪银、母亲护理经济自主、与陆合作又竞争；592明确140、之后未精确新级；135紫电实穿、皓月/冰镰/寒狐实用，倾国80%到上限；与陆互吻喜欢但无本卷排他伴侣定约。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/reading/characters.md",
+      "sha256": "0a949b03d05f36f6a6d086e18f46e4824c34cb502c925226a854ec84af96f89a",
+      "matches": [
+        {
+          "pointer": "line:174",
+          "text": "| [林逸欣（风色幻想）](cards/chr-bd19a5af54915ad18d830a9c81d8e839.md) | 经营独立雪银、母亲护理经济自主、与陆合作又竞争；592明确140、之后未精确新级；135紫电实穿、皓月/冰镰/寒狐实用，倾国80%到上限；与陆互吻喜欢但无本卷排他伴侣定约。 |"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol03-analysis.json",
+      "sha256": "d541e96bf61c47337d0008cc4fcf5042b3dd3815cb42a52717dac719e512d2e7",
+      "matches": [
+        {
+          "pointer": "/dimensions/characters/2/fact",
+          "text": "林保雪银独立产权、赢赛事、据先得地图/弱点知识、倾国破碎和双飞协作；母亲护理资金与苹果签约另有目标。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol03-cards.json",
+      "sha256": "bdf7c50b252c4f7d507d507a979ea0723980795648f94affd9c3210cf7f201c5",
+      "matches": [
+        {
+          "pointer": "/2/content/goal",
+          "text": "经营独立雪银、母亲护理经济自主、与陆合作又竞争"
+        },
+        {
+          "pointer": "/2/content/summary",
+          "text": "经营独立雪银、母亲护理经济自主、与陆合作又竞争；592明确140、之后未精确新级；135紫电实穿、皓月/冰镰/寒狐实用，倾国80%到上限；与陆互吻喜欢但无本卷排他伴侣定约。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol03-chapter-notes.jsonl",
+      "sha256": "aad402d22529760a803b25a2c25ca275f45a99f102d1b97205499120f0bb6238",
+      "matches": [
+        {
+          "pointer": "line:86/inferences/0",
+          "text": "药材财迷外观被母亲护理成本重新解释，改变理解不抹此前赊欠与高价；亲密由见脆弱/实际借款而非战力炫耀推进。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol03.md",
+      "sha256": "8f167d1e78cb31ad3b709686ba52f0e66c986b6456367bcc0d0008c45f7b3c6d",
+      "matches": [
+        {
+          "pointer": "line:25",
+          "text": "- **源事实：**林保雪银独立产权、赢赛事、据先得地图/弱点知识、倾国破碎和双飞协作；母亲护理资金与苹果签约另有目标。 **研究解释：**对等感来自可拒绝/议价/独自获胜/主导引怪，而非只以外貌与暧昧定义；“不爱”口硬与早述爱、实际吻并置不裁单一标签。（ch-0353 L32386—32454、ch-0421 L38117—38210、ch-0423 L38315—38403、ch-0449 L40378—40453、ch-0451 L40527—40646、ch-0515 L45334—45401、ch-0542 L47456—47545、ch-0562 L48912—49021、ch-0565 L49185—49273、ch-0590 L51048—51126、ch-0591 L51127—51203、ch-0593 L51274—51345）"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol04-cards.json",
+      "sha256": "029bc98122b2f18f48946ec5647d5aa0dd3586823bb220c8ca2fa33efe9a1ec3",
+      "matches": [
+        {
+          "pointer": "/2/content/goals",
+          "text": "照顾母亲、保雪银杉及共同守城，重建与陆联系。"
+        }
+      ]
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol06-chapter-notes.jsonl",
+      "sha256": "464d93446b52e5de7adebc235311f9d9aed535995be3d332e122293200526ae4",
+      "matches": [
+        {
+          "pointer": "line:59/facts/0",
+          "text": "L90389—90416逸逸自己拒绝与乱月同住，选择陪陆；陆说当年选苏州大学为了每日照顾母亲，清华差250分。下午实际补同号SIM、买手机、挂失重办银行卡及购买衣物用品，未明确身份证已经补发。"
+        }
+      ]
+    }
+  ],
+  "boundary": "检索定位后完整核对命中逻辑字符串，不冒称重读2172份全文或其全部原章；当前明确错误为1117第一事实句的四个物理副本。旧原件不改。"
+}

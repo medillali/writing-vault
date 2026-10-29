@@ -1,0 +1,1742 @@
+[
+  {
+    "candidate_id": "v01-local-source_anomalies-0020-02",
+    "original_question": "长度/面积为角色估，算术差留不补新宽。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "208口述七星30×3又约72平米。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0207",
+          "claim_kind": "fact",
+          "end_line": 18368,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 18292
+        },
+        {
+          "chapter_id": "ch-0208",
+          "claim_kind": "fact",
+          "end_line": 18432,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 18369
+        }
+      ],
+      "handling": "长度/面积为角色估，算术差留不补新宽。",
+      "id": "v01-a-star-area",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 19,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "207近30码实试/208主口述3宽与72平米，不必把近似口述精算成新规则。后230只证按星位破柱，不提供新宽度；保估算而不造几何参数处理成立。",
+    "later_chapters": [
+      207,
+      208,
+      230
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0207",
+        "start_line": 18292,
+        "end_line": 18368,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0208",
+        "start_line": 18369,
+        "end_line": 18432,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0230",
+        "start_line": 20226,
+        "end_line": 20315,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0021-01",
+    "original_question": "SSS明确9人/名单9，之后多处写十人。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "SSS明确9人/名单9，之后多处写十人。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0212",
+          "claim_kind": "fact",
+          "end_line": 18784,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 18688
+        },
+        {
+          "chapter_id": "ch-0214",
+          "claim_kind": "fact",
+          "end_line": 18934,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 18859
+        },
+        {
+          "chapter_id": "ch-0215",
+          "claim_kind": "fact",
+          "end_line": 19020,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 18935
+        },
+        {
+          "chapter_id": "ch-0223",
+          "claim_kind": "fact",
+          "end_line": 19701,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 19604
+        },
+        {
+          "chapter_id": "ch-0234",
+          "claim_kind": "fact",
+          "end_line": 20655,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20558
+        }
+      ],
+      "handling": "原名单全保，不造未名第10人。",
+      "id": "v01-a-temple-nine",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 20,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "212系统共享上限九/名单九，214实齐九/215多处九却夹十，后223/234仍口称十。没有第十成员加入或任务扩容说明；结局也不能凭一称数补新人物，未知是该段称数为何不齐。",
+    "later_chapters": [
+      212,
+      214,
+      215,
+      223,
+      234
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0212",
+        "start_line": 18688,
+        "end_line": 18784,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0214",
+        "start_line": 18859,
+        "end_line": 18934,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0215",
+        "start_line": 18935,
+        "end_line": 19020,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0223",
+        "start_line": 19604,
+        "end_line": 19701,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0234",
+        "start_line": 20558,
+        "end_line": 20655,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0021-02",
+    "original_question": "原名单全保，不造未名第10人。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "SSS明确9人/名单9，之后多处写十人。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0212",
+          "claim_kind": "fact",
+          "end_line": 18784,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 18688
+        },
+        {
+          "chapter_id": "ch-0214",
+          "claim_kind": "fact",
+          "end_line": 18934,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 18859
+        },
+        {
+          "chapter_id": "ch-0215",
+          "claim_kind": "fact",
+          "end_line": 19020,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 18935
+        },
+        {
+          "chapter_id": "ch-0223",
+          "claim_kind": "fact",
+          "end_line": 19701,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 19604
+        },
+        {
+          "chapter_id": "ch-0234",
+          "claim_kind": "fact",
+          "end_line": 20655,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20558
+        }
+      ],
+      "handling": "原名单全保，不造未名第10人。",
+      "id": "v01-a-temple-nine",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 20,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "team-boundary",
+    "rationale": "212已列主林东抹倾狐囡与子蓝颜九名，215环境滑行亦九。保这份真实配置与后面真死/复活，不把十人的句子导为无人姓名的第十位，也不能把早荒陵十人队搬来补。",
+    "later_chapters": [
+      212,
+      214,
+      215,
+      230,
+      234
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0212",
+        "start_line": 18688,
+        "end_line": 18784,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0214",
+        "start_line": 18859,
+        "end_line": 18934,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0215",
+        "start_line": 18935,
+        "end_line": 19020,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0230",
+        "start_line": 20226,
+        "end_line": 20315,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0234",
+        "start_line": 20558,
+        "end_line": 20655,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0022-01",
+    "original_question": "233嗜血击说明100%，2394238回2119、2412578回1289为50%。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "233嗜血击说明100%，2394238回2119、2412578回1289为50%。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0233",
+          "claim_kind": "fact",
+          "end_line": 20557,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20495
+        },
+        {
+          "chapter_id": "ch-0239",
+          "claim_kind": "fact",
+          "end_line": 21053,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20978
+        },
+        {
+          "chapter_id": "ch-0241",
+          "claim_kind": "fact",
+          "end_line": 21226,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21151
+        }
+      ],
+      "handling": "保技能描述与两次实测双层，不把所有伤害当100%吸血。",
+      "id": "v01-a-tiger-heal",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 21,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "233技能称该击伤害100%回血，239/241却各实回伤的一半；同章未写减疗或数值修正。检索六卷嗜血相关正式字段未给这两次50%的特定解释，保描述与结果差，不自行增造隐藏减疗。",
+    "later_chapters": [
+      233,
+      239,
+      241
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0233",
+        "start_line": 20495,
+        "end_line": 20557,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0239",
+        "start_line": 20978,
+        "end_line": 21053,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0241",
+        "start_line": 21151,
+        "end_line": 21226,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0022-02",
+    "original_question": "保技能描述与两次实测双层，不把所有伤害当100%吸血。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "233嗜血击说明100%，2394238回2119、2412578回1289为50%。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0233",
+          "claim_kind": "fact",
+          "end_line": 20557,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20495
+        },
+        {
+          "chapter_id": "ch-0239",
+          "claim_kind": "fact",
+          "end_line": 21053,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20978
+        },
+        {
+          "chapter_id": "ch-0241",
+          "claim_kind": "fact",
+          "end_line": 21226,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21151
+        }
+      ],
+      "handling": "保技能描述与两次实测双层，不把所有伤害当100%吸血。",
+      "id": "v01-a-tiger-heal",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 21,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "ability-boundary",
+    "rationale": "233限定嗜血这一击，不是神虎所有攻击都吸；2394238/2119与2412578/1289两次结果能直接限制研究的续航推算。以后神虎别战再强不让旧两实测变100%。",
+    "later_chapters": [
+      233,
+      239,
+      241
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0233",
+        "start_line": 20495,
+        "end_line": 20557,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0239",
+        "start_line": 20978,
+        "end_line": 21053,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0241",
+        "start_line": 21151,
+        "end_line": 21226,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0023-01",
+    "original_question": "234系统2万G，后口语1万G。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "234系统2万G，后口语1万G。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0234",
+          "claim_kind": "fact",
+          "end_line": 20655,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20558
+        }
+      ],
+      "handling": "系统记奖2万，同时保口语异文，免20%抽成是实际决策。",
+      "id": "v01-a-reward-gold",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 22,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "234同章系统20000G与后口语10000G互不齐，未有分税/转账把二万变一万的动作说明。免20%运营是另决策，不能拿它算出半额；这是奖数异文非任务未完成。",
+    "later_chapters": [
+      234
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0234",
+        "start_line": 20558,
+        "end_line": 20655,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0023-02",
+    "original_question": "系统记奖2万，同时保口语异文，免20%抽成是实际决策。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "234系统2万G，后口语1万G。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0234",
+          "claim_kind": "fact",
+          "end_line": 20655,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20558
+        }
+      ],
+      "handling": "系统记奖2万，同时保口语异文，免20%抽成是实际决策。",
+      "id": "v01-a-reward-gold",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 22,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "reward-boundary",
+    "rationale": "234系统完整SSS奖已经发，研究应记系统2万并保存后句1万原称；主免所有本次任务奖抽20%也已表达执行原则。不同奖励人数/分配不能据此同写每人皆2万。",
+    "later_chapters": [
+      234
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0234",
+        "start_line": 20558,
+        "end_line": 20655,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0024-01",
+    "original_question": "241原28剩剑/浮生即26死，242朋友/林夸绝杀27。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "241原28剩剑/浮生即26死，242朋友/林夸绝杀27。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0238",
+          "claim_kind": "fact",
+          "end_line": 20977,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20886
+        },
+        {
+          "chapter_id": "ch-0239",
+          "claim_kind": "fact",
+          "end_line": 21053,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20978
+        },
+        {
+          "chapter_id": "ch-0240",
+          "claim_kind": "fact",
+          "end_line": 21150,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21054
+        },
+        {
+          "chapter_id": "ch-0241",
+          "claim_kind": "fact",
+          "end_line": 21226,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21151
+        },
+        {
+          "chapter_id": "ch-0242",
+          "claim_kind": "fact",
+          "end_line": 21317,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21227
+        }
+      ],
+      "handling": "原战实际优先、后言为转述夸词。",
+      "id": "v01-a-elite-kill",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 23,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "238—241围猎原28最后剑/浮生活，26死亡结果明确；242好友和林称27与直接战场不齐。255后来主真杀剑是另一场时点，不能把它倒加进241才让旧夸词正确。",
+    "later_chapters": [
+      238,
+      239,
+      240,
+      241,
+      242,
+      255
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0238",
+        "start_line": 20886,
+        "end_line": 20977,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0239",
+        "start_line": 20978,
+        "end_line": 21053,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0240",
+        "start_line": 21054,
+        "end_line": 21150,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0241",
+        "start_line": 21151,
+        "end_line": 21226,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0242",
+        "start_line": 21227,
+        "end_line": 21317,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0255",
+        "start_line": 22144,
+        "end_line": 22249,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0024-02",
+    "original_question": "原战实际优先、后言为转述夸词。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "241原28剩剑/浮生即26死，242朋友/林夸绝杀27。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0238",
+          "claim_kind": "fact",
+          "end_line": 20977,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20886
+        },
+        {
+          "chapter_id": "ch-0239",
+          "claim_kind": "fact",
+          "end_line": 21053,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 20978
+        },
+        {
+          "chapter_id": "ch-0240",
+          "claim_kind": "fact",
+          "end_line": 21150,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21054
+        },
+        {
+          "chapter_id": "ch-0241",
+          "claim_kind": "fact",
+          "end_line": 21226,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21151
+        },
+        {
+          "chapter_id": "ch-0242",
+          "claim_kind": "fact",
+          "end_line": 21317,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21227
+        }
+      ],
+      "handling": "原战实际优先、后言为转述夸词。",
+      "id": "v01-a-elite-kill",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 23,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "outcome-boundary",
+    "rationale": "应按直接战场26死/两活，242只是外人赞语；主安全脱身、神虎死/三会仍败都需保。255再杀剑已另有条件和动作，不能用后战替旧战造全歼。",
+    "later_chapters": [
+      241,
+      242,
+      255
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0241",
+        "start_line": 21151,
+        "end_line": 21226,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0242",
+        "start_line": 21227,
+        "end_line": 21317,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0255",
+        "start_line": 22144,
+        "end_line": 22249,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0025-01",
+    "original_question": "245十级麒麟铁、246口述100级。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "245十级麒麟铁、246口述100级。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0245",
+          "claim_kind": "fact",
+          "end_line": 21531,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21453
+        },
+        {
+          "chapter_id": "ch-0246",
+          "claim_kind": "fact",
+          "end_line": 21604,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21532
+        }
+      ],
+      "handling": "工艺材料分级异写不擅改已知配方。",
+      "id": "v01-a-iron-grade",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 24,
+      "atomic_index": 0
+    },
+    "status": "partial",
+    "audit_domain": "source-anomaly-and-production",
+    "rationale": "245十级麒麟铁与246100级口述旧写差保留；后257明确双10技/尚97份，258决带100麒麟铁、灵真重铸秦王，实际配方与生产已回收。成功不能自动抹246原称，却也不应把材料取得继续当未完成。",
+    "later_chapters": [
+      245,
+      246,
+      257,
+      258
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0245",
+        "start_line": 21453,
+        "end_line": 21531,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0246",
+        "start_line": 21532,
+        "end_line": 21604,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0257",
+        "start_line": 22331,
+        "end_line": 22421,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0258",
+        "start_line": 22422,
+        "end_line": 22529,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0025-02",
+    "original_question": "工艺材料分级异写不擅改已知配方。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "245十级麒麟铁、246口述100级。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0245",
+          "claim_kind": "fact",
+          "end_line": 21531,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21453
+        },
+        {
+          "chapter_id": "ch-0246",
+          "claim_kind": "fact",
+          "end_line": 21604,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21532
+        }
+      ],
+      "handling": "工艺材料分级异写不擅改已知配方。",
+      "id": "v01-a-iron-grade",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 24,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "production-boundary",
+    "rationale": "按工艺十级及百份的实际链理解：257灵十铸/决十采，258百铁入炉七淬成剑并主实戴。246那一句100级不据此改成系统要求主人物100级，否则与65级实穿冲突。",
+    "later_chapters": [
+      245,
+      246,
+      257,
+      258
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0245",
+        "start_line": 21453,
+        "end_line": 21531,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0246",
+        "start_line": 21532,
+        "end_line": 21604,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0257",
+        "start_line": 22331,
+        "end_line": 22421,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0258",
+        "start_line": 22422,
+        "end_line": 22529,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0026-01",
+    "original_question": "248李报6000余/北极自称7000及七团口径差。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "248李报6000余/北极自称7000及七团口径差。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0247",
+          "claim_kind": "fact",
+          "end_line": 21668,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21605
+        },
+        {
+          "chapter_id": "ch-0248",
+          "claim_kind": "fact",
+          "end_line": 21741,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21669
+        },
+        {
+          "chapter_id": "ch-0250",
+          "claim_kind": "fact",
+          "end_line": 21898,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21826
+        },
+        {
+          "chapter_id": "ch-0251",
+          "claim_kind": "fact",
+          "end_line": 21972,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21899
+        }
+      ],
+      "handling": "按报告主体存，不强精确唯一参战总数。",
+      "id": "v01-a-reinforcements",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 25,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "248李报6000余和北极口称7000/七团各是不同报告口径，251还在战、256只解决公开地图规则，未清点原参战精数。无法把报告合唯一实数，也不凭后来多会到场补一个缺千的隐军。",
+    "later_chapters": [
+      247,
+      248,
+      250,
+      251,
+      256
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0247",
+        "start_line": 21605,
+        "end_line": 21668,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0248",
+        "start_line": 21669,
+        "end_line": 21741,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0250",
+        "start_line": 21826,
+        "end_line": 21898,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0251",
+        "start_line": 21899,
+        "end_line": 21972,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0256",
+        "start_line": 22250,
+        "end_line": 22330,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0026-02",
+    "original_question": "按报告主体存，不强精确唯一参战总数。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "248李报6000余/北极自称7000及七团口径差。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0247",
+          "claim_kind": "fact",
+          "end_line": 21668,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21605
+        },
+        {
+          "chapter_id": "ch-0248",
+          "claim_kind": "fact",
+          "end_line": 21741,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21669
+        },
+        {
+          "chapter_id": "ch-0250",
+          "claim_kind": "fact",
+          "end_line": 21898,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21826
+        },
+        {
+          "chapter_id": "ch-0251",
+          "claim_kind": "fact",
+          "end_line": 21972,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 21899
+        }
+      ],
+      "handling": "按报告主体存，不强精确唯一参战总数。",
+      "id": "v01-a-reinforcements",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 25,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "reporting-boundary",
+    "rationale": "保发言者与时点可承认双方都在估量援军；250李主援分路真实到/251仍战，256撤卫与矿工进才闭资源目标。兵数近似不妨碍这些动作，不应造等额阵亡表凑总数。",
+    "later_chapters": [
+      248,
+      250,
+      251,
+      256
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0248",
+        "start_line": 21669,
+        "end_line": 21741,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0250",
+        "start_line": 21826,
+        "end_line": 21898,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0251",
+        "start_line": 21899,
+        "end_line": 21972,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0256",
+        "start_line": 22250,
+        "end_line": 22330,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-chapter_unresolved_index-0001-01",
+    "original_question": "林姓明星的完整身份及带他赛车的实际处置",
+    "original_record": {
+      "chapter_id": "ch-0003",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 111,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 23
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "林姓明星的完整身份及带他赛车的实际处置；李能否筹头盔入游戏。"
+      ]
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 0,
+      "atomic_index": 0
+    },
+    "status": "answered",
+    "audit_domain": "identity-and-action",
+    "rationale": "4对手喊出林婉儿全名，她先让主接驾驶/超车迫退对手，后嫌其不懂忧伤让下车，主跑20公里回公司。6又明确受护独女正是该女子；不是带他赛车杀掉或正式计时夺冠。",
+    "later_chapters": [
+      4,
+      6
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0004",
+        "start_line": 112,
+        "end_line": 213,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0006",
+        "start_line": 302,
+        "end_line": 399,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-chapter_unresolved_index-0001-02",
+    "original_question": "李能否筹头盔入游戏。",
+    "original_record": {
+      "chapter_id": "ch-0003",
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 111,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 23
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "林姓明星的完整身份及带他赛车的实际处置；李能否筹头盔入游戏。"
+      ]
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 0,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "acquisition",
+    "rationale": "6林实际交红色贵宾头盔，8主已建逍遥自在人族医者并持铁剑。入游戏所需硬件已解决，并非后来100买两盔才让主本人首次入。",
+    "later_chapters": [
+      6,
+      8
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0006",
+        "start_line": 302,
+        "end_line": 399,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0008",
+        "start_line": 482,
+        "end_line": 564,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-chapter_unresolved_index-0002-01",
+    "original_question": "林婉儿所称忧伤的具体缘由",
+    "original_record": {
+      "chapter_id": "ch-0004",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 213,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 112
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "林婉儿所称忧伤的具体缘由；李接下来住处和欠租处理。"
+      ]
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 1,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "limited-view-motivation",
+    "rationale": "4那次“忧伤”没有给单一具体因由。7退圈求安静、120父监视、132植入与213实习安排显示其自主压力，但未明说它们就是盘山道那句话的全部答案；774父女缓和是后态。检索六卷忧伤/母亲等资料没有该句的独立回指，不能挪李母离开替林解释，更不判作者忘。",
+    "later_chapters": [
+      4,
+      7,
+      120,
+      132,
+      213,
+      552,
+      774
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0004",
+        "start_line": 112,
+        "end_line": 213,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0007",
+        "start_line": 400,
+        "end_line": 481,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0120",
+        "start_line": 10438,
+        "end_line": 10523,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0132",
+        "start_line": 11503,
+        "end_line": 11583,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0213",
+        "start_line": 18785,
+        "end_line": 18858,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0552",
+        "start_line": 44574,
+        "end_line": 44661,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0774",
+        "start_line": 60181,
+        "end_line": 60264,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-chapter_unresolved_index-0002-02",
+    "original_question": "李接下来住处和欠租处理。",
+    "original_record": {
+      "chapter_id": "ch-0004",
+      "evidence": [
+        {
+          "chapter_id": "ch-0004",
+          "claim_kind": "fact",
+          "end_line": 213,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 112
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "林婉儿所称忧伤的具体缘由；李接下来住处和欠租处理。"
+      ]
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 1,
+      "atomic_index": 1
+    },
+    "status": "partial",
+    "audit_domain": "housing-and-payment",
+    "rationale": "6已入住月400交三押一的新租房、再有大学寝室；103工作室也真租，住处已解决。旧房东换锁欠两天那笔未见专门补租结清，宋泼粪报复不是付款；新住处押金条款与旧欠租不能合一。",
+    "later_chapters": [
+      4,
+      5,
+      6,
+      103
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0004",
+        "start_line": 112,
+        "end_line": 213,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0005",
+        "start_line": 214,
+        "end_line": 301,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0006",
+        "start_line": 302,
+        "end_line": 399,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0103",
+        "start_line": 8939,
+        "end_line": 9020,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-chapter_unresolved_index-0003-01",
+    "original_question": "雇主/受护女身份与正式协议是否成立",
+    "original_record": {
+      "chapter_id": "ch-0005",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 301,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 214
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "雇主/受护女身份与正式协议是否成立；一万月薪和被子实际发放；重组斩龙所需资金/头盔。"
+      ]
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 2,
+      "atomic_index": 0
+    },
+    "status": "answered",
+    "audit_domain": "employment",
+    "rationale": "6王引见林天南/林锋，试剑后雇主认可、王实给一万，李接受陪独女入学且林实际交盔，7开始校园护卫。足证任务正式关系已成立，不必虚加未展示纸合同签字；受护女就是林婉儿。",
+    "later_chapters": [
+      5,
+      6,
+      7
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0005",
+        "start_line": 214,
+        "end_line": 301,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0006",
+        "start_line": 302,
+        "end_line": 399,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0007",
+        "start_line": 400,
+        "end_line": 481,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-chapter_unresolved_index-0003-02",
+    "original_question": "一万月薪和被子实际发放",
+    "original_record": {
+      "chapter_id": "ch-0005",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 301,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 214
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "雇主/受护女身份与正式协议是否成立；一万月薪和被子实际发放；重组斩龙所需资金/头盔。"
+      ]
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 2,
+      "atomic_index": 1
+    },
+    "status": "partial",
+    "audit_domain": "payment-and-promise",
+    "rationale": "6王实际给一万现金，兑现初次月薪，不能仍写只谈价。另羽绒空调被没有专门交付后证；120未来五万/774本月十万本人已付口述是不同期薪，不能替被子或把最初一万改成已领十万。",
+    "later_chapters": [
+      5,
+      6,
+      120,
+      774
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0005",
+        "start_line": 214,
+        "end_line": 301,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0006",
+        "start_line": 302,
+        "end_line": 399,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0120",
+        "start_line": 10438,
+        "end_line": 10523,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0774",
+        "start_line": 60181,
+        "end_line": 60264,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-chapter_unresolved_index-0003-03",
+    "original_question": "重组斩龙所需资金/头盔。",
+    "original_record": {
+      "chapter_id": "ch-0005",
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 301,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 214
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "雇主/受护女身份与正式协议是否成立；一万月薪和被子实际发放；重组斩龙所需资金/头盔。"
+      ]
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 2,
+      "atomic_index": 2
+    },
+    "status": "answered",
+    "audit_domain": "team-rebuilding",
+    "rationale": "主本人盔6获；重组旧友所需硬件100实买两盔/宋101称己已买，103三友正式上线104会合带练，103租室有收据。缺钱不是终点悬题，已通过游戏所得、凑资与实物投入成组织，不要求逐盔递手镜。",
+    "later_chapters": [
+      6,
+      100,
+      101,
+      102,
+      103,
+      104
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0006",
+        "start_line": 302,
+        "end_line": 399,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0100",
+        "start_line": 8648,
+        "end_line": 8755,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0101",
+        "start_line": 8756,
+        "end_line": 8838,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0102",
+        "start_line": 8839,
+        "end_line": 8938,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0103",
+        "start_line": 8939,
+        "end_line": 9020,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0104",
+        "start_line": 9021,
+        "end_line": 9108,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结41—60原题和原记录；复读本人3—9/100—104/120四栏及primary212—215/233—234/239—242、agent4卷2的255—258、agent5卷3的552全部四栏；查最终六卷麒麟铁/嗜血/九人十人/旧薪租金/忧伤母亲字段。后卷明确来源为派生阅读，未冒亲读原文；李母材料只用于排除跨主体解释。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  }
+]

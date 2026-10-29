@@ -1,0 +1,359 @@
+{
+  "all_snapshot_files_sha256_equal": true,
+  "core_restore": {
+    "assets": 2844,
+    "directory": "C:\\.codex-verify\\novels-final-cached-20261026-091910\\writing-vault",
+    "graphs": 8,
+    "projects": 0,
+    "sources": 8,
+    "valid": true,
+    "verified_files": 6500
+  },
+  "derived_plot_restore": {
+    "regenerated_plot_views": 30
+  },
+  "full_archive": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\backups\\three-books-final-20261026-090719\\writing-vault-full.zip",
+  "full_archive_sha256": "79238727b2122d6927633571cb433eead99806883af09a368778183ba41476a2",
+  "original_collection_validation": {
+    "author_queries": {
+      "作者:发飙的蜗牛": {
+        "cards": 327,
+        "types": {
+          "character": 199,
+          "pattern": 7,
+          "scene": 121
+        }
+      },
+      "作者:失落叶": {
+        "cards": 1832,
+        "types": {
+          "character": 719,
+          "pattern": 242,
+          "scene": 871
+        }
+      }
+    },
+    "backup_candidate_bytes": 417745964,
+    "backup_candidate_files": 9177,
+    "books": {
+      "tianxia-wushuang": {
+        "acceptance": "full-source-nine-dimensions-and-terminal-audit-complete",
+        "audit": {
+          "book": "tianxia-wushuang",
+          "counts": {
+            "characters": 115,
+            "findings": 30,
+            "historical": 214,
+            "local": 3916
+          },
+          "evidence_references_checked": 26524,
+          "freeze_manifest_sha256": "f8e1e54f265f626878be616fe2e70aa372e6628f6476a9d0139c2f1c70c5fb5c",
+          "frozen_sha256_entries_checked": 215,
+          "graph_threads": 128,
+          "independent_historical_questions": 86,
+          "original_graph_unchanged": true,
+          "original_volume_and_card_files_unchanged": true,
+          "primary_review_status": "reviewed_for_library_import",
+          "published_file_hashes_checked": 215,
+          "reachable_markdown_links_checked": 113,
+          "status": "published-audit-validation-passed",
+          "unchanged_formal_hashes_checked": 840,
+          "user_review_status": "draft"
+        },
+        "body_units": 1599
+      },
+      "zhanlong": {
+        "acceptance": "full-source-nine-dimensions-and-terminal-audit-complete",
+        "archived_materials": {
+          "entries": 131,
+          "planning_directory_required": false,
+          "status": "exact-archived-material-versions-passed"
+        },
+        "audit": {
+          "book": "zhanlong",
+          "counts": {
+            "characters": 161,
+            "findings": 24,
+            "historical": 232,
+            "local": 2462
+          },
+          "evidence_references_checked": 22699,
+          "freeze_manifest_sha256": "0d160522d181c89f6f1efaa141c7cadf51fc152443ea7f11050468de22627cf6",
+          "frozen_sha256_entries_checked": 729,
+          "graph_threads": 114,
+          "independent_historical_questions": 118,
+          "original_graph_unchanged": true,
+          "original_volume_and_card_files_unchanged": true,
+          "primary_review_status": "reviewed_for_library_import",
+          "published_file_hashes_checked": 677,
+          "reachable_markdown_links_checked": 125,
+          "status": "published-audit-validation-passed",
+          "unchanged_formal_hashes_checked": 778,
+          "user_review_status": "draft"
+        },
+        "body_units": 1378
+      },
+      "zongheng-tianxia": {
+        "acceptance": "full-source-nine-dimensions-and-terminal-audit-complete",
+        "audit": {
+          "book": "zongheng-tianxia",
+          "counts": {
+            "characters": 48,
+            "findings": 27,
+            "historical": 105,
+            "local": 404
+          },
+          "evidence_references_checked": 3998,
+          "freeze_manifest_sha256": "97b02da47905c27d253fc0a29f7ce3599d888d4441c508c41ddb334421715562",
+          "frozen_sha256_entries_checked": 51,
+          "graph_threads": 89,
+          "independent_historical_questions": 16,
+          "original_graph_unchanged": true,
+          "original_volume_and_card_files_unchanged": true,
+          "primary_review_status": "reviewed_for_library_import",
+          "published_file_hashes_checked": 44,
+          "reachable_markdown_links_checked": 103,
+          "status": "published-audit-validation-passed",
+          "unchanged_formal_hashes_checked": 506,
+          "user_review_status": "draft"
+        },
+        "body_units": 1180
+      }
+    },
+    "checkpoint_nonbody_exclusions": [
+      {
+        "run_id": "run-queue-leveling-expert-20261023",
+        "segments": [
+          "ch-0001"
+        ]
+      },
+      {
+        "run_id": "run-two-books-20261023-l",
+        "segments": [
+          "ch-0001"
+        ]
+      },
+      {
+        "run_id": "run-two-books-20261023-z",
+        "segments": [
+          "ch-0001"
+        ]
+      }
+    ],
+    "checkpoint_partitions_verified": 18,
+    "elapsed_seconds": 28.28,
+    "historical_context_links_checked": 13,
+    "immutable_historical_markdown_contexts_verified": 5,
+    "limits": [
+      "结构和哈希验收不代替文学主审或用户审美认可",
+      "旧蜗牛全书成果按原任务检查点接入，未追认本轮重读",
+      "此回执不等备份/实际恢复/远程推送已经执行"
+    ],
+    "reachable_local_links_checked": 24821,
+    "reading_unit_segments_exactly_once": 6739,
+    "rebuilt_asset_views": 2844,
+    "status": "three-books-and-collection-local-validation-passed",
+    "vault": {
+      "assets": 2844,
+      "graphs": 8,
+      "projects": 0,
+      "sources": 8,
+      "valid": true
+    }
+  },
+  "original_text_excluded": true,
+  "previous_attempt": "attempt-01-interrupted.json",
+  "report_restore": [
+    {
+      "archive": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\backups\\three-books-final-20261026-090719\\reports-01.zip",
+      "verified_report_files": 28
+    },
+    {
+      "archive": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\backups\\three-books-final-20261026-090719\\reports-02.zip",
+      "verified_report_files": 333
+    },
+    {
+      "archive": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\backups\\three-books-final-20261026-090719\\reports-03.zip",
+      "verified_report_files": 2316
+    }
+  ],
+  "report_supplements": [
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\backups\\three-books-final-20261026-090719\\reports-01.zip",
+      "sha256": "f04742e08576dce5d28fa454936ccbc39632a900d26916531e1f6253740dba34"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\backups\\three-books-final-20261026-090719\\reports-02.zip",
+      "sha256": "98d294ec4094722a2d5c16508437aa6c5cad4eaa775b4b7ee1f32999b947e1e8"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\backups\\three-books-final-20261026-090719\\reports-03.zip",
+      "sha256": "7ac42333780776239e9a6273a7c1b5be605b89bf4bd70e094f9c3cf57225c917"
+    }
+  ],
+  "restore_core": {
+    "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\backups\\three-books-final-20261026-090719\\core.zip",
+    "sha256": "02123fc6a357b1e07b69674902335ea26005fa81f9d52a586fc6742dc4a507a3"
+  },
+  "restore_directory": "C:\\.codex-verify\\novels-final-cached-20261026-091910\\writing-vault",
+  "restored_collection_validation": {
+    "author_queries": {
+      "作者:发飙的蜗牛": {
+        "cards": 327,
+        "types": {
+          "character": 199,
+          "pattern": 7,
+          "scene": 121
+        }
+      },
+      "作者:失落叶": {
+        "cards": 1832,
+        "types": {
+          "character": 719,
+          "pattern": 242,
+          "scene": 871
+        }
+      }
+    },
+    "backup_candidate_bytes": 417745964,
+    "backup_candidate_files": 9177,
+    "books": {
+      "tianxia-wushuang": {
+        "acceptance": "full-source-nine-dimensions-and-terminal-audit-complete",
+        "audit": {
+          "book": "tianxia-wushuang",
+          "counts": {
+            "characters": 115,
+            "findings": 30,
+            "historical": 214,
+            "local": 3916
+          },
+          "evidence_references_checked": 26524,
+          "freeze_manifest_sha256": "f8e1e54f265f626878be616fe2e70aa372e6628f6476a9d0139c2f1c70c5fb5c",
+          "frozen_sha256_entries_checked": 215,
+          "graph_threads": 128,
+          "independent_historical_questions": 86,
+          "original_graph_unchanged": true,
+          "original_volume_and_card_files_unchanged": true,
+          "primary_review_status": "reviewed_for_library_import",
+          "published_file_hashes_checked": 215,
+          "reachable_markdown_links_checked": 113,
+          "status": "published-audit-validation-passed",
+          "unchanged_formal_hashes_checked": 840,
+          "user_review_status": "draft"
+        },
+        "body_units": 1599
+      },
+      "zhanlong": {
+        "acceptance": "full-source-nine-dimensions-and-terminal-audit-complete",
+        "archived_materials": {
+          "entries": 131,
+          "planning_directory_required": false,
+          "status": "exact-archived-material-versions-passed"
+        },
+        "audit": {
+          "book": "zhanlong",
+          "counts": {
+            "characters": 161,
+            "findings": 24,
+            "historical": 232,
+            "local": 2462
+          },
+          "evidence_references_checked": 22699,
+          "freeze_manifest_sha256": "0d160522d181c89f6f1efaa141c7cadf51fc152443ea7f11050468de22627cf6",
+          "frozen_sha256_entries_checked": 729,
+          "graph_threads": 114,
+          "independent_historical_questions": 118,
+          "original_graph_unchanged": true,
+          "original_volume_and_card_files_unchanged": true,
+          "primary_review_status": "reviewed_for_library_import",
+          "published_file_hashes_checked": 677,
+          "reachable_markdown_links_checked": 125,
+          "status": "published-audit-validation-passed",
+          "unchanged_formal_hashes_checked": 778,
+          "user_review_status": "draft"
+        },
+        "body_units": 1378
+      },
+      "zongheng-tianxia": {
+        "acceptance": "full-source-nine-dimensions-and-terminal-audit-complete",
+        "audit": {
+          "book": "zongheng-tianxia",
+          "counts": {
+            "characters": 48,
+            "findings": 27,
+            "historical": 105,
+            "local": 404
+          },
+          "evidence_references_checked": 3998,
+          "freeze_manifest_sha256": "97b02da47905c27d253fc0a29f7ce3599d888d4441c508c41ddb334421715562",
+          "frozen_sha256_entries_checked": 51,
+          "graph_threads": 89,
+          "independent_historical_questions": 16,
+          "original_graph_unchanged": true,
+          "original_volume_and_card_files_unchanged": true,
+          "primary_review_status": "reviewed_for_library_import",
+          "published_file_hashes_checked": 44,
+          "reachable_markdown_links_checked": 103,
+          "status": "published-audit-validation-passed",
+          "unchanged_formal_hashes_checked": 506,
+          "user_review_status": "draft"
+        },
+        "body_units": 1180
+      }
+    },
+    "checkpoint_nonbody_exclusions": [
+      {
+        "run_id": "run-queue-leveling-expert-20261023",
+        "segments": [
+          "ch-0001"
+        ]
+      },
+      {
+        "run_id": "run-two-books-20261023-l",
+        "segments": [
+          "ch-0001"
+        ]
+      },
+      {
+        "run_id": "run-two-books-20261023-z",
+        "segments": [
+          "ch-0001"
+        ]
+      }
+    ],
+    "checkpoint_partitions_verified": 18,
+    "elapsed_seconds": 27.2,
+    "historical_context_links_checked": 13,
+    "immutable_historical_markdown_contexts_verified": 5,
+    "limits": [
+      "结构和哈希验收不代替文学主审或用户审美认可",
+      "旧蜗牛全书成果按原任务检查点接入，未追认本轮重读",
+      "此回执不等备份/实际恢复/远程推送已经执行"
+    ],
+    "reachable_local_links_checked": 24821,
+    "reading_unit_segments_exactly_once": 6739,
+    "rebuilt_asset_views": 2844,
+    "status": "three-books-and-collection-local-validation-passed",
+    "vault": {
+      "assets": 2844,
+      "graphs": 8,
+      "projects": 0,
+      "sources": 8,
+      "valid": true
+    }
+  },
+  "snapshot_boundary": "本次新回执在快照后保存于归档sidecar及现库；快照保生成时的旧回执，不声称包含自己。",
+  "source_cache_policy": "仅本次进程为不可变索引做实例缓存；标准restore源码、路径、大小、哈希和结构校验均未修改。",
+  "source_current_files_exactly_equal_snapshot_before_restore": true,
+  "standard_restore_limits_preserved": {
+    "max_entries_per_archive": 10000,
+    "max_uncompressed_bytes_per_archive": 209715200
+  },
+  "status": "fresh-backup-and-actual-restore-validated",
+  "support_entry_restored": {
+    "verified_bytes": 60003,
+    "verified_files": 31
+  },
+  "verified_snapshot_files": 9177
+}

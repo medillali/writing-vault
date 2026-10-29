@@ -1,0 +1,78 @@
+# 巨岩地形战与活着的五王
+
+ID: `scn-3a18e84e4fd05bd891bd887baf8be5e7` · 版本: 1 · 范围: source-analysis
+
+259到269真十级、五王活飞起未交战，入六；末只断掌
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-3a18e84e4fd05bd891bd887baf8be5e7",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "重造人物目的、约束、信息渠道与代价后才可迁移；不直接搬用情节、数表或世界设定。",
+    "choice": "劈断层/徒紫啸推巨岩，菱晶意外爆",
+    "claim_kind": "synthesis",
+    "consequence": "259到269真十级、五王活飞起未交战，入六；末只断掌",
+    "failure_mode": "营规模估不等系统全灭数/未名兽不认佩妮娜",
+    "goal": "跨第五营通往救赎",
+    "obstacle": "万营/奥估十万含精、藏兵目的推测",
+    "state_change": "用地理和资源链改变战斗尺度",
+    "summary": "259到269真十级、五王活飞起未交战，入六；末只断掌",
+    "why_it_works": "胜因包括意外，不能主全知计划获利"
+  },
+  "created_at": "2026-10-25T00:16:11.680271+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1488",
+      "claim_kind": "fact",
+      "end_line": 117960,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 117896
+    },
+    {
+      "chapter_id": "ch-1489",
+      "claim_kind": "fact",
+      "end_line": 118057,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 117961
+    },
+    {
+      "chapter_id": "ch-1490",
+      "claim_kind": "fact",
+      "end_line": 118125,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 118058
+    },
+    {
+      "chapter_id": "ch-1504",
+      "claim_kind": "fact",
+      "end_line": 119331,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 119235
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol07/scene/army",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:7",
+    "状态:待审阅"
+  ],
+  "title": "巨岩地形战与活着的五王",
+  "updated_at": "2026-10-25T00:16:11.680271+00:00",
+  "user_notes": ""
+}
+
+```

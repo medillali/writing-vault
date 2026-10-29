@@ -1,0 +1,72 @@
+# 贼胆｜两分钟六十一局的猜拳｜S0049
+
+ID: `scn-zeidan-legacy-s0049` · 版本: 1 · 范围: source-analysis
+
+萧凭现实手技以51:10胜，坦白不公平愿再比。；糖果接受，并付两万买旧肩。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-zeidan-legacy-s0049",
+  "asset_type": "scene",
+  "content": {
+    "causal_importance": "局部情节关键",
+    "choices": [
+      "用游戏外能力取分配结果但公开不公平性"
+    ],
+    "facts": [
+      "萧凭现实手技以51:10胜，坦白不公平愿再比。",
+      "糖果接受，并付两万买旧肩。"
+    ],
+    "inferences": [],
+    "interesting_unresolved": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/scenes.json#S0049",
+    "name": "两分钟六十一局的猜拳",
+    "previous_context": "萧糖果争史诗肩，柠檬提猜拳避免PK。",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "S0049",
+    "result": "竞争未转敌意，双方各得实际收益。",
+    "summary": "萧凭现实手技以51:10胜，坦白不公平愿再比。；糖果接受，并付两万买旧肩。",
+    "title": "两分钟六十一局的猜拳",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:13.960608+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0280",
+      "claim_kind": "fact",
+      "end_line": 15043,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14980
+    },
+    {
+      "chapter_id": "ch-0281",
+      "claim_kind": "fact",
+      "end_line": 15092,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 15044
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/S0049",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜两分钟六十一局的猜拳｜S0049",
+  "updated_at": "2026-10-22T17:03:13.962684+00:00",
+  "user_notes": ""
+}
+
+```

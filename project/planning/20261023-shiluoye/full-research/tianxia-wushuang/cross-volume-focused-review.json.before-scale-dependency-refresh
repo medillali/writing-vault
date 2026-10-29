@@ -1,0 +1,644 @@
+{
+  "schema": "cross-volume-focused-review/v1",
+  "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+  "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+  "reviewer": "zongheng_vol05_full",
+  "status": "ready_for_primary_review_scoped_cross_volume_complete",
+  "scope": "独立身份、产权、阶段与终态专项；20项主题交叉复核完成，不等逐张全书卡片重审；不是原子池/人物弧，不修改正式库、分卷冻结包或其他代理审计。",
+  "original_reading_attribution": {
+    "personally_read": [
+      "卷四raw0607—0792",
+      "卷六raw1059—1233"
+    ],
+    "merged_from_primary_actual_reading": "卷六raw1234—1293，已逐条完整读60条笔记",
+    "volume8_last37_original_read_by_this_reviewer": false,
+    "other_volumes": "以下核对来自派生报告/交接及指定笔记，不冒认全文原文阅读。"
+  },
+  "material_review_log": [
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol01.md",
+      "scope": "全文派生报告"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/handoff.md",
+      "scope": "全文"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol02.md",
+      "scope": "全文派生报告；第一次合批输出截断后已单文件补读"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol02/handoff.md",
+      "scope": "全文"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol03-handoff.md",
+      "scope": "全文派生交接；合批截断后已单文件补读"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol05-handoff.md",
+      "scope": "全文派生交接"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol04-handoff.md",
+      "scope": "本次已全文读取正式派生交接；本人此前全文阅读、组织与主审delta经验仅作归属，不重写冻结卷"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/",
+      "scope": "本人组织全包、primary终审通过；现冻结不改"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol07/chapter-notes.jsonl",
+      "scope": "完整条目ch1328、ch1336、ch1337；未用消息摘要代读；不是卷七全包已审"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol08/handoff.md",
+      "scope": "全文派生交接"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol08/report.md",
+      "scope": "定向完整读取行1—95、283—345、945—985及身份/现实末态检索；未宣本报告所有场景均逐项读过"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/metadata-handoff.md",
+      "scope": "全文；这是历史元数据预备快照，正文0状态不得当成当前进度"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol06-handoff.md",
+      "scope": "本次复核以本人冻结交接内容与正式导入版本快照核源；未重新声明正文亲读"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol07-handoff.md",
+      "scope": "本次全文读取最终正式交接"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol08-handoff.md",
+      "scope": "本次全文读取最终正式交接"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol07/primary-review-delta.json",
+      "scope": "全文读取最终delta；其中旧pending措辞为主审前历史，此后正式review-vol07已签"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol07-cards.json",
+      "scope": "定向完整核人物月光石/虎豹骑/吕超/吕布衣/同乘女骑/月露、救月场景；另定向核明宇/卡兰/米斩首条目"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/audit/review-vol07.json",
+      "scope": "全文正式主审凭据"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/audit/full-reading-validation.json",
+      "scope": "全文覆盖核验回执；仅引用真实阅读归属与1599/1609通过结果，不伪称本人全源独读"
+    }
+  ],
+  "findings": [
+    {
+      "id": "cf-01-feiyan",
+      "category": "ownership",
+      "status": "corrected_in_frozen_vol06",
+      "conclusion": "飞炎领地归泪残痕所在公会野性王座；烛未阻泪失地，琥杀烛，随后烛龙将领反杀琥。野性王座不是城名。",
+      "basis": "primary指出后，本审阅者再次完整回读raw1173，分卷场景/图/报告已同步。",
+      "source_locators": [
+        {
+          "chapter_id": "ch-1173",
+          "start_line": 94571,
+          "end_line": 94585,
+          "claim_kind": "fact",
+          "reading_basis": "personally_reread_full_chapter"
+        }
+      ],
+      "must_not_reintroduce": "旧逐章初判归烛保在历史笔记中，不能覆盖已核源正式稿。"
+    },
+    {
+      "id": "cf-02-umbrella-leader",
+      "category": "identity_and_authority",
+      "status": "timeline_confirmed_transfer_event_unspecified",
+      "conclusion": "1173吻召会提整编、战痕推陆总主、陆起保护伞名；1199陆仍称保护伞盟主，1219明确吻现在为盟主。后阶段吻掌盟有明文，不是矛盾。",
+      "source_locators": [
+        {
+          "chapter_id": "ch-1173",
+          "start_line": 94610,
+          "end_line": 94635,
+          "claim_kind": "fact",
+          "reading_basis": "personally_reread_full_chapter"
+        },
+        {
+          "chapter_id": "ch-1219",
+          "start_line": 97865,
+          "end_line": 97867,
+          "claim_kind": "fact",
+          "reading_basis": "personally_read_full_chapter"
+        }
+      ],
+      "limits": "未展示精确移交时刻，不能自造哪一天举行交接；组织的游戏无籍/驻地/卫星与中国玩家资格仍分开。"
+    },
+    {
+      "id": "cf-03-airela-bow",
+      "category": "property",
+      "status": "corrected_in_frozen_vol06",
+      "conclusion": "艾蕾拉掉弓由林以30万RMB购买、其余六队友各5万；三生陌不在七人队，不得给她该弓交易。35万只是何估价。",
+      "source_locators": [
+        {
+          "chapter_id": "ch-1262",
+          "start_line": 100863,
+          "end_line": 100884,
+          "claim_kind": "fact",
+          "reading_basis": "primary_targeted_verification_and_full_tail_note"
+        }
+      ],
+      "limits": "三生陌其他战功不因删除错归而删除；不造独立弓交易。"
+    },
+    {
+      "id": "cf-04-mingyu-body",
+      "category": "identity",
+      "status": "confirmed_layers_and_later_outcomes",
+      "conclusion": "林浅是可见身体/王子身份，揭露后的操控者明宇有互认与自述；寄魂斩龙剑史仅本书NPC自述。不能把该陈述回写《纵横天下》独立终态。",
+      "source_locators": [
+        {
+          "chapter_id": "ch-1268",
+          "start_line": 101248,
+          "end_line": 101323,
+          "claim_kind": "fact",
+          "reading_basis": "primary_full_tail_note"
+        }
+      ],
+      "limits": "卷六断臂/跳渊未死保持其快照；卷七正式后证为明宇被大圣者取心火种碎身化尘真死、米被心然斩首且头后毁，须加后证而非全书仍判二者活。林浅自身魂/意志去向不由明宇终死自动补全。",
+      "derived_refs": [
+        "vol07-handoff.md:生死复活",
+        "vol07-cards.json:character/mingyu与scene/mirror"
+      ]
+    },
+    {
+      "id": "cf-05-project-books",
+      "category": "corpus_boundary",
+      "status": "confirmed_distinction",
+      "conclusion": "用户项目按纵横→无双→斩龙三书推进，不等这三本就是作者所称月恒三部曲。作者感言/广告与小说canon、用户工作序分层。",
+      "derived_refs": [
+        "vol08/report.md:980",
+        "metadata-handoff.md"
+      ],
+      "limits": "本专项不据系列词替斩龙建立已读记录，也不从作者广告取得后书情节。"
+    },
+    {
+      "id": "cf-06-npc-restoration",
+      "category": "state_and_recovery",
+      "status": "confirmed_scoped_exceptions",
+      "conclusion": "卷四暗月90%、卷六1194的87%和1239的80%均为具体胜奖；战时NPC真死与战后群恢复可以并存，不逐名派复活。蒙川仪式复活、奥维亚净魂后复体另有各自渠道。",
+      "derived_refs": [
+        "vol04/handoff.md",
+        "vol05-handoff.md:NPC存死与历史",
+        "vol06/handoff.md:游戏世界、组织与战争账"
+      ],
+      "limits": "不能写NPC永不复或全部自动活，更不能拿群恢复覆盖具名死者的阶段记录。"
+    },
+    {
+      "id": "cf-07-xinran-real",
+      "category": "identity_and_real_state",
+      "status": "confirmed_volume6_to8_bridge",
+      "conclusion": "卷六心然游戏身体断腿活；卷七腿长出到97%而非早伤是假，后受新囚伤，1503亲见活救/1504游戏人界回归。现实1500营养液董欣然仍昏，1504未睁眼；卷八才实际苏醒、签字与肌力康复。",
+      "derived_refs": [
+        "vol06/handoff.md:人物与身体终态",
+        "vol08/report.md:67—73",
+        "vol08/handoff.md:现实",
+        "vol07-handoff.md:三项结果、v07-q-awake/body/heart-heal"
+      ],
+      "source_locators": [
+        {
+          "chapter_id": "ch-1512",
+          "start_line": 119819,
+          "end_line": 119893,
+          "claim_kind": "fact",
+          "reading_basis": "volume8_report_carried_locator_not_personal_original_read"
+        },
+        {
+          "chapter_id": "ch-1500",
+          "start_line": 118902,
+          "end_line": 118983,
+          "claim_kind": "fact",
+          "reading_basis": "final_volume7_handoff_carried_locator_not_personal_original_read"
+        },
+        {
+          "chapter_id": "ch-1504",
+          "start_line": 119235,
+          "end_line": 119331,
+          "claim_kind": "fact",
+          "reading_basis": "final_volume7_handoff_carried_locator_not_personal_original_read"
+        }
+      ],
+      "limits": "游戏同人映射不使两套身体伤情自动等同；97%/当下装病陪伴不倒推原伤虚假，现实醒后仍需护理，不等病理根治。"
+    },
+    {
+      "id": "cf-08-luchen-ending",
+      "category": "real_state",
+      "status": "confirmed_ending_inference_not_absolute_cure",
+      "conclusion": "卷八主文病危倒计时未宣死亡；后记明确林独陪赴美，匿名加州生活与称逸逸的金剑战士强指生还/活动恢复，仍非绝对病理根治回执。",
+      "derived_refs": [
+        "vol08/handoff.md:结尾边界与现实",
+        "vol08/report.md:13、958—961、975"
+      ],
+      "source_locators": [
+        {
+          "chapter_id": "ch-1609",
+          "start_line": 127563,
+          "end_line": 127662,
+          "claim_kind": "inference",
+          "reading_basis": "volume8_report_carried_locator_not_personal_original_read"
+        }
+      ],
+      "limits": "抑制剂初效/再失能、机器方案/解析87.2%、出院/根治分别记录；不用结尾温暖气氛反改前卷病情和知情者。"
+    },
+    {
+      "id": "cf-09-kalan-names",
+      "category": "identity",
+      "status": "confirmed_do_not_merge",
+      "conclusion": "卷五卡兰斯被苏菲踢碎心真死；卷六卡兰是龙骑队长，先明宇断臂后米迦勒断腿、卡琳回魂止血。姓名近似不能合成死而复生的一人。",
+      "derived_refs": [
+        "vol05-handoff.md:NPC存死与历史",
+        "vol06/handoff.md:人物与身体终态",
+        "vol07-cards.json:character/ka",
+        "vol07-handoff.md:v07-q-karevenge"
+      ],
+      "source_locators": [
+        {
+          "chapter_id": "ch-1268",
+          "start_line": 101269,
+          "additional_lines": [
+            101304,
+            101307
+          ],
+          "claim_kind": "fact",
+          "reading_basis": "primary_targeted_verification"
+        }
+      ],
+      "limits": "卷六未重塑肢体/正式入军保当卷；卷七卡兰仍活并请冰同行，米由心杀不等卡独自复仇完成。不同姓名近似无同人依据不合并。"
+    },
+    {
+      "id": "cf-10-same-id",
+      "category": "identity",
+      "status": "confirmed_entity_separation",
+      "conclusion": "吻痕中刺/美战/荷兰战独立；谁与争锋中刺/美战/巴西锋芒剑师独立；小蛮与水云谣、苏菲与索菲娅、许阳与杜十三独立。",
+      "derived_refs": [
+        "vol03-handoff.md:人物即时状态",
+        "vol05-handoff.md:NPC存死与历史",
+        "vol06/analysis.json:identity-separation",
+        "vol08/handoff.md:结尾边界"
+      ],
+      "limits": "陆尘=落尘=Night_chen=折戟沉沙是本书别名，不把旧书丁舒升/书生自动并入；清风破=林凡有明示，龙域小战士/书生今天不吃饭仍不能靠旧书补实名。"
+    },
+    {
+      "id": "cf-11-darkmoon-control",
+      "category": "property_and_authority",
+      "status": "confirmed_layers_with_four_city_receipts",
+      "conclusion": "卷三暗月系统归古剑，陆受托管理/NPC代管不等私产；卷六逐籍不自动丢其城主联系；卷八城主职权实际交何，不能把职权移交扩大成所有个人/公司产权全转。",
+      "derived_refs": [
+        "vol03-handoff.md:城市、战争与未兑现",
+        "vol06/handoff.md:游戏世界、组织与战争账",
+        "vol08/report.md:53、323"
+      ],
+      "limits": "卷七四城新增与30日期限另列cf14；城主权限、城市系统归属、NPC代管和私人股份不可相互替代。"
+    },
+    {
+      "id": "cf-12-shares-and-cash",
+      "category": "property",
+      "status": "confirmed_no_automatic_offset",
+      "conclusion": "雨立方初创何50/陆慕北各10是卷三阶段表；卷五另有何10现说未展示股转，不反改初创。卷八董欣然25%与随时无条件归还双合同签字/总司确认是另套代理控制，估值不是现金。",
+      "derived_refs": [
+        "vol03-handoff.md:经济合同",
+        "vol05-handoff.md:v05-q-shares",
+        "vol08/report.md:25—31、958"
+      ],
+      "limits": "五亿卡鬼代保非赠与/已花；借装李一月未明还，长生不同借出转交按事件分，不能用巨富抵清旧债。"
+    },
+    {
+      "id": "cf-13-tang-later-report",
+      "category": "state_update",
+      "status": "confirmed_later_report_on_final_volume7",
+      "conclusion": "卷六截至1217待公审是当卷正确快照；卷七1328乱月转述唐终身监禁为后续定罪消息，因此全书不能永停待公审，但证据渠道仍为角色转述，不伪称亲见司法文件。",
+      "source_locators": [
+        {
+          "chapter_id": "ch-1328",
+          "start_line": 105694,
+          "end_line": 105767,
+          "claim_kind": "fact",
+          "reading_basis": "entire_four_field_note_read"
+        }
+      ],
+      "limits": "卷七派生notes实际读者为/root/zongheng_vol04_full；本专项只读笔记，未亲读该章原文。",
+      "derived_refs": [
+        "vol07-handoff.md:来源分层",
+        "audit/review-vol07.json:完整211笔记主审核读"
+      ]
+    },
+    {
+      "id": "cf-14-four-cities-refund",
+      "category": "property_and_transaction",
+      "status": "confirmed_final_volume7_receipts",
+      "conclusion": "1336五千万到账后1337全额退京城洛神，不是净赚；1337系统四城金战天盟/银古剑/铜雪银/铁烛龙，各30日，不能只记中途令牌位置。",
+      "source_locators": [
+        {
+          "chapter_id": "ch-1336",
+          "start_line": 106222,
+          "end_line": 106305,
+          "claim_kind": "fact",
+          "reading_basis": "entire_four_field_note_read"
+        },
+        {
+          "chapter_id": "ch-1337",
+          "start_line": 106306,
+          "end_line": 106363,
+          "claim_kind": "fact",
+          "reading_basis": "entire_four_field_note_read"
+        }
+      ],
+      "limits": "圣心720/月只是规划、权限交连不是一月法团已成；全书终城权另依卷八终判，不能抹此前30日阶段。",
+      "derived_refs": [
+        "vol07-handoff.md:交易、v07-q-citydeal"
+      ]
+    },
+    {
+      "id": "cf-15-named-objects",
+      "category": "identity_and_property",
+      "status": "confirmed_no_string_merge",
+      "conclusion": "普通无敌与卓越无敌为不同装备；鬼彩虹丢/离拾/陆追回/风月代交后568实持可闭当轮。剑收到/可穿/已穿、借出/赠与/保管分别写。",
+      "derived_refs": [
+        "vol03-handoff.md:鬼谷子与乱月",
+        "vol06/handoff.md:任务物权资格",
+        "vol08/handoff.md:未清"
+      ],
+      "limits": "不得仅因后面出现同名物就判全部旧物已归还或长期产权归持有者。"
+    },
+    {
+      "id": "cf-16-stage-snapshots",
+      "category": "method",
+      "status": "confirmed_preserve_historical_state",
+      "conclusion": "当卷未决与终点后证并存：卷一何未相认/心约未成、卷二身份相认不等疾病全告、卷五逐籍后去向未明、卷六斯特仍战都应保原快照。全书新增回收或后续版本，不能改旧卷当时知道。",
+      "derived_refs": [
+        "vol01.md:连续性",
+        "vol02.md:连续性",
+        "vol05-handoff.md:卷末",
+        "vol06/handoff.md:末页",
+        "vol08/handoff.md:结尾边界"
+      ],
+      "limits": "现仅提出独立专项意见，不改agent4原子池/人物弧，也不把本清单当全书已主审终版。"
+    },
+    {
+      "id": "cf-17-distinct-medical-events",
+      "category": "real_state_and_provenance",
+      "status": "confirmed_retrospective_identity_with_separate_medical_chains",
+      "conclusion": "早期匿名500cc供血的供者已在raw0695《真相大白》的献血凭证中确认为林逸欣：受血人为陆尘，血量500CC，且林要求不得向陆透露。该身份回指已闭合；仍与卷八林逸欣抗原取样、陆的抑制剂/机器方案和何艺G12治疗分链记录。",
+      "derived_refs": [
+        "vol02.md:叙事与信息、连续性",
+        "vol08/report.md:61—65、958—961、975",
+        "vol08/handoff.md:现实"
+      ],
+      "source_locators": [
+        {
+          "chapter_id": "ch-0695",
+          "start_line": 58565,
+          "end_line": 58569,
+          "claim_kind": "fact",
+          "reading_basis": "primary_independent_full_chapter_reread_then_focused_reviewer_full_chapter_reread"
+        },
+        {
+          "chapter_id": "ch-0695",
+          "start_line": 58573,
+          "end_line": 58574,
+          "claim_kind": "inference",
+          "reading_basis": "luchen_emotional_interpretation_not_independent_medical_fact"
+        }
+      ],
+      "verification_attribution": {
+        "primary": "root本次独立完整回读raw0695，范围L58512—58599，定位献血凭证L58565—58569。",
+        "focused_reviewer": "/root/zongheng_vol05_full随后完整复读同章L58512—58599，核对供受血身份、血量与保密要求；不据此冒认其他未亲读原章。"
+      },
+      "limits": "L58573—58574是陆尘的情绪推断及对献血量的感受，不作为现实医理。供者身份闭合不等于不同医疗事件合并，也不能把何艺先天G12写成陆尘传染，或药物初效写成完全复明。"
+    },
+    {
+      "id": "cf-18-lv-entities",
+      "category": "identity",
+      "status": "confirmed_final_volume7_delta",
+      "conclusion": "吕超／龙行天下与吕布衣是不同人物；1446未名女骑载吕布衣并亲口否认媳妇，不能归吕超或以脸红反驳本人。",
+      "derived_refs": [
+        "vol07-cards.json:character/lv、lubu、unnamedrider",
+        "audit/review-vol07.json"
+      ],
+      "source_locators": [
+        {
+          "chapter_id": "ch-1446",
+          "start_line": 114544,
+          "end_line": 114612,
+          "claim_kind": "fact",
+          "reading_basis": "final_reviewed_card_carried_locator_not_personal_original_read"
+        }
+      ],
+      "limits": "吕超现实指控/后态/游戏失势不替代医治或司法判决；不与吕布衣的同乘关系混接。"
+    },
+    {
+      "id": "cf-19-moon-yuelu",
+      "category": "identity",
+      "status": "confirmed_final_volume7_delta",
+      "conclusion": "月光石为法师、死亡凄冷杖法攻禁疗归她；月露为牧师，1359真死后1360复归、与明月双奶，须分卡。",
+      "derived_refs": [
+        "vol07-cards.json:character/moon、yuelu",
+        "audit/review-vol07.json"
+      ],
+      "source_locators": [
+        {
+          "chapter_id": "ch-1359",
+          "start_line": 107942,
+          "end_line": 108007,
+          "claim_kind": "fact",
+          "reading_basis": "final_reviewed_card_carried_locator_not_personal_original_read"
+        },
+        {
+          "chapter_id": "ch-1360",
+          "start_line": 108008,
+          "end_line": 108092,
+          "claim_kind": "fact",
+          "reading_basis": "final_reviewed_card_carried_locator_not_personal_original_read"
+        }
+      ],
+      "limits": "月光石现实获救/自主愿离不移给月露，游戏死亡也不作现实死亡。"
+    },
+    {
+      "id": "cf-20-six-men",
+      "category": "participants_and_channels",
+      "status": "confirmed_final_volume7_delta",
+      "conclusion": "现实救月六男为陆尘/李承风/鬼谷子/杜十三/斗志/幽云。虎豹骑提供房间信息，1315李派接、1324确认已到，不列同车救援或现实出拳者。",
+      "derived_refs": [
+        "vol07-cards.json:scene/moonrescue、character/tiger",
+        "vol07-handoff.md:现实关系"
+      ],
+      "source_locators": [
+        {
+          "chapter_id": "ch-1315",
+          "start_line": 104659,
+          "end_line": 104740,
+          "claim_kind": "fact",
+          "reading_basis": "final_reviewed_card_carried_locator_not_personal_original_read"
+        },
+        {
+          "chapter_id": "ch-1324",
+          "start_line": 105431,
+          "end_line": 105493,
+          "claim_kind": "fact",
+          "reading_basis": "final_reviewed_card_carried_locator_not_personal_original_read"
+        }
+      ],
+      "limits": "月安全救出与前罪追责分开；不宣强奸已得手或李请求调查即已抓捕判刑。"
+    }
+  ],
+  "waiting_checks": [],
+  "next_steps": [
+    "交primary审阅本20项独立专项；本文件不自造主审签收",
+    "原子池/人物弧继续由agent4维护，本专项不改其文件或分卷阶段快照",
+    "等待primary明确后续《斩龙》分工，不自行提前读"
+  ],
+  "input_sha256_snapshot": [
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol01-handoff.md",
+      "sha256": "fd2fcee7f981f0888499863c09212182b575c664623aa8745a9acbbf29d32c3e"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol02-handoff.md",
+      "sha256": "f59d7789a64ff984e393c7e359b67c23f3a061790fa9607cc97e9d325f25f3da"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol03-handoff.md",
+      "sha256": "8e1e3968320c3581887a7be26cc48bd33b9e87b59d90862329e46da117a3bccf"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol04-handoff.md",
+      "sha256": "3bbe2c8d524a32929ebfc36870cc1370242f6b91578e6ddf4498996fb49a5155"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol05-handoff.md",
+      "sha256": "1b82f06c3c5d4a840b6cfa5fdb74c2d5f167e065a5e77899b9f4718422320c94"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol06-handoff.md",
+      "sha256": "ec7a7983959bf2f1ad550302d020bc1f035cc0be196b8237d988f1516726bd61"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol07-handoff.md",
+      "sha256": "49b092a7a46ffcceb6ea990aa789c5dabd9af252639498b02135e0973e98b3dc"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol08-handoff.md",
+      "sha256": "6b7f13736816894912ab537975b31293ac2ef4317dfff42b20ac78b5ec7da981"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol01.md",
+      "sha256": "cdc810e6e4c6f89af9f1451923a0a0a39212159e4742b583fc324e17dffbc501"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol02.md",
+      "sha256": "1e5b6e6ca72fdaae073e5dc067980997657d933a88a400b71c5669dbf0649663"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol07-cards.json",
+      "sha256": "a5c0b6de3638be114abf75bacc74ec3a81bd962f141259a3fb64bee6e645f5f7"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol07-analysis.json",
+      "sha256": "feb76a4a0cccfd6d88bd31b9ab8582f4bc14ab75d247d740f3fab12bea1b692b"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol08.md",
+      "sha256": "5ecefe7c93629c7e7949ef5fff2dd019f60dab2166f154c077eb4495734e5757"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/audit/review-vol07.json",
+      "sha256": "39ade37888d57b00fd38e1bc3c401d98f837671b9930b55d0481a9b7f70d501f"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/audit/full-reading-validation.json",
+      "sha256": "588288669f93e387f8fc951eb348922db0c2bab6c67795c171a8ec9c70b37416"
+    }
+  ],
+  "snapshot_status": "最终专项输入快照；正式7/8已导入。导入资产ID/元数据规范化后的正式SHA与主审暂存SHA分开保留，不要求二者字节相同。",
+  "formal_import": false,
+  "complete_whole_book_focused_review": true,
+  "exhaustive_semantic_review_of_all_assets": false,
+  "volume7_reviewed_staging_sha256": {
+    "analysis": "48dad166ecb2d4ef9d2dfb3f578634f4e3589524b07f750685e8678e9ef72889",
+    "cards": "1c8235eb9416296e82c44d57718293d70edd127a78420ad9ca2b93462af31eb2",
+    "graph": "b642a661656d18e52110388dd3a8b1215911e6a752e69653898b8cff19c067d0"
+  },
+  "full_reading_receipt": {
+    "path": "writing-vault/library/reports/tianxia-wushuang/audit/full-reading-validation.json",
+    "status": "passed",
+    "body_units": 1599,
+    "indexed_segments": 1609,
+    "reading_attribution": [
+      {
+        "volume": 1,
+        "readers": {
+          "primary": 91
+        }
+      },
+      {
+        "volume": 2,
+        "readers": {
+          "primary": 136
+        }
+      },
+      {
+        "volume": 3,
+        "readers": {
+          "/root/zongheng_vol03_full": 378
+        }
+      },
+      {
+        "volume": 4,
+        "readers": {
+          "zongheng_vol05_full": 186
+        }
+      },
+      {
+        "volume": 5,
+        "readers": {
+          "/root/zongheng_vol04_full": 266
+        }
+      },
+      {
+        "volume": 6,
+        "readers": {
+          "zongheng_vol05_full": 175,
+          "primary": 60
+        }
+      },
+      {
+        "volume": 7,
+        "readers": {
+          "/root/zongheng_vol04_full": 211
+        }
+      },
+      {
+        "volume": 8,
+        "readers": {
+          "primary": 68,
+          "/root/zongheng_vol03_full": 37
+        }
+      }
+    ],
+    "limits": "本审阅者引用已核正式回执，不把它转换为本人独读全书。"
+  },
+  "review_result": {
+    "scoped_checks": 20,
+    "new_unresolved_factual_errors_requiring_volume_rewrite": [],
+    "corrected_items_not_to_reintroduce": [
+      "飞炎归属/保护伞命名",
+      "三生弓错归",
+      "卡兰断臂腿施害者",
+      "艾误信假悔意",
+      "吕超/吕布衣与未名女骑",
+      "月光石/月露",
+      "六男现实救援"
+    ],
+    "open_story_items": "按各卷及agent4终点池，不因本专项完成宣全部故事线闭合。",
+    "user_approval": false,
+    "formal_import": false
+  }
+}

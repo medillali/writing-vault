@@ -1,0 +1,930 @@
+{
+  "status": "proposal-not-applied",
+  "reason": "尾项读取后卷975完整四栏并定向L72491—72509，明确L72503后授二十万；只替缺后批示句，其他分题结论不变。",
+  "proposals": [
+    {
+      "candidate_id": "v04-local-chapter_unresolved_index-0170-01",
+      "input_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch016.json",
+      "input_sha256": "73704c15d8d0e6f5b79829ce8d14a280e238ccdf8ec737b9e02314f0880c0bb5",
+      "before": {
+        "candidate_id": "v04-local-chapter_unresolved_index-0170-01",
+        "original_question": "佣俘训练/御林扩军授权、六级与榜刷新待后。",
+        "original_record": {
+          "chapter_id": "ch-0930",
+          "evidence": [
+            {
+              "chapter_id": "ch-0930",
+              "claim_kind": "fact",
+              "end_line": 69790,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 69720
+            }
+          ],
+          "reader": "/root/zongheng_vol03_full",
+          "unresolved": [
+            "佣俘训练/御林扩军授权、六级与榜刷新待后。"
+          ]
+        },
+        "original_location": {
+          "volume": 4,
+          "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "original_field": "chapter_unresolved_index",
+          "original_index": 169,
+          "atomic_index": 0
+        },
+        "status": "partial",
+        "audit_domain": "level-and-ranking-resolved-recruit-training-not-conflated",
+        "rationale": "933系统斩龙真升六级/首奖励、风云榜第二，关闭93099.7%未来；931韩持牌申请军团二十万上限，918个人统兵上限不等申请已批。930所择三万佣俘训练未给同批毕业清单，989安带三万学院新兵是另一来源不能代。958其他新招训练与1374御林十四万实出可证军后增长，不能强配成这三万全训成。",
+        "later_chapters": [
+          918,
+          930,
+          931,
+          933,
+          958,
+          989,
+          1374
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0918",
+            "start_line": 68965,
+            "end_line": 69029,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0930",
+            "start_line": 69720,
+            "end_line": 69790,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0931",
+            "start_line": 69791,
+            "end_line": 69877,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0933",
+            "start_line": 69955,
+            "end_line": 70025,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0958",
+            "start_line": 71551,
+            "end_line": 71612,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0989",
+            "start_line": 73378,
+            "end_line": 73436,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1374",
+            "start_line": 98779,
+            "end_line": 98838,
+            "claim_kind": "fact"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol03_full",
+        "source_attribution": {
+          "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+          "later_source": "301—320原record完整读；本轮完整复读917—918/922—923/927/929—934/957/963—965/967四栏，卷5他读者970—973/1089—1090/1138/1141及卷6他读者1355—1356四栏完整派生读。定向源69412—69444核岭南/火狼连续称差、79992—80070核现实蝴蝶阳炎斩击及铠化；原文定向不增个人全章覆盖。其余列章沿既有亲读/完整派生访问。",
+          "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+        }
+      },
+      "after": {
+        "candidate_id": "v04-local-chapter_unresolved_index-0170-01",
+        "original_question": "佣俘训练/御林扩军授权、六级与榜刷新待后。",
+        "original_record": {
+          "chapter_id": "ch-0930",
+          "evidence": [
+            {
+              "chapter_id": "ch-0930",
+              "claim_kind": "fact",
+              "end_line": 69790,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 69720
+            }
+          ],
+          "reader": "/root/zongheng_vol03_full",
+          "unresolved": [
+            "佣俘训练/御林扩军授权、六级与榜刷新待后。"
+          ]
+        },
+        "original_location": {
+          "volume": 4,
+          "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "original_field": "chapter_unresolved_index",
+          "original_index": 169,
+          "atomic_index": 0
+        },
+        "status": "partial",
+        "audit_domain": "level-and-ranking-resolved-recruit-training-not-conflated",
+        "rationale": "933系统斩龙真升六级/首奖励、风云榜第二，关闭93099.7%未来；931韩持牌申请的军团二十万上限后来975 L72503获浅林明确特赦，区别918个人统兵上限，原审批已有直接后证。930所择三万佣俘训练未给同批毕业清单，989安带三万学院新兵是另一来源不能代。958其他新招训练与1374御林十四万实出可证军后增长，不能强配成这三万全训成。",
+        "later_chapters": [
+          918,
+          930,
+          931,
+          933,
+          958,
+          975,
+          989,
+          1374
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0918",
+            "start_line": 68965,
+            "end_line": 69029,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0930",
+            "start_line": 69720,
+            "end_line": 69790,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0931",
+            "start_line": 69791,
+            "end_line": 69877,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0933",
+            "start_line": 69955,
+            "end_line": 70025,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0958",
+            "start_line": 71551,
+            "end_line": 71612,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0975",
+            "start_line": 72491,
+            "end_line": 72548,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0989",
+            "start_line": 73378,
+            "end_line": 73436,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1374",
+            "start_line": 98779,
+            "end_line": 98838,
+            "claim_kind": "fact"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol03_full",
+        "source_attribution": {
+          "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+          "later_source": "301—320原record完整读；本轮完整复读917—918/922—923/927/929—934/957/963—965/967四栏，卷5他读者970—973/1089—1090/1138/1141及卷6他读者1355—1356四栏完整派生读。定向源69412—69444核岭南/火狼连续称差、79992—80070核现实蝴蝶阳炎斩击及铠化；原文定向不增个人全章覆盖。其余列章沿既有亲读/完整派生访问。",
+          "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+        }
+      }
+    },
+    {
+      "candidate_id": "v04-local-chapter_unresolved_index-0171-01",
+      "input_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch017.json",
+      "input_sha256": "9b05b12d3065207357c2a8a67a6720cefff4f265cb48b17bfca55066ca3c7c6f",
+      "before": {
+        "candidate_id": "v04-local-chapter_unresolved_index-0171-01",
+        "original_question": "20万军批/每日三千剑收购实际履与汪俄交易内容待后",
+        "original_record": {
+          "chapter_id": "ch-0931",
+          "evidence": [
+            {
+              "chapter_id": "ch-0931",
+              "claim_kind": "fact",
+              "end_line": 69877,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 69791
+            }
+          ],
+          "reader": "/root/zongheng_vol03_full",
+          "unresolved": [
+            "20万军批/每日三千剑收购实际履与汪俄交易内容待后；劳役34720与生产1247200关系疑数字源差。"
+          ]
+        },
+        "original_location": {
+          "volume": 4,
+          "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "original_field": "chapter_unresolved_index",
+          "original_index": 170,
+          "atomic_index": 0
+        },
+        "status": "partial",
+        "audit_domain": "trade-and-mass-equipment-confirmed-not-daily-payment-ledger",
+        "rationale": "932主空侦亲见牧心/冬马交冰灵晶、主上试骑继万一千旭日成员真换骑，汪俄交易内容已答。936火龙前排近清一色地狱火、962兄妹仍在打造，不能说收购/制式只口头；但日3000/600万G只是产能与包销计划，没有每日报量付款全表。931申请御林二十万建制未见同次批示，918个人统兵上限不偷替。",
+        "later_chapters": [
+          918,
+          931,
+          932,
+          936,
+          962
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0918",
+            "start_line": 68965,
+            "end_line": 69029,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0931",
+            "start_line": 69791,
+            "end_line": 69877,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0932",
+            "start_line": 69878,
+            "end_line": 69954,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0936",
+            "start_line": 70128,
+            "end_line": 70167,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0962",
+            "start_line": 71828,
+            "end_line": 71875,
+            "claim_kind": "fact"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol03_full",
+        "source_attribution": {
+          "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+          "later_source": "321—340原record完整读；重新完整读935—945/947—955四栏，卷5他读者991—995/1017/1023—1024四栏完整派生读，1138/1089/1090/1141沿本轮已完整访问。定向原文49611—49625核620秦雯身份；源检索徐焰后任与旧无名徐分开，不以姓合人。半矿938直证另已提未应用两项proposal，当前批不覆写已交文件。",
+          "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+        }
+      },
+      "after": {
+        "candidate_id": "v04-local-chapter_unresolved_index-0171-01",
+        "original_question": "20万军批/每日三千剑收购实际履与汪俄交易内容待后",
+        "original_record": {
+          "chapter_id": "ch-0931",
+          "evidence": [
+            {
+              "chapter_id": "ch-0931",
+              "claim_kind": "fact",
+              "end_line": 69877,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 69791
+            }
+          ],
+          "reader": "/root/zongheng_vol03_full",
+          "unresolved": [
+            "20万军批/每日三千剑收购实际履与汪俄交易内容待后；劳役34720与生产1247200关系疑数字源差。"
+          ]
+        },
+        "original_location": {
+          "volume": 4,
+          "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "original_field": "chapter_unresolved_index",
+          "original_index": 170,
+          "atomic_index": 0
+        },
+        "status": "partial",
+        "audit_domain": "trade-and-mass-equipment-confirmed-not-daily-payment-ledger",
+        "rationale": "932主空侦亲见牧心/冬马交冰灵晶、主上试骑继万一千旭日成员真换骑，汪俄交易内容已答。936火龙前排近清一色地狱火、962兄妹仍在打造，不能说收购/制式只口头；但日3000/600万G只是产能与包销计划，没有每日报量付款全表。931申请的御林二十万建制后来975 L72503获浅林明确特赦允许扩充，关闭授权结果；不倒写成931当日已有二十万实兵。",
+        "later_chapters": [
+          918,
+          931,
+          932,
+          936,
+          962,
+          975
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0918",
+            "start_line": 68965,
+            "end_line": 69029,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0931",
+            "start_line": 69791,
+            "end_line": 69877,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0932",
+            "start_line": 69878,
+            "end_line": 69954,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0936",
+            "start_line": 70128,
+            "end_line": 70167,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0962",
+            "start_line": 71828,
+            "end_line": 71875,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0975",
+            "start_line": 72491,
+            "end_line": 72548,
+            "claim_kind": "fact"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol03_full",
+        "source_attribution": {
+          "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+          "later_source": "321—340原record完整读；重新完整读935—945/947—955四栏，卷5他读者991—995/1017/1023—1024四栏完整派生读，1138/1089/1090/1141沿本轮已完整访问。定向原文49611—49625核620秦雯身份；源检索徐焰后任与旧无名徐分开，不以姓合人。半矿938直证另已提未应用两项proposal，当前批不覆写已交文件。",
+          "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+        }
+      }
+    },
+    {
+      "candidate_id": "v04-local-chapter_unresolved_index-0177-01",
+      "input_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch017.json",
+      "input_sha256": "9b05b12d3065207357c2a8a67a6720cefff4f265cb48b17bfca55066ca3c7c6f",
+      "before": {
+        "candidate_id": "v04-local-chapter_unresolved_index-0177-01",
+        "original_question": "雷恢复七万承诺/御林20万扩批仍无回",
+        "original_record": {
+          "chapter_id": "ch-0937",
+          "evidence": [
+            {
+              "chapter_id": "ch-0937",
+              "claim_kind": "fact",
+              "end_line": 70222,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 70168
+            }
+          ],
+          "reader": "/root/zongheng_vol03_full",
+          "unresolved": [
+            "雷恢复七万承诺/御林20万扩批仍无回；三角后续应对未结。"
+          ]
+        },
+        "original_location": {
+          "volume": 4,
+          "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "original_field": "chapter_unresolved_index",
+          "original_index": 176,
+          "atomic_index": 0
+        },
+        "status": "partial",
+        "audit_domain": "resting-army-not-restored-total-cap-not-proven-order",
+        "rationale": "937洛换防并许雷恢复七万，后940—955仍连续战损与末赏，999—1001雷涉洛反后撤职/狂雷换徐焰四万，未有原七万恢复的同阶段收兵证。御林918个人二十万上限已生效，931另申请军团二十万未见批示；1374十四万实际出战证增长但不自动闭原建制审批二十万。",
+        "later_chapters": [
+          918,
+          931,
+          937,
+          940,
+          955,
+          999,
+          1000,
+          1001,
+          1374
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0918",
+            "start_line": 68965,
+            "end_line": 69029,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0931",
+            "start_line": 69791,
+            "end_line": 69877,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0937",
+            "start_line": 70168,
+            "end_line": 70222,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0940",
+            "start_line": 70346,
+            "end_line": 70405,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0955",
+            "start_line": 71315,
+            "end_line": 71390,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0999",
+            "start_line": 74019,
+            "end_line": 74080,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1000",
+            "start_line": 74081,
+            "end_line": 74160,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1001",
+            "start_line": 74161,
+            "end_line": 74230,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1374",
+            "start_line": 98779,
+            "end_line": 98838,
+            "claim_kind": "fact"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol03_full",
+        "source_attribution": {
+          "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+          "later_source": "321—340原record完整读；重新完整读935—945/947—955四栏，卷5他读者991—995/1017/1023—1024四栏完整派生读，1138/1089/1090/1141沿本轮已完整访问。定向原文49611—49625核620秦雯身份；源检索徐焰后任与旧无名徐分开，不以姓合人。半矿938直证另已提未应用两项proposal，当前批不覆写已交文件。",
+          "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+        }
+      },
+      "after": {
+        "candidate_id": "v04-local-chapter_unresolved_index-0177-01",
+        "original_question": "雷恢复七万承诺/御林20万扩批仍无回",
+        "original_record": {
+          "chapter_id": "ch-0937",
+          "evidence": [
+            {
+              "chapter_id": "ch-0937",
+              "claim_kind": "fact",
+              "end_line": 70222,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 70168
+            }
+          ],
+          "reader": "/root/zongheng_vol03_full",
+          "unresolved": [
+            "雷恢复七万承诺/御林20万扩批仍无回；三角后续应对未结。"
+          ]
+        },
+        "original_location": {
+          "volume": 4,
+          "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "original_field": "chapter_unresolved_index",
+          "original_index": 176,
+          "atomic_index": 0
+        },
+        "status": "partial",
+        "audit_domain": "resting-army-not-restored-total-cap-not-proven-order",
+        "rationale": "937洛换防并许雷恢复七万，后940—955仍连续战损与末赏，999—1001雷涉洛反后撤职/狂雷换徐焰四万，未有原七万恢复的同阶段收兵证。御林918个人二十万上限与931军团建制申请分开，975 L72503浅林真实特赦御林可扩二十万，授权已成；1374十四万实出是另实际人数，不以授权当已满编。",
+        "later_chapters": [
+          918,
+          931,
+          937,
+          940,
+          955,
+          975,
+          999,
+          1000,
+          1001,
+          1374
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0918",
+            "start_line": 68965,
+            "end_line": 69029,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0931",
+            "start_line": 69791,
+            "end_line": 69877,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0937",
+            "start_line": 70168,
+            "end_line": 70222,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0940",
+            "start_line": 70346,
+            "end_line": 70405,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0955",
+            "start_line": 71315,
+            "end_line": 71390,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0975",
+            "start_line": 72491,
+            "end_line": 72548,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0999",
+            "start_line": 74019,
+            "end_line": 74080,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1000",
+            "start_line": 74081,
+            "end_line": 74160,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1001",
+            "start_line": 74161,
+            "end_line": 74230,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1374",
+            "start_line": 98779,
+            "end_line": 98838,
+            "claim_kind": "fact"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol03_full",
+        "source_attribution": {
+          "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+          "later_source": "321—340原record完整读；重新完整读935—945/947—955四栏，卷5他读者991—995/1017/1023—1024四栏完整派生读，1138/1089/1090/1141沿本轮已完整访问。定向原文49611—49625核620秦雯身份；源检索徐焰后任与旧无名徐分开，不以姓合人。半矿938直证另已提未应用两项proposal，当前批不覆写已交文件。",
+          "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+        }
+      }
+    },
+    {
+      "candidate_id": "v04-local-chapter_unresolved_index-0198-01",
+      "input_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch018.json",
+      "input_sha256": "af22c7d480cb97903fec02bc1cd3956d560987f1a8347c2e686921b82c854330",
+      "before": {
+        "candidate_id": "v04-local-chapter_unresolved_index-0198-01",
+        "original_question": "准骑实战成长/余八千返与佣俘三万训练，御林上限批仍未明",
+        "original_record": {
+          "chapter_id": "ch-0958",
+          "evidence": [
+            {
+              "chapter_id": "ch-0958",
+              "claim_kind": "fact",
+              "end_line": 71612,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 71551
+            }
+          ],
+          "reader": "/root/zongheng_vol03_full",
+          "unresolved": [
+            "准骑实战成长/余八千返与佣俘三万训练，御林上限批仍未明；现实新任务待后。"
+          ]
+        },
+        "original_location": {
+          "volume": 4,
+          "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "original_field": "chapter_unresolved_index",
+          "original_index": 197,
+          "atomic_index": 0
+        },
+        "status": "partial",
+        "audit_domain": "trained-soldiers-show-real-roles-not-one-hundred-percent-batch",
+        "rationale": "961返训军实际任百/千夫并教普通兵，989再2000返且韩报过半已圣骑，994—995圣骑盾/刺巨人实战，1194持续输送、1220明确过万有圣骑力，成长非只名号。原万兵剩余每批与930佣俘三万对应毕业、931二十万建制申请仍缺完整同批回执，不能拿持续新训合数冒原一万人全过关。",
+        "later_chapters": [
+          930,
+          931,
+          958,
+          961,
+          989,
+          994,
+          995,
+          1194,
+          1220
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0930",
+            "start_line": 69720,
+            "end_line": 69790,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0931",
+            "start_line": 69791,
+            "end_line": 69877,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0958",
+            "start_line": 71551,
+            "end_line": 71612,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0961",
+            "start_line": 71764,
+            "end_line": 71827,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0989",
+            "start_line": 73378,
+            "end_line": 73436,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0994",
+            "start_line": 73690,
+            "end_line": 73748,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0995",
+            "start_line": 73749,
+            "end_line": 73797,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1194",
+            "start_line": 86981,
+            "end_line": 87046,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1220",
+            "start_line": 88707,
+            "end_line": 88758,
+            "claim_kind": "fact"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol03_full",
+        "source_attribution": {
+          "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+          "later_source": "341—360原record完整读，卷4相关四栏本轮已完整复读；补完整派生读卷5实际读者983/1045与卷6实际读者1194/1220/1275—1277四栏；其余列章沿真实亲读/派生访问。实查丈八、PaPa、返训军及裴后证精确原行定位，检索不冒整章覆盖；后追加完整派生读1289—1290与1046四栏，已核后重铸和赴吧确章，未用约数作最终证据。",
+          "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+        }
+      },
+      "after": {
+        "candidate_id": "v04-local-chapter_unresolved_index-0198-01",
+        "original_question": "准骑实战成长/余八千返与佣俘三万训练，御林上限批仍未明",
+        "original_record": {
+          "chapter_id": "ch-0958",
+          "evidence": [
+            {
+              "chapter_id": "ch-0958",
+              "claim_kind": "fact",
+              "end_line": 71612,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 71551
+            }
+          ],
+          "reader": "/root/zongheng_vol03_full",
+          "unresolved": [
+            "准骑实战成长/余八千返与佣俘三万训练，御林上限批仍未明；现实新任务待后。"
+          ]
+        },
+        "original_location": {
+          "volume": 4,
+          "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "original_field": "chapter_unresolved_index",
+          "original_index": 197,
+          "atomic_index": 0
+        },
+        "status": "partial",
+        "audit_domain": "trained-soldiers-show-real-roles-not-one-hundred-percent-batch",
+        "rationale": "961返训军实际任百/千夫并教普通兵，989再2000返且韩报过半已圣骑，994—995圣骑盾/刺巨人实战，1194持续输送、1220明确过万有圣骑力，成长非只名号。975 L72503浅林已明确特赦御林可扩二十万，原建制授权不再待；原万兵剩余每批及930三万佣俘对应毕业仍缺同批名单，不能拿持续新训合数冒原一万人全过关。",
+        "later_chapters": [
+          930,
+          931,
+          958,
+          961,
+          975,
+          989,
+          994,
+          995,
+          1194,
+          1220
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0930",
+            "start_line": 69720,
+            "end_line": 69790,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0931",
+            "start_line": 69791,
+            "end_line": 69877,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0958",
+            "start_line": 71551,
+            "end_line": 71612,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0961",
+            "start_line": 71764,
+            "end_line": 71827,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0975",
+            "start_line": 72491,
+            "end_line": 72548,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0989",
+            "start_line": 73378,
+            "end_line": 73436,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0994",
+            "start_line": 73690,
+            "end_line": 73748,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0995",
+            "start_line": 73749,
+            "end_line": 73797,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1194",
+            "start_line": 86981,
+            "end_line": 87046,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1220",
+            "start_line": 88707,
+            "end_line": 88758,
+            "claim_kind": "fact"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol03_full",
+        "source_attribution": {
+          "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+          "later_source": "341—360原record完整读，卷4相关四栏本轮已完整复读；补完整派生读卷5实际读者983/1045与卷6实际读者1194/1220/1275—1277四栏；其余列章沿真实亲读/派生访问。实查丈八、PaPa、返训军及裴后证精确原行定位，检索不冒整章覆盖；后追加完整派生读1289—1290与1046四栏，已核后重铸和赴吧确章，未用约数作最终证据。",
+          "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+        }
+      }
+    }
+  ]
+}

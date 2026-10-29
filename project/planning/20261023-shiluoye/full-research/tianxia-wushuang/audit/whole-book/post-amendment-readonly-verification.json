@@ -1,0 +1,24 @@
+{
+  "status": "passed_independent_readonly_frozen_preflight_and_signed_semantic_equality",
+  "freeze_manifest_sha256": "f8e1e54f265f626878be616fe2e70aa372e6628f6476a9d0139c2f1c70c5fb5c",
+  "counts": {
+    "characters": 115,
+    "findings": 30,
+    "historical": 214,
+    "local": 3916
+  },
+  "evidence_references_checked": 26524,
+  "checked_sha256_entries": 215,
+  "candidate_batches": 77,
+  "signed_candidate_objects_compared": 4130,
+  "research_groups": 11,
+  "character_and_finding_objects_exactly_equal": true,
+  "markdown_local_links_checked": 11,
+  "source_metadata_fields_enriched": 142,
+  "original_fields_checks": 4130,
+  "frozen_volume08_unchanged": true,
+  "formal_writes": false,
+  "primary_receipt_created": false,
+  "post_freeze_files_modified": false,
+  "console_error_boundary": "组装器唯一执行在写完manifest后打印摘要时发生重复status键TypeError；本次只读独立复验不依赖该控制台打印，也未改冻结脚本或包。"
+}

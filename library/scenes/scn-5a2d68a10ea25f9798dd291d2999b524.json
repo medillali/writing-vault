@@ -1,0 +1,68 @@
+{
+  "asset_id": "scn-5a2d68a10ea25f9798dd291d2999b524",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "胜后统治者因权臣威望而设监控，旧将又以个人忠诚结成行动网络时，可让清君侧同时暴露军权、君权与朋友伦理的冲突。",
+    "arc": "north",
+    "choice": "景5000林7000/燕开门，主先斩徐/林斩高，帝拟自杀主挡跪誓",
+    "consequence": "高死铁衣被清/帝认错，主仍北伐，NPC有折损不是和平手续。",
+    "failure_mode": "若把未经帝批准的夜袭写成正常奉旨反腐，或因最终救帝立誓就清除已斩者与己兵损，强制政治行动的复杂性会消失。",
+    "goal": "除监军眼线保旧友军",
+    "narrative_order": 1362,
+    "obstacle": "帝宠高/军职被侵/政治风险",
+    "stage_status": "resolved",
+    "state_change": "高死铁衣被清/帝认错，主仍北伐，NPC有折损不是和平手续。",
+    "summary": "高死铁衣被清/帝认错，主仍北伐，NPC有折损不是和平手续。",
+    "why_it_works": "忠臣自我叙事与客观胁迫并存，读者可评代价。"
+  },
+  "created_at": "2026-10-25T21:09:00.833622+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1361",
+      "claim_kind": "fact",
+      "end_line": 97968,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 97898
+    },
+    {
+      "chapter_id": "ch-1362",
+      "claim_kind": "fact",
+      "end_line": 98037,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 97969
+    },
+    {
+      "chapter_id": "ch-1363",
+      "claim_kind": "fact",
+      "end_line": 98113,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 98038
+    },
+    {
+      "chapter_id": "ch-1364",
+      "claim_kind": "fact",
+      "end_line": 98175,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 98114
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/scene/iron-clothes",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷:6"
+  ],
+  "title": "清君侧杀高而不杀帝",
+  "updated_at": "2026-10-25T21:09:00.833622+00:00",
+  "user_notes": ""
+}

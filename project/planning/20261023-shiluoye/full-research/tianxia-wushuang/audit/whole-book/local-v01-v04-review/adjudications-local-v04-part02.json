@@ -1,0 +1,2705 @@
+[
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-005-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 4,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0611",
+      "items": [
+        "紫雷逾70%死亡为叙述估算，余部与总攻结果未结。"
+      ]
+    },
+    "title": "紫雷逾70%死亡为叙述估算，余部与总攻结果未结。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0611",
+        "start_line": 52472,
+        "end_line": 52537,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "local-cavalry-loss-and-later-siege-outcome",
+    "rationale": "611紫雷逾70%是阶段估损，未给其余骑逐名存亡；623暗月系统守胜已闭合总攻结果。不能把守胜反算紫雷100%阵亡，也不把总攻全书仍记未结。",
+    "later_chapters": [
+      623
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0623",
+        "start_line": 53324,
+        "end_line": 53403,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-006-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 5,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0612",
+      "items": [
+        "L52597‘大约15半小时’为明显时间源异常，不擅改成15分钟或半小时。",
+        "投石车与此前霹雳车器械称谓/批次不可无证视作全攻军器械全灭。"
+      ]
+    },
+    "title": "L52597‘大约15半小时’为明显时间源异常，不擅改成15分钟或半小时。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0612",
+        "start_line": 52538,
+        "end_line": 52603,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-time-unit-malformation",
+    "rationale": "原句大约15半小时时间单位无法唯一解析，未有明确作者校正；保字面异常，不在15分钟和半小时之间擅选，亦不据此编精确城战日程。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-006-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 5,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0612",
+      "items": [
+        "L52597‘大约15半小时’为明显时间源异常，不擅改成15分钟或半小时。",
+        "投石车与此前霹雳车器械称谓/批次不可无证视作全攻军器械全灭。"
+      ]
+    },
+    "title": "投石车与此前霹雳车器械称谓/批次不可无证视作全攻军器械全灭。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0612",
+        "start_line": 52538,
+        "end_line": 52603,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "siege-engine-summary-not-exhaustive-inventory",
+    "rationale": "612本轮投石车毁不证全军器械永无；619再有霹雳车破西门、621又轰厅墙。后有器械已真实出现，未展示其为新购/预备哪批，不补批号。",
+    "later_chapters": [
+      619,
+      621
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0619",
+        "start_line": 53017,
+        "end_line": 53090,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0621",
+        "start_line": 53165,
+        "end_line": 53248,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-007-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 6,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0613",
+      "items": [
+        "许阳‘一点体力提升15点体力’可能属性词误写，原样列异常，不能擅改15血。",
+        "嗜血战皇前章‘7000全杀’不等真实零存活，本章仍有近百幽灵骑。"
+      ]
+    },
+    "title": "许阳‘一点体力提升15点体力’可能属性词误写，原样列异常，不能擅改15血。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0613",
+        "start_line": 52604,
+        "end_line": 52678,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-attribute-word-repetition",
+    "rationale": "一点体力提升15点体力疑误词，但未明更正为生命或其他属性。保原语，不能因常见游戏机制就替作者改成15血并用于计算。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-007-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 6,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0613",
+      "items": [
+        "许阳‘一点体力提升15点体力’可能属性词误写，原样列异常，不能擅改15血。",
+        "嗜血战皇前章‘7000全杀’不等真实零存活，本章仍有近百幽灵骑。"
+      ]
+    },
+    "title": "嗜血战皇前章‘7000全杀’不等真实零存活，本章仍有近百幽灵骑。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0613",
+        "start_line": 52604,
+        "end_line": 52678,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "later-surviving-cavalry-refutes-literal-zero",
+    "rationale": "613仍有近百幽灵骑，足以否定把此前7000全杀按字面记零存活；仍无精确清册，不反算全部旧骑幸存总数。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-008-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 7,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0614",
+      "items": [
+        "说明层提出先杀牧师，但执行直接控制守护集火；不能写牧师已被杀。"
+      ]
+    },
+    "title": "说明层提出先杀牧师，但执行直接控制守护集火",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0614",
+        "start_line": 52679,
+        "end_line": 52759,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "stated-target-order-versus-executed-control",
+    "rationale": "614讲先杀牧师是策略说明，实际镜头转控制守护后集火；所做和所讲分栏，不能借一个合理战术补未写的牧师击杀。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-008-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 7,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0614",
+      "items": [
+        "说明层提出先杀牧师，但执行直接控制守护集火；不能写牧师已被杀。"
+      ]
+    },
+    "title": "不能写牧师已被杀。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0614",
+        "start_line": 52679,
+        "end_line": 52759,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "unshown-priest-kill-not-added",
+    "rationale": "未见该场牧师被杀动作或回执，不因后来守胜给这名牧师补死。answered是禁止添写击杀的记录约束，不是已查明牧师终点存亡。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-009-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 8,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0615",
+      "items": [
+        "城门耐久剩余与是否修复未给；敌刺客费用为转述非账单。"
+      ]
+    },
+    "title": "城门耐久剩余与是否修复未给",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0615",
+        "start_line": 52760,
+        "end_line": 52833,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "gate-damage-and-later-breach-not-repair-log",
+    "rationale": "615只见两锤裂伤、无耐久剩数；619西门后被霹雳车破，623胜奖升城建筑。破门与升级已知，但中间修门动作/精确耐久仍不明，不把升级奖当已展示维修工序。",
+    "later_chapters": [
+      619,
+      623
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0619",
+        "start_line": 53017,
+        "end_line": 53090,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0623",
+        "start_line": 53324,
+        "end_line": 53403,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-009-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 8,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0615",
+      "items": [
+        "城门耐久剩余与是否修复未给；敌刺客费用为转述非账单。"
+      ]
+    },
+    "title": "敌刺客费用为转述非账单。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0615",
+        "start_line": 52760,
+        "end_line": 52833,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "reported-enemy-engine-cost-not-invoice",
+    "rationale": "敌刺客说器械耗资数十万是转述/感叹，缺采购账单及币种逐笔结算；不能直接登记敌已付该额，也不能因车确毁就验证售价。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-010-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 9,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0616",
+      "items": [
+        "旁人口述薛璐现实打架只作本章回忆来源，前史未独立回读。",
+        "本章陆尘说霹雳/投石车全点杀，为当前战场总结；后续是否有新批次待看。"
+      ]
+    },
+    "title": "旁人口述薛璐现实打架只作本章回忆来源，前史未独立回读。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0616",
+        "start_line": 52834,
+        "end_line": 52883,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "earlier-reality-fight-cross-checked-derived",
+    "rationale": "本次完整读337/338原读者notes，确有陆杜鬼等与纸醉方械斗、薛被威胁、警方及李介入释放。可补此前事件接口，但这是派生回核，不冒称本人重读337原文，口述个别战力评价仍非全知。",
+    "later_chapters": [
+      337,
+      338
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0337",
+        "start_line": 31025,
+        "end_line": 31124,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0338",
+        "start_line": 31125,
+        "end_line": 31226,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-010-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 9,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0616",
+      "items": [
+        "旁人口述薛璐现实打架只作本章回忆来源，前史未独立回读。",
+        "本章陆尘说霹雳/投石车全点杀，为当前战场总结；后续是否有新批次待看。"
+      ]
+    },
+    "title": "本章陆尘说霹雳/投石车全点杀，为当前战场总结",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0616",
+        "start_line": 52834,
+        "end_line": 52883,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "current-battle-summary-has-limited-scope",
+    "rationale": "616主总结已点杀器械限当时战场，619/621后续仍实际有车。不得写全攻军器械永久清零；后出现不等自动证早话全假或必为新采购。",
+    "later_chapters": [
+      619,
+      621
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0619",
+        "start_line": 53017,
+        "end_line": 53090,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0621",
+        "start_line": 53165,
+        "end_line": 53248,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-010-03",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 9,
+    "atomic_index": 2,
+    "original_record": {
+      "chapter_id": "ch-0616",
+      "items": [
+        "旁人口述薛璐现实打架只作本章回忆来源，前史未独立回读。",
+        "本章陆尘说霹雳/投石车全点杀，为当前战场总结；后续是否有新批次待看。"
+      ]
+    },
+    "title": "后续是否有新批次待看。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0616",
+        "start_line": 52834,
+        "end_line": 52883,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "later-engines-observed-batch-origin-unshown",
+    "rationale": "619车破西门、621轰厅墙补齐仍有器械的后证；属于旧漏计、预备队还是新批次未交代，不能继续写是否再有全未知，也不能指定其来源批次。",
+    "later_chapters": [
+      619,
+      621
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0619",
+        "start_line": 53017,
+        "end_line": 53090,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0621",
+        "start_line": 53165,
+        "end_line": 53248,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-011-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 10,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0617",
+      "items": [
+        "追骑兵34000为计划，被玫瑰制止，不能记已全出。"
+      ]
+    },
+    "title": "追骑兵34000为计划，被玫瑰制止，不能记已全出。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0617",
+        "start_line": 52884,
+        "end_line": 52959,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "pursuit-order-cancelled-before-total-dispatch",
+    "rationale": "34000追骑命令被玫瑰制止，不是已全部出城或全数被诱歼；既有5000追兵行动与后34000计划分开，不把人数合成实际追兵。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-012-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 11,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0618",
+      "items": [
+        "L52962‘青魂剑’与前后青冥剑疑同物误写；不新建武器。",
+        "敌方经费为嗜血战皇自报且玫瑰提未付可省，不能称9000万已逐人到账。"
+      ]
+    },
+    "title": "L52962‘青魂剑’与前后青冥剑疑同物误写",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0618",
+        "start_line": 52960,
+        "end_line": 53016,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "source-weapon-alias-likely-misnaming",
+    "rationale": "618青魂与连续持有青冥剑、630再误称置同一装备语境，推测误名合理，但未有作者明示改字。按同物异称保源，不发明另一次换剑。",
+    "later_chapters": [
+      630
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0630",
+        "start_line": 53802,
+        "end_line": 53874,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-012-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 11,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0618",
+      "items": [
+        "L52962‘青魂剑’与前后青冥剑疑同物误写；不新建武器。",
+        "敌方经费为嗜血战皇自报且玫瑰提未付可省，不能称9000万已逐人到账。"
+      ]
+    },
+    "title": "不新建武器。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0618",
+        "start_line": 52960,
+        "end_line": 53016,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "weapon-entity-not-split-by-suspected-typo",
+    "rationale": "无领取/替换第二把青魂剑证据，不另建物品实体；answered指身份记录规则，原字仍保疑称而非宣作者已校字。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-012-03",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 11,
+    "atomic_index": 2,
+    "original_record": {
+      "chapter_id": "ch-0618",
+      "items": [
+        "L52962‘青魂剑’与前后青冥剑疑同物误写；不新建武器。",
+        "敌方经费为嗜血战皇自报且玫瑰提未付可省，不能称9000万已逐人到账。"
+      ]
+    },
+    "title": "敌方经费为嗜血战皇自报且玫瑰提未付可省，不能称9000万已逐人到账。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0618",
+        "start_line": 52960,
+        "end_line": 53016,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "promised-enemy-war-pay-not-confirmed-disbursement",
+    "rationale": "18万每人500折9000万为嗜血自报口径，玫瑰还提未付可省；未给逐人到账或总付款回执。不得把预算/许诺写实支，也不借后敌破产猜全部未付。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-013-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 12,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0619",
+      "items": [
+        "吕布衣是否复活及何时正式进主盟待看；不把死亡当现实永久死。",
+        "前称器械全毁后又出现霹雳车属新威胁或未穷尽，保留阶段口径而非强补批次。"
+      ]
+    },
+    "title": "吕布衣是否复活及何时正式进主盟待看",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0619",
+        "start_line": 53017,
+        "end_line": 53090,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "buyi-revived-and-joined-main-guild",
+    "rationale": "623明确复活的布衣再遇零度，624脱还旧装备后获保护并实邀入主盟、新装实穿。死亡后复活/正式归属均已后证，不留待看。",
+    "later_chapters": [
+      623,
+      624
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0623",
+        "start_line": 53324,
+        "end_line": 53403,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0624",
+        "start_line": 53404,
+        "end_line": 53462,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-013-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 12,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0619",
+      "items": [
+        "吕布衣是否复活及何时正式进主盟待看；不把死亡当现实永久死。",
+        "前称器械全毁后又出现霹雳车属新威胁或未穷尽，保留阶段口径而非强补批次。"
+      ]
+    },
+    "title": "不把死亡当现实永久死。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0619",
+        "start_line": 53017,
+        "end_line": 53090,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "game-death-not-real-life-permanent-death",
+    "rationale": "619布衣阵亡属游戏失能，623复活并624入会是直接补证；不将其写现实死亡或永久退场，亦不抹619拒背弃付出的当时损失。",
+    "later_chapters": [
+      623,
+      624
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0623",
+        "start_line": 53324,
+        "end_line": 53403,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0624",
+        "start_line": 53404,
+        "end_line": 53462,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-013-03",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 12,
+    "atomic_index": 2,
+    "original_record": {
+      "chapter_id": "ch-0619",
+      "items": [
+        "吕布衣是否复活及何时正式进主盟待看；不把死亡当现实永久死。",
+        "前称器械全毁后又出现霹雳车属新威胁或未穷尽，保留阶段口径而非强补批次。"
+      ]
+    },
+    "title": "前称器械全毁后又出现霹雳车属新威胁或未穷尽，保留阶段口径而非强补批次。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0619",
+        "start_line": 53017,
+        "end_line": 53090,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "engine-reappearance-real-origin-undetermined",
+    "rationale": "全毁总结后619再出现车、621后厅墙被轰，后威胁已实；但何时运来哪批没有明示，保阶段口径而非自动补新批次或删后动作。",
+    "later_chapters": [
+      621
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0621",
+        "start_line": 53165,
+        "end_line": 53248,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-014-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 13,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0620",
+      "items": [
+        "玫瑰刺转向原因及是否真支援古剑待揭，不提前用前段冷嘲当确证。",
+        "复仇军团是否正式编制与执行未证。"
+      ]
+    },
+    "title": "玫瑰刺转向原因及是否真支援古剑待揭，不提前用前段冷嘲当确证。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0620",
+        "start_line": 53091,
+        "end_line": 53164,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "rose-turns-on-allies-over-competing-land-promises",
+    "rationale": "621当面争执揭玫瑰因应由圣域先入厅却被一字抢占而反击；战皇又称地本归长生，三方互攻。不是伦理觉醒投古剑，623玫瑰仍被古剑围而无敌逃，真支援说不成立。",
+    "later_chapters": [
+      621,
+      623
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0621",
+        "start_line": 53165,
+        "end_line": 53248,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0623",
+        "start_line": 53324,
+        "end_line": 53403,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-014-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 13,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0620",
+      "items": [
+        "玫瑰刺转向原因及是否真支援古剑待揭，不提前用前段冷嘲当确证。",
+        "复仇军团是否正式编制与执行未证。"
+      ]
+    },
+    "title": "复仇军团是否正式编制与执行未证。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0620",
+        "start_line": 53091,
+        "end_line": 53164,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "revenge-declaration-and-later-mobilization-not-completion",
+    "rationale": "620许阳自任复仇军团扬言追删号，640李许鬼拟2000青虎追杀悬赏一周是进一步动员；未有正式编制表或该一周逐项执行战果。不以早零度几次死亡替未来追杀完成。",
+    "later_chapters": [
+      640
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0640",
+        "start_line": 54563,
+        "end_line": 54643,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-015-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 14,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0621",
+      "items": [
+        "L53200称‘狂怒’，L53207/53214称神怒，同一致命效果名称有漂移。",
+        "‘这样绝对稳保不失’立即被破墙威胁否定，须标人物乐观预判非系统保证。"
+      ]
+    },
+    "title": "L53200称‘狂怒’，L53207/53214称神怒，同一致命效果名称有漂移。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0621",
+        "start_line": 53165,
+        "end_line": 53248,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "source-rage-skill-alias-not-two-effects",
+    "rationale": "狂怒/神怒指同一镇神项链60秒致命增益语境，未有第二技能领取或同时开两技。可按疑异名关联，但未有明文校字，不给额外一层叠加。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-015-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 14,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0621",
+      "items": [
+        "L53200称‘狂怒’，L53207/53214称神怒，同一致命效果名称有漂移。",
+        "‘这样绝对稳保不失’立即被破墙威胁否定，须标人物乐观预判非系统保证。"
+      ]
+    },
+    "title": "‘这样绝对稳保不失’立即被破墙威胁否定，须标人物乐观预判非系统保证。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0621",
+        "start_line": 53165,
+        "end_line": 53248,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "optimistic-defense-claim-followed-by-new-threat",
+    "rationale": "621主称稳保后厅墙马上被车破、需盟友弃新地来援；623虽最终守胜，不能反证621当时已无风险。保预测、反证和后终局三个时点。",
+    "later_chapters": [
+      623
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0623",
+        "start_line": 53324,
+        "end_line": 53403,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-016-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 15,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0622",
+      "items": [
+        "破魂盾是新掉物，不与更早破翔者的五星灵器盾或之后嗜血地器盾混合。"
+      ]
+    },
+    "title": "破魂盾是新掉物，不与更早破翔者的五星灵器盾或之后嗜血地器盾混合。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0622",
+        "start_line": 53249,
+        "end_line": 53323,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "distinct-shield-drops-and-custody",
+    "rationale": "622一字掉地器三星破魂盾，615破翔者五星卓越灵盾、623嗜血掉盾为不同来源物。三物不因均为盾就并单件或一售清全。",
+    "later_chapters": [
+      615,
+      623
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0615",
+        "start_line": 52760,
+        "end_line": 52833,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0623",
+        "start_line": 53324,
+        "end_line": 53403,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-017-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 16,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0623",
+      "items": [
+        "L53326九件装备清单未列盾、后盾照常掉；L53339一万‘暗黑城’疑暗黑虫误字；列源异常。",
+        "城战聚魂升级是否只亡灵城适用，陆尘自问未确证。"
+      ]
+    },
+    "title": "L53326九件装备清单未列盾、后盾照常掉",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0623",
+        "start_line": 53324,
+        "end_line": 53403,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-loot-list-versus-later-shield-drop",
+    "rationale": "623九件清单没列盾而后实际掉盾，文本清单范围/漏项未解释；保盾真实出现与清单缺口，不用列表抹掉物，也不无证认第十件。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-017-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 16,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0623",
+      "items": [
+        "L53326九件装备清单未列盾、后盾照常掉；L53339一万‘暗黑城’疑暗黑虫误字；列源异常。",
+        "城战聚魂升级是否只亡灵城适用，陆尘自问未确证。"
+      ]
+    },
+    "title": "L53339一万‘暗黑城’疑暗黑虫误字",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0623",
+        "start_line": 53324,
+        "end_line": 53403,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "source-dark-city-likely-insect-typo",
+    "rationale": "一万暗黑城在同段军奖/暗黑虫14200面板语境疑暗黑虫误字，未明作者校正；按虫奖励解释可标推断，源字不静默替换，不造一万座城。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-017-03",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 16,
+    "atomic_index": 2,
+    "original_record": {
+      "chapter_id": "ch-0623",
+      "items": [
+        "L53326九件装备清单未列盾、后盾照常掉；L53339一万‘暗黑城’疑暗黑虫误字；列源异常。",
+        "城战聚魂升级是否只亡灵城适用，陆尘自问未确证。"
+      ]
+    },
+    "title": "列源异常。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0623",
+        "start_line": 53324,
+        "end_line": 53403,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "anomaly-recorded-not-canon-rewritten",
+    "rationale": "清单漏盾与暗黑城字样已各自保为源异常/疑误，answered仅表示研究留源约束落实，不意味着作者已正式给出唯一校正版。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-017-04",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 16,
+    "atomic_index": 3,
+    "original_record": {
+      "chapter_id": "ch-0623",
+      "items": [
+        "L53326九件装备清单未列盾、后盾照常掉；L53339一万‘暗黑城’疑暗黑虫误字；列源异常。",
+        "城战聚魂升级是否只亡灵城适用，陆尘自问未确证。"
+      ]
+    },
+    "title": "城战聚魂升级是否只亡灵城适用，陆尘自问未确证。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0623",
+        "start_line": 53324,
+        "end_line": 53403,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "city-soul-upgrade-generalization-unverified",
+    "rationale": "623陆自问聚魂升级是否亡灵城特有，没有比较所有城型的规则证明。796暗月再守奖能证本城继续获资源，不足确立所有城通用或仅亡灵独有。",
+    "later_chapters": [
+      796
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0796",
+        "start_line": 66128,
+        "end_line": 66219,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-018-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 17,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0624",
+      "items": [
+        "漂亮小蛮先前承诺未由本代理读其原场，只保存本章追索和新计划。"
+      ]
+    },
+    "title": "漂亮小蛮先前承诺未由本代理读其原场，只保存本章追索和新计划。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0624",
+        "start_line": 53404,
+        "end_line": 53462,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "xiaoman-prior-recruitment-and-new-division-cross-checked",
+    "rationale": "本次完整读595—598原读者notes：小蛮群先拒第八、596要求杀80证庇护、597兑现、598实入主盟；625再买新壳建刺客第8。原代理当时未读是历史归属，不仍当终点缺证，也不把小蛮并水云谣。",
+    "later_chapters": [
+      595,
+      596,
+      597,
+      598,
+      625
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0595",
+        "start_line": 51415,
+        "end_line": 51490,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0596",
+        "start_line": 51491,
+        "end_line": 51580,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0597",
+        "start_line": 51581,
+        "end_line": 51649,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0598",
+        "start_line": 51650,
+        "end_line": 51712,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0625",
+        "start_line": 53463,
+        "end_line": 53549,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-019-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 18,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0625",
+      "items": [
+        "同编号第8分盟更换新壳，不与叛出焚琴煮鹤当同一组织延续。",
+        "男女玩笑和主角对小蛮‘没心机’是视角评价非客观全知。"
+      ]
+    },
+    "title": "同编号第8分盟更换新壳，不与叛出焚琴煮鹤当同一组织延续。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0625",
+        "start_line": 53463,
+        "end_line": 53549,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "division-number-reused-not-same-guild-entity",
+    "rationale": "625何艺买另一个4级近5空壳并改名为刺客第8，旧焚琴已叛出；同编号代表组织席位重用，不是把旧会全员洗回。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-019-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 18,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0625",
+      "items": [
+        "同编号第8分盟更换新壳，不与叛出焚琴煮鹤当同一组织延续。",
+        "男女玩笑和主角对小蛮‘没心机’是视角评价非客观全知。"
+      ]
+    },
+    "title": "男女玩笑和主角对小蛮‘没心机’是视角评价非客观全知。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0625",
+        "start_line": 53463,
+        "end_line": 53549,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "narrator-impression-not-omniscient-character-trait",
+    "rationale": "没心机和男女笑谈是陆视角/当场互动，不保证小蛮永无策略；她主动索建刺客分会本已是具体组织提议，不因评价剥夺其主见。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-020-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 19,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0626",
+      "items": [
+        "不将‘为你战天下’誓言直接视为婚约或双向排他确认。"
+      ]
+    },
+    "title": "不将‘为你战天下’誓言直接视为婚约或双向排他确认。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0626",
+        "start_line": 53550,
+        "end_line": 53624,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "battle-vow-not-marriage-or-exclusivity-contract",
+    "rationale": "为你战天下属情感誓言，775确亲吻同床仍不自动成婚；共同排他或多伴协定不能从口号推。保感情进展与法律/关系契约层分开。",
+    "later_chapters": [
+      775
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0775",
+        "start_line": 64526,
+        "end_line": 64629,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-021-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 20,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0627",
+      "items": [
+        "龙语者/龙域战史仅本书心然转述，不把纵横同名人物/前作结果倒灌。"
+      ]
+    },
+    "title": "龙语者/龙域战史仅本书心然转述，不把纵横同名人物/前作结果倒灌。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0627",
+        "start_line": 53625,
+        "end_line": 53679,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "current-book-history-not-imported-trilogy-canon",
+    "rationale": "627龙语者/龙域历史保心然本书转述；1451—1452后心自称不识冰兰并亲见明宇/冰兰，仍按本书来源更新，不把纵横同名旧史当本书主角亲见。",
+    "later_chapters": [
+      1451,
+      1452
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol07/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-1451",
+        "start_line": 114895,
+        "end_line": 114972,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol07/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-1452",
+        "start_line": 114973,
+        "end_line": 115061,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol07/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-022-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 21,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0628",
+      "items": [
+        "飞银龙称心然‘炼狱女神’，身份仍需后续证据分层；陆尘称她性格分裂是玩笑非医学事实。",
+        "紫罗兰政治史本卷叙述背景非本代理前卷重读。"
+      ]
+    },
+    "title": "飞银龙称心然‘炼狱女神’，身份仍需后续证据分层",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0628",
+        "start_line": 53680,
+        "end_line": 53743,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "game-epithet-and-later-real-identity-separated",
+    "rationale": "628炼狱女神最初是飞银龙的称呼，不能当陆当时全知；后1500陆亲见现实昏睡少女并听徐宁解释，1512董欣然亲签实名，使现实对应有后证。该称号不自动等系统职业/官方位阶，游戏身份和现实身份分层记。",
+    "later_chapters": [
+      1500,
+      1512
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol08/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-1500",
+        "start_line": 118902,
+        "end_line": 118983,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol07/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-1512",
+        "start_line": 119819,
+        "end_line": 119893,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol08/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-022-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 21,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0628",
+      "items": [
+        "飞银龙称心然‘炼狱女神’，身份仍需后续证据分层；陆尘称她性格分裂是玩笑非医学事实。",
+        "紫罗兰政治史本卷叙述背景非本代理前卷重读。"
+      ]
+    },
+    "title": "陆尘称她性格分裂是玩笑非医学事实。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0628",
+        "start_line": 53680,
+        "end_line": 53743,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "personality-joke-not-clinical-diagnosis",
+    "rationale": "陆说心然性格分裂是喜怒切换笑谈，未有诊断证据；后来游戏/现实层揭示也不把此玩笑升级医学人格分裂结论。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-022-03",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 21,
+    "atomic_index": 2,
+    "original_record": {
+      "chapter_id": "ch-0628",
+      "items": [
+        "飞银龙称心然‘炼狱女神’，身份仍需后续证据分层；陆尘称她性格分裂是玩笑非医学事实。",
+        "紫罗兰政治史本卷叙述背景非本代理前卷重读。"
+      ]
+    },
+    "title": "紫罗兰政治史本卷叙述背景非本代理前卷重读。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0628",
+        "start_line": 53680,
+        "end_line": 53743,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "prior-political-history-retains-reading-attribution",
+    "rationale": "原代理当时未独读前卷是阅读范围说明，本次已读正式1—3报告/交接核前史；本卷紫罗兰叙史仍按本书叙述来源，不冒称以前全原文由本代理重读。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-023-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 22,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0629",
+      "items": [
+        "达达主人此章仅守卫长转述，未明确姓名；不能提前记找着蒙川。"
+      ]
+    },
+    "title": "达达主人此章仅守卫长转述，未明确姓名",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0629",
+        "start_line": 53744,
+        "end_line": 53801,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "dog-owner-later-confirmed-mengchuan",
+    "rationale": "631宫卫明确狗是蒙川爱犬，陆循狗至刑场救出被封尸身；632主仆相认/狗爬向主再死。629未名主人在后章得到定位，不应全书仍未知。",
+    "later_chapters": [
+      631,
+      632
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0631",
+        "start_line": 53875,
+        "end_line": 53946,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      },
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0632",
+        "start_line": 53947,
+        "end_line": 54032,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-023-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 22,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0629",
+      "items": [
+        "达达主人此章仅守卫长转述，未明确姓名；不能提前记找着蒙川。"
+      ]
+    },
+    "title": "不能提前记找着蒙川。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0629",
+        "start_line": 53744,
+        "end_line": 53801,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "later-identification-does-not-predate-discovery",
+    "rationale": "主人后来确认为蒙川，但629只守卫转述，不能将631找着蒙川提前放629。answered为叙事知情边界落实，保逐章揭示。",
+    "later_chapters": [
+      631
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0631",
+        "start_line": 53875,
+        "end_line": 53946,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-024-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 23,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0630",
+      "items": [
+        "L53806再写青魂剑为青冥疑误名；不另建装备。"
+      ]
+    },
+    "title": "L53806再写青魂剑为青冥疑误名",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0630",
+        "start_line": 53802,
+        "end_line": 53874,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "source-qinghun-versus-qingming-alias",
+    "rationale": "630青魂与618同样异称、连续持青冥行动相接，按疑误名关联；没有作者更正，仍不能声称已找到第二把真实武器或唯一校字证明。",
+    "later_chapters": [
+      618
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0618",
+        "start_line": 52960,
+        "end_line": 53016,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-024-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 23,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0630",
+      "items": [
+        "L53806再写青魂剑为青冥疑误名；不另建装备。"
+      ]
+    },
+    "title": "不另建装备。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0630",
+        "start_line": 53802,
+        "end_line": 53874,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "no-new-weapon-created-from-alias",
+    "rationale": "无新剑取得/换持证据，原字保留但实体不拆；answered只指研究身份合并边界，不等作者已修订字面。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-025-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 24,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0631",
+      "items": [
+        "主角称等一万年，确时年数本章未有系统计时；任务原说灵魂在心然处而此处尸身能言，需后续解释。"
+      ]
+    },
+    "title": "主角称等一万年，确时年数本章未有系统计时",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0631",
+        "start_line": 53875,
+        "end_line": 53946,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "unmeasured-millennial-duration",
+    "rationale": "等一万年为主说法，未有系统起止计时。可记漫长囚困的叙史语气，不强作恰10000年的精确年表。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-025-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 24,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0631",
+      "items": [
+        "主角称等一万年，确时年数本章未有系统计时；任务原说灵魂在心然处而此处尸身能言，需后续解释。"
+      ]
+    },
+    "title": "任务原说灵魂在心然处而此处尸身能言，需后续解释。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0631",
+        "start_line": 53875,
+        "end_line": 53946,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "corpse-speaking-and-soul-ritual-coexist",
+    "rationale": "644心然将七魂片入阵/用祭品，蒙川实重塑复生；说明灵魂与尸身的复生流程有后续，但未解释先前可说话尸身的完整魂学。任务已完成而机制细节仍缺，不自造分魂规则。",
+    "later_chapters": [
+      644
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0644",
+        "start_line": 54885,
+        "end_line": 54946,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-026-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 25,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0632",
+      "items": [
+        "小狼是否因达达影响愿护主是主角猜测；融合忠魂已系统证实，但不能等同狗完整人格复活。"
+      ]
+    },
+    "title": "小狼是否因达达影响愿护主是主角猜测",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0632",
+        "start_line": 53947,
+        "end_line": 54032,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "pet-protection-motive-not-directly-accessible",
+    "rationale": "小狼愿护主被陆联想达达影响，系统只确认融合忠魂；没有独立狼内心或因果实验，不能把主猜测写确认动机。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-026-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 25,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0632",
+      "items": [
+        "小狼是否因达达影响愿护主是主角猜测；融合忠魂已系统证实，但不能等同狗完整人格复活。"
+      ]
+    },
+    "title": "融合忠魂已系统证实，但不能等同狗完整人格复活。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0632",
+        "start_line": 53947,
+        "end_line": 54032,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "confirmed-fusion-not-complete-person-restoration",
+    "rationale": "632—633系统证忠魂融合/狼进化，不证达达完整人格复活或独立犬身返回；已明确保融魂和复生的差别，不用情感回响填完整魂学。",
+    "later_chapters": [
+      633
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0633",
+        "start_line": 54033,
+        "end_line": 54122,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-027-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 26,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0633",
+      "items": [
+        "L54064把攻击92称力量92，BN算法口径留原文；不替作者自动校准。",
+        "融合后达达是否有完整独立人格仍未知，蒙川认可有归宿不等实体犬复活。"
+      ]
+    },
+    "title": "L54064把攻击92称力量92，BN算法口径留原文",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0633",
+        "start_line": 54033,
+        "end_line": 54122,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-attack-versus-strength-stat-wording",
+    "rationale": "633攻击92又称力量92，BN377计算口径与属性词不全清；未有作者明更，不擅把92换进另一列重算资质。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-027-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 26,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0633",
+      "items": [
+        "L54064把攻击92称力量92，BN算法口径留原文；不替作者自动校准。",
+        "融合后达达是否有完整独立人格仍未知，蒙川认可有归宿不等实体犬复活。"
+      ]
+    },
+    "title": "不替作者自动校准。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0633",
+        "start_line": 54033,
+        "end_line": 54122,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "retain-stat-source-not-auto-correct",
+    "rationale": "保面板/叙述原词及算法疑问，不静默校准；answered只指研究规则已执行，真实拟写属性仍未知。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-027-03",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 26,
+    "atomic_index": 2,
+    "original_record": {
+      "chapter_id": "ch-0633",
+      "items": [
+        "L54064把攻击92称力量92，BN算法口径留原文；不替作者自动校准。",
+        "融合后达达是否有完整独立人格仍未知，蒙川认可有归宿不等实体犬复活。"
+      ]
+    },
+    "title": "融合后达达是否有完整独立人格仍未知，蒙川认可有归宿不等实体犬复活。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0633",
+        "start_line": 54033,
+        "end_line": 54122,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "merged-dog-independent-personhood-unproven",
+    "rationale": "蒙川认可狗有归宿、狼长期随行都不等有完整独立达达人格；未有单独犬身复生或人格自述证。不以忠诚相似自动认人格完整保存，也不武断称魂灭。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-028-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 27,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0634",
+      "items": [
+        "手伤救明月事故前史不是本代理读过的事件，只记伤未愈与本章转述。"
+      ]
+    },
+    "title": "手伤救明月事故前史不是本代理读过的事件，只记伤未愈与本章转述。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0634",
+        "start_line": 54123,
+        "end_line": 54186,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "prior-hand-injury-rescue-cross-checked-derived",
+    "rationale": "582原读者完整notes载陆徒手挖双手伤、众人帮破窗、抱出清醒慕送医；补了634所述事故前史。仍只是本次派生回核，不伪称本人早已亲读582原文，也不把手伤说游戏伤。",
+    "later_chapters": [
+      582
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0582",
+        "start_line": 50457,
+        "end_line": 50535,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-029-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 28,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0635",
+      "items": [
+        "主角称治愈‘什么都不用担心’为当前信心，不泛化全怪强度无危险。"
+      ]
+    },
+    "title": "主角称治愈‘什么都不用担心’为当前信心，不泛化全怪强度无危险。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0635",
+        "start_line": 54187,
+        "end_line": 54263,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "healing-confidence-not-universal-safety-guarantee",
+    "rationale": "635有治疗即可放心是当场信心，640菲特大AOE实际杀两女、狼及陆，全队仍可灭。后反证明确，不把治疗能力写所有怪下绝对无险。",
+    "later_chapters": [
+      640
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0640",
+        "start_line": 54563,
+        "end_line": 54643,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-030-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 29,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0636",
+      "items": [
+        "144→145升级在过程略叙，145于本章明确；体魄35%/40%不同处提法保阶段。",
+        "永不背叛小狼为主角直觉，不改成系统契约新增条款。"
+      ]
+    },
+    "title": "144→145升级在过程略叙，145于本章明确",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0636",
+        "start_line": 54264,
+        "end_line": 54342,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "level-145-explicit-before-task-level-146",
+    "rationale": "636过程压缩但明确145及87%，交委托1后升146；不因144到145镜头略叙就终点仍不确定145，也不把后再称146重复计升级。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-030-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 29,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0636",
+      "items": [
+        "144→145升级在过程略叙，145于本章明确；体魄35%/40%不同处提法保阶段。",
+        "永不背叛小狼为主角直觉，不改成系统契约新增条款。"
+      ]
+    },
+    "title": "体魄35%/40%不同处提法保阶段。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0636",
+        "start_line": 54264,
+        "end_line": 54342,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-vitality-percentage-stage-unspecified",
+    "rationale": "体魄35%/40%两提法未附足够技能等级/装备变更回执，可能阶段差但不能确证；按各时点保数，不臆造中间升级来校平。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-030-03",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 29,
+    "atomic_index": 2,
+    "original_record": {
+      "chapter_id": "ch-0636",
+      "items": [
+        "144→145升级在过程略叙，145于本章明确；体魄35%/40%不同处提法保阶段。",
+        "永不背叛小狼为主角直觉，不改成系统契约新增条款。"
+      ]
+    },
+    "title": "永不背叛小狼为主角直觉，不改成系统契约新增条款。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0636",
+        "start_line": 54264,
+        "end_line": 54342,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "loyalty-intuition-not-system-contract",
+    "rationale": "狼永不背叛是陆直觉及关系评价，系统未增不可叛契约条款。后持续护主能证行为连续，不证明所有条件下规则锁死。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-031-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 30,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0637",
+      "items": [
+        "‘再升146’与前章交任务已146是重复状态写法，不双计再升级。"
+      ]
+    },
+    "title": "‘再升146’与前章交任务已146是重复状态写法，不双计再升级。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0637",
+        "start_line": 54343,
+        "end_line": 54403,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "repeated-level-not-extra-level-gain",
+    "rationale": "636交任务已146，637再升146按重复状态保留，不能双计成147。answered指不重计规则落实，源叙述重复仍在。",
+    "later_chapters": [
+      636
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0636",
+        "start_line": 54264,
+        "end_line": 54342,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-032-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 31,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0638",
+      "items": [
+        "L54442‘不要偏差10里面’疑厘米误字；不据此强定命中半径。"
+      ]
+    },
+    "title": "L54442‘不要偏差10里面’疑厘米误字",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0638",
+        "start_line": 54404,
+        "end_line": 54480,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-hit-margin-unit-typo",
+    "rationale": "偏差10里面疑厘米误字但没有作者校正，不能把推测的厘米当系统精确命中半径。保原字与推测层。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-032-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 31,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0638",
+      "items": [
+        "L54442‘不要偏差10里面’疑厘米误字；不据此强定命中半径。"
+      ]
+    },
+    "title": "不据此强定命中半径。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0638",
+        "start_line": 54404,
+        "end_line": 54480,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "no-exact-radius-derived-from-malformed-unit",
+    "rationale": "未用疑错单位建立命中判定公式；answered只指量化约束已落实，不宣实际半径已查清。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-033-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 32,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0639",
+      "items": [
+        "系统技能表未列旋风斩却实际施展，需记表与行为不完全一致，不抹实际。"
+      ]
+    },
+    "title": "系统技能表未列旋风斩却实际施展，需记表与行为不完全一致，不抹实际。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0639",
+        "start_line": 54481,
+        "end_line": 54562,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "unlisted-skill-actually-used",
+    "rationale": "639技能表没列旋风斩但菲特实用，行为必须保留；面板可能非穷举但无明示，不能自动补进原列表或删动作，展示一致性仍缺。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-034-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 33,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0640",
+      "items": [
+        "L54567狼写117，早在L54325已121，无明确此前降级原因，留等级漂移异常。",
+        "复仇队仅集结/出动宣言未给实际战果；战天城占领为论坛与同伴消息非我亲见夺城。"
+      ]
+    },
+    "title": "L54567狼写117，早在L54325已121，无明确此前降级原因，留等级漂移异常。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0640",
+        "start_line": 54563,
+        "end_line": 54643,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-wolf-level-regression-unexplained",
+    "rationale": "636狼121到640写117，虽640后狼真正死一次，不能用后死反推前文已经掉级；无此前损级过程，保等级漂移。",
+    "later_chapters": [
+      636
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0636",
+        "start_line": 54264,
+        "end_line": 54342,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-034-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 33,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0640",
+      "items": [
+        "L54567狼写117，早在L54325已121，无明确此前降级原因，留等级漂移异常。",
+        "复仇队仅集结/出动宣言未给实际战果；战天城占领为论坛与同伴消息非我亲见夺城。"
+      ]
+    },
+    "title": "复仇队仅集结/出动宣言未给实际战果",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0640",
+        "start_line": 54563,
+        "end_line": 54643,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unrecovered",
+    "audit_domain": "revenge-party-week-long-results-not-shown",
+    "rationale": "640具体2000青虎追杀/悬赏一周是动员，未匹配该行动逐次战果或零度被追至删号。620/624早已杀零度不可充未来追杀周的完成回执。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-034-03",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 33,
+    "atomic_index": 2,
+    "original_record": {
+      "chapter_id": "ch-0640",
+      "items": [
+        "L54567狼写117，早在L54325已121，无明确此前降级原因，留等级漂移异常。",
+        "复仇队仅集结/出动宣言未给实际战果；战天城占领为论坛与同伴消息非我亲见夺城。"
+      ]
+    },
+    "title": "战天城占领为论坛与同伴消息非我亲见夺城。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0640",
+        "start_line": 54563,
+        "end_line": 54643,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "reported-city-ownership-later-supported-not-witnessed-capture",
+    "rationale": "640战天帖子及同伴说夺战天城，796李再报该城5级，后续权属接口延续；仍不把原夺城过程伪装陆亲眼目击。1337金色要塞是另一活动产权，不能混作此座旧战天城的夺取证据。",
+    "later_chapters": [
+      796
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0796",
+        "start_line": 66128,
+        "end_line": 66219,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol05/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-035-01",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 34,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0641",
+      "items": [
+        "L54685怀疑BOSS有掠夺是陆尘猜测，无系统确认。",
+        "无敌/BUFF战后重施CD等原文未解释全，勿补造规则。"
+      ]
+    },
+    "title": "L54685怀疑BOSS有掠夺是陆尘猜测，无系统确认。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0641",
+        "start_line": 54644,
+        "end_line": 54714,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "boss-looting-skill-speculation",
+    "rationale": "641高掉落使陆怀疑BOSS有掠夺，未见系统技能确认或统计验证。高掉率/掉主剑可记，不给菲特追加确定掠夺技能，更不把概率猜测迁普遍NPC规则。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  }
+]

@@ -1,0 +1,99 @@
+# 命运魔方｜拒绝收买的专长人才
+
+ID: `chr-1ff1195deda05e95a732cc5d6ee710aa` · 版本: 1 · 范围: source-analysis
+
+千山盟主231曾见，追月国弓已得；三级/转万人承诺未全实施。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-1ff1195deda05e95a732cc5d6ee710aa",
+  "asset_type": "character",
+  "content": {
+    "change": "千山盟主231曾见，追月国弓已得；三级/转万人承诺未全实施。",
+    "decisions": "拒红强招/书便宜换人，回援侦位救书，千山成立，武神腐蚀与末杀。",
+    "directional_relationships": "对坟不弃，对书从拒邀到折中分盟而非背旧主；新弓交易已付。",
+    "goal": "保盛世知遇又争弓手成长和公平位置。",
+    "limitations": "禁魔比例法可慢打但不普适；会OT，高输出要分工。",
+    "summary": "千山盟主231曾见，追月国弓已得；三级/转万人承诺未全实施。",
+    "voice_and_evidence_boundary": "人物内心仅在自述/可见动作支持时标明；叙述者评价不自动成为作者或用户评价。"
+  },
+  "created_at": "2026-10-24T20:20:05.103281+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0706",
+      "claim_kind": "fact",
+      "end_line": 77393,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 77262
+    },
+    {
+      "chapter_id": "ch-0712",
+      "claim_kind": "fact",
+      "end_line": 78262,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 78147
+    },
+    {
+      "chapter_id": "ch-0714",
+      "claim_kind": "fact",
+      "end_line": 78522,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 78379
+    },
+    {
+      "chapter_id": "ch-0715",
+      "claim_kind": "fact",
+      "end_line": 78619,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 78523
+    },
+    {
+      "chapter_id": "ch-0716",
+      "claim_kind": "fact",
+      "end_line": 78715,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 78620
+    },
+    {
+      "chapter_id": "ch-0735",
+      "claim_kind": "fact",
+      "end_line": 80661,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 80593
+    },
+    {
+      "chapter_id": "ch-0772",
+      "claim_kind": "fact",
+      "end_line": 85198,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 85045
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol06/character/mofang",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷六:月神殿祭",
+    "待审阅"
+  ],
+  "title": "命运魔方｜拒绝收买的专长人才",
+  "updated_at": "2026-10-24T20:20:05.104281+00:00",
+  "user_notes": ""
+}
+
+```

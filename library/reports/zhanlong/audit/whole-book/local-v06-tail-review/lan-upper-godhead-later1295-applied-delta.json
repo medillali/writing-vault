@@ -1,0 +1,163 @@
+{
+  "status": "applied-exact-primary-approved-proposal",
+  "user_approval": false,
+  "primary_approval": "root完整读proposal与1295原章后明确批准此一项；非用户审美",
+  "proposal_sha256": "5821e032338007d9c19b268e813884bbda16377aa51848a978f6b498106ef438",
+  "actual_before_file": "batch003-before-lan1295-primary-approved.json",
+  "actual_before_sha256": "b97f368ca7a92d507ffab9935cae6227161d9d0acd9aea6bcd14f119d1b2acd1",
+  "actual_after_sha256": "90b7db7a1d25d7c5b07540ef7a5b17f37e2be6c7529e4e5250adba8fffa43be7",
+  "before": {
+    "candidate_id": "v06-local-chapter_unresolved_index-0101-01",
+    "volume": 6,
+    "title": "流拟再带兰取格仍未来",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 100,
+    "atomic_index": 0,
+    "original_record_sha256": "e2bac386784433f2bbb5d2b0555aa803029a4b42e9e9aedf7d39cc8d6cdd4c0c",
+    "status": "unrecovered",
+    "audit_domain": "story-promise",
+    "rationale": "1280流霜拟再带兰去神界取上位格，1296可确证兰后来已驻凡书，不再是未安置；但到1386没有这次另取上位格/系统高阶炼成回执。训练悟星域和凡书任职不等上位神，故只把该独立后续提议保为未回收，不断言她被禁止再成长。",
+    "later_chapters": [
+      1274,
+      1280,
+      1296,
+      1386
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1274",
+        "start_line": 92136,
+        "end_line": 92192,
+        "claim_kind": "fact",
+        "evidence_access": "完整正式四栏派生；不转移原文实读归属",
+        "material_path": "writing-vault/library/reports/zhanlong/vol06-chapter-notes.jsonl",
+        "material_sha256": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57",
+        "source_reader": "zongheng_vol05_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1280",
+        "start_line": 92588,
+        "end_line": 92657,
+        "claim_kind": "fact",
+        "evidence_access": "完整正式四栏派生；不转移原文实读归属",
+        "material_path": "writing-vault/library/reports/zhanlong/vol06-chapter-notes.jsonl",
+        "material_sha256": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57",
+        "source_reader": "zongheng_vol05_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1296",
+        "start_line": 93735,
+        "end_line": 93803,
+        "claim_kind": "fact",
+        "evidence_access": "完整正式四栏派生；不转移原文实读归属",
+        "material_path": "writing-vault/library/reports/zhanlong/vol06-chapter-notes.jsonl",
+        "material_sha256": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57",
+        "source_reader": "zongheng_vol05_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1386",
+        "start_line": 99656,
+        "end_line": 99818,
+        "claim_kind": "fact",
+        "evidence_access": "完整正式四栏派生；不转移原文实读归属",
+        "material_path": "writing-vault/library/reports/zhanlong/vol06-chapter-notes.jsonl",
+        "material_sha256": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57",
+        "source_reader": "zongheng_vol05_full"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "本代理仅读正式派生及另列定向材料；未冒亲读卷6全卷，原文reader=zongheng_vol05_full及primary原覆盖仍各自保留。"
+  },
+  "after": {
+    "candidate_id": "v06-local-chapter_unresolved_index-0101-01",
+    "volume": 6,
+    "title": "流拟再带兰取格仍未来",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 100,
+    "atomic_index": 0,
+    "original_record_sha256": "e2bac386784433f2bbb5d2b0555aa803029a4b42e9e9aedf7d39cc8d6cdd4c0c",
+    "status": "partial",
+    "audit_domain": "story-promise",
+    "rationale": "1280流霜拟再带兰取上位格，1295叙已再为兰斩得一枚上位格，故取得神格的提议已有后证，不能继续写全未回收。1295却未演兰炼完/系统高阶飞升，1296只明确兰实际驻凡书；1274子舒自述斩一帝与1295回述流杀两帝还有归属口径差。至终点缺的是兰是否实炼成上位及对应格的明确归属链，不是完全没有后续夺格。",
+    "later_chapters": [
+      1274,
+      1280,
+      1295,
+      1296,
+      1386
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1274",
+        "start_line": 92136,
+        "end_line": 92192,
+        "claim_kind": "fact",
+        "evidence_access": "完整正式四栏派生；不转移原文实读归属",
+        "material_path": "writing-vault/library/reports/zhanlong/vol06-chapter-notes.jsonl",
+        "material_sha256": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57",
+        "source_reader": "zongheng_vol05_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1280",
+        "start_line": 92588,
+        "end_line": 92657,
+        "claim_kind": "fact",
+        "evidence_access": "完整正式四栏派生；不转移原文实读归属",
+        "material_path": "writing-vault/library/reports/zhanlong/vol06-chapter-notes.jsonl",
+        "material_sha256": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57",
+        "source_reader": "zongheng_vol05_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1295",
+        "start_line": 93676,
+        "end_line": 93734,
+        "claim_kind": "fact",
+        "evidence_access": "完整正式四栏派生；不转移原文实读归属",
+        "material_path": "writing-vault/library/reports/zhanlong/vol06-chapter-notes.jsonl",
+        "material_sha256": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57",
+        "source_reader": "zongheng_vol05_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1296",
+        "start_line": 93735,
+        "end_line": 93803,
+        "claim_kind": "fact",
+        "evidence_access": "完整正式四栏派生；不转移原文实读归属",
+        "material_path": "writing-vault/library/reports/zhanlong/vol06-chapter-notes.jsonl",
+        "material_sha256": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57",
+        "source_reader": "zongheng_vol05_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1386",
+        "start_line": 99656,
+        "end_line": 99818,
+        "claim_kind": "fact",
+        "evidence_access": "完整正式四栏派生；不转移原文实读归属",
+        "material_path": "writing-vault/library/reports/zhanlong/vol06-chapter-notes.jsonl",
+        "material_sha256": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57",
+        "source_reader": "zongheng_vol05_full"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "本代理仅读正式派生及另列定向材料；未冒亲读卷6全卷，原文reader=zongheng_vol05_full及primary原覆盖仍各自保留。"
+  },
+  "other_19_equal": true
+}

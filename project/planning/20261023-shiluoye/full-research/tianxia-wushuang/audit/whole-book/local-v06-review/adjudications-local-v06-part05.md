@@ -1,0 +1,484 @@
+# 无双本地候选终点评定：decisions-v06-part05
+
+本文件为独立待主审裁定；保留原记录，非池主档。chapter号均为raw。其他卷派生输入不冒称原文复读。
+
+## v06-local-chapter_unresolved_index-062-03
+
+- 原子项：逸赴铁颅/八转均未成，混血身材描述由乱月说不作独立身份档案确认。
+- 完整原记录：{"chapter_id": "ch-1120", "items": ["100%掉落来自翻译情报，尚无BOSS结算；吻痕未飞升。", "逸赴铁颅/八转均未成，混血身材描述由乱月说不作独立身份档案确认。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：plans-and-reported-identity
+- 理由：1135林已实际赴ZONE并入斩神行军，赴铁颅行动不再待定；本项所指八转独立仪式回执未匹配，不据高级战力补具体转职过程。乱月混血/身材评价仍非独立法定身份确认。
+- 后证：1120, 1135
+
+## v06-local-chapter_unresolved_index-063-01
+
+- 原子项：清风是否原拟进攻铁颅、兵数及战神是否来未知
+- 完整原记录：{"chapter_id": "ch-1121", "items": ["清风是否原拟进攻铁颅、兵数及战神是否来未知；陆的‘只有一种可能’不是独立事实。", "三小时全灭目标未完成。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：enemy-deployment-later-observed
+- 理由：1124陆实见战神王、十几万骑和远辅作战，1127十万兽王火谷全死，敌军实际到场有后证；但清风此前原拟铁颅的完整内心计划仍只是陆推，不据人数反证他全部动机。
+- 后证：1121, 1124, 1127
+
+## v06-local-chapter_unresolved_index-063-02
+
+- 原子项：陆的‘只有一种可能’不是独立事实。
+- 完整原记录：{"chapter_id": "ch-1121", "items": ["清风是否原拟进攻铁颅、兵数及战神是否来未知；陆的‘只有一种可能’不是独立事实。", "三小时全灭目标未完成。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：exclusive-inference-not-proof
+- 理由：‘只有一种可能’为陆在有限情报下的肯定推理，后确认青兽来争证明不使所有原定路线判断自动事实化。
+- 后证：1121, 1124
+
+## v06-local-chapter_unresolved_index-063-03
+
+- 原子项：三小时全灭目标未完成。
+- 完整原记录：{"chapter_id": "ch-1121", "items": ["清风是否原拟进攻铁颅、兵数及战神是否来未知；陆的‘只有一种可能’不是独立事实。", "三小时全灭目标未完成。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：time-target-vs-outcome
+- 理由：1127十万进谷敌军全灭为后续胜局，1128却一小时复返、1125雾伏己方损失真实；不能把三小时全灭目标记成所有青兽永久清除或无损准点。
+- 后证：1121, 1125, 1127, 1128
+
+## v06-local-chapter_unresolved_index-064-01
+
+- 原子项：嗜血德国背景与20%总占比是吻口述
+- 完整原记录：{"chapter_id": "ch-1122", "items": ["嗜血德国背景与20%总占比是吻口述；逾20万行军仅现场目测不等系统名册。", "证明归属、嗜血事后算账均未兑现。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：reported-origin-and-share
+- 理由：德国背景及占在野20%为吻提供的资料/估算，未独立人口普查；嗜血后来加入联盟也不验证这份起源/份额每项。
+- 后证：1122, 1134
+
+## v06-local-chapter_unresolved_index-064-02
+
+- 原子项：逾20万行军仅现场目测不等系统名册。
+- 完整原记录：{"chapter_id": "ch-1122", "items": ["嗜血德国背景与20%总占比是吻口述；逾20万行军仅现场目测不等系统名册。", "证明归属、嗜血事后算账均未兑现。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：estimated-crowd-not-roster
+- 理由：二十余万过路是陆现场目测而非系统名册，后嗜血自报95%阵亡不反算精确初始人数。
+- 后证：1122, 1133
+
+## v06-local-chapter_unresolved_index-064-03
+
+- 原子项：证明归属、嗜血事后算账均未兑现。
+- 完整原记录：{"chapter_id": "ch-1122", "items": ["嗜血德国背景与20%总占比是吻口述；逾20万行军仅现场目测不等系统名册。", "证明归属、嗜血事后算账均未兑现。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：promise-and-changed-alliance
+- 理由：1131血龙证明实掉、1132给吻飞升，归属承诺兑现；嗜血没按早威胁单独复仇，1133主动求并、1134接受卫星方案。转盟有后证，但不能说早算账威胁曾真正执行。
+- 后证：1122, 1131, 1132, 1133, 1134
+
+## v06-local-chapter_unresolved_index-065-01
+
+- 原子项：花藤几乎100%爆率为本批观察不保证全世界永恒值
+- 完整原记录：{"chapter_id": "ch-1123", "items": ["花藤几乎100%爆率为本批观察不保证全世界永恒值；尼克白泽弹知识是人物识别。", "夏季水攻只是地形设想，未发生。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：drop-sample-boundary
+- 理由：食人藤几乎100%为本批实际观察，不是所有怪全服恒值；后火攻用尸体材料不增加掉率实验样本，保观察范围。
+- 后证：1123
+
+## v06-local-chapter_unresolved_index-065-02
+
+- 原子项：尼克白泽弹知识是人物识别。
+- 完整原记录：{"chapter_id": "ch-1123", "items": ["花藤几乎100%爆率为本批观察不保证全世界永恒值；尼克白泽弹知识是人物识别。", "夏季水攻只是地形设想，未发生。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：character-expertise-and-use
+- 理由：尼克识别浆液/白泽弹为他专业话语，现场燃烧/极冰灭火与1126尸体连火验证易燃性，但未实制造白泽弹，不能补军工产物。
+- 后证：1123, 1126
+
+## v06-local-chapter_unresolved_index-065-03
+
+- 原子项：夏季水攻只是地形设想，未发生。
+- 完整原记录：{"chapter_id": "ch-1123", "items": ["花藤几乎100%爆率为本批观察不保证全世界永恒值；尼克白泽弹知识是人物识别。", "夏季水攻只是地形设想，未发生。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：terrain-hypothetical-not-promise
+- 理由：夏季蓄水水攻只是说明当前地形为何不能用，实际1126用火攻；未计划等夏季实施，不列成必回收水攻欠账。
+- 后证：1123, 1126
+
+## v06-local-chapter_unresolved_index-066-01
+
+- 原子项：弓全灭说法不准确，2000余已逃。
+- 完整原记录：{"chapter_id": "ch-1124", "items": ["弓全灭说法不准确，2000余已逃。", "陆三回合杀嗜血/战神三回合杀嗜血是估计；救援未保证嗜血主战场胜利。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：partial-annihilation
+- 理由：1124闪雷近两万被杀仍明确二千余逃林，不写无人活；后来另批火谷全灭不能抹这次逃生者。
+- 后证：1124, 1127
+
+## v06-local-chapter_unresolved_index-066-02
+
+- 原子项：陆三回合杀嗜血/战神三回合杀嗜血是估计
+- 完整原记录：{"chapter_id": "ch-1124", "items": ["弓全灭说法不准确，2000余已逃。", "陆三回合杀嗜血/战神三回合杀嗜血是估计；救援未保证嗜血主战场胜利。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：counterfactual-combat-estimate
+- 理由：三回合杀嗜血为陆/对战神能力估计，未发生那套三回合单挑，不能以嗜血后败补成实战录像。
+- 后证：1124
+
+## v06-local-chapter_unresolved_index-066-03
+
+- 原子项：救援未保证嗜血主战场胜利。
+- 完整原记录：{"chapter_id": "ch-1124", "items": ["弓全灭说法不准确，2000余已逃。", "陆三回合杀嗜血/战神三回合杀嗜血是估计；救援未保证嗜血主战场胜利。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：local-rescue-vs-front-defeat
+- 理由：拆敌闪雷救局部不使嗜血主战场转胜，1133其自报95%死/杀不足五万，实际战败驱其求联盟；保报道来源而非写陆保其全胜。
+- 后证：1124, 1133
+
+## v06-local-chapter_unresolved_index-067-01
+
+- 原子项：万法未有全杀结算
+- 完整原记录：{"chapter_id": "ch-1125", "items": ["万法未有全杀结算；骑从约两万到1.5万是现场概数，不精算准确战损。", "清风已料伏是陆当下推断，其后结果可支持但不替代其内心独证。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：unconfirmed-all-mages-killed
+- 理由：1125敌法师零落没有全杀结算，1126说先打散水法只是火攻条件；不能用后来十万兽王死清这批万法名册。
+- 后证：1125, 1126
+
+## v06-local-chapter_unresolved_index-067-02
+
+- 原子项：骑从约两万到1.5万是现场概数，不精算准确战损。
+- 完整原记录：{"chapter_id": "ch-1125", "items": ["万法未有全杀结算；骑从约两万到1.5万是现场概数，不精算准确战损。", "清风已料伏是陆当下推断，其后结果可支持但不替代其内心独证。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：source-approximate-loss
+- 理由：骑军约两万到一万五是现场概数且不一定同统计时点，后死一千/二千断后不可强凑唯一准确总损。
+- 后证：1125, 1126
+
+## v06-local-chapter_unresolved_index-067-03
+
+- 原子项：清风已料伏是陆当下推断，其后结果可支持但不替代其内心独证。
+- 完整原记录：{"chapter_id": "ch-1125", "items": ["万法未有全杀结算；骑从约两万到1.5万是现场概数，不精算准确战损。", "清风已料伏是陆当下推断，其后结果可支持但不替代其内心独证。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：enemy-mind-inference
+- 理由：反伏实际说明敌有准备，清风已料到所有伏点仍是陆解释，缺清风独白全证；不能让结果代替具体心证。
+- 后证：1125
+
+## v06-local-chapter_unresolved_index-068-01
+
+- 原子项：先说燃烧超过10秒此章7秒点燃，保留环境/计时差不自统一定值。
+- 完整原记录：{"chapter_id": "ch-1126", "items": ["先说燃烧超过10秒此章7秒点燃，保留环境/计时差不自统一定值。", "雾林万弓本章吻称已没，缺逐兵表；清风文化/心理是陆的下注解释不是普遍国族智力事实。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：source-ignition-timing
+- 理由：1123超过10秒引燃与1126七秒起火，环境/计时范围或异但未明示，保两数，不改成统一固定7或10秒。
+- 后证：1123, 1126
+
+## v06-local-chapter_unresolved_index-068-02
+
+- 原子项：雾林万弓本章吻称已没，缺逐兵表
+- 完整原记录：{"chapter_id": "ch-1126", "items": ["先说燃烧超过10秒此章7秒点燃，保留环境/计时差不自统一定值。", "雾林万弓本章吻称已没，缺逐兵表；清风文化/心理是陆的下注解释不是普遍国族智力事实。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：reported-archer-loss
+- 理由：1126吻说万弓已没，前1125实见大半被杀，有全灭报告后证但无逐兵表；不把报告写成陆逐数亲验，也不删这批损失。
+- 后证：1125, 1126
+
+## v06-local-chapter_unresolved_index-068-03
+
+- 原子项：清风文化/心理是陆的下注解释不是普遍国族智力事实。
+- 完整原记录：{"chapter_id": "ch-1126", "items": ["先说燃烧超过10秒此章7秒点燃，保留环境/计时差不自统一定值。", "雾林万弓本章吻称已没，缺逐兵表；清风文化/心理是陆的下注解释不是普遍国族智力事实。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：cultural-stereotype-not-tactical-law
+- 理由：清风多疑、国族文化归因为陆下注解释，不是所有同国玩家固定智力规则；火攻成功只能证本场布置有效。
+- 后证：1126, 1127
+
+## v06-local-chapter_unresolved_index-069-01
+
+- 原子项：陆口令带两万骑而行动一万多骑，保留概数/命令与实到差不回填兵。
+- 完整原记录：{"chapter_id": "ch-1127", "items": ["陆口令带两万骑而行动一万多骑，保留概数/命令与实到差不回填兵。", "战神7%以上吸血推算随后掉剑确9%，两层保留。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：source-command-vs-arrived-count
+- 理由：命两万骑与实际一万多出发缺完整掉队/调队说明；保命令和到场分别，不填隐藏骑补齐。
+- 后证：1127
+
+## v06-local-chapter_unresolved_index-069-02
+
+- 原子项：战神7%以上吸血推算随后掉剑确9%，两层保留。
+- 完整原记录：{"chapter_id": "ch-1127", "items": ["陆口令带两万骑而行动一万多骑，保留概数/命令与实到差不回填兵。", "战神7%以上吸血推算随后掉剑确9%，两层保留。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：estimated-lifesteal-later-item-stat
+- 理由：陆先估战神吸血超7%，战神死掉火神之刃确9%且吻穿，后面板支持估计范围；不是先估就亲见了剑属性。
+- 后证：1127
+
+## v06-local-chapter_unresolved_index-070-01
+
+- 原子项：青蛇威胁蜕变复仇未回收，不能因蛋是BOSS级就认同一实体复生。
+- 完整原记录：{"chapter_id": "ch-1128", "items": ["青蛇威胁蜕变复仇未回收，不能因蛋是BOSS级就认同一实体复生。", "上限40%紫霜不等BOSS固定实效，本次29.7%。"], "reader": "zongheng_vol05_full"}
+- 终点：unrecovered；领域：revenge-threat-not-same-pet
+- 理由：青蛇复仇威胁未见独立再战，1129宠蛋是0级BOSS宠、1151何实孵小青，不据同种/外形把它当原青蛇记忆同体复生。
+- 后证：1128, 1129, 1151
+
+## v06-local-chapter_unresolved_index-070-02
+
+- 原子项：上限40%紫霜不等BOSS固定实效，本次29.7%。
+- 完整原记录：{"chapter_id": "ch-1128", "items": ["青蛇威胁蜕变复仇未回收，不能因蛋是BOSS级就认同一实体复生。", "上限40%紫霜不等BOSS固定实效，本次29.7%。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：skill-ceiling-vs-effective-debuff
+- 理由：紫霜面板40%为上限/基础，青蛇实29.7%，1131血龙27%等显示目标抵抗；不把所有BOSS固定当40或同一实际值。
+- 后证：1128, 1131
+
+## v06-local-chapter_unresolved_index-071-01
+
+- 原子项：何喜好与收蛋/孵化未示
+- 完整原记录：{"chapter_id": "ch-1129", "items": ["何喜好与收蛋/孵化未示；吻对古剑紫葡萄一场不输为回顾说法，非本人补读卷五。", "琳达后续追杀只是陆忧虑；血龙其余属性当前问号。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：gift-delivery-and-hatching
+- 理由：1129拟赠何小青蛋、1148仍忘在包，1151终于交给何并实孵，礼物线已有实际兑现，不能终点仍未交。
+- 后证：1129, 1148, 1151
+
+## v06-local-chapter_unresolved_index-071-02
+
+- 原子项：吻对古剑紫葡萄一场不输为回顾说法，非本人补读卷五。
+- 完整原记录：{"chapter_id": "ch-1129", "items": ["何喜好与收蛋/孵化未示；吻对古剑紫葡萄一场不输为回顾说法，非本人补读卷五。", "琳达后续追杀只是陆忧虑；血龙其余属性当前问号。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：reported-old-war-and-reader
+- 理由：吻回顾古剑紫葡萄不败是她的说法，本审读正式卷五接口不改其为本人原文亲读；前史项目已齐，不继续写全项目缺卷。
+- 后证：1129
+
+## v06-local-chapter_unresolved_index-071-03
+
+- 原子项：琳达后续追杀只是陆忧虑
+- 完整原记录：{"chapter_id": "ch-1129", "items": ["何喜好与收蛋/孵化未示；吻对古剑紫葡萄一场不输为回顾说法，非本人补读卷五。", "琳达后续追杀只是陆忧虑；血龙其余属性当前问号。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：predicted-pursuit-not-established-cause
+- 理由：琳达追杀是陆杀坐骑后的忧虑，未有明确因血龙被杀而私人追陆的回执；1459琳达出军、1486媒体报重伤逃为另战争，不能自动当这项复仇兑现。
+- 后证：1129, 1459, 1486
+
+## v06-local-chapter_unresolved_index-071-04
+
+- 原子项：血龙其余属性当前问号。
+- 完整原记录：{"chapter_id": "ch-1129", "items": ["何喜好与收蛋/孵化未示；吻对古剑紫葡萄一场不输为回顾说法，非本人补读卷五。", "琳达后续追杀只是陆忧虑；血龙其余属性当前问号。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：boss-partial-inspection-and-result
+- 理由：1129高阶血龙其余属性问号不补全板；1130实测难破防/回血、1131陆终杀得证明明确结果，死亡已答但整套未知参数仍未展示。
+- 后证：1129, 1130, 1131
+
+## v06-local-chapter_unresolved_index-072-01
+
+- 原子项：血龙未杀、神将证明未出
+- 完整原记录：{"chapter_id": "ch-1130", "items": ["血龙未杀、神将证明未出；分身最终是否死本章未明。", "敌冥火25到11与陆紫霜递减可并读机制，不能强行所有减防相同。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：boss-death-and-proof-delivery
+- 理由：1130未杀是阶段状态，1131陆真末杀拾证明、1132交吻使用飞升，结果完整闭合；不让早未出覆盖后完成。
+- 后证：1130, 1131, 1132
+
+## v06-local-chapter_unresolved_index-072-02
+
+- 原子项：分身最终是否死本章未明。
+- 完整原记录：{"chapter_id": "ch-1130", "items": ["血龙未杀、神将证明未出；分身最终是否死本章未明。", "敌冥火25到11与陆紫霜递减可并读机制，不能强行所有减防相同。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：clone-endpoint-unshown
+- 理由：1130分身以110万血承爪殿后，后陆独存不足证明该分身精确死亡时点；是临时召唤物，不编具名战损或永久人物死亡。
+- 后证：1130, 1131
+
+## v06-local-chapter_unresolved_index-072-03
+
+- 原子项：敌冥火25到11与陆紫霜递减可并读机制，不能强行所有减防相同。
+- 完整原记录：{"chapter_id": "ch-1130", "items": ["血龙未杀、神将证明未出；分身最终是否死本章未明。", "敌冥火25到11与陆紫霜递减可并读机制，不能强行所有减防相同。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：target-dependent-defense-reduction
+- 理由：敌冥火标25实11与陆紫霜40基础降不同实际值共同说明目标/属性差；不能强制所有减防同一公式或面板即实效。
+- 后证：1130, 1131
+
+## v06-local-chapter_unresolved_index-073-01
+
+- 原子项：行云是否从一开始就保护是陆问句，已证的是本章搜查后保护与卷轴。
+- 完整原记录：{"chapter_id": "ch-1131", "items": ["行云是否从一开始就保护是陆问句，已证的是本章搜查后保护与卷轴。", "前章约2000闪雷本章清风称4000/五万人，保来源差不强合。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：aid-timing-and-motive
+- 理由：1131行云挡搜、给逃生卷是明确保护；‘一开始就保护’仍陆问句。1132她解释保公会自主且求合作可补当前动机，不证最初全部都为陆。
+- 后证：1131, 1132
+
+## v06-local-chapter_unresolved_index-073-02
+
+- 原子项：前章约2000闪雷本章清风称4000/五万人，保来源差不强合。
+- 完整原记录：{"chapter_id": "ch-1131", "items": ["行云是否从一开始就保护是陆问句，已证的是本章搜查后保护与卷轴。", "前章约2000闪雷本章清风称4000/五万人，保来源差不强合。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：source-loaned-archer-count
+- 理由：前约2000闪雷与清风后称4000/5万口径不同，没增援/拆群清册；不以后来损失反配原借兵。
+- 后证：1130, 1131
+
+## v06-local-chapter_unresolved_index-074-01
+
+- 原子项：源把斩神误写‘斩龙’数处，不新建斩龙公会或跨书混同。
+- 完整原记录：{"chapter_id": "ch-1132", "items": ["源把斩神误写‘斩龙’数处，不新建斩龙公会或跨书混同。", "约半小时但先飞20/等40/飞7，约时漂移保疑；新城未刷新归属未定。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：guild-name-slip-boundary
+- 理由：斩神被误写斩龙属同上下文近称，不另建公会或把用户下一作品《斩龙》倒灌进本书组织。
+- 后证：1132, 1134
+
+## v06-local-chapter_unresolved_index-074-02
+
+- 原子项：约半小时但先飞20/等40/飞7，约时漂移保疑
+- 完整原记录：{"chapter_id": "ch-1132", "items": ["源把斩神误写‘斩龙’数处，不新建斩龙公会或跨书混同。", "约半小时但先飞20/等40/飞7，约时漂移保疑；新城未刷新归属未定。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：source-meeting-duration
+- 理由：约半小时与飞20/等40/飞7无法同段精确合，未给起算澄清；保约时差，不造额外瞬移。
+- 后证：1132
+
+## v06-local-chapter_unresolved_index-074-03
+
+- 原子项：新城未刷新归属未定。
+- 完整原记录：{"chapter_id": "ch-1132", "items": ["源把斩神误写‘斩龙’数处，不新建斩龙公会或跨书混同。", "约半小时但先飞20/等40/飞7，约时漂移保疑；新城未刷新归属未定。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：city-refresh-and-provisional-occupation
+- 理由：1132未刷新，1137系统刷霜风，1139战神先占、1143行云占仍须守17h；刷新和阶段易主已答，最终守满24h的独立回执仍未定位。
+- 后证：1132, 1137, 1139, 1143
+
+## v06-local-chapter_unresolved_index-075-01
+
+- 原子项：嗜血战损数字为其自报未系统表，先前场景只见局部。
+- 完整原记录：{"chapter_id": "ch-1133", "items": ["嗜血战损数字为其自报未系统表，先前场景只见局部。", "行云第五故意让是陆观察归因，比分真有但动机层次单列。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：reported-loss-channel
+- 理由：1133嗜血自报95%/20万以上损失，前场只见局部，保其汇报层；没有独立全会统计也不将其自动视为谎言。
+- 后证：1133
+
+## v06-local-chapter_unresolved_index-075-02
+
+- 原子项：行云第五故意让是陆观察归因，比分真有但动机层次单列。
+- 完整原记录：{"chapter_id": "ch-1133", "items": ["嗜血战损数字为其自报未系统表，先前场景只见局部。", "行云第五故意让是陆观察归因，比分真有但动机层次单列。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：score-vs-motive
+- 理由：五场3:2是实比分，第五行云故意让是陆观察归因；不由比分推两人永远强弱排序，也不把内心动机当全知实录。
+- 后证：1133
+
+## v06-local-chapter_unresolved_index-076-01
+
+- 原子项：兽魂溃败非两万全死，敌意与未来再起仍在。
+- 完整原记录：{"chapter_id": "ch-1134", "items": ["兽魂溃败非两万全死，敌意与未来再起仍在。", "逸S2完成来自其自述，未展示副本过程；马石转交/古剑骑形成均待。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：rout-not-total-death
+- 理由：1134兽魂被三路击溃并追杀，未给两万无人活结算；以后可能再来不需发明整会复活或宣系统解散。
+- 后证：1134
+
+## v06-local-chapter_unresolved_index-076-02
+
+- 原子项：逸S2完成来自其自述，未展示副本过程
+- 完整原记录：{"chapter_id": "ch-1134", "items": ["兽魂溃败非两万全死，敌意与未来再起仍在。", "逸S2完成来自其自述，未展示副本过程；马石转交/古剑骑形成均待。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：reported-dungeon-clear
+- 理由：逸S2过关有她1134自述回执，未演全副本不能说无结果，也不冒本审亲见过程/补无死细节。
+- 后证：1134
+
+## v06-local-chapter_unresolved_index-076-03
+
+- 原子项：马石转交/古剑骑形成均待。
+- 完整原记录：{"chapter_id": "ch-1134", "items": ["兽魂溃败非两万全死，敌意与未来再起仍在。", "逸S2完成来自其自述，未展示副本过程；马石转交/古剑骑形成均待。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：mounts-transfer-and-field-use
+- 理由：1135三万马石实交乱月且回城，1146许阳率三万古剑嘶风实来接应、1148驻防，形成骑军已有后证；不是始终停在计划。
+- 后证：1134, 1135, 1146, 1148
+
+## v06-local-chapter_unresolved_index-077-01
+
+- 原子项：S3、何收马/分配未结。
+- 完整原记录：{"chapter_id": "ch-1135", "items": ["S3、何收马/分配未结。", "源‘铁颅漂亮’和‘军师行动’疑笔误保不增人物；鬼是否与何秘密配合无证，不写演戏。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：dungeon-and-mount-result
+- 理由：1135何S3/收马未结，1146古剑三万嘶风实战、1160何五件S3齐穿/队通关明确补结；保各自完成时点，不倒写她1135已毕业。
+- 后证：1135, 1146, 1160
+
+## v06-local-chapter_unresolved_index-077-02
+
+- 原子项：源‘铁颅漂亮’和‘军师行动’疑笔误保不增人物
+- 完整原记录：{"chapter_id": "ch-1135", "items": ["S3、何收马/分配未结。", "源‘铁颅漂亮’和‘军师行动’疑笔误保不增人物；鬼是否与何秘密配合无证，不写演戏。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：source-slip-not-extra-entity
+- 理由：铁颅漂亮/军师行动疑笔误只标原词，不新增名为漂亮或军师的角色；未要求作者一定后揭，记录约束可闭合。
+- 后证：1135
+
+## v06-local-chapter_unresolved_index-077-03
+
+- 原子项：鬼是否与何秘密配合无证，不写演戏。
+- 完整原记录：{"chapter_id": "ch-1135", "items": ["S3、何收马/分配未结。", "源‘铁颅漂亮’和‘军师行动’疑笔误保不增人物；鬼是否与何秘密配合无证，不写演戏。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：concealed-plan-not-total-fake-conflict
+- 理由：1147何明确说明假叛安排后可以确认她方案，仍不等鬼所有早冲动/何受伤情绪全演；不将来援反推从头全员知计。
+- 后证：1135, 1147
+
+## v06-local-chapter_unresolved_index-078-01
+
+- 原子项：小小猪游猎三天是据传不亲见。
+- 完整原记录：{"chapter_id": "ch-1136", "items": ["小小猪游猎三天是据传不亲见。", "夜枭不打是现场事实、行云已经命令是陆推；陆所称自己不是斥候与实际专业侦察存在反讽。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：reported-roaming
+- 理由：小小猪游猎三天为传闻，后来再见小猪不能补这三天逐场经历；保消息来源，不追加本人亲历。
+- 后证：1136
+
+## v06-local-chapter_unresolved_index-078-02
+
+- 原子项：夜枭不打是现场事实、行云已经命令是陆推
+- 完整原记录：{"chapter_id": "ch-1136", "items": ["小小猪游猎三天是据传不亲见。", "夜枭不打是现场事实、行云已经命令是陆推；陆所称自己不是斥候与实际专业侦察存在反讽。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：order-inferred-from-nonattack
+- 理由：夜枭当场不攻是观察，行云已经预令只是陆推；后盟约实际存在也不证明这支队具体接过何令。
+- 后证：1136
+
+## v06-local-chapter_unresolved_index-078-03
+
+- 原子项：陆所称自己不是斥候与实际专业侦察存在反讽。
+- 完整原记录：{"chapter_id": "ch-1136", "items": ["小小猪游猎三天是据传不亲见。", "夜枭不打是现场事实、行云已经命令是陆推；陆所称自己不是斥候与实际专业侦察存在反讽。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：self-description-vs-action
+- 理由：陆称非斥候与飞侦、地图/情报共享形成反讽，动作证据不因自谦或自述消失；不另造侦察人代替他。
+- 后证：1136
+
+## v06-local-chapter_unresolved_index-079-01
+
+- 原子项：本章山战视角含双方对话，陆之前听不清的细节不可默认尽知
+- 完整原记录：{"chapter_id": "ch-1137", "items": ["本章山战视角含双方对话，陆之前听不清的细节不可默认尽知；新情报由北冥明确传。", "清风对行云暧昧笑不自动恋情证。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：reader-knowledge-vs-character
+- 理由：双方对话向读者展开不等陆听全，1136明确听不真切；1137只按新情报进入其知情，不把视角切换当全知共享。
+- 后证：1136, 1137
+
+## v06-local-chapter_unresolved_index-079-02
+
+- 原子项：新情报由北冥明确传。
+- 完整原记录：{"chapter_id": "ch-1137", "items": ["本章山战视角含双方对话，陆之前听不清的细节不可默认尽知；新情报由北冥明确传。", "清风对行云暧昧笑不自动恋情证。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：independent-scout-contribution
+- 理由：西侧五万神象由北冥先发现并传，陆查图后调度；明确情报贡献，不能全归陆独自洞察。
+- 后证：1137
+
+## v06-local-chapter_unresolved_index-079-03
+
+- 原子项：清风对行云暧昧笑不自动恋情证。
+- 完整原记录：{"chapter_id": "ch-1137", "items": ["本章山战视角含双方对话，陆之前听不清的细节不可默认尽知；新情报由北冥明确传。", "清风对行云暧昧笑不自动恋情证。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：flirtation-not-confirmed-romance
+- 理由：清风暧昧笑是行为信号，不足证与行云有双方恋爱关系；后她援陆也不是此恋情被背叛的证明。
+- 后证：1137
+
+## v06-local-chapter_unresolved_index-080-01
+
+- 原子项：战术预计一小时完成未到结算
+- 完整原记录：{"chapter_id": "ch-1138", "items": ["战术预计一小时完成未到结算；‘前有斧柄’为源错字不新设道具。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：time-target-later-completion
+- 理由：1138估一小时，1139近一小时神象战确结、报杀52034/己损71929；行动有回执，需保代价与约时而非完美预言。
+- 后证：1138, 1139
+
+## v06-local-chapter_unresolved_index-080-02
+
+- 原子项：‘前有斧柄’为源错字不新设道具。
+- 完整原记录：{"chapter_id": "ch-1138", "items": ["战术预计一小时完成未到结算；‘前有斧柄’为源错字不新设道具。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：source-word-not-prop
+- 理由：‘前有斧柄’按本段战术上下文标疑词，不新增道具；没有相关物件取得/使用可证。
+- 后证：1138
+
+## v06-local-chapter_unresolved_index-081-01
+
+- 原子项：本章7+6共12源算错，以各项与后文13分列不静默修原文。
+- 完整原记录：{"chapter_id": "ch-1139", "items": ["本章7+6共12源算错，以各项与后文13分列不静默修原文。", "五公里坡+海拔2.5/60度几何不强补物理模型，冲击100%是陆预计未系统板。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：source-arithmetic
+- 理由：7万+6万一处说12万、后说13万，算术失配未勘误；保分项/原合计，不默改作者。
+- 后证：1139, 1140
+
+## v06-local-chapter_unresolved_index-081-02
+
+- 原子项：五公里坡+海拔2.5/60度几何不强补物理模型，冲击100%是陆预计未系统板。
+- 完整原记录：{"chapter_id": "ch-1139", "items": ["本章7+6共12源算错，以各项与后文13分列不静默修原文。", "五公里坡+海拔2.5/60度几何不强补物理模型，冲击100%是陆预计未系统板。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：source-geometry-and-estimated-force
+- 理由：坡长五公里/高2.5公里/60度未成一致几何模型，冲击100%也是陆预计；实际俯冲有效不验证精确物理或百分比面板。
+- 后证：1139, 1140
+
+## v06-local-chapter_unresolved_index-082-01
+
+- 原子项：本战己方总损未报，不能挪前场71929当本场。
+- 完整原记录：{"chapter_id": "ch-1140", "items": ["本战己方总损未报，不能挪前场71929当本场。", "累计30万是行云统计/陆默算，非独立系统名册。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：casualties-later-reported
+- 理由：1140未报本场己损，1141吻补骑死近四万/合近十万离场，损失有后报；前71929属神象战不能挪作此场，完整连续表仍不齐。
+- 后证：1139, 1140, 1141
+
+## v06-local-chapter_unresolved_index-082-02
+
+- 原子项：累计30万是行云统计/陆默算，非独立系统名册。
+- 完整原记录：{"chapter_id": "ch-1140", "items": ["本战己方总损未报，不能挪前场71929当本场。", "累计30万是行云统计/陆默算，非独立系统名册。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：reported-cumulative-kills
+- 理由：累计30万为行云统计/陆默算，保两人消息与约数；不写系统逐名清册，也不与单场13万重复相加。
+- 后证：1140
+
+## v06-local-chapter_unresolved_index-083-01
+
+- 原子项：本章合计近10万/剩15万与最初35万及前71929不能得严格连续兵表，分场记录源数。
+- 完整原记录：{"chapter_id": "ch-1141", "items": ["本章合计近10万/剩15万与最初35万及前71929不能得严格连续兵表，分场记录源数。", "夏末17万/24万/70%损均报告口径，不独立系统名册。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：source-incomplete-troop-ledger
+- 理由：35万起兵、71929先损、后近10万与余15万统计范围/约数未全对上；不用复活、分队或隐藏援军无证配平。
+- 后证：1136, 1139, 1141
+
+## v06-local-chapter_unresolved_index-083-02
+
+- 原子项：夏末17万/24万/70%损均报告口径，不独立系统名册。
+- 完整原记录：{"chapter_id": "ch-1141", "items": ["本章合计近10万/剩15万与最初35万及前71929不能得严格连续兵表，分场记录源数。", "夏末17万/24万/70%损均报告口径，不独立系统名册。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：reported-allied-loss
+- 理由：夏末17万/24万/70%损是其报告，各字段范围不同未有独立名册；保盟军真实代价的报道，不压成陆全无损胜利。
+- 后证：1141
+
+## v06-local-chapter_unresolved_index-084-01
+
+- 原子项：五分钟抵达计算把码时速/公里混用源异常，结果以现场攻击记，不重算真实物理。
+- 完整原记录：{"chapter_id": "ch-1142", "items": ["五分钟抵达计算把码时速/公里混用源异常，结果以现场攻击记，不重算真实物理。", "城尚未易主。"], "reader": "zongheng_vol05_full"}
+- 终点：unknown；领域：source-movement-units
+- 理由：五分钟估算混用码时速/公里，实际1142近20分钟渡水攻击按现场结果记；不重算真实物理替代小说计时。
+- 后证：1142
+
+## v06-local-chapter_unresolved_index-084-02
+
+- 原子项：城尚未易主。
+- 完整原记录：{"chapter_id": "ch-1142", "items": ["五分钟抵达计算把码时速/公里混用源异常，结果以现场攻击记，不重算真实物理。", "城尚未易主。"], "reader": "zongheng_vol05_full"}
+- 终点：partial；领域：occupation-stages
+- 理由：1142尚青兽占，1143行云入占而还需17h；易主阶段已发生，最终24h所有权未有独立回执，不把尚未易主冻结到终点也不提前终占。
+- 后证：1142, 1143
+
+## v06-local-chapter_unresolved_index-085-01
+
+- 原子项：旧20万隐藏兵来自清风所说未全实战
+- 完整原记录：{"chapter_id": "ch-1143", "items": ["旧20万隐藏兵来自清风所说未全实战；不能补援参加本次。", "生死谷方向≠将穿死亡归零区，下一明确选路。"], "reader": "zongheng_vol05_full"}
+- 终点：answered；领域：reported-hidden-reserve
+- 理由：旧20万隐藏兵由清风说，未全部在本次战场实到，不能填入军损分母；后来别场同数军团不证明是本批参战。
+- 后证：1143
+

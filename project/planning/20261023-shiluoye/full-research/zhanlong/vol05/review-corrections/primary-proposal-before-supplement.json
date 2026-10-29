@@ -1,0 +1,1846 @@
+{
+  "status": "proposal-pending-primary-review-not-applied",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "volume": 5,
+  "before_core_sha256": {
+    "analysis.json": "c30efe090b939f753fe79959c80e75cb4a98705193b797ddee6fd77453dc9278",
+    "cards.json": "b031608e05909244ed60b8a07c29046c2529f9d7abae8e6164379135906823e4",
+    "graph.json": "30a03d512500dc664bbbf9bf6436feb484f19c80442728559679675d20f778db",
+    "chapter-notes.jsonl": "908e7c4f01fe342fe61cd4d8e7494da0266e830c02fe73acffef9fc76bb871b9",
+    "read-log.json": "e16491213242360310074560e0c5d250c27d86819a026c4042e71c99053842be",
+    "reader-state.json": "542bb43bd2ea2882d35a73d52e255144bd33ba87531b2f29dc1d502b994d25a0"
+  },
+  "before_snapshot": "review-corrections/primary-before/snapshot.json",
+  "changes": [
+    {
+      "file": "analysis.json",
+      "path": [
+        "dimensions",
+        "continuity",
+        0
+      ],
+      "before": {
+        "id": "v05-continuity-01",
+        "title": "身份、相似名字和称呼必须分人",
+        "claim_kind": "inference",
+        "textual_fact": "为爱追寻本人认薛/抹/小妖；颜沫牛奶另人，纸为景堂妹；玩家冉闵与NPC战魂冉闵同时存在。",
+        "observation": "连续性最先是实体边界，不能由称呼亲近、同姓或同名自动合并。",
+        "mechanism": "以本人认定/面板/关系明说建映射，给同名实体单卡并列不同施为事件。",
+        "limits_and_counterevidence": "纸被称姐妹非改堂妹；南宫决/灵有兄妹明证不推别对同样；弗雷与傅雷分人。",
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1006",
+            "start_line": 74484,
+            "end_line": 74540,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1086",
+            "start_line": 79559,
+            "end_line": 79633,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1108",
+            "start_line": 81182,
+            "end_line": 81276,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1109",
+            "start_line": 81277,
+            "end_line": 81360,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1110",
+            "start_line": 81361,
+            "end_line": 81431,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1131",
+            "start_line": 82810,
+            "end_line": 82880,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1134",
+            "start_line": 83010,
+            "end_line": 83073,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1149",
+            "start_line": 83960,
+            "end_line": 84010,
+            "claim_kind": "fact"
+          }
+        ],
+        "interpretation_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1006",
+            "start_line": 74484,
+            "end_line": 74540,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1086",
+            "start_line": 79559,
+            "end_line": 79633,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1108",
+            "start_line": 81182,
+            "end_line": 81276,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1109",
+            "start_line": 81277,
+            "end_line": 81360,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1110",
+            "start_line": 81361,
+            "end_line": 81431,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1131",
+            "start_line": 82810,
+            "end_line": 82880,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1134",
+            "start_line": 83010,
+            "end_line": 83073,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1149",
+            "start_line": 83960,
+            "end_line": 84010,
+            "claim_kind": "inference"
+          }
+        ],
+        "review_status": "draft"
+      },
+      "after": {
+        "id": "v05-continuity-01",
+        "title": "身份、相似名字和称呼必须分人",
+        "claim_kind": "inference",
+        "textual_fact": "为爱追寻本人认薛/抹/小妖；颜沫牛奶另人，纸为景堂妹；玩家冉闵与NPC战魂冉闵同时存在。",
+        "observation": "本人当面认多别名、另人的自我介绍和亲属说明，逐步把失联时的陌生行动接回旧关系；同名NPC与玩家的不同场面又保住世界的辨识度。",
+        "mechanism": "重逢先让角色亮面板/说出熟悉称呼，再由本人承认使前面的礼物、援军和回避获得新意义；另以不同职业、地点与亲属对话区分相似名字。",
+        "limits_and_counterevidence": "主早用外貌等级排除牛奶是薛仍只是判断，1006颜沫本人自报才加新证；后泛称姐妹不会推翻先前堂妹说明，不能靠同名省掉辨识成本。",
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1006",
+            "start_line": 74484,
+            "end_line": 74540,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1086",
+            "start_line": 79559,
+            "end_line": 79633,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1108",
+            "start_line": 81182,
+            "end_line": 81276,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1109",
+            "start_line": 81277,
+            "end_line": 81360,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1110",
+            "start_line": 81361,
+            "end_line": 81431,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1131",
+            "start_line": 82810,
+            "end_line": 82880,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1134",
+            "start_line": 83010,
+            "end_line": 83073,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1149",
+            "start_line": 83960,
+            "end_line": 84010,
+            "claim_kind": "fact"
+          }
+        ],
+        "interpretation_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1006",
+            "start_line": 74484,
+            "end_line": 74540,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1086",
+            "start_line": 79559,
+            "end_line": 79633,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1108",
+            "start_line": 81182,
+            "end_line": 81276,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1109",
+            "start_line": 81277,
+            "end_line": 81360,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1110",
+            "start_line": 81361,
+            "end_line": 81431,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1131",
+            "start_line": 82810,
+            "end_line": 82880,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1134",
+            "start_line": 83010,
+            "end_line": 83073,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1149",
+            "start_line": 83960,
+            "end_line": 84010,
+            "claim_kind": "inference"
+          }
+        ],
+        "review_status": "draft"
+      },
+      "reason": "将研究操作口吻改为小说如何维持/削弱连续阅读的文学观察；事实证据逐值不动。"
+    },
+    {
+      "file": "analysis.json",
+      "path": [
+        "dimensions",
+        "continuity",
+        1
+      ],
+      "before": {
+        "id": "v05-continuity-02",
+        "title": "命令、途中、交付和实装分状态",
+        "claim_kind": "inference",
+        "textual_fact": "宋寒生日匕寄存/纸钥匙收未提车、雷丁首交任务完成、旧膝月代送李未独收、龙牙1179直接实装。",
+        "observation": "同是给东西也有不同证据强度和结算完成点。",
+        "mechanism": "每物建立提出→取到→转交→收讫→有资格→实用的状态，只填已见节点。",
+        "limits_and_counterevidence": "镇岳挽亲收/龙牙实装可闭，不为统一谨慎把真交付也改未知；星辰戒千万只竞价。",
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0981",
+            "start_line": 72865,
+            "end_line": 72932,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1110",
+            "start_line": 81361,
+            "end_line": 81431,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1126",
+            "start_line": 82470,
+            "end_line": 82568,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1178",
+            "start_line": 85952,
+            "end_line": 86042,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1179",
+            "start_line": 86043,
+            "end_line": 86110,
+            "claim_kind": "fact"
+          }
+        ],
+        "interpretation_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0981",
+            "start_line": 72865,
+            "end_line": 72932,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1110",
+            "start_line": 81361,
+            "end_line": 81431,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1126",
+            "start_line": 82470,
+            "end_line": 82568,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1178",
+            "start_line": 85952,
+            "end_line": 86042,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1179",
+            "start_line": 86043,
+            "end_line": 86110,
+            "claim_kind": "inference"
+          }
+        ],
+        "review_status": "draft"
+      },
+      "after": {
+        "id": "v05-continuity-02",
+        "title": "命令、途中、交付和实装分状态",
+        "claim_kind": "inference",
+        "textual_fact": "宋寒生日匕寄存/纸钥匙收未提车、雷丁首交任务完成、旧膝月代送李未独收、龙牙1179直接实装。",
+        "observation": "物品从约定到接收、装用的间隔，使获得感延后且可追；真正交到手的一幕又能给旧期待明确收束。",
+        "mechanism": "先让物承载愿望或关系，再以寄存/代送暂缓兑现；在后场面用亲捧、交首或即时换装给可见完成动作，未落槌的拍卖则把期待留到下一章。",
+        "limits_and_counterevidence": "镇岳挽亲收、龙牙林立即实装已经足以闭局部期待，不能一律当没交；车钥与旧膝代送缺本人使用，价格叫到千万仍不等售成。",
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0981",
+            "start_line": 72865,
+            "end_line": 72932,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1110",
+            "start_line": 81361,
+            "end_line": 81431,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1126",
+            "start_line": 82470,
+            "end_line": 82568,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1178",
+            "start_line": 85952,
+            "end_line": 86042,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1179",
+            "start_line": 86043,
+            "end_line": 86110,
+            "claim_kind": "fact"
+          }
+        ],
+        "interpretation_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0981",
+            "start_line": 72865,
+            "end_line": 72932,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1110",
+            "start_line": 81361,
+            "end_line": 81431,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1126",
+            "start_line": 82470,
+            "end_line": 82568,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1178",
+            "start_line": 85952,
+            "end_line": 86042,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1179",
+            "start_line": 86043,
+            "end_line": 86110,
+            "claim_kind": "inference"
+          }
+        ],
+        "review_status": "draft"
+      },
+      "reason": "将研究操作口吻改为小说如何维持/削弱连续阅读的文学观察；事实证据逐值不动。"
+    },
+    {
+      "file": "analysis.json",
+      "path": [
+        "dimensions",
+        "continuity",
+        2
+      ],
+      "before": {
+        "id": "v05-continuity-03",
+        "title": "生死链不能被奖励和复号覆盖",
+        "claim_kind": "inference",
+        "textual_fact": "徐焰1067尸、雷丁系统死、兰濒死回城被救醒、安娜子舒杀/银戈主杀；铁靴游戏再现补装备。",
+        "observation": "游戏掉装、濒死、角色死亡、现实死亡与普通兵恢复需要不同链。",
+        "mechanism": "为具名者列最后活见、死亡明文/系统、恢复明文和叙述渠道，未给复生不补。",
+        "limits_and_counterevidence": "雷丁首回交不证六王皆救；主实际五A四死一活不算五全杀；弗雷死来自薛九霄报。",
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1053",
+            "start_line": 77496,
+            "end_line": 77556,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1067",
+            "start_line": 78313,
+            "end_line": 78377,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1105",
+            "start_line": 80929,
+            "end_line": 80999,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1107",
+            "start_line": 81105,
+            "end_line": 81181,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1125",
+            "start_line": 82413,
+            "end_line": 82469,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1126",
+            "start_line": 82470,
+            "end_line": 82568,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1160",
+            "start_line": 84686,
+            "end_line": 84749,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1177",
+            "start_line": 85870,
+            "end_line": 85951,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1178",
+            "start_line": 85952,
+            "end_line": 86042,
+            "claim_kind": "fact"
+          }
+        ],
+        "interpretation_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1053",
+            "start_line": 77496,
+            "end_line": 77556,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1067",
+            "start_line": 78313,
+            "end_line": 78377,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1105",
+            "start_line": 80929,
+            "end_line": 80999,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1107",
+            "start_line": 81105,
+            "end_line": 81181,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1125",
+            "start_line": 82413,
+            "end_line": 82469,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1126",
+            "start_line": 82470,
+            "end_line": 82568,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1160",
+            "start_line": 84686,
+            "end_line": 84749,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1177",
+            "start_line": 85870,
+            "end_line": 85951,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1178",
+            "start_line": 85952,
+            "end_line": 86042,
+            "claim_kind": "inference"
+          }
+        ],
+        "review_status": "draft"
+      },
+      "after": {
+        "id": "v05-continuity-03",
+        "title": "生死链不能被奖励和复号覆盖",
+        "claim_kind": "inference",
+        "textual_fact": "徐焰1067尸、雷丁系统死、兰濒死回城被救醒、安娜子舒杀/银戈主杀；铁靴游戏再现补装备。",
+        "observation": "玩家可复活维持长战，NPC与现实身体的不同恢复代价仍使风险有层次；具名死者让胜后奖励不能把全场痛感清零。",
+        "mechanism": "在同一战争中交叉写掉级后归队、重伤再起、尸体确认和系统部分恢复，让读者比较哪些损失能补、补到什么程度；现实断肋再转训练，使武力成长回应具体脆弱。",
+        "limits_and_counterevidence": "韩穿胸后起身并非先死后复，兰有明确救醒过程；徐焰尸证不能由泛称普通军恢复自动推翻，而铁靴游戏再现也不能当现实死者复生。",
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1053",
+            "start_line": 77496,
+            "end_line": 77556,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1067",
+            "start_line": 78313,
+            "end_line": 78377,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1105",
+            "start_line": 80929,
+            "end_line": 80999,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1107",
+            "start_line": 81105,
+            "end_line": 81181,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1125",
+            "start_line": 82413,
+            "end_line": 82469,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1126",
+            "start_line": 82470,
+            "end_line": 82568,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1160",
+            "start_line": 84686,
+            "end_line": 84749,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1177",
+            "start_line": 85870,
+            "end_line": 85951,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1178",
+            "start_line": 85952,
+            "end_line": 86042,
+            "claim_kind": "fact"
+          }
+        ],
+        "interpretation_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1053",
+            "start_line": 77496,
+            "end_line": 77556,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1067",
+            "start_line": 78313,
+            "end_line": 78377,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1105",
+            "start_line": 80929,
+            "end_line": 80999,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1107",
+            "start_line": 81105,
+            "end_line": 81181,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1125",
+            "start_line": 82413,
+            "end_line": 82469,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1126",
+            "start_line": 82470,
+            "end_line": 82568,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1160",
+            "start_line": 84686,
+            "end_line": 84749,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1177",
+            "start_line": 85870,
+            "end_line": 85951,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1178",
+            "start_line": 85952,
+            "end_line": 86042,
+            "claim_kind": "inference"
+          }
+        ],
+        "review_status": "draft"
+      },
+      "reason": "将研究操作口吻改为小说如何维持/削弱连续阅读的文学观察；事实证据逐值不动。"
+    },
+    {
+      "file": "analysis.json",
+      "path": [
+        "dimensions",
+        "continuity",
+        3
+      ],
+      "before": {
+        "id": "v05-continuity-04",
+        "title": "源文数值与名称滑移不擅补机制",
+        "claim_kind": "inference",
+        "textual_fact": "御天说不可活体却举野猪、镇岳血防/攻叙口径、冠军之刃勇冠在已换双剑后再称、神威2000/3000米。",
+        "observation": "不齐处是来源风险，保持前后原说优于编出隐藏升级或新物。",
+        "mechanism": "把互冲两定位并列，标系统面板/主口语；能确定实际动作的仍记，原因无证就不补。",
+        "limits_and_counterevidence": "不把每次省略当矛盾；王域近两小时冷却叙需连完整时间，不直接断系统错。",
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1024",
+            "start_line": 75644,
+            "end_line": 75683,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1113",
+            "start_line": 81566,
+            "end_line": 81643,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1123",
+            "start_line": 82277,
+            "end_line": 82336,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1138",
+            "start_line": 83236,
+            "end_line": 83316,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1145",
+            "start_line": 83731,
+            "end_line": 83798,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1151",
+            "start_line": 84060,
+            "end_line": 84131,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1170",
+            "start_line": 85430,
+            "end_line": 85492,
+            "claim_kind": "fact"
+          }
+        ],
+        "interpretation_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1024",
+            "start_line": 75644,
+            "end_line": 75683,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1113",
+            "start_line": 81566,
+            "end_line": 81643,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1123",
+            "start_line": 82277,
+            "end_line": 82336,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1138",
+            "start_line": 83236,
+            "end_line": 83316,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1145",
+            "start_line": 83731,
+            "end_line": 83798,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1151",
+            "start_line": 84060,
+            "end_line": 84131,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1170",
+            "start_line": 85430,
+            "end_line": 85492,
+            "claim_kind": "inference"
+          }
+        ],
+        "review_status": "draft"
+      },
+      "after": {
+        "id": "v05-continuity-04",
+        "title": "源文数值与名称滑移不擅补机制",
+        "claim_kind": "inference",
+        "textual_fact": "御天说不可活体却举野猪、镇岳血防/攻叙口径、冠军之刃勇冠在已换双剑后再称、神威2000/3000米。",
+        "observation": "装备名称和数值无说明滑移，会迫使读者反复重算人物当前能做什么，削弱规则作为预判依据的可信度。",
+        "mechanism": "御天活体限制后举野猪、已换双剑后又称冠军之刃、神威射程从两千到三千，都使熟悉前条件的读者产生识别停顿；明确说明改造或规则变动本可承接，当前这些地方没有。",
+        "limits_and_counterevidence": "不能把每次省略都当冲突：王域近两小时叙述未列完整时间，冷却是否真改仍难定；星辰戒面板与东口述有别而尚未实测，不能择一补成隐藏连段。",
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1024",
+            "start_line": 75644,
+            "end_line": 75683,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1113",
+            "start_line": 81566,
+            "end_line": 81643,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1123",
+            "start_line": 82277,
+            "end_line": 82336,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1138",
+            "start_line": 83236,
+            "end_line": 83316,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1145",
+            "start_line": 83731,
+            "end_line": 83798,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1151",
+            "start_line": 84060,
+            "end_line": 84131,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1170",
+            "start_line": 85430,
+            "end_line": 85492,
+            "claim_kind": "fact"
+          }
+        ],
+        "interpretation_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1024",
+            "start_line": 75644,
+            "end_line": 75683,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1113",
+            "start_line": 81566,
+            "end_line": 81643,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1123",
+            "start_line": 82277,
+            "end_line": 82336,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1138",
+            "start_line": 83236,
+            "end_line": 83316,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1145",
+            "start_line": 83731,
+            "end_line": 83798,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1151",
+            "start_line": 84060,
+            "end_line": 84131,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1170",
+            "start_line": 85430,
+            "end_line": 85492,
+            "claim_kind": "inference"
+          }
+        ],
+        "review_status": "draft"
+      },
+      "reason": "将研究操作口吻改为小说如何维持/削弱连续阅读的文学观察；事实证据逐值不动。"
+    },
+    {
+      "file": "analysis.json",
+      "path": [
+        "dimensions",
+        "continuity",
+        4
+      ],
+      "before": {
+        "id": "v05-continuity-05",
+        "title": "卷末关闭局部目标仍保开放后果",
+        "claim_kind": "inference",
+        "textual_fact": "百岛SSS闭、抢龙SSS闭/群龙迁回、两王系统死；子舒封龙神、首批斩新龙骑、重排君王与戒款仍未发生。",
+        "observation": "完整读完本卷不等书中每条线完成，研究的闭环是准确记录边界。",
+        "mechanism": "每线程按其问题独立判resolved/partial/open并给回收证，不拿同一胜利替所有承诺结账。",
+        "limits_and_counterevidence": "不以后卷已知答案倒填当下，不把亲读边界或流程元数据充当文学观察。",
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1173",
+            "start_line": 85604,
+            "end_line": 85660,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1175",
+            "start_line": 85729,
+            "end_line": 85795,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1178",
+            "start_line": 85952,
+            "end_line": 86042,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1179",
+            "start_line": 86043,
+            "end_line": 86110,
+            "claim_kind": "fact"
+          }
+        ],
+        "interpretation_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1173",
+            "start_line": 85604,
+            "end_line": 85660,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1175",
+            "start_line": 85729,
+            "end_line": 85795,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1178",
+            "start_line": 85952,
+            "end_line": 86042,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1179",
+            "start_line": 86043,
+            "end_line": 86110,
+            "claim_kind": "inference"
+          }
+        ],
+        "review_status": "draft"
+      },
+      "after": {
+        "id": "v05-continuity-05",
+        "title": "卷末关闭局部目标仍保开放后果",
+        "claim_kind": "inference",
+        "textual_fact": "百岛SSS闭、抢龙SSS闭/群龙迁回、两王系统死；子舒封龙神、首批斩新龙骑、重排君王与戒款仍未发生。",
+        "observation": "系统奖励关闭局部行动，同时把新资源、未触发条件和关系承诺推向下一段，既给本卷完成感又保继续阅读的方向。",
+        "mechanism": "征岛任务用等级奖励与实运补给收束，转头以主替兄弟求龙骑接新目标；野域双王死/群龙迁回完成后，天界封神、一周点将和拍卖落槌仍各缺一个具体事件。",
+        "limits_and_counterevidence": "留下一步不等前任务失败：百岛SSS与抢龙SSS已完成；子舒受群龙效忠还不是正式龙神，千万叫价也不会自动代下章成交。",
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1173",
+            "start_line": 85604,
+            "end_line": 85660,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1175",
+            "start_line": 85729,
+            "end_line": 85795,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1178",
+            "start_line": 85952,
+            "end_line": 86042,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1179",
+            "start_line": 86043,
+            "end_line": 86110,
+            "claim_kind": "fact"
+          }
+        ],
+        "interpretation_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1173",
+            "start_line": 85604,
+            "end_line": 85660,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1175",
+            "start_line": 85729,
+            "end_line": 85795,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1178",
+            "start_line": 85952,
+            "end_line": 86042,
+            "claim_kind": "inference"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1179",
+            "start_line": 86043,
+            "end_line": 86110,
+            "claim_kind": "inference"
+          }
+        ],
+        "review_status": "draft"
+      },
+      "reason": "将研究操作口吻改为小说如何维持/削弱连续阅读的文学观察；事实证据逐值不动。"
+    },
+    {
+      "file": "cards.json",
+      "path": [
+        80
+      ],
+      "before": {
+        "asset_type": "scene",
+        "scope": "source-analysis",
+        "title": "武汉A袭主与两个C活擒",
+        "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/boost",
+        "tags": [
+          "作者:失落叶",
+          "作品:斩龙",
+          "卷5",
+          "待审阅"
+        ],
+        "content": {
+          "summary": "A破铠伤主后被踩头杀、北普通殖装尽杀但别地平民死/林唐伤。",
+          "goal": "保人并查技术源",
+          "obstacle": "跨地突袭/不同等级",
+          "choice": "分队应对与活口留存",
+          "consequence": "一A四B十七C/D等战报、两C活擒",
+          "state_change": "有局部证链无全局破案",
+          "why_it_works": "地域与见闻分账，强者无伤不盖平民死。",
+          "applicability": "威胁跨地域同时发生，现场主胜并不能覆盖远处警员和平民伤亡。",
+          "failure_mode": "二十七公司渗透线索不等源已确定。",
+          "characters_origin_keys": [
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/police",
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/shen",
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/linfather"
+          ],
+          "claim_kind": "inference",
+          "narrative_order": 1094
+        },
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1092",
+            "start_line": 79958,
+            "end_line": 80048,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1093",
+            "start_line": 80049,
+            "end_line": 80114,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1094",
+            "start_line": 80115,
+            "end_line": 80179,
+            "claim_kind": "fact"
+          }
+        ],
+        "user_notes": "",
+        "favorite": false,
+        "review_status": "draft"
+      },
+      "after": {
+        "asset_type": "scene",
+        "scope": "source-analysis",
+        "title": "武汉A袭主与两个C活擒",
+        "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/boost",
+        "tags": [
+          "作者:失落叶",
+          "作品:斩龙",
+          "卷5",
+          "待审阅"
+        ],
+        "content": {
+          "summary": "武汉同一商场北片普通持刀者被杭州小队击杀且当地平民无伤；李转南区援上海小队后亲见十余平民尸/唐林伤，A破甲伤李，最终两个C留活。",
+          "goal": "保人并查技术源",
+          "obstacle": "同一商场南北分区袭击/不同等级殖装人，北片成功不代表南片已安全。",
+          "choice": "先护北片平民，奉王信命令南援；以狙击和阳炎应战、留两C研究。",
+          "consequence": "一A四B十七C/D等战报、两C活擒",
+          "state_change": "有局部证链无全局破案",
+          "why_it_works": "用同一现场不同分区和小队损失对照，局部迅速制止袭击不能遮盖南区平民死亡与主本人的轻伤。",
+          "applicability": "同一现场有多分区和不同队伍应对，读者必须区分队伍归属城市与当时地理位置，局部成功不能覆盖另一片伤亡。",
+          "failure_mode": "上海是小队归属而非本场另一城市；北片普通持刀者并非殖装人，不能把主对北片无伤推广全场，技术源仍未查明。",
+          "characters_origin_keys": [
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/police",
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/shen",
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/linfather"
+          ],
+          "claim_kind": "inference",
+          "narrative_order": 1094
+        },
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1091",
+            "start_line": 79897,
+            "end_line": 79957,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1092",
+            "start_line": 79958,
+            "end_line": 80048,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1093",
+            "start_line": 80049,
+            "end_line": 80114,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1094",
+            "start_line": 80115,
+            "end_line": 80179,
+            "claim_kind": "fact"
+          }
+        ],
+        "user_notes": "",
+        "favorite": false,
+        "review_status": "draft"
+      },
+      "reason": "重新全文回读1091—94确认主现场武汉；原标题正确保留，原summary误把同场分区/小队籍属写跨地，逐字段纠正。"
+    },
+    {
+      "file": "graph.json",
+      "path": [
+        "nodes",
+        29
+      ],
+      "before": {
+        "id": "v05-s-boost",
+        "title": "武汉A袭主与两个C活擒",
+        "kind": "scene",
+        "parent_id": "v05-a-human",
+        "narrative_order": 1094,
+        "claim_kind": "inference",
+        "summary": "A破铠伤主后被踩头杀、北普通殖装尽杀但别地平民死/林唐伤。",
+        "state_change": "有局部证链无全局破案",
+        "asset_origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/boost",
+        "character_origin_keys": [
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/police",
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/shen",
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/linfather"
+        ],
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1092",
+            "start_line": 79958,
+            "end_line": 80048,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1093",
+            "start_line": 80049,
+            "end_line": 80114,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1094",
+            "start_line": 80115,
+            "end_line": 80179,
+            "claim_kind": "fact"
+          }
+        ],
+        "knowledge": [
+          {
+            "observer": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/police",
+            "state": "unknown",
+            "content": "二十七技术公司中的实际源头/完整上游尚未查定。",
+            "claim_kind": "inference",
+            "evidence": [
+              {
+                "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+                "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+                "chapter_id": "ch-1093",
+                "start_line": 80049,
+                "end_line": 80114,
+                "claim_kind": "inference"
+              },
+              {
+                "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+                "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+                "chapter_id": "ch-1094",
+                "start_line": 80115,
+                "end_line": 80179,
+                "claim_kind": "inference"
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "v05-s-boost",
+        "title": "武汉A袭主与两个C活擒",
+        "kind": "scene",
+        "parent_id": "v05-a-human",
+        "narrative_order": 1094,
+        "claim_kind": "inference",
+        "summary": "武汉同一商场北片普通持刀者被杭州小队击杀且当地平民无伤；李转南区援上海小队后亲见十余平民尸/唐林伤，A破甲伤李，最终两个C留活。",
+        "state_change": "有局部证链无全局破案",
+        "asset_origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/boost",
+        "character_origin_keys": [
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/police",
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/shen",
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/linfather"
+        ],
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1091",
+            "start_line": 79897,
+            "end_line": 79957,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1092",
+            "start_line": 79958,
+            "end_line": 80048,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1093",
+            "start_line": 80049,
+            "end_line": 80114,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1094",
+            "start_line": 80115,
+            "end_line": 80179,
+            "claim_kind": "fact"
+          }
+        ],
+        "knowledge": [
+          {
+            "observer": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/police",
+            "state": "unknown",
+            "content": "二十七技术公司中的实际源头/完整上游尚未查定。",
+            "claim_kind": "inference",
+            "evidence": [
+              {
+                "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+                "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+                "chapter_id": "ch-1093",
+                "start_line": 80049,
+                "end_line": 80114,
+                "claim_kind": "inference"
+              },
+              {
+                "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+                "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+                "chapter_id": "ch-1094",
+                "start_line": 80115,
+                "end_line": 80179,
+                "claim_kind": "inference"
+              }
+            ]
+          }
+        ]
+      },
+      "reason": "同步同场分区的summary及新增1091地点证据，不动关系和线程结论。"
+    },
+    {
+      "file": "cards.json",
+      "path": [
+        92
+      ],
+      "before": {
+        "asset_type": "scene",
+        "scope": "source-analysis",
+        "title": "神威试炮到运弹限制",
+        "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/cannon",
+        "tags": [
+          "作者:失落叶",
+          "作品:斩龙",
+          "卷5",
+          "待审阅"
+        ],
+        "content": {
+          "summary": "十门神威四万斤需二十人，95%纯晶才铸成，先移走猎人再实轰空山。",
+          "goal": "提高守城火力",
+          "obstacle": "材料纯度/搬运/弹药",
+          "choice": "主换晶持续送弹、试威力",
+          "consequence": "十门实用而非千门现成",
+          "state_change": "军需与战术进入下一战",
+          "why_it_works": "先验证一件，再用稀缺限制扩产。",
+          "applicability": "新武器只有少量材料与庞大运输负担，试炮、弹源与量产需求必须分开满足。",
+          "failure_mode": "千百毁铁颅愿景未成，2000/3000米源值另保。",
+          "characters_origin_keys": [
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/zishu",
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/han",
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/police"
+          ],
+          "claim_kind": "inference",
+          "narrative_order": 1170
+        },
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1133",
+            "start_line": 82947,
+            "end_line": 83009,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1134",
+            "start_line": 83010,
+            "end_line": 83073,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1135",
+            "start_line": 83074,
+            "end_line": 83127,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1145",
+            "start_line": 83731,
+            "end_line": 83798,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1170",
+            "start_line": 85430,
+            "end_line": 85492,
+            "claim_kind": "fact"
+          }
+        ],
+        "user_notes": "",
+        "favorite": false,
+        "review_status": "draft"
+      },
+      "after": {
+        "asset_type": "scene",
+        "scope": "source-analysis",
+        "title": "神威试炮到运弹限制",
+        "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/cannon",
+        "tags": [
+          "作者:失落叶",
+          "作品:斩龙",
+          "卷5",
+          "待审阅"
+        ],
+        "content": {
+          "summary": "十门神威四万斤需二十人，95%纯晶才铸成，先移走猎人再实轰空山。",
+          "goal": "提高守城火力",
+          "obstacle": "材料纯度/搬运/弹药",
+          "choice": "主换晶持续送弹、试威力",
+          "consequence": "十门实用而非千门现成",
+          "state_change": "军需与战术进入下一战",
+          "why_it_works": "先验证一件，再用稀缺限制扩产。",
+          "applicability": "新武器只有少量材料与庞大运输负担，试炮、弹源与量产需求必须分开满足。",
+          "failure_mode": "千百毁铁颅愿景未成，2000/3000米源值另保。",
+          "characters_origin_keys": [
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/zishu",
+            "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/han"
+          ],
+          "claim_kind": "inference",
+          "narrative_order": 1170
+        },
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1133",
+            "start_line": 82947,
+            "end_line": 83009,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1134",
+            "start_line": 83010,
+            "end_line": 83073,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1135",
+            "start_line": 83074,
+            "end_line": 83127,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1145",
+            "start_line": 83731,
+            "end_line": 83798,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1170",
+            "start_line": 85430,
+            "end_line": 85492,
+            "claim_kind": "fact"
+          }
+        ],
+        "user_notes": "",
+        "favorite": false,
+        "review_status": "draft"
+      },
+      "reason": "游戏神威炮场没有现实王信参与，只撤其人物关系引用，其他字段不动。"
+    },
+    {
+      "file": "graph.json",
+      "path": [
+        "nodes",
+        47
+      ],
+      "before": {
+        "id": "v05-s-cannon",
+        "title": "神威试炮到运弹限制",
+        "kind": "scene",
+        "parent_id": "v05-a-revenge",
+        "narrative_order": 1170,
+        "claim_kind": "inference",
+        "summary": "十门神威四万斤需二十人，95%纯晶才铸成，先移走猎人再实轰空山。",
+        "state_change": "军需与战术进入下一战",
+        "asset_origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/cannon",
+        "character_origin_keys": [
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/zishu",
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/han",
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/police"
+        ],
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1133",
+            "start_line": 82947,
+            "end_line": 83009,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1134",
+            "start_line": 83010,
+            "end_line": 83073,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1135",
+            "start_line": 83074,
+            "end_line": 83127,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1145",
+            "start_line": 83731,
+            "end_line": 83798,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1170",
+            "start_line": 85430,
+            "end_line": 85492,
+            "claim_kind": "fact"
+          }
+        ],
+        "knowledge": []
+      },
+      "after": {
+        "id": "v05-s-cannon",
+        "title": "神威试炮到运弹限制",
+        "kind": "scene",
+        "parent_id": "v05-a-revenge",
+        "narrative_order": 1170,
+        "claim_kind": "inference",
+        "summary": "十门神威四万斤需二十人，95%纯晶才铸成，先移走猎人再实轰空山。",
+        "state_change": "军需与战术进入下一战",
+        "asset_origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/cannon",
+        "character_origin_keys": [
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/zishu",
+          "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/han"
+        ],
+        "evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1133",
+            "start_line": 82947,
+            "end_line": 83009,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1134",
+            "start_line": 83010,
+            "end_line": 83073,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1135",
+            "start_line": 83074,
+            "end_line": 83127,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1145",
+            "start_line": 83731,
+            "end_line": 83798,
+            "claim_kind": "fact"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1170",
+            "start_line": 85430,
+            "end_line": 85492,
+            "claim_kind": "fact"
+          }
+        ],
+        "knowledge": []
+      },
+      "reason": "同步移除炮场节点的王信引用。"
+    },
+    {
+      "file": "analysis.json",
+      "path": [
+        "named_life_state_audit",
+        12,
+        "name"
+      ],
+      "before": "日本五A",
+      "after": "五名A级袭击者（其中一名日本活口已核）",
+      "reason": "只一人日本国籍被核，四死者国籍未明；state与证据不改。"
+    }
+  ],
+  "unchanged": "原四栏notes/read-log/reader-state不动；连续性五项事实/证据不动；除列明对象外其他核心内容逐值不动。",
+  "recheck": "raw1091—1094本次再次BEGIN-END完整亲读，无截断；王信现实人物不得放入游戏炮场。",
+  "user_approval": false
+}

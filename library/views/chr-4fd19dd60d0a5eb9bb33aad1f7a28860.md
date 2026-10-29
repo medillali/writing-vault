@@ -1,0 +1,149 @@
+# 绿龙骑士蒂雅
+
+ID: `chr-4fd19dd60d0a5eb9bb33aad1f7a28860` · 版本: 1 · 范围: source-analysis
+
+为卡琳珊作战、伤后恢复并侦察九龙；552已真实骑绿龙进出八层并报告，非BOSS；五骑受伤不等全死，新城援军一开始未到不能提前算全程在。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-4fd19dd60d0a5eb9bb33aad1f7a28860",
+  "asset_type": "character",
+  "content": {
+    "constraints": "风暴龙/蜥毒、战中再伤，治疗并非永不受伤",
+    "decisions": "先给任务试炼/破魔/三巫毒，陆交龙血后起飞；寒刃重伤接受巫师治后再飞、九龙奉命侦察",
+    "goal": "为卡琳珊作战、伤后恢复并侦察九龙",
+    "interpretation": "能力、角色自述、阶段限制和实际行为分开；不把叙述赞美或玩家估计当全知结论。",
+    "relationships": [
+      {
+        "direction": "先试炼授有限工具、后受其取血治疗",
+        "target_origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol03/character/lu"
+      },
+      {
+        "direction": "五骑所属，奉令侦察九龙",
+        "target_origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol03/character/karin"
+      }
+    ],
+    "source_boundary": "本卷亲读raw0229—0606；早期身份仅作同书衔接，不倒灌后卷或纵横。",
+    "stage_change": "552已真实骑绿龙进出八层并报告，非BOSS；五骑受伤不等全死，新城援军一开始未到不能提前算全程在。",
+    "summary": "为卡琳珊作战、伤后恢复并侦察九龙；552已真实骑绿龙进出八层并报告，非BOSS；五骑受伤不等全死，新城援军一开始未到不能提前算全程在。"
+  },
+  "created_at": "2026-10-24T23:04:52.473880+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0462",
+      "claim_kind": "fact",
+      "end_line": 41535,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 41465
+    },
+    {
+      "chapter_id": "ch-0464",
+      "claim_kind": "fact",
+      "end_line": 41689,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 41612
+    },
+    {
+      "chapter_id": "ch-0465",
+      "claim_kind": "fact",
+      "end_line": 41767,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 41690
+    },
+    {
+      "chapter_id": "ch-0466",
+      "claim_kind": "fact",
+      "end_line": 41851,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 41768
+    },
+    {
+      "chapter_id": "ch-0467",
+      "claim_kind": "fact",
+      "end_line": 41926,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 41852
+    },
+    {
+      "chapter_id": "ch-0468",
+      "claim_kind": "fact",
+      "end_line": 42019,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 41927
+    },
+    {
+      "chapter_id": "ch-0469",
+      "claim_kind": "fact",
+      "end_line": 42097,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 42020
+    },
+    {
+      "chapter_id": "ch-0475",
+      "claim_kind": "fact",
+      "end_line": 42505,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 42443
+    },
+    {
+      "chapter_id": "ch-0497",
+      "claim_kind": "fact",
+      "end_line": 44127,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 44047
+    },
+    {
+      "chapter_id": "ch-0499",
+      "claim_kind": "fact",
+      "end_line": 44267,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 44197
+    },
+    {
+      "chapter_id": "ch-0500",
+      "claim_kind": "fact",
+      "end_line": 44345,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 44268
+    },
+    {
+      "chapter_id": "ch-0552",
+      "claim_kind": "fact",
+      "end_line": 48243,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 48169
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol03/character/tiya",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:3",
+    "状态:待审阅"
+  ],
+  "title": "绿龙骑士蒂雅",
+  "updated_at": "2026-10-24T23:04:52.473880+00:00",
+  "user_notes": ""
+}
+
+```

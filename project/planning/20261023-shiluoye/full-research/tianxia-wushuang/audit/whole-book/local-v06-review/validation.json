@@ -1,0 +1,192 @@
+{
+  "status": "passed",
+  "scope": "旧卷六657稳定本地原子项；结构与来源校验，不替代root语义主审",
+  "candidate_count": 657,
+  "by_status": {
+    "answered": 400,
+    "unknown": 134,
+    "partial": 109,
+    "unrecovered": 14
+  },
+  "batch_count": 11,
+  "evidence_refs_with_repeats": 2217,
+  "all_ids_exactly_once": true,
+  "freeze_id_order_matches": true,
+  "all_original_fields_preserved": true,
+  "live_pool_originals_unchanged": true,
+  "complete_candidate_record_reads": 657,
+  "truncated_pending": false,
+  "complete_derived_notes_logged": 282,
+  "source_sha256": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+  "assigned_snapshot_sha256": "e86f16f7eb9a5e728502ee1bf57e002670b131e4ad80fd49d8f45dbc0ba46d30",
+  "assigned_ids_sha256": "0fc7d0d0bc628c6f28840493f852c24bb593b2234c913137b6ff34e3cbf02476",
+  "candidate_freeze_sha256": "830b75b5d6e041433d432e88615d0227b29997a012dddd82d409d1f4750aeb9f",
+  "pool_sha256_current": "1f2d45556512c1fefe9b0534644797f01677593477c4cfaf9a8d10a7d7f21bb4",
+  "input_read_log_sha256": "38e00c4d28511078f90b880b436dc3409882b3f7b3d5621ac0d0634832ad8a41",
+  "reader_attribution": "本审阅者实际原读卷六raw1059—1233共175片；primary原读1234—1293共60片，本人已完整逐条读其尾段notes并在原卷六构建时保归属。本次再读正式卷六接口与必要后证，不冒一人全卷/全书原文重读。",
+  "primary_review_status": "独立由root逐项签，见primary-audit-review-progress；本脚本不伪填已审",
+  "batches": [
+    {
+      "path": "adjudications-local-v06-part01.json",
+      "markdown_path": "adjudications-local-v06-part01.md",
+      "count": 60,
+      "by_status": {
+        "answered": 24,
+        "unknown": 22,
+        "partial": 11,
+        "unrecovered": 3
+      },
+      "sha256": "d845c7a048742400dff9fcc126f7b5658c6a42a8866d56513a0d8f65a62fc9b9",
+      "markdown_sha256": "353bdd12f00993e8256d6003ba1bc26880443783fd0d125a346fb419c661fd0d"
+    },
+    {
+      "path": "adjudications-local-v06-part02.json",
+      "markdown_path": "adjudications-local-v06-part02.md",
+      "count": 60,
+      "by_status": {
+        "answered": 39,
+        "unknown": 11,
+        "partial": 10
+      },
+      "sha256": "32cd93ec2e8ee2591b0db18a127826cdc412cd288017cc31e0f24a83f28ef226",
+      "markdown_sha256": "44c39a4365ed79ddf512e49b9c30f9ae39834baf9c37e0b21f13f7a08114bd09"
+    },
+    {
+      "path": "adjudications-local-v06-part03.json",
+      "markdown_path": "adjudications-local-v06-part03.md",
+      "count": 60,
+      "by_status": {
+        "answered": 40,
+        "unknown": 8,
+        "partial": 12
+      },
+      "sha256": "95c0ce3a2b971a31b98b06fb97cfb8b6842ae05492c17726790ce864d560a731",
+      "markdown_sha256": "547a743733e722cc699aba576c4505ee61553ab19391bdfafca06fb6734cd7f0"
+    },
+    {
+      "path": "adjudications-local-v06-part04.json",
+      "markdown_path": "adjudications-local-v06-part04.md",
+      "count": 60,
+      "by_status": {
+        "unknown": 14,
+        "answered": 36,
+        "partial": 9,
+        "unrecovered": 1
+      },
+      "sha256": "0bd7c23e7ecd4d845556083bef8b55a07092c6ca8921b729598e0185e91f1d56",
+      "markdown_sha256": "764313d296fc296036523d11e2896d56486f7e3b53d41cfa667df14f66e33a2f"
+    },
+    {
+      "path": "adjudications-local-v06-part05.json",
+      "markdown_path": "adjudications-local-v06-part05.md",
+      "count": 60,
+      "by_status": {
+        "partial": 10,
+        "answered": 37,
+        "unknown": 12,
+        "unrecovered": 1
+      },
+      "sha256": "41c52d10843144b0b5365466dd1f48b2bfd1917a85c78c8ce65b28a5424d0315",
+      "markdown_sha256": "74758e7846bd0d4679ae57cdc34b56a5de6545edbb3e9a996d27e37ffe1957e0"
+    },
+    {
+      "path": "adjudications-local-v06-part06.json",
+      "markdown_path": "adjudications-local-v06-part06.md",
+      "count": 60,
+      "by_status": {
+        "answered": 38,
+        "partial": 13,
+        "unknown": 7,
+        "unrecovered": 2
+      },
+      "sha256": "9dab082cae4a59c2bcecdb43faa9136126c3c0b2e41bdd1038a9e7be49f56db8",
+      "markdown_sha256": "3c02258920a7456da287790120074aeecab455bad1e6389aecdef3f598ed580c"
+    },
+    {
+      "path": "adjudications-local-v06-part07.json",
+      "markdown_path": "adjudications-local-v06-part07.md",
+      "count": 60,
+      "by_status": {
+        "answered": 38,
+        "unknown": 13,
+        "partial": 7,
+        "unrecovered": 2
+      },
+      "sha256": "b922769dd8cc634b8c50242a0001e76f3ba523b3fbbcda13b912db707afcecb3",
+      "markdown_sha256": "da6570309fcb68c8d38d5a44b22db23d476ca89794ea1ff34c1d214b6899675b"
+    },
+    {
+      "path": "adjudications-local-v06-part08.json",
+      "markdown_path": "adjudications-local-v06-part08.md",
+      "count": 60,
+      "by_status": {
+        "unknown": 10,
+        "answered": 44,
+        "partial": 4,
+        "unrecovered": 2
+      },
+      "sha256": "10749374f6fdc2b98d40326c76b4f915bae8246f82b8b15a1049934a7ed59169",
+      "markdown_sha256": "40b810d75436f1c902c97202f0b8cea15add20d73c2a3877f1334215da4f9b10"
+    },
+    {
+      "path": "adjudications-local-v06-part09.json",
+      "markdown_path": "adjudications-local-v06-part09.md",
+      "count": 60,
+      "by_status": {
+        "unknown": 19,
+        "answered": 35,
+        "partial": 5,
+        "unrecovered": 1
+      },
+      "sha256": "4caa2b5a57bb4c39d45b30a432399cccb0e345856350745d89c1721028cafb28",
+      "markdown_sha256": "7888bc9ecab50674bfc44f7612dc12074f3c41b9110807e2eb25b54f6aa5951c"
+    },
+    {
+      "path": "adjudications-local-v06-part10.json",
+      "markdown_path": "adjudications-local-v06-part10.md",
+      "count": 60,
+      "by_status": {
+        "answered": 40,
+        "unknown": 6,
+        "partial": 12,
+        "unrecovered": 2
+      },
+      "sha256": "eae8884e034a0874b825c52f89e49165e1959d37e10f534cb4939a95dc01f141",
+      "markdown_sha256": "6afeb20950ffb61a175b0199b93bfc0834e37b889ebf4400660a7a12302d6b6a"
+    },
+    {
+      "path": "adjudications-local-v06-part11.json",
+      "markdown_path": "adjudications-local-v06-part11.md",
+      "count": 57,
+      "by_status": {
+        "partial": 16,
+        "unknown": 12,
+        "answered": 29
+      },
+      "sha256": "bf19304c230d952d85136fd960b3ba90b90e79bc3e04268fb1b6c36684c523f9",
+      "markdown_sha256": "28bd01897ed58acc54e2bcf101cf3ea7282590ae49edb0f35ea0f95d268ee755"
+    }
+  ],
+  "deltas": [
+    "part08-sky-return-delta.json",
+    "part10-agency-delta.json",
+    "same-name-identity-merged-delta.json"
+  ],
+  "post_approval_identity_revision": {
+    "candidate_ids": [
+      "v06-local-issue_log-001-01",
+      "v06-local-chapter_unresolved_index-151-02"
+    ],
+    "status": "semantic-change-approved-new-batch-sha-pending-primary-resign",
+    "delta_path": "same-name-identity-merged-delta.json",
+    "delta_sha256": "8d5edaef2345e5cdb15c971a22620ee37f8bf3c434dfee93375cc940d1bc649f",
+    "source_check_sha256": "02413ba1d10e8b9cd6f6a54742c0bb2ef4989dfab21d188b08af594028338efb",
+    "revised_scan_sha256": "2ea011849a9c4393b6db7d9cfd91208319c3b2b7802c10b79cc0442c583504d6",
+    "source_raw_chapters_reread": [
+      1098,
+      1209
+    ],
+    "original_reading_log_unchanged": true,
+    "error_class": "derived-research-entity-misattribution-not-source-anomaly"
+  }
+}

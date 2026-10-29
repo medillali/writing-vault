@@ -1,0 +1,146 @@
+# 贼胆｜蜗牛｜E0087
+
+ID: `chr-zeidan-legacy-e0087` · 版本: 1 · 范围: source-analysis
+
+第一次为救盾战路过，因自己任务离开，使用双枪双匕与持续伤害启发萧御。；第二次预制36剂标记之尘，以高敏低血装备和沾粉掩饰制造追踪优势。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0087",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "causal_importance": "两次战斗推动构筑升级",
+    "desires": [
+      "猎杀乐趣",
+      "高手对抗"
+    ],
+    "facts": [
+      "第一次为救盾战路过，因自己任务离开，使用双枪双匕与持续伤害启发萧御。",
+      "第二次预制36剂标记之尘，以高敏低血装备和沾粉掩饰制造追踪优势。",
+      "被萧去粉、糖果移粉误导后联合击杀，掉史诗匿迹肩，锁定被偷。",
+      "龙岩呼叫哥哥与其到场相接，兄弟身份只有强暗示，本段未直证。"
+    ],
+    "identity": "享受阴影战斗的精灵盗贼高手",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0087",
+    "limits": [
+      "低生命代价",
+      "嗅觉/标记策略被识破"
+    ],
+    "maintenance_depth": "高",
+    "name": "蜗牛",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0087",
+    "relationships": [
+      "萧御：对手与技术参照",
+      "龙岩：兄长候选，非确证"
+    ],
+    "summary": "第一次为救盾战路过，因自己任务离开，使用双枪双匕与持续伤害启发萧御。；第二次预制36剂标记之尘，以高敏低血装备和沾粉掩饰制造追踪优势。",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:12.496557+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0238",
+      "claim_kind": "fact",
+      "end_line": 12209,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 12140
+    },
+    {
+      "chapter_id": "ch-0239",
+      "claim_kind": "fact",
+      "end_line": 12282,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 12210
+    },
+    {
+      "chapter_id": "ch-0240",
+      "claim_kind": "fact",
+      "end_line": 12357,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 12283
+    },
+    {
+      "chapter_id": "ch-0273",
+      "claim_kind": "fact",
+      "end_line": 14633,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14569
+    },
+    {
+      "chapter_id": "ch-0275",
+      "claim_kind": "fact",
+      "end_line": 14755,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14692
+    },
+    {
+      "chapter_id": "ch-0276",
+      "claim_kind": "fact",
+      "end_line": 14799,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14756
+    },
+    {
+      "chapter_id": "ch-0277",
+      "claim_kind": "fact",
+      "end_line": 14853,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14800
+    },
+    {
+      "chapter_id": "ch-0279",
+      "claim_kind": "fact",
+      "end_line": 14979,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14922
+    },
+    {
+      "chapter_id": "ch-0280",
+      "claim_kind": "fact",
+      "end_line": 15043,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14980
+    },
+    {
+      "chapter_id": "ch-0281",
+      "claim_kind": "fact",
+      "end_line": 15092,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 15044
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0087",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜蜗牛｜E0087",
+  "updated_at": "2026-10-22T17:03:12.506557+00:00",
+  "user_notes": ""
+}
+
+```

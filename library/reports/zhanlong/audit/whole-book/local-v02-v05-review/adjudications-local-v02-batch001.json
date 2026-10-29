@@ -1,0 +1,1285 @@
+[
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0001-01",
+    "volume": 2,
+    "title": "饮血层数154→147回跳及装备攻/主总buff混算。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 0,
+    "atomic_index": 0,
+    "original_record_sha256": "f16378ff5a279f0ea4fb89b1432093ec7680a2af010d7eff2481c05914a3a758",
+    "status": "partial",
+    "audit_domain": "source-anomaly",
+    "rationale": "286明记154层，287同场先154后解释147，未给扣层动作，仍为源值跳变；309系统另把原无限饮血改为50%上限，443龙池进化后列100层，这是明确后改，不能倒作287减七层原因。303新装主总属性也不是秦王剑单项增幅。",
+    "later_chapters": [
+      258,
+      286,
+      287,
+      303,
+      309,
+      443
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0258",
+        "start_line": 22422,
+        "end_line": 22529,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0286",
+        "start_line": 24599,
+        "end_line": 24667,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0287",
+        "start_line": 24668,
+        "end_line": 24742,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0303",
+        "start_line": 25940,
+        "end_line": 26061,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0309",
+        "start_line": 26465,
+        "end_line": 26533,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0443",
+        "start_line": 36875,
+        "end_line": 36960,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0001-02",
+    "volume": 2,
+    "title": "保当时面板与自算，不建无证掉层机制。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 0,
+    "atomic_index": 1,
+    "original_record_sha256": "aad5521205be8890c460852fd83048e340a7649b1362d939da8f5390993c0cd7",
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "单件饮血、全身装备和BUFF合计已分清：309主自算111%含装备/被动/诗/饮血，不能全部记剑层数；287回跳没有扣层说明，记录154与147并存，309封顶与443进化分别记实际版本。本项关闭的是记录约束，非回跳谜底已揭。",
+    "later_chapters": [
+      287,
+      303,
+      309,
+      443
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0287",
+        "start_line": 24668,
+        "end_line": 24742,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0303",
+        "start_line": 25940,
+        "end_line": 26061,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0309",
+        "start_line": 26465,
+        "end_line": 26533,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0443",
+        "start_line": 36875,
+        "end_line": 36960,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0002-01",
+    "volume": 2,
+    "title": "五级会容量7000/10000、二盟三级900/1000等源不齐。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 1,
+    "atomic_index": 0,
+    "original_record_sha256": "6efb79e9663ce04488f75a00a20a2da9c64dfa3e337aa881245fbc44f37a9e23",
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "399同章五级7000与万人说法、396二盟三级900等仍缺统一容量公式；422的主盟实有4000和428满一万只证后时实际人数，不能判早说7000是已说明的版本改动。最终组织更大也不补这次口径差的原因。",
+    "later_chapters": [
+      291,
+      396,
+      399,
+      422,
+      428
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0291",
+        "start_line": 24991,
+        "end_line": 25068,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0396",
+        "start_line": 33216,
+        "end_line": 33285,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0399",
+        "start_line": 33408,
+        "end_line": 33470,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0422",
+        "start_line": 35144,
+        "end_line": 35206,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0428",
+        "start_line": 35585,
+        "end_line": 35663,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0002-02",
+    "volume": 2,
+    "title": "422主盟4000/428万满是后证，不反填早数。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 1,
+    "atomic_index": 1,
+    "original_record_sha256": "f01e996e9c6f8806842a0c3d168780ac85f4bc784011b3aabecba6cc51f525be",
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "422主盟4000是该时实有数，428明确万满并给四转214/均级77.3；二者先后并不互斥。保留后时扩张结果，同时不拿满员实录重写396/399的早期等级容量异文。",
+    "later_chapters": [
+      396,
+      399,
+      422,
+      428
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0396",
+        "start_line": 33216,
+        "end_line": 33285,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0399",
+        "start_line": 33408,
+        "end_line": 33470,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0422",
+        "start_line": 35144,
+        "end_line": 35206,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0428",
+        "start_line": 35585,
+        "end_line": 35663,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0003-01",
+    "volume": 2,
+    "title": "补兵1500+900+1600口称3000、战报人数/时长有差。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 2,
+    "atomic_index": 0,
+    "original_record_sha256": "4376e14670d1fd2153c1c9b49d8d4430fbbbbe2bc5105bd815dcbf31d322a8ad",
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "396口述1500、900、1600相加4000却概称3000，未给少去千人的动作；395/403/404又分别是战报、在场和不同时点时长，未给能重算统一总体的清账。八荒最终获胜不能修复这些数字本身。",
+    "later_chapters": [
+      395,
+      396,
+      403,
+      404,
+      416
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0395",
+        "start_line": 33154,
+        "end_line": 33215,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0396",
+        "start_line": 33216,
+        "end_line": 33285,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0403",
+        "start_line": 33681,
+        "end_line": 33752,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0404",
+        "start_line": 33753,
+        "end_line": 33830,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0416",
+        "start_line": 34694,
+        "end_line": 34781,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0003-02",
+    "volume": 2,
+    "title": "逐报告主体和阶段存，不造统一精确分母。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 2,
+    "atomic_index": 1,
+    "original_record_sha256": "f4f069a5d27e91da1131756aa85aa8448011751e91ea7ced88e8be08d01d5d32",
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "395歼敌/己损是战报，396补充是三部分人数，403/404是战斗中不同阶段存量与计时；不能把它们当同刻同分母相减求精确阵亡率。保留各报告主体、时点与原加总差，记录约束可关闭。",
+    "later_chapters": [
+      395,
+      396,
+      403,
+      404
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0395",
+        "start_line": 33154,
+        "end_line": 33215,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0396",
+        "start_line": 33216,
+        "end_line": 33285,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0403",
+        "start_line": 33681,
+        "end_line": 33752,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0404",
+        "start_line": 33753,
+        "end_line": 33830,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0004-01",
+    "volume": 2,
+    "title": "惊天书低血自触与被控全灰不能用并存。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 3,
+    "atomic_index": 0,
+    "original_record_sha256": "8113f3ebc6a107728b5ecc5ed012b117d7871c222a194bb769503328a6a89eb2",
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "284书面为低于20%触发七秒免攻/CD刷新，337冉本人却说浮空全灰不能用，且禁魔再败；407又实有自动抗死、408七秒后仍被杀。303原引用并无该技能条目，精确张力应定位284/337。未见解释自动触发为何受这些前置控制阻断的补丁。",
+    "later_chapters": [
+      284,
+      294,
+      299,
+      337,
+      407,
+      408,
+      575
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0284",
+        "start_line": 24445,
+        "end_line": 24528,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0294",
+        "start_line": 25224,
+        "end_line": 25295,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0299",
+        "start_line": 25597,
+        "end_line": 25684,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0337",
+        "start_line": 28722,
+        "end_line": 28807,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0407",
+        "start_line": 34011,
+        "end_line": 34092,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0408",
+        "start_line": 34093,
+        "end_line": 34179,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0575",
+        "start_line": 46191,
+        "end_line": 46272,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol03-chapter-notes.jsonl",
+        "material_sha256": "c38395d6a665f189de112f74eeb028c52583586bcf417cc3c816ff606bcd2e20",
+        "source_reader": "zongheng_vol05_full"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0004-02",
+    "volume": 2,
+    "title": "保触发情境，不统一成永久自动免控保命。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 3,
+    "atomic_index": 1,
+    "original_record_sha256": "d3b3ae5a24608fcbf2396bdf08c69bd49147aa30fec12b5da04b176241943634",
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "惊天逆不等永久免控保命：294刷新反击成功，299七秒过而未跳退即死，337浮空/禁魔令冉无法用，408也在短窗后阵亡。以各场触发与失败结果记录，不用低血条目抹掉实战反例；303不再作为技能条目定位。",
+    "later_chapters": [
+      284,
+      294,
+      299,
+      337,
+      407,
+      408
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0284",
+        "start_line": 24445,
+        "end_line": 24528,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0294",
+        "start_line": 25224,
+        "end_line": 25295,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0299",
+        "start_line": 25597,
+        "end_line": 25684,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0337",
+        "start_line": 28722,
+        "end_line": 28807,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "/root/zongheng_vol04_full"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0407",
+        "start_line": 34011,
+        "end_line": 34092,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0408",
+        "start_line": 34093,
+        "end_line": 34179,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0005-01",
+    "volume": 2,
+    "title": "406L33984火犁膝撞火犁同句主客误写。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 4,
+    "atomic_index": 0,
+    "original_record_sha256": "da8d1f6eaaee9b314e76ef62a8d881014f135a4576461a08f4d7504733cd12e2",
+    "status": "answered",
+    "audit_domain": "source-anomaly",
+    "rationale": "406同句把火犁写成膝撞火犁，但前后是火犁格住罗林剑、击碎佩剑并重伤罗林，随后流霜救援；可判该句主客称谓异常，不能生成一次自伤技能。此闭合是上下文消歧，非作者后文另发勘误。",
+    "later_chapters": [
+      406,
+      407
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0406",
+        "start_line": 33927,
+        "end_line": 34010,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0407",
+        "start_line": 34011,
+        "end_line": 34092,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0005-02",
+    "volume": 2,
+    "title": "上下文罗林受击，不造火犁自伤招。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 4,
+    "atomic_index": 1,
+    "original_record_sha256": "7a21b41665eac28b338fbd396c6d67fa0bc76b10d0754c4a48022cef8018b52a",
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "罗林受击/流霜接战构成连续动作，按406—407保罗林重伤而非火犁自击；火犁已有受罗林攻击伤势另记，不能拿那处伤反证膝撞自己。原句留存且解释优先。",
+    "later_chapters": [
+      406,
+      407
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0406",
+        "start_line": 33927,
+        "end_line": 34010,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0407",
+        "start_line": 34011,
+        "end_line": 34092,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0006-01",
+    "volume": 2,
+    "title": "410噬灵骑全焚后416又口称含噬灵3000余。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 5,
+    "atomic_index": 0,
+    "original_record_sha256": "24b5833ebcea524458b7471ee68119448f526760dbe216d2f78a50eeb5cb23bc",
+    "status": "partial",
+    "audit_domain": "source-anomaly",
+    "rationale": "408确出1000噬灵，410写全焚，416又把噬灵列入3000余军；429八荒普通军恢复80%是独立后态，未逐种重报噬灵复原人数。城与普通军恢复有证，噬灵由全焚到再列军中的具体机制仍未明。",
+    "later_chapters": [
+      408,
+      410,
+      416,
+      429
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0408",
+        "start_line": 34093,
+        "end_line": 34179,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0410",
+        "start_line": 34267,
+        "end_line": 34328,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0416",
+        "start_line": 34694,
+        "end_line": 34781,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0429",
+        "start_line": 35664,
+        "end_line": 35736,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0006-02",
+    "volume": 2,
+    "title": "保当时两说，不因429普通80%复原自行指定噬灵已全恢复。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 5,
+    "atomic_index": 1,
+    "original_record_sha256": "3009494fb3449a614dd4523b44c081dbe3ab56cbb11f45e90c6b3f9b5dd659b0",
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "80%军力恢复是429的后时叙述，408则仅主事前预期；均不能替噬灵填满编复活或永久灭绝。将410全焚、416再被提及与429总体恢复分账，保具体兵种数量未知。",
+    "later_chapters": [
+      408,
+      410,
+      416,
+      429
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0408",
+        "start_line": 34093,
+        "end_line": 34179,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0410",
+        "start_line": 34267,
+        "end_line": 34328,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0416",
+        "start_line": 34694,
+        "end_line": 34781,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0429",
+        "start_line": 35664,
+        "end_line": 35736,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0007-01",
+    "volume": 2,
+    "title": "利刃空旋419/420条30秒而422称60。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 6,
+    "atomic_index": 0,
+    "original_record_sha256": "9a36abaa4ff49dc8db802676a860d625b362f091d30ca93c2dbd9bcb3428c264",
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "419条目为30秒，420练用延续该技能，422口述变60秒；没有配套改冷却的学习、装备或补丁说明。可确认已学与实用，不能据后章单句倒改最初条目或自行补升级增加冷却。",
+    "later_chapters": [
+      419,
+      420,
+      422
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0419",
+        "start_line": 34932,
+        "end_line": 35004,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0420",
+        "start_line": 35005,
+        "end_line": 35073,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0422",
+        "start_line": 35144,
+        "end_line": 35206,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0007-02",
+    "volume": 2,
+    "title": "没有明确补丁解释，各时点保留。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 6,
+    "atomic_index": 1,
+    "original_record_sha256": "2cb15ec2987bd6fc49880d6af073b1f17eb57bdffa29d8962f05fad1003b6fb4",
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "技能获得与使用成立，冷却则保419面板30秒和422口述60秒各自来源；未有明确变更桥不建统一版本。这是数字适用边界闭合，不表示30/60矛盾获得故事解释。",
+    "later_chapters": [
+      419,
+      420,
+      422
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0419",
+        "start_line": 34932,
+        "end_line": 35004,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0420",
+        "start_line": 35005,
+        "end_line": 35073,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0422",
+        "start_line": 35144,
+        "end_line": 35206,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0008-01",
+    "volume": 2,
+    "title": "443魅157/167及此前180等记数/武器口语84对需85。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 7,
+    "atomic_index": 0,
+    "original_record_sha256": "10303870df532cba4b03a272cc24100889134c10442085b9e4165092e851b742",
+    "status": "partial",
+    "audit_domain": "source-anomaly",
+    "rationale": "415魅180、419学技扣30、443又有157/167及口语84与需求85等不齐；443实际85并已装备秦王剑的现场结果明确，但无法把所有魅差由已知加减完整闭账，也没有补一个未写升级的根据。",
+    "later_chapters": [
+      415,
+      419,
+      443
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0415",
+        "start_line": 34617,
+        "end_line": 34693,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0419",
+        "start_line": 34932,
+        "end_line": 35004,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0443",
+        "start_line": 36875,
+        "end_line": 36960,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0008-02",
+    "volume": 2,
+    "title": "系统与面板保当前实际85已装，不补新加减事件。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 7,
+    "atomic_index": 1,
+    "original_record_sha256": "defc45a19fb0b25f9009cedf375ba71d4256c845c889f9bf44e41b787a4d34c0",
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "443系统/面板与实际穿装确定当时85已可用，口语84不另造越级穿装机制；魅157/167并列保留，不补隐形奖励或扣款解释此前180。闭合的是当前装备可用事实与记录约束。",
+    "later_chapters": [
+      415,
+      419,
+      443
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0415",
+        "start_line": 34617,
+        "end_line": 34693,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0419",
+        "start_line": 34932,
+        "end_line": 35004,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0443",
+        "start_line": 36875,
+        "end_line": 36960,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0009-01",
+    "volume": 2,
+    "title": "刀170万+锤160万/十份应33万，林回话33.5万。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 8,
+    "atomic_index": 0,
+    "original_record_sha256": "ef845104b0150cbb9f110f3b8e359af6b39d6029dd4d69b44bc0a0f554035a63",
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "445刀170万、锤160万是真成交，十等分算得33万而林回话33.5万；同章确有分款但没有额外5万来源或手续费说明。后续别场拍卖税不能迁来补此次算差。",
+    "later_chapters": [
+      445
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0445",
+        "start_line": 37031,
+        "end_line": 37097,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0009-02",
+    "volume": 2,
+    "title": "实际成交/分款保，源算差不静改不自造手续费补差。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 8,
+    "atomic_index": 1,
+    "original_record_sha256": "ce612c9ec447f6665f90bdd5542ca9fa914b25674bfa4dc83ce6af6ae06cc7d9",
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "445成交与向九人分款实际发生，不因330万/十与33.5万不齐就改成未付款；也不擅改为33万或假设税费填差。金额原话与算术差分别保留。",
+    "later_chapters": [
+      445
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0445",
+        "start_line": 37031,
+        "end_line": 37097,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0010-01",
+    "volume": 2,
+    "title": "青龙44180%与45590%主攻口径差。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 9,
+    "atomic_index": 0,
+    "original_record_sha256": "cf556ce951e20c63271244594cd2fad0d07ab72d1174b7850cf8b3634df3a310",
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "441青龙连弩条目取主攻击80%，455口称90%，没有学习升级/配件变更说明。此后可继续存在器械战，但不能以成长惯例补出这10%的未写变化。",
+    "later_chapters": [
+      441,
+      455
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0441",
+        "start_line": 36664,
+        "end_line": 36760,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0455",
+        "start_line": 37681,
+        "end_line": 37729,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  },
+  {
+    "candidate_id": "v02-local-unresolved_and_anomalies-0010-02",
+    "volume": 2,
+    "title": "无升级解释，不私改为技能成长造成。",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 9,
+    "atomic_index": 1,
+    "original_record_sha256": "db10df0a8464b7e93bbd59f686dac5b0ba2a6fa61f41bba5cac156099cdc35dd",
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "青龙连弩的攻击取值按441面板80%与455口述90%保留；50张符重造与器械可毁是另有证规则，不足推出百分比自动成长。不补未写机制的记录要求已落实。",
+    "later_chapters": [
+      441,
+      455
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0441",
+        "start_line": 36664,
+        "end_line": 36760,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0455",
+        "start_line": 37681,
+        "end_line": 37729,
+        "claim_kind": "fact",
+        "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+        "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+        "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+        "source_reader": "primary"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol04_full",
+    "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+  }
+]

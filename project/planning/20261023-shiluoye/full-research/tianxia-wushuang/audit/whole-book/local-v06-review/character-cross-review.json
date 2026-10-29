@@ -1,0 +1,1012 @@
+{
+  "title": "无双人物组01—08独立只读交叉复核（附组09三项定向核对）",
+  "status": "complete_independent_review_for_primary_and_sole_assembler",
+  "reviewer": "/root/zongheng_vol05_full",
+  "scope": {
+    "main_character_records": 103,
+    "main_groups": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "ancillary_records_read": [
+      104,
+      105,
+      106,
+      107,
+      108,
+      109
+    ],
+    "ancillary_targeted_source_checked_ids": [
+      105,
+      107,
+      109
+    ]
+  },
+  "provenance": "本人实际原全文阅读卷四raw0607—0792、卷六raw1059—1233；primary原读卷六1234—1293尾段，本人完整读取其派生笔记；其他卷依正式派生材料，不宣本人重读全书原文。",
+  "limits": [
+    "完整读取本轮人物散文和章行定位不等逐条重读全部所引原章；新事实修正按下面实际原文范围和正式笔记归属列证。",
+    "01—08除14外未发现新的实质纠错，不表示绝无其他错误或各人物全部资料已经穷尽。",
+    "已知明宇/林浅、云栈、拾荒者、94—99定向修订由primary和唯一组装人处理，本专项去重，不改其文件。",
+    "本专项不新增原子候选、不替代primary逐项主审、不改已签人物组、原分卷、主池或正式库。"
+  ],
+  "input_files": [
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part01.json",
+      "sha256": "b5051394798319792f07900b9c71eeb84c024356eda14982a4ec0980cfd90a47",
+      "group": 1,
+      "character_count": 12,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part02.json",
+      "sha256": "217194710fc4f756e88e17ad66fbec2981c78e6c6c832edef7a50e9522ca959e",
+      "group": 2,
+      "character_count": 18,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part03.json",
+      "sha256": "225bbb3eddf30e8467fec86cc98aee5a3c6fd6e09eecde6e2c74cca3f3ad7087",
+      "group": 3,
+      "character_count": 16,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part04.json",
+      "sha256": "94f45bb3f786483c2c7f6eba07c1954a70b5fc9129ccc17d97ccb7db4a2687e5",
+      "group": 4,
+      "character_count": 14,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part05.json",
+      "sha256": "adc3010fbf64dda7cbce28e248d62d3691a084737ae4fe72ba7aa43c55c23a03",
+      "group": 5,
+      "character_count": 9,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part06.json",
+      "sha256": "20388ae51ccf7b93416cb3a26878f843c9bdd6c4a1b37530ecac0b72e6376759",
+      "group": 6,
+      "character_count": 9,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part07.json",
+      "sha256": "a3c9e10b6993853f1cf96adcf74a430c34a0e77968a5c35c65b32e20094aa733",
+      "group": 7,
+      "character_count": 13,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part08.json",
+      "sha256": "4919621fc8d7fc7a77d60cb9c236ddc0e8ec1b0764ef127957e67c3cb9524d35",
+      "group": 8,
+      "character_count": 12,
+      "read_scope": "all-character-prose-and-evidence-locators"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-arcs-part09.json",
+      "sha256": "322bb63391af1e10c8ac205e913c3196d26c19fbc4bdf0da20656820fb5595f1",
+      "group": 9,
+      "character_count_read": 6,
+      "targeted_source_checked_ids": [
+        105,
+        107,
+        109
+      ],
+      "read_scope": "104-through-109-character-prose-and-evidence-locators-plus-105-owner-delta"
+    }
+  ],
+  "coverage": [
+    {
+      "audit_id": "character-arc-01",
+      "name": "陆尘／折戟沉沙",
+      "group": 1,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-02",
+      "name": "何艺／EVE／在水一方",
+      "group": 1,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-03",
+      "name": "林逸欣／风色幻想",
+      "group": 1,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-04",
+      "name": "慕容明月",
+      "group": 1,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-05",
+      "name": "北冥雪",
+      "group": 1,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-06",
+      "name": "连昕／怜星",
+      "group": 1,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-07",
+      "name": "李承风／传说中的勇者",
+      "group": 1,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-08",
+      "name": "鬼谷子／王诩（公孙谷为旧假证名）",
+      "group": 1,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-09",
+      "name": "杜十三／杰出高手",
+      "group": 1,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-10",
+      "name": "许阳／烈日",
+      "group": 1,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-11",
+      "name": "乱月",
+      "group": 1,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-12",
+      "name": "心然／吟风者／董欣然",
+      "group": 1,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-13",
+      "name": "天堂雨",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-14",
+      "name": "晴空雪",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "new-later-evidence-omission-reported-and-owner-corrected"
+    },
+    {
+      "audit_id": "character-arc-15",
+      "name": "幽云十八骑",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-16",
+      "name": "斗志昂扬",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-17",
+      "name": "吕布衣",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-18",
+      "name": "月光石",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-19",
+      "name": "月露",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-20",
+      "name": "无关风月／关悦",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-21",
+      "name": "三生陌",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-22",
+      "name": "明眸似水",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-23",
+      "name": "紫衣侯",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-24",
+      "name": "孙青青／清清水香",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-25",
+      "name": "张淳／酸辣粉",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-26",
+      "name": "小小猪",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-27",
+      "name": "上官婉儿",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-28",
+      "name": "烛影乱／方卓",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-29",
+      "name": "战天",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-30",
+      "name": "离歌",
+      "group": 2,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-31",
+      "name": "王栋梁／国之栋梁",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-32",
+      "name": "吕超／龙行天下",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-33",
+      "name": "一抹阳光",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-34",
+      "name": "听风",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-35",
+      "name": "虎豹骑",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-36",
+      "name": "周萍／萍水相逢",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-37",
+      "name": "周小萌",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-38",
+      "name": "行云",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-39",
+      "name": "泪残痕／尹沛萌",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-40",
+      "name": "维也纳的悲伤",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-41",
+      "name": "红枫",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-42",
+      "name": "清风昕雨",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-43",
+      "name": "战神王",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-44",
+      "name": "水云谣",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-45",
+      "name": "冰与火之歌／晓风残月",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-46",
+      "name": "神骨",
+      "group": 3,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-47",
+      "name": "戒灵",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-48",
+      "name": "霸天刀",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-49",
+      "name": "零下30度雪夜",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-50",
+      "name": "叶雨涩",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-51",
+      "name": "陆父（陆木匠，实名未明）",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-52",
+      "name": "林霄（林逸欣父亲）",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-53",
+      "name": "欧文",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-54",
+      "name": "徐宁",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-55",
+      "name": "董仁",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-56",
+      "name": "唐龙／虬龙／执剑江湖盟主",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-57",
+      "name": "唐风",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-58",
+      "name": "秦韵／紫韵儿",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-59",
+      "name": "书生／丁书生（本书称谓）",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-60",
+      "name": "刘婉茹／林逸欣母亲",
+      "group": 4,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-61",
+      "name": "苏伦",
+      "group": 5,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-62",
+      "name": "索菲娅／紫罗兰领袖",
+      "group": 5,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-63",
+      "name": "影舞者雪薇",
+      "group": 5,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-64",
+      "name": "卡琳珊",
+      "group": 5,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-65",
+      "name": "苏菲／寒血战神",
+      "group": 5,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-66",
+      "name": "奥丹／暮色游侠",
+      "group": 5,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-67",
+      "name": "冰兰",
+      "group": 5,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-68",
+      "name": "林纳／炼狱主宰",
+      "group": 5,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-69",
+      "name": "明宇（借林浅身体者）",
+      "group": 5,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-70",
+      "name": "大圣者",
+      "group": 6,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-71",
+      "name": "死亡剑刃·雷鸣",
+      "group": 6,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-72",
+      "name": "寒刃",
+      "group": 6,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-73",
+      "name": "奥维亚／血指",
+      "group": 6,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-74",
+      "name": "飞银龙",
+      "group": 6,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-75",
+      "name": "卡兰／龙骑队长",
+      "group": 6,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-76",
+      "name": "卡兰斯／星空剑圣",
+      "group": 6,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-77",
+      "name": "斯达克",
+      "group": 6,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-78",
+      "name": "蒂雅",
+      "group": 6,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-79",
+      "name": "蒙川",
+      "group": 7,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-80",
+      "name": "达达／守护犬",
+      "group": 7,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-81",
+      "name": "云栈·玛法奥／龙心骑士",
+      "group": 7,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-82",
+      "name": "迪奥斯／圣魔迪奥斯",
+      "group": 7,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-83",
+      "name": "柏丽／红岩郡主",
+      "group": 7,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-84",
+      "name": "奥力三世",
+      "group": 7,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-85",
+      "name": "斯特雷拉／龙神（菲盖伪装者）",
+      "group": 7,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-86",
+      "name": "路西菲尔／斯特雷拉之妻",
+      "group": 7,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-87",
+      "name": "米迦勒／飘渺雷鸣",
+      "group": 7,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-88",
+      "name": "林浅（原王子身体／原意志）",
+      "group": 7,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-89",
+      "name": "诺丁／矮人王导师",
+      "group": 7,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-90",
+      "name": "艾蕾拉／影魔导师与恋人",
+      "group": 7,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-91",
+      "name": "圣魔林／第三导师",
+      "group": 7,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-92",
+      "name": "玄女／轩辕女（本书自述）",
+      "group": 8,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-93",
+      "name": "龙域拾荒者",
+      "group": 8,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-94",
+      "name": "紫水／嗜血使者",
+      "group": 8,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-95",
+      "name": "瑟琳娜",
+      "group": 8,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-96",
+      "name": "菲特烈",
+      "group": 8,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-97",
+      "name": "百兽老人",
+      "group": 8,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-98",
+      "name": "卓洛／魂采工",
+      "group": 8,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-99",
+      "name": "帝海",
+      "group": 8,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-100",
+      "name": "夜煞",
+      "group": 8,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-101",
+      "name": "卡纳琳娜／食人族公主",
+      "group": 8,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-102",
+      "name": "炼狱守墓人",
+      "group": 8,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    },
+    {
+      "audit_id": "character-arc-103",
+      "name": "苏菲母亲（未见实名）",
+      "group": 8,
+      "record_read_complete": true,
+      "result": "no-new-substantive-correction-found-within-stated-cross-review-scope"
+    }
+  ],
+  "findings": [
+    {
+      "review_id": "character-cross-01",
+      "audit_id": "character-arc-14",
+      "name": "晴空雪",
+      "kind": "new-later-evidence-omission",
+      "fields": [
+        "costs",
+        "evidence_boundaries",
+        "evidence"
+      ],
+      "reviewed_before": "爱慕主只十三话不能作她亲承。",
+      "finding": "早期只有十三转述，不能覆盖1185晴空本人面对陆、李明确承认喜欢陆并拒李的后态。",
+      "recommendation": "分记早转述与1185本人表明；仍不推陆已接受、正式情侣或排他承诺。",
+      "evidence": [
+        {
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "chapter_id": "ch-1185",
+          "start_line": 95471,
+          "end_line": 95491,
+          "claim_kind": "fact",
+          "access_level": "full-raw-chapter-reread-this-pass",
+          "reader": "/root/zongheng_vol05_full"
+        }
+      ],
+      "current_disposition": "owner-already-applied-after-primary-semantic-approval",
+      "owner_delta": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character-qingkong-first-person-delta.json",
+      "discovery_attribution": "本代理独立发现并重新完整回读1185；primary确认有效，唯一组装人定向修改。"
+    },
+    {
+      "review_id": "character-cross-02",
+      "audit_id": "character-arc-105",
+      "name": "禹瞳",
+      "kind": "primary-directed-contract-stage-verification",
+      "fields": [
+        "key_decisions",
+        "terminal_state",
+        "evidence_boundaries",
+        "evidence"
+      ],
+      "reviewed_before": "终点没有专属转会/借法归还或爱菲林杖具体交付回执。",
+      "finding": "943机场对话回忆已明确整批千法不必归还，交换一月内训练千名龙曜的新约且陆同意；旧归还义务不可仍当终点现约。",
+      "recommendation": "整批去留新约已成交；千骑实交、禹个人入会手续与1262杖实交仍各自保未见特定回执，不能相互替代。",
+      "evidence": [
+        {
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "chapter_id": "ch-0943",
+          "start_line": 77768,
+          "end_line": 77775,
+          "claim_kind": "fact",
+          "access_level": "targeted-source-range-reread",
+          "reader": "/root/zongheng_vol05_full"
+        }
+      ],
+      "current_disposition": "owner-delta-applied-pending-primary-group-signature",
+      "owner_delta": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/character09-loan-contract-delta.json",
+      "discovery_attribution": "primary提出943核点，本代理完整读943正式四栏笔记并定向核原文；不是本人此前亲读卷五原章。"
+    },
+    {
+      "review_id": "character-cross-03",
+      "audit_id": "character-arc-107",
+      "name": "吻痕",
+      "kind": "identity-confirmation-with-precise-citation",
+      "fields": [
+        "initial_comparison_stage",
+        "evidence_boundaries",
+        "evidence"
+      ],
+      "finding": "现稿分无籍荷兰战士与中国165级刺客、美国192级战士正确，依据在1098，不是误套1209谁与争锋搜索。",
+      "recommendation": "保分人语义；可补1098L88904—88909精准证据，避免只引1105之后而缺同名检索原定位。",
+      "evidence": [
+        {
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "chapter_id": "ch-1098",
+          "start_line": 88904,
+          "end_line": 88911,
+          "claim_kind": "fact",
+          "access_level": "targeted-source-range-reread",
+          "reader": "/root/zongheng_vol05_full"
+        }
+      ],
+      "current_disposition": "confirmed-no-semantic-correction-needed",
+      "discovery_attribution": "primary定向提出身份疑问，本代理重核本人卷六原读位置。"
+    },
+    {
+      "review_id": "character-cross-04",
+      "audit_id": "character-arc-107",
+      "name": "吻痕",
+      "kind": "later-office-state-supplement",
+      "fields": [
+        "key_decisions",
+        "terminal_state"
+      ],
+      "finding": "现稿虽已有1219证据，人物散文未写吻痕已任保护伞盟主的明确后态。1199陆仍任盟主；1219已由叙述明确吻任盟主并驻黑海岸卫星驻地。",
+      "recommendation": "补两个阶段：1199陆仍盟主、驻地计划进行；1219吻已盟主且驻地已成。两次明示之间不编交接镜头、准确日期或全员中国区资格恢复。现稿未相反断言，此为任职弧补录建议。",
+      "evidence": [
+        {
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "chapter_id": "ch-1219",
+          "start_line": 97865,
+          "end_line": 97867,
+          "claim_kind": "fact",
+          "access_level": "targeted-source-range-reread",
+          "reader": "/root/zongheng_vol05_full"
+        }
+      ],
+      "earlier_interface": {
+        "chapter_id": "ch-1199",
+        "start_line": 96444,
+        "end_line": 96451,
+        "access_level": "complete-derived-four-column-note-read",
+        "original_reader": "zongheng_vol05_full"
+      },
+      "current_disposition": "reported-to-primary-and-owner-for-optional-targeted-supplement",
+      "discovery_attribution": "本代理按职务时点专项提出；1219L97866本轮再次核原文。"
+    },
+    {
+      "review_id": "character-cross-05",
+      "audit_id": "character-arc-109",
+      "name": "莫娜／尼克职能排查",
+      "kind": "function-attribution-confirmation",
+      "fields": [
+        "initial_comparison_stage",
+        "key_decisions",
+        "evidence_boundaries"
+      ],
+      "finding": "莫娜确为弓箭手并统5000斥候营，后自明兼帝国铸剑师且实复图铸造；尼克确识食人花藤浆为白泽炬石材料并说自身职业狩猎。现稿未把二人互换。",
+      "recommendation": "不因初见她持弓就删后期铸剑专长；若精确称职，可写黑铁骑兵团斥候营统帅、弓箭手兼帝国铸剑师。尼克的知识与职业狩猎并记，不擅造他是已能采集的制药者。",
+      "evidence": [
+        {
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "chapter_id": "ch-1147",
+          "start_line": 92615,
+          "end_line": 92636,
+          "claim_kind": "fact",
+          "access_level": "targeted-source-range-reread",
+          "reader": "/root/zongheng_vol05_full"
+        },
+        {
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "chapter_id": "ch-1162",
+          "start_line": 93808,
+          "end_line": 93830,
+          "claim_kind": "fact",
+          "access_level": "targeted-source-range-reread",
+          "reader": "/root/zongheng_vol05_full"
+        },
+        {
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "chapter_id": "ch-1123",
+          "start_line": 90916,
+          "end_line": 90920,
+          "claim_kind": "fact",
+          "access_level": "targeted-source-range-reread",
+          "reader": "/root/zongheng_vol05_full"
+        }
+      ],
+      "current_disposition": "confirmed-no-semantic-correction-needed",
+      "discovery_attribution": "primary定向提出职能疑虑，本代理核本人卷六原读位置。"
+    }
+  ],
+  "result_counts": {
+    "new_independent_substantive_correction": 1,
+    "primary_directed_substantive_correction_confirmed": 1,
+    "later_office_supplement_suggestion": 1,
+    "identity_or_function_confirmation": 2
+  },
+  "known_fixes_excluded": [
+    "05/07明宇借体和原王子意志归属",
+    "08之94—99已知章号亲缘动作五项",
+    "81云栈1202后证",
+    "63/93拾荒者1299证词与1458同名再现",
+    "本轮已读63/93、69/88、81与94—99的修后条目，不将已知旧稿错误当新发现"
+  ]
+}

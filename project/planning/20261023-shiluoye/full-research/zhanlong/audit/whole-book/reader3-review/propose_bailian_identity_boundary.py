@@ -1,0 +1,3 @@
+from character_arc_common import *
+out={'status':'proposal-only-no-roster-change','entity':scope[6],'issue':'早期荒陵百炼老人与1366无尽之地新访回同称工匠，缺明确同人回指，不能凭同名职业硬并。','before':'现roster既有百炼老人仅映射卷1卡#38，为荒陵藤囚老人；无1366阶段卡。','proposed_after':'保持原r3-007古墓百炼映射与177实际救出；在evidence_boundaries并列1366另称百炼老人：韩渊称从无尽之地找回70余岁隐士，兵部已聘制器大师，主亲见韩/龙/景新武器。姓名与工艺相似但未明说即早期老人，暂列同名关联未合案；不把此后证当早期老人终态，也不擅造确定两人。若primary判需新增独立实体，由root另定补核ID。','evidence':[ref(162),ref(163),ref(177),ref(1366,98259,98265)],'actual_access':'本轮完整原文BEGIN-END重读1366（98246—98303）无截断；早卷本代理原首读/primary尾段四栏分工保留；另完整接读既有卡与状态/交接。','no_mutation':'不改roster、正式卡、池或已交人物组。'}
+dump(P/'character-bailian-identity-boundary-proposal.json',out);print(sha(P/'character-bailian-identity-boundary-proposal.json'))

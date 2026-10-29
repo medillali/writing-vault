@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "method": "只读调用 fictionlib.validate_graph、Vault._validate_asset 副本验证和递归 evidence 检查；未入库",
+  "source_id": "src-2a13958390274509b2af019f6b12d981",
+  "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+  "full_chapters": 49,
+  "dimension_observations": 36,
+  "cards": {
+    "character": 10,
+    "scene": 13,
+    "pattern": 6
+  },
+  "graph": {
+    "nodes": 59,
+    "edges": 32,
+    "threads": 10,
+    "source_complete": false
+  },
+  "nested_evidence": {
+    "lists": 261,
+    "entries": 623
+  },
+  "checks": [
+    "连续49章和原索引标题/行范围一致",
+    "第17章补读记录保留",
+    "九维证据和限制字段存在",
+    "29张卡schema通过",
+    "稳定origin_key唯一",
+    "6机制派生场景存在",
+    "分析副本与卡片/图相同",
+    "图树、关系、线成员、旧人物引用和覆盖验证通过",
+    "所有递归证据位于已读修订范围",
+    "全书未完成标记一致"
+  ],
+  "limits": [
+    "不把schema/范围校验当作解释正确或用户审美认可",
+    "正式derived_from版本引用由主代理入库时转换",
+    "未读取卷二及后文"
+  ],
+  "files": [
+    {
+      "file": "analysis.json",
+      "bytes": 186431,
+      "sha256": "2dd6993ebbc977f0337fc04b48b19b3a6f6fb0aa76e22d736fccf8ca6a24a947"
+    },
+    {
+      "file": "cards.json",
+      "bytes": 117767,
+      "sha256": "3fd45ee2801339e07df0f09361f7d60360b03b1e25fa1cb3fa307146345df531"
+    },
+    {
+      "file": "graph.json",
+      "bytes": 67688,
+      "sha256": "23f58b9990157dc2f317b6672a260e888a0b0aeff376cd232a886c31690211e4"
+    },
+    {
+      "file": "read-log.json",
+      "bytes": 31920,
+      "sha256": "d3b0f4d062963ccfee0a09a046eefc7ec8e20a826fdedc958e0031e2f42d50b3"
+    },
+    {
+      "file": "report.md",
+      "bytes": 10407,
+      "sha256": "9d8641562c0eb8f48af5d6b04518f0c09b89fe86700c0d8e59161e68064b58b6"
+    }
+  ]
+}

@@ -1,0 +1,1621 @@
+[
+  {
+    "candidate_id": "v04-local-source_anomalies-0029-01",
+    "original_question": "854已保释，959又仍关将起诉，缺中间再拘说明。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "854已保释，959又仍关将起诉，缺中间再拘说明。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0854",
+          "claim_kind": "fact",
+          "end_line": 65253,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 65171
+        },
+        {
+          "chapter_id": "ch-0959",
+          "claim_kind": "fact",
+          "end_line": 71689,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 71613
+        }
+      ],
+      "handling": "可列拘押阶段源差/罪未判，不把保释等洗清也不补再捕镜头。",
+      "id": "v04-a-wei-custody",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 28,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "custody-source-gap",
+    "rationale": "854孙翔明确魏凡已保释，855受监控不等仍羁押，959沈冰又说至今依旧关押且正在起诉。全源魏凡拘押/起诉回指未补中间再捕或正式宣判，不能用另一人汪泽诚1355被杀回填魏凡司法结局；保此拘押阶段桥未知，不推魏无罪。",
+    "later_chapters": [
+      854,
+      855,
+      959
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0854",
+        "start_line": 65171,
+        "end_line": 65253,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0855",
+        "start_line": 65254,
+        "end_line": 65314,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0959",
+        "start_line": 71613,
+        "end_line": 71689,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0029-02",
+    "original_question": "可列拘押阶段源差/罪未判，不把保释等洗清也不补再捕镜头。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "854已保释，959又仍关将起诉，缺中间再拘说明。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0854",
+          "claim_kind": "fact",
+          "end_line": 65253,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 65171
+        },
+        {
+          "chapter_id": "ch-0959",
+          "claim_kind": "fact",
+          "end_line": 71689,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 71613
+        }
+      ],
+      "handling": "可列拘押阶段源差/罪未判，不把保释等洗清也不补再捕镜头。",
+      "id": "v04-a-wei-custody",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 28,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "judicial-state-boundary",
+    "rationale": "854保释与959起诉分别是真实对话所报，保释不等洗清，沈这辈子大约出不去是预期而非法院终身判决。源未演再捕就不造镜头，也不因后裴/汪犯罪确证而把魏旧案自动视为已判。",
+    "later_chapters": [
+      854,
+      855,
+      959
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0854",
+        "start_line": 65171,
+        "end_line": 65253,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0855",
+        "start_line": 65254,
+        "end_line": 65314,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0959",
+        "start_line": 71613,
+        "end_line": 71689,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0030-01",
+    "original_question": "962吕纯阳先被杀后冰封队又见被冻。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "962吕纯阳先被杀后冰封队又见被冻。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0962",
+          "claim_kind": "fact",
+          "end_line": 71875,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 71828
+        }
+      ],
+      "handling": "原连续性异常保，不造复活或幻影。",
+      "id": "v04-a-lv-freeze",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 29,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "same-battle-continuity",
+    "rationale": "本轮定向完整核962原文：71839吕纯阳与雷厉风行已被射倒，71864吕又列入冰封名单；此扬威战最后347:0且主盟解散。没有吕在两段之间复活/重返场的动作，后玩家通常可复活也不能补此限时同场步骤，单名错位仍未知。",
+    "later_chapters": [
+      962
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0962",
+        "start_line": 71828,
+        "end_line": 71875,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0030-02",
+    "original_question": "原连续性异常保，不造复活或幻影。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "962吕纯阳先被杀后冰封队又见被冻。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0962",
+          "claim_kind": "fact",
+          "end_line": 71875,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 71828
+        }
+      ],
+      "handling": "原连续性异常保，不造复活或幻影。",
+      "id": "v04-a-lv-freeze",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 29,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "unwarranted-revival-boundary",
+    "rationale": "962确定的是英雄冢主盟被打至0并系统解散、艾尔莎120秒冻结决定战局；吕纯阳名单先死后冻处保源差，不额外制造幻影、双生吕或一次复活来抹平。玩家一般复活能力与此场是否实际复活须分开。",
+    "later_chapters": [
+      962
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0962",
+        "start_line": 71828,
+        "end_line": 71875,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0031-01",
+    "original_question": "905已军队在龙绝禁地激战，966同名被称新/未全探。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "905已军队在龙绝禁地激战，966同名被称新/未全探。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0905",
+          "claim_kind": "fact",
+          "end_line": 68147,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 68086
+        },
+        {
+          "chapter_id": "ch-0966",
+          "claim_kind": "fact",
+          "end_line": 72112,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 72051
+        }
+      ],
+      "handling": "可能局部新矿非全图，但文本未明定位，不自动开两地图。",
+      "id": "v04-a-longjue",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 30,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "geographical-knowledge-scope",
+    "rationale": "905同名谷已有炮阵大战/丁凡护王死，966又以新矿/未全探索导入。967明确碑林外围、只清300码，后矿战仍在龙绝禁地内，足以支持已到过部分不等全图探完，但文本未给905战场与966新矿准确相对位置或明确重置说明；不能硬断新图矛盾，也不能补两张同名地图。",
+    "later_chapters": [
+      905,
+      966,
+      967,
+      968
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0905",
+        "start_line": 68086,
+        "end_line": 68147,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0966",
+        "start_line": 72051,
+        "end_line": 72112,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0967",
+        "start_line": 72113,
+        "end_line": 72164,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0968",
+        "start_line": 72165,
+        "end_line": 72228,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0031-02",
+    "original_question": "可能局部新矿非全图，但文本未明定位，不自动开两地图。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "905已军队在龙绝禁地激战，966同名被称新/未全探。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0905",
+          "claim_kind": "fact",
+          "end_line": 68147,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 68086
+        },
+        {
+          "chapter_id": "ch-0966",
+          "claim_kind": "fact",
+          "end_line": 72112,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 72051
+        }
+      ],
+      "handling": "可能局部新矿非全图，但文本未明定位，不自动开两地图。",
+      "id": "v04-a-longjue",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 30,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "partial-exploration-boundary",
+    "rationale": "龙绝禁地可同图分区域：966新发现的是矿脉，967碑林怪未清/968内撤仍畏怪，前905军队经过激战不逻辑推出全图已清。保持同名地图与局部新矿的较窄解释，不把尚无坐标证明的推断改成确定两图或版本刷新。",
+    "later_chapters": [
+      905,
+      966,
+      967,
+      968
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0905",
+        "start_line": 68086,
+        "end_line": 68147,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0966",
+        "start_line": 72051,
+        "end_line": 72112,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0967",
+        "start_line": 72113,
+        "end_line": 72164,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0968",
+        "start_line": 72165,
+        "end_line": 72228,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0032-01",
+    "original_question": "968林比较火神矛说比镇国刀强，899镇国刀无攻政治道具",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "968林比较火神矛说比镇国刀强，899镇国刀无攻政治道具；主此时已持蝴蝶/镇岳，龙池在957重铸为蝴蝶。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0899",
+          "claim_kind": "fact",
+          "end_line": 67836,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 67785
+        },
+        {
+          "chapter_id": "ch-0957",
+          "claim_kind": "fact",
+          "end_line": 71550,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 71463
+        },
+        {
+          "chapter_id": "ch-0968",
+          "claim_kind": "fact",
+          "end_line": 72228,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 72165
+        }
+      ],
+      "handling": "原称保，疑镇岳误称而未强改源；不合两刀。",
+      "id": "v04-a-volcano-weapon",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 31,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "weapon-name-source-slip",
+    "rationale": "968 L72168林在同一段交替镇国刀/镇岳刀，899镇国刀明确无属性政治信物，957主另已实装蝴蝶配镇岳。语境最像将镇岳误称镇国，但无作者逐字勘误，故保原称与语境推断；不把政治刀赋攻或另造国器。",
+    "later_chapters": [
+      899,
+      957,
+      968
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0899",
+        "start_line": 67785,
+        "end_line": 67836,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0957",
+        "start_line": 71463,
+        "end_line": 71550,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0968",
+        "start_line": 72165,
+        "end_line": 72228,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0032-02",
+    "original_question": "主此时已持蝴蝶/镇岳，龙池在957重铸为蝴蝶。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "968林比较火神矛说比镇国刀强，899镇国刀无攻政治道具；主此时已持蝴蝶/镇岳，龙池在957重铸为蝴蝶。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0899",
+          "claim_kind": "fact",
+          "end_line": 67836,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 67785
+        },
+        {
+          "chapter_id": "ch-0957",
+          "claim_kind": "fact",
+          "end_line": 71550,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 71463
+        },
+        {
+          "chapter_id": "ch-0968",
+          "claim_kind": "fact",
+          "end_line": 72228,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 72165
+        }
+      ],
+      "handling": "原称保，疑镇岳误称而未强改源；不合两刀。",
+      "id": "v04-a-volcano-weapon",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 31,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "weapon-stage-state",
+    "rationale": "957已实熔龙池+罗鼎神晶+定海石为游戏五星蝴蝶，170驾轻后实戴；968当前双武应蝴蝶/镇岳，不能再叫当前龙池。现实同形蝴蝶独立实体，重铸关系只限游戏龙池→蝴蝶，不相互复制伤害。",
+    "later_chapters": [
+      957,
+      968
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0957",
+        "start_line": 71463,
+        "end_line": 71550,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0968",
+        "start_line": 72165,
+        "end_line": 72228,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0032-03",
+    "original_question": "原称保，疑镇岳误称而未强改源",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "968林比较火神矛说比镇国刀强，899镇国刀无攻政治道具；主此时已持蝴蝶/镇岳，龙池在957重铸为蝴蝶。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0899",
+          "claim_kind": "fact",
+          "end_line": 67836,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 67785
+        },
+        {
+          "chapter_id": "ch-0957",
+          "claim_kind": "fact",
+          "end_line": 71550,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 71463
+        },
+        {
+          "chapter_id": "ch-0968",
+          "claim_kind": "fact",
+          "end_line": 72228,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 72165
+        }
+      ],
+      "handling": "原称保，疑镇岳误称而未强改源；不合两刀。",
+      "id": "v04-a-volcano-weapon",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 31,
+      "atomic_index": 2
+    },
+    "status": "unknown",
+    "audit_domain": "source-name-inference-limit",
+    "rationale": "968比较攻击/大范围特技的上下文支持镇岳为所指，原句镇国仍不能被研究者当作作者已纠字。可附较可信读法，保原字与实际所指的证据等级；未找到本句直接勘误。",
+    "later_chapters": [
+      899,
+      957,
+      968
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0899",
+        "start_line": 67785,
+        "end_line": 67836,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0957",
+        "start_line": 71463,
+        "end_line": 71550,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0968",
+        "start_line": 72165,
+        "end_line": 72228,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0032-04",
+    "original_question": "不合两刀。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "968林比较火神矛说比镇国刀强，899镇国刀无攻政治道具；主此时已持蝴蝶/镇岳，龙池在957重铸为蝴蝶。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0899",
+          "claim_kind": "fact",
+          "end_line": 67836,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 67785
+        },
+        {
+          "chapter_id": "ch-0957",
+          "claim_kind": "fact",
+          "end_line": 71550,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 71463
+        },
+        {
+          "chapter_id": "ch-0968",
+          "claim_kind": "fact",
+          "end_line": 72228,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 72165
+        }
+      ],
+      "handling": "原称保，疑镇岳误称而未强改源；不合两刀。",
+      "id": "v04-a-volcano-weapon",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 31,
+      "atomic_index": 3
+    },
+    "status": "answered",
+    "audit_domain": "different-object-boundary",
+    "rationale": "899镇国刀是政治号令信物，主副手战斗国器镇岳刀另有攻击/战歌，957新蝴蝶又是游戏主手剑。968局部近称不构成三物合一或把镇国刀升级成攻击刀，后比较必须按实体区分。",
+    "later_chapters": [
+      899,
+      957,
+      968
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0899",
+        "start_line": 67785,
+        "end_line": 67836,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0957",
+        "start_line": 71463,
+        "end_line": 71550,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0968",
+        "start_line": 72165,
+        "end_line": 72228,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-0001-01",
+    "original_question": "史诗内讧与兄妹是否真正入斩龙",
+    "original_record": {
+      "chapter_id": "ch-0755",
+      "evidence": [
+        {
+          "chapter_id": "ch-0755",
+          "claim_kind": "fact",
+          "end_line": 58928,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58877
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "史诗内讧与兄妹是否真正入斩龙；鹿鸣图任务与产物，未来国战/英雄之翼比赛只是将来。"
+      ]
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 0,
+      "atomic_index": 0
+    },
+    "status": "answered",
+    "audit_domain": "recruitment-payoff",
+    "rationale": "755内讧仅王翦转述，920林说志在千里淡出，921灵本人报国战后兄妹已退史诗，922决接受主邀请真实入斩龙。灵当时熬夜铸剑未演接受按钮，957已称盟主并与决为斩龙打造/试剑，后稳定同会足闭兄妹归属；不以缺独立UI否定入会。",
+    "later_chapters": [
+      755,
+      920,
+      921,
+      922,
+      957
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0755",
+        "start_line": 58877,
+        "end_line": 58928,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0920",
+        "start_line": 69088,
+        "end_line": 69176,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0921",
+        "start_line": 69177,
+        "end_line": 69239,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0922",
+        "start_line": 69240,
+        "end_line": 69311,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0957",
+        "start_line": 71463,
+        "end_line": 71550,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-0001-02",
+    "original_question": "鹿鸣图任务与产物，未来国战/英雄之翼比赛只是将来。",
+    "original_record": {
+      "chapter_id": "ch-0755",
+      "evidence": [
+        {
+          "chapter_id": "ch-0755",
+          "claim_kind": "fact",
+          "end_line": 58928,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58877
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "史诗内讧与兄妹是否真正入斩龙；鹿鸣图任务与产物，未来国战/英雄之翼比赛只是将来。"
+      ]
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 0,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "dungeon-and-public-event-payoff",
+    "rationale": "鹿鸣SSS由761真杀秦鹿、762呈角验真、763接受统帅任命并137→142完成；正式国战854报三日后开启、随后860—919实战结算，不是永远预告。英雄之翼844由林亲述主昏迷时全队弃赛、天空玫瑰冠神话亚，为明确失赛结局，不冒写主参赛夺冠。",
+    "later_chapters": [
+      761,
+      762,
+      763,
+      844,
+      854,
+      861,
+      914,
+      919
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0761",
+        "start_line": 59291,
+        "end_line": 59410,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0762",
+        "start_line": 59411,
+        "end_line": 59464,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0763",
+        "start_line": 59465,
+        "end_line": 59536,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0844",
+        "start_line": 64528,
+        "end_line": 64585,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0854",
+        "start_line": 65171,
+        "end_line": 65253,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0861",
+        "start_line": 65583,
+        "end_line": 65645,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0914",
+        "start_line": 68713,
+        "end_line": 68786,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0919",
+        "start_line": 69030,
+        "end_line": 69087,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-0002-01",
+    "original_question": "鹿套集齐分配/130装备资格，秦鹿与鹿角交国王终奖。",
+    "original_record": {
+      "chapter_id": "ch-0756",
+      "evidence": [
+        {
+          "chapter_id": "ch-0756",
+          "claim_kind": "fact",
+          "end_line": 58996,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58929
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "鹿套集齐分配/130装备资格，秦鹿与鹿角交国王终奖。"
+      ]
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 1,
+      "atomic_index": 0
+    },
+    "status": "answered",
+    "audit_domain": "equipment-and-quest-completion",
+    "rationale": "757首整套李牧真穿，760清三层共12套/6散件、七套现场给李王冉雷月妖等换用，已满足130穿装资格的实际后证。761秦鹿被杀、762主持角呈王验真、763同意受任实际连升五级，其余19亦获奖；多余五套拟入仓另题，不将拟入库混成已存。",
+    "later_chapters": [
+      757,
+      760,
+      761,
+      762,
+      763
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0757",
+        "start_line": 58997,
+        "end_line": 59078,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0760",
+        "start_line": 59231,
+        "end_line": 59290,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0761",
+        "start_line": 59291,
+        "end_line": 59410,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0762",
+        "start_line": 59411,
+        "end_line": 59464,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0763",
+        "start_line": 59465,
+        "end_line": 59536,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-0003-01",
+    "original_question": "一层余掉落/第二层挑战与秦鹿任务",
+    "original_record": {
+      "chapter_id": "ch-0757",
+      "evidence": [
+        {
+          "chapter_id": "ch-0757",
+          "claim_kind": "fact",
+          "end_line": 59078,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58997
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "一层余掉落/第二层挑战与秦鹿任务；鹿头墨焰套名/四位五位文字异。"
+      ]
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 2,
+      "atomic_index": 0
+    },
+    "status": "answered",
+    "audit_domain": "next-floor-and-drop-payoff",
+    "rationale": "758明确分一层火雀盔给倾浅实戴、镇海刀李牧实装+5，再转二层经三死已复重聚；759虎王死后转三层，761秦鹿真死、762—763交角受任。层与掉落均有后事，无需持续悬挂下一层是否存在。",
+    "later_chapters": [
+      758,
+      759,
+      760,
+      761,
+      762,
+      763
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0758",
+        "start_line": 59079,
+        "end_line": 59168,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0759",
+        "start_line": 59169,
+        "end_line": 59230,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0760",
+        "start_line": 59231,
+        "end_line": 59290,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0761",
+        "start_line": 59291,
+        "end_line": 59410,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0762",
+        "start_line": 59411,
+        "end_line": 59464,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0763",
+        "start_line": 59465,
+        "end_line": 59536,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-0003-02",
+    "original_question": "鹿头墨焰套名/四位五位文字异。",
+    "original_record": {
+      "chapter_id": "ch-0757",
+      "evidence": [
+        {
+          "chapter_id": "ch-0757",
+          "claim_kind": "fact",
+          "end_line": 59078,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58997
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "一层余掉落/第二层挑战与秦鹿任务；鹿头墨焰套名/四位五位文字异。"
+      ]
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 2,
+      "atomic_index": 1
+    },
+    "status": "unknown",
+    "audit_domain": "item-label-and-digit-anomaly",
+    "rationale": "757鹿鸣头部件行夹墨焰名但套效/后集齐实穿能辨属鹿套；同章四位却超过五位数伤害句仍无作者明确改字。后装备稳定使用可定同物，不能替源确定哪位数唯一正确或把混名拆新套装。",
+    "later_chapters": [
+      757,
+      760,
+      761
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0757",
+        "start_line": 58997,
+        "end_line": 59078,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0760",
+        "start_line": 59231,
+        "end_line": 59290,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0761",
+        "start_line": 59291,
+        "end_line": 59410,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-0004-01",
+    "original_question": "余鹿套与后续层王、上古秦鹿终奖",
+    "original_record": {
+      "chapter_id": "ch-0758",
+      "evidence": [
+        {
+          "chapter_id": "ch-0758",
+          "claim_kind": "fact",
+          "end_line": 59168,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59079
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "余鹿套与后续层王、上古秦鹿终奖；史诗内讧/外界消息后证。"
+      ]
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 3,
+      "atomic_index": 0
+    },
+    "status": "answered",
+    "audit_domain": "multi-floor-reward-chain",
+    "rationale": "759二层清得第四套、火虎被杀，760全图12套七套实穿，761秦鹿终杀掉英雄盔等，762鹿角呈王，763实接受统领和五级奖。主早估6—7套被12套实际产出覆盖，是估计被更新而非产出矛盾。",
+    "later_chapters": [
+      759,
+      760,
+      761,
+      762,
+      763
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0759",
+        "start_line": 59169,
+        "end_line": 59230,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0760",
+        "start_line": 59231,
+        "end_line": 59290,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0761",
+        "start_line": 59291,
+        "end_line": 59410,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0762",
+        "start_line": 59411,
+        "end_line": 59464,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0763",
+        "start_line": 59465,
+        "end_line": 59536,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-0004-02",
+    "original_question": "史诗内讧/外界消息后证。",
+    "original_record": {
+      "chapter_id": "ch-0758",
+      "evidence": [
+        {
+          "chapter_id": "ch-0758",
+          "claim_kind": "fact",
+          "end_line": 59168,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59079
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "余鹿套与后续层王、上古秦鹿终奖；史诗内讧/外界消息后证。"
+      ]
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 3,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "reported-news-and-later-action",
+    "rationale": "758外界清闲四千贪狼灭史诗两千为消息，不是主亲见；920志淡出/921灵亲说双退旧会、922决实入、957两人实为斩龙生产，回收内讧后的归属后果。未演史诗每个管理的投票过程不阻其已不再留兄妹，勿反推755即时已入。",
+    "later_chapters": [
+      758,
+      920,
+      921,
+      922,
+      957
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0758",
+        "start_line": 59079,
+        "end_line": 59168,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0920",
+        "start_line": 69088,
+        "end_line": 69176,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0921",
+        "start_line": 69177,
+        "end_line": 69239,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0922",
+        "start_line": 69240,
+        "end_line": 69311,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0957",
+        "start_line": 71463,
+        "end_line": 71550,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-0005-01",
+    "original_question": "第三层/秦鹿与鹿角交付",
+    "original_record": {
+      "chapter_id": "ch-0759",
+      "evidence": [
+        {
+          "chapter_id": "ch-0759",
+          "claim_kind": "fact",
+          "end_line": 59230,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59169
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "第三层/秦鹿与鹿角交付；宋书实际施用、林后获书。"
+      ]
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 4,
+      "atomic_index": 0
+    },
+    "status": "answered",
+    "audit_domain": "quest-delivery-chain",
+    "rationale": "760第三层秦鹿战先三死且约40%未杀，761由主终斩秦鹿升137，762持角回宫/西奥多接验，763接受任命升142。故第三层/交角/奖励逐步全有动作，不能把761掉角等同当时已王奖，也不保持卷尾未交。",
+    "later_chapters": [
+      760,
+      761,
+      762,
+      763
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0760",
+        "start_line": 59231,
+        "end_line": 59290,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0761",
+        "start_line": 59291,
+        "end_line": 59410,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0762",
+        "start_line": 59411,
+        "end_line": 59464,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0763",
+        "start_line": 59465,
+        "end_line": 59536,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-0005-02",
+    "original_question": "宋书实际施用、林后获书。",
+    "original_record": {
+      "chapter_id": "ch-0759",
+      "evidence": [
+        {
+          "chapter_id": "ch-0759",
+          "claim_kind": "fact",
+          "end_line": 59230,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59169
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "第三层/秦鹿与鹿角交付；宋书实际施用、林后获书。"
+      ]
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 4,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "skill-later-use",
+    "rationale": "759宋寒只获书，777 L60393明确与倾浅/微凉开不屈实战，后使用足证已学。761林ROLL仍输、763东欲给不屈只是提议；794主亲见林悬空并说不知何时已学，是明确后态，不需补精确交书镜头才能确认，亦不倒灌763已学。",
+    "later_chapters": [
+      759,
+      761,
+      763,
+      777,
+      794
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0759",
+        "start_line": 59169,
+        "end_line": 59230,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0761",
+        "start_line": 59291,
+        "end_line": 59410,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0763",
+        "start_line": 59465,
+        "end_line": 59536,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0777",
+        "start_line": 60380,
+        "end_line": 60428,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0794",
+        "start_line": 61385,
+        "end_line": 61442,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-chapter_unresolved_index-0006-01",
+    "original_question": "秦鹿终杀/掉落/鹿角交国王",
+    "original_record": {
+      "chapter_id": "ch-0760",
+      "evidence": [
+        {
+          "chapter_id": "ch-0760",
+          "claim_kind": "fact",
+          "end_line": 59290,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59231
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "秦鹿终杀/掉落/鹿角交国王；余5套仓入和当前3死复活。"
+      ]
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 5,
+      "atomic_index": 0
+    },
+    "status": "answered",
+    "audit_domain": "boss-and-final-reward",
+    "rationale": "760秦鹿仍活，761后半实斩首、掉英雄盔鹿杖紫链等并分配，762角已在主手并交西奥多验真，763王奖励由主实际接受生效。独立击杀和交付都闭合，不将SSS任务仅当爆装未结。",
+    "later_chapters": [
+      760,
+      761,
+      762,
+      763
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0760",
+        "start_line": 59231,
+        "end_line": 59290,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0761",
+        "start_line": 59291,
+        "end_line": 59410,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0762",
+        "start_line": 59411,
+        "end_line": 59464,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0763",
+        "start_line": 59465,
+        "end_line": 59536,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本批完整读61—80原题/record；复读755—769、777、794、844、854、905、914、920—922、957、959、962、966、968四栏并沿已读后证。新定向实读962 L71828—71875全文片段、966 L72092—72112、968 L72165—72182；全源魏凡司法回指与不屈、南宫线做定位检索，检索不冒全文。身份纠正按root已批准外置overlay，冻源未动。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  }
+]

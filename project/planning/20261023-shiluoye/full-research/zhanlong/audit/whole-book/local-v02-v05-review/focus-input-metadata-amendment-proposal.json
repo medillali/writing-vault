@@ -1,0 +1,33 @@
+{
+  "status": "proposal-pending-primary-confirmation-not-applied",
+  "reason": "40正式输入实际重核唯一vol06-handoff变；当前formal与stage文字差仅正式链接适配，不把旧23e9错称stage（stage实际5b224d）。原input-receipt不改，保旧指纹。",
+  "basis_path": "writing-vault/library/reports/zhanlong/vol06-handoff.md",
+  "current_formal_sha256": "476c27db8d91a0ac05f068964ea7c55f59558511b3910f505d3c6e9f2ab3c012",
+  "investigation_sha256": "397412813a4d5961867c2c6c732b161e2d5c373c17fb9c5d6f44cde1d0beedaf",
+  "changes": [
+    {
+      "file": "focused-findings-part01.json",
+      "input_sha256": "a9981b95aa9da0923d918cd474f899f61f3a432fa8d706c53ef7ad9a99e03e1f",
+      "field": "/formal_input_sha256/writing-vault/library/reports/zhanlong/vol06-handoff.md",
+      "before": "23e9fee6f146049c0a169bc9b18ef7c80ea8dc660645e197e461e1a214159963",
+      "after": "476c27db8d91a0ac05f068964ea7c55f59558511b3910f505d3c6e9f2ab3c012",
+      "scope": "仅顶层单一正式handoff元数据指纹；findings及evidence全部逐值不变"
+    },
+    {
+      "file": "focused-findings-part02.json",
+      "input_sha256": "e11cf6dced6e7c6f5ae58a25f1c6d9c1cbe8bc4fc4b3bda88b47ccd3aa2d39c0",
+      "field": "/formal_input_sha256/writing-vault/library/reports/zhanlong/vol06-handoff.md",
+      "before": "23e9fee6f146049c0a169bc9b18ef7c80ea8dc660645e197e461e1a214159963",
+      "after": "476c27db8d91a0ac05f068964ea7c55f59558511b3910f505d3c6e9f2ab3c012",
+      "scope": "仅顶层单一正式handoff元数据指纹；findings及evidence全部逐值不变"
+    },
+    {
+      "file": "focused-findings-part03.json",
+      "input_sha256": "b461e3c6d7e146d10d70134b81acfd6c134588e749e5f24dddc68360526d9880",
+      "field": "/formal_input_sha256/writing-vault/library/reports/zhanlong/vol06-handoff.md",
+      "before": "23e9fee6f146049c0a169bc9b18ef7c80ea8dc660645e197e461e1a214159963",
+      "after": "476c27db8d91a0ac05f068964ea7c55f59558511b3910f505d3c6e9f2ab3c012",
+      "scope": "仅顶层单一正式handoff元数据指纹；findings及evidence全部逐值不变"
+    }
+  ]
+}

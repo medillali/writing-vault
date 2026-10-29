@@ -1,0 +1,100 @@
+# 青萝｜卷三阶段
+
+ID: `chr-a3015a8064b459508deae02edcdccccb` · 版本: 1 · 范围: source-analysis
+
+派十骑查弑父回假象，受创仍活；清点305幸存、领主50万金币筹重建。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-a3015a8064b459508deae02edcdccccb",
+  "asset_type": "character",
+  "content": {
+    "claim_kind": "inference",
+    "decision_pattern": "侦查/报信/救伤/募人分阶段",
+    "goal": "护寒荒与重建",
+    "limitations": "假报原因未知，不能擅判叛徒",
+    "relationship_direction": "霜下属；李暂领袖接受其报告",
+    "stage_change": "601踹飞非死，602本人再对话；589实收款",
+    "summary": "派十骑查弑父回假象，受创仍活；清点305幸存、领主50万金币筹重建。",
+    "valid_at": "raw0505—0753卷末，非全书终点"
+  },
+  "created_at": "2026-10-25T20:23:25.002956+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0581",
+      "claim_kind": "fact",
+      "end_line": 46728,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 46651
+    },
+    {
+      "chapter_id": "ch-0584",
+      "claim_kind": "fact",
+      "end_line": 46955,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 46892
+    },
+    {
+      "chapter_id": "ch-0588",
+      "claim_kind": "fact",
+      "end_line": 47348,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 47283
+    },
+    {
+      "chapter_id": "ch-0589",
+      "claim_kind": "fact",
+      "end_line": 47414,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 47349
+    },
+    {
+      "chapter_id": "ch-0601",
+      "claim_kind": "fact",
+      "end_line": 48225,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 48149
+    },
+    {
+      "chapter_id": "ch-0602",
+      "claim_kind": "fact",
+      "end_line": 48304,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 48226
+    },
+    {
+      "chapter_id": "ch-0610",
+      "claim_kind": "fact",
+      "end_line": 48880,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 48813
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/qingluo",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "青萝｜卷三阶段",
+  "updated_at": "2026-10-25T20:23:25.002956+00:00",
+  "user_notes": ""
+}
+
+```

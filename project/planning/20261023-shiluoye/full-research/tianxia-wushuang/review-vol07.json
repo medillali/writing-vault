@@ -1,0 +1,55 @@
+{
+  "volume": 7,
+  "reviewer": "primary",
+  "status": "reviewed_for_library_import",
+  "user_approval": false,
+  "scope": "原文210正文/211片由agent4实际全文读完；primary完整逐项读211四栏笔记，不冒称独立原文全读。45九维事实推断及新增90机制/限制栏，65人物状态，36末问35异常211本地历史、14机制4得失3局限；65人物57场景14机制卡，65节点55边16线程与内嵌知识全部语义审阅，定向改动逐字段复核。",
+  "semantic_review_document": "review-wushuang-vol07.md",
+  "corrections_verified": [
+    "1462格成即激活原三灰技；1464九转另学狂撞，不混前置",
+    "心爱语落raw1455，图卡九维交接相应引用同步",
+    "1416六分/六秒对象轩辕诀，非神农；保源差",
+    "月光石为法师/法攻禁疗杖，月露为牧师独立新增",
+    "六男现实救援为陆李鬼杜斗幽；虎供房信息、1315派接、1324才确认到",
+    "吕布衣与吕超分人，新列吕布衣与未名同乘女骑；否媳妇归女骑，不归吕超",
+    "乱月得逐日者斗篷非鞋；周小萌姓周；李论坛报维杀奥佩罗得绝风，不是李得杀",
+    "雷鸣称死亡剑刃，普通控制多MISS但玩家可伤；寒冰盾才使1429陆紫啸全MISS",
+    "飞银本体飞银龙非骑士；心龙神战中受伤不叫自伤；1466林交药油不归何",
+    "公证费主从双方各收五万实收十万，非主付",
+    "铜眼控制陆尘→受控陆杀北林→明镜解主控，不是控北林",
+    "首挑战主盟解散/禁止原名重建，不是解禁名",
+    "龙域幼龙孵化/百骑认主已成，木石火魔石结界仍未来材料筹集",
+    "十九为少女年龄非释放魂数，后释放更多魂无精数；周合作多团多会非六城",
+    "45九维逐项新增mechanism与limits_and_counterevidence，各有独立触发步骤及限制/反例；其余fact/inference保留",
+    "删除duel→father及mission→scales两条仅研究方法/节奏共同点边，现图55边；whip→gold收窄交易责任具体互照",
+    "图renew经1311全文复核改knows：心明确问再装病几天、主答应，只指当下陪伴，不倒推早伤/97%假；sulun改陆suspects/苏伦真实所知unknown，反证错误不证明有意说谎",
+    "primary完整回读raw1305，另定向1300，确认分盟非分钟；集中异常已纠为分盟规模口径，原研究误读与真实未知分开。"
+  ],
+  "preflight": {
+    "book": "tianxia-wushuang",
+    "volume": 7,
+    "indexed_segments_read": 211,
+    "body_units_read": 210,
+    "cards": {
+      "character": 65,
+      "scene": 57,
+      "pattern": 14
+    },
+    "evidence_references_checked": 2452,
+    "nodes": 65,
+    "edges": 55,
+    "threads": 16,
+    "preflight": "passed"
+  },
+  "remaining": [
+    "按序正式导入7、8；全书综合、人物弧与终点问题审计另验。"
+  ],
+  "input_sha256": {
+    "analysis.json": "dae87f2ff278d3f1d273e46c8efa53be37684ef3415c320dc686d9d9c98b892b",
+    "cards.json": "1c8235eb9416296e82c44d57718293d70edd127a78420ad9ca2b93462af31eb2",
+    "graph.json": "b642a661656d18e52110388dd3a8b1215911e6a752e69653898b8cff19c067d0",
+    "read-log.json": "9f2a671fcca9ded6a67f8d27ef61a53e17ee92a329fcbdde6168b58b510ffc3e",
+    "chapter-notes.jsonl": "5fcedf147fb7d937a9fc0ac329fb04925b70d4e61aa04e83cbb39f131b8be10a",
+    "reader-state.json": "31687bbc9ceed11c3cac3743d392b8e0fe662915e365312d25f7fe052c224984"
+  }
+}

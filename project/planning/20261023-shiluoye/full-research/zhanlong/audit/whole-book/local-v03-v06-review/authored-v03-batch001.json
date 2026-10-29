@@ -1,0 +1,397 @@
+[
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0001-01",
+    "status": "answered",
+    "audit_domain": "research-correction",
+    "rationale": "这是旧研究对禁上线窗口的过强解释，已由原阅读者校订，不能继续作为小说规则矛盾：518只说本次活动24小时内不能上线，528主死亡后界面只需等4分钟，活动结束后三人实际复活，否定每人死后再独立禁24小时的读法。answered关闭该研究误读，不把原历史批次删除。",
+    "refs": [
+      [
+        518,
+        42084,
+        42108
+      ],
+      [
+        528,
+        42831,
+        42836
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0001-02",
+    "status": "answered",
+    "audit_domain": "record-preservation",
+    "rationale": "原问题要求保留旧批与撤回链，正式卷三note-corrections.json已同时保存before_fact、after_fact、528后证及历史batch0517-0520文件名。这是已落实的研究记录约束，不是故事中另有一个等待回收的24小时承诺。",
+    "refs": [
+      [
+        518,
+        42084,
+        42108
+      ],
+      [
+        528,
+        42831,
+        42836
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0001-03",
+    "status": "answered",
+    "audit_domain": "rule-scope-boundary",
+    "rationale": "正式索引保留原阶段文字，解释须服从已校订范围与528实际返场。不能再从518添出“每次死亡另算24小时”；保有活动内死亡惩罚和活动结束返场这两种时点即可，不需要为了圆旧解释虚构额外解禁道具。",
+    "refs": [
+      [
+        518,
+        42084,
+        42108
+      ],
+      [
+        528,
+        42831,
+        42836
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0002-01",
+    "status": "unknown",
+    "audit_domain": "source-duration-anomaly",
+    "rationale": "508明确同一烈阳盾特技持续30秒；真正可对照的7秒技能描述在514与526。510的7秒只是反扑杀敌过程，512没有给出该特技时长，不能误把它们当直接数值反证。全书该技能文字命中仍未给独立改版解释，保30/7秒字面差，未知哪一时长为统一设定。",
+    "refs": [
+      [
+        508,
+        41506,
+        41508
+      ],
+      [
+        510,
+        41627,
+        41630
+      ],
+      [
+        514,
+        41885,
+        41889
+      ],
+      [
+        526,
+        42649,
+        42654
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0002-02",
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "记录约束已可明确关闭：30秒与明确写技能7秒的原句分别保留，不借510七秒战术窗口强定全部时长，也不补一段从未写出的升级或削弱补丁。这里answered指证据用法已经限定，不宣作者给了数值勘误。",
+    "refs": [
+      [
+        508,
+        41507,
+        41508
+      ],
+      [
+        514,
+        41887,
+        41889
+      ],
+      [
+        526,
+        42650,
+        42654
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0003-01",
+    "status": "unknown",
+    "audit_domain": "source-wording-anomaly",
+    "rationale": "540同场英雄名在南觯及乱码字形之间漂移，546又出现“才能不能”赘句；可确认文本不顺，却没有足够材料复原唯一原名或唯一删字版本。真红之刃、英雄骨与剑圣体的现场动作仍可各自记录，后续取得绝望不等给这些字句正式勘误。",
+    "refs": [
+      [
+        540,
+        43672,
+        43712
+      ],
+      [
+        546,
+        44169,
+        44194
+      ],
+      [
+        548,
+        44329,
+        44344
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0003-02",
+    "status": "answered",
+    "audit_domain": "identity-and-wording-boundary",
+    "rationale": "同段乱码不足以创建多个新英雄，也不能把“才能不能”强读成剑圣体规则已经逆转。保存可读行为与原字句差异、不给缺字自行命名，是可以关闭的研究边界；这不等于证明原作者想写的具体字。",
+    "refs": [
+      [
+        540,
+        43672,
+        43712
+      ],
+      [
+        546,
+        44169,
+        44194
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0004-01",
+    "status": "answered",
+    "audit_domain": "player-mortality-stage",
+    "rationale": "546李牧被反噬击杀是真实的游戏死亡，547又列在场也是真实后文；548明确普通玩家能够复活，549李牧亲报掉一级并领取奖励，足以排除把这次死亡记成永久消失。没有单独演返场路线，不能指定某人用某技能把他复起。",
+    "refs": [
+      [
+        546,
+        44169,
+        44174
+      ],
+      [
+        547,
+        44244,
+        44248
+      ],
+      [
+        548,
+        44275,
+        44298
+      ],
+      [
+        549,
+        44348,
+        44360
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0004-02",
+    "status": "answered",
+    "audit_domain": "presentation-boundary",
+    "rationale": "普通玩家可复活由548明说，李牧后来现场发言和掉级自报也已出现；缺的是此人这一次返场的过程镜头。它不是作者立下的独立护送承诺，故作为展示省略关闭，不把缺镜头升级成不死能力或NPC式复生疑案。",
+    "refs": [
+      [
+        548,
+        44275,
+        44298
+      ],
+      [
+        549,
+        44348,
+        44360
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0004-03",
+    "status": "answered",
+    "audit_domain": "mortality-evidence-boundary",
+    "rationale": "已落实不造永生与专属道具的限制：反噬击杀保在546，后在场及掉级保在547—549，两者在普通玩家可复活的明文框架内并存。具体复活者、地点和返路未展示便留空，不能用后来NPC复苏或霸王机制替这次补因。",
+    "refs": [
+      [
+        546,
+        44169,
+        44174
+      ],
+      [
+        548,
+        44275,
+        44298
+      ],
+      [
+        549,
+        44348,
+        44360
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0005-01",
+    "status": "unknown",
+    "audit_domain": "source-food-wording",
+    "rationale": "549电话里把将买的野生鲑鱼与麻辣桂鱼做法连在一起，550只演池塘买鱼并付150元、桶10元，没有独立物种校正。可以确认买鱼行动已完成，不能靠菜名反校购买种类，也没有依据增造第二次买鱼来消除两称。",
+    "refs": [
+      [
+        549,
+        44390,
+        44411
+      ],
+      [
+        550,
+        44416,
+        44449
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0005-02",
+    "status": "answered",
+    "audit_domain": "source-wording-boundary",
+    "rationale": "烹饪名称不能自动覆盖采购原词：保留549两种鱼称谓，550的付款只确认买鱼，不确认唯一鱼种。该约束已解释清楚，answered只关闭研究者擅自统一食材的可能，不称源文已经修订。",
+    "refs": [
+      [
+        549,
+        44390,
+        44411
+      ],
+      [
+        550,
+        44416,
+        44449
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0005-03",
+    "status": "answered",
+    "audit_domain": "action-completion",
+    "rationale": "549还是答应回家和买鱼，550已经开车携两女出发、池塘选鱼并由林付款，到达婶家。因而“买鱼回家”行动有直接后证，食材字词差不阻止这一进度完成，也不把付鱼的钱算成其他家庭转款。",
+    "refs": [
+      [
+        549,
+        44390,
+        44411
+      ],
+      [
+        550,
+        44416,
+        44449
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0006-01",
+    "status": "unknown",
+    "audit_domain": "source-promotion-wording",
+    "rationale": "564接的是100级第五次晋职的千人斩，565已系统全服首五转、获扬威龙骑将，随后买书的一句却写3转技能书。该句与明确晋职场景不合，但没有作者勘误解释其字面原因；不因此把此次首五转倒改第三转或再造一次转职。",
+    "refs": [
+      [
+        564,
+        45501,
+        45519
+      ],
+      [
+        565,
+        45545,
+        45575
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0006-02",
+    "status": "answered",
+    "audit_domain": "promotion-timeline-boundary",
+    "rationale": "晋职时间线已有任务和系统双接口：千人斩达成后565首五转，并实际付30万学习新技能；单个“3转技能书”异句不足以取消这次晋职。answered关闭由赘误倒改时间线的研究问题，原句本身仍按源差保留。",
+    "refs": [
+      [
+        564,
+        45501,
+        45519
+      ],
+      [
+        565,
+        45545,
+        45575
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0007-01",
+    "status": "answered",
+    "audit_domain": "rule-description-granularity",
+    "rationale": "565书面100×100与566冰波100码没有同时指定互斥的半径、直径或边长，现证不足以判定硬性范围冲突。566又明确新学冰极/霜甲LV2、旧十级技能只开启天阶条，属于不同技能与成长阶段；此项按描述粒度和对象差异关闭，具体几何不补成唯一模型。",
+    "refs": [
+      [
+        565,
+        45558,
+        45575
+      ],
+      [
+        566,
+        45579,
+        45609
+      ],
+      [
+        566,
+        45629,
+        45652
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0007-02",
+    "status": "answered",
+    "audit_domain": "skill-stage-boundary",
+    "rationale": "新技能仍为普通LV2与老技能获得天阶熟练条可以并存，不能看见“天阶1级”章题就宣布所有新旧技能已同阶。研究应逐技能记录实际面板；未指定的冰波几何留空，这一证据边界无需等待另一个剧情回收。",
+    "refs": [
+      [
+        565,
+        45558,
+        45575
+      ],
+      [
+        566,
+        45629,
+        45652
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0008-01",
+    "status": "unknown",
+    "audit_domain": "source-stacking-number",
+    "rationale": "575三条系统提示累计写10%、20%、20%，紧随叙述却明确30%并说每杀加10%、没有上限。两类字面数值不一致，不能将第三条猜改后的30%当作者正式修订；也不能反过来只据重复20%建立封顶20%的规则。未知的是这条提示的准确字面意图。",
+    "refs": [
+      [
+        575,
+        46229,
+        46246
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0008-02",
+    "status": "answered",
+    "audit_domain": "number-inference-boundary",
+    "rationale": "正文30%与后续叠100%、无上限的同场叙述，已经足以否定从第三条重复20%推出封顶20%的研究解释。answered关闭无证规则扩写；系统提示原样保留，不把推测为误写当成作者已勘误。",
+    "refs": [
+      [
+        575,
+        46229,
+        46246
+      ]
+    ]
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0009-01",
+    "status": "answered",
+    "audit_domain": "ownership-and-presentation",
+    "rationale": "577罗林借毁灭终杀后丢旁、578赤手均为各自时点；579安吉拉再次实际持毁灭救兄，持有结果已经明确。拾取或交还未逐镜头展示，只保过程省略，不把它列为神器永失、损毁或国王没收，也不虚构由谁递还。",
+    "refs": [
+      [
+        577,
+        46400,
+        46422
+      ],
+      [
+        578,
+        46501,
+        46505
+      ],
+      [
+        579,
+        46550,
+        46561
+      ]
+    ]
+  }
+]

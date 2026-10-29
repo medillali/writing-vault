@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>网游之纵横天下 · 分枝与交汇</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:"Microsoft YaHei",sans-serif;color:#172b46;background:#f4f7fc;height:100dvh;display:flex;flex-direction:column}header{background:white;padding:14px 20px;border-bottom:1px solid #d9e2ed;flex-shrink:0}h1{font-size:20px;margin:0 0 9px}.tools{display:flex;flex-wrap:wrap;gap:7px;align-items:center}button,input,select,a{font:inherit;font-size:14px}button,select,input{padding:7px 11px;border:1px solid #c7d4e4;border-radius:7px;background:white;color:inherit}button{cursor:pointer}button:hover{background:#eaf1fb}input{width:200px}a{color:#2563a6;margin-left:8px}.help{font-size:12px;color:#51637a;margin-top:9px}main{display:flex;flex:1;min-height:0}#viewport{position:relative;flex:1;min-width:0;overflow:hidden;touch-action:none;cursor:grab}#viewport.drag{cursor:grabbing}#canvas{position:absolute;left:0;top:0;transform-origin:0 0}#canvas svg{display:block;max-width:none}#canvas [data-kind=event],#canvas [data-kind=thread],#canvas [data-kind=bridge]{cursor:pointer}#canvas .dim{opacity:.12}#canvas .selected>rect{stroke:#e56220;stroke-width:6}aside{width:360px;flex-shrink:0;background:white;border-left:1px solid #d9e2ed;overflow:auto;padding:18px;display:none}aside.open{display:block}aside h2{font-size:19px;line-height:1.6}aside p{font-size:14px;line-height:1.9;white-space:pre-wrap;overflow-wrap:anywhere}aside .label{color:#51637a;font-size:12px}#zoom{min-width:49px;text-align:center;font-size:13px}#notice{position:absolute;bottom:16px;left:16px;background:white;border:1px solid #d9e2ed;border-radius:8px;padding:9px 13px;font-size:13px;pointer-events:none}.close{float:right}@media(max-width:700px){header{padding:10px}h1{font-size:17px}aside.open{position:absolute;bottom:0;right:0;width:100%;height:36vh;z-index:2;border-top:1px solid #d9e2ed}input{width:145px}.help{display:none}}
+</style></head><body>
+<header><h1>《网游之纵横天下》 · 一张图读完整书</h1><div class="tools">
+<button id="fit">全图</button><button id="mainline">聚焦主线</button><button id="threads">全书线终态</button><button id="junctions">交汇点</button>
+<select id="branch" aria-label="聚焦一条剧情线"><option value="">聚焦一条剧情线</option></select>
+<button id="minus" aria-label="缩小">－</button><span id="zoom"></span><button id="plus" aria-label="放大">＋</button>
+<select id="volume" aria-label="定位某一卷"><option value="">定位某一卷</option></select>
+<input id="search" type="search" placeholder="搜索人物或关键事件" aria-label="搜索事件"><button id="find">查找</button><button id="clear">清除聚焦</button>
+<a id="save-svg" download="全书分枝交汇图.svg">下载SVG</a></div>
+<div class="help">拖动、滚轮缩放；点击事件看来源与去向，点击连线看关系依据。共享事件才是交汇，线条穿过不算。蓝色突出核心主线；卷号仅为定位。</div></header>
+<main><div id="viewport"><div id="canvas"><!-- TREE_SVG --></div><div id="notice">主线分枝 · 旁支另起 · 共享事件处交汇</div></div><aside id="detail" aria-live="polite"><button class="close" id="close">关闭</button><h2 id="detail-title"></h2><p class="label" id="detail-label"></p><p id="detail-text"></p><div id="neighbors"></div><p id="detail-evidence"></p></aside></main>
+<script>
+'use strict';
+const data=/* TREE_DATA */;
+const claims={fact:'原文事实',inference:'研究推断',synthesis:'研究综合',plan:'计划'},knowledgeStates={unknown:'未知',suspects:'怀疑',knows:'知道',misbelieves:'误以为'};
+const vp=document.getElementById('viewport'),canvas=document.getElementById('canvas'),svg=canvas.querySelector('svg'),panel=document.getElementById('detail');
+document.getElementById('save-svg').download='纵横天下-全书分枝交汇图.svg';
+document.getElementById('save-svg').href=URL.createObjectURL(new Blob([svg.outerHTML],{type:'image/svg+xml;charset=utf-8'}));
+let scale=1,tx=0,ty=0,drag=null,dragged=false,query='',matchIndex=0;
+function apply(){canvas.style.transform=`translate(${tx}px,${ty}px) scale(${scale})`;document.getElementById('zoom').textContent=Math.round(scale*100)+'%';}
+function fitRect(x,y,w,h){const margin=30;scale=Math.min((vp.clientWidth-margin*2)/w,(vp.clientHeight-margin*2)/h,2);scale=Math.max(.008,scale);tx=(vp.clientWidth-w*scale)/2-x*scale;ty=(vp.clientHeight-h*scale)/2-y*scale;apply();}
+function fit(){fitRect(0,0,data.meta.width,data.meta.height);}
+function zoom(factor,x=vp.clientWidth/2,y=vp.clientHeight/2){const next=Math.max(.008,Math.min(3,scale*factor));tx=x-(x-tx)*next/scale;ty=y-(y-ty)*next/scale;scale=next;apply();}
+function evidence(items){return (items||[]).map(e=>`${e.chapter_id} · L${e.start_line}—${e.end_line}`).join('\n');}
+function detail(title,label,text,proof=''){panel.classList.add('open');document.getElementById('neighbors').replaceChildren();document.getElementById('detail-title').textContent=title;document.getElementById('detail-label').textContent=label;document.getElementById('detail-text').textContent=text;document.getElementById('detail-evidence').textContent=proof;}
+function clear(){svg.querySelectorAll('.dim,.selected').forEach(el=>el.classList.remove('dim','selected'));document.getElementById('notice').textContent='主线分枝 · 旁支另起 · 共享事件处交汇';}
+const relations={cause:'因果',setup:'铺垫',reveal:'揭示',reversal:'转折',payoff:'回收',echo:'呼应'};
+function mark(ids,edgeIds=null){const keep=new Set(ids);svg.querySelectorAll('[data-kind=event],[data-kind=thread]').forEach(el=>el.classList.toggle('dim',!keep.has(el.id)));svg.querySelectorAll('[data-kind=edge],[data-kind=annotation],[data-kind=reading-order]').forEach(el=>el.classList.toggle('dim',edgeIds&&['edge','reading-order'].includes(el.dataset.kind)?!edgeIds.has(el.id):!(keep.has(el.dataset.from)&&keep.has(el.dataset.to))));}
+function focusIds(ids){const boxes=ids.map(id=>data.meta.positions[id]).filter(Boolean);if(!boxes.length)return;const x=Math.min(...boxes.map(b=>b.x)),y=Math.min(...boxes.map(b=>b.y));fitRect(x-70,y-70,Math.max(...boxes.map(b=>b.x+b.width))-x+140,Math.max(...boxes.map(b=>b.y+b.height))-y+140);}
+function neighbors(nid){const dest=document.getElementById('neighbors');Object.values(data.edges).filter(e=>e.from===nid||e.to===nid).forEach(e=>{const other=e.from===nid?e.to:e.from;const b=document.createElement('button');b.textContent=(e.to===nid?'来自：':'通向：')+data.nodes[other].title+' · '+relations[e.kind];b.style.cssText='display:block;text-align:left;width:100%;margin:8px 0;line-height:1.7';b.title=e.label;b.onclick=()=>select(other,true);dest.append(b)});}
+function characterLinks(nid){for(const person of (data.character_links||{})[nid]||[]){const link=document.createElement('a');link.textContent='人物档案：'+person.name;link.href=person.href;link.style.cssText='display:block;margin:10px 0';document.getElementById('neighbors').append(link)}}
+function select(id,focus=false){
+ try{history.replaceState(null,'','#'+encodeURIComponent(id))}catch(_){}
+ clear();const el=document.getElementById(id);if(el)el.classList.add('selected');
+ if(data.nodes[id]){const n=data.nodes[id],pos=data.meta.positions[id],links=Object.values(data.edges).filter(e=>e.from===id||e.to===id);mark([id,...links.flatMap(e=>[e.from,e.to])],new Set(links.map(e=>e.id)));detail(n.title,`${id} · ${claims[n.claim_kind]||'研究记录'}${data.meta.time_labels[id]?' · '+data.meta.time_labels[id]:''}`,(n.summary||'该事件为原图保留的场景记录，事实范围以以下章节证据为准。')+'\n\n'+(n.knowledge||[]).map(k=>`${data.observers[k.observer]||'未注明观察者'} · ${knowledgeStates[k.state]||k.state}：${k.belief}`).join('\n'),evidence(n.evidence));neighbors(id);characterLinks(id);if(focus)fitRect(pos.x-150,pos.y-170,pos.width+300,pos.height+340);}
+ else if(data.threads[id]){const t=data.threads[id],m=data.meta.threads.find(x=>x.id===id),ids=[id,...t.node_ids,...t.edge_ids.flatMap(e=>[data.edges[e].from,data.edges[e].to])];detail(t.title,(m?'全书线'+String(m.number).padStart(2,'0')+' · ':'卷末阶段记录 · ')+({resolved:'已回收',partial:'部分回收',open:'未回收',unknown:'待核实'}[t.status]),(t.question||'')+'\n\n'+(t.resolution_note||'本条保留对应卷末的阶段判断；不作为全书未知项。'));mark(ids,new Set(t.edge_ids));if(focus)focusIds(ids);document.getElementById('notice').textContent='已聚焦：'+t.title.split(' · ').pop()+'；共享事件仍保持原位';}
+ else if(data.reading_guide.edges[id]){const e=data.reading_guide.edges[id];mark([e.from,e.to],new Set([id]));detail('主干阅读衔接 · '+data.nodes[e.from].title+' → '+data.nodes[e.to].title,'展示层 reading-order · 不表示因果','沿关键转折接续阅读；不属于原语义关系，不计起点、分枝或交汇。',evidence(e.evidence));if(focus)focusIds([e.from,e.to]);}
+ else if(data.edges[id]){const e=data.edges[id];mark([e.from,e.to],new Set([id]));detail(relations[e.kind]+' · '+data.nodes[e.from].title+' → '+data.nodes[e.to].title,`${e.from} → ${e.to} · ${claims[e.claim_kind]||'研究记录'}`,e.label,evidence(e.evidence));if(focus)focusIds([e.from,e.to]);}
+}
+document.getElementById('fit').onclick=fit;
+document.getElementById('mainline').onclick=()=>{clear();const ids=data.reading_guide.node_ids,ge=new Set(Object.keys(data.reading_guide.edges));mark(ids,ge);focusIds(ids);detail('从谋生到组织与龙域责任 · 主干阅读衔接','31个转折事件 · 展示层，不是新增因果','沿书生目标与局势转折贯通整书。细蓝点划线只表示阅读衔接；原227条语义关系保持独立，不将阅读衔接计入起点、分枝或交汇。');document.getElementById('notice').textContent='主干阅读衔接：细蓝点划线，不表示因果';};
+document.getElementById('threads').onclick=()=>{clear();panel.classList.remove('open');const ids=data.meta.threads.flatMap(t=>[t.id,t.anchor]);mark(ids);focusIds(ids);document.getElementById('notice').textContent='7条全书线：3条已回收、4条部分回收；安妮与明宇身份暗线均已回收。点击枝端状态框查看边界';};
+document.getElementById('junctions').onclick=()=>{clear();panel.classList.remove('open');mark(data.meta.junctions);fit();document.getElementById('notice').textContent='金色标记为多路交汇；点击事件可沿来源与去向继续查看';};
+const branch=document.getElementById('branch');Object.values(data.threads).forEach(t=>{const o=document.createElement('option');o.value=t.id;o.textContent=(t.id.startsWith('editorial-')?'全书 · ':'卷末 · ')+({main:'主线',subplot:'支线',hidden:'暗线'}[t.kind])+' · '+t.title.split(' · ').pop();branch.append(o)});branch.onchange=()=>{if(branch.value)select(branch.value,true)};
+document.getElementById('plus').onclick=()=>zoom(1.4);document.getElementById('minus').onclick=()=>zoom(1/1.4);
+document.getElementById('clear').onclick=clear;
+document.getElementById('close').onclick=()=>panel.classList.remove('open');
+const volume=document.getElementById('volume');data.volumes.forEach((v,i)=>{const o=document.createElement('option');o.value=i+1;o.textContent=v.title;volume.append(o)});
+volume.onchange=()=>{if(!volume.value)return;clear();panel.classList.remove('open');const ids=data.meta.events.filter(id=>data.meta.positions[id].volume===Number(volume.value));mark(ids);focusIds(ids);};
+function find(){const term=document.getElementById('search').value.trim();if(!term)return;const matches=Object.values(data.nodes).filter(n=>(n.title+' '+(n.summary||'')).includes(term));if(!matches.length){document.getElementById('notice').textContent='本图精选事件中未找到：'+term;return;}if(query!==term){query=term;matchIndex=0;}const n=matches[matchIndex%matches.length];select(n.id,true);document.getElementById('notice').textContent=`${matchIndex%matches.length+1}/${matches.length}：再次查找可跳到下一项`;matchIndex++;}
+document.getElementById('find').onclick=find;document.getElementById('search').onkeydown=e=>{if(e.key==='Enter')find()};
+vp.addEventListener('wheel',e=>{e.preventDefault();const b=vp.getBoundingClientRect();zoom(Math.exp(-e.deltaY*.0015),e.clientX-b.left,e.clientY-b.top)},{passive:false});
+// 超过拖动阈值后才捕获指针，普通点击仍交给事件卡片。
+vp.addEventListener('pointerdown',e=>{if(e.button!==0)return;drag={x:e.clientX,y:e.clientY,tx,ty};dragged=false;vp.classList.add('drag')});
+vp.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.abs(dx)+Math.abs(dy)>5){dragged=true;vp.setPointerCapture(e.pointerId)}tx=drag.tx+dx;ty=drag.ty+dy;apply()});
+vp.addEventListener('pointerup',e=>{drag=null;vp.classList.remove('drag');if(vp.hasPointerCapture(e.pointerId))vp.releasePointerCapture(e.pointerId)});
+vp.addEventListener('pointercancel',()=>{drag=null;vp.classList.remove('drag')});
+svg.addEventListener('click',e=>{if(dragged)return;const g=e.target.closest('[data-kind]');if(g)select(g.id)});
+svg.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){const g=e.target.closest('[data-kind]');if(g){e.preventDefault();select(g.id,true)}}});
+vp.addEventListener('dblclick',e=>{if(!e.target.closest('[data-kind]'))fit()});
+window.addEventListener('resize',fit);document.fonts.ready.then(fit);
+// 唯一书目key，避免同一浏览器误用其他书的视野。
+const viewKey='novel-tree-src-2a13958390274509b2af019f6b12d981-v1';
+try{const saved=JSON.parse(localStorage.getItem(viewKey));if(saved)document.fonts.ready.then(()=>{({scale,tx,ty}=saved);apply()});}catch(_){}
+window.addEventListener('beforeunload',()=>{try{localStorage.setItem(viewKey,JSON.stringify({scale,tx,ty}))}catch(_){}});
+// 允许人物档案以同一事件ID深链回地图，也支持同文件hash导航。
+function openHash(){const id=decodeURIComponent(location.hash.slice(1));if(data.nodes[id]||data.threads[id]||data.edges[id]||data.reading_guide.edges[id])select(id,true)}
+document.fonts.ready.then(openHash);window.addEventListener('hashchange',openHash);
+</script></body></html>

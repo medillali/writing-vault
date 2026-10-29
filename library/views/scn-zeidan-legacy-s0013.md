@@ -1,0 +1,90 @@
+# 贼胆｜坠崖借蟒减速与精神袭击自醒｜S0013
+
+ID: `scn-zeidan-legacy-s0013` · 版本: 1 · 范围: source-analysis
+
+龙鹰威胁迫萧御坠落，毒蟒影响落势；水下精神攻击中他以疼痛恢复意识。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-zeidan-legacy-s0013",
+  "asset_type": "scene",
+  "content": {
+    "choice": "利用途中具体物与身体感觉",
+    "facts": [
+      "龙鹰威胁迫萧御坠落，毒蟒影响落势；水下精神攻击中他以疼痛恢复意识。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/scenes.json#S0013",
+    "name": "坠崖借蟒减速与精神袭击自醒",
+    "prehistory": "追逐与地形失控",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "S0013",
+    "result": "进入未知洞窟，原归途中断",
+    "summary": "龙鹰威胁迫萧御坠落，毒蟒影响落势；水下精神攻击中他以疼痛恢复意识。",
+    "user_feedback": null,
+    "worker_part": "part-a"
+  },
+  "created_at": "2026-10-22T17:03:13.654353+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0096",
+      "claim_kind": "fact",
+      "end_line": 4207,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4174
+    },
+    {
+      "chapter_id": "ch-0097",
+      "claim_kind": "fact",
+      "end_line": 4252,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4208
+    },
+    {
+      "chapter_id": "ch-0098",
+      "claim_kind": "fact",
+      "end_line": 4302,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4253
+    },
+    {
+      "chapter_id": "ch-0099",
+      "claim_kind": "fact",
+      "end_line": 4345,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4303
+    },
+    {
+      "chapter_id": "ch-0100",
+      "claim_kind": "fact",
+      "end_line": 4389,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4346
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/S0013",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-a"
+  ],
+  "title": "贼胆｜坠崖借蟒减速与精神袭击自醒｜S0013",
+  "updated_at": "2026-10-22T17:03:13.659351+00:00",
+  "user_notes": ""
+}
+
+```

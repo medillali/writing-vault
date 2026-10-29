@@ -1,0 +1,1690 @@
+[
+  {
+    "candidate_id": "v06-local-source_anomalies-0021-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 20,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1334",
+          "claim_kind": "inference",
+          "end_line": 96176,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96129
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-guild-as-name",
+      "interpretation": "不凭该字串新造同名人物。",
+      "observation": "1334霜林/妖月战雷对话中“新月”用在疑人物动作处，与会名边界不明。",
+      "status": "unresolved_source_interface",
+      "title": "树冠偷听的会名/人名混用"
+    },
+    "title": "树冠偷听的会名/人名混用",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1334",
+        "claim_kind": "inference",
+        "end_line": 96176,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96129
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-guild-label-used-for-known-speaker",
+    "rationale": "1334先明确新月是行会、女盟主妖月，接‘新月抿红唇’后霜林直接称妖月，随后又妖月回应；同一对话连续足以按妖月发言收窄，不能因会名用作主语另造新月女玩家。战雷仍是副盟主独立实体，非两个女名合会与人。",
+    "later_chapters": [
+      1334
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1334",
+        "start_line": 96149,
+        "end_line": 96162,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0021-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 20,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1334",
+          "claim_kind": "inference",
+          "end_line": 96176,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96129
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-guild-as-name",
+      "interpretation": "不凭该字串新造同名人物。",
+      "observation": "1334霜林/妖月战雷对话中“新月”用在疑人物动作处，与会名边界不明。",
+      "status": "unresolved_source_interface",
+      "title": "树冠偷听的会名/人名混用"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1334",
+        "claim_kind": "inference",
+        "end_line": 96176,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96129
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-person-and-guild-not-merged",
+    "rationale": "保‘新月’原字串，人物动作暂按上下文妖月、组织仍新月行会记录；不将行会实体生成人物或把战雷移成女盟主。这一限缩可以闭，未假装作者正式改名，新月会以后行动也不是新月新人再现。",
+    "later_chapters": [
+      1334
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1334",
+        "start_line": 96149,
+        "end_line": 96162,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0021-03",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 20,
+    "atomic_index": 2,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1334",
+          "claim_kind": "inference",
+          "end_line": 96176,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96129
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-guild-as-name",
+      "interpretation": "不凭该字串新造同名人物。",
+      "observation": "1334霜林/妖月战雷对话中“新月”用在疑人物动作处，与会名边界不明。",
+      "status": "unresolved_source_interface",
+      "title": "树冠偷听的会名/人名混用"
+    },
+    "title": "不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1334",
+        "claim_kind": "inference",
+        "end_line": 96176,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96129
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-retains-dialogue-name-interface",
+    "rationale": "1334原段不改、不添加第四个树下要人或隐藏改名事件；连续发话者依据与会名错用同时保。answered指不造实体的约束落实，不把归属清晰等成全书所有名字误写均可无证统一。",
+    "later_chapters": [
+      1334
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1334",
+        "start_line": 96149,
+        "end_line": 96162,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0022-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 21,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1340",
+          "claim_kind": "inference",
+          "end_line": 96525,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96470
+        },
+        {
+          "chapter_id": "ch-1344",
+          "claim_kind": "inference",
+          "end_line": 96775,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96721
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-cannon-loss",
+      "interpretation": "后者疑龙晶但未经作者更正；当前20神威实见可接，不能凭原句凭空变65。",
+      "observation": "1340原25神威，战损句称5神威与40+神威。",
+      "status": "unresolved_source_interface",
+      "title": "神威损五又损四十余的炮种字面"
+    },
+    "title": "神威损五又损四十余的炮种字面",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1340",
+        "claim_kind": "inference",
+        "end_line": 96525,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96470
+      },
+      {
+        "chapter_id": "ch-1344",
+        "claim_kind": "inference",
+        "end_line": 96775,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96721
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "source-cannon-loss-wording-and-later-count",
+    "rationale": "1340从25神威出发却一口气写损5神威及40余神威，1344明确余20神威、专弹不足百，支持5门损与20余存的实账。后40余疑应其他炮种但未作者更正，不能凭此加成原有65门或暗改为龙晶；后存量已有答，第二炮种仍未唯一可定。",
+    "later_chapters": [
+      1340,
+      1344
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1340",
+        "start_line": 96470,
+        "end_line": 96525,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1344",
+        "start_line": 96721,
+        "end_line": 96775,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0022-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 21,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1340",
+          "claim_kind": "inference",
+          "end_line": 96525,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96470
+        },
+        {
+          "chapter_id": "ch-1344",
+          "claim_kind": "inference",
+          "end_line": 96775,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96721
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-cannon-loss",
+      "interpretation": "后者疑龙晶但未经作者更正；当前20神威实见可接，不能凭原句凭空变65。",
+      "observation": "1340原25神威，战损句称5神威与40+神威。",
+      "status": "unresolved_source_interface",
+      "title": "神威损五又损四十余的炮种字面"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1340",
+        "claim_kind": "inference",
+        "end_line": 96525,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96470
+      },
+      {
+        "chapter_id": "ch-1344",
+        "claim_kind": "inference",
+        "end_line": 96775,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96721
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-count-confirmed-and-name-kept",
+    "rationale": "以1344实见20神威接后续炮击，保1340‘40余神威’字面差而不凭空增兵器。限缩完成不等整份炮损清册补齐，40余只列炮名未定，不用后新铸炮倒配当场原始数量。",
+    "later_chapters": [
+      1340,
+      1344
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1340",
+        "start_line": 96517,
+        "end_line": 96525,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1344",
+        "start_line": 96721,
+        "end_line": 96775,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0022-03",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 21,
+    "atomic_index": 2,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1340",
+          "claim_kind": "inference",
+          "end_line": 96525,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96470
+        },
+        {
+          "chapter_id": "ch-1344",
+          "claim_kind": "inference",
+          "end_line": 96775,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96721
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-cannon-loss",
+      "interpretation": "后者疑龙晶但未经作者更正；当前20神威实见可接，不能凭原句凭空变65。",
+      "observation": "1340原25神威，战损句称5神威与40+神威。",
+      "status": "unresolved_source_interface",
+      "title": "神威损五又损四十余的炮种字面"
+    },
+    "title": "不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1340",
+        "claim_kind": "inference",
+        "end_line": 96525,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96470
+      },
+      {
+        "chapter_id": "ch-1344",
+        "claim_kind": "inference",
+        "end_line": 96775,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96721
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-no-cannon-type-substitution",
+    "rationale": "原损炮词和后余20记录保留，没有把疑龙晶直接改进冻结笔记，也不造无穷增产过程。answered只保存约束闭合，不能说作者已修第二炮种，更不抹空袭真实炮损与己方阵亡。",
+    "later_chapters": [
+      1340,
+      1344
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1340",
+        "start_line": 96517,
+        "end_line": 96525,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1344",
+        "start_line": 96721,
+        "end_line": 96775,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0023-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 22,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1342",
+          "claim_kind": "inference",
+          "end_line": 96657,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96591
+        },
+        {
+          "chapter_id": "ch-1343",
+          "claim_kind": "inference",
+          "end_line": 96720,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96658
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-attack-city",
+      "interpretation": "按全段军行/次章泽战接，保单句城名疑误。",
+      "observation": "1342已铁占转泽而一处攻击方向词还写铁。",
+      "status": "unresolved_source_interface",
+      "title": "攻泽途中单处仍称攻铁"
+    },
+    "title": "攻泽途中单处仍称攻铁",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1342",
+        "claim_kind": "inference",
+        "end_line": 96657,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96591
+      },
+      {
+        "chapter_id": "ch-1343",
+        "claim_kind": "inference",
+        "end_line": 96720,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96658
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-corrects-local-attack-direction",
+    "rationale": "1342铁颅已占并留30万NPC修防，主暂交林军事、自己赴蚩尤；1343她正在泽渊受阻，主与刑天三小时后真正到泽。单处再称攻铁按前后军行可收窄错名，不是铁颅同刻又陷或另开第二次攻铁。",
+    "later_chapters": [
+      1342,
+      1343
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1342",
+        "start_line": 96591,
+        "end_line": 96657,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1343",
+        "start_line": 96658,
+        "end_line": 96720,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0023-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 22,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1342",
+          "claim_kind": "inference",
+          "end_line": 96657,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96591
+        },
+        {
+          "chapter_id": "ch-1343",
+          "claim_kind": "inference",
+          "end_line": 96720,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96658
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-attack-city",
+      "interpretation": "按全段军行/次章泽战接，保单句城名疑误。",
+      "observation": "1342已铁占转泽而一处攻击方向词还写铁。",
+      "status": "unresolved_source_interface",
+      "title": "攻泽途中单处仍称攻铁"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1342",
+        "claim_kind": "inference",
+        "end_line": 96657,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96591
+      },
+      {
+        "chapter_id": "ch-1343",
+        "claim_kind": "inference",
+        "end_line": 96720,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96658
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-keeps-captured-city-and-new-front",
+    "rationale": "铁颅守军留置与泽渊新战各按不同城位置列，后1344火攻融冰续的是泽渊，不能用一个错称把两座城合并。该行动定位约束可闭，原1342词仍保，不伪称作者正式更正。",
+    "later_chapters": [
+      1342,
+      1343,
+      1344
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1342",
+        "start_line": 96591,
+        "end_line": 96657,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1343",
+        "start_line": 96658,
+        "end_line": 96720,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1344",
+        "start_line": 96721,
+        "end_line": 96775,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0023-03",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 22,
+    "atomic_index": 2,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1342",
+          "claim_kind": "inference",
+          "end_line": 96657,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96591
+        },
+        {
+          "chapter_id": "ch-1343",
+          "claim_kind": "inference",
+          "end_line": 96720,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96658
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-attack-city",
+      "interpretation": "按全段军行/次章泽战接，保单句城名疑误。",
+      "observation": "1342已铁占转泽而一处攻击方向词还写铁。",
+      "status": "unresolved_source_interface",
+      "title": "攻泽途中单处仍称攻铁"
+    },
+    "title": "不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1342",
+        "claim_kind": "inference",
+        "end_line": 96657,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96591
+      },
+      {
+        "chapter_id": "ch-1343",
+        "claim_kind": "inference",
+        "end_line": 96720,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96658
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-no-extra-iron-city-siege",
+    "rationale": "没有改冻结军行或新增主再回铁颅打一场，实际派兵/刑天援泽/火攻泽皆据明文。answered仅不造场景要求落实，不能因城名疑词抹掉已系统占城的阶段成果。",
+    "later_chapters": [
+      1342,
+      1343,
+      1344
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1342",
+        "start_line": 96591,
+        "end_line": 96657,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1343",
+        "start_line": 96658,
+        "end_line": 96720,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1344",
+        "start_line": 96721,
+        "end_line": 96775,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0024-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 23,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1298",
+          "claim_kind": "inference",
+          "end_line": 93927,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 93866
+        },
+        {
+          "chapter_id": "ch-1343",
+          "claim_kind": "inference",
+          "end_line": 96720,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96658
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-job-winter",
+      "interpretation": "保同名排名人物/职业描述变化，不无证拆新冬马。",
+      "observation": "此前冬马雷残为龙骑相关职称，泽战用狂战士。",
+      "status": "unresolved_source_interface",
+      "title": "冬马职称龙骑/狂战称谓变化"
+    },
+    "title": "冬马职称龙骑/狂战称谓变化",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1298",
+        "claim_kind": "inference",
+        "end_line": 93927,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 93866
+      },
+      {
+        "chapter_id": "ch-1343",
+        "claim_kind": "inference",
+        "end_line": 96720,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96658
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-class-title-drift",
+    "rationale": "1298冬马以俄RBN3龙骑相关身份交手，1343又明确同名RBN3狂战，前后都同服同排行且会返场，未给转职任务或第二个同名人的介绍。保当前职称差与同一游戏人物，不把旧被杀当永久死后新生，具体为何换职称仍未说明。",
+    "later_chapters": [
+      1298,
+      1343
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1298",
+        "start_line": 93866,
+        "end_line": 93927,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1343",
+        "start_line": 96710,
+        "end_line": 96718,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0024-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 23,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1298",
+          "claim_kind": "inference",
+          "end_line": 93927,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 93866
+        },
+        {
+          "chapter_id": "ch-1343",
+          "claim_kind": "inference",
+          "end_line": 96720,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96658
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-job-winter",
+      "interpretation": "保同名排名人物/职业描述变化，不无证拆新冬马。",
+      "observation": "此前冬马雷残为龙骑相关职称，泽战用狂战士。",
+      "status": "unresolved_source_interface",
+      "title": "冬马职称龙骑/狂战称谓变化"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1298",
+        "claim_kind": "inference",
+        "end_line": 93927,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 93866
+      },
+      {
+        "chapter_id": "ch-1343",
+        "claim_kind": "inference",
+        "end_line": 96720,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96658
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-same-player-despite-class-wording",
+    "rationale": "冬马的同名/俄区/RBN3连续支撑同人，1343被林薛两套杀、1344又由李牧杀是玩家后续可复场，不因职业差拆新人。保每场实用身份范围、不把两次末刀都给主，研究限缩已闭。",
+    "later_chapters": [
+      1298,
+      1343,
+      1344
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1298",
+        "start_line": 93866,
+        "end_line": 93927,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1343",
+        "start_line": 96710,
+        "end_line": 96718,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1344",
+        "start_line": 96721,
+        "end_line": 96775,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0024-03",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 23,
+    "atomic_index": 2,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1298",
+          "claim_kind": "inference",
+          "end_line": 93927,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 93866
+        },
+        {
+          "chapter_id": "ch-1343",
+          "claim_kind": "inference",
+          "end_line": 96720,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 96658
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-job-winter",
+      "interpretation": "保同名排名人物/职业描述变化，不无证拆新冬马。",
+      "observation": "此前冬马雷残为龙骑相关职称，泽战用狂战士。",
+      "status": "unresolved_source_interface",
+      "title": "冬马职称龙骑/狂战称谓变化"
+    },
+    "title": "不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1298",
+        "claim_kind": "inference",
+        "end_line": 93927,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 93866
+      },
+      {
+        "chapter_id": "ch-1343",
+        "claim_kind": "inference",
+        "end_line": 96720,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 96658
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-no-hidden-class-change-story",
+    "rationale": "两处职称均保，没有在冻结原文改为一种职业、补秘密转职或作者漏写过程。answered为保源要求完成，不宣人物能力表从此同时全有两职业技能；后场行动仍按具体证据列。",
+    "later_chapters": [
+      1298,
+      1343
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1298",
+        "start_line": 93866,
+        "end_line": 93927,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1343",
+        "start_line": 96710,
+        "end_line": 96718,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0025-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 24,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1357",
+          "claim_kind": "inference",
+          "end_line": 97678,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 97621
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-tears-repeat",
+      "interpretation": "疑重复，研究不代改流血。",
+      "observation": "1357“现在可以流泪，以后只能流泪”两次同词。",
+      "status": "unresolved_source_interface",
+      "title": "祭墓训话重复流泪"
+    },
+    "title": "祭墓训话重复流泪",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1357",
+        "claim_kind": "inference",
+        "end_line": 97678,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 97621
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-repeated-tears-word",
+    "rationale": "1357 L97674确说现在可流泪、以后只能流泪，重复削弱训话转折；上下文是祭墓与入军使命，但没有独立版本或作者更正。不能凭惯用句型把第二流泪直接改流血，也不推主从此不许任何人哭的硬军规。",
+    "later_chapters": [
+      1357
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1357",
+        "start_line": 97667,
+        "end_line": 97676,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0025-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 24,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1357",
+          "claim_kind": "inference",
+          "end_line": 97678,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 97621
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-tears-repeat",
+      "interpretation": "疑重复，研究不代改流血。",
+      "observation": "1357“现在可以流泪，以后只能流泪”两次同词。",
+      "status": "unresolved_source_interface",
+      "title": "祭墓训话重复流泪"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1357",
+        "claim_kind": "inference",
+        "end_line": 97678,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 97621
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-dialogue-wording-not-maxim",
+    "rationale": "保主祭墓训话原词和邢斧真实哭泣，研究只指出重复可疑，不将自拟‘流血不流泪’嵌回原台词作为文学事实。约束已闭，角色价值解读可讲使命压力，不能假引原句没有的词。",
+    "later_chapters": [
+      1357
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1357",
+        "start_line": 97667,
+        "end_line": 97676,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0025-03",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 24,
+    "atomic_index": 2,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1357",
+          "claim_kind": "inference",
+          "end_line": 97678,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 97621
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-tears-repeat",
+      "interpretation": "疑重复，研究不代改流血。",
+      "observation": "1357“现在可以流泪，以后只能流泪”两次同词。",
+      "status": "unresolved_source_interface",
+      "title": "祭墓训话重复流泪"
+    },
+    "title": "不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1357",
+        "claim_kind": "inference",
+        "end_line": 97678,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 97621
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-no-repaired-grave-speech",
+    "rationale": "冻结1357未改为流血或另造军规，重复仍随出处保存，未自动归为作者遗忘或新世界机制。answered仅保存范围关闭，雷沈现实死亡与结尾记忆方案不能由训话修辞重置。",
+    "later_chapters": [
+      1357,
+      1386
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1357",
+        "start_line": 97667,
+        "end_line": 97676,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1386",
+        "start_line": 99725,
+        "end_line": 99811,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0026-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 25,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1374",
+          "claim_kind": "inference",
+          "end_line": 98838,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 98779
+        },
+        {
+          "chapter_id": "ch-1378",
+          "claim_kind": "inference",
+          "end_line": 99149,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 99074
+        },
+        {
+          "chapter_id": "ch-1380",
+          "claim_kind": "inference",
+          "end_line": 99289,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 99222
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-npc-force-scope",
+      "interpretation": "不同参军/约数与叙误可能并存，只按具名行动和最终返数保留，不造全书兵表。",
+      "observation": "原出50万列14御/10天/10长/10秋/6禁，后概述全御林/炎龙也在及救军近十万而先3+5万。",
+      "status": "unresolved_source_interface",
+      "title": "鬼城出队与军种回述口径不稳"
+    },
+    "title": "鬼城出队与军种回述口径不稳",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1374",
+        "claim_kind": "inference",
+        "end_line": 98838,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 98779
+      },
+      {
+        "chapter_id": "ch-1378",
+        "claim_kind": "inference",
+        "end_line": 99149,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 99074
+      },
+      {
+        "chapter_id": "ch-1380",
+        "claim_kind": "inference",
+        "end_line": 99289,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 99222
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "army-ledger-scope-and-return-result",
+    "rationale": "1374五军50万明确御林14万非伤兵，1378概称所有御林/炎龙并加4万炎龙，1380救军近十万又与3+5万近数不同，未给全军逐次补调清单。1386最终50万NPC返不足18万、御林7万天穹3万已明，可闭终点生还结果，原军种/分段规模不可强配成全书精密兵表。",
+    "later_chapters": [
+      1374,
+      1378,
+      1380,
+      1386
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1374",
+        "start_line": 98779,
+        "end_line": 98838,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1378",
+        "start_line": 99074,
+        "end_line": 99149,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1380",
+        "start_line": 99222,
+        "end_line": 99289,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1386",
+        "start_line": 99656,
+        "end_line": 99724,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0026-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 25,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1374",
+          "claim_kind": "inference",
+          "end_line": 98838,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 98779
+        },
+        {
+          "chapter_id": "ch-1378",
+          "claim_kind": "inference",
+          "end_line": 99149,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 99074
+        },
+        {
+          "chapter_id": "ch-1380",
+          "claim_kind": "inference",
+          "end_line": 99289,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 99222
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-npc-force-scope",
+      "interpretation": "不同参军/约数与叙误可能并存，只按具名行动和最终返数保留，不造全书兵表。",
+      "observation": "原出50万列14御/10天/10长/10秋/6禁，后概述全御林/炎龙也在及救军近十万而先3+5万。",
+      "status": "unresolved_source_interface",
+      "title": "鬼城出队与军种回述口径不稳"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1374",
+        "claim_kind": "inference",
+        "end_line": 98838,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 98779
+      },
+      {
+        "chapter_id": "ch-1378",
+        "claim_kind": "inference",
+        "end_line": 99149,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 99074
+      },
+      {
+        "chapter_id": "ch-1380",
+        "claim_kind": "inference",
+        "end_line": 99289,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 99222
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-army-figures-kept-at-own-scope",
+    "rationale": "出发50万、具体队名、野战20万与各回报、最终不足18万返按各时点分别保，不把‘全部’抹掉原留伤兵、也不把玩家可复死抵NPC。统计精度限缩已落实，未知编制补调不凭近数差造新兵或消失兵。",
+    "later_chapters": [
+      1374,
+      1378,
+      1380,
+      1386
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1374",
+        "start_line": 98779,
+        "end_line": 98838,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1378",
+        "start_line": 99074,
+        "end_line": 99149,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1380",
+        "start_line": 99222,
+        "end_line": 99289,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1386",
+        "start_line": 99656,
+        "end_line": 99724,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0026-03",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 25,
+    "atomic_index": 2,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1374",
+          "claim_kind": "inference",
+          "end_line": 98838,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 98779
+        },
+        {
+          "chapter_id": "ch-1378",
+          "claim_kind": "inference",
+          "end_line": 99149,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 99074
+        },
+        {
+          "chapter_id": "ch-1380",
+          "claim_kind": "inference",
+          "end_line": 99289,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 99222
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-npc-force-scope",
+      "interpretation": "不同参军/约数与叙误可能并存，只按具名行动和最终返数保留，不造全书兵表。",
+      "observation": "原出50万列14御/10天/10长/10秋/6禁，后概述全御林/炎龙也在及救军近十万而先3+5万。",
+      "status": "unresolved_source_interface",
+      "title": "鬼城出队与军种回述口径不稳"
+    },
+    "title": "不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1374",
+        "claim_kind": "inference",
+        "end_line": 98838,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 98779
+      },
+      {
+        "chapter_id": "ch-1378",
+        "claim_kind": "inference",
+        "end_line": 99149,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 99074
+      },
+      {
+        "chapter_id": "ch-1380",
+        "claim_kind": "inference",
+        "end_line": 99289,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 99222
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-no-retroactive-force-reconciliation",
+    "rationale": "原军种称谓与数值未改、不增隐藏援军配平；终点返不足18万真实而非全50万尽灭或系统复原。answered关的是保存与不增设规则要求，不宣每个军团最终留多少已有完整清册。",
+    "later_chapters": [
+      1374,
+      1380,
+      1386
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1374",
+        "start_line": 98779,
+        "end_line": 98838,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1380",
+        "start_line": 99222,
+        "end_line": 99289,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1386",
+        "start_line": 99656,
+        "end_line": 99724,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0027-01",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 26,
+    "atomic_index": 0,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1383",
+          "claim_kind": "inference",
+          "end_line": 99499,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 99421
+        },
+        {
+          "chapter_id": "ch-1384",
+          "claim_kind": "inference",
+          "end_line": 99580,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 99500
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-grain-troops",
+      "interpretation": "保3万本次出队和5万原词，不用其中一数直接盖总死清册。",
+      "observation": "1383祝实率3万禁，1384景感惜五万禁，原6万全军另一口径。",
+      "status": "unresolved_source_interface",
+      "title": "三万取粮后被称五万禁军"
+    },
+    "title": "三万取粮后被称五万禁军",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1383",
+        "claim_kind": "inference",
+        "end_line": 99499,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 99421
+      },
+      {
+        "chapter_id": "ch-1384",
+        "claim_kind": "inference",
+        "end_line": 99580,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 99500
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-grain-expedition-troop-number",
+    "rationale": "1383祝海率3万禁军真出，1384景音惋惜五万禁军，与最初6万总编制不是同一可互换数字；没有中途另派2万或五万全团清点的回执。保三种口径，不把五万全当本次出队，也不与孙方霖约3000长风叛出相混。",
+    "later_chapters": [
+      1374,
+      1383,
+      1384
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1374",
+        "start_line": 98779,
+        "end_line": 98838,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1383",
+        "start_line": 99455,
+        "end_line": 99470,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1384",
+        "start_line": 99500,
+        "end_line": 99517,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v06-local-source_anomalies-0027-02",
+    "volume": 6,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+    "original_field": "source_anomalies",
+    "original_index": 26,
+    "atomic_index": 1,
+    "original_record": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1383",
+          "claim_kind": "inference",
+          "end_line": 99499,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 99421
+        },
+        {
+          "chapter_id": "ch-1384",
+          "claim_kind": "inference",
+          "end_line": 99580,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 99500
+        }
+      ],
+      "handling": "保源并限缩结论；不改冻结逐章事实，不自动定为作者遗漏或新增规则。",
+      "id": "v06-source-grain-troops",
+      "interpretation": "保3万本次出队和5万原词，不用其中一数直接盖总死清册。",
+      "observation": "1383祝实率3万禁，1384景感惜五万禁，原6万全军另一口径。",
+      "status": "unresolved_source_interface",
+      "title": "三万取粮后被称五万禁军"
+    },
+    "title": "保源并限缩结论",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-1383",
+        "claim_kind": "inference",
+        "end_line": 99499,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 99421
+      },
+      {
+        "chapter_id": "ch-1384",
+        "claim_kind": "inference",
+        "end_line": 99580,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 99500
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-expedition-count-not-final-roll-call",
+    "rationale": "以1383实出3万记该行动、1384景称5万保发言者；随后挂祝头确认他死，不凭一人数把全禁6万军永久死账直接盖满。孙约3000长风出城被敌屠另记，此数量分题约束已闭，源差仍保。",
+    "later_chapters": [
+      1383,
+      1384
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1383",
+        "start_line": 99455,
+        "end_line": 99470,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1384",
+        "start_line": 99500,
+        "end_line": 99580,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T23:11:44.043497+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  }
+]

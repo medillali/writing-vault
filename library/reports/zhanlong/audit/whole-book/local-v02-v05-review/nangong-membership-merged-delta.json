@@ -1,0 +1,181 @@
+{
+  "status": "applied-exact-approved-one-object-awaiting-primary-resign",
+  "primary_approval": "root消息批准南宫第一条；不是用户品味/用户批准",
+  "proposal_sha256": "f9dfcf103bba052a7a00b2985e4492477523135f405ce6756151591bfcb3afed",
+  "batch_before_sha256": "b21f2ca68864664b21441fdfd440e398e925c0b5d5f9923e3bc1ee9c8082b7cb",
+  "batch_after_sha256": "615a54eeda96b0dcfdd481447f2eda18b93bf0bd114a8d1ef24a0cd21bc8abfc",
+  "before_snapshot": "history/batch003-before-nangong-membership.json",
+  "change": {
+    "path": "adjudications-local-v02-batch003.json",
+    "candidate_id": "v02-local-chapter_unresolved_index-0005-02",
+    "input_sha256": "b21f2ca68864664b21441fdfd440e398e925c0b5d5f9923e3bc1ee9c8082b7cb",
+    "before": {
+      "candidate_id": "v02-local-chapter_unresolved_index-0005-02",
+      "volume": 2,
+      "title": "南宫兄妹加入斩龙仅月的信心表态。",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 4,
+      "atomic_index": 1,
+      "original_record_sha256": "02e4de9af885ff31771c8f71e2e18b7f8d9e560cbcaeae41cd546b2a8772f7c0",
+      "status": "partial",
+      "audit_domain": "relationship-organization",
+      "rationale": "258兄妹为史诗旧恩婉拒，原信心未当时兑现；921灵明确说两人国战后已退史诗，922主发双邀请而决当场接受，灵仍锻剑。退旧与兄接受有明确后证，不能用926现实送剑代灵系统入盟镜头。",
+      "later_chapters": [
+        258,
+        298,
+        921,
+        922,
+        926
+      ],
+      "later_evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0258",
+          "start_line": 22422,
+          "end_line": 22529,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0298",
+          "start_line": 25521,
+          "end_line": 25596,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0921",
+          "start_line": 69177,
+          "end_line": 69239,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-chapter-notes.jsonl",
+          "material_sha256": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+          "source_reader": "/root/zongheng_vol03_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0922",
+          "start_line": 69240,
+          "end_line": 69311,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-chapter-notes.jsonl",
+          "material_sha256": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+          "source_reader": "/root/zongheng_vol03_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0926",
+          "start_line": 69486,
+          "end_line": 69558,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-chapter-notes.jsonl",
+          "material_sha256": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+          "source_reader": "/root/zongheng_vol03_full"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol04_full",
+      "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+    },
+    "after": {
+      "candidate_id": "v02-local-chapter_unresolved_index-0005-02",
+      "volume": 2,
+      "title": "南宫兄妹加入斩龙仅月的信心表态。",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 4,
+      "atomic_index": 1,
+      "original_record_sha256": "02e4de9af885ff31771c8f71e2e18b7f8d9e560cbcaeae41cd546b2a8772f7c0",
+      "status": "answered",
+      "audit_domain": "relationship-organization",
+      "rationale": "258兄妹因史诗旧恩亲自婉拒，921两人国战后已退史诗、922决实际接受斩龙邀请；957 L71533决本人明确自列斩龙骑士，灵称主盟主并替其重铸，1266 L91601主叙明确“斩龙第一兵器铸造师南宫灵”且真陪她过S6。最终两人的组织归属已有实际角色后证，不能因未逐一演灵入盟UI继续悬置会员身份；具体加入时刻/手续未叙不妨碍终态已答。",
+      "later_chapters": [
+        258,
+        921,
+        922,
+        957,
+        1266
+      ],
+      "later_evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0258",
+          "start_line": 22422,
+          "end_line": 22529,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生完整读取；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+          "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+          "source_reader": "/root/zongheng_vol04_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0921",
+          "start_line": 69177,
+          "end_line": 69239,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生完整读取；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-chapter-notes.jsonl",
+          "material_sha256": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+          "source_reader": "/root/zongheng_vol03_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0922",
+          "start_line": 69240,
+          "end_line": 69311,
+          "claim_kind": "fact",
+          "evidence_access": "正式逐章四栏派生完整读取；原文归属不转移",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-chapter-notes.jsonl",
+          "material_sha256": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+          "source_reader": "/root/zongheng_vol03_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0957",
+          "start_line": 71463,
+          "end_line": 71550,
+          "claim_kind": "fact",
+          "evidence_access": "本轮定向BEGIN-END全文复读且匹配正式原reader笔记",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-chapter-notes.jsonl",
+          "material_sha256": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+          "source_reader": "/root/zongheng_vol03_full"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1266",
+          "start_line": 91586,
+          "end_line": 91652,
+          "claim_kind": "fact",
+          "evidence_access": "本轮定向BEGIN-END全文复读且匹配正式原reader笔记",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-chapter-notes.jsonl",
+          "material_sha256": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57",
+          "source_reader": "zongheng_vol05_full"
+        }
+      ],
+      "actual_reviewer": "/root/zongheng_vol04_full",
+      "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+    },
+    "scope": "仅所列终判/理由/后证字段；原ID/title/reader/原记录及其余对象完全不动"
+  },
+  "other_objects_equal": true
+}

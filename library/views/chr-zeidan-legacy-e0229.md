@@ -1,0 +1,74 @@
+# 贼胆｜洛城｜E0229
+
+ID: `chr-zeidan-legacy-e0229` · 版本: 1 · 范围: source-analysis
+
+追求小雨屡遭拒，花三百万元装备自夸；萧御八秒用低级装备败他，识出身份后离开。；叙述指出其家庭财力不及萧御，也无父亲纵容报复的资源。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0229",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "局部：妹妹自主边界冲突",
+    "facts": [
+      "追求小雨屡遭拒，花三百万元装备自夸；萧御八秒用低级装备败他，识出身份后离开。",
+      "叙述指出其家庭财力不及萧御，也无父亲纵容报复的资源。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0229",
+    "maintenance_depth": "中",
+    "name": "洛城",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0229",
+    "summary": "追求小雨屡遭拒，花三百万元装备自夸；萧御八秒用低级装备败他，识出身份后离开。；叙述指出其家庭财力不及萧御，也无父亲纵容报复的资源。",
+    "user_feedback": null,
+    "worker_part": "part-d"
+  },
+  "created_at": "2026-10-22T17:03:13.427730+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0430",
+      "claim_kind": "fact",
+      "end_line": 26515,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 26445
+    },
+    {
+      "chapter_id": "ch-0431",
+      "claim_kind": "fact",
+      "end_line": 26602,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 26516
+    },
+    {
+      "chapter_id": "ch-0432",
+      "claim_kind": "fact",
+      "end_line": 26680,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 26603
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0229",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-d"
+  ],
+  "title": "贼胆｜洛城｜E0229",
+  "updated_at": "2026-10-22T17:03:13.430733+00:00",
+  "user_notes": ""
+}
+
+```

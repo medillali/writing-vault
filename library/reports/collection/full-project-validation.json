@@ -1,0 +1,147 @@
+{
+  "status": "three-books-and-collection-local-validation-passed",
+  "vault": {
+    "valid": true,
+    "assets": 2844,
+    "sources": 8,
+    "projects": 0,
+    "graphs": 8
+  },
+  "books": {
+    "zongheng-tianxia": {
+      "acceptance": "full-source-nine-dimensions-and-terminal-audit-complete",
+      "body_units": 1180,
+      "audit": {
+        "status": "published-audit-validation-passed",
+        "book": "zongheng-tianxia",
+        "freeze_manifest_sha256": "97b02da47905c27d253fc0a29f7ce3599d888d4441c508c41ddb334421715562",
+        "counts": {
+          "characters": 48,
+          "findings": 27,
+          "historical": 105,
+          "local": 404
+        },
+        "evidence_references_checked": 3998,
+        "frozen_sha256_entries_checked": 51,
+        "published_file_hashes_checked": 44,
+        "unchanged_formal_hashes_checked": 506,
+        "reachable_markdown_links_checked": 103,
+        "graph_threads": 89,
+        "independent_historical_questions": 16,
+        "primary_review_status": "reviewed_for_library_import",
+        "user_review_status": "draft",
+        "original_graph_unchanged": true,
+        "original_volume_and_card_files_unchanged": true
+      }
+    },
+    "tianxia-wushuang": {
+      "acceptance": "full-source-nine-dimensions-and-terminal-audit-complete",
+      "body_units": 1599,
+      "audit": {
+        "status": "published-audit-validation-passed",
+        "book": "tianxia-wushuang",
+        "freeze_manifest_sha256": "f8e1e54f265f626878be616fe2e70aa372e6628f6476a9d0139c2f1c70c5fb5c",
+        "counts": {
+          "characters": 115,
+          "findings": 30,
+          "historical": 214,
+          "local": 3916
+        },
+        "evidence_references_checked": 26524,
+        "frozen_sha256_entries_checked": 215,
+        "published_file_hashes_checked": 215,
+        "unchanged_formal_hashes_checked": 840,
+        "reachable_markdown_links_checked": 113,
+        "graph_threads": 128,
+        "independent_historical_questions": 86,
+        "primary_review_status": "reviewed_for_library_import",
+        "user_review_status": "draft",
+        "original_graph_unchanged": true,
+        "original_volume_and_card_files_unchanged": true
+      }
+    },
+    "zhanlong": {
+      "acceptance": "full-source-nine-dimensions-and-terminal-audit-complete",
+      "body_units": 1378,
+      "audit": {
+        "status": "published-audit-validation-passed",
+        "book": "zhanlong",
+        "freeze_manifest_sha256": "0d160522d181c89f6f1efaa141c7cadf51fc152443ea7f11050468de22627cf6",
+        "counts": {
+          "characters": 161,
+          "findings": 24,
+          "historical": 232,
+          "local": 2462
+        },
+        "evidence_references_checked": 22699,
+        "frozen_sha256_entries_checked": 729,
+        "published_file_hashes_checked": 677,
+        "unchanged_formal_hashes_checked": 778,
+        "reachable_markdown_links_checked": 125,
+        "graph_threads": 114,
+        "independent_historical_questions": 118,
+        "primary_review_status": "reviewed_for_library_import",
+        "user_review_status": "draft",
+        "original_graph_unchanged": true,
+        "original_volume_and_card_files_unchanged": true
+      },
+      "archived_materials": {
+        "status": "exact-archived-material-versions-passed",
+        "entries": 131,
+        "planning_directory_required": false
+      }
+    }
+  },
+  "reading_unit_segments_exactly_once": 6739,
+  "checkpoint_partitions_verified": 18,
+  "checkpoint_nonbody_exclusions": [
+    {
+      "run_id": "run-queue-leveling-expert-20261023",
+      "segments": [
+        "ch-0001"
+      ]
+    },
+    {
+      "run_id": "run-two-books-20261023-l",
+      "segments": [
+        "ch-0001"
+      ]
+    },
+    {
+      "run_id": "run-two-books-20261023-z",
+      "segments": [
+        "ch-0001"
+      ]
+    }
+  ],
+  "reachable_local_links_checked": 24821,
+  "immutable_historical_markdown_contexts_verified": 5,
+  "historical_context_links_checked": 13,
+  "author_queries": {
+    "作者:失落叶": {
+      "cards": 1832,
+      "types": {
+        "character": 719,
+        "scene": 871,
+        "pattern": 242
+      }
+    },
+    "作者:发飙的蜗牛": {
+      "cards": 327,
+      "types": {
+        "character": 199,
+        "scene": 121,
+        "pattern": 7
+      }
+    }
+  },
+  "rebuilt_asset_views": 2844,
+  "backup_candidate_files": 9177,
+  "backup_candidate_bytes": 417746174,
+  "elapsed_seconds": 28.66,
+  "limits": [
+    "结构和哈希验收不代替文学主审或用户审美认可",
+    "旧蜗牛全书成果按原任务检查点接入，未追认本轮重读",
+    "此回执不等备份/实际恢复/远程推送已经执行"
+  ]
+}

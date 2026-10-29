@@ -1,0 +1,53 @@
+# 拒名分的吻与永陪
+
+ID: `scn-b6322c86b6d85ebebc06e1fbfc8bdf66` · 版本: 1 · 范围: source-analysis
+
+雪要不伤己与长伴，拒女友却吻脸；冰茶目击，书答带80探校
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-b6322c86b6d85ebebc06e1fbfc8bdf66",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "暧昧关系阶段",
+    "choice": "雪要不伤己与长伴，拒女友却吻脸",
+    "consequence": "冰茶目击，书答带80探校",
+    "failure_mode": "不可把男方理解当双方确立",
+    "goal": "确认亲密并抚平手伤",
+    "obstacle": "创伤隐瞒与即将返校",
+    "state_change": "关系行动升级标签未定",
+    "summary": "雪要不伤己与长伴，拒女友却吻脸；冰茶目击，书答带80探校",
+    "why_it_works": "承诺和行为可分速前进"
+  },
+  "created_at": "2026-10-24T18:57:19.334734+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0238",
+      "claim_kind": "fact",
+      "end_line": 21212,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 21114
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol03/scene/promise",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷三",
+    "场景作用"
+  ],
+  "title": "拒名分的吻与永陪",
+  "updated_at": "2026-10-24T18:57:19.334734+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,186 @@
+# 王俊杰：控制制度入口但并非从不行动的对手
+
+ID: `chr-4d6e8d8cca395a4aab0e405dadca7273` · 版本: 1 · 范围: source-analysis
+
+权力表现为查房、签字和公开羞辱；他也带队突击过，需避免抹平反派具体行为。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-4d6e8d8cca395a4aab0e405dadca7273",
+  "asset_type": "character",
+  "content": {
+    "applicability": "用于研究同一人物在本批事件中的选择与代价；可抽象角色功能，不能直接移植人名、关系网与独特履历。",
+    "directional_relationships": [
+      {
+        "evidence": [
+          {
+            "chapter_id": "ch-0056",
+            "claim_kind": "fact",
+            "end_line": 3946,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 3929
+          },
+          {
+            "chapter_id": "ch-0057",
+            "claim_kind": "fact",
+            "end_line": 3977,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 3947
+          }
+        ],
+        "from": "王俊杰",
+        "state": "自称男友并要求进入私人空间，不等双方相爱",
+        "to": "凌月"
+      }
+    ],
+    "facts": [
+      {
+        "claim_kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0057",
+            "claim_kind": "fact",
+            "end_line": 3977,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 3947
+          },
+          {
+            "chapter_id": "ch-0083",
+            "claim_kind": "fact",
+            "end_line": 5517,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 5480
+          }
+        ],
+        "statement": "查房被冰茶挡回；现实资金单需他签字，他拒签撕毁/揉弃单据并先出拳。"
+      },
+      {
+        "claim_kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0080",
+            "claim_kind": "fact",
+            "end_line": 5347,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 5320
+          },
+          {
+            "chapter_id": "ch-0081",
+            "claim_kind": "fact",
+            "end_line": 5406,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 5361
+          }
+        ],
+        "statement": "矿战中实际带百人突击，后被血饮杀；此前矿工指控其不救只是员工转述。"
+      }
+    ],
+    "failure_mode": "把本阶段能力写成永恒全能、把他人评价或主角心读写成客观人格，或将人物性格奉为用户偏好。",
+    "goal": "要求获得对凌月、公司与战斗组织的支配地位；其内心未独立叙述。",
+    "inferences": [
+      {
+        "claim_kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0081",
+            "claim_kind": "inference",
+            "end_line": 5406,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 5361
+          },
+          {
+            "chapter_id": "ch-0083",
+            "claim_kind": "inference",
+            "end_line": 5517,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 5480
+          }
+        ],
+        "statement": "同一对手跨现实制度与游戏战场施压，使主角的胜战不能直接解现实资源困境。"
+      }
+    ],
+    "limitations": "行动受公开形象和他人反抗约束；天之骄子职业在文本出现法师/剑士疑点。",
+    "stage": "正文第50—100章，卷二阶段草稿",
+    "stage_change": "军事表现未改变现实拒签权；雪月被迫自筹而非已经夺取公司权力。",
+    "summary": "权力表现为查房、签字和公开羞辱；他也带队突击过，需避免抹平反派具体行为。"
+  },
+  "created_at": "2026-10-22T17:53:52.230795+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0057",
+      "claim_kind": "fact",
+      "end_line": 3977,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 3947
+    },
+    {
+      "chapter_id": "ch-0083",
+      "claim_kind": "fact",
+      "end_line": 5517,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 5480
+    },
+    {
+      "chapter_id": "ch-0080",
+      "claim_kind": "fact",
+      "end_line": 5347,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 5320
+    },
+    {
+      "chapter_id": "ch-0081",
+      "claim_kind": "fact",
+      "end_line": 5406,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 5361
+    },
+    {
+      "chapter_id": "ch-0081",
+      "claim_kind": "inference",
+      "end_line": 5406,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 5361
+    },
+    {
+      "chapter_id": "ch-0083",
+      "claim_kind": "inference",
+      "end_line": 5517,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 5480
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/character/wangjunjie",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷次:卷二",
+    "人物选择"
+  ],
+  "title": "王俊杰：控制制度入口但并非从不行动的对手",
+  "updated_at": "2026-10-22T17:53:52.230795+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,70 @@
+# 撕阻击遭敌人自贯
+
+ID: `scn-75b0d6aafc835fe4b32cc8aeb7ac3e9c` · 版本: 1 · 范围: source-analysis
+
+敌人家园叙事进入主角视野
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-75b0d6aafc835fe4b32cc8aeb7ac3e9c",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "战争研究区分战果与正当性",
+    "choice": "书被迫见她压剑贯胸，雪亦称刽子手后继续",
+    "consequence": "外军被清、战争推进，胜方自知残酷",
+    "core_original_chapter": 676,
+    "failure_mode": "后续庆胜把此反思全当高尚装饰",
+    "goal": "远征前清外军阻击",
+    "obstacle": "风华重伤仍拒放，保家战者不只是血条",
+    "state_change": "敌人家园叙事进入主角视野",
+    "summary": "敌人家园叙事进入主角视野",
+    "why_it_works": "敌自主决定使赢战产生道德余震"
+  },
+  "created_at": "2026-10-24T20:20:05.231768+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0676",
+      "claim_kind": "fact",
+      "end_line": 73667,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 73541
+    },
+    {
+      "chapter_id": "ch-0677",
+      "claim_kind": "fact",
+      "end_line": 73802,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 73668
+    },
+    {
+      "chapter_id": "ch-0678",
+      "claim_kind": "fact",
+      "end_line": 73945,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 73803
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol06/scene/war-ethics",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷六:月神殿祭",
+    "待审阅"
+  ],
+  "title": "撕阻击遭敌人自贯",
+  "updated_at": "2026-10-24T20:20:05.231768+00:00",
+  "user_notes": ""
+}
+
+```

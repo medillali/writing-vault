@@ -1,0 +1,161 @@
+{
+  "candidate_id": "v01-local-chapter_unresolved_index-0103-02",
+  "reason": "原文L2817归raw35/印32；只修单条章号/证据，不改源差判断。",
+  "before_sha256": "af4988056e4e3a3035229e6093b88493b10c04d67c2f19e093c32f79eaaca760",
+  "after_sha256": "67682e2cbd57353a39156e530462cdf94602fbe851fa0ddc5d79c9834324eba2",
+  "before": {
+    "candidate_id": "v01-local-chapter_unresolved_index-0103-02",
+    "original_question": "退役4与5年源口径，梦残酷前史具体未明。",
+    "original_record": {
+      "chapter_id": "ch-0107",
+      "evidence": [
+        {
+          "chapter_id": "ch-0107",
+          "claim_kind": "fact",
+          "end_line": 9355,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 9267
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "青麟草/新药收益、稳定医者；退役4与5年源口径，梦残酷前史具体未明。"
+      ]
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 102,
+      "atomic_index": 1
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly-and-backstory",
+    "rationale": "主早32片自述退役后5年，107梦醒又说4年，没有统一年表更正。107明确噩梦/惨痛记忆，未交代梦中每具尸及哪场任务；后主保镖与军职发展不能反证梦每个细节真实新发生，保持口径冲突和前史细目未证。",
+    "later_chapters": [
+      32,
+      107,
+      1357,
+      1386
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0032",
+        "start_line": 2521,
+        "end_line": 2622,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0107",
+        "start_line": 9267,
+        "end_line": 9355,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1357",
+        "start_line": 97621,
+        "end_line": 97678,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1386",
+        "start_line": 99656,
+        "end_line": 99818,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整复核100—117及125—130四栏（早段本人原始亲读）；第6卷1347/1351—1357/1386完整派生四栏按zongheng_vol05_full归属，不冒本代理原文亲读。余杭/李泳/龙骨/退役口径与精确款项的全源定向回指只作核证；正式卷2采矿与原请求分物分人。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  "after": {
+    "candidate_id": "v01-local-chapter_unresolved_index-0103-02",
+    "original_question": "退役4与5年源口径，梦残酷前史具体未明。",
+    "original_record": {
+      "chapter_id": "ch-0107",
+      "evidence": [
+        {
+          "chapter_id": "ch-0107",
+          "claim_kind": "fact",
+          "end_line": 9355,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 9267
+        }
+      ],
+      "reader": "/root/zongheng_vol03_full",
+      "unresolved": [
+        "青麟草/新药收益、稳定医者；退役4与5年源口径，梦残酷前史具体未明。"
+      ]
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "chapter_unresolved_index",
+      "original_index": 102,
+      "atomic_index": 1
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly-and-backstory",
+    "rationale": "主早raw35（印刷第32章）自述退役后5年，107梦醒又说4年，没有统一年表更正。107明确噩梦/惨痛记忆，未交代梦中每具尸及哪场任务；后主保镖与军职发展不能反证梦每个细节真实新发生，保持口径冲突和前史细目未证。",
+    "later_chapters": [
+      35,
+      107,
+      1357,
+      1386
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0035",
+        "start_line": 2784,
+        "end_line": 2872,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0107",
+        "start_line": 9267,
+        "end_line": 9355,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1357",
+        "start_line": 97621,
+        "end_line": 97678,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1386",
+        "start_line": 99656,
+        "end_line": 99818,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整复核100—117及125—130四栏（早段本人原始亲读）；第6卷1347/1351—1357/1386完整派生四栏按zongheng_vol05_full归属，不冒本代理原文亲读。余杭/李泳/龙骨/退役口径与精确款项的全源定向回指只作核证；正式卷2采矿与原请求分物分人。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  "other_rows_equal": true
+}

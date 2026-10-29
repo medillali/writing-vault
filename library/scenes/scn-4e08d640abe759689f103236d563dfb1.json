@@ -1,0 +1,63 @@
+{
+  "asset_id": "scn-4e08d640abe759689f103236d563dfb1",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "跨场景友谊回收需保留给出和回报的具体选择。",
+    "choice": "书生先清威胁牧师者；紫韵儿治疗凌月，刑天反击。",
+    "consequence": "危局解除、六人联合推进任务。",
+    "failure_mode": "把一次帮忙机械兑成无条件忠诚，会扁平化关系。",
+    "goal": "先帮助朋友脱险，后在强敌下求生。",
+    "narrative_range": "第19—20、26—27章",
+    "obstacle": "敌方人数、法师威胁与失去治疗。",
+    "phase_scope": "卷一第1—49章内实际发生的场景",
+    "state_change": "松散好友转为可用行动验证的同盟。",
+    "summary": "书生在傲世围堵时保牧师；之后剑火救援书生和凌月，龙魂明确提及前次保护。",
+    "why_it_works": {
+      "claim_kind": "inference",
+      "text": "回报有明确对话因果而非只靠事件相似；关系也补足队伍缺项。"
+    }
+  },
+  "created_at": "2026-10-22T17:36:53.938457+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0021",
+      "claim_kind": "fact",
+      "end_line": 1496,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 1472
+    },
+    {
+      "chapter_id": "ch-0027",
+      "claim_kind": "fact",
+      "end_line": 1939,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 1929
+    },
+    {
+      "chapter_id": "ch-0028",
+      "claim_kind": "fact",
+      "end_line": 1976,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 1964
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/standard-20261023/scene-reciprocity",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "场景",
+    "因果链"
+  ],
+  "title": "保护紫韵儿与剑火回援",
+  "updated_at": "2026-10-22T17:36:53.938457+00:00",
+  "user_notes": ""
+}

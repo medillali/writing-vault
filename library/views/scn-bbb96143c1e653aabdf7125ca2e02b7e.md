@@ -1,0 +1,79 @@
+# 三天阳炎训练有温度与覆盖验收
+
+ID: `scn-bbb96143c1e653aabdf7125ca2e02b7e` · 版本: 1 · 范围: source-analysis
+
+观暗室教学心眼/耗尽恢复测纯度，再多向弱攻迫满身甲，三天主学成。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-bbb96143c1e653aabdf7125ca2e02b7e",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "已有战斗失败揭示技能短板，师者能控制火力并提供量化与动作的双反馈。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/lincheng",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/beichen",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wen",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/waner",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/dong"
+    ],
+    "choice": "循环吐纳/测温/逐增甲片",
+    "claim_kind": "inference",
+    "consequence": "火甲实全挡/主脱力陪练问后返杭",
+    "failure_mode": "观控力痛不伤，不写真欲杀；虚构温度非真实生理。",
+    "goal": "补多敌防守短板",
+    "narrative_order": 1166,
+    "obstacle": "分心缺甲/容量与纯度",
+    "state_change": "中阶能力掌握非新阳炎突破",
+    "summary": "观暗室教学心眼/耗尽恢复测纯度，再多向弱攻迫满身甲，三天主学成。",
+    "why_it_works": "用分解任务与外部反馈呈现学习。"
+  },
+  "created_at": "2026-10-25T21:08:43.397433+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1164",
+      "claim_kind": "fact",
+      "end_line": 85067,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 84986
+    },
+    {
+      "chapter_id": "ch-1165",
+      "claim_kind": "fact",
+      "end_line": 85138,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 85068
+    },
+    {
+      "chapter_id": "ch-1166",
+      "claim_kind": "fact",
+      "end_line": 85200,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 85139
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/training",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "三天阳炎训练有温度与覆盖验收",
+  "updated_at": "2026-10-25T21:08:43.397433+00:00",
+  "user_notes": ""
+}
+
+```

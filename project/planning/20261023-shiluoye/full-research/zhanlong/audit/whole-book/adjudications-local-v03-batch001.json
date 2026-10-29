@@ -1,0 +1,1840 @@
+[
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0001-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 0,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "518旧批将24h误读成每死另禁24h，冻结notes已校正，528活动末4分钟实返。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0518",
+          "claim_kind": "fact",
+          "end_line": 42142,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 42083
+        },
+        {
+          "chapter_id": "ch-0528",
+          "claim_kind": "fact",
+          "end_line": 42848,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 42760
+        }
+      ],
+      "handling": "沿note-corrections.json保原早批和withdrawn解释；正式合卷只拼冻结原行，不再认每死24h。",
+      "id": "v03-a-event-window",
+      "status": "unknown"
+    },
+    "title": "518旧批将24h误读成每死另禁24h，冻结notes已校正，528活动末4分钟实返。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0518",
+        "claim_kind": "fact",
+        "end_line": 42142,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 42083
+      },
+      {
+        "chapter_id": "ch-0528",
+        "claim_kind": "fact",
+        "end_line": 42848,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 42760
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-correction",
+    "rationale": "这是旧研究对禁上线窗口的过强解释，已由原阅读者校订，不能继续作为小说规则矛盾：518只说本次活动24小时内不能上线，528主死亡后界面只需等4分钟，活动结束后三人实际复活，否定每人死后再独立禁24小时的读法。answered关闭该研究误读，不把原历史批次删除。",
+    "later_chapters": [
+      518,
+      528
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0518",
+        "start_line": 42084,
+        "end_line": 42108,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0528",
+        "start_line": 42831,
+        "end_line": 42836,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0001-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 0,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "518旧批将24h误读成每死另禁24h，冻结notes已校正，528活动末4分钟实返。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0518",
+          "claim_kind": "fact",
+          "end_line": 42142,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 42083
+        },
+        {
+          "chapter_id": "ch-0528",
+          "claim_kind": "fact",
+          "end_line": 42848,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 42760
+        }
+      ],
+      "handling": "沿note-corrections.json保原早批和withdrawn解释；正式合卷只拼冻结原行，不再认每死24h。",
+      "id": "v03-a-event-window",
+      "status": "unknown"
+    },
+    "title": "沿note-corrections.json保原早批和withdrawn解释",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0518",
+        "claim_kind": "fact",
+        "end_line": 42142,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 42083
+      },
+      {
+        "chapter_id": "ch-0528",
+        "claim_kind": "fact",
+        "end_line": 42848,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 42760
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "record-preservation",
+    "rationale": "原问题要求保留旧批与撤回链，正式卷三note-corrections.json已同时保存before_fact、after_fact、528后证及历史batch0517-0520文件名。这是已落实的研究记录约束，不是故事中另有一个等待回收的24小时承诺。",
+    "later_chapters": [
+      518,
+      528
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0518",
+        "start_line": 42084,
+        "end_line": 42108,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0528",
+        "start_line": 42831,
+        "end_line": 42836,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0001-03",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 0,
+    "atomic_index": 2,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "518旧批将24h误读成每死另禁24h，冻结notes已校正，528活动末4分钟实返。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0518",
+          "claim_kind": "fact",
+          "end_line": 42142,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 42083
+        },
+        {
+          "chapter_id": "ch-0528",
+          "claim_kind": "fact",
+          "end_line": 42848,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 42760
+        }
+      ],
+      "handling": "沿note-corrections.json保原早批和withdrawn解释；正式合卷只拼冻结原行，不再认每死24h。",
+      "id": "v03-a-event-window",
+      "status": "unknown"
+    },
+    "title": "正式合卷只拼冻结原行，不再认每死24h。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0518",
+        "claim_kind": "fact",
+        "end_line": 42142,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 42083
+      },
+      {
+        "chapter_id": "ch-0528",
+        "claim_kind": "fact",
+        "end_line": 42848,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 42760
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "rule-scope-boundary",
+    "rationale": "正式索引保留原阶段文字，解释须服从已校订范围与528实际返场。不能再从518添出“每次死亡另算24小时”；保有活动内死亡惩罚和活动结束返场这两种时点即可，不需要为了圆旧解释虚构额外解禁道具。",
+    "later_chapters": [
+      518,
+      528
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0518",
+        "start_line": 42084,
+        "end_line": 42108,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0528",
+        "start_line": 42831,
+        "end_line": 42836,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0002-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 1,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "烈阳壁30秒条与反复7秒战描口径不同。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0508",
+          "claim_kind": "fact",
+          "end_line": 41561,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41490
+        },
+        {
+          "chapter_id": "ch-0510",
+          "claim_kind": "fact",
+          "end_line": 41652,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41608
+        },
+        {
+          "chapter_id": "ch-0512",
+          "claim_kind": "fact",
+          "end_line": 41766,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41708
+        }
+      ],
+      "handling": "保时点/主语，不自行造升级补丁。",
+      "id": "v03-a-wall",
+      "status": "unknown"
+    },
+    "title": "烈阳壁30秒条与反复7秒战描口径不同。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0508",
+        "claim_kind": "fact",
+        "end_line": 41561,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41490
+      },
+      {
+        "chapter_id": "ch-0510",
+        "claim_kind": "fact",
+        "end_line": 41652,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41608
+      },
+      {
+        "chapter_id": "ch-0512",
+        "claim_kind": "fact",
+        "end_line": 41766,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41708
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-duration-anomaly",
+    "rationale": "508明确同一烈阳盾特技持续30秒；真正可对照的7秒技能描述在514与526。510的7秒只是反扑杀敌过程，512没有给出该特技时长，不能误把它们当直接数值反证。全书该技能文字命中仍未给独立改版解释，保30/7秒字面差，未知哪一时长为统一设定。",
+    "later_chapters": [
+      508,
+      510,
+      514,
+      526
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0508",
+        "start_line": 41506,
+        "end_line": 41508,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0510",
+        "start_line": 41627,
+        "end_line": 41630,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0514",
+        "start_line": 41885,
+        "end_line": 41889,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0526",
+        "start_line": 42649,
+        "end_line": 42654,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0002-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 1,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "烈阳壁30秒条与反复7秒战描口径不同。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0508",
+          "claim_kind": "fact",
+          "end_line": 41561,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41490
+        },
+        {
+          "chapter_id": "ch-0510",
+          "claim_kind": "fact",
+          "end_line": 41652,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41608
+        },
+        {
+          "chapter_id": "ch-0512",
+          "claim_kind": "fact",
+          "end_line": 41766,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41708
+        }
+      ],
+      "handling": "保时点/主语，不自行造升级补丁。",
+      "id": "v03-a-wall",
+      "status": "unknown"
+    },
+    "title": "保时点/主语，不自行造升级补丁。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0508",
+        "claim_kind": "fact",
+        "end_line": 41561,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41490
+      },
+      {
+        "chapter_id": "ch-0510",
+        "claim_kind": "fact",
+        "end_line": 41652,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41608
+      },
+      {
+        "chapter_id": "ch-0512",
+        "claim_kind": "fact",
+        "end_line": 41766,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41708
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "记录约束已可明确关闭：30秒与明确写技能7秒的原句分别保留，不借510七秒战术窗口强定全部时长，也不补一段从未写出的升级或削弱补丁。这里answered指证据用法已经限定，不宣作者给了数值勘误。",
+    "later_chapters": [
+      508,
+      514,
+      526
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0508",
+        "start_line": 41507,
+        "end_line": 41508,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0514",
+        "start_line": 41887,
+        "end_line": 41889,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0526",
+        "start_line": 42650,
+        "end_line": 42654,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0003-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 2,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "540真红之刃/南觯乱码、546剑圣体“才能不能”等字句异常。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0540",
+          "claim_kind": "fact",
+          "end_line": 43714,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 43649
+        },
+        {
+          "chapter_id": "ch-0546",
+          "claim_kind": "fact",
+          "end_line": 44196,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44126
+        }
+      ],
+      "handling": "保原名/赘词，不猜校成另实体或逆转规则。",
+      "id": "v03-a-weapon-text",
+      "status": "unknown"
+    },
+    "title": "540真红之刃/南觯乱码、546剑圣体“才能不能”等字句异常。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0540",
+        "claim_kind": "fact",
+        "end_line": 43714,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 43649
+      },
+      {
+        "chapter_id": "ch-0546",
+        "claim_kind": "fact",
+        "end_line": 44196,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44126
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-wording-anomaly",
+    "rationale": "540同场英雄名在南觯及乱码字形之间漂移，546又出现“才能不能”赘句；可确认文本不顺，却没有足够材料复原唯一原名或唯一删字版本。真红之刃、英雄骨与剑圣体的现场动作仍可各自记录，后续取得绝望不等给这些字句正式勘误。",
+    "later_chapters": [
+      540,
+      546,
+      548
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0540",
+        "start_line": 43672,
+        "end_line": 43712,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0546",
+        "start_line": 44169,
+        "end_line": 44194,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0548",
+        "start_line": 44329,
+        "end_line": 44344,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0003-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 2,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "540真红之刃/南觯乱码、546剑圣体“才能不能”等字句异常。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0540",
+          "claim_kind": "fact",
+          "end_line": 43714,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 43649
+        },
+        {
+          "chapter_id": "ch-0546",
+          "claim_kind": "fact",
+          "end_line": 44196,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44126
+        }
+      ],
+      "handling": "保原名/赘词，不猜校成另实体或逆转规则。",
+      "id": "v03-a-weapon-text",
+      "status": "unknown"
+    },
+    "title": "保原名/赘词，不猜校成另实体或逆转规则。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0540",
+        "claim_kind": "fact",
+        "end_line": 43714,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 43649
+      },
+      {
+        "chapter_id": "ch-0546",
+        "claim_kind": "fact",
+        "end_line": 44196,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44126
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "identity-and-wording-boundary",
+    "rationale": "同段乱码不足以创建多个新英雄，也不能把“才能不能”强读成剑圣体规则已经逆转。保存可读行为与原字句差异、不给缺字自行命名，是可以关闭的研究边界；这不等于证明原作者想写的具体字。",
+    "later_chapters": [
+      540,
+      546
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0540",
+        "start_line": 43672,
+        "end_line": 43712,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0546",
+        "start_line": 44169,
+        "end_line": 44194,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0004-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 3,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "李牧546反噬死后547列在场；普通玩家可复活但未展返路。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0546",
+          "claim_kind": "fact",
+          "end_line": 44196,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44126
+        },
+        {
+          "chapter_id": "ch-0547",
+          "claim_kind": "fact",
+          "end_line": 44273,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44197
+        },
+        {
+          "chapter_id": "ch-0548",
+          "claim_kind": "fact",
+          "end_line": 44346,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44274
+        }
+      ],
+      "handling": "记展示缺口不写永生，也不造专属复活道具。",
+      "id": "v03-a-show-gap",
+      "status": "unknown"
+    },
+    "title": "李牧546反噬死后547列在场",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0546",
+        "claim_kind": "fact",
+        "end_line": 44196,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44126
+      },
+      {
+        "chapter_id": "ch-0547",
+        "claim_kind": "fact",
+        "end_line": 44273,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44197
+      },
+      {
+        "chapter_id": "ch-0548",
+        "claim_kind": "fact",
+        "end_line": 44346,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44274
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "player-mortality-stage",
+    "rationale": "546李牧被反噬击杀是真实的游戏死亡，547又列在场也是真实后文；548明确普通玩家能够复活，549李牧亲报掉一级并领取奖励，足以排除把这次死亡记成永久消失。没有单独演返场路线，不能指定某人用某技能把他复起。",
+    "later_chapters": [
+      546,
+      547,
+      548,
+      549
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0546",
+        "start_line": 44169,
+        "end_line": 44174,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0547",
+        "start_line": 44244,
+        "end_line": 44248,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0548",
+        "start_line": 44275,
+        "end_line": 44298,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0549",
+        "start_line": 44348,
+        "end_line": 44360,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0004-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 3,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "李牧546反噬死后547列在场；普通玩家可复活但未展返路。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0546",
+          "claim_kind": "fact",
+          "end_line": 44196,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44126
+        },
+        {
+          "chapter_id": "ch-0547",
+          "claim_kind": "fact",
+          "end_line": 44273,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44197
+        },
+        {
+          "chapter_id": "ch-0548",
+          "claim_kind": "fact",
+          "end_line": 44346,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44274
+        }
+      ],
+      "handling": "记展示缺口不写永生，也不造专属复活道具。",
+      "id": "v03-a-show-gap",
+      "status": "unknown"
+    },
+    "title": "普通玩家可复活但未展返路。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0546",
+        "claim_kind": "fact",
+        "end_line": 44196,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44126
+      },
+      {
+        "chapter_id": "ch-0547",
+        "claim_kind": "fact",
+        "end_line": 44273,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44197
+      },
+      {
+        "chapter_id": "ch-0548",
+        "claim_kind": "fact",
+        "end_line": 44346,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44274
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "presentation-boundary",
+    "rationale": "普通玩家可复活由548明说，李牧后来现场发言和掉级自报也已出现；缺的是此人这一次返场的过程镜头。它不是作者立下的独立护送承诺，故作为展示省略关闭，不把缺镜头升级成不死能力或NPC式复生疑案。",
+    "later_chapters": [
+      548,
+      549
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0548",
+        "start_line": 44275,
+        "end_line": 44298,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0549",
+        "start_line": 44348,
+        "end_line": 44360,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0004-03",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 3,
+    "atomic_index": 2,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "李牧546反噬死后547列在场；普通玩家可复活但未展返路。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0546",
+          "claim_kind": "fact",
+          "end_line": 44196,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44126
+        },
+        {
+          "chapter_id": "ch-0547",
+          "claim_kind": "fact",
+          "end_line": 44273,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44197
+        },
+        {
+          "chapter_id": "ch-0548",
+          "claim_kind": "fact",
+          "end_line": 44346,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44274
+        }
+      ],
+      "handling": "记展示缺口不写永生，也不造专属复活道具。",
+      "id": "v03-a-show-gap",
+      "status": "unknown"
+    },
+    "title": "记展示缺口不写永生，也不造专属复活道具。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0546",
+        "claim_kind": "fact",
+        "end_line": 44196,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44126
+      },
+      {
+        "chapter_id": "ch-0547",
+        "claim_kind": "fact",
+        "end_line": 44273,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44197
+      },
+      {
+        "chapter_id": "ch-0548",
+        "claim_kind": "fact",
+        "end_line": 44346,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44274
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "mortality-evidence-boundary",
+    "rationale": "已落实不造永生与专属道具的限制：反噬击杀保在546，后在场及掉级保在547—549，两者在普通玩家可复活的明文框架内并存。具体复活者、地点和返路未展示便留空，不能用后来NPC复苏或霸王机制替这次补因。",
+    "later_chapters": [
+      546,
+      548,
+      549
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0546",
+        "start_line": 44169,
+        "end_line": 44174,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0548",
+        "start_line": 44275,
+        "end_line": 44298,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0549",
+        "start_line": 44348,
+        "end_line": 44360,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0005-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 4,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "549买野生鲑鱼做麻辣桂鱼两称。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0549",
+          "claim_kind": "fact",
+          "end_line": 44414,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44347
+        },
+        {
+          "chapter_id": "ch-0550",
+          "claim_kind": "fact",
+          "end_line": 44491,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44415
+        }
+      ],
+      "handling": "不据烹饪名强校购买种类；人物行为仍是买鱼回家。",
+      "id": "v03-a-food-fish",
+      "status": "unknown"
+    },
+    "title": "549买野生鲑鱼做麻辣桂鱼两称。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0549",
+        "claim_kind": "fact",
+        "end_line": 44414,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44347
+      },
+      {
+        "chapter_id": "ch-0550",
+        "claim_kind": "fact",
+        "end_line": 44491,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44415
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-food-wording",
+    "rationale": "549电话里把将买的野生鲑鱼与麻辣桂鱼做法连在一起，550只演池塘买鱼并付150元、桶10元，没有独立物种校正。可以确认买鱼行动已完成，不能靠菜名反校购买种类，也没有依据增造第二次买鱼来消除两称。",
+    "later_chapters": [
+      549,
+      550
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0549",
+        "start_line": 44390,
+        "end_line": 44411,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0550",
+        "start_line": 44416,
+        "end_line": 44449,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0005-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 4,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "549买野生鲑鱼做麻辣桂鱼两称。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0549",
+          "claim_kind": "fact",
+          "end_line": 44414,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44347
+        },
+        {
+          "chapter_id": "ch-0550",
+          "claim_kind": "fact",
+          "end_line": 44491,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44415
+        }
+      ],
+      "handling": "不据烹饪名强校购买种类；人物行为仍是买鱼回家。",
+      "id": "v03-a-food-fish",
+      "status": "unknown"
+    },
+    "title": "不据烹饪名强校购买种类",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0549",
+        "claim_kind": "fact",
+        "end_line": 44414,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44347
+      },
+      {
+        "chapter_id": "ch-0550",
+        "claim_kind": "fact",
+        "end_line": 44491,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44415
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "source-wording-boundary",
+    "rationale": "烹饪名称不能自动覆盖采购原词：保留549两种鱼称谓，550的付款只确认买鱼，不确认唯一鱼种。该约束已解释清楚，answered只关闭研究者擅自统一食材的可能，不称源文已经修订。",
+    "later_chapters": [
+      549,
+      550
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0549",
+        "start_line": 44390,
+        "end_line": 44411,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0550",
+        "start_line": 44416,
+        "end_line": 44449,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0005-03",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 4,
+    "atomic_index": 2,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "549买野生鲑鱼做麻辣桂鱼两称。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0549",
+          "claim_kind": "fact",
+          "end_line": 44414,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44347
+        },
+        {
+          "chapter_id": "ch-0550",
+          "claim_kind": "fact",
+          "end_line": 44491,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 44415
+        }
+      ],
+      "handling": "不据烹饪名强校购买种类；人物行为仍是买鱼回家。",
+      "id": "v03-a-food-fish",
+      "status": "unknown"
+    },
+    "title": "人物行为仍是买鱼回家。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0549",
+        "claim_kind": "fact",
+        "end_line": 44414,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44347
+      },
+      {
+        "chapter_id": "ch-0550",
+        "claim_kind": "fact",
+        "end_line": 44491,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 44415
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "action-completion",
+    "rationale": "549还是答应回家和买鱼，550已经开车携两女出发、池塘选鱼并由林付款，到达婶家。因而“买鱼回家”行动有直接后证，食材字词差不阻止这一进度完成，也不把付鱼的钱算成其他家庭转款。",
+    "later_chapters": [
+      549,
+      550
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0549",
+        "start_line": 44390,
+        "end_line": 44411,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0550",
+        "start_line": 44416,
+        "end_line": 44449,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0006-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 5,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "565五转学书句中称“3转技能书”。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0564",
+          "claim_kind": "fact",
+          "end_line": 45521,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 45424
+        },
+        {
+          "chapter_id": "ch-0565",
+          "claim_kind": "fact",
+          "end_line": 45577,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 45522
+        }
+      ],
+      "handling": "以任务/系统首五转明证，异句单存不改三转时间线。",
+      "id": "v03-a-fifth",
+      "status": "unknown"
+    },
+    "title": "565五转学书句中称“3转技能书”。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0564",
+        "claim_kind": "fact",
+        "end_line": 45521,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 45424
+      },
+      {
+        "chapter_id": "ch-0565",
+        "claim_kind": "fact",
+        "end_line": 45577,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 45522
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-promotion-wording",
+    "rationale": "564接的是100级第五次晋职的千人斩，565已系统全服首五转、获扬威龙骑将，随后买书的一句却写3转技能书。该句与明确晋职场景不合，但没有作者勘误解释其字面原因；不因此把此次首五转倒改第三转或再造一次转职。",
+    "later_chapters": [
+      564,
+      565
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0564",
+        "start_line": 45501,
+        "end_line": 45519,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0565",
+        "start_line": 45545,
+        "end_line": 45575,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0006-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 5,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "565五转学书句中称“3转技能书”。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0564",
+          "claim_kind": "fact",
+          "end_line": 45521,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 45424
+        },
+        {
+          "chapter_id": "ch-0565",
+          "claim_kind": "fact",
+          "end_line": 45577,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 45522
+        }
+      ],
+      "handling": "以任务/系统首五转明证，异句单存不改三转时间线。",
+      "id": "v03-a-fifth",
+      "status": "unknown"
+    },
+    "title": "以任务/系统首五转明证，异句单存不改三转时间线。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0564",
+        "claim_kind": "fact",
+        "end_line": 45521,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 45424
+      },
+      {
+        "chapter_id": "ch-0565",
+        "claim_kind": "fact",
+        "end_line": 45577,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 45522
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "promotion-timeline-boundary",
+    "rationale": "晋职时间线已有任务和系统双接口：千人斩达成后565首五转，并实际付30万学习新技能；单个“3转技能书”异句不足以取消这次晋职。answered关闭由赘误倒改时间线的研究问题，原句本身仍按源差保留。",
+    "later_chapters": [
+      564,
+      565
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0564",
+        "start_line": 45501,
+        "end_line": 45519,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0565",
+        "start_line": 45545,
+        "end_line": 45575,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0007-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 6,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "冰极书100×100与战描100码波，旧技天阶/新技LV的表述并用。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0565",
+          "claim_kind": "fact",
+          "end_line": 45577,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 45522
+        },
+        {
+          "chapter_id": "ch-0566",
+          "claim_kind": "fact",
+          "end_line": 45654,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 45578
+        },
+        {
+          "chapter_id": "ch-0570",
+          "claim_kind": "fact",
+          "end_line": 45893,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 45837
+        }
+      ],
+      "handling": "保几何描述粒度与不同技能层级，不统一成全技能已天阶。",
+      "id": "v03-a-ice-shape",
+      "status": "unknown"
+    },
+    "title": "冰极书100×100与战描100码波，旧技天阶/新技LV的表述并用。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0565",
+        "claim_kind": "fact",
+        "end_line": 45577,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 45522
+      },
+      {
+        "chapter_id": "ch-0566",
+        "claim_kind": "fact",
+        "end_line": 45654,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 45578
+      },
+      {
+        "chapter_id": "ch-0570",
+        "claim_kind": "fact",
+        "end_line": 45893,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 45837
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "rule-description-granularity",
+    "rationale": "565书面100×100与566冰波100码没有同时指定互斥的半径、直径或边长，现证不足以判定硬性范围冲突。566又明确新学冰极/霜甲LV2、旧十级技能只开启天阶条，属于不同技能与成长阶段；此项按描述粒度和对象差异关闭，具体几何不补成唯一模型。",
+    "later_chapters": [
+      565,
+      566
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0565",
+        "start_line": 45558,
+        "end_line": 45575,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0566",
+        "start_line": 45579,
+        "end_line": 45609,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0566",
+        "start_line": 45629,
+        "end_line": 45652,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0007-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 6,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "冰极书100×100与战描100码波，旧技天阶/新技LV的表述并用。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0565",
+          "claim_kind": "fact",
+          "end_line": 45577,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 45522
+        },
+        {
+          "chapter_id": "ch-0566",
+          "claim_kind": "fact",
+          "end_line": 45654,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 45578
+        },
+        {
+          "chapter_id": "ch-0570",
+          "claim_kind": "fact",
+          "end_line": 45893,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 45837
+        }
+      ],
+      "handling": "保几何描述粒度与不同技能层级，不统一成全技能已天阶。",
+      "id": "v03-a-ice-shape",
+      "status": "unknown"
+    },
+    "title": "保几何描述粒度与不同技能层级，不统一成全技能已天阶。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0565",
+        "claim_kind": "fact",
+        "end_line": 45577,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 45522
+      },
+      {
+        "chapter_id": "ch-0566",
+        "claim_kind": "fact",
+        "end_line": 45654,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 45578
+      },
+      {
+        "chapter_id": "ch-0570",
+        "claim_kind": "fact",
+        "end_line": 45893,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 45837
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "skill-stage-boundary",
+    "rationale": "新技能仍为普通LV2与老技能获得天阶熟练条可以并存，不能看见“天阶1级”章题就宣布所有新旧技能已同阶。研究应逐技能记录实际面板；未指定的冰波几何留空，这一证据边界无需等待另一个剧情回收。",
+    "later_chapters": [
+      565,
+      566
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0565",
+        "start_line": 45558,
+        "end_line": 45575,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0566",
+        "start_line": 45629,
+        "end_line": 45652,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0008-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 7,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "575泣血提示10/20/20，紧接正文30且每杀10无上限。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0575",
+          "claim_kind": "fact",
+          "end_line": 46272,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 46191
+        }
+      ],
+      "handling": "重复20保源，不造封顶20的新机制。",
+      "id": "v03-a-blood-growth",
+      "status": "unknown"
+    },
+    "title": "575泣血提示10/20/20，紧接正文30且每杀10无上限。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0575",
+        "claim_kind": "fact",
+        "end_line": 46272,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 46191
+      }
+    ],
+    "status": "unknown",
+    "audit_domain": "source-stacking-number",
+    "rationale": "575三条系统提示累计写10%、20%、20%，紧随叙述却明确30%并说每杀加10%、没有上限。两类字面数值不一致，不能将第三条猜改后的30%当作者正式修订；也不能反过来只据重复20%建立封顶20%的规则。未知的是这条提示的准确字面意图。",
+    "later_chapters": [
+      575
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0575",
+        "start_line": 46229,
+        "end_line": 46246,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0008-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 7,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "575泣血提示10/20/20，紧接正文30且每杀10无上限。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0575",
+          "claim_kind": "fact",
+          "end_line": 46272,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 46191
+        }
+      ],
+      "handling": "重复20保源，不造封顶20的新机制。",
+      "id": "v03-a-blood-growth",
+      "status": "unknown"
+    },
+    "title": "重复20保源，不造封顶20的新机制。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0575",
+        "claim_kind": "fact",
+        "end_line": 46272,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 46191
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "number-inference-boundary",
+    "rationale": "正文30%与后续叠100%、无上限的同场叙述，已经足以否定从第三条重复20%推出封顶20%的研究解释。answered关闭无证规则扩写；系统提示原样保留，不把推测为误写当成作者已勘误。",
+    "later_chapters": [
+      575
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0575",
+        "start_line": 46229,
+        "end_line": 46246,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0009-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 8,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "577罗林借毁灭终杀后丢旁，578赤手，579安再持，拾还过程未示。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0577",
+          "claim_kind": "fact",
+          "end_line": 46424,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 46345
+        },
+        {
+          "chapter_id": "ch-0578",
+          "claim_kind": "fact",
+          "end_line": 46507,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 46425
+        },
+        {
+          "chapter_id": "ch-0579",
+          "claim_kind": "fact",
+          "end_line": 46575,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 46508
+        }
+      ],
+      "handling": "持有后证能说明已归安，缺过程不造被毁或王没收。",
+      "id": "v03-a-destruction-gap",
+      "status": "unknown"
+    },
+    "title": "577罗林借毁灭终杀后丢旁，578赤手，579安再持，拾还过程未示。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0577",
+        "claim_kind": "fact",
+        "end_line": 46424,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 46345
+      },
+      {
+        "chapter_id": "ch-0578",
+        "claim_kind": "fact",
+        "end_line": 46507,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 46425
+      },
+      {
+        "chapter_id": "ch-0579",
+        "claim_kind": "fact",
+        "end_line": 46575,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 46508
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "ownership-and-presentation",
+    "rationale": "577罗林借毁灭终杀后丢旁、578赤手均为各自时点；579安吉拉再次实际持毁灭救兄，持有结果已经明确。拾取或交还未逐镜头展示，只保过程省略，不把它列为神器永失、损毁或国王没收，也不虚构由谁递还。",
+    "later_chapters": [
+      577,
+      578,
+      579
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0577",
+        "start_line": 46400,
+        "end_line": 46422,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0578",
+        "start_line": 46501,
+        "end_line": 46505,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0579",
+        "start_line": 46550,
+        "end_line": 46561,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:16:15.057034+00:00",
+    "reading_attribution": "原卷3前149片与卷6由本裁定者实际全文读；本项列证在本人已读范围并复看原notes，新增原文复核另见source-checks。其他读者的原行不归本裁定者。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  }
+]

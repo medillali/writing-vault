@@ -1,0 +1,57 @@
+{
+  "asset_id": "scn-38396a927c595e378408acc2f55a338a",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "适用于目标明确、条件随阶段变化的长篇群像；转换为原创条件，不复用专名/数值/标志场面。",
+    "character_origin_keys": [
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol04/character/luchen",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol04/character/beiming",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol04/character/vienna"
+    ],
+    "choice": "陆缚身爆发、北降防，幸福时光大地守护替换并无敌救维。",
+    "consequence": "替身英雄被陆杀，维此时逃，北墙后毁。",
+    "core_chapter_id": "ch-0760",
+    "core_narrative_order": 760,
+    "failure_mode": "不能将替身死/黑血等同维已死。",
+    "goal": "斩北盟核心维。",
+    "obstacle": "维受群牧，北破羽10s禁疗后被压黑血。",
+    "state_change": "近兑现→救援反转/战略更危。",
+    "summary": "替身英雄被陆杀，维此时逃，北墙后毁。",
+    "why_it_works": "把敌方也写成能救队友的组织，推迟最终击杀保价值。"
+  },
+  "created_at": "2026-10-24T23:04:58.951488+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0759",
+      "claim_kind": "fact",
+      "end_line": 63211,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 63130
+    },
+    {
+      "chapter_id": "ch-0760",
+      "claim_kind": "fact",
+      "end_line": 63284,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 63212
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol04/scene/heal-denial",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:4",
+    "研究:全量九维"
+  ],
+  "title": "维禁疗将死却被同伴换走",
+  "updated_at": "2026-10-24T23:04:58.951488+00:00",
+  "user_notes": ""
+}

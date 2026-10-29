@@ -1,0 +1,75 @@
+{
+  "reviewer": "/root/zongheng_vol05_full",
+  "status": "actual_full_raw_reread_complete_for_two_chapters",
+  "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+  "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+  "chapters": [
+    {
+      "chapter_id": "ch-1098",
+      "start_line": 88875,
+      "end_line": 88948,
+      "complete_read": true
+    },
+    {
+      "chapter_id": "ch-1209",
+      "start_line": 97112,
+      "end_line": 97183,
+      "complete_read": true
+    }
+  ],
+  "truncated_pending": [],
+  "identity_rows": [
+    {
+      "chapter_id": "ch-1098",
+      "line": 88905,
+      "player_id": "吻痕",
+      "region": "中国",
+      "level": 165,
+      "profession": "刺客",
+      "guild": "谁与争锋"
+    },
+    {
+      "chapter_id": "ch-1098",
+      "line": 88906,
+      "player_id": "吻痕",
+      "region": "美国",
+      "level": 192,
+      "profession": "战士",
+      "guild": "英雄联盟"
+    },
+    {
+      "chapter_id": "ch-1098",
+      "line": 88907,
+      "player_id": "吻痕",
+      "region": "无籍／荷兰背景",
+      "level": 199,
+      "profession": "战士",
+      "guild": "神圣盟约"
+    },
+    {
+      "chapter_id": "ch-1209",
+      "line": 97116,
+      "player_id": "谁与争锋",
+      "region": "巴西",
+      "level": 212,
+      "profession": "剑术宗师",
+      "guild": "锋芒",
+      "office": "盟主"
+    }
+  ],
+  "error_type": "derived-research-entity-misattribution-not-source-text-anomaly",
+  "conclusion": "1098的中国165刺客ID是吻痕；谁与争锋是其所属公会。1209的谁与争锋是巴西锋芒盟主。没有据此列出中国165刺客谁与争锋或美国192战士谁与争锋的依据。",
+  "origin_boundary": "primary先完整回读发现；本代理随后再次BEGIN—END完整读1098/1209，纠正本人旧裁定与旧派生材料误配，不倒改冻结分卷原字段。",
+  "revision_status": "approved_terminal_correction_applied_pending_new_root_sha_signature",
+  "applied_candidate_ids": [
+    "v06-local-issue_log-001-01",
+    "v06-local-chapter_unresolved_index-151-02"
+  ],
+  "read_attribution_unchanged": true,
+  "full_raw_rereads_this_revision": [
+    1098,
+    1209
+  ],
+  "original_frozen_volume_notes_unchanged": true,
+  "prior_read_receipt": "same-name-identity-before-apply/same-name-identity-source-check.json"
+}

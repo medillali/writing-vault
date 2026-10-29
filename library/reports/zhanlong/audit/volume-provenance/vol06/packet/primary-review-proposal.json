@@ -1,0 +1,856 @@
+{
+  "status": "proposal_only_not_applied",
+  "base_freeze_sha256": "b5f408525fba0be8d7a3ef6e192878b5c7a40d8519c442ce7b3897464337786a",
+  "base_files": {
+    "analysis.json": "00b06caef1c6337c86b717c7578acc1e0578d0cda5fb640189e5f623df51bac2",
+    "cards.json": "4b99ae67a20c7ee97fa1a2668cbebdd3bd653b9344797a5b2f683f0aaf2f402b",
+    "graph.json": "265873e7749d081b7ba25a7f81b252abc83c923d787143f8d51c4db3e38fb2ce",
+    "report.md": "6ceba65f603fa9ec518d302a7e57e1fdfab4a7386177aa08b16e951575277ba9",
+    "handoff.md": "c4ae7925c75bdbb3bb77ea6061dc91a92c7f20a2616daf33593d0bc440fdd1b8",
+    "chapter-unresolved-index.json": "f3c74ed85f078144352f302e95a6dde3b87dd320b37e129df5edb23c28c1a03f",
+    "chapter-notes.jsonl": "390d10740eec447ba04babff420b862a03ab0647d8c92f1ba9e7a6461abac48c",
+    "reader-state.json": "68bcbfd80aae3622647bf8efd309d1e33f93f337e460de3ca59cdedfbd4d6135",
+    "read-log.json": "4bdf54476648e54cfd408c6135f35e1416c8c2c279039fbae472a33184f174b3",
+    "validation.json": "12cd24fb504ab33208cd0db9284eec38e3a60cc0687d0deccda1ff4c2cd6c1d3"
+  },
+  "changes": [
+    {
+      "file": "analysis.json",
+      "json_path": [
+        "dimensions",
+        "worldbuilding",
+        0,
+        "facts",
+        0,
+        "text"
+      ],
+      "before": "龙谷要以食物、河道和生态引龙；地雷使用库存火药，泽城最后神威弹打空；北伐补炮来自新采晶/一个月128门制造，鬼城又因粮尽、炮潮受困。",
+      "proposed_after": "龙谷要以食物、河道和生态引龙；地雷使用库存火药，泽城最后神威弹打空；北伐补炮来自新采晶/一个月128门制造，鬼城又遭粮尽与炮引线受潮风险；防雨后炮仍能发射。",
+      "rationale": "同义事实澄清：受潮是风险，不能写成已哑炮。",
+      "source_basis": [
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99582,
+          "end_line": 99594,
+          "note": "燕令布/盾甲遮引线，雨中炮仍发；兽骑速度快难瞄准/瞬杀"
+        },
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99607,
+          "end_line": 99620,
+          "note": "西门城墙被砸破，随后方共享59:59开幕倒计时"
+        }
+      ]
+    },
+    {
+      "file": "analysis.json",
+      "json_path": [
+        "dimensions",
+        "pacing",
+        2,
+        "facts",
+        0,
+        "text"
+      ],
+      "before": "鬼城先墙高炮多→野战半败→墙破人半→马粮尽→三万取粮被伏→哗变三千出死→雨压火炮→西破城，才外援短时开口。",
+      "proposed_after": "鬼城先墙高炮多，随后野战失利、墙损减员、马粮尽、三万取粮遭伏、哗变三千出城被杀；敌待雨进攻，但布与盾甲护引线后炮仍能发射。快兽难以瞄准或瞬杀，西城门城墙仍被砸破；外援再提供短时开口。",
+      "rationale": "用先后事实代替“雨压炮→破城”的歧义因果链。",
+      "source_basis": [
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99582,
+          "end_line": 99594,
+          "note": "燕令布/盾甲遮引线，雨中炮仍发；兽骑速度快难瞄准/瞬杀"
+        },
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99607,
+          "end_line": 99620,
+          "note": "西门城墙被砸破，随后方共享59:59开幕倒计时"
+        }
+      ]
+    },
+    {
+      "file": "analysis.json",
+      "json_path": [
+        "dimensions",
+        "continuity",
+        3,
+        "title"
+      ],
+      "before": "历史未决串保存后用新证更新而不删除",
+      "proposed_after": "长期承诺由不同状态的再出现分步回收",
+      "rationale": "将研究索引流程改为小说实际的承诺回收机制。",
+      "source_basis": []
+    },
+    {
+      "file": "analysis.json",
+      "json_path": [
+        "dimensions",
+        "continuity",
+        3,
+        "interpretation",
+        "text"
+      ],
+      "before": "逐章未明索引保原话与读者，再以终点问题池说明已答/未答，避免只挑研究者记得的谜。",
+      "proposed_after": "职位正式授任、身体恢复、营业资格和授权签字的再次出现，使不同旧承诺分别获得可见回收；秦皇空棺、长老回赠与旧贪查仍留空缺，完成感因而是局部累积，并非一次全清。",
+      "rationale": "保原facts/全部证据与未闭项，只把解释改成文学内容。",
+      "source_basis": []
+    },
+    {
+      "file": "analysis.json",
+      "json_path": [
+        "dimensions",
+        "continuity",
+        3,
+        "limits_and_counterevidence"
+      ],
+      "before": "真正后证缺失只称本卷未明，不宣作者遗忘；卷3prefix之外前史未冒全文实读。",
+      "proposed_after": "本卷没有给出秦皇尸去向、回赠长老和旧贪查的完成场面；相似资源在别处再次出现，也不等于该项旧承诺已经兑现。",
+      "rationale": "移除亲读边界/流程措辞，保小说内回收不充分的限制。",
+      "source_basis": []
+    },
+    {
+      "file": "analysis.json",
+      "json_path": [
+        "dimensions",
+        "continuity",
+        4,
+        "title"
+      ],
+      "before": "异常保存为源疑点不扩成新世界规则",
+      "proposed_after": "命名与数值漂移增加连续阅读负担",
+      "rationale": "把操作规范标题改为连续性实际效果，不把源差当优点。",
+      "source_basis": []
+    },
+    {
+      "file": "analysis.json",
+      "json_path": [
+        "dimensions",
+        "continuity",
+        4,
+        "interpretation",
+        "text"
+      ],
+      "before": "证据可验证的是字面不一致；原因可能误写/统计范围变化，应把修辞推断与事实区别。",
+      "proposed_after": "同一神尊的名字、神格品级与兵力口径变化，会使读者更难辨认实体、比较损益和追踪因果；后来明确的行动结果能限定部分理解，却不能消除所有字面歧义。",
+      "rationale": "去研究方法口吻，说明对读者因果确定的影响。",
+      "source_basis": []
+    },
+    {
+      "file": "analysis.json",
+      "json_path": [
+        "dimensions",
+        "continuity",
+        4,
+        "limits_and_counterevidence"
+      ],
+      "before": "检查通过只证明定位和结构，不证明每个解释成立；当前全部待主审。",
+      "proposed_after": "未获解释的命名和数值差异会削弱读者对同人、位阶与损失规模的确定判断；结局成功不能替这些差异补出唯一解释，它们仍是连续阅读的负担。",
+      "rationale": "去“检查通过/待主审”流程，限定为文学局限。",
+      "source_basis": []
+    },
+    {
+      "file": "analysis.json",
+      "json_path": [
+        "dimensions",
+        "continuity",
+        4,
+        "facts",
+        0,
+        "text"
+      ],
+      "before": "同段空间神尊名乱码/异写、冬茗格中上位漂移，三千余撤兵/五万禁军等有口径差；不补未经解释的隐身或复活使算术圆整。",
+      "proposed_after": "同段空间神尊名乱码/异写、冬茗格中上位漂移；祝海三万禁军出队与随后景音所称五万禁军存在口径差。",
+      "rationale": "同一待修观察内的数词澄清：三千是另一次孙方霖出城，不能当此源差。",
+      "source_basis": [
+        {
+          "chapter_id": "ch-1383",
+          "start_line": 99443,
+          "end_line": 99456,
+          "note": "祝海改带3万禁军并实际出北门"
+        },
+        {
+          "chapter_id": "ch-1384",
+          "start_line": 99501,
+          "end_line": 99508,
+          "note": "景音惜五万禁军"
+        }
+      ]
+    },
+    {
+      "file": "analysis.json",
+      "json_path": [
+        "dimensions",
+        "continuity",
+        4,
+        "facts",
+        0,
+        "evidence"
+      ],
+      "before": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1251",
+          "start_line": 90595,
+          "end_line": 90654,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1253",
+          "start_line": 90719,
+          "end_line": 90784,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1262",
+          "start_line": 91320,
+          "end_line": 91389,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1264",
+          "start_line": 91458,
+          "end_line": 91520,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1324",
+          "start_line": 95451,
+          "end_line": 95509,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1325",
+          "start_line": 95510,
+          "end_line": 95590,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1340",
+          "start_line": 96470,
+          "end_line": 96525,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1384",
+          "start_line": 99500,
+          "end_line": 99580,
+          "claim_kind": "fact"
+        }
+      ],
+      "proposed_after": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1251",
+          "start_line": 90595,
+          "end_line": 90654,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1253",
+          "start_line": 90719,
+          "end_line": 90784,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1262",
+          "start_line": 91320,
+          "end_line": 91389,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1264",
+          "start_line": 91458,
+          "end_line": 91520,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1324",
+          "start_line": 95451,
+          "end_line": 95509,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1325",
+          "start_line": 95510,
+          "end_line": 95590,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1340",
+          "start_line": 96470,
+          "end_line": 96525,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1384",
+          "start_line": 99500,
+          "end_line": 99580,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1383",
+          "start_line": 99443,
+          "end_line": 99456,
+          "claim_kind": "fact"
+        }
+      ],
+      "rationale": "为三万出队增加精准证据，保已有证据不删。",
+      "source_basis": []
+    },
+    {
+      "file": "analysis.json",
+      "json_path": [
+        "dimensions",
+        "continuity",
+        4,
+        "interpretation",
+        "evidence"
+      ],
+      "before": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1251",
+          "start_line": 90595,
+          "end_line": 90654,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1253",
+          "start_line": 90719,
+          "end_line": 90784,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1262",
+          "start_line": 91320,
+          "end_line": 91389,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1264",
+          "start_line": 91458,
+          "end_line": 91520,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1324",
+          "start_line": 95451,
+          "end_line": 95509,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1325",
+          "start_line": 95510,
+          "end_line": 95590,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1340",
+          "start_line": 96470,
+          "end_line": 96525,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1384",
+          "start_line": 99500,
+          "end_line": 99580,
+          "claim_kind": "synthesis"
+        }
+      ],
+      "proposed_after": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1251",
+          "start_line": 90595,
+          "end_line": 90654,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1253",
+          "start_line": 90719,
+          "end_line": 90784,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1262",
+          "start_line": 91320,
+          "end_line": 91389,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1264",
+          "start_line": 91458,
+          "end_line": 91520,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1324",
+          "start_line": 95451,
+          "end_line": 95509,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1325",
+          "start_line": 95510,
+          "end_line": 95590,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1340",
+          "start_line": 96470,
+          "end_line": 96525,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1384",
+          "start_line": 99500,
+          "end_line": 99580,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1383",
+          "start_line": 99443,
+          "end_line": 99456,
+          "claim_kind": "synthesis"
+        }
+      ],
+      "rationale": "为三万出队增加精准证据，保已有证据不删。",
+      "source_basis": []
+    },
+    {
+      "file": "analysis.json",
+      "json_path": [
+        "dimensions",
+        "continuity",
+        4,
+        "evidence"
+      ],
+      "before": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1251",
+          "start_line": 90595,
+          "end_line": 90654,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1253",
+          "start_line": 90719,
+          "end_line": 90784,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1262",
+          "start_line": 91320,
+          "end_line": 91389,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1264",
+          "start_line": 91458,
+          "end_line": 91520,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1324",
+          "start_line": 95451,
+          "end_line": 95509,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1325",
+          "start_line": 95510,
+          "end_line": 95590,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1340",
+          "start_line": 96470,
+          "end_line": 96525,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1384",
+          "start_line": 99500,
+          "end_line": 99580,
+          "claim_kind": "synthesis"
+        }
+      ],
+      "proposed_after": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1251",
+          "start_line": 90595,
+          "end_line": 90654,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1253",
+          "start_line": 90719,
+          "end_line": 90784,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1262",
+          "start_line": 91320,
+          "end_line": 91389,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1264",
+          "start_line": 91458,
+          "end_line": 91520,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1324",
+          "start_line": 95451,
+          "end_line": 95509,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1325",
+          "start_line": 95510,
+          "end_line": 95590,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1340",
+          "start_line": 96470,
+          "end_line": 96525,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1384",
+          "start_line": 99500,
+          "end_line": 99580,
+          "claim_kind": "synthesis"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1383",
+          "start_line": 99443,
+          "end_line": 99456,
+          "claim_kind": "synthesis"
+        }
+      ],
+      "rationale": "为三万出队增加精准证据，保已有证据不删。",
+      "source_basis": []
+    },
+    {
+      "file": "cards.json",
+      "json_path": [
+        0,
+        "content",
+        "constraints"
+      ],
+      "before": "技能冷却、位面封闭、NPC不可复、皇权猜忌及现实时间。",
+      "proposed_after": "技能冷却、位面封闭、NPC军不能按玩家方式掉级返场、皇权猜忌及现实时间。",
+      "rationale": "收窄为当前NPC军返场限制，兼容流/佩其他复苏机制。",
+      "source_basis": []
+    },
+    {
+      "file": "cards.json",
+      "json_path": [
+        3,
+        "content",
+        "stage_change"
+      ],
+      "before": "屠龙/刀锋战耗伤→沧肉体毁但魂逃→佩救醒→终救残军/留百龙骑守关。",
+      "proposed_after": "屠龙/刀锋战耗伤→沧肉体毁但魂逃→佩救醒→终救残军/允留百名龙骑协防，未另演全部到场。",
+      "rationale": "1386流的措辞是将会留下，不是百骑已完成驻防清册。",
+      "source_basis": [
+        {
+          "chapter_id": "ch-1386",
+          "start_line": 99695,
+          "end_line": 99700
+        }
+      ]
+    },
+    {
+      "file": "analysis.json",
+      "json_path": [
+        "character_states",
+        3,
+        "stage_change"
+      ],
+      "before": "屠龙/刀锋战耗伤→沧肉体毁但魂逃→佩救醒→终救残军/留百龙骑守关。",
+      "proposed_after": "屠龙/刀锋战耗伤→沧肉体毁但魂逃→佩救醒→终救残军/允留百名龙骑协防，未另演全部到场。",
+      "rationale": "同步同一人物阶段状态。",
+      "source_basis": []
+    },
+    {
+      "file": "cards.json",
+      "json_path": [
+        10,
+        "content",
+        "relationship_directions"
+      ],
+      "before": [
+        "薛景：姐姐",
+        "李：出资者/队友与未配成的爱慕",
+        "宋狐冉：创业协作伙伴"
+      ],
+      "proposed_after": [
+        "薛景：妹妹，薛柔为姐姐",
+        "李：出资者/队友与未配成的爱慕",
+        "宋狐冉：创业协作伙伴"
+      ],
+      "rationale": "关系方向写清主宾。",
+      "source_basis": []
+    },
+    {
+      "file": "cards.json",
+      "json_path": [
+        86,
+        "content",
+        "obstacle"
+      ],
+      "before": "炮湿/布少/兽快/西墙破",
+      "proposed_after": "雨中引线受潮风险/遮雨布少/兽骑快/西墙破",
+      "rationale": "与实际炮仍可开火分开。",
+      "source_basis": [
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99582,
+          "end_line": 99594,
+          "note": "燕令布/盾甲遮引线，雨中炮仍发；兽骑速度快难瞄准/瞬杀"
+        },
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99607,
+          "end_line": 99620,
+          "note": "西门城墙被砸破，随后方共享59:59开幕倒计时"
+        }
+      ]
+    },
+    {
+      "file": "cards.json",
+      "json_path": [
+        86,
+        "content",
+        "summary"
+      ],
+      "before": "4万玩家开路入皇营/炮护不再足城；外流开幕倒计时到。",
+      "proposed_after": "防雨后重炮仍可发射，但快兽难以瞄准或瞬杀，西城墙仍被砸破；方共享开幕倒计时，4万玩家开始袭皇营掩护NPC撤退。",
+      "rationale": "保开炮事实，并将“倒计时到”澄清为共享倒计时已开始，非已经归零。",
+      "source_basis": [
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99582,
+          "end_line": 99594,
+          "note": "燕令布/盾甲遮引线，雨中炮仍发；兽骑速度快难瞄准/瞬杀"
+        },
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99607,
+          "end_line": 99620,
+          "note": "西门城墙被砸破，随后方共享59:59开幕倒计时"
+        }
+      ]
+    },
+    {
+      "file": "cards.json",
+      "json_path": [
+        86,
+        "content",
+        "consequence"
+      ],
+      "before": "4万玩家开路入皇营/炮护不再足城；外流开幕倒计时到。",
+      "proposed_after": "防雨后重炮仍可发射，但快兽难以瞄准或瞬杀，西城墙仍被砸破；方共享开幕倒计时，4万玩家开始袭皇营掩护NPC撤退。",
+      "rationale": "保开炮事实，并将“倒计时到”澄清为共享倒计时已开始，非已经归零。",
+      "source_basis": [
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99582,
+          "end_line": 99594,
+          "note": "燕令布/盾甲遮引线，雨中炮仍发；兽骑速度快难瞄准/瞬杀"
+        },
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99607,
+          "end_line": 99620,
+          "note": "西门城墙被砸破，随后方共享59:59开幕倒计时"
+        }
+      ]
+    },
+    {
+      "file": "cards.json",
+      "json_path": [
+        86,
+        "content",
+        "state_change"
+      ],
+      "before": "4万玩家开路入皇营/炮护不再足城；外流开幕倒计时到。",
+      "proposed_after": "防雨后重炮仍可发射，但快兽难以瞄准或瞬杀，西城墙仍被砸破；方共享开幕倒计时，4万玩家开始袭皇营掩护NPC撤退。",
+      "rationale": "保开炮事实，并将“倒计时到”澄清为共享倒计时已开始，非已经归零。",
+      "source_basis": [
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99582,
+          "end_line": 99594,
+          "note": "燕令布/盾甲遮引线，雨中炮仍发；兽骑速度快难瞄准/瞬杀"
+        },
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99607,
+          "end_line": 99620,
+          "note": "西门城墙被砸破，随后方共享59:59开幕倒计时"
+        }
+      ]
+    },
+    {
+      "file": "graph.json",
+      "json_path": [
+        "nodes",
+        66,
+        "summary"
+      ],
+      "before": "4万玩家开路入皇营/炮护不再足城；外流开幕倒计时到。",
+      "proposed_after": "防雨后重炮仍可发射，但快兽难以瞄准或瞬杀，西城墙仍被砸破；方共享开幕倒计时，4万玩家开始袭皇营掩护NPC撤退。",
+      "rationale": "同步来源场景节点，不新造雨停炮因果边。",
+      "source_basis": [
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99582,
+          "end_line": 99594,
+          "note": "燕令布/盾甲遮引线，雨中炮仍发；兽骑速度快难瞄准/瞬杀"
+        },
+        {
+          "chapter_id": "ch-1385",
+          "start_line": 99607,
+          "end_line": 99620,
+          "note": "西门城墙被砸破，随后方共享59:59开幕倒计时"
+        }
+      ]
+    },
+    {
+      "file": "graph.json",
+      "json_path": [
+        "edges",
+        5,
+        "kind"
+      ],
+      "before": "setup",
+      "proposed_after": "echo",
+      "rationale": "这是同主题/后果的呼应而非已经建立的情节伏笔；label/证据保持。",
+      "source_basis": []
+    },
+    {
+      "file": "graph.json",
+      "json_path": [
+        "edges",
+        12,
+        "kind"
+      ],
+      "before": "setup",
+      "proposed_after": "echo",
+      "rationale": "这是同主题/后果的呼应而非已经建立的情节伏笔；label/证据保持。",
+      "source_basis": []
+    }
+  ],
+  "scene_fields_proposal": "scene-transfer-proposals.json",
+  "synchronization_on_approval": [
+    "仅将批准字段应用到JSON，report对应同条文字、handoff流允留百骑同步。",
+    "同步build_artifacts.py/research_cards.py/research_interfaces.py及58场景手写数据的装配入口；不重造其他已审语义。",
+    "保旧freeze/validation回执另存，应用后串行校验并固定新SHA；原notes/state/log索引不动。"
+  ],
+  "unchanged": "冻结文件当前全部哈希仍匹配；没有执行上述任何修改。"
+}

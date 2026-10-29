@@ -1,0 +1,58 @@
+# 贼胆｜护手挨打，提烤鸭回家｜S0002
+
+ID: `scn-zeidan-legacy-s0002` · 版本: 1 · 范围: source-analysis
+
+萧御偷流氓财物时挨打仍护手，给妹妹买烤鸭，听万元头盔又退缩。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-zeidan-legacy-s0002",
+  "asset_type": "scene",
+  "content": {
+    "choice": "保住吃饭的手并先改善妹妹一顿饭",
+    "facts": [
+      "萧御偷流氓财物时挨打仍护手，给妹妹买烤鸭，听万元头盔又退缩。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/scenes.json#S0002",
+    "name": "护手挨打，提烤鸭回家",
+    "prehistory": "无稳定合法收入",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "S0002",
+    "result": "赚钱转游戏意愿与现实门槛同时成立",
+    "summary": "萧御偷流氓财物时挨打仍护手，给妹妹买烤鸭，听万元头盔又退缩。",
+    "user_feedback": null,
+    "worker_part": "part-a"
+  },
+  "created_at": "2026-10-22T17:03:13.571230+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0003",
+      "claim_kind": "fact",
+      "end_line": 125,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 81
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/S0002",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-a"
+  ],
+  "title": "贼胆｜护手挨打，提烤鸭回家｜S0002",
+  "updated_at": "2026-10-22T17:03:13.572232+00:00",
+  "user_notes": ""
+}
+
+```

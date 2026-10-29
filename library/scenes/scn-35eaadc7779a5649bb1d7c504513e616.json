@@ -1,0 +1,59 @@
+{
+  "asset_id": "scn-35eaadc7779a5649bb1d7c504513e616",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "侦查线",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/you",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/ouyang",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/shen",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/wangxin"
+    ],
+    "choice": "实偷样送检而非直接凭确信抓",
+    "claim_kind": "inference",
+    "consequence": "这条证据路线未达成，案仍继续",
+    "failure_mode": "不把血阴性当清白或主已突破阳炎",
+    "goal": "把嫌疑转司法可捕证据",
+    "narrative_order": 706,
+    "obstacle": "自然血液不显异常",
+    "state_change": "证据的阴性结果有情节作用",
+    "summary": "主681偷取游血，706化验蓝药可改DNA而血无可定罪成分；欧阳此前阳炎示威仍活。",
+    "why_it_works": "预测和检测结果保持差异"
+  },
+  "created_at": "2026-10-25T20:23:25.252347+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0681",
+      "claim_kind": "fact",
+      "end_line": 54141,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 54061
+    },
+    {
+      "chapter_id": "ch-0706",
+      "claim_kind": "fact",
+      "end_line": 55713,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 55637
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/scene/bloodtest",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "血样检测否定了可捕的乐观预测",
+  "updated_at": "2026-10-25T20:23:25.252347+00:00",
+  "user_notes": ""
+}

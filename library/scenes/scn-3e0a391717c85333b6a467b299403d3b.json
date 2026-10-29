@@ -1,0 +1,59 @@
+{
+  "asset_id": "scn-3e0a391717c85333b6a467b299403d3b",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "同地连续战争",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/frost",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/rolin",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/suke",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/mengyao"
+    ],
+    "choice": "跳下阻挖、器械压制和援军",
+    "claim_kind": "inference",
+    "consequence": "500+NPC死/守成，妹飞机返厦",
+    "failure_mode": "不要用日常任务成冲销NPC损伤",
+    "goal": "守到天明",
+    "narrative_order": 556,
+    "obstacle": "城基被挖/伤兵不能喝瓶即好",
+    "state_change": "局部夜战胜仍留墙伤人损",
+    "summary": "掘墓鬼挖墙/猎手投枪使死伤扩大，主首用沐雨；罗林5000/800黑岩弩真到守成功。",
+    "why_it_works": "小战的经验与代价进入后战"
+  },
+  "created_at": "2026-10-25T20:23:25.102626+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0555",
+      "claim_kind": "fact",
+      "end_line": 44873,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 44805
+    },
+    {
+      "chapter_id": "ch-0556",
+      "claim_kind": "fact",
+      "end_line": 44941,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 44874
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/scene/night",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "前夜小战建立翌日大版本的经验",
+  "updated_at": "2026-10-25T20:23:25.102626+00:00",
+  "user_notes": ""
+}

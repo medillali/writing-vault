@@ -1,0 +1,344 @@
+{
+  "status": "passed",
+  "scope": "923 original stable local candidates, volumes 1—4; structural/provenance validation only",
+  "candidate_count": 923,
+  "by_volume": {
+    "1": 27,
+    "2": 493,
+    "3": 22,
+    "4": 381
+  },
+  "by_status": {
+    "unknown": 283,
+    "answered": 499,
+    "partial": 119,
+    "unrecovered": 22
+  },
+  "batch_count": 18,
+  "evidence_refs_with_repeats": 1709,
+  "all_ids_exactly_once": true,
+  "all_original_fields_preserved": true,
+  "all_assigned_pool_originals_unchanged": true,
+  "original_source_sha256": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+  "assigned_snapshot_sha256": "fcf675417fee09a9123de7f225c1f07b65dd912c768cfc4d4902d933a2a16420",
+  "pool_sha256_current": "1f2d45556512c1fefe9b0534644797f01677593477c4cfaf9a8d10a7d7f21bb4",
+  "input_read_log_sha256": "da2e361f23d6341622c7968f2916bf118b9d13ba1d8ab3ad085de168c134accf",
+  "complete_derived_notes_read": 353,
+  "interfaces_unchanged": [
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol01.md",
+      "sha256": "cdc810e6e4c6f89af9f1451923a0a0a39212159e4742b583fc324e17dffbc501",
+      "access": "complete_derived_interface_read",
+      "original_reader": "primary",
+      "personal_original_reread": false,
+      "truncation_repaired": null
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol01-handoff.md",
+      "sha256": "fd2fcee7f981f0888499863c09212182b575c664623aa8745a9acbbf29d32c3e",
+      "access": "complete_derived_interface_read",
+      "original_reader": "primary",
+      "personal_original_reread": false,
+      "truncation_repaired": null
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol02.md",
+      "sha256": "1e5b6e6ca72fdaae073e5dc067980997657d933a88a400b71c5669dbf0649663",
+      "access": "complete_derived_interface_read",
+      "original_reader": "primary",
+      "personal_original_reread": false,
+      "truncation_repaired": null
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol02-handoff.md",
+      "sha256": "f59d7789a64ff984e393c7e359b67c23f3a061790fa9607cc97e9d325f25f3da",
+      "access": "complete_derived_interface_read",
+      "original_reader": "primary",
+      "personal_original_reread": false,
+      "truncation_repaired": null
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol03.md",
+      "sha256": "8f167d1e78cb31ad3b709686ba52f0e66c986b6456367bcc0d0008c45f7b3c6d",
+      "access": "complete_derived_interface_read",
+      "original_reader": "/root/zongheng_vol03_full",
+      "personal_original_reread": false,
+      "truncation_repaired": "report L85—130 reread"
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol03-handoff.md",
+      "sha256": "8e1e3968320c3581887a7be26cc48bd33b9e87b59d90862329e46da117a3bccf",
+      "access": "complete_derived_interface_read",
+      "original_reader": "/root/zongheng_vol03_full",
+      "personal_original_reread": false,
+      "truncation_repaired": null
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol05-handoff.md",
+      "sha256": "1b82f06c3c5d4a840b6cfa5fdb74c2d5f167e065a5e77899b9f4718422320c94",
+      "access": "complete_derived_interface_read",
+      "personal_original_reread": false
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol07-handoff.md",
+      "sha256": "49b092a7a46ffcceb6ea990aa789c5dabd9af252639498b02135e0973e98b3dc",
+      "access": "complete_derived_interface_read",
+      "personal_original_reread": false
+    },
+    {
+      "path": "writing-vault/library/reports/tianxia-wushuang/vol08-handoff.md",
+      "sha256": "6b7f13736816894912ab537975b31293ac2ef4317dfff42b20ac78b5ec7da981",
+      "access": "complete_derived_interface_read",
+      "personal_original_reread": false
+    }
+  ],
+  "primary_review_status": "以root独立逐项审阅与primary-audit-review-progress为准；本脚本不伪填文学审阅。",
+  "reader_attribution": "本人原亲读卷四、卷六raw1059—1233；本次卷一至三及其他卷后证按派生notes/正式交接读取。专项全文复读仅另列653/694/719，未冒一人全书重读。",
+  "current_audit_original_rereads": [
+    {
+      "raw_chapter": 653,
+      "start_line": 55558,
+      "end_line": 55609
+    },
+    {
+      "raw_chapter": 694,
+      "start_line": 58439,
+      "end_line": 58511
+    },
+    {
+      "raw_chapter": 719,
+      "start_line": 60243,
+      "end_line": 60312
+    }
+  ],
+  "batches": [
+    {
+      "path": "adjudications-local-v01.json",
+      "markdown_path": "adjudications-local-v01.md",
+      "count": 27,
+      "by_status": {
+        "unknown": 17,
+        "answered": 8,
+        "partial": 2
+      },
+      "sha256": "efc42dced961acae756152f8ae65cff7ead4f4f1335a6c48b943146bb93e3ad6",
+      "markdown_sha256": "e3c1f4e3ffa792af9c79b254563673ac24185c1e3d856bc70c1ce8a82f8c4647"
+    },
+    {
+      "path": "adjudications-local-v02-part01.json",
+      "markdown_path": "adjudications-local-v02-part01.md",
+      "count": 50,
+      "by_status": {
+        "unknown": 20,
+        "answered": 25,
+        "partial": 4,
+        "unrecovered": 1
+      },
+      "sha256": "9923c261a17e78285b59f10e53f74fa1cc9247fa75f610eace74c8eea7fd15b9",
+      "markdown_sha256": "07618e4f58c183de770af19e0d5f110f141915c08fa7bce36f1242cdb78d7ba8"
+    },
+    {
+      "path": "adjudications-local-v02-part02.json",
+      "markdown_path": "adjudications-local-v02-part02.md",
+      "count": 60,
+      "by_status": {
+        "unknown": 17,
+        "answered": 39,
+        "unrecovered": 2,
+        "partial": 2
+      },
+      "sha256": "bde77b662a839375073491535ae18e3b5bb2592eeea5fb102fe0f214ade04f59",
+      "markdown_sha256": "206df5bc81c3ba5b1c1832a443ce1653e54d7afcd51018d365b28540cf257975"
+    },
+    {
+      "path": "adjudications-local-v02-part03.json",
+      "markdown_path": "adjudications-local-v02-part03.md",
+      "count": 60,
+      "by_status": {
+        "answered": 35,
+        "unknown": 18,
+        "partial": 6,
+        "unrecovered": 1
+      },
+      "sha256": "544145ef26ef98325c5bc91939f88fb7865baf39ca31b212cb9b98721062a6ce",
+      "markdown_sha256": "9834e84c25ef62fc0c29c14ab7f068b24c5d72a4a5357d95c5e2f126443bf9b5"
+    },
+    {
+      "path": "adjudications-local-v02-part04.json",
+      "markdown_path": "adjudications-local-v02-part04.md",
+      "count": 60,
+      "by_status": {
+        "answered": 40,
+        "unknown": 13,
+        "partial": 7
+      },
+      "sha256": "10695580aa25ec2c24c6e7ac1c72232412b799729e298247ab26feff0671e491",
+      "markdown_sha256": "fe2a6649279b90fba2633d2a7f40d33927a376ed517393a6322982fa96d5805f"
+    },
+    {
+      "path": "adjudications-local-v02-part05.json",
+      "markdown_path": "adjudications-local-v02-part05.md",
+      "count": 60,
+      "by_status": {
+        "partial": 7,
+        "answered": 34,
+        "unknown": 16,
+        "unrecovered": 3
+      },
+      "sha256": "0338d7f60139c6e57a00983734c91245e57a0d4d1cb914f76fef046813e51797",
+      "markdown_sha256": "e3050355fc4d29cba7cc7a1bc7f344f8c929fa5067ee59c04e8a37890213535d"
+    },
+    {
+      "path": "adjudications-local-v02-part06.json",
+      "markdown_path": "adjudications-local-v02-part06.md",
+      "count": 60,
+      "by_status": {
+        "answered": 38,
+        "partial": 8,
+        "unknown": 13,
+        "unrecovered": 1
+      },
+      "sha256": "7af9805d35fd31e32d55f84097c7de51ec1882f7034fddaf2299e40ed23fb077",
+      "markdown_sha256": "2cf86fdaff0a99161690371c73d1dad52dca902ebfd442d61d152ad755066707"
+    },
+    {
+      "path": "adjudications-local-v02-part07.json",
+      "markdown_path": "adjudications-local-v02-part07.md",
+      "count": 60,
+      "by_status": {
+        "answered": 34,
+        "unknown": 19,
+        "partial": 5,
+        "unrecovered": 2
+      },
+      "sha256": "e99c2fad7f38a44b40841f74267183e18c5410d8a03828e85d41f8ef38cc757a",
+      "markdown_sha256": "3f2bb3ad726b59ae47c2dee3670e810e8f4ba9644b4923d825af903c9a0baf38"
+    },
+    {
+      "path": "adjudications-local-v02-part08.json",
+      "markdown_path": "adjudications-local-v02-part08.md",
+      "count": 60,
+      "by_status": {
+        "answered": 38,
+        "partial": 6,
+        "unknown": 12,
+        "unrecovered": 4
+      },
+      "sha256": "e247a327878f66c9b86cba9e80a995217e5a6485d601ed7c55dfab7245317a5e",
+      "markdown_sha256": "8ac14efd80df25a4fc7d620949bf814211d102f7d2c1073bd94aab4efb7423f8"
+    },
+    {
+      "path": "adjudications-local-v02-part09.json",
+      "markdown_path": "adjudications-local-v02-part09.md",
+      "count": 23,
+      "by_status": {
+        "answered": 13,
+        "partial": 5,
+        "unknown": 4,
+        "unrecovered": 1
+      },
+      "sha256": "fb725697986622ae6b434f66e9d3b11d4f0aa1fbb5a001963073c0ac4e5994bf",
+      "markdown_sha256": "5a21512e63673d8955e62a9c3a4fb989f074b0656450bbbf003cdd814b029d87"
+    },
+    {
+      "path": "adjudications-local-v03.json",
+      "markdown_path": "adjudications-local-v03.md",
+      "count": 22,
+      "by_status": {
+        "answered": 9,
+        "partial": 4,
+        "unknown": 9
+      },
+      "sha256": "3088554081c19f88194339e2133e0a8de9e4dea1c5bd31b86498940ff094345f",
+      "markdown_sha256": "d257c95cd78fd03a19538f37f261bd4d59da1dae0f0cd66c33fcd10299f2f4cf"
+    },
+    {
+      "path": "adjudications-local-v04-part01.json",
+      "markdown_path": "adjudications-local-v04-part01.md",
+      "count": 60,
+      "by_status": {
+        "answered": 33,
+        "unknown": 20,
+        "partial": 5,
+        "unrecovered": 2
+      },
+      "sha256": "b375785181ef7c92e444c24ea73c8ab76c295b7fdb4fb691a2e8ea91a65a5403",
+      "markdown_sha256": "c466eda75c246f70b0febdf228330144a56986b3e02fc59696d16f9327ea43c7"
+    },
+    {
+      "path": "adjudications-local-v04-part02.json",
+      "markdown_path": "adjudications-local-v04-part02.md",
+      "count": 60,
+      "by_status": {
+        "partial": 12,
+        "unknown": 14,
+        "answered": 33,
+        "unrecovered": 1
+      },
+      "sha256": "2daf68107fc2b23ae00567488df5084d9428280ae692941236ffc56c4bcb59f5",
+      "markdown_sha256": "2307ac831002167ee96f7c7f97a94261bb4b01962054424ea547b7e0545567ff"
+    },
+    {
+      "path": "adjudications-local-v04-part03.json",
+      "markdown_path": "adjudications-local-v04-part03.md",
+      "count": 60,
+      "by_status": {
+        "unknown": 21,
+        "partial": 11,
+        "answered": 28
+      },
+      "sha256": "281bf0fa7bab3bdcf6df9ad9e3934294f720df364de6a5e56e4272a784bf412f",
+      "markdown_sha256": "fe0656cb3676e4be198b02194e583a18bd24ce8098279f8c98e2a40797a84aa4"
+    },
+    {
+      "path": "adjudications-local-v04-part04.json",
+      "markdown_path": "adjudications-local-v04-part04.md",
+      "count": 60,
+      "by_status": {
+        "answered": 23,
+        "partial": 16,
+        "unknown": 18,
+        "unrecovered": 3
+      },
+      "sha256": "3f71b94006a1400bfdf749d6e9024de68e9599789e782e7fa728ed4f7eab5866",
+      "markdown_sha256": "008b3fed9372ade537f078ec3525c9ad42c62864f4c488e11a8c4635730d9c81"
+    },
+    {
+      "path": "adjudications-local-v04-part05.json",
+      "markdown_path": "adjudications-local-v04-part05.md",
+      "count": 60,
+      "by_status": {
+        "partial": 9,
+        "unrecovered": 1,
+        "unknown": 18,
+        "answered": 32
+      },
+      "sha256": "c153919f0c881aa218e58a4e9effc3d26a35580e687725249e1ab65dd7b8646d",
+      "markdown_sha256": "a28936d3dd2695971625cc2022ff3280daf5f1bbb7ce4522754c16e69443b4b3"
+    },
+    {
+      "path": "adjudications-local-v04-part06.json",
+      "markdown_path": "adjudications-local-v04-part06.md",
+      "count": 60,
+      "by_status": {
+        "unknown": 26,
+        "answered": 25,
+        "partial": 9
+      },
+      "sha256": "7c12a6a85dd89936629f2a9627c5caec134df76e7ac989a9f64dc62a51817df8",
+      "markdown_sha256": "8d1b035ff006317e433fd56260771f8988988968ae50025fd026adee67221e34"
+    },
+    {
+      "path": "adjudications-local-v04-part07.json",
+      "markdown_path": "adjudications-local-v04-part07.md",
+      "count": 21,
+      "by_status": {
+        "answered": 12,
+        "unknown": 8,
+        "partial": 1
+      },
+      "sha256": "eed6cdccdabfb142367317aa9a663b6c8539953d3e6456f48112c9101f51080f",
+      "markdown_sha256": "58d15d1c4d2a038566c85834f841b1560105aedd0396014bc4b0fd14cd1307cf"
+    }
+  ]
+}

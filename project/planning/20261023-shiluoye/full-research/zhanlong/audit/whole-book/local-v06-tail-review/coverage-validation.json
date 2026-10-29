@@ -1,0 +1,107 @@
+{
+  "status": "passed-structural-and-provenance-not-semantic-primary-review",
+  "assigned_count": 199,
+  "exactly_once": true,
+  "original_order_preserved": true,
+  "original_candidate_hashes_preserved": true,
+  "untouched_pool": true,
+  "status_counts": {
+    "answered": 108,
+    "unknown": 8,
+    "partial": 80,
+    "unrecovered": 3
+  },
+  "audit_domain_counts": {
+    "story-followup": 155,
+    "source-continuity": 1,
+    "rule-boundary": 2,
+    "evidence-boundary": 8,
+    "object-provenance": 1,
+    "stage-state": 4,
+    "identity": 1,
+    "story-promise": 4,
+    "relationship-boundary": 2,
+    "source-anomaly-boundary": 9,
+    "economic-boundary": 1,
+    "economic-followup": 2,
+    "knowledge-boundary": 4,
+    "object-provenance-boundary": 1,
+    "troop-movement": 1,
+    "economic-provenance": 1,
+    "reward-followup": 1,
+    "terminal-open-threads": 1
+  },
+  "later_evidence_count": 966,
+  "batches": [
+    {
+      "path": "adjudications-local-v06-tail-batch001.json",
+      "sha256": "12e68ef48548194f4406fd2117a574f65ec8fdfef05d85f9fccd00f0ec2b631a",
+      "count": 20
+    },
+    {
+      "path": "adjudications-local-v06-tail-batch002.json",
+      "sha256": "2eed682d5de9d33b514d593b9f5434af3b90f2196df4bba465660d175bc6bfc2",
+      "count": 20
+    },
+    {
+      "path": "adjudications-local-v06-tail-batch003.json",
+      "sha256": "90b7db7a1d25d7c5b07540ef7a5b17f37e2be6c7529e4e5250adba8fffa43be7",
+      "count": 20
+    },
+    {
+      "path": "adjudications-local-v06-tail-batch004.json",
+      "sha256": "348469ad83c4a717f172faa5cbd8e3da94fb9931b14ffc9a00eda2d0d2fc3b17",
+      "count": 20
+    },
+    {
+      "path": "adjudications-local-v06-tail-batch005.json",
+      "sha256": "1b0084adf2dfd7dfba1b99abeab4f058449697aa765c160f0a7fa6d0fd02fd3e",
+      "count": 20
+    },
+    {
+      "path": "adjudications-local-v06-tail-batch006.json",
+      "sha256": "c3b1fa6083209edf4ca291bf638bd62218a8d604deaee76ae3913d8b646c2897",
+      "count": 20
+    },
+    {
+      "path": "adjudications-local-v06-tail-batch007.json",
+      "sha256": "1711f15f032f17b93746fba9f2e676fbce2471f40f84cbdf7fcd3f706a4f25fa",
+      "count": 20
+    },
+    {
+      "path": "adjudications-local-v06-tail-batch008.json",
+      "sha256": "e2e70ca3b4b113b11af0c9ee14049d910c4c68168d602c975e0915ed8704405f",
+      "count": 20
+    },
+    {
+      "path": "adjudications-local-v06-tail-batch009.json",
+      "sha256": "3765ba115e5ff9427e7396252ffb28dbcf004e9b91a115dd2cf770a255b997db",
+      "count": 20
+    },
+    {
+      "path": "adjudications-local-v06-tail-batch010.json",
+      "sha256": "66e63a025a38c6a5e2071a57e9f43cf00650e9263e80ed231ad5c7fd3d41afab",
+      "count": 19
+    }
+  ],
+  "actual_reviewer": "/root/zongheng_vol04_full",
+  "original_volume_reader": "zongheng_vol05_full",
+  "reading_scope": "正式派生后证人工逐项终评；本代理并未亲读卷六全卷原文。原文定向读另列。",
+  "priority_materials": [
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol02-primary-corrections.json",
+      "sha256": "e0f2a45c5a97c7dc09bbf5120d5df8b797170bb94a35babfdc8378c68078d005",
+      "original_files_unchanged": true
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/priority-corrections-delta.json",
+      "sha256": "829548507f2346a9384af96ac740cccaafd1cca2a7e9d205b22f40f4bde696cb",
+      "original_files_unchanged": true
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/audit/priority-corrections-yan-recommendation.json",
+      "sha256": "e2e4799a7fd9ef187af296f6b93c1d0aefcfbf0c01e67deaf8c4fbea5b7b13ea",
+      "original_files_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "actual_reviewer": "zongheng_vol05_full",
+  "policy": "只记录本次审计实际完成的派生阅读与定向原文复核；不重复计初读覆盖，不据检索命中宣读完该章。后续按真实完成追加。",
+  "checks": [
+    {
+      "id": "local03-batch001-rule-and-wording",
+      "actual_full_text_rereads": [
+        {
+          "raw": 508,
+          "start_line": 41490,
+          "end_line": 41561,
+          "begin_end_verified": true
+        },
+        {
+          "raw": 510,
+          "start_line": 41608,
+          "end_line": 41652,
+          "begin_end_verified": true
+        },
+        {
+          "raw": 512,
+          "start_line": 41708,
+          "end_line": 41766,
+          "begin_end_verified": true
+        },
+        {
+          "raw": 514,
+          "start_line": 41831,
+          "end_line": 41900,
+          "begin_end_verified": true
+        },
+        {
+          "raw": 526,
+          "start_line": 42615,
+          "end_line": 42680,
+          "begin_end_verified": true
+        }
+      ],
+      "findings": "508 L41507明确烈阳壁30秒；510 L41628的7秒是反扑过程，512无时长。514 L41887与526 L42653才明确技能7秒。保源差，不据战术窗口误判技能时长。",
+      "complete_derived_notes_rows_read": {
+        "volume3": [
+          540,
+          546,
+          547,
+          548,
+          549,
+          550,
+          564,
+          565,
+          566,
+          575,
+          576,
+          577,
+          578,
+          579
+        ]
+      },
+      "complete_derived_files_read": [
+        "writing-vault/library/reports/zhanlong/vol01-handoff.md",
+        "writing-vault/library/reports/zhanlong/vol02-handoff.md",
+        "writing-vault/library/reports/zhanlong/vol03-handoff.md",
+        "writing-vault/library/reports/zhanlong/vol04-handoff.md",
+        "writing-vault/library/reports/zhanlong/vol05-handoff.md",
+        "writing-vault/library/reports/zhanlong/vol03-note-corrections.json"
+      ],
+      "candidate_records_read": "卷3稳定顺序1—20，各original_record/description/handling及原证据完整读取；同一original_index重复原子保记录共用关系。",
+      "targeted_source_searches": [
+        "全源烈阳之壁/烈阳壁命中完整读，用于定位后再全文复核514/526。",
+        "全源才能不能/南觯/3转技能书/麻辣桂鱼/野生鲑鱼命中，保原词，不据字形补人或新规则。"
+      ],
+      "attribution": "上述原文复核与派生接读由本裁定者实际执行；卷3前149原初读本来属本裁定者，卷3尾100属primary，其他卷仍属其原读者。"
+    },
+    {
+      "id": "local03-batch002-names-payment-and-stages",
+      "actual_full_text_rereads": [
+        {
+          "raw": 601,
+          "start_line": 48149,
+          "end_line": 48225,
+          "begin_end_verified": true
+        },
+        {
+          "raw": 602,
+          "start_line": 48226,
+          "end_line": 48304,
+          "begin_end_verified": true
+        },
+        {
+          "raw": 610,
+          "start_line": 48813,
+          "end_line": 48880,
+          "begin_end_verified": true
+        },
+        {
+          "raw": 583,
+          "start_line": 46804,
+          "end_line": 46891,
+          "begin_end_verified": true
+        }
+      ],
+      "complete_derived_notes_rows_read": {
+        "volume3": [
+          557,
+          568,
+          580,
+          583,
+          587,
+          588,
+          591,
+          594,
+          596,
+          599,
+          608,
+          616,
+          629,
+          631,
+          633,
+          634,
+          642
+        ]
+      },
+      "candidate_records_read": "卷3稳定顺序21—40原题、每个唯一original_record及其全部原证据完整读；同record重复原子仍逐个读title/atomic_index。",
+      "findings": "601给我10W与奥索酬语境有方向字差，602催未付；61020万另约矿物交涉、未明示抵旧10万。583源确为鬼j，角色越叙层玩笑不是作者勘误；国器、普通装备、梦与实物仍分层。",
+      "targeted_source_searches": [
+        "全源奥蒂/金币/报酬命中，分2000救命款、10万助战、20万矿交涉、5万龙神精华等不同账。",
+        "全源鲁格/格鲁/铁渎/耐寒命中；格鲁异写局限于587同段，铁渎恚名只见608。"
+      ],
+      "attribution": "本记录实际复核属本裁定者；派生notes保原reader，不另计原文覆盖。"
+    },
+    {
+      "id": "local03-batch003-scope-and-metrics",
+      "actual_full_text_rereads": [
+        {
+          "raw": 644,
+          "start_line": 51237,
+          "end_line": 51304,
+          "begin_end_verified": true
+        }
+      ],
+      "actual_targeted_source_ranges": [
+        [
+          51963,
+          51981
+        ],
+        [
+          51072,
+          51087
+        ],
+        [
+          56600,
+          56610
+        ],
+        [
+          56955,
+          56998
+        ],
+        [
+          57772,
+          57803
+        ],
+        [
+          54485,
+          54496
+        ],
+        [
+          54912,
+          54923
+        ],
+        [
+          55091,
+          55102
+        ],
+        [
+          57814,
+          57860
+        ],
+        [
+          57804,
+          57814
+        ],
+        [
+          70100,
+          70115
+        ],
+        [
+          56170,
+          56199
+        ]
+      ],
+      "complete_derived_notes_rows_read": {
+        "volume3": [
+          637,
+          638,
+          641,
+          643,
+          644,
+          647,
+          648,
+          653,
+          683,
+          684,
+          695,
+          707,
+          713,
+          714,
+          720,
+          725,
+          726,
+          727,
+          738,
+          739
+        ]
+      },
+      "candidate_records_read": "卷3稳定顺序41—60；每个唯一原记录/所有原子title完整读，无截断。",
+      "findings": "738倾浅个人我带40与739全队我们200余不同范围，撤回原研究数量矛盾；683认证与687坐骑各10%爆率在694有显式相加，1/2是687/697索经验值而非爆率。713/714测得全周期47:12及持续10分钟，72037分钟简说不替改日志。935主叙沿用鬼器一万补入编号项后证，不当成编号按属性排序的系统表。",
+      "targeted_source_searches": [
+        "全源爆率10/20、索经验、37/47分钟、装备编号、控岩/火焰天王与40水晶命中用于定位，随后读取列明原文段落。"
+      ],
+      "attribution": "primary原全文读683—739等尾段；本裁定者本轮完整读列明派生行并定向核源，不将它们重计为个人整尾全文覆盖。935只定向读源L70100—70115。"
+    },
+    {
+      "id": "local03-batch004-stage-and-priority-correction",
+      "actual_full_text_rereads": [
+        {
+          "raw": 740,
+          "start_line": 57910,
+          "end_line": 57980,
+          "begin_end_verified": true
+        },
+        {
+          "raw": 743,
+          "start_line": 58114,
+          "end_line": 58186,
+          "begin_end_verified": true
+        }
+      ],
+      "actual_targeted_source_ranges": [
+        [
+          68856,
+          68885
+        ],
+        [
+          58222,
+          58245
+        ],
+        [
+          58187,
+          58221
+        ],
+        [
+          42825,
+          42840
+        ],
+        [
+          62970,
+          62979
+        ],
+        [
+          92748,
+          92760
+        ]
+      ],
+      "complete_derived_notes_rows_read": {
+        "volume3": [
+          506,
+          507,
+          509,
+          527,
+          528,
+          529,
+          711,
+          729,
+          732,
+          740,
+          743,
+          744,
+          745,
+          746,
+          747,
+          748,
+          749
+        ],
+        "volume4": [
+          841,
+          842,
+          915,
+          916
+        ]
+      },
+      "candidate_records_read": "卷3稳定顺序61—80完整原记录与每个原子题；无截断。",
+      "findings": "公告是十小时内而非后，撤研究误读；743临时交盾使用与749最终保有分阶段。霜林初韩后746日本澄清、747林杀撼梁与748主杀霜林分开。916明确失城后解除NPC领地军限制。818四倍与1282黑夜换算补早期时距边界。",
+      "attribution": "原740/743等尾段reader=primary，本轮本裁定者实际全文复核740/743；其他列明派生行保原reader。定向段落不宣整章重读；不替代或覆盖冻结原notes。"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+# 心然／吟风者／董欣然（卷七阶段）
+
+ID: `chr-eae7dfcb3c8f57b39c983dea7dc8da87` · 版本: 1 · 范围: source-analysis
+
+本卷游戏失腿后长出/97%非原伤假；末确活救返人界休养。现实董欣然昏睡，主最后告诉另一世界她便哭，原因/接受/苏醒未知；无性侵已发生证。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-eae7dfcb3c8f57b39c983dea7dc8da87",
+  "asset_type": "character",
+  "content": {
+    "changes": "本卷游戏失腿后长出/97%非原伤假；末确活救返人界休养。现实董欣然昏睡，主最后告诉另一世界她便哭，原因/接受/苏醒未知；无性侵已发生证。",
+    "decisions": "龙神战中受伤、后再生双腿；为主请苏/伏寒；破米杀银龙、与冰兰两伤后净控；抗圣/携林坠渊，重伤断林臂后流放，囚中助杀夜、施伞破位裂",
+    "goal": "守陆尘与人界、拒被林纳/夜煞控制",
+    "knowledge_boundary": "限定本卷末。系统/现场、面板旧史、本人自述、他人报告与主角推测分别保存；本读者亲读本书卷五与七，不把其他卷或纵横同名人物史倒灌。",
+    "limits": "龙神战失腿/神力、深渊重伤被囚，现实17岁出生无知觉由徐解释，未醒",
+    "relationship_direction": "主互爱/互护，1455爱语主未听、1459明示爱主；与冰兰并肩、奥相认；游戏与现实同一人解释由徐提供",
+    "summary": "本卷游戏失腿后长出/97%非原伤假；末确活救返人界休养。现实董欣然昏睡，主最后告诉另一世界她便哭，原因/接受/苏醒未知；无性侵已发生证。"
+  },
+  "created_at": "2026-10-25T00:16:11.267823+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1295",
+      "claim_kind": "fact",
+      "end_line": 103249,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 103170
+    },
+    {
+      "chapter_id": "ch-1298",
+      "claim_kind": "fact",
+      "end_line": 103487,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 103403
+    },
+    {
+      "chapter_id": "ch-1311",
+      "claim_kind": "fact",
+      "end_line": 104414,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 104336
+    },
+    {
+      "chapter_id": "ch-1432",
+      "claim_kind": "fact",
+      "end_line": 113445,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 113364
+    },
+    {
+      "chapter_id": "ch-1433",
+      "claim_kind": "fact",
+      "end_line": 113545,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 113446
+    },
+    {
+      "chapter_id": "ch-1450",
+      "claim_kind": "fact",
+      "end_line": 114894,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 114823
+    },
+    {
+      "chapter_id": "ch-1452",
+      "claim_kind": "fact",
+      "end_line": 115061,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 114973
+    },
+    {
+      "chapter_id": "ch-1454",
+      "claim_kind": "fact",
+      "end_line": 115227,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 115155
+    },
+    {
+      "chapter_id": "ch-1455",
+      "claim_kind": "fact",
+      "end_line": 115318,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 115228
+    },
+    {
+      "chapter_id": "ch-1459",
+      "claim_kind": "fact",
+      "end_line": 115647,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 115594
+    },
+    {
+      "chapter_id": "ch-1500",
+      "claim_kind": "fact",
+      "end_line": 118983,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 118902
+    },
+    {
+      "chapter_id": "ch-1503",
+      "claim_kind": "fact",
+      "end_line": 119234,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 119146
+    },
+    {
+      "chapter_id": "ch-1504",
+      "claim_kind": "fact",
+      "end_line": 119331,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 119235
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol07/character/xin",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:7",
+    "状态:待审阅"
+  ],
+  "title": "心然／吟风者／董欣然（卷七阶段）",
+  "updated_at": "2026-10-25T00:16:11.267823+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,231 @@
+{
+  "status": "proposal_only_not_applied",
+  "book": "zhanlong",
+  "issue_id": "lion-shield-within-not-after",
+  "actual_reviewer": "zongheng_vol05_full",
+  "original_full_text_reader": "primary（raw740/743/744/749所属卷3尾）",
+  "new_verification": "本裁定者本轮BEGIN-END完整重读740/743；定向读744 L58187—58245，完整派生读749原notes。不同实际范围分别登记，不替换原reader。",
+  "finding": "原公告用“10小时内”转普通装备可装备/交易，并未规定必须十小时后才可装备；743倒计时仍在时已交抹并实际用群狮，不能据错误的“后”字诊断规则冲突。进城/下线/掉落限制与最终保有倒计时另记，不能由可装备推已过十小时。",
+  "source_evidence": [
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0740",
+      "start_line": 57974,
+      "end_line": 57978,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0743",
+      "start_line": 58115,
+      "end_line": 58118,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0743",
+      "start_line": 58142,
+      "end_line": 58149,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0743",
+      "start_line": 58158,
+      "end_line": 58171,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0744",
+      "start_line": 58218,
+      "end_line": 58220,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0749",
+      "start_line": 58537,
+      "end_line": 58600,
+      "claim_kind": "fact"
+    }
+  ],
+  "affected_fields": [
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-chapter-notes.jsonl",
+      "input_sha256": "c38395d6a665f189de112f74eeb028c52583586bcf417cc3c816ff606bcd2e20",
+      "jsonl_index": 235,
+      "chapter_id": "ch-0740",
+      "json_path_within_row": [
+        "facts",
+        2
+      ],
+      "before": "20分后系统滑获得狮王盾，10h持者禁入城禁下线、死下线掉，10h后变普通可装备交易，坐标公开；主此前赌规则得到系统实证。",
+      "proposed_after": "20分后系统滑获得狮王盾，10h持者禁入城禁下线、死下线掉；公告说10h内转普通可装备交易，坐标公开。不能把“内”改成“后”；主此前对不可回城/下线的猜测得到公告实证。",
+      "delta_kind": "direct-misreading",
+      "original_research_reader": "primary",
+      "original_read_at": "2026-10-25T19:05:16.167082+00:00"
+    },
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-chapter-notes.jsonl",
+      "input_sha256": "c38395d6a665f189de112f74eeb028c52583586bcf417cc3c816ff606bcd2e20",
+      "jsonl_index": 238,
+      "chapter_id": "ch-0743",
+      "json_path_within_row": [
+        "source_anomalies",
+        0
+      ],
+      "before": "公告曾说十小时后转普通才可装备交易，倒计时未完却已实际装备转手用特技，保留规则与执行冲突。",
+      "proposed_after": "旧摘要把740公告“10小时内”误读成“十小时后才可装备”；743倒计时内交抹、实际装备并用特技，不与该公告字面直接冲突。本项应作为派生研究纠正，保原notes历史，不继续当小说规则异常。",
+      "delta_kind": "direct-misreading",
+      "original_research_reader": "primary",
+      "original_read_at": "2026-10-25T19:06:08.149708+00:00"
+    },
+    {
+      "file": ".planning/20261023-shiluoye/full-research/zhanlong/vol03/chapter-notes.jsonl",
+      "input_sha256": "4171a082ca98a18de4468e332a51a0fb96de528b45f65f3f7cfcfb3b5bbde4bc",
+      "jsonl_index": 235,
+      "chapter_id": "ch-0740",
+      "json_path_within_row": [
+        "facts",
+        2
+      ],
+      "before": "20分后系统滑获得狮王盾，10h持者禁入城禁下线、死下线掉，10h后变普通可装备交易，坐标公开；主此前赌规则得到系统实证。",
+      "proposed_after": "20分后系统滑获得狮王盾，10h持者禁入城禁下线、死下线掉；公告说10h内转普通可装备交易，坐标公开。不能把“内”改成“后”；主此前对不可回城/下线的猜测得到公告实证。",
+      "delta_kind": "direct-misreading",
+      "original_research_reader": "primary",
+      "original_read_at": "2026-10-25T19:05:16.167082+00:00"
+    },
+    {
+      "file": ".planning/20261023-shiluoye/full-research/zhanlong/vol03/chapter-notes.jsonl",
+      "input_sha256": "4171a082ca98a18de4468e332a51a0fb96de528b45f65f3f7cfcfb3b5bbde4bc",
+      "jsonl_index": 238,
+      "chapter_id": "ch-0743",
+      "json_path_within_row": [
+        "source_anomalies",
+        0
+      ],
+      "before": "公告曾说十小时后转普通才可装备交易，倒计时未完却已实际装备转手用特技，保留规则与执行冲突。",
+      "proposed_after": "旧摘要把740公告“10小时内”误读成“十小时后才可装备”；743倒计时内交抹、实际装备并用特技，不与该公告字面直接冲突。本项应作为派生研究纠正，保原notes历史，不继续当小说规则异常。",
+      "delta_kind": "direct-misreading",
+      "original_research_reader": "primary",
+      "original_read_at": "2026-10-25T19:06:08.149708+00:00"
+    },
+    {
+      "file": ".planning/20261023-shiluoye/full-research/zhanlong/primary-vol03-tail/chapter-notes.jsonl",
+      "input_sha256": "2c6b9891df3d9b8673966c67bc044723cd7df36e21c15cdd6b30525e522a58c3",
+      "jsonl_index": 86,
+      "chapter_id": "ch-0740",
+      "json_path_within_row": [
+        "facts",
+        2
+      ],
+      "before": "20分后系统滑获得狮王盾，10h持者禁入城禁下线、死下线掉，10h后变普通可装备交易，坐标公开；主此前赌规则得到系统实证。",
+      "proposed_after": "20分后系统滑获得狮王盾，10h持者禁入城禁下线、死下线掉；公告说10h内转普通可装备交易，坐标公开。不能把“内”改成“后”；主此前对不可回城/下线的猜测得到公告实证。",
+      "delta_kind": "direct-misreading",
+      "original_research_reader": "primary",
+      "original_read_at": "2026-10-25T19:05:16.167082+00:00"
+    },
+    {
+      "file": ".planning/20261023-shiluoye/full-research/zhanlong/primary-vol03-tail/chapter-notes.jsonl",
+      "input_sha256": "2c6b9891df3d9b8673966c67bc044723cd7df36e21c15cdd6b30525e522a58c3",
+      "jsonl_index": 89,
+      "chapter_id": "ch-0743",
+      "json_path_within_row": [
+        "source_anomalies",
+        0
+      ],
+      "before": "公告曾说十小时后转普通才可装备交易，倒计时未完却已实际装备转手用特技，保留规则与执行冲突。",
+      "proposed_after": "旧摘要把740公告“10小时内”误读成“十小时后才可装备”；743倒计时内交抹、实际装备并用特技，不与该公告字面直接冲突。本项应作为派生研究纠正，保原notes历史，不继续当小说规则异常。",
+      "delta_kind": "direct-misreading",
+      "original_research_reader": "primary",
+      "original_read_at": "2026-10-25T19:06:08.149708+00:00"
+    },
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+      "input_sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+      "json_path": [
+        "chapter_source_anomaly_index",
+        18,
+        "source_anomalies",
+        0
+      ],
+      "before": "公告曾说十小时后转普通才可装备交易，倒计时未完却已实际装备转手用特技，保留规则与执行冲突。",
+      "proposed_after": "旧摘要把740公告“10小时内”误读成“十小时后才可装备”；743倒计时内交抹、实际装备并用特技，不与该公告字面直接冲突。本项应作为派生研究纠正，保原notes历史，不继续当小说规则异常。",
+      "delta_kind": "direct-misreading",
+      "original_research_reader": "primary"
+    },
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+      "input_sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+      "json_path": [
+        "unresolved_and_anomalies",
+        26,
+        "description"
+      ],
+      "before": "狮盾初公告10h后可装备交易，743却提前交抹并实开群狮。",
+      "proposed_after": "旧摘要把740公告“10小时内”误读成“十小时后才可装备”；743倒计时内交抹、实际装备并用特技，不与该公告字面直接冲突。本项应作为派生研究纠正，保原notes历史，不继续当小说规则异常。",
+      "delta_kind": "direct-misreading",
+      "original_research_reader": "primary"
+    },
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+      "input_sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+      "json_path": [
+        "unresolved_and_anomalies",
+        26,
+        "handling"
+      ],
+      "before": "保真实使用和公告冲突，不补隐藏权限/临时补丁。",
+      "proposed_after": "优先按原公告的“内”及743实际装备解释；保原误读摘要供回溯，不补隐藏权限/补丁，也不再把提前使用列为规则冲突。",
+      "delta_kind": "direct-misreading",
+      "original_research_reader": "primary"
+    },
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+      "input_sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+      "json_path": [
+        "dimensions",
+        "worldbuilding",
+        2,
+        "textual_fact"
+      ],
+      "before": "龙池融合圣天保特性而阶变；狮盾十小时转手后抹终持，镇岳在多国多手后归主；NPC佩剑与王权剑各有身份。",
+      "proposed_after": "龙池融合圣天保特性而阶变；狮盾在十小时争夺中转手、抹先实用后最终保有，镇岳在多国多手后归主；NPC佩剑与王权剑各有身份。",
+      "delta_kind": "related-wording-clarification",
+      "original_research_reader": "primary"
+    },
+    {
+      "file": "writing-vault/library/reports/zhanlong/vol03-cards.json",
+      "input_sha256": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+      "json_path": [
+        97,
+        "content",
+        "failure_mode"
+      ],
+      "before": "最初十小时后可装备与提前用源差不能隐删",
+      "proposed_after": "不能把公告“十小时内可转普通装备”误读成“十小时后才可装备”，也不能把期间装备/使用混成争夺计时已结束；职业与120怒门槛仍须满足。",
+      "delta_kind": "direct-misreading",
+      "original_research_reader": "primary",
+      "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/scene/shield",
+      "title": "国器争夺把保护后卫的代价可视化"
+    }
+  ],
+  "dependent_local_candidates": [
+    "v03-local-unresolved_and_anomalies-0027-01",
+    "v03-local-unresolved_and_anomalies-0027-02"
+  ],
+  "unaffected": [
+    "不改公告原文、分卷冻结包、原notes/read_at/reader或原批次SHA。",
+    "743主说等保住十小时后再正式分给抹，是当时分配承诺，不能单独冒充系统禁装备规则。",
+    "749两国器最终保有与743仍在争夺的阶段均保留，不把早期装备等同无追杀/无掉落。",
+    "同一旧句的历史批次、备份与正式原记录均保持；未来由root审核保存优先overlay，读者引用这些旧字段时显式先读该纠正层。"
+  ],
+  "schema_note": "只提供原文件/字段/原串与建议优先解读；不是已应用的全书合并schema，不代签primary。"
+}

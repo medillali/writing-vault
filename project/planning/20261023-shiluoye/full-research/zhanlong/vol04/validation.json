@@ -1,0 +1,81 @@
+{
+  "status": "passed-awaiting-primary-literary-review",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "volume": 4,
+  "read_only_preflight": {
+    "book": "zhanlong",
+    "volume": 4,
+    "indexed_segments_read": 215,
+    "body_units_read": 214,
+    "cards": {
+      "character": 45,
+      "scene": 47,
+      "pattern": 12
+    },
+    "evidence_references_checked": 2865,
+    "nodes": 54,
+    "edges": 39,
+    "threads": 20,
+    "preflight": "passed"
+  },
+  "coverage": {
+    "expected_raw": 215,
+    "read_raw": 215,
+    "body": 214,
+    "full_text_reading_reader": "/root/zongheng_vol03_full",
+    "batches": 55,
+    "unresolved_truncations": 0
+  },
+  "literary_review": {
+    "reviewer": "primary",
+    "status": "in-progress-not-fabricated-complete",
+    "note": "已预审九维/正在审其他核心；精确连续性提案另有应用回执。此文件不替primary独立签收。"
+  },
+  "user_evaluation": null,
+  "local_links": "passed",
+  "self_audit": "self-audit.json",
+  "files": {
+    "analysis.json": {
+      "sha256": "55cc926bb9729061ca997263f14f84586bc0bf9ce2270a63734b870a2ddadcee",
+      "bytes": 648508
+    },
+    "cards.json": {
+      "sha256": "23f445267b0c3d2849ca135d86f5022ffd4a37580c318ade71990178b820fe9d",
+      "bytes": 350623
+    },
+    "graph.json": {
+      "sha256": "72a198f63af2eff9ba8ee268f4e312941cf57c5cc116e72b4b7ad40564c0204c",
+      "bytes": 272981
+    },
+    "read-log.json": {
+      "sha256": "52cc8ff05049b57be7a5b2e20d6ca11ec67a66bab75faa2164d7afc88f8754ef",
+      "bytes": 50936
+    },
+    "chapter-notes.jsonl": {
+      "sha256": "3d919761eff9a2065ebc7ec3865dd95b4b6d4b8427180d34d82d165b2ab5286f",
+      "bytes": 351487
+    },
+    "reader-state.json": {
+      "sha256": "dadaf5569e894f391798daf8b3b3bbe878a90450b746723f2bd4b74f541d2e4c",
+      "bytes": 5182
+    },
+    "report.md": {
+      "sha256": "315c168c9e59e1f9f1479d349b08a2a9ac9cb0766714633a4fa70d17bca9affc",
+      "bytes": 91060
+    },
+    "handoff.md": {
+      "sha256": "438f63229dcbacd05ff8a00862da1a7394ac0f4e4e685aa6be8a88588a66b745",
+      "bytes": 6849
+    },
+    "reading-attribution.json": {
+      "sha256": "f097ecdb76eaf500ef37e12c9479fdbcc4e406af4a93414f54592d9da066cb7f",
+      "bytes": 12839
+    },
+    "self-audit.json": {
+      "sha256": "e5427cdad3d17fb95ac52801952dbf60b3ffe669c96751c7638bb18ddbf24357",
+      "bytes": 1627
+    }
+  },
+  "no_formal_import_performed": true
+}

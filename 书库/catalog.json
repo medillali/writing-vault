@@ -23,14 +23,41 @@
           "path": "library/sources/src-2a13958390274509b2af019f6b12d981.json"
         },
         {
-          "label": "正式检查点 run-test-20261022-world_online",
-          "path": "exchanges/runs/run-test-20261022-world_online.json"
+          "label": "正式完整检查点",
+          "path": "exchanges/runs/run-deep-zongheng-tianxia-20261023.json"
+        },
+        {
+          "label": "当前跨端状态",
+          "path": "project/CURRENT-STATE.md"
+        },
+        {
+          "label": "完整人物库",
+          "path": "library/reports/zongheng-tianxia/atlas/characters.md"
         }
       ],
       "source_record_published": true,
-      "research_status": "partial",
-      "coverage_label": "Git已发布开篇5章；全书未完成",
-      "local_progress_note": "本地另有顺序研究任务正在推进，活动检查点以exchanges/runs为准；本目录不把尚未提交的续读稿混入本批发布。"
+      "research_status": "full",
+      "coverage_label": "全书1180个正文单元、8卷九维及终态审计；内容解释待用户审阅",
+      "local_progress_note": "最新整书树与47位人物主档已重整；51处关键事件有连贯说明，文学判断仍待审阅。",
+      "report": "library/reports/zongheng-tianxia/README.md",
+      "map": {
+        "overview": "library/reports/zongheng-tianxia/atlas/map.md",
+        "html": "library/reports/zongheng-tianxia/atlas/tree/index.html",
+        "reader": "library/reports/zongheng-tianxia/atlas/tree/index.html",
+        "png": "library/reports/zongheng-tianxia/atlas/tree/tree.png",
+        "svg": "library/reports/zongheng-tianxia/atlas/tree/tree.svg",
+        "preview": "library/reports/zongheng-tianxia/atlas/tree/tree-preview.png",
+        "graph": "library/sources/src-2a13958390274509b2af019f6b12d981/plot-graph.json",
+        "events": 260,
+        "stages": 8,
+        "relations": 227,
+        "unit_count": 1180,
+        "form": "branching-tree",
+        "source_relations": 227,
+        "progress_relations": 198,
+        "echo_relations": 29,
+        "reading_links": 30
+      }
     },
     {
       "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
@@ -45,11 +72,25 @@
       "tags": [
         "虚拟现实"
       ],
-      "published_links": [],
-      "source_record_published": false,
-      "research_status": "queued",
-      "coverage_label": "已建书目，Git尚无正式逐章研究",
-      "local_progress_note": "本地另有顺序研究任务正在推进，活动检查点以exchanges/runs为准；本目录不把尚未提交的续读稿混入本批发布。"
+      "published_links": [
+        {
+          "label": "来源登记与修订",
+          "path": "library/sources/src-d8926e2a35f04bcf8139cff0ea516bbd.json"
+        },
+        {
+          "label": "正式完整检查点",
+          "path": "exchanges/runs/run-deep-tianxia-wushuang-20261025.json"
+        },
+        {
+          "label": "当前跨端状态",
+          "path": "project/CURRENT-STATE.md"
+        }
+      ],
+      "source_record_published": true,
+      "research_status": "full",
+      "coverage_label": "全书1599个正文单元、8卷九维及终态审计；内容解释待用户审阅",
+      "local_progress_note": "全量研究已保存；本轮与纵横样板同等的整书树/连贯人物重整尚未完成。",
+      "report": "library/reports/tianxia-wushuang/README.md"
     },
     {
       "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
@@ -64,11 +105,25 @@
       "tags": [
         "虚拟现实"
       ],
-      "published_links": [],
-      "source_record_published": false,
-      "research_status": "queued",
-      "coverage_label": "已建书目，Git尚无正式逐章研究",
-      "local_progress_note": "本地另有顺序研究任务正在推进，活动检查点以exchanges/runs为准；本目录不把尚未提交的续读稿混入本批发布。"
+      "published_links": [
+        {
+          "label": "来源登记与修订",
+          "path": "library/sources/src-20f2d16e3d1b472fa4b230ab0e1770c9.json"
+        },
+        {
+          "label": "正式完整检查点",
+          "path": "exchanges/runs/run-deep-zhanlong-20261025.json"
+        },
+        {
+          "label": "当前跨端状态",
+          "path": "project/CURRENT-STATE.md"
+        }
+      ],
+      "source_record_published": true,
+      "research_status": "full",
+      "coverage_label": "全书1378个正文单元、6卷九维及终态审计；内容解释待用户审阅",
+      "local_progress_note": "全量研究已保存；本轮与纵横样板同等的整书树/连贯人物重整尚未完成。",
+      "report": "library/reports/zhanlong/README.md"
     },
     {
       "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",

@@ -1,0 +1,56 @@
+{
+  "asset_id": "scn-e91740c2580a5b3ab648ba15c6b4d89b",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "角色既要保大多数囚命又不能公然违命，但替死对象和被放者行为都会产生责任。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/luoqian"
+    ],
+    "choice": "以替身欺令后放人",
+    "claim_kind": "inference",
+    "consequence": "救多数却使边兵受害，主承欠安",
+    "failure_mode": "国王杀令不等司徒已执行，主自责不代补偿已成。",
+    "goal": "保囚命/控制军令后果",
+    "narrative_order": 1022,
+    "obstacle": "军令与现实治安",
+    "state_change": "善意目标产生新责任",
+    "summary": "司徒未杀七千囚，主用三百死囚伪卫遭斩而放七千，后逃囚真杀边兵。",
+    "why_it_works": "明确被牺牲群体与后果，不能只写仁慈。"
+  },
+  "created_at": "2026-10-25T21:08:43.224212+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0999",
+      "claim_kind": "fact",
+      "end_line": 74080,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 74019
+    },
+    {
+      "chapter_id": "ch-1022",
+      "claim_kind": "fact",
+      "end_line": 75580,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 75523
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/prison",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "三百死囚替七千后的边兵账",
+  "updated_at": "2026-10-25T21:08:43.224212+00:00",
+  "user_notes": ""
+}

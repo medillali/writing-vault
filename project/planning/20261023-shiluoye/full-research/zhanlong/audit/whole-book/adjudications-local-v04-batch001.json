@@ -1,0 +1,2010 @@
+[
+  {
+    "candidate_id": "v04-local-source_anomalies-0001-01",
+    "original_question": "鹿胸HP/灵抗行标防御，鹿头部件又称墨焰。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "鹿胸HP/灵抗行标防御，鹿头部件又称墨焰。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0756",
+          "claim_kind": "fact",
+          "end_line": 58996,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58929
+        },
+        {
+          "chapter_id": "ch-0757",
+          "claim_kind": "fact",
+          "end_line": 59078,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58997
+        }
+      ],
+      "handling": "保面板原数与套装归属上下文，不造两套头。",
+      "id": "v04-a-deer-labels",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 0,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "756鹿胸HP4500/灵抗50%行标防御、757鹿头部件行写墨焰，但同一获取链实际鹿鸣套组合/李牧实穿；后装备成长没给这几行的作者更正。可知套装语境而不能擅替原字段或造鹿头/墨焰两件，文字差仍未解释。",
+    "later_chapters": [
+      756,
+      757,
+      760
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0756",
+        "start_line": 58929,
+        "end_line": 58996,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0757",
+        "start_line": 58997,
+        "end_line": 59078,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0760",
+        "start_line": 59231,
+        "end_line": 59290,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0001-02",
+    "original_question": "保面板原数与套装归属上下文，不造两套头。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "鹿胸HP/灵抗行标防御，鹿头部件又称墨焰。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0756",
+          "claim_kind": "fact",
+          "end_line": 58996,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58929
+        },
+        {
+          "chapter_id": "ch-0757",
+          "claim_kind": "fact",
+          "end_line": 59078,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58997
+        }
+      ],
+      "handling": "保面板原数与套装归属上下文，不造两套头。",
+      "id": "v04-a-deer-labels",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 0,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "757第二部件随前胸合鹿鸣套，近三小时十一件凑首套李牧真装，760十二套/七现场穿；这些实际装配足认同一鹿套收集链，不能因部件行墨焰另造第二套头。原HP/灵抗误标防御作为原界面差保留，不倒推数值应该另增。",
+    "later_chapters": [
+      756,
+      757,
+      760
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0756",
+        "start_line": 58929,
+        "end_line": 58996,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0757",
+        "start_line": 58997,
+        "end_line": 59078,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0760",
+        "start_line": 59231,
+        "end_line": 59290,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0002-01",
+    "original_question": "熊王处四位伤后又说超过五位数。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "熊王处四位伤后又说超过五位数。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0757",
+          "claim_kind": "fact",
+          "end_line": 59078,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58997
+        }
+      ],
+      "handling": "两种原表述保留，不擅增一位数字。",
+      "id": "v04-a-four-five",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 1,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "757熊王同段列四位伤又称超过五位数，没有独立暴击/另一状态能把那几个已列伤数改成五位。后抹茶/主更高承伤是新王新装情境，不是此句纠错；数字与概括原样保留，不自添万位。",
+    "later_chapters": [
+      757,
+      759,
+      760
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0757",
+        "start_line": 58997,
+        "end_line": 59078,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0759",
+        "start_line": 59169,
+        "end_line": 59230,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0760",
+        "start_line": 59231,
+        "end_line": 59290,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0002-02",
+    "original_question": "两种原表述保留，不擅增一位数字。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "熊王处四位伤后又说超过五位数。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0757",
+          "claim_kind": "fact",
+          "end_line": 59078,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58997
+        }
+      ],
+      "handling": "两种原表述保留，不擅增一位数字。",
+      "id": "v04-a-four-five",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 1,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "numerical-boundary",
+    "rationale": "757伤值与形容不齐可并存登记，不能将四位值凭“超过五位”增一位，或用759火虎15227等后场伤倒补。本场抹T被奶回/主OT受万伤等另有明确记录，分开可读实际坦伤而不修源。",
+    "later_chapters": [
+      757,
+      759
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0757",
+        "start_line": 58997,
+        "end_line": 59078,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0759",
+        "start_line": 59169,
+        "end_line": 59230,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0003-01",
+    "original_question": "5000逐约500亲兵后称仅4000。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "5000逐约500亲兵后称仅4000。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0763",
+          "claim_kind": "fact",
+          "end_line": 59536,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59465
+        },
+        {
+          "chapter_id": "ch-0765",
+          "claim_kind": "fact",
+          "end_line": 59677,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59612
+        }
+      ],
+      "handling": "不造另500死亡或逃军。",
+      "id": "v04-a-initial-army",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 2,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "763现御林五千，765逐罗特五百余亲信而主后说只四千，差额不能唯一配齐；766选五百军官、767招五千蛮兵、768现一万均是后来真实补员/阶段数，未交代早剩差额是另死逃还是约数，不倒造五百死亡。",
+    "later_chapters": [
+      763,
+      765,
+      766,
+      767,
+      768
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0763",
+        "start_line": 59465,
+        "end_line": 59536,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0765",
+        "start_line": 59612,
+        "end_line": 59677,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0766",
+        "start_line": 59678,
+        "end_line": 59720,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0767",
+        "start_line": 59721,
+        "end_line": 59775,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0768",
+        "start_line": 59776,
+        "end_line": 59841,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0003-02",
+    "original_question": "不造另500死亡或逃军。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "5000逐约500亲兵后称仅4000。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0763",
+          "claim_kind": "fact",
+          "end_line": 59536,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59465
+        },
+        {
+          "chapter_id": "ch-0765",
+          "claim_kind": "fact",
+          "end_line": 59677,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59612
+        }
+      ],
+      "handling": "不造另500死亡或逃军。",
+      "id": "v04-a-initial-army",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 2,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "personnel-boundary",
+    "rationale": "765主准五百余随罗特离营且明确阻韩萧追杀；后有选军官与招蛮兵的新人口事件。原五千减五百余仍称四千不能被解释为主偷偷杀另五百或凭空全逃；保原近似人数和后续补入，已明的放行不反写屠杀。",
+    "later_chapters": [
+      765,
+      766,
+      767,
+      768
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0765",
+        "start_line": 59612,
+        "end_line": 59677,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0766",
+        "start_line": 59678,
+        "end_line": 59720,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0767",
+        "start_line": 59721,
+        "end_line": 59775,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0768",
+        "start_line": 59776,
+        "end_line": 59841,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0004-01",
+    "original_question": "763下将第5级，808称6级，768口语偏将/816萧偏将与已授不同。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "763下将第5级，808称6级，768口语偏将/816萧偏将与已授不同。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0763",
+          "claim_kind": "fact",
+          "end_line": 59536,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59465
+        },
+        {
+          "chapter_id": "ch-0768",
+          "claim_kind": "fact",
+          "end_line": 59841,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59776
+        },
+        {
+          "chapter_id": "ch-0808",
+          "claim_kind": "fact",
+          "end_line": 62382,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62327
+        },
+        {
+          "chapter_id": "ch-0809",
+          "claim_kind": "fact",
+          "end_line": 62431,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62383
+        },
+        {
+          "chapter_id": "ch-0816",
+          "claim_kind": "fact",
+          "end_line": 62874,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62807
+        }
+      ],
+      "handling": "正式授职时点保，口头等级误差另列，不凭称谓另造升降。",
+      "id": "v04-a-rank-early",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 3,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "763正式下将第5级，768同伴口称偏将、808回说原下将6级，809萧已授正6扬威而816又口称偏将，等级/称谓未有统一勘误。实际808主受正4镇南、809四将各新衔可定分期，不据口误另造降职再升或更换两个萧厉。",
+    "later_chapters": [
+      763,
+      768,
+      808,
+      809,
+      816
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0763",
+        "start_line": 59465,
+        "end_line": 59536,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0768",
+        "start_line": 59776,
+        "end_line": 59841,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0808",
+        "start_line": 62327,
+        "end_line": 62382,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0809",
+        "start_line": 62383,
+        "end_line": 62431,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0816",
+        "start_line": 62807,
+        "end_line": 62874,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0004-02",
+    "original_question": "正式授职时点保，口头等级误差另列，不凭称谓另造升降。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "763下将第5级，808称6级，768口语偏将/816萧偏将与已授不同。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0763",
+          "claim_kind": "fact",
+          "end_line": 59536,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59465
+        },
+        {
+          "chapter_id": "ch-0768",
+          "claim_kind": "fact",
+          "end_line": 59841,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59776
+        },
+        {
+          "chapter_id": "ch-0808",
+          "claim_kind": "fact",
+          "end_line": 62382,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62327
+        },
+        {
+          "chapter_id": "ch-0809",
+          "claim_kind": "fact",
+          "end_line": 62431,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62383
+        },
+        {
+          "chapter_id": "ch-0816",
+          "claim_kind": "fact",
+          "end_line": 62874,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62807
+        }
+      ],
+      "handling": "正式授职时点保，口头等级误差另列，不凭称谓另造升降。",
+      "id": "v04-a-rank-early",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 3,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "rank-sequence",
+    "rationale": "军阶沿有授令的763主下将、808主镇南、809韩龙骧/萧扬威正6/龙硎夏叶偏正5排列；816口称偏将不具撤职动作。承认5/6源差与人物误称，避免为统一造额外升降，也不把所有将军当同一等级。",
+    "later_chapters": [
+      763,
+      808,
+      809,
+      816
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0763",
+        "start_line": 59465,
+        "end_line": 59536,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0808",
+        "start_line": 62327,
+        "end_line": 62382,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0809",
+        "start_line": 62383,
+        "end_line": 62431,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0816",
+        "start_line": 62807,
+        "end_line": 62874,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0005-01",
+    "original_question": "784整战歼二百万，785论坛回叙三百万余",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "784整战歼二百万，785论坛回叙三百万余；778二万七千对1.5人漏万。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0778",
+          "claim_kind": "fact",
+          "end_line": 60480,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60429
+        },
+        {
+          "chapter_id": "ch-0784",
+          "claim_kind": "fact",
+          "end_line": 60824,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60760
+        },
+        {
+          "chapter_id": "ch-0785",
+          "claim_kind": "fact",
+          "end_line": 60887,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60825
+        }
+      ],
+      "handling": "保系统/战报/论坛不同来源与明确当场一万五；不强定唯一总量。",
+      "id": "v04-a-war-quantity",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 4,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "784整战叙歼二百万，785论坛转述昨日三百万余，口径来源不同而未给可复算的新增人次/时界说明。后国战的其他几百万是新战，不用于修这个昨日总量；不强裁哪一方数字唯一真或二者相加五百万。",
+    "later_chapters": [
+      780,
+      784,
+      785
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0780",
+        "start_line": 60536,
+        "end_line": 60583,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0784",
+        "start_line": 60760,
+        "end_line": 60824,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0785",
+        "start_line": 60825,
+        "end_line": 60887,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0005-02",
+    "original_question": "778二万七千对1.5人漏万。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "784整战歼二百万，785论坛回叙三百万余；778二万七千对1.5人漏万。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0778",
+          "claim_kind": "fact",
+          "end_line": 60480,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60429
+        },
+        {
+          "chapter_id": "ch-0784",
+          "claim_kind": "fact",
+          "end_line": 60824,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60760
+        },
+        {
+          "chapter_id": "ch-0785",
+          "claim_kind": "fact",
+          "end_line": 60887,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60825
+        }
+      ],
+      "handling": "保系统/战报/论坛不同来源与明确当场一万五；不强定唯一总量。",
+      "id": "v04-a-war-quantity",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 4,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "local-number-clarification",
+    "rationale": "778同章明确二万七千对一万五新月，779战后三小时又明确该一万五余数百，足辨“1.5人”漏万而非真只有一人半或敌1.5万亿。保误字并采用同场直述人数，不改原记录。",
+    "later_chapters": [
+      778,
+      779
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0778",
+        "start_line": 60429,
+        "end_line": 60480,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0779",
+        "start_line": 60481,
+        "end_line": 60535,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0005-03",
+    "original_question": "保系统/战报/论坛不同来源与明确当场一万五",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "784整战歼二百万，785论坛回叙三百万余；778二万七千对1.5人漏万。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0778",
+          "claim_kind": "fact",
+          "end_line": 60480,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60429
+        },
+        {
+          "chapter_id": "ch-0784",
+          "claim_kind": "fact",
+          "end_line": 60824,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60760
+        },
+        {
+          "chapter_id": "ch-0785",
+          "claim_kind": "fact",
+          "end_line": 60887,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60825
+        }
+      ],
+      "handling": "保系统/战报/论坛不同来源与明确当场一万五；不强定唯一总量。",
+      "id": "v04-a-war-quantity",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 4,
+      "atomic_index": 2
+    },
+    "status": "answered",
+    "audit_domain": "attribution-of-counts",
+    "rationale": "778局部一万五敌/二万七己，780二百万临海精锐，784整战二百万歼灭与五盟死29万人次杀101万人次、785论坛三百万余，分别有规模/范围/来源。分清以后可承认五盟耗损和援军胜，不拿论坛数补局部人数或把复活人次当不同玩家。",
+    "later_chapters": [
+      778,
+      780,
+      784,
+      785
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0778",
+        "start_line": 60429,
+        "end_line": 60480,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0780",
+        "start_line": 60536,
+        "end_line": 60583,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0784",
+        "start_line": 60760,
+        "end_line": 60824,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0785",
+        "start_line": 60825,
+        "end_line": 60887,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0005-04",
+    "original_question": "不强定唯一总量。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "784整战歼二百万，785论坛回叙三百万余；778二万七千对1.5人漏万。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0778",
+          "claim_kind": "fact",
+          "end_line": 60480,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60429
+        },
+        {
+          "chapter_id": "ch-0784",
+          "claim_kind": "fact",
+          "end_line": 60824,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60760
+        },
+        {
+          "chapter_id": "ch-0785",
+          "claim_kind": "fact",
+          "end_line": 60887,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60825
+        }
+      ],
+      "handling": "保系统/战报/论坛不同来源与明确当场一万五；不强定唯一总量。",
+      "id": "v04-a-war-quantity",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 4,
+      "atomic_index": 3
+    },
+    "status": "answered",
+    "audit_domain": "numerical-limits",
+    "rationale": "这次大战已有784胜果，但终总量未给从二百万到论坛三百万的统一计算表，胜负可闭而唯一总量不必硬造。后续战争不同图/时间的损失不能回填，原二种说法并列比擅改成一致更忠于源。",
+    "later_chapters": [
+      784,
+      785
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0784",
+        "start_line": 60760,
+        "end_line": 60824,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0785",
+        "start_line": 60825,
+        "end_line": 60887,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0006-01",
+    "original_question": "火斧原四万五后四万/五万，秋收四万全覆而808另有700幸存。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "火斧原四万五后四万/五万，秋收四万全覆而808另有700幸存。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0787",
+          "claim_kind": "fact",
+          "end_line": 61006,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60948
+        },
+        {
+          "chapter_id": "ch-0788",
+          "claim_kind": "fact",
+          "end_line": 61067,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61007
+        },
+        {
+          "chapter_id": "ch-0792",
+          "claim_kind": "fact",
+          "end_line": 61324,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61258
+        },
+        {
+          "chapter_id": "ch-0808",
+          "claim_kind": "fact",
+          "end_line": 62382,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62327
+        }
+      ],
+      "handling": "按各阶段报告，不说相同死人复活，旧覆为当时战报。",
+      "id": "v04-a-firearmy",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 5,
+      "atomic_index": 0
+    },
+    "status": "partial",
+    "audit_domain": "army-strength-and-survival",
+    "rationale": "787火斧编四万五、788岸阵口称四万后五万没有统一基数；789实际救两万余是该战阶段，792秋收四万全覆是当时报。808明确700余幸存交花枪重建，补答全覆非逐个具名永死，但不是四万死者复活，也不反算火斧起初唯一数。",
+    "later_chapters": [
+      787,
+      788,
+      789,
+      792,
+      808
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0787",
+        "start_line": 60948,
+        "end_line": 61006,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0788",
+        "start_line": 61007,
+        "end_line": 61067,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0789",
+        "start_line": 61068,
+        "end_line": 61124,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0792",
+        "start_line": 61258,
+        "end_line": 61324,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0808",
+        "start_line": 62327,
+        "end_line": 62382,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0006-02",
+    "original_question": "按各阶段报告，不说相同死人复活，旧覆为当时战报。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "火斧原四万五后四万/五万，秋收四万全覆而808另有700幸存。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0787",
+          "claim_kind": "fact",
+          "end_line": 61006,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 60948
+        },
+        {
+          "chapter_id": "ch-0788",
+          "claim_kind": "fact",
+          "end_line": 61067,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61007
+        },
+        {
+          "chapter_id": "ch-0792",
+          "claim_kind": "fact",
+          "end_line": 61324,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61258
+        },
+        {
+          "chapter_id": "ch-0808",
+          "claim_kind": "fact",
+          "end_line": 62382,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62327
+        }
+      ],
+      "handling": "按各阶段报告，不说相同死人复活，旧覆为当时战报。",
+      "id": "v04-a-firearmy",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 5,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "survival-versus-resurrection",
+    "rationale": "808七百余残兵与花枪受领是战后新增幸存信息，采用后态可修“全会一个活人也无”的过强理解；没有同一具名死兵复活镜头。火斧789救撤/秋收808重建分军分时，不因后来更大编制抹早战损。",
+    "later_chapters": [
+      788,
+      789,
+      792,
+      808
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0788",
+        "start_line": 61007,
+        "end_line": 61067,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0789",
+        "start_line": 61068,
+        "end_line": 61124,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0792",
+        "start_line": 61258,
+        "end_line": 61324,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0808",
+        "start_line": 62327,
+        "end_line": 62382,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0007-01",
+    "original_question": "十三君王/14君王/15大神BOSS等数字不齐。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "十三君王/14君王/15大神BOSS等数字不齐。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0762",
+          "claim_kind": "fact",
+          "end_line": 59464,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59411
+        },
+        {
+          "chapter_id": "ch-0791",
+          "claim_kind": "fact",
+          "end_line": 61257,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61202
+        },
+        {
+          "chapter_id": "ch-0801",
+          "claim_kind": "fact",
+          "end_line": 61936,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61862
+        },
+        {
+          "chapter_id": "ch-0953",
+          "claim_kind": "fact",
+          "end_line": 71221,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 71173
+        }
+      ],
+      "handling": "不凭称号修订全书名单，也不把本卷杀四君扩成全部。",
+      "id": "v04-a-lords-count",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 6,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "762十四、791十三、801十五大神BOSS、953系统罗鼎为十六君之一，称呼范围与时点并非统一清单；末1386傲天战皇仍在也不属于据此可随意增减的原名单。没有书内完整校订表来消除早量差，不自造第几位补位/轮替年代。",
+    "later_chapters": [
+      762,
+      791,
+      801,
+      953,
+      1386
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0762",
+        "start_line": 59411,
+        "end_line": 59464,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0791",
+        "start_line": 61202,
+        "end_line": 61257,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0801",
+        "start_line": 61862,
+        "end_line": 61936,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0953",
+        "start_line": 71173,
+        "end_line": 71221,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1386",
+        "start_line": 99656,
+        "end_line": 99818,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0007-02",
+    "original_question": "不凭称号修订全书名单，也不把本卷杀四君扩成全部。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "十三君王/14君王/15大神BOSS等数字不齐。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0762",
+          "claim_kind": "fact",
+          "end_line": 59464,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59411
+        },
+        {
+          "chapter_id": "ch-0791",
+          "claim_kind": "fact",
+          "end_line": 61257,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61202
+        },
+        {
+          "chapter_id": "ch-0801",
+          "claim_kind": "fact",
+          "end_line": 61936,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61862
+        },
+        {
+          "chapter_id": "ch-0953",
+          "claim_kind": "fact",
+          "end_line": 71221,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 71173
+        }
+      ],
+      "handling": "不凭称号修订全书名单，也不把本卷杀四君扩成全部。",
+      "id": "v04-a-lords-count",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 6,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "named-fates-versus-roster",
+    "rationale": "801塞林、806凯尔、833罗林、953罗鼎各有具体死亡链，可认卷4四君之死而不等所有君王被杀。全书1386战皇仍活、霜认一人不敌集群，终局也未给以十三/十四等复算的名单；按人逐事保战果，不以总称扩大灭绝。",
+    "later_chapters": [
+      801,
+      806,
+      833,
+      953,
+      1386
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0801",
+        "start_line": 61862,
+        "end_line": 61936,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0806",
+        "start_line": 62150,
+        "end_line": 62224,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0833",
+        "start_line": 63793,
+        "end_line": 63852,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0953",
+        "start_line": 71173,
+        "end_line": 71221,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1386",
+        "start_line": 99656,
+        "end_line": 99818,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0008-01",
+    "original_question": "145后铁鳞奖一级/796面板147",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "145后铁鳞奖一级/796面板147；820再奖后838仍152等连续算不全。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0791",
+          "claim_kind": "fact",
+          "end_line": 61257,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61202
+        },
+        {
+          "chapter_id": "ch-0795",
+          "claim_kind": "fact",
+          "end_line": 61505,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61443
+        },
+        {
+          "chapter_id": "ch-0796",
+          "claim_kind": "fact",
+          "end_line": 61613,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61506
+        },
+        {
+          "chapter_id": "ch-0806",
+          "claim_kind": "fact",
+          "end_line": 62224,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62150
+        },
+        {
+          "chapter_id": "ch-0807",
+          "claim_kind": "fact",
+          "end_line": 62326,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62225
+        },
+        {
+          "chapter_id": "ch-0810",
+          "claim_kind": "fact",
+          "end_line": 62499,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62432
+        },
+        {
+          "chapter_id": "ch-0820",
+          "claim_kind": "fact",
+          "end_line": 63118,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 63066
+        },
+        {
+          "chapter_id": "ch-0838",
+          "claim_kind": "fact",
+          "end_line": 64174,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 64092
+        }
+      ],
+      "handling": "保最近直接面板和各奖，不添加隐藏升级或擅扣级。",
+      "id": "v04-a-level-link",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 7,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "791主145，795铁鳞系统奖+1，796直接面板147，期间未逐次演出另一升级；后新奖励/六转有明确变化但不能回填早缺项。保145、+1、147各直接记录，未知省略经验升/笔误何因，不新增隐藏奖。",
+    "later_chapters": [
+      791,
+      795,
+      796,
+      806,
+      808,
+      810
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0791",
+        "start_line": 61202,
+        "end_line": 61257,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0795",
+        "start_line": 61443,
+        "end_line": 61505,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0796",
+        "start_line": 61506,
+        "end_line": 61613,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0806",
+        "start_line": 62150,
+        "end_line": 62224,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0808",
+        "start_line": 62327,
+        "end_line": 62382,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0810",
+        "start_line": 62432,
+        "end_line": 62499,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0008-02",
+    "original_question": "820再奖后838仍152等连续算不全。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "145后铁鳞奖一级/796面板147；820再奖后838仍152等连续算不全。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0791",
+          "claim_kind": "fact",
+          "end_line": 61257,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61202
+        },
+        {
+          "chapter_id": "ch-0795",
+          "claim_kind": "fact",
+          "end_line": 61505,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61443
+        },
+        {
+          "chapter_id": "ch-0796",
+          "claim_kind": "fact",
+          "end_line": 61613,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61506
+        },
+        {
+          "chapter_id": "ch-0806",
+          "claim_kind": "fact",
+          "end_line": 62224,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62150
+        },
+        {
+          "chapter_id": "ch-0807",
+          "claim_kind": "fact",
+          "end_line": 62326,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62225
+        },
+        {
+          "chapter_id": "ch-0810",
+          "claim_kind": "fact",
+          "end_line": 62499,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62432
+        },
+        {
+          "chapter_id": "ch-0820",
+          "claim_kind": "fact",
+          "end_line": 63118,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 63066
+        },
+        {
+          "chapter_id": "ch-0838",
+          "claim_kind": "fact",
+          "end_line": 64174,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 64092
+        }
+      ],
+      "handling": "保最近直接面板和各奖，不添加隐藏升级或擅扣级。",
+      "id": "v04-a-level-link",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 7,
+      "atomic_index": 1
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "810首六转直示152，820剿盗系统+1后，838神烈龙马实骑面板仍152，未给明确扣级/重算说明。838换坐骑不会按已知规则自动降级；后高等级面板也不能证明该处完整算式，保源差而不擅改153或造一次死亡。",
+    "later_chapters": [
+      810,
+      820,
+      838
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0810",
+        "start_line": 62432,
+        "end_line": 62499,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0820",
+        "start_line": 63066,
+        "end_line": 63118,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0838",
+        "start_line": 64092,
+        "end_line": 64174,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0008-03",
+    "original_question": "保最近直接面板和各奖，不添加隐藏升级或擅扣级。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "145后铁鳞奖一级/796面板147；820再奖后838仍152等连续算不全。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0791",
+          "claim_kind": "fact",
+          "end_line": 61257,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61202
+        },
+        {
+          "chapter_id": "ch-0795",
+          "claim_kind": "fact",
+          "end_line": 61505,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61443
+        },
+        {
+          "chapter_id": "ch-0796",
+          "claim_kind": "fact",
+          "end_line": 61613,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61506
+        },
+        {
+          "chapter_id": "ch-0806",
+          "claim_kind": "fact",
+          "end_line": 62224,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62150
+        },
+        {
+          "chapter_id": "ch-0807",
+          "claim_kind": "fact",
+          "end_line": 62326,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62225
+        },
+        {
+          "chapter_id": "ch-0810",
+          "claim_kind": "fact",
+          "end_line": 62499,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 62432
+        },
+        {
+          "chapter_id": "ch-0820",
+          "claim_kind": "fact",
+          "end_line": 63118,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 63066
+        },
+        {
+          "chapter_id": "ch-0838",
+          "claim_kind": "fact",
+          "end_line": 64174,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 64092
+        }
+      ],
+      "handling": "保最近直接面板和各奖，不添加隐藏升级或擅扣级。",
+      "id": "v04-a-level-link",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 7,
+      "atomic_index": 2
+    },
+    "status": "answered",
+    "audit_domain": "level-evidence-boundary",
+    "rationale": "可按806主150、808151、810152与838当下面板识各阶段能力资格，独立保795/820系统奖励；不为抹差补隐升或扣级。这样不误阻810已六转，也不会因838仍152否认820系统真发奖。",
+    "later_chapters": [
+      795,
+      796,
+      806,
+      808,
+      810,
+      820,
+      838
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0795",
+        "start_line": 61443,
+        "end_line": 61505,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0796",
+        "start_line": 61506,
+        "end_line": 61613,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0806",
+        "start_line": 62150,
+        "end_line": 62224,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0808",
+        "start_line": 62327,
+        "end_line": 62382,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0810",
+        "start_line": 62432,
+        "end_line": 62499,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0820",
+        "start_line": 63066,
+        "end_line": 63118,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0838",
+        "start_line": 64092,
+        "end_line": 64174,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v04-local-source_anomalies-0009-01",
+    "original_question": "762潜在上位/769初位神力、801塞说上位身体无格/829主说上神初阶。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "762潜在上位/769初位神力、801塞说上位身体无格/829主说上神初阶。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0762",
+          "claim_kind": "fact",
+          "end_line": 59464,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59411
+        },
+        {
+          "chapter_id": "ch-0769",
+          "claim_kind": "fact",
+          "end_line": 59909,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 59842
+        },
+        {
+          "chapter_id": "ch-0801",
+          "claim_kind": "fact",
+          "end_line": 61936,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 61862
+        },
+        {
+          "chapter_id": "ch-0829",
+          "claim_kind": "fact",
+          "end_line": 63618,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 63570
+        }
+      ],
+      "handling": "语境和时点不同，不一律裁矛盾或自造详细觉醒时表。",
+      "id": "v04-a-serin-god",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 4,
+      "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 8,
+      "atomic_index": 0
+    },
+    "status": "partial",
+    "audit_domain": "power-state-and-knowledge",
+    "rationale": "762欧恩说潜在上位未全觉、769霜亲说当前初位神力可飞，是潜力/现有可分层；801塞嘲上位身体却无其神格是敌判断，829主又称上位初阶且她实融绝望。能解释说话者/身体潜能与当下能力差，不应一概同章矛盾；精确每级神格觉醒时表仍没有独立全证，不能反造某章完整飞升流程。",
+    "later_chapters": [
+      762,
+      769,
+      801,
+      810,
+      829
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0762",
+        "start_line": 59411,
+        "end_line": 59464,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0769",
+        "start_line": 59842,
+        "end_line": 59909,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0801",
+        "start_line": 61862,
+        "end_line": 61936,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0810",
+        "start_line": 62432,
+        "end_line": 62499,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0829",
+        "start_line": 63570,
+        "end_line": 63618,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "本卷本人历史全文实读基础上，已完整复读756—769/778—792/795—801/806—810/816/820/829/838/953四栏（首次合并输出截断段765—769及778—780已精确补读）；另完整派生读primary-ending-reread全部12片四栏，收据另存，归属保primary。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  }
+]

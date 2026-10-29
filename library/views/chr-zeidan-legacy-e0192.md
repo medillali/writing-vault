@@ -1,0 +1,118 @@
+# 贼胆｜月白｜E0192
+
+ID: `chr-zeidan-legacy-e0192` · 版本: 1 · 范围: source-analysis
+
+敌方51级将军精灵贼，失败队伍成员；两个队友坏事是其自述，回城失效与被逐出圣光使其成追猎目标。；杀宿命妖孽，警觉并不肯坐以待毙；任务惩罚再死亡将使其可能退出顶尖，仍决定努力不悔。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0192",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "竞技铺垫中",
+    "facts": [
+      "敌方51级将军精灵贼，失败队伍成员；两个队友坏事是其自述，回城失效与被逐出圣光使其成追猎目标。",
+      "杀宿命妖孽，警觉并不肯坐以待毙；任务惩罚再死亡将使其可能退出顶尖，仍决定努力不悔。",
+      "敏锐感知、精灵隐匿、刚得影子战士；不熟操作和装备差使其被萧宠致盲配裂爆杀。"
+    ],
+    "id": "part-c:entity:yuelai",
+    "inferences": [
+      "对手的失败处境与机制代价使他有厚度，不能只作测试影子的沙包。"
+    ],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0192",
+    "maintenance_depth": "重要",
+    "name": "月白",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0192",
+    "summary": "敌方51级将军精灵贼，失败队伍成员；两个队友坏事是其自述，回城失效与被逐出圣光使其成追猎目标。；杀宿命妖孽，警觉并不肯坐以待毙；任务惩罚再死亡将使其可能退出顶尖，仍决定努力不悔。",
+    "user_feedback": null,
+    "worker_part": "part-c"
+  },
+  "created_at": "2026-10-22T17:03:13.013540+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0404",
+      "claim_kind": "fact",
+      "end_line": 24673,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 24610
+    },
+    {
+      "chapter_id": "ch-0404",
+      "claim_kind": "inference",
+      "end_line": 24673,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 24610
+    },
+    {
+      "chapter_id": "ch-0405",
+      "claim_kind": "fact",
+      "end_line": 24736,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 24674
+    },
+    {
+      "chapter_id": "ch-0405",
+      "claim_kind": "inference",
+      "end_line": 24736,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 24674
+    },
+    {
+      "chapter_id": "ch-0406",
+      "claim_kind": "fact",
+      "end_line": 24800,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 24737
+    },
+    {
+      "chapter_id": "ch-0406",
+      "claim_kind": "inference",
+      "end_line": 24800,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 24737
+    },
+    {
+      "chapter_id": "ch-0407",
+      "claim_kind": "fact",
+      "end_line": 24856,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 24801
+    },
+    {
+      "chapter_id": "ch-0407",
+      "claim_kind": "inference",
+      "end_line": 24856,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 24801
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0192",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-c"
+  ],
+  "title": "贼胆｜月白｜E0192",
+  "updated_at": "2026-10-22T17:03:13.023304+00:00",
+  "user_notes": ""
+}
+
+```

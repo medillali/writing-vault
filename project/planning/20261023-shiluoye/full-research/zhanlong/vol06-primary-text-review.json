@@ -1,0 +1,27 @@
+{
+  "reviewer": "primary",
+  "status": "text-completely-read-pending-targeted-revision",
+  "report": {
+    "path": "vol06/report.md",
+    "sha256": "6ceba65f603fa9ec518d302a7e57e1fdfab4a7386177aa08b16e951575277ba9",
+    "full_ranges_read": [[1, 180], [181, 246]],
+    "complete": true
+  },
+  "handoff": {
+    "path": "vol06/handoff.md",
+    "sha256": "c4ae7925c75bdbb3bb77ea6061dc91a92c7f20a2616daf33593d0bc440fdd1b8",
+    "full_ranges_read": [[1, 33]],
+    "complete": true
+  },
+  "scope": "实际完整逐项阅读原冻结45九维、102卡、70节点49边23线、32阶段、24问题29异常、12机制摘要4取舍、报告/交接。详细JSON范围与输入SHA在vol06-primary-review-progress.json。不是primary本人整卷原文阅读；root本人仅另完整重读末1375—1386，先前52批原文reader仍agent5。",
+  "pending_minimal_revisions": [
+    "pacing v06-attrition-ladder雨压火炮需澄清：保护引线后雨中仍能开炮，不能写雨已停炮导致失城。",
+    "continuity v06-open-end-not-erasure以建索引流程代文学观察，改具体承诺经职位/身体/物件再现分步回收；facts和证据保留。",
+    "continuity v06-source-interface-anomalies移除验收流程限制，说明实际文字漂移对读者辨识/因果判断的限制，不美化源差。",
+    "主卡NPC不可复限定NPC军不能按玩家方式掉级返场；霜卡及handoff留100龙骑应为允留而未独演全部到场；薛柔卡明确薛景妹妹、薛柔姐姐。",
+    "58场景适用条件/失败边界全部是同句通用填充，需各自手写具体，当前事实/choice/why保。",
+    "graph soul-army→canglan-soul及lanse-loss→upper-god仅主题/同时并置，kind setup拟改echo，保证据与标签。"
+  ],
+  "constraints": "agent5只在独立新文件准备拟delta/58场景字段，未获root对具体新文审读前不改原冻结。原notes/批次/reader/read_at/章节索引不得改。root须完整审新字段与定向delta并断言其余语义不变，再重验SHA。",
+  "import_status": "未导入卷6，仍须卷4/5先正式。全部六卷正式冻结后才启动全书终审池与36综合/人物弧。"
+}

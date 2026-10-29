@@ -1,0 +1,36 @@
+{
+  "status": "mechanical_checks_passed_pending_primary_semantic_review",
+  "volume": 6,
+  "actual_reviewer": "zongheng_vol05_full",
+  "verified_at": "2026-10-25T23:40:44.724972+00:00",
+  "count": 200,
+  "batches": 10,
+  "counts": {
+    "unknown": 24,
+    "answered": 125,
+    "partial": 50,
+    "unrecovered": 1
+  },
+  "exact_assigned_id_order": true,
+  "original_fields_preserved": true,
+  "fixed_source_evidence_bounds": true,
+  "pool_unchanged": true,
+  "pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+  "input_manifest_sha256": "bd59f3fe128d0382a59c52e3120b7c509c0ff0fc0f3cf246dc86794036d41b92",
+  "batch_sha256": {
+    "adjudications-local-v06-batch001.json": "20c67f8c31858fab8348c43cff5010b9a74ec6f30cec5b927a36350b9fb643e3",
+    "adjudications-local-v06-batch002.json": "c2071be6eeb01037fbf76bb8c8e49819e25bc673d30c058d0da0cc42dd8cbbdd",
+    "adjudications-local-v06-batch003.json": "e8ff62fbb51de152a30e2789d7d1e6eb11a53f4bd2258f5ed53341d3648c09d3",
+    "adjudications-local-v06-batch004.json": "ddd7bf26e5448e208fd71992baf0257dee41ef3fd6dfa4b91c1e8e764dba093b",
+    "adjudications-local-v06-batch005.json": "5e76fc8f48758f709192b0cf2c861c1a5e8872dfe0d4ad734b31ea6a7ee87cee",
+    "adjudications-local-v06-batch006.json": "58f948258a87d2d679b91069b1b532c3e64aead26326c7819bfd07c0f1bd3550",
+    "adjudications-local-v06-batch007.json": "88be5c924eec92b7a14540c2b28357b56ba3a8d65431c838e4e283e056a32038",
+    "adjudications-local-v06-batch008.json": "78a80f12e9f2911d6b6877b14f604959321cb5c94b397087f5d33acf0b6ca99e",
+    "adjudications-local-v06-batch009.json": "94dcdf20d5106f54c1f6ab0dd999f276ff969d527618755d7c409679c6947b4b",
+    "adjudications-local-v06-batch010.json": "584ec825c7091d89060af7911ee2490bd9330d72c726eec129d6e5e65853c805"
+  },
+  "limitation": "结构/行号/逐值检查不代替primary语义主审；answered含研究约束，不等所有剧情成功回收。",
+  "scope": "volume6-local-candidates-0-based-0:200-only",
+  "assignment_update_sha256": "1206ba77585a1c43a0b6eb4252dac606fe27a96a205a7ecef1093f39e90cf1a9",
+  "not_claimed": "reader4负责201—399，原卷全文仍按真实原reader，不冒本代理全399终评"
+}

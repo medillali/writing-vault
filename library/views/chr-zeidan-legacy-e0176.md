@@ -1,0 +1,181 @@
+# 贼胆｜赵岚馨｜E0176
+
+ID: `chr-zeidan-legacy-e0176` · 版本: 1 · 范围: source-analysis
+
+海族水法兼治疗、控制与群攻，现实曾做军医和慈善医院医生；军中遇企图强迫者，反抗后遭报复革职，由父亲亲述。；主动亲近萧、保管赌金、照顾共同生活；并非只有金援，她危急救援、判断地形、组织输出多次决定胜负。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0176",
+  "asset_type": "character",
+  "content": {
+    "aliases": [
+      "小岚",
+      "岚馨姐",
+      "嫂子（亲友称呼，不代表已婚）"
+    ],
+    "causal_importance": "高",
+    "desires": [
+      "稳定的家人与相互尊重",
+      "共同生活",
+      "配合也保有独立能力"
+    ],
+    "facts": [
+      "海族水法兼治疗、控制与群攻，现实曾做军医和慈善医院医生；军中遇企图强迫者，反抗后遭报复革职，由父亲亲述。",
+      "主动亲近萧、保管赌金、照顾共同生活；并非只有金援，她危急救援、判断地形、组织输出多次决定胜负。",
+      "母亲长期等待军人父亲的故事影响其爱情理解，父亲缺席和母亡造成疏隔；看到兄妹打闹感到家人温暖。",
+      "在亲密关系中持续有边界，确认迁新星与婚约不等于已婚；迁移票已订，本段未到达。",
+      "独自发现海底梦魇球形覆盖、礁石卡怪提升练级效率；乌服诺斯她找乱石场、解毒、群刷，420主动回去冲60并同意参加50人团。",
+      "417明确叙述她参加过现实战争，医者见惯战火而对游戏战较平静。"
+    ],
+    "id": "part-c:entity:zhao",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0176",
+    "limitations": [
+      "法系近身脆弱与移动速度限制",
+      "情感中的犹疑与对旧缘的担心"
+    ],
+    "maintenance_depth": "核心",
+    "name": "赵岚馨",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0176",
+    "summary": "海族水法兼治疗、控制与群攻，现实曾做军医和慈善医院医生；军中遇企图强迫者，反抗后遭报复革职，由父亲亲述。；主动亲近萧、保管赌金、照顾共同生活；并非只有金援，她危急救援、判断地形、组织输出多次决定胜负。",
+    "user_feedback": null,
+    "worker_part": "part-c"
+  },
+  "created_at": "2026-10-22T17:03:12.780493+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0327",
+      "claim_kind": "fact",
+      "end_line": 18041,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 17977
+    },
+    {
+      "chapter_id": "ch-0334",
+      "claim_kind": "fact",
+      "end_line": 18529,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18465
+    },
+    {
+      "chapter_id": "ch-0335",
+      "claim_kind": "fact",
+      "end_line": 18590,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18530
+    },
+    {
+      "chapter_id": "ch-0342",
+      "claim_kind": "fact",
+      "end_line": 19023,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 18961
+    },
+    {
+      "chapter_id": "ch-0362",
+      "claim_kind": "fact",
+      "end_line": 21642,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 21580
+    },
+    {
+      "chapter_id": "ch-0376",
+      "claim_kind": "fact",
+      "end_line": 22740,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 22613
+    },
+    {
+      "chapter_id": "ch-0381",
+      "claim_kind": "fact",
+      "end_line": 23075,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 23013
+    },
+    {
+      "chapter_id": "ch-0382",
+      "claim_kind": "fact",
+      "end_line": 23142,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 23076
+    },
+    {
+      "chapter_id": "ch-0392",
+      "claim_kind": "fact",
+      "end_line": 23881,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 23817
+    },
+    {
+      "chapter_id": "ch-0404",
+      "claim_kind": "fact",
+      "end_line": 24673,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 24610
+    },
+    {
+      "chapter_id": "ch-0417",
+      "claim_kind": "fact",
+      "end_line": 25601,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 25531
+    },
+    {
+      "chapter_id": "ch-0418",
+      "claim_kind": "fact",
+      "end_line": 25657,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 25602
+    },
+    {
+      "chapter_id": "ch-0420",
+      "claim_kind": "fact",
+      "end_line": 25789,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 25724
+    },
+    {
+      "chapter_id": "ch-0421",
+      "claim_kind": "fact",
+      "end_line": 25869,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 25790
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0176",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-c"
+  ],
+  "title": "贼胆｜赵岚馨｜E0176",
+  "updated_at": "2026-10-22T17:03:12.794491+00:00",
+  "user_notes": ""
+}
+
+```

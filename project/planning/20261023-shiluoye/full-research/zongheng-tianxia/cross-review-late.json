@@ -1,0 +1,531 @@
+{
+  "title": "纵横全书资料独立跨卷复核：卷三、卷七强证据与身份边界",
+  "source_id": "src-2a13958390274509b2af019f6b12d981",
+  "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+  "review_status": "draft",
+  "reviewer": "/root/zongheng_vol03_full",
+  "scope": {
+    "prior_full_text_personally_read": [
+      "卷三raw0102—0245，共144正文",
+      "卷七raw0776—0950，共175正文"
+    ],
+    "vol07_tail": "raw0951—1060原由primary全文阅读；本代理合并并研读其笔记，不冒认亲读110章。此次其中1012/1037有新增定向全文复读。",
+    "this_review_targeted_full_rereads": [
+      "ch-0669",
+      "ch-0922",
+      "ch-1012",
+      "ch-1037",
+      "ch-1131"
+    ],
+    "this_review_targeted_line_checks": [
+      "ch-0004 L160—169",
+      "ch-0774 L85341—85375",
+      "ch-0779 L86110—86179",
+      "ch-0780 L86220—86272",
+      "ch-0923 L103115—103180",
+      "ch-0924 L103292—103365",
+      "ch-0963 L106635—106650",
+      "ch-0966 L106928—106946",
+      "ch-1093 L119070—119080"
+    ],
+    "other_material": "现有43人物弧与25终点问题草稿均按字段读取；其余卷正式交接、人物卡及相关分析为派生研究参考，不改变原实际读者归属。未读《天下无双》或其他后作。",
+    "write_boundary": "只新增本cross-review-late.json及同名md；未修改正式库、任何分卷冻结稿、其他代理审计文件或Git。"
+  },
+  "conclusion": "本次未确认尚存将王红血案定罪、林克林丘误合、卷七北冥提前穿用、NPC全永久死或灵儿多造第四封的实质错误。发现3项可用正式卷六七补齐的旧pending、2项同名/称号边界、已修主角原名的整书索引要求及若干定位/省略措辞风险。不能把它们全部称为剧情事实错误，也不能由此宣布全书无误。",
+  "findings": [
+    {
+      "id": "late-01",
+      "kind": "stale_pending_ready_to_update",
+      "priority": "medium",
+      "target": ".planning/20261023-shiluoye/full-research/zongheng-tianxia/vol08/character-arc-audit-draft.json: characters[audit_id=character-arc-30].costs/terminal_state/pending_checks",
+      "current_claim": "亚兰仍待卷七正式handoff核最终死句，不因被穿胸硬判。",
+      "finding": "谨慎出发点正确，但现在已经有独立于穿胸的正式击杀、尸体与交付证据，继续把战斗死亡列未定是过期检查点。",
+      "proposal": "补raw0923尾战：全团控制/合技后书苍穹末击，系统宣布杀亚兰；raw0924携尸交导师且血与荣耀完成。可确认本次死亡/任务结算，不额外扩写任何死者永不可复活的世界通规。",
+      "evidence": [
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-0923",
+          "start_line": 103160,
+          "end_line": 103173,
+          "claim_kind": "fact",
+          "access_level": "personally-read-vol07-head-and-targeted-lines"
+        },
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-0924",
+          "start_line": 103334,
+          "end_line": 103364,
+          "claim_kind": "fact",
+          "access_level": "personally-read-vol07-head-and-targeted-lines"
+        }
+      ]
+    },
+    {
+      "id": "late-02",
+      "kind": "stale_pending_ready_to_update",
+      "priority": "medium",
+      "target": "vol08/character-arc-audit-draft.json: characters[audit_id=character-arc-05].pending_checks；vol08/end-state-audit-draft.json: findings[key=bingcha-health].stage_chain/audit_status/boundary",
+      "current_claim": "明确病名/治疗链仍待卷六七正式，当前只使用0811月的休养估计。",
+      "finding": "已正式交付的6/7足以补成分阶段链；不能一直缺本人揭名与术后报平安，也不能倒灌到卷四生命隐语时已确诊。",
+      "proposal": "raw0774本人称许冰/一年多前血癌，上海手术开始；0775仅失联悬念未判死；0780本人称术后四天短上线，叙述交代上海未全成转法国及10%说法；后实际返国与建香草。40%与10%均小说内特定阶段说法，非医学保证，不把生还等立刻彻底康复。",
+      "evidence": [
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-0774",
+          "start_line": 85349,
+          "end_line": 85364,
+          "claim_kind": "fact",
+          "access_level": "targeted-original-lines-plus-formal-vol06"
+        },
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-0780",
+          "start_line": 86245,
+          "end_line": 86271,
+          "claim_kind": "fact",
+          "access_level": "personally-read-vol07-head-and-targeted-lines"
+        }
+      ]
+    },
+    {
+      "id": "late-03",
+      "kind": "stale_pending_ready_to_update",
+      "priority": "medium",
+      "target": "vol08/character-arc-audit-draft.json: characters[audit_id=character-arc-16].pending_checks/key_decisions",
+      "current_claim": "暗影随风具体入雪转折仍待6/7正式。",
+      "finding": "卷六正式笔记已有实际退月神与加入雪月的节点；不应靠卷七已任核心反推早在卷五同意。",
+      "proposal": "补raw ch-0672（印刷第671章）为加入节点：因拒阴谋/不参国战之争离月神，书邀后实际入雪。‘斩剑’是杀剑飞扬而非折旧剑；卷五拒入/转天骄保原阶段。",
+      "evidence": [
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-0672",
+          "start_line": 73007,
+          "end_line": 73133,
+          "claim_kind": "fact",
+          "access_level": "derived-formal-vol06-chapter-notes-not-personal-full-reading"
+        }
+      ]
+    },
+    {
+      "id": "late-04",
+      "kind": "role_title_identity_unresolved",
+      "priority": "medium",
+      "target": "vol08/character-arc-audit-draft.json: characters[audit_id=character-arc-29].initial_comparison_stage/key_decisions/pending_checks；整书实体索引中‘龙神’",
+      "current_claim": "现仅一条龙神弧，主要围绕卷八血吼杀龙神。",
+      "finding": "raw1012神骨之弦介绍称奥丹偷袭龙域杀龙神、取骨筋制弓；raw1131血吼又自承捏碎老迈金龙龙神心。现有证据不能判定同一任/同一事件，也没有足够证据主动造两代。",
+      "proposal": "给龙神实体增加‘称号/任次未证’及两条独立死亡来源，保可能称号承继、证词冲突或源异常；不把奥丹与血吼合成同一凶手或同次联合作案，不用续作补答案。",
+      "coordination": "已向root和zongheng_vol04_full同步；审计代理同意新增未合案边界。",
+      "evidence": [
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-1012",
+          "start_line": 111778,
+          "end_line": 111790,
+          "claim_kind": "fact",
+          "access_level": "targeted-full-chapter-reread-this-review; item-description-source"
+        },
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-1131",
+          "start_line": 122306,
+          "end_line": 122309,
+          "claim_kind": "fact",
+          "access_level": "targeted-full-chapter-reread-this-review; character-self-report"
+        }
+      ]
+    },
+    {
+      "id": "late-05",
+      "kind": "same_name_context_scope_risk",
+      "priority": "medium",
+      "target": "writing-vault/library/reports/zongheng-tianxia/vol08-cards.json: /4/content/relationship_direction；vol08-analysis.json: /major_character_states/4/relationships；vol08-handoff.md冰茶段",
+      "current_claim": "许琳是谎名非本名。",
+      "finding": "用于1093冰茶当次假自称是对的，但许琳还是774本人明确介绍的真实堂姐姓名。去掉当次语境会使全书索引误把堂姐删掉或与冰茶合并。",
+      "proposal": "写成‘冰茶本名许冰；raw1093为避被认出临时借许琳自称；另有真实堂姐许琳，raw0774明言，不能混同两实体’。此为消歧，不判1093假名本身记录错误。",
+      "evidence": [
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-0774",
+          "start_line": 85362,
+          "end_line": 85365,
+          "claim_kind": "fact",
+          "access_level": "targeted-original-lines-this-review"
+        },
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-1093",
+          "start_line": 119070,
+          "end_line": 119075,
+          "claim_kind": "fact",
+          "access_level": "targeted-original-lines-this-review-not-full-vol08"
+        }
+      ]
+    },
+    {
+      "id": "late-06",
+      "kind": "identity_boundary_partly_resolved_by_primary",
+      "priority": "low",
+      "target": "vol03-cards.json: /0/title；人物总索引主角；vol07-cards.json: /0/title/content.identity_notes（root已修v2）",
+      "current_claim": "卷三旧标题为轻狂书生（丁书生／唐宋元明清）；卷七v2已明确丁舒升及误称。",
+      "finding": "原文0004当面纠正丁舒升，0966榜再次明确原名；丁书生不能作为另一个人或正式原名。现卷七修正已读取确认，不重复报未修。",
+      "proposal": "按root决定保留卷三阶段卡原标题与history；最终总索引统一丁舒升，列丁书生为误称/招呼名及各阶段链接，不再生成独立人物。",
+      "evidence": [
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-0004",
+          "start_line": 165,
+          "end_line": 166,
+          "claim_kind": "fact",
+          "access_level": "targeted-original-lines-this-review"
+        },
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-0966",
+          "start_line": 106934,
+          "end_line": 106934,
+          "claim_kind": "fact",
+          "access_level": "targeted-original-lines-this-review; prior-primary-full-reading"
+        }
+      ]
+    },
+    {
+      "id": "late-07",
+      "kind": "stale_dependency_metadata",
+      "priority": "low",
+      "target": "vol08/character-arc-audit-draft.json: status/method；vol08/end-state-audit-draft.json: status/live_snapshots；findings含pending-formal-vol06或vol07的条目",
+      "current_claim": "等待6/7正式，live-research-snapshot-not-formal-acceptance。",
+      "finding": "主代理已正式导入6/7，这些是旧快照说明，不能继续当现时阻塞；但也不能一键把所有问题改resolved。",
+      "proposal": "保原快照日期/归属，增加当前正式材料快照和逐问题复核状态；可闭的是封印链/亚兰死/随风加入/病程阶段，身世、证言、冰兰笑声、正当性等未决另保。全稿继续draft/pending-primary-final-review。",
+      "evidence": []
+    },
+    {
+      "id": "late-08",
+      "kind": "printed_vs_raw_locator_clarity",
+      "priority": "low",
+      "target": "writing-vault/library/reports/zongheng-tianxia/vol06-handoff.md: ‘668 L72568’及‘671正式入雪’等裸章号；与end-state-audit npc-recovery所用raw0669对照",
+      "current_claim": "交接使用原第668、第671的简称，而其他审计统一raw。",
+      "finding": "源文L72568属于raw ch-0669、印刷第668章；随风加入是raw ch-0672、印刷第671章。当前并非剧情错，主要是跨文档复制时可能错绑chapter_id。",
+      "proposal": "整书总表统一双号：raw ch-0669（印刷668）、raw ch-0672（印刷671）。不要把原章号简称一律判成错误，也不将source.evidence改绑相邻章。",
+      "evidence": [
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-0669",
+          "start_line": 72554,
+          "end_line": 72570,
+          "claim_kind": "fact",
+          "access_level": "targeted-full-chapter-reread-this-review"
+        },
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-0672",
+          "start_line": 73007,
+          "end_line": 73133,
+          "claim_kind": "fact",
+          "access_level": "derived-formal-vol06-notes"
+        }
+      ]
+    },
+    {
+      "id": "late-09",
+      "kind": "compressed_subject_ambiguity_not_source_contradiction",
+      "priority": "low",
+      "target": "vol07-chapter-notes.jsonl: ch-0779.facts[2]‘四月扫姐墓与母墓’；整书身世索引对照ch-1037",
+      "current_claim": "省略了谁扫哪一位的墓。",
+      "finding": "定向复读确认86162是雪月姐妹扫她们母墓、书生扫姐姐；1037书称幼时母离、是否仍活不知，两段没有已证的生母生死自相矛盾。",
+      "proposal": "若整书索引引用此笔记，展开主体：雪月拜母，书及香等拜姐。不要从省略笔记推书生母亲已死，也不要因此新建作者身世冲突。原冻结笔记本轮不改。",
+      "evidence": [
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-0779",
+          "start_line": 86161,
+          "end_line": 86178,
+          "claim_kind": "fact",
+          "access_level": "personally-read-vol07-head-and-targeted-lines"
+        },
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-1037",
+          "start_line": 114240,
+          "end_line": 114244,
+          "claim_kind": "fact",
+          "access_level": "targeted-full-chapter-reread-this-review"
+        }
+      ]
+    },
+    {
+      "id": "late-10",
+      "kind": "stage_summary_precision",
+      "priority": "low",
+      "target": "writing-vault/library/reports/zongheng-tianxia/vol03-cards.json: /0/content/summary",
+      "current_claim": "从15级重练至80双二转。",
+      "finding": "15是本卷首章过程中达到并能穿旧弓的节点，不是卷三开篇瞬间；卷二末9级，卷三先到12再15。现summary压缩会把中途装弓级别误当卷首状态。",
+      "proposal": "最终整书阶段表写卷初9→12→15可穿旧弓，杀王21、交任务22，卷末80双二转；不强制覆写已冻结阶段卡，但不要照抄15作精确卷界。",
+      "evidence": [
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-0102",
+          "start_line": 6702,
+          "end_line": 6714,
+          "claim_kind": "fact",
+          "access_level": "personally-read-vol03-and-existing-primary-cross-volume-audit"
+        },
+        {
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "chapter_id": "ch-0103",
+          "start_line": 6867,
+          "end_line": 6883,
+          "claim_kind": "fact",
+          "access_level": "personally-read-vol03-and-existing-primary-cross-volume-audit"
+        }
+      ]
+    }
+  ],
+  "verified_checks": [
+    {
+      "id": "verified-01",
+      "topic": "灵儿第三道即最后封，非玩家资格链",
+      "targets": [
+        "vol07-cards.json人物灵儿/aryan场景",
+        "vol07-graph.json seal线程",
+        "end-state-audit finding linger-seals"
+      ],
+      "result": "正式7已正确分922宣布解第三道/神格复苏与963醒后归零裸装；不应新增第四封，也不能把封印闭合代母系身世全解。审计pending可更新，事实无新错。",
+      "source_anchors": [
+        "ch-0922 L103099",
+        "ch-0963 L106643—106648"
+      ]
+    },
+    {
+      "id": "verified-02",
+      "topic": "玩家圣域归零时点",
+      "targets": [
+        "vol06-handoff 0775末状态",
+        "vol07-cards.json书生v2",
+        "character-arc-01.pending_checks"
+      ],
+      "result": "0775仍254/资格未来；0778得圣域/30分钟体验，0779保卫战中归零后被杀，仍观看王宫抵抗，不能写败城结算后才归零。正式7v2已正确，人物总弧尚可补中段。",
+      "source_anchors": [
+        "ch-0775 L85506—85632（正式卷六派生）",
+        "ch-0778 L85891—86043（亲读）",
+        "ch-0779 L86118—86139（本轮定向行读）"
+      ]
+    },
+    {
+      "id": "verified-03",
+      "topic": "林霜/剑火归属与动机",
+      "targets": [
+        "character-arc-41.key_decisions/pending_checks",
+        "vol07-cards.json龙魂与拆盟场景",
+        "vol07-handoff龙魂/刑天"
+      ],
+      "result": "正式资料已把刑天母亲重病嘱托与龙魂自述旧回忆分开，暗恋仅书推；离雪/战魂身份不因后援或未来婚礼倒灌为当时未离。没有发现新的动机错配。林霜942组织自辩、943对误认役使道歉应同时保留。",
+      "source_anchors": [
+        "ch-0866 L96970—96971、L96986、L97008（亲读；审计已精确列）",
+        "ch-0942 L104934—105045（亲读）",
+        "ch-0943 L105099—105114（亲读）"
+      ]
+    },
+    {
+      "id": "verified-04",
+      "topic": "NPC恢复与有名人物死亡",
+      "targets": [
+        "vol06正式analysis/cards/handoff",
+        "end-state-audit finding npc-recovery",
+        "character-arc-21/22/26"
+      ],
+      "result": "当前正式6已补75%特殊恢复，7为80%死军且数量+50%，均不等全程零损或逐个名将复活。林丘1035真斩首、奥丹1012仍活各有个体证；未发现当前稿把二者混成永久不死/全死。",
+      "source_anchors": [
+        "ch-0669 L72568—72570（本轮全文复读）",
+        "ch-1012 L111793、L111829（本轮全文复读）",
+        "ch-1034/1035（primary原始笔记及正式7交接）"
+      ]
+    },
+    {
+      "id": "verified-05",
+      "topic": "王俊杰、红绫与血饮案来源",
+      "targets": [
+        "character-arc-37/39/42/43",
+        "end-state-audit finding wang",
+        "vol07-handoff案情"
+      ],
+      "result": "人物与问题稿已保围观、凌天、雪月秦、冰茶各层。血饮死亡另有乐兮电话，红亲刺/郑家幕后没有被写成警方结案；七涉案全死未证、三失踪必须继续保，不用后受害叙述反裁沈/血旧冲突。",
+      "source_anchors": [
+        "ch-0979—0983、0987（primary实读笔记/正式卷七，非本代理原亲读）",
+        "ch-0994（primary实读笔记/正式卷七）"
+      ]
+    },
+    {
+      "id": "verified-06",
+      "topic": "天钥城主权与名义权",
+      "targets": [
+        "vol07-handoff天钥链",
+        "vol07-graph city线程",
+        "end-state-audit城市边界"
+      ],
+      "result": "已正确分达尔死且雪全死→书名义城主→七星实际占→无论胜负还城协议→1039系统实转雪；骨钟未爆、不是书杀达尔即持实城。未发现新时点倒灌。",
+      "source_anchors": [
+        "ch-1035—1036（primary笔记/正式卷七）",
+        "ch-1037本轮全文复读",
+        "ch-1038—1040（primary笔记/正式卷七）"
+      ]
+    },
+    {
+      "id": "verified-07",
+      "topic": "北冥与永恒资格",
+      "targets": [
+        "vol07-handoff物品",
+        "vol08-handoff事件结算",
+        "end-state-audit finding items"
+      ],
+      "result": "7末270、北冥275绑仓不能用、五永恒缺胸与8后来275用、北冥碎/月哀接替按不同时间记。此核对以正式8派生，未声称本人全文核8所有装备场。",
+      "source_anchors": [
+        "ch-1036、1055、1060（primary笔记/正式卷七）",
+        "ch-1068、1078、1179、1180（正式卷八派生）"
+      ]
+    },
+    {
+      "id": "verified-08",
+      "topic": "曙光要塞补偿与曙光城",
+      "targets": [
+        "vol07-analysis dialogue第4条",
+        "vol07-handoff日更据点"
+      ],
+      "result": "200万元是梦回雪月拟让黄金级据点曙光要塞，已交凌月；次日让点/逐人分仍未拍。已不与曙光城法国归属混同。",
+      "source_anchors": [
+        "ch-0944 L105204—105228（亲读）",
+        "ch-0973（primary笔记/正式卷七）"
+      ]
+    },
+    {
+      "id": "verified-09",
+      "topic": "卷三50万建帮承诺",
+      "targets": [
+        "review-vol03-vol04-bridge.md",
+        "vol03正式连续性"
+      ],
+      "result": "主代理既有审查已将181再催款定位到raw0182，198实付另立阶段。未发现又把承诺直接写到账的回退。",
+      "source_anchors": [
+        "ch-0182 L15516—15518（亲读及父独立复核）",
+        "ch-0199对应印刷198（亲读；既有审计）"
+      ]
+    },
+    {
+      "id": "verified-10",
+      "topic": "卷三秦韵等级",
+      "targets": [
+        "vol03-cards.json /3/content/stage_change"
+      ],
+      "result": "正式卡已明确75仅正文236章榜单/ch0237中段，不冒充244卷末；245卷四开篇77不能倒灌为已在卷三面板出现。无新错。",
+      "source_anchors": [
+        "ch-0237 L21061—21066（亲读/卡已列）",
+        "ch-0246 L21932—21938（既有主代理复核，非本代理卷四全文）"
+      ]
+    },
+    {
+      "id": "verified-11",
+      "topic": "秦月雪知情/身体/行程",
+      "targets": [
+        "end-state-audit finding qx-knowledge/travel-promises",
+        "vol07图knowledge及handoff"
+      ],
+      "result": "归队与同床并不等性关系，1041醉夜实际发生、1042雪未明确知悉；1056抵美和1058/1059上线分开。未把专线待装当已安装，也未把多角关系写全员同意。",
+      "source_anchors": [
+        "ch-0933—0937（亲读）",
+        "ch-1014、1041、1042、1056、1058、1059（primary笔记/正式卷七）"
+      ]
+    },
+    {
+      "id": "verified-12",
+      "topic": "同名邱华不是自动同人",
+      "targets": [
+        "vol07-chapter-notes ch0966.unresolved",
+        "人物总索引孤坟与动力火锅"
+      ],
+      "result": "同一CGL表no5动力火锅/no10孤坟均写原名邱华但分列不同ID、不同会。当前未发现实际合并；继续按两ID，源姓名重号未解，不用后作补。",
+      "source_anchors": [
+        "ch-0966 L106938、L106943（本轮定向原文）"
+      ]
+    },
+    {
+      "id": "verified-13",
+      "topic": "林克/林丘/纪念神仆",
+      "targets": [
+        "end-state-audit finding link-linqiu",
+        "character-arc-20/21"
+      ],
+      "result": "审计已区分盲锻林克、将领弟林丘，末卷命名神仆不是复活将领。卷七1031复兄与1035斩首两层吻合；没有发现新同名误合。",
+      "source_anchors": [
+        "ch-1031、1034、1035（primary笔记/正式卷七）",
+        "ch-1091（正式卷八派生）"
+      ]
+    },
+    {
+      "id": "verified-14",
+      "topic": "S6卷界与新书隔离",
+      "targets": [
+        "vol07-handoff最后现场",
+        "vol08-handoff事件结算",
+        "character-arc-32烛影乱"
+      ],
+      "result": "7末仅首层小怪10火魄，祝融面板与战策未开王；8后续真首通不能倒填7。现烛影条也只本书已见，不借《无双》命运；本轮完全未读取后作。",
+      "source_anchors": [
+        "ch-1060（primary笔记/正式卷七）",
+        "ch-1061起（正式卷八衔接，非本代理整卷亲读）"
+      ]
+    }
+  ],
+  "approval_boundary": "此为独立内容复核草稿。主代理/审计代理负责吸收建议；未要求或执行任何正式库修改。定位通过不等所有解释已获用户认可。",
+  "validation": {
+    "status": "passed",
+    "json_parse": true,
+    "findings": 10,
+    "verified_checks": 14,
+    "evidence_objects_within_source_chapter": 17,
+    "targets_and_suggestions_present": true,
+    "scope": "只验证此复核的JSON、字段存在和证据范围；没有运行Vault或修改输入文件",
+    "full_book_reread_claim": false
+  },
+  "input_snapshots": [
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zongheng-tianxia/vol08/character-arc-audit-draft.json",
+      "sha256": "e5f43b7f927c758803e9dceaeabfb63048f9c0013850a30ade9f0c2f815dcd90"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zongheng-tianxia/vol08/end-state-audit-draft.json",
+      "sha256": "3c21238973867e30ba1b273520ae66686736229b4f5c43a13ab313e09165e181"
+    },
+    {
+      "path": "writing-vault/library/reports/zongheng-tianxia/vol03-cards.json",
+      "sha256": "4a481f021b66b50b09cd4d5b651450236adb21be98774fb750a392224dc0f22f"
+    },
+    {
+      "path": "writing-vault/library/reports/zongheng-tianxia/vol06-handoff.md",
+      "sha256": "d7480d00ff2406cf32f81b1f3349100e9d651fb734cfb78800636c3a4fbb9cd0"
+    },
+    {
+      "path": "writing-vault/library/reports/zongheng-tianxia/vol07-cards.json",
+      "sha256": "3d2592463a1aa628eabbc305f0063bd8ee4a79591d4c9397ee10cd32446d1f17"
+    },
+    {
+      "path": "writing-vault/library/reports/zongheng-tianxia/vol08-cards.json",
+      "sha256": "f93c0b17d35bd56dfabe69042a7641522a477c1402275b6c36eba4b591ebc25c"
+    }
+  ]
+}

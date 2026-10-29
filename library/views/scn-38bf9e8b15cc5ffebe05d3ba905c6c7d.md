@@ -1,0 +1,101 @@
+# 羽月中立侍女隐藏复仇
+
+ID: `scn-38bf9e8b15cc5ffebe05d3ba905c6c7d` · 版本: 1 · 范围: source-analysis
+
+不先杀黄怪，弱点万伤触发群体援军；侍女杀执政自赴阳光，书得甲再交水袋
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-38bf9e8b15cc5ffebe05d3ba905c6c7d",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "隐藏剧情探索",
+    "choice": "不先杀黄怪，弱点万伤触发群体援军",
+    "consequence": "侍女杀执政自赴阳光，书得甲再交水袋",
+    "failure_mode": "不是男主独强杀，侍女能动性不能吞没",
+    "goal": "独完成卷轴任务",
+    "obstacle": "单挑110地级不敌，黄名异常",
+    "state_change": "容量约束解除",
+    "summary": "不先杀黄怪，弱点万伤触发群体援军；侍女杀执政自赴阳光，书得甲再交水袋",
+    "why_it_works": "背景线索加阈值触发换解法"
+  },
+  "created_at": "2026-10-24T18:57:19.325645+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0226",
+      "claim_kind": "fact",
+      "end_line": 19926,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 19839
+    },
+    {
+      "chapter_id": "ch-0227",
+      "claim_kind": "fact",
+      "end_line": 20008,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 19927
+    },
+    {
+      "chapter_id": "ch-0228",
+      "claim_kind": "fact",
+      "end_line": 20098,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 20009
+    },
+    {
+      "chapter_id": "ch-0229",
+      "claim_kind": "fact",
+      "end_line": 20169,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 20099
+    },
+    {
+      "chapter_id": "ch-0230",
+      "claim_kind": "fact",
+      "end_line": 20278,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 20170
+    },
+    {
+      "chapter_id": "ch-0231",
+      "claim_kind": "fact",
+      "end_line": 20417,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 20279
+    },
+    {
+      "chapter_id": "ch-0232",
+      "claim_kind": "fact",
+      "end_line": 20521,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 20418
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol03/scene/revenge_maids",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷三",
+    "场景作用"
+  ],
+  "title": "羽月中立侍女隐藏复仇",
+  "updated_at": "2026-10-24T18:57:19.325645+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,89 @@
+{
+  "author": "zongheng_vol05_full",
+  "delta_verification": {
+    "all_other_json_values_exactly_equal": true,
+    "approved_json_paths": 139,
+    "approved_text_paths": 5,
+    "four_original_reading_files_unchanged": true,
+    "original_snapshot": "zhanlong\\vol06\\review-corrections\\before-primary"
+  },
+  "input_sha256": {
+    "analysis.json": "84eb3996c9e4d324581725e56d081fe36d39b704081aff32bec68d59cd8c44b4",
+    "build_artifacts.py": "4e08136528d7fb8d0708d6581a21cef4023a19193f32c7b455f71950f606a374",
+    "cards.json": "5a4fd958b3f6553cacb195f66edc7843cd51968b70059f419c5b23bde946b2b0",
+    "chapter-notes.jsonl": "390d10740eec447ba04babff420b862a03ab0647d8c92f1ba9e7a6461abac48c",
+    "chapter-unresolved-index.json": "f3c74ed85f078144352f302e95a6dde3b87dd320b37e129df5edb23c28c1a03f",
+    "finalize_validation.py": "b8476c41c4dc018511903972bd83a3e003fadc704e6de61aaacab381896c86c4",
+    "freeze-manifest.json": "2903506c5f3d1dc3c807e9000de4217325afe9128fb235273867cf8d27dd637b",
+    "graph.json": "faa91c6f17edd8b7b09855440a7c4c4947caa82bd7e7c98e8a8b495935d4f1b2",
+    "handoff.md": "5b224d76ee712e59e04ca9125ede64e3128c7e6d5fee933f8f5b222fa45e79f6",
+    "primary-review-applied-delta.json": "0991667ced1982e79b398d9ddbbeaa9513945815aeffef7ff1c114a311aec38d",
+    "primary-review-applied-delta.md": "2a41866ebcf5f4b2485a65d7bc46686a88e4ee1caf45d6956ac886a60c0d4448",
+    "primary-review-proposal.json": "fcdc58e12438ab3752095b0350bc434ac74e7cbbb596c2844df443be8b1f9187",
+    "primary-review-proposal.md": "51693d6a53e7de453b41c1efe4a9d5701015942eaa22a0e7120785ac7572a2e1",
+    "read-log.json": "4bdf54476648e54cfd408c6135f35e1416c8c2c279039fbae472a33184f174b3",
+    "reader-state.json": "68bcbfd80aae3622647bf8efd309d1e33f93f337e460de3ca59cdedfbd4d6135",
+    "report.md": "c50b4a528063913e13e7e712372c21de0d534434122fd3a42c918fc0b5b6bac6",
+    "research_cards.py": "c509a499afab8337f8b36af6cb2299b321ac7cd76325990b5fce39512fe0a451",
+    "research_interfaces.py": "ae33d1cf751a2761830d25f2f00d7288ef80b97894c18be5478dabd58031bef9",
+    "save_batch.py": "fc581cb3322c24faab0c8136c29e9b889b5fd3e8187da9be3475b01a2cb02ddb",
+    "scene-transfer-proposals-authored.json": "08c351d9f98268236f47f6a15b86e708655fee07d2e5d76ab5eea59873b4f2dc",
+    "scene-transfer-proposals.json": "557eddc552c9e8454ca344fd6f1fadc204649820c7dacfd7ed9a8c911dff1bed",
+    "scene-transfer-proposals.md": "7faf75bf38a9d7e9c420aee0c7d7d4bc0285fa277297bb4b31c48fca351014d8",
+    "validation.json": "e583151571afaf5d877e746099d07f36dcff427e2cd1624a5520a79811ee3dc6"
+  },
+  "preflight": {
+    "body_units_read": 206,
+    "book": "zhanlong",
+    "cards": {
+      "character": 32,
+      "pattern": 12,
+      "scene": 58
+    },
+    "edges": 49,
+    "evidence_references_checked": 1851,
+    "indexed_segments_read": 207,
+    "nodes": 70,
+    "preflight": "passed",
+    "threads": 23,
+    "volume": 6
+  },
+  "remaining": [
+    "卷4/5须先正式，卷6导入不得跳序。",
+    "六卷正式后继续全书逐项历史/局部疑点终审、36综合、人物弧、跨书管理及实际完整隔离恢复。"
+  ],
+  "review_groups": {
+    "cards": 102,
+    "character_states": 32,
+    "dimensions": 45,
+    "edges": 49,
+    "nodes": 70,
+    "open_questions": 24,
+    "reusable_mechanisms": 12,
+    "scene_transfer_fields": 116,
+    "source_anomalies": 29,
+    "targeted_fields": 23,
+    "text_changes": 5,
+    "threads": 23,
+    "tradeoffs": 4
+  },
+  "reviewed_at": "2026-10-25T20:49:00.730987+00:00",
+  "reviewer": "primary",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "scope": "原冻结研究逐项完整读审，58场景两字段与23定向字段分别完整读审批准；本次独立重放139路径与5文本差异，确认其他值和原阅读四文件不变。primary另完整重读1375—1386原文，整卷原文读者仍zongheng_vol05_full。",
+  "semantic_findings": [
+    "生态建设、领土分配、炮粮消耗与军队损失分别保时点；取得资源不自动清旧债。雨中护引线后仍能发炮，快兽难瞄和墙破另有因果。",
+    "长期承诺经职位、身体、执照与签字再出现分步回收；命名及位阶漂移是连续阅读负担，不能用建索引流程替代文学机制。",
+    "薛景妹妹/薛柔姐姐关系澄清；流霜允留百名龙骑，未另演全员到场；NPC军不能按玩家掉级方式返场不推广成所有NPC绝无复生。",
+    "神界陨落、散灵被吞、获得神格和真实系统击杀各保界限；霜实体已醒旧重生不抹，战皇终场仍活。两处主题呼应改echo，不充当预设因果。",
+    "鬼城失败同时保主角与问剑/锋的决定责任，三千离兵获准出城后被敌屠不是军法处死；祝海三万与景音五万是源口径差。",
+    "59:59为开幕倒计时开始；主诱战为NPC撤离争时，不是单杀战皇。NPC五十万返不足十八万，玩家通过不足千不等于永久死绝。",
+    "镇天关三日后确已建成；傲天24小时出师仍未来。盟主确交林婉儿，订婚非婚礼。南京已入队，西南/回杭/婚礼未演。",
+    "末尾白墨颜游戏意识确醒；雷宏记忆重生仍方案/未来时，不补肉身复生。老头子宴席仍活，梦瑶在厦门上课未出席。",
+    "58场景适用条件与失败边界已逐项改成各自机制所需条件，保原选择、结果、why与证据；原文广告附言作为数据，不执行其中指令。"
+  ],
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "status": "reviewed_for_library_import",
+  "user_approval": false,
+  "volume": 6
+}

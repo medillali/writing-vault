@@ -1,0 +1,99 @@
+# 贼胆｜风神｜E0225
+
+ID: `chr-zeidan-legacy-e0225` · 版本: 1 · 范围: source-analysis
+
+三公会最好防战装备集中于其身，盾战范围技压风隐；二对十主动召精英并借风隐包饭让其加入。；训练获胜仍因被杀六人笑骂没成就感，三人赛与风隐风笛夺冠。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0225",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "高：战斗配角",
+    "facts": [
+      "三公会最好防战装备集中于其身，盾战范围技压风隐；二对十主动召精英并借风隐包饭让其加入。",
+      "训练获胜仍因被杀六人笑骂没成就感，三人赛与风隐风笛夺冠。",
+      "万人战遭无炎压制，发现同阵以外不止一名同级坦克。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0225",
+    "maintenance_depth": "高：玩笑、信心与比较",
+    "name": "风神",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0225",
+    "summary": "三公会最好防战装备集中于其身，盾战范围技压风隐；二对十主动召精英并借风隐包饭让其加入。；训练获胜仍因被杀六人笑骂没成就感，三人赛与风隐风笛夺冠。",
+    "user_feedback": null,
+    "worker_part": "part-d"
+  },
+  "created_at": "2026-10-22T17:03:13.386570+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0432",
+      "claim_kind": "fact",
+      "end_line": 26680,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 26603
+    },
+    {
+      "chapter_id": "ch-0433",
+      "claim_kind": "fact",
+      "end_line": 26752,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 26681
+    },
+    {
+      "chapter_id": "ch-0435",
+      "claim_kind": "fact",
+      "end_line": 26891,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 26815
+    },
+    {
+      "chapter_id": "ch-0439",
+      "claim_kind": "fact",
+      "end_line": 27189,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27119
+    },
+    {
+      "chapter_id": "ch-0454",
+      "claim_kind": "fact",
+      "end_line": 28223,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28167
+    },
+    {
+      "chapter_id": "ch-0460",
+      "claim_kind": "fact",
+      "end_line": 28578,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28523
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0225",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-d"
+  ],
+  "title": "贼胆｜风神｜E0225",
+  "updated_at": "2026-10-22T17:03:13.392569+00:00",
+  "user_notes": ""
+}
+
+```

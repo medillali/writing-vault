@@ -1,0 +1,32 @@
+{
+  "status": "passed_personal_prefix_only",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "reader": "/root/zongheng_vol04_full",
+  "indexed_segments": 153,
+  "body_units": 152,
+  "range": [
+    "ch-0252",
+    "ch-0404"
+  ],
+  "primary_tail": [
+    "ch-0405",
+    "ch-0504"
+  ],
+  "primary_tail_read_by_this_reader": false,
+  "complete_volume": false,
+  "truncated_pending": [],
+  "checks": [
+    "连续实际逐片笔记与read-log一致",
+    "源身份及章界逐项一致",
+    "全四栏/归属存在",
+    "state仅个人前段完成，全卷false"
+  ],
+  "sha256": {
+    "chapter-notes.jsonl": "e9e4ca5c4aba895092916abe5c6f5e2a69d15c285392af81d7e51e47e8bec199",
+    "reader-state.json": "9d272e9fe28d8df7e7f87329b59038729b0b82cf70e988d4a2645c09ea01a502",
+    "read-log.json": "97a7ca0b161604d653edcf1dfb1b3eb4d1cf5081683ef0df32c544de88ab29a7",
+    "reading-scope.json": "50d218d6dc4e1a3ea2d5af8519101a6b26418ef2c7cd8221cde32e834421e670",
+    "prefix-handoff.md": "028865e97374735b214709680c8f01050d9f3b01719889ade47551bc82379ac6"
+  }
+}

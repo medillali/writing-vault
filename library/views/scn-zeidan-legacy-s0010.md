@@ -1,0 +1,83 @@
+# 贼胆｜两名采药贼互学后同归毒计｜S0010
+
+ID: `scn-zeidan-legacy-s0010` · 版本: 1 · 范围: source-analysis
+
+精灵贼反制背刺被萧御学会，随后借野人与减速毒杀人，自己也死于萧御致命毒。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-zeidan-legacy-s0010",
+  "asset_type": "scene",
+  "content": {
+    "choice": "互试转杀机",
+    "facts": [
+      "精灵贼反制背刺被萧御学会，随后借野人与减速毒杀人，自己也死于萧御致命毒。"
+    ],
+    "inferences": [],
+    "interesting_unresolved": "精灵贼为何未学手中毒配方",
+    "legacy_record_ref": "library/reports/zeidan/legacy/scenes.json#S0010",
+    "name": "两名采药贼互学后同归毒计",
+    "prehistory": "同一资源点相遇",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "S0010",
+    "result": "技能/配方收获伴随‘将来自己也可能死’认识",
+    "summary": "精灵贼反制背刺被萧御学会，随后借野人与减速毒杀人，自己也死于萧御致命毒。",
+    "user_feedback": null,
+    "worker_part": "part-a"
+  },
+  "created_at": "2026-10-22T17:03:13.629348+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0065",
+      "claim_kind": "fact",
+      "end_line": 2867,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 2831
+    },
+    {
+      "chapter_id": "ch-0066",
+      "claim_kind": "fact",
+      "end_line": 2922,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 2868
+    },
+    {
+      "chapter_id": "ch-0067",
+      "claim_kind": "fact",
+      "end_line": 2958,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 2923
+    },
+    {
+      "chapter_id": "ch-0068",
+      "claim_kind": "fact",
+      "end_line": 2993,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 2959
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/S0010",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-a"
+  ],
+  "title": "贼胆｜两名采药贼互学后同归毒计｜S0010",
+  "updated_at": "2026-10-22T17:03:13.633352+00:00",
+  "user_notes": ""
+}
+
+```

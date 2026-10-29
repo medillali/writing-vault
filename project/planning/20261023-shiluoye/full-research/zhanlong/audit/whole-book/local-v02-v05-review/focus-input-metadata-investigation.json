@@ -1,0 +1,13 @@
+{
+  "status": "read-only-current-file-verification",
+  "mismatches": [
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol06-handoff.md",
+      "expected": "23e9fee6f146049c0a169bc9b18ef7c80ea8dc660645e197e461e1a214159963",
+      "actual": "476c27db8d91a0ac05f068964ea7c55f59558511b3910f505d3c6e9f2ab3c012"
+    }
+  ],
+  "stage_handoff_sha256": "5b224d76ee712e59e04ca9125ede64e3128c7e6d5fee933f8f5b222fa45e79f6",
+  "current_formal_handoff_sha256": "476c27db8d91a0ac05f068964ea7c55f59558511b3910f505d3c6e9f2ab3c012",
+  "principle": "原input-receipt保持历史；待primary核定仅研究组顶层formal_input_sha256更新，finding与其evidence对象不变。"
+}

@@ -1,0 +1,66 @@
+{
+  "asset_id": "scn-58a1422e02a855209cbde534d59cbbac",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "对手高机动潜杀导致分队搜寻反受害，队伍有能留下短暂标记的非主角技能。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/waner",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaowu",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fu"
+    ],
+    "choice": "主与小舞林等配合",
+    "claim_kind": "inference",
+    "consequence": "神技/皎月装备林实获",
+    "failure_mode": "甲附头系统规则与林ROLL风暴分别，不混全自己掉。",
+    "goal": "打断隐袭并取层",
+    "narrative_order": 1121,
+    "obstacle": "看不见目标/两十队被杀",
+    "state_change": "不同能力有明确施为者",
+    "summary": "三层精神魅/隐身游杀，主靠现实阳炎脱意识，小舞诅咒破0.5隐，林末刀。",
+    "why_it_works": "只用短窗口改变团队接续，不凭全知视野。"
+  },
+  "created_at": "2026-10-25T21:08:43.320323+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1119",
+      "claim_kind": "fact",
+      "end_line": 82077,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 82012
+    },
+    {
+      "chapter_id": "ch-1120",
+      "claim_kind": "fact",
+      "end_line": 82145,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 82078
+    },
+    {
+      "chapter_id": "ch-1121",
+      "claim_kind": "fact",
+      "end_line": 82207,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 82146
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/stealth",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "阿蜜隐身被小舞短窗口破解",
+  "updated_at": "2026-10-25T21:08:43.320323+00:00",
+  "user_notes": ""
+}

@@ -1,0 +1,36 @@
+{
+  "status": "controlled_packaging_reference_amendment_pending_final_primary_receipt",
+  "authorization": "root明确批准修priority impact_scan相对路径、冻结四份实际支持材料，保当前manifest为before，不重跑assembler，四包/全部签组不变。",
+  "before_manifest_sha256": "1aedb7337b1288ac0a743e72683780ae2ddaecc80177cd9fb4867e6797c5f892",
+  "before_manifest_snapshot": "reviewed-batches/audit-freeze-manifest-before-support-path-amendment.json",
+  "pointer_correction": {
+    "path": "priority-corrections-delta.json",
+    "field": "impact_scan",
+    "before": "note-1117-impact-scan.json",
+    "after": "local-v06-review/note-1117-impact-scan.json",
+    "before_sha256": "bc3c05f004d73db6883cbf4dc895e754c442e56ad9afa71ae8b9a0ddead07038",
+    "after_sha256": "39136476ab76f724bbf402426885af16fc428ce02522f584307037954fdd89f1",
+    "semantic_correction_content_unchanged": true
+  },
+  "support_files_added": {
+    "local-v06-review/note-1117-mother-attribution-overlay-proposal.json": "8f7445ae63c1281d843c00f5729d159eb1d9354acb2a2e1c4a2871968f73a83b",
+    "local-v06-review/note-1117-mother-attribution-overlay-proposal.md": "0af868eb191286da6f0a63a49cffdeb4a963c81211fc9c4ecccd81337bb1f3da",
+    "local-v06-review/note-1117-impact-scan.json": "0fa9001ce85d363010c70874ce9101d9730632a7ce7f4f47eeea2c1255a7a80e",
+    "local-v06-review/note-1117-overlay-proposal-validation.json": "c8d94f6ab7dd27cffbed04ce60e70f759627868cf0eb4ebcea9a73ce56c9b7d8"
+  },
+  "unchanged_four_package_sha256": {
+    "character-arc-audit-draft.json": "8f2187a891be3453b95eb0a365d4d641f4d4eb52d5513cab46f598de85887009",
+    "end-state-audit-draft.json": "362bdd0ce82b6a5a12496f35801a0652788738764a526834385f6dc081d2338a",
+    "historical-question-pool.json": "0f1f236948849fc95f64f00d96ad57def52427dcffb6f88a9fc40d4bd663d2f9",
+    "local-question-pool.json": "c83533b7329845ecca8c4d3f1ef44d61286211e0da753485808081e4b410728d"
+  },
+  "unchanged_signed_files_count": 88,
+  "unchanged_original_note_copies": {
+    ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/chapter-notes.jsonl": true,
+    ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/prefix-chapter-notes.jsonl": true,
+    ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol06/batch-1117.json": true,
+    "writing-vault/library/reports/tianxia-wushuang/vol06-chapter-notes.jsonl": true
+  },
+  "assembler_not_rerun": true,
+  "console_summary_bug": "旧唯一组装在写完清单后打印重复status键出错；独立只读验证已过，冻结assembler不修改。"
+}

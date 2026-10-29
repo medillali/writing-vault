@@ -1,0 +1,64 @@
+# 《贼胆》让石板、翻领口、送头盔：照料改变行动入口
+
+ID: `scn-twobooks-z-care` · 版本: 1 · 范围: source-analysis
+
+萧御获得游戏入口，同时面对一个月期限。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-twobooks-z-care",
+  "asset_type": "scene",
+  "content": {
+    "analysis_kind": "goal 至 consequence 为本批事件概述；state_change/why_it_works/applicability/failure_mode 为研究解释。",
+    "applicability": "亲友、师徒、搭档关系中，让帮助符合配角自己的能力和处境。",
+    "choice": "小雨不拆穿工资谎话，领取限时设备并以玩笑交付。",
+    "consequence": "萧御获得游戏入口，同时面对一个月期限。",
+    "failure_mode": "只保留赠物、删掉配角劳动与期限，会变成便利道具。",
+    "goal": "让哥哥有更安全的谋生可能。",
+    "obstacle": "贫困、昂贵设备与彼此隐瞒。",
+    "state_change": "被保护者成为机会提供者。",
+    "summary": "萧御获得游戏入口，同时面对一个月期限。",
+    "why_it_works": "多个小动作先证明关系，关键物品才改变主线；温情不是停在评价。"
+  },
+  "created_at": "2026-10-22T17:03:56.852314+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0002",
+      "claim_kind": "inference",
+      "end_line": 45,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27
+    },
+    {
+      "chapter_id": "ch-0004",
+      "claim_kind": "inference",
+      "end_line": 221,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 188
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/scene/care",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "贼胆",
+    "首轮细读",
+    "因果链",
+    "可迁移候选",
+    "作者:发飙的蜗牛",
+    "作品:贼胆"
+  ],
+  "title": "《贼胆》让石板、翻领口、送头盔：照料改变行动入口",
+  "updated_at": "2026-10-22T17:03:56.867313+00:00",
+  "user_notes": ""
+}
+
+```

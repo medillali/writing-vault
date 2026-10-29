@@ -1,0 +1,73 @@
+{
+  "asset_id": "scn-0e8cdf4bba78536b94a53bd5ae5d675c",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "奖励领域不一致，经验、设施、兵数增益和具名人物生死必须分条验收。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fang",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xuyan"
+    ],
+    "choice": "按系统及界面分别收款/恢复",
+    "claim_kind": "inference",
+    "consequence": "主获干将、挽收镇岳/殿十，军力仍逊战前",
+    "failure_mode": "不把方早估70当最终80；徐焰无复生证。",
+    "goal": "核实胜后所得",
+    "narrative_order": 1094,
+    "obstacle": "多种损失和奖项",
+    "state_change": "胜利未取消具名死亡",
+    "summary": "中国总胜/方MVP主第二，级经验80%返；凡书建筑100%/数量加成与NPC仅部分复不同。",
+    "why_it_works": "将奖励条分到具体资产，避免一个恢复吞全战账。"
+  },
+  "created_at": "2026-10-25T21:08:43.289073+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1089",
+      "claim_kind": "fact",
+      "end_line": 79808,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 79742
+    },
+    {
+      "chapter_id": "ch-1090",
+      "claim_kind": "fact",
+      "end_line": 79896,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 79809
+    },
+    {
+      "chapter_id": "ch-1091",
+      "claim_kind": "fact",
+      "end_line": 79957,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 79897
+    },
+    {
+      "chapter_id": "ch-1094",
+      "claim_kind": "fact",
+      "end_line": 80179,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 80115
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/warreward",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "二国战系统恢复分项",
+  "updated_at": "2026-10-25T21:08:43.289073+00:00",
+  "user_notes": ""
+}

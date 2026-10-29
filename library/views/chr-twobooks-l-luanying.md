@@ -1,0 +1,53 @@
+# 《网游之练级专家》乱影：把能力观察变成合作邀约（第12章）
+
+ID: `chr-twobooks-l-luanying` · 版本: 1 · 范围: source-analysis
+
+缓和兄妹冲突，从怪物尸体推测萧翎的输出能力，主动说明组队和分配规则。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-twobooks-l-luanying",
+  "asset_type": "character",
+  "content": {
+    "analysis_kind": "文本事实概述与研究推断分栏；need/conflict 为可修订解释。",
+    "arc": "招募完成；合作信任尚未经过危险检验。",
+    "conflict": "对新成员实力的判断来自间接观察，需后续战斗验证。",
+    "goal": "为队伍补足法系输出。",
+    "need": "降低合作信息差（推断）。",
+    "read_batch": "2026-10-23 实际正文阅读",
+    "summary": "缓和兄妹冲突，从怪物尸体推测萧翎的输出能力，主动说明组队和分配规则。"
+  },
+  "created_at": "2026-10-22T17:03:56.793237+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0014",
+      "claim_kind": "inference",
+      "end_line": 543,
+      "revision": "096f9deb79bc4a7d65792ac756d8add3025f76a78ca7dd44b4876277859340af",
+      "source_id": "src-359a2bd5a60747038b12a7ba483a5f80",
+      "start_line": 519
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-359a2bd5a60747038b12a7ba483a5f80/character/luanying",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "网游之练级专家",
+    "首轮细读",
+    "人物",
+    "阶段性",
+    "作者:发飙的蜗牛",
+    "作品:网游之练级专家"
+  ],
+  "title": "《网游之练级专家》乱影：把能力观察变成合作邀约（第12章）",
+  "updated_at": "2026-10-22T17:03:56.801237+00:00",
+  "user_notes": ""
+}
+
+```

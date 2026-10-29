@@ -1,0 +1,97 @@
+# 把抽象突破拆成小测试
+
+ID: `pat-face55ffd8b65361af424c32cc3ba6a6` · 版本: 1 · 范围: reusable-pattern
+
+修行成长可由外部反馈、动作数量和真实耗竭看见。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-face55ffd8b65361af424c32cc3ba6a6",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "人物已有基础但某能力掌握不完整；师者能控制训练风险。",
+    "causal_steps": [
+      "先用失败暴露短板",
+      "教可独立练的最小动作",
+      "给测量或对手反馈",
+      "逐加并发后验收",
+      "恢复代价留在下一场"
+    ],
+    "claim_kind": "synthesis",
+    "failure_mode": "声称痛不伤却偷偷致命，或数据上升没有动作/体能对应。",
+    "originality_transform": "用音乐协调、医疗操作或多通道感知等重写，不照搬温度/火甲片数。",
+    "summary": "修行成长可由外部反馈、动作数量和真实耗竭看见。"
+  },
+  "created_at": "2026-10-25T21:08:43.483401+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-f0c311020d5b5dde933ee85801aa352f",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-bbb96143c1e653aabdf7125ca2e02b7e",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-1160",
+      "claim_kind": "synthesis",
+      "end_line": 84749,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 84686
+    },
+    {
+      "chapter_id": "ch-1161",
+      "claim_kind": "synthesis",
+      "end_line": 84825,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 84750
+    },
+    {
+      "chapter_id": "ch-1164",
+      "claim_kind": "synthesis",
+      "end_line": 85067,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 84986
+    },
+    {
+      "chapter_id": "ch-1165",
+      "claim_kind": "synthesis",
+      "end_line": 85138,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 85068
+    },
+    {
+      "chapter_id": "ch-1166",
+      "claim_kind": "synthesis",
+      "end_line": 85200,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 85139
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/narrow-test",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "把抽象突破拆成小测试",
+  "updated_at": "2026-10-25T21:08:43.484401+00:00",
+  "user_notes": ""
+}
+
+```

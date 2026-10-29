@@ -1,0 +1,23 @@
+{
+  "review_status": "draft",
+  "command": "check_volume.py zongheng-tianxia 6",
+  "result": {
+    "book": "zongheng-tianxia",
+    "volume": 6,
+    "indexed_segments_read": 244,
+    "body_units_read": 244,
+    "cards": {"character": 25, "scene": 43, "pattern": 15},
+    "evidence_references_checked": 1863,
+    "nodes": 58,
+    "edges": 42,
+    "threads": 19,
+    "preflight": "passed"
+  },
+  "semantic_audit": [
+    "primary审读46条九维后指明初获火龙时限与秦韵主宾，两项同步修正。",
+    "primary回读raw0669发现NPC特殊恢复，本代理完整重读raw0669核L72568/72570，补逐章笔记并同步生成脚本、分析、卡、图、报告与交接。",
+    "本代理回读raw0650原649，惩戒预期十死当章被清，不实际掉十级。",
+    "随风斩剑飞扬/未来255资格/秦愿伴而书拒留宿/卷末病与城状态均另设comprehension_guards。"
+  ],
+  "boundary": "定位、覆盖、引用与结构通过，不代表文学解释或用户审美已被认可；正式入库仍由主代理串行办理。"
+}

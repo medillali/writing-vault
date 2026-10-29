@@ -1,0 +1,36 @@
+{
+  "status": "prefix_checkpoint_verified_not_complete_volume",
+  "checked_at": "2026-10-25T18:31:56.822105+00:00",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "volume": 3,
+  "actual_reader": "zongheng_vol05_full",
+  "raw_range": [
+    505,
+    653
+  ],
+  "raw_fragments": 149,
+  "body_units": 148,
+  "all_begin_end_verified": true,
+  "truncated_pending": [],
+  "tail_reader": "primary",
+  "tail_range": [
+    654,
+    753
+  ],
+  "next_for_this_reader": {
+    "volume": 6,
+    "raw": 1180
+  },
+  "file_sha256": {
+    "chapter-notes.jsonl": "3e7818ff524689dc23e4f1bb9551685922463b663535b329e617f37312f64ad1",
+    "reader-state.json": "d33a189ac3bfe6b95b6a07c626ad948e0493e522028db6a15d273c548d212f0e",
+    "read-log.json": "554848df446bec095222d324df55fa3399b6a5e96ecb89a87bd2ffbf15286891",
+    "note-corrections.json": "bf11061a7dc913068bbf9841c0e24aea0fb1a40efa93745598358dc3db4fe0b4",
+    "prefix-handoff.md": "80c9aef9dab07733d4414c7eb92c2bdb0696da111bc30797948772d34fa83822"
+  },
+  "limits": [
+    "本回执只证149片前缀阅读与持久化一致，不证整卷249片完成。",
+    "文学分析/卡/图将在完整读primary尾笔记并保归属后构建，当前未伪填。"
+  ]
+}

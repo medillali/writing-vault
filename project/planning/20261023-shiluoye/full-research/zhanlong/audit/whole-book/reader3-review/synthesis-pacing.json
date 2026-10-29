@@ -1,0 +1,1627 @@
+{
+  "artifact_type": "derived-book-synthesis-dimension-draft",
+  "dimension": "pacing",
+  "label": "节奏",
+  "review_status": "draft-awaiting-primary",
+  "actual_synthesizer": "/root/zongheng_vol03_full",
+  "personal_complete_book_read": false,
+  "rows": [
+    {
+      "id": "zhanlong-book-pacing-01",
+      "key": "change-scale-keep-a-local-task",
+      "title": "尺度扩大时保留一个能完成的眼前动作",
+      "claim_kind": "synthesis",
+      "claim": "小队、军团、国家与现实危机交替可带来新鲜感，前提是每种尺度都有眼前可执行的局部目标，读者不必一次掌握全部版图。",
+      "fact_summary": "早期五胡等活动以阶段目标和奖励组织推进，后有战国、盘古等区域难点；重复战斗可压缩，新机制与危险首次出现则放慢。卷四从二十人洞窟转到国家军队，后期多城战与现实危机交替，仍以过河、运炮、抢门、救一个人等眼前动作落地。",
+      "supporting_observations": [
+        {
+          "volume": 1,
+          "dimension": "pacing",
+          "index_zero_based": 0,
+          "observation_id": "v01-pacing-01",
+          "reported_fact": "五胡从邀组、劫牢造钥、五层多王到拿头/寻身/复生，解毒和装备升级在中途多次完成。",
+          "reported_interpretation": "长副本不会只把奖延至末尾，中段局部结算给继续投入理由，下一门槛再改变任务性质。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+          "material_sha256": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+          "json_pointer": "/dimensions/pacing/0",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 2,
+          "dimension": "pacing",
+          "index_zero_based": 0,
+          "observation_id": "v02-pacing-01",
+          "reported_fact": "战国先复仇交首、辅助四人优先级、百门客分流、五场单挑后团战。",
+          "reported_interpretation": "同一空间长刷靠目标机制变换保持投入，中途掉落补局部回报。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+          "material_sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+          "json_pointer": "/dimensions/pacing/0",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 3,
+          "dimension": "pacing",
+          "index_zero_based": 1,
+          "observation_id": "v03-pacing-02",
+          "reported_fact": "盘古渊首层入场/救坠、七层31死再叠防、八层壳轮换、末王170人次后破击各详，其他层可数句跳过。",
+          "reported_interpretation": "细节分配跟随新机制及代价，而非每层等长。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+          "material_sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+          "json_pointer": "/dimensions/pacing/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 4,
+          "dimension": "pacing",
+          "index_zero_based": 0,
+          "observation_id": "v04-pacing-01",
+          "reported_fact": "20人洞→5000北援→全帝国不归海→22万远征→千万级国战→天翎保卫与新君；尾转副职赛和新矿战。",
+          "reported_interpretation": "规模扩张不是只增加敌数，也转换目标、指挥权和可承受损失。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "material_sha256": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+          "json_pointer": "/dimensions/pacing/0",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 5,
+          "dimension": "pacing",
+          "index_zero_based": 0,
+          "observation_id": "v05-pacing-01",
+          "reported_fact": "会猎湖战→二国战多城→五人救兰→百团五层→沧八波→列岛/野域，从单人到三军再回小队。",
+          "reported_interpretation": "变化来自要解决的问题而非只换地图和Boss血量。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol05-analysis.json",
+          "material_sha256": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+          "json_pointer": "/dimensions/pacing/0",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "pacing",
+          "index_zero_based": 0,
+          "observation_id": "v06-campaign-braiding",
+          "reported_fact": "龙域大战后神界单人升级/现实沈行动，再七星墓锻剑、国战统一、订婚围杀汪与鬼城绝境交替。",
+          "reported_interpretation": "不同规模与成本的冲突接力，胜利后的喘息可同时种下一场需兑现的任务。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/pacing/0",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        }
+      ],
+      "mechanism": "切换大尺度时先给一个局部任务和清楚障碍，完成后再显示它在全局中的位置；相同操作略写，只在新规则或不可撤销选择处扩写。",
+      "conditions": "尺度转换前后需有资源、人物或目标连接；局部动作的结果能真实改变大局的一部分。",
+      "limits_and_counterevidence": "连续活动和新地图也可能像清单，过密奖励会削弱前一危机。局部成功不能默认改变全局，抢到一处入口、杀一个巨人或单次冠军都不能替全军结算。",
+      "originality_transform": "原创大场面可围绕一条可辨路线组织视野，再用来自别处的少量反馈扩展；不复制副本顺序与活动名。",
+      "literary_choice": {
+        "take": "切换大尺度时先给一个局部任务和清楚障碍，完成后再显示它在全局中的位置；相同操作略写，只在新规则或不可撤销选择处扩写。",
+        "leave": "连续活动和新地图也可能像清单，过密奖励会削弱前一危机。局部成功不能默认改变全局，抢到一处入口、杀一个巨人或单次冠军都不能替全军结算。",
+        "claim_kind": "inference",
+        "user_approval": false
+      },
+      "late_stage_result": "鬼城规模极大，最后仍落到开幕、分人群撤退和护住追兵口；局部动作确实救人，却未让50万NPC全数返回。",
+      "later_tests": {
+        "claim_kind": "synthesis",
+        "test": "鬼城规模极大，最后仍落到开幕、分人群撤退和护住追兵口；局部动作确实救人，却未让50万NPC全数返回。",
+        "boundary": "全书末期的实际动作与开放状态分别判断；不将终点评语倒填原阶段。"
+      },
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0158",
+          "start_line": 13894,
+          "end_line": 13977,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0159",
+          "start_line": 13978,
+          "end_line": 14066,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0162",
+          "start_line": 14236,
+          "end_line": 14332,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0163",
+          "start_line": 14333,
+          "end_line": 14419,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0168",
+          "start_line": 14865,
+          "end_line": 14974,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0174",
+          "start_line": 15471,
+          "end_line": 15552,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0177",
+          "start_line": 15739,
+          "end_line": 15858,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0178",
+          "start_line": 15859,
+          "end_line": 15947,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0431",
+          "start_line": 35812,
+          "end_line": 35886,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0432",
+          "start_line": 35887,
+          "end_line": 35987,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0434",
+          "start_line": 36077,
+          "end_line": 36163,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0437",
+          "start_line": 36329,
+          "end_line": 36438,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0439",
+          "start_line": 36517,
+          "end_line": 36587,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0440",
+          "start_line": 36588,
+          "end_line": 36663,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0443",
+          "start_line": 36875,
+          "end_line": 36960,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0637",
+          "start_line": 50737,
+          "end_line": 50800,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0639",
+          "start_line": 50864,
+          "end_line": 50942,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0641",
+          "start_line": 51019,
+          "end_line": 51098,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0643",
+          "start_line": 51158,
+          "end_line": 51236,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0644",
+          "start_line": 51237,
+          "end_line": 51304,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0645",
+          "start_line": 51305,
+          "end_line": 51380,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0646",
+          "start_line": 51381,
+          "end_line": 51454,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0647",
+          "start_line": 51455,
+          "end_line": 51554,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0755",
+          "start_line": 58877,
+          "end_line": 58928,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0768",
+          "start_line": 59776,
+          "end_line": 59841,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0785",
+          "start_line": 60825,
+          "end_line": 60887,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0822",
+          "start_line": 63176,
+          "end_line": 63230,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0856",
+          "start_line": 65315,
+          "end_line": 65389,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0903",
+          "start_line": 67973,
+          "end_line": 68023,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0918",
+          "start_line": 68965,
+          "end_line": 69029,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0953",
+          "start_line": 71173,
+          "end_line": 71221,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0963",
+          "start_line": 71876,
+          "end_line": 71938,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0968",
+          "start_line": 72165,
+          "end_line": 72228,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1039",
+          "start_line": 76533,
+          "end_line": 76599,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1060",
+          "start_line": 77932,
+          "end_line": 77974,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1095",
+          "start_line": 80180,
+          "end_line": 80242,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1114",
+          "start_line": 81644,
+          "end_line": 81701,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1126",
+          "start_line": 82470,
+          "end_line": 82568,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1157",
+          "start_line": 84466,
+          "end_line": 84535,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1173",
+          "start_line": 85604,
+          "end_line": 85660,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1243",
+          "start_line": 90069,
+          "end_line": 90126,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1245",
+          "start_line": 90185,
+          "end_line": 90252,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1276",
+          "start_line": 92255,
+          "end_line": 92342,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1281",
+          "start_line": 92658,
+          "end_line": 92729,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1296",
+          "start_line": 93735,
+          "end_line": 93803,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1353",
+          "start_line": 97344,
+          "end_line": 97416,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1372",
+          "start_line": 98639,
+          "end_line": 98705,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/1，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1386",
+          "start_line": 99656,
+          "end_line": 99818,
+          "claim_kind": "fact"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "zhanlong-book-pacing-02",
+      "key": "a-crisis-removes-one-option-at-a-time",
+      "title": "危机通过逐次关闭退路加速",
+      "claim_kind": "synthesis",
+      "claim": "紧迫感可由可选动作越来越少产生，而不只靠敌人变强。每次失败后失去一条退路，下一次选择便更昂贵。",
+      "fact_summary": "早期崖壁、寒岩和援军把逃生变成空间题；紫魔林已有危险提示仍追击，最终产生大规模死亡。国家战洪水与石林改变通行方式，携欧恩禁飞使强大飞行也不能直接解围。鬼城从缺粮、下雨、门破到祝海死与饥兵出走被屠，困难彼此叠加才逼出最后救援。",
+      "supporting_observations": [
+        {
+          "volume": 1,
+          "dimension": "pacing",
+          "index_zero_based": 2,
+          "observation_id": "v01-pacing-03",
+          "reported_fact": "雪崖救援从剑刹、藤断、伤手抓石到匕首攀；寒岩从连续秒杀、八死独存到破柱援虎、吞虎止回、露草免冰怒。",
+          "reported_interpretation": "紧张来自方案不足后必须选新工具，而非不停重复‘更危险’。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+          "material_sha256": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+          "json_pointer": "/dimensions/pacing/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 2,
+          "dimension": "pacing",
+          "index_zero_based": 2,
+          "observation_id": "v02-pacing-03",
+          "reported_fact": "烈阳大杀、敌退后追紫魔，掉十级警示仍进入，诛神弩真杀四千核心。",
+          "reported_interpretation": "高潮不能只叠赢，过度自信使前优势成为犯错诱因。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+          "material_sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+          "json_pointer": "/dimensions/pacing/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 4,
+          "dimension": "pacing",
+          "index_zero_based": 1,
+          "observation_id": "v04-pacing-02",
+          "reported_fact": "火象单登/紫雷受挫后换内壁、断粮；双城胜后洪水和石林爆截退；临海战后俄围切桥，主飞可脱却欧任务禁飞，必须水路/领地兵。",
+          "reported_interpretation": "连续危机靠位置、任务人物和资源状态变化推进，每个转折留下真实损失。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "material_sha256": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+          "json_pointer": "/dimensions/pacing/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "pacing",
+          "index_zero_based": 2,
+          "observation_id": "v06-attrition-ladder",
+          "reported_fact": "鬼城先墙高炮多，随后野战失利、墙损减员、马粮尽、三万取粮遭伏、哗变三千出城被杀；敌待雨进攻，但布与盾甲护引线后炮仍能发射。快兽难以瞄准或瞬杀，西城门城墙仍被砸破；外援再提供短时开口。",
+          "reported_interpretation": "连续失去工具把救援高潮建立在可追溯的选择空间收窄上。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/pacing/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        }
+      ],
+      "mechanism": "先展示数条可用路线，再让已知条件按次序关闭它们；每次关闭同时迫使人物暴露优先保护谁、愿付何种代价。",
+      "conditions": "封路原因须有前置条件或现场证据，保留至少一个付代价仍可尝试的动作，避免纯粹无解拖延。",
+      "limits_and_counterevidence": "如果障碍只为等外援降临，会削弱人物主动性；主角仍须对入局与中途选择负责。援军出现不能倒写早先所有错误都是正确的必要铺垫。",
+      "originality_transform": "原创危机用地形、信息、补给三类中两类递进封路，让角色主动舍弃一种资源换通路；援救必须付出或受限，不照搬洪水与鬼城。",
+      "literary_choice": {
+        "take": "先展示数条可用路线，再让已知条件按次序关闭它们；每次关闭同时迫使人物暴露优先保护谁、愿付何种代价。",
+        "leave": "如果障碍只为等外援降临，会削弱人物主动性；主角仍须对入局与中途选择负责。援军出现不能倒写早先所有错误都是正确的必要铺垫。",
+        "claim_kind": "inference",
+        "user_approval": false
+      },
+      "late_stage_result": "流霜开幕提供短时出口而非歼灭战皇，主角作玩家断后救NPC的选择，撤退仍伴巨大损失。紧迫过程没有被一次救援全部撤销。",
+      "later_tests": {
+        "claim_kind": "synthesis",
+        "test": "流霜开幕提供短时出口而非歼灭战皇，主角作玩家断后救NPC的选择，撤退仍伴巨大损失。紧迫过程没有被一次救援全部撤销。",
+        "boundary": "全书末期的实际动作与开放状态分别判断；不将终点评语倒填原阶段。"
+      },
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0153",
+          "start_line": 13417,
+          "end_line": 13509,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0154",
+          "start_line": 13510,
+          "end_line": 13622,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0229",
+          "start_line": 20136,
+          "end_line": 20225,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0230",
+          "start_line": 20226,
+          "end_line": 20315,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0231",
+          "start_line": 20316,
+          "end_line": 20394,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0232",
+          "start_line": 20395,
+          "end_line": 20494,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0465",
+          "start_line": 38375,
+          "end_line": 38442,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0466",
+          "start_line": 38443,
+          "end_line": 38553,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0469",
+          "start_line": 38712,
+          "end_line": 38776,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0471",
+          "start_line": 38853,
+          "end_line": 38921,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0869",
+          "start_line": 66017,
+          "end_line": 66061,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0871",
+          "start_line": 66132,
+          "end_line": 66187,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0873",
+          "start_line": 66249,
+          "end_line": 66310,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0877",
+          "start_line": 66474,
+          "end_line": 66518,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0880",
+          "start_line": 66624,
+          "end_line": 66680,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0881",
+          "start_line": 66681,
+          "end_line": 66736,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0882",
+          "start_line": 66737,
+          "end_line": 66794,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0907",
+          "start_line": 68219,
+          "end_line": 68289,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0908",
+          "start_line": 68290,
+          "end_line": 68345,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0911",
+          "start_line": 68483,
+          "end_line": 68549,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0912",
+          "start_line": 68550,
+          "end_line": 68616,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1378",
+          "start_line": 99074,
+          "end_line": 99149,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1379",
+          "start_line": 99150,
+          "end_line": 99221,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1380",
+          "start_line": 99222,
+          "end_line": 99289,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1382",
+          "start_line": 99352,
+          "end_line": 99420,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1383",
+          "start_line": 99421,
+          "end_line": 99499,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1384",
+          "start_line": 99500,
+          "end_line": 99580,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1385",
+          "start_line": 99581,
+          "end_line": 99655,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1386",
+          "start_line": 99656,
+          "end_line": 99818,
+          "claim_kind": "fact"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "zhanlong-book-pacing-03",
+      "key": "several-clocks-make-unequal-windows",
+      "title": "多种计时器制造不重叠的行动窗口",
+      "claim_kind": "synthesis",
+      "claim": "冷却、资格、离场限制和军队撤退时间可以同时存在，令角色选择先后而不是无限连用强项。不同钟表的错位提供节奏张力。",
+      "fact_summary": "国器争夺的十小时限制与期间装备使用是不同状态，狮盾未保满即能交抹茶实用。酿酒需材料、等级与共用冷却，不能无限叠加。神域入境、永恒效果耗时、霸王后期冷却变化以及限时攻营与NPC撤退又形成并行窗口，等待本身成为代价。",
+      "supporting_observations": [
+        {
+          "volume": 3,
+          "dimension": "pacing",
+          "index_zero_based": 3,
+          "observation_id": "v03-pacing-04",
+          "reported_fact": "深渊脱逃五小时疗伤/禁传试错、国器十小时坐标、追霜时主放大搜索半径后等15秒无敌。",
+          "reported_interpretation": "等待不是空耗，能容纳机制核验、同伴代价和战术重组。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+          "material_sha256": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+          "json_pointer": "/dimensions/pacing/3",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 4,
+          "dimension": "pacing",
+          "index_zero_based": 3,
+          "observation_id": "v04-pacing-04",
+          "reported_fact": "六转费809交/810才转；游戏蝴蝶957材料付款和重铸再实穿；酿酒3/5/7/8/9/10多次首奖，花枪抢4/6而主先10，最高酒仍缺果；968末停在刺杀失败互望。",
+          "reported_interpretation": "局部兑现让长目标有进展，但明显百分比或等级10不是所有使用条件闭合。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "material_sha256": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+          "json_pointer": "/dimensions/pacing/3",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "pacing",
+          "index_zero_based": 1,
+          "observation_id": "v06-cooldown-windows",
+          "reported_fact": "神域与永恒冷却使薛沙之后主不能再战两王；霸王延期七天后实际改15十次。末开幕一小时倒计时让玩家袭营与NPC撤退必须同步。",
+          "reported_interpretation": "用技能冷却、补给和窗口将强战力转成调度问题，比每章加更大数值更能造选择。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/pacing/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        }
+      ],
+      "mechanism": "选择少数在同场互相冲突的计时器，先明确哪一个先归零，再让人物以延后某目标换取另一个窗口；使用后显示暂时失去的选项。",
+      "conditions": "计时须与可用状态对应，初版与强化版数值分期；读者无需记全表，只需知道当前冲突。",
+      "limits_and_counterevidence": "本书时长有真正的口径差，不能强造无缝系统，也不能把研究误读列为缺陷。845乘风当前10剑与942实15是成长相容，27仅潜力，非硬上限10却实27；狮盾“内”不能改“后”。",
+      "originality_transform": "原创设置一条个人技能钟和一条外部事件钟，在两者冲突时形成取舍；不复制原冷却数、禁动作清单或共享酒规则。",
+      "literary_choice": {
+        "take": "选择少数在同场互相冲突的计时器，先明确哪一个先归零，再让人物以延后某目标换取另一个窗口；使用后显示暂时失去的选项。",
+        "leave": "本书时长有真正的口径差，不能强造无缝系统，也不能把研究误读列为缺陷。845乘风当前10剑与942实15是成长相容，27仅潜力，非硬上限10却实27；狮盾“内”不能改“后”。",
+        "claim_kind": "inference",
+        "user_approval": false
+      },
+      "late_stage_result": "末战强技窗口无法覆盖整场军团战，通路与补给仍受外部时间控制。等待能制造计划，也会让敌人和损耗继续增长。",
+      "later_tests": {
+        "claim_kind": "synthesis",
+        "test": "末战强技窗口无法覆盖整场军团战，通路与补给仍受外部时间控制。等待能制造计划，也会让敌人和损耗继续增长。",
+        "boundary": "全书末期的实际动作与开放状态分别判断；不将终点评语倒填原阶段。"
+      },
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0599",
+          "start_line": 48012,
+          "end_line": 48082,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0600",
+          "start_line": 48083,
+          "end_line": 48148,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0714",
+          "start_line": 56184,
+          "end_line": 56234,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0740",
+          "start_line": 57910,
+          "end_line": 57980,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0743",
+          "start_line": 58114,
+          "end_line": 58186,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0747",
+          "start_line": 58408,
+          "end_line": 58461,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0748",
+          "start_line": 58462,
+          "end_line": 58536,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0749",
+          "start_line": 58537,
+          "end_line": 58600,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol03/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0809",
+          "start_line": 62383,
+          "end_line": 62431,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0810",
+          "start_line": 62432,
+          "end_line": 62499,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0922",
+          "start_line": 69240,
+          "end_line": 69311,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0926",
+          "start_line": 69486,
+          "end_line": 69558,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0957",
+          "start_line": 71463,
+          "end_line": 71550,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0963",
+          "start_line": 71876,
+          "end_line": 71938,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0964",
+          "start_line": 71939,
+          "end_line": 71994,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0965",
+          "start_line": 71995,
+          "end_line": 72050,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0966",
+          "start_line": 72051,
+          "end_line": 72112,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0968",
+          "start_line": 72165,
+          "end_line": 72228,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1259",
+          "start_line": 91136,
+          "end_line": 91193,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1260",
+          "start_line": 91194,
+          "end_line": 91258,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1267",
+          "start_line": 91653,
+          "end_line": 91705,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1281",
+          "start_line": 92658,
+          "end_line": 92729,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1385",
+          "start_line": 99581,
+          "end_line": 99655,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1386",
+          "start_line": 99656,
+          "end_line": 99818,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0740",
+          "start_line": 57970,
+          "end_line": 57980,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0845",
+          "start_line": 64586,
+          "end_line": 64643,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0942",
+          "start_line": 70469,
+          "end_line": 70544,
+          "claim_kind": "fact"
+        }
+      ],
+      "review_status": "draft",
+      "priority_corrections": [
+        {
+          "path": "writing-vault/library/reports/zhanlong/audit/priority-corrections-lion-shield.json",
+          "sha256": "ae71dd7a224fb36a50ba83bcbed3878e61887a740a987e4b451e99fedbdb2f5f",
+          "application": "十小时内争夺/期间装备与最终保有分开。"
+        },
+        {
+          "path": "writing-vault/library/reports/zhanlong/audit/priority-corrections-wind-layers.json",
+          "sha256": "81a4e48bd0bcf05b94e0caef71b287909b10638d1a4e50325fd8c8bf775ebd83",
+          "application": "当前10、后15与潜力27分层，撤硬上限10自冲的误读。"
+        }
+      ]
+    },
+    {
+      "id": "zhanlong-book-pacing-04",
+      "key": "rest-is-an-event-with-a-cost",
+      "title": "缓冲段承担恢复、错失与关系推进",
+      "claim_kind": "synthesis",
+      "claim": "缓冲不是把情节暂停。休息、养伤、航行和照料耗掉真实时间，期间别人会继续行动，人物也会失去某些机会。",
+      "fact_summary": "早期磨损、睡眠与现实工作限制在线；现实受伤后掉榜，昏迷七天又错过国际赛。后期修城、航行与三日粮安排把等待变成后勤，军中轮守与战后长睡让恢复需要他人承担工作。轻松相处也在这些时段推进关系。",
+      "supporting_observations": [
+        {
+          "volume": 1,
+          "dimension": "pacing",
+          "index_zero_based": 1,
+          "observation_id": "v01-pacing-02",
+          "reported_fact": "霜剑10%/7%迫回修，神庙中途回城实际三转；主熬夜上课睡、错电话、团队休息聚餐延集合。",
+          "reported_interpretation": "缓冲段不完全停掉故事，资源恢复同时推进护卫、情感和团队生活问题。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+          "material_sha256": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+          "json_pointer": "/dimensions/pacing/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 2,
+          "dimension": "pacing",
+          "index_zero_based": 1,
+          "observation_id": "v02-pacing-02",
+          "reported_fact": "寒铁耐久降迫节用，剑圣图回城修耐补药再水晶直下；现实主昏三天再疗五。",
+          "reported_interpretation": "休息段有状态代价，能连接组织成长或关系照护，不仅填空。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol02-analysis.json",
+          "material_sha256": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+          "json_pointer": "/dimensions/pacing/1",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 4,
+          "dimension": "pacing",
+          "index_zero_based": 2,
+          "observation_id": "v04-pacing-03",
+          "reported_fact": "雷墓/出院/机场，东先独自整理；战后自助餐仍食欲差；佩墓后军回，凡书重建、斩龙殿投票与铸剑穿插，未抹旧城失落。",
+          "reported_interpretation": "缓冲段不只是奖赏，给悲伤、组织归位与工具准备各自时间。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+          "material_sha256": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+          "json_pointer": "/dimensions/pacing/2",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 5,
+          "dimension": "pacing",
+          "index_zero_based": 3,
+          "observation_id": "v05-pacing-04",
+          "reported_fact": "二国战后部分军恢复/现实受袭，主三天修行半天睡；远征六小时舟行侦图/三日粮限。",
+          "reported_interpretation": "休整时间承担后勤和身体恢复，避免胜利串成无耗滑行。",
+          "upstream_claim_kind": "inference",
+          "material_path": "writing-vault/library/reports/zhanlong/vol05-analysis.json",
+          "material_sha256": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+          "json_pointer": "/dimensions/pacing/3",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        },
+        {
+          "volume": 6,
+          "dimension": "pacing",
+          "index_zero_based": 3,
+          "observation_id": "v06-material-rest",
+          "reported_fact": "主睡27h才知战果；钓鱼/家宴让人物联系延续，鬼城只让林等睡7h而主燕撑，伤兵治疗需现实十小时以上。",
+          "reported_interpretation": "休息不是全空白，能展示谁承担等待、谁照料谁与下一步体力条件。",
+          "upstream_claim_kind": "synthesis",
+          "material_path": "writing-vault/library/reports/zhanlong/vol06-analysis.json",
+          "material_sha256": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+          "json_pointer": "/dimensions/pacing/3",
+          "source_reader": "原分卷全文读者见同卷正式read-log；本条为派生材料综合",
+          "synthesizer_original_read_scope": "本人原文亲读仅卷1 raw2—151及卷4 raw754—968；卷1尾primary亲读且本人完整读其逐章笔记，其余卷依最终正式研究。"
+        }
+      ],
+      "mechanism": "在高压段后安排一项必要恢复，明确谁接手职责、时间推进多少、错过什么；让一段关系或下一阶段准备在休息中发生。",
+      "conditions": "恢复须承接上一段的实际损耗，离场的人不应令组织静止；放松后要保留尚未痊愈或未补足的部分。",
+      "limits_and_counterevidence": "频繁以受伤换亲密照料可能工具化配角，也会把恢复写成奖励。睡醒不是所有政治与伦理问题归零，吃饭约会不证伤势完全消失。",
+      "originality_transform": "原创缓冲可选轮班、修补、复健或等待运输，让另一角色在主角休息时独立完成任务；不照搬原昏迷与同居安排。",
+      "literary_choice": {
+        "take": "在高压段后安排一项必要恢复，明确谁接手职责、时间推进多少、错过什么；让一段关系或下一阶段准备在休息中发生。",
+        "leave": "频繁以受伤换亲密照料可能工具化配角，也会把恢复写成奖励。睡醒不是所有政治与伦理问题归零，吃饭约会不证伤势完全消失。",
+        "claim_kind": "inference",
+        "user_approval": false
+      },
+      "late_stage_result": "末卷战后主角长睡，镇天关建设由组织继续推进；回到现实准备新职体现时间流动，未完成的军政和敌情仍在。",
+      "later_tests": {
+        "claim_kind": "synthesis",
+        "test": "末卷战后主角长睡，镇天关建设由组织继续推进；回到现实准备新职体现时间流动，未完成的军政和敌情仍在。",
+        "boundary": "全书末期的实际动作与开放状态分别判断；不将终点评语倒填原阶段。"
+      },
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0138",
+          "start_line": 12018,
+          "end_line": 12115,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0139",
+          "start_line": 12116,
+          "end_line": 12218,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0141",
+          "start_line": 12314,
+          "end_line": 12391,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0169",
+          "start_line": 14975,
+          "end_line": 15062,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0180",
+          "start_line": 16023,
+          "end_line": 16103,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0201",
+          "start_line": 17794,
+          "end_line": 17882,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0221",
+          "start_line": 19421,
+          "end_line": 19511,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol01/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0404",
+          "start_line": 33753,
+          "end_line": 33830,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0427",
+          "start_line": 35500,
+          "end_line": 35584,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0428",
+          "start_line": 35585,
+          "end_line": 35663,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0458",
+          "start_line": 37856,
+          "end_line": 37914,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0480",
+          "start_line": 39495,
+          "end_line": 39592,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0481",
+          "start_line": 39593,
+          "end_line": 39675,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol02/pacing/2，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0844",
+          "start_line": 64528,
+          "end_line": 64585,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0847",
+          "start_line": 64702,
+          "end_line": 64760,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0855",
+          "start_line": 65254,
+          "end_line": 65314,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0862",
+          "start_line": 65646,
+          "end_line": 65703,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0888",
+          "start_line": 67110,
+          "end_line": 67164,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0920",
+          "start_line": 69088,
+          "end_line": 69176,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0922",
+          "start_line": 69240,
+          "end_line": 69311,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0956",
+          "start_line": 71391,
+          "end_line": 71462,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0960",
+          "start_line": 71690,
+          "end_line": 71763,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol04/pacing/3，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1089",
+          "start_line": 79742,
+          "end_line": 79808,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1093",
+          "start_line": 80049,
+          "end_line": 80114,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1160",
+          "start_line": 84686,
+          "end_line": 84749,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1165",
+          "start_line": 85068,
+          "end_line": 85138,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1166",
+          "start_line": 85139,
+          "end_line": 85200,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1170",
+          "start_line": 85430,
+          "end_line": 85492,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1171",
+          "start_line": 85493,
+          "end_line": 85547,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol05/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1346",
+          "start_line": 96838,
+          "end_line": 96906,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1358",
+          "start_line": 97679,
+          "end_line": 97755,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1370",
+          "start_line": 98503,
+          "end_line": 98558,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1371",
+          "start_line": 98559,
+          "end_line": 98638,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1383",
+          "start_line": 99421,
+          "end_line": 99499,
+          "claim_kind": "fact",
+          "research_material_attribution": "vol06/pacing/4，定位来自正式分卷，非本次新原文阅读"
+        }
+      ],
+      "review_status": "draft"
+    }
+  ]
+}

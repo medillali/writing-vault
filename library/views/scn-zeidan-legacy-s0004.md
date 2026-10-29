@@ -1,0 +1,58 @@
+# 贼胆｜妹妹想成为挡风遮雨的大树｜S0004
+
+ID: `scn-zeidan-legacy-s0004` · 版本: 1 · 范围: source-analysis
+
+萧御希望妹妹毕业成家后自己无牵挂，小雨却希望长大保护哥哥；减免后的五百学费仍让她自责。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-zeidan-legacy-s0004",
+  "asset_type": "scene",
+  "content": {
+    "choice": "双方都想替另一方卸负担",
+    "facts": [
+      "萧御希望妹妹毕业成家后自己无牵挂，小雨却希望长大保护哥哥；减免后的五百学费仍让她自责。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/scenes.json#S0004",
+    "name": "妹妹想成为挡风遮雨的大树",
+    "prehistory": "长期单向供养的外观",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "S0004",
+    "result": "愿望不完全相同而都来自关心",
+    "summary": "萧御希望妹妹毕业成家后自己无牵挂，小雨却希望长大保护哥哥；减免后的五百学费仍让她自责。",
+    "user_feedback": null,
+    "worker_part": "part-a"
+  },
+  "created_at": "2026-10-22T17:03:13.586439+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0036",
+      "claim_kind": "fact",
+      "end_line": 1537,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1519
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/S0004",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-a"
+  ],
+  "title": "贼胆｜妹妹想成为挡风遮雨的大树｜S0004",
+  "updated_at": "2026-10-22T17:03:13.587448+00:00",
+  "user_notes": ""
+}
+
+```

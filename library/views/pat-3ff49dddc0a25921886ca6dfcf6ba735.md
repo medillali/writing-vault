@@ -1,0 +1,68 @@
+# 把战利品修复写成跨职业协作
+
+ID: `pat-3ff49dddc0a25921886ca6dfcf6ba735` · 版本: 1 · 范围: reusable-pattern
+
+强物由互不隶属者的能力与信任生产。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-3ff49dddc0a25921886ca6dfcf6ba735",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "物品收益能改变下一行动且成本有来源。",
+    "causal_steps": [
+      "先限定不可用半品",
+      "拆材料/工艺等级/运输安全",
+      "展示当事人拒附属",
+      "真实交成品并试用"
+    ],
+    "claim_kind": "synthesis",
+    "failure_mode": "一给钱专家便失自主、跳过门槛。",
+    "originality_transform": "改为乐器/飞行器/知识档案，各职业贡献须原创。",
+    "summary": "强物由互不隶属者的能力与信任生产。"
+  },
+  "created_at": "2026-10-25T19:26:00.528069+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-e971c0f82db0584692e2fee7ca87cdfd",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0257",
+      "claim_kind": "synthesis",
+      "end_line": 22421,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 22331
+    },
+    {
+      "chapter_id": "ch-0258",
+      "claim_kind": "synthesis",
+      "end_line": 22529,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 22422
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/pattern/labor-artifact",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷2",
+    "待审阅"
+  ],
+  "title": "把战利品修复写成跨职业协作",
+  "updated_at": "2026-10-25T19:26:00.528069+00:00",
+  "user_notes": ""
+}
+
+```

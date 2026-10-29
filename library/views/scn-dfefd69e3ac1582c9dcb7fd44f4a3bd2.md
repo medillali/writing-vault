@@ -1,0 +1,69 @@
+# 共享奖励与排他采药同时发生
+
+ID: `scn-dfefd69e3ac1582c9dcb7fd44f4a3bd2` · 版本: 1 · 范围: source-analysis
+
+百人得交斧资格，轩辕血到被主划线拒采；主交洛克/转西奥多，重铸仍提案，火耀实装。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-dfefd69e3ac1582c9dcb7fd44f4a3bd2",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "团队副本后争资源",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/waner",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/limu",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/dongcheng"
+    ],
+    "choice": "要求敌退后全回卷再交奖",
+    "claim_kind": "inference",
+    "consequence": "神器不归主，玩家得各任务奖",
+    "failure_mode": "主说为弱者不能证明包圆天然公正",
+    "goal": "护队副本收益",
+    "narrative_order": 648,
+    "obstacle": "第三方要采资源/撤退风险",
+    "state_change": "团队付出有回收而不取消对外强权质问",
+    "summary": "百人得交斧资格，轩辕血到被主划线拒采；主交洛克/转西奥多，重铸仍提案，火耀实装。",
+    "why_it_works": "分任务物归属与奖励，保价值冲突"
+  },
+  "created_at": "2026-10-25T20:23:25.221099+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0647",
+      "claim_kind": "fact",
+      "end_line": 51554,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 51455
+    },
+    {
+      "chapter_id": "ch-0648",
+      "claim_kind": "fact",
+      "end_line": 51641,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 51555
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/scene/axe",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "共享奖励与排他采药同时发生",
+  "updated_at": "2026-10-25T20:23:25.221099+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,73 @@
+{
+  "asset_id": "pat-f1c0bfa9e7415e6d99637d742e2a17b9",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "能力能被环境、后勤或预算约束的组织故事。",
+    "causal_steps": [
+      "给不可替代材料或身体门槛",
+      "展示搬运/维护",
+      "在一场实测中证优势",
+      "再给无法适用的空间/并发场景"
+    ],
+    "claim_kind": "synthesis",
+    "failure_mode": "只声称稀缺却下一场无限装备；强炮直接轰混战而无友军风险。",
+    "originality_transform": "不用龙晶/炮名，换成需要冷链的药、低频能量或受法规限制的设施。",
+    "summary": "把武器规模、使用条件与战术窗口接起来，避免无代价升级。"
+  },
+  "created_at": "2026-10-25T21:08:43.444963+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-2bfd5894e7605f38b898d87fed0ff1ab",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-6ff9961482f954e1ac13377328af2cb9",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-eac0481dab2656258d1450d2a4270d7a",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-1145",
+      "claim_kind": "synthesis",
+      "end_line": 83798,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 83731
+    },
+    {
+      "chapter_id": "ch-1156",
+      "claim_kind": "synthesis",
+      "end_line": 84465,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 84400
+    },
+    {
+      "chapter_id": "ch-1170",
+      "claim_kind": "synthesis",
+      "end_line": 85492,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 85430
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/costed-power",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "强力需材料、运输和适合目标",
+  "updated_at": "2026-10-25T21:08:43.444963+00:00",
+  "user_notes": ""
+}

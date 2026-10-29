@@ -1,0 +1,83 @@
+{
+  "status": "applied-primary-approved",
+  "scope": "仅e-equipmentshield目标/label/evidence；from/kind/其他边/全部线程及其他值不动",
+  "before": {
+    "id": "e-equipmentshield",
+    "from": "s-deer",
+    "to": "s-serin",
+    "kind": "payoff",
+    "label": "英雄盔761实装/紫霄796得，控制免疫与双龙CD在神战救命。",
+    "claim_kind": "inference",
+    "evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0761",
+        "start_line": 59291,
+        "end_line": 59410,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0796",
+        "start_line": 61506,
+        "end_line": 61613,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0798",
+        "start_line": 61672,
+        "end_line": 61739,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0800",
+        "start_line": 61803,
+        "end_line": 61861,
+        "claim_kind": "inference"
+      }
+    ]
+  },
+  "after": {
+    "id": "e-equipmentshield",
+    "from": "s-deer",
+    "to": "s-riverwar",
+    "kind": "payoff",
+    "label": "761英雄盔实戴，778/781免晕在敌控中实际验证；不是持有即全程无伤。",
+    "claim_kind": "inference",
+    "evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0761",
+        "start_line": 59291,
+        "end_line": 59410,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0778",
+        "start_line": 60429,
+        "end_line": 60480,
+        "claim_kind": "inference"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0781",
+        "start_line": 60584,
+        "end_line": 60649,
+        "claim_kind": "inference"
+      }
+    ]
+  },
+  "before_sha256": "fa2b1a5509a5c9205f5401853dda7144e212aa89975f4d3aa8aae7a41daccf2f",
+  "after_sha256": "72a198f63af2eff9ba8ee268f4e312941cf57c5cc116e72b4b7ad40564c0204c",
+  "basis": "primary 2026-10-26 同意精准修订及三段定位"
+}

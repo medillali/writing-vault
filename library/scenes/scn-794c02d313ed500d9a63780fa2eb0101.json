@@ -1,0 +1,64 @@
+{
+  "asset_id": "scn-794c02d313ed500d9a63780fa2eb0101",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "撤退战与领袖回救。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/limu"
+    ],
+    "choice": "自己回救，末杀黎明留李，禁止继续追杀。",
+    "claim_kind": "inference",
+    "consequence": "503李活，504其余99全死确认。",
+    "failure_mode": "一人生还代全队存活、敌ID套错。",
+    "goal": "救下断后同伴。",
+    "narrative_order": 503,
+    "obstacle": "残血李/四十围者/禁复时限。",
+    "state_change": "局部守诺成功仍保集体代价。",
+    "summary": "李百人断后、主护送途中回身，天尘七秒/54码钩救李再令走。",
+    "why_it_works": "英雄救援以具体工具和止贪收口。"
+  },
+  "created_at": "2026-10-25T19:26:00.507322+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0502",
+      "claim_kind": "fact",
+      "end_line": 41240,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 41178
+    },
+    {
+      "chapter_id": "ch-0503",
+      "claim_kind": "fact",
+      "end_line": 41317,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 41241
+    },
+    {
+      "chapter_id": "ch-0504",
+      "claim_kind": "fact",
+      "end_line": 41378,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 41318
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/scene/rear",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷2",
+    "待审阅"
+  ],
+  "title": "回救李兑现但九十九人未回来",
+  "updated_at": "2026-10-25T19:26:00.507322+00:00",
+  "user_notes": ""
+}

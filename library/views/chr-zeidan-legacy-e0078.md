@@ -1,0 +1,148 @@
+# 贼胆｜堕落的糖果｜E0078
+
+ID: `chr-zeidan-legacy-e0078` · 版本: 1 · 范围: source-analysis
+
+迟到、轻蔑队友并拒救宿命，被萧御撞墙膝击；随后由竞争逐步参与协作。；认为击杀赌局胜之不武主动撤约，改约公平PK；同时会隐瞒标记之尘让队友作诱饵。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0078",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "causal_importance": "团队线与技术互学核心",
+    "desires": [
+      "证明自身实力",
+      "值得的对手",
+      "强技能与装备"
+    ],
+    "facts": [
+      "迟到、轻蔑队友并拒救宿命，被萧御撞墙膝击；随后由竞争逐步参与协作。",
+      "认为击杀赌局胜之不武主动撤约，改约公平PK；同时会隐瞒标记之尘让队友作诱饵。",
+      "学习跳绞杀、用招架与萧控杀雷萨、移粉误导蜗牛并偷得锁定。",
+      "猜拳输后认可结果，花两万买萧旧肩；不等于个性矛盾全部消失。"
+    ],
+    "identity": "十盗贼小队高手",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0078",
+    "limits": [
+      "对弱者的轻视",
+      "协作仍含工具性"
+    ],
+    "maintenance_depth": "高",
+    "name": "堕落的糖果",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0078",
+    "relationships": [
+      "萧御：敌意、竞争、合作并存",
+      "宿命：曾拒救",
+      "队友：可协作也会利用"
+    ],
+    "summary": "迟到、轻蔑队友并拒救宿命，被萧御撞墙膝击；随后由竞争逐步参与协作。；认为击杀赌局胜之不武主动撤约，改约公平PK；同时会隐瞒标记之尘让队友作诱饵。",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:12.396430+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0235",
+      "claim_kind": "fact",
+      "end_line": 11977,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 11901
+    },
+    {
+      "chapter_id": "ch-0237",
+      "claim_kind": "fact",
+      "end_line": 12139,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 12055
+    },
+    {
+      "chapter_id": "ch-0240",
+      "claim_kind": "fact",
+      "end_line": 12357,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 12283
+    },
+    {
+      "chapter_id": "ch-0248",
+      "claim_kind": "fact",
+      "end_line": 12910,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 12846
+    },
+    {
+      "chapter_id": "ch-0251",
+      "claim_kind": "fact",
+      "end_line": 13111,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 13035
+    },
+    {
+      "chapter_id": "ch-0255",
+      "claim_kind": "fact",
+      "end_line": 13365,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 13303
+    },
+    {
+      "chapter_id": "ch-0274",
+      "claim_kind": "fact",
+      "end_line": 14691,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14634
+    },
+    {
+      "chapter_id": "ch-0279",
+      "claim_kind": "fact",
+      "end_line": 14979,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14922
+    },
+    {
+      "chapter_id": "ch-0280",
+      "claim_kind": "fact",
+      "end_line": 15043,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14980
+    },
+    {
+      "chapter_id": "ch-0281",
+      "claim_kind": "fact",
+      "end_line": 15092,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 15044
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0078",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜堕落的糖果｜E0078",
+  "updated_at": "2026-10-22T17:03:12.406504+00:00",
+  "user_notes": ""
+}
+
+```

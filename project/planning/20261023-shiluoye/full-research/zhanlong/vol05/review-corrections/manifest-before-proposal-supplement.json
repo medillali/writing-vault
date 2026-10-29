@@ -1,0 +1,30 @@
+{
+  "status": "draft-frozen-before-primary-proposals",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "volume": 5,
+  "complete_book": false,
+  "core_sha256": {
+    "analysis.json": "c30efe090b939f753fe79959c80e75cb4a98705193b797ddee6fd77453dc9278",
+    "cards.json": "b031608e05909244ed60b8a07c29046c2529f9d7abae8e6164379135906823e4",
+    "graph.json": "30a03d512500dc664bbbf9bf6436feb484f19c80442728559679675d20f778db",
+    "chapter-notes.jsonl": "908e7c4f01fe342fe61cd4d8e7494da0266e830c02fe73acffef9fc76bb871b9",
+    "read-log.json": "e16491213242360310074560e0c5d250c27d86819a026c4042e71c99053842be",
+    "reader-state.json": "542bb43bd2ea2882d35a73d52e255144bd33ba87531b2f29dc1d502b994d25a0"
+  },
+  "support_sha256": {
+    "report.md": "86df1cc1cf4930254ee32f10e9f74f751754bd82d91ebea06d8914f655903462",
+    "handoff.md": "7d0870447666f7dfa924b0c02e6e07dc22b26523e7323499cb17ee17daf31e24",
+    "validation.json": "a9d95fb6129e04f08db0179bc2065c958a4cafd1fd024e79f4c04bfad30b17ad",
+    "self-review-receipt.json": "c67e223edd7f37130850991388c7cfa069fe93e0dbab9e083538825ec6a7bb1d",
+    "research-checkpoint.json": "8c5bdb8f7b21a002a99cd132b7a8016c1a98ad618e0ed8373a203368bf91cf58",
+    "primary-review-proposal.json": "be135ca11b1d6cc4de1c301d2d632f9e3aed8b076a2dc42ebdb0290ef3dc82c2",
+    "primary-review-impact-scan.json": "13fdbb98d88e470a8998d29ebdeb5aad5fd7b1a2ec8315f52325ea7fe0759473",
+    "review-corrections/primary-before/snapshot.json": "432ec58c0b8944d1c9a9a51ab7fc0e64008ccf21ce84f2dee94006fe5787030a"
+  },
+  "external_input_sha256": {
+    "../source.json": "d7f33406cf8791e9cb0339f3dfb589b29a03eb52141fa44dbf8a8c3258a420cd",
+    "collection/reading-units.json": "1449dac8ed3e3d21b220d4968ba02740056d2b6fe07b10e33f902af9b50a63a0"
+  },
+  "notes": "冻结现件不重跑builder；提案尚未合入，主审批准后只应用精准路径并保差分。此冻结不等文学签收。"
+}

@@ -1,0 +1,88 @@
+# 贼胆｜未具名火法、德鲁伊与飞蛾｜E0021
+
+ID: `chr-zeidan-legacy-e0021` · 版本: 1 · 范围: source-analysis
+
+三人有赚钱目标、互救与复仇关系；火法先谨慎，等待后因不甘损失而冒险。；萧御先攻击；德鲁伊最后选择死于怪物，不让萧御取得荣誉。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0021",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "高：遭遇战",
+    "facts": [
+      "三人有赚钱目标、互救与复仇关系；火法先谨慎，等待后因不甘损失而冒险。",
+      "萧御先攻击；德鲁伊最后选择死于怪物，不让萧御取得荣誉。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0021",
+    "maintenance_depth": "中高：敌方内部关系",
+    "name": "未具名火法、德鲁伊与飞蛾",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0021",
+    "relations": [
+      {
+        "target": "飞蛾",
+        "type": "队内牧师，需独立保留姓名"
+      }
+    ],
+    "summary": "三人有赚钱目标、互救与复仇关系；火法先谨慎，等待后因不甘损失而冒险。；萧御先攻击；德鲁伊最后选择死于怪物，不让萧御取得荣誉。",
+    "user_feedback": null,
+    "worker_part": "part-a"
+  },
+  "created_at": "2026-10-22T17:03:11.878411+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0043",
+      "claim_kind": "fact",
+      "end_line": 1839,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1790
+    },
+    {
+      "chapter_id": "ch-0044",
+      "claim_kind": "fact",
+      "end_line": 1882,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1840
+    },
+    {
+      "chapter_id": "ch-0045",
+      "claim_kind": "fact",
+      "end_line": 1931,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1883
+    },
+    {
+      "chapter_id": "ch-0046",
+      "claim_kind": "fact",
+      "end_line": 1974,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1932
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0021",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-a"
+  ],
+  "title": "贼胆｜未具名火法、德鲁伊与飞蛾｜E0021",
+  "updated_at": "2026-10-22T17:03:11.882409+00:00",
+  "user_notes": ""
+}
+
+```

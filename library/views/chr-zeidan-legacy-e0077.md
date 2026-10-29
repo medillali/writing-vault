@@ -1,0 +1,70 @@
+# 贼胆｜圣痕｜E0077
+
+ID: `chr-zeidan-legacy-e0077` · 版本: 1 · 范围: source-analysis
+
+团队需要合适武器，拿裂爆和传说护肩换萧御能量剑；交易让副本收益转成盗贼构筑。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0077",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "causal_importance": "经济与战斗体系衔接",
+    "desires": [],
+    "facts": [
+      "团队需要合适武器，拿裂爆和传说护肩换萧御能量剑；交易让副本收益转成盗贼构筑。"
+    ],
+    "identity": "自由市场团队装备交易者",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0077",
+    "limits": [],
+    "maintenance_depth": "中",
+    "name": "圣痕",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0077",
+    "relationships": [],
+    "summary": "团队需要合适武器，拿裂爆和传说护肩换萧御能量剑；交易让副本收益转成盗贼构筑。",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:12.388557+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0233",
+      "claim_kind": "fact",
+      "end_line": 11817,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 11747
+    },
+    {
+      "chapter_id": "ch-0234",
+      "claim_kind": "fact",
+      "end_line": 11900,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 11818
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0077",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜圣痕｜E0077",
+  "updated_at": "2026-10-22T17:03:12.390905+00:00",
+  "user_notes": ""
+}
+
+```

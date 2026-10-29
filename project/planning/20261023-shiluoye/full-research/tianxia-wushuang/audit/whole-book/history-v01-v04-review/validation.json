@@ -1,0 +1,62 @@
+{
+  "scope": 80,
+  "new": 55,
+  "existing": 25,
+  "missing": [],
+  "overlap_new_existing": [],
+  "new_status_counts": {
+    "partial": 28,
+    "answered": 22,
+    "unrecovered": 5
+  },
+  "checks": {
+    "unique_ids": true,
+    "scope_union_equals_frozen_80": true,
+    "later_chapters_resolve_to_notes": true,
+    "required_fields_present": true,
+    "valid_status_enum": true,
+    "formal_v7_refresh_sha_matches": true,
+    "semantic_primary_approval": false,
+    "pool_mutated": false,
+    "public_choice_1596_anchor_corrected": true,
+    "shura_king_579_anchor_corrected": true,
+    "other54_unchanged_in_shura_delta": true
+  },
+  "artifacts": [
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/history-v01-v04-review/adjudications-history-v01-v04.json",
+      "sha256": "2a80ff0bc4135c0aff782f6ff11e55c024884e107fcb89f8f46f31bc07b8d793",
+      "bytes": 462172
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/history-v01-v04-review/adjudications-history-v01-v04.md",
+      "sha256": "63971d0fb7f5c64f87035f20574965d6033bbd95e88f473a544012d55565ec56",
+      "bytes": 111441
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/history-v01-v04-review/coverage-80.json",
+      "sha256": "854185a13c76b5c00ab0d64c6996ca9a051d460fb20ff63f53092c243e0ecd40",
+      "bytes": 187389
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/history-v01-v04-review/existing-25-review.json",
+      "sha256": "d6f52d64b5f8dc486ed6be41ff1d064f273f2780d78ae519e448b7869469797e",
+      "bytes": 69663
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/history-v01-v04-review/method.json",
+      "sha256": "6f06247782a1beca799989df5e4ccfa3507fb899e025dff0e76f279e7fe0cd6a",
+      "bytes": 1558
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/history-v01-v04-review/input-manifest.json",
+      "sha256": "668a38301a2d74b70657134f37cb311849530c2c41f08ed17d337cf1de04acc7",
+      "bytes": 10656
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/audit/whole-book/history-v01-v04-review/review-state.json",
+      "sha256": "1c89331c6aee76285c2d064f07e3bc10f72ca64d82bd8d42e8c61d28f85cfe06",
+      "bytes": 416
+    }
+  ]
+}

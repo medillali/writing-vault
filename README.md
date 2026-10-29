@@ -4,6 +4,8 @@
 
 人物、场景、创作机制位于`library`，原创作品位于`books`。JSON为主档，`library/views`为生成的阅读副本，版本历史位于`history`。这是实际个人资料库，未混入演示素材。
 
+**多书管理入口：[小说研究总目录](library/reports/collection/README.md)。** 失落叶按《网游之纵横天下》→《网游之天下无双》→《斩龙》推进；蜗牛作品和既有研究统一纳管。目录分别显示全文索引、实际阅读、卡片与下一起点；[机制索引](library/reports/collection/机制索引.md)用于跨书查找写作问题。
+
 ## 当前可审查成果
 
 - **[全书地图：拖动、缩放、查看交汇](library/reports/super-skeleton/reading/plot/map.md)**（默认入口）：PC与Codex中像地图一样浏览整本书，附GitHub原图和清晰局部预览。

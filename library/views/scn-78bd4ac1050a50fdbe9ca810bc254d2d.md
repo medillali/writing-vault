@@ -1,0 +1,125 @@
+# 银曜与毁灭剑的军团生产
+
+ID: `scn-78bd4ac1050a50fdbe9ca810bc254d2d` · 版本: 1 · 范围: source-analysis
+
+私人坐骑发现扩成集中装备军团。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-78bd4ac1050a50fdbe9ca810bc254d2d",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "原创改资源链与分配，不复制蛋/图名。",
+    "characters": [
+      "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/shusheng",
+      "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/lingxue",
+      "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/lingyue",
+      "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/suifeng",
+      "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/huahuo",
+      "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/character/yix"
+    ],
+    "choice": "随风发现蛋、多人成批刷；首冲魂、救援补后勤；铁匠图一次永久。",
+    "consequence": "3400珠/224首造177极品，后总万骑再五万/400甲分时；并非全员同一装备。",
+    "failure_mode": "垄断刷新点与自由练级宣称矛盾不能抹。",
+    "goal": "建立规模精骑、保刷珠矿。",
+    "obstacle": "掉落速度/材料/望消耗、敌围。",
+    "state_change": "材料采集到制造到兵力反馈。",
+    "summary": "私人坐骑发现扩成集中装备军团。",
+    "why_it_works": "生产工具比单件神装能解释组织强。"
+  },
+  "created_at": "2026-10-24T20:26:45.741366+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0904",
+      "claim_kind": "synthesis",
+      "end_line": 101302,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 101180
+    },
+    {
+      "chapter_id": "ch-0905",
+      "claim_kind": "synthesis",
+      "end_line": 101385,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 101303
+    },
+    {
+      "chapter_id": "ch-0906",
+      "claim_kind": "synthesis",
+      "end_line": 101492,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 101386
+    },
+    {
+      "chapter_id": "ch-0907",
+      "claim_kind": "synthesis",
+      "end_line": 101595,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 101493
+    },
+    {
+      "chapter_id": "ch-0908",
+      "claim_kind": "synthesis",
+      "end_line": 101684,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 101596
+    },
+    {
+      "chapter_id": "ch-0909",
+      "claim_kind": "synthesis",
+      "end_line": 101782,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 101685
+    },
+    {
+      "chapter_id": "ch-0915",
+      "claim_kind": "synthesis",
+      "end_line": 102394,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 102290
+    },
+    {
+      "chapter_id": "ch-0996",
+      "claim_kind": "synthesis",
+      "end_line": 110154,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 110075
+    },
+    {
+      "chapter_id": "ch-1029",
+      "claim_kind": "synthesis",
+      "end_line": 113557,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 113465
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol07/scene/industry",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷七",
+    "场景机制"
+  ],
+  "title": "银曜与毁灭剑的军团生产",
+  "updated_at": "2026-10-24T20:26:45.741366+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,1884 @@
+[
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0026-03",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 25,
+    "atomic_index": 2,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "738先40水晶、739200余用尽。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0738",
+          "claim_kind": "fact",
+          "end_line": 57834,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57769
+        },
+        {
+          "chapter_id": "ch-0739",
+          "claim_kind": "fact",
+          "end_line": 57909,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57835
+        }
+      ],
+      "handling": "不造中途购入或删任一时点；仅保最终耗尽/1级驯成实际动作。",
+      "id": "v03-a-crystals",
+      "status": "unknown"
+    },
+    "title": "仅保最终耗尽/1级驯成实际动作。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0738",
+        "claim_kind": "fact",
+        "end_line": 57834,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57769
+      },
+      {
+        "chapter_id": "ch-0739",
+        "claim_kind": "fact",
+        "end_line": 57909,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57835
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "capture-and-inventory-action",
+    "rationale": "738首只一级石虎已经用倾浅的水晶驯成并交林决定分配；739全队200余水晶用尽、后遇一级改杀也有明确动作。两种结果都保留，个人40与全队200的范围差不取消它们，也不能把一级遇见、驯成、最后骑乘混为同一完成点。",
+    "later_chapters": [
+      738,
+      739
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0738",
+        "start_line": 57812,
+        "end_line": 57823,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0739",
+        "start_line": 57839,
+        "end_line": 57855,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0027-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 26,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "狮盾初公告10h后可装备交易，743却提前交抹并实开群狮。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0740",
+          "claim_kind": "fact",
+          "end_line": 57980,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57910
+        },
+        {
+          "chapter_id": "ch-0743",
+          "claim_kind": "fact",
+          "end_line": 58186,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58114
+        },
+        {
+          "chapter_id": "ch-0749",
+          "claim_kind": "fact",
+          "end_line": 58600,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58537
+        }
+      ],
+      "handling": "保真实使用和公告冲突，不补隐藏权限/临时补丁。",
+      "id": "v03-a-shield-limit",
+      "status": "unknown"
+    },
+    "title": "狮盾初公告10h后可装备交易，743却提前交抹并实开群狮。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0740",
+        "claim_kind": "fact",
+        "end_line": 57980,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57910
+      },
+      {
+        "chapter_id": "ch-0743",
+        "claim_kind": "fact",
+        "end_line": 58186,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58114
+      },
+      {
+        "chapter_id": "ch-0749",
+        "claim_kind": "fact",
+        "end_line": 58600,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58537
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "research-wording-correction",
+    "rationale": "本轮全文重读740与743后，原研究的“后”须撤回：740公告实际是10小时内转普通装备可装备/交易，744镇岳公告也写内；并未写必须期满后才可装备。743尚余9h17时交抹、补怒并实际开群狮，与此字面不直接冲突。最终保有仍到749才确认，不据早用取消追杀倒计时。",
+    "later_chapters": [
+      740,
+      743,
+      744,
+      749
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0740",
+        "start_line": 57974,
+        "end_line": 57978,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0743",
+        "start_line": 58115,
+        "end_line": 58118,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0743",
+        "start_line": 58142,
+        "end_line": 58171,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0744",
+        "start_line": 58218,
+        "end_line": 58220,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0749",
+        "start_line": 58537,
+        "end_line": 58600,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0027-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 26,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "狮盾初公告10h后可装备交易，743却提前交抹并实开群狮。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0740",
+          "claim_kind": "fact",
+          "end_line": 57980,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57910
+        },
+        {
+          "chapter_id": "ch-0743",
+          "claim_kind": "fact",
+          "end_line": 58186,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58114
+        },
+        {
+          "chapter_id": "ch-0749",
+          "claim_kind": "fact",
+          "end_line": 58600,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58537
+        }
+      ],
+      "handling": "保真实使用和公告冲突，不补隐藏权限/临时补丁。",
+      "id": "v03-a-shield-limit",
+      "status": "unknown"
+    },
+    "title": "保真实使用和公告冲突，不补隐藏权限/临时补丁。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0740",
+        "claim_kind": "fact",
+        "end_line": 57980,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57910
+      },
+      {
+        "chapter_id": "ch-0743",
+        "claim_kind": "fact",
+        "end_line": 58186,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58114
+      },
+      {
+        "chapter_id": "ch-0749",
+        "claim_kind": "fact",
+        "end_line": 58600,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58537
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "correction-and-rule-boundary",
+    "rationale": "真实交盾与使用保留，旧摘要把公告内误写后也作为研究历史保留，但不再把二者硬判小说规则冲突。主先说保住后正式给抹是分配承诺，临危提前交用有真实后证；无需发明隐藏权限或临时补丁，禁入城/下线及掉落限制依旧独立有效。",
+    "later_chapters": [
+      740,
+      743,
+      744,
+      749
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0740",
+        "start_line": 57978,
+        "end_line": 57978,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0743",
+        "start_line": 58146,
+        "end_line": 58171,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0744",
+        "start_line": 58220,
+        "end_line": 58220,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0749",
+        "start_line": 58537,
+        "end_line": 58600,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0028-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 27,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "744留下8尸而逐名例举不足8。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0744",
+          "claim_kind": "fact",
+          "end_line": 58267,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58187
+        },
+        {
+          "chapter_id": "ch-0745",
+          "claim_kind": "fact",
+          "end_line": 58345,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58268
+        }
+      ],
+      "handling": "记总8与明确名，缺名不猜补；745返场不能写现实死。",
+      "id": "v03-a-eight-corpses",
+      "status": "unknown"
+    },
+    "title": "744留下8尸而逐名例举不足8。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0744",
+        "claim_kind": "fact",
+        "end_line": 58267,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58187
+      },
+      {
+        "chapter_id": "ch-0745",
+        "claim_kind": "fact",
+        "end_line": 58345,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58268
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "casualty-list-completeness",
+    "rationale": "744明确总计八具斩龙玩家尸体，逐段具名死者只有月翎、东城雷、星痕、凫水、王翦、李牧六位。总数与有限列名并不必然互斥，未写者可能未具名，不能只因列名少便断算术矛盾；完整八人身份仍无清册，745只补部分核心复活返场。",
+    "later_chapters": [
+      744,
+      745
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0744",
+        "start_line": 58187,
+        "end_line": 58212,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0745",
+        "start_line": 58268,
+        "end_line": 58345,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0028-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 27,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "744留下8尸而逐名例举不足8。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0744",
+          "claim_kind": "fact",
+          "end_line": 58267,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58187
+        },
+        {
+          "chapter_id": "ch-0745",
+          "claim_kind": "fact",
+          "end_line": 58345,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58268
+        }
+      ],
+      "handling": "记总8与明确名，缺名不猜补；745返场不能写现实死。",
+      "id": "v03-a-eight-corpses",
+      "status": "unknown"
+    },
+    "title": "记总8与明确名，缺名不猜补",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0744",
+        "claim_kind": "fact",
+        "end_line": 58267,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58187
+      },
+      {
+        "chapter_id": "ch-0745",
+        "claim_kind": "fact",
+        "end_line": 58345,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58268
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "casualty-record-boundary",
+    "rationale": "保八具总数及六名明确死亡者，不补其余两名是谁，也不删总数去配列名。745李牧王翦等返场可以更新游戏存活状态，却不能倒写744他们从未死过；此记录约束已关闭，缺完整名册不自动升为作者遗忘。",
+    "later_chapters": [
+      744,
+      745
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0744",
+        "start_line": 58189,
+        "end_line": 58212,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0745",
+        "start_line": 58268,
+        "end_line": 58345,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0028-03",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 27,
+    "atomic_index": 2,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "744留下8尸而逐名例举不足8。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0744",
+          "claim_kind": "fact",
+          "end_line": 58267,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58187
+        },
+        {
+          "chapter_id": "ch-0745",
+          "claim_kind": "fact",
+          "end_line": 58345,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58268
+        }
+      ],
+      "handling": "记总8与明确名，缺名不猜补；745返场不能写现实死。",
+      "id": "v03-a-eight-corpses",
+      "status": "unknown"
+    },
+    "title": "745返场不能写现实死。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0744",
+        "claim_kind": "fact",
+        "end_line": 58267,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58187
+      },
+      {
+        "chapter_id": "ch-0745",
+        "claim_kind": "fact",
+        "end_line": 58345,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58268
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "game-versus-real-mortality",
+    "rationale": "745李王等复活赶回、参与击杀追骑，补明744是可返场的游戏死亡；不能把这些尸体记成现实死亡。东城雷后来在841见无头现实尸、842欧阳川亲承斩首，是另一真实致死事件，必须另立时间层，不借745游戏复活冲销后来现实损失。",
+    "later_chapters": [
+      744,
+      745,
+      841,
+      842
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0744",
+        "start_line": 58204,
+        "end_line": 58212,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0745",
+        "start_line": 58268,
+        "end_line": 58345,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0841",
+        "start_line": 64298,
+        "end_line": 64366,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0842",
+        "start_line": 64367,
+        "end_line": 64450,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0029-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 28,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "NPC带军半径限制与后来追击需按城级/场景核。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0711",
+          "claim_kind": "fact",
+          "end_line": 56042,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 55973
+        },
+        {
+          "chapter_id": "ch-0729",
+          "claim_kind": "fact",
+          "end_line": 57292,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57222
+        },
+        {
+          "chapter_id": "ch-0732",
+          "claim_kind": "fact",
+          "end_line": 57468,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57406
+        }
+      ],
+      "handling": "732主亲认5000全骗，不拿虚兵当越界规则例证；其他实军仅局部。",
+      "id": "v03-a-npc-army-local",
+      "status": "unknown"
+    },
+    "title": "NPC带军半径限制与后来追击需按城级/场景核。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0711",
+        "claim_kind": "fact",
+        "end_line": 56042,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 55973
+      },
+      {
+        "chapter_id": "ch-0729",
+        "claim_kind": "fact",
+        "end_line": 57292,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57222
+      },
+      {
+        "chapter_id": "ch-0732",
+        "claim_kind": "fact",
+        "end_line": 57468,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57406
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "conditional-army-range",
+    "rationale": "711城周边战使用领地NPC不等无限远征，729明说烈风超最大半径不可调，732主亲认所谓5000援军只是诓骗；916则在失去龙城后由池明确解释旧约束解除，并实际带万余军移驻御林。不同阶段条件已有明文，不能把后来的自由迁驻倒写成早期半径无效。",
+    "later_chapters": [
+      711,
+      729,
+      732,
+      916
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0711",
+        "start_line": 55973,
+        "end_line": 56042,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0729",
+        "start_line": 57222,
+        "end_line": 57292,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0732",
+        "start_line": 57406,
+        "end_line": 57468,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0916",
+        "start_line": 68873,
+        "end_line": 68882,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0029-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 28,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "NPC带军半径限制与后来追击需按城级/场景核。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0711",
+          "claim_kind": "fact",
+          "end_line": 56042,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 55973
+        },
+        {
+          "chapter_id": "ch-0729",
+          "claim_kind": "fact",
+          "end_line": 57292,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57222
+        },
+        {
+          "chapter_id": "ch-0732",
+          "claim_kind": "fact",
+          "end_line": 57468,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57406
+        }
+      ],
+      "handling": "732主亲认5000全骗，不拿虚兵当越界规则例证；其他实军仅局部。",
+      "id": "v03-a-npc-army-local",
+      "status": "unknown"
+    },
+    "title": "732主亲认5000全骗，不拿虚兵当越界规则例证",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0711",
+        "claim_kind": "fact",
+        "end_line": 56042,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 55973
+      },
+      {
+        "chapter_id": "ch-0729",
+        "claim_kind": "fact",
+        "end_line": 57292,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57222
+      },
+      {
+        "chapter_id": "ch-0732",
+        "claim_kind": "fact",
+        "end_line": 57468,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57406
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "deception-versus-force-fact",
+    "rationale": "732主战后直接向叶承认5000NPC援兵是骗话，原地本就不能调来。它是谈判威慑的信息操作，不是系统允许越界投兵的实证；916另有失城后解除约束的新条件，不能拿那个后证为这次虚报补一支真军。",
+    "later_chapters": [
+      729,
+      732,
+      916
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0729",
+        "start_line": 57222,
+        "end_line": 57292,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0732",
+        "start_line": 57406,
+        "end_line": 57468,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0916",
+        "start_line": 68875,
+        "end_line": 68881,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0029-03",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 28,
+    "atomic_index": 2,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "NPC带军半径限制与后来追击需按城级/场景核。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0711",
+          "claim_kind": "fact",
+          "end_line": 56042,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 55973
+        },
+        {
+          "chapter_id": "ch-0729",
+          "claim_kind": "fact",
+          "end_line": 57292,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57222
+        },
+        {
+          "chapter_id": "ch-0732",
+          "claim_kind": "fact",
+          "end_line": 57468,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 57406
+        }
+      ],
+      "handling": "732主亲认5000全骗，不拿虚兵当越界规则例证；其他实军仅局部。",
+      "id": "v03-a-npc-army-local",
+      "status": "unknown"
+    },
+    "title": "其他实军仅局部。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0711",
+        "claim_kind": "fact",
+        "end_line": 56042,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 55973
+      },
+      {
+        "chapter_id": "ch-0729",
+        "claim_kind": "fact",
+        "end_line": 57292,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57222
+      },
+      {
+        "chapter_id": "ch-0732",
+        "claim_kind": "fact",
+        "end_line": 57468,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 57406
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "army-stage-boundary",
+    "rationale": "711周边实际军力、729远处不可调与732虚兵各按当时范围保留；后续916军队失去驻地才获自由迁移的说明也必须补入终点。故“仅局部”只约束早期领地作战，不可抄成全书永远只能城边出兵，也不泛推所有正规军都受同一私兵半径。",
+    "later_chapters": [
+      711,
+      729,
+      732,
+      916
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0711",
+        "start_line": 55973,
+        "end_line": 56042,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0729",
+        "start_line": 57222,
+        "end_line": 57292,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0732",
+        "start_line": 57406,
+        "end_line": 57468,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0916",
+        "start_line": 68875,
+        "end_line": 68882,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0030-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 29,
+    "atomic_index": 0,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "745公告叙称韩国霜林，746一秒随即明确日本JBN1/战殇盟主。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0745",
+          "claim_kind": "fact",
+          "end_line": 58345,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58268
+        },
+        {
+          "chapter_id": "ch-0746",
+          "claim_kind": "fact",
+          "end_line": 58407,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58346
+        },
+        {
+          "chapter_id": "ch-0748",
+          "claim_kind": "fact",
+          "end_line": 58536,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58462
+        }
+      ],
+      "handling": "保先误报和后澄清，采用746澄清后的身份；霜林是全名，非日霜或林婉儿。",
+      "id": "v03-a-frostlin-nationality",
+      "status": "unknown"
+    },
+    "title": "745公告叙称韩国霜林，746一秒随即明确日本JBN1/战殇盟主。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0745",
+        "claim_kind": "fact",
+        "end_line": 58345,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58268
+      },
+      {
+        "chapter_id": "ch-0746",
+        "claim_kind": "fact",
+        "end_line": 58407,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58346
+      },
+      {
+        "chapter_id": "ch-0748",
+        "claim_kind": "fact",
+        "end_line": 58536,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58462
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "later-identity-clarification",
+    "rationale": "745初称韩国霜林，746一秒随即明确他是日本JBN第一、战殇盟主，并给忍龙能力情报；同一持刀追击链随后748由主伏杀霜林取镇岳。采用后澄清的日本身份，早韩国称谓仍保历史，不能当两名霜林同时持同刀。",
+    "later_chapters": [
+      745,
+      746,
+      748
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0745",
+        "start_line": 58268,
+        "end_line": 58345,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0746",
+        "start_line": 58346,
+        "end_line": 58407,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0748",
+        "start_line": 58462,
+        "end_line": 58536,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0030-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 29,
+    "atomic_index": 1,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "745公告叙称韩国霜林，746一秒随即明确日本JBN1/战殇盟主。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0745",
+          "claim_kind": "fact",
+          "end_line": 58345,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58268
+        },
+        {
+          "chapter_id": "ch-0746",
+          "claim_kind": "fact",
+          "end_line": 58407,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58346
+        },
+        {
+          "chapter_id": "ch-0748",
+          "claim_kind": "fact",
+          "end_line": 58536,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58462
+        }
+      ],
+      "handling": "保先误报和后澄清，采用746澄清后的身份；霜林是全名，非日霜或林婉儿。",
+      "id": "v03-a-frostlin-nationality",
+      "status": "unknown"
+    },
+    "title": "保先误报和后澄清，采用746澄清后的身份",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0745",
+        "claim_kind": "fact",
+        "end_line": 58345,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58268
+      },
+      {
+        "chapter_id": "ch-0746",
+        "claim_kind": "fact",
+        "end_line": 58407,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58346
+      },
+      {
+        "chapter_id": "ch-0748",
+        "claim_kind": "fact",
+        "end_line": 58536,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58462
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "knowledge-update-boundary",
+    "rationale": "保745先到的错误国别口径，再以746明确解释与后续同一追击行动更新人物身份。这个处理不修改旧公告文本，也不以最终正确国别倒写所有人最初就知道；更不把林婉儿747杀撼梁与主748杀霜林两次战果串成同一击杀。",
+    "later_chapters": [
+      745,
+      746,
+      747,
+      748
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0745",
+        "start_line": 58268,
+        "end_line": 58345,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0746",
+        "start_line": 58346,
+        "end_line": 58407,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0747",
+        "start_line": 58408,
+        "end_line": 58461,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0748",
+        "start_line": 58462,
+        "end_line": 58536,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-unresolved_and_anomalies-0030-03",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "unresolved_and_anomalies",
+    "original_index": 29,
+    "atomic_index": 2,
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "745公告叙称韩国霜林，746一秒随即明确日本JBN1/战殇盟主。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0745",
+          "claim_kind": "fact",
+          "end_line": 58345,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58268
+        },
+        {
+          "chapter_id": "ch-0746",
+          "claim_kind": "fact",
+          "end_line": 58407,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58346
+        },
+        {
+          "chapter_id": "ch-0748",
+          "claim_kind": "fact",
+          "end_line": 58536,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 58462
+        }
+      ],
+      "handling": "保先误报和后澄清，采用746澄清后的身份；霜林是全名，非日霜或林婉儿。",
+      "id": "v03-a-frostlin-nationality",
+      "status": "unknown"
+    },
+    "title": "霜林是全名，非日霜或林婉儿。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0745",
+        "claim_kind": "fact",
+        "end_line": 58345,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58268
+      },
+      {
+        "chapter_id": "ch-0746",
+        "claim_kind": "fact",
+        "end_line": 58407,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58346
+      },
+      {
+        "chapter_id": "ch-0748",
+        "claim_kind": "fact",
+        "end_line": 58536,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 58462
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "name-segmentation-and-identity",
+    "rationale": "746直接把霜林作为日本玩家完整ID介绍、对应战殇盟主和忍龙，748被主击杀的也是此持刀者。不能拆出一个“日霜”，也不能因含林或霜字并入林婉儿、流霜或其他书同名角色；实体与行动归属已可确定。",
+    "later_chapters": [
+      746,
+      748
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0746",
+        "start_line": 58346,
+        "end_line": 58407,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0748",
+        "start_line": 58462,
+        "end_line": 58536,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-chapter_unresolved_index-0001-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 0,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0506",
+      "evidence": [
+        {
+          "chapter_id": "ch-0506",
+          "claim_kind": "fact",
+          "end_line": 41436,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41382
+        }
+      ],
+      "reader": "zongheng_vol05_full",
+      "unresolved": [
+        "24小时通缉能否撑过、池兄妹安全是否保持，尚在进行。",
+        "白墨颜所报飞骑协同尚待现场验证；两盟杀手锏尚未现形。"
+      ]
+    },
+    "title": "24小时通缉能否撑过、池兄妹安全是否保持，尚在进行。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0506",
+        "claim_kind": "fact",
+        "end_line": 41436,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41382
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "bounded-protection-result",
+    "rationale": "528等最后四分钟结束，主、林、李牧实际复活，东城抹等护池兄妹到场，二NPC仍活，保护24小时的眼前目标已撑过。529王权又来争收押是新阶段，不能因此说前面的守护失败，也不能把这一日成功扩写成兄妹从此终身没有危险。",
+    "later_chapters": [
+      528,
+      529
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0528",
+        "start_line": 42827,
+        "end_line": 42836,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0529",
+        "start_line": 42851,
+        "end_line": 42910,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-chapter_unresolved_index-0001-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 0,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0506",
+      "evidence": [
+        {
+          "chapter_id": "ch-0506",
+          "claim_kind": "fact",
+          "end_line": 41436,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41382
+        }
+      ],
+      "reader": "zongheng_vol05_full",
+      "unresolved": [
+        "24小时通缉能否撑过、池兄妹安全是否保持，尚在进行。",
+        "白墨颜所报飞骑协同尚待现场验证；两盟杀手锏尚未现形。"
+      ]
+    },
+    "title": "白墨颜所报飞骑协同尚待现场验证",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0506",
+        "claim_kind": "fact",
+        "end_line": 41436,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41382
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "intelligence-confirmation",
+    "rationale": "白墨颜506警告NPC飞骑协同，507末狼鹰骑士实际出现、月倾浅读90雷鸣近5000攻，林小舞开始引其俯冲；508继续空地防守并清点代价。情报已获现场确认，不把它仍留成未验证传闻，也不把有预案误写成零损。",
+    "later_chapters": [
+      506,
+      507,
+      508
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0506",
+        "start_line": 41423,
+        "end_line": 41430,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0507",
+        "start_line": 41479,
+        "end_line": 41487,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0508",
+        "start_line": 41491,
+        "end_line": 41512,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0508",
+        "start_line": 41535,
+        "end_line": 41538,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-chapter_unresolved_index-0001-03",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 0,
+    "atomic_index": 2,
+    "original_record": {
+      "chapter_id": "ch-0506",
+      "evidence": [
+        {
+          "chapter_id": "ch-0506",
+          "claim_kind": "fact",
+          "end_line": 41436,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41382
+        }
+      ],
+      "reader": "zongheng_vol05_full",
+      "unresolved": [
+        "24小时通缉能否撑过、池兄妹安全是否保持，尚在进行。",
+        "白墨颜所报飞骑协同尚待现场验证；两盟杀手锏尚未现形。"
+      ]
+    },
+    "title": "两盟杀手锏尚未现形。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0506",
+        "claim_kind": "fact",
+        "end_line": 41436,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41382
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "battle-stage-closure",
+    "rationale": "本项是第一轮两盟攻势尚未展开时的观察，508空骑与两盟均被打退、509已确认未必平凡吕洞宾游弋本战死，未再靠某项未示杀手锏翻盘。早先70%特技只是据说，未给具体面板便不造出装备；也不拿更晚贪狼符印当本次隐藏招。本场胜负已结即可关闭阶段疑问。",
+    "later_chapters": [
+      506,
+      508,
+      509
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0506",
+        "start_line": 41403,
+        "end_line": 41416,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0508",
+        "start_line": 41511,
+        "end_line": 41538,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0509",
+        "start_line": 41563,
+        "end_line": 41575,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-chapter_unresolved_index-0002-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 1,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0507",
+      "evidence": [
+        {
+          "chapter_id": "ch-0507",
+          "claim_kind": "fact",
+          "end_line": 41489,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41437
+        }
+      ],
+      "reader": "zongheng_vol05_full",
+      "unresolved": [
+        "狼鹰空地夹攻已实到，预案能否守住、斩龙损失规模仍待本战后结算。"
+      ]
+    },
+    "title": "狼鹰空地夹攻已实到，预案能否守住、斩龙损失规模仍待本战后结算。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0507",
+        "claim_kind": "fact",
+        "end_line": 41489,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41437
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "tactical-result-and-loss",
+    "rationale": "508确实以弓引俯冲、前排牵仇恨和远程群攻顶住并杀退空地攻势；抹报对方死亡21067人、己损3714、在线16249。狼鹰数量另有NPC叙述口径，不能把所有数字未经区分相加；胜利有真实己损，预案有效不等无损。",
+    "later_chapters": [
+      508
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0508",
+        "start_line": 41491,
+        "end_line": 41512,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0508",
+        "start_line": 41533,
+        "end_line": 41538,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-chapter_unresolved_index-0003-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 2,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0508",
+      "evidence": [
+        {
+          "chapter_id": "ch-0508",
+          "claim_kind": "fact",
+          "end_line": 41561,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41490
+        }
+      ],
+      "reader": "zongheng_vol05_full",
+      "unresolved": [
+        "洛克林选择伺机再攻，后续兵力与攻势未到；斩龙守过剩余通缉时间仍未结。",
+        "昼夜称谓：0507L41470烈日高空，紧接0508L41504趁夜色，未叙明确跳时；保留此转场源疑点待核，不擅补游戏昼夜周期。"
+      ]
+    },
+    "title": "洛克林选择伺机再攻，后续兵力与攻势未到",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0508",
+        "claim_kind": "fact",
+        "end_line": 41561,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41490
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "enemy-return-and-death",
+    "rationale": "洛克林后续确再来：526率两万余巨犀骑兵攻龙城，普通防线与城墙被撞破；池羽寒出战断其手臂并以火焰焚灰。故伺机再攻及其本次终局已有直接后证，不把早前暂退当逃出全书或把主指挥守战说成主亲杀洛克林。",
+    "later_chapters": [
+      508,
+      526
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0508",
+        "start_line": 41528,
+        "end_line": 41531,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0526",
+        "start_line": 42627,
+        "end_line": 42645,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0526",
+        "start_line": 42649,
+        "end_line": 42678,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-chapter_unresolved_index-0003-02",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 2,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0508",
+      "evidence": [
+        {
+          "chapter_id": "ch-0508",
+          "claim_kind": "fact",
+          "end_line": 41561,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41490
+        }
+      ],
+      "reader": "zongheng_vol05_full",
+      "unresolved": [
+        "洛克林选择伺机再攻，后续兵力与攻势未到；斩龙守过剩余通缉时间仍未结。",
+        "昼夜称谓：0507L41470烈日高空，紧接0508L41504趁夜色，未叙明确跳时；保留此转场源疑点待核，不擅补游戏昼夜周期。"
+      ]
+    },
+    "title": "斩龙守过剩余通缉时间仍未结。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0508",
+        "claim_kind": "fact",
+        "end_line": 41561,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41490
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "countdown-completion",
+    "rationale": "龙城受破后527主动换目标护兄妹撤、三人殿后，528主在死亡后等四分钟，活动结束时兄妹被护回且三人游戏复活。剩余通缉时间已经撑过，城损与个人掉装并未消失；不能因城墙破便把保护目标也判失败。",
+    "later_chapters": [
+      527,
+      528
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0527",
+        "start_line": 42707,
+        "end_line": 42726,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0528",
+        "start_line": 42827,
+        "end_line": 42836,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-chapter_unresolved_index-0003-03",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 2,
+    "atomic_index": 2,
+    "original_record": {
+      "chapter_id": "ch-0508",
+      "evidence": [
+        {
+          "chapter_id": "ch-0508",
+          "claim_kind": "fact",
+          "end_line": 41561,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41490
+        }
+      ],
+      "reader": "zongheng_vol05_full",
+      "unresolved": [
+        "洛克林选择伺机再攻，后续兵力与攻势未到；斩龙守过剩余通缉时间仍未结。",
+        "昼夜称谓：0507L41470烈日高空，紧接0508L41504趁夜色，未叙明确跳时；保留此转场源疑点待核，不擅补游戏昼夜周期。"
+      ]
+    },
+    "title": "昼夜称谓：0507L41470烈日高空，紧接0508L41504趁夜色，未叙明确跳时",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0508",
+        "claim_kind": "fact",
+        "end_line": 41561,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41490
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "transition-time-scope",
+    "rationale": "507烈日与508夜色原词都在，连续场面没有给足可恢复的绝对时刻。后文818已说明游戏时间为现实四倍，1282又说明游戏黑夜8小时对应现实2小时，不能再说全书昼夜换算一直未知；但这些一般换算仍不能唯一补出本次转场经过多久，也不足直接判物理不可能。",
+    "later_chapters": [
+      507,
+      508,
+      818,
+      1282
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0507",
+        "start_line": 41465,
+        "end_line": 41478,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0508",
+        "start_line": 41504,
+        "end_line": 41512,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0818",
+        "start_line": 62970,
+        "end_line": 62979,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1282",
+        "start_line": 92748,
+        "end_line": 92760,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  {
+    "candidate_id": "v03-local-chapter_unresolved_index-0003-04",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 2,
+    "atomic_index": 3,
+    "original_record": {
+      "chapter_id": "ch-0508",
+      "evidence": [
+        {
+          "chapter_id": "ch-0508",
+          "claim_kind": "fact",
+          "end_line": 41561,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 41490
+        }
+      ],
+      "reader": "zongheng_vol05_full",
+      "unresolved": [
+        "洛克林选择伺机再攻，后续兵力与攻势未到；斩龙守过剩余通缉时间仍未结。",
+        "昼夜称谓：0507L41470烈日高空，紧接0508L41504趁夜色，未叙明确跳时；保留此转场源疑点待核，不擅补游戏昼夜周期。"
+      ]
+    },
+    "title": "保留此转场源疑点待核，不擅补游戏昼夜周期。",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0508",
+        "claim_kind": "fact",
+        "end_line": 41561,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 41490
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "chronology-evidence-boundary",
+    "rationale": "保留本次太阳/夜色转场的未示时距，不自行填一段跳时；同时终评补818四倍换算与1282黑夜长度的真实后文。这样既不把早期缺镜头当新世界漏洞，也不因旧笔记说待核而拒绝已明确的一般规则；未知只限该场绝对时间桥。",
+    "later_chapters": [
+      507,
+      508,
+      818,
+      1282
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0507",
+        "start_line": 41465,
+        "end_line": 41478,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0508",
+        "start_line": 41504,
+        "end_line": 41512,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0818",
+        "start_line": 62973,
+        "end_line": 62973,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1282",
+        "start_line": 92754,
+        "end_line": 92754,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T21:36:59.196030+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  }
+]

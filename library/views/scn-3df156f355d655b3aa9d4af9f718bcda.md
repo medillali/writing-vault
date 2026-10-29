@@ -1,0 +1,68 @@
+# 明月现实相认与暂守秘密
+
+ID: `scn-3df156f355d655b3aa9d4af9f718bcda` · 版本: 1 · 范围: source-analysis
+
+明月先质问再见，主揭病顾虑/一月预期，明月答保密；明月确认活着，何仍只有坚信，未康复/重逢
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-3df156f355d655b3aa9d4af9f718bcda",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "研究原场景选择与结果，不直接复制情节/命名/装备组合。",
+    "characters": [
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol01/character/lu",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol01/character/moon",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol01/character/he",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol01/character/du"
+    ],
+    "choice": "明月先质问再见，主揭病顾虑/一月预期，明月答保密",
+    "consequence": "明月确认活着，何仍只有坚信，未康复/重逢",
+    "failure_mode": "若抹代价、越过人物知情边界或把未兑现写已成，解释会失真。",
+    "goal": "解释为何不返",
+    "narrative_order": 90,
+    "obstacle": "何苦寻/红斑/主忧病不稳",
+    "state_change": "明月确认活着，何仍只有坚信，未康复/重逢",
+    "summary": "明月先质问再见，主揭病顾虑/一月预期，明月答保密；明月确认活着，何仍只有坚信，未康复/重逢",
+    "why_it_works": "真相可分批共享，每批改变关系责任"
+  },
+  "created_at": "2026-10-24T21:46:29.629569+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0089",
+      "claim_kind": "fact",
+      "end_line": 8575,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 8498
+    },
+    {
+      "chapter_id": "ch-0090",
+      "claim_kind": "fact",
+      "end_line": 8675,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 8576
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol01/scene/confidante",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:1",
+    "状态:待审阅"
+  ],
+  "title": "明月现实相认与暂守秘密",
+  "updated_at": "2026-10-24T21:46:29.629569+00:00",
+  "user_notes": ""
+}
+
+```

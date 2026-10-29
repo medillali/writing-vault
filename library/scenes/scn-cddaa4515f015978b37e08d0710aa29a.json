@@ -1,0 +1,57 @@
+{
+  "asset_id": "scn-cddaa4515f015978b37e08d0710aa29a",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "任务奖励能带新职责/可见权限而非仅升级。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/peier",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/luoke",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/ouen"
+    ],
+    "choice": "实际交角并接受任命。",
+    "claim_kind": "inference",
+    "consequence": "主142/御林现5000，未来两万未成。",
+    "failure_mode": "把选项弹出等同接受，会把等级和军权前移；许扩编不能写现数。",
+    "goal": "把任务物交付获奖。",
+    "obstacle": "贵族门禁/轻视、职务日常和上级服从条件。",
+    "state_change": "任务完成转成组织责任。",
+    "summary": "宫廷验角/佩护主，762提任未确认，763才受下将与统领及五级奖励。",
+    "why_it_works": "奖励改变行动空间并把政治规则引入。"
+  },
+  "created_at": "2026-10-25T21:08:35.420407+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0762",
+      "claim_kind": "fact",
+      "end_line": 59464,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 59411
+    },
+    {
+      "chapter_id": "ch-0763",
+      "claim_kind": "fact",
+      "end_line": 59536,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 59465
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/scene/appointment",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷4",
+    "待审阅"
+  ],
+  "title": "交鹿角到确认御林任命",
+  "updated_at": "2026-10-25T21:08:35.420407+00:00",
+  "user_notes": ""
+}

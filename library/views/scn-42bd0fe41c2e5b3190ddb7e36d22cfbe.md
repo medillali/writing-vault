@@ -1,0 +1,80 @@
+# 弃谷翻山与金鳞分权治理
+
+ID: `scn-42bd0fe41c2e5b3190ddb7e36d22cfbe` · 版本: 1 · 范围: source-analysis
+
+先测图知三日粮/谷伏后四路翻山空地援，炮毁墙而保田，金鳞系统占主名下。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-42bd0fe41c2e5b3190ddb7e36d22cfbe",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "岛内地形可埋伏且远征有粮期，攻后又须保耕地、任官/留军与供给制度。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/waner",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/meng",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xia",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/robu",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wen",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/flower"
+    ],
+    "choice": "盾踏陷、双龙空援/分兵炮城",
+    "claim_kind": "inference",
+    "consequence": "主第二城/留万军/罗布押安、十一船与三万人损",
+    "failure_mode": "数十万俘不等自愿新民，罗布未见已处死。",
+    "goal": "夺资源地",
+    "narrative_order": 1173,
+    "obstacle": "内谷伏/供粮限",
+    "state_change": "征服转官员与定期供给制度",
+    "summary": "先测图知三日粮/谷伏后四路翻山空地援，炮毁墙而保田，金鳞系统占主名下。",
+    "why_it_works": "环境、军需与占后责任都有回执。"
+  },
+  "created_at": "2026-10-25T21:08:43.413084+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1171",
+      "claim_kind": "fact",
+      "end_line": 85547,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 85493
+    },
+    {
+      "chapter_id": "ch-1172",
+      "claim_kind": "fact",
+      "end_line": 85603,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 85548
+    },
+    {
+      "chapter_id": "ch-1173",
+      "claim_kind": "fact",
+      "end_line": 85660,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 85604
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/land",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "弃谷翻山与金鳞分权治理",
+  "updated_at": "2026-10-25T21:08:43.413084+00:00",
+  "user_notes": ""
+}
+
+```

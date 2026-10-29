@@ -1,0 +1,270 @@
+# 把强度放回承载条件
+
+ID: `pat-edd9cc07ccbc5096acb8117a5e70f457` · 版本: 1 · 范围: reusable-pattern
+
+新能力先验证，再换地形、密度、控制和供应条件，逼角色换法
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-edd9cc07ccbc5096acb8117a5e70f457",
+  "asset_type": "pattern",
+  "content": {
+    "claim_kind": "synthesis",
+    "failure_conditions": "只加敌人数或令人物突然忘技能会失可信；保持规则冲突单列",
+    "mechanism": "新能力先验证，再换地形、密度、控制和供应条件，逼角色换法",
+    "originality_transform": "替换游戏体系与成本，保能力/环境/协作共同决定结果",
+    "steps": [
+      "展示具体条件与信息来源",
+      "让角色选择并实际执行",
+      "分别记录成果、限制和未决"
+    ],
+    "summary": "新能力先验证，再换地形、密度、控制和供应条件，逼角色换法",
+    "user_adoption_status": "研究待审，非用户个人风格已批准"
+  },
+  "created_at": "2026-10-25T00:16:55.126368+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-9769b95084c55c26b668bef07ef67d54",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-a7b483515f7d598e89ab476083469a2d",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-371c75e311845b5fa8adb31691b09189",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-3c193a7219245755ae857fd305f5db46",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-1546",
+      "claim_kind": "synthesis",
+      "end_line": 122712,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "primary",
+      "start_line": 122644
+    },
+    {
+      "chapter_id": "ch-1547",
+      "claim_kind": "synthesis",
+      "end_line": 122782,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "primary",
+      "start_line": 122713
+    },
+    {
+      "chapter_id": "ch-1548",
+      "claim_kind": "synthesis",
+      "end_line": 122869,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "primary",
+      "start_line": 122783
+    },
+    {
+      "chapter_id": "ch-1549",
+      "claim_kind": "synthesis",
+      "end_line": 122954,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "primary",
+      "start_line": 122870
+    },
+    {
+      "chapter_id": "ch-1550",
+      "claim_kind": "synthesis",
+      "end_line": 123016,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "primary",
+      "start_line": 122955
+    },
+    {
+      "chapter_id": "ch-1551",
+      "claim_kind": "synthesis",
+      "end_line": 123090,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "primary",
+      "start_line": 123017
+    },
+    {
+      "chapter_id": "ch-1552",
+      "claim_kind": "synthesis",
+      "end_line": 123173,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "primary",
+      "start_line": 123091
+    },
+    {
+      "chapter_id": "ch-1553",
+      "claim_kind": "synthesis",
+      "end_line": 123238,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "primary",
+      "start_line": 123174
+    },
+    {
+      "chapter_id": "ch-1554",
+      "claim_kind": "synthesis",
+      "end_line": 123315,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "primary",
+      "start_line": 123239
+    },
+    {
+      "chapter_id": "ch-1555",
+      "claim_kind": "synthesis",
+      "end_line": 123381,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "primary",
+      "start_line": 123316
+    },
+    {
+      "chapter_id": "ch-1556",
+      "claim_kind": "synthesis",
+      "end_line": 123470,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "primary",
+      "start_line": 123382
+    },
+    {
+      "chapter_id": "ch-1557",
+      "claim_kind": "synthesis",
+      "end_line": 123567,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "primary",
+      "start_line": 123471
+    },
+    {
+      "chapter_id": "ch-1558",
+      "claim_kind": "synthesis",
+      "end_line": 123634,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "primary",
+      "start_line": 123568
+    },
+    {
+      "chapter_id": "ch-1575",
+      "claim_kind": "synthesis",
+      "end_line": 124923,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 124844
+    },
+    {
+      "chapter_id": "ch-1576",
+      "claim_kind": "synthesis",
+      "end_line": 125014,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 124924
+    },
+    {
+      "chapter_id": "ch-1577",
+      "claim_kind": "synthesis",
+      "end_line": 125083,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 125015
+    },
+    {
+      "chapter_id": "ch-1578",
+      "claim_kind": "synthesis",
+      "end_line": 125160,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 125084
+    },
+    {
+      "chapter_id": "ch-1579",
+      "claim_kind": "synthesis",
+      "end_line": 125267,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 125161
+    },
+    {
+      "chapter_id": "ch-1580",
+      "claim_kind": "synthesis",
+      "end_line": 125325,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 125268
+    },
+    {
+      "chapter_id": "ch-1600",
+      "claim_kind": "synthesis",
+      "end_line": 126905,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 126837
+    },
+    {
+      "chapter_id": "ch-1601",
+      "claim_kind": "synthesis",
+      "end_line": 126973,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 126906
+    },
+    {
+      "chapter_id": "ch-1602",
+      "claim_kind": "synthesis",
+      "end_line": 127041,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 126974
+    },
+    {
+      "chapter_id": "ch-1603",
+      "claim_kind": "synthesis",
+      "end_line": 127109,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "source_reader": "/root/zongheng_vol03_full",
+      "start_line": 127042
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol08/pattern/conditional-power",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷八:天下无双"
+  ],
+  "title": "把强度放回承载条件",
+  "updated_at": "2026-10-25T00:16:55.128382+00:00",
+  "user_notes": ""
+}
+
+```

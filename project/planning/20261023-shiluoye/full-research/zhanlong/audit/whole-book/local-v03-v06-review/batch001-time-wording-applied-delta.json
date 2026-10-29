@@ -1,0 +1,28 @@
+{
+  "status": "root_approved_applied_pending_resign",
+  "file": "adjudications-local-v03-batch001.json",
+  "candidate_id": "v03-local-unresolved_and_anomalies-0001-01",
+  "field": "rationale",
+  "before_sha256": "b88b41c4bec4685328a52e30cdeda2b28536ec7b3bedbd4cb583e366c1e1d7eb",
+  "after_sha256": "053d1ebc01f1b3382b3590b9e451bf6e93cf7a541bd1c30394a33ce29134ac94",
+  "before": "这是旧研究对禁上线窗口的过强解释，已由原阅读者校订，不能继续作为小说规则矛盾：518只说本次活动24小时内不能上线，528在任务尚余4分钟时死亡者已回到线上并准备领奖，否定每人死后再独立禁24小时的读法。answered关闭该研究误读，不把原历史批次删除。",
+  "after": "这是旧研究对禁上线窗口的过强解释，已由原阅读者校订，不能继续作为小说规则矛盾：518只说本次活动24小时内不能上线，528主死亡后界面只需等4分钟，活动结束后三人实际复活，否定每人死后再独立禁24小时的读法。answered关闭该研究误读，不把原历史批次删除。",
+  "proof": {
+    "other_19_objects_exactly_equal": true,
+    "all_other_fields_of_this_object_exactly_equal": true,
+    "original_record_and_evidence_unchanged": true
+  },
+  "source_basis": [
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-0528",
+      "start_line": 42827,
+      "end_line": 42836,
+      "claim_kind": "fact"
+    }
+  ],
+  "sequence": "L42827—29主死亡掉装；L42832系统还有4分钟才可上线；L42833四分钟过后主出现/60分钟无敌；L42836兄妹被护回且林、李牧复活。",
+  "actual_reviewer": "zongheng_vol05_full",
+  "approval": "primary明确批准只改本项rationale；旧批已签，需primary读delta重新签收。"
+}

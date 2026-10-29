@@ -1,6 +1,6 @@
 # 让同一道具同时改变关系、行动条件和任务
 
-ID: `pat-aac351ddab9f40c48f5825fad06c1a70` · 版本: 1 · 范围: reusable-pattern
+ID: `pat-aac351ddab9f40c48f5825fad06c1a70` · 版本: 2 · 范围: reusable-pattern
 
 先让角色缺少某个行动条件，再通过带有关系后果的物件取得它；解决物件归属的过程，同时把角色带入新的任务与组织。
 
@@ -57,15 +57,17 @@ ID: `pat-aac351ddab9f40c48f5825fad06c1a70` · 版本: 1 · 范围: reusable-patt
   "favorite": false,
   "origin_key": "src-2a13958390274509b2af019f6b12d981/opening-test-20261022/pattern_object",
   "review_status": "draft",
-  "revision": 1,
+  "revision": 2,
   "schema_version": 1,
   "scope": "reusable-pattern",
   "tags": [
     "可复用机制",
-    "因果连续性"
+    "因果连续性",
+    "作者:失落叶",
+    "作品:网游之纵横天下"
   ],
   "title": "让同一道具同时改变关系、行动条件和任务",
-  "updated_at": "2026-10-21T18:07:10.860791+00:00",
+  "updated_at": "2026-10-22T17:06:16.491083+00:00",
   "user_notes": ""
 }
 

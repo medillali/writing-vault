@@ -1,0 +1,304 @@
+{
+  "status": "proposal-pending-primary-review-not-applied",
+  "reason": "本轮继续读到398并BEGIN-END核原文，对已经交出的前阶段判断补明确后文；不静改已交批。",
+  "direct_reread": {
+    "raw": 398,
+    "start_line": 33348,
+    "end_line": 33407,
+    "full_text_read": true
+  },
+  "changes": [
+    {
+      "path": "adjudications-local-v02-batch012.json",
+      "candidate_id": "v02-local-chapter_unresolved_index-0108-01",
+      "input_sha256": "b85fa39fdfdb689d9f033f25302bbb71be88cde746a8564bf14a559882c7f63a",
+      "before": {
+        "candidate_id": "v02-local-chapter_unresolved_index-0108-01",
+        "volume": 2,
+        "title": "公主后态/罗雷动员陈述未现场见断指",
+        "original_field": "chapter_unresolved_index",
+        "original_index": 107,
+        "atomic_index": 0,
+        "original_record_sha256": "c4ffd3d21ac5c97b4fd64753742347b4af0ded9c68f99b0dacb7f35a8c5fb52a",
+        "status": "unknown",
+        "audit_domain": "npc-fate",
+        "rationale": "377只有罗雷宣称女儿被九黎王砍指、军将喊救公主，未具名或见受伤本人；不能自动并为381另述灭族养大的安吉拉，更不能把安后活战等于此受害公主伤愈返国。城战414胜只闭阵营结果，该公主具体人身后态未专述。",
+        "later_chapters": [
+          361,
+          377,
+          381,
+          414
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0361",
+            "start_line": 30648,
+            "end_line": 30705,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0377",
+            "start_line": 31850,
+            "end_line": 31912,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0381",
+            "start_line": 32142,
+            "end_line": 32206,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0414",
+            "start_line": 34536,
+            "end_line": 34616,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "primary"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol04_full",
+        "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+      },
+      "after": {
+        "candidate_id": "v02-local-chapter_unresolved_index-0108-01",
+        "volume": 2,
+        "title": "公主后态/罗雷动员陈述未现场见断指",
+        "original_field": "chapter_unresolved_index",
+        "original_index": 107,
+        "atomic_index": 0,
+        "original_record_sha256": "c4ffd3d21ac5c97b4fd64753742347b4af0ded9c68f99b0dacb7f35a8c5fb52a",
+        "status": "partial",
+        "audit_domain": "npc-fate",
+        "rationale": "377罗雷只报女遭断指未具名/主未亲见，后398 L33402林穹明确此前联姻嫁出者名莱兰，并与他所求的养女安吉拉分说，远嫁公主已有姓名后证。断指施害过程与莱兰战后返国/伤愈仍未实演，414城战胜不能代人身结局；不能再把公主整条身份一概未明或并为安吉拉。",
+        "later_chapters": [
+          361,
+          377,
+          381,
+          414,
+          398
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0361",
+            "start_line": 30648,
+            "end_line": 30705,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0377",
+            "start_line": 31850,
+            "end_line": 31912,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0381",
+            "start_line": 32142,
+            "end_line": 32206,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0414",
+            "start_line": 34536,
+            "end_line": 34616,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "primary"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0398",
+            "start_line": 33348,
+            "end_line": 33407,
+            "claim_kind": "fact",
+            "evidence_access": "本轮BEGIN-END定向完整复读398；亦完整读正式原notes",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol04_full",
+        "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+      },
+      "scope": "仅所列判断/理由和新增398后证，其他对象不变"
+    },
+    {
+      "path": "adjudications-local-v02-batch009.json",
+      "candidate_id": "v02-local-chapter_unresolved_index-0073-02",
+      "input_sha256": "27e60d5f778a0dacf94416b5ad04fe88b67f24745f4237f062ff1b153f0df9b0",
+      "before": {
+        "candidate_id": "v02-local-chapter_unresolved_index-0073-02",
+        "volume": 2,
+        "title": "汪三分盟返凡书承诺未兑。",
+        "original_field": "chapter_unresolved_index",
+        "original_index": 72,
+        "atomic_index": 1,
+        "original_record_sha256": "4cc32c19cb6b6ffcaff9829ffc7ab5a145e7c8de7fc09327c7357b46ed81433d",
+        "status": "unknown",
+        "audit_domain": "conditional-promise",
+        "rationale": "335汪称发展三个分盟后返凡书；360第一盟仍在八荒实战、963英雄冢主盟解散后余分盟尚存，只证组织后续变化。未独立演出该三个分盟条件已齐和按约迁返过程，不能无条件断言已返或必违约。",
+        "later_chapters": [
+          335,
+          360,
+          963
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0335",
+            "start_line": 28553,
+            "end_line": 28626,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0360",
+            "start_line": 30574,
+            "end_line": 30647,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0963",
+            "start_line": 71876,
+            "end_line": 71938,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol04-chapter-notes.jsonl",
+            "material_sha256": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+            "source_reader": "/root/zongheng_vol03_full"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol04_full",
+        "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+      },
+      "after": {
+        "candidate_id": "v02-local-chapter_unresolved_index-0073-02",
+        "volume": 2,
+        "title": "汪三分盟返凡书承诺未兑。",
+        "original_field": "chapter_unresolved_index",
+        "original_index": 72,
+        "atomic_index": 1,
+        "original_record_sha256": "4cc32c19cb6b6ffcaff9829ffc7ab5a145e7c8de7fc09327c7357b46ed81433d",
+        "status": "partial",
+        "audit_domain": "conditional-promise",
+        "rationale": "335汪称发展三个分盟后返凡书；398烟与汪单独对话已说在八荒另建四个私分盟/近万，汪谈问剑或更高兴，故必须保条件后规模已越三的当事人后述，不能说全书连后规模都未提。此时仍在八荒作战，实际迁回凡书及何时履约未给；不因缺UI否认已叙组织发展，也不强断书外永不返。",
+        "later_chapters": [
+          335,
+          360,
+          963,
+          398
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0335",
+            "start_line": 28553,
+            "end_line": 28626,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0360",
+            "start_line": 30574,
+            "end_line": 30647,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0963",
+            "start_line": 71876,
+            "end_line": 71938,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol04-chapter-notes.jsonl",
+            "material_sha256": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+            "source_reader": "/root/zongheng_vol03_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0398",
+            "start_line": 33348,
+            "end_line": 33407,
+            "claim_kind": "fact",
+            "evidence_access": "本轮BEGIN-END定向完整复读398；亦完整读正式原notes",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol04_full",
+        "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+      },
+      "scope": "仅所列判断/理由和新增398后证，其他对象不变"
+    }
+  ]
+}

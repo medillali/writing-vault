@@ -1,0 +1,571 @@
+{
+  "reason": "root定向三原子纠修罗王章号与专家身份后证",
+  "old_part_sha256": "dc0f4b47c6e5f71edbf51918ff69cb73cdff92f578646d4014ae65694449f532",
+  "new_part_sha256": "f6b2453ea850c8b1c8d4ab8b0a4d4eb132bee3b8af0210e94a87e33ff23df55e",
+  "delta": [
+    {
+      "candidate_id": "v01-local-notes-unresolved-009-04",
+      "before": {
+        "candidate_id": "v01-local-notes-unresolved-009-04",
+        "volume": 1,
+        "original_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+        "original_field": "notes-unresolved",
+        "original_index": 8,
+        "source_note_index": 9,
+        "source_unresolved_index": 1,
+        "source_subatomic_index": 2,
+        "atomic_index": 3,
+        "title": "火种不能因无即时属性就判无用。",
+        "original_record": {
+          "chapter_id": "ch-0011",
+          "title": "第九章 黑色腕甲",
+          "reader": "primary",
+          "start_line": 1104,
+          "end_line": 1181,
+          "unresolved": [
+            "1109‘依旧不想去学技能’和已全学冲突，语义疑误不改原文。",
+            "风色用BUG为主角猜测；区域12推中国百外并无全区榜证；火种不能因无即时属性就判无用。",
+            "主称3秒延时消失指旧障碍缩减，不证明当前完全无延迟，后文还要分时实测。"
+          ],
+          "source_note_index": 9
+        },
+        "original_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0011",
+            "start_line": 1104,
+            "end_line": 1181,
+            "claim_kind": "fact",
+            "access_level": "derived-reader-notes-not-this-agent-full-reading",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary"
+          }
+        ],
+        "original_notes_sha256": "07dcdbeb47552dbc3ddef7089a8583f60774e92cf78d7de44022dc4907f17320",
+        "status": "answered",
+        "audit_domain": "specific-event-and-terminal-match",
+        "rationale": "15生肉由导师解释接火种链，90实际骨灵统帅，139吸火系统修罗，371修罗王；早无即时属性不等无用，后有明确形态门槛回执。",
+        "later_chapters": [
+          15,
+          90,
+          139,
+          371
+        ],
+        "access_level": "derived-full-four-field-notes-and-final-research;no-new-source-full-text-reading",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0015",
+            "start_line": 1442,
+            "end_line": 1519,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0090",
+            "start_line": 8576,
+            "end_line": 8675,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0139",
+            "start_line": 13300,
+            "end_line": 13388,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol02/chapter-notes.jsonl",
+            "source_reader": "primary",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0371",
+            "start_line": 33892,
+            "end_line": 33965,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+            "source_reader": "/root/zongheng_vol03_full",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          }
+        ]
+      },
+      "after": {
+        "candidate_id": "v01-local-notes-unresolved-009-04",
+        "volume": 1,
+        "original_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+        "original_field": "notes-unresolved",
+        "original_index": 8,
+        "source_note_index": 9,
+        "source_unresolved_index": 1,
+        "source_subatomic_index": 2,
+        "atomic_index": 3,
+        "title": "火种不能因无即时属性就判无用。",
+        "original_record": {
+          "chapter_id": "ch-0011",
+          "title": "第九章 黑色腕甲",
+          "reader": "primary",
+          "start_line": 1104,
+          "end_line": 1181,
+          "unresolved": [
+            "1109‘依旧不想去学技能’和已全学冲突，语义疑误不改原文。",
+            "风色用BUG为主角猜测；区域12推中国百外并无全区榜证；火种不能因无即时属性就判无用。",
+            "主称3秒延时消失指旧障碍缩减，不证明当前完全无延迟，后文还要分时实测。"
+          ],
+          "source_note_index": 9
+        },
+        "original_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0011",
+            "start_line": 1104,
+            "end_line": 1181,
+            "claim_kind": "fact",
+            "access_level": "derived-reader-notes-not-this-agent-full-reading",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary"
+          }
+        ],
+        "original_notes_sha256": "07dcdbeb47552dbc3ddef7089a8583f60774e92cf78d7de44022dc4907f17320",
+        "status": "answered",
+        "audit_domain": "specific-event-and-terminal-match",
+        "rationale": "15生肉由导师解释接火种链，90实际骨灵统帅，139吸火系统修罗，575仍预计差5%，579 L50259才系统进化修罗王；早无即时属性不等无用，后有明确形态门槛回执。",
+        "later_chapters": [
+          15,
+          90,
+          139,
+          575,
+          579
+        ],
+        "access_level": "derived-full-four-field-notes-and-final-research;no-new-source-full-text-reading",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0015",
+            "start_line": 1442,
+            "end_line": 1519,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0090",
+            "start_line": 8576,
+            "end_line": 8675,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0139",
+            "start_line": 13300,
+            "end_line": 13388,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol02/chapter-notes.jsonl",
+            "source_reader": "primary",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0575",
+            "start_line": 49941,
+            "end_line": 50006,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+            "source_reader": "/root/zongheng_vol03_full",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0579",
+            "start_line": 50235,
+            "end_line": 50306,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+            "source_reader": "/root/zongheng_vol03_full",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "v01-local-notes-unresolved-013-01",
+      "before": {
+        "candidate_id": "v01-local-notes-unresolved-013-01",
+        "volume": 1,
+        "original_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+        "original_field": "notes-unresolved",
+        "original_index": 12,
+        "source_note_index": 13,
+        "source_unresolved_index": 0,
+        "source_subatomic_index": 0,
+        "atomic_index": 0,
+        "title": "苏伦对进阶和修罗强度为导师讲解，不能把主幻想三千佳丽当制度事实",
+        "original_record": {
+          "chapter_id": "ch-0015",
+          "title": "第十三章 修罗",
+          "reader": "primary",
+          "start_line": 1442,
+          "end_line": 1519,
+          "unresolved": [
+            "苏伦对进阶和修罗强度为导师讲解，不能把主幻想三千佳丽当制度事实；被夺火种后的玩家永久命运未实测。",
+            "风之幻想/风色幻想异写保留；15级在榜变化有强烈时点性，装备400元估价非实际卖全装。",
+            "主安全区绿名仅本视角结果，旁人可否辨其阵营后续再核。"
+          ],
+          "source_note_index": 13
+        },
+        "original_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0015",
+            "start_line": 1442,
+            "end_line": 1519,
+            "claim_kind": "fact",
+            "access_level": "derived-reader-notes-not-this-agent-full-reading",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary"
+          }
+        ],
+        "original_notes_sha256": "07dcdbeb47552dbc3ddef7089a8583f60774e92cf78d7de44022dc4907f17320",
+        "status": "partial",
+        "audit_domain": "specific-event-and-terminal-match",
+        "rationale": "139修罗、371修罗王有实际系统回执，导师进阶链有部分兑现；三千佳丽只是陆幻想，终点未成为职业制度，不能与真实高阶成长混并。",
+        "later_chapters": [
+          15,
+          139,
+          371,
+          1462
+        ],
+        "access_level": "derived-full-four-field-notes-and-final-research;no-new-source-full-text-reading",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0015",
+            "start_line": 1442,
+            "end_line": 1519,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0139",
+            "start_line": 13300,
+            "end_line": 13388,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol02/chapter-notes.jsonl",
+            "source_reader": "primary",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0371",
+            "start_line": 33892,
+            "end_line": 33965,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+            "source_reader": "/root/zongheng_vol03_full",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-1462",
+            "start_line": 115813,
+            "end_line": 115905,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol07/chapter-notes.jsonl",
+            "source_reader": "/root/zongheng_vol04_full",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          }
+        ]
+      },
+      "after": {
+        "candidate_id": "v01-local-notes-unresolved-013-01",
+        "volume": 1,
+        "original_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+        "original_field": "notes-unresolved",
+        "original_index": 12,
+        "source_note_index": 13,
+        "source_unresolved_index": 0,
+        "source_subatomic_index": 0,
+        "atomic_index": 0,
+        "title": "苏伦对进阶和修罗强度为导师讲解，不能把主幻想三千佳丽当制度事实",
+        "original_record": {
+          "chapter_id": "ch-0015",
+          "title": "第十三章 修罗",
+          "reader": "primary",
+          "start_line": 1442,
+          "end_line": 1519,
+          "unresolved": [
+            "苏伦对进阶和修罗强度为导师讲解，不能把主幻想三千佳丽当制度事实；被夺火种后的玩家永久命运未实测。",
+            "风之幻想/风色幻想异写保留；15级在榜变化有强烈时点性，装备400元估价非实际卖全装。",
+            "主安全区绿名仅本视角结果，旁人可否辨其阵营后续再核。"
+          ],
+          "source_note_index": 13
+        },
+        "original_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0015",
+            "start_line": 1442,
+            "end_line": 1519,
+            "claim_kind": "fact",
+            "access_level": "derived-reader-notes-not-this-agent-full-reading",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary"
+          }
+        ],
+        "original_notes_sha256": "07dcdbeb47552dbc3ddef7089a8583f60774e92cf78d7de44022dc4907f17320",
+        "status": "partial",
+        "audit_domain": "specific-event-and-terminal-match",
+        "rationale": "139修罗、579 L50259修罗王有实际系统回执，575尚差5%为前态，导师进阶链有部分兑现；三千佳丽只是陆幻想，终点未成为职业制度，不能与真实高阶成长混并。",
+        "later_chapters": [
+          15,
+          139,
+          575,
+          579,
+          1462
+        ],
+        "access_level": "derived-full-four-field-notes-and-final-research;no-new-source-full-text-reading",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0015",
+            "start_line": 1442,
+            "end_line": 1519,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0139",
+            "start_line": 13300,
+            "end_line": 13388,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol02/chapter-notes.jsonl",
+            "source_reader": "primary",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0575",
+            "start_line": 49941,
+            "end_line": 50006,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+            "source_reader": "/root/zongheng_vol03_full",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0579",
+            "start_line": 50235,
+            "end_line": 50306,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol03/chapter-notes.jsonl",
+            "source_reader": "/root/zongheng_vol03_full",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-1462",
+            "start_line": 115813,
+            "end_line": 115905,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol07/chapter-notes.jsonl",
+            "source_reader": "/root/zongheng_vol04_full",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "v01-local-notes-unresolved-016-01",
+      "before": {
+        "candidate_id": "v01-local-notes-unresolved-016-01",
+        "volume": 1,
+        "original_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+        "original_field": "notes-unresolved",
+        "original_index": 15,
+        "source_note_index": 16,
+        "source_unresolved_index": 0,
+        "source_subatomic_index": 0,
+        "atomic_index": 0,
+        "title": "十三父亲曾对追女生自称银行家与此专家说法有玩笑/证词边界",
+        "original_record": {
+          "chapter_id": "ch-0018",
+          "title": "第十六章 何艺来访",
+          "reader": "primary",
+          "start_line": 1682,
+          "end_line": 1780,
+          "unresolved": [
+            "十三父亲曾对追女生自称银行家与此专家说法有玩笑/证词边界；报告具体内容陆无法读取。",
+            "不能把太阳灼痛/斑痕消失写彻底治愈，或把游戏职业与现实病毒因果当医学事实；关羽墓属十三‘据说’和玩笑。",
+            "何艺尚在屋内痛哭，陆并未现身解释；死亡、火化全属本次编造，不能进入人物真实终态。"
+          ],
+          "source_note_index": 16
+        },
+        "original_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0018",
+            "start_line": 1682,
+            "end_line": 1780,
+            "claim_kind": "fact",
+            "access_level": "derived-reader-notes-not-this-agent-full-reading",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary"
+          }
+        ],
+        "original_notes_sha256": "07dcdbeb47552dbc3ddef7089a8583f60774e92cf78d7de44022dc4907f17320",
+        "status": "unknown",
+        "audit_domain": "testimony-boundary",
+        "rationale": "专家父身份经十三自述且曾有追女生银行家玩笑，后无该父亲独立资质核验；不据玩笑判全报告伪造，也不替其背书。",
+        "later_chapters": [
+          18
+        ],
+        "access_level": "derived-full-four-field-notes-and-final-research;no-new-source-full-text-reading",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0018",
+            "start_line": 1682,
+            "end_line": 1780,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          }
+        ]
+      },
+      "after": {
+        "candidate_id": "v01-local-notes-unresolved-016-01",
+        "volume": 1,
+        "original_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+        "original_field": "notes-unresolved",
+        "original_index": 15,
+        "source_note_index": 16,
+        "source_unresolved_index": 0,
+        "source_subatomic_index": 0,
+        "atomic_index": 0,
+        "title": "十三父亲曾对追女生自称银行家与此专家说法有玩笑/证词边界",
+        "original_record": {
+          "chapter_id": "ch-0018",
+          "title": "第十六章 何艺来访",
+          "reader": "primary",
+          "start_line": 1682,
+          "end_line": 1780,
+          "unresolved": [
+            "十三父亲曾对追女生自称银行家与此专家说法有玩笑/证词边界；报告具体内容陆无法读取。",
+            "不能把太阳灼痛/斑痕消失写彻底治愈，或把游戏职业与现实病毒因果当医学事实；关羽墓属十三‘据说’和玩笑。",
+            "何艺尚在屋内痛哭，陆并未现身解释；死亡、火化全属本次编造，不能进入人物真实终态。"
+          ],
+          "source_note_index": 16
+        },
+        "original_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0018",
+            "start_line": 1682,
+            "end_line": 1780,
+            "claim_kind": "fact",
+            "access_level": "derived-reader-notes-not-this-agent-full-reading",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary"
+          }
+        ],
+        "original_notes_sha256": "07dcdbeb47552dbc3ddef7089a8583f60774e92cf78d7de44022dc4907f17320",
+        "status": "answered",
+        "audit_domain": "identity-and-evidence-update",
+        "rationale": "18银行家玩笑与专家说法需分证词；141十三父专家身份已实际确认且当面诊疗，原身份疑问有后证关闭。未展示执照不等专家身份未确认，亦不把小说治疗当现实医学背书。",
+        "later_chapters": [
+          18,
+          141
+        ],
+        "access_level": "derived-full-four-field-notes-and-final-research;no-new-source-full-text-reading",
+        "later_evidence": [
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0018",
+            "start_line": 1682,
+            "end_line": 1780,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol01/chapter-notes.jsonl",
+            "source_reader": "primary",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          },
+          {
+            "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+            "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+            "chapter_id": "ch-0141",
+            "start_line": 13484,
+            "end_line": 13579,
+            "claim_kind": "synthesis",
+            "access_level": "derived-reader-notes-and-final-volume-research",
+            "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol02/chapter-notes.jsonl",
+            "source_reader": "primary",
+            "evidence_role": "判据/原事件/后续/反例具体关系见rationale，范围核验不表示该章独立证明整项。"
+          }
+        ]
+      }
+    }
+  ]
+}

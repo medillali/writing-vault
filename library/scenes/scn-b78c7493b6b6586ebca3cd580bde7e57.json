@@ -1,0 +1,55 @@
+{
+  "asset_id": "scn-b78c7493b6b6586ebca3cd580bde7e57",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "战斗需要可验证的动作反馈而非只喊意志。",
+    "choice": "在攻击中试验弱点并继续冒险。",
+    "consequence": "击杀、升级、获得微光战斧。",
+    "failure_mode": "若每次随机掉落都刚好补缺且无成本，风险会失真。",
+    "goal": "带回任务物并生存。",
+    "narrative_range": "第7—8章",
+    "obstacle": "8级变异敌人与药品上限。",
+    "phase_scope": "卷一第1—49章内实际发生的场景",
+    "state_change": "应急消耗变成后续装备优势。",
+    "summary": "剩余五瓶药不足以放心获胜，书生从命中差异发现嘴部弱点，残20血杀怪。",
+    "why_it_works": {
+      "claim_kind": "inference",
+      "text": "威胁、尝试、伤害反馈、险胜形成局部可追踪链。"
+    }
+  },
+  "created_at": "2026-10-22T17:36:53.925348+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0008",
+      "claim_kind": "fact",
+      "end_line": 509,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 496
+    },
+    {
+      "chapter_id": "ch-0009",
+      "claim_kind": "fact",
+      "end_line": 543,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 513
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/standard-20261023/scene-bat",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "场景",
+    "因果链"
+  ],
+  "title": "变异蝙蝠：用有限补给迫出解法",
+  "updated_at": "2026-10-22T17:36:53.925348+00:00",
+  "user_notes": ""
+}

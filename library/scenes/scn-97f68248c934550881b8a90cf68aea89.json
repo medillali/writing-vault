@@ -1,0 +1,65 @@
+{
+  "asset_id": "scn-97f68248c934550881b8a90cf68aea89",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "有固定道德反应的角色遇骗局。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xuyue",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/liuying",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xiaozhu"
+    ],
+    "choice": "先救看似受害者，受背刺后以灵魂观察并等待敌队调守。",
+    "claim_kind": "inference",
+    "consequence": "主真失两级/掉装，第三封卡却成100%火骷髅；非主故意设局收宠。",
+    "failure_mode": "不能因后来主反击就抹被骗事实，也不能将女假身份跨书合人。",
+    "goal": "取死亡药剂兼封稀有宠。",
+    "obstacle": "敌利用主愿救弱者的行为模式、守尸与红名罚。",
+    "state_change": "被骗与资产偶获同时成立。",
+    "summary": "烟锁演遭追杀，主治她/杀枪救人，封宠时她反晕刺主致主红名死27→25；灵魂见她与刘亲密才确敌归属。",
+    "why_it_works": "把价值优点变可被利用弱点，让判断依新证据而改。"
+  },
+  "created_at": "2026-10-25T19:20:31.225830+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0038",
+      "claim_kind": "fact",
+      "end_line": 3150,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 3048
+    },
+    {
+      "chapter_id": "ch-0039",
+      "claim_kind": "fact",
+      "end_line": 3230,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 3151
+    },
+    {
+      "chapter_id": "ch-0040",
+      "claim_kind": "fact",
+      "end_line": 3325,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 3231
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/scene/falseaid",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷1",
+    "待审阅"
+  ],
+  "title": "救弱者倾向被假救援利用",
+  "updated_at": "2026-10-25T19:20:31.225830+00:00",
+  "user_notes": ""
+}

@@ -1,0 +1,118 @@
+# 谁与争锋（巴西锋芒212剑师）
+
+ID: `chr-d02cabc4a48d5e8eb305dfaa9e3b0ec6` · 版本: 1 · 范围: source-analysis
+
+巴西飞龙城锋芒盟主，SS亚历实际得；未来约定单列未全完成。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-d02cabc4a48d5e8eb305dfaa9e3b0ec6",
+  "asset_type": "character",
+  "content": {
+    "changes": "以实际交换建立信用，非仅口碑。",
+    "constraints": "不能独吞所有奖励、未来七星守备。",
+    "current_state": "巴西飞龙城锋芒盟主，SS亚历实际得；未来约定单列未全完成。",
+    "decisions": [
+      "明确问分账，协杀棕/刑天，SS亚历实学第三天河；赴多国会议。"
+    ],
+    "goals": "取得古技并巩固独立势力。",
+    "interpretation": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1209",
+          "claim_kind": "inference",
+          "end_line": 97183,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 97112
+        },
+        {
+          "chapter_id": "ch-1210",
+          "claim_kind": "inference",
+          "end_line": 97264,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 97184
+        },
+        {
+          "chapter_id": "ch-1219",
+          "claim_kind": "inference",
+          "end_line": 97916,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 97844
+        },
+        {
+          "chapter_id": "ch-1220",
+          "claim_kind": "inference",
+          "end_line": 97994,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 97917
+        }
+      ],
+      "text": "以本卷可证行动与变化观察，不把角色评语当全人格定论。"
+    },
+    "knowledge_boundary": "不同于中国165刺/美国192战同ID；不自动并为纵横同名。",
+    "relationship_directions": [
+      "与陆SS交换、未来截援互诺。"
+    ],
+    "summary": "巴西飞龙城锋芒盟主，SS亚历实际得；未来约定单列未全完成。"
+  },
+  "created_at": "2026-10-25T00:01:47.063283+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1209",
+      "claim_kind": "fact",
+      "end_line": 97183,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 97112
+    },
+    {
+      "chapter_id": "ch-1210",
+      "claim_kind": "fact",
+      "end_line": 97264,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 97184
+    },
+    {
+      "chapter_id": "ch-1219",
+      "claim_kind": "fact",
+      "end_line": 97916,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 97844
+    },
+    {
+      "chapter_id": "ch-1220",
+      "claim_kind": "fact",
+      "end_line": 97994,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 97917
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/brazil-shui",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:6",
+    "研究:全量九维"
+  ],
+  "title": "谁与争锋（巴西锋芒212剑师）",
+  "updated_at": "2026-10-25T00:01:47.063283+00:00",
+  "user_notes": ""
+}
+
+```

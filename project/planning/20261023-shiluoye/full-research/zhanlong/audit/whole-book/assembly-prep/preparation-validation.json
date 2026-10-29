@@ -1,0 +1,72 @@
+{
+  "status": "preparation-tested-not-frozen-not-published",
+  "observed_at_utc": "2026-10-25T23:54:57.424326+00:00",
+  "test_exit_code": 0,
+  "test_output": "....................\n----------------------------------------------------------------------\nRan 20 tests in 1.020s\n\nOK\n",
+  "read_only_invocation": {
+    "status": "not-ready-no-write",
+    "reason": "缺输入: C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\character-arc-audit-draft.json",
+    "write_requested": false,
+    "formal_writes": false,
+    "primary_credentials_created": false
+  },
+  "protected_before_sha256": {
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/historical-question-pool.json": "9bf5a603e2c05a921babcd40f343a7366d48f3eb68c30a71b54d83c505f309dd",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/local-question-pool.json": "0e54250c187f1d914ea48df565074e3767075446eaf40e902ff53522910736fb",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/character-arc-audit-draft.json": null,
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/end-state-audit-draft.json": "38aeeae5abea68ef4fea0e752d7a7e4f320b2afd8838c3e58d3d2f62710d7b4b",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/audit-freeze-manifest.json": null,
+    ".planning/20261023-shiluoye/full-research/zhanlong/primary-whole-book-review.json": null
+  },
+  "protected_after_sha256": {
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/historical-question-pool.json": "9bf5a603e2c05a921babcd40f343a7366d48f3eb68c30a71b54d83c505f309dd",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/local-question-pool.json": "0e54250c187f1d914ea48df565074e3767075446eaf40e902ff53522910736fb",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/character-arc-audit-draft.json": null,
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/end-state-audit-draft.json": "38aeeae5abea68ef4fea0e752d7a7e4f320b2afd8838c3e58d3d2f62710d7b4b",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/audit-freeze-manifest.json": null,
+    ".planning/20261023-shiluoye/full-research/zhanlong/primary-whole-book-review.json": null
+  },
+  "protected_bytes_unchanged": true,
+  "implementation_sha256": "3953c5c3f152145199039162b34060508f6e362fdddaf1502f38a6994607e1e8",
+  "tests_sha256": "b8375b57cd557358eb2b0a3f332784ba8d9c6ae07c81f53c33c4b7130097a06c",
+  "read_existing_interface_sha256": {
+    "book_audit_common.py": "16df0af178f57ff76b25c2be8faf7075d152c250908ec7e481335e7804132330",
+    "record_primary_whole_book_review.py": "b11563d45d41a21459bb07745c9c81a287745859cb405e4958f0f6460a409394",
+    "publish_book_audit.py": "79893927d0303a1b86f6ae915fbf0b034503d5522347cf6002c70cbe593ac49a",
+    "merge_zhanlong_adjudications.py": "f34e43e1add7e1b162428057ba707ec7e8746a891f94e16f9da488cdfb522c5b",
+    "record_primary_research_group.py": "08c109ea08a8e40092ff34862be8b4d19101cb4db34aeb81b5ee4aef86b46244",
+    "publish_book_synthesis.py": "36ae8f791419a00274777dfa1e43e593019ce7c969ad57dccc945237828dc8ad"
+  },
+  "implementation_dependencies": [
+    "Python 3 standard library"
+  ],
+  "write_invoked_against_real_package": false,
+  "primary_credentials_generated": false,
+  "raw_body_txt_copied": false,
+  "vol06_original_review_inputs_actual_verified": {
+    "analysis.json": "84eb3996c9e4d324581725e56d081fe36d39b704081aff32bec68d59cd8c44b4",
+    "cards.json": "5a4fd958b3f6553cacb195f66edc7843cd51968b70059f419c5b23bde946b2b0",
+    "graph.json": "faa91c6f17edd8b7b09855440a7c4c4947caa82bd7e7c98e8a8b495935d4f1b2",
+    "report.md": "c50b4a528063913e13e7e712372c21de0d534434122fd3a42c918fc0b5b6bac6",
+    "handoff.md": "5b224d76ee712e59e04ca9125ede64e3128c7e6d5fee933f8f5b222fa45e79f6",
+    "chapter-unresolved-index.json": "f3c74ed85f078144352f302e95a6dde3b87dd320b37e129df5edb23c28c1a03f",
+    "chapter-notes.jsonl": "390d10740eec447ba04babff420b862a03ab0647d8c92f1ba9e7a6461abac48c",
+    "reader-state.json": "68bcbfd80aae3622647bf8efd309d1e33f93f337e460de3ca59cdedfbd4d6135",
+    "read-log.json": "4bdf54476648e54cfd408c6135f35e1416c8c2c279039fbae472a33184f174b3",
+    "validation.json": "e583151571afaf5d877e746099d07f36dcff427e2cd1624a5520a79811ee3dc6",
+    "build_artifacts.py": "4e08136528d7fb8d0708d6581a21cef4023a19193f32c7b455f71950f606a374",
+    "research_cards.py": "c509a499afab8337f8b36af6cb2299b321ac7cd76325990b5fce39512fe0a451",
+    "research_interfaces.py": "ae33d1cf751a2761830d25f2f00d7288ef80b97894c18be5478dabd58031bef9",
+    "save_batch.py": "fc581cb3322c24faab0c8136c29e9b889b5fd3e8187da9be3475b01a2cb02ddb",
+    "finalize_validation.py": "b8476c41c4dc018511903972bd83a3e003fadc704e6de61aaacab381896c86c4",
+    "scene-transfer-proposals-authored.json": "08c351d9f98268236f47f6a15b86e708655fee07d2e5d76ab5eea59873b4f2dc",
+    "freeze-manifest.json": "2903506c5f3d1dc3c807e9000de4217325afe9128fb235273867cf8d27dd637b",
+    "primary-review-proposal.json": "fcdc58e12438ab3752095b0350bc434ac74e7cbbb596c2844df443be8b1f9187",
+    "primary-review-proposal.md": "51693d6a53e7de453b41c1efe4a9d5701015942eaa22a0e7120785ac7572a2e1",
+    "scene-transfer-proposals.json": "557eddc552c9e8454ca344fd6f1fadc204649820c7dacfd7ed9a8c911dff1bed",
+    "scene-transfer-proposals.md": "7faf75bf38a9d7e9c420aee0c7d7d4bc0285fa277297bb4b31c48fca351014d8",
+    "primary-review-applied-delta.json": "0991667ced1982e79b398d9ddbbeaa9513945815aeffef7ff1c114a311aec38d",
+    "primary-review-applied-delta.md": "2a41866ebcf5f4b2485a65d7bc46686a88e4ee1caf45d6956ac886a60c0d4448"
+  },
+  "legacy_frozen_volume08_actual_volume": 6
+}

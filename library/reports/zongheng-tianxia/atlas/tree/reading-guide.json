@@ -1,0 +1,2179 @@
+{
+  "version": 3,
+  "source_id": "src-2a13958390274509b2af019f6b12d981",
+  "graph_revision": 13,
+  "claim_kind": "synthesis",
+  "method": "根据既有全书图、逐卷研究与完整人物档案重新组织阅读说明；不声称本轮逐章重读。阅读衔接不表示因果。",
+  "entries": {
+    "v1-poor": {
+      "title": "谋生受阻，游戏需要先取得入场条件",
+      "stage": "谋生与共同生活",
+      "situation": "失业、缺钱与房租压力叠在一起，书生连购买头盔也受到限制。",
+      "action": "此时他尚未凭游戏解决生计；凌雪后来的帮助先改变了他能否入局的条件。",
+      "consequence": "后续工作机会有了现实分量，不能只把相遇解释为恋爱开端。",
+      "branch_ids": [
+        "v1-gift",
+        "v1-note"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0003",
+          "claim_kind": "fact",
+          "end_line": 89,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 69
+        }
+      ]
+    },
+    "v1-team": {
+      "title": "工作机会立刻变成需要履行的任务",
+      "stage": "谋生与共同生活",
+      "situation": "凌雪的引荐把书生带到职业工作室，接受不等于从此无须证明能力。",
+      "action": "冰茶接纳他，并传达首夜等级与金币指标；游戏经验开始接受可结算的检验。",
+      "consequence": "机会与义务同时出现，个人升级由消遣转为谋生行动。",
+      "branch_ids": [
+        "v1-v1c21"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0006",
+          "claim_kind": "fact",
+          "end_line": 259,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 235
+        }
+      ]
+    },
+    "v1-v1c12": {
+      "title": "用装备和交易选择成长路线",
+      "stage": "谋生与共同生活",
+      "situation": "早期资源有限，一件装备既可以自用，也可以换取技能和现金筹码。",
+      "action": "书生依据弓的属性安排远程路线，把铠甲换成技能与金币，同时暂拒新的归属邀请。",
+      "consequence": "个人积累与组织归属不是同一决定；得到帮助并不立刻意味着加入。",
+      "branch_ids": [
+        "v1-v1c11"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0013",
+          "claim_kind": "fact",
+          "end_line": 889,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 824
+        }
+      ]
+    },
+    "v1-v1c39": {
+      "title": "公开回应对手，游戏收益进入现实",
+      "stage": "谋生与共同生活",
+      "situation": "战斗结果还要面对对手宣战与现实公司的权力关系。",
+      "action": "凌雪公开录像回应，凌月支付现金并预付法杖交易；书生仍要面对王俊杰带来的职场压力。",
+      "consequence": "战名、装备收益与现实关系互相牵动，赢一场游戏战并不消除公司里的限制。",
+      "branch_ids": [
+        "v1-v1c40"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0040",
+          "claim_kind": "fact",
+          "end_line": 2884,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2825
+        }
+      ]
+    },
+    "v2-move": {
+      "title": "搬入工作室，合作进入共同日常",
+      "stage": "谋生与共同生活",
+      "situation": "共同游戏需要更稳定的住处和协作安排。",
+      "action": "书生与团队实际搬入，凌雪帮忙后返回学校；共居成为已经发生的生活条件。",
+      "consequence": "团队关系由上线配合延伸到吃住，但不能据共居提前确认每段亲密关系。",
+      "branch_ids": [
+        "v2-balcony"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0053",
+          "claim_kind": "fact",
+          "end_line": 3761,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 3706
+        }
+      ]
+    },
+    "v2-zero": {
+      "title": "职业成功，却失去等级与当时装备",
+      "stage": "第一次失去与建会",
+      "situation": "隐藏职业任务并不保证保住先前积累，死亡与转职有不同结算。",
+      "action": "首次死亡靠复活预言挽回；第二次死亡降至零级、遗失当时装备，随后才收到转职成功提示。",
+      "consequence": "新能力与眼前损失同时成立，下一步必须先解决重练，不能把提示成功当作全胜。",
+      "branch_ids": [
+        "v2-token",
+        "v2-core",
+        "v2-return"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0100",
+          "claim_kind": "fact",
+          "end_line": 6566,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6493
+        }
+      ]
+    },
+    "v2-return": {
+      "title": "凌雪取回旧弓，低谷中的援助反转",
+      "stage": "第一次失去与建会",
+      "situation": "书生拥有隐藏职业，却暂时没有能直接恢复原位置的等级与装备。",
+      "action": "凌雪实际交回此前已售的旧弓，并带他重练；她称为买回弓花了三万元，弓的使用仍受等级门槛限制。",
+      "consequence": "先前受助者现在需要再次接受照料。重练升十级后又死回九级，损失没有瞬间清零。",
+      "branch_ids": [
+        "v1-gift",
+        "v1-v1c35",
+        "v3-v03-rebuild"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0101",
+          "claim_kind": "fact",
+          "end_line": 6608,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6596
+        },
+        {
+          "chapter_id": "ch-0101",
+          "claim_kind": "fact",
+          "end_line": 6697,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6634
+        }
+      ]
+    },
+    "v3-v03-token": {
+      "title": "建帮令把个人收益转为组织起点",
+      "stage": "第一次失去与建会",
+      "situation": "能否建会依赖稀缺令牌，也取决于成员是否愿意让出个人利益。",
+      "action": "稻花香暗中送令；书生用它建会，随后把会长位置交给凌月，并向工作室交代来源。",
+      "consequence": "雪月取得正式组织身份；赠令者的旧处境与后续建会责任都没有因此结束。",
+      "branch_ids": [
+        "v2-seal",
+        "v4-v04-rescuexiang"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0133",
+          "claim_kind": "inference",
+          "end_line": 10484,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 10379
+        },
+        {
+          "chapter_id": "ch-0134",
+          "claim_kind": "inference",
+          "end_line": 10640,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 10485
+        },
+        {
+          "chapter_id": "ch-0135",
+          "claim_kind": "inference",
+          "end_line": 10742,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 10641
+        },
+        {
+          "chapter_id": "ch-0136",
+          "claim_kind": "inference",
+          "end_line": 10833,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 10743
+        }
+      ]
+    },
+    "v3-v03-reject_bet": {
+      "title": "拒绝把姐妹当成胜负奖品",
+      "stage": "第一次失去与建会",
+      "situation": "凌天的安排把现实权威、游戏较量与两姐妹的未来绑在一起。",
+      "action": "书生拒绝赌约的处理方式，凌月也作出清退王俊杰一方的组织决定。",
+      "consequence": "姐妹与书生的信任增加，但父亲的现实安排并未由一次反抗全部解除。",
+      "branch_ids": [
+        "v4-v04-exile",
+        "v4-v04-campus"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0187",
+          "claim_kind": "inference",
+          "end_line": 16102,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 16010
+        },
+        {
+          "chapter_id": "ch-0188",
+          "claim_kind": "inference",
+          "end_line": 16210,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 16103
+        },
+        {
+          "chapter_id": "ch-0189",
+          "claim_kind": "inference",
+          "end_line": 16289,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 16211
+        }
+      ]
+    },
+    "v4-v04-exile": {
+      "title": "离开雪月，让金钱与忠诚分开检验",
+      "stage": "领地、承诺与公共竞争",
+      "situation": "现实权力与情感压力进入工作室，原有共同生活难以原样继续。",
+      "action": "书生撕掉支票离开；秦韵提供住处，仍有成员选择追随。",
+      "consequence": "失去原生活支持的代价真实存在，个人忠诚却没有完全服从资金与名义位置。",
+      "branch_ids": [
+        "v3-v03-qin_rescue",
+        "v4-v04-hotel"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0258",
+          "claim_kind": "fact",
+          "end_line": 23241,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 23098
+        },
+        {
+          "chapter_id": "ch-0259",
+          "claim_kind": "fact",
+          "end_line": 23339,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 23242
+        },
+        {
+          "chapter_id": "ch-0260",
+          "claim_kind": "fact",
+          "end_line": 23438,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 23340
+        }
+      ]
+    },
+    "v4-v04-firstcity": {
+      "title": "夺得领地，胜利变成长期资产",
+      "stage": "领地、承诺与公共竞争",
+      "situation": "领主令需要在争夺中持有到最后，个人强度不足以替代援军和协议。",
+      "action": "书生与孤坟立约，组织支援并守住最后阶段，实际取得领地。",
+      "consequence": "战斗奖励转为要建设和防守的组织资产，胜利也创造了维护义务。",
+      "branch_ids": [
+        "v4-v04-citydefense",
+        "v4-v04-autumn"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0271",
+          "claim_kind": "fact",
+          "end_line": 24490,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 24385
+        },
+        {
+          "chapter_id": "ch-0277",
+          "claim_kind": "fact",
+          "end_line": 25041,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 24938
+        },
+        {
+          "chapter_id": "ch-0278",
+          "claim_kind": "fact",
+          "end_line": 25171,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 25042
+        },
+        {
+          "chapter_id": "ch-0279",
+          "claim_kind": "fact",
+          "end_line": 25276,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 25172
+        }
+      ]
+    },
+    "v4-v04-hushou": {
+      "title": "用装备和时间兑现对成员的承诺",
+      "stage": "领地、承诺与公共竞争",
+      "situation": "组织扩张之后，边缘成员可能被忽略，领袖的口头重视需要兑现。",
+      "action": "书生承认疏忽，给守护枪、钱和装备，并亲自带练，把未来骑将的承诺分阶段落实。",
+      "consequence": "资源与时间投入改变成员处境；已达到的骑乘条件与未来更高等级的约定仍须分开。",
+      "branch_ids": [],
+      "evidence": [
+        {
+          "chapter_id": "ch-0410",
+          "claim_kind": "fact",
+          "end_line": 40997,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 40851
+        },
+        {
+          "chapter_id": "ch-0411",
+          "claim_kind": "fact",
+          "end_line": 41107,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 40998
+        },
+        {
+          "chapter_id": "ch-0412",
+          "claim_kind": "fact",
+          "end_line": 41226,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 41108
+        },
+        {
+          "chapter_id": "ch-0420",
+          "claim_kind": "fact",
+          "end_line": 42165,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 42058
+        }
+      ]
+    },
+    "v5-v05-scene-korea": {
+      "title": "国际较量由针对准备和团队分工赢下",
+      "stage": "领地、承诺与公共竞争",
+      "situation": "对手的能力要求具体应对，不能沿用单人强攻的解法。",
+      "action": "药品、宠物双线、职业分工与领域能力配合，终结战斗后系统确认中国一方获胜。",
+      "consequence": "书生得到个人荣誉，也承认人数与稻花香的牵制作用；胜果不能全归于一次暴击。",
+      "branch_ids": [
+        "v5-v05-scene-annie-reversal"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0497",
+          "claim_kind": "fact",
+          "end_line": 51534,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 51431
+        },
+        {
+          "chapter_id": "ch-0498",
+          "claim_kind": "fact",
+          "end_line": 51659,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 51535
+        },
+        {
+          "chapter_id": "ch-0499",
+          "claim_kind": "fact",
+          "end_line": 51755,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 51660
+        },
+        {
+          "chapter_id": "ch-0503",
+          "claim_kind": "fact",
+          "end_line": 52257,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 52120
+        },
+        {
+          "chapter_id": "ch-0504",
+          "claim_kind": "fact",
+          "end_line": 52387,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 52258
+        },
+        {
+          "chapter_id": "ch-0505",
+          "claim_kind": "fact",
+          "end_line": 52516,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 52388
+        },
+        {
+          "chapter_id": "ch-0506",
+          "claim_kind": "fact",
+          "end_line": 52641,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 52517
+        }
+      ]
+    },
+    "v6-v06-scene-dragon-gate": {
+      "title": "五转完成，奖励仍有使用门槛",
+      "stage": "战力扩张与集体代价",
+      "situation": "职业突破带来新技能与龙蛋，但得到物品并不等于立刻能使用。",
+      "action": "完成五转、学习技能，龙蛋暂存并安排归属条件；实际龙骑能力也受到持续时限约束。",
+      "consequence": "资格、拥有与可用是三层状态。新强度能够改变战术，仍不能取消时间与等级限制。",
+      "branch_ids": [
+        "v6-v06-scene-recruit-council"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0535",
+          "claim_kind": "fact",
+          "end_line": 55981,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 55857
+        },
+        {
+          "chapter_id": "ch-0536",
+          "claim_kind": "fact",
+          "end_line": 56091,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 55982
+        },
+        {
+          "chapter_id": "ch-0537",
+          "claim_kind": "fact",
+          "end_line": 56219,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 56092
+        },
+        {
+          "chapter_id": "ch-0538",
+          "claim_kind": "fact",
+          "end_line": 56343,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 56220
+        },
+        {
+          "chapter_id": "ch-0539",
+          "claim_kind": "fact",
+          "end_line": 56475,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 56344
+        }
+      ]
+    },
+    "v6-v06-scene-china-final": {
+      "title": "输局之后重排组合，拿下国内冠军",
+      "stage": "战力扩张与集体代价",
+      "situation": "系列赛中的先失分暴露了原先打法的限制。",
+      "action": "书生研究对手，再与队友调整距离、伏击和双人配合；决定局最终获胜。",
+      "consequence": "雪月以三比二夺冠。冠军来自规则中的适应与协作，后续装备奖励仍需继续发展。",
+      "branch_ids": [],
+      "evidence": [
+        {
+          "chapter_id": "ch-0625",
+          "claim_kind": "fact",
+          "end_line": 66973,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 66865
+        },
+        {
+          "chapter_id": "ch-0628",
+          "claim_kind": "fact",
+          "end_line": 67349,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 67206
+        },
+        {
+          "chapter_id": "ch-0629",
+          "claim_kind": "fact",
+          "end_line": 67472,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 67350
+        },
+        {
+          "chapter_id": "ch-0630",
+          "claim_kind": "fact",
+          "end_line": 67610,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 67473
+        },
+        {
+          "chapter_id": "ch-0631",
+          "claim_kind": "fact",
+          "end_line": 67757,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 67611
+        },
+        {
+          "chapter_id": "ch-0632",
+          "claim_kind": "fact",
+          "end_line": 67916,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 67758
+        },
+        {
+          "chapter_id": "ch-0633",
+          "claim_kind": "fact",
+          "end_line": 68050,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 67917
+        },
+        {
+          "chapter_id": "ch-0634",
+          "claim_kind": "fact",
+          "end_line": 68162,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 68051
+        }
+      ]
+    },
+    "v6-v06-scene-defend-capital": {
+      "title": "守城获胜，战时损失与战后恢复分开",
+      "stage": "战力扩张与集体代价",
+      "situation": "多波攻击压缩防守空间，玩家与NPC都承担损耗。",
+      "action": "拆除器械、调度防线并接受菲雅等援军帮助；NPC经历战时全灭，战后另有系统恢复。",
+      "consequence": "获胜和战后恢复75%的物资军力是两个阶段；不能把战时全灭全部写成永久死亡，也不能写成毫无损失。",
+      "branch_ids": [],
+      "evidence": [
+        {
+          "chapter_id": "ch-0658",
+          "claim_kind": "fact",
+          "end_line": 71282,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 71155
+        },
+        {
+          "chapter_id": "ch-0659",
+          "claim_kind": "fact",
+          "end_line": 71417,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 71283
+        },
+        {
+          "chapter_id": "ch-0660",
+          "claim_kind": "fact",
+          "end_line": 71547,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 71418
+        },
+        {
+          "chapter_id": "ch-0661",
+          "claim_kind": "fact",
+          "end_line": 71669,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 71548
+        },
+        {
+          "chapter_id": "ch-0662",
+          "claim_kind": "fact",
+          "end_line": 71786,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 71670
+        },
+        {
+          "chapter_id": "ch-0663",
+          "claim_kind": "fact",
+          "end_line": 71901,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 71787
+        },
+        {
+          "chapter_id": "ch-0664",
+          "claim_kind": "fact",
+          "end_line": 72014,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 71902
+        },
+        {
+          "chapter_id": "ch-0665",
+          "claim_kind": "fact",
+          "end_line": 72142,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 72015
+        },
+        {
+          "chapter_id": "ch-0666",
+          "claim_kind": "fact",
+          "end_line": 72276,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 72143
+        },
+        {
+          "chapter_id": "ch-0667",
+          "claim_kind": "fact",
+          "end_line": 72424,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 72277
+        },
+        {
+          "chapter_id": "ch-0668",
+          "claim_kind": "fact",
+          "end_line": 72553,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 72425
+        },
+        {
+          "chapter_id": "ch-0669",
+          "claim_kind": "fact",
+          "end_line": 72702,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 72554
+        }
+      ]
+    },
+    "v6-v06-scene-refuse-duke": {
+      "title": "拒爵发生于手抖，入圣资格尚待等级",
+      "stage": "战力扩张与集体代价",
+      "situation": "国战结算同时牵涉封爵、政局和未来成长资格。",
+      "action": "书生实际因手抖点到拒绝，随后取得达到255级时的入圣资格；当场尚未满足等级。",
+      "consequence": "这次拒绝不能美化成预先确立的高尚原则，获得资格也不能提前写成已经入圣。",
+      "branch_ids": [
+        "v7-v07-relevel"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0696",
+          "claim_kind": "fact",
+          "end_line": 76000,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 75870
+        },
+        {
+          "chapter_id": "ch-0697",
+          "claim_kind": "fact",
+          "end_line": 76109,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 76001
+        }
+      ]
+    },
+    "v7-v07-relevel": {
+      "title": "再次归零，靠同伴支持恢复可用战力",
+      "stage": "组织重建与不可逆损失",
+      "situation": "圣域体验之后等级归零，已有高级武器暂时受门槛限制。",
+      "action": "书生接受弓靴、同伴留怪与募集经验等支持，把新资格逐步变成可用能力。",
+      "consequence": "高阶身份没有自动解决眼前无力；早期靠凌雪带练的关系在更大组织规模中再次接受检验。",
+      "branch_ids": [
+        "v2-return"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0778",
+          "claim_kind": "synthesis",
+          "end_line": 86043,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 85891
+        },
+        {
+          "chapter_id": "ch-0779",
+          "claim_kind": "synthesis",
+          "end_line": 86214,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 86044
+        },
+        {
+          "chapter_id": "ch-0781",
+          "claim_kind": "synthesis",
+          "end_line": 86498,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 86355
+        },
+        {
+          "chapter_id": "ch-0785",
+          "claim_kind": "synthesis",
+          "end_line": 87013,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 86873
+        },
+        {
+          "chapter_id": "ch-0786",
+          "claim_kind": "synthesis",
+          "end_line": 87172,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 87014
+        },
+        {
+          "chapter_id": "ch-0787",
+          "claim_kind": "synthesis",
+          "end_line": 87321,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 87173
+        }
+      ]
+    },
+    "v7-v07-qingfeng": {
+      "title": "收复清风，先切断传送后勤",
+      "stage": "组织重建与不可逆损失",
+      "situation": "野战包围并不能直接清空守军，城内补给与回流仍然有效。",
+      "action": "行动转向四名传送管理员，以后勤节点改变攻城条件。",
+      "consequence": "争城不只取决于谁杀得更多；只有回流条件改变，后续围攻才取得新的机会。",
+      "branch_ids": [],
+      "evidence": [
+        {
+          "chapter_id": "ch-0792",
+          "claim_kind": "synthesis",
+          "end_line": 88012,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 87867
+        },
+        {
+          "chapter_id": "ch-0793",
+          "claim_kind": "synthesis",
+          "end_line": 88131,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 88013
+        },
+        {
+          "chapter_id": "ch-0794",
+          "claim_kind": "synthesis",
+          "end_line": 88263,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 88132
+        },
+        {
+          "chapter_id": "ch-0795",
+          "claim_kind": "synthesis",
+          "end_line": 88399,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 88264
+        },
+        {
+          "chapter_id": "ch-0796",
+          "claim_kind": "synthesis",
+          "end_line": 88525,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 88400
+        },
+        {
+          "chapter_id": "ch-0797",
+          "claim_kind": "synthesis",
+          "end_line": 88660,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 88526
+        },
+        {
+          "chapter_id": "ch-0798",
+          "claim_kind": "synthesis",
+          "end_line": 88800,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 88661
+        },
+        {
+          "chapter_id": "ch-0799",
+          "claim_kind": "synthesis",
+          "end_line": 88956,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 88801
+        }
+      ]
+    },
+    "v7-v07-split": {
+      "title": "允许剑火离开，承担真实的骨干流失",
+      "stage": "组织重建与不可逆损失",
+      "situation": "龙魂等人对旧组织和旧记忆仍有未了归属。",
+      "action": "书生当面允许旧部离开，并保留兄弟立场，而非用当下利益强行锁住成员。",
+      "consequence": "私人情义可以继续，组织却确实失去骨干。重建要处理实在缺口，不能把许可写成无成本圆满。",
+      "branch_ids": [
+        "v6-v06-scene-mofang-dignity",
+        "v5-v05-scene-suifeng-exit"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0866",
+          "claim_kind": "synthesis",
+          "end_line": 97031,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 96911
+        },
+        {
+          "chapter_id": "ch-0867",
+          "claim_kind": "synthesis",
+          "end_line": 97160,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 97032
+        },
+        {
+          "chapter_id": "ch-0868",
+          "claim_kind": "synthesis",
+          "end_line": 97265,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 97161
+        }
+      ]
+    },
+    "v7-v07-destroy": {
+      "title": "防守失败之后，真正开始重建",
+      "stage": "组织重建与不可逆损失",
+      "situation": "多波互保与临机引怪仍不足以保住城市。",
+      "action": "书生和伙伴继续应战，却未能避免毁城；随后雨露新村实际建立。",
+      "consequence": "城市损失保留在历史里，重建由新据点落实，不是下一次奖励直接宣布旧城完好。",
+      "branch_ids": [],
+      "evidence": [
+        {
+          "chapter_id": "ch-0872",
+          "claim_kind": "synthesis",
+          "end_line": 97762,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 97653
+        },
+        {
+          "chapter_id": "ch-0873",
+          "claim_kind": "synthesis",
+          "end_line": 97869,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 97763
+        },
+        {
+          "chapter_id": "ch-0874",
+          "claim_kind": "synthesis",
+          "end_line": 97967,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 97870
+        },
+        {
+          "chapter_id": "ch-0875",
+          "claim_kind": "synthesis",
+          "end_line": 98073,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 97968
+        },
+        {
+          "chapter_id": "ch-0876",
+          "claim_kind": "synthesis",
+          "end_line": 98188,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 98074
+        },
+        {
+          "chapter_id": "ch-0877",
+          "claim_kind": "synthesis",
+          "end_line": 98298,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 98189
+        }
+      ]
+    },
+    "v7-v07-industry": {
+      "title": "坐骑发现转化为成建制军团",
+      "stage": "组织重建与不可逆损失",
+      "situation": "个人找到强力坐骑，还不能直接形成可调动的集体力量。",
+      "action": "银曜坐骑与毁灭剑进入集中装备和军团组织，资源发现被转成持续生产与配置。",
+      "consequence": "力量单位由一个高手扩大为一支军队，后续战争也更依赖供给、分配和指挥。",
+      "branch_ids": [],
+      "evidence": [
+        {
+          "chapter_id": "ch-0904",
+          "claim_kind": "synthesis",
+          "end_line": 101302,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 101180
+        },
+        {
+          "chapter_id": "ch-0905",
+          "claim_kind": "synthesis",
+          "end_line": 101385,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 101303
+        },
+        {
+          "chapter_id": "ch-0906",
+          "claim_kind": "synthesis",
+          "end_line": 101492,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 101386
+        },
+        {
+          "chapter_id": "ch-0907",
+          "claim_kind": "synthesis",
+          "end_line": 101595,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 101493
+        },
+        {
+          "chapter_id": "ch-0908",
+          "claim_kind": "synthesis",
+          "end_line": 101684,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 101596
+        },
+        {
+          "chapter_id": "ch-0909",
+          "claim_kind": "synthesis",
+          "end_line": 101782,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 101685
+        },
+        {
+          "chapter_id": "ch-0915",
+          "claim_kind": "synthesis",
+          "end_line": 102394,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 102290
+        },
+        {
+          "chapter_id": "ch-0996",
+          "claim_kind": "synthesis",
+          "end_line": 110154,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 110075
+        },
+        {
+          "chapter_id": "ch-1029",
+          "claim_kind": "synthesis",
+          "end_line": 113557,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 113465
+        }
+      ]
+    },
+    "v7-v07-aryan": {
+      "title": "救援者也被囚，灵儿主动保护解开最后一封",
+      "stage": "组织重建与不可逆损失",
+      "situation": "前来救援的一方也落入暗黑镜囚，常规脱困办法受阻。",
+      "action": "灵儿主动选择保护伙伴，触发第三、也是最后一道封印的解除。",
+      "consequence": "封印链在此闭合；早先第二封阶段魂殇的永久失去没有被抹回，母系全史仍是另一问题。",
+      "branch_ids": [
+        "v4-v04-spring",
+        "v6-v06-scene-linger-cost",
+        "editorial-mentor-missing"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0915",
+          "claim_kind": "synthesis",
+          "end_line": 102394,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 102290
+        },
+        {
+          "chapter_id": "ch-0916",
+          "claim_kind": "synthesis",
+          "end_line": 102495,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 102395
+        },
+        {
+          "chapter_id": "ch-0919",
+          "claim_kind": "synthesis",
+          "end_line": 102755,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 102676
+        },
+        {
+          "chapter_id": "ch-0920",
+          "claim_kind": "synthesis",
+          "end_line": 102857,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 102756
+        },
+        {
+          "chapter_id": "ch-0921",
+          "claim_kind": "synthesis",
+          "end_line": 102994,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 102858
+        },
+        {
+          "chapter_id": "ch-0922",
+          "claim_kind": "synthesis",
+          "end_line": 103101,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 102995
+        },
+        {
+          "chapter_id": "ch-0923",
+          "claim_kind": "synthesis",
+          "end_line": 103248,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 103102
+        },
+        {
+          "chapter_id": "ch-0924",
+          "claim_kind": "synthesis",
+          "end_line": 103369,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 103249
+        }
+      ]
+    },
+    "v7-v07-dal": {
+      "title": "击败达尔，没有换回每一位同伴",
+      "stage": "组织重建与不可逆损失",
+      "situation": "攻城与强敌战让集体承受重大消耗，玩家难以独立结束危机。",
+      "action": "NPC承担主战，玩家配合控制，战役最终推进；林丘却付出真实死亡。",
+      "consequence": "敌王被击败、参与者存亡与城市得失必须分别结算，玩家复活规则不能覆盖林丘的结局。",
+      "branch_ids": [
+        "v4-v04-linkforge",
+        "v5-v05-scene-mila"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-1030",
+          "claim_kind": "synthesis",
+          "end_line": 113646,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 113558
+        },
+        {
+          "chapter_id": "ch-1031",
+          "claim_kind": "synthesis",
+          "end_line": 113739,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 113647
+        },
+        {
+          "chapter_id": "ch-1032",
+          "claim_kind": "synthesis",
+          "end_line": 113829,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 113740
+        },
+        {
+          "chapter_id": "ch-1033",
+          "claim_kind": "synthesis",
+          "end_line": 113916,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 113830
+        },
+        {
+          "chapter_id": "ch-1034",
+          "claim_kind": "synthesis",
+          "end_line": 114020,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 113917
+        },
+        {
+          "chapter_id": "ch-1035",
+          "claim_kind": "synthesis",
+          "end_line": 114131,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 114021
+        },
+        {
+          "chapter_id": "ch-1036",
+          "claim_kind": "synthesis",
+          "end_line": 114221,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 114132
+        }
+      ]
+    },
+    "v8-v08-father": {
+      "title": "父亲去世，现实责任交到下一代手里",
+      "stage": "现实责任与终战",
+      "situation": "凌天病危使家庭保护、企业权力和感情安排同时面临终点。",
+      "action": "临终托付与附条件的股权安排发生，书生以父亲相称；伙伴迁往上海，进入实际管理岗位。",
+      "consequence": "失亲没有被继承收益抵消。姐妹与书生开始承担公司事务，获得职位也不等于已有专业能力。",
+      "branch_ids": [],
+      "evidence": [
+        {
+          "chapter_id": "ch-1107",
+          "claim_kind": "fact",
+          "end_line": 120169,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 120095
+        },
+        {
+          "chapter_id": "ch-1108",
+          "claim_kind": "fact",
+          "end_line": 120259,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 120170
+        },
+        {
+          "chapter_id": "ch-1109",
+          "claim_kind": "fact",
+          "end_line": 120345,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 120260
+        }
+      ]
+    },
+    "v8-v08-bloodroar": {
+      "title": "血吼倒下后，明宇偷袭冰兰",
+      "stage": "现实责任与终战",
+      "situation": "冰兰与队伍经过高强度战斗，尚未从损耗中脱离。",
+      "action": "血吼被合力击杀，随后明宇以月之哀伤偷袭并击碎冰兰神格。",
+      "consequence": "击杀回报和导师濒死同场发生；旧师身份与存死判断也被现场后证更新。",
+      "branch_ids": [
+        "editorial-mentor-missing",
+        "v8-v08-sacrifice"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-1129",
+          "claim_kind": "fact",
+          "end_line": 122229,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 122149
+        },
+        {
+          "chapter_id": "ch-1130",
+          "claim_kind": "fact",
+          "end_line": 122303,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 122230
+        },
+        {
+          "chapter_id": "ch-1131",
+          "claim_kind": "fact",
+          "end_line": 122388,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 122304
+        },
+        {
+          "chapter_id": "ch-1132",
+          "claim_kind": "fact",
+          "end_line": 122501,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 122389
+        }
+      ]
+    },
+    "v8-v08-sacrifice": {
+      "title": "自愿活祭，让学徒承担导师的生存代价",
+      "stage": "现实责任与终战",
+      "situation": "常规救治不足以重塑冰兰神格，还要面对大巫师的旧怨与条件。",
+      "action": "书生自愿承担活祭代价，借法杖收集神格；冰兰醒来后，两人共同道歉。",
+      "consequence": "这次苏醒有明确后证，救援方向完成反转；不能借此提前认定终战后的冰封也会再次苏醒。",
+      "branch_ids": [
+        "v5-v05-scene-blood-consent",
+        "v8-v08-endbattle"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-1133",
+          "claim_kind": "fact",
+          "end_line": 122588,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 122502
+        },
+        {
+          "chapter_id": "ch-1134",
+          "claim_kind": "fact",
+          "end_line": 122666,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 122589
+        },
+        {
+          "chapter_id": "ch-1135",
+          "claim_kind": "fact",
+          "end_line": 122778,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 122667
+        }
+      ]
+    },
+    "v8-v08-wsl": {
+      "title": "世界赛夺冠，再分配团队的成长机会",
+      "stage": "现实责任与终战",
+      "situation": "国际决赛同时检验队伍深度与个人能力。",
+      "action": "雪月在三场单打后以三比零夺冠，赛后分配奖励和飞升证明，凌月随后实际进入智慧神殿。",
+      "consequence": "团队胜利转为不同成员的成长条件，奖励取得与完成飞升仍有先后。",
+      "branch_ids": [
+        "v8-v08-swordduel",
+        "v8-v08-kite"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-1148",
+          "claim_kind": "fact",
+          "end_line": 123969,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 123871
+        },
+        {
+          "chapter_id": "ch-1149",
+          "claim_kind": "fact",
+          "end_line": 124046,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 123970
+        },
+        {
+          "chapter_id": "ch-1150",
+          "claim_kind": "fact",
+          "end_line": 124117,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 124047
+        },
+        {
+          "chapter_id": "ch-1151",
+          "claim_kind": "fact",
+          "end_line": 124203,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 124118
+        }
+      ]
+    },
+    "v8-v08-cleanse": {
+      "title": "安妮重获自我，却拒绝接回王位",
+      "stage": "现实责任与终战",
+      "situation": "被捕只是前置条件，安妮体内的控制力量仍须另行净化。",
+      "action": "冰兰施法、书生提供协助，净化实际成功；安妮补充情报，并拒绝菲雅提出的让位。",
+      "consequence": "身份与行动重新统一，菲雅继续统治、安妮承担先锋职责；恢复清醒不等于旧日后果一笔勾销。",
+      "branch_ids": [
+        "v5-v05-scene-annie-reversal",
+        "v8-v08-capture"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-1170",
+          "claim_kind": "fact",
+          "end_line": 125829,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 125747
+        },
+        {
+          "chapter_id": "ch-1171",
+          "claim_kind": "fact",
+          "end_line": 125929,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 125830
+        },
+        {
+          "chapter_id": "ch-1172",
+          "claim_kind": "fact",
+          "end_line": 126017,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 125930
+        }
+      ]
+    },
+    "v8-v08-endbattle": {
+      "title": "终战完成目标，冰兰以生命冰封留下缺口",
+      "stage": "现实责任与终战",
+      "situation": "进入最终战场后，神器和技能也无法包办全部威胁。",
+      "action": "书生在武器毁损后仍协助冰兰终结明宇；冰兰以生命禁咒封住圣者，自己随之冰封。",
+      "consequence": "系统胜利没有兑现私人团圆。月之哀伤和龙域职责留给书生，冰兰恢复日常的愿望仍未实现。",
+      "branch_ids": [
+        "v8-v08-oracle",
+        "v8-v08-cleanse"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-1178",
+          "claim_kind": "fact",
+          "end_line": 126523,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 126445
+        },
+        {
+          "chapter_id": "ch-1179",
+          "claim_kind": "fact",
+          "end_line": 126618,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 126524
+        },
+        {
+          "chapter_id": "ch-1180",
+          "claim_kind": "fact",
+          "end_line": 126738,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 126619
+        }
+      ]
+    },
+    "v8-v08-after": {
+      "title": "半年之后，用探望、工作与重聚承接结局",
+      "stage": "现实责任与终战",
+      "situation": "大规模征服阶段结束，失去的人、留下的职责与伙伴的新生活仍在。",
+      "action": "书生按月探望冰兰并收到龙域账单，伙伴投入现实工作又相聚；冰川中的浅笑无法确认苏醒。",
+      "consequence": "故事收束在持续生活，而非全部问题消失。接账不等于展示每笔付款，重聚也不等于所有婚礼已经举行。",
+      "branch_ids": [
+        "v8-v08-father",
+        "v4-v04-cemetery"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-1180",
+          "claim_kind": "fact",
+          "end_line": 126738,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 126619
+        },
+        {
+          "chapter_id": "ch-1181",
+          "claim_kind": "fact",
+          "end_line": 126850,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 126739
+        }
+      ]
+    },
+    "v1-gift": {
+      "title": "头盔赠出：援助先改变能否入局",
+      "stage": "关系与能力的交汇",
+      "situation": "头盔已被误绑定，书生又无力自行购买。",
+      "action": "凌雪仍决定把头盔留下，随后还有现金与工作地址。",
+      "consequence": "援助解决具体门槛，也留下日后赠剑时被明确重提的人情理由。",
+      "branch_ids": [
+        "v1-note",
+        "v1-v1c35"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0005",
+          "claim_kind": "fact",
+          "end_line": 200,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 193
+        }
+      ]
+    },
+    "v1-v1c35": {
+      "title": "赠剑：战利品、旧人情与眼前缺口交汇",
+      "stage": "关系与能力的交汇",
+      "situation": "流光剑来自杀王成功但任务失败的冒险，原本也可以待售换钱。",
+      "action": "书生因头盔之情赠剑给攻击力较低的凌雪。",
+      "consequence": "礼物实际提高她的输出，改变后续分工；关系理由、物件来源和战斗用途在同一事件相交。",
+      "branch_ids": [
+        "v1-gift",
+        "v1-v1c30",
+        "v2-refuse"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0036",
+          "claim_kind": "fact",
+          "end_line": 2569,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 2510
+        }
+      ]
+    },
+    "v2-refuse": {
+      "title": "拒戒：靠近发生了，原因却没有被说透",
+      "stage": "关系与能力的交汇",
+      "situation": "赠礼延续两人的亲近，但仍不足以确认稳定名分。",
+      "action": "书生送戒，凌雪哭着拒绝；后来口头说收与实际存库另有时点。",
+      "consequence": "拒戒原因不能由终局倒填，收下也不自动等于求婚成立或恋人名分已明确。",
+      "branch_ids": [
+        "v2-accept",
+        "v3-v03-promise"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0096",
+          "claim_kind": "fact",
+          "end_line": 6271,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 6264
+        }
+      ]
+    },
+    "v3-v03-promise": {
+      "title": "拒绝名分与继续陪伴同时存在",
+      "stage": "关系与能力的交汇",
+      "situation": "两人的亲密已增加，正式关系却还需要当事人确认。",
+      "action": "凌雪当时拒绝女友名分，又以吻与继续陪伴回应。",
+      "consequence": "这是一种具体阶段状态，与后来校园公开称男友不同，不能提前合并。",
+      "branch_ids": [
+        "v4-v04-campus"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0238",
+          "claim_kind": "inference",
+          "end_line": 21212,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 21114
+        }
+      ]
+    },
+    "v4-v04-campus": {
+      "title": "校园公开命名关系",
+      "stage": "关系与能力的交汇",
+      "situation": "追求者和旁观者把关系推到公共场景。",
+      "action": "凌雪自己拒绝对方，称书生为男友并主动亲吻。",
+      "consequence": "恋人身份由双方行为获得公开依据；校园中的冲突也不能被浪漫场面抹去。",
+      "branch_ids": [
+        "v3-v03-promise",
+        "v7-v07-xun"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0340",
+          "claim_kind": "fact",
+          "end_line": 32149,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 32042
+        }
+      ]
+    },
+    "v4-v04-rescuexiang": {
+      "title": "救出林香之后，照料仍要继续",
+      "stage": "获救与自主发声",
+      "situation": "林香的现实处境危险，离开旧控制关系需要实际行动。",
+      "action": "救援把她带到新的安全环境，伙伴继续承担护理与共同生活。",
+      "consequence": "获救不是当场完全康复，更不能替她回答后来的归属；恢复行动与亲口拒绝祭祖仍在后面。",
+      "branch_ids": [
+        "v8-v08-family"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0285",
+          "claim_kind": "fact",
+          "end_line": 25903,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 25773
+        },
+        {
+          "chapter_id": "ch-0286",
+          "claim_kind": "fact",
+          "end_line": 26005,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 25904
+        },
+        {
+          "chapter_id": "ch-0287",
+          "claim_kind": "fact",
+          "end_line": 26093,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 26006
+        },
+        {
+          "chapter_id": "ch-0290",
+          "claim_kind": "fact",
+          "end_line": 26385,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 26266
+        }
+      ]
+    },
+    "v4-v04-linkforge": {
+      "title": "林克最后铸甲，委托之外留下人生",
+      "stage": "遗物、亲缘与战争",
+      "situation": "失明的亡灵仍有旧史、牵挂与完成铸造的愿望。",
+      "action": "他在自己的终点完成铸甲；关于安妮的记忆也由这一人物渠道进入。",
+      "consequence": "装备有了不可替代的制造者和私人历史；后续身份揭露不等于林克本人已经重逢爱人。",
+      "branch_ids": [
+        "v5-v05-scene-annie-reversal"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0400",
+          "claim_kind": "fact",
+          "end_line": 39563,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 39430
+        },
+        {
+          "chapter_id": "ch-0401",
+          "claim_kind": "fact",
+          "end_line": 39690,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 39564
+        }
+      ]
+    },
+    "v4-v04-dragonbone": {
+      "title": "幻灵获救，胜利仍须补偿损失",
+      "stage": "灵儿封印线",
+      "situation": "危险与损失并未因打赢眼前对抗而全部解决。",
+      "action": "书生救出幻灵，并继续承担事件留下的补偿与照料。",
+      "consequence": "灵儿进入共同冒险，关系从任务结果变成持续责任，后来的护主才有相处基础。",
+      "branch_ids": [
+        "v4-v04-spring"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0256",
+          "claim_kind": "fact",
+          "end_line": 22976,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 22868
+        },
+        {
+          "chapter_id": "ch-0257",
+          "claim_kind": "fact",
+          "end_line": 23097,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 22977
+        }
+      ]
+    },
+    "v4-v04-spring": {
+      "title": "魔泉护主，第一封解除",
+      "stage": "灵儿封印线",
+      "situation": "危机使书生一度以为会失去灵儿。",
+      "action": "灵儿的保护行动推动第一道封印解除。",
+      "consequence": "她由被救对象走向能改变危机的人，封印链却尚未完成。",
+      "branch_ids": [
+        "v6-v06-scene-linger-cost"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0385",
+          "claim_kind": "fact",
+          "end_line": 37686,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 37582
+        },
+        {
+          "chapter_id": "ch-0386",
+          "claim_kind": "fact",
+          "end_line": 37828,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 37687
+        },
+        {
+          "chapter_id": "ch-0387",
+          "claim_kind": "fact",
+          "end_line": 37981,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 37829
+        },
+        {
+          "chapter_id": "ch-0388",
+          "claim_kind": "fact",
+          "end_line": 38098,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 37982
+        }
+      ]
+    },
+    "v6-v06-scene-linger-cost": {
+      "title": "第二封推进，同场永久失去魂殇",
+      "stage": "灵儿封印线",
+      "situation": "救宠与团队任务之间产生取舍，成长不能按单一奖励计算。",
+      "action": "灵儿第二封解除后归零沉睡；同一阶段魂殇战力永久失去。",
+      "consequence": "封印推进与另一位伙伴不可逆的损失并存，后来苏醒也不能把魂殇重新算回队伍。",
+      "branch_ids": [
+        "v4-v04-soul",
+        "v7-v07-aryan"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0559",
+          "claim_kind": "fact",
+          "end_line": 58785,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 58675
+        },
+        {
+          "chapter_id": "ch-0560",
+          "claim_kind": "fact",
+          "end_line": 58918,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 58786
+        },
+        {
+          "chapter_id": "ch-0561",
+          "claim_kind": "fact",
+          "end_line": 59069,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 58919
+        },
+        {
+          "chapter_id": "ch-0562",
+          "claim_kind": "fact",
+          "end_line": 59186,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 59070
+        },
+        {
+          "chapter_id": "ch-0566",
+          "claim_kind": "fact",
+          "end_line": 59714,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 59593
+        }
+      ]
+    },
+    "v6-v06-scene-mofang-dignity": {
+      "title": "魔方拒招，合作必须容纳旧承诺",
+      "stage": "组织归属线",
+      "situation": "高手已有旧会知遇关系，主角开价不能直接消除他的忠诚。",
+      "action": "命运魔方拒绝强招与简单换人，最终通过分盟等安排加入合作。",
+      "consequence": "组织方案因他的拒绝而改变；合作有新条件，但旧会人数迁移仍须看实际执行。",
+      "branch_ids": [
+        "v7-v07-split"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0706",
+          "claim_kind": "fact",
+          "end_line": 77393,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 77262
+        },
+        {
+          "chapter_id": "ch-0709",
+          "claim_kind": "fact",
+          "end_line": 77866,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 77717
+        },
+        {
+          "chapter_id": "ch-0711",
+          "claim_kind": "fact",
+          "end_line": 78146,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 78020
+        },
+        {
+          "chapter_id": "ch-0712",
+          "claim_kind": "fact",
+          "end_line": 78262,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 78147
+        },
+        {
+          "chapter_id": "ch-0716",
+          "claim_kind": "fact",
+          "end_line": 78715,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 78620
+        },
+        {
+          "chapter_id": "ch-0735",
+          "claim_kind": "fact",
+          "end_line": 80661,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 80593
+        }
+      ]
+    },
+    "editorial-mentor-missing": {
+      "title": "明宇：被认定死亡，不等于已见死亡",
+      "stage": "旧师身份暗线",
+      "situation": "旧师带队失踪，现场遗留染血物件，却没有尸体后证。",
+      "action": "冰兰依据传承契约作出死亡判断，同时保留残余希望。",
+      "consequence": "人物当时的判断与读者后来见到的现身分别保存，不能叙述成已确认死后再复活。",
+      "branch_ids": [
+        "v7-v07-aryan",
+        "v8-v08-bloodroar"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0915",
+          "claim_kind": "fact",
+          "end_line": 102370,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 102358
+        }
+      ]
+    },
+    "v5-v05-scene-annie-reversal": {
+      "title": "敌方援军先保护自己的妹妹",
+      "stage": "安妮身份暗线",
+      "situation": "战场把安妮放在敌军领袖的位置，林克旧记忆又提供另一层历史。",
+      "action": "援军倒计时到来后，安妮首先救下妹妹菲雅。",
+      "consequence": "阵营标签不能完整预测她的选择；姐妹关系通过行动显现，控制处境仍待后文处理。",
+      "branch_ids": [
+        "v8-v08-capture",
+        "v8-v08-cleanse"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0522",
+          "claim_kind": "fact",
+          "end_line": 54361,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 54263
+        },
+        {
+          "chapter_id": "ch-0528",
+          "claim_kind": "fact",
+          "end_line": 55113,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 54975
+        },
+        {
+          "chapter_id": "ch-0529",
+          "claim_kind": "fact",
+          "end_line": 55242,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 55114
+        },
+        {
+          "chapter_id": "ch-0530",
+          "claim_kind": "fact",
+          "end_line": 55367,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 55243
+        }
+      ]
+    },
+    "v8-v08-capture": {
+      "title": "安妮被捕，净化仍只有有限希望",
+      "stage": "安妮身份暗线",
+      "situation": "要恢复安妮，先需要在战斗中留下可供救治的人，而非简单击杀。",
+      "action": "队伍实施猎捕，冰兰给出净化办法，同时存在对外与私下不同的成功把握表述。",
+      "consequence": "被捕不等于已恢复清醒，概率报告也不等于实际结果，净化必须另行完成。",
+      "branch_ids": [
+        "v8-v08-cleanse"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-1155",
+          "claim_kind": "fact",
+          "end_line": 124512,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 124423
+        },
+        {
+          "chapter_id": "ch-1157",
+          "claim_kind": "fact",
+          "end_line": 124702,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 124597
+        },
+        {
+          "chapter_id": "ch-1158",
+          "claim_kind": "fact",
+          "end_line": 124787,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 124703
+        },
+        {
+          "chapter_id": "ch-1159",
+          "claim_kind": "fact",
+          "end_line": 124901,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 124788
+        }
+      ]
+    },
+    "v7-v07-qinreturn": {
+      "title": "秦韵的回来包含拒绝、生活安排与同意",
+      "stage": "离开与重新选择",
+      "situation": "找到秦韵并不自动意味着她愿意恢复原来的共同生活。",
+      "action": "拒返、退租与归队在不同环节发生，她的答复与现实处境共同改变决定。",
+      "consequence": "救助、回住、入会与亲密身份不能合成一次男主接回；她保留自己的答应时点。",
+      "branch_ids": [
+        "v6-v06-scene-qin-return",
+        "v7-v07-qinamerica"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0918",
+          "claim_kind": "synthesis",
+          "end_line": 102675,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 102590
+        },
+        {
+          "chapter_id": "ch-0932",
+          "claim_kind": "synthesis",
+          "end_line": 104108,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 104012
+        },
+        {
+          "chapter_id": "ch-0933",
+          "claim_kind": "synthesis",
+          "end_line": 104209,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 104109
+        },
+        {
+          "chapter_id": "ch-0934",
+          "claim_kind": "synthesis",
+          "end_line": 104352,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 104210
+        },
+        {
+          "chapter_id": "ch-0935",
+          "claim_kind": "synthesis",
+          "end_line": 104464,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 104353
+        },
+        {
+          "chapter_id": "ch-0936",
+          "claim_kind": "synthesis",
+          "end_line": 104590,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 104465
+        },
+        {
+          "chapter_id": "ch-0937",
+          "claim_kind": "synthesis",
+          "end_line": 104707,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 104591
+        }
+      ]
+    },
+    "v7-v07-redtrauma": {
+      "title": "红绫舞受创之后，仍自己重建组织",
+      "stage": "离开与重新选择",
+      "situation": "现实暴力、重要关系崩塌与旧组织解散叠加。",
+      "action": "红绫舞寻求新的朋友和管理支持，重新招募、经营月神。",
+      "consequence": "恢复行动能力不等于已从伤害中痊愈，组织重建也不使案件猜测变成司法结案。",
+      "branch_ids": [
+        "v7-v07-recruit"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0980",
+          "claim_kind": "synthesis",
+          "end_line": 108298,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 108211
+        },
+        {
+          "chapter_id": "ch-0981",
+          "claim_kind": "synthesis",
+          "end_line": 108415,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 108299
+        },
+        {
+          "chapter_id": "ch-0982",
+          "claim_kind": "synthesis",
+          "end_line": 108537,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 108416
+        },
+        {
+          "chapter_id": "ch-0983",
+          "claim_kind": "synthesis",
+          "end_line": 108629,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 108538
+        },
+        {
+          "chapter_id": "ch-0987",
+          "claim_kind": "synthesis",
+          "end_line": 109100,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 108976
+        },
+        {
+          "chapter_id": "ch-0994",
+          "claim_kind": "synthesis",
+          "end_line": 109977,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 109880
+        },
+        {
+          "chapter_id": "ch-0995",
+          "claim_kind": "synthesis",
+          "end_line": 110074,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 109978
+        },
+        {
+          "chapter_id": "ch-0999",
+          "claim_kind": "synthesis",
+          "end_line": 110499,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 110392
+        }
+      ]
+    },
+    "v5-v05-scene-suifeng-exit": {
+      "title": "欣赏主角，仍然可以拒绝最强邀请",
+      "stage": "组织归属线",
+      "situation": "暗影随风能够认可对手，却还有自己的尊严与归属。",
+      "action": "他归还装备，并拒绝当时的招募邀请。",
+      "consequence": "拒绝在那个时点有效，后来的改变必须由新处境解释，不能倒写成一开始就愿意加入。",
+      "branch_ids": [
+        "v6-v06-scene-suifeng-exit"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0522",
+          "claim_kind": "fact",
+          "end_line": 54361,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 54263
+        },
+        {
+          "chapter_id": "ch-0523",
+          "claim_kind": "fact",
+          "end_line": 54470,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 54362
+        }
+      ]
+    },
+    "v6-v06-scene-suifeng-exit": {
+      "title": "羞辱使旧归属破裂，加入另有时点",
+      "stage": "组织归属线",
+      "situation": "旧组织里的侮辱改变了随风继续效忠的条件。",
+      "action": "他离开旧主，并在新的冲突中面对过去的同僚。",
+      "consequence": "阵营变化来自新的选择与代价，不是主角早先馈赠已经买下此人的证明。",
+      "branch_ids": [
+        "v6-v06-scene-take-moon"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0671",
+          "claim_kind": "fact",
+          "end_line": 73006,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 72850
+        },
+        {
+          "chapter_id": "ch-0672",
+          "claim_kind": "fact",
+          "end_line": 73133,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 73007
+        },
+        {
+          "chapter_id": "ch-0717",
+          "claim_kind": "fact",
+          "end_line": 78796,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 78716
+        }
+      ]
+    },
+    "v5-v05-scene-mila": {
+      "title": "米拉的遗物让战争留下私人重量",
+      "stage": "遗物、亲缘与战争",
+      "situation": "战争中的人并非只有兵种与伤害数值，也有未完成的生活。",
+      "action": "婚纱、披风与相关人物的牵挂进入同一条经历。",
+      "consequence": "物件意义通过后续持有与行动延续；林丘、米拉与其他遗物线仍须分清各自归属。",
+      "branch_ids": [
+        "v7-v07-dal"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0432",
+          "claim_kind": "fact",
+          "end_line": 43526,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 43395
+        },
+        {
+          "chapter_id": "ch-0433",
+          "claim_kind": "fact",
+          "end_line": 43653,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 43527
+        },
+        {
+          "chapter_id": "ch-0434",
+          "claim_kind": "fact",
+          "end_line": 43766,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 43654
+        },
+        {
+          "chapter_id": "ch-0517",
+          "claim_kind": "fact",
+          "end_line": 53791,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 53696
+        }
+      ]
+    },
+    "v4-v04-soul": {
+      "title": "魂殇以剑留下后续可用的战力",
+      "stage": "遗物、亲缘与战争",
+      "situation": "临终愿望和传承使一次人物告别不只结算成任务奖励。",
+      "action": "魂殇临终复明并化为剑，留下可召唤的阶段性战力。",
+      "consequence": "留下的力量后来仍会永久损失；拥有过不等于整书始终保有，不能列成常驻能力。",
+      "branch_ids": [
+        "v6-v06-scene-linger-cost"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0291",
+          "claim_kind": "fact",
+          "end_line": 26504,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 26386
+        },
+        {
+          "chapter_id": "ch-0292",
+          "claim_kind": "fact",
+          "end_line": 26597,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 26505
+        },
+        {
+          "chapter_id": "ch-0294",
+          "claim_kind": "fact",
+          "end_line": 26775,
+          "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+          "source_id": "src-2a13958390274509b2af019f6b12d981",
+          "start_line": 26693
+        }
+      ]
+    }
+  }
+}

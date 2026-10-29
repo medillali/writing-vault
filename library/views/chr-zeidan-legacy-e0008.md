@@ -1,0 +1,92 @@
+# 贼胆｜沃卡德｜E0008
+
+ID: `chr-zeidan-legacy-e0008` · 版本: 1 · 范围: source-analysis
+
+奥德弟弟，被困神殿并受诅咒，重逢时攻向雷多纳；短暂清醒要求哥哥杀自己。；身体毁灭后魂被祭灵珠收取，最终救活与否由后续山德鲁决定的说法并未在A兑现。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0008",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "高：救援目标与情绪转折",
+    "facts": [
+      "奥德弟弟，被困神殿并受诅咒，重逢时攻向雷多纳；短暂清醒要求哥哥杀自己。",
+      "身体毁灭后魂被祭灵珠收取，最终救活与否由后续山德鲁决定的说法并未在A兑现。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0008",
+    "maintenance_depth": "高：求死选择及兄弟经历",
+    "name": "沃卡德",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0008",
+    "relations": [
+      {
+        "target": "奥德",
+        "type": "弟弟与被救者"
+      },
+      {
+        "target": "克莉丝",
+        "type": "曾有竞争情感前史，勿只存三角标签"
+      }
+    ],
+    "summary": "奥德弟弟，被困神殿并受诅咒，重逢时攻向雷多纳；短暂清醒要求哥哥杀自己。；身体毁灭后魂被祭灵珠收取，最终救活与否由后续山德鲁决定的说法并未在A兑现。",
+    "user_feedback": null,
+    "worker_part": "part-a"
+  },
+  "created_at": "2026-10-22T17:03:11.757199+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0144",
+      "claim_kind": "fact",
+      "end_line": 6096,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 6049
+    },
+    {
+      "chapter_id": "ch-0149",
+      "claim_kind": "fact",
+      "end_line": 6403,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 6351
+    },
+    {
+      "chapter_id": "ch-0150",
+      "claim_kind": "fact",
+      "end_line": 6443,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 6414
+    },
+    {
+      "chapter_id": "ch-0153",
+      "claim_kind": "fact",
+      "end_line": 6636,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 6577
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0008",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-a"
+  ],
+  "title": "贼胆｜沃卡德｜E0008",
+  "updated_at": "2026-10-22T17:03:11.761543+00:00",
+  "user_notes": ""
+}
+
+```

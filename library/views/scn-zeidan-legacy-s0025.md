@@ -1,0 +1,64 @@
+# 贼胆｜默斯追入石缝，落水后分离｜S0025
+
+ID: `scn-zeidan-legacy-s0025` · 版本: 1 · 范围: source-analysis
+
+山猫与默斯逼两人退入未标石缝，滑坡跌河。；滑落中保护身体，分离后赵连发关心讯息。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-zeidan-legacy-s0025",
+  "asset_type": "scene",
+  "content": {
+    "causal_importance": "局部情节关键",
+    "choices": [
+      "面对压制选择退路"
+    ],
+    "facts": [
+      "山猫与默斯逼两人退入未标石缝，滑坡跌河。",
+      "滑落中保护身体，分离后赵连发关心讯息。"
+    ],
+    "inferences": [],
+    "interesting_unresolved": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/scenes.json#S0025",
+    "name": "默斯追入石缝，落水后分离",
+    "previous_context": "部落史中的失踪清剿者默斯成为矿洞强敌。",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "S0025",
+    "result": "失败打开地下新区域，二人分线，关心有身体和行动基础。",
+    "summary": "山猫与默斯逼两人退入未标石缝，滑坡跌河。；滑落中保护身体，分离后赵连发关心讯息。",
+    "title": "默斯追入石缝，落水后分离",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:13.752303+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0170",
+      "claim_kind": "fact",
+      "end_line": 7687,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 7624
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/S0025",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜默斯追入石缝，落水后分离｜S0025",
+  "updated_at": "2026-10-22T17:03:13.753831+00:00",
+  "user_notes": ""
+}
+
+```

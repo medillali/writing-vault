@@ -1,0 +1,43 @@
+{
+  "results": [
+    {
+      "name": "主干从第1步开始，下一步解释处境、行动与变化",
+      "pass": false,
+      "error": "缺少开始主干阅读入口\n\n0 !== 1\n"
+    },
+    {
+      "name": "目录完整列出31步和7条全书线，末步仍保留未醒边界",
+      "pass": false,
+      "error": "主干目录缺失\n\n0 !== 31\n"
+    },
+    {
+      "name": "按人物检索，结果清单能定位同图事件",
+      "pass": false,
+      "error": "没有可选的搜索结果清单"
+    },
+    {
+      "name": "回到上个事件，不被全图定位打断",
+      "pass": false,
+      "error": "page.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#go-back')\u001b[22m\n"
+    },
+    {
+      "name": "小地图随缩放更新，点击能移动视野",
+      "pass": false,
+      "error": "缺少当前位置小地图\n\n0 !== 1\n"
+    },
+    {
+      "name": "重新打开后恢复到具体主干节点，深链接仍优先",
+      "pass": false,
+      "error": "page.selectOption: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#guide-select')\u001b[22m\n"
+    },
+    {
+      "name": "390px手机能读正文和导航，无页面横向溢出",
+      "pass": false,
+      "error": "locator.innerText: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#detail-narrative')\u001b[22m\n"
+    }
+  ],
+  "passed": 0,
+  "failed": 7,
+  "javascript_errors": [],
+  "external_requests": []
+}

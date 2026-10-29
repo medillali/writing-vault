@@ -1,0 +1,84 @@
+{
+  "delta_verification": {
+    "all_other_values_exactly_equal": true,
+    "approved_objects": 10,
+    "proof": "独立从before重放获批proposal，与当前全JSON及完整文本相等。",
+    "reading_files_and_chapter_indices_unchanged": true,
+    "report_paragraphs": 1
+  },
+  "input_sha256": {
+    "analysis.json": "48c8e30f459c51d1f44fe8f4923c7daff997a6f10ddf047cf5dfd4edc01d3fb8",
+    "assemble_approved_review.py": "5a14ce2ffe81da7c109aa0d1327dcf295a0d46b5746554597c31ce85717ee2b4",
+    "assembly-replay-validation.json": "b1ac0f195c961b6bddc5aa35b3cc0759eb20380e62564255c2ed94fe690939d7",
+    "cards.json": "115ed7de9625f036d0f49a68cde2150a2d517e9450d9df124ff3df3f5f7604db",
+    "chapter-notes.jsonl": "908e7c4f01fe342fe61cd4d8e7494da0266e830c02fe73acffef9fc76bb871b9",
+    "freeze-manifest.json": "dd90b733d2d3cac54c2906259e17f1b0ac9ee8246f814e5511336c91644d4f26",
+    "graph.json": "83343ba91080f9c9e4b638138d4686df78e09791644d9246e7daf2465f2df2ab",
+    "handoff.md": "7d0870447666f7dfa924b0c02e6e07dc22b26523e7323499cb17ee17daf31e24",
+    "primary-review-impact-scan.json": "13fdbb98d88e470a8998d29ebdeb5aad5fd7b1a2ec8315f52325ea7fe0759473",
+    "primary-review-merged-delta.json": "3c98d2b8b91a6f002374b602c263c77bfd85ae09d91510e75421b20632931b14",
+    "primary-review-proposal.json": "aad046aaea881c6801ed6c290d6a7b464eb90bdd7ad6abcb499ade105e6570fb",
+    "primary-review-supplement-delta.json": "4cc1b74086f2558e6b7731503464ae27f807244e5ea2fc1cd11918c3843f5697",
+    "read-log.json": "e16491213242360310074560e0c5d250c27d86819a026c4042e71c99053842be",
+    "reader-state.json": "542bb43bd2ea2882d35a73d52e255144bd33ba87531b2f29dc1d502b994d25a0",
+    "report.md": "855a69518244a136d0e4e0db797f8dfa3ae171d50ecbdd56849be6c35ca045bc",
+    "research-checkpoint.json": "8c5bdb8f7b21a002a99cd132b7a8016c1a98ad618e0ed8373a203368bf91cf58",
+    "self-review-receipt.json": "c67e223edd7f37130850991388c7cfa069fe93e0dbab9e083538825ec6a7bb1d",
+    "validation.json": "6cee141433ade143ad5443106f6bd6995950521e7fa9c83497ce6f665f483310"
+  },
+  "preflight": {
+    "body_units_read": 210,
+    "book": "zhanlong",
+    "cards": {
+      "character": 56,
+      "pattern": 16,
+      "scene": 54
+    },
+    "edges": 44,
+    "evidence_references_checked": 2520,
+    "indexed_segments_read": 211,
+    "nodes": 64,
+    "preflight": "passed",
+    "threads": 19,
+    "volume": 5
+  },
+  "remaining": [
+    "按序等待卷4先正式，再导入5/6。",
+    "六卷正式后全部历史/局部候选逐项终审、36全书综合/人物弧、跨书管理及fresh完整备份实际恢复继续。"
+  ],
+  "review_groups": {
+    "approved_changed_objects": 10,
+    "approved_report_paragraph": 1,
+    "cards": 126,
+    "dimensions": 45,
+    "edges": 44,
+    "literary_limits": 4,
+    "major_character_states_exact_projection": 56,
+    "named_life_states": 18,
+    "nodes": 64,
+    "open_questions": 25,
+    "source_anomalies": 19,
+    "threads": 19,
+    "transferable_patterns": 16
+  },
+  "reviewed_at": "2026-10-25T21:03:25.340170+00:00",
+  "reviewer": "primary",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "scope": "完整逐项读45九维/126卡/64节点44边19线/25问题19异常18生死16摘要4限制、report全文37行和handoff41行；56人物阶段及19线是已读卡/图精确投影。本轮另全文复读1091—1094核武汉同场分区，不冒称primary个人整卷原文阅读。",
+  "semantic_findings": [
+    "口授大执戈、正式仪式/界面、王准实际远征分时；军政能力不自动等资源产权，主屠民/替死/强迁责任不能由胜利清账。",
+    "ALLSTAR主八强/林冠军；会猎印度阵营赢主个人MVP；二战中国总胜而方MVP，帝国主权与葡临海公会各属不同层。",
+    "普通军部分系统恢复、凡书设施全部恢复与玩家80%经验各记；徐焰尸证不由泛恢复抹去，韩重伤起身与兰濒死救醒非死而无证复。",
+    "薛柔本人认抹/小妖/为爱后分步归会返现实；纸上画魅=薛景/薛柔堂妹，颜沫牛奶另人。撤原连续性事实纸为景堂妹之误，原稿保。",
+    "雷丁1125系统死亡，1126得铠复制后才六件重生；1151首次实复，后全五星与取魂的物料/交易/外交债分列，弗雷活剥后仍活返。",
+    "root完整原文1091—1094确认武汉同一现场南北分区，上海为小队籍属，唐林是上海队长不是唐琦/林成两人。北片普通持刀者与南片殖装分开，杭州队主轻伤不掩其他伤亡。",
+    "神威炮场撤误连现实王信的卡/图引用；五A只有一名日本活口已核，不扩大四死者国籍。布斯特样本和活口不等指汪司法结案。",
+    "现实阳炎已有，北辰观三日完善中阶/心眼火甲非首次突破；女友亲密与东无男友边界、母认可与莓本人充分同意分层。",
+    "安娜子舒击杀，银戈主末刀且NPC主要输出；群龙实际归城、尚未封龙神。1179戒千万只是竞价未落槌/净额/分款。",
+    "连续性五条改成当面认名、延迟实装、不同恢复风险、漂移阅读负担与局部收束接新期待；不是我们的建卡审计流程。事实和新增后证逐项核。"
+  ],
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "status": "reviewed_for_library_import",
+  "user_approval": false,
+  "volume": 5
+}

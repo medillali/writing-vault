@@ -1,0 +1,25 @@
+{
+  "status": "passed_metadata_and_disabled_saver_gate",
+  "volume": 5,
+  "expected_body_units": 265,
+  "expected_raw_segments": 266,
+  "first_segment": "ch-0793",
+  "last_segment": "ch-1058",
+  "reading_authorized": false,
+  "actual_body_read_count": 0,
+  "actual_raw_segment_read_count": 0,
+  "unauthorized_save_rejected_before_batch_open": true,
+  "ledger_sha256_unchanged": true,
+  "normalized_content_opened": false,
+  "normalized_hash_recomputed": false,
+  "actual_check_volume_run": false,
+  "actual_Vault_or_import_run": false,
+  "syntax": "passed",
+  "ledger_sha256": {
+    "assignment.json": "970b2c57785ec49d59c5fdc1e2a3bcafb5fa9bd4e5bd25fd27c298f9cf9cd9cb",
+    "reader-state.json": "f49cfc1b947228435e75cc65a22b83213e29f47f278b0a2a16f2cc121ae6ac97",
+    "read-log.json": "525c963f23b842e28f038f44ed4a83c41409743f2ec3cc0ca01e11019a8da6d7",
+    "chapter-notes.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "saver_sha256": "23673e820e2117760126b8bd1d1cd105b7fe3d46c836af39539249846e9e1b72"
+}

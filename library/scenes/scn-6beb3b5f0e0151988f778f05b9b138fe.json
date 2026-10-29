@@ -1,0 +1,60 @@
+{
+  "asset_id": "scn-6beb3b5f0e0151988f778f05b9b138fe",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "主线证据被毁、主角又因丧友越过常规程序时，可让新的行动取得另一批证据，却仍未抓到主犯，维持复仇与侦查的不同进度。",
+    "arc": "real",
+    "choice": "李邢斧协突/拒伤徐月、孙飞机真轰",
+    "consequence": "汪断臂活逃，王德等死/三十余科学家被捕、实验室新证，主耗伤昏三日。",
+    "failure_mode": "若保全旁人、远程支援和主角过耗都被删去，袭击会被误写成个人无代价扫荡；也不能拿新证据倒写首次取证其实成功。",
+    "goal": "救人/报沈与追汪",
+    "narrative_order": 1278,
+    "obstacle": "军顾舆论/主弃徽情绪、九龙兵",
+    "stage_status": "resolved",
+    "state_change": "汪断臂活逃，王德等死/三十余科学家被捕、实验室新证，主耗伤昏三日。",
+    "summary": "汪断臂活逃，王德等死/三十余科学家被捕、实验室新证，主耗伤昏三日。",
+    "why_it_works": "失败线索可被另一行动重新建立，但不能把汪逃写已捕。"
+  },
+  "created_at": "2026-10-25T21:09:00.733340+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1277",
+      "claim_kind": "fact",
+      "end_line": 92416,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 92343
+    },
+    {
+      "chapter_id": "ch-1278",
+      "claim_kind": "fact",
+      "end_line": 92505,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 92417
+    },
+    {
+      "chapter_id": "ch-1279",
+      "claim_kind": "fact",
+      "end_line": 92587,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 92506
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/scene/villa-raid",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷:6"
+  ],
+  "title": "私袭别墅留下新证而非永远无证",
+  "updated_at": "2026-10-25T21:09:00.739860+00:00",
+  "user_notes": ""
+}

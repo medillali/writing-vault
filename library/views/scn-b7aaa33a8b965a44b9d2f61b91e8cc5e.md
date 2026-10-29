@@ -1,0 +1,96 @@
+# 盾能挡C却挡不住B的现实行动
+
+ID: `scn-b7aaa33a8b965a44b9d2f61b91e8cc5e` · 版本: 1 · 范围: source-analysis
+
+田凌争先锋被游撕右臂，杭州盾被穿；主小黑伤游仍内伤，游潜水逃，己2死7重。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-b7aaa33a8b965a44b9d2f61b91e8cc5e",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "现代行动/能力边界",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/shen",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/wangxin",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/you",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/ouyang",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xinglie",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/waner"
+    ],
+    "choice": "三组入场、身体防护、枪剑配合",
+    "claim_kind": "inference",
+    "consequence": "毒/20蓝药截、十余抓，游未捕",
+    "failure_mode": "田凌断臂不判死；王称成功不等全目标成",
+    "goal": "抓殖装/截毒",
+    "narrative_order": 682,
+    "obstacle": "敌等级超装备与机动能力",
+    "state_change": "任务有收获也有不可抹损失",
+    "summary": "田凌争先锋被游撕右臂，杭州盾被穿；主小黑伤游仍内伤，游潜水逃，己2死7重。",
+    "why_it_works": "武力比较由实际伤害验证"
+  },
+  "created_at": "2026-10-25T20:23:25.252347+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0678",
+      "claim_kind": "fact",
+      "end_line": 53909,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 53827
+    },
+    {
+      "chapter_id": "ch-0679",
+      "claim_kind": "fact",
+      "end_line": 53991,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 53910
+    },
+    {
+      "chapter_id": "ch-0680",
+      "claim_kind": "fact",
+      "end_line": 54060,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 53992
+    },
+    {
+      "chapter_id": "ch-0681",
+      "claim_kind": "fact",
+      "end_line": 54141,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 54061
+    },
+    {
+      "chapter_id": "ch-0682",
+      "claim_kind": "fact",
+      "end_line": 54205,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 54142
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/scene/police",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "盾能挡C却挡不住B的现实行动",
+  "updated_at": "2026-10-25T20:23:25.252347+00:00",
+  "user_notes": ""
+}
+
+```

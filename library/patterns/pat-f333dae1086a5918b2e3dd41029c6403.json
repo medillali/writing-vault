@@ -1,0 +1,81 @@
+{
+  "asset_id": "pat-f333dae1086a5918b2e3dd41029c6403",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "适用多战线但单主视角。",
+    "causal_steps": [
+      "消息入场附来源",
+      "人物据此决策",
+      "关键项再到场或系统核",
+      "不齐项留双层"
+    ],
+    "claim_kind": "synthesis",
+    "failure_mode": "把转述全当亲见或把推测写成幕后真相，会夸大主知。",
+    "originality_transform": "可换成信件延迟、传感器和证词，设计误差产生不同选择。",
+    "summary": "让一视角看见大世界，同时区分亲见/报告/推演/系统。"
+  },
+  "created_at": "2026-10-25T21:08:35.710030+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-41aba6e1245c5258ae2c4a61afe09c44",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-1d4e37b66899583883ef143e98b8cac8",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-6d75c90d94b852029d5cdbdb706fca33",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0784",
+      "claim_kind": "synthesis",
+      "end_line": 60824,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 60760
+    },
+    {
+      "chapter_id": "ch-0861",
+      "claim_kind": "synthesis",
+      "end_line": 65645,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 65583
+    },
+    {
+      "chapter_id": "ch-0877",
+      "claim_kind": "synthesis",
+      "end_line": 66518,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 66474
+    },
+    {
+      "chapter_id": "ch-0959",
+      "claim_kind": "synthesis",
+      "end_line": 71689,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 71613
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/pattern/reportdistance",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷4",
+    "待审阅"
+  ],
+  "title": "场外消息保渠道距离",
+  "updated_at": "2026-10-25T21:08:35.710030+00:00",
+  "user_notes": ""
+}

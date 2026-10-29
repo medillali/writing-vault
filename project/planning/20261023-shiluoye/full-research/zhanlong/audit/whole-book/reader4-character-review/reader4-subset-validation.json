@@ -1,0 +1,493 @@
+{
+  "status": "passed-structure-mapping-provenance-only-not-primary-semantic-approval",
+  "characters": 52,
+  "groups": 8,
+  "stage_cards": 69,
+  "supplementary_entities_without_stage_cards": 6,
+  "evidence_count": 673,
+  "checks": {
+    "stable_52_ids_exact_once": true,
+    "all_five_literary_fields_nonempty": true,
+    "all_rows_draft": true,
+    "mapping_exactly_equals_group_original_card_mappings": true,
+    "formal_and_stage_metadata_classified": true,
+    "all_reference_source_and_line_bounds_valid": true
+  },
+  "actual_access": {
+    "full_indexed_chapters_this_character_audit": [
+      1177,
+      1349
+    ],
+    "derived_four_column_notes_actual_complete": [
+      98,
+      323,
+      324,
+      326,
+      328,
+      330,
+      333,
+      506,
+      587,
+      595,
+      599,
+      600,
+      606,
+      622,
+      623,
+      658,
+      659,
+      674,
+      675,
+      676,
+      694,
+      695,
+      699,
+      701,
+      702,
+      715,
+      716,
+      730,
+      731,
+      734,
+      744,
+      773,
+      780,
+      807,
+      911,
+      912,
+      913,
+      933,
+      952,
+      953,
+      962,
+      1001,
+      1020,
+      1037,
+      1038,
+      1040,
+      1041,
+      1044,
+      1045,
+      1053,
+      1055,
+      1056,
+      1067,
+      1071,
+      1075,
+      1110,
+      1163,
+      1189,
+      1193,
+      1197,
+      1213,
+      1214,
+      1215,
+      1216,
+      1220,
+      1233,
+      1244,
+      1249,
+      1250,
+      1253,
+      1254,
+      1255,
+      1260,
+      1263,
+      1264,
+      1265,
+      1266,
+      1269,
+      1270,
+      1271,
+      1272,
+      1273,
+      1274,
+      1278,
+      1281,
+      1291,
+      1293,
+      1295,
+      1296,
+      1301,
+      1308,
+      1318,
+      1320,
+      1322,
+      1326,
+      1327,
+      1339,
+      1345,
+      1346,
+      1348,
+      1350,
+      1355,
+      1358,
+      1360,
+      1361,
+      1364,
+      1366,
+      1367,
+      1370,
+      1371,
+      1372,
+      1373,
+      1374,
+      1375,
+      1376,
+      1377,
+      1378,
+      1379,
+      1381,
+      1382,
+      1383,
+      1384,
+      1385,
+      1386
+    ],
+    "limited_source_excerpts": [
+      {
+        "chapter_id": "ch-1386",
+        "start_line": 99665,
+        "end_line": 99717,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1380",
+        "start_line": 99222,
+        "end_line": 99245,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1190",
+        "start_line": 86716,
+        "end_line": 86738,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1238",
+        "start_line": 89811,
+        "end_line": 89817,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1293",
+        "start_line": 93558,
+        "end_line": 93564,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1386",
+        "start_line": 99665,
+        "end_line": 99717,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1320",
+        "start_line": 95225,
+        "end_line": 95238,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1238",
+        "start_line": 89811,
+        "end_line": 89817,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1241",
+        "start_line": 89962,
+        "end_line": 89974,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1241",
+        "start_line": 89962,
+        "end_line": 89974,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1386",
+        "start_line": 99665,
+        "end_line": 99717,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1241",
+        "start_line": 89962,
+        "end_line": 89974,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-0974",
+        "start_line": 72438,
+        "end_line": 72441,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1140",
+        "start_line": 83410,
+        "end_line": 83417,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1320",
+        "start_line": 95225,
+        "end_line": 95238,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1340",
+        "start_line": 96470,
+        "end_line": 96479,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1265",
+        "start_line": 91548,
+        "end_line": 91554,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1282",
+        "start_line": 92786,
+        "end_line": 92790,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1358",
+        "start_line": 97679,
+        "end_line": 97710,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1386",
+        "start_line": 99665,
+        "end_line": 99717,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1386",
+        "start_line": 99665,
+        "end_line": 99717,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-0658",
+        "start_line": 52375,
+        "end_line": 52406,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1380",
+        "start_line": 99222,
+        "end_line": 99245,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1358",
+        "start_line": 97679,
+        "end_line": 97710,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1386",
+        "start_line": 99665,
+        "end_line": 99717,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1339",
+        "start_line": 96408,
+        "end_line": 96417,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1206",
+        "start_line": 87788,
+        "end_line": 87807,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-0861",
+        "start_line": 65598,
+        "end_line": 65634,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-0898",
+        "start_line": 67722,
+        "end_line": 67745,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1140",
+        "start_line": 83410,
+        "end_line": 83417,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-0861",
+        "start_line": 65598,
+        "end_line": 65634,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1336",
+        "start_line": 96230,
+        "end_line": 96243,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1332",
+        "start_line": 96001,
+        "end_line": 96014,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1124",
+        "start_line": 82388,
+        "end_line": 82396,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1282",
+        "start_line": 92786,
+        "end_line": 92790,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1379",
+        "start_line": 99187,
+        "end_line": 99196,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-0996",
+        "start_line": 73822,
+        "end_line": 73824,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-0472",
+        "start_line": 38984,
+        "end_line": 38991,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1134",
+        "start_line": 83029,
+        "end_line": 83040,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1349",
+        "start_line": 97097,
+        "end_line": 97119,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      },
+      {
+        "chapter_id": "ch-1386",
+        "start_line": 99689,
+        "end_line": 99695,
+        "actual_reader": "/root/zongheng_vol04_full",
+        "access_scope": "targeted-limited-source-excerpt-not-full-chapter",
+        "additional_unique_chapters": 0
+      }
+    ],
+    "unique_full_book_coverage_added": 0,
+    "original_reading_boundary": "原始个人全文仅卷二raw252—404及卷五raw969—1179；卷二尾primary原读后完整派生接读；本轮不声称本人重新全书全文。"
+  },
+  "primary_review_boundary": "分组交root逐项主审；此文件不读取或伪造root签收，不代表全书验收。",
+  "group_sha256": {
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part01.json": "bb9e2c64dbf387363d571c086a11848e0d9ffbfff280478c0c4ac467b940875c",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part02.json": "3528e2a21fcce99d403edfd08002cc0d4fc26263fbb27f415172cc456c1b9110",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part03.json": "1b0c958cad7d2dbc5fd6dcb42a25548b83c1f27b0a2216af1bce6888c2543e6e",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part04.json": "8a037376ca8aa05a23d8d16db911cd09412d6415fa97d26d33e01bb3bb41544f",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part05.json": "d18b3e3cfcb149df18695fa552a3a25096367ec248ce77d8203c8c453b24ed9e",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part06.json": "86ecb6d286050abc3ff6f7a0a7adcaaf910b0ab8885bb597c1d7aa29f9315609",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part07.json": "82a144cde23c4c8a02b43bfb3ea34948a7fdc9b15e78ac45e4afb3b4ebabcf41",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/reader4-character-arcs-part08.json": "2b3b5eebaa3c7665ddd128a902a20a5c2ffb1954f7a2a76523e306028ca213b2"
+  },
+  "stage_mapping_sha256": "78fff66916c3f7c3749a7459244b64cf196e5382ef45b60e66312cf6061080c8",
+  "underlying_structure_validation_sha256": "b3237827ab33447b1041bef5dbdd4a65fffa5efcae87cf9b1b4ee5ab4b16a3a1"
+}

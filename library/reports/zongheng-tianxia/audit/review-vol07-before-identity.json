@@ -1,0 +1,46 @@
+{
+  "corrections_verified": [
+    "清风保卫战中飞升归零，不把后续战败提前为既成；玩家圣域资格与宠物封印飞升分链",
+    "刑天母亲重病时嘱托不归龙魂，不称已亡母遗嘱；龙魂自陈旧回忆与书推暗恋分开",
+    "第三即最后封raw0922宣布解除，raw0963醒后展示归零裸装，不造第四封",
+    "奥丹雨露峡谷月内建塞命令与防黑暗城堡分清，未造黑堡要塞已建成",
+    "raw1021与印刷1013明确；200万元对应黄金级据点曙光要塞，付款和次日拟让点分开",
+    "萨格隆改为0810/0815—0817，S4首通秦一牧；重新核了修版卡与图边",
+    "九天玄塔本就是S3，e-tank细化前段新盾验证与最终玄武失败后改策，不拆成两个副本",
+    "删除送花→白银匕回收错误起点，匕来自通缉奖励；抵美上线不推专线已安装",
+    "知识16条有state和时点，猜测/不知/误信/后来实知分开；正文编号及预算误算分别处理",
+    "任务/战果/物权/生命/主权分账；未将王红血案角色转述当警方结案，未将醉吻当清醒恋约"
+  ],
+  "freeze_note": "子代理freeze-manifest保留交接版本；主代理随后仅精确刑天母嘱措辞，正式输入以下列SHA为准。",
+  "input_sha256": {
+    "analysis.json": "60fbb11272d871215429536d853c918dfca56e11053e64d6e1addbc8c1101e8d",
+    "cards.json": "07b886a2f932c6385af36559d00ef4573e6ba65e122ae918e2a8b1933e7ac6e5",
+    "chapter-notes.jsonl": "ce31b420b552670e5286216a02738c07fbeb43133c244ebb8164b8465f6e6570",
+    "graph.json": "67d1178f3a95b0d90da4fe3af35ae354c321c96953c31ae69ba07d12da2de31b",
+    "read-log.json": "a1466cb3c340e9bc78c656a6d6c1758046f12a9c13d4288eb36d99502c672d9d",
+    "reader-state.json": "0035b1b65eed2255412540012c4cb7a35cbc20ee23cc2133f681594968e2cdee"
+  },
+  "preflight": {
+    "body_units_read": 285,
+    "cards": {
+      "character": 29,
+      "pattern": 10,
+      "scene": 37
+    },
+    "edges": 24,
+    "evidence_references_checked": 2578,
+    "indexed_segments_read": 285,
+    "nodes": 46,
+    "preflight": "passed",
+    "threads": 12
+  },
+  "remaining": [
+    "全书问题、人物弧和综合另行审查",
+    "研究仍待用户审阅，不自动批准或收藏"
+  ],
+  "reviewer": "primary",
+  "scope": "285正文由分卷读者前175、primary后110合作全文阅读。primary审全部36九维、29人物/37场景/10机制、46节点24关系12线、16认知和集中疑点；修订后另审全部相关文字、边及认知差分。primary另完整重读raw0779/0866/0944核时点、嘱托和据点。不得称primary一人读完全卷。",
+  "status": "reviewed_for_library_import",
+  "user_approval": false,
+  "volume": 7
+}

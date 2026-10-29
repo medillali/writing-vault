@@ -1,0 +1,55 @@
+{
+  "status": "proposal-not-applied-to-roster-or-formal-cards",
+  "actual_reviewer": "/root/zongheng_vol03_full",
+  "roster_source_path": ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/character-arc-entity-roster-proposal.json",
+  "roster_source_sha256": "bfc2c465497a65b015440788efc0c408490fe0432e1de04cc1f860f5dc04cc8a",
+  "before": {
+    "name": "火犁（异魔军团统领，勿并已死神圣魔龙）",
+    "stage_cards": [],
+    "source_check_required": true
+  },
+  "proposed_scope_treatment": {
+    "audit_id": "character-arc-r3-054",
+    "entity_type": "duplicate_or_misdescribed_roster_reference",
+    "confirmed_separate_entity": false,
+    "linked_existing_audit_id": "character-arc-r3-015",
+    "text": "保原补核名称为历史提案。现无另一个异魔统领火犁的证据；1041明言火犁军原统就是已被李杀的魔龙火犁。后军团由少师阳统，是军团名称延续，不是魔龙复生或第二火犁本人。勿无证拆成第二实体，也不删除已死魔龙阶段卡映射。"
+  },
+  "rationale": "本次定向实读969以后所有火犁命中的前后两行：均为军团名/回顾旧魔龙，1041有明确回指；另完整四栏1041/1048/1220/1226/1321交叉，未把定位扫描当全书新读。",
+  "evidence": [
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-1041",
+      "start_line": 76714,
+      "end_line": 76720,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-1048",
+      "start_line": 77222,
+      "end_line": 77235,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-1220",
+      "start_line": 88744,
+      "end_line": 88753,
+      "claim_kind": "fact"
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-1321",
+      "start_line": 95247,
+      "end_line": 95250,
+      "claim_kind": "fact"
+    }
+  ],
+  "source_access": "上述原文命中上下文实际读；非新独读整卷，原reader保留。",
+  "mutations_to_original_materials": []
+}

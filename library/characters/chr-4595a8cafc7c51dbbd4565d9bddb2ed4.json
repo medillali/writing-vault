@@ -1,0 +1,91 @@
+{
+  "asset_id": "chr-4595a8cafc7c51dbbd4565d9bddb2ed4",
+  "asset_type": "character",
+  "content": {
+    "changes": "旧恩被转成控制手段，与布衣主动选新信任对照。",
+    "constraints": "焚琴煮鹤是行会名，不是其人物别名；旧恩不能保证布衣服从。",
+    "current_state": "旧第八叛变事件已结，本卷不推其后所有私生活或永久终态。",
+    "decisions": [
+      "开门放5000贪狼、令旧分盟叛出；以降100级威胁布衣而只实杀一次。"
+    ],
+    "goals": "用旧会权力与第八分盟转属配合夺暗月。",
+    "interpretation": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0618",
+          "claim_kind": "inference",
+          "end_line": 53016,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 52960
+        },
+        {
+          "chapter_id": "ch-0619",
+          "claim_kind": "inference",
+          "end_line": 53090,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 53017
+        },
+        {
+          "chapter_id": "ch-0624",
+          "claim_kind": "inference",
+          "end_line": 53462,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 53404
+        }
+      ],
+      "text": "以本卷实际决定与变化观察，不把角色评语当全人格定论。"
+    },
+    "knowledge_boundary": "618先由无关风月报告零度冰点叛变，随后可见全分盟转属；布衣被动变红后主动退会。",
+    "relationship_directions": [
+      "零度→布衣：以恩逼战并实杀；陆何→布衣：给新归属。"
+    ],
+    "summary": "旧第八叛变事件已结，本卷不推其后所有私生活或永久终态。"
+  },
+  "created_at": "2026-10-24T23:04:58.783460+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0618",
+      "claim_kind": "fact",
+      "end_line": 53016,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 52960
+    },
+    {
+      "chapter_id": "ch-0619",
+      "claim_kind": "fact",
+      "end_line": 53090,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 53017
+    },
+    {
+      "chapter_id": "ch-0624",
+      "claim_kind": "fact",
+      "end_line": 53462,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 53404
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol04/character/zero",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:4",
+    "研究:全量九维"
+  ],
+  "title": "零度冰点（焚琴煮鹤盟主）",
+  "updated_at": "2026-10-24T23:04:58.783460+00:00",
+  "user_notes": ""
+}

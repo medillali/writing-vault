@@ -1,0 +1,66 @@
+# 贼胆｜雨中的孤儿：先收刀再谈朋友｜S0017
+
+ID: `scn-zeidan-legacy-s0017` · 版本: 1 · 范围: source-analysis
+
+萧御见孩子怕刀，收刀坐远，送羽毛、谈自己无父母经历，孩子解释朋友并送项链。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-zeidan-legacy-s0017",
+  "asset_type": "scene",
+  "content": {
+    "choice": "降低威胁建立联系",
+    "facts": [
+      "萧御见孩子怕刀，收刀坐远，送羽毛、谈自己无父母经历，孩子解释朋友并送项链。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/scenes.json#S0017",
+    "name": "雨中的孤儿：先收刀再谈朋友",
+    "prehistory": "古德衰败与祭祀",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "S0017",
+    "result": "后续牺牲有相处细节，不只任务标记",
+    "summary": "萧御见孩子怕刀，收刀坐远，送羽毛、谈自己无父母经历，孩子解释朋友并送项链。",
+    "user_feedback": null,
+    "worker_part": "part-a"
+  },
+  "created_at": "2026-10-22T17:03:13.695898+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0138",
+      "claim_kind": "fact",
+      "end_line": 5852,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 5811
+    },
+    {
+      "chapter_id": "ch-0139",
+      "claim_kind": "fact",
+      "end_line": 5894,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 5853
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/S0017",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-a"
+  ],
+  "title": "贼胆｜雨中的孤儿：先收刀再谈朋友｜S0017",
+  "updated_at": "2026-10-22T17:03:13.697932+00:00",
+  "user_notes": ""
+}
+
+```

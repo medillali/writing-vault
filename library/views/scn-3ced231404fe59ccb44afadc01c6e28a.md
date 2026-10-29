@@ -1,0 +1,68 @@
+# 选军官与安置部族
+
+ID: `scn-3ced231404fe59ccb44afadc01c6e28a` · 版本: 1 · 范围: source-analysis
+
+主授权韩萧选500/冷消然先拒后因北境职责加入；给流亡部族房田工资招5000男。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-3ced231404fe59ccb44afadc01c6e28a",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "能供长期住粮/有专业选拔者与明确任务。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/hanyuan",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaoli",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/peier"
+    ],
+    "choice": "专业者选人/家属安置并分盾步兵。",
+    "claim_kind": "inference",
+    "consequence": "500干部实选、2.7万基本安顿/5000入。",
+    "failure_mode": "不能只许薪而无安顿；体重限制不可用强行骑兵忽略。",
+    "goal": "获得专业骨干和可用兵源。",
+    "obstacle": "少爷军坏名声/流亡者家属生计、蛮兵不能骑。",
+    "state_change": "人口、分工、物资连成军队增长链。",
+    "summary": "主授权韩萧选500/冷消然先拒后因北境职责加入；给流亡部族房田工资招5000男。",
+    "why_it_works": "供给与声誉共同说服候选，强壮只决定适配兵种。"
+  },
+  "created_at": "2026-10-25T21:08:35.436034+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0766",
+      "claim_kind": "fact",
+      "end_line": 59720,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 59678
+    },
+    {
+      "chapter_id": "ch-0767",
+      "claim_kind": "fact",
+      "end_line": 59775,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 59721
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/scene/recruit",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷4",
+    "待审阅"
+  ],
+  "title": "选军官与安置部族",
+  "updated_at": "2026-10-25T21:08:35.436232+00:00",
+  "user_notes": ""
+}
+
+```

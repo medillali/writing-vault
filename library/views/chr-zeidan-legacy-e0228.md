@@ -1,0 +1,101 @@
+# 贼胆｜小雨｜E0228
+
+ID: `chr-zeidan-legacy-e0228` · 版本: 1 · 范围: source-analysis
+
+拒绝纠缠她的洛城，借哥哥对战处理赌约；哥哥为她及曾帮她的女同学送装备。；观赛骄傲反复夸哥哥，比赛门票由风野补安排；机场与同学哭别。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0228",
+  "asset_type": "character",
+  "content": {
+    "aliases": [
+      "萧雨"
+    ],
+    "causal_importance": "中：现实生活闭合",
+    "facts": [
+      "拒绝纠缠她的洛城，借哥哥对战处理赌约；哥哥为她及曾帮她的女同学送装备。",
+      "观赛骄傲反复夸哥哥，比赛门票由风野补安排；机场与同学哭别。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0228",
+    "maintenance_depth": "高：社交生活与分离",
+    "name": "小雨",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0228",
+    "summary": "拒绝纠缠她的洛城，借哥哥对战处理赌约；哥哥为她及曾帮她的女同学送装备。；观赛骄傲反复夸哥哥，比赛门票由风野补安排；机场与同学哭别。",
+    "user_feedback": null,
+    "worker_part": "part-d"
+  },
+  "created_at": "2026-10-22T17:03:13.416730+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0430",
+      "claim_kind": "fact",
+      "end_line": 26515,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 26445
+    },
+    {
+      "chapter_id": "ch-0431",
+      "claim_kind": "fact",
+      "end_line": 26602,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 26516
+    },
+    {
+      "chapter_id": "ch-0432",
+      "claim_kind": "fact",
+      "end_line": 26680,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 26603
+    },
+    {
+      "chapter_id": "ch-0448",
+      "claim_kind": "fact",
+      "end_line": 27804,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27723
+    },
+    {
+      "chapter_id": "ch-0453",
+      "claim_kind": "fact",
+      "end_line": 28166,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28107
+    },
+    {
+      "chapter_id": "ch-0464",
+      "claim_kind": "fact",
+      "end_line": 28897,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28775
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0228",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-d"
+  ],
+  "title": "贼胆｜小雨｜E0228",
+  "updated_at": "2026-10-22T17:03:13.422728+00:00",
+  "user_notes": ""
+}
+
+```

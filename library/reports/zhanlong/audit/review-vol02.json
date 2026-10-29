@@ -1,0 +1,78 @@
+{
+  "input_sha256": {
+    "analysis.json": "d891e90151cc5161caf33fd05bf369fe48e693f54a43ea5a0286d9490e80a484",
+    "cards.json": "45bed13c4dc6d74beb1608eaffd1f43f41689c691eb607bc200549f22a7b91a0",
+    "chapter-notes.jsonl": "c4e9e53af972f49532daa8f59af934afdd9330ff376a1ac6bc67fe3bc343e9b1",
+    "freeze-manifest.json": "74e0cfc149cd3b3ab0c65b4b56900ff6330e259be8db5c0b997565da9ec7f74c",
+    "graph.json": "88837ca024767286ce1747dc3a61c0f3af9f07fb03d7a63713d3af155fb0d949",
+    "handoff.md": "c111c5df7a678f16e1e8d8356fea1a83431678ac6975bf6f841b0ac72c50b2a8",
+    "merge-receipt.json": "8169692cefc2e582930206a26a8c2d67f141e112a04329671f61b6b8e82ce37d",
+    "prefix-chapter-notes.jsonl": "e9e4ca5c4aba895092916abe5c6f5e2a69d15c285392af81d7e51e47e8bec199",
+    "prefix-handoff.md": "028865e97374735b214709680c8f01050d9f3b01719889ade47551bc82379ac6",
+    "prefix-read-log.json": "97a7ca0b161604d653edcf1dfb1b3eb4d1cf5081683ef0df32c544de88ab29a7",
+    "prefix-reader-state.json": "9d272e9fe28d8df7e7f87329b59038729b0b82cf70e988d4a2645c09ea01a502",
+    "prefix-validation.json": "57f232d28da5aa2e3e1732ce218e3219c91e0c751e547efb99d5f5407ef7bb77",
+    "primary-corrections.json": "5be64062b3901629cf4fecb1a5678b473c8019454b2f04c1139ebd7b08130eed",
+    "priority-corrections-delta.json": "5be64062b3901629cf4fecb1a5678b473c8019454b2f04c1139ebd7b08130eed",
+    "priority-corrections.md": "bd3272127ec141585d1135563c081db957c28046da06ea93515fedb1eb3a1139",
+    "read-log.json": "539a4bb1dd144cfca61a38f6fdb8463a921b0b39df8f0f4486138451205a0b1e",
+    "reader-state.json": "869f51593c1e574dea01d2da5b89d2af5561b9f5d7e253d31756522a411bf76f",
+    "reading-attribution.json": "1e2f0dd0fcde113b783da73f79f9d5da2f643be49ae89ed749fd021c45d75798",
+    "report.md": "3d268a62ea34a5a52632beb3690eda5bb4f8f245599add4ec78111d2c062eec0",
+    "tail-derived-reading-receipt.json": "ce5c85cc6cb1b167d5ab496ebee513e368729e095de8cfb82b8ffd32d6b72036",
+    "validation.json": "1088c0b2c67bb7d13b84f5696b74e736a9f5269720322c7623f9a08b952eec26"
+  },
+  "preflight": {
+    "body_units_read": 252,
+    "book": "zhanlong",
+    "cards": {
+      "character": 45,
+      "pattern": 12,
+      "scene": 44
+    },
+    "edges": 33,
+    "evidence_references_checked": 2128,
+    "indexed_segments_read": 253,
+    "nodes": 52,
+    "preflight": "passed",
+    "threads": 15,
+    "volume": 2
+  },
+  "remaining": [
+    "228条历史疑点章节索引和全部原串留待全书终点逐项审计，不因撤回一个研究误读删除原笔记。",
+    "卷三至六及整书综合/终点审计继续，用户品味未自动认可。"
+  ],
+  "review_groups": {
+    "cards": 101,
+    "chapter_source_anomalies": 16,
+    "dimensions": 45,
+    "edges": 33,
+    "major_character_states": 45,
+    "named_life_states": 15,
+    "nodes": 52,
+    "source_anomalies": 18,
+    "threads": 15,
+    "volume_end_questions_after_correction": 15
+  },
+  "reviewed_at": "2026-10-25T19:25:40.465715+00:00",
+  "reviewer": "primary",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "scope": "primary全文实读raw405—504，另因两剑问题完整复读314/498；raw252—404原阅读归agent4。逐项主审45九维、101卡、52图节点33边15线、45人物阶段、18异常、15生死核查、16逐章源异常、卷尾问题及完整报告/交接；不冒称primary独读全卷。",
+  "semantic_findings": [
+    "314斩华是流霜自有剑，献罗林并建议毁的是巴林佩剑/权力之剑；两物独立，撤回假物链疑点。毁权剑仍仅建议/同意，军出战不代人格解放。",
+    "原314笔记原行不改，优先纠错overlay保完整原行/更正/撤回范围和行证；九维连续性改为真正文本指代研究，元流程不充文学观察。",
+    "秦王重铸可用、309补丁50%与443进龙池100层分版本；左右双持、旧膝治愈/旧戒赤龙失去与新装门槛分别记。",
+    "个人竞技排名、城战守御令/阵营胜/MVP、紫魔林四千核心降十级均分别结算，不因最终得驻地抹指挥失误。",
+    "林独立近卫救场、468—470迁会/殿、473神隐与此前同行分层；亲吻唱歌不代双方正式确恋，秦雨暂拒不代情侣。",
+    "现实秦蒙已尸证死亡，但犯罪加害/保护链未完全侦破；欧阳阳炎压制后活离，主断肋昏迷不误记击败或拘捕。",
+    "落海与洛克林是独立人物；紫星/林煌已死、苏克装死/达林装伤、林穹断臂逃，普通军80%恢复不套命名BOSS。",
+    "池兄妹空血/掉落仍活，父遗念不是本体复生，498活捕SSS已结而501另开守护；504仅公主放行，未满24h或入渊。",
+    "李百断后救回一人、其余99明确死，主误判伏弓真实付数百死，不能以局部救援遮群体损失。",
+    "刀锤两次物链与一次成交分款分开；A4钥已交，工资政策/照护20万缺独立到账不能泛闭；作者七符明纠与其余源数差分别保。",
+    "图逐项核知识渠道、因果/兑现/呼应，不以同主题代剧情硬因果；后卷具体提示已改为通用阶段边界，未将其他实体职务套叶来。"
+  ],
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "status": "reviewed_for_library_import",
+  "user_approval": false,
+  "volume": 2
+}

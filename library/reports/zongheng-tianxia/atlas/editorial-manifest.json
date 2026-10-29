@@ -1,0 +1,781 @@
+{
+  "source_id": "src-2a13958390274509b2af019f6b12d981",
+  "source_revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+  "graph_revision": 13,
+  "bridge_ids": [
+    "editorial-annie-identity",
+    "editorial-gift-and-return",
+    "editorial-gift-to-speaker",
+    "editorial-industry-deployment",
+    "editorial-linger-final-seal",
+    "editorial-linger-second-seal",
+    "editorial-loss-and-duty",
+    "editorial-mentor-identity",
+    "editorial-mentor-reciprocity",
+    "editorial-moonlight-promise",
+    "editorial-name-the-relationship",
+    "editorial-new-bow-old-sale",
+    "editorial-relevel-continues",
+    "editorial-sanctuary-eligibility",
+    "editorial-soul-final-loss",
+    "editorial-suifeng-autonomy",
+    "editorial-sword-ring",
+    "editorial-xun-escalation"
+  ],
+  "profile_assets": {
+    "character-arc-01": {
+      "asset_id": "chr-dca5296e89eedc5f2b643baaf72d5005",
+      "revision": 2,
+      "name": "丁舒升／轻狂书生",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 6,
+      "map_nodes": [
+        "v2-zero",
+        "v2-return",
+        "v4-v04-firstcity",
+        "v4-v04-hushou",
+        "v7-v07-split",
+        "v8-v08-sacrifice",
+        "v8-v08-after",
+        "v1-team",
+        "v1-v1c23",
+        "v1-v1c35",
+        "v1-v1c45",
+        "v4-v04-hotel"
+      ]
+    },
+    "character-arc-02": {
+      "asset_id": "chr-133c99eab080f6cf739e4a92f12f484e",
+      "revision": 2,
+      "name": "凌雪",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 5,
+      "map_nodes": [
+        "v1-gift",
+        "v1-v1c35",
+        "v2-refuse",
+        "v2-accept",
+        "v2-return",
+        "v3-v03-promise",
+        "v4-v04-campus",
+        "v7-v07-xun",
+        "v8-v08-father",
+        "v8-v08-after",
+        "v1-team",
+        "v1-v1c15",
+        "v1-v1c33",
+        "v2-locked"
+      ]
+    },
+    "character-arc-03": {
+      "asset_id": "chr-eee1f6e4b65709c2a30b146a487987da",
+      "revision": 2,
+      "name": "凌月",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 5,
+      "map_nodes": [
+        "v1-v1c21",
+        "v1-v1c23",
+        "v2-budget",
+        "v3-v03-token",
+        "v3-v03-reject_bet",
+        "v8-v08-father",
+        "v8-v08-kite",
+        "v8-v08-after",
+        "v1-v1c15",
+        "v1-v1c39",
+        "v2-balcony"
+      ]
+    },
+    "character-arc-04": {
+      "asset_id": "chr-d0e47e6d0d4b441a719816526d33b920",
+      "revision": 2,
+      "name": "秦韵",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 6,
+      "map_nodes": [
+        "v1-v1c19",
+        "v1-v1c20",
+        "v1-v1c27",
+        "v3-v03-qin_rescue",
+        "v3-v03-ice_failure",
+        "v6-v06-scene-qin-return",
+        "v7-v07-qinreturn",
+        "v8-v08-qinyun",
+        "v1-v1c44",
+        "v2-kindness",
+        "v4-v04-exile"
+      ]
+    },
+    "character-arc-05": {
+      "asset_id": "chr-ad034c2ddaad64b723cf59a5976c2049",
+      "revision": 2,
+      "name": "许冰／冰茶",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 6,
+      "map_nodes": [
+        "v1-team",
+        "v5-v05-scene-thunder-escort",
+        "v8-v08-wash",
+        "v8-v08-after",
+        "v3-v03-equipment_split",
+        "v4-v04-cemetery"
+      ]
+    },
+    "character-arc-06": {
+      "asset_id": "chr-82229f37616654b3004cf79a91fc53f7",
+      "revision": 2,
+      "name": "林香／稻花香",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 5,
+      "map_nodes": [
+        "v2-seal",
+        "v2-zero",
+        "v3-v03-token",
+        "v4-v04-rescuexiang",
+        "v7-v07-canglong",
+        "v8-v08-family"
+      ]
+    },
+    "character-arc-07": {
+      "asset_id": "chr-bf706533e0e1b0c572cccdbedbb525a7",
+      "revision": 2,
+      "name": "冰兰",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 5,
+      "map_nodes": [
+        "v4-v04-dragonbone",
+        "v5-v05-scene-blood-consent",
+        "v6-v06-scene-shrine-rematch",
+        "v8-v08-bloodroar",
+        "v8-v08-sacrifice",
+        "v8-v08-cleanse",
+        "v8-v08-endbattle",
+        "v8-v08-after",
+        "editorial-mentor-missing"
+      ]
+    },
+    "character-arc-08": {
+      "asset_id": "chr-5e6f01832970e847f757505f800a81df",
+      "revision": 2,
+      "name": "安妮",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 5,
+      "map_nodes": [
+        "v5-v05-scene-annie-reversal",
+        "v8-v08-capture",
+        "v8-v08-cleanse",
+        "v8-v08-after"
+      ]
+    },
+    "character-arc-09": {
+      "asset_id": "chr-c17175405ac3b920b81ea0eddd1563b0",
+      "revision": 2,
+      "name": "菲雅",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 4,
+      "map_nodes": [
+        "v5-v05-scene-annie-reversal",
+        "v8-v08-cleanse"
+      ]
+    },
+    "character-arc-10": {
+      "asset_id": "chr-aa8e42fdbd859c4b920c69b81cd12085",
+      "revision": 2,
+      "name": "明宇",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 4,
+      "map_nodes": [
+        "editorial-mentor-missing",
+        "v8-v08-bloodroar",
+        "v8-v08-oracle",
+        "v8-v08-endbattle"
+      ]
+    },
+    "character-arc-11": {
+      "asset_id": "chr-cd4499e2bf12164075fc9f48c07ad574",
+      "revision": 2,
+      "name": "七星灯",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v3-v03-fox"
+      ]
+    },
+    "character-arc-12": {
+      "asset_id": "chr-6b93d4e95f5f6ebc8d5e22c869af733f",
+      "revision": 3,
+      "name": "野蛮王座",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 2,
+      "map_nodes": [
+        "v8-v08-wsl",
+        "v8-v08-beastcity"
+      ]
+    },
+    "character-arc-13": {
+      "asset_id": "chr-8eb753e4f7d8b6068c5e50bbfa0d4b2f",
+      "revision": 2,
+      "name": "荀方",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v8-v08-delete"
+      ]
+    },
+    "character-arc-14": {
+      "asset_id": "chr-4916fa0f0a02e7eea7dc03a4b0e34c3c",
+      "revision": 2,
+      "name": "一粒尘埃",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v8-v08-restart"
+      ]
+    },
+    "character-arc-15": {
+      "asset_id": "chr-85f6b0fed3679e6aba5cd8bfb90ed2fe",
+      "revision": 2,
+      "name": "很萌很好推",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v8-v08-restart"
+      ]
+    },
+    "character-arc-16": {
+      "asset_id": "chr-c1d57c6960d1934d637613d9d9e18c61",
+      "revision": 2,
+      "name": "暗影随风",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v5-v05-scene-suifeng-exit",
+        "v6-v06-scene-suifeng-exit",
+        "v6-v06-scene-take-moon",
+        "v8-v08-after",
+        "v6-v06-scene-war-god-team"
+      ]
+    },
+    "character-arc-17": {
+      "asset_id": "chr-71f2c99a633aa4f28a0f1dbfdfc3dfc7",
+      "revision": 3,
+      "name": "林霜",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 2,
+      "map_nodes": [
+        "v7-v07-split",
+        "v8-v08-after"
+      ]
+    },
+    "character-arc-18": {
+      "asset_id": "chr-ee1965fccea370a368308fc430f87ad8",
+      "revision": 2,
+      "name": "灵儿",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 5,
+      "map_nodes": [
+        "v4-v04-dragonbone",
+        "v4-v04-spring",
+        "v6-v06-scene-linger-cost",
+        "v7-v07-aryan"
+      ]
+    },
+    "character-arc-19": {
+      "asset_id": "chr-930afcf268da24d1cce02085d6f3a0b2",
+      "revision": 2,
+      "name": "凌天",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v8-v08-father"
+      ]
+    },
+    "character-arc-20": {
+      "asset_id": "chr-84a5bcd312f4d8031136920895f2f2a5",
+      "revision": 2,
+      "name": "林克",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 4,
+      "map_nodes": [
+        "v4-v04-linkforge",
+        "v5-v05-scene-moon-bottle"
+      ]
+    },
+    "character-arc-21": {
+      "asset_id": "chr-a33214b93fd4dba1250eb049003617a6",
+      "revision": 2,
+      "name": "林丘",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 4,
+      "map_nodes": [
+        "v5-v05-scene-mila",
+        "v7-v07-dal"
+      ]
+    },
+    "character-arc-22": {
+      "asset_id": "chr-17111663c2fb13428ae6f0450ddff693",
+      "revision": 2,
+      "name": "奥丹",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v7-v07-audan"
+      ]
+    },
+    "character-arc-23": {
+      "asset_id": "chr-22c4c5cec96b66e988e6f1223563a11d",
+      "revision": 3,
+      "name": "大巫师",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 2,
+      "map_nodes": [
+        "v8-v08-sacrifice"
+      ]
+    },
+    "character-arc-24": {
+      "asset_id": "chr-c5de6c744ce3bce37f71e62b5acda63a",
+      "revision": 3,
+      "name": "逐风者卡伦",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v4-v04-kallen",
+        "v8-v08-kallen"
+      ]
+    },
+    "character-arc-25": {
+      "asset_id": "chr-d753e31aa08c79dae86225373a8cff35",
+      "revision": 2,
+      "name": "魂殇",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v4-v04-soul",
+        "v6-v06-scene-linger-cost"
+      ]
+    },
+    "character-arc-26": {
+      "asset_id": "chr-d4bff78bd75590687d9cb0912f265f2f",
+      "revision": 3,
+      "name": "达芙妮",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 2,
+      "map_nodes": [
+        "v5-v05-scene-dwarf"
+      ]
+    },
+    "character-arc-27": {
+      "asset_id": "chr-8217def1d8a7798006e1d8fed7b55641",
+      "revision": 2,
+      "name": "米拉",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v5-v05-scene-mila"
+      ]
+    },
+    "character-arc-28": {
+      "asset_id": "chr-faf76cfe6a8035724f364f501f2984ef",
+      "revision": 2,
+      "name": "血吼",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 2,
+      "map_nodes": [
+        "v8-v08-bloodroar"
+      ]
+    },
+    "character-arc-30": {
+      "asset_id": "chr-4598993e3fa763cba39f81ecbeb98abc",
+      "revision": 2,
+      "name": "亚兰",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "editorial-mentor-missing"
+      ]
+    },
+    "character-arc-31": {
+      "asset_id": "chr-1bfa3932ae04fcdc501a947123833e4f",
+      "revision": 3,
+      "name": "亡姐（书生旧创伤）",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 2,
+      "map_nodes": [
+        "v4-v04-cemetery"
+      ]
+    },
+    "character-arc-32": {
+      "asset_id": "chr-7029a8564cc4fda34224abdf8e94bf2a",
+      "revision": 2,
+      "name": "烛影乱",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 2,
+      "map_nodes": [
+        "v8-v08-swordduel"
+      ]
+    },
+    "character-arc-33": {
+      "asset_id": "chr-1c763bc82dd492ef57f6b8ada34a06c0",
+      "revision": 2,
+      "name": "许芳",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 2,
+      "map_nodes": []
+    },
+    "character-arc-34": {
+      "asset_id": "chr-fe11468bc3a96106c5b762066716cf85",
+      "revision": 2,
+      "name": "紫月",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v8-v08-ziwin"
+      ]
+    },
+    "character-arc-35": {
+      "asset_id": "chr-35cdf943c9f77af22d32870df907a8e3",
+      "revision": 3,
+      "name": "落雨无声",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v8-v08-after"
+      ]
+    },
+    "character-arc-36": {
+      "asset_id": "chr-38d2bba5a967973bc326b2662e8410dd",
+      "revision": 3,
+      "name": "夏天",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v6-v06-scene-snow-rescue",
+        "v8-v08-after"
+      ]
+    },
+    "character-arc-37": {
+      "asset_id": "chr-2ddc72b0fbc9e5429e46c727a861a663",
+      "revision": 3,
+      "name": "红绫舞",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v7-v07-redtrauma",
+        "v7-v07-recruit"
+      ]
+    },
+    "character-arc-38": {
+      "asset_id": "chr-5653bc1e63e5a08a825e5f0c2c48d80c",
+      "revision": 2,
+      "name": "孤坟",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v4-v04-autumn"
+      ]
+    },
+    "character-arc-39": {
+      "asset_id": "chr-f70ba59e49d0558b892ac2366d3d3b25",
+      "revision": 2,
+      "name": "王俊杰",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v1-v1c21"
+      ]
+    },
+    "character-arc-40": {
+      "asset_id": "chr-aab327ecd6f668dba6a2455e98ca4a36",
+      "revision": 3,
+      "name": "林傲",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v8-v08-family"
+      ]
+    },
+    "character-arc-41": {
+      "asset_id": "chr-cc3225e8647c1bf77eaf8579c962e5b5",
+      "revision": 2,
+      "name": "龙魂",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v1-v1c27",
+        "v2-rescue",
+        "v3-v03-token",
+        "v7-v07-split",
+        "v8-v08-after"
+      ]
+    },
+    "character-arc-42": {
+      "asset_id": "chr-76ec2947f592e5fce626664a7ade8e54",
+      "revision": 3,
+      "name": "沈落雁",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v6-v06-scene-moon-rise"
+      ]
+    },
+    "character-arc-43": {
+      "asset_id": "chr-45b546672be694380df265ff62449050",
+      "revision": 3,
+      "name": "血饮天下",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v6-v06-scene-moon-rise",
+        "v7-v07-redtrauma"
+      ]
+    },
+    "character-arc-44": {
+      "asset_id": "chr-82759fa79849ebfb4489dcb59f5600ed",
+      "revision": 2,
+      "name": "命运魔方",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v6-v06-scene-mofang-dignity",
+        "v6-v06-scene-ambush-cost",
+        "v6-v06-scene-take-moon",
+        "v8-v08-after",
+        "v6-v06-scene-war-god-team"
+      ]
+    },
+    "character-arc-45": {
+      "asset_id": "chr-d23c41f7dbccdbecba770a6125305f91",
+      "revision": 3,
+      "name": "勇敢的心／艾妮",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v6-v06-scene-weapon-pact",
+        "v6-v06-scene-world-final",
+        "v7-v07-manhunt"
+      ]
+    },
+    "character-arc-46": {
+      "asset_id": "chr-0ff87420260ba817eaf8e08cc2b96625",
+      "revision": 3,
+      "name": "冰之逸",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v6-v06-scene-recruit-council",
+        "v7-v07-dragonrace"
+      ]
+    },
+    "character-arc-47": {
+      "asset_id": "chr-995de096ba3c34e2b5faaf1a27a24973",
+      "revision": 3,
+      "name": "流年花火",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v6-v06-scene-recruit-council",
+        "v7-v07-dal"
+      ]
+    },
+    "character-arc-48": {
+      "asset_id": "chr-c8201098e8788130ad940a9982861ff8",
+      "revision": 3,
+      "name": "雪见草",
+      "deep_creative_analysis": true,
+      "profile_version": 2,
+      "acts": 3,
+      "map_nodes": [
+        "v7-v07-s4",
+        "v7-v07-manhunt",
+        "v8-v08-after"
+      ]
+    }
+  },
+  "pending_subjects": [
+    "龙神（称号／实体未合案）"
+  ],
+  "focus_node_ids": [
+    "collected-story",
+    "editorial-mentor-missing",
+    "v1-encounter",
+    "v1-gift",
+    "v1-growth",
+    "v1-network",
+    "v1-opportunity",
+    "v1-poor",
+    "v1-reciprocal",
+    "v1-story",
+    "v1-team",
+    "v1-v1c12",
+    "v1-v1c19",
+    "v1-v1c20",
+    "v1-v1c21",
+    "v1-v1c23",
+    "v1-v1c27",
+    "v1-v1c30",
+    "v1-v1c35",
+    "v1-v1c47",
+    "v2-accept",
+    "v2-arc2",
+    "v2-arc3",
+    "v2-arc4",
+    "v2-budget",
+    "v2-refuse",
+    "v2-rescue",
+    "v2-return",
+    "v2-seal",
+    "v2-sold",
+    "v2-vol02",
+    "v2-zero",
+    "v3-v03-a1",
+    "v3-v03-a2",
+    "v3-v03-a4",
+    "v3-v03-a5",
+    "v3-v03-a7",
+    "v3-v03-ice_failure",
+    "v3-v03-promise",
+    "v3-v03-qin_rescue",
+    "v3-v03-rebuild",
+    "v3-v03-reject_bet",
+    "v3-v03-root",
+    "v3-v03-token",
+    "v4-v04-arc-atlantis",
+    "v4-v04-arc-autumn",
+    "v4-v04-arc-awakening",
+    "v4-v04-arc-contest",
+    "v4-v04-arc-qin",
+    "v4-v04-arc-restitution",
+    "v4-v04-arc-territory",
+    "v4-v04-campus",
+    "v4-v04-dragonbone",
+    "v4-v04-firstcity",
+    "v4-v04-hushou",
+    "v4-v04-linkforge",
+    "v4-v04-rescuexiang",
+    "v4-v04-soul",
+    "v4-v04-spring",
+    "v4-v04-story",
+    "v5-v05-arc-escort",
+    "v5-v05-arc-hell",
+    "v5-v05-arc-hold-care",
+    "v5-v05-arc-reveal-next",
+    "v5-v05-arc-war",
+    "v5-v05-scene-annie-reversal",
+    "v5-v05-scene-blood-consent",
+    "v5-v05-scene-mila",
+    "v5-v05-scene-moon-bottle",
+    "v5-v05-scene-suifeng-exit",
+    "v5-v05-scene-thunder-escort",
+    "v5-v05-story",
+    "v6-v06-arc-avalon",
+    "v6-v06-arc-capital",
+    "v6-v06-arc-dawn",
+    "v6-v06-arc-home-sky",
+    "v6-v06-arc-moon-shrine",
+    "v6-v06-arc-tomb-mofang",
+    "v6-v06-scene-ambush-cost",
+    "v6-v06-scene-defend-capital",
+    "v6-v06-scene-linger-cost",
+    "v6-v06-scene-mofang-dignity",
+    "v6-v06-scene-qin-return",
+    "v6-v06-scene-refuse-duke",
+    "v6-v06-scene-shrine-rematch",
+    "v6-v06-scene-snow-rescue",
+    "v6-v06-scene-suifeng-exit",
+    "v6-v06-scene-take-moon",
+    "v6-v06-story",
+    "v7-v07-a1",
+    "v7-v07-a3",
+    "v7-v07-a4",
+    "v7-v07-a5",
+    "v7-v07-a6",
+    "v7-v07-a7",
+    "v7-v07-a8",
+    "v7-v07-aryan",
+    "v7-v07-canglong",
+    "v7-v07-dal",
+    "v7-v07-destroy",
+    "v7-v07-industry",
+    "v7-v07-qinreturn",
+    "v7-v07-relevel",
+    "v7-v07-root",
+    "v7-v07-split",
+    "v7-v07-xun",
+    "v8-v08-after",
+    "v8-v08-arc-final",
+    "v8-v08-arc-purify",
+    "v8-v08-arc-reality",
+    "v8-v08-arc-sacrifice",
+    "v8-v08-arc-threshold",
+    "v8-v08-arc-war",
+    "v8-v08-arc-wsl",
+    "v8-v08-bloodroar",
+    "v8-v08-capture",
+    "v8-v08-cleanse",
+    "v8-v08-delete",
+    "v8-v08-durability",
+    "v8-v08-endbattle",
+    "v8-v08-family",
+    "v8-v08-father",
+    "v8-v08-kite",
+    "v8-v08-qinyun",
+    "v8-v08-sacrifice",
+    "v8-v08-story",
+    "v8-v08-wash"
+  ],
+  "event_register_count": 73,
+  "content_version": 2,
+  "editorial_status": "按用户树图与完整档案要求返工；本地完成，文学判断待审阅",
+  "tree_entry": "tree/index.html",
+  "profile_count": 47,
+  "act_count": 158,
+  "map_reading_version": 3,
+  "map_narrative_explanations": 51
+}

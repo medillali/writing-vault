@@ -1,0 +1,108 @@
+# 方歌阙｜卷五阶段
+
+ID: `chr-3be0468d5d5b5c9b82035d2a7cee8bcc` · 版本: 1 · 范围: source-analysis
+
+神话领袖/顶尖法师，组织性竞争与共同抗敌并存。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-3be0468d5d5b5c9b82035d2a7cee8bcc",
+  "asset_type": "character",
+  "content": {
+    "claim_kind": "inference",
+    "decision_pattern": "伪攻临海转红岩九霄、危宫末守/沧与问合作清神骨，百团以控分工。",
+    "goal": "守主城和神话优势、取得阵营胜利。",
+    "limitations": "偷九霄后被魔收复，不能把一次系统占写长期占；ALLSTAR与国战名次不同。",
+    "relationship_direction": "主盟友竞争而非下属；获胜不归全主角。",
+    "stage_change": "二国战MVP、沧第二，普通竞技居第三；承纸副盟未见后授。",
+    "summary": "神话领袖/顶尖法师，组织性竞争与共同抗敌并存。",
+    "valid_at": "raw0969—1179卷末，不是全书终点"
+  },
+  "created_at": "2026-10-25T21:08:42.995935+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1004",
+      "claim_kind": "fact",
+      "end_line": 74421,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 74357
+    },
+    {
+      "chapter_id": "ch-1058",
+      "claim_kind": "fact",
+      "end_line": 77867,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 77807
+    },
+    {
+      "chapter_id": "ch-1059",
+      "claim_kind": "fact",
+      "end_line": 77931,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 77868
+    },
+    {
+      "chapter_id": "ch-1088",
+      "claim_kind": "fact",
+      "end_line": 79741,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 79679
+    },
+    {
+      "chapter_id": "ch-1089",
+      "claim_kind": "fact",
+      "end_line": 79808,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 79742
+    },
+    {
+      "chapter_id": "ch-1112",
+      "claim_kind": "fact",
+      "end_line": 81565,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 81501
+    },
+    {
+      "chapter_id": "ch-1122",
+      "claim_kind": "fact",
+      "end_line": 82276,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 82208
+    },
+    {
+      "chapter_id": "ch-1157",
+      "claim_kind": "fact",
+      "end_line": 84535,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 84466
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fang",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "方歌阙｜卷五阶段",
+  "updated_at": "2026-10-25T21:08:42.995935+00:00",
+  "user_notes": ""
+}
+
+```

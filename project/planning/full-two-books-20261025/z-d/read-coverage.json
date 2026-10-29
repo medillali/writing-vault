@@ -1,0 +1,63 @@
+{
+  "source_key": "z",
+  "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+  "source_revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+  "total_source_units": 463,
+  "assigned_unit_start": 391,
+  "assigned_unit_end": 463,
+  "read_unit_count": 73,
+  "full_read_intervals": [
+    [
+      391,
+      463
+    ]
+  ],
+  "missing_units": [],
+  "method": "按read_source.py给出的真实reading-unit顺序逐单元全文模型阅读；脚本只负责输出原文/保存和审计，不用目录、搜索、旧摘要、循环抽样代替阅读。",
+  "saved_batches": [
+    {
+      "file": "batch-01.json",
+      "unit_start": 391,
+      "unit_end": 410
+    },
+    {
+      "file": "batch-02.json",
+      "unit_start": 411,
+      "unit_end": 430
+    },
+    {
+      "file": "batch-03.json",
+      "unit_start": 431,
+      "unit_end": 450
+    },
+    {
+      "file": "batch-04.json",
+      "unit_start": 451,
+      "unit_end": 463
+    }
+  ],
+  "reading_rechecks": [
+    {
+      "unit": 411,
+      "purpose": "复核黑赛禁药/特殊道具具体行号25210，与443全服道具使用的规则边界分开"
+    }
+  ],
+  "output_policy": "正文每次少量单元使完整输出可见，任何截断须缩小补读；本段最终无缺段。保存回执或证据行界通过均不替代全文阅读。",
+  "final_boundary": {
+    "ordinal": 463,
+    "unit_id": "ch-0464",
+    "title": "第四六一章 巅峰之战（大结局）",
+    "evidence": [
+      {
+        "chapter_id": "ch-0464",
+        "start_line": 28775,
+        "end_line": 28897
+      }
+    ]
+  },
+  "quality_limits": [
+    "仅覆盖指定391–463，旧支线setup不在此段者由其他负责代理验证。",
+    "机器检查证明结构/行界，不证明每个研究解释正确。",
+    "源异常保留，人物言论、推断和叙述价值框架不自动变事实或用户偏好。"
+  ]
+}

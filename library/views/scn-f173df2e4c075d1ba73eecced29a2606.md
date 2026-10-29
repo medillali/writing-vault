@@ -1,0 +1,93 @@
+# 旧技随装备复制失效
+
+ID: `scn-f173df2e4c075d1ba73eecced29a2606` · 版本: 1 · 范围: source-analysis
+
+主用二星盾换黄金龙腾腿再复制霸王膝，旧神将膝让月送李；弑神铠后给薛失原技。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-f173df2e4c075d1ba73eecced29a2606",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "系统允许把一个效果转到套装但会使原物失效，且转赠后可能缺资格或实收。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/rou",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/qian",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/li"
+    ],
+    "choice": "保套位但取龙腾/弑神",
+    "claim_kind": "inference",
+    "consequence": "新版能力实用、旧物分流",
+    "failure_mode": "月代送不是李收，1138旧名滑移不造取回。",
+    "goal": "选择需要的技能",
+    "narrative_order": 1134,
+    "obstacle": "复制消旧物效/资格",
+    "state_change": "获得伴随放弃",
+    "summary": "主用二星盾换黄金龙腾腿再复制霸王膝，旧神将膝让月送李；弑神铠后给薛失原技。",
+    "why_it_works": "建立原物与承载物两条链，不把旧技永久叠身。"
+  },
+  "created_at": "2026-10-25T21:08:43.304697+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1109",
+      "claim_kind": "fact",
+      "end_line": 81360,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 81277
+    },
+    {
+      "chapter_id": "ch-1110",
+      "claim_kind": "fact",
+      "end_line": 81431,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 81361
+    },
+    {
+      "chapter_id": "ch-1126",
+      "claim_kind": "fact",
+      "end_line": 82568,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 82470
+    },
+    {
+      "chapter_id": "ch-1134",
+      "claim_kind": "fact",
+      "end_line": 83073,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 83010
+    },
+    {
+      "chapter_id": "ch-1138",
+      "claim_kind": "fact",
+      "end_line": 83316,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 83236
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/copy",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "旧技随装备复制失效",
+  "updated_at": "2026-10-25T21:08:43.304697+00:00",
+  "user_notes": ""
+}
+
+```

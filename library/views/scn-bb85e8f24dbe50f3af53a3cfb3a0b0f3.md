@@ -1,0 +1,67 @@
+# 两万龙曜救人与假退解释
+
+ID: `scn-bb85e8f24dbe50f3af53a3cfb3a0b0f3` · 版本: 1 · 范围: source-analysis
+
+残军获救，何独立组织知识显露。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-bb85e8f24dbe50f3af53a3cfb3a0b0f3",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "需要清晰目标、约束与行动回执的长篇冒险或组织叙事。",
+    "character_origin_keys": [
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/luchen",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/heyi",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/li",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/gui"
+    ],
+    "choice": "北发信息、何亲率骑援，后亲口说明假血佣。",
+    "consequence": "残军获救，何独立组织知识显露。",
+    "failure_mode": "陆说早猜不把前段改全知；王诩才当面确名。",
+    "goal": "接回耐久濒危的陆逸。",
+    "obstacle": "国籍压力/反叛传闻使支援复杂。",
+    "state_change": "旧共同体并未抛弃无籍陆。",
+    "summary": "残军获救，何独立组织知识显露。",
+    "why_it_works": "实际援军与知情者解释共同回收误认。"
+  },
+  "created_at": "2026-10-25T00:01:47.337744+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1146",
+      "claim_kind": "fact",
+      "end_line": 92612,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 92524
+    },
+    {
+      "chapter_id": "ch-1147",
+      "claim_kind": "fact",
+      "end_line": 92687,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 92613
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/scene/relay-home",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:6",
+    "研究:全量九维"
+  ],
+  "title": "两万龙曜救人与假退解释",
+  "updated_at": "2026-10-25T00:01:47.337744+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,146 @@
+# 贼胆｜赵岚馨｜E0033
+
+ID: `chr-zeidan-legacy-e0033` · 版本: 1 · 范围: source-analysis
+
+与萧御矿洞双人协作，控制、引怪、治疗和回身救援均直接改变战局。；埃托斯格询问恋人时，萧御表白后又以触发任务解释，她失落；其旧情逐渐淡去。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0033",
+  "asset_type": "character",
+  "content": {
+    "aliases": [],
+    "causal_importance": "矿洞双人任务、现实感情线关键",
+    "desires": [
+      "与萧御保持生活和游戏联系"
+    ],
+    "facts": [
+      "与萧御矿洞双人协作，控制、引怪、治疗和回身救援均直接改变战局。",
+      "埃托斯格询问恋人时，萧御表白后又以触发任务解释，她失落；其旧情逐渐淡去。",
+      "她认为虎口夺宝贡献少，萧御坚持均分头骨；准备把一枚送同学引萧吃醋。",
+      "借留小雨来让萧御继续住下；借车给萧御回贫民区。"
+    ],
+    "identity": "海族法系玩家，萧御兄妹现实同住者",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0033",
+    "limits": [
+      "对双方情意没有直接明确答复"
+    ],
+    "maintenance_depth": "高",
+    "name": "赵岚馨",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0033",
+    "relationships": [
+      "萧御：互有关切且有误读，未确认正式恋人",
+      "小雨：亲近并合力留住萧御",
+      "风野、月夜：大学同学",
+      "未具名前恋人：迁新星，眷恋程度不能只依萧判断"
+    ],
+    "summary": "与萧御矿洞双人协作，控制、引怪、治疗和回身救援均直接改变战局。；埃托斯格询问恋人时，萧御表白后又以触发任务解释，她失落；其旧情逐渐淡去。",
+    "user_feedback": null,
+    "worker_part": "part-b"
+  },
+  "created_at": "2026-10-22T17:03:12.007891+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0165",
+      "claim_kind": "fact",
+      "end_line": 7336,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 7278
+    },
+    {
+      "chapter_id": "ch-0166",
+      "claim_kind": "fact",
+      "end_line": 7389,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 7337
+    },
+    {
+      "chapter_id": "ch-0167",
+      "claim_kind": "fact",
+      "end_line": 7483,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 7390
+    },
+    {
+      "chapter_id": "ch-0168",
+      "claim_kind": "fact",
+      "end_line": 7550,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 7484
+    },
+    {
+      "chapter_id": "ch-0169",
+      "claim_kind": "fact",
+      "end_line": 7623,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 7551
+    },
+    {
+      "chapter_id": "ch-0170",
+      "claim_kind": "fact",
+      "end_line": 7687,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 7624
+    },
+    {
+      "chapter_id": "ch-0176",
+      "claim_kind": "fact",
+      "end_line": 8079,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 8007
+    },
+    {
+      "chapter_id": "ch-0204",
+      "claim_kind": "fact",
+      "end_line": 9878,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 9821
+    },
+    {
+      "chapter_id": "ch-0264",
+      "claim_kind": "fact",
+      "end_line": 14046,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 13982
+    },
+    {
+      "chapter_id": "ch-0265",
+      "claim_kind": "fact",
+      "end_line": 14099,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 14047
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0033",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-b"
+  ],
+  "title": "贼胆｜赵岚馨｜E0033",
+  "updated_at": "2026-10-22T17:03:12.017885+00:00",
+  "user_notes": ""
+}
+
+```

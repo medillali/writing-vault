@@ -1,0 +1,60 @@
+{
+  "before_signed_sha256": "b646f7366b4cca4392c824004c2d537994557d321da863acd2b101d4486e044c",
+  "after_sha256": "52068600a62b2d68af010142e3e4cdf5682d95131b420dba4113c31781a8b186",
+  "unchanged_other_items": 58,
+  "deltas": [
+    {
+      "candidate_id": "v07-local-local_historical_questions-091-01",
+      "before": {
+        "candidate_id": "v07-local-local_historical_questions-091-01",
+        "status": "answered",
+        "audit_domain": "revival-rule-confirmation",
+        "rationale": "1388主当场确认不死卡在混乱复活无效而只用攻血，是规则后证；职业绝处逢生后另有例外表现未释，不能无条件概括所有名同复起。",
+        "later_chapters": [
+          1384,
+          1388,
+          1393
+        ]
+      },
+      "after": {
+        "candidate_id": "v07-local-local_historical_questions-091-01",
+        "status": "answered",
+        "audit_domain": "revival-rule-confirmation",
+        "rationale": "1388主确认不死卡在混乱图复活失效、只用攻血属性；1427明确不死卡和返生诀失效而弓箭手绝处逢生有效，后文已给具体例外。怪涅槃只是李玩笑推测，不由弓例外推广全部复活。",
+        "later_chapters": [
+          1384,
+          1388,
+          1393,
+          1427
+        ]
+      }
+    },
+    {
+      "candidate_id": "v07-local-local_historical_questions-100-02",
+      "before": {
+        "candidate_id": "v07-local-local_historical_questions-100-02",
+        "status": "unknown",
+        "audit_domain": "revival-rule-continuity",
+        "rationale": "混乱禁复与龙刑绝处逢生10%被动复起均实述，未给职业例外规则说明；后再出现也不自动解释原因，保源限制冲突而不删复起场面。",
+        "later_chapters": [
+          1384,
+          1388,
+          1393,
+          1394
+        ]
+      },
+      "after": {
+        "candidate_id": "v07-local-local_historical_questions-100-02",
+        "status": "answered",
+        "audit_domain": "revival-rule-continuity",
+        "rationale": "1388禁不死卡/1393龙刑绝处逢生复起在1427 L112982得到明确人物规则说明：此图不死狂战卡、返生诀失效，弓箭手绝处逢生有作用。原规则疑点已获后证解释；怪涅槃是否触发仍非该句所证，不推广所有复活技能。",
+        "later_chapters": [
+          1388,
+          1393,
+          1394,
+          1427
+        ]
+      }
+    }
+  ]
+}

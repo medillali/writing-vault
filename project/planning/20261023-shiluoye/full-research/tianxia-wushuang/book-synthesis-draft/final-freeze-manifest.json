@@ -1,0 +1,41 @@
+{
+  "status": "final_draft_frozen_for_primary_sha_signature",
+  "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+  "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+  "files": [
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft.json",
+      "sha256": "3e270c00e6ac14d25d62cc48faf9923040cc107cea0ed9b35e0283d2dc7c9c2d"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft.md",
+      "sha256": "04864c47759b23ebded8a69a752984129e1fd6be7d469f3ef3a7b9299b1c585e"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft/final-preflight.json",
+      "sha256": "6f9de63bc9d3ef9750340ad33e51878600601c4a6ec695ad389be058ed7f0158"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft/final-validation.json",
+      "sha256": "56ed72304a4091d778decdf6c8db7a67c381993af90eeaf929c0d79e9a0e5bbb"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft/primary-synthesis-delta-applied.json",
+      "sha256": "20e0b55da8f044ecdba65c22659296398b074720916a17706eb509c68582d321"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/book-synthesis-draft/late-material-read-log.json",
+      "sha256": "144012f081e629e1e7efa6cb3e5142ae754df8834aeae168c1e208c3e49164be"
+    }
+  ],
+  "observations": 36,
+  "upstream_documents_verified": 50,
+  "evidence_references_checked": 2626,
+  "source_reading_union": "1599正文/1609原片，团队分工全覆盖",
+  "personal_complete_book_read": false,
+  "primary_semantic_review_reported_complete": true,
+  "primary_signature_written_by_this_agent": false,
+  "formal_library_modified": false,
+  "user_approval": false,
+  "instruction": "停止重跑assemble_final.py及任何生成器；除非primary定向要求新的delta，保持JSON/MD SHA。"
+}

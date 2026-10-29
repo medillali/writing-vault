@@ -1,0 +1,100 @@
+# 撤退是目标重新排序
+
+ID: `pat-e86cd0daff3e51afaac0cf03f4173f8c` · 版本: 1 · 范围: reusable-pattern
+
+弃海岸/先撤三军/玩家护炮，把保全对象明确为可选责任。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-e86cd0daff3e51afaac0cf03f4173f8c",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "组织拥有不同补充速度和移动能力，守地并非唯一胜利条件。",
+    "causal_steps": [
+      "展示继续守的真实成本",
+      "明确最需保的资源/人群",
+      "分断后与撤离先后",
+      "给实际撤到和断后损失"
+    ],
+    "claim_kind": "synthesis",
+    "failure_mode": "把可复活者写不痛不损，或宣布撤离但永不验到达。",
+    "originality_transform": "换成医院撤院、流民移城，给被留下者的选择与反对空间。",
+    "summary": "弃海岸/先撤三军/玩家护炮，把保全对象明确为可选责任。"
+  },
+  "created_at": "2026-10-25T21:08:43.507079+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-fed69c8aafd7580da6b8cdabb1e79dcc",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-12dafa3979635604ae47c6b92921840b",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-ee1e6f6013c2580699a305858f641ac5",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0978",
+      "claim_kind": "synthesis",
+      "end_line": 72755,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 72684
+    },
+    {
+      "chapter_id": "ch-0979",
+      "claim_kind": "synthesis",
+      "end_line": 72818,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 72756
+    },
+    {
+      "chapter_id": "ch-1149",
+      "claim_kind": "synthesis",
+      "end_line": 84010,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 83960
+    },
+    {
+      "chapter_id": "ch-1152",
+      "claim_kind": "synthesis",
+      "end_line": 84202,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 84132
+    },
+    {
+      "chapter_id": "ch-1155",
+      "claim_kind": "synthesis",
+      "end_line": 84399,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 84335
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/pattern/retreat-choice",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "撤退是目标重新排序",
+  "updated_at": "2026-10-25T21:08:43.507079+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,81 @@
+{
+  "asset_id": "scn-64bea05c903f5e1ebb85340810256d78",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "能部署重械、有盾兵和装填组，目标在平射射界。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/hanyuan",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/xiaoli",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/fushui"
+    ],
+    "choice": "重盾护十人装弩，骑兵刺嘴/脚协作。",
+    "claim_kind": "inference",
+    "consequence": "波守住但NPC持续伤亡/重伤转运。",
+    "failure_mode": "移动撤退慢/浪削武器；对空炮回落与平射弩不同。",
+    "goal": "扛鱼人/海象冲线。",
+    "obstacle": "海水/装填空窗、恐惧与穿透箭。",
+    "state_change": "器械威力和人力/友火同一因果链。",
+    "summary": "鱼嘴弱点由韩发现共享，弩30秒装填平射强；唐麟被枪挑进友弩轨真死，旧秋收夏亦亡。",
+    "why_it_works": "数字巨伤不遮近身防线和操作节奏。"
+  },
+  "created_at": "2026-10-25T21:08:35.468863+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0790",
+      "claim_kind": "fact",
+      "end_line": 61201,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 61125
+    },
+    {
+      "chapter_id": "ch-0791",
+      "claim_kind": "fact",
+      "end_line": 61257,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 61202
+    },
+    {
+      "chapter_id": "ch-0792",
+      "claim_kind": "fact",
+      "end_line": 61324,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 61258
+    },
+    {
+      "chapter_id": "ch-0793",
+      "claim_kind": "fact",
+      "end_line": 61384,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 61325
+    },
+    {
+      "chapter_id": "ch-0794",
+      "claim_kind": "fact",
+      "end_line": 61442,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 61385
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/scene/ballista",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷4",
+    "待审阅"
+  ],
+  "title": "巨弩、鱼嘴与唐麟之死",
+  "updated_at": "2026-10-25T21:08:35.468863+00:00",
+  "user_notes": ""
+}

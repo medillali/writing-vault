@@ -1,0 +1,24 @@
+"""主代理对亲读卷二全部材料的实质复核回执，不代表独立第二审或用户认可。"""
+import json,hashlib
+from pathlib import Path
+from check_volume import load_and_check
+B=Path(__file__).parent;book='tianxia-wushuang';d=B/book/'vol02'
+r=load_and_check(book,2)[-1]
+review=dict(volume=2,reviewer='primary',status='reviewed_for_library_import',user_approval=False,
+scope='primary亲读raw0093—0228全部136片135正文，逐章笔记完整；复核36九维/28人物51场景10机制/59节点41边13线。不是第二读者独立全文复读。',
+corrections_verified=[
+'210林免费送陆20药，已纠正场景构建稿误写林收药；190百药预订/225另购60/10金佣未付单独保存。',
+'209飘云烟活回城，烛四只有舞碧烈三实际死亡；212宣传四杀与213主承煽情并列，论坛不能覆盖现场。',
+'霸208先履约尾杀碧，209才实袭慕/慕活，210林尾杀霸；预测背刺不提前写既成。',
+'北217识真爱脸/218众猜孕，219检测明确未孕/小说肠胃炎，未做人流；北述仅吻拥拒性，陆代称女友不是恋约。',
+'何164清醒相认/166仍不知LC分开；林B型/状态差/抽血只是线索，供者身份本卷未证。',
+'何深渊剑胸黄金/苍狼腕白银实穿，186月恋暗金需65只得未见wear，207/225暗金夸称源错不覆盖面板。',
+'谁与争锋冠由系统确证，末局四友死+陆6%不死触；15万工资/合同3日内/25%基金仍承诺，房租三月与5万给父实际已付。',
+'旧心然约定系统失败，斩苏后新SSS/妖仆不是牧师愿已成；杀师同时杀营商材药NPC12，保护自述不洗平杀伤。',
+'原卡214已在父手未动，215何述400万而非主银行核验；母16岁时亡未给死因，陆自责不证明电竞致死。',
+'卷末陆74心70/麻戒炼狱剑实wear，锁魔塔二层王仅见，神念/镇魔剑未完成；药总价/技能比例/死亡罚/掉率句倒/封印年代保源差。'],
+preflight=r,remaining=['全书其余分卷与九维终点审计继续；本卷完整不等全书完成。','研究draft，未收藏/用户认可/导入原创canon。'],
+input_sha256={n:hashlib.sha256((d/n).read_bytes()).hexdigest() for n in ['analysis.json','cards.json','graph.json','read-log.json','chapter-notes.jsonl','reader-state.json']})
+(d/'validation.json').write_text(json.dumps({**r,'reader':'primary','unresolved_truncations':0,'semantic_review':'primary own full text and artifact review','user_approval':False},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+(B/book/'review-vol02.json').write_text(json.dumps(review,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print('review-vol02 passed; six hashes pinned; user approval false')

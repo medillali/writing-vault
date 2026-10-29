@@ -1,0 +1,147 @@
+{
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "issue": "徐焰违令被降时属狂雷军，旧summary的御林为研究误录。",
+  "primary_approval": {
+    "reviewer": "primary",
+    "status": "approved-for-library-reading-overlay",
+    "user_approval": false,
+    "approved_fields": 7,
+    "original_files_unchanged": true,
+    "proposal_sha256": "1949afe6543a4d0d44025fee24a646fdce0b5cb1ae62260d4700b3c3a8667684",
+    "actual_source_verification": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1001",
+        "start_line": 74200,
+        "end_line": 74212,
+        "claim_kind": "fact",
+        "actual_reader": "primary",
+        "full_text_read": false,
+        "unique_coverage_increment": 0
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1067",
+        "start_line": 78313,
+        "end_line": 78377,
+        "claim_kind": "fact",
+        "actual_reader": "primary",
+        "full_text_read": true,
+        "unique_coverage_increment": 0
+      }
+    ]
+  },
+  "affected_fields": [
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol05/cards.json",
+      "sha256": "115ed7de9625f036d0f49a68cde2150a2d517e9450d9df124ff3df3f5f7604db",
+      "field_path": [
+        51,
+        "content",
+        "summary"
+      ],
+      "before": "御林违令出击被降的具名将领，后守凡书实死。",
+      "after": "狂雷军违令出击被降的具名将领，后守凡书实死。",
+      "issue_id": "xuyan-kuanglei-not-yulin-summary"
+    },
+    {
+      "path": ".planning/20261023-shiluoye/full-research/zhanlong/vol05/analysis.json",
+      "sha256": "48c8e30f459c51d1f44fe8f4923c7daff997a6f10ddf047cf5dfd4edc01d3fb8",
+      "field_path": [
+        "major_character_states",
+        51,
+        "summary"
+      ],
+      "before": "御林违令出击被降的具名将领，后守凡书实死。",
+      "after": "狂雷军违令出击被降的具名将领，后守凡书实死。",
+      "issue_id": "xuyan-kuanglei-not-yulin-summary"
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol05-cards.json",
+      "sha256": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+      "field_path": [
+        51,
+        "content",
+        "summary"
+      ],
+      "before": "御林违令出击被降的具名将领，后守凡书实死。",
+      "after": "狂雷军违令出击被降的具名将领，后守凡书实死。",
+      "issue_id": "xuyan-kuanglei-not-yulin-summary"
+    },
+    {
+      "path": "writing-vault/library/reports/zhanlong/vol05-analysis.json",
+      "sha256": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+      "field_path": [
+        "major_character_states",
+        51,
+        "summary"
+      ],
+      "before": "御林违令出击被降的具名将领，后守凡书实死。",
+      "after": "狂雷军违令出击被降的具名将领，后守凡书实死。",
+      "issue_id": "xuyan-kuanglei-not-yulin-summary"
+    },
+    {
+      "path": "writing-vault/library/characters/chr-36eaf0a80230530c92963612fcccc15f.json",
+      "sha256": "398741614a8a46401ba84f8eb4ef17d2870f8132fc49f4a6332ec1c295645750",
+      "field_path": [
+        "content",
+        "summary"
+      ],
+      "before": "御林违令出击被降的具名将领，后守凡书实死。",
+      "after": "狂雷军违令出击被降的具名将领，后守凡书实死。",
+      "issue_id": "xuyan-kuanglei-not-yulin-summary"
+    },
+    {
+      "path": "writing-vault/library/views/chr-36eaf0a80230530c92963612fcccc15f.md",
+      "sha256": "e1409146735568e2dbb875b3852db857a4d0cdb073b890685e5d89d9e2af7739",
+      "field_path": [
+        "line",
+        5
+      ],
+      "before": "御林违令出击被降的具名将领，后守凡书实死。",
+      "after": "狂雷军违令出击被降的具名将领，后守凡书实死。",
+      "issue_id": "xuyan-kuanglei-not-yulin-summary"
+    },
+    {
+      "path": "writing-vault/library/views/chr-36eaf0a80230530c92963612fcccc15f.md",
+      "sha256": "e1409146735568e2dbb875b3852db857a4d0cdb073b890685e5d89d9e2af7739",
+      "field_path": [
+        "line",
+        20
+      ],
+      "before": "    \"summary\": \"御林违令出击被降的具名将领，后守凡书实死。\",",
+      "after": "    \"summary\": \"狂雷军违令出击被降的具名将领，后守凡书实死。\",",
+      "issue_id": "xuyan-kuanglei-not-yulin-summary"
+    }
+  ],
+  "evidence": [
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-1001",
+      "start_line": 74200,
+      "end_line": 74212,
+      "claim_kind": "fact",
+      "actual_reader": "primary",
+      "full_text_read": false,
+      "unique_coverage_increment": 0
+    },
+    {
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "chapter_id": "ch-1067",
+      "start_line": 78313,
+      "end_line": 78377,
+      "claim_kind": "fact",
+      "actual_reader": "primary",
+      "full_text_read": true,
+      "unique_coverage_increment": 0
+    }
+  ],
+  "proposal_archive": "priority-corrections-xuyan-army-proposal.json",
+  "proposal_sha256": "1949afe6543a4d0d44025fee24a646fdce0b5cb1ae62260d4700b3c3a8667684",
+  "reading_precedence": "after为当前解释；冻结分卷、canonical与旧阅读副本保原字节，非用户审美批准。"
+}

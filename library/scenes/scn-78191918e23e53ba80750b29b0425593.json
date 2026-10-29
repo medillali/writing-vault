@@ -1,0 +1,115 @@
+{
+  "asset_id": "scn-78191918e23e53ba80750b29b0425593",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "前置复活和空间具备落脚条件，并愿意给偶然附加代价。",
+    "choice": "先承担牺牲，再利用偶然位置持续输出，最后放弃金币保装备。",
+    "consequence": "升50、得三装与龙之证明，金币未拾；没有建帮令。",
+    "facts": [
+      {
+        "claim_kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0094",
+            "claim_kind": "fact",
+            "end_line": 6124,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 6065
+          },
+          {
+            "chapter_id": "ch-0095",
+            "claim_kind": "fact",
+            "end_line": 6167,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 6128
+          }
+        ],
+        "statement": "书生为同伴撤离引Boss，击飞复活后偶然落在悬灯，获得远射安全位；近十小时耗完资源，在开门追兵赶到前击杀取装回城。"
+      }
+    ],
+    "failure_mode": "把意外说成主角预判，或安全位后立即无成本收奖。",
+    "goal": "先保同伴，偶然生还后争取击杀收益。",
+    "inferences": [
+      {
+        "claim_kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0094",
+            "claim_kind": "inference",
+            "end_line": 6124,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 6065
+          },
+          {
+            "chapter_id": "ch-0095",
+            "claim_kind": "inference",
+            "end_line": 6167,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 6128
+          }
+        ],
+        "statement": "幸运只提供机会，后续消耗与取舍决定收益；该段也有偶然便利偏强的局限。"
+      }
+    ],
+    "obstacle": "Boss减速仍追得上、近战秒杀；安全位不解决回血、箭药和开门期限。",
+    "stage": "正文第50—100章，卷二阶段草稿",
+    "state_change": "预期必死→可能成功→期限将到的紧张升级。",
+    "summary": "书生为同伴撤离引Boss，击飞复活后偶然落在悬灯，获得远射安全位；近十小时耗完资源，在开门追兵赶到前击杀取装回城。",
+    "why_it_works": "幸运只提供机会，后续消耗与取舍决定收益；该段也有偶然便利偏强的局限。"
+  },
+  "created_at": "2026-10-22T17:53:52.308827+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0094",
+      "claim_kind": "fact",
+      "end_line": 6124,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 6065
+    },
+    {
+      "chapter_id": "ch-0095",
+      "claim_kind": "fact",
+      "end_line": 6167,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 6128
+    },
+    {
+      "chapter_id": "ch-0094",
+      "claim_kind": "inference",
+      "end_line": 6124,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 6065
+    },
+    {
+      "chapter_id": "ch-0095",
+      "claim_kind": "inference",
+      "end_line": 6167,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 6128
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/lamp-opportunity",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷次:卷二",
+    "场景因果"
+  ],
+  "title": "悬灯偶然生机与十小时消耗",
+  "updated_at": "2026-10-22T17:53:52.308827+00:00",
+  "user_notes": ""
+}

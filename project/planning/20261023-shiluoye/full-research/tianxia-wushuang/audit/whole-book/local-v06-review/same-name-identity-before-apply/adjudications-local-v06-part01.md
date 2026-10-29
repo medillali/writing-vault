@@ -1,0 +1,484 @@
+# 无双本地候选终点评定：decisions-v06-part01
+
+本文件为独立待主审裁定；保留原记录，非池主档。chapter号均为raw。其他卷派生输入不冒称原文复读。
+
+## v06-local-issue_log-001-01
+
+- 原子项：吻痕荷兰199战/中165刺/美192战，谁中165刺/美192战/巴西212剑分别实体
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1105", "claim_kind": "fact", "end_line": 89503, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 89452}, {"chapter_id": "ch-1106", "claim_kind": "fact", "end_line": 89559, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 89504}, {"chapter_id": "ch-1168", "claim_kind": "fact", "end_line": 94276, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 94215}, {"chapter_id": "ch-1209", "claim_kind": "fact", "end_line": 97183, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97112}, {"chapter_id": "ch-1229", "claim_kind": "fact", "end_line": 98585, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98521}], "id": "v06-issue-001", "kind": "identity", "observation": "吻痕荷兰199战/中165刺/美192战，谁中165刺/美192战/巴西212剑分别实体；小蛮第八刺盟与水云魂归盟主独立。", "state": "bounded", "title": "同ID分实体"}
+- 终点：answered；领域：identity-recording
+- 理由：本项为实体消歧约束：荷兰战士吻痕与中美服同ID、巴西剑士等以服务器/职业/等级分别记录，不能仅凭名字拼成跨服履历；后续保护伞吻痕的行动不回填另服实体。
+- 后证：1105, 1106, 1209, 1229
+
+## v06-local-issue_log-001-02
+
+- 原子项：小蛮第八刺盟与水云魂归盟主独立。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1105", "claim_kind": "fact", "end_line": 89503, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 89452}, {"chapter_id": "ch-1106", "claim_kind": "fact", "end_line": 89559, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 89504}, {"chapter_id": "ch-1168", "claim_kind": "fact", "end_line": 94276, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 94215}, {"chapter_id": "ch-1209", "claim_kind": "fact", "end_line": 97183, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97112}, {"chapter_id": "ch-1229", "claim_kind": "fact", "end_line": 98585, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98521}], "id": "v06-issue-001", "kind": "identity", "observation": "吻痕荷兰199战/中165刺/美192战，谁中165刺/美192战/巴西212剑分别实体；小蛮第八刺盟与水云魂归盟主独立。", "state": "bounded", "title": "同ID分实体"}
+- 终点：answered；领域：identity-recording
+- 理由：漂亮小蛮在第八分盟的刺客身份与水云谣作为魂归盟主分别有行动主体；没有同一人改名证，不因均为女盟友而合并。此answered指身份记录约束已落实。
+- 后证：1168
+
+## v06-local-issue_log-002-01
+
+- 原子项：1147何亲自说明假退，陆后称早猜不能反推此前确定。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1135", "claim_kind": "fact", "end_line": 91855, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 91780}, {"chapter_id": "ch-1147", "claim_kind": "fact", "end_line": 92687, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 92613}], "id": "v06-issue-002", "kind": "knowledge", "observation": "1147何亲自说明假退，陆后称早猜不能反推此前确定。", "state": "bounded", "title": "假血佣知情窗口"}
+- 终点：answered；领域：knowledge-window
+- 理由：1147何当面说明假叛安排，陆随后自称早猜是事后自述；能确定的知情窗口至此闭合，不能倒推1135时陆已获全部安排或全员共同知情。
+- 后证：1135, 1147
+
+## v06-local-issue_log-003-01
+
+- 原子项：6级三万容量与中途人数、后50万主分盟口径未逐级完整交代，不补组织名册。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1108", "claim_kind": "inference", "end_line": 89719, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 89650}, {"chapter_id": "ch-1118", "claim_kind": "inference", "end_line": 90557, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 90481}, {"chapter_id": "ch-1173", "claim_kind": "inference", "end_line": 94641, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 94570}], "id": "v06-issue-003", "kind": "source_anomaly", "observation": "6级三万容量与中途人数、后50万主分盟口径未逐级完整交代，不补组织名册。", "state": "open", "title": "容量人数"}
+- 终点：unknown；领域：source-organization-count
+- 理由：三万单盟容量、中途人数和后称五十万主分盟没有完整逐级升盟/转入名册。保护伞后来仍活动并不能补出当时各盟人数，终点保各次口径，无法配平容量变化。
+- 后证：1108, 1118, 1173
+
+## v06-local-issue_log-004-01
+
+- 原子项：2000万USD/RMB说法不同，不按现实汇率补
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1085", "claim_kind": "inference", "end_line": 88038, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 87959}, {"chapter_id": "ch-1086", "claim_kind": "inference", "end_line": 88107, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 88039}], "id": "v06-issue-004", "kind": "source_anomaly", "observation": "2000万USD/RMB说法不同，不按现实汇率补；只依明示转账记。", "state": "open", "title": "款项币种"}
+- 终点：unknown；领域：source-currency
+- 理由：1085与1086对同笔两千万出现USD/RMB口径差；没有明确更正币种或补汇兑结算。后续其他补偿、转账不清此笔差额，保源差。
+- 后证：1085, 1086
+
+## v06-local-issue_log-004-02
+
+- 原子项：只依明示转账记。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1085", "claim_kind": "inference", "end_line": 88038, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 87959}, {"chapter_id": "ch-1086", "claim_kind": "inference", "end_line": 88107, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 88039}], "id": "v06-issue-004", "kind": "source_anomaly", "observation": "2000万USD/RMB说法不同，不按现实汇率补；只依明示转账记。", "state": "open", "title": "款项币种"}
+- 终点：answered；领域：transaction-recording
+- 理由：实转金额与口头报价分账，只保原章明示转账，币种疑点另存；不用现实汇率或后来同额收入反算。这是研究记账约束，并非宣称所有约款均已支付。
+- 后证：1085, 1086
+
+## v06-local-issue_log-005-01
+
+- 原子项：7/10秒漂移，不统一。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1122", "claim_kind": "inference", "end_line": 90882, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 90816}, {"chapter_id": "ch-1123", "claim_kind": "inference", "end_line": 90950, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 90883}, {"chapter_id": "ch-1124", "claim_kind": "inference", "end_line": 91020, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 90951}], "id": "v06-issue-005", "kind": "source_anomaly", "observation": "7/10秒漂移，不统一。", "state": "open", "title": "火草燃时"}
+- 终点：unknown；领域：source-duration
+- 理由：火草燃烧7秒与10秒为同段先后异述，未给版本更新或不同草种说明；后续胜负不能证明某一数字应删除，保留两说。
+- 后证：1122, 1123, 1124
+
+## v06-local-issue_log-006-01
+
+- 原子项：4000/2000口径不齐，不以后数覆盖前数。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1130", "claim_kind": "inference", "end_line": 91469, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 91404}, {"chapter_id": "ch-1133", "claim_kind": "inference", "end_line": 91714, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 91651}], "id": "v06-issue-006", "kind": "source_anomaly", "observation": "4000/2000口径不齐，不以后数覆盖前数。", "state": "open", "title": "行云借骑"}
+- 终点：unknown；领域：source-troop-count
+- 理由：行云借骑四千/两千的数量未交代拆队、先后返还或增减原因。后来的行云会战人数不能追认此次借骑精确值。
+- 后证：1130, 1133
+
+## v06-local-issue_log-007-01
+
+- 原子项：1127十万兽王战时全死，1128一小时后复回，不是永久全灭。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1127", "claim_kind": "fact", "end_line": 91246, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 91161}, {"chapter_id": "ch-1128", "claim_kind": "fact", "end_line": 91329, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 91247}], "id": "v06-issue-007", "kind": "rules", "observation": "1127十万兽王战时全死，1128一小时后复回，不是永久全灭。", "state": "bounded", "title": "战时全灭可复返"}
+- 终点：answered；领域：mortality-player-return
+- 理由：1127兽王骑战时十万阵亡，1128明示约一小时后复返，已实际提供死亡后的回场后证；不能把玩家一场全灭写为永久除名或NPC不可复活规则。
+- 后证：1127, 1128
+
+## v06-local-issue_log-008-01
+
+- 原子项：1143尚17h，夺令和护战胜不能代24h最终占城。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1136", "claim_kind": "plan", "end_line": 91911, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 91856}, {"chapter_id": "ch-1140", "claim_kind": "plan", "end_line": 92177, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 92122}, {"chapter_id": "ch-1143", "claim_kind": "plan", "end_line": 92383, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 92319}], "id": "v06-issue-008", "kind": "plan", "observation": "1143尚17h，夺令和护战胜不能代24h最终占城。", "state": "open", "title": "霜风城时限"}
+- 终点：partial；领域：city-occupation-timer
+- 理由：夺令、护送胜利与1143尚余17小时成立，已占领阶段不能替代满24小时的最终归属回执。已读后续未定位这次霜风守满的独立系统结算，仍保时限未核实而非宣告失守。
+- 后证：1136, 1140, 1143
+
+## v06-local-issue_log-009-01
+
+- 原子项：泪40万NPC扫军是威慑/猜测，实际撤兵不证她真已派40万。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1149", "claim_kind": "fact", "end_line": 92849, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 92759}], "id": "v06-issue-009", "kind": "knowledge", "observation": "泪40万NPC扫军是威慑/猜测，实际撤兵不证她真已派40万。", "state": "bounded", "title": "韩国军威慑"}
+- 终点：answered；领域：reported-military-threat
+- 理由：泪的四十万NPC扫军说法承担威慑，敌方撤走是实际行动；本场没有四十万NPC出征实景/清册，不能由撤军反证威胁已经执行。answered只闭合知情分层。
+- 后证：1149
+
+## v06-local-issue_log-010-01
+
+- 原子项：4×500万赌约与催款未见实际到账，不写收入实现。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1153", "claim_kind": "plan", "end_line": 93151, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 93081}, {"chapter_id": "ch-1160", "claim_kind": "plan", "end_line": 93730, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 93650}, {"chapter_id": "ch-1208", "claim_kind": "plan", "end_line": 97111, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97052}], "id": "v06-issue-010", "kind": "plan", "observation": "4×500万赌约与催款未见实际到账，不写收入实现。", "state": "open", "title": "S3赌款"}
+- 终点：partial；领域：resource-wager-delivery
+- 理由：1151真实设赌为四种领地资源各五百万、总两千万，不是四笔现金到账；1160展示何的五件S3后对方承认输赌，战天说次晨资源才好，发商队和收货均未实见。原记录1153/1208并非设赌/交割主证；1341另赌付款与他会圣魔法师训练不清本资源账。
+- 后证：1151, 1160, 1341
+
+## v06-local-issue_log-011-01
+
+- 原子项：何五件齐
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1159", "claim_kind": "fact", "end_line": 93649, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 93571}, {"chapter_id": "ch-1160", "claim_kind": "fact", "end_line": 93730, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 93650}], "id": "v06-issue-011", "kind": "knowledge", "observation": "何五件齐；北皮/明法伤装不等全队牧治疗套齐。", "state": "bounded", "title": "S3五件分职业"}
+- 终点：answered；领域：equipment-completion
+- 理由：1160何获得胸甲并凑齐五件且穿用，套装齐全有明确结果；该套属于何的职业，不是全队每种套装同时毕业。
+- 后证：1159, 1160
+
+## v06-local-issue_log-011-02
+
+- 原子项：北皮/明法伤装不等全队牧治疗套齐。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1159", "claim_kind": "fact", "end_line": 93649, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 93571}, {"chapter_id": "ch-1160", "claim_kind": "fact", "end_line": 93730, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 93650}], "id": "v06-issue-011", "kind": "knowledge", "observation": "何五件齐；北皮/明法伤装不等全队牧治疗套齐。", "state": "bounded", "title": "S3五件分职业"}
+- 终点：answered；领域：equipment-role-distinction
+- 理由：北冥分皮装、明月分法伤布装与牧师治疗套是不同装备账；何一人五件齐不推出全队治疗装备已齐，原记录约束已有实分配支持。
+- 后证：1159, 1160
+
+## v06-local-issue_log-012-01
+
+- 原子项：1172作者纠小猪260000不妥但未给统一新数，不能严拟公式。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1171", "claim_kind": "inference", "end_line": 94478, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 94406}, {"chapter_id": "ch-1172", "claim_kind": "inference", "end_line": 94569, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 94479}], "id": "v06-issue-012", "kind": "source_anomaly", "observation": "1172作者纠小猪260000不妥但未给统一新数，不能严拟公式。", "state": "open", "title": "千钧自纠"}
+- 终点：partial；领域：source-author-correction
+- 理由：1172作者明确承认小猪千钧260000处理不妥，所以旧数不可当稳定伤害公式；作者没有同时给唯一替代值，纠错存在而精确新数仍未知。
+- 后证：1171, 1172
+
+## v06-local-issue_log-013-01
+
+- 原子项：4/5万龙曜、1.8/3万弓及7万/近10万物资口径漂移，不能配平完整军表。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1164", "claim_kind": "inference", "end_line": 94021, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 93944}, {"chapter_id": "ch-1166", "claim_kind": "inference", "end_line": 94153, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 94084}, {"chapter_id": "ch-1167", "claim_kind": "inference", "end_line": 94214, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 94154}, {"chapter_id": "ch-1184", "claim_kind": "inference", "end_line": 95427, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 95358}], "id": "v06-issue-013", "kind": "source_anomaly", "observation": "4/5万龙曜、1.8/3万弓及7万/近10万物资口径漂移，不能配平完整军表。", "state": "open", "title": "骑军马铁口径"}
+- 终点：unknown；领域：source-military-ledger
+- 理由：龙曜四/五万、弓一万八/三万、马铁七万/近十万并非一张有时点和损耗说明的完整军表。保各场口径，不凭最终大军反配早批产量或缺失资源。
+- 后证：1164, 1166, 1167, 1184
+
+## v06-local-issue_log-014-01
+
+- 原子项：早吻痕情报战车意图后鬼澄清交矿抢八城，不记实制战车。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1166", "claim_kind": "fact", "end_line": 94153, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 94084}, {"chapter_id": "ch-1167", "claim_kind": "fact", "end_line": 94214, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 94154}], "id": "v06-issue-014", "kind": "knowledge", "observation": "早吻痕情报战车意图后鬼澄清交矿抢八城，不记实制战车。", "state": "bounded", "title": "矿任务非战车制造"}
+- 终点：answered；领域：knowledge-correction
+- 理由：吻痕早报战车意图后，鬼说明实际是交矿争八城的任务；情报被后证收窄，不能把曾推测的战车制造写成已完成军工成果。
+- 后证：1166, 1167
+
+## v06-local-issue_log-015-01
+
+- 原子项：1168第一分盟，1223仅盟友只听水云，1282有单飞意图但无正式系统独立回执。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1168", "claim_kind": "inference", "end_line": 94276, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 94215}, {"chapter_id": "ch-1223", "claim_kind": "inference", "end_line": 98194, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98122}, {"chapter_id": "ch-1282", "claim_kind": "inference", "end_line": 102398, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 102347}], "id": "v06-issue-015", "kind": "source_anomaly", "observation": "1168第一分盟，1223仅盟友只听水云，1282有单飞意图但无正式系统独立回执。", "state": "open", "title": "魂归归属"}
+- 终点：partial；领域：organization-changing-affiliation
+- 理由：1168称第一分盟、1223强调盟友/只听水云、1282单飞意向作为当时口径保留。1570水云提出入古独立分盟、何接受；1571骨干同意国战听陆并实换古徽，终点明确为第二独立分盟。最终归属已答，但不倒写早期每阶段系统隶属始终一致。
+- 后证：1168, 1223, 1282, 1570, 1571
+
+## v06-local-issue_log-016-01
+
+- 原子项：陆疑未防地道，逸纠张精防遭敌精锐破，不写无人听警告。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1175", "claim_kind": "fact", "end_line": 94806, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 94714}, {"chapter_id": "ch-1177", "claim_kind": "fact", "end_line": 94967, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 94909}], "id": "v06-issue-016", "kind": "knowledge", "observation": "陆疑未防地道，逸纠张精防遭敌精锐破，不写无人听警告。", "state": "bounded", "title": "已部署但失守"}
+- 终点：answered；领域：knowledge-correction
+- 理由：陆先疑地道无人防，林随后说明张已精防但被敌精锐突破，闭合的是部署认知差；失败不等未部署，不能归咎无人听警告。
+- 后证：1175, 1177
+
+## v06-local-issue_log-017-01
+
+- 原子项：1178京洛与吻痕均死疑误，不据此判保护伞吻死亡。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1178", "claim_kind": "inference", "end_line": 95036, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 94968}], "id": "v06-issue-017", "kind": "source_anomaly", "observation": "1178京洛与吻痕均死疑误，不据此判保护伞吻死亡。", "state": "open", "title": "吻痕吻月疑误"}
+- 终点：unknown；领域：source-name-slip
+- 理由：1178京洛和吻痕同死的措辞疑把吻月写作吻痕；没有明确作者更正，保疑而不据单句给保护伞吻痕新增阵亡履历，也不把两ID合一。
+- 后证：1178
+
+## v06-local-issue_log-018-01
+
+- 原子项：泰坦神族倒称、龙曜弓漏字、白马阵亡得不到十万与残军语境冲突，不补第二人物或精确损。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1180", "claim_kind": "inference", "end_line": 95176, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 95106}, {"chapter_id": "ch-1184", "claim_kind": "inference", "end_line": 95427, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 95358}, {"chapter_id": "ch-1187", "claim_kind": "inference", "end_line": 95639, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 95575}, {"chapter_id": "ch-1189", "claim_kind": "inference", "end_line": 95774, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 95704}, {"chapter_id": "ch-1190", "claim_kind": "inference", "end_line": 95864, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 95775}], "id": "v06-issue-018", "kind": "source_anomaly", "observation": "泰坦神族倒称、龙曜弓漏字、白马阵亡得不到十万与残军语境冲突，不补第二人物或精确损。", "state": "open", "title": "军名人数疑误"}
+- 终点：unknown；领域：source-name-and-loss
+- 理由：泰坦神族倒称、龙曜弓缺字及白马残军/阵亡语句均保原文字面与语境疑点；没有统一勘误，不造第二角色或用残数反算精确总死数。
+- 后证：1180, 1184, 1187, 1189, 1190
+
+## v06-local-issue_log-019-01
+
+- 原子项：1194奖励87%NPC/75%城防
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1194", "claim_kind": "fact", "end_line": 96150, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96071}, {"chapter_id": "ch-1239", "claim_kind": "fact", "end_line": 99247, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99158}], "id": "v06-issue-019", "kind": "rules", "observation": "1194奖励87%NPC/75%城防；1239另80%NPC，防25%与另40%双字段不硬加。皆非逐名复活清册。", "state": "bounded", "title": "两次NPC恢复"}
+- 终点：answered；领域：npc-recovery-reward
+- 理由：1194系统明示恢复87%NPC与75%城防，是对战时损失的真实奖励例外；能否复某具名NPC仍无逐名清册，不能写全灭均永久或全员全复。
+- 后证：1194
+
+## v06-local-issue_log-019-02
+
+- 原子项：1239另80%NPC，防25%与另40%双字段不硬加。皆非逐名复活清册。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1194", "claim_kind": "fact", "end_line": 96150, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96071}, {"chapter_id": "ch-1239", "claim_kind": "fact", "end_line": 99247, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99158}], "id": "v06-issue-019", "kind": "rules", "observation": "1194奖励87%NPC/75%城防；1239另80%NPC，防25%与另40%双字段不硬加。皆非逐名复活清册。", "state": "bounded", "title": "两次NPC恢复"}
+- 终点：answered；领域：npc-recovery-reward
+- 理由：1239另一场国战结算明确80%NPC，城防25%及另40%字段分存，不能把不同基数强加成65%或与1194奖励互相覆盖；逐名恢复仍未展示。answered为奖励层与个体层的区分。
+- 后证：1239
+
+## v06-local-issue_log-020-01
+
+- 原子项：1194奖励列11名，怜星即连昕，不删一人凑十。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1194", "claim_kind": "inference", "end_line": 96150, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96071}, {"chapter_id": "ch-1197", "claim_kind": "inference", "end_line": 96372, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96288}], "id": "v06-issue-020", "kind": "source_anomaly", "observation": "1194奖励列11名，怜星即连昕，不删一人凑十。", "state": "open", "title": "前十实十一"}
+- 终点：unknown；领域：source-ranking-count
+- 理由：1194题作前十而列十一人，1197表明怜星即连昕，只能消歧名字不能擅删一位获奖者凑十。未有重排/勘误，数量异常保留。
+- 后证：1194, 1197
+
+## v06-local-issue_log-021-01
+
+- 原子项：抓捕实际
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1195", "claim_kind": "fact", "end_line": 96216, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96151}, {"chapter_id": "ch-1196", "claim_kind": "fact", "end_line": 96287, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96217}, {"chapter_id": "ch-1217", "claim_kind": "fact", "end_line": 97775, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97700}], "id": "v06-issue-021", "kind": "reported_claim", "observation": "抓捕实际；约50亿/定5亿/另贪11亿瑞典户系调查说法，一周铁花生非公审执行。", "state": "open", "title": "唐案未判"}
+- 终点：answered；领域：real-world-arrest
+- 理由：1195—1196抓捕唐龙为实际事件，不是早先威胁已自动兑现；1328又有定罪后讯，说明案线继续，但其渠道分层另列。
+- 后证：1195, 1196, 1328
+
+## v06-local-issue_log-021-02
+
+- 原子项：约50亿/定5亿/另贪11亿瑞典户系调查说法，一周铁花生非公审执行。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1195", "claim_kind": "fact", "end_line": 96216, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96151}, {"chapter_id": "ch-1196", "claim_kind": "fact", "end_line": 96287, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96217}, {"chapter_id": "ch-1217", "claim_kind": "fact", "end_line": 97775, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97700}], "id": "v06-issue-021", "kind": "reported_claim", "observation": "抓捕实际；约50亿/定5亿/另贪11亿瑞典户系调查说法，一周铁花生非公审执行。", "state": "open", "title": "唐案未判"}
+- 终点：partial；领域：reported-legal-outcome
+- 理由：卷六约五十亿、五亿、十一亿瑞典账户属于调查/人物说法，预计一周吃枪子不等已执行。1328乱月转报唐龙终身监禁，终点不能仍只写待公审；本审未亲见司法文件，也未得到逐项资产最终司法清算，因此报道结果与财务疑点分存。
+- 后证：1195, 1196, 1217, 1328
+
+## v06-local-issue_log-022-01
+
+- 原子项：游戏中国区徽记与中国玩家资格实际恢复，好友亲密仍重练
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1194", "claim_kind": "fact", "end_line": 96150, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96071}, {"chapter_id": "ch-1198", "claim_kind": "fact", "end_line": 96438, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96373}, {"chapter_id": "ch-1199", "claim_kind": "fact", "end_line": 96494, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96439}], "id": "v06-issue-022", "kind": "knowledge", "observation": "游戏中国区徽记与中国玩家资格实际恢复，好友亲密仍重练；保护伞游戏无籍未自动全入中国区。", "state": "bounded", "title": "游戏中国区资格未全恢复"}
+- 终点：answered；领域：game-qualification-restoration
+- 理由：1194实际恢复的是游戏中国玩家资格/中国区徽记，1198好友亲密重新积累，不是现实国籍变更；恢复资格与社会关系数值不作一键全复。
+- 后证：1194, 1198
+
+## v06-local-issue_log-022-02
+
+- 原子项：保护伞游戏无籍未自动全入中国区。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1194", "claim_kind": "fact", "end_line": 96150, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96071}, {"chapter_id": "ch-1198", "claim_kind": "fact", "end_line": 96438, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96373}, {"chapter_id": "ch-1199", "claim_kind": "fact", "end_line": 96494, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96439}], "id": "v06-issue-022", "kind": "knowledge", "observation": "游戏中国区徽记与中国玩家资格实际恢复，好友亲密仍重练；保护伞游戏无籍未自动全入中国区。", "state": "bounded", "title": "游戏中国区资格未全恢复"}
+- 终点：answered；领域：organization-nationality-boundary
+- 理由：1199保护伞仍有游戏无籍玩家，不因陆恢复中国区资格就全员自动入中国服。后期保护伞盟军身份也不等每名成员完成相同资格手续。
+- 后证：1199
+
+## v06-local-issue_log-023-01
+
+- 原子项：蒂雅困4天4夜与战后现实叙时不齐，不造年历。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1197", "claim_kind": "inference", "end_line": 96372, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96288}, {"chapter_id": "ch-1198", "claim_kind": "inference", "end_line": 96438, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96373}], "id": "v06-issue-023", "kind": "source_anomaly", "observation": "蒂雅困4天4夜与战后现实叙时不齐，不造年历。", "state": "open", "title": "天岭日程"}
+- 终点：unknown；领域：source-calendar
+- 理由：蒂雅被困四天四夜与战后现实叙时难完全对齐，未有明确日期校正。只存相对时间差，不造完整年历或把小说虚拟时间强换现实小时。
+- 后证：1197, 1198
+
+## v06-local-issue_log-024-01
+
+- 原子项：北爱未获恋人承认
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1197", "claim_kind": "fact", "end_line": 96372, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96288}, {"chapter_id": "ch-1218", "claim_kind": "fact", "end_line": 97843, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97776}, {"chapter_id": "ch-1230", "claim_kind": "fact", "end_line": 98649, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98586}, {"chapter_id": "ch-1233", "claim_kind": "fact", "end_line": 98859, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98778}, {"chapter_id": "ch-1250", "claim_kind": "fact", "end_line": 100065, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99975}], "id": "v06-issue-024", "kind": "knowledge", "observation": "北爱未获恋人承认；慕吻称无需负责未等三方共同同意；婚好/假和孕笑话不当结果。", "state": "bounded", "title": "关系层次"}
+- 终点：unrecovered；领域：relationship-recognition
+- 理由：北冥爱意与陆的亲近未出现双方正式恋人确认；1605拥别、1606托其照何与1609她在空房/公交站不舍，仍支持重要亲密伙伴，不能据后记圆满氛围补恋人或婚约。
+- 后证：1197, 1605, 1606, 1609
+
+## v06-local-issue_log-024-02
+
+- 原子项：慕吻称无需负责未等三方共同同意
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1197", "claim_kind": "fact", "end_line": 96372, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96288}, {"chapter_id": "ch-1218", "claim_kind": "fact", "end_line": 97843, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97776}, {"chapter_id": "ch-1230", "claim_kind": "fact", "end_line": 98649, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98586}, {"chapter_id": "ch-1233", "claim_kind": "fact", "end_line": 98859, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98778}, {"chapter_id": "ch-1250", "claim_kind": "fact", "end_line": 100065, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99975}], "id": "v06-issue-024", "kind": "knowledge", "observation": "北爱未获恋人承认；慕吻称无需负责未等三方共同同意；婚好/假和孕笑话不当结果。", "state": "bounded", "title": "关系层次"}
+- 终点：unrecovered；领域：relationship-consent
+- 理由：慕在1218等场亲吻且说无需负责是她的表达；1605再吻和1609群体牵挂不能补陆、林、何等共同排他/多伴协定。亲吻已成，三方共同关系约定仍未明。
+- 后证：1218, 1233, 1605, 1609
+
+## v06-local-issue_log-024-03
+
+- 原子项：婚好/假和孕笑话不当结果。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1197", "claim_kind": "fact", "end_line": 96372, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96288}, {"chapter_id": "ch-1218", "claim_kind": "fact", "end_line": 97843, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97776}, {"chapter_id": "ch-1230", "claim_kind": "fact", "end_line": 98649, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98586}, {"chapter_id": "ch-1233", "claim_kind": "fact", "end_line": 98859, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98778}, {"chapter_id": "ch-1250", "claim_kind": "fact", "end_line": 100065, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99975}], "id": "v06-issue-024", "kind": "knowledge", "observation": "北爱未获恋人承认；慕吻称无需负责未等三方共同同意；婚好/假和孕笑话不当结果。", "state": "bounded", "title": "关系层次"}
+- 终点：answered；领域：speech-not-outcome
+- 理由：婚好/假、怀孕玩笑均按当场话语保留，不作为结婚或妊娠结果；后记匿名加州亲密强暗示也没有实名婚姻/怀孕回执。answered指不把笑话升级为事实的约束。
+- 后证：1230, 1233, 1250, 1609
+
+## v06-local-issue_log-025-01
+
+- 原子项：官网不可挡闪与现场侧飞/纵跃避、减伤生效不同，按具体招式/轨迹保，不泛必中。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1201", "claim_kind": "fact", "end_line": 96627, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96554}, {"chapter_id": "ch-1217", "claim_kind": "fact", "end_line": 97775, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97700}, {"chapter_id": "ch-1229", "claim_kind": "fact", "end_line": 98585, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98521}, {"chapter_id": "ch-1232", "claim_kind": "fact", "end_line": 98777, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98720}], "id": "v06-issue-025", "kind": "rules", "observation": "官网不可挡闪与现场侧飞/纵跃避、减伤生效不同，按具体招式/轨迹保，不泛必中。", "state": "bounded", "title": "古技可躲/减伤"}
+- 终点：answered；领域：rule-description-vs-observation
+- 理由：1201官网不可挡闪是介绍口径，1217/1229/1232现场躲轨迹或减伤有动作证据；逐招分开记，既不抹介绍，也不泛化每个古技无条件必中。
+- 后证：1201, 1217, 1229, 1232
+
+## v06-local-issue_log-026-01
+
+- 原子项：陆221/220自述漂移，不补未写掉级。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1202", "claim_kind": "inference", "end_line": 96691, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96628}, {"chapter_id": "ch-1203", "claim_kind": "inference", "end_line": 96757, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96692}, {"chapter_id": "ch-1206", "claim_kind": "inference", "end_line": 96968, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96903}], "id": "v06-issue-026", "kind": "source_anomaly", "observation": "陆221/220自述漂移，不补未写掉级。", "state": "open", "title": "遗迹等级"}
+- 终点：unknown；领域：source-level
+- 理由：遗迹段陆221/220自述缺独立降级原因；后来升级或死亡不说明这一处已发生哪次掉级，保场次等级差，不补无场景死亡。
+- 后证：1202, 1203, 1206
+
+## v06-local-issue_log-027-01
+
+- 原子项：神狼穿已开无敌，雷刃扫后仅无敌者活，不泛全守护一个规则。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1204", "claim_kind": "fact", "end_line": 96837, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96758}, {"chapter_id": "ch-1207", "claim_kind": "fact", "end_line": 97051, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96969}], "id": "v06-issue-027", "kind": "rules", "observation": "神狼穿已开无敌，雷刃扫后仅无敌者活，不泛全守护一个规则。", "state": "bounded", "title": "守护穿无敌差别"}
+- 终点：answered；领域：rule-attack-specific
+- 理由：神狼穿过已开的无敌与雷刃扫击仅无敌者幸存均是各次现场规则；守护名称/技能不同，不抽成全守护永远穿无敌或永远不穿的唯一规则。
+- 后证：1204, 1207
+
+## v06-local-issue_log-028-01
+
+- 原子项：50%复10%后称5%/1000万
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1213", "claim_kind": "inference", "end_line": 97484, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97413}, {"chapter_id": "ch-1214", "claim_kind": "inference", "end_line": 97553, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97485}, {"chapter_id": "ch-1217", "claim_kind": "inference", "end_line": 97775, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97700}], "id": "v06-issue-028", "kind": "source_anomaly", "observation": "50%复10%后称5%/1000万；四小时与近6小时并存。", "state": "open", "title": "天鼋复生与耗时"}
+- 终点：unknown；领域：source-health-formula
+- 理由：天鼋半概率复十个百分点的介绍与其后五个百分点/一千万说法未给统一基数解释；实战推进不替代公式勘误，不硬改成一种复生量。
+- 后证：1213, 1214, 1217
+
+## v06-local-issue_log-028-02
+
+- 原子项：四小时与近6小时并存。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1213", "claim_kind": "inference", "end_line": 97484, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97413}, {"chapter_id": "ch-1214", "claim_kind": "inference", "end_line": 97553, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97485}, {"chapter_id": "ch-1217", "claim_kind": "inference", "end_line": 97775, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97700}], "id": "v06-issue-028", "kind": "source_anomaly", "observation": "50%复10%后称5%/1000万；四小时与近6小时并存。", "state": "open", "title": "天鼋复生与耗时"}
+- 终点：unknown；领域：source-battle-duration
+- 理由：同次天鼋/遗迹进程的四小时与近六小时未交代起算差，结局离开不能回算唯一耗时，保原相对时间。
+- 后证：1213, 1214, 1217
+
+## v06-local-issue_log-029-01
+
+- 原子项：180%/185%、35码与首战剑40米异述，不强算全一致。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1214", "claim_kind": "inference", "end_line": 97553, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97485}, {"chapter_id": "ch-1217", "claim_kind": "inference", "end_line": 97775, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97700}, {"chapter_id": "ch-1218", "claim_kind": "inference", "end_line": 97843, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97776}], "id": "v06-issue-029", "kind": "source_anomaly", "observation": "180%/185%、35码与首战剑40米异述，不强算全一致。", "state": "open", "title": "轩辕斩面板"}
+- 终点：unknown；领域：source-skill-parameters
+- 理由：轩辕斩180/185%、35码与首战40米异述没有唯一修正面板；描述性剑长也不自动等作用范围，按各字段存差而不配平。
+- 后证：1214, 1217, 1218
+
+## v06-local-issue_log-030-01
+
+- 原子项：1219到210，1221自称209，1223需210取城，下降原因未给。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1219", "claim_kind": "inference", "end_line": 97916, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97844}, {"chapter_id": "ch-1221", "claim_kind": "inference", "end_line": 98054, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97995}, {"chapter_id": "ch-1223", "claim_kind": "inference", "end_line": 98194, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98122}], "id": "v06-issue-030", "kind": "source_anomaly", "observation": "1219到210，1221自称209，1223需210取城，下降原因未给。", "state": "open", "title": "李210又209"}
+- 终点：unknown；领域：source-level-transition
+- 理由：李1219升210后又称209、1223仍需210，未见明确死亡/降级解释。后来可以完成别的战斗不补该次降级原因。
+- 后证：1219, 1221, 1223
+
+## v06-local-issue_log-031-01
+
+- 原子项：神农初S后SS，美女初降速50后双技降攻29/美女物攻37，保源不造唯一公式。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1218", "claim_kind": "inference", "end_line": 97843, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97776}, {"chapter_id": "ch-1219", "claim_kind": "inference", "end_line": 97916, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97844}, {"chapter_id": "ch-1223", "claim_kind": "inference", "end_line": 98194, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98122}, {"chapter_id": "ch-1228", "claim_kind": "inference", "end_line": 98520, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98459}, {"chapter_id": "ch-1245", "claim_kind": "inference", "end_line": 99661, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99588}], "id": "v06-issue-031", "kind": "source_anomaly", "observation": "神农初S后SS，美女初降速50后双技降攻29/美女物攻37，保源不造唯一公式。", "state": "open", "title": "辅助古技差异"}
+- 终点：unknown；领域：source-support-skill
+- 理由：神农S/SS、美女降速与降攻和物攻百分数属于不同场景异述，未给升级/重制说明；保各次技能字段，不造统一公式或默补改版。
+- 后证：1218, 1219, 1223, 1228, 1245
+
+## v06-local-issue_log-032-01
+
+- 原子项：何127347.2排10而多人比她低，作者自注随手
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1220", "claim_kind": "inference", "end_line": 97994, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97917}], "id": "v06-issue-032", "kind": "source_anomaly", "observation": "何127347.2排10而多人比她低，作者自注随手；新制过未首款证。", "state": "open", "title": "CGL工资榜"}
+- 终点：partial；领域：source-author-ranking-note
+- 理由：1220工资榜何127347.2排第十而多名金额更低，作者自注随手能解释数字非严密表，但没有正式修订排序/金额；保自注及算术失配，不重排人选。
+- 后证：1220
+
+## v06-local-issue_log-032-02
+
+- 原子项：新制过未首款证。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1220", "claim_kind": "inference", "end_line": 97994, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97917}], "id": "v06-issue-032", "kind": "source_anomaly", "observation": "何127347.2排10而多人比她低，作者自注随手；新制过未首款证。", "state": "open", "title": "CGL工资榜"}
+- 终点：unrecovered；领域：salary-payment
+- 理由：CGL新工资制度通过与榜单发布已成，未给这份制度首笔工资的实际入账。后来会内招募月薪、比赛赌款、冠军收益为别账，不能视为CGL首薪已支付。
+- 后证：1220
+
+## v06-local-issue_log-033-01
+
+- 原子项：1222一句120分钟对面板120秒，不按分钟重写整战。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1214", "claim_kind": "inference", "end_line": 97553, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 97485}, {"chapter_id": "ch-1222", "claim_kind": "inference", "end_line": 98121, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98055}, {"chapter_id": "ch-1225", "claim_kind": "inference", "end_line": 98330, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98268}], "id": "v06-issue-033", "kind": "source_anomaly", "observation": "1222一句120分钟对面板120秒，不按分钟重写整战。", "state": "open", "title": "冷却单位"}
+- 终点：unknown；领域：source-cooldown-unit
+- 理由：1222一处120分钟与技能面板120秒冲突，后续出招叙事没有作者明确勘误；记录疑似单位差而不把全战强改为两小时冷却。
+- 后证：1214, 1222, 1225
+
+## v06-local-issue_log-034-01
+
+- 原子项：口令灼热实际向热沙
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1223", "claim_kind": "inference", "end_line": 98194, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98122}, {"chapter_id": "ch-1224", "claim_kind": "inference", "end_line": 98267, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98195}], "id": "v06-issue-034", "kind": "source_anomaly", "observation": "口令灼热实际向热沙；十月称别再龙曜先头而实际霜鳞，保源不改军损。", "state": "open", "title": "热沙灼热/先头骑名"}
+- 终点：partial；领域：source-city-name-vs-outcome
+- 理由：1223口令称灼热而实际军路/攻城目标为热沙；1235烛杀爱莫洛并系统占热沙可确认行动目标，不能反过来抹去口令原词或认为另攻了一座灼热城。
+- 后证：1223, 1224, 1235
+
+## v06-local-issue_log-034-02
+
+- 原子项：十月称别再龙曜先头而实际霜鳞，保源不改军损。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1223", "claim_kind": "inference", "end_line": 98194, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98122}, {"chapter_id": "ch-1224", "claim_kind": "inference", "end_line": 98267, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98195}], "id": "v06-issue-034", "kind": "source_anomaly", "observation": "口令灼热实际向热沙；十月称别再龙曜先头而实际霜鳞，保源不改军损。", "state": "open", "title": "热沙灼热/先头骑名"}
+- 终点：unknown；领域：source-vanguard-name
+- 理由：十月回顾说别再让龙曜先头而该次实为霜鳞，缺名称校正；不能按回顾误称重写先前阵亡归属或追加一支未写的龙曜先头军。
+- 后证：1223, 1224
+
+## v06-local-issue_log-035-01
+
+- 原子项：贪狼宣伤10%但840992只+42049，余额/暴击解释未明。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1204", "claim_kind": "inference", "end_line": 96837, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 96758}, {"chapter_id": "ch-1230", "claim_kind": "inference", "end_line": 98649, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98586}], "id": "v06-issue-035", "kind": "source_anomaly", "observation": "贪狼宣伤10%但840992只+42049，余额/暴击解释未明。", "state": "open", "title": "偷币公式"}
+- 终点：unknown；领域：source-loot-formula
+- 理由：贪狼宣称伤害10%而840992增加42049的例子约为5%，原章未说明余额上限、暴击扣除或其他基数。后续偷币发生不补唯一公式，保该例账差。
+- 后证：1204, 1230
+
+## v06-local-issue_log-036-01
+
+- 原子项：总1.6万含林4000，返表1.2万/死3200余/回8700余不精确
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1227", "claim_kind": "inference", "end_line": 98458, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98406}, {"chapter_id": "ch-1228", "claim_kind": "inference", "end_line": 98520, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98459}, {"chapter_id": "ch-1229", "claim_kind": "inference", "end_line": 98585, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98521}, {"chapter_id": "ch-1233", "claim_kind": "inference", "end_line": 98859, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98778}], "id": "v06-issue-036", "kind": "source_anomaly", "observation": "总1.6万含林4000，返表1.2万/死3200余/回8700余不精确；自己未死夸赞不抹队减，六会余89万/称超百万不补会。", "state": "open", "title": "滋扰和会后统计"}
+- 终点：unknown；领域：source-casualty-scope
+- 理由：一万六含林四千与返程一万二、死三千二百余/回八千七百余有统计范围及约数差，但未给全队逐名损耗；不把约数硬算成精确相等。
+- 后证：1227, 1228, 1229
+
+## v06-local-issue_log-036-02
+
+- 原子项：自己未死夸赞不抹队减，六会余89万/称超百万不补会。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1227", "claim_kind": "inference", "end_line": 98458, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98406}, {"chapter_id": "ch-1228", "claim_kind": "inference", "end_line": 98520, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98459}, {"chapter_id": "ch-1229", "claim_kind": "inference", "end_line": 98585, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98521}, {"chapter_id": "ch-1233", "claim_kind": "inference", "end_line": 98859, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98778}], "id": "v06-issue-036", "kind": "source_anomaly", "observation": "总1.6万含林4000，返表1.2万/死3200余/回8700余不精确；自己未死夸赞不抹队减，六会余89万/称超百万不补会。", "state": "open", "title": "滋扰和会后统计"}
+- 终点：partial；领域：source-survival-vs-army-count
+- 理由：陆自称没死仅能说明本人/语境内生还，不能抹去队伍减员；1233六会合计约89万与超百万说法仍无新增盟军清单。个体与军队层次可分，精确总数未答。
+- 后证：1228, 1229, 1233
+
+## v06-local-issue_log-037-01
+
+- 原子项：开400万后500万，未明增援。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1231", "claim_kind": "inference", "end_line": 98719, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98650}, {"chapter_id": "ch-1232", "claim_kind": "inference", "end_line": 98777, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98720}], "id": "v06-issue-037", "kind": "source_anomaly", "observation": "开400万后500万，未明增援。", "state": "open", "title": "英军增量"}
+- 终点：unknown；领域：source-army-increase
+- 理由：英国兵力先400万后500万，未展示其间增援或更换统计范围；后战胜负不补那100万的来历。
+- 后证：1231, 1232
+
+## v06-local-issue_log-038-01
+
+- 原子项：破门/杀公爵/陆持杖未用/假抛泪接/韩实管分记，不写中国系统先占再转韩。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1235", "claim_kind": "fact", "end_line": 98974, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98928}, {"chapter_id": "ch-1236", "claim_kind": "fact", "end_line": 99039, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98975}, {"chapter_id": "ch-1237", "claim_kind": "fact", "end_line": 99098, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99040}, {"chapter_id": "ch-1238", "claim_kind": "fact", "end_line": 99157, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99099}], "id": "v06-issue-038", "kind": "knowledge", "observation": "破门/杀公爵/陆持杖未用/假抛泪接/韩实管分记，不写中国系统先占再转韩。", "state": "bounded", "title": "日落四步骤"}
+- 终点：answered；领域：city-ownership-chain
+- 理由：1235—1238破门、杀公爵、陆持权杖未用、假抛由泪接与韩国实管逐步有行动；中国破门贡献不等中国先获系统产权，更不能虚构一次中国占领后转让手续。
+- 后证：1235, 1236, 1237, 1238
+
+## v06-local-issue_log-039-01
+
+- 原子项：船防称四实三、121级却八转、饭局EVE与何重复/九人算数，不造隐藏人。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1233", "claim_kind": "inference", "end_line": 98859, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 98778}, {"chapter_id": "ch-1248", "claim_kind": "inference", "end_line": 99889, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99816}], "id": "v06-issue-039", "kind": "source_anomaly", "observation": "船防称四实三、121级却八转、饭局EVE与何重复/九人算数，不造隐藏人。", "state": "open", "title": "人数等级乱码"}
+- 终点：unknown；领域：source-enumeration
+- 理由：船防称四实三、121级八转及饭局EVE/何重列、人数算术均没有明确校订。EVE是何的ID不能新增隐藏客人或用隐藏转职补等级差。
+- 后证：1233, 1248
+
+## v06-local-issue_log-040-01
+
+- 原子项：送鱼收未吃，后实抢才证恶意，不倒推已下毒或俄全同谋。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1248", "claim_kind": "fact", "end_line": 99889, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99816}, {"chapter_id": "ch-1249", "claim_kind": "fact", "end_line": 99974, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99890}], "id": "v06-issue-040", "kind": "knowledge", "observation": "送鱼收未吃，后实抢才证恶意，不倒推已下毒或俄全同谋。", "state": "bounded", "title": "鱼无毒证"}
+- 终点：answered；领域：knowledge-evidence-of-malice
+- 理由：1248收鱼但未吃，1249真抢可证该伙敌意，不能倒推鱼已毒或俄罗斯全员共谋；未食用也不产生已中毒后果。
+- 后证：1248, 1249
+
+## v06-local-issue_log-041-01
+
+- 原子项：林何真死跑尸返后杀
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1245", "claim_kind": "fact", "end_line": 99661, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99588}, {"chapter_id": "ch-1247", "claim_kind": "fact", "end_line": 99815, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99736}, {"chapter_id": "ch-1250", "claim_kind": "fact", "end_line": 100065, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99975}], "id": "v06-issue-041", "kind": "knowledge", "observation": "林何真死跑尸返后杀；林戒实穿/何镇火后持/慕链得未全wear镜。", "state": "bounded", "title": "九头死亡和装备"}
+- 终点：answered；领域：player-death-and-return
+- 理由：九头战林何实际死亡后跑尸归队才完成击杀；后来仍活动是复返，不能改成全场无死或NPC复活规则。
+- 后证：1245, 1247, 1250
+
+## v06-local-issue_log-041-02
+
+- 原子项：林戒实穿/何镇火后持/慕链得未全wear镜。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1245", "claim_kind": "fact", "end_line": 99661, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99588}, {"chapter_id": "ch-1247", "claim_kind": "fact", "end_line": 99815, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99736}, {"chapter_id": "ch-1250", "claim_kind": "fact", "end_line": 100065, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 99975}], "id": "v06-issue-041", "kind": "knowledge", "observation": "林何真死跑尸返后杀；林戒实穿/何镇火后持/慕链得未全wear镜。", "state": "bounded", "title": "九头死亡和装备"}
+- 终点：partial；领域：equipment-possession-vs-wearing
+- 理由：林戒明确穿用，何镇火后续持用，慕链取得与每次佩戴镜头分层；队内分赃完成不证明全员所有部件都当场换装，后记也无逐件全表。
+- 后证：1247, 1250
+
+## v06-local-issue_log-042-01
+
+- 原子项：本次实杀，10分钟后复/强化10爆降70系统公告，队先走未亲见复，不写永久死。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1255", "claim_kind": "fact", "end_line": 100428, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 100342}, {"chapter_id": "ch-1256", "claim_kind": "fact", "end_line": 100493, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 100429}], "id": "v06-issue-042", "kind": "rules", "observation": "本次实杀，10分钟后复/强化10爆降70系统公告，队先走未亲见复，不写永久死。", "state": "bounded", "title": "镇山复生"}
+- 终点：answered；领域：boss-death-and-system-respawn
+- 理由：镇山本次真被杀，系统明示十分钟后复生且强化10%/爆降70%，队伍先离开未看下一次复生；死亡结果与可再生机制同时成立，不能称永久消灭或假死。
+- 后证：1255, 1256
+
+## v06-local-issue_log-043-01
+
+- 原子项：六女全死/主再度一级叙空，70歌80卡80倾国与250%不合，不配平。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1255", "claim_kind": "inference", "end_line": 100428, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 100342}], "id": "v06-issue-043", "kind": "source_anomaly", "observation": "六女全死/主再度一级叙空，70歌80卡80倾国与250%不合，不配平。", "state": "open", "title": "镇山死数/加成"}
+- 终点：unknown；领域：source-deaths-and-buff-sum
+- 理由：镇山六女全死与陆再掉一级的具体先后有叙事缺口；70歌80卡80倾国与250%也未给另一20%来源。保死亡/加成原词，不补隐藏阵亡或无证buff。
+- 后证：1255
+
+## v06-local-issue_log-044-01
+
+- 原子项：三魂SS奖励实得，林浅吞魂背约
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1260", "claim_kind": "fact", "end_line": 100769, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 100714}, {"chapter_id": "ch-1262", "claim_kind": "fact", "end_line": 100903, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 100845}, {"chapter_id": "ch-1265", "claim_kind": "fact", "end_line": 101117, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 101043}], "id": "v06-issue-044", "kind": "knowledge", "observation": "三魂SS奖励实得，林浅吞魂背约；诺不谅/艾自刎/后无救赎全保。", "state": "bounded", "title": "SS完成非救赎"}
+- 终点：answered；领域：quest-reward-vs-promise
+- 理由：1260/1262取三魂与SS奖真实完成，1265林浅却吞魂背约；奖励完成不抵消伦理失败，也不意味着三位亡者得到承诺的安宁。
+- 后证：1260, 1262, 1265
+
+## v06-local-issue_log-044-02
+
+- 原子项：诺不谅/艾自刎/后无救赎全保。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1260", "claim_kind": "fact", "end_line": 100769, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 100714}, {"chapter_id": "ch-1262", "claim_kind": "fact", "end_line": 100903, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 100845}, {"chapter_id": "ch-1265", "claim_kind": "fact", "end_line": 101117, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 101043}], "id": "v06-issue-044", "kind": "knowledge", "observation": "三魂SS奖励实得，林浅吞魂背约；诺不谅/艾自刎/后无救赎全保。", "state": "bounded", "title": "SS完成非救赎"}
+- 终点：partial；领域：npc-redemption-and-soul-fate
+- 理由：诺不谅、艾自刎与林浅吞魂都已明示，未出现这三人完成赎罪/和解的独立后证；但魂被吞后的最终宇宙去向没有逐魂终结清册，不升级为永久湮灭世界规则。
+- 后证：1265
+
+## v06-local-issue_log-045-01
+
+- 原子项：十万已转，全装让战得刀，100骑射自备资源训练尚未做。
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1263", "claim_kind": "plan", "end_line": 100960, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 100904}, {"chapter_id": "ch-1264", "claim_kind": "plan", "end_line": 101042, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 100961}], "id": "v06-issue-045", "kind": "plan", "observation": "十万已转，全装让战得刀，100骑射自备资源训练尚未做。", "state": "open", "title": "尾杀交易履约"}
+- 终点：partial；领域：transaction-and-training-separate
+- 理由：1263十万确转、1264全掉装归战且战获刀已兑现；100骑射仍须战天自备资源后训，未找到该批交训回执。1318林千骑射约、1341他会200圣魔法师是别主体/兵种，不能清此账。
+- 后证：1263, 1264, 1318, 1341
+
+## v06-local-issue_log-046-01
+
+- 原子项：林浅身体/明宇操控和寄剑历史分层
+- 完整原记录：{"evidence": [{"chapter_id": "ch-1267", "claim_kind": "fact", "end_line": 101247, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 101182}, {"chapter_id": "ch-1268", "claim_kind": "fact", "end_line": 101323, "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857", "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd", "start_line": 101248}], "id": "v06-issue-046", "kind": "identity", "observation": "林浅身体/明宇操控和寄剑历史分层；不改纵横独立史。", "state": "bounded", "title": "明宇借体自述"}
+- 终点：answered；领域：identity-body-controller-history
+- 理由：1267—1268林浅的身体与明宇寄剑夺体、自述历史分层：同一肉身现场不等同一行动意志，自述也不自动成为另一作品的客观通史。answered为本书实体/叙述层次可明确记录。
+- 后证：1267, 1268
+

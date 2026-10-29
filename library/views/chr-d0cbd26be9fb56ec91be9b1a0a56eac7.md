@@ -1,0 +1,148 @@
+# 林婉儿／苍瞳｜卷三阶段
+
+ID: `chr-d0cbd26be9fb56ec91be9b1a0a56eac7` · 版本: 1 · 范围: source-analysis
+
+指挥后勤、买箭救援、与主陪练并亲自擂台战画魅；国内队主力与现实实习总助。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-d0cbd26be9fb56ec91be9b1a0a56eac7",
+  "asset_type": "character",
+  "content": {
+    "claim_kind": "inference",
+    "decision_pattern": "会纠错主而不只安慰",
+    "goal": "亲密自主和团队胜利",
+    "limitations": "父亲工作安排/对东城友情与恋情冲突",
+    "relationship_direction": "主恋人；东城密友；父女局部妥协",
+    "stage_change": "明确爱李；747破盾杀撼梁，748主独伏杀霜林取刀，749她确认盾已归抹",
+    "summary": "指挥后勤、买箭救援、与主陪练并亲自擂台战画魅；国内队主力与现实实习总助。",
+    "valid_at": "raw0505—0753卷末，非全书终点"
+  },
+  "created_at": "2026-10-25T20:23:24.837600+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0554",
+      "claim_kind": "fact",
+      "end_line": 44804,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 44716
+    },
+    {
+      "chapter_id": "ch-0561",
+      "claim_kind": "fact",
+      "end_line": 45254,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 45185
+    },
+    {
+      "chapter_id": "ch-0574",
+      "claim_kind": "fact",
+      "end_line": 46190,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 46121
+    },
+    {
+      "chapter_id": "ch-0601",
+      "claim_kind": "fact",
+      "end_line": 48225,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 48149
+    },
+    {
+      "chapter_id": "ch-0634",
+      "claim_kind": "fact",
+      "end_line": 50590,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 50524
+    },
+    {
+      "chapter_id": "ch-0650",
+      "claim_kind": "fact",
+      "end_line": 51783,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 51702
+    },
+    {
+      "chapter_id": "ch-0653",
+      "claim_kind": "fact",
+      "end_line": 52020,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 51944
+    },
+    {
+      "chapter_id": "ch-0674",
+      "claim_kind": "fact",
+      "end_line": 53573,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 53502
+    },
+    {
+      "chapter_id": "ch-0682",
+      "claim_kind": "fact",
+      "end_line": 54205,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 54142
+    },
+    {
+      "chapter_id": "ch-0747",
+      "claim_kind": "fact",
+      "end_line": 58461,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 58408
+    },
+    {
+      "chapter_id": "ch-0748",
+      "claim_kind": "fact",
+      "end_line": 58536,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 58462
+    },
+    {
+      "chapter_id": "ch-0749",
+      "claim_kind": "fact",
+      "end_line": 58600,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 58537
+    },
+    {
+      "chapter_id": "ch-0752",
+      "claim_kind": "fact",
+      "end_line": 58807,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 58738
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/waner",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "林婉儿／苍瞳｜卷三阶段",
+  "updated_at": "2026-10-25T20:23:24.837600+00:00",
+  "user_notes": ""
+}
+
+```

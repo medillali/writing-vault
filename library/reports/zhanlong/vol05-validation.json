@@ -1,0 +1,40 @@
+{
+  "book": "zhanlong",
+  "volume": 5,
+  "indexed_segments_read": 211,
+  "body_units_read": 210,
+  "cards": {
+    "character": 56,
+    "scene": 54,
+    "pattern": 16
+  },
+  "evidence_references_checked": 2520,
+  "nodes": 64,
+  "edges": 44,
+  "threads": 19,
+  "preflight": "passed",
+  "status": "passed",
+  "validation_scope": "全文覆盖/精确章界/claim引用/卡片关系/图端点线程闭包及原notes四栏；不是文学主审",
+  "observations": 45,
+  "independent_mechanism_fields": 45,
+  "independent_limits_fields": 45,
+  "scene_specific_applicability_fields": 54,
+  "scene_distinct_failure_fields": 54,
+  "notes_sha256": "908e7c4f01fe342fe61cd4d8e7494da0266e830c02fe73acffef9fc76bb871b9",
+  "open_questions": 25,
+  "source_anomalies": 19,
+  "named_life_states": 18,
+  "original_notes_preserved": true,
+  "complete_book": false,
+  "primary_proposal_exact_path_check": true,
+  "unlisted_values_unchanged": true,
+  "reading_core_sha256_unchanged": {
+    "chapter-notes.jsonl": "908e7c4f01fe342fe61cd4d8e7494da0266e830c02fe73acffef9fc76bb871b9",
+    "read-log.json": "e16491213242360310074560e0c5d250c27d86819a026c4042e71c99053842be",
+    "reader-state.json": "542bb43bd2ea2882d35a73d52e255144bd33ba87531b2f29dc1d502b994d25a0"
+  },
+  "approved_semantic_replay": true,
+  "report_exact_one_paragraph": true,
+  "current_assembly_entrypoint": "assemble_approved_review.py",
+  "reading_and_chapter_indexes_unchanged": true
+}

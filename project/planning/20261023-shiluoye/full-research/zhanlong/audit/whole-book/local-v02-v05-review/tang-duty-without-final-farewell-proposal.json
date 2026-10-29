@@ -1,0 +1,152 @@
+{
+  "status": "proposal-pending-primary-review-not-applied",
+  "reason": "根完整复读1386未点唐；本代理已完整读1354四栏，撤终章到场暗示，改用明确实际职责，非新原文全书阅读。",
+  "changes": [
+    {
+      "path": "adjudications-local-v02-batch012.json",
+      "candidate_id": "v02-local-chapter_unresolved_index-0103-01",
+      "input_sha256": "755ffe996d6c05f812af227e9127c76528b6c8071d4a8783a9525b8309663e20",
+      "before": {
+        "candidate_id": "v02-local-chapter_unresolved_index-0103-01",
+        "volume": 2,
+        "title": "唐主现实切磋与东适应",
+        "original_field": "chapter_unresolved_index",
+        "original_index": 102,
+        "atomic_index": 0,
+        "original_record_sha256": "d8db0293f268cc75e70356883683a747d847fdf7590aa3276fbd9a520a4b9a89",
+        "status": "answered",
+        "audit_domain": "relationship-action",
+        "rationale": "375晚十私战实际打成，主先受拳再气旋击退唐琦，唐自认层次差并拟返川，主劝留/唐认可主指挥；843唐实际救回东、1386送别仍在同伴关系中。唐受聘/东起初不愿与后来承担保护职责分时，不靠强迫恋爱解释适应。",
+        "later_chapters": [
+          370,
+          375,
+          843,
+          1386
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0370",
+            "start_line": 31300,
+            "end_line": 31397,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0375",
+            "start_line": 31708,
+            "end_line": 31785,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0843",
+            "start_line": 64451,
+            "end_line": 64527,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol04-chapter-notes.jsonl",
+            "material_sha256": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+            "source_reader": "/root/zongheng_vol03_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1386",
+            "start_line": 99656,
+            "end_line": 99818,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol06-chapter-notes.jsonl",
+            "material_sha256": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57",
+            "source_reader": "zongheng_vol05_full"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol04_full",
+        "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+      },
+      "after": {
+        "candidate_id": "v02-local-chapter_unresolved_index-0103-01",
+        "volume": 2,
+        "title": "唐主现实切磋与东适应",
+        "original_field": "chapter_unresolved_index",
+        "original_index": 102,
+        "atomic_index": 0,
+        "original_record_sha256": "d8db0293f268cc75e70356883683a747d847fdf7590aa3276fbd9a520a4b9a89",
+        "status": "answered",
+        "audit_domain": "relationship-action",
+        "rationale": "375晚十私战实际打成，主先受拳再气旋击退唐琦，唐自认层次差并拟返川，主劝留/唐认可主指挥；843唐实际救回东，1354唐再以毒镖/借钢盾/枪口内射杀A级，后续实际保护职责有证。唐受聘/东起初不愿与后来承担保护职责分时，不靠强迫恋爱解释适应，不由东终章拥别倒证唐到场或她与唐恋爱。",
+        "later_chapters": [
+          370,
+          375,
+          843,
+          1354
+        ],
+        "later_evidence": [
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0370",
+            "start_line": 31300,
+            "end_line": 31397,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0375",
+            "start_line": 31708,
+            "end_line": 31785,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol02-chapter-notes.jsonl",
+            "material_sha256": "f0e041fd3ecdc6091bf369e55d380e3fd3abd855114b46254fa71e0768152e88",
+            "source_reader": "/root/zongheng_vol04_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-0843",
+            "start_line": 64451,
+            "end_line": 64527,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol04-chapter-notes.jsonl",
+            "material_sha256": "9e268faa2e0ef2507e980b81ca9b3c32f4f7ca6a1bbb35e4bd397ca27a883b40",
+            "source_reader": "/root/zongheng_vol03_full"
+          },
+          {
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "chapter_id": "ch-1354",
+            "start_line": 97417,
+            "end_line": 97474,
+            "claim_kind": "fact",
+            "evidence_access": "正式逐章四栏派生笔记；原文归属不转移",
+            "material_path": "writing-vault/library/reports/zhanlong/vol06-chapter-notes.jsonl",
+            "material_sha256": "525104b0cdbf48ba9dbe2da2354a023a4c13e0b54cf416d28a44f039fb94ff57",
+            "source_reader": "zongheng_vol05_full"
+          }
+        ],
+        "actual_reviewer": "/root/zongheng_vol04_full",
+        "reading_attribution": "人工终评；卷2 prefix及卷5为本人原文旧实读，卷2尾原文reader=primary，跨卷以所列正式派生为据；不称个人重读全书。"
+      },
+      "scope": "仅此条理由和1386证据替换1354，status/domain/其余19不变"
+    }
+  ]
+}

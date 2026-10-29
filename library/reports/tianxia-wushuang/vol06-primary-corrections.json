@@ -1,0 +1,30 @@
+{
+  "status":"primary_targeted_source_verification_applied",
+  "reviewer":"primary",
+  "corrections":[{
+    "id":"level-loss-keeps-equipped-shield",
+    "target":"ch-1293尾笔记关于221继续用225盾的初步疑点",
+    "original_tail_notes_preserved":true,
+    "correction":"降级不自动卸下原已穿装备，继续用青龙盾不能单凭低于225判规则矛盾；本研究不再将其列源异常。",
+    "verification_source":"primary独立再次全文回读raw0089 L8498—8575，L8535明示45级不拿下50鬼冰魄可继续持用且修理不卸，L8572再证使用。",
+    "locator":{"chapter":"ch-0089","start_line":8535,"additional_line":8572},
+    "reader_attribution":"此前章节全文回读归primary，本整合者未因此冒认读过raw0089。",
+    "review_receipt":"由primary保存review-wushuang-vol06.md；本文件仅保存已收到并应用的定向纠正。"
+  },{
+    "id":"feiyan-wild-throne-possession",
+    "target":"raw1173衍生稿将飞炎领地错记归烛及称野性城",
+    "original_notes_preserved":true,
+    "correction":"飞炎领地由系统归泪残痕所在公会野性王座；烛未阻泪，琥杀烛，随后烛龙将领杀琥。保护伞整编是另一条线路。",
+    "verification_source":"primary定向全文回读并由整合者再次完整回读raw1173 L94570—94641，系统L94571、怒斥L94578、两方死亡L94581/94585。",
+    "locator":{"chapter":"ch-1173","start_line":94571,"end_line":94585},
+    "applied_to":"scene_data/build_artifacts、cards/graph、report/handoff；早期原笔记中的归烛初判不得沿用。"
+  },{
+    "id":"umbrella-naming-and-reorganization",
+    "target":"吻痕提整编误泛化成倡名",
+    "original_notes_preserved":true,
+    "correction":"吻痕召会提整编，战痕推陆总盟主，陆提出保护伞名；1219后阶段吻现为盟主另有明文，不因此判角色状态错误。",
+    "verification_source":"整合者完整回读raw1173：L94610—94624召会和总主、L94633命名/94635编组；primary另核raw1219 L97866现盟主。",
+    "locator":{"chapter":"ch-1173","start_line":94610,"end_line":94635},
+    "applied_to":"吻痕卡decisions及handoff组织归因。"
+  }]
+}

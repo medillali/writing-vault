@@ -1,0 +1,55 @@
+{
+  "book": "zhanlong",
+  "volume": 6,
+  "indexed_segments_read": 207,
+  "body_units_read": 206,
+  "cards": {
+    "character": 32,
+    "scene": 58,
+    "pattern": 12
+  },
+  "evidence_references_checked": 1848,
+  "nodes": 70,
+  "edges": 49,
+  "threads": 23,
+  "preflight": "passed",
+  "additional_checks": {
+    "original_unresolved_strings": 206,
+    "chapter_unresolved_index_rows": 207,
+    "original_reader_and_read_at_preserved": true,
+    "batches": 52,
+    "all_batch_hashes_match": true,
+    "complete_book": false,
+    "review_status": "draft",
+    "primary_review_status": "pending",
+    "scope": "只核本卷原文覆盖/证据定位/图卡引用与索引无损，不代替文学主审。"
+  },
+  "input_sha256": {
+    "source.json": "d7f33406cf8791e9cb0339f3dfb589b29a03eb52141fa44dbf8a8c3258a420cd",
+    "build_artifacts.py": "2f1180949767ff49f73c804e35768947bf188a22d7ef7892e3b1cd175e36db86",
+    "research_cards.py": "a9664012977336a31631eb3960a25189d56fa6f0b80da30fe193fbc3a2c25f08",
+    "research_interfaces.py": "2b4f98360c7151f665282c4f83a9d9187776a9ca9320f07c2247557d0d345a63",
+    "save_batch.py": "fc581cb3322c24faab0c8136c29e9b889b5fd3e8187da9be3475b01a2cb02ddb",
+    "finalize_validation.py": "f29624058ff89759a44f48697412e183713f0c61f130d19a587bfa9f90b31bf0"
+  },
+  "output_sha256": {
+    "analysis.json": "00b06caef1c6337c86b717c7578acc1e0578d0cda5fb640189e5f623df51bac2",
+    "cards.json": "4b99ae67a20c7ee97fa1a2668cbebdd3bd653b9344797a5b2f683f0aaf2f402b",
+    "graph.json": "265873e7749d081b7ba25a7f81b252abc83c923d787143f8d51c4db3e38fb2ce",
+    "report.md": "6ceba65f603fa9ec518d302a7e57e1fdfab4a7386177aa08b16e951575277ba9",
+    "handoff.md": "c4ae7925c75bdbb3bb77ea6061dc91a92c7f20a2616daf33593d0bc440fdd1b8",
+    "chapter-unresolved-index.json": "f3c74ed85f078144352f302e95a6dde3b87dd320b37e129df5edb23c28c1a03f",
+    "chapter-notes.jsonl": "390d10740eec447ba04babff420b862a03ab0647d8c92f1ba9e7a6461abac48c",
+    "reader-state.json": "68bcbfd80aae3622647bf8efd309d1e33f93f337e460de3ca59cdedfbd4d6135",
+    "read-log.json": "4bdf54476648e54cfd408c6135f35e1416c8c2c279039fbae472a33184f174b3"
+  },
+  "self_review": {
+    "method": "完整回看本人1180—1339已存四栏/当前1340—1386全文与四栏；只读重核1298全文澄清薛柔游戏归区标识，不重复计覆盖。",
+    "correction_records": [
+      "prefreeze-reference-corrections.json",
+      "prefreeze-reference-corrections-2.json"
+    ],
+    "precise_correction": "薛柔/为爱追寻是中国公告与葡榜漂移主体，雪狐为俄敌；伊薇/奈克拆两人物卡；原逐章记录未改。"
+  },
+  "checked_at": "2026-10-25T20:24:49.202277+00:00"
+}

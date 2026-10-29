@@ -1,0 +1,123 @@
+{
+  "asset_id": "chr-b308effaa36d523d832764878ca2c3a3",
+  "asset_type": "character",
+  "content": {
+    "changes": "从受助占城者转为可提供独立海战方案的互惠盟友。",
+    "constraints": "领地归属需最后持厅、军团规模较盟友少。",
+    "current_state": "白帝持永生，黑海后协防暗月，未转为古剑分盟。",
+    "decisions": [
+      "白帝最终占永生；黑海把近百舰铁索相连供骑贯，游戏冰魔可防火。"
+    ],
+    "goals": "取得并保白帝领地，维持互助联盟。",
+    "interpretation": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-0684",
+          "claim_kind": "inference",
+          "end_line": 57770,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 57702
+        },
+        {
+          "chapter_id": "ch-0784",
+          "claim_kind": "inference",
+          "end_line": 65369,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 65294
+        },
+        {
+          "chapter_id": "ch-0785",
+          "claim_kind": "inference",
+          "end_line": 65441,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 65370
+        },
+        {
+          "chapter_id": "ch-0788",
+          "claim_kind": "inference",
+          "end_line": 65668,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 65598
+        },
+        {
+          "chapter_id": "ch-0791",
+          "claim_kind": "inference",
+          "end_line": 65912,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 65826
+        }
+      ],
+      "text": "以本卷实际决定与变化观察，不把角色评语当全人格定论。"
+    },
+    "knowledge_boundary": "链船火攻风险被游戏条件回答，不拿现实故事预判必败。",
+    "relationship_directions": [
+      "看雪↔古剑：借武力夺永生，后来出25万人援暗月；其他盟会主动退出交厅。"
+    ],
+    "summary": "白帝持永生，黑海后协防暗月，未转为古剑分盟。"
+  },
+  "created_at": "2026-10-24T23:04:58.727193+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0684",
+      "claim_kind": "fact",
+      "end_line": 57770,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 57702
+    },
+    {
+      "chapter_id": "ch-0784",
+      "claim_kind": "fact",
+      "end_line": 65369,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 65294
+    },
+    {
+      "chapter_id": "ch-0785",
+      "claim_kind": "fact",
+      "end_line": 65441,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 65370
+    },
+    {
+      "chapter_id": "ch-0788",
+      "claim_kind": "fact",
+      "end_line": 65668,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 65598
+    },
+    {
+      "chapter_id": "ch-0791",
+      "claim_kind": "fact",
+      "end_line": 65912,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 65826
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol04/character/kanxue",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:4",
+    "研究:全量九维"
+  ],
+  "title": "今夜来看雪",
+  "updated_at": "2026-10-24T23:04:58.727193+00:00",
+  "user_notes": ""
+}

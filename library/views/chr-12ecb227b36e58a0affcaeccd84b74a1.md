@@ -1,0 +1,127 @@
+# 韩渊｜卷四阶段
+
+ID: `chr-12ecb227b36e58a0affcaeccd84b74a1` · 版本: 1 · 范围: source-analysis
+
+御林早期认主将领，从千夫成长副统/高阶战将，勇战也真杀俘。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-12ecb227b36e58a0affcaeccd84b74a1",
+  "asset_type": "character",
+  "content": {
+    "capability": "投枪破掠食、斩踝、骑兵训练/水军组织。",
+    "claim_kind": "inference",
+    "conflict": "护兵忠勇与暴烈处刑并存，不把全部杀行为主亲令。",
+    "decision_pattern": "先亲搏鼓士，常要主止追杀/自立提议。",
+    "goal": "随主立功/保御林。",
+    "limitations": "受伤多次；两千骑884覆，他重伤活，非无敌。",
+    "need": "被承认为非贵族也可掌军之人。",
+    "relationships": "萧厉搭档；主下属，850—852参与海防；849其炮令杀奔月。",
+    "stage_change": "留四将体系，923后矿/城防和968御林参战；仍独立将领非玩家。",
+    "summary": "御林早期认主将领，从千夫成长副统/高阶战将，勇战也真杀俘。",
+    "valid_at": "卷四raw0754—0968，非全书终点人物总评"
+  },
+  "created_at": "2026-10-25T21:08:35.223732+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0765",
+      "claim_kind": "fact",
+      "end_line": 59677,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 59612
+    },
+    {
+      "chapter_id": "ch-0770",
+      "claim_kind": "fact",
+      "end_line": 59966,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 59910
+    },
+    {
+      "chapter_id": "ch-0792",
+      "claim_kind": "fact",
+      "end_line": 61324,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 61258
+    },
+    {
+      "chapter_id": "ch-0809",
+      "claim_kind": "fact",
+      "end_line": 62431,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 62383
+    },
+    {
+      "chapter_id": "ch-0812",
+      "claim_kind": "fact",
+      "end_line": 62621,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 62566
+    },
+    {
+      "chapter_id": "ch-0818",
+      "claim_kind": "fact",
+      "end_line": 62991,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 62924
+    },
+    {
+      "chapter_id": "ch-0849",
+      "claim_kind": "fact",
+      "end_line": 64911,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 64843
+    },
+    {
+      "chapter_id": "ch-0884",
+      "claim_kind": "fact",
+      "end_line": 66907,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 66846
+    },
+    {
+      "chapter_id": "ch-0922",
+      "claim_kind": "fact",
+      "end_line": 69311,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 69240
+    },
+    {
+      "chapter_id": "ch-0968",
+      "claim_kind": "fact",
+      "end_line": 72228,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 72165
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/hanyuan",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷4",
+    "待审阅"
+  ],
+  "title": "韩渊｜卷四阶段",
+  "updated_at": "2026-10-25T21:08:35.223732+00:00",
+  "user_notes": ""
+}
+
+```

@@ -1,0 +1,67 @@
+# 贼胆｜猴子｜E0197
+
+ID: `chr-zeidan-legacy-e0197` · 版本: 1 · 范围: source-analysis
+
+以游戏养活家人、感激萧救命引路；萧将成功归其努力并认朋友。；通过高难任务卖装改善生活，攒两百万押萧，被提醒别失老本；经萧介绍接受风野入会邀请。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0197",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "现实映照中",
+    "facts": [
+      "以游戏养活家人、感激萧救命引路；萧将成功归其努力并认朋友。",
+      "通过高难任务卖装改善生活，攒两百万押萧，被提醒别失老本；经萧介绍接受风野入会邀请。"
+    ],
+    "id": "part-c:entity:houzi",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0197",
+    "maintenance_depth": "重要",
+    "name": "猴子",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0197",
+    "summary": "以游戏养活家人、感激萧救命引路；萧将成功归其努力并认朋友。；通过高难任务卖装改善生活，攒两百万押萧，被提醒别失老本；经萧介绍接受风野入会邀请。",
+    "user_feedback": null,
+    "worker_part": "part-c"
+  },
+  "created_at": "2026-10-22T17:03:13.064981+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0359",
+      "claim_kind": "fact",
+      "end_line": 21323,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 21010
+    },
+    {
+      "chapter_id": "ch-0411",
+      "claim_kind": "fact",
+      "end_line": 25173,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 25099
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0197",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-c"
+  ],
+  "title": "贼胆｜猴子｜E0197",
+  "updated_at": "2026-10-22T17:03:13.066981+00:00",
+  "user_notes": ""
+}
+
+```

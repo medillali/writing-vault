@@ -1,0 +1,52 @@
+{
+  "asset_id": "scn-4091699f451c560ab2fff6cef0717783",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "被困队伍需要临时据点，城内侦察能排除局部埋伏却不能解释整个领域时，可先给占城与擒敌的小胜，再保留外部危险和封闭机制。",
+    "arc": "ghost",
+    "choice": "飞查宅地下/保城停炮踹门、俘7000",
+    "consequence": "鬼城实守/神侯活拒供，地图并非被占城就自动解封。",
+    "failure_mode": "不能由探查几条街和地下室便宣整个位面安全，也不能把占据空城等同征服新图；俘虏不肯供述时不可自动补出幕后解释。",
+    "goal": "取据点/问情报",
+    "narrative_order": 1376,
+    "obstacle": "荒废城/新图完全未知",
+    "stage_status": "resolved",
+    "state_change": "鬼城实守/神侯活拒供，地图并非被占城就自动解封。",
+    "summary": "鬼城实守/神侯活拒供，地图并非被占城就自动解封。",
+    "why_it_works": "先给一次轻胜让工具有效，再暴露问题其实在城外。"
+  },
+  "created_at": "2026-10-25T21:09:00.855763+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1376",
+      "claim_kind": "fact",
+      "end_line": 98980,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 98907
+    },
+    {
+      "chapter_id": "ch-1377",
+      "claim_kind": "fact",
+      "end_line": 99073,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 98981
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/scene/ghost-occupation",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷:6"
+  ],
+  "title": "鬼城探空与神侯活擒仍不能解禁",
+  "updated_at": "2026-10-25T21:09:00.855763+00:00",
+  "user_notes": ""
+}

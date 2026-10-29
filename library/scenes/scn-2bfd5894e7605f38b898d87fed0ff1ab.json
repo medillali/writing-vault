@@ -1,0 +1,81 @@
+{
+  "asset_id": "scn-2bfd5894e7605f38b898d87fed0ff1ab",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "新武器只有少量材料与庞大运输负担，试炮、弹源与量产需求必须分开满足。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/zishu",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/han"
+    ],
+    "choice": "主换晶持续送弹、试威力",
+    "claim_kind": "inference",
+    "consequence": "十门实用而非千门现成",
+    "failure_mode": "千百毁铁颅愿景未成，2000/3000米源值另保。",
+    "goal": "提高守城火力",
+    "narrative_order": 1170,
+    "obstacle": "材料纯度/搬运/弹药",
+    "state_change": "军需与战术进入下一战",
+    "summary": "十门神威四万斤需二十人，95%纯晶才铸成，先移走猎人再实轰空山。",
+    "why_it_works": "先验证一件，再用稀缺限制扩产。"
+  },
+  "created_at": "2026-10-25T21:08:43.355658+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1133",
+      "claim_kind": "fact",
+      "end_line": 83009,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 82947
+    },
+    {
+      "chapter_id": "ch-1134",
+      "claim_kind": "fact",
+      "end_line": 83073,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 83010
+    },
+    {
+      "chapter_id": "ch-1135",
+      "claim_kind": "fact",
+      "end_line": 83127,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 83074
+    },
+    {
+      "chapter_id": "ch-1145",
+      "claim_kind": "fact",
+      "end_line": 83798,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 83731
+    },
+    {
+      "chapter_id": "ch-1170",
+      "claim_kind": "fact",
+      "end_line": 85492,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 85430
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/scene/cannon",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷5",
+    "待审阅"
+  ],
+  "title": "神威试炮到运弹限制",
+  "updated_at": "2026-10-25T21:08:43.355658+00:00",
+  "user_notes": ""
+}

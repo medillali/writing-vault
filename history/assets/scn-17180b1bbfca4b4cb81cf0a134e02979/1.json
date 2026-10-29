@@ -1,0 +1,48 @@
+{
+  "asset_id": "scn-17180b1bbfca4b4cb81cf0a134e02979",
+  "asset_type": "scene",
+  "content": {
+    "choice": "把前世知识变成谈判筹码，同时隐瞒部分关键信息。",
+    "consequence": "技能、人脉和宝箱目标相连，形成从当前任务到下一任务的推进。",
+    "coverage_note": "完整阅读第一至第四章；前世回忆属于叙述内容，当前时间线的未来结果尚未验证。",
+    "failure_mode": "故意误导他人的行为会影响读者对主角的信任；不能只当作无代价的聪明。",
+    "goal": "在启动资金有限时获得潜行技能。",
+    "obstacle": "技能书价格超过可轻易支出的余额。",
+    "summary": "缺钱的主角以攻略消息换到技能书，随后揭明初始坐标存在危险，补偿有效信息，建立未来付费联系并准备寻宝。",
+    "why_it_works": "让优势落到可核验的交易结果，再用结果解锁后续行动。"
+  },
+  "created_at": "2026-10-21T18:05:14.601951+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0004",
+      "claim_kind": "fact",
+      "end_line": 257,
+      "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+      "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+      "start_line": 250
+    },
+    {
+      "chapter_id": "ch-0005",
+      "claim_kind": "inference",
+      "end_line": 298,
+      "revision": "8735871df8edc3d57057f50076f210d3f348a6f9dd4e2a5268a2ddb44cd8d982",
+      "source_id": "src-7e18e3668cd940a7b76e7a7e76f4e292",
+      "start_line": 261
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-7e18e3668cd940a7b76e7a7e76f4e292/opening-test-20261022/trade",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "资源置换",
+    "信息反转",
+    "连续目标"
+  ],
+  "title": "从讨价还价转成信息交易，再接出下个目标",
+  "updated_at": "2026-10-21T18:05:14.616950+00:00",
+  "user_notes": ""
+}

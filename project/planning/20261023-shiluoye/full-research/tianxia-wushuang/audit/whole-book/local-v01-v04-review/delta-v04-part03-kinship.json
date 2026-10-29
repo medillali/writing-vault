@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "changed_candidate_ids": [
+    "v04-local-chapter_unresolved_index-047-02"
+  ],
+  "unchanged_records": 59,
+  "historical_original_record_unchanged": true,
+  "reason": "实际全文复读raw653/694并完整读取142—145派生notes，未见北冥/鬼谷血缘证，删除多余亲兄妹断言。",
+  "full_source_rereads": [
+    {
+      "chapter": 653,
+      "start_line": 55558,
+      "end_line": 55609,
+      "reader": "/root/zongheng_vol05_full"
+    },
+    {
+      "chapter": 694,
+      "start_line": 58439,
+      "end_line": 58511,
+      "reader": "/root/zongheng_vol05_full"
+    }
+  ],
+  "before": {
+    "candidate_id": "v04-local-chapter_unresolved_index-047-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 46,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0653",
+      "items": [
+        "L55607天堂雪与前后天堂雨疑误称，不另建人物；晴空称陆尘北冥‘真哥哥’是角色称呼，不证明血缘。"
+      ]
+    },
+    "title": "晴空称陆尘北冥‘真哥哥’是角色称呼，不证明血缘。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0653",
+        "start_line": 55558,
+        "end_line": 55609,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "kinship-address-not-biological-proof",
+    "rationale": "晴空说真哥哥是对陆北冥亲近的称呼，不能证血缘；早北冥/鬼谷的亲兄妹关系与陆认妹分开，亲吻或叫哥也不自动建同一谱系。",
+    "later_chapters": [],
+    "later_evidence": [],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  "after": {
+    "candidate_id": "v04-local-chapter_unresolved_index-047-02",
+    "volume": 4,
+    "original_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 46,
+    "atomic_index": 1,
+    "original_record": {
+      "chapter_id": "ch-0653",
+      "items": [
+        "L55607天堂雪与前后天堂雨疑误称，不另建人物；晴空称陆尘北冥‘真哥哥’是角色称呼，不证明血缘。"
+      ]
+    },
+    "title": "晴空称陆尘北冥‘真哥哥’是角色称呼，不证明血缘。",
+    "original_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0653",
+        "start_line": 55558,
+        "end_line": 55609,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": "writing-vault/library/reports/tianxia-wushuang/vol04-analysis.json"
+      }
+    ],
+    "status": "answered",
+    "audit_domain": "kinship-address-not-biological-proof",
+    "rationale": "653 L55578—55580鬼谷自说也被北冥叫哥哥、晴空用真假作亲疏玩笑，没有北冥与鬼谷血缘证。694 L58494—58496明月明确否认北冥与陆为亲兄妹。早142—145原读者notes亦无北鬼亲缘确认；保陆认妹与亲近称呼，不替任何称哥者擅建血亲谱系，姓氏笑谈也不证北冥现实原姓。",
+    "later_chapters": [
+      694
+    ],
+    "evidence_basis": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+    "later_evidence": [
+      {
+        "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+        "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+        "chapter_id": "ch-0694",
+        "start_line": 58439,
+        "end_line": 58511,
+        "claim_kind": "fact",
+        "access_level": "derived-volume-research",
+        "research_path": ".planning/20261023-shiluoye/full-research/tianxia-wushuang/vol04/chapter-notes.jsonl",
+        "locator_basis": "existing chapter notes metadata; no additional original-text-reading claim"
+      }
+    ],
+    "reviewer": "/root/zongheng_vol05_full",
+    "review_status": "draft_for_primary_review"
+  },
+  "outputs": {
+    "adjudications-local-v04-part03.json": "281bf0fa7bab3bdcf6df9ad9e3934294f720df364de6a5e56e4272a784bf412f",
+    "adjudications-local-v04-part03.md": "fe0656cb3676e4be198b02194e583a18bd24ce8098279f8c98e2a40797a84aa4"
+  }
+}

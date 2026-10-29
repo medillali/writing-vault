@@ -1,0 +1,102 @@
+# 零下30度雪夜
+
+ID: `chr-7a016a67aa2a5a16a6fe26c9a8aaa00d` · 版本: 1 · 范围: source-analysis
+
+寒剑/铁马代表白鸟统领，215?等级不无证补；龙域后仍非确认死。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-7a016a67aa2a5a16a6fe26c9a8aaa00d",
+  "asset_type": "character",
+  "content": {
+    "changes": "援军非无条件迟来救星，保持自主目的。",
+    "constraints": "国内意见/防中国过强。",
+    "current_state": "寒剑/铁马代表白鸟统领，215?等级不无证补；龙域后仍非确认死。",
+    "decisions": [
+      "白鸟90万实援末战；会议提出多线牵制；龙域白鸟到观望。"
+    ],
+    "goals": "俄罗斯服务器安全和联盟平衡。",
+    "interpretation": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1193",
+          "claim_kind": "inference",
+          "end_line": 96070,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 95998
+        },
+        {
+          "chapter_id": "ch-1219",
+          "claim_kind": "inference",
+          "end_line": 97916,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 97844
+        },
+        {
+          "chapter_id": "ch-1267",
+          "claim_kind": "inference",
+          "end_line": 101247,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 101182
+        }
+      ],
+      "text": "以本卷可证行动与变化观察，不把角色评语当全人格定论。"
+    },
+    "knowledge_boundary": "俄此前牵制也有行动，不写只最后一援；冰冷刀锋为另会。",
+    "relationship_directions": [
+      "援陆有友谊和利益，要求盟友公开战略。"
+    ],
+    "summary": "寒剑/铁马代表白鸟统领，215?等级不无证补；龙域后仍非确认死。"
+  },
+  "created_at": "2026-10-25T00:01:47.067319+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1193",
+      "claim_kind": "fact",
+      "end_line": 96070,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 95998
+    },
+    {
+      "chapter_id": "ch-1219",
+      "claim_kind": "fact",
+      "end_line": 97916,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 97844
+    },
+    {
+      "chapter_id": "ch-1267",
+      "claim_kind": "fact",
+      "end_line": 101247,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 101182
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/xueye",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:6",
+    "研究:全量九维"
+  ],
+  "title": "零下30度雪夜",
+  "updated_at": "2026-10-25T00:01:47.067319+00:00",
+  "user_notes": ""
+}
+
+```

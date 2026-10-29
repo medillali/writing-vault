@@ -1,0 +1,68 @@
+{
+  "input_sha256": {
+    "analysis.json": "3fc7615afdb417457030fab90b452dac3fe2fd4a03c1e0076743adbdf9b917ae",
+    "cards.json": "afd4ed2b3304576e6d944113f706e360ac8245bc95b77ff71db7ef9d70264554",
+    "chapter-notes.jsonl": "1754d6c4022d0864a7dad6454e18dc38e2609c01508b77ca553a6699dab486ca",
+    "delivery-freeze.json": "6a221e4916e49474adbd187ce915418e2e61279fb22b8985b3806c5049ac31ec",
+    "graph.json": "690a8a8b8bf8c2b4f8d38cbaaa22ab53eb4b268471bab79d5183c3c12d11c751",
+    "handoff.md": "104f7f4923ff1a9b68c07749de1496f5687a0b63fb1f418d36f3486588e42b82",
+    "merge-receipt.json": "5fe2897893fab7ccdbcba5806c5964d6aa187dfb32d1bbb15a16c05213579c3d",
+    "primary-delta-20261026.json": "b34d40f2f81cac01edd6fd5f5f040cb965c2629c8db05c05571fc38185a75418",
+    "read-log.json": "783b9b802c4518dfeac68fa28e97daafc4e38d311fa09292304c61daa2220a15",
+    "reader-state.json": "c302f05f0ff0bdb211680efdc12e542f27624444bc96b3c4778678596b46140c",
+    "reading-attribution.json": "deac6eb91d1592945e6dbca674eba4b07f703bd8bafc3a1e53d34d4813e8510b",
+    "report.md": "fa1f269ec8d1d0e133917d6f978c2e9f302e11c605159883b94aeded4c5d9376",
+    "validation.json": "95f3aec65a4eff381eb4a2a12d1ae437a099aede7fa20783f521b6a00a84518b"
+  },
+  "preflight": {
+    "body_units_read": 248,
+    "book": "zhanlong",
+    "cards": {
+      "character": 43,
+      "pattern": 12,
+      "scene": 47
+    },
+    "edges": 33,
+    "evidence_references_checked": 2678,
+    "indexed_segments_read": 250,
+    "nodes": 54,
+    "preflight": "passed",
+    "threads": 16,
+    "volume": 1
+  },
+  "remaining": [
+    "242条历史疑点章节索引完整保留，终局审计须逐项判定，不能只读15个卷尾问题。",
+    "本卷正式保存不等全书九维综合与终点审计完成，后五卷继续；全部研究仍draft且用户审美未自动批准。"
+  ],
+  "review_groups": {
+    "cards": 102,
+    "dimensions": 36,
+    "edges": 33,
+    "nodes": 54,
+    "source_anomalies": 26,
+    "stage_characters": 43,
+    "threads": 16,
+    "truncation_recovery": "九维中段单读style/narrative/dialogue；卡片重复59—74补全截断；report初读中段被截，已另读135—450行补齐。",
+    "volume_end_questions": 15
+  },
+  "reviewed_at": "2026-10-25T19:20:26.167203+00:00",
+  "reviewer": "primary",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "scope": "primary全文实读raw152—251；raw2—151原文归agent3。primary另逐项完整主审36九维、102卡、54节点33边16线、43阶段人物、26来源异常、15卷末问题及报告/交接。派生主审不冒充primary独读全卷。",
+  "semantic_findings": [
+    "荆棘剑是死亡后ROLL仍结算，不是已证魂绑；天策违约与囡先助剑后看原录像转向保阶段。",
+    "扬威个人17杀MVP与忠烈5:0败解散分别结算；围猎28人杀26与朋友夸27分层，不造追死卷尾简简单单。",
+    "斩龙200系统成立、201二级300满、245三级972报告；实体工作室、临时队、会籍及双女外部归属分开。",
+    "神庙九人不补第十；真云辰传卷后消散、冉闵NPC条件复生、老K玩家同名分别记录。",
+    "流霜中途221收徒三转与234总任务终奖分离；七星/墨家书/符/等级门槛、秦王100%仍半品各有有效时点。",
+    "幻境性经历不是现实性交，主能自清记忆为内述且未真正清除，亲近不代正式恋人或同意。",
+    "抹茶理论贡献与真实拙操均保本卷证据，不以后卷回填伪装；圣魂盾已交但未明实穿。",
+    "罗林忠诚誓言、卡特死亡两种说法、血认虎及DNA报告均保说话者和证据层，不推完整幕后。",
+    "205换斧后证与204掉斧李牧拾分开，已定向修正analysis/report并补章内18164行证据；handoff工作室笔误已改。",
+    "图边逐项检查因果/设置/兑现/呼应类型；主题相似不单独充当硬因果，人物、技能、物主跨书不合并。"
+  ],
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "status": "reviewed_for_library_import",
+  "user_approval": false,
+  "volume": 1
+}

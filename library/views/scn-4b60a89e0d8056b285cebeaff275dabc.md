@@ -1,0 +1,126 @@
+# 护甲缝隙试验之后仍付死亡代价
+
+ID: `scn-4b60a89e0d8056b285cebeaff275dabc` · 版本: 1 · 范围: source-analysis
+
+魔化统领减防使坦克撑不住，书生观察护甲、诱抬手试腋下高伤；残血火雨仍杀凌月，书生挡击也死后复活，最后凌雪击杀。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-4b60a89e0d8056b285cebeaff275dabc",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "多阶段敌人有可观察限制且队员各有补位行动。",
+    "choice": "切换远程拉仇恨，观察弱点后验证并配合。",
+    "consequence": "击杀成功，复活受益次数消耗，风险未被一个弱点彻底抹去。",
+    "facts": [
+      {
+        "claim_kind": "fact",
+        "evidence": [
+          {
+            "chapter_id": "ch-0074",
+            "claim_kind": "fact",
+            "end_line": 5034,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 5011
+          },
+          {
+            "chapter_id": "ch-0075",
+            "claim_kind": "fact",
+            "end_line": 5076,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 5035
+          }
+        ],
+        "statement": "魔化统领减防使坦克撑不住，书生观察护甲、诱抬手试腋下高伤；残血火雨仍杀凌月，书生挡击也死后复活，最后凌雪击杀。"
+      }
+    ],
+    "failure_mode": "把弱点一发现就写成无损胜利，忽略原有复活冷却。",
+    "goal": "击杀高强度Boss。",
+    "inferences": [
+      {
+        "claim_kind": "inference",
+        "evidence": [
+          {
+            "chapter_id": "ch-0074",
+            "claim_kind": "inference",
+            "end_line": 5034,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 5011
+          },
+          {
+            "chapter_id": "ch-0075",
+            "claim_kind": "inference",
+            "end_line": 5076,
+            "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+            "source_id": "src-2a13958390274509b2af019f6b12d981",
+            "start_line": 5035
+          }
+        ],
+        "statement": "解题带来优势而非免除失败，让能力展示与脆弱同时存在。"
+      }
+    ],
+    "obstacle": "降攻/降防与火雨使原站位失效。",
+    "stage": "正文第50—100章，卷二阶段草稿",
+    "state_change": "从站桩输出转时机配合，成员互保可见。",
+    "summary": "魔化统领减防使坦克撑不住，书生观察护甲、诱抬手试腋下高伤；残血火雨仍杀凌月，书生挡击也死后复活，最后凌雪击杀。",
+    "why_it_works": "解题带来优势而非免除失败，让能力展示与脆弱同时存在。"
+  },
+  "created_at": "2026-10-22T17:53:52.277425+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0074",
+      "claim_kind": "fact",
+      "end_line": 5034,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 5011
+    },
+    {
+      "chapter_id": "ch-0075",
+      "claim_kind": "fact",
+      "end_line": 5076,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 5035
+    },
+    {
+      "chapter_id": "ch-0074",
+      "claim_kind": "inference",
+      "end_line": 5034,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 5011
+    },
+    {
+      "chapter_id": "ch-0075",
+      "claim_kind": "inference",
+      "end_line": 5076,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 5035
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/vol02-20261023/scene/armor-gap",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷次:卷二",
+    "场景因果"
+  ],
+  "title": "护甲缝隙试验之后仍付死亡代价",
+  "updated_at": "2026-10-22T17:53:52.277425+00:00",
+  "user_notes": ""
+}
+
+```

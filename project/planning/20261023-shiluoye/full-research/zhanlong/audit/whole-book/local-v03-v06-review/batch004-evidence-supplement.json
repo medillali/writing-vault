@@ -1,0 +1,88 @@
+{
+  "status": "applied_before_first_handoff",
+  "before_sha256": "be7d7fa761c1a4510120cc7ccfed60cbee95fd5a2be67fede3fb27bb9d882b43",
+  "after_sha256": "2ac99f6b973f766d43eb6b4e01794e81e17229f32285877a520b88091413f3c6",
+  "candidate_id": "v03-local-unresolved_and_anomalies-0030-02",
+  "changed_fields": [
+    "later_chapters",
+    "later_evidence"
+  ],
+  "before": {
+    "later_chapters": [
+      745,
+      746,
+      748
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0745",
+        "start_line": 58268,
+        "end_line": 58345,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0746",
+        "start_line": 58346,
+        "end_line": 58407,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0748",
+        "start_line": 58462,
+        "end_line": 58536,
+        "claim_kind": "fact"
+      }
+    ]
+  },
+  "after": {
+    "later_chapters": [
+      745,
+      746,
+      747,
+      748
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0745",
+        "start_line": 58268,
+        "end_line": 58345,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0746",
+        "start_line": 58346,
+        "end_line": 58407,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0747",
+        "start_line": 58408,
+        "end_line": 58461,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0748",
+        "start_line": 58462,
+        "end_line": 58536,
+        "claim_kind": "fact"
+      }
+    ]
+  },
+  "other_values_unchanged": true,
+  "original_reader": "primary",
+  "current_action": "本裁定者完整派生读取747原行，未重计该章原文覆盖"
+}

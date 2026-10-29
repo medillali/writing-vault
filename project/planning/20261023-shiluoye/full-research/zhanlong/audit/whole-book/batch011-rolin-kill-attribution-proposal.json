@@ -1,0 +1,210 @@
+{
+  "status": "proposal_only_pending_primary",
+  "created_at": "2026-10-25T22:17:13.427365+00:00",
+  "actual_reviewer": "zongheng_vol05_full",
+  "input_batch": "adjudications-local-v03-batch011.json",
+  "input_batch_sha256": "56bc177f420fdf50f7a8a2c9ce211bebc3f1785a4c1998dbea77419bbc3c2be6",
+  "candidate_id": "v03-local-chapter_unresolved_index-0078-01",
+  "allowed_fields": [
+    "rationale",
+    "later_chapters",
+    "later_evidence"
+  ],
+  "before": {
+    "candidate_id": "v03-local-chapter_unresolved_index-0078-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 77,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0584",
+      "evidence": [
+        {
+          "chapter_id": "ch-0584",
+          "claim_kind": "fact",
+          "end_line": 46955,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 46892
+        }
+      ],
+      "reader": "zongheng_vol05_full",
+      "unresolved": [
+        "青萝误报原因/流霜最终选择、寒风五万援未到；20未结。"
+      ]
+    },
+    "title": "青萝误报原因/流霜最终选择、寒风五万援未到",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0584",
+        "claim_kind": "fact",
+        "end_line": 46955,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 46892
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "scout-error-and-later-alignment",
+    "rationale": "584假回报的成因没有独立补明青萝被骗/易容或共谋，不能以错报定叛；流霜当时说不知信谁，587仍护城并被罗林杀，后606复苏、1174再回指她亲杀罗林，决裂有后证却不倒写584已完全信主。寒风五万仍是584调令，未匹配该指定整批按时到齐镜头，不能以先前五千鹰或后来别军替清。",
+    "later_chapters": [
+      584,
+      587,
+      606,
+      1174
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0584",
+        "start_line": 46895,
+        "end_line": 46951,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0587",
+        "start_line": 47223,
+        "end_line": 47280,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0606",
+        "start_line": 48534,
+        "end_line": 48575,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1174",
+        "start_line": 85720,
+        "end_line": 85727,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T22:05:25.175096+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  "proposed_after": {
+    "candidate_id": "v03-local-chapter_unresolved_index-0078-01",
+    "volume": 3,
+    "entry_type": "local-atomic-item",
+    "original_path": "writing-vault/library/reports/zhanlong/vol03-analysis.json",
+    "original_field": "chapter_unresolved_index",
+    "original_index": 77,
+    "atomic_index": 0,
+    "original_record": {
+      "chapter_id": "ch-0584",
+      "evidence": [
+        {
+          "chapter_id": "ch-0584",
+          "claim_kind": "fact",
+          "end_line": 46955,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 46892
+        }
+      ],
+      "reader": "zongheng_vol05_full",
+      "unresolved": [
+        "青萝误报原因/流霜最终选择、寒风五万援未到；20未结。"
+      ]
+    },
+    "title": "青萝误报原因/流霜最终选择、寒风五万援未到",
+    "original_evidence": [
+      {
+        "chapter_id": "ch-0584",
+        "claim_kind": "fact",
+        "end_line": 46955,
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "start_line": 46892
+      }
+    ],
+    "status": "partial",
+    "audit_domain": "scout-error-and-later-alignment",
+    "rationale": "584假回报的成因没有独立补明青萝被骗/易容或共谋，不能以错报定叛；流霜当时说不知信谁，587仍护城并被罗林杀，后606复苏；1174主回顾“罗林是她一手杀掉的”并叙她杀旧友留下阴影，只保为后文归功与心理描写，833系统实际公告末刀为问剑、青萝等亦参与压血，不据回顾改写击杀链或认单人击杀。587遇害、606复苏与后来旧友已死可证决裂代价，却不倒写584已完全信主。寒风五万仍是584调令，未匹配该指定整批按时到齐镜头，不能以先前五千鹰或后来别军替清。",
+    "later_chapters": [
+      584,
+      587,
+      606,
+      1174,
+      833
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0584",
+        "start_line": 46895,
+        "end_line": 46951,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0587",
+        "start_line": 47223,
+        "end_line": 47280,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0606",
+        "start_line": 48534,
+        "end_line": 48575,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-1174",
+        "start_line": 85720,
+        "end_line": 85727,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0833",
+        "start_line": 63809,
+        "end_line": 63820,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "zongheng_vol05_full",
+    "reviewed_at": "2026-10-25T22:05:25.175096+00:00",
+    "reading_attribution": "原文初读归属：本裁定者卷3前149片与卷6；primary卷3尾100片，其他卷按原reader。当前终评列证按本人原实读、实际派生接读或source-checks列明的定向原文复核使用，不冒领他人全文。",
+    "source_candidate_pool_sha256": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45",
+    "review_status": "draft_pending_primary_semantic_review"
+  },
+  "other_19_unchanged": true,
+  "source_check": {
+    "actual_reader": "zongheng_vol05_full",
+    "kind": "targeted_source_ranges_not_new_whole_chapter_coverage",
+    "ranges": [
+      {
+        "raw": 833,
+        "start_line": 63805,
+        "end_line": 63820
+      },
+      {
+        "raw": 1174,
+        "start_line": 85720,
+        "end_line": 85728
+      }
+    ]
+  },
+  "boundary": "不修改原notes、冻结分卷、正式库、已签批；待root批准精确应用。"
+}

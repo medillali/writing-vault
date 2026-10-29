@@ -1,0 +1,67 @@
+{
+  "asset_id": "scn-9f2d99ba1d0c581281e11d4629fcc05a",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "有限视角/证据冲突",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/frost",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/qingluo",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/rolin",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/angela"
+    ],
+    "choice": "主当众指认/霜动摇仍守",
+    "claim_kind": "inference",
+    "consequence": "未站稳边，罗林能继续统军吸魂",
+    "failure_mode": "不擅断青萝主动同谋或所有侦报全可信",
+    "goal": "让守城者警惕叛徒",
+    "narrative_order": 585,
+    "obstacle": "旧关系与相反侦报",
+    "state_change": "报信未成功但人物不是毫无行动",
+    "summary": "霜派青萝十骑，青萝随罗林回报蛮袭；安哭，李再指真凶，霜只说不知信谁。",
+    "why_it_works": "以渠道而非作者藏事实造知识差"
+  },
+  "created_at": "2026-10-25T20:23:25.133876+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0581",
+      "claim_kind": "fact",
+      "end_line": 46728,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 46651
+    },
+    {
+      "chapter_id": "ch-0584",
+      "claim_kind": "fact",
+      "end_line": 46955,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 46892
+    },
+    {
+      "chapter_id": "ch-0585",
+      "claim_kind": "fact",
+      "end_line": 47027,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 46956
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/scene/falsereport",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "旧信誉与污染侦查使真报难被信",
+  "updated_at": "2026-10-25T20:23:25.133876+00:00",
+  "user_notes": ""
+}

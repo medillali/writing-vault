@@ -1,0 +1,62 @@
+{
+  "asset_id": "scn-858d420674365b09b05bcb4425e3ff7b",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "需要清晰目标、约束与行动回执的长篇冒险或组织叙事。",
+    "character_origin_keys": [
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/luchen",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/mona"
+    ],
+    "choice": "救人后亲自刷100分交物资。",
+    "consequence": "莫娜进入营地/制造线，服务仍需资格。",
+    "failure_mode": "不写救人后全部免费权限自动满。",
+    "goal": "取得长期补给。",
+    "obstacle": "缺阵营分和可靠服务。",
+    "state_change": "救援转为互惠基础设施。",
+    "summary": "莫娜进入营地/制造线，服务仍需资格。",
+    "why_it_works": "被救者能在后段补主角知识短板。"
+  },
+  "created_at": "2026-10-25T00:01:47.292135+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1089",
+      "claim_kind": "fact",
+      "end_line": 88313,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 88236
+    },
+    {
+      "chapter_id": "ch-1148",
+      "claim_kind": "fact",
+      "end_line": 92758,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 92688
+    },
+    {
+      "chapter_id": "ch-1151",
+      "claim_kind": "fact",
+      "end_line": 93007,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 92920
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/scene/mona",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:6",
+    "研究:全量九维"
+  ],
+  "title": "救出莫娜并建立营地支点",
+  "updated_at": "2026-10-25T00:01:47.293176+00:00",
+  "user_notes": ""
+}

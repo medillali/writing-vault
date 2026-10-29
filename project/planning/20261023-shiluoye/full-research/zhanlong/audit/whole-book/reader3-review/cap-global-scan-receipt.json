@@ -1,0 +1,426 @@
+{
+  "purpose": "仅检索定位后人工复核，不算新增全文阅读；不修改两池/历史判断",
+  "inputs": [
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch001.json",
+      "sha256": "a071f8220d9d33618ecbce7729143ede8f16e0074d923ca2f5dd8df002989280"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch002.json",
+      "sha256": "0f1d08270a8b3a1c468700565fdb526b1bc61469a84248b9b95bdb883c48cd2b"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch003.json",
+      "sha256": "9f0b40f616808e2a1dc0ab5762241df027c8aec1c9ed25fd8d89472fdbcf9210"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch004.json",
+      "sha256": "2591160b77d9a2b53c7f3cf10f8d3315483f1d5d18f92ad7ef7137c1cf67353c"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch005.json",
+      "sha256": "43944c3da2226691bc156771bf520dae3a49a3eb919dccfac11c7b723136f383"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch006.json",
+      "sha256": "1ab3b0c70deb9c12945094374826ac4869764d941ddcb4406d66580b863ae4fb"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch007.json",
+      "sha256": "935d57ee1446d6b241233939a74423ceecf97e6b0e6c704cfc526eca9475a00a"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch008.json",
+      "sha256": "18ab7b7220b0b1b4ad3770aad8673cfb0e4ed43de4ec92d3e8a16f3e8e7f2dc5"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch009.json",
+      "sha256": "2d6c28c6efc992a46be714e5849b0818ff6169b0c44982a53beacb538aa686ac"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch010.json",
+      "sha256": "89959d1e283e664cfdebaffee1083b9f42b836cc8921a1af914c335b6c188766"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch011.json",
+      "sha256": "0f6ded1889ae8ec77871305c4701c67b15f8794a64efd9f69f42037f80079a8b"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch012.json",
+      "sha256": "8737cb42b6c5c8e04f7e12e45fd1777e5042271ca4f5ae0455f78be8fe34dec6"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch013.json",
+      "sha256": "d8f0dfe60644dc35b1bb54e11d0d6c1002224ff61558367c76586fa0a6c978b1"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch014.json",
+      "sha256": "7f0b5ab0b21f07c0a82cfbdff9b9ac3b9191c463bfa3e27c66ba0481ddef1b07"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch015.json",
+      "sha256": "754342f4191b8dfc17c97ae64dde49c41588ef2ca3a5d8dd63f2804ef0a20f73"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch016.json",
+      "sha256": "73704c15d8d0e6f5b79829ce8d14a280e238ccdf8ec737b9e02314f0880c0bb5"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch017.json",
+      "sha256": "9b05b12d3065207357c2a8a67a6720cefff4f265cb48b17bfca55066ca3c7c6f"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch018.json",
+      "sha256": "af22c7d480cb97903fec02bc1cd3956d560987f1a8347c2e686921b82c854330"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\adjudications-local-v04-batch019.json",
+      "sha256": "3a3e88b302171e80a63c4409a3cfb1503d581dc965e346c01ee4098855bdb342"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\Novel\\.planning\\20261023-shiluoye\\full-research\\zhanlong\\audit\\whole-book\\historical-question-pool.json",
+      "sha256": "6cda358722f7b37f12d072b2904e60141bffda3ea19f13b8055c676412913221"
+    }
+  ],
+  "own_twenty_mentions": [
+    {
+      "file": "adjudications-local-v04-batch002.json",
+      "candidate_id": "v04-local-source_anomalies-0016-01",
+      "rationale": "837十四部20多万人提出先半迁，845主实际率15万余迁居/2万募兵；后动作已有结果，不能当未迁。20多万非精确20万且半迁是原方案，未给到场各部清点与改约过程，不能断十五万算术上必错或编五万失踪/新部加入来配数。"
+    },
+    {
+      "file": "adjudications-local-v04-batch002.json",
+      "candidate_id": "v04-local-source_anomalies-0016-02",
+      "rationale": "把837先半迁作为条件方案、845十五万余作为实际到场报告，原20多万不擅收窄20万整再硬减一半。没有其余人的死亡/逃亡信息，既不制造五万人口损失也不替文本写新增部族补缺；已迁与未逐计的总数分开即可。"
+    },
+    {
+      "file": "adjudications-local-v04-batch006.json",
+      "candidate_id": "v04-local-chapter_unresolved_index-0022-01",
+      "rationale": "778一万五主阵被切/战雷死，779剩数百后转南、五盟再歼平原援七万余；780抵来的是后来二百万临海精锐不只原估二十万。784神话青牛先援/后全军包抄胜，原后援预估由实际更大敌量更新，不虚构二十万单独精确验收。"
+    },
+    {
+      "file": "adjudications-local-v04-batch010.json",
+      "candidate_id": "v04-local-chapter_unresolved_index-0076-02",
+      "rationale": "845冒险者已清兽/主真率15万余首批迁火晶、木屋屯田部分已建且教耕铸木渔，傍晚实募二万盾矛；922维护后御林十万现数可闭扩军目标。837先半后全的整部落后半是否全数迁完没有总名册，15万与原20万余一半口径差亦未统一，不凭十万兵数推出所有居民已搬。"
+    },
+    {
+      "file": "adjudications-local-v04-batch010.json",
+      "candidate_id": "v04-local-chapter_unresolved_index-0078-01",
+      "rationale": "838主杀龙皇/转玩家清兽，839两万斩龙真来刷；845韩报兽全清由冒险者、部族愿先半迁，主率15万余真迁并已有屋田/名册/二万青壮入军。除兽、首迁、正式募兵均答；整个后半全迁及原20万余半迁为何15万余仍未明确，不把首批回收写全族已全到。"
+    },
+    {
+      "file": "adjudications-local-v04-batch014.json",
+      "candidate_id": "v04-local-chapter_unresolved_index-0140-02",
+      "rationale": "901太古雪狼骑实际大群来战、主估一小时杀五万，902—905俄炮围凡书/三百余炮伏真实发生，900并非只剩传闻。敌总数二十万缺终盘逐队计数；903确报LEE到八荒与安吉拉守、919安获八荒王权，不能替早一轮具体杀敌/霜驻地战果补数。"
+    },
+    {
+      "file": "adjudications-local-v04-batch016.json",
+      "candidate_id": "v04-local-chapter_unresolved_index-0161-01",
+      "rationale": "922主从41模选择蝴蝶/软硬复合锻造已开始并真实转十万RMB，兄妹免工费、决当场入盟；林真选走二十名千夫长，非二十万夫。926灵亲送实体蝴蝶主试剑，931灵已会内批造地狱火，入盟虽无单独系统按钮但持续会内身份/劳动足证，不能永远预期。"
+    },
+    {
+      "file": "adjudications-local-v04-batch016.json",
+      "candidate_id": "v04-local-chapter_unresolved_index-0170-01",
+      "rationale": "933系统斩龙真升六级/首奖励、风云榜第二，关闭93099.7%未来；931韩持牌申请军团二十万上限，918个人统兵上限不等申请已批。930所择三万佣俘训练未给同批毕业清单，989安带三万学院新兵是另一来源不能代。958其他新招训练与1374御林十四万实出可证军后增长，不能强配成这三万全训成。"
+    },
+    {
+      "file": "adjudications-local-v04-batch017.json",
+      "candidate_id": "v04-local-chapter_unresolved_index-0171-01",
+      "rationale": "932主空侦亲见牧心/冬马交冰灵晶、主上试骑继万一千旭日成员真换骑，汪俄交易内容已答。936火龙前排近清一色地狱火、962兄妹仍在打造，不能说收购/制式只口头；但日3000/600万G只是产能与包销计划，没有每日报量付款全表。931申请御林二十万建制未见同次批示，918个人统兵上限不偷替。"
+    },
+    {
+      "file": "adjudications-local-v04-batch017.json",
+      "candidate_id": "v04-local-chapter_unresolved_index-0173-01",
+      "rationale": "946主盟五万战后剩两万余、956全会在线十万/注册二十万，实际扩编人数已有后证但不等战力成熟；955活动真结主7235MVP/玫第二方第三与各奖实授、中国额外恢复30%。全球击退不等所有异魔君王死，953仅罗鼎真杀、雷后993—995仍攻寒荒并活退。"
+    },
+    {
+      "file": "adjudications-local-v04-batch017.json",
+      "candidate_id": "v04-local-chapter_unresolved_index-0177-01",
+      "rationale": "937洛换防并许雷恢复七万，后940—955仍连续战损与末赏，999—1001雷涉洛反后撤职/狂雷换徐焰四万，未有原七万恢复的同阶段收兵证。御林918个人二十万上限已生效，931另申请军团二十万未见批示；1374十四万实际出战证增长但不自动闭原建制审批二十万。"
+    },
+    {
+      "file": "adjudications-local-v04-batch018.json",
+      "candidate_id": "v04-local-chapter_unresolved_index-0198-01",
+      "rationale": "961返训军实际任百/千夫并教普通兵，989再2000返且韩报过半已圣骑，994—995圣骑盾/刺巨人实战，1194持续输送、1220明确过万有圣骑力，成长非只名号。原万兵剩余每批与930佣俘三万对应毕业、931二十万建制申请仍缺完整同批回执，不能拿持续新训合数冒原一万人全过关。"
+    }
+  ],
+  "history_twenty_mentions": [
+    {
+      "candidate_id": "v04-question-v04-q-structure",
+      "record": {
+        "candidate_id": "v04-question-v04-q-structure",
+        "volume": 4,
+        "entry_type": "analysis.unresolved_volume_end",
+        "original_field": "unresolved_volume_end",
+        "original_path": "writing-vault/library/reports/zhanlong/vol04-analysis.json",
+        "original_index": 5,
+        "original_stage_status": "open",
+        "title": "御林20万建制申请、后备三万与新万夫缺额？",
+        "original_record": {
+          "claim_kind": "inference",
+          "evidence": [
+            {
+              "chapter_id": "ch-0918",
+              "claim_kind": "fact",
+              "end_line": 69029,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 68965
+            },
+            {
+              "chapter_id": "ch-0930",
+              "claim_kind": "fact",
+              "end_line": 69790,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 69720
+            },
+            {
+              "chapter_id": "ch-0931",
+              "claim_kind": "fact",
+              "end_line": 69877,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 69791
+            },
+            {
+              "chapter_id": "ch-0949",
+              "claim_kind": "fact",
+              "end_line": 70985,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 70915
+            }
+          ],
+          "id": "v04-q-structure",
+          "question": "御林20万建制申请、后备三万与新万夫缺额？",
+          "stage_boundary": "918个人cap已变，930三万选训/931申请未见批；949莫文缺位未定。",
+          "status": "open"
+        },
+        "original_evidence": [
+          {
+            "chapter_id": "ch-0918",
+            "claim_kind": "fact",
+            "end_line": 69029,
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "start_line": 68965
+          },
+          {
+            "chapter_id": "ch-0930",
+            "claim_kind": "fact",
+            "end_line": 69790,
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "start_line": 69720
+          },
+          {
+            "chapter_id": "ch-0931",
+            "claim_kind": "fact",
+            "end_line": 69877,
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "start_line": 69791
+          },
+          {
+            "chapter_id": "ch-0949",
+            "claim_kind": "fact",
+            "end_line": 70985,
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "start_line": 70915
+          }
+        ],
+        "terminal_assessment": {
+          "status": "unknown",
+          "review_progress": "pending-manual-adjudication",
+          "rationale": "只机械保留原问题；终点尚未逐项人工判断，unknown不表示作者未回收。",
+          "later_evidence": [],
+          "depends_on_volumes": []
+        }
+      }
+    },
+    {
+      "candidate_id": "v04-thread-t-army",
+      "record": {
+        "candidate_id": "v04-thread-t-army",
+        "volume": 4,
+        "entry_type": "graph.threads",
+        "original_field": "threads",
+        "original_path": "writing-vault/library/reports/zhanlong/vol04-graph.json",
+        "original_index": 0,
+        "original_stage_status": "partial",
+        "title": "御林制度与实数增长",
+        "original_record": {
+          "edge_ids": [
+            "e-office",
+            "e-vacancy",
+            "e-firsttrial",
+            "e-royaloffer",
+            "e-woundpull",
+            "e-rightsrecruit",
+            "e-royalapproval"
+          ],
+          "evidence": [
+            {
+              "chapter_id": "ch-0763",
+              "claim_kind": "fact",
+              "end_line": 59536,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 59465
+            },
+            {
+              "chapter_id": "ch-0767",
+              "claim_kind": "fact",
+              "end_line": 59775,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 59721
+            },
+            {
+              "chapter_id": "ch-0772",
+              "claim_kind": "fact",
+              "end_line": 60118,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 60042
+            },
+            {
+              "chapter_id": "ch-0809",
+              "claim_kind": "fact",
+              "end_line": 62431,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 62383
+            },
+            {
+              "chapter_id": "ch-0835",
+              "claim_kind": "fact",
+              "end_line": 63970,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 63907
+            },
+            {
+              "chapter_id": "ch-0845",
+              "claim_kind": "fact",
+              "end_line": 64643,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 64586
+            },
+            {
+              "chapter_id": "ch-0918",
+              "claim_kind": "fact",
+              "end_line": 69029,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 68965
+            },
+            {
+              "chapter_id": "ch-0931",
+              "claim_kind": "fact",
+              "end_line": 69877,
+              "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+              "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+              "start_line": 69791
+            }
+          ],
+          "id": "t-army",
+          "kind": "main",
+          "node_ids": [
+            "s-appointment",
+            "s-discipline",
+            "s-recruit",
+            "s-dragontomb",
+            "s-oath",
+            "s-firesave",
+            "s-merger",
+            "s-prison",
+            "s-tribes",
+            "s-enthrone",
+            "s-newcity"
+          ],
+          "stage_note": "5000起整军/五万并军/十万上限已分时；918cap20万不等931御林20万申请批。",
+          "status": "partial",
+          "title": "御林制度与实数增长"
+        },
+        "original_evidence": [
+          {
+            "chapter_id": "ch-0763",
+            "claim_kind": "fact",
+            "end_line": 59536,
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "start_line": 59465
+          },
+          {
+            "chapter_id": "ch-0767",
+            "claim_kind": "fact",
+            "end_line": 59775,
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "start_line": 59721
+          },
+          {
+            "chapter_id": "ch-0772",
+            "claim_kind": "fact",
+            "end_line": 60118,
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "start_line": 60042
+          },
+          {
+            "chapter_id": "ch-0809",
+            "claim_kind": "fact",
+            "end_line": 62431,
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "start_line": 62383
+          },
+          {
+            "chapter_id": "ch-0835",
+            "claim_kind": "fact",
+            "end_line": 63970,
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "start_line": 63907
+          },
+          {
+            "chapter_id": "ch-0845",
+            "claim_kind": "fact",
+            "end_line": 64643,
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "start_line": 64586
+          },
+          {
+            "chapter_id": "ch-0918",
+            "claim_kind": "fact",
+            "end_line": 69029,
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "start_line": 68965
+          },
+          {
+            "chapter_id": "ch-0931",
+            "claim_kind": "fact",
+            "end_line": 69877,
+            "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+            "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+            "start_line": 69791
+          }
+        ],
+        "terminal_assessment": {
+          "status": "unknown",
+          "review_progress": "pending-manual-adjudication",
+          "rationale": "只机械保留原问题；终点尚未逐项人工判断，unknown不表示作者未回收。",
+          "later_evidence": [],
+          "depends_on_volumes": []
+        }
+      }
+    }
+  ],
+  "manual_conclusion": "当前需改的终点批示错漏仅016/017/018四项，已单独proposal并root批准；其余提及个人上限/实际军数/首批训练/别会人数不改。历史只定位供root核，不修改历史评语。"
+}

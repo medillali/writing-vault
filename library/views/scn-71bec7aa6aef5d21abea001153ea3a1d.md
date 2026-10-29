@@ -1,0 +1,94 @@
+# 从仇恨失败到多环控制
+
+ID: `scn-71bec7aa6aef5d21abea001153ea3a1d` · 版本: 1 · 范围: source-analysis
+
+方法进步不等永久解题
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-71bec7aa6aef5d21abea001153ea3a1d",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "连续任务有不同可用工具与执行成本",
+    "choice": "安装仇恨反馈、分陷阱致盲卡位，再堵门减精力",
+    "consequence": "初层渐稳而高骑冲开门、火龙到期重新陷险",
+    "core_original_chapter": 545,
+    "failure_mode": "把发现bug当无限通关捷径",
+    "goal": "稳定杀十二骑",
+    "obstacle": "首次OT多人复活，疲劳/角色分心破稳态",
+    "state_change": "方法进步不等永久解题",
+    "summary": "方法进步不等永久解题",
+    "why_it_works": "失败具体化为分工，弱队员因适配参与"
+  },
+  "created_at": "2026-10-24T20:20:05.160169+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0541",
+      "claim_kind": "fact",
+      "end_line": 56737,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 56603
+    },
+    {
+      "chapter_id": "ch-0546",
+      "claim_kind": "fact",
+      "end_line": 57300,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 57160
+    },
+    {
+      "chapter_id": "ch-0547",
+      "claim_kind": "fact",
+      "end_line": 57415,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 57301
+    },
+    {
+      "chapter_id": "ch-0548",
+      "claim_kind": "fact",
+      "end_line": 57543,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 57416
+    },
+    {
+      "chapter_id": "ch-0551",
+      "claim_kind": "fact",
+      "end_line": 57881,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 57777
+    },
+    {
+      "chapter_id": "ch-0552",
+      "claim_kind": "fact",
+      "end_line": 58000,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 57882
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol06/scene/avalon-method",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷六:月神殿祭",
+    "待审阅"
+  ],
+  "title": "从仇恨失败到多环控制",
+  "updated_at": "2026-10-24T20:20:05.160169+00:00",
+  "user_notes": ""
+}
+
+```

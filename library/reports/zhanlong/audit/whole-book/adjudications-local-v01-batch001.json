@@ -1,0 +1,1649 @@
+[
+  {
+    "candidate_id": "v01-local-source_anomalies-0001-01",
+    "original_question": "原索引ch0030为印28章开头，ch0031误识别正文片，实际同章合一。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "原索引ch0030为印28章开头，ch0031误识别正文片，实际同章合一。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0030",
+          "claim_kind": "fact",
+          "end_line": 2448,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 2441
+        },
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 2520,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 2449
+        }
+      ],
+      "handling": "两个segments全部亲读，正文仅计一个，卷题另不计正文。",
+      "id": "v01-a-ch28-split",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 0,
+      "atomic_index": 0
+    },
+    "status": "answered",
+    "audit_domain": "segmentation",
+    "rationale": "这不是故事未回收：ch0030为印28章开头，ch0031接续同章正文，既有reading-units已按两个segments合一个正文单元。不能把误识别片当额外章节或漏读。",
+    "later_chapters": [
+      30,
+      31
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0030",
+        "start_line": 2441,
+        "end_line": 2448,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0031",
+        "start_line": 2449,
+        "end_line": 2520,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0001-02",
+    "original_question": "两个segments全部亲读，正文仅计一个，卷题另不计正文。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "原索引ch0030为印28章开头，ch0031误识别正文片，实际同章合一。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0030",
+          "claim_kind": "fact",
+          "end_line": 2448,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 2441
+        },
+        {
+          "chapter_id": "ch-0031",
+          "claim_kind": "fact",
+          "end_line": 2520,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 2449
+        }
+      ],
+      "handling": "两个segments全部亲读，正文仅计一个，卷题另不计正文。",
+      "id": "v01-a-ch28-split",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 0,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "原处理已成立：两片均有真实阅读行，合计一个正文，卷题不计正文。终点不需再等待剧情事件解决此计数约定。",
+    "later_chapters": [
+      30,
+      31
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0030",
+        "start_line": 2441,
+        "end_line": 2448,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0031",
+        "start_line": 2449,
+        "end_line": 2520,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0002-01",
+    "original_question": "早期魅奖励合计与21界面5/22后7等不全齐。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "早期魅奖励合计与21界面5/22后7等不全齐。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0018",
+          "claim_kind": "fact",
+          "end_line": 1486,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 1399
+        },
+        {
+          "chapter_id": "ch-0021",
+          "claim_kind": "fact",
+          "end_line": 1698,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 1611
+        },
+        {
+          "chapter_id": "ch-0022",
+          "claim_kind": "fact",
+          "end_line": 1785,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 1699
+        }
+      ],
+      "handling": "保界面及奖各次记录，不重算补遗漏行为。",
+      "id": "v01-a-charisma-early",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 1,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "18等奖励与21面板魅5/22后7的旧累计不能完全相合。检索最终六卷正式研究的魅力/数值相关材料，后续新面板未对这次早期差额解释；后期魅增加不能倒补当时漏项，未知的是早账为何少而非角色是否继续成长。",
+    "later_chapters": [
+      18,
+      21,
+      22,
+      143
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0018",
+        "start_line": 1399,
+        "end_line": 1486,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0021",
+        "start_line": 1611,
+        "end_line": 1698,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0022",
+        "start_line": 1699,
+        "end_line": 1785,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0143",
+        "start_line": 12510,
+        "end_line": 12613,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0002-02",
+    "original_question": "保界面及奖各次记录，不重算补遗漏行为。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "早期魅奖励合计与21界面5/22后7等不全齐。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0018",
+          "claim_kind": "fact",
+          "end_line": 1486,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 1399
+        },
+        {
+          "chapter_id": "ch-0021",
+          "claim_kind": "fact",
+          "end_line": 1698,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 1611
+        },
+        {
+          "chapter_id": "ch-0022",
+          "claim_kind": "fact",
+          "end_line": 1785,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 1699
+        }
+      ],
+      "handling": "保界面及奖各次记录，不重算补遗漏行为。",
+      "id": "v01-a-charisma-early",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 1,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "应保每次奖与当章界面两层，不能用143明确34等后值改掉21/22旧界面。该条是对源差的处理约束，不是待角色完成的许诺。",
+    "later_chapters": [
+      18,
+      21,
+      22,
+      143
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0018",
+        "start_line": 1399,
+        "end_line": 1486,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0021",
+        "start_line": 1611,
+        "end_line": 1698,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0022",
+        "start_line": 1699,
+        "end_line": 1785,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0143",
+        "start_line": 12510,
+        "end_line": 12613,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0003-01",
+    "original_question": "54食人妖称寒霜，与常见流霜近名但未足另立同一能力者。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "54食人妖称寒霜，与常见流霜近名但未足另立同一能力者。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0054",
+          "claim_kind": "fact",
+          "end_line": 4577,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 4479
+        },
+        {
+          "chapter_id": "ch-0082",
+          "claim_kind": "fact",
+          "end_line": 7086,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 6998
+        }
+      ],
+      "handling": "原名保存，人物卡仍流霜证实身份不静默改源。",
+      "id": "v01-a-skill-name",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 2,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "54食人妖口中的寒霜仅一次近称，82等师承人物明确流霜。检索六卷正式近名资料没有另一寒霜实体或当面解释这次错称；可以保近误写疑点，不能硬造第二位同能力导师。",
+    "later_chapters": [
+      54,
+      82,
+      810
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0054",
+        "start_line": 4479,
+        "end_line": 4577,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0082",
+        "start_line": 6998,
+        "end_line": 7086,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0810",
+        "start_line": 62432,
+        "end_line": 62499,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0003-02",
+    "original_question": "原名保存，人物卡仍流霜证实身份不静默改源。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "54食人妖称寒霜，与常见流霜近名但未足另立同一能力者。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0054",
+          "claim_kind": "fact",
+          "end_line": 4577,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 4479
+        },
+        {
+          "chapter_id": "ch-0082",
+          "claim_kind": "fact",
+          "end_line": 7086,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 6998
+        }
+      ],
+      "handling": "原名保存，人物卡仍流霜证实身份不静默改源。",
+      "id": "v01-a-skill-name",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 2,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "identity-boundary",
+    "rationale": "后续810亲授六转的导师继续是流霜，足以保持人物主线身份；54原称寒霜仍留来源文字。此处理不声称已获得作者对那一次称名的勘误。",
+    "later_chapters": [
+      54,
+      82,
+      810
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0054",
+        "start_line": 4479,
+        "end_line": 4577,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0082",
+        "start_line": 6998,
+        "end_line": 7086,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0810",
+        "start_line": 62432,
+        "end_line": 62499,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0004-01",
+    "original_question": "巽风早.2秒/108叙2秒前摇，而124又.2。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "巽风早.2秒/108叙2秒前摇，而124又.2。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0055",
+          "claim_kind": "fact",
+          "end_line": 4679,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 4578
+        },
+        {
+          "chapter_id": "ch-0056",
+          "claim_kind": "fact",
+          "end_line": 4755,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 4680
+        },
+        {
+          "chapter_id": "ch-0108",
+          "claim_kind": "fact",
+          "end_line": 9439,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 9356
+        },
+        {
+          "chapter_id": "ch-0124",
+          "claim_kind": "fact",
+          "end_line": 10868,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 10774
+        }
+      ],
+      "handling": "按各场文本，不自行称升级速度变化。",
+      "id": "v01-a-skill-wind",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 3,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "55/56与124的0.2秒和108两秒同指巽风前摇，未见这一区间有明确升级/修版解释。检索最终六卷巽风材料仍回指这一差；后来技能级提高不能证明108这次就应变慢。",
+    "later_chapters": [
+      55,
+      56,
+      108,
+      124
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0055",
+        "start_line": 4578,
+        "end_line": 4679,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0056",
+        "start_line": 4680,
+        "end_line": 4755,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0108",
+        "start_line": 9356,
+        "end_line": 9439,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0124",
+        "start_line": 10774,
+        "end_line": 10868,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0004-02",
+    "original_question": "按各场文本，不自行称升级速度变化。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "巽风早.2秒/108叙2秒前摇，而124又.2。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0055",
+          "claim_kind": "fact",
+          "end_line": 4679,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 4578
+        },
+        {
+          "chapter_id": "ch-0056",
+          "claim_kind": "fact",
+          "end_line": 4755,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 4680
+        },
+        {
+          "chapter_id": "ch-0108",
+          "claim_kind": "fact",
+          "end_line": 9439,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 9356
+        },
+        {
+          "chapter_id": "ch-0124",
+          "claim_kind": "fact",
+          "end_line": 10868,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 10774
+        }
+      ],
+      "handling": "按各场文本，不自行称升级速度变化。",
+      "id": "v01-a-skill-wind",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 3,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "按各场原叙保存是正确边界：108借树跃杀杨柳岸有实结果，2秒和0.2秒差不妨碍记录该动作，却不足以据此编造前摇随等级变化的规则。",
+    "later_chapters": [
+      55,
+      108,
+      124
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0055",
+        "start_line": 4578,
+        "end_line": 4679,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0108",
+        "start_line": 9356,
+        "end_line": 9439,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0124",
+        "start_line": 10774,
+        "end_line": 10868,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0005-01",
+    "original_question": "104规则等级差10好友例外，但已加友三友看主仍问号。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "104规则等级差10好友例外，但已加友三友看主仍问号。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0103",
+          "claim_kind": "fact",
+          "end_line": 9020,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 8939
+        },
+        {
+          "chapter_id": "ch-0104",
+          "claim_kind": "fact",
+          "end_line": 9108,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 9021
+        }
+      ],
+      "handling": "保规则与场景差，不编未加友。",
+      "id": "v01-a-friend-visibility",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 4,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "103宋已加好友/三友上线，104却在明确“好友例外”的等级差规则下见问号。未见后文回溯解释当时谁未加或隐藏资料；以后玩家能互见不说明这一次例外为何失效。",
+    "later_chapters": [
+      103,
+      104
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0103",
+        "start_line": 8939,
+        "end_line": 9020,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0104",
+        "start_line": 9021,
+        "end_line": 9108,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0005-02",
+    "original_question": "保规则与场景差，不编未加友。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "104规则等级差10好友例外，但已加友三友看主仍问号。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0103",
+          "claim_kind": "fact",
+          "end_line": 9020,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 8939
+        },
+        {
+          "chapter_id": "ch-0104",
+          "claim_kind": "fact",
+          "end_line": 9108,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 9021
+        }
+      ],
+      "handling": "保规则与场景差，不编未加友。",
+      "id": "v01-a-friend-visibility",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 4,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "不能补“其实未加好友”：103有宋好友联络证，104是实际问号场。保这两个层次即可，真实后续105三友22/各有徽不替早异常作说明。",
+    "later_chapters": [
+      103,
+      104,
+      105
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0103",
+        "start_line": 8939,
+        "end_line": 9020,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0104",
+        "start_line": 9021,
+        "end_line": 9108,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0105",
+        "start_line": 9109,
+        "end_line": 9190,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0006-01",
+    "original_question": "旧师跟练与退役年数有五年/107自称四年等口径。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "旧师跟练与退役年数有五年/107自称四年等口径。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0103",
+          "claim_kind": "fact",
+          "end_line": 9020,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 8939
+        },
+        {
+          "chapter_id": "ch-0107",
+          "claim_kind": "fact",
+          "end_line": 9355,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 9267
+        },
+        {
+          "chapter_id": "ch-0132",
+          "claim_kind": "fact",
+          "end_line": 11583,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 11503
+        },
+        {
+          "chapter_id": "ch-0169",
+          "claim_kind": "fact",
+          "end_line": 15062,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 14975
+        }
+      ],
+      "handling": "不硬凑公历或给不存在履历。",
+      "id": "v01-a-retire-years",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 5,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "原五年/107退役四年和后774十四岁学三年等履历口径未被统一解释。854师徒重逢证师活归，不提供足以精确重排所有旧年数的公历链；不能用重逢自动说原差已纠。",
+    "later_chapters": [
+      103,
+      107,
+      132,
+      169,
+      774,
+      854
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0103",
+        "start_line": 8939,
+        "end_line": 9020,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0107",
+        "start_line": 9267,
+        "end_line": 9355,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0132",
+        "start_line": 11503,
+        "end_line": 11583,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0169",
+        "start_line": 14975,
+        "end_line": 15062,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0774",
+        "start_line": 60181,
+        "end_line": 60264,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0854",
+        "start_line": 65171,
+        "end_line": 65253,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0006-02",
+    "original_question": "不硬凑公历或给不存在履历。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "旧师跟练与退役年数有五年/107自称四年等口径。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0103",
+          "claim_kind": "fact",
+          "end_line": 9020,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 8939
+        },
+        {
+          "chapter_id": "ch-0107",
+          "claim_kind": "fact",
+          "end_line": 9355,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 9267
+        },
+        {
+          "chapter_id": "ch-0132",
+          "claim_kind": "fact",
+          "end_line": 11583,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 11503
+        },
+        {
+          "chapter_id": "ch-0169",
+          "claim_kind": "fact",
+          "end_line": 15062,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 14975
+        }
+      ],
+      "handling": "不硬凑公历或给不存在履历。",
+      "id": "v01-a-retire-years",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 5,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "不硬拼履历的处理保留：774分说幼时父母失踪/十四随师三年，853—854林成活归为旧师。这些具体关系可以确定，但不同退役年数仍不可被研究者自行补齐。",
+    "later_chapters": [
+      107,
+      169,
+      774,
+      853,
+      854
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0107",
+        "start_line": 9267,
+        "end_line": 9355,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0169",
+        "start_line": 14975,
+        "end_line": 15062,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0774",
+        "start_line": 60181,
+        "end_line": 60264,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0853",
+        "start_line": 65094,
+        "end_line": 65170,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0854",
+        "start_line": 65171,
+        "end_line": 65253,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0007-01",
+    "original_question": "138黑暗火焰之吻黄金面板，139叙投出称白银。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "138黑暗火焰之吻黄金面板，139叙投出称白银。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0138",
+          "claim_kind": "fact",
+          "end_line": 12115,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12018
+        },
+        {
+          "chapter_id": "ch-0139",
+          "claim_kind": "fact",
+          "end_line": 12218,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12116
+        }
+      ],
+      "handling": "按原面板黄金与实穿事实，保白银异写。",
+      "id": "v01-a-gun-tier",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 6,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "138面板为40级黄金黑暗火焰之吻，139同物给狐时称白银；没有交易、改造或降阶动作。六卷正式火焰之吻检索没有修正这次品阶的后证，故保文字冲突，不当故事承诺遗忘。",
+    "later_chapters": [
+      138,
+      139
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0138",
+        "start_line": 12018,
+        "end_line": 12115,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0139",
+        "start_line": 12116,
+        "end_line": 12218,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0007-02",
+    "original_question": "按原面板黄金与实穿事实，保白银异写。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "138黑暗火焰之吻黄金面板，139叙投出称白银。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0138",
+          "claim_kind": "fact",
+          "end_line": 12115,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12018
+        },
+        {
+          "chapter_id": "ch-0139",
+          "claim_kind": "fact",
+          "end_line": 12218,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12116
+        }
+      ],
+      "handling": "按原面板黄金与实穿事实，保白银异写。",
+      "id": "v01-a-gun-tier",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 6,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "item-boundary",
+    "rationale": "139狐狸实际换枪/攻1287可以闭“是否给与穿”的问题；面板黄金和次章白银错称仍两存。穿用结果无须因品阶文字不齐被一并撤销。",
+    "later_chapters": [
+      138,
+      139
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0138",
+        "start_line": 12018,
+        "end_line": 12115,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0139",
+        "start_line": 12116,
+        "end_line": 12218,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0008-01",
+    "original_question": "142冉闵退场文字拖火焰之吻，与其斧/狐枪归属冲突。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "142冉闵退场文字拖火焰之吻，与其斧/狐枪归属冲突。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0139",
+          "claim_kind": "fact",
+          "end_line": 12218,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12116
+        },
+        {
+          "chapter_id": "ch-0142",
+          "claim_kind": "fact",
+          "end_line": 12509,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12392
+        }
+      ],
+      "handling": "不据此移枪给冉，物主用139实穿狐。",
+      "id": "v01-a-laok-gun",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 7,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "139枪已狐实穿，142冉闵却被写拖火焰之吻，周围动作是狂战斧与迅火。没有交枪或转职业桥；终点不能断为真实转物，也不能静改原句，未知是该处持物措辞。",
+    "later_chapters": [
+      139,
+      142
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0139",
+        "start_line": 12116,
+        "end_line": 12218,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0142",
+        "start_line": 12392,
+        "end_line": 12509,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0008-02",
+    "original_question": "不据此移枪给冉，物主用139实穿狐。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "142冉闵退场文字拖火焰之吻，与其斧/狐枪归属冲突。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0139",
+          "claim_kind": "fact",
+          "end_line": 12218,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12116
+        },
+        {
+          "chapter_id": "ch-0142",
+          "claim_kind": "fact",
+          "end_line": 12509,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12392
+        }
+      ],
+      "handling": "不据此移枪给冉，物主用139实穿狐。",
+      "id": "v01-a-laok-gun",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 7,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "item-boundary",
+    "rationale": "物主继续按明确交装139狐狸，142的退场一句不足以把枪从狐移给冉。后143的分装仍分别照顾狂战与枪手，未展示新的枪转让。",
+    "later_chapters": [
+      139,
+      142,
+      143
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0139",
+        "start_line": 12116,
+        "end_line": 12218,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0142",
+        "start_line": 12392,
+        "end_line": 12509,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0143",
+        "start_line": 12510,
+        "end_line": 12613,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0009-01",
+    "original_question": "143两魂1000G/每人200与五人含自己和其前持金527等缺明细。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "143两魂1000G/每人200与五人含自己和其前持金527等缺明细。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0136",
+          "claim_kind": "fact",
+          "end_line": 11929,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 11839
+        },
+        {
+          "chapter_id": "ch-0143",
+          "claim_kind": "fact",
+          "end_line": 12613,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12510
+        }
+      ],
+      "handling": "承认买石/实强成功失败，不造新转金镜头或精算资金清账。",
+      "id": "v01-a-seal-payment",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 8,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "136主527G到143花1000G按每人200买两魂，五人含自身/四友收款及期间补金缺明细。143实买并强到+2可证，后带学146收入不可能自动作此前一笔资金桥；无法精算旧余额和净付款，不判东西没买。",
+    "later_chapters": [
+      136,
+      143,
+      146
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0136",
+        "start_line": 11839,
+        "end_line": 11929,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0143",
+        "start_line": 12510,
+        "end_line": 12613,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0146",
+        "start_line": 12773,
+        "end_line": 12871,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0009-02",
+    "original_question": "承认买石/实强成功失败，不造新转金镜头或精算资金清账。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "143两魂1000G/每人200与五人含自己和其前持金527等缺明细。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0136",
+          "claim_kind": "fact",
+          "end_line": 11929,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 11839
+        },
+        {
+          "chapter_id": "ch-0143",
+          "claim_kind": "fact",
+          "end_line": 12613,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12510
+        }
+      ],
+      "handling": "承认买石/实强成功失败，不造新转金镜头或精算资金清账。",
+      "id": "v01-a-seal-payment",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 8,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "evidence-boundary",
+    "rationale": "143有两次强化结果：85%成功再60%失败仍+2，足证物品与操作已成。付款口径疑不应抹这段实动作，也不应凭后续收入虚造当时额外转金镜头。",
+    "later_chapters": [
+      143,
+      146
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0143",
+        "start_line": 12510,
+        "end_line": 12613,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0146",
+        "start_line": 12773,
+        "end_line": 12871,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0010-01",
+    "original_question": "144攻击反弹面板需40而宣传10级可学。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "144攻击反弹面板需40而宣传10级可学。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0143",
+          "claim_kind": "fact",
+          "end_line": 12613,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12510
+        },
+        {
+          "chapter_id": "ch-0144",
+          "claim_kind": "fact",
+          "end_line": 12703,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12614
+        }
+      ],
+      "handling": "两层保，实际已学者本段都40以上不证10可学。",
+      "id": "v01-a-reflect-level",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 9,
+      "atomic_index": 0
+    },
+    "status": "unknown",
+    "audit_domain": "source-anomaly",
+    "rationale": "144同章面板40而宣传10级可学，现场学习者均已40以上，未提供低级成功样本。后982明确版本删除反弹并补万G，解释最终不再用，但删除不回溯裁定144最低等级哪句为真。",
+    "later_chapters": [
+      143,
+      144,
+      146,
+      982
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0143",
+        "start_line": 12510,
+        "end_line": 12613,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0144",
+        "start_line": 12614,
+        "end_line": 12703,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0146",
+        "start_line": 12773,
+        "end_line": 12871,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0982",
+        "start_line": 72933,
+        "end_line": 72989,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  },
+  {
+    "candidate_id": "v01-local-source_anomalies-0010-02",
+    "original_question": "两层保，实际已学者本段都40以上不证10可学。",
+    "original_record": {
+      "audit_domain": "source-anomaly",
+      "claim_kind": "inference",
+      "description": "144攻击反弹面板需40而宣传10级可学。",
+      "evidence": [
+        {
+          "chapter_id": "ch-0143",
+          "claim_kind": "fact",
+          "end_line": 12613,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12510
+        },
+        {
+          "chapter_id": "ch-0144",
+          "claim_kind": "fact",
+          "end_line": 12703,
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "start_line": 12614
+        }
+      ],
+      "handling": "两层保，实际已学者本段都40以上不证10可学。",
+      "id": "v01-a-reflect-level",
+      "status": "unknown"
+    },
+    "original_location": {
+      "volume": 1,
+      "original_path": "writing-vault/library/reports/zhanlong/vol01-analysis.json",
+      "original_field": "source_anomalies",
+      "original_index": 9,
+      "atomic_index": 1
+    },
+    "status": "answered",
+    "audit_domain": "rule-boundary",
+    "rationale": "本条处理应限定：143主、144冉囡以及146带学能证明其实际学习，不能证明10级可学。982又明确被删/补偿，因此既保早期两口径，也不把终点技能消失另造遗忘悬题。",
+    "later_chapters": [
+      143,
+      144,
+      146,
+      982
+    ],
+    "later_evidence": [
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0143",
+        "start_line": 12510,
+        "end_line": 12613,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0144",
+        "start_line": 12614,
+        "end_line": 12703,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0146",
+        "start_line": 12773,
+        "end_line": 12871,
+        "claim_kind": "fact"
+      },
+      {
+        "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+        "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+        "chapter_id": "ch-0982",
+        "start_line": 72933,
+        "end_line": 72989,
+        "claim_kind": "fact"
+      }
+    ],
+    "actual_reviewer": "/root/zongheng_vol03_full",
+    "source_attribution": {
+      "early_source": "本代理卷1前150片亲读/primary尾100片实际全文且本代理完整派生读笔记；卷4本人全部亲读。",
+      "later_source": "完整读冻结候选1—20各原记录/题与证据；复读本人notes103—108、136—144及派生notes982全部四栏；检索六卷最终正式analysis的巽风、寒霜、火焰之吻、好友例外、退役/学艺、灵魂宝石、反弹、魅力相关字段；774/810/853—854为本人卷4原实读。982为卷5正式派生notes，不冒亲读原文。已读两剑priority纠正但本批不涉及该假物链。",
+      "boundary": "后证查询为最终正式派生研究/原四栏或另记定向原文，不冒个人全书全文阅读。"
+    }
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "asset_id": "pat-534e047fa4f256db95e6545b536685a5",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "长期系列且装备会流转。",
+    "causal_steps": [
+      "获得道具",
+      "登记等级/怒/消耗和物主",
+      "等待或让渡",
+      "首次实用并扣去旧能力"
+    ],
+    "claim_kind": "synthesis",
+    "failure_mode": "新装旧技全留、未来可用写成已用。",
+    "originality_transform": "原创技能树用自己的代价和职能，保状态表方法。",
+    "summary": "物件变化由资格和使用动作而非奖名决定。"
+  },
+  "created_at": "2026-10-25T19:26:00.578660+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-ae1b57bd97bd56d5a19febf36fc72042",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-827de00b856d52eea2ce30255c48b91c",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-89440b580c7e5e1c8abdb3f3b6226403",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-f25a06c27a1b5ef092dba316fd074f06",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0350",
+      "claim_kind": "synthesis",
+      "end_line": 29914,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 29817
+    },
+    {
+      "chapter_id": "ch-0419",
+      "claim_kind": "synthesis",
+      "end_line": 35004,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 34932
+    },
+    {
+      "chapter_id": "ch-0481",
+      "claim_kind": "synthesis",
+      "end_line": 39675,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 39593
+    },
+    {
+      "chapter_id": "ch-0490",
+      "claim_kind": "synthesis",
+      "end_line": 40349,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 40252
+    },
+    {
+      "chapter_id": "ch-0503",
+      "claim_kind": "synthesis",
+      "end_line": 41317,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 41241
+    },
+    {
+      "chapter_id": "ch-0504",
+      "claim_kind": "synthesis",
+      "end_line": 41378,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 41318
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/pattern/status-delivery",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷2",
+    "待审阅"
+  ],
+  "title": "取得、能用与实用分三时点",
+  "updated_at": "2026-10-25T19:26:00.578660+00:00",
+  "user_notes": ""
+}

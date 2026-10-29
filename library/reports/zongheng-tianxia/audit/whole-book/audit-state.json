@@ -1,0 +1,37 @@
+{
+  "status": "frozen-draft-awaiting-primary-whole-book-review",
+  "frozen_at_utc": "2026-10-24T20:48:07.899587+00:00",
+  "frozen_volume08": true,
+  "do_not_rebuild_core": [
+    "analysis.json",
+    "cards.json",
+    "graph.json",
+    "read-log.json",
+    "chapter-notes.jsonl",
+    "reader-state.json"
+  ],
+  "current_counts": {
+    "historical_open_questions_and_threads": 105,
+    "local_unresolved_and_anomaly_items": 404,
+    "character_arcs": 48,
+    "focused_findings": 27,
+    "validated_evidence_references": 3998
+  },
+  "scope": "仅本vol08目录的全书审计草稿；八卷正式输入齐备。未改冻结卷八核心、正式库、Git、其他书。",
+  "completed": [
+    "八卷正式analysis.open_questions与graph.threads全部105条，保留原resolved32条及原卷末状态。",
+    "混合未明/源异常全部404原子项逐条有terminal_assessment；具体未知不等缺卷或作者遗漏。",
+    "48人人物弧含关键长期角色、死亡者、来源/认知差与代价；丁舒升正名、许琳同名借用、林克林丘分人。",
+    "27项重点覆盖末婚/回国/经营、奥丹存死与净化阶段、灵儿同一道最后封、NPC恢复、龙神身份候选等。",
+    "所有定位有claim_kind，章行界校验；冻结卷八六个核心SHA逐个相等。"
+  ],
+  "pending_inputs": [],
+  "depends_on_volumes": [],
+  "remaining_actions": [
+    "主代理整体文学审阅；如有新纠正，只改相关审计条目后重验并另冻。",
+    "用户审阅、审美、收藏与原创设定仍未自动填写。"
+  ],
+  "ownership_note": "本代理亲读卷四178、卷八续101；卷八前20由primary亲读。其余卷采用正式研究/原读者笔记和独立复核，姓名等定点原行不计整章阅读。",
+  "validation": "audit-validation.json",
+  "freeze_manifest": "audit-freeze-manifest.json"
+}

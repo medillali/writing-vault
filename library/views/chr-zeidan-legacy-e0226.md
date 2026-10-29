@@ -1,0 +1,91 @@
+# 贼胆｜风隐与风笛｜E0226
+
+ID: `chr-zeidan-legacy-e0226` · 版本: 1 · 范围: source-analysis
+
+风隐从探路装换PK装，仍受盾战压制；以包饭换二对十名额。；风笛为风神专属巫师，先被萧御击杀，德鲁伊争取复活成为战术核心。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0226",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "高：团队配合",
+    "facts": [
+      "风隐从探路装换PK装，仍受盾战压制；以包饭换二对十名额。",
+      "风笛为风神专属巫师，先被萧御击杀，德鲁伊争取复活成为战术核心。",
+      "三人与风神获三人赛冠军；此前风神风笛默契好，风隐尚需磨合提速。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0226",
+    "maintenance_depth": "中高：成员间独立关系",
+    "name": "风隐与风笛",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0226",
+    "summary": "风隐从探路装换PK装，仍受盾战压制；以包饭换二对十名额。；风笛为风神专属巫师，先被萧御击杀，德鲁伊争取复活成为战术核心。",
+    "user_feedback": null,
+    "worker_part": "part-d"
+  },
+  "created_at": "2026-10-22T17:03:13.397570+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0432",
+      "claim_kind": "fact",
+      "end_line": 26680,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 26603
+    },
+    {
+      "chapter_id": "ch-0435",
+      "claim_kind": "fact",
+      "end_line": 26891,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 26815
+    },
+    {
+      "chapter_id": "ch-0437",
+      "claim_kind": "fact",
+      "end_line": 27045,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 26969
+    },
+    {
+      "chapter_id": "ch-0440",
+      "claim_kind": "fact",
+      "end_line": 27270,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 27190
+    },
+    {
+      "chapter_id": "ch-0454",
+      "claim_kind": "fact",
+      "end_line": 28223,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 28167
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0226",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-d"
+  ],
+  "title": "贼胆｜风隐与风笛｜E0226",
+  "updated_at": "2026-10-22T17:03:13.402629+00:00",
+  "user_notes": ""
+}
+
+```

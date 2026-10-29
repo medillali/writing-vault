@@ -1,0 +1,92 @@
+# 剑锋寒｜卷三阶段
+
+ID: `chr-aecf30e56d9e5d68b92eef756c442e5f` · 版本: 1 · 范围: source-analysis
+
+锋芒领地赢家，国赛止第四无全球席；现实激怒投茶几危方被主碎桌救。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-aecf30e56d9e5d68b92eef756c442e5f",
+  "asset_type": "character",
+  "content": {
+    "claim_kind": "inference",
+    "decision_pattern": "竞技之外也会失控后道歉",
+    "goal": "组织胜利与排名",
+    "limitations": "不是现实被捕或故意杀人已定",
+    "relationship_direction": "姐简为其筹划；与主时敌时合",
+    "stage_change": "633第二城归锋后证；671/672三四名败",
+    "summary": "锋芒领地赢家，国赛止第四无全球席；现实激怒投茶几危方被主碎桌救。",
+    "valid_at": "raw0505—0753卷末，非全书终点"
+  },
+  "created_at": "2026-10-25T20:23:24.961608+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0617",
+      "claim_kind": "fact",
+      "end_line": 49466,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 49384
+    },
+    {
+      "chapter_id": "ch-0633",
+      "claim_kind": "fact",
+      "end_line": 50523,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 50444
+    },
+    {
+      "chapter_id": "ch-0671",
+      "claim_kind": "fact",
+      "end_line": 53356,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 53281
+    },
+    {
+      "chapter_id": "ch-0672",
+      "claim_kind": "fact",
+      "end_line": 53425,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 53357
+    },
+    {
+      "chapter_id": "ch-0677",
+      "claim_kind": "fact",
+      "end_line": 53826,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 53735
+    },
+    {
+      "chapter_id": "ch-0695",
+      "claim_kind": "fact",
+      "end_line": 55006,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 54962
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/jianfeng",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷3",
+    "待审阅"
+  ],
+  "title": "剑锋寒｜卷三阶段",
+  "updated_at": "2026-10-25T20:23:24.961608+00:00",
+  "user_notes": ""
+}
+
+```

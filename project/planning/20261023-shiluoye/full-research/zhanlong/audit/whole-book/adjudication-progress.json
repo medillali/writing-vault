@@ -1,0 +1,36 @@
+{
+  "status": "merged-exact-primary-reviewed-decisions",
+  "candidates": 2694,
+  "batches": 141,
+  "counts": {
+    "historical": 232,
+    "local": 2462
+  },
+  "statuses": {
+    "historical": {
+      "answered": 78,
+      "partial": 117,
+      "unknown": 32,
+      "unrecovered": 5
+    },
+    "local": {
+      "answered": 1415,
+      "unknown": 320,
+      "partial": 710,
+      "unrecovered": 17
+    }
+  },
+  "original_records_unchanged": true,
+  "exact_evidence_objects_preserved": true,
+  "semantic_reading_created": false,
+  "whole_book_accepted": false,
+  "pool_before_sha256": {
+    "historical": "6cda358722f7b37f12d072b2904e60141bffda3ea19f13b8055c676412913221",
+    "local": "0b9325ae0665c2e455aa1093f98e5f8883f780c3a305984e98cbf8b9ded7ec45"
+  },
+  "pool_after_sha256": {
+    "historical": "9bf5a603e2c05a921babcd40f343a7366d48f3eb68c30a71b54d83c505f309dd",
+    "local": "0e54250c187f1d914ea48df565074e3767075446eaf40e902ff53522910736fb"
+  },
+  "primary_progress_sha256": "448e808f40d3b754f4f2cb2e60859cb5b1b2662bf374586ec2df211d3ca8b100"
+}

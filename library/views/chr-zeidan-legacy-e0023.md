@@ -1,0 +1,90 @@
+# 贼胆｜刺刀与狂刀｜E0023
+
+ID: `chr-zeidan-legacy-e0023` · 版本: 1 · 范围: source-analysis
+
+魔域援军处置巨蛛冲突；狂刀从应七人却多一名盗贼识破萧御冒充。；刺刀以更短路线而非追满完成度攻击，让萧御看到速度与伤害选择的新可能。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0023",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "高：战斗范式与公会冲突",
+    "facts": [
+      "魔域援军处置巨蛛冲突；狂刀从应七人却多一名盗贼识破萧御冒充。",
+      "刺刀以更短路线而非追满完成度攻击，让萧御看到速度与伤害选择的新可能。"
+    ],
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0023",
+    "maintenance_depth": "中：A尚为初见",
+    "name": "刺刀与狂刀",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0023",
+    "summary": "魔域援军处置巨蛛冲突；狂刀从应七人却多一名盗贼识破萧御冒充。；刺刀以更短路线而非追满完成度攻击，让萧御看到速度与伤害选择的新可能。",
+    "user_feedback": null,
+    "worker_part": "part-a"
+  },
+  "created_at": "2026-10-22T17:03:11.895851+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0089",
+      "claim_kind": "fact",
+      "end_line": 3929,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 3887
+    },
+    {
+      "chapter_id": "ch-0091",
+      "claim_kind": "fact",
+      "end_line": 4012,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 3968
+    },
+    {
+      "chapter_id": "ch-0092",
+      "claim_kind": "fact",
+      "end_line": 4052,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4013
+    },
+    {
+      "chapter_id": "ch-0093",
+      "claim_kind": "fact",
+      "end_line": 4098,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4053
+    },
+    {
+      "chapter_id": "ch-0095",
+      "claim_kind": "fact",
+      "end_line": 4173,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 4144
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0023",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-a"
+  ],
+  "title": "贼胆｜刺刀与狂刀｜E0023",
+  "updated_at": "2026-10-22T17:03:11.900849+00:00",
+  "user_notes": ""
+}
+
+```

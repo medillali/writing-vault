@@ -1,0 +1,92 @@
+# 三门副本以灭队修正循环
+
+ID: `scn-53e5d97daef55d71af12be50cab8c089` · 版本: 1 · 范围: source-analysis
+
+何五件齐、陆实学斗气并交刃卡琳；有真死。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-53e5d97daef55d71af12be50cab8c089",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "需要清晰目标、约束与行动回执的长篇冒险或组织叙事。",
+    "character_origin_keys": [
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/luchen",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/heyi",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/yixin",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/beiming",
+      "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/mingyue"
+    ],
+    "choice": "诱蛇进北井、坦轮换破盾并反复跑尸。",
+    "consequence": "何五件齐、陆实学斗气并交刃卡琳；有真死。",
+    "failure_mode": "北皮与明法伤非全队治疗套，赌款未收证。",
+    "goal": "拿S3和守护刃。",
+    "obstacle": "召蛇/斗气风暴/装备等级差。",
+    "state_change": "训练/套装与NPC承诺同时推进。",
+    "summary": "何五件齐、陆实学斗气并交刃卡琳；有真死。",
+    "why_it_works": "完整写失败样本再压缩重复，避免无损升级。"
+  },
+  "created_at": "2026-10-25T00:01:47.341744+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1157",
+      "claim_kind": "fact",
+      "end_line": 93499,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 93419
+    },
+    {
+      "chapter_id": "ch-1158",
+      "claim_kind": "fact",
+      "end_line": 93570,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 93500
+    },
+    {
+      "chapter_id": "ch-1159",
+      "claim_kind": "fact",
+      "end_line": 93649,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 93571
+    },
+    {
+      "chapter_id": "ch-1160",
+      "claim_kind": "fact",
+      "end_line": 93730,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 93650
+    },
+    {
+      "chapter_id": "ch-1161",
+      "claim_kind": "fact",
+      "end_line": 93801,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 93731
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/scene/s3-learning",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:6",
+    "研究:全量九维"
+  ],
+  "title": "三门副本以灭队修正循环",
+  "updated_at": "2026-10-25T00:01:47.341744+00:00",
+  "user_notes": ""
+}
+
+```

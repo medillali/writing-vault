@@ -1,0 +1,41 @@
+{
+  "status": "draft-frozen-for-primary-review",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "volume": 2,
+  "complete_book": false,
+  "core_sha256": {
+    "analysis.json": "d891e90151cc5161caf33fd05bf369fe48e693f54a43ea5a0286d9490e80a484",
+    "cards.json": "45bed13c4dc6d74beb1608eaffd1f43f41689c691eb607bc200549f22a7b91a0",
+    "graph.json": "88837ca024767286ce1747dc3a61c0f3af9f07fb03d7a63713d3af155fb0d949",
+    "read-log.json": "539a4bb1dd144cfca61a38f6fdb8463a921b0b39df8f0f4486138451205a0b1e",
+    "chapter-notes.jsonl": "c4e9e53af972f49532daa8f59af934afdd9330ff376a1ac6bc67fe3bc343e9b1",
+    "reader-state.json": "869f51593c1e574dea01d2da5b89d2af5561b9f5d7e253d31756522a411bf76f"
+  },
+  "support_sha256": {
+    "report.md": "3d268a62ea34a5a52632beb3690eda5bb4f8f245599add4ec78111d2c062eec0",
+    "handoff.md": "c111c5df7a678f16e1e8d8356fea1a83431678ac6975bf6f841b0ac72c50b2a8",
+    "validation.json": "1088c0b2c67bb7d13b84f5696b74e736a9f5269720322c7623f9a08b952eec26",
+    "reading-attribution.json": "1e2f0dd0fcde113b783da73f79f9d5da2f643be49ae89ed749fd021c45d75798",
+    "merge-receipt.json": "8169692cefc2e582930206a26a8c2d67f141e112a04329671f61b6b8e82ce37d",
+    "tail-derived-reading-receipt.json": "ce5c85cc6cb1b167d5ab496ebee513e368729e095de8cfb82b8ffd32d6b72036",
+    "prefix-handoff.md": "028865e97374735b214709680c8f01050d9f3b01719889ade47551bc82379ac6",
+    "prefix-validation.json": "57f232d28da5aa2e3e1732ce218e3219c91e0c751e547efb99d5f5407ef7bb77",
+    "prefix-chapter-notes.jsonl": "e9e4ca5c4aba895092916abe5c6f5e2a69d15c285392af81d7e51e47e8bec199",
+    "prefix-reader-state.json": "9d272e9fe28d8df7e7f87329b59038729b0b82cf70e988d4a2645c09ea01a502",
+    "prefix-read-log.json": "97a7ca0b161604d653edcf1dfb1b3eb4d1cf5081683ef0df32c544de88ab29a7",
+    "primary-corrections.json": "5be64062b3901629cf4fecb1a5678b473c8019454b2f04c1139ebd7b08130eed",
+    "priority-corrections-delta.json": "5be64062b3901629cf4fecb1a5678b473c8019454b2f04c1139ebd7b08130eed",
+    "priority-corrections.md": "bd3272127ec141585d1135563c081db957c28046da06ea93515fedb1eb3a1139",
+    "review-corrections/raw0314-two-swords-delta.json": "313cfd1f94d97b86f95f5d302c261e43479a4bc7f339da5e21fc62456f91d983",
+    "review-corrections/raw0314-two-swords-before/freeze-manifest.json": "ddd2dfb4254cc7569318d37c515577c4cb6a2dcd4b80af664ef8dea46c701f64",
+    "review-corrections/raw0314-two-swords-before/snapshot.json": "c259e5e7d6eb9a9b2e122a6a7f3a8a5f14f8ba8f33048e0311177aea7713b8ab"
+  },
+  "external_input_sha256": {
+    "../primary-vol02-tail/chapter-notes.jsonl": "e7d2513c6b45f1e225e48ff4ff543d5d85a85f2147e83e55dfe73cfe05797878",
+    "../primary-vol02-tail/read-log.json": "aa7602c999585ef76a811810d679a912866fc1674ba1768620accf86afd96028",
+    "../primary-vol02-tail/reader-state.json": "2b970ebf4fb44d1fd04c50d8d2742787b0903da7749790d241c8ab558c8dfd79",
+    "../primary-vol02-tail/HANDOFF.md": "998a1dd3e27c78d3225e87116865d55d0eecce1428560c61c7abce33105f4ea9"
+  },
+  "notes": "主审修订须保具体delta并重验；冻结不等正式入库或用户认可。"
+}

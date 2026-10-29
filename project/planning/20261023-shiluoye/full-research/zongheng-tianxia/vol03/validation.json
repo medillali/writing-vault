@@ -1,0 +1,38 @@
+{
+  "status": "passed_local_structure_and_provenance",
+  "source_id": "src-2a13958390274509b2af019f6b12d981",
+  "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+  "volume": 3,
+  "read_count": 144,
+  "first": "ch-0102",
+  "last": "ch-0245",
+  "first_line": 6701,
+  "last_line": 21913,
+  "dimension_observations": 36,
+  "card_counts": {
+    "character": 18,
+    "scene": 23,
+    "pattern": 8
+  },
+  "node_count": 31,
+  "edge_count": 19,
+  "thread_count": 12,
+  "evidence_object_count": 1174,
+  "claim_kinds": {
+    "inference": 540,
+    "synthesis": 522,
+    "fact": 112
+  },
+  "checks": [
+    "coverage exact continuous source chapters",
+    "chapter bounds and revision",
+    "all evidence claim_kind",
+    "tree parent and cycle",
+    "edges endpoints and allowed kinds",
+    "threads status/resolution evidence",
+    "card keys and derived links",
+    "node character and knowledge refs"
+  ],
+  "limits": "纯本目录JSON与source索引检查，不初始化Vault、不占库锁；不等文学解释获认可。",
+  "review_status": "draft"
+}

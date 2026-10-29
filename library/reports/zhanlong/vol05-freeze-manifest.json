@@ -1,0 +1,53 @@
+{
+  "status": "draft-frozen-for-primary-final-recheck",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "volume": 5,
+  "complete_book": false,
+  "core_sha256": {
+    "analysis.json": "48c8e30f459c51d1f44fe8f4923c7daff997a6f10ddf047cf5dfd4edc01d3fb8",
+    "cards.json": "115ed7de9625f036d0f49a68cde2150a2d517e9450d9df124ff3df3f5f7604db",
+    "graph.json": "83343ba91080f9c9e4b638138d4686df78e09791644d9246e7daf2465f2df2ab",
+    "chapter-notes.jsonl": "908e7c4f01fe342fe61cd4d8e7494da0266e830c02fe73acffef9fc76bb871b9",
+    "read-log.json": "e16491213242360310074560e0c5d250c27d86819a026c4042e71c99053842be",
+    "reader-state.json": "542bb43bd2ea2882d35a73d52e255144bd33ba87531b2f29dc1d502b994d25a0"
+  },
+  "support_sha256": {
+    "report.md": "855a69518244a136d0e4e0db797f8dfa3ae171d50ecbdd56849be6c35ca045bc",
+    "handoff.md": "7d0870447666f7dfa924b0c02e6e07dc22b26523e7323499cb17ee17daf31e24",
+    "validation.json": "6cee141433ade143ad5443106f6bd6995950521e7fa9c83497ce6f665f483310",
+    "self-review-receipt.json": "c67e223edd7f37130850991388c7cfa069fe93e0dbab9e083538825ec6a7bb1d",
+    "research-checkpoint.json": "8c5bdb8f7b21a002a99cd132b7a8016c1a98ad618e0ed8373a203368bf91cf58",
+    "primary-review-proposal.json": "aad046aaea881c6801ed6c290d6a7b464eb90bdd7ad6abcb499ade105e6570fb",
+    "primary-review-impact-scan.json": "13fdbb98d88e470a8998d29ebdeb5aad5fd7b1a2ec8315f52325ea7fe0759473",
+    "review-corrections/primary-before/snapshot.json": "432ec58c0b8944d1c9a9a51ab7fc0e64008ccf21ce84f2dee94006fe5787030a",
+    "primary-review-supplement-delta.json": "4cc1b74086f2558e6b7731503464ae27f807244e5ea2fc1cd11918c3843f5697",
+    "review-corrections/primary-proposal-before-supplement.json": "be135ca11b1d6cc4de1c301d2d632f9e3aed8b076a2dc42ebdb0290ef3dc82c2",
+    "review-corrections/manifest-before-proposal-supplement.json": "7fc0e252bc973ceebce17c27817c52c34944f9f9c5e197837d325071ca1cb2d9",
+    "primary-review-merged-delta.json": "3c98d2b8b91a6f002374b602c263c77bfd85ae09d91510e75421b20632931b14",
+    "review-corrections/primary-before/freeze-manifest.json": "016499112751bf1a46c1eca90caabd7e9224840222de94186071e598bb14c8cf",
+    "review-corrections/assembly-source-before/research_characters.py": "90879dc8c64048ff0490d6af69b02f37898b7cc86139ca0ff65612322cba9807",
+    "review-corrections/assembly-source-before/research_refinement.py": "f39a4e1271e24d96003bd40870c04f99be37c229ac614212dbe3d45f30a4fd43",
+    "review-corrections/assembly-source-before/research_graph.py": "b6d745e3629b1de8a3430eb944c5d05952ff52f959dee1e5fa35082ac9b27e70",
+    "review-corrections/assembly-source-before/research_supplements.py": "780c1832957634a9b81f7e775c1d7da2a253cfc5faba7798cde0952f96a902ea",
+    "review-corrections/after-approved-before-assembly-manifest.json": "7eaed4fe311b0947caed05a9ba62377146e56489443d716b0d5b7b9adccff40b",
+    "review-corrections/assembly-source-before/research_dimensions.py": "7b69c8d6ff95011ed919eaf8230297d93c605104c44110572b113820fdaea23f",
+    "review-corrections/assembly-source-before/research_scenes.py": "bcb4e50822b71a9c9d19c1448578a021d014bb815752e8fd2a06ee9e74f46b83",
+    "review-corrections/assembly-source-before/manifest.json": "9bc0f03e4851c5e8f3b1c6a3fd0b02c4ba32d1224ed964673a89e1d0d2f6519d",
+    "review-corrections/assembly-source-before/research_patterns.py": "2bb998eb79ad703fae0d5cdc49898d292d172e02bef94aa855725898337e230b",
+    "assemble_approved_review.py": "5a14ce2ffe81da7c109aa0d1327dcf295a0d46b5746554597c31ce85717ee2b4",
+    "assembly-replay-validation.json": "b1ac0f195c961b6bddc5aa35b3cc0759eb20380e62564255c2ed94fe690939d7",
+    "review-corrections/assembly-source-before/build_research.py": "1113020f710c121c813a0f8cc1e126fd74139735809d7a7af32cd81c529916bb"
+  },
+  "external_input_sha256": {
+    "../source.json": "d7f33406cf8791e9cb0339f3dfb589b29a03eb52141fa44dbf8a8c3258a420cd",
+    "collection/reading-units.json": "1449dac8ed3e3d21b220d4968ba02740056d2b6fe07b10e33f902af9b50a63a0"
+  },
+  "notes": "primary已批准10对象+report单段后受控合入；其余逐值不变，原notes/state/log和逐章索引不变。结构校验与获准重放passed，仍待primary最后复核/正式入库。",
+  "assembly": {
+    "entrypoint": "assemble_approved_review.py",
+    "method": "重放主审前六核心+明确批准proposal；不运行旧手写生成器",
+    "proposal_sha256": "aad046aaea881c6801ed6c290d6a7b464eb90bdd7ad6abcb499ade105e6570fb",
+    "replay_validation": "assembly-replay-validation.json"
+  }
+}

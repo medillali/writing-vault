@@ -1,0 +1,71 @@
+# 白墨颜实际醒来与雷尚未出场
+
+ID: `scn-6ee7a9bd0b595ba890955ac5fa5cf4d2` · 版本: 1 · 范围: source-analysis
+
+沈游戏记忆人物实际复现/现实仍死；雷无同镜头完成凭证。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-6ee7a9bd0b595ba890955ac5fa5cf4d2",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "此前已建立技术限制、家属授权和现实死亡持续后，可用一次具体的熟悉言行复现给有限慰藉，同时让联系人丢失等差异保留身份断裂。",
+    "arc": "ending",
+    "choice": "公司电话两人计划三日，尾只演少女线上醒与白墨颜会消息",
+    "consequence": "沈游戏记忆人物实际复现/现实仍死；雷无同镜头完成凭证。",
+    "failure_mode": "不能由公司电话说两人都会启动就补写阿雷也实际醒来，也不能用白墨颜熟悉口气宣真实沈冰在现实复活；未演对象与哲学同一性仍须留白。",
+    "goal": "回应死者记忆重建承诺",
+    "narrative_order": 1386,
+    "obstacle": "真实死与技术限界/好友清空",
+    "stage_status": "partial",
+    "state_change": "沈游戏记忆人物实际复现/现实仍死；雷无同镜头完成凭证。",
+    "summary": "沈游戏记忆人物实际复现/现实仍死；雷无同镜头完成凭证。",
+    "why_it_works": "以熟悉口气和少一条联系人列表承载回归与断裂，回报有限且可核。"
+  },
+  "created_at": "2026-10-25T21:09:00.902647+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1352",
+      "claim_kind": "fact",
+      "end_line": 97343,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 97275
+    },
+    {
+      "chapter_id": "ch-1359",
+      "claim_kind": "fact",
+      "end_line": 97823,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 97756
+    },
+    {
+      "chapter_id": "ch-1386",
+      "claim_kind": "fact",
+      "end_line": 99818,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 99656
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/scene/memory-awake",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷:6"
+  ],
+  "title": "白墨颜实际醒来与雷尚未出场",
+  "updated_at": "2026-10-25T21:09:00.902647+00:00",
+  "user_notes": ""
+}
+
+```

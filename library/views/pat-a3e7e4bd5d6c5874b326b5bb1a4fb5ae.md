@@ -1,0 +1,98 @@
+# 危险位置也是解法位置
+
+ID: `pat-a3e7e4bd5d6c5874b326b5bb1a4fb5ae` · 版本: 1 · 范围: reusable-pattern
+
+把人物推到难以主动抵达的位置；已有能力只提供短时生存；从该位置观察新弱点或阻挡关键线路；选择承担后果完成不同胜利条件
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "pat-a3e7e4bd5d6c5874b326b5bb1a4fb5ae",
+  "asset_type": "pattern",
+  "content": {
+    "applicability": "适合空间清楚、能力有时限的高压场景",
+    "causal_steps": [
+      "把人物推到难以主动抵达的位置",
+      "已有能力只提供短时生存",
+      "从该位置观察新弱点或阻挡关键线路",
+      "选择承担后果完成不同胜利条件"
+    ],
+    "claim_kind": "synthesis",
+    "failure_mode": "无限无敌或新能力突然救场会消解选择",
+    "not_user_style_rule": true,
+    "originality_transform": "换空间与胜利条件，比如证人席/封闭舱/公开演讲，不复制龙口、护罩、暴击",
+    "summary": "把人物推到难以主动抵达的位置；已有能力只提供短时生存；从该位置观察新弱点或阻挡关键线路；选择承担后果完成不同胜利条件"
+  },
+  "created_at": "2026-10-24T19:14:36.323732+00:00",
+  "derived_from": [
+    {
+      "asset_id": "scn-e6162ba453ed59b7bcdb8a3ebbb50df4",
+      "revision": 1
+    },
+    {
+      "asset_id": "scn-d1471cea76115dc585e55cfcb1e301a3",
+      "revision": 1
+    }
+  ],
+  "evidence": [
+    {
+      "chapter_id": "ch-0518",
+      "claim_kind": "synthesis",
+      "end_line": 53931,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 53792
+    },
+    {
+      "chapter_id": "ch-0519",
+      "claim_kind": "synthesis",
+      "end_line": 54064,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 53932
+    },
+    {
+      "chapter_id": "ch-0520",
+      "claim_kind": "synthesis",
+      "end_line": 54167,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 54065
+    },
+    {
+      "chapter_id": "ch-0525",
+      "claim_kind": "synthesis",
+      "end_line": 54709,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 54589
+    },
+    {
+      "chapter_id": "ch-0526",
+      "claim_kind": "synthesis",
+      "end_line": 54841,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 54710
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol05/pattern/counter-position",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "reusable-pattern",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷:5",
+    "研究推断",
+    "待审阅"
+  ],
+  "title": "危险位置也是解法位置",
+  "updated_at": "2026-10-24T19:14:36.324810+00:00",
+  "user_notes": ""
+}
+
+```

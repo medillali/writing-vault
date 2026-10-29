@@ -1,0 +1,85 @@
+# 贼胆｜哈蒙斯｜E0012
+
+ID: `chr-zeidan-legacy-e0012` · 版本: 1 · 范围: source-analysis
+
+古墓亡灵巫师，讲述父亲阻敌战死、母亲在沙漠以血哺婴后托付地精而死，成年复仇返乡。；带金甲骷髅军，收信并赠少年所用逃脱匕首，准备未来事件。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "chr-zeidan-legacy-e0012",
+  "asset_type": "character",
+  "content": {
+    "causal_importance": "高：逃脱技能来源及世界历史",
+    "facts": [
+      "古墓亡灵巫师，讲述父亲阻敌战死、母亲在沙漠以血哺婴后托付地精而死，成年复仇返乡。",
+      "带金甲骷髅军，收信并赠少年所用逃脱匕首，准备未来事件。"
+    ],
+    "identity_note": "主线程报告C390以逃脱匕首及古墓旧识识别克文图斯。A只见哈蒙斯；跨段同指有证据，名称差异仍需显式保留，不捏造改名解释。",
+    "inferences": [],
+    "legacy_record_ref": "library/reports/zeidan/legacy/entities.json#E0012",
+    "maintenance_depth": "高：父母经历与族群欲望",
+    "name": "哈蒙斯",
+    "provenance_note": "迁入旧库首轮研究，保留分段记录和事实/推断边界；本次不是重新全文阅读。",
+    "record_id": "E0012",
+    "relations": [
+      {
+        "target": "母亲",
+        "type": "血哺与托付"
+      },
+      {
+        "target": "父亲",
+        "type": "阻敌牺牲"
+      }
+    ],
+    "summary": "古墓亡灵巫师，讲述父亲阻敌战死、母亲在沙漠以血哺婴后托付地精而死，成年复仇返乡。；带金甲骷髅军，收信并赠少年所用逃脱匕首，准备未来事件。",
+    "user_feedback": null,
+    "worker_part": "part-a"
+  },
+  "created_at": "2026-10-22T17:03:11.792675+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0041",
+      "claim_kind": "fact",
+      "end_line": 1747,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 1711
+    },
+    {
+      "chapter_id": "ch-0048",
+      "claim_kind": "fact",
+      "end_line": 2066,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 2019
+    },
+    {
+      "chapter_id": "ch-0049",
+      "claim_kind": "fact",
+      "end_line": 2092,
+      "revision": "8b79b88c23229459bf60fbf1c726ed540e8755996e45e4fdadc9b183a3d7ca3f",
+      "source_id": "src-2d8a13f33737429da512e5cc9e839712",
+      "start_line": 2077
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2d8a13f33737429da512e5cc9e839712/legacy/E0012",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:发飙的蜗牛",
+    "作品:贼胆",
+    "既有研究迁入",
+    "part-a"
+  ],
+  "title": "贼胆｜哈蒙斯｜E0012",
+  "updated_at": "2026-10-22T17:03:11.795185+00:00",
+  "user_notes": ""
+}
+
+```

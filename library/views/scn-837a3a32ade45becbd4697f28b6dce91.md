@@ -1,0 +1,53 @@
+# 优势围杀却未结算
+
+ID: `scn-837a3a32ade45becbd4697f28b6dce91` · 版本: 1 · 范围: source-analysis
+
+主雪终杀暗影蝶，灵儿斩龙，分队搜隐，围七星；卷末仍开放，需后卷系统证据
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-837a3a32ade45becbd4697f28b6dce91",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "有限清场条件适合悬念收束",
+    "choice": "主雪终杀暗影蝶，灵儿斩龙，分队搜隐，围七星",
+    "consequence": "场内血2450，末剑气未报中死",
+    "failure_mode": "跨卷倒灌结算或误读最后动作",
+    "goal": "清敌赢挑战",
+    "obstacle": "暗影蝶/地龙强点、藏匿刺客、七星无敌",
+    "state_change": "卷末仍开放，需后卷系统证据",
+    "summary": "主雪终杀暗影蝶，灵儿斩龙，分队搜隐，围七星；卷末仍开放，需后卷系统证据",
+    "why_it_works": "把胜利条件具体到最后一人，优势不等完成"
+  },
+  "created_at": "2026-10-24T19:14:30.189522+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0423",
+      "claim_kind": "fact",
+      "end_line": 42512,
+      "revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+      "source_id": "src-2a13958390274509b2af019f6b12d981",
+      "start_line": 42399
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-2a13958390274509b2af019f6b12d981/full-20261025/vol04/scene/volend",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之纵横天下",
+    "卷:四",
+    "状态:待审阅"
+  ],
+  "title": "优势围杀却未结算",
+  "updated_at": "2026-10-24T19:14:30.189522+00:00",
+  "user_notes": ""
+}
+
+```

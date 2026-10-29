@@ -1,0 +1,922 @@
+{
+  "status": "input-pinned-not-reading-complete",
+  "actual_reviewer": "/root/zongheng_vol04_full",
+  "formal_input_sha256": {
+    "writing-vault/library/reports/zhanlong/vol01-cards.json": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+    "writing-vault/library/reports/zhanlong/vol01-analysis.json": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+    "writing-vault/library/reports/zhanlong/vol01-handoff.md": "d7d0ba462756640ae5cea1a449c8323630afaf4bda1ad377e2e82d22d2a2bf75",
+    "writing-vault/library/reports/zhanlong/vol02-cards.json": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+    "writing-vault/library/reports/zhanlong/vol02-analysis.json": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+    "writing-vault/library/reports/zhanlong/vol02-handoff.md": "83252ea006170d1d6f1c21fe8f5ae3708ca4481304458c7f23dfb6a0a05d8960",
+    "writing-vault/library/reports/zhanlong/vol03-cards.json": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+    "writing-vault/library/reports/zhanlong/vol03-analysis.json": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+    "writing-vault/library/reports/zhanlong/vol03-handoff.md": "ac83c6ce60443f122241171ee2297ad9d33542cf128ce203d12c1f332b56dec1",
+    "writing-vault/library/reports/zhanlong/vol04-cards.json": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+    "writing-vault/library/reports/zhanlong/vol04-analysis.json": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+    "writing-vault/library/reports/zhanlong/vol04-handoff.md": "438f63229dcbacd05ff8a00862da1a7394ac0f4e4e685aa6be8a88588a66b745",
+    "writing-vault/library/reports/zhanlong/vol05-cards.json": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+    "writing-vault/library/reports/zhanlong/vol05-analysis.json": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+    "writing-vault/library/reports/zhanlong/vol05-handoff.md": "008ab7e94733b989dbb1ca2fe2d2dc1f948e6b35eb7c69cde468b91e3d4560f2",
+    "writing-vault/library/reports/zhanlong/vol06-cards.json": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+    "writing-vault/library/reports/zhanlong/vol06-analysis.json": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+    "writing-vault/library/reports/zhanlong/vol06-handoff.md": "476c27db8d91a0ac05f068964ea7c55f59558511b3910f505d3c6e9f2ab3c012",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-dongcheng-kinship-proposal.json": "73e37d241aef23f87842e0e8be27fc2c20b52ebef6de4de715b97cbb9065a16f",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-dongcheng-kinship.json": "90760c6c4926e9dc6047fc4c82119d61155dfc47857ae7cc954dc073b03c7e85",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-fox-identity-proposal.json": "f2a24e3398a2d9905295f6ab9d7ce21b1838c4107771791f6b839323528e1180",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-fox-identity.json": "b3773c8687b85a34f8051e925c08974aec274663919c7c2de90d273e236fcb02",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-identity.json": "a39e58be5de82b3ba128651880e03596b66e4d8e98bdc87ea5deccaff3e3a619",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-kings-domain.json": "9525be1c71ea178849e97a9d107ef031b215cf94d113cccd784e54a5d35f2360",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-lion-shield.json": "ae71dd7a224fb36a50ba83bcbed3878e61887a740a987e4b451e99fedbdb2f5f",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-wind-layers.json": "81a4e48bd0bcf05b94e0caef71b287909b10638d1a4e50325fd8c8bf775ebd83",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-yan-recommendation-proposal.json": "514ca22194d8352bf5854928a4a8f81585c04f9be8773ceb0d987ad883d39684",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-yan-recommendation.json": "e2e4799a7fd9ef187af296f6b93c1d0aefcfbf0c01e67deaf8c4fbea5b7b13ea",
+    "writing-vault/library/reports/zhanlong/vol02-primary-corrections.json": "e0f2a45c5a97c7dc09bbf5120d5df8b797170bb94a35babfdc8378c68078d005",
+    "writing-vault/library/reports/zhanlong/vol03-note-corrections.json": "d80b7304209757b39e6dd446f9a443cb7e4dd5723204d97c4211e11012327676",
+    ".planning/20261023-shiluoye/full-research/zhanlong/audit/whole-book/priority-corrections-delta.json": "622d7815796ff0ed6b1f6b79318f9537be538fd23cd2fd94c469c96cc08cc5c6"
+  },
+  "roster_sha256": "bfc2c465497a65b015440788efc0c408490fe0432e1de04cc1f860f5dc04cc8a",
+  "assignment_count": 52,
+  "assignment": [
+    {
+      "name": "剑锋寒",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 14,
+          "title": "剑锋寒｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/jianfeng",
+          "asset_id": "chr-f668bcfca16053e3914878142a4caa7e"
+        },
+        {
+          "volume": 2,
+          "index": 19,
+          "title": "剑锋寒｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/jianfeng",
+          "asset_id": "chr-c0c80b74f5de546d932eb51d0e0cf5ee"
+        },
+        {
+          "volume": 3,
+          "index": 27,
+          "title": "剑锋寒｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/jianfeng",
+          "asset_id": "chr-aecf30e56d9e5d68b92eef756c442e5f"
+        }
+      ]
+    },
+    {
+      "name": "简简单单",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 15,
+          "title": "简简单单｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/simple",
+          "asset_id": "chr-be3c1cf34be05e6988fcffd644c22b55"
+        },
+        {
+          "volume": 2,
+          "index": 43,
+          "title": "简简单单｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/jiandan",
+          "asset_id": "chr-d98c2d1cef8c57d38a096337d5ffb805"
+        },
+        {
+          "volume": 3,
+          "index": 28,
+          "title": "简简单单／慕容韵｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/jian",
+          "asset_id": "chr-8e660e3e16345608b64f4da3989cacb3"
+        }
+      ]
+    },
+    {
+      "name": "堕落苍狼",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 16,
+          "title": "堕落苍狼｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/canglang",
+          "asset_id": "chr-31ed8e7a2c1b504a9c5013067c0f48cf"
+        }
+      ]
+    },
+    {
+      "name": "飞龙在天",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 17,
+          "title": "飞龙在天／徐龙｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/dragon",
+          "asset_id": "chr-f149e0105e3e5accbd15ce21cb153f5e"
+        }
+      ]
+    },
+    {
+      "name": "花枪一壶酒",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 18,
+          "title": "花枪一壶酒／周宁（转述实名）｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/huagun",
+          "asset_id": "chr-2f875e32213858e6a4ce3a8b825582db"
+        },
+        {
+          "volume": 4,
+          "index": 39,
+          "title": "花枪一壶酒／周宁｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/huaqiang",
+          "asset_id": "chr-dec982dd81945626839e8f8afce9a0f6"
+        },
+        {
+          "volume": 5,
+          "index": 18,
+          "title": "周宁／花枪一壶酒｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/flower",
+          "asset_id": "chr-6440535c4dcc55cc928d8fba36c01ab2"
+        }
+      ]
+    },
+    {
+      "name": "寒碑颂",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 21,
+          "title": "寒碑颂｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/hanbei",
+          "asset_id": "chr-459c6835b43b5156ae889d29cee028c9"
+        }
+      ]
+    },
+    {
+      "name": "刘英",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 23,
+          "title": "刘英／西楚霸王｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/liuying",
+          "asset_id": "chr-1f019840e3fe552cb8d75719ffe21bb4"
+        }
+      ]
+    },
+    {
+      "name": "小猪快跑",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 24,
+          "title": "小猪快跑｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xiaozhu",
+          "asset_id": "chr-e3df4992da3e54c09f0ec23be35f677b"
+        }
+      ]
+    },
+    {
+      "name": "徐月",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 25,
+          "title": "徐月／烟锁风月｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xuyue",
+          "asset_id": "chr-041c951e083059808703f0f58344de90"
+        }
+      ]
+    },
+    {
+      "name": "问剑",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 26,
+          "title": "问剑／北辰风（网页渠道名）｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/wenjian",
+          "asset_id": "chr-9ee387f79bd5543c8b154dc99e636027"
+        },
+        {
+          "volume": 2,
+          "index": 20,
+          "title": "问剑｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/wenjian",
+          "asset_id": "chr-2810dd2390645834b168fd720344f79f"
+        },
+        {
+          "volume": 3,
+          "index": 26,
+          "title": "问剑｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/wenjian",
+          "asset_id": "chr-90204824ebbd56f1a7c12585bfe9f5ed"
+        },
+        {
+          "volume": 4,
+          "index": 40,
+          "title": "问剑／北辰风｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/wenjian",
+          "asset_id": "chr-f32ce9284c805ed881e0a1cca97c227e"
+        },
+        {
+          "volume": 5,
+          "index": 20,
+          "title": "北辰风／问剑｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/wen",
+          "asset_id": "chr-dfefc18977a45f2ab8f1f7ed868baef4"
+        },
+        {
+          "volume": 6,
+          "index": 10,
+          "title": "问剑",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/wenjian",
+          "asset_id": "chr-0e0bc5d6e824527d9650bbcacb03a090"
+        }
+      ]
+    },
+    {
+      "name": "与子成说",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 42,
+          "title": "与子成说｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/yuzicheng",
+          "asset_id": "chr-f262fad6c9bf54d188afaf6680b00934"
+        }
+      ]
+    },
+    {
+      "name": "谁家蓝颜",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 1,
+          "index": 43,
+          "title": "谁家蓝颜｜卷一阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/lanyan",
+          "asset_id": "chr-20ed3ab322ee5f35b0b53e069dc05ce4"
+        }
+      ]
+    },
+    {
+      "name": "飘渺云烟",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 2,
+          "index": 18,
+          "title": "飘渺云烟｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/piaomiao",
+          "asset_id": "chr-55841c652a37518ab24b2891aafe52e0"
+        }
+      ]
+    },
+    {
+      "name": "方歌阙",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 2,
+          "index": 21,
+          "title": "方歌阙｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/fang",
+          "asset_id": "chr-7d5ba2dfead55fbab978b667ecb5c18a"
+        },
+        {
+          "volume": 3,
+          "index": 29,
+          "title": "方歌阙｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/fang",
+          "asset_id": "chr-a2f8289be663527fbe22a8b4ad46a9b8"
+        },
+        {
+          "volume": 4,
+          "index": 6,
+          "title": "方歌阙｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/fangge",
+          "asset_id": "chr-1a0f1884659853d4a0ac6df494e95ab7"
+        },
+        {
+          "volume": 5,
+          "index": 19,
+          "title": "方歌阙｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fang",
+          "asset_id": "chr-3be0468d5d5b5c9b82035d2a7cee8bcc"
+        },
+        {
+          "volume": 6,
+          "index": 9,
+          "title": "方歌阙",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/fang-geque",
+          "asset_id": "chr-8516034bbd5757b18779f4ceb448225b"
+        }
+      ]
+    },
+    {
+      "name": "叶来",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 2,
+          "index": 44,
+          "title": "叶来｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yelai",
+          "asset_id": "chr-1bd457aeb72c5c32affe9f4cf2a0c18b"
+        },
+        {
+          "volume": 3,
+          "index": 49,
+          "title": "叶来｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/ye",
+          "asset_id": "chr-e8f11f72e2575fdea362bd576a8a926b"
+        },
+        {
+          "volume": 5,
+          "index": 22,
+          "title": "叶来｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yelai",
+          "asset_id": "chr-64433e629ef35c4dbebbb7c4b74f3698"
+        }
+      ]
+    },
+    {
+      "name": "燕赵无双",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 2,
+          "index": 45,
+          "title": "燕赵无双｜卷二阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol02/character/yanzhao",
+          "asset_id": "chr-f82180419ea9522e8e5442ce7189aed2"
+        },
+        {
+          "volume": 6,
+          "index": 8,
+          "title": "燕赵无双／赵开国",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/yan-zhao",
+          "asset_id": "chr-74dea04ca77f57c6920beb173a1cfe16"
+        }
+      ]
+    },
+    {
+      "name": "上将星痕",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 3,
+          "index": 15,
+          "title": "上将星痕｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/xinghen",
+          "asset_id": "chr-24b853e152895820a2456425f24bee29"
+        }
+      ]
+    },
+    {
+      "name": "唐古",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 3,
+          "index": 18,
+          "title": "唐古／唐门巨子｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/tanggu",
+          "asset_id": "chr-8e01e95f3fa356939295533e9f90bb01"
+        }
+      ]
+    },
+    {
+      "name": "纸上画魅（薛景）",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 3,
+          "index": 30,
+          "title": "纸上画魅｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/zhimei",
+          "asset_id": "chr-7d84474947b154c59b5f8522604b5511"
+        },
+        {
+          "volume": 4,
+          "index": 7,
+          "title": "纸上画魅／薛景｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/huamei",
+          "asset_id": "chr-a882972e25305ffd8e1f4fe79833c1b8"
+        },
+        {
+          "volume": 5,
+          "index": 16,
+          "title": "纸上画魅／小景｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/paper",
+          "asset_id": "chr-e9779d18b42d5db1b08930e514d58e0f"
+        }
+      ]
+    },
+    {
+      "name": "流言（刘彦）",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 3,
+          "index": 47,
+          "title": "流言／刘彦｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/liuguang",
+          "asset_id": "chr-0f6d5ec2d5005c4abca0ee3e52d3d7a2"
+        }
+      ]
+    },
+    {
+      "name": "微笑",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 3,
+          "index": 48,
+          "title": "微笑（外服玩家）｜卷三阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol03/character/micro",
+          "asset_id": "chr-28c7ade695515bf2b7450c5d5da1a974"
+        }
+      ]
+    },
+    {
+      "name": "清眸拓墨",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 4,
+          "index": 41,
+          "title": "美丽清眸｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/qingmou",
+          "asset_id": "chr-623eb778fd0255228d29785a5a75b4f1"
+        },
+        {
+          "volume": 5,
+          "index": 49,
+          "title": "清眸拓墨｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/clear",
+          "asset_id": "chr-9680e89cd0605bc49c46da3a598a5038"
+        },
+        {
+          "volume": 6,
+          "index": 17,
+          "title": "清眸拓墨",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/qingmou",
+          "asset_id": "chr-525b9665dbe95cc693b66270b9c68258"
+        }
+      ]
+    },
+    {
+      "name": "魔山",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 4,
+          "index": 42,
+          "title": "魔山｜卷四阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol04/character/moshan",
+          "asset_id": "chr-92b65a4946dc55f8b646ab6e3ad4af40"
+        },
+        {
+          "volume": 5,
+          "index": 48,
+          "title": "魔山｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/moda",
+          "asset_id": "chr-3d97b71a070553c486b3ca1d3a5db3ea"
+        }
+      ]
+    },
+    {
+      "name": "颜沫（牛奶）",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 17,
+          "title": "颜沫／牛奶／六宫粉黛盟主｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/milk",
+          "asset_id": "chr-18501c1f799c5c11861563c849ae5c30"
+        }
+      ]
+    },
+    {
+      "name": "慕萱",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 23,
+          "title": "慕萱｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/mu",
+          "asset_id": "chr-2fe94fd332605d6c8f51d896626d57bd"
+        }
+      ]
+    },
+    {
+      "name": "枫林醉",
+      "proposed_owner": "reader4_external_players",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 50,
+          "title": "枫林醉｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/maple",
+          "asset_id": "chr-c487e9b1f5d950e2aa2f2947a30edd71"
+        }
+      ]
+    },
+    {
+      "name": "天空玫瑰",
+      "proposed_owner": "reader4_external_players",
+      "stage_cards": []
+    },
+    {
+      "name": "百里若风（玩家，勿并百里伦）",
+      "proposed_owner": "reader4_external_players",
+      "stage_cards": []
+    },
+    {
+      "name": "剑泪",
+      "proposed_owner": "reader4_external_players",
+      "stage_cards": []
+    },
+    {
+      "name": "吕纯阳",
+      "proposed_owner": "reader4_external_players",
+      "stage_cards": []
+    },
+    {
+      "name": "轩辕枫",
+      "proposed_owner": "reader4_external_players",
+      "stage_cards": []
+    },
+    {
+      "name": "长生诀",
+      "proposed_owner": "reader4_external_players",
+      "stage_cards": []
+    },
+    {
+      "name": "火狮榛",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 40,
+          "title": "火狮榛（原文姓名有乱码异文）｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/huoshi",
+          "asset_id": "chr-f7b69f20a3ae5902a3fdcd8b9b0bb95d"
+        }
+      ]
+    },
+    {
+      "name": "刘骏",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 41,
+          "title": "刘骏｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/liujun",
+          "asset_id": "chr-8b3864e815b75d04938e3a11782c62a1"
+        }
+      ]
+    },
+    {
+      "name": "梁印",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 47,
+          "title": "梁印｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/liang",
+          "asset_id": "chr-804af921b3065fecbb6a4500f8b04269"
+        }
+      ]
+    },
+    {
+      "name": "弗雷",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 51,
+          "title": "弗雷｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/fre",
+          "asset_id": "chr-dd7ef1131bb35fac9c60ea1ff8a1e94e"
+        }
+      ]
+    },
+    {
+      "name": "徐焰",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 52,
+          "title": "徐焰｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/xuyan",
+          "asset_id": "chr-36eaf0a80230530c92963612fcccc15f"
+        }
+      ]
+    },
+    {
+      "name": "雷丁",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 53,
+          "title": "雷丁｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/lerding",
+          "asset_id": "chr-1e28e00e24ad55239b1daa9fc256e534"
+        }
+      ]
+    },
+    {
+      "name": "银戈",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 54,
+          "title": "银戈／巨龙之擎｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/yinge",
+          "asset_id": "chr-5b0c38e8739558708022b19f5634b14a"
+        }
+      ]
+    },
+    {
+      "name": "安娜",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 55,
+          "title": "安娜／龙骨之痕／冰龙女王｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/anna",
+          "asset_id": "chr-f41200fd553656a488c9b6e277d728f5"
+        }
+      ]
+    },
+    {
+      "name": "罗布",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 5,
+          "index": 56,
+          "title": "罗布｜卷五阶段",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol05/character/robu",
+          "asset_id": "chr-3204124233b151f88f0d9fa195f229cb"
+        }
+      ]
+    },
+    {
+      "name": "西瓦娜",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 6,
+          "title": "西瓦娜／佩体内邪灵",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xiwanna",
+          "asset_id": "chr-b2b79441acf65598b05e77b6eddb8941"
+        }
+      ]
+    },
+    {
+      "name": "景音",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 13,
+          "title": "景音",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/jing-yin",
+          "asset_id": "chr-77e1d9abc0b6517dac4baf572252faae"
+        }
+      ]
+    },
+    {
+      "name": "祝海",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 16,
+          "title": "祝海／海公",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/zhuhai",
+          "asset_id": "chr-37ed98b3b6495443acf75d89f156c56e"
+        }
+      ]
+    },
+    {
+      "name": "希芙",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 18,
+          "title": "希芙",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/xi-fu",
+          "asset_id": "chr-f7ffe42ff16a552a8691a28e9e0c8602"
+        }
+      ]
+    },
+    {
+      "name": "兰蔻",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 20,
+          "title": "兰蔻",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/lanse",
+          "asset_id": "chr-d0435c4e0f6c5c7e96866574041d1089"
+        }
+      ]
+    },
+    {
+      "name": "伊薇",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 21,
+          "title": "伊薇",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/yiwei",
+          "asset_id": "chr-908d856e3f8c5d22b359db0fad5faf55"
+        }
+      ]
+    },
+    {
+      "name": "奈克",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 22,
+          "title": "奈克",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/naike",
+          "asset_id": "chr-489837236634591b88164468224e329e"
+        }
+      ]
+    },
+    {
+      "name": "罗躁",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 23,
+          "title": "罗躁",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/luo-zao",
+          "asset_id": "chr-27a2135d950d50be994fa74b2142b943"
+        }
+      ]
+    },
+    {
+      "name": "云浅",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 24,
+          "title": "云浅／天境神帝",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/yun-qian",
+          "asset_id": "chr-f5d31d6d8d93598d89399e42f24f9fb9"
+        }
+      ]
+    },
+    {
+      "name": "傲天战皇",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 31,
+          "title": "傲天战皇",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/aotian-emperor",
+          "asset_id": "chr-1294068bf7ff5a9e96c9f6114296cd68"
+        }
+      ]
+    },
+    {
+      "name": "北海神侯",
+      "proposed_owner": "reader3_npc",
+      "status": "not_yet_authored",
+      "audit_id": null,
+      "stage_cards": [
+        {
+          "volume": 6,
+          "index": 32,
+          "title": "北海神侯",
+          "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol06/character/north-sea-lord",
+          "asset_id": "chr-fcb386f6e24b583c888c3ecc430a1904"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-24T20:38:27.818104+00:00",
+  "source_id": "src-2a13958390274509b2af019f6b12d981",
+  "source_revision": "2c541951301de981c755ebf4001bf3ec909d1e7d44314e14fa8af51751849a52",
+  "body_units": 1180,
+  "indexed_segments": 1181,
+  "volumes": [
+    {
+      "volume": 1,
+      "body_units": 49,
+      "indexed_segments": 49,
+      "dimensions": 9,
+      "cards": {
+        "character": 10,
+        "scene": 13,
+        "pattern": 6
+      },
+      "notes": "vol01-reading-notes.md",
+      "readers": {
+        "format": "既有逐章Markdown笔记，未追认统一JSON署名"
+      }
+    },
+    {
+      "volume": 2,
+      "body_units": 51,
+      "indexed_segments": 51,
+      "dimensions": 9,
+      "cards": {
+        "character": 9,
+        "scene": 16,
+        "pattern": 7
+      },
+      "notes": "vol02-reading-notes.md",
+      "readers": {
+        "format": "既有逐章Markdown笔记，未追认统一JSON署名"
+      }
+    },
+    {
+      "volume": 3,
+      "body_units": 144,
+      "indexed_segments": 144,
+      "dimensions": 9,
+      "cards": {
+        "character": 18,
+        "scene": 23,
+        "pattern": 8
+      },
+      "notes": "vol03-chapter-notes.jsonl",
+      "readers": {
+        "not-recorded": 144
+      }
+    },
+    {
+      "volume": 4,
+      "body_units": 178,
+      "indexed_segments": 178,
+      "dimensions": 9,
+      "cards": {
+        "character": 18,
+        "scene": 22,
+        "pattern": 8
+      },
+      "notes": "vol04-chapter-notes.jsonl",
+      "readers": {
+        "not-recorded": 178
+      }
+    },
+    {
+      "volume": 5,
+      "body_units": 108,
+      "indexed_segments": 108,
+      "dimensions": 9,
+      "cards": {
+        "character": 19,
+        "scene": 22,
+        "pattern": 9
+      },
+      "notes": "vol05-chapter-notes.jsonl",
+      "readers": {
+        "not-recorded": 108
+      }
+    },
+    {
+      "volume": 6,
+      "body_units": 244,
+      "indexed_segments": 244,
+      "dimensions": 9,
+      "cards": {
+        "character": 25,
+        "scene": 43,
+        "pattern": 15
+      },
+      "notes": "vol06-chapter-notes.jsonl",
+      "readers": {
+        "primary": 44,
+        "/root/zongheng_vol05_full": 200
+      }
+    },
+    {
+      "volume": 7,
+      "body_units": 285,
+      "indexed_segments": 285,
+      "dimensions": 9,
+      "cards": {
+        "character": 29,
+        "scene": 37,
+        "pattern": 10
+      },
+      "notes": "vol07-chapter-notes.jsonl",
+      "readers": {
+        "zongheng_vol03_full": 175,
+        "primary": 110
+      }
+    },
+    {
+      "volume": 8,
+      "body_units": 121,
+      "indexed_segments": 121,
+      "dimensions": 9,
+      "cards": {
+        "character": 22,
+        "scene": 29,
+        "pattern": 8
+      },
+      "notes": "vol08-chapter-notes.jsonl",
+      "readers": {
+        "not-recorded": 20,
+        "zongheng_vol04_full": 101
+      }
+    }
+  ],
+  "cards": {
+    "character": 150,
+    "scene": 205,
+    "pattern": 71
+  },
+  "source_total_cards": {
+    "character": 153,
+    "scene": 207,
+    "pattern": 72
+  },
+  "retained_cards_outside_volume_packages": [
+    {
+      "asset_id": "chr-055c3deac10149bf8f9a51198570da30",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/opening-test-20261022/scholar",
+      "title": "丁舒升／轻狂书生：困境中的自嘲者与机会追逐者"
+    },
+    {
+      "asset_id": "chr-7e27b7c45aa344dda7988d6d8dc8b4b5",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/opening-test-20261022/tea",
+      "title": "冰茶：将工作机会转成具体任务的团队接口"
+    },
+    {
+      "asset_id": "chr-e0af4a5a9dfd475e8a82ff293968e46a",
+      "asset_type": "character",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/opening-test-20261022/snow",
+      "title": "凌雪：以具体照顾修正初见印象的神秘来客"
+    },
+    {
+      "asset_id": "scn-1a25dfdf47594f239e429c41365d2d39",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/opening-test-20261022/headset",
+      "title": "偶遇物件形成因果链，把现实困境接到游戏主线"
+    },
+    {
+      "asset_id": "scn-3094f1e551584ae0bb89d1fd84d8677b",
+      "asset_type": "scene",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/opening-test-20261022/porridge",
+      "title": "分一碗粥，以低成本动作改写人物印象"
+    },
+    {
+      "asset_id": "pat-aac351ddab9f40c48f5825fad06c1a70",
+      "asset_type": "pattern",
+      "origin_key": "src-2a13958390274509b2af019f6b12d981/opening-test-20261022/pattern_object",
+      "title": "让同一道具同时改变关系、行动条件和任务"
+    }
+  ],
+  "formal_input_sha256": {
+    "vol01-analysis.json": "45f651efb840a1daf0a933e7ff33ae7fbeb58b36ce170634456ad31fc88fd6c5",
+    "vol01-read-log.json": "d3b0f4d062963ccfee0a09a046eefc7ec8e20a826fdedc958e0031e2f42d50b3",
+    "vol01-graph.json": "920ecf3b2eda9f6f9a756598361cf19d9af56f4a6fc599af11eacc49f15b080d",
+    "vol01-cards.json": "3700297d99a9f03997b79814056f2a6fd6cc3840acb79ab1ebb77a2d0ac94a48",
+    "vol01-reading-notes.md": "7ecfc53debdecafebd69df570c1cf7a2d7fd1ea355ec5425d593f546ebb37547",
+    "vol02-analysis.json": "b9187d89c786120575b9df5e99da3dfb9c441e91893bfa4365886ebae7c1095d",
+    "vol02-read-log.json": "f2264ab7362d2813285a269a05b785f6b2316e5639aac9602b072fe9d9e2845c",
+    "vol02-graph.json": "fc34175ceff9142a3b6e195bfe38f59384ddccf6888579762ee2741bba8cbaeb",
+    "vol02-cards.json": "c0f8b4219794dcb6f2ad169bab3d89c88dbb5828195efc03f8862ec30cb00576",
+    "vol02-reading-notes.md": "ed9e7988f221154a98f05d0bc26ae26a8143439d0431b05f57985f8cfe38bcae",
+    "vol03-analysis.json": "b112d50cb6893a689e97b0babab785bbc53a6a2d03eec6346d33701fe55b107d",
+    "vol03-read-log.json": "2e7a82d24e385c0dad5333e14369d19f3fdc34b4063497a349baed0c88bbe042",
+    "vol03-graph.json": "3fe740e5d2eecab068d5977ec5e7a9d6201c2c65c6599c773286ff6f21a2e84a",
+    "vol03-cards.json": "4a481f021b66b50b09cd4d5b651450236adb21be98774fb750a392224dc0f22f",
+    "vol03-chapter-notes.jsonl": "80cca5e1239590d22a646a5be8da8793b9459cf929387126deb9001737f96869",
+    "vol04-analysis.json": "d657a9f7663732ef65e451769dc465829ea216f2bba225c1a5a111aca30dada2",
+    "vol04-read-log.json": "510157d278e5a6ead66a543e47084cf1e4ac269a2ef367b9ae554c615b905e01",
+    "vol04-graph.json": "d2e6e87d66f3dd6231b0491d110710a2f8282a83515997f7309a73079f2bdb36",
+    "vol04-cards.json": "f770d71b8d7ae03c9cf4027df59ec2e2cb5456d7ffc6d1445f7b1619fd3f445b",
+    "vol04-chapter-notes.jsonl": "1388ed0bceb8c8b5e2422890affd00413b99d55bc2547927fa309f0c98601ce0",
+    "vol05-analysis.json": "683809002f155a4843e2429e55a7c5dfa5c0479aa2385b858d5fe1837d1cc2da",
+    "vol05-read-log.json": "1c3ef797f69ffd7cd55c4d772a207589501d154bcba5ae56748c42e4eaca5400",
+    "vol05-graph.json": "56b8114219a17e9d5b6e29907ea64eaa09a5d77772be897100039ed5f78a2c5d",
+    "vol05-cards.json": "e160deb87e967be987ad889d988e528f03610c6aeda53bd35bf03ffb1a7c7482",
+    "vol05-chapter-notes.jsonl": "16082d41ecf8eab0972cb28b5d2fec1f19136d5229efb74447e159f793811996",
+    "vol06-analysis.json": "dc9ed4e7312058e64ee09e1cb20b44afe66e51254df8a302130433cbb399f310",
+    "vol06-read-log.json": "65adf83405774d44430e3b5c5aa5065ad39705f694d9a11735efd6bed7339ede",
+    "vol06-graph.json": "4cb142280668e9e4140cc3fac65be21d4e4ffbd8881585a7ebddcdea62073b6d",
+    "vol06-cards.json": "d34a84a8d6c67f11f356f4e875d0cb48a0d07e715089305cf0b0c39ee8579150",
+    "vol06-chapter-notes.jsonl": "02dc115f6f9d3500178e5c464c76b909fa9308edc1966e12beb3aac9049658d5",
+    "vol07-analysis.json": "388fc409a57a6a9b8fa88fc4f88ed701e1c1a726c3f20e47d7462047e16421d9",
+    "vol07-read-log.json": "d48dd020626837d38d095c4c15f933562aac85b289e332caf12352dbcda25a55",
+    "vol07-graph.json": "e1fc47d919222cbe050669f4f288117268032d2e3bdb0104d951ea04a95efbe3",
+    "vol07-cards.json": "3d2592463a1aa628eabbc305f0063bd8ee4a79591d4c9397ee10cd32446d1f17",
+    "vol07-chapter-notes.jsonl": "749509db05f6bb663cd9540538d4fb1bda3305950253b59b14f4ce9588533294",
+    "vol08-analysis.json": "52a9f21a7ca513f5a4bb08c3dc773f170c9b2a358dfa62247046866839a2d737",
+    "vol08-read-log.json": "624eb4a1c74ab3eae90581691f9df40985d3cc5dfd8645e7f64b0ef22a12dda9",
+    "vol08-graph.json": "6753a41071f4a8fd35ff90ba2596150ea7842361bd9a819ebe252c0ea38a78d1",
+    "vol08-cards.json": "f93c0b17d35bd56dfabe69042a7641522a477c1402275b6c36eba4b591ebc25c",
+    "vol08-chapter-notes.jsonl": "fa2ee68f2395aca0c0786762cd61cb8a88677c0c42a52caa06cb68a3a56fa9d7"
+  },
+  "limits": [
+    "全文实际阅读由逐章笔记及读者记录证明，结构检查只核对它们的一致性",
+    "分卷包卡数与本书全部卡数分列；旧开篇卡独立保留，不重复计为本次新卡",
+    "本回执只确认正式分卷资料与覆盖，不等全书综合终点审计或用户审阅完成"
+  ]
+}

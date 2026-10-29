@@ -1,0 +1,75 @@
+{
+  "asset_id": "chr-666cd0bf94725d0a8167541a2827be52",
+  "asset_type": "character",
+  "content": {
+    "changes": "组织加成与位置管理比单次杀人数更关键。",
+    "constraints": "非主输出、需被保护的队伍角色。",
+    "current_state": "紫龙100%全属加持血骑防线实际生效；未明确本卷得到上古卷。",
+    "decisions": [
+      "吕紫龙全血盾承骑冲，组织返队开阵。"
+    ],
+    "goals": "以紫龙/编组协助古剑。",
+    "interpretation": {
+      "claim_kind": "inference",
+      "evidence": [
+        {
+          "chapter_id": "ch-1217",
+          "claim_kind": "inference",
+          "end_line": 97775,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 97700
+        },
+        {
+          "chapter_id": "ch-1229",
+          "claim_kind": "inference",
+          "end_line": 98585,
+          "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+          "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+          "start_line": 98521
+        }
+      ],
+      "text": "以本卷可证行动与变化观察，不把角色评语当全人格定论。"
+    },
+    "knowledge_boundary": "不能把陆1217建议先帮吕当完成。",
+    "relationship_directions": [
+      "陆提醒先给辅助拿卷为计划，不证其已古技。"
+    ],
+    "summary": "紫龙100%全属加持血骑防线实际生效；未明确本卷得到上古卷。"
+  },
+  "created_at": "2026-10-25T00:01:47.250538+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-1217",
+      "claim_kind": "fact",
+      "end_line": 97775,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 97700
+    },
+    {
+      "chapter_id": "ch-1229",
+      "claim_kind": "fact",
+      "end_line": 98585,
+      "revision": "d819f7d0ecf5a2004a0a434e987569bbe25015422d45e16676af913292346857",
+      "source_id": "src-d8926e2a35f04bcf8139cff0ea516bbd",
+      "start_line": 98521
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-d8926e2a35f04bcf8139cff0ea516bbd/full-20261025/vol06/character/lubuyi",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:网游之天下无双",
+    "卷:6",
+    "研究:全量九维"
+  ],
+  "title": "吕布衣",
+  "updated_at": "2026-10-25T00:01:47.251538+00:00",
+  "user_notes": ""
+}

@@ -1,0 +1,55 @@
+{
+  "source_key": "z",
+  "status": "provisional-awaiting-middle-identity-evidence",
+  "items": [
+    {
+      "from_key": "hamons",
+      "to_key": "kevintus",
+      "relation": "possible_identity",
+      "status": "partial",
+      "claim": "40任务面板称送信给亡灵巫师哈蒙斯；47–48收信者本人未另报姓名却讲哺血故事。320萧御据笔记故事与雕像推此人是克文图斯。当前保持任务称名与后推身份，不静默删除哈蒙斯，也不把推断当已证别名。待中段研究报告确认后更新。",
+      "evidence": [
+        {"chapter_id":"ch-0041","start_line":1717,"end_line":1726},
+        {"chapter_id":"ch-0048","start_line":2051,"end_line":2064},
+        {"chapter_id":"ch-0049","start_line":2069,"end_line":2089},
+        {"chapter_id":"ch-0321","start_line":17606,"end_line":17619}
+      ]
+    },
+    {
+      "from_key": "xiaoyu",
+      "to_key": "xiaoling",
+      "relation": "not_same_person",
+      "status": "resolved",
+      "claim": "开篇少数萧翎字样按动作上下文是萧御局部错名；399、407–408以后萧翎是与萧御互称友人并实际切磋的独立跨书人物。保留两档，跨书绝不合并。",
+      "evidence": [
+        {"chapter_id":"ch-0003","start_line":97,"end_line":97},
+        {"chapter_id":"ch-0400","start_line":24403,"end_line":24407},
+        {"chapter_id":"ch-0408","start_line":24869,"end_line":24876},
+        {"chapter_id":"ch-0409","start_line":24934,"end_line":24949}
+      ]
+    },
+    {
+      "from_key": "candy",
+      "to_key": "tangtang",
+      "relation": "not_same_person",
+      "status": "resolved",
+      "claim": "十贼队的男性堕落的糖果与后段年幼女地精奥术法师糖糖不同；相似昵称不构成同人，糖糖哥哥由炎神本人确认。",
+      "evidence": [
+        {"chapter_id":"ch-0237","start_line":12114,"end_line":12136},
+        {"chapter_id":"ch-0443","start_line":27405,"end_line":27470},
+        {"chapter_id":"ch-0449","start_line":27840,"end_line":27843}
+      ]
+    },
+    {
+      "from_key": "xiaoyu",
+      "to_key": "xiaoyu-sister",
+      "relation": "not_same_person",
+      "status": "resolved",
+      "claim": "萧御是哥哥，小雨是妹妹。xiao-yu/xiaoyu等研究slug拼写须按中文身份规范，不能只凭转写合并。",
+      "evidence": [
+        {"chapter_id":"ch-0002","start_line":33,"end_line":68},
+        {"chapter_id":"ch-0004","start_line":192,"end_line":221}
+      ]
+    }
+  ]
+}

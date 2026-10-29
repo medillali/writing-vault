@@ -1,0 +1,101 @@
+# 神虎已孵与五卷受限
+
+ID: `scn-c35ed6bb68f8544e8efee701d5448ccc` · 版本: 1 · 范围: source-analysis
+
+绑定虎蛋由倾浅拾交，主实孵1级100%卓越；真云辰灵体交五卷后消散，前三技能达级仍缺符。
+
+## 完整卡片
+
+```json
+{
+  "asset_id": "scn-c35ed6bb68f8544e8efee701d5448ccc",
+  "asset_type": "scene",
+  "content": {
+    "applicability": "避免大结算消灭后续资源压力。",
+    "characters_origin_keys": [
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/xiaoyao",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/yunchen",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/qingqian",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/yuzicheng",
+      "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/character/fox"
+    ],
+    "choice": "主接受老者选择，学五卷/实际试神虎，后242兵解白银得15符。",
+    "claim_kind": "inference",
+    "consequence": "云辰不复身，墨家80/100两项未解锁；不是立学即全能。",
+    "failure_mode": "232蛋血认主/龙消化原因是与子推断；虎嗜血100/实50源差保。",
+    "goal": "收束救援与技能传承。",
+    "obstacle": "本体不可复生/等级和耗符限制。",
+    "state_change": "传承成与被救者永留不同。",
+    "summary": "绑定虎蛋由倾浅拾交，主实孵1级100%卓越；真云辰灵体交五卷后消散，前三技能达级仍缺符。",
+    "why_it_works": "长期能力留下消耗约束，新增生产循环。"
+  },
+  "created_at": "2026-10-25T19:20:31.392959+00:00",
+  "derived_from": [],
+  "evidence": [
+    {
+      "chapter_id": "ch-0232",
+      "claim_kind": "fact",
+      "end_line": 20494,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 20395
+    },
+    {
+      "chapter_id": "ch-0233",
+      "claim_kind": "fact",
+      "end_line": 20557,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 20495
+    },
+    {
+      "chapter_id": "ch-0234",
+      "claim_kind": "fact",
+      "end_line": 20655,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 20558
+    },
+    {
+      "chapter_id": "ch-0239",
+      "claim_kind": "fact",
+      "end_line": 21053,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 20978
+    },
+    {
+      "chapter_id": "ch-0241",
+      "claim_kind": "fact",
+      "end_line": 21226,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 21151
+    },
+    {
+      "chapter_id": "ch-0242",
+      "claim_kind": "fact",
+      "end_line": 21317,
+      "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+      "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+      "start_line": 21227
+    }
+  ],
+  "favorite": false,
+  "origin_key": "src-20f2d16e3d1b472fa4b230ab0e1770c9/full-20261025/vol01/scene/inheritance",
+  "review_status": "draft",
+  "revision": 1,
+  "schema_version": 1,
+  "scope": "source-analysis",
+  "tags": [
+    "作者:失落叶",
+    "作品:斩龙",
+    "卷1",
+    "待审阅"
+  ],
+  "title": "神虎已孵与五卷受限",
+  "updated_at": "2026-10-25T19:20:31.392959+00:00",
+  "user_notes": ""
+}
+
+```

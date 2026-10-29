@@ -1,0 +1,483 @@
+{
+  "status": "stable_group_draft_pending_primary_review",
+  "section": "characters",
+  "scope": "仅primary分配reader3前40既有NPC及24补核对象；六卷团队全文覆盖，不冒本人全书独读。",
+  "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+  "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+  "group_number": 8,
+  "actual_reviewer": "/root/zongheng_vol03_full",
+  "formal_input_sha256": {
+    "writing-vault/library/reports/zhanlong/vol01-cards.json": "5716cb3547c567b08fa5567beed62024aaa9e12d1f16ee09333f359b151014f6",
+    "writing-vault/library/reports/zhanlong/vol01-analysis.json": "d6dc6d8296606d80ec4d39e540a59754325dda5318f73ad8b69354131031332d",
+    "writing-vault/library/reports/zhanlong/vol01-handoff.md": "d7d0ba462756640ae5cea1a449c8323630afaf4bda1ad377e2e82d22d2a2bf75",
+    "writing-vault/library/reports/zhanlong/vol01-read-log.json": "e44fc5ac3cf94fc934636d617b4a884106b20226e4efa29cc569970e4d707c95",
+    "writing-vault/library/reports/zhanlong/vol02-cards.json": "bae1d41dbe5d80fe527fd45ca5871d7b292744177cef10959354f07728fbf788",
+    "writing-vault/library/reports/zhanlong/vol02-analysis.json": "d262d0f13983edaf57fbc2f63561d0763f37dac7e91e6d2eef178235430142d5",
+    "writing-vault/library/reports/zhanlong/vol02-handoff.md": "83252ea006170d1d6f1c21fe8f5ae3708ca4481304458c7f23dfb6a0a05d8960",
+    "writing-vault/library/reports/zhanlong/vol02-read-log.json": "cfedfdf3d250fa877eca46430d71e9578f488435c8a1980e29aff98fa07b0f1b",
+    "writing-vault/library/reports/zhanlong/vol03-cards.json": "6b6d752002da4224cb7258528e368fe63f86abff06dbd49f97242a52d69361c0",
+    "writing-vault/library/reports/zhanlong/vol03-analysis.json": "040855ed4aa2a2ccc572e067c4cfaba2ca5f9c263cf66c875d1c46374036efe6",
+    "writing-vault/library/reports/zhanlong/vol03-handoff.md": "ac83c6ce60443f122241171ee2297ad9d33542cf128ce203d12c1f332b56dec1",
+    "writing-vault/library/reports/zhanlong/vol03-read-log.json": "a1907247e1e00f640955d17c1f82ed174367a1b299f4e6e179650f46f56f6bf1",
+    "writing-vault/library/reports/zhanlong/vol04-cards.json": "06e66349791b94b64d9ce16beb2f66d963ec30885058033f2852cc44feffa0f7",
+    "writing-vault/library/reports/zhanlong/vol04-analysis.json": "abdd796a4a858ff187b1dff2c9b04ca107b60bb69a791f02f6c42e3d848bf53c",
+    "writing-vault/library/reports/zhanlong/vol04-handoff.md": "438f63229dcbacd05ff8a00862da1a7394ac0f4e4e685aa6be8a88588a66b745",
+    "writing-vault/library/reports/zhanlong/vol04-read-log.json": "2acb9d39121940006bdbe431cdceba5ed94432278351a2ffad8b1cdfb1404d00",
+    "writing-vault/library/reports/zhanlong/vol05-cards.json": "409e08e53e8f9dc21776bd58bdffb2648a91986ffd01c49540f65c368fcd1ffa",
+    "writing-vault/library/reports/zhanlong/vol05-analysis.json": "7700f8ee47cbbc6127924ee2c2b912bd45ce6aafb2318d1744b3fbb4218d49c2",
+    "writing-vault/library/reports/zhanlong/vol05-handoff.md": "008ab7e94733b989dbb1ca2fe2d2dc1f948e6b35eb7c69cde468b91e3d4560f2",
+    "writing-vault/library/reports/zhanlong/vol05-read-log.json": "f97dacd7289fead98521943c163c3fb7b043e8b3d9f730e7545774b3e4a5d787",
+    "writing-vault/library/reports/zhanlong/vol06-cards.json": "85104a3eba51ae0c21241e33b2375ff66c7ada101e6235479dd7aa553ffd2447",
+    "writing-vault/library/reports/zhanlong/vol06-analysis.json": "276a7de3dcd6a3d602e7be4ceac450815ec1209a9ecd3e7785a8d1060c0093a0",
+    "writing-vault/library/reports/zhanlong/vol06-handoff.md": "476c27db8d91a0ac05f068964ea7c55f59558511b3910f505d3c6e9f2ab3c012",
+    "writing-vault/library/reports/zhanlong/vol06-read-log.json": "f425106d4776356ee90ab294a11ead8163126e6201e5cbf939b6e0ecafa9f5ea",
+    "writing-vault/library/reports/zhanlong/audit/priority-corrections-identity.json": "a39e58be5de82b3ba128651880e03596b66e4d8e98bdc87ea5deccaff3e3a619"
+  },
+  "characters": [
+    {
+      "audit_id": "character-arc-r3-047",
+      "name": "雷斯",
+      "roster_onebased_index": 47,
+      "initial_comparison_stage": "狂雷统帅，早期自称智将，却在789被公开战损对比；与克雷斯这一更晚神界人物完全不同。",
+      "key_decisions": "参与军争、边防与暗月灵冲突，曾轻敌受挫；917荐幼皇子，后来依洛洵军权压御林。978李原拟杀他却因炮火撤离取消，不能把同战秦烨/龙忠之死移给他。败后999仍在，1001被降普通士兵。",
+      "costs": "军队惨损与本人失去官职均有实际后果；受羞辱不等死亡。早期被菲射杀的先骑不是雷斯本人。",
+      "terminal_state": "最后明确个人处置为1001降为普通士兵，未见其本人死亡或复职。1249以后“雷斯”字样主要嵌在克雷斯姓名，不是原狂雷统帅后证。",
+      "evidence_boundaries": "岗位接徐焰与雷斯命运分开；检索全名子串不能合人。旧军职不倒填到被降之后。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0789",
+          "start_line": 61068,
+          "end_line": 61124,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0850",
+          "start_line": 64912,
+          "end_line": 64975,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0891",
+          "start_line": 67277,
+          "end_line": 67340,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0917",
+          "start_line": 68910,
+          "end_line": 68964,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0978",
+          "start_line": 72684,
+          "end_line": 72755,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0999",
+          "start_line": 74019,
+          "end_line": 74080,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1001",
+          "start_line": 74161,
+          "end_line": 74230,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读对应正式卡content/evidence、六卷对应人物状态及交接；必要四栏另列，非新独读全书。",
+      "priority_layers": [],
+      "entity_type": "npc",
+      "confirmed_entity": true
+    },
+    {
+      "audit_id": "character-arc-r3-048",
+      "name": "秦烨",
+      "roster_onebased_index": 48,
+      "initial_comparison_stage": "夏禹军统帅与朝廷强将，参与对暗月灵的处置和对御林的压制，不只是洛洵命令的无行动转述者。",
+      "key_decisions": "917命拖文官刘铭杖责，李以实际杀护卫与镇国刀阻止；943—944参与海上截运战策，后卷站队打御林。978败后跪称被迫求饶，主未赦，自己攻击、玉清束缚、炎鹰齐射共同致其死亡。",
+      "costs": "军损、兵权衰退到本人死亡递进；求饶被拒不能被措辞洗成他始终未投降，也不自动证明所有旧阴谋。",
+      "terminal_state": "978明确当场死亡，未见复苏。与龙忠同场死而由不同协作动作杀，不与秦龙称衔误录合成另一确定人物。",
+      "evidence_boundaries": "秦烨本人、狂雷雷斯和炎龙龙忠分人；同一军政阵营不吞并行动者。源943旧“秦龙”记录依身份优先层限读，不造秦龙额外实体。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0851",
+          "start_line": 64976,
+          "end_line": 65036,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0917",
+          "start_line": 68910,
+          "end_line": 68964,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0943",
+          "start_line": 70545,
+          "end_line": 70614,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0944",
+          "start_line": 70615,
+          "end_line": 70674,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0978",
+          "start_line": 72684,
+          "end_line": 72755,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读对应正式卡content/evidence、六卷对应人物状态及交接；必要四栏另列，非新独读全书。",
+      "priority_layers": [
+        "writing-vault/library/reports/zhanlong/audit/priority-corrections-identity.json"
+      ],
+      "entity_type": "npc",
+      "confirmed_entity": true
+    },
+    {
+      "audit_id": "character-arc-r3-049",
+      "name": "司徒薪",
+      "roster_onebased_index": 49,
+      "initial_comparison_stage": "禁军统领司徒薪，在919朝会参与新君秩序，后来与李建立有边界的私人军事信任。",
+      "key_decisions": "屡次率禁军援战，997主以欺君之责相压仍提供情报；1007明言除弑君外十万军可助李，李仍要求出兵知会帝，不能写无条件反君结盟。后替龙城抗诬、传高连城铁衣滥权消息，1364实际护住拟自刎的皇帝。末困鬼城持续报粮、求援并负后勤责任。",
+      "costs": "禁军出谷抢粮受伏的惨损、饥饿与伤兵死亡不由其忠诚自动免除；报告粮尽是实际限制，不简单当他背叛或纯粹无能。",
+      "terminal_state": "1385主令其与林穹等带NPC突围，并令燕与他们集合，说明当时仍在撤退安排中。1386群体返军不足18万，不单独证明司徒本人平安归城或已死亡，保最后具名指令与群返界限。",
+      "evidence_boundaries": "“弑君除外”保留承诺条件；职权、友谊和实际出兵分层。副将/司徒与无双司徒类称谓不得跨书硬并。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0919",
+          "start_line": 69030,
+          "end_line": 69087,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-0997",
+          "start_line": 73876,
+          "end_line": 73949,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1007",
+          "start_line": 74541,
+          "end_line": 74595,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1231",
+          "start_line": 89343,
+          "end_line": 89404,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1362",
+          "start_line": 97969,
+          "end_line": 98037,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1363",
+          "start_line": 98038,
+          "end_line": 98113,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1364",
+          "start_line": 98114,
+          "end_line": 98175,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1377",
+          "start_line": 98981,
+          "end_line": 99073,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1383",
+          "start_line": 99421,
+          "end_line": 99499,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1385",
+          "start_line": 99621,
+          "end_line": 99628,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读相关佩/浅林/祝海卡、状态与交接；所列四栏全读，原文1385 L99616—31定向复核撤退命令，非本人归城现场。",
+      "priority_layers": [],
+      "entity_type": "npc",
+      "confirmed_entity": true
+    },
+    {
+      "audit_id": "character-arc-r3-050",
+      "name": "高连城",
+      "roster_onebased_index": 50,
+      "initial_comparison_stage": "1362经司徒薪报告进入视野的刑部尚书与铁衣掌权人，受浅林重用的监控系统代理；对其滥权最初有明确报告渠道。",
+      "key_decisions": "司徒指控其招揽军中人、动用铁衣株连和收买，主据此夜清。1363主在帝前命斩、林穹真实斩下高连城人头，帝当场愤怒；这不是预先奉帝同意的司法审判。",
+      "costs": "个人死亡与两千左右铁衣、御林少量战损发生在武力胁迫的宫廷危机中；不能用其受指控之恶把所有杀戮中性化。",
+      "terminal_state": "1363实际被林穹斩首；1364帝李暂和解、铁衣被清不等高本人复生，亦不补全所有指控逐项审结。",
+      "evidence_boundaries": "不把司徒报告全部改成亲眼验证的定罪链；李下令与林穹执行区分，不误写李亲手斩首。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1362",
+          "start_line": 97969,
+          "end_line": 98037,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1363",
+          "start_line": 98038,
+          "end_line": 98113,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1364",
+          "start_line": 98114,
+          "end_line": 98175,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读对应正式卡content/evidence、六卷对应人物状态及交接；必要四栏另列，非新独读全书。",
+      "priority_layers": [],
+      "entity_type": "npc",
+      "confirmed_entity": true
+    },
+    {
+      "audit_id": "character-arc-r3-051",
+      "name": "石林卡",
+      "roster_onebased_index": 51,
+      "initial_comparison_stage": "1350以败军副将身份向原魂已苏醒的佩儿来报的石林卡；重要性在幸存证言与北军新组织，不另补未出现的早期传奇。",
+      "key_decisions": "报告沧魂反噬/琴歌等败俘与残军分布，受佩任为屠龙三军元帅；1351持佩剑为信物带几千人离开招抚，并获禁止异魔伤害人类的约束。",
+      "costs": "旧军溃散、后勤和敌意使收拢不是任命即可完成；他说知道二十余万位置，不等二十余万已归队。",
+      "terminal_state": "1351最后明确个人行动是领信物外出招抚；留至少三十万与预期召回数量属于军队/计划层，未见其本人返队结算或独立死讯。",
+      "evidence_boundaries": "沧魂反炼是其战况渠道，不转成主当场看见；不以旁白后沿用就让他早已掌握全阵真相。与石林类地点词分开。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1350",
+          "start_line": 97143,
+          "end_line": 97213,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1351",
+          "start_line": 97214,
+          "end_line": 97274,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读对应正式卡content/evidence、六卷对应人物状态及交接；必要四栏另列，非新独读全书。",
+      "priority_layers": [],
+      "entity_type": "npc",
+      "confirmed_entity": true
+    },
+    {
+      "audit_id": "character-arc-r3-052",
+      "name": "琴歌",
+      "roster_onebased_index": 52,
+      "initial_comparison_stage": "异魔琴系君王，以远程琴音与地形破坏控制玩家行动；不是普通随从或仅有面板的空名王。",
+      "key_decisions": "1207实际切断山底令修罗山沉、放网拖魂入炼狱，造成24小时禁复等后果。此后与诸王攻城，1322援饮火并增幅，仍未救下被协杀的饮火。后沧阵营内斗败被俘，末被希芙派往北陲寻天域神兵。",
+      "costs": "杀伤与控魂能力不等任何场合都能封尽全员；1322饮火真死是救援限度，自己败俘也反证高阶君王并非永久胜者。",
+      "terminal_state": "1350石林卡报告败俘，1370佩渠道报告其受希命寻神兵；尚无神兵实际到手、琴歌死亡或再战结算。不能把1371梦中袭杀当现实完成。",
+      "evidence_boundaries": "原“武魂”后有炼魂面板及实战，不停在早预测；琴歌与希芙分人、下令寻物不等已持物。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1207",
+          "start_line": 87858,
+          "end_line": 87923,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1237",
+          "start_line": 89717,
+          "end_line": 89783,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1240",
+          "start_line": 89895,
+          "end_line": 89961,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1241",
+          "start_line": 89962,
+          "end_line": 90011,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1322",
+          "start_line": 95307,
+          "end_line": 95380,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1350",
+          "start_line": 97143,
+          "end_line": 97213,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1370",
+          "start_line": 98503,
+          "end_line": 98558,
+          "claim_kind": "fact"
+        },
+        {
+          "source_id": "src-20f2d16e3d1b472fa4b230ab0e1770c9",
+          "revision": "61ab0b114c76446fda554abfafdac8c432cd88afaba7c2541f4473a3902134e3",
+          "chapter_id": "ch-1371",
+          "start_line": 98559,
+          "end_line": 98638,
+          "claim_kind": "fact"
+        }
+      ],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "完整接读对应正式卡content/evidence、六卷对应人物状态及交接；必要四栏另列，非新独读全书。",
+      "priority_layers": [],
+      "entity_type": "npc",
+      "confirmed_entity": true
+    }
+  ],
+  "access_log": "r3-046保未决名词而非确认人物；047—052六NPC完整接读关联卡content/evidence、对应状态及六handoff。补789/821/943/1007/1207/1322/1351/1363/1364/1370/1377/1383/1385四栏全读；复用先已完整读的999/1000/1001/978/1350，1385具名撤退段另实际定向复核。",
+  "unresolved_roster_names": [
+    {
+      "audit_id": "character-arc-r3-046",
+      "name": "罗戟",
+      "roster_onebased_index": 46,
+      "initial_comparison_stage": "补核提案中只有“罗戟”这一名称槽位，未附阶段卡或源定位；不能把名单提案自动当原文已确认人物。",
+      "key_decisions": "没有可证的独立行动，不借罗嗣、罗特、罗林、罗雷或罗戟近字词的行动填补。",
+      "costs": "没有可归属的个人代价，暂缺来源不等原作人物被遗忘。",
+      "terminal_state": "待身份来源核实；当前不是已确认实体，不新增确定人物ID、不与他人合并。",
+      "evidence_boundaries": "固定SID/rev规范全文精确字符串0命中；正式六卷cards/analysis/四栏精确字符串亦0命中。此为查找范围说明，不冒称本次逐章全书新读。root已明确同意保槽待核。",
+      "review_status": "draft",
+      "claim_kind": "synthesis",
+      "terminal_certainty": "last_explicit_state_with_labelled_limits",
+      "evidence": [],
+      "stage_card_mapping": [],
+      "actual_reviewer": "/root/zongheng_vol03_full",
+      "reading_attribution": "首次本人原文为卷1raw2—151与卷4raw754—968；卷1尾primary，本人全读其四栏；他卷保原读者。本次为所列人物接口完整派生接读，另记原文定向核验不增加项目唯一覆盖。",
+      "source_access": "名单与六接口定位复核；无来源可供阅读全文，诚实保留0证据。",
+      "priority_layers": [],
+      "entity_type": "unresolved_roster_name",
+      "confirmed_entity": false,
+      "name_search_scope": {
+        "normalized_source_exact_matches": 0,
+        "formal_six_volumes_cards_analysis_notes_exact_matches": 0,
+        "candidate_roster_is_not_source_evidence": true
+      }
+    }
+  ],
+  "confirmed_character_count": 6,
+  "unresolved_roster_name_count": 1
+}
