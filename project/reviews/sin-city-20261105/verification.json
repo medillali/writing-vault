@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "book": "罪恶之城",
+  "author": "烟雨江南",
+  "graph_revision": 235,
+  "review_rounds": [
+    236,
+    237,
+    238
+  ],
+  "status": "research_draft",
+  "reading": {
+    "body_units": 1439,
+    "sequential_reading_complete": true,
+    "new_body_units_this_round": 0
+  },
+  "map": {
+    "main_phases": 17,
+    "curated_routes": 7,
+    "events": 2422,
+    "semantic_edges": 2481,
+    "curated_routes_connected": true
+  },
+  "characters": {
+    "active_cards": 842,
+    "retained_historical_alias_assets": 4,
+    "whole_book_profiles": 24,
+    "relationships": 1975,
+    "relationships_source_reviewed_this_round": 116,
+    "source_line_locators_added": 184,
+    "owners_changed_this_round": 61,
+    "wording_refinements": 13,
+    "missing_individual_relationship_anchors_before": 425,
+    "missing_individual_relationship_anchors_after": 309,
+    "all_semantic_review_complete": false
+  },
+  "verification": {
+    "native_source_and_reference_checks": "passed",
+    "protected_fields_and_unrelated_content_history_comparison": "passed",
+    "previous_frozen_bytes": "unchanged",
+    "content_keys": 38,
+    "nonempty_field_instances": 5842,
+    "projection_failures": 0,
+    "viewer_vm_failures": 0,
+    "omission_mutants_detected": 5,
+    "omission_mutants_total": 5,
+    "http_current_file_hash_checks": "passed",
+    "scope": "Source, history, structural, projection, HTTP and viewer VM checks; not actual browser or mobile acceptance."
+  },
+  "actual_ui": {
+    "desktop": "blocked",
+    "phone_390px": "blocked",
+    "browser_download": "blocked",
+    "reason": "Supported tab creation succeeds; navigation and independent screenshot fail with timeoutMs before the application is observed.",
+    "application_interaction_performed": false
+  },
+  "acceptance": {
+    "final_product_complete": false,
+    "user_accepted": false,
+    "merged": false,
+    "deployed": false
+  },
+  "public_scope": "Aggregate verification and existing main SVG only. No original novel, character source records, private notes, credentials or local paths."
+}
