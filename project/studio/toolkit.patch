@@ -1,0 +1,2442 @@
+From eb1d4238cab0366f5b24462307a1f6adb77ad916 Mon Sep 17 00:00:00 2001
+From: Codex <codex@local.invalid>
+Date: Fri, 13 Nov 2026 04:45:42 +0900
+Subject: [PATCH] feat: add private novel studio with versioned agent handoff
+
+---
+ README.md                                     |   8 +
+ .../plans/2026-11-13-private-novel-studio.md  |  34 +
+ .../specs/2026-11-13-private-novel-studio.md  |  38 +
+ ...76\350\256\241\346\257\224\350\276\203.md" |  20 +
+ ...34\345\217\260\351\252\214\346\224\266.md" |  34 +
+ ...64\345\267\245\344\275\234\345\217\260.md" | 126 +++
+ ...73\345\212\241\346\250\241\346\235\277.md" |  41 +
+ novel-studio.cmd                              |  18 +
+ scripts/fictionlib/studio.py                  | 357 +++++++
+ scripts/fictionlib/studio_server.py           | 120 +++
+ scripts/fictionlib/studio_web/app.js          | 889 ++++++++++++++++++
+ scripts/fictionlib/studio_web/index.html      |  43 +
+ scripts/fictionlib/studio_web/style.css       |  11 +
+ scripts/studio.py                             | 139 +++
+ tests/studio_ui_smoke.cjs                     | 128 +++
+ tests/test_studio.py                          | 177 ++++
+ tests/test_studio_cli.py                      |  38 +
+ tests/test_studio_server.py                   |  62 ++
+ 18 files changed, 2283 insertions(+)
+ create mode 100644 docs/superpowers/plans/2026-11-13-private-novel-studio.md
+ create mode 100644 docs/superpowers/specs/2026-11-13-private-novel-studio.md
+ create mode 100644 "docs/\345\260\217\350\257\264\345\267\245\345\205\267\350\256\276\350\256\241\346\257\224\350\276\203.md"
+ create mode 100644 "docs/\345\267\245\344\275\234\345\217\260\351\252\214\346\224\266.md"
+ create mode 100644 "docs/\347\247\201\344\272\272\345\260\217\350\257\264\345\267\245\344\275\234\345\217\260.md"
+ create mode 100644 "docs/\347\253\240\350\212\202\344\273\273\345\212\241\346\250\241\346\235\277.md"
+ create mode 100644 novel-studio.cmd
+ create mode 100644 scripts/fictionlib/studio.py
+ create mode 100644 scripts/fictionlib/studio_server.py
+ create mode 100644 scripts/fictionlib/studio_web/app.js
+ create mode 100644 scripts/fictionlib/studio_web/index.html
+ create mode 100644 scripts/fictionlib/studio_web/style.css
+ create mode 100644 scripts/studio.py
+ create mode 100644 tests/studio_ui_smoke.cjs
+ create mode 100644 tests/test_studio.py
+ create mode 100644 tests/test_studio_cli.py
+ create mode 100644 tests/test_studio_server.py
+
+diff --git a/README.md b/README.md
+index b991815..a3554cc 100644
+--- a/README.md
++++ b/README.md
+@@ -6,6 +6,14 @@
+ 
+ `distill-novels` 是一个面向 Codex 和兼容 Agent Skills 标准的小说分析 Skill。它支持从多本小说中分别提取有出处的观察，再进行跨书比较和抽象，最终生成可供 AI 写作助手按需加载的原创写作知识库。
+ 
++## 私人小说生产工作台（新增）
++
++从研究进入正文生产：人物与世界规则 → 章节任务 → Antigravity 写稿 → Codex 审稿 → 返修 → 定稿与后章记忆。提供中文本机网页、版本冲突检查、私人备份与文件交接；不自动调用模型。
++
++Windows 双击 `novel-studio.cmd`；其他平台执行 `python3 scripts/studio.py serve --open`。私人数据默认保存在 Git 目录之外。
++
++[开始使用](docs/私人小说工作台.md) · [验证与边界](docs/工作台验收.md) · [工具设计比较](docs/小说工具设计比较.md) · [设计与边界](docs/superpowers/specs/2026-11-13-private-novel-studio.md)
++
+ ## 本地增强版：长期小说资料库
+ 
+ 本分支在上游 Skill 基础上增加持久存储和本地工具；上面的链接保留上游出处。本增强版保存于公开仓库 [medillali/distill-novels](https://github.com/medillali/distill-novels)，个人资料独立保存于 [medillali/writing-vault](https://github.com/medillali/writing-vault)。
+diff --git a/docs/superpowers/plans/2026-11-13-private-novel-studio.md b/docs/superpowers/plans/2026-11-13-private-novel-studio.md
+new file mode 100644
+index 0000000..cde8262
+--- /dev/null
++++ b/docs/superpowers/plans/2026-11-13-private-novel-studio.md
+@@ -0,0 +1,34 @@
++# 私人小说生产工作台实施计划
++
++Goal: 用户能把研究材料转成可审稿、可返修、可追溯的私有章节生产。
++Architecture: 原有 Vault 事务 + 带版本的生产 JSON + 本机 HTTP + 文件任务包。
++Tech stack: Python 3.10 标准库、原生 HTML/CSS/JS、unittest、Playwright 验证。
++Spec: ../specs/2026-11-13-private-novel-studio.md
++
++## 全局约束
++
++公开仓库只放工具、文档、虚构夹具；私人目录不在任何 Git 树内。旧研究入口兼容，不修改来源事实；不合并 PR。不声称已连接用户 HTX 或实际调度 Antigravity。
++
++## 任务 1：生产主档与版本闭环
++
++文件：scripts/fictionlib/studio.py、tests/test_studio.py。
++先写闭环、返修、过期上下文、未来状态、引用与 revision 冲突测试并观察失败；实现项目/人物/规则/章节、任务包、正文、审稿、定稿与历史事务。状态由事实计算。备份恢复使用清单/hash 和 safe_path。
++
++## 任务 2：命令行与本机服务
++
++文件：scripts/studio.py、scripts/fictionlib/studio_server.py、novel-studio.cmd、tests/test_studio_cli.py、tests/test_studio_server.py。
++先测试隔离目录、安全请求、真实 CLI 往返；实现同一业务接口的 CLI 与 HTTP。serve 固定回环地址，严格 Host/Origin/token；读取研究素材只能从启动时配置的路径。demo 使用明确虚构作品，不能自动加入用户研究库。
++
++## 任务 3：可操作的中文工作台
++
++文件：scripts/fictionlib/studio_web/{index.html,app.js,style.css}。
++按约定 API 建项目、人物、规则、章节；可编辑正文、导入回收 JSON、审稿、返修、定稿、导出任务包和项目快照。章节树和状态可视化、窄屏布局、错误保留输入。浏览器实际跑通演示，检查 1440px 与 390px，不把截图等同于真机验证。
++
++## 任务 4：接入现有资料库并交付
++
++文件：工具 README.md、docs/私人小说工作台.md；研究库 START-HERE.md、COLLABORATION.md、project/CURRENT-STATE.md、project/studio/README.md。
++写清 Codex 统筹与审稿、Antigravity 写作、用户验收的单章日常；提供 HTX/WSL/Windows 的实际启动与回收命令、故障恢复及首周产出目标。研究案例简要比较 Pagekin、Novelcrafter、NovelAI 与现有缺口，引用官方来源。
++
++## 审阅重点与完成条件
++
++审阅完整循环中的版本隔离、前后章记忆、数据丢失、私人内容意外进公开 Git、服务跨站访问。观察 RED→GREEN，全部原测试加新测试通过；执行两章样例并导出/恢复；独立审阅重要问题全部解决。最后创建两个相互链接的 PR 并核对远端 SHA，不以文档提交替代功能交付。
+diff --git a/docs/superpowers/specs/2026-11-13-private-novel-studio.md b/docs/superpowers/specs/2026-11-13-private-novel-studio.md
+new file mode 100644
+index 0000000..8c5fb1f
+--- /dev/null
++++ b/docs/superpowers/specs/2026-11-13-private-novel-studio.md
+@@ -0,0 +1,38 @@
++# 私人小说生产工作台
++
++## 目标与验收
++
++现有 writing-vault 保存了研究材料，distill-novels 管理来源、资产和交接，但缺少正文生产闭环。本轮在工具库新增可离线运行的本地工作台，研究库增加实际开工入口。用户已经授权实现与提交 PR；保留既有资产、原始来源与未合并 PR。
++
++验收是一部明确标记为虚构测试的两章作品能够完成：设定 → 章纲 → 写手任务包 → 正文回收 → 审稿 → 返修 → 定稿 → 下一章得到前章摘要与人物变化。界面能够管理人物卡、章节树、正文、审稿和导出；不以研究次数作为产能。
++
++## 数据与隐私
++
++- 保留双仓库：writing-vault 是研究资料，distill-novels 是程序。两个远端当前公开，因此真实作品存放在 Git 目录之外的私人 Vault；默认使用 Windows LOCALAPPDATA/NovelStudio 或 Linux ~/.local/share/novel-studio。
++- 复用 fictionlib 的 Vault 标识、路径验证、独占锁和事务提交。生产主档为 books/<project>/studio.json，项目目录仍有兼容的 project.json。每次变更递增 revision 并保存 history/studio 快照；不改旧研究卡。
++- Markdown/JSON 任务包是可交换的快照，不能作为第二份主档。所有回收都校验 task_id、context_hash、draft_hash 或 base_draft_hash，以及项目 revision。冲突明确报错。
++- 参考素材以来源 Vault、资产 ID、revision、hash 和完整卡片快照引用；始终标记为参考，不自动成为原创事实。
++
++## 工作规则
++
++角色的 baseline 是开篇设定。世界规则使用 from_chapter；人物变化、章节摘要只从已定稿且仍有效的前章带入任务上下文，未来状态不回流。首版按章顺序生产：前章未定稿则不能给后章派稿。
++
++章节状态从记录计算：待派稿、待写、待审、待返修、可定稿、已定稿、上下文过期。计划或前文变化使旧任务包过期，需重新派稿；历史正文仍保留。任务包包含章目标、节拍、POV、出场角色、适用世界规则、前文摘要、参考卡和严格回收格式。返修包另附当前正文和审稿意见。
++
++审稿由 Codex/人完成，程序不冒充语义审稿模型。审稿结论绑定当前正文 hash 和任务上下文。问题严重度为 blocker/major/minor，附正文原句；pass 不允许 blocker/major。记忆提案必须附正文原句。定稿要求当前稿的有效 pass，之后才把摘要/记忆提供给后章。程序能检查版本、引用、顺序和证据字符串，不能证明文学质量或语义真实性。
++
++## 接口与界面
++
++Python 3.10+ 标准库；不新装云服务、不自动调用付费模型。scripts/studio.py 提供 init、serve、list、create、show、apply、pack、submit、reference、backup、restore、demo 命令。scripts/fictionlib/studio.py 提供业务层；studio_server.py 提供本机 HTTP；studio_web/ 保存 HTML/CSS/JS。
++
++HTTP 只绑定 127.0.0.1；校验 Host，写接口要求页面生成的随机 token，拒绝异源请求，限制请求体。只暴露固定静态文件和 JSON API，不提供通用文件读取。GET /api/state 返回 {projects, selected, research_enabled}，GET /api/pack?project=...&chapter=... 返回任务包，GET /api/research?q=... 搜索配置好的研究库。POST /api/action 接收 {project_id, expected_revision, action, payload}；create 无版本，其他修改必须带版本。GET /api/export?project=... 导出当前项目 JSON。所有错误为 {error}。
++
++界面中文，桌面三栏/窄屏单栏：项目与章节树、编辑表单、上下文/交接。提供项目、人物、世界规则、参考素材、章节、稿件、审稿页；用 textContent 安全展示正文。状态与下一步操作始终可见。Windows 用 .cmd 启动，避免要求 PowerShell。Antigravity 打开任务包文件夹读写，用户/本地 Codex 使用命令回收；本轮不宣称存在可调用 HTX 的远程执行连接。
++
++## 备份与边界
++
++提供带路径清单与 SHA-256 的备份文件，只能还原到空目录，拒绝路径穿越和篡改。历史快照保留。默认不联网、不开公网，也不实现多设备实时同步、自动长驻调度、MCP 服务或自动驱动 Antigravity；下一步扩展不能绕过相同回收校验。
++
++## 验证
++
++先测试再实现业务关键路径：完整闭环、返修旧稿失效、旧任务拒收、前章修改使后章失效、未来状态隔离、并发 revision 冲突、素材引用、备份恢复、HTTP 的 Host/Origin/token/路径边界。原 53 项测试继续通过。实际浏览器检查桌面及 390px 窄屏与导出交互。用独立审阅检查生产流程及私人内容泄漏边界。完成后分仓提交 PR，远端读回确认；不合并 main。
+diff --git "a/docs/\345\260\217\350\257\264\345\267\245\345\205\267\350\256\276\350\256\241\346\257\224\350\276\203.md" "b/docs/\345\260\217\350\257\264\345\267\245\345\205\267\350\256\276\350\256\241\346\257\224\350\276\203.md"
+new file mode 100644
+index 0000000..4ae8531
+--- /dev/null
++++ "b/docs/\345\260\217\350\257\264\345\267\245\345\205\267\350\256\276\350\256\241\346\257\224\350\276\203.md"
+@@ -0,0 +1,20 @@
++# 从现有工具提炼私人创作流程
++
++核对日期：2026-11-13（北京时间）。这是功能思路比较，不是市场份额排名，也不把某个产品的功能宣称当作写作效果实测。
++
++| 代表工具 | 官方功能体现的思路 | 本项目实际采用 |
++|---|---|---|
++| [Pagekin，原 AI Novel Writer](https://github.com/EthanYoQ/Pagekin) | 同一个作品内连接设定、架构、章节蓝图、正文、审稿、修稿和定稿；本地作品，自备 API 或 Ollama | 单章工作流与状态，稿件和审稿版本绑定；不复制其源码，不重做模型配置平台 |
++| [Novelcrafter 的 Progressions](https://www.novelcrafter.com/help/docs/codex/progressions-additions) | 人物变化附着于特定场景，较早场景看不到较晚才发生的变化 | 初始人物卡与定稿后的阶段变化分开；前章记忆按时间进入后章 |
++| [NovelAI 的 Lorebook](https://docs.novelai.net/en/text/lorebook/) | 通过触发词把有关设定加入近期上下文，配置条目是否启用 | 按本章出场人物和规则生效章装包；首版用明确选择，未实现自动关键词召回 |
++| [星月写作](https://xingyuexiezuo.com/) | 官方公开页面主推提示词库、多模型、拆书、续写/扩写，以及人设、大纲、细纲、开篇等工具箱 | 增加可直接交给代理的开书、开篇、章节推进与返修任务模板；继续由同一个作品主档记录结果，避免工具生成的片段散落 |
++
++这些设计共同解决了“模型写一句很快，但越写越失忆”的问题：需要作品主档、相关上下文、可撤回的修改，以及明确的定稿边界。它们并不能保证文学质量。引用到上下文的设定太多会挤占正文空间，错误摘要也会把矛盾稳定传下去。
++
++你的特殊需求是两个现成代理合作。因此本项目把模型调用与数据管理分开：工作台管版本和记忆，Codex 管规划与审稿，Antigravity 管正文，用户裁决重要取舍。它们交换一个带版本的文件包，无须假设不同聊天窗口互通记忆，也不依赖未经验证的桌面遥控接口。
++
++当前长篇限制也明确保留：上下文带前章摘要和定稿记忆，暂未提供自动分卷压缩；首版按章顺序推进，修改早章后需逐章重新确认。对十万字以上项目，应先用一个短篇/开篇三章验证文风与操作成本，再扩展分卷摘要和伏笔台账。
++
++官方资料只用于核对功能。比较表与实现取舍是本项目的工程判断；没有复制 Pagekin 的 GPL 桌面代码，也没有安装它的 DSH 开发预览插件。
++
++用户补充的 `xingyuexirzuo.com` 未能读取；检索得到对应的“星月写作”域名为 `xingyuexiezuo.com`。功能依据官网的公开搜索索引，直连首页本轮超时；未登录付费区、未实际生成作品。没有足够官方证据验证其内部长期记忆、定稿回写或冲突控制机制，也不采信“百万字不崩”等推广效果承诺。本站提示词和付费内容未被复制。
+diff --git "a/docs/\345\267\245\344\275\234\345\217\260\351\252\214\346\224\266.md" "b/docs/\345\267\245\344\275\234\345\217\260\351\252\214\346\224\266.md"
+new file mode 100644
+index 0000000..c18330d
+--- /dev/null
++++ "b/docs/\345\267\245\344\275\234\345\217\260\351\252\214\346\224\266.md"
+@@ -0,0 +1,34 @@
++# 私人小说工作台：本轮验证与边界
++
++日期：2026-11-13（北京时间）。本轮在 Linux / Python 3.12 环境验证，所有作品均为虚构测试夹具；没有读取或上传用户真实原稿，也没有在 HTX 上安装。
++
++## 已执行
++
++| 检查 | 结果 |
++|---|---|
++| `python -X utf8 -m unittest discover -s tests -v` | 68 项通过：53 项既有回归 + 15 项生产、命令行、HTTP 测试 |
++| 两章顺序生产 | 定稿摘要/记忆进入后章；前章变化使后章过期 |
++| 返修和并发 | 旧正文、旧审稿回执拒收；新稿必须重新审稿；重新派稿带回旧正文但不继承批准 |
++| 时间范围 | 第三章才生效的规则不进入第一章；未定稿提案不进入后章 |
++| 数据保全 | 私人目录拒绝位于 Git 内；版本历史保存；备份恢复保留既有项目资产引用 |
++| 本机 HTTP | 真实请求验证 Host、Origin、token、非法路径、格式错误与版本冲突 |
++| `node --check scripts/fictionlib/studio_web/app.js` | 通过 |
++| `tests/studio_ui_smoke.cjs` + jsdom 26.1.0 | 实际执行界面脚本并连接独立 HTTP 服务：新建、人物、规则、章纲、派稿、正文、返修、审稿、定稿、两类下载、历史、HTML 转义及 390px 导航状态均通过 |
++| 独立审阅 | 两项重要问题已复现并修复；修复后的代码与 UI 接口复核未发现新重要问题 |
++
++DOM 交互测试启动独立临时作品库，不操作个人项目。可选复现（Node + npm，仅开发验证需要，用户运行工作台不需要 Node）：
++
++```bash
++npm install --prefix work/ui-tests --no-audit --no-fund --ignore-scripts jsdom@26.1.0
++NODE_PATH="$PWD/work/ui-tests/node_modules" node tests/studio_ui_smoke.cjs
++```
++
++## 未验证与当前限制
++
++- **没有通过真实浏览器视觉验收。** 当前执行环境内 Chromium 创建进程套接字被拒绝；可用云浏览器无法访问执行环境回环端口。DOM 测试不证明 CSS 排版、真实手机触摸或下载保存对话框表现。需要 HTX 上实际打开页面完成最后视觉检查。
++- Windows 启动器已提供；本轮本地没有 Windows 系统，不能把 Linux 测试说成 HTX 实测。仓库既有 CI 在 Windows/Ubuntu 运行 Python 测试，具体结果看 PR 检查。
++- 本版本不自动驱动 Antigravity，不自带模型，也没有后台任务或实时多端同步。可通过文件交接与命令回收使用现成代理。
++- 语义一致性与文学质量由 Codex/人工审稿判断。程序检查版本、顺序和引句存在性，不证明原句能支持结论。
++- 长篇尚未实现分卷摘要压缩和上下文预算；按章顺序工作，早章改动可能要求逐章重审。先用开篇三章校准质量与操作成本。
++
++两库的主分支与已有研究 PR 均不自动合并或改写。交付的是功能分支与可审阅 PR。
+diff --git "a/docs/\347\247\201\344\272\272\345\260\217\350\257\264\345\267\245\344\275\234\345\217\260.md" "b/docs/\347\247\201\344\272\272\345\260\217\350\257\264\345\267\245\344\275\234\345\217\260.md"
+new file mode 100644
+index 0000000..538c322
+--- /dev/null
++++ "b/docs/\347\247\201\344\272\272\345\260\217\350\257\264\345\267\245\344\275\234\345\217\260.md"
+@@ -0,0 +1,126 @@
++# 私人小说工作台：从研究资料到可验收的正文
++
++你只需要记住三个位置：**研究资料在 writing-vault；程序在 distill-novels；你的小说在电脑的私人目录。** 工作台把每章的任务、正文、审稿和定稿连在一起，换对话后也能接着做。
++
++程序不自带写作模型，不消耗 API 费用。Codex 负责规划和审稿，Antigravity 负责写正文；双方通过任务包交接。当前版本没有后台自动调度，也不把聊天会员当作 API 账户。
++
++## 先启动
++
++需要 Python 3.10 或以上，没有额外 Python 依赖。
++
++Windows：进入本工具库，双击 `novel-studio.cmd`。浏览器打开 `http://127.0.0.1:19423`。首次启动建立空的私人作品库，默认位于 `%LOCALAPPDATA%\NovelStudio`。如果同一父目录有 `writing-vault`，启动器会连接它以检索研究卡。
++
++Linux / WSL / macOS：
++
++```bash
++python3 scripts/studio.py serve --open --research-vault ../writing-vault
++```
++
++没有研究库时去掉 `--research-vault`。默认作品目录为 `~/.local/share/novel-studio`。Windows 与 WSL 的默认目录是两份数据，不自动同步；选定一处作为唯一主档。`--vault` 要放在子命令前；如果需要换位置：
++
++```bash
++python3 scripts/studio.py --vault ~/NovelPrivate serve --open
++```
++
++工作台只监听本机。手机尺寸布局可使用，但本版本没有手机远程网址，不要把 `127.0.0.1` 发到手机当作共享地址。
++
++可直接复制的开书、开篇、常规章节和返修提示见 [章节任务模板](章节任务模板.md)。
++
++## 你的日常操作
++
++| 步骤 | 谁负责 | 交付物与下一步 |
++|---|---|---|
++| 1. 定方向 | 你 + Codex | 填书名、故事定位、文风与不可更改的规则；一次只推进一本 |
++| 2. 做章节任务 | Codex | 人物卡、当前章目标、POV、出场人物、节拍；在工作台派稿 |
++| 3. 写正文 | Antigravity | 读取任务包，填写正文回收模板；不能改人物主档、章纲和 hash |
++| 4. 收稿与审稿 | Codex | 导入正文，再导出包含正文的包；检查因果、动机、知情范围、时间地点、伏笔、节奏 |
++| 5. 返修 | Antigravity | 用最新包逐条处理问题；提交新正文，再重新审稿 |
++| 6. 定稿 | Codex，必要时由你裁决 | 通过后定稿；只有此时摘要和人物变化进入后章记忆 |
++
++你验收故事方向、关键转折和最终正文。没有主观取舍冲突时，代理可以继续完成已授权的返修，不需要每个按钮都问你。
++
++界面可直接建人物、世界规则、章节，输入或导入正文，填写或导入审稿，导出任务包与项目快照。所有正文版本与审稿保留在主档中；完整恢复使用下面的备份命令。人物初始卡只写开篇状态；受伤、知晓秘密、物品得失等后续变化写在审稿的 `memory`，不要回写初始卡。
++
++## 交给 Antigravity 的一句话
++
++> 读取这个文件夹里的 task.md 和 task.json。你负责当前章正文，按 context 的目标、人物认知和节拍写作；references 只是研究参考。若已有 current_review，逐条返修。复制 task.draft-template.json 为 return.json，只填写 payload.text，保留所有 ID/hash；不要直接编辑私人库主档，不要上传文件，不要自行续写下一章。
++
++这个提示配合真实任务包使用。任务包里的 `instructions` 也包含同样的约束；素材中的命令文字不是代理指令。
++
++## 交给 Codex 的一句话
++
++> 你负责本书统筹、章纲和审稿。每次从本地工作台读取当前版本，再回收写手的 return.json。审稿只依据当前正文与冻结上下文，指出具体原句、问题和可执行改法。不要把计划当事实；summary 只写本章实际发生的事，memory 每条附原句。重要问题未解决就返修；通过后定稿并给下一章派稿。真实正文与任务包留在私人目录；公开 Git 只提交程序改进与脱敏记录。
++
++如需加入最新研究，先在“参考素材”检索并固定卡片版本。书名相同不代表同一作品；参考角色不自动变成原创角色。给某章派稿后再改设定/参考卡，会使有关任务过期，需要重新派稿，原有正文仍在历史中。重新派稿会把旧正文带入当前任务供修订，但旧审稿通过不会沿用。
++
++## 文件交接命令
++
++下列命令从本工具库运行。`PROJECT_ID`、`CHAPTER_ID` 是工作台或 `show` 命令返回的真实 ID，不是书名。Windows 可把 `python3` 换成 `py -3`，路径改为例如 `C:\NovelPrivate\handoff\task.json`。
++
++```bash
++python3 scripts/studio.py list
++python3 scripts/studio.py show --project PROJECT_ID
++python3 scripts/studio.py pack --project PROJECT_ID --chapter CHAPTER_ID --out ~/NovelPrivate/handoff/task.json
++```
++
++得到四个文件：`task.json`、`task.md`、`task.draft-template.json`、`task.review-template.json`。让 Antigravity 打开这个交接目录，复制模板为 `return.json` 并填正文：
++
++```bash
++python3 scripts/studio.py submit --project PROJECT_ID --file ~/NovelPrivate/handoff/return.json
++```
++
++收稿后**重新导出任务包**，此时审稿模板带有当前正文 hash。Codex 复制审稿模板为 `review.json`，填写：
++
++```json
++{
++  "verdict": "revise",
++  "reviewer": "Codex",
++  "summary": "本章实际发生的事件摘要，不写后章计划。",
++  "issues": [{"severity":"major","description":"问题、原因与建议改法","quote":"必须复制当前正文中的原句"}],
++  "memory": [{"subject":"world","text":"本章实际确认的变化","quote":"对应正文原句"}]
++}
++```
++
++上面只是 `payload` 的可编辑部分，必须保留模板原有 `chapter_id / task_id / context_hash / draft_hash / base_review_id`。人物记忆的 subject 用真实人物 ID；世界变化用 `world`。`pass` 不能带 blocker/major；返修必须至少有一个问题。程序只检查证据原句存在，不会判定解释是否正确。
++
++```bash
++python3 scripts/studio.py submit --project PROJECT_ID --file ~/NovelPrivate/handoff/review.json
++```
++
++定稿和其他规划修改也可用 `apply --project ID --expected-revision 当前版本 --file action.json`。文件格式为 `{"action":"finalize","payload":{"chapter_id":"实际ID"}}`。界面会自动带当前版本；版本冲突时保留输入，刷新核对后再提交，不直接改主档 JSON。
++
++## 第一次练习与验收
++
++在独立测试目录创建虚构演示，第一章已演示定稿，第二章已经派稿。它不是你的作品，也不是实际 AI 文学质量验收：
++
++```bash
++python3 scripts/studio.py --vault ~/NovelStudioDemo demo
++python3 scripts/studio.py --vault ~/NovelStudioDemo serve --open
++```
++
++先跑一章闭环。验收看五件事：写手能否只凭包开写；问题是否能定位到原句；返修是否针对问题；后章是否得到已确认变化；改前章后是否提醒后章重做。界面“定稿字数”统计非空白字符，不代表质量，也不把研究报告字数算作产出。
++
++## 备份和恢复
++
++```bash
++python3 scripts/studio.py backup --out ~/NovelPrivate/backup-2026-11-13.json
++python3 scripts/studio.py --vault ~/NovelRestored restore --file ~/NovelPrivate/backup-2026-11-13.json
++python3 scripts/studio.py --vault ~/NovelRestored serve --open
++```
++
++备份包括私人库的项目主档、JSON 资产、历史和已固定的参考快照，不包含独立研究库、原小说全文、检查点或生成的阅读副本。恢复目标必须为空目录；先校验全部文件路径和 SHA-256，再写入。项目快照导出用于阅读/交接，不等于完整备份。备用副本也含正文，保持私人保存。
++
++## 解决卡点
++
++- 任务过期：先检查设定、前章、参考卡发生了什么改变；确认改动后重新派稿，旧包不能覆盖新任务。
++- 无法给后章派稿：首版按章顺序生产，先完成前章定稿。章纲可以提前排，但正文事实不能提前生效。
++- 端口被占：已有工作台可能仍开着；访问原地址，或用 `serve --port 19424`。
++- Windows 无 Python：安装 Python 3.10+ 并启用 PATH；本入口不用 PowerShell。
++- 不知道文件在哪：启动输出会显示实际私人目录；Windows 和 WSL 要统一入口，不能两处各写一份后手工拼合。
++- HTX/dot：用户已授权连接，但本轮会话没有可用的 HTX 远程执行入口。这里交付的是代码与可执行流程，安装状态以 HTX 的实际执行结果为准。
++
++## 第一周如何推进
++
++建议第一天只确定一部原创的定位、三位核心人物和前三章目标；第二天完成第一章写作、审稿和一次返修；第三天完成第二章并检查人物状态；第四天修改前三章因果；第五天让你集中验收三章。每天 1–2 个完整章节循环，比再做数百轮来源审计更接近目标。以上是工作节奏建议，不是产量保证或已创建的定时任务。
++
++后续扩展顺序：实际样章质量校准 → 长篇分卷摘要与上下文预算 → 伏笔台账与因果关系图 → 接入经验证的本地代理调度。先用真实作品测出卡点，再决定是否需要 API 自动生成、手机远程入口或常驻任务。
+diff --git "a/docs/\347\253\240\350\212\202\344\273\273\345\212\241\346\250\241\346\235\277.md" "b/docs/\347\253\240\350\212\202\344\273\273\345\212\241\346\250\241\346\235\277.md"
+new file mode 100644
+index 0000000..137ae03
+--- /dev/null
++++ "b/docs/\347\253\240\350\212\202\344\273\273\345\212\241\346\250\241\346\235\277.md"
+@@ -0,0 +1,41 @@
++# 四种可以直接开工的任务
++
++这些是本项目新写的协作提示，不是第三方网站提示词的转载。先读取工作台导出的真实任务包；缺失的书名、人物和定位由项目主档补齐，不靠聊天记忆猜。下面的任务以你当前作品为对象，不会自动调用任何模型。
++
++## 开书：把研究变成一个可写的故事
++
++交给 Codex：
++
++> 读取当前故事定位与我选择的参考卡，只提炼可迁移的结构机制。提出三个原创方案，各用不超过 300 字说明：主角要什么、第一重阻碍、持续冲突来自哪里、人物必须付什么代价、读者为什么愿意继续读、最容易写崩的规则。比较完推荐一个。明确哪些是提案，不要把参考小说的人名、情节和设定直接搬入原创。选择确定后，写入故事定位、三位核心人物初始卡、世界规则和前三章计划；不继续扩大调研范围。
++
++验收：能用一句话说清核心冲突，能列出前三章不同的状态变化。没有这两点，不向写手派稿。
++
++## 开篇：给读者一个具体的承诺
++
++交给 Codex 规划，Antigravity 落文：
++
++> 只规划当前第一章。开场让主角处在具体情境里，尽快显示他想得到什么；让阻力通过动作或对话出现。给出一个本章兑现的小结果，以及一个自然留下的问题。不要先铺满世界百科，也不要为了悬念隐藏 POV 人物本来知道的常识。把开场行动、阻碍、选择、代价、结果分别写成章节节拍；文风服从项目设定。
++
++验收：第一章发生了不可忽略的变化，读者能看见主角的选择；是否采用强钩子由题材与整体节奏决定。
++
++## 常规章节：每章推动一件事
++
++交给 Codex：
++
++> 对照前章定稿摘要，检查这一章要推进的主问题。说明本章目标、为什么此刻行动、对手或环境怎样阻碍、主角怎样选择、得到和失去什么、结尾局面与开头有何不同。检查人物知道的信息是否足以支持其选择。只从有效前章带入事实，把未来计划留在章纲。填入当前章目标与节拍，再派稿。
++
++交给 Antigravity：
++
++> 依据 task.json 写本章，不自增改变全书走向的规则。对话要服务人物目标，描写要改变读者对情境的判断。允许安静章节，但不能没有状态变化。发现任务自相矛盾时返回具体冲突，不能凭空补一个新设定遮住它。将正文写入回收模板的 text。
++
++## 返修：按问题改，避免整章重抽
++
++交给 Antigravity：
++
++> 读取当前稿和最新审稿，先按 blocker、major、minor 排序。修复因果和人物选择，再处理句子。尽量保留已经成立的场景与有效细节；修改某处时检查相邻段落的承接。不要用作者旁白解释一个本应由行动证明的转变。返回完整新正文，保留回收模板版本字段，不覆盖旧文件。
++
++交给 Codex：
++
++> 检查新稿是否解决前一轮每个重要问题，是否引入新的矛盾。每个剩余问题给出原句、判断与改法。通过时摘要只记实际事件，人物/世界变化附原句。不能因为字数增加、语句更华丽或重复审了很多轮就判定质量提高。
++
++这里的产出标准是可写章纲、完整正文、可执行审稿与有效定稿；提示词收藏数量不计产能。
+diff --git a/novel-studio.cmd b/novel-studio.cmd
+new file mode 100644
+index 0000000..711bbb2
+--- /dev/null
++++ b/novel-studio.cmd
+@@ -0,0 +1,18 @@
++@echo off
++chcp 65001 >nul
++setlocal
++set "NOVEL_PY=python"
++py -3 --version >nul 2>&1
++if not errorlevel 1 set "NOVEL_PY=py -3"
++%NOVEL_PY% --version >nul 2>&1
++if errorlevel 1 (
++  echo Please install Python 3.10+ and enable Add Python to PATH.
++  pause
++  exit /b 1
++)
++if exist "%~dp0..\writing-vault\vault.json" (
++  %NOVEL_PY% -X utf8 "%~dp0scripts\studio.py" serve --open --research-vault "%~dp0..\writing-vault"
++) else (
++  %NOVEL_PY% -X utf8 "%~dp0scripts\studio.py" serve --open
++)
++if errorlevel 1 pause
+diff --git a/scripts/fictionlib/studio.py b/scripts/fictionlib/studio.py
+new file mode 100644
+index 0000000..14e24db
+--- /dev/null
++++ b/scripts/fictionlib/studio.py
+@@ -0,0 +1,357 @@
++"""Private, versioned chapter production. No model calls or inferred story facts."""
++
++import copy
++import hashlib
++import json
++import os
++from pathlib import Path
++
++from .storage import atomic_write, commit, digest, json_text, locked, new_id, read_json, safe_path
++from .vault import Vault, identifier, now, require_text
++
++
++def private_path(path):
++    root = Path(path).expanduser().resolve()
++    if any((parent / '.git').exists() for parent in (root, *root.parents)):
++        raise ValueError('私人作品目录不能位于 Git 仓库内；请使用独立目录')
++    return root
++
++
++def default_path():
++    return Path(os.environ['LOCALAPPDATA']) / 'NovelStudio' if os.name == 'nt' and os.environ.get('LOCALAPPDATA') else Path.home() / '.local/share/novel-studio'
++
++
++def _text(value, field, limit=100000, empty=False):
++    if empty and value == '':
++        return value
++    require_text(value, field, limit)
++    return value
++
++
++def _number(value, field):
++    if type(value) is not int or not 1 <= value <= 100000:
++        raise ValueError(field + ' 必须是 1–100000 的整数')
++    return value
++
++
++def _list(value, field, limit=1000):
++    if not isinstance(value, list) or len(value) > limit:
++        raise ValueError(field + ' 必须是列表且长度不超过 ' + str(limit))
++    return value
++
++
++def _find(records, key):
++    identifier(key)
++    for record in records:
++        if record['id'] == key:
++            return record
++    raise ValueError('记录不存在: ' + key)
++
++
++def _draft(chapter):
++    task = chapter['tasks'][-1] if chapter['tasks'] else None
++    return next((d for d in reversed(chapter['drafts']) if task and d['task_id'] == task['id']), None)
++
++
++def _review(chapter, draft):
++    return next((r for r in reversed(chapter['reviews']) if draft and r['draft_hash'] == draft['hash'] and r['task_id'] == draft['task_id']), None)
++
++
++def _contexts(project):
++    """Compute in order: invalid earlier finals cannot remain in later memory."""
++    result, previous = {}, []
++    for ch in sorted(project['chapters'], key=lambda c: c['number']):
++        context = {
++            'project': {'title':project['title'], 'brief':project['brief'], 'style':project['style']},
++            'chapter': {k:ch[k] for k in ('id','number','title','goal','pov','cast','beats')},
++            'characters': [c for c in project['characters'] if c['id'] in ch['cast']],
++            'rules': [r for r in project['rules'] if r['from_chapter'] <= ch['number']],
++            'references': project['references'],
++            'previous_chapters': copy.deepcopy(previous),
++        }
++        context_hash = digest(context)
++        task = ch['tasks'][-1] if ch['tasks'] else None
++        draft = _draft(ch)
++        review = _review(ch, draft)
++        ready = all(p['finalized'] for p in previous)
++        stale = bool(task and (task['context_hash'] != context_hash or not ready))
++        final = ch.get('final')
++        valid_final = bool(not stale and task and draft and review and review['verdict'] == 'pass' and final
++                           and final['task_id'] == task['id'] and final['draft_hash'] == draft['hash']
++                           and final['review_id'] == review['id'])
++        status = ('stale' if stale else 'finalized' if valid_final else
++                  'reviewed' if review and review['verdict'] == 'pass' else 'revise' if review else
++                  'draft' if draft else 'ready' if task else 'planned')
++        result[ch['id']] = {'context':context, 'context_hash':context_hash, 'ready':ready, 'status':status,
++                            'current_task':task, 'current_draft':draft, 'current_review':review}
++        previous.append({'id':ch['id'], 'number':ch['number'], 'title':ch['title'], 'finalized':valid_final,
++                         'draft_hash':draft['hash'] if valid_final else None,
++                         'summary':review['summary'] if valid_final else '',
++                         'memory':copy.deepcopy(review['memory']) if valid_final else []})
++    return result
++
++
++def decorated(project):
++    result = copy.deepcopy(project)
++    contexts = _contexts(project)
++    for ch in result['chapters']:
++        ch.update({k:contexts[ch['id']][k] for k in ('status','current_task','current_draft','current_review')})
++    result['chapters'].sort(key=lambda c:c['number'])
++    result['progress'] = {'total':len(result['chapters']),
++                          'finalized':sum(c['status'] == 'finalized' for c in result['chapters']),
++                          'drafted':sum(bool(c['drafts']) for c in result['chapters']),
++                          'words':sum(len(''.join(c['current_draft']['text'].split())) for c in result['chapters'] if c['status'] == 'finalized')}
++    return result
++
++
++class Studio:
++    def __init__(self, path):
++        self.root = private_path(path)
++        self.vault = Vault(self.root)
++
++    @classmethod
++    def init(cls, path):
++        root = private_path(path)
++        Vault.init(root)
++        return cls(root)
++
++    def _read(self, pid):
++        return read_json(safe_path(self.root, f'books/{identifier(pid)}/studio.json'))
++
++    def _save(self, p):
++        p['revision'] += 1
++        p['updated_at'] = now()
++        pid = p['project_id']
++        text = json_text(p)
++        project_path = safe_path(self.root,f'books/{pid}/project.json')
++        base = read_json(project_path) if project_path.exists() else {'schema_version':1, 'project_id':pid,
++                'status':'active', 'assets':[], 'created_at':p['created_at']}
++        base['title'] = p['title']
++        commit(self.root, {f'books/{pid}/studio.json':text,
++                           f'history/studio/{pid}/{p["revision"]:08}.json':text,
++                           f'books/{pid}/project.json':json_text(base)})
++        return decorated(p)
++
++    def create(self, title, brief='', style=''):
++        _text(title,'书名',500)
++        _text(brief,'故事定位',empty=True)
++        _text(style,'文风',empty=True)
++        p = {'schema_version':1, 'project_id':new_id('proj'), 'title':title, 'brief':brief, 'style':style,
++             'revision':0, 'created_at':now(), 'characters':[], 'rules':[], 'references':[], 'chapters':[]}
++        with locked(self.root):
++            return self._save(p)
++
++    def list(self):
++        with locked(self.root):
++            return [{'project_id':p['project_id'],'title':p['title'],'revision':p['revision']}
++                    for _, p in self.vault._records('books/*/studio.json')]
++
++    def get(self, pid):
++        with locked(self.root):
++            return decorated(self._read(pid))
++
++    def _check(self, pid, revision):
++        p = self._read(pid)
++        if type(revision) is not int or p['revision'] != revision:
++            raise ValueError('项目版本冲突，请刷新并保留本地输入后重试')
++        return p
++
++    def apply(self, pid, revision, action, data):
++        if not isinstance(data, dict):
++            raise ValueError('payload 必须是对象')
++        actions = {'update_project','character_upsert','rule_upsert','chapter_upsert','task_issue',
++                   'draft_submit','review_submit','finalize'}
++        if action not in actions:
++            raise ValueError('未知操作: ' + str(action))
++        with locked(self.root):
++            p = self._check(pid,revision)
++            getattr(self, '_' + action)(p,data)
++            return self._save(p)
++
++    def _update_project(self,p,d):
++        for key, limit in [('title',500),('brief',100000),('style',100000)]:
++            if key in d:
++                p[key] = _text(d[key],key,limit,empty=key != 'title')
++
++    def _character_upsert(self,p,d):
++        record = _find(p['characters'], d['id']) if d.get('id') else {'id':new_id('char')}
++        record.update({k:_text(d.get(k,''),k,empty=k != 'name') for k in ('name','role','voice','baseline')})
++        if not d.get('id'):
++            p['characters'].append(record)
++
++    def _rule_upsert(self,p,d):
++        record = _find(p['rules'],d['id']) if d.get('id') else {'id':new_id('rule')}
++        record.update(text=_text(d['text'],'世界规则'), from_chapter=_number(d['from_chapter'],'生效章节'))
++        if not d.get('id'):
++            p['rules'].append(record)
++
++    def _chapter_upsert(self,p,d):
++        number = _number(d['number'],'章节序号')
++        if any(c['number'] == number and c['id'] != d.get('id') for c in p['chapters']):
++            raise ValueError('章节序号重复')
++        cast = _list(d.get('cast',[]),'出场人物')
++        if len(cast) != len(set(cast)):
++            raise ValueError('出场人物重复')
++        for cid in cast:
++            _find(p['characters'],cid)
++        beats = _list(d.get('beats',[]),'章节节拍')
++        for beat in beats:
++            _text(beat,'节拍')
++        record = _find(p['chapters'],d['id']) if d.get('id') else {'id':new_id('ch'),'tasks':[], 'drafts':[], 'reviews':[], 'final':None}
++        record.update(number=number, cast=copy.deepcopy(cast), beats=copy.deepcopy(beats))
++        record.update({k:_text(d[k],k) for k in ('title','goal','pov')})
++        if not d.get('id'):
++            p['chapters'].append(record)
++
++    def _task_issue(self,p,d):
++        ch = _find(p['chapters'],d['chapter_id'])
++        computed = _contexts(p)[ch['id']]
++        if not computed['ready']:
++            raise ValueError('前章尚未有效定稿，先完成或修订前章')
++        if not p['brief'].strip():
++            raise ValueError('派稿前请填写故事定位')
++        if len(ch['tasks']) >= 1000:
++            raise ValueError('任务历史已达上限，请建立新项目')
++        ch['tasks'].append({'id':new_id('task'),'context_hash':computed['context_hash'],
++                            'context':computed['context'],'previous_review':computed['current_review'],'created_at':now()})
++        if computed['current_draft']:
++            old = computed['current_draft']
++            ch['drafts'].append({'id':new_id('draft'),'task_id':ch['tasks'][-1]['id'],
++                                'text':old['text'],'hash':old['hash'],'carried_from':old['id'],'created_at':now()})
++
++    def _task(self,p,d):
++        ch = _find(p['chapters'],d['chapter_id'])
++        context = _contexts(p)[ch['id']]
++        if not ch['tasks']:
++            raise ValueError('尚未派稿')
++        if context['status'] == 'stale' or d.get('task_id') != ch['tasks'][-1]['id'] or d.get('context_hash') != context['context_hash']:
++            raise ValueError('任务已过期，请重新导出当前任务包；旧正文仍保留')
++        return ch, context
++
++    def _draft_submit(self,p,d):
++        ch, context = self._task(p,d)
++        text = _text(d['text'],'正文',200000)
++        current = context['current_draft']
++        if 'base_draft_hash' not in d or d['base_draft_hash'] != (current['hash'] if current else None):
++            raise ValueError('稿件版本冲突，不能用旧稿覆盖新稿')
++        ch['drafts'].append({'id':new_id('draft'),'task_id':d['task_id'],'text':text,
++                             'hash':hashlib.sha256(text.encode('utf-8')).hexdigest(),'created_at':now()})
++
++    def _review_submit(self,p,d):
++        ch, context = self._task(p,d)
++        draft = context['current_draft']
++        if not draft or d.get('draft_hash') != draft['hash']:
++            raise ValueError('审稿绑定的稿件版本不是当前正文')
++        current_review = context['current_review']
++        if 'base_review_id' not in d or d['base_review_id'] != (current_review['id'] if current_review else None):
++            raise ValueError('审稿版本冲突，请重新导出审稿包；不能覆盖较新的审稿意见')
++        verdict = d.get('verdict')
++        if verdict not in ('pass','revise'):
++            raise ValueError('审稿结论只能是 pass 或 revise')
++        issues, memory = _list(d.get('issues',[]),'问题'), _list(d.get('memory',[]),'记忆')
++        for item in issues + memory:
++            if not isinstance(item,dict):
++                raise ValueError('问题和记忆条目必须是对象')
++            _text(item.get('quote'),'证据原句')
++            if item['quote'] not in draft['text']:
++                raise ValueError('证据原句不在当前正文内')
++        for item in issues:
++            if item.get('severity') not in ('blocker','major','minor'):
++                raise ValueError('问题严重度无效')
++            _text(item.get('description'),'问题说明')
++        if verdict == 'pass' and any(i['severity'] != 'minor' for i in issues):
++            raise ValueError('仍有阻断或重要问题，不能通过')
++        if verdict == 'revise' and not issues:
++            raise ValueError('返修必须说明至少一条问题')
++        for item in memory:
++            _text(item.get('text'),'记忆内容')
++            if item.get('subject') != 'world':
++                _find(p['characters'],item.get('subject'))
++        ch['reviews'].append({'id':new_id('review'),'task_id':d['task_id'],'draft_hash':draft['hash'],
++                              'context_hash':context['context_hash'],'verdict':verdict,
++                              'reviewer':_text(d.get('reviewer'),'审稿人',500),
++                              'summary':_text(d.get('summary'),'本章实际发生摘要'),
++                              'issues':copy.deepcopy(issues),'memory':copy.deepcopy(memory),'created_at':now()})
++
++    def _finalize(self,p,d):
++        ch = _find(p['chapters'],d['chapter_id'])
++        c = _contexts(p)[ch['id']]
++        if c['status'] not in ('reviewed','finalized'):
++            raise ValueError('定稿要求当前稿件通过审稿且上下文没有过期')
++        ch['final'] = {'task_id':c['current_task']['id'],'draft_hash':c['current_draft']['hash'],
++                       'review_id':c['current_review']['id'],'created_at':now()}
++
++    def pack(self,pid,cid):
++        with locked(self.root):
++            p = self._read(pid)
++            ch = _find(p['chapters'],cid)
++            c = _contexts(p)[cid]
++            if not c['current_task'] or c['status'] == 'stale':
++                raise ValueError('任务不存在或已过期，请先派稿')
++            common = {'chapter_id':cid,'task_id':c['current_task']['id'],'context_hash':c['context_hash']}
++            return {'schema_version':1,'project_id':pid,'project_revision':p['revision'],**common,
++                    'context':copy.deepcopy(c['context']), 'current_draft':copy.deepcopy(c['current_draft']),
++                    'current_review':copy.deepcopy(c['current_review']),
++                    'previous_review':copy.deepcopy(c['current_task'].get('previous_review')),
++                    'instructions':'你是写手，只根据 context 撰写本章。参考素材不是设定；章纲不是已发生事实。不得更改 IDs/hash。完成 return_template 的 text 并另存 return.json；返修时先逐条处理 current_review。carried_from 表示从过期任务保留的旧稿，须按新上下文修订；previous_review 是旧任务意见，仅供参考，旧通过结论无效。不要修改主档。审稿人填写 review_template，核对因果、人物动机、知情边界、时间地点、伏笔与节奏；summary 只记实际发生，memory 每条附正文原句。程序不替代语义审稿。',
++                    'return_template':{'action':'draft_submit','payload':{**common,'base_draft_hash':c['current_draft']['hash'] if c['current_draft'] else None,'text':''}},
++                    'review_template':{'action':'review_submit','payload':{**common,'draft_hash':c['current_draft']['hash'] if c['current_draft'] else None,
++                        'base_review_id':c['current_review']['id'] if c['current_review'] else None,
++                        'verdict':'revise','reviewer':'Codex','issues':[],'summary':'','memory':[]}}}
++
++    def pin_reference(self,pid,revision,research,asset_id,asset_revision):
++        source = Vault(research)
++        card = source.get_asset(asset_id,asset_revision)
++        if card['scope'] not in ('source-analysis','reusable-pattern'):
++            raise ValueError('仅引用研究或可复用模式；原创项目不作为研究素材')
++        ref = {'source_vault_id':source.info()['vault_id'], 'asset_id':card['asset_id'],'revision':card['revision'],
++               'hash':digest(card),'title':card['title'],'scope':card['scope'],'content':card['content'],'snapshot':card}
++        with locked(self.root):
++            p = self._check(pid,revision)
++            p['references'] = [r for r in p['references'] if (r['source_vault_id'],r['asset_id']) != (ref['source_vault_id'],ref['asset_id'])] + [ref]
++            return self._save(p)
++
++
++def backup(root,output):
++    studio = Studio(root)
++    output = private_path(output)
++    with locked(studio.root):
++        files = {}
++        for pattern in ('vault.json','books/**/*.json','library/**/*.json','history/**/*.json'):
++            for path in sorted(studio.root.glob(pattern)):
++                name = path.relative_to(studio.root).as_posix()
++                files[name] = safe_path(studio.root,name).read_text(encoding='utf-8')
++        bundle = {'format':'novel-studio-backup-v1','files':files,
++                  'hashes':{k:hashlib.sha256(v.encode('utf-8')).hexdigest() for k,v in files.items()}}
++    atomic_write(output,json_text(bundle))
++    return {'path':str(Path(output).resolve()),'files':len(files)}
++
++
++def restore(archive,target):
++    root = private_path(target)
++    if root.exists() and any(root.iterdir()):
++        raise ValueError('恢复目标必须为空目录')
++    bundle = read_json(archive)
++    if not isinstance(bundle,dict) or bundle.get('format') != 'novel-studio-backup-v1':
++        raise ValueError('备份格式无效')
++    files, hashes = bundle.get('files'), bundle.get('hashes')
++    if not isinstance(files,dict) or not isinstance(hashes,dict) or set(files) != set(hashes) or 'vault.json' not in files:
++        raise ValueError('备份清单无效')
++    for name,text in files.items():
++        safe_path(root,name)
++        if not (name == 'vault.json' or name.startswith(('books/','library/','history/'))) or not name.endswith('.json'):
++            raise ValueError('备份包含非生产数据路径')
++        if not isinstance(text,str) or hashlib.sha256(text.encode('utf-8')).hexdigest() != hashes[name]:
++            raise ValueError('备份内容校验失败')
++        value = json.loads(text)
++        if not isinstance(value,dict):
++            raise ValueError('备份记录不是对象')
++        if name == 'vault.json' and (value.get('schema_version') != 1 or not str(value.get('vault_id','')).startswith('vault-')):
++            raise ValueError('资料库标识无效')
++        if name.endswith('/studio.json'):
++            if value.get('schema_version') != 1 or name != f'books/{identifier(value.get("project_id"))}/studio.json':
++                raise ValueError('项目标识无效')
++            decorated(value)  # Validate required structure before any write.
++    with locked(root):
++        commit(root,files)
++    return Studio(root)
+diff --git a/scripts/fictionlib/studio_server.py b/scripts/fictionlib/studio_server.py
+new file mode 100644
+index 0000000..d3f3e35
+--- /dev/null
++++ b/scripts/fictionlib/studio_server.py
+@@ -0,0 +1,120 @@
++"""Loopback-only UI and bounded API; no arbitrary filesystem endpoints."""
++
++from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
++import json
++from pathlib import Path
++import secrets
++from urllib.parse import parse_qs, urlsplit
++
++from .storage import json_text
++from .vault import Vault
++
++WEB = Path(__file__).with_name('studio_web')
++MAX_BODY = 4 * 1024 * 1024
++
++
++def make_server(studio,port=19423,research=None):
++    research = Vault(research) if research else None
++
++    class Handler(BaseHTTPRequestHandler):
++        def log_message(self,*args):
++            pass  # Do not log private queries or manuscript content.
++
++        def send_data(self,code,data,kind='application/json; charset=utf-8'):
++            raw = data if isinstance(data,bytes) else data.encode('utf-8')
++            self.send_response(code)
++            self.send_header('Content-Type',kind)
++            self.send_header('Content-Length',str(len(raw)))
++            self.send_header('Cache-Control','no-store')
++            self.send_header('X-Content-Type-Options','nosniff')
++            self.send_header('Referrer-Policy','no-referrer')
++            self.send_header('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'")
++            self.end_headers()
++            self.wfile.write(raw)
++
++        def response(self,value,code=200):
++            self.send_data(code,json_text(value))
++
++        def host_valid(self):
++            expected = f'127.0.0.1:{self.server.server_port}'
++            if self.headers.get('Host') != expected:
++                self.response({'error':'仅允许从本机工作台地址访问'},403)
++                return False
++            origin = self.headers.get('Origin')
++            if origin and origin != 'http://' + expected:
++                self.response({'error':'拒绝跨站访问'},403)
++                return False
++            return True
++
++        def error(self,exc):
++            message = str(exc)
++            self.response({'error':message},409 if '冲突' in message or '另一操作' in message else 400)
++
++        def do_GET(self):
++            if not self.host_valid():
++                return
++            try:
++                url = urlsplit(self.path)
++                args = parse_qs(url.query)
++                def arg(name,default=''):
++                    return args.get(name,[default])[0]
++                if url.path == '/api/state':
++                    projects = studio.list()
++                    pid = arg('project') or (projects[0]['project_id'] if projects else None)
++                    self.response({'projects':projects,'selected':studio.get(pid) if pid else None,'research_enabled':bool(research)})
++                elif url.path == '/api/pack':
++                    self.response(studio.pack(arg('project'),arg('chapter')))
++                elif url.path == '/api/export':
++                    self.response(studio.get(arg('project')))
++                elif url.path == '/api/research':
++                    if not research:
++                        raise ValueError('启动时未指定 --research-vault，仍可独立创作')
++                    assets = research.search(query=arg('q'))
++                    self.response({'assets':[{k:a[k] for k in ('asset_id','title','revision','scope','content')} for a in assets if a['scope'] != 'original-project'][:50]})
++                elif url.path in ('/','/index.html','/app.js','/style.css'):
++                    name = 'index.html' if url.path == '/' else url.path[1:]
++                    data = (WEB/name).read_text(encoding='utf-8')
++                    if name == 'index.html':
++                        data = data.replace('__STUDIO_TOKEN__',self.server.token)
++                    mime = {'index.html':'text/html','app.js':'text/javascript','style.css':'text/css'}[name]
++                    self.send_data(200,data,mime+'; charset=utf-8')
++                else:
++                    self.response({'error':'没有这个入口'},404)
++            except (ValueError,KeyError,TypeError,OSError) as exc:
++                self.error(exc)
++
++        def do_POST(self):
++            if not self.host_valid():
++                return
++            if self.path != '/api/action':
++                self.response({'error':'没有这个入口'},404)
++                return
++            if not secrets.compare_digest(self.headers.get('X-Studio-Token',''),self.server.token):
++                self.response({'error':'工作台验证失败，请重新打开页面'},403)
++                return
++            try:
++                if self.headers.get('Content-Type','').split(';')[0] != 'application/json':
++                    raise ValueError('只接受 JSON')
++                length = int(self.headers.get('Content-Length','0'))
++                if not 0 < length <= MAX_BODY:
++                    self.response({'error':'请求大小超出限制'},413)
++                    return
++                request = json.loads(self.rfile.read(length).decode('utf-8'))
++                if not isinstance(request,dict) or not isinstance(request.get('payload'),dict):
++                    raise ValueError('请求和 payload 必须是对象')
++                action, data = request['action'],request['payload']
++                if action == 'create':
++                    result = studio.create(data['title'],data.get('brief',''),data.get('style',''))
++                elif action == 'reference_pin':
++                    if not research:
++                        raise ValueError('未配置研究资料库')
++                    result = studio.pin_reference(request['project_id'],request['expected_revision'],research.root,data['asset_id'],data['revision'])
++                else:
++                    result = studio.apply(request['project_id'],request['expected_revision'],action,data)
++                self.response({'selected':result})
++            except (ValueError,KeyError,TypeError,OSError) as exc:
++                self.error(exc)
++
++    server = ThreadingHTTPServer(('127.0.0.1',port),Handler)
++    server.token = secrets.token_urlsafe(32)
++    return server
+diff --git a/scripts/fictionlib/studio_web/app.js b/scripts/fictionlib/studio_web/app.js
+new file mode 100644
+index 0000000..a8c211c
+--- /dev/null
++++ b/scripts/fictionlib/studio_web/app.js
+@@ -0,0 +1,889 @@
++(() => {
++  'use strict';
++
++  const $ = (selector, root = document) => root.querySelector(selector);
++  const nodes = {
++    main: $('#main-content'), inspector: $('#inspector'), picker: $('#project-picker'),
++    nav: $('#main-nav'), chapters: $('#chapter-nav'), notice: $('#notice-region'),
++    sidebar: $('#sidebar'), backdrop: $('#sidebar-backdrop'), menu: $('#menu-toggle'),
++    file: $('#return-file'), breadcrumb: $('#breadcrumb'), export: $('#export-project'),
++  };
++  const state = {
++    projects: [], project: null, researchEnabled: false, page: 'overview', chapterId: null,
++    chapterTab: 'plan', editingCharacter: null, editingRule: null, creating: false,
++    busy: false, formCache: new Map(), research: [], researchQuery: '', searched: false,
++    searchBusy: false, packCache: new Map(), disabledButtons: [],
++  };
++  const statusLabels = {
++    planned: '待派稿', ready: '待写', draft: '待审稿', revise: '待返修',
++    reviewed: '可定稿', finalized: '已定稿', stale: '上下文过期',
++  };
++  const severityLabels = { blocker: '阻断', major: '重要', minor: '建议' };
++  const token = $('meta[name="studio-token"]')?.content || '';
++  const array = value => Array.isArray(value) ? value : [];
++  const text = value => typeof value === 'string' ? value : value == null ? '' : JSON.stringify(value, null, 2);
++  const project = () => state.project;
++  const chapters = () => array(project()?.chapters).slice().sort((a, b) => a.number - b.number);
++  const chapter = () => chapters().find(item => item.id === state.chapterId) || null;
++  const shortHash = value => value ? String(value).slice(0, 12) : '—';
++  const wordCount = value => Array.from(String(value || '').replace(/\s/g, '')).length;
++  const number = value => Number(value || 0).toLocaleString('zh-CN');
++  const formId = (kind, id = '') => `${project()?.project_id || 'new'}:${kind}:${id}`;
++
++  function el(tag, attributes = {}, children = []) {
++    const element = document.createElement(tag);
++    for (const [key, value] of Object.entries(attributes)) {
++      if (value === undefined || value === null || value === false) continue;
++      if (key === 'className') element.className = value;
++      else if (key === 'text') element.textContent = value;
++      else if (key.startsWith('on') && typeof value === 'function') element.addEventListener(key.slice(2).toLowerCase(), value);
++      else if (key === 'checked' || key === 'disabled' || key === 'hidden' || key === 'required') element[key] = Boolean(value);
++      else if (key === 'value') element.value = value;
++      else element.setAttribute(key, String(value));
++    }
++    for (const child of Array.isArray(children) ? children : [children]) {
++      if (child !== null && child !== undefined && child !== false) element.append(child instanceof Node ? child : document.createTextNode(String(child)));
++    }
++    return element;
++  }
++
++  function button(label, handler, options = {}) {
++    const { primary = false, quiet = false, small = false, wide = false, disabled = false, type = 'button', ...rest } = options;
++    return el('button', {
++      type, className: `button${primary ? ' button-primary' : ''}${quiet ? ' button-quiet' : ''}${small ? ' button-small' : ''}${wide ? ' button-wide' : ''}`,
++      disabled, onClick: handler, ...rest,
++    }, label);
++  }
++
++  function badge(status) {
++    return el('span', { className: `badge ${Object.hasOwn(statusLabels, status) ? status : ''}` }, statusLabels[status] || status || '待派稿');
++  }
++
++  function heading(kicker, title, subtitle, actions, status) {
++    return el('div', { className: 'page-heading' }, [
++      el('div', { className: 'page-heading-copy' }, [
++        el('span', { className: 'eyebrow' }, kicker),
++        el('div', { className: 'title-with-badge' }, [el('h1', {}, title), status ? badge(status) : null]),
++        subtitle ? el('p', { className: 'page-subtitle' }, subtitle) : null,
++      ]),
++      actions ? el('div', { className: 'page-heading-actions' }, actions) : null,
++    ]);
++  }
++
++  function card(title, children, description, extraClass = '') {
++    return el('section', { className: `card ${extraClass}` }, [
++      title ? el('div', { className: 'card-title' }, el('h2', {}, title)) : null,
++      description ? el('p', { className: 'card-description' }, description) : null,
++      ...array(children),
++    ]);
++  }
++
++  function field(label, control, hint, required = false) {
++    const id = control.id || `field-${Math.random().toString(36).slice(2, 11)}`;
++    control.id = id;
++    if (hint) {
++      control.setAttribute('aria-describedby', `${id}-hint`);
++    }
++    return el('div', { className: 'field' }, [
++      el('label', { for: id }, [label, required ? el('span', { className: 'required', 'aria-hidden': 'true' }, '*') : null]),
++      control,
++      hint ? el('p', { className: 'field-hint', id: `${id}-hint` }, hint) : null,
++    ]);
++  }
++
++  function input(name, value, placeholder = '', attributes = {}) {
++    return el('input', { type: 'text', name, value: text(value), placeholder, ...attributes });
++  }
++
++  function textarea(name, value, placeholder = '', attributes = {}) {
++    return el('textarea', { name, value: text(value), placeholder, ...attributes });
++  }
++
++  function hidden(name, value) {
++    return input(name, value, '', { type: 'hidden' });
++  }
++
++  function select(name, selected, options, attributes = {}) {
++    const control = el('select', { name, ...attributes }, options.map(([value, label]) => el('option', { value }, label)));
++    control.value = selected == null ? '' : String(selected);
++    return control;
++  }
++
++  function formValues(id, defaults = {}) {
++    return { ...defaults, ...(state.formCache.get(id) || {}) };
++  }
++
++  function rememberForm(form) {
++    if (!form?.dataset.cacheId) return;
++    const data = new FormData(form);
++    const result = {};
++    for (const [key, value] of data) {
++      const all = data.getAll(key);
++      result[key] = key === 'cast' ? all : all.length > 1 ? all : value;
++    }
++    if (form.querySelector('[name="cast"]')) result.cast = data.getAll('cast');
++    state.formCache.set(form.dataset.cacheId, result);
++  }
++
++  function rememberAllForms() {
++    document.querySelectorAll('form[data-cache-id]').forEach(rememberForm);
++  }
++
++  function form(id, submit, children, className = '') {
++    const element = el('form', { 'data-cache-id': id, className, onSubmit: async event => {
++      event.preventDefault();
++      rememberForm(element);
++      try { await submit(new FormData(element), element); } catch (error) { showError(error); }
++    } }, children);
++    element.addEventListener('input', () => rememberForm(element));
++    element.addEventListener('change', () => rememberForm(element));
++    return element;
++  }
++
++  function footer(label, note = '保存到本地作品。', extra) {
++    return el('div', { className: 'form-footer' }, [
++      el('p', {}, note),
++      el('div', { className: 'button-group' }, [extra, button(label, null, { type: 'submit', primary: true, 'data-mutation': 'true' })]),
++    ]);
++  }
++
++  function empty(title, description, action, mark = '✧') {
++    return el('div', { className: 'empty-state' }, [
++      el('div', { className: 'empty-mark', 'aria-hidden': 'true' }, mark),
++      el('h3', {}, title), el('p', {}, description), action,
++    ]);
++  }
++
++  async function request(url, options = {}) {
++    let response;
++    try {
++      response = await fetch(url, { credentials: 'same-origin', cache: 'no-store', ...options });
++    } catch (_) {
++      throw new Error('无法连接本机工作台。请检查服务是否仍在运行；你的表单输入已保留。');
++    }
++    let data;
++    try { data = await response.json(); } catch (_) { throw new Error('服务返回了无法读取的内容。你的表单输入已保留，请重新加载状态后再试。'); }
++    if (!response.ok) {
++      const error = new Error(data.error || `请求未成功（${response.status}）`);
++      error.status = response.status;
++      throw error;
++    }
++    return data;
++  }
++
++  function showNotice(message, isError = false, conflict = false) {
++    nodes.notice.replaceChildren(el('div', { className: `notice${isError ? ' error' : ''}`, role: isError ? 'alert' : 'status' }, [
++      el('div', { className: 'notice-message' }, message),
++      el('div', { className: 'notice-actions' }, [
++        conflict ? button('载入最新版本', () => loadState(project()?.project_id, true), { small: true }) : null,
++        el('button', { type: 'button', className: 'icon-button', 'aria-label': '关闭提示', onClick: () => nodes.notice.replaceChildren() }, '×'),
++      ]),
++    ]));
++  }
++
++  function showError(error) {
++    const conflict = error?.status === 409;
++    const suffix = conflict ? ' 表单输入已保留。载入最新版本后，请检查任务和正文版本再提交。' : '';
++    showNotice(`${error?.message || '操作未完成，请重试。'}${suffix}`, true, conflict);
++  }
++
++  function setBusy(value) {
++    state.busy = value;
++    if (value) {
++      state.disabledButtons = Array.from(document.querySelectorAll('[data-mutation]')).filter(node => !node.disabled);
++      state.disabledButtons.forEach(node => { node.disabled = true; });
++    } else {
++      state.disabledButtons.forEach(node => { if (node.isConnected) node.disabled = false; });
++      state.disabledButtons = [];
++    }
++    nodes.main.setAttribute('aria-busy', String(value));
++  }
++
++  async function mutate(action, payload, options = {}) {
++    if (state.busy) return false;
++    rememberAllForms();
++    const oldProjectId = project()?.project_id;
++    setBusy(true);
++    try {
++      const result = await request('/api/action', {
++        method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Studio-Token': token },
++        body: JSON.stringify({ project_id: action === 'create' ? null : oldProjectId, expected_revision: action === 'create' ? null : project()?.revision, action, payload }),
++      });
++      if (!result.selected) throw new Error('保存成功响应缺少作品内容，请重新载入工作台确认。');
++      state.project = result.selected;
++      const metadata = { project_id: project().project_id, title: project().title, revision: project().revision };
++      const index = state.projects.findIndex(item => item.project_id === metadata.project_id);
++      if (index < 0) state.projects.push(metadata); else state.projects[index] = metadata;
++      if (options.clearForm) state.formCache.delete(options.clearForm);
++      state.packCache.clear();
++      if (options.after) options.after(result.selected);
++      state.creating = false;
++      setBusy(false);
++      updateURL();
++      render();
++      showNotice(options.message || '已保存。');
++      return true;
++    } catch (error) {
++      showError(error);
++      return false;
++    } finally {
++      setBusy(false);
++    }
++  }
++
++  async function loadState(projectId, preserve = false) {
++    if (preserve) rememberAllForms();
++    try {
++      const data = await request(`/api/state${projectId ? `?project=${encodeURIComponent(projectId)}` : ''}`);
++      state.projects = array(data.projects);
++      state.project = data.selected || null;
++      state.researchEnabled = Boolean(data.research_enabled);
++      state.packCache.clear();
++      if (state.chapterId && !chapter()) { state.chapterId = null; state.page = 'overview'; }
++      state.creating = !state.project;
++      updateURL();
++      render();
++      if (preserve) showNotice('已载入最新版本，未提交的输入仍保留。请核对内容后再保存。');
++    } catch (error) {
++      showError(error);
++      if (!project()) {
++        nodes.main.replaceChildren(heading('NOVEL STUDIO', '暂时无法打开工作台', '检查启动窗口中的服务状态，然后重试。'), empty('连接尚未建立', '如果刚刚启动服务，请稍等片刻后重新连接。', button('重新连接', () => loadState(projectId), { primary: true })));
++      }
++    }
++  }
++
++  function updateURL() {
++    const url = new URL(window.location.href);
++    if (project()) url.searchParams.set('project', project().project_id); else url.searchParams.delete('project');
++    window.history.replaceState(null, '', `${url.pathname}${url.search}`);
++    document.title = project() ? `${project().title} · 私人小说工作台` : '私人小说工作台 · Novel Studio';
++  }
++
++  function closeSidebar() {
++    nodes.sidebar.classList.remove('open');
++    nodes.backdrop.hidden = true;
++    nodes.menu.setAttribute('aria-expanded', 'false');
++    document.body.classList.remove('drawer-open');
++    nodes.sidebar.inert = window.innerWidth <= 700;
++  }
++
++  function go(page, chapterId = null, tab = 'plan') {
++    rememberAllForms();
++    state.page = page;
++    state.chapterId = chapterId;
++    state.chapterTab = tab;
++    state.creating = false;
++    closeSidebar();
++    render();
++    nodes.main.focus({ preventScroll: true });
++    if (window.innerWidth <= 700) window.scrollTo({ top: 0, behavior: 'auto' });
++  }
++
++  function startCreate() {
++    rememberAllForms();
++    state.creating = true;
++    state.page = 'overview';
++    state.chapterId = null;
++    closeSidebar();
++    render();
++    $('input[name="title"]', nodes.main)?.focus();
++  }
++
++  function newChapter() {
++    if (!project()) return startCreate();
++    go('chapter', null, 'plan');
++    $('input[name="title"]', nodes.main)?.focus();
++  }
++
++  function renderSidebar() {
++    const projectSelect = select('project', project()?.project_id, state.projects.length ? state.projects.map(item => [item.project_id, item.title || '未命名作品']) : [['', '还没有作品']], { className: 'project-select', 'aria-label': '选择作品', disabled: !state.projects.length });
++    projectSelect.addEventListener('change', async event => {
++      rememberAllForms();
++      state.page = 'overview'; state.chapterId = null; state.editingCharacter = null; state.editingRule = null;
++      state.research = []; state.searched = false;
++      closeSidebar();
++      await loadState(event.target.value);
++    });
++    nodes.picker.replaceChildren(el('div', { className: 'project-picker' }, [
++      el('label', { className: 'project-picker-label', for: 'project-select' }, '当前作品'),
++      projectSelect,
++      el('button', { className: 'new-project-link', type: 'button', onClick: startCreate }, '+ 新建作品'),
++    ]));
++    projectSelect.id = 'project-select';
++    const navItems = [['overview', '◈', '作品概览'], ['characters', '♙', '人物卡'], ['rules', '⌘', '世界规则'], ['references', '▤', '参考素材']];
++    nodes.nav.replaceChildren(...navItems.map(([page, symbol, label]) => el('button', {
++      type: 'button', className: `nav-button${state.page === page && !state.creating ? ' active' : ''}`,
++      'aria-current': state.page === page && !state.creating ? 'page' : null, disabled: !project(), onClick: () => go(page),
++    }, [el('span', { className: 'nav-symbol', 'aria-hidden': 'true' }, symbol), label])));
++    const items = chapters();
++    nodes.chapters.replaceChildren(...(items.length ? items.map(item => el('button', {
++      type: 'button', className: `chapter-link${state.page === 'chapter' && item.id === state.chapterId ? ' active' : ''}`,
++      'aria-current': state.page === 'chapter' && item.id === state.chapterId ? 'page' : null,
++      onClick: () => go('chapter', item.id, item.status === 'planned' ? 'plan' : item.status === 'draft' || item.status === 'reviewed' ? 'review' : 'draft'),
++    }, [
++      el('span', { className: 'chapter-number' }, String(item.number).padStart(2, '0')),
++      el('span', { className: 'chapter-link-copy' }, [
++        el('span', { className: 'chapter-link-title', title: item.title }, item.title),
++        el('span', { className: 'chapter-link-meta' }, [el('span', { className: `status-dot ${item.status}`, 'aria-hidden': 'true' }), statusLabels[item.status] || '待派稿']),
++      ]),
++    ])) : [el('p', { className: 'sidebar-empty' }, project() ? '给故事写下第一章计划。' : '创建作品后，在这里组织章节。')]));
++    $('#new-chapter').disabled = !project();
++    nodes.export.disabled = !project();
++    const pageNames = { overview: '作品概览', characters: '人物卡', rules: '世界规则', references: '参考素材', chapter: chapter() ? `第 ${chapter().number} 章 · ${chapter().title}` : '新增章节' };
++    nodes.breadcrumb.textContent = state.creating ? '新建作品' : pageNames[state.page] || '作品概览';
++  }
++
++  function render() {
++    renderSidebar();
++    const content = state.creating || !project() ? renderWelcome() : state.page === 'characters' ? renderCharacters() : state.page === 'rules' ? renderRules() : state.page === 'references' ? renderReferences() : state.page === 'chapter' ? renderChapter() : renderOverview();
++    nodes.main.replaceChildren(...array(content));
++    renderInspector();
++  }
++
++  function projectForm(creating = false) {
++    const id = creating ? 'new-project' : formId('project');
++    const data = formValues(id, creating ? { title: '', brief: '', style: '' } : project());
++    return form(id, async values => {
++      await mutate(creating ? 'create' : 'update_project', { title: values.get('title').trim(), brief: values.get('brief').trim(), style: values.get('style').trim() }, {
++        clearForm: id, message: creating ? '作品已创建。接下来添加人物和第一章计划。' : '作品设定已保存。',
++        after: () => { state.page = 'overview'; state.chapterId = null; },
++      });
++    }, [
++      field('作品名称', input('title', data.title, '为你的故事起一个名字', { required: true, maxlength: 180 }), null, true),
++      field('故事简述', textarea('brief', data.brief, '谁想要什么？是什么阻止了他？故事将走向哪里？', { rows: 3, required: true }), '这段简述会进入写手任务上下文。', true),
++      field('写作风格', textarea('style', data.style, '例如：第三人称限知视角，克制的叙述，具体的动作与感官细节。', { rows: 2 }), '写清叙事视角、节奏与语言边界，方便持续保持一致。'),
++      footer(creating ? '创建作品  →' : '保存作品设定', creating ? '真实创作从空白作品开始。' : '修改设定可能使已派发任务过期。', creating && project() ? button('取消', () => go('overview'), { quiet: true }) : null),
++    ]);
++  }
++
++  function renderWelcome() {
++    return [el('section', { className: 'welcome-panel' }, [
++      el('div', { className: 'welcome-note' }, [el('span', { className: 'local-dot', 'aria-hidden': 'true' }), '你的故事 · 你的本地工作空间']),
++      el('h1', { className: 'welcome-title' }, ['从一个念头，', el('br'), '写到', el('em', {}, '下一章。')]),
++      el('p', { className: 'welcome-description' }, '把人物、章纲、正文和审稿放在一起。每次只推进清楚的一步，让故事持续生长。'),
++      el('div', { className: 'welcome-process' }, [
++        ['01', '立好故事与人物', '留下稳定的创作起点'], ['02', '按章写作与回收', '用任务包交接正文'], ['03', '审稿、返修、定稿', '让前章成为后章的记忆'],
++      ].map(([index, title, description]) => el('div', { className: 'welcome-process-item' }, [el('span', {}, index), el('strong', {}, title), el('p', {}, description)]))),
++      card('创建你的作品', [projectForm(true)]),
++    ])];
++  }
++
++  function renderOverview() {
++    const current = project();
++    const progress = current.progress || {};
++    const items = chapters();
++    const stats = [['章节总数', progress.total ?? items.length, '章'], ['已产正文', progress.drafted, '章'], ['已经定稿', progress.finalized, '章'], ['定稿字数', progress.words, '字']];
++    return [
++      heading('YOUR STORY, IN PROGRESS', current.title, current.brief || '先为作品写下故事简述，再开始第一章。', button('+ 新增章节', newChapter, { primary: true })),
++      el('div', { className: 'stats-grid' }, stats.map(([label, value, unit]) => el('div', { className: 'stat-card' }, [el('div', { className: 'stat-label' }, label), el('div', { className: 'stat-value' }, [number(value), el('span', { className: 'stat-unit' }, unit)])]))),
++      el('div', { className: 'section-label' }, [el('h2', {}, '章节进度'), el('span', { className: 'eyebrow' }, `${items.length} CHAPTERS`)]),
++      items.length ? el('div', { className: 'chapter-table' }, items.map(item => el('button', { type: 'button', className: 'chapter-row', onClick: () => go('chapter', item.id, item.status === 'planned' ? 'plan' : item.status === 'draft' || item.status === 'reviewed' ? 'review' : 'draft') }, [
++        el('span', { className: 'chapter-row-number' }, String(item.number).padStart(2, '0')),
++        el('span', {}, [el('strong', {}, item.title), el('span', { className: 'chapter-row-goal' }, item.goal || '补充本章目标')]),
++        badge(item.status),
++      ]))) : empty('故事还在开篇之前', '先添加人物与世界规则，再为第一章写下目标和情节节拍。', button('规划第一章', newChapter, { primary: true })),
++      el('div', { className: 'section-spacer' }, card('作品设定', [projectForm()], '这里的设定是每次写作交接的共同起点。')),
++    ];
++  }
++
++  function renderCharacters() {
++    const items = array(project().characters);
++    const editing = items.find(item => item.id === state.editingCharacter);
++    const id = formId('character', editing?.id || 'new');
++    const values = formValues(id, editing || { name: '', role: '', voice: '', baseline: '' });
++    const editor = form(id, async data => {
++      await mutate('character_upsert', { ...(editing ? { id: editing.id } : {}), name: data.get('name').trim(), role: data.get('role').trim(), voice: data.get('voice').trim(), baseline: data.get('baseline').trim() }, {
++        clearForm: id, message: editing ? '人物卡已更新。' : '人物卡已添加。', after: () => { state.editingCharacter = null; },
++      });
++    }, [
++      el('div', { className: 'field-grid' }, [field('人物姓名', input('name', values.name, '人物的名字', { required: true }), null, true), field('故事身份', input('role', values.role, '主角 / 对手 / 配角…'))]),
++      field('声音与表达', textarea('voice', values.voice, '他怎样说话？常用词、语气、习惯，以及不会说的话。', { rows: 2 })),
++      field('开篇基线', textarea('baseline', values.baseline, '故事开始时的身份、欲望、关系、已知信息和人物边界。', { rows: 3, required: true }), '只写开篇状态。后续变化由已定稿章节中的记忆提案带入。', true),
++      footer(editing ? '保存人物' : '添加人物', '人物的成长发生在章节里。', editing ? button('取消编辑', () => { state.editingCharacter = null; render(); }, { quiet: true }) : null),
++    ]);
++    return [
++      heading('CHARACTER NOTEBOOK', '人物卡', '留下人物的初始状态与声音，让每一章都知道自己在写谁。'),
++      ...(items.length ? items.map(item => el('article', { className: 'card record-card' }, [
++        el('div', { className: 'record-heading' }, [el('div', { className: 'record-title' }, [el('span', { className: 'character-avatar', 'aria-hidden': 'true' }, Array.from(item.name || '?')[0]), el('div', {}, [el('h3', {}, item.name), el('span', { className: 'record-subtitle' }, item.role || '未填写故事身份')])]), button('编辑', () => { rememberAllForms(); state.editingCharacter = item.id; render(); $('input[name="name"]')?.focus(); }, { small: true, quiet: true })]),
++        el('dl', { className: 'record-definition' }, [el('dt', {}, '声音'), el('dd', {}, item.voice || '未填写')]),
++        el('dl', { className: 'record-definition' }, [el('dt', {}, '开篇基线'), el('dd', {}, item.baseline)]),
++      ])) : [empty('从一个人物开始', '不必一次写完所有设定。先留下推动第一章的人物，以及他最想要的东西。')]),
++      el('div', { className: 'section-spacer' }, card(editing ? `编辑 · ${editing.name}` : '添加人物', [editor])),
++    ];
++  }
++
++  function renderRules() {
++    const items = array(project().rules);
++    const editing = items.find(item => item.id === state.editingRule);
++    const id = formId('rule', editing?.id || 'new');
++    const values = formValues(id, editing || { text: '', from_chapter: 1 });
++    const editor = form(id, async data => {
++      await mutate('rule_upsert', { ...(editing ? { id: editing.id } : {}), text: data.get('text').trim(), from_chapter: Number(data.get('from_chapter')) }, {
++        clearForm: id, message: '世界规则已保存。', after: () => { state.editingRule = null; },
++      });
++    }, [
++      field('规则内容', textarea('text', values.text, '写下这个世界中必须成立的一件事。', { rows: 3, required: true }), '写可执行的边界：能发生什么、不能发生什么，以及必须付出的代价。', true),
++      field('从第几章生效', input('from_chapter', values.from_chapter, '', { type: 'number', min: 1, step: 1, required: true }), '未来章节的规则不会提前进入前章任务。', true),
++      footer(editing ? '保存规则' : '添加规则', '修改规则会重新校验任务上下文。', editing ? button('取消编辑', () => { state.editingRule = null; render(); }, { quiet: true }) : null),
++    ]);
++    return [
++      heading('THE RULES OF THIS WORLD', '世界规则', '给故事一个可信的边界，也给变化一个明确的起点。'),
++      ...(items.length ? items.map(item => el('article', { className: 'card record-card' }, [
++        el('div', { className: 'record-heading' }, [el('span', { className: 'badge' }, `第 ${item.from_chapter} 章起生效`), button('编辑', () => { rememberAllForms(); state.editingRule = item.id; render(); $('textarea[name="text"]')?.focus(); }, { small: true, quiet: true })]),
++        el('p', { className: 'record-text' }, item.text),
++      ])) : [empty('世界的边界，由你来写', '现实逻辑、时间规则、能力代价、不能被打破的事实，都可以成为一条规则。')]),
++      el('div', { className: 'section-spacer' }, card(editing ? '编辑世界规则' : '添加世界规则', [editor])),
++    ];
++  }
++
++  function renderReferences() {
++    const pinned = array(project().references);
++    const sections = [heading('REFERENCE DESK', '参考素材', '引用研究库中的素材快照，为写作提供依据。参考资料不会自动成为故事事实。')];
++    if (state.researchEnabled) {
++      const search = el('form', { className: 'search-form', onSubmit: async event => {
++        event.preventDefault();
++        const query = new FormData(search).get('q').trim();
++        state.researchQuery = query; state.searchBusy = true;
++        render();
++        try {
++          const result = await request(`/api/research?q=${encodeURIComponent(query)}`);
++          state.research = array(result.assets); state.searched = true;
++        } catch (error) { showError(error); }
++        finally { state.searchBusy = false; if (state.page === 'references') render(); }
++      } }, [input('q', state.researchQuery, '搜索标题或研究内容…', { type: 'search', 'aria-label': '搜索研究素材' }), button(state.searchBusy ? '搜索中…' : '搜索素材', null, { type: 'submit', primary: true, disabled: state.searchBusy })]);
++      sections.push(card('从研究库引用', [search, el('p', { className: 'small-note' }, '只搜索启动工作台时配置的研究库。固定引用会保留该版本的完整快照。')]));
++      if (state.searched) {
++        sections.push(el('div', { className: 'section-label' }, [el('h2', {}, '搜索结果'), el('span', { className: 'eyebrow' }, `${state.research.length} 条素材`)]));
++        if (!state.research.length) sections.push(empty('没有找到匹配素材', '试试更短的关键词，或确认研究库里已经有对应素材。'));
++        state.research.forEach(asset => {
++          const exists = pinned.some(item => item.asset_id === asset.asset_id && item.revision === asset.revision);
++          sections.push(referenceCard(asset, exists ? button('已固定此版本', null, { disabled: true, small: true }) : button('固定引用', () => mutate('reference_pin', { asset_id: asset.asset_id, revision: asset.revision }, { message: '已固定参考素材快照。' }), { primary: true, small: true, 'data-mutation': 'true' })));
++        });
++      }
++    } else {
++      sections.push(el('div', { className: 'inline-notice' }, [el('p', {}, '当前没有连接研究库。已固定的参考快照仍然可以使用。'), el('p', {}, '需要引用新素材时，在启动本地工作台时指定研究 Vault。')]));
++    }
++    sections.push(el('div', { className: 'section-label section-spacer' }, [el('h2', {}, '本作品已固定的素材'), el('span', { className: 'eyebrow' }, `${pinned.length} REFERENCES`)]));
++    sections.push(...(pinned.length ? pinned.map(asset => referenceCard(asset)) : [empty('还没有固定的参考素材', '参考不是创作的前置条件。你可以先写，再为需要依据的细节补充资料。')]));
++    return sections;
++  }
++
++  function referenceCard(asset, action) {
++    return el('article', { className: 'card record-card' }, [
++      el('div', { className: 'record-heading' }, [el('div', {}, [el('h3', {}, asset.title || asset.asset_id), el('span', { className: 'record-subtitle' }, `${asset.asset_id} · 版本 ${asset.revision}`)]), action]),
++      el('div', { className: 'tag-line' }, [el('span', { className: 'badge reference' }, '参考资料'), asset.scope ? el('span', { className: 'badge' }, text(asset.scope)) : null]),
++      el('details', { className: 'inspector-details' }, [el('summary', {}, '展开素材快照'), el('div', { className: 'reference-content' }, text(asset.content))]),
++      asset.hash ? el('div', { className: 'record-footer' }, [el('span', {}, '快照指纹'), el('span', { className: 'mono' }, shortHash(asset.hash))]) : null,
++    ]);
++  }
++
++  function chapterSteps(status) {
++    const stages = ['章纲', '写作', '审稿', '定稿'];
++    const at = { planned: 0, ready: 1, draft: 2, revise: 1, reviewed: 3, finalized: 4, stale: 0 }[status] || 0;
++    const children = [];
++    stages.forEach((label, index) => {
++      if (index) children.push(el('span', { className: 'step-line', 'aria-hidden': 'true' }));
++      children.push(el('span', { className: `step-chip${index < at ? ' done' : index === at ? ' active' : ''}` }, `${String(index + 1).padStart(2, '0')} ${label}`));
++    });
++    return el('div', { className: 'chapter-stepbar', 'aria-label': `当前阶段：${statusLabels[status] || '规划章节'}` }, children);
++  }
++
++  function renderChapter() {
++    const current = chapter();
++    const sections = [heading(current ? `CHAPTER ${String(current.number).padStart(2, '0')}` : 'THE NEXT CHAPTER', current ? current.title : '新增章节', current ? current.goal : '先明确这一章要改变什么，再把它交给写手。', null, current?.status)];
++    if (!current) return [...sections, card('章节计划', [chapterPlanForm(null)])];
++    sections.push(chapterSteps(current.status));
++    const tabs = [['plan', '章节计划'], ['draft', '正文'], ['review', '审稿与定稿']];
++    const tablist = el('div', { className: 'tabs', role: 'tablist', 'aria-label': '章节工作区' }, tabs.map(([tab, label], index) => el('button', {
++      type: 'button', id: `tab-${tab}`, className: `tab-button${state.chapterTab === tab ? ' active' : ''}`, role: 'tab',
++      'aria-selected': state.chapterTab === tab ? 'true' : 'false', 'aria-controls': 'chapter-panel', tabindex: state.chapterTab === tab ? 0 : -1,
++      onClick: () => { rememberAllForms(); state.chapterTab = tab; render(); $(`#tab-${tab}`)?.focus(); },
++      onKeydown: event => {
++        const next = event.key === 'ArrowRight' ? (index + 1) % tabs.length : event.key === 'ArrowLeft' ? (index + tabs.length - 1) % tabs.length : event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : null;
++        if (next !== null) { event.preventDefault(); rememberAllForms(); state.chapterTab = tabs[next][0]; render(); $(`#tab-${state.chapterTab}`)?.focus(); }
++      },
++    }, label)));
++    sections.push(tablist);
++    const body = state.chapterTab === 'plan' ? [card('章节计划', [chapterPlanForm(current)], '章纲是本章任务的边界。修改计划后，需要重新生成有效任务。')] : state.chapterTab === 'draft' ? renderDraft(current) : renderReview(current);
++    sections.push(el('div', { role: 'tabpanel', id: 'chapter-panel', 'aria-labelledby': `tab-${state.chapterTab}` }, body));
++    return sections;
++  }
++
++  function chapterPlanForm(current) {
++    const id = formId('chapter', current?.id || 'new');
++    const data = formValues(id, current ? { ...current, beats: array(current.beats).join('\n') } : { number: Math.max(0, ...chapters().map(item => item.number)) + 1, title: '', goal: '', pov: '', cast: [], beats: '' });
++    const people = array(project().characters);
++    return form(id, async values => {
++      const previousIds = new Set(chapters().map(item => item.id));
++      await mutate('chapter_upsert', {
++        ...(current ? { id: current.id } : {}), number: Number(values.get('number')), title: values.get('title').trim(), goal: values.get('goal').trim(),
++        pov: values.get('pov').trim(), cast: values.getAll('cast'), beats: values.get('beats').split('\n').map(line => line.trim()).filter(Boolean),
++      }, { clearForm: id, message: current ? '章节计划已保存。请检查任务是否需要重新生成。' : '章节计划已创建，可以生成写手任务了。', after: selected => {
++        state.chapterId = current?.id || array(selected.chapters).find(item => !previousIds.has(item.id))?.id;
++        state.chapterTab = 'plan';
++      } });
++    }, [
++      el('div', { className: 'field-grid' }, [field('章节序号', input('number', data.number, '', { type: 'number', min: 1, step: 1, required: true }), null, true), field('章节标题', input('title', data.title, '这一章的名字', { required: true }), null, true)]),
++      field('本章目标', textarea('goal', data.goal, '本章结束时，人物与局面发生了什么变化？', { rows: 3, required: true }), null, true),
++      field('叙事视角 / POV', input('pov', data.pov, '例如：林舟 · 第三人称限知', { required: true }), '写清谁在感知这一章，以及叙述者知道多少。', true),
++      el('div', { className: 'field' }, [el('span', { className: 'field-label', id: 'cast-label' }, '出场人物'), el('div', { className: 'character-checks', role: 'group', 'aria-labelledby': 'cast-label' }, people.length ? people.map(person => el('label', { className: 'checkbox-label' }, [el('input', { type: 'checkbox', name: 'cast', value: person.id, checked: array(data.cast).includes(person.id) }), person.name])) : [el('p', { className: 'field-hint' }, '还没有人物卡。可以先保存章纲，再去添加人物。')])]),
++      field('情节节拍', textarea('beats', data.beats, '开场：人物带着什么目的进入场景\n阻碍：什么打乱了原来的计划\n转折：新的选择或信息\n收束：留下什么后果', { rows: 5, required: true }), '每行一个节拍，按本章发生顺序填写。', true),
++      footer(current ? '保存章节计划' : '创建章节', current ? '计划变化会使旧任务包失效。' : '保存后即可生成本章任务包。'),
++    ]);
++  }
++
++  function returnIntro(title, description) {
++    return el('div', { className: 'return-intro' }, [el('div', {}, [el('h3', {}, title), el('p', {}, description)]), button('导入回执 JSON', importReturn, { small: true })]);
++  }
++
++  function staleNotice(current) {
++    return current.status === 'stale' ? el('div', { className: 'inline-notice' }, '当前任务的上下文已变化。历史正文仍保留；请先重新生成任务，再交接写作或审稿。') : null;
++  }
++
++  function renderDraft(current) {
++    const task = current.current_task;
++    const draft = current.current_draft;
++    const sections = [staleNotice(current), returnIntro('把写手的正文带回来', '导入任务包约定的 JSON 回执，或在下方直接编辑并提交。')].filter(Boolean);
++    if (!task) {
++      sections.push(empty('先为本章生成任务', '任务会冻结本章计划、人物与前文记忆。正文回收据此检查版本。', button('生成写手任务', () => issueTask(current), { primary: true, 'data-mutation': 'true', disabled: !canIssue(current) })));
++      if (draft?.text) sections.push(el('div', { className: 'read-only-prose' }, draft.text));
++      if (array(current.drafts).length) sections.push(draftHistory(current));
++      return sections;
++    }
++    const id = formId('draft', current.id);
++    const data = formValues(id, { text: draft?.text || '', task_id: task.id, context_hash: task.context_hash, base_draft_hash: draft?.hash || '' });
++    const changed = data.task_id !== task.id || data.context_hash !== task.context_hash || data.base_draft_hash !== (draft?.hash || '');
++    const draftText = textarea('text', data.text, '从第一句话开始。也可以粘贴写手的完整正文。', { className: 'prose-editor', required: true, spellcheck: false, 'aria-label': '章节正文' });
++    const counter = el('span', { className: 'draft-count', 'aria-live': 'off' }, `${number(wordCount(data.text))} 字`);
++    draftText.addEventListener('input', () => { counter.textContent = `${number(wordCount(draftText.value))} 字`; });
++    const editor = form(id, async values => {
++      await mutate('draft_submit', { chapter_id: current.id, task_id: values.get('task_id'), context_hash: values.get('context_hash'), base_draft_hash: values.get('base_draft_hash') || null, text: values.get('text') }, {
++        clearForm: id, message: '正文已回收。接下来审稿，或导出任务包交给审稿人。', after: () => { state.chapterTab = 'review'; },
++      });
++    }, [
++      hidden('task_id', data.task_id), hidden('context_hash', data.context_hash), hidden('base_draft_hash', data.base_draft_hash),
++      el('div', { className: 'editor-toolbar' }, [el('strong', {}, draft ? '当前正文 · 可继续编辑' : '本章正文'), counter]),
++      field('章节正文', draftText, null, true),
++      el('p', { className: 'binding-note' }, `任务 ${shortHash(data.task_id)} · 上下文 ${shortHash(data.context_hash)}${draft?.hash ? ` · 原稿 ${shortHash(data.base_draft_hash)}` : ''}`),
++      footer('保存正文，进入审稿', '提交新正文后，旧审稿结论不再适用。'),
++    ], 'draft-form');
++    if (changed) sections.push(el('div', { className: 'inline-notice' }, [
++      el('p', {}, '你保留的未提交正文来自另一个任务或正文版本。确认最新上下文后，可以将这份输入绑定到当前版本。'),
++      button('保留输入，使用当前版本', () => {
++        rememberForm(editor);
++        state.formCache.set(id, { ...state.formCache.get(id), task_id: task.id, context_hash: task.context_hash, base_draft_hash: draft?.hash || '' });
++        render();
++      }, { small: true }),
++    ]));
++    if (current.current_review?.verdict === 'revise') sections.push(reviewOutcome(current.current_review));
++    sections.push(card(null, [editor], null, 'draft-card'));
++    if (array(current.drafts).length) sections.push(draftHistory(current));
++    return sections;
++  }
++
++  function draftHistory(current) {
++    const drafts = array(current.drafts).slice().reverse();
++    const picker = select('history', drafts[0]?.id, drafts.map((item, index) => [item.id || String(index), `第 ${drafts.length - index} 稿 · ${number(wordCount(item.text))} 字 · ${shortHash(item.hash)}`]), { 'aria-label': '选择历史正文版本' });
++    const detail = el('p', { className: 'binding-note' });
++    const content = el('div', { className: 'read-only-prose', tabindex: 0, 'aria-label': '所选历史稿件，只读' });
++    const show = () => {
++      const selected = drafts.find((item, index) => String(item.id || index) === picker.value) || drafts[0];
++      if (!selected) return;
++      detail.textContent = `任务 ${shortHash(selected.task_id)} · ${selected.created_at || '历史稿件'}${selected.carried_from ? ' · 从旧任务承接' : ''}`;
++      content.textContent = selected.text || '';
++    };
++    picker.addEventListener('change', show);
++    show();
++    return el('details', { className: 'advanced' }, [el('summary', {}, `历史正文 · ${drafts.length} 稿（只读）`), field('历史版本', picker, '新稿会保留旧正文。这里的历史记录不代表当前任务已通过审稿。'), detail, content]);
++  }
++
++  function reviewOutcome(review) {
++    return el('section', { className: `review-outcome${review.verdict === 'revise' ? ' revise' : ''}` }, [
++      el('h3', {}, review.verdict === 'pass' ? '当前审稿：通过' : '当前审稿：需要返修'),
++      el('p', {}, review.summary || '审稿人未填写摘要。'),
++      array(review.issues).length ? el('ul', { className: 'issue-list' }, review.issues.map(issue => el('li', { className: 'issue-item' }, [
++        el('span', { className: `severity ${Object.hasOwn(severityLabels, issue.severity) ? issue.severity : ''}` }, severityLabels[issue.severity] || issue.severity),
++        el('strong', {}, issue.description), issue.quote ? el('blockquote', {}, issue.quote) : null,
++      ]))) : null,
++    ]);
++  }
++
++  function parseArray(value, name) {
++    let parsed;
++    try { parsed = JSON.parse(value || '[]'); } catch (_) { throw new Error(`${name}不是有效的 JSON。请检查引号、逗号和方括号，输入已保留。`); }
++    if (!Array.isArray(parsed)) throw new Error(`${name}必须是 JSON 数组，例如 []。`);
++    return parsed;
++  }
++
++  function renderReview(current) {
++    const task = current.current_task;
++    const draft = current.current_draft;
++    const review = current.current_review;
++    const sections = [staleNotice(current)].filter(Boolean);
++    if (!task || !draft) {
++      sections.push(empty('正文就绪后，再开始审稿', '审稿结论会绑定具体正文与任务上下文。先在正文页完成本章回收。', button('前往正文', () => go('chapter', current.id, 'draft'), { primary: true })));
++      return sections;
++    }
++    sections.push(returnIntro('让审稿意见落在正文上', '由 Codex 或你完成审稿；程序校验版本与证据，不判断文学质量。'));
++    if (review) sections.push(reviewOutcome(review));
++    if (current.status === 'reviewed') sections.push(card('本章已具备定稿条件', [el('p', { className: 'small-note' }, '定稿后，本章摘要与有证据的人物变化才会进入后续章节。'), el('div', { className: 'button-group spaced' }, [button('确认定稿本章', () => finalizeChapter(current), { primary: true, 'data-mutation': 'true' })])], null, 'card-muted'));
++    if (current.status === 'finalized') sections.push(el('div', { className: 'inline-notice' }, '本章已定稿。若再次提交正文或修改审稿，后续章节的上下文会重新校验。'));
++    const id = formId('review', current.id);
++    const data = formValues(id, { task_id: task.id, context_hash: task.context_hash, draft_hash: draft.hash, base_review_id: review?.id || '', verdict: review?.verdict || '', reviewer: review?.reviewer || 'Codex', summary: review?.summary || '', issues: JSON.stringify(array(review?.issues), null, 2), memory: JSON.stringify(array(review?.memory), null, 2) });
++    const changed = data.task_id !== task.id || data.context_hash !== task.context_hash || data.draft_hash !== draft.hash || data.base_review_id !== (review?.id || '');
++    const editor = form(id, async values => {
++      const payload = { chapter_id: current.id, task_id: values.get('task_id'), context_hash: values.get('context_hash'), draft_hash: values.get('draft_hash'), base_review_id: values.get('base_review_id') || null, verdict: values.get('verdict'), reviewer: values.get('reviewer').trim(), summary: values.get('summary').trim(), issues: parseArray(values.get('issues'), '审稿问题'), memory: parseArray(values.get('memory'), '记忆提案') };
++      await mutate('review_submit', payload, { clearForm: id, message: payload.verdict === 'pass' ? '审稿已通过，可以定稿本章。' : '返修意见已保存，请导出返修任务包或继续编辑正文。' });
++    }, [
++      hidden('task_id', data.task_id), hidden('context_hash', data.context_hash), hidden('draft_hash', data.draft_hash), hidden('base_review_id', data.base_review_id),
++      el('div', { className: 'field-grid' }, [field('审稿结论', select('verdict', data.verdict, [['', '请选择结论'], ['revise', '需要返修'], ['pass', '通过，可定稿']], { required: true }), null, true), field('审稿人', input('reviewer', data.reviewer, 'Codex 或你的名字', { required: true }), null, true)]),
++      field('章节摘要', textarea('summary', data.summary, '概括本章已经发生的事件、关键转折与结尾状态。定稿后，这段摘要会进入后章上下文。', { rows: 4, required: true }), '摘要记录正文中已经发生的事实，不写未来剧情。', true),
++      el('details', { className: 'advanced', open: array(review?.issues).length ? '' : null }, [
++        el('summary', {}, '审稿问题与记忆提案 · JSON'),
++        field('审稿问题', textarea('issues', data.issues, '[]', { rows: 6, className: 'code-editor', spellcheck: false }), '数组格式：[{"severity":"major","description":"问题说明","quote":"正文原句"}]。严重度为 blocker、major、minor；通过时不能留有 blocker / major。'),
++        field('记忆提案', textarea('memory', data.memory, '[]', { rows: 6, className: 'code-editor', spellcheck: false }), '数组格式：[{"subject":"world 或人物 ID","text":"已发生的变化","quote":"正文原句"}]。人物 ID 可从任务包读取；没有变化时填 []。'),
++      ]),
++      el('p', { className: 'binding-note' }, `审稿绑定正文 ${shortHash(data.draft_hash)} · 任务 ${shortHash(data.task_id)}`),
++      footer('保存审稿结论', '问题与记忆中的引句必须存在于当前正文。'),
++    ]);
++    if (changed) sections.push(el('div', { className: 'inline-notice' }, [el('p', {}, '保留的审稿输入对应旧正文或旧审稿记录。请重新阅读当前正文与最新审稿，再决定是否更新绑定。'), button('已重新核对，绑定当前版本', () => {
++      rememberForm(editor);
++      state.formCache.set(id, { ...state.formCache.get(id), task_id: task.id, context_hash: task.context_hash, draft_hash: draft.hash, base_review_id: review?.id || '' });
++      render();
++    }, { small: true })]));
++    sections.push(card('手动填写审稿', [editor], '也可以直接导入审稿回执。每次审稿只针对当前这一稿。'));
++    sections.push(el('details', { className: 'advanced' }, [el('summary', {}, '展开当前正文，核对引句'), el('div', { className: 'read-only-prose' }, draft.text)]));
++    return sections;
++  }
++
++  function previousChapter(current) {
++    const before = chapters().filter(item => item.number < current.number);
++    return before[before.length - 1] || null;
++  }
++
++  function canIssue(current) {
++    return chapters().filter(item => item.number < current.number).every(item => item.status === 'finalized');
++  }
++
++  async function issueTask(current) {
++    await mutate('task_issue', { chapter_id: current.id }, { message: '写手任务已生成。下载任务包后交给写手；回收时会校验任务版本。', after: () => { state.chapterId = current.id; state.page = 'chapter'; state.chapterTab = 'draft'; } });
++  }
++
++  async function finalizeChapter(current) {
++    await mutate('finalize', { chapter_id: current.id }, { message: `第 ${current.number} 章已定稿。摘要与记忆已成为后续章节的有效上下文。` });
++  }
++
++  function nextAction(current) {
++    if (!current) {
++      const active = chapters().find(item => item.status !== 'finalized');
++      if (active) return { title: `继续第 ${active.number} 章`, description: `${active.title} · ${statusLabels[active.status] || '待派稿'}。把眼前这一章推进一步。`, label: '打开这一章 →', action: () => go('chapter', active.id, active.status === 'planned' ? 'plan' : active.status === 'draft' || active.status === 'reviewed' ? 'review' : 'draft') };
++      return { title: chapters().length ? '故事可以继续了' : '规划你的第一章', description: chapters().length ? '已有章节全部定稿。写下下一章目标，让故事继续向前。' : '把一个清楚的目标，拆成几个可执行的情节节拍。', label: '+ 新增章节', action: newChapter };
++    }
++    if ((current.status === 'planned' || current.status === 'stale') && !canIssue(current)) {
++      const previous = chapters().find(item => item.number < current.number && item.status !== 'finalized') || previousChapter(current);
++      return { title: `先完成第 ${previous.number} 章`, description: '按章节顺序生产。前章定稿后，其摘要与人物变化才能进入本章任务。', label: '返回前章 →', action: () => go('chapter', previous.id, previous.status === 'draft' || previous.status === 'reviewed' ? 'review' : 'draft') };
++    }
++    const actions = {
++      planned: { title: '准备好，交给写手', description: '生成本章任务，冻结当前章纲、人物与前文记忆，再下载交接文件。', label: '生成写手任务 →', action: () => issueTask(current), mutation: true },
++      stale: { title: '更新本章任务上下文', description: '设定、章纲或前文已变化。重新派稿后，旧回执将不能用于新任务。', label: '重新生成任务 →', action: () => issueTask(current), mutation: true },
++      ready: { title: '本章等待写手落笔', description: '下载任务包交给写手。完成后导入回执，或直接在正文页提交。', label: '下载写手任务包', action: () => exportPack(current, 'md') },
++      draft: { title: '正文已到，开始审稿', description: '核对目标、人物、连续性与正文证据。通过或返修，都绑定这一稿。', label: '打开审稿工作区 →', action: () => go('chapter', current.id, 'review') },
++      revise: { title: '带着意见，打磨这一稿', description: '返修包会带上当前正文与审稿意见。提交新稿后，需要重新审稿。', label: '下载返修任务包', action: () => exportPack(current, 'md') },
++      reviewed: { title: '这一章，可以定稿了', description: '当前稿已通过审稿。定稿后，摘要与人物变化将传递给后章。', label: '确认定稿本章', action: () => finalizeChapter(current), mutation: true },
++      finalized: { title: '这一章，写成了', description: '有效的摘要与人物变化已留给后章。继续故事的下一步。', label: '继续下一章 →', action: () => { const next = chapters().find(item => item.number > current.number); if (next) go('chapter', next.id); else newChapter(); } },
++    };
++    return actions[current.status] || actions.planned;
++  }
++
++  function renderInspector() {
++    if (!project() || state.creating) {
++      nodes.inspector.replaceChildren(
++        el('div', { className: 'inspector-label' }, 'A QUIET PLACE TO WRITE'),
++        el('div', { className: 'next-card' }, [el('span', { className: 'eyebrow' }, '从这里开始'), el('h2', {}, '让故事有迹可循'), el('p', {}, '一份作品主档，串起每个章节的计划、正文、审稿与记忆。')]),
++        el('section', { className: 'inspector-section' }, [el('h3', {}, '你的创作流程'), el('ol', { className: 'workflow-list' }, [
++          ['01', '设定与章纲', '确定故事方向、人物基线和本章目标。'],
++          ['02', '交给写手', '下载任务包，让写手在明确上下文里创作。'],
++          ['03', '回收与审稿', '导入正文回执，审稿意见绑定具体稿件。'],
++          ['04', '定稿与记忆', '定稿后的摘要和变化，成为下一章的起点。'],
++        ].map(([index, title, description]) => el('li', {}, [el('span', { className: 'workflow-number' }, index), el('div', { className: 'workflow-copy' }, [el('strong', {}, title), el('p', {}, description)])])))]),
++        el('p', { className: 'inspector-footnote' }, '工作台不自动生成正文或执行语义审稿。写手与审稿人通过本地文件完成交接。'),
++      );
++      return;
++    }
++    const current = state.page === 'chapter' ? chapter() : null;
++    const next = nextAction(current);
++    const progress = project().progress || {};
++    const total = progress.total ?? chapters().length;
++    const finalized = progress.finalized || 0;
++    const items = [el('div', { className: 'inspector-label' }, 'FOCUS ON THE NEXT STEP'),
++      el('section', { className: 'next-card' }, [el('span', { className: 'eyebrow' }, '下一步'), el('h2', {}, next.title), el('p', {}, next.description), button(next.label, next.action, { primary: true, wide: true, 'data-mutation': next.mutation ? 'true' : null })]),
++      el('section', { className: 'inspector-section' }, [
++        el('h3', {}, '作品进度'),
++        el('div', { className: 'inspector-metrics' }, [el('div', { className: 'inspector-metric' }, [`${finalized} / ${total}`, el('span', {}, '章节已定稿')]), el('div', { className: 'inspector-metric' }, [number(progress.words), el('span', {}, '字 · 定稿正文')])]),
++        el('progress', { className: 'progress-track', 'aria-label': '章节定稿进度', max: Math.max(1, total), value: finalized }),
++      ]),
++    ];
++    if (current) {
++      const people = array(project().characters).filter(person => array(current.cast).includes(person.id));
++      const rules = array(project().rules).filter(rule => Number(rule.from_chapter) <= Number(current.number));
++      const context = el('section', { className: 'inspector-section' }, [
++        el('h3', {}, '本章上下文'),
++        el('dl', { className: 'context-list' }, [
++          ['叙事视角', current.pov || '未设定'], ['适用规则', `${rules.length} 条`], ['参考素材', `${array(project().references).length} 份快照`],
++          ['任务版本', current.current_task ? shortHash(current.current_task.id) : '尚未派稿'], ['上下文指纹', shortHash(current.current_task?.context_hash)],
++        ].map(([label, value]) => el('div', { className: 'context-item' }, [el('dt', {}, label), el('dd', {}, value)]))),
++        people.length ? el('div', { className: 'avatar-stack' }, people.map(person => el('span', { className: 'person-pill' }, person.name))) : null,
++      ]);
++      if (current.current_task) {
++        const preview = el('pre', {}, '展开后读取当前任务上下文。');
++        const details = el('details', { className: 'inspector-details', onToggle: async event => {
++          if (!event.target.open || event.target.dataset.loaded) return;
++          preview.textContent = '正在读取…';
++          try { const pack = await getPack(current); preview.textContent = JSON.stringify(pack.context, null, 2); event.target.dataset.loaded = 'true'; }
++          catch (error) { preview.textContent = error.message; }
++        } }, [el('summary', {}, '查看冻结的任务上下文'), preview]);
++        context.append(details);
++      }
++      items.push(context);
++      items.push(el('section', { className: 'inspector-section' }, [
++        el('h3', {}, current.status === 'revise' ? '返修交接' : '写作交接'),
++        el('p', { className: 'inspector-copy' }, current.current_task ? 'Markdown 方便阅读，JSON 用于精确交接。下载包包含正文与审稿回执模板。' : '生成任务后，可下载本章上下文与回执模板。'),
++        el('div', { className: 'button-group spaced' }, [button('任务包 .md', () => exportPack(current, 'md'), { small: true, disabled: !current.current_task }), button('任务包 .json', () => exportPack(current, 'json'), { small: true, disabled: !current.current_task })]),
++        button('↑ 导入正文 / 审稿回执', importReturn, { wide: true, disabled: !current.current_task }),
++      ]));
++    } else {
++      items.push(el('section', { className: 'inspector-section' }, [el('h3', {}, '故事的基础'), el('dl', { className: 'context-list' }, [['人物卡', `${array(project().characters).length} 位`], ['世界规则', `${array(project().rules).length} 条`], ['参考素材', `${array(project().references).length} 份`]].map(([label, value]) => el('div', { className: 'context-item' }, [el('dt', {}, label), el('dd', {}, value)]))), button('管理人物与声音 →', () => go('characters'), { quiet: true, small: true })]));
++    }
++    items.push(el('p', { className: 'inspector-footnote' }, `作品版本 r${project().revision} · 单一主档\n任务包是交接快照；回收时会校验任务、上下文与正文版本。`));
++    nodes.inspector.replaceChildren(...items);
++  }
++
++  function packKey(current) {
++    return `${project().project_id}:${current.id}:${current.current_task?.id}:${current.current_draft?.hash}:${project().revision}`;
++  }
++
++  async function getPack(current) {
++    const key = packKey(current);
++    if (state.packCache.has(key)) return state.packCache.get(key);
++    const pack = await request(`/api/pack?project=${encodeURIComponent(project().project_id)}&chapter=${encodeURIComponent(current.id)}`);
++    state.packCache.set(key, pack);
++    return pack;
++  }
++
++  function safeFilename(value) {
++    return String(value || '作品').replace(/[<>:"/\\|?*\u0000-\u001f]/g, '_').slice(0, 100);
++  }
++
++  function download(content, filename, mime) {
++    const blob = new Blob([content], { type: mime });
++    const url = URL.createObjectURL(blob);
++    const link = el('a', { href: url, download: filename, hidden: true });
++    document.body.append(link); link.click(); link.remove();
++    window.setTimeout(() => URL.revokeObjectURL(url), 30000);
++  }
++
++  function markdownValue(value, depth = 0) {
++    if (typeof value === 'string') return value;
++    if (value === null || value === undefined) return '（无）';
++    if (Array.isArray(value)) return value.length ? value.map((item, index) => typeof item === 'object' ? `### ${index + 1}\n\n${markdownValue(item, depth + 1)}` : `- ${text(item)}`).join('\n\n') : '（无）';
++    if (typeof value === 'object') return Object.entries(value).map(([key, item]) => {
++      const names = { project: '作品', title: '标题', brief: '故事简述', style: '写作风格', chapter: '本章计划', number: '章节序号', goal: '本章目标', pov: '叙事视角', beats: '情节节拍', cast: '出场人物', characters: '人物卡', name: '姓名', role: '故事身份', voice: '声音与表达', baseline: '开篇基线', rules: '世界规则', text: '内容', from_chapter: '生效章节', references: '参考素材', previous_chapters: '前文章节', summaries: '前文摘要', memories: '已定稿记忆', memory: '记忆', summary: '章节摘要', content: '素材内容', subject: '主体', quote: '正文证据' };
++      const label = names[key] || key;
++      return typeof item === 'object' && item !== null ? `**${label}**\n\n${markdownValue(item, depth + 1)}` : `**${label}**：${text(item)}`;
++    }).join('\n\n');
++    return String(value);
++  }
++
++  function packMarkdown(pack, current) {
++    return [
++      `# 《${project().title}》 · 第 ${current.number} 章 ${current.title}`,
++      '> 本地写作交接快照。请按回执模板交回 JSON；不要自行更改任务标识与版本指纹。',
++      `- 任务编号：${pack.task_id || current.current_task?.id}\n- 上下文指纹：${pack.context_hash || current.current_task?.context_hash}\n- 作品版本：${project().revision}`,
++      '## 使用说明', typeof pack.instructions === 'string' ? pack.instructions : markdownValue(pack.instructions),
++      '## 冻结的任务上下文', markdownValue(pack.context),
++      ...(pack.current_draft ? ['## 当前正文（返修时以此稿为基础）', text(pack.current_draft.text ?? pack.current_draft)] : []),
++      ...(pack.current_review ? ['## 当前审稿意见', markdownValue(pack.current_review)] : []),
++      ...(pack.previous_review ? ['## 旧审稿参考（仅供返修参考，不构成当前稿的有效批准）', markdownValue(pack.previous_review)] : []),
++      '## 正文回执模板', '把完整正文填入 payload.text。保留任务标识、上下文指纹与原稿指纹。',
++      `\`\`\`json\n${JSON.stringify(pack.return_template, null, 2)}\n\`\`\``,
++      '## 审稿回执模板', '审稿由 Codex 或人完成。问题与记忆提案必须附当前正文中的原句；通过时不能留有 blocker 或 major 问题。',
++      `\`\`\`json\n${JSON.stringify(pack.review_template, null, 2)}\n\`\`\``,
++    ].join('\n\n') + '\n';
++  }
++
++  async function exportPack(current, format) {
++    try {
++      const pack = await getPack(current);
++      const name = `${safeFilename(project().title)}_第${String(current.number).padStart(2, '0')}章_任务包`;
++      download(format === 'json' ? JSON.stringify(pack, null, 2) + '\n' : packMarkdown(pack, current), `${name}.${format}`, format === 'json' ? 'application/json;charset=utf-8' : 'text/markdown;charset=utf-8');
++      showNotice(`已生成${format === 'json' ? ' JSON' : ' Markdown'}任务包下载。交给写手后，使用回执 JSON 回收正文或审稿。`);
++    } catch (error) { showError(error); }
++  }
++
++  async function exportProject() {
++    if (!project()) return;
++    try {
++      const data = await request(`/api/export?project=${encodeURIComponent(project().project_id)}`);
++      download(JSON.stringify(data, null, 2) + '\n', `${safeFilename(project().title)}_r${project().revision}_作品快照.json`, 'application/json;charset=utf-8');
++      showNotice('作品快照已生成下载。此文件是当前作品导出；完整 Vault 备份请使用 backup 命令。');
++    } catch (error) { showError(error); }
++  }
++
++  function importReturn() {
++    if (!project()) return;
++    nodes.file.value = '';
++    nodes.file.click();
++  }
++
++  async function handleReturnFile() {
++    const file = nodes.file.files?.[0];
++    if (!file) return;
++    try {
++      if (file.size > 20 * 1024 * 1024) throw new Error('回执文件超过 20 MB，请确认导入的是单章 JSON 回执。');
++      let data;
++      try { data = JSON.parse(await file.text()); } catch (_) { throw new Error('无法读取这个 JSON 文件。请导入填写好的正文或审稿回执，而不是完整任务包。'); }
++      if (!data || typeof data !== 'object' || !['draft_submit', 'review_submit'].includes(data.action) || !data.payload || typeof data.payload !== 'object' || Array.isArray(data.payload)) throw new Error('回执需要包含 action 和 payload，action 只能是 draft_submit 或 review_submit。请使用任务包里的回执模板。');
++      if (data.project_id && data.project_id !== project().project_id) throw new Error('这份回执属于另一部作品。请先切换到对应作品再导入。');
++      const target = chapters().find(item => item.id === data.payload.chapter_id);
++      if (!target) throw new Error('回执中的章节不属于当前作品，请核对任务包来源。');
++      await mutate(data.action, data.payload, {
++        clearForm: formId(data.action === 'draft_submit' ? 'draft' : 'review', target.id),
++        message: data.action === 'draft_submit' ? '正文回执已回收。现在可以审稿。' : '审稿回执已回收。请查看结论与下一步操作。',
++        after: () => { state.page = 'chapter'; state.chapterId = target.id; state.chapterTab = 'review'; },
++      });
++    } catch (error) { showError(error); }
++    finally { nodes.file.value = ''; }
++  }
++
++  nodes.menu.addEventListener('click', () => {
++    const open = !nodes.sidebar.classList.contains('open');
++    nodes.sidebar.classList.toggle('open', open);
++    nodes.backdrop.hidden = !open;
++    nodes.menu.setAttribute('aria-expanded', String(open));
++    nodes.sidebar.inert = !open && window.innerWidth <= 700;
++    document.body.classList.toggle('drawer-open', open);
++    if (open) ($('.project-select:not(:disabled)', nodes.sidebar) || $('#sidebar-close'))?.focus();
++  });
++  nodes.backdrop.addEventListener('click', () => { closeSidebar(); nodes.menu.focus(); });
++  $('#sidebar-close').addEventListener('click', () => { closeSidebar(); nodes.menu.focus(); });
++  document.addEventListener('keydown', event => {
++    if (!nodes.sidebar.classList.contains('open')) return;
++    if (event.key === 'Escape') { closeSidebar(); nodes.menu.focus(); }
++    if (event.key === 'Tab') {
++      const controls = Array.from(nodes.sidebar.querySelectorAll('a[href],button:not(:disabled),select:not(:disabled),input:not(:disabled),[tabindex="0"]')).filter(node => node.getClientRects().length);
++      const first = controls[0], last = controls[controls.length - 1];
++      if (!nodes.sidebar.contains(document.activeElement)) { event.preventDefault(); (event.shiftKey ? last : first)?.focus(); }
++      else if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
++      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
++    }
++  });
++  window.addEventListener('resize', () => {
++    if (window.innerWidth > 700) closeSidebar();
++    else nodes.sidebar.inert = !nodes.sidebar.classList.contains('open');
++  });
++  $('#new-chapter').addEventListener('click', newChapter);
++  nodes.export.addEventListener('click', exportProject);
++  nodes.file.addEventListener('change', handleReturnFile);
++  closeSidebar();
++  loadState(new URLSearchParams(window.location.search).get('project'));
++})();
+diff --git a/scripts/fictionlib/studio_web/index.html b/scripts/fictionlib/studio_web/index.html
+new file mode 100644
+index 0000000..d3ab953
+--- /dev/null
++++ b/scripts/fictionlib/studio_web/index.html
+@@ -0,0 +1,43 @@
++<!doctype html>
++<html lang="zh-CN">
++  <head>
++    <meta charset="utf-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1">
++    <meta name="studio-token" content="__STUDIO_TOKEN__">
++    <meta name="color-scheme" content="light">
++    <title>私人小说工作台 · Novel Studio</title>
++    <link rel="stylesheet" href="/style.css">
++    <script src="/app.js" defer></script>
++  </head>
++  <body>
++    <a class="skip-link" href="#main-content">跳到编辑区</a>
++    <div class="app-shell">
++      <aside class="sidebar" id="sidebar" aria-label="作品和章节导航">
++        <button type="button" class="icon-button sidebar-close" id="sidebar-close" aria-label="关闭作品导航">×</button>
++        <a class="brand" href="/" aria-label="私人小说工作台首页">
++          <span class="brand-symbol" aria-hidden="true">N<span>.</span></span>
++          <span class="brand-copy"><strong>私人小说工作台</strong><small>NOVEL STUDIO</small></span>
++        </a>
++        <div id="project-picker"></div>
++        <nav class="main-nav" id="main-nav" aria-label="作品资料"></nav>
++        <div class="sidebar-section-heading"><span>章节目录</span><button type="button" class="icon-button" id="new-chapter" aria-label="新增章节" title="新增章节">+</button></div>
++        <nav class="chapter-nav" id="chapter-nav" aria-label="章节目录"></nav>
++        <div class="sidebar-footer"><span class="local-dot" aria-hidden="true"></span><div><strong>本地工作空间</strong><span>写作，从下一章开始。</span></div></div>
++      </aside>
++      <button type="button" class="sidebar-backdrop" id="sidebar-backdrop" aria-label="关闭导航" hidden></button>
++      <section class="workspace">
++        <header class="topbar">
++          <div class="topbar-location"><button type="button" class="icon-button menu-button" id="menu-toggle" aria-label="打开作品导航" aria-expanded="false" aria-controls="sidebar">☰</button><span class="eyebrow">创作工作空间</span><span class="breadcrumb-divider" aria-hidden="true">/</span><span id="breadcrumb">开始创作</span></div>
++          <div class="topbar-actions"><span class="connection-badge" id="connection-status"><span class="local-dot" aria-hidden="true"></span>本机运行</span><button type="button" class="button button-quiet button-small" id="export-project">导出作品</button></div>
++        </header>
++        <div class="notice-region" id="notice-region" aria-live="polite" aria-atomic="true"></div>
++        <div class="workspace-grid">
++          <main class="editor-main" id="main-content" tabindex="-1"><div class="loading-state" role="status"><span class="loading-mark" aria-hidden="true"></span>正在打开工作台…</div></main>
++          <aside class="inspector" id="inspector" aria-label="当前进度与任务交接"></aside>
++        </div>
++      </section>
++    </div>
++    <input type="file" id="return-file" accept=".json,application/json" hidden>
++    <noscript><p class="noscript-message">工作台需要启用 JavaScript。也可以使用 scripts/studio.py 命令管理本地作品。</p></noscript>
++  </body>
++</html>
+diff --git a/scripts/fictionlib/studio_web/style.css b/scripts/fictionlib/studio_web/style.css
+new file mode 100644
+index 0000000..11949bd
+--- /dev/null
++++ b/scripts/fictionlib/studio_web/style.css
+@@ -0,0 +1,11 @@
++@charset "UTF-8";
++
++:root{--paper:#f7f7f2;--surface:#fff;--soft:#f0f2eb;--ink:#26352d;--muted:#748076;--line:#e3e7dc;--green:#45684c;--green-dark:#2e4d35;--green-soft:#eaf0e6;--gold:#947549;--gold-soft:#f7f0e3;--red:#a14436;--red-soft:#fbefea;--shadow:0 4px 16px #233b2510;--radius:12px;font-family:Inter,"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif;font-synthesis:none;color:var(--ink);background:var(--paper);font-size:14px;line-height:1.6}
++*{box-sizing:border-box}body{margin:0}button,input,textarea,select{font:inherit}button,a,input,select,textarea{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.43}button,input,select,textarea{outline-offset:3px}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #94ad7c}a{color:inherit}button{color:inherit}h1,h2,h3,p{margin:0}h1{font-size:29px;letter-spacing:-1px;line-height:1.4;font-weight:650}h2{font-size:17px;font-weight:650}h3{font-size:14px;font-weight:650}small{font-size:12px}[hidden]{display:none!important}.skip-link{position:fixed;top:-80px;left:16px;background:var(--green);color:#fff;z-index:20;padding:12px 18px;border-radius:8px}.skip-link:focus{top:12px}.app-shell{display:grid;grid-template-columns:238px minmax(0,1fr);min-height:100vh}.sidebar{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;padding:27px 18px 20px;border-right:1px solid var(--line);background:#f0f2eb}.brand{display:flex;align-items:center;gap:11px;text-decoration:none;margin:0 5px 31px}.brand-symbol{font-family:Georgia,serif;font-size:37px;line-height:1;color:var(--green-dark);font-weight:700;letter-spacing:-4px}.brand-symbol span{color:#b59b6d}.brand-copy{display:flex;flex-direction:column;gap:3px}.brand-copy strong{font-size:14px;letter-spacing:.5px}.brand-copy small{font-size:9px;letter-spacing:2.2px;font-weight:600;color:var(--muted)}.project-picker{margin-bottom:24px}.project-select{width:100%;background:#fff;border:1px solid #dce2d3;border-radius:9px;padding:10px 31px 10px 12px;font-weight:600;text-overflow:ellipsis}.project-picker-label{font-size:10px;letter-spacing:1.6px;color:var(--muted);margin:0 3px 8px;display:block}.new-project-link{border:0;background:transparent;padding:7px 3px 0;color:var(--muted);font-size:12px;display:block}.new-project-link:hover{color:var(--green-dark)}.main-nav{display:grid;gap:5px;margin-bottom:26px}.nav-button{display:flex;align-items:center;gap:12px;text-align:left;padding:10px 12px;width:100%;background:transparent;border:0;border-radius:7px;color:#738073;font-size:13px}.nav-button:hover{background:#e7ecdf;color:var(--ink)}.nav-button.active{background:#e0e7d8;color:#36523c;font-weight:650}.nav-symbol{width:18px;height:18px;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:400}.sidebar-section-heading{display:flex;justify-content:space-between;align-items:center;padding:0 8px 10px;color:var(--muted);font-size:11px;letter-spacing:1px}.icon-button{border:0;background:transparent;border-radius:6px;min-width:30px;min-height:30px;padding:3px;color:var(--muted);font-size:20px;line-height:1}.icon-button:hover{background:var(--green-soft);color:var(--green-dark)}.chapter-nav{overflow-y:auto;flex:1;min-height:100px;display:flex;flex-direction:column;gap:5px}.chapter-link{width:100%;display:flex;gap:9px;align-items:flex-start;text-align:left;background:transparent;border:1px solid transparent;border-radius:8px;padding:10px 9px}.chapter-link:hover{background:#e8ecdf}.chapter-link.active{background:#fff;border-color:#dfe5d7;box-shadow:0 2px 5px #263b2710}.chapter-number{font-size:10px;color:#8b9586;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;line-height:23px;flex:0 0 19px}.chapter-link.active .chapter-number{color:var(--green)}.chapter-link-copy{display:flex;flex-direction:column;min-width:0;gap:4px}.chapter-link-title{font-size:12px;font-weight:550;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;max-width:140px}.chapter-link-meta{font-size:10px;color:var(--muted);display:flex;gap:5px;align-items:center}.status-dot{display:inline-block;width:5px;height:5px;border-radius:50%;background:#a5ada1}.status-dot.ready{background:#879f6d}.status-dot.draft{background:#c4a367}.status-dot.revise,.status-dot.stale{background:#ba7960}.status-dot.reviewed,.status-dot.finalized{background:#678461}.sidebar-empty{font-size:12px;line-height:1.8;padding:10px 10px 20px;color:#929b8c}.sidebar-footer{border-top:1px solid #dfe4d6;margin:20px 7px 0;padding-top:19px;display:flex;align-items:flex-start;gap:8px;color:var(--muted)}.sidebar-footer .local-dot{margin-top:7px}.sidebar-footer strong{display:block;font-size:11px;font-weight:550}.sidebar-footer span:not(.local-dot){font-size:10px;display:block;margin-top:3px}.local-dot{width:6px;height:6px;background:#729263;display:inline-block;border-radius:50%;flex:none}.workspace{min-width:0}.topbar{height:75px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 32px;background:#f9faf5;gap:18px}.topbar-location,.topbar-actions{display:flex;align-items:center;gap:15px;min-width:0}.topbar-location{font-size:12px;color:var(--muted)}.topbar-location #breadcrumb{color:#5c685e;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:260px}.eyebrow{font-size:11px;letter-spacing:1px;color:var(--muted)}.breadcrumb-divider{color:#c6cdbd}.connection-badge{font-size:11px;display:inline-flex;gap:6px;align-items:center;white-space:nowrap;color:#819079}.topbar-actions{gap:18px}.workspace-grid{display:grid;grid-template-columns:minmax(0,1fr) 294px;min-height:calc(100vh - 75px)}.editor-main{min-width:0;padding:35px 34px 52px;outline:none}.inspector{padding:31px 23px;background:#f4f5ef;border-left:1px solid var(--line);min-width:0}.page-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:26px}.page-heading-copy{min-width:0}.page-heading .eyebrow{display:block;margin-bottom:9px;color:#86917d;font-size:10px;letter-spacing:1.8px;text-transform:uppercase}.page-subtitle{color:var(--muted);font-size:12px;line-height:1.9;margin-top:10px;max-width:560px}.title-with-badge{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.page-heading-actions{padding-top:25px;flex-shrink:0}.button{border:1px solid #d7dfcf;background:#fff;border-radius:7px;min-height:38px;padding:8px 14px;font-size:12px;font-weight:550;line-height:1.5;display:inline-flex;align-items:center;justify-content:center;gap:7px;text-decoration:none;transition:background .12s,border-color .12s;white-space:normal}.button:hover{background:#f1f4ec;border-color:#bccdb1}.button-primary{background:var(--green);border-color:var(--green);color:#fff}.button-primary:hover{background:var(--green-dark);border-color:var(--green-dark)}.button-quiet{background:transparent;border-color:transparent;color:var(--muted)}.button-quiet:hover{background:#e9eee3;border-color:transparent}.button-small{min-height:30px;font-size:11px;padding:5px 10px}.button-wide{width:100%}.button-danger{color:var(--red);border-color:#e6c8bf}.button-group{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.button-group .push-right{margin-left:auto}.text-link{padding:0;border:0;background:none;color:var(--green);font-size:12px;text-decoration:underline;text-underline-offset:4px}.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:23px;margin-bottom:19px}.card-title{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:19px}.card-title h2{font-size:14px}.card-kicker{font-size:10px;letter-spacing:1.6px;color:var(--muted);display:block;margin-bottom:7px}.card-description{font-size:12px;color:var(--muted);line-height:1.9;margin:-9px 0 20px}.card-muted{background:#f1f4eb}.field{display:flex;flex-direction:column;gap:7px;margin-bottom:18px;min-width:0}.field>label,.field-label{font-size:12px;font-weight:550;color:#49564b}.field-hint{font-size:11px;color:#8a9386;line-height:1.7}.required{color:#a58b5f;font-weight:400;margin-left:4px}input[type=text],input[type=number],input[type=search],select,textarea{width:100%;border:1px solid #dfe4d8;background:#fcfdf9;color:var(--ink);border-radius:7px;padding:10px 11px;font-size:12px;line-height:1.7;transition:border-color .12s,box-shadow .12s}input:focus,select:focus,textarea:focus{border-color:#90a780;background:#fff;box-shadow:0 0 0 3px #dbe6d035;outline:none}textarea{resize:vertical;min-height:88px}input::placeholder,textarea::placeholder{color:#a6ad9e}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}.form-footer{display:flex;align-items:center;justify-content:space-between;gap:14px;border-top:1px solid var(--line);padding-top:17px;margin-top:4px}.form-footer p{color:var(--muted);font-size:10px;line-height:1.7}.small-note{font-size:11px;color:var(--muted);line-height:1.8}.stats-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:24px}.stat-card{padding:16px 12px 15px;background:#fff;border:1px solid var(--line);border-radius:9px}.stat-label{font-size:10px;color:#8c9484;margin-bottom:8px}.stat-value{font-family:Georgia,"Times New Roman",serif;font-size:28px;font-weight:400;line-height:1.2;letter-spacing:-1px;color:#3d5942}.stat-unit{font-family:inherit;font-size:11px;color:#9ba18f;margin-left:5px;letter-spacing:0}.section-label{display:flex;justify-content:space-between;align-items:center;margin-bottom:13px}.section-label h2{font-size:14px}.section-label .eyebrow{font-size:10px}.chapter-table{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;margin-bottom:24px}.chapter-row{display:grid;grid-template-columns:35px minmax(0,1fr) auto;gap:10px;align-items:center;width:100%;padding:15px 17px;border:0;border-bottom:1px solid #edf0e8;background:transparent;text-align:left}.chapter-row:last-child{border-bottom:0}.chapter-row:hover{background:#f6f8f1}.chapter-row-number{font-family:Georgia,serif;font-size:19px;color:#b0b6a2}.chapter-row strong{display:block;font-size:12px;font-weight:600}.chapter-row-goal{font-size:10px;color:#939b8a;display:block;margin-top:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:340px}.badge{display:inline-flex;align-items:center;gap:5px;font-size:10px;line-height:1.5;padding:4px 8px;border:1px solid transparent;border-radius:4px;color:#85907b;background:#f0f2eb;white-space:nowrap}.badge.ready{color:#64804c;background:#edf3e5}.badge.draft{color:#98763d;background:#faf3e4}.badge.revise,.badge.stale{color:#a26946;background:#faf0e7}.badge.reviewed,.badge.finalized{color:#4b7452;background:#e9f1e7}.badge.finalized{border-color:#d9e8d4}.badge.reference{color:#87704f;background:#f4eee4}.tabs{display:flex;gap:24px;border-bottom:1px solid var(--line);margin:0 0 24px;overflow-x:auto;scrollbar-width:none}.tab-button{padding:0 2px 12px;background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);font-size:12px;white-space:nowrap}.tab-button.active{color:var(--green-dark);font-weight:650;border-bottom-color:var(--green)}.chapter-stepbar{display:flex;gap:9px;align-items:center;margin-bottom:25px;flex-wrap:wrap}.step-chip{font-size:10px;color:#a0a994;display:flex;align-items:center;gap:5px}.step-chip::before{content:"";height:6px;width:6px;background:#dce2d3;border-radius:50%}.step-chip.done{color:#6d8361}.step-chip.done::before{background:#8da577}.step-chip.active{color:#426548;font-weight:650}.step-chip.active::before{background:var(--green);box-shadow:0 0 0 3px #e4eddb}.step-line{height:1px;width:17px;background:#dce2d3}.inspector-label{font-size:10px;letter-spacing:1.6px;color:#8e9986;text-transform:uppercase;margin-bottom:16px}.next-card{background:#e8eee0;border:1px solid #dce5d2;border-radius:10px;padding:18px;margin-bottom:25px}.next-card .eyebrow{font-size:9px;letter-spacing:1.6px;color:#7d906c}.next-card h2{font-size:15px;color:#3c5c3f;line-height:1.6;margin:7px 0 9px}.next-card p{font-size:11px;color:#79896e;line-height:1.9;margin-bottom:17px}.inspector-section{padding-bottom:22px;margin-bottom:23px;border-bottom:1px solid #e1e6d9}.inspector-section:last-child{border-bottom:0}.inspector-section h3{font-size:11px;margin-bottom:13px;color:#5c6b56}.inspector-section .button{font-size:11px}.inspector-section>.button{margin-top:9px}.inspector-copy{font-size:11px;line-height:1.9;color:#8a9580}.inspector-metrics{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-bottom:13px}.inspector-metric{font-size:20px;line-height:1.2;font-family:Georgia,serif;color:#5c7352}.inspector-metric span{display:block;font:10px/1.5 Inter,"Microsoft YaHei",sans-serif;margin-top:7px;color:#95a087}.progress-track{height:4px;background:#dfe6d5;overflow:hidden;border-radius:3px}.progress-fill{height:100%;background:#8ca375;max-width:100%;transition:width .2s}.context-list{display:grid;gap:10px}.context-item{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;font-size:11px}.context-item dt{color:#98a18c}.context-item dd{margin:0;max-width:142px;text-align:right;color:#65765b;overflow-wrap:anywhere}.inspector-footnote{font-size:10px;color:#a2ab98;line-height:1.9}.avatar-stack{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0 12px}.person-pill{background:#edf1e6;color:#718263;border:1px solid #dce4d2;border-radius:5px;padding:4px 8px;font-size:10px}.inspector-details{margin-top:15px;font-size:11px}.inspector-details summary{cursor:pointer;color:#6c815b;padding:4px 0}.inspector-details pre{white-space:pre-wrap;font:10px/1.8 ui-monospace,SFMono-Regular,Consolas,monospace;max-height:380px;overflow:auto;overflow-wrap:anywhere;padding:12px;border:1px solid var(--line);border-radius:7px;background:#fff}.notice-region:empty{display:none}.notice{margin:18px 30px 0;padding:13px 16px;background:#eaf1e4;border:1px solid #d9e4cf;border-radius:8px;display:flex;align-items:flex-start;justify-content:space-between;gap:14px;font-size:12px;line-height:1.8;color:#4f6c46}.notice.error{background:var(--red-soft);border-color:#ebcec3;color:var(--red)}.notice-message{overflow-wrap:anywhere}.notice-actions{display:flex;flex-shrink:0;align-items:center;gap:8px}.notice .icon-button{font-size:16px;min-width:24px;min-height:24px;color:inherit}.inline-notice{padding:13px 15px;background:var(--gold-soft);border:1px solid #ebdfc7;border-radius:8px;color:#9b7b44;font-size:11px;line-height:1.8;margin-bottom:18px}.inline-notice p+p{margin-top:7px}.empty-state{border:1px dashed #d4dfc7;border-radius:10px;text-align:center;padding:33px 24px;background:#f6f8f1}.empty-state h3{font-size:14px;margin-bottom:9px;color:#617255}.empty-state p{font-size:12px;line-height:1.9;color:#8f9a82;max-width:380px;margin:0 auto 16px}.empty-mark{font-family:Georgia,serif;font-size:32px;color:#a7b69a;margin-bottom:6px}.welcome-panel{padding:7px 0 0}.welcome-note{font-size:10px;color:#8a967f;margin-bottom:17px;letter-spacing:1px;display:flex;align-items:center;gap:7px}.welcome-title{font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;font-size:34px;font-weight:500;line-height:1.55;letter-spacing:.5px;max-width:520px}.welcome-title em{font-style:normal;color:#6d8755}.welcome-description{font-size:12px;color:#919b88;max-width:460px;line-height:2;margin:14px 0 25px}.welcome-process{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin:0 0 28px}.welcome-process-item{border-top:1px solid #dbe3d1;padding-top:13px}.welcome-process-item span{font-size:9px;font-family:ui-monospace,monospace;color:#a8b09d;display:block;margin-bottom:7px}.welcome-process-item strong{font-size:11px;color:#76866a;font-weight:550;display:block}.welcome-process-item p{font-size:10px;color:#a2aa97;margin-top:4px}.record-card{padding:19px 20px}.record-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:13px}.record-title{display:flex;align-items:center;gap:10px}.character-avatar{width:34px;height:34px;border-radius:9px;background:#e9eedd;color:#7b8a62;display:flex;align-items:center;justify-content:center;font-family:Georgia,"Songti SC",serif;font-size:17px}.record-heading h3{font-size:14px}.record-heading .record-subtitle{display:block;font-size:10px;color:#9aa18f;margin-top:2px}.record-definition{display:grid;grid-template-columns:58px minmax(0,1fr);gap:10px;font-size:11px;margin:10px 0}.record-definition dt{color:#a0a795}.record-definition dd{margin:0;line-height:1.9;color:#718067;white-space:pre-wrap;overflow-wrap:anywhere}.record-text{font-size:12px;color:#718067;line-height:1.9;white-space:pre-wrap;overflow-wrap:anywhere}.record-footer{display:flex;gap:8px;align-items:center;border-top:1px solid #eff2e9;padding-top:12px;margin-top:16px;font-size:10px;color:#a0a98f}.character-checks{display:flex;gap:9px;flex-wrap:wrap}.checkbox-label{display:flex;align-items:center;gap:6px;padding:7px 10px;border:1px solid #e1e6d8;border-radius:6px;background:#fafbf6;font-size:11px;color:#7e8a71}.checkbox-label:has(input:checked){background:#edf3e6;border-color:#b7cba5;color:#4d7046}input[type=checkbox]{accent-color:var(--green)}.prose-editor{font-family:"Songti SC","Noto Serif CJK SC","SimSun",Georgia,serif;font-size:15px;line-height:2.2;min-height:470px;padding:22px 24px;color:#4e5b4e;background:#fff;tab-size:2}.editor-toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px;font-size:10px;color:#9ba38f}.editor-toolbar strong{font-size:11px;color:#6f8163;font-weight:500}.draft-card{padding:21px}.draft-card .field{margin-bottom:14px}.draft-card .field>label{display:none}.draft-count{font-variant-numeric:tabular-nums}.binding-note{font-size:10px;color:#a0a993;overflow-wrap:anywhere;margin-top:8px}.return-intro{display:flex;justify-content:space-between;align-items:center;gap:15px;background:#eef3e7;border:1px solid #dfe8d3;border-radius:9px;padding:16px 18px;margin-bottom:21px}.return-intro h3{font-size:12px;color:#5d7850;margin-bottom:4px}.return-intro p{font-size:10px;color:#8c9a7d;line-height:1.8}.advanced{border-top:1px solid var(--line);padding-top:15px;margin:3px 0 20px}.advanced summary{font-size:11px;cursor:pointer;color:#7a8c6b;margin-bottom:13px}.code-editor{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:11px;min-height:120px;line-height:1.7}.review-outcome{border-left:3px solid #99af83;padding:14px 16px;background:#f3f7ed;margin-bottom:19px;border-radius:0 7px 7px 0}.review-outcome.revise{border-left-color:#c79b6a;background:#fbf6ec}.review-outcome h3{font-size:12px;color:#617c53;margin-bottom:8px}.review-outcome.revise h3{color:#aa824b}.review-outcome p{font-size:11px;color:#8c967e;line-height:1.9;white-space:pre-wrap;overflow-wrap:anywhere}.issue-list{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:9px}.issue-item{padding:11px 12px;border:1px solid #e7e9df;border-radius:7px;font-size:11px;line-height:1.8;background:#fff}.issue-item strong{font-weight:500;color:#6e7b62}.issue-item blockquote{margin:8px 0 0;padding:7px 10px;border-left:2px solid #d4ddc7;background:#f8faf3;color:#929c85;white-space:pre-wrap}.severity{font-size:9px;border-radius:3px;padding:2px 5px;margin-right:6px;background:#f7efe3;color:#a48351}.severity.blocker,.severity.major{background:#fbede5;color:#af7655}.search-form{display:flex;gap:8px;margin-bottom:20px}.search-form input{flex:1;min-width:0}.reference-content{max-height:260px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;background:#f8faf3;padding:13px;border:1px solid #e8ecdf;border-radius:7px;font-size:11px;color:#889579;line-height:1.9;margin:10px 0}.loading-state{display:flex;align-items:center;gap:10px;justify-content:center;min-height:300px;color:#9aa98b;font-size:12px}.loading-mark{width:15px;height:15px;border:2px solid #dce5d1;border-top-color:#789562;border-radius:50%;animation:spin .9s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.workflow-list{list-style:none;padding:0;margin:0;display:grid;gap:23px}.workflow-list li{display:grid;grid-template-columns:22px 1fr;gap:12px;align-items:start}.workflow-number{font:13px/1.6 Georgia,serif;color:#b6c0a8}.workflow-copy strong{display:block;font-size:11px;font-weight:550;color:#7c8b6f;margin-bottom:4px}.workflow-copy p{font-size:10px;line-height:1.9;color:#a2ac96}.workflow-list li:first-child .workflow-number{color:#688356}.workflow-list li:first-child .workflow-copy strong{color:#4f7046}.section-spacer{margin-top:27px}.menu-button{display:none}.sidebar-backdrop{display:none}.noscript-message{margin:20px;padding:20px;background:var(--red-soft);color:var(--red)}.muted{color:var(--muted)}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}.tag-line{display:flex;gap:6px;flex-wrap:wrap}.revision-label{font-size:10px;color:#a3ac96}.spaced{margin-top:12px}.loading-inline{font-size:11px;padding:12px 0;color:#8c9b7b}.read-only-prose{white-space:pre-wrap;overflow-wrap:anywhere;font-family:"Songti SC","Noto Serif CJK SC",serif;font-size:14px;line-height:2.15;color:#61705a;max-height:440px;overflow:auto;padding:18px;border:1px solid var(--line);border-radius:8px;background:#fff;margin-bottom:20px}.readonly-label{font-size:10px;color:#98a38b;margin-bottom:10px}
++.progress-track{display:block;width:100%;appearance:none;border:0;color:#8ca375}.progress-track::-webkit-progress-bar{background:#dfe6d5;border-radius:3px}.progress-track::-webkit-progress-value{background:#8ca375;border-radius:3px}.progress-track::-moz-progress-bar{background:#8ca375;border-radius:3px}.sidebar-close{display:none}
++@media(max-width:700px){body.drawer-open{overflow:hidden}.sidebar-close{display:block;position:absolute;right:10px;top:9px;min-width:28px;min-height:28px;font-size:19px}}
++@media(min-width:1600px){.editor-main{padding-left:49px;padding-right:49px}.workspace-grid{grid-template-columns:minmax(0,1fr) 320px}.inspector{padding-left:27px;padding-right:27px}.app-shell{grid-template-columns:254px minmax(0,1fr)}}
++@media(max-width:1190px){.app-shell{grid-template-columns:210px minmax(0,1fr)}.sidebar{padding-left:13px;padding-right:13px}.brand{gap:9px}.brand-copy strong{font-size:12px}.brand-copy small{font-size:8px}.workspace-grid{grid-template-columns:minmax(0,1fr) 248px}.editor-main{padding:28px 24px 42px}.inspector{padding:28px 17px}.topbar{padding:0 24px}.chapter-link-title{max-width:125px}.page-heading{gap:10px}h1{font-size:25px}.page-heading-actions .button{padding:7px 10px}.card{padding:20px}.stats-grid{gap:7px}.stat-card{padding:13px 9px}.stat-value{font-size:24px}.welcome-title{font-size:29px}.welcome-process-item p{font-size:9px}.topbar-location #breadcrumb{max-width:180px}}
++@media(max-width:980px){.workspace-grid{grid-template-columns:minmax(0,1fr)}.inspector{border-left:0;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:22px;padding:24px}.inspector>.inspector-label{grid-column:1/-1;margin:0}.inspector>.next-card{margin-bottom:0}.inspector>.inspector-section{margin-bottom:0;padding-bottom:0;border:0}.inspector>.inspector-footnote{grid-column:1/-1}.topbar .eyebrow,.breadcrumb-divider{display:none}.topbar-location #breadcrumb{max-width:230px}.editor-main{padding:29px 26px}.welcome-title{max-width:none;font-size:33px}.form-footer p{max-width:300px}}
++@media(max-width:700px){.app-shell{grid-template-columns:minmax(0,1fr)}.sidebar{position:fixed;left:0;top:0;width:260px;height:100dvh;z-index:12;transform:translateX(-100%);transition:transform .18s;padding:26px 20px}.sidebar.open{transform:translateX(0)}.sidebar-backdrop:not([hidden]){display:block;position:fixed;inset:0;background:#172a1e55;border:0;z-index:11;backdrop-filter:blur(1px)}.brand-copy strong{font-size:14px}.brand-copy small{font-size:9px}.chapter-link-title{max-width:166px}.menu-button{display:inline-flex;align-items:center;justify-content:center;margin-left:-5px;font-size:18px}.topbar{height:64px;padding:0 18px;gap:10px}.topbar-location,.topbar-actions{gap:9px}.topbar-location #breadcrumb{font-size:11px;max-width:165px}.connection-badge{font-size:9px}.topbar-actions>.button{font-size:10px;padding:5px 7px}.editor-main{padding:27px 20px 32px}.page-heading{margin-bottom:23px;flex-wrap:wrap}.page-heading h1{font-size:25px}.page-heading .eyebrow{font-size:9px}.page-heading-actions{padding-top:0}.page-subtitle{font-size:11px}.card{padding:19px 17px;border-radius:10px}.field-grid{gap:0 13px}.form-footer{align-items:flex-start}.form-footer p{max-width:190px}.form-footer .button{flex-shrink:0}.stats-grid{gap:7px}.stat-card{padding:13px 9px}.stat-value{font-size:24px}.stat-label{font-size:9px}.stat-unit{font-size:9px;margin-left:3px}.tabs{gap:24px}.notice{margin:13px 16px 0;padding:11px 12px;font-size:11px;gap:8px}.notice-actions{gap:2px;flex-wrap:wrap;justify-content:flex-end}.notice-actions .button{max-width:75px;font-size:10px}.inspector{padding:23px 20px;gap:23px;grid-template-columns:1fr}.inspector>.inspector-label{grid-column:auto}.inspector>.inspector-footnote{grid-column:auto}.inspector>.inspector-section{padding-bottom:21px;border-bottom:1px solid var(--line)}.inspector-metrics{grid-template-columns:1fr 1fr}.context-item dd{max-width:230px}.welcome-title{font-size:30px}.welcome-description{font-size:11px;margin-bottom:24px}.welcome-process{gap:12px;margin-bottom:25px}.welcome-process-item strong{font-size:10px}.welcome-process-item p{font-size:9px;line-height:1.8}.chapter-row{padding:14px 13px;grid-template-columns:24px minmax(0,1fr) auto;gap:8px}.chapter-row-goal{max-width:175px}.chapter-row strong{font-size:11px}.chapter-row .badge{font-size:9px;padding:3px 6px}.return-intro{padding:14px;align-items:flex-start;flex-wrap:wrap;gap:11px}.return-intro .button{min-height:32px;font-size:10px}.prose-editor{padding:15px;min-height:390px;font-size:14px;line-height:2.1}.draft-card{padding:17px 14px}.editor-toolbar{align-items:flex-start}.draft-count{white-space:nowrap}.record-definition{grid-template-columns:48px minmax(0,1fr);gap:8px}.badge{font-size:9px}.title-with-badge{gap:8px}.chapter-stepbar{gap:7px}.step-chip{font-size:9px}.step-line{width:12px}}
++@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+diff --git a/scripts/studio.py b/scripts/studio.py
+new file mode 100644
+index 0000000..4e2c819
+--- /dev/null
++++ b/scripts/studio.py
+@@ -0,0 +1,139 @@
++#!/usr/bin/env python3
++"""Local novel production CLI. Run --help for commands."""
++
++import argparse
++import json
++from pathlib import Path
++import sys
++import webbrowser
++
++from fictionlib.storage import atomic_write, json_text, read_json
++from fictionlib.studio import Studio, backup, default_path, private_path, restore
++from fictionlib.studio_server import make_server
++
++
++def demo(studio):
++    p = studio.create('虚构演示｜雾港来信','小岑修理港口航灯，发现停航命令与真实水位不符。所有人物与正文仅为软件测试。','用行动呈现疑问；避免旁白解释阴谋。')
++    def act(action,**payload):
++        nonlocal p
++        p = studio.apply(p['project_id'],p['revision'],action,payload)
++    act('character_upsert',name='小岑',role='航灯修理员',voice='先问具体细节',baseline='能识别潮汐刻度，尚不知道谁伪造了停航令。')
++    cid = p['characters'][0]['id']
++    act('rule_upsert',text='雾港以铜片记录每日水位；航灯由值守员手动切换。',from_chapter=1)
++    act('chapter_upsert',number=1,title='错位的刻度',goal='用实物发现停航令的疑点，并作出调查选择。',pov='小岑，第三人称限知',cast=[cid],beats=['校验水位','发现错刻铜片','留下副本'])
++    ch1 = p['chapters'][0]['id']
++    act('task_issue',chapter_id=ch1)
++    payload = studio.pack(p['project_id'],ch1)['return_template']['payload']
++    payload['text'] = '铜片卡在灯座下，小岑用指甲拨了两次才取出来。潮水贴着第二道刻痕，铜片却记着第四道。\n\n停航令上的印泥还软。他没有去敲值守员的门，先把铜片压在废纸上，涂出一道清晰的轮廓。\n\n门外响起钥匙声。小岑把拓片折进袖口，将铜片推回灯座下。'
++    act('draft_submit',**payload)
++    review = studio.pack(p['project_id'],ch1)['review_template']['payload']
++    review.update(verdict='pass',reviewer='虚构演示夹具（不是实际 AI 审稿）',summary='小岑发现水位与铜片记录不符，私留拓片，尚未确认伪造者。',issues=[],memory=[{'subject':cid,'text':'持有铜片拓片，知道记录存在矛盾；未知伪造者。','quote':'小岑把拓片折进袖口'}])
++    act('review_submit',**review)
++    act('finalize',chapter_id=ch1)
++    act('chapter_upsert',number=2,title='借来的钥匙',goal='验证铜片来源，付出一个可见代价，不能直接揭晓幕后身份。',pov='小岑，第三人称限知',cast=[cid],beats=['试探值守员','进入旧仓库','发现换片痕迹'])
++    act('task_issue',chapter_id=p['chapters'][1]['id'])
++    return p
++
++
++def parser():
++    p = argparse.ArgumentParser(description='私人小说工作台：本地数据、文件交接、版本审稿')
++    p.add_argument('--vault',default=str(default_path()),help='Git 目录之外的私人作品库')
++    sub = p.add_subparsers(dest='command',required=True)
++    for name in ('init','list','demo'):
++        sub.add_parser(name)
++    serve = sub.add_parser('serve')
++    serve.add_argument('--port',type=int,default=19423)
++    serve.add_argument('--research-vault')
++    serve.add_argument('--open',action='store_true')
++    create = sub.add_parser('create')
++    create.add_argument('--title',required=True)
++    create.add_argument('--brief',default='')
++    create.add_argument('--style',default='')
++    show = sub.add_parser('show')
++    show.add_argument('--project',required=True)
++    for name in ('apply','submit'):
++        cmd = sub.add_parser(name)
++        cmd.add_argument('--project',required=True)
++        cmd.add_argument('--file',required=True,help='JSON {action,payload}')
++        cmd.add_argument('--expected-revision',type=int,required=name == 'apply')
++    pack = sub.add_parser('pack')
++    pack.add_argument('--project',required=True)
++    pack.add_argument('--chapter',required=True)
++    pack.add_argument('--out',required=True,help='输出 task.json，同时生成 Markdown 与回收模板')
++    ref = sub.add_parser('reference')
++    ref.add_argument('--project',required=True)
++    ref.add_argument('--expected-revision',required=True,type=int)
++    ref.add_argument('--research-vault',required=True)
++    ref.add_argument('--asset',required=True)
++    ref.add_argument('--revision',required=True,type=int)
++    back = sub.add_parser('backup')
++    back.add_argument('--out',required=True)
++    res = sub.add_parser('restore')
++    res.add_argument('--file',required=True)
++    return p
++
++
++def main():
++    if hasattr(sys.stdout,'reconfigure'):
++        sys.stdout.reconfigure(encoding='utf-8')
++        sys.stderr.reconfigure(encoding='utf-8')
++    args = parser().parse_args()
++    try:
++        if args.command == 'restore':
++            restored = restore(args.file,args.vault)
++            result = {'projects':restored.list(),'vault':str(restored.root)}
++        else:
++            studio = Studio.init(args.vault) if args.command in ('init','serve','demo') else Studio(args.vault)
++            if args.command == 'init':
++                result = {'vault':str(studio.root),'projects':studio.list()}
++            elif args.command == 'serve':
++                server = make_server(studio,args.port,args.research_vault)
++                url = f'http://127.0.0.1:{server.server_port}'
++                print(json_text({'url':url,'vault':str(studio.root),'message':'仅本机访问。Ctrl+C 关闭；文件保留。'}),flush=True)
++                if args.open:
++                    webbrowser.open(url)
++                try:
++                    server.serve_forever()
++                except KeyboardInterrupt:
++                    pass
++                finally:
++                    server.server_close()
++                return 0
++            elif args.command == 'list':
++                result = studio.list()
++            elif args.command == 'create':
++                result = studio.create(args.title,args.brief,args.style)
++            elif args.command == 'show':
++                result = studio.get(args.project)
++            elif args.command == 'demo':
++                result = demo(studio)
++            elif args.command in ('apply','submit'):
++                envelope = read_json(args.file)
++                if not isinstance(envelope,dict):
++                    raise ValueError('回收文件必须是 {action,payload} 对象')
++                if args.command == 'submit' and envelope.get('action') not in ('draft_submit','review_submit'):
++                    raise ValueError('submit 只回收正文或审稿，不修改章纲和设定')
++                revision = args.expected_revision if args.expected_revision is not None else studio.get(args.project)['revision']
++                result = studio.apply(args.project,revision,envelope['action'],envelope['payload'])
++            elif args.command == 'pack':
++                package = studio.pack(args.project,args.chapter)
++                out = private_path(args.out)
++                atomic_write(out,json_text(package))
++                readable = '# 写手 / 审稿任务包\n\n' + package['instructions'] + '\n\n## 冻结上下文\n\n```json\n' + json_text(package['context']) + '```\n\n## 当前正文与审稿\n\n```json\n' + json_text({'draft':package['current_draft'],'review':package['current_review'],'previous_review':package['previous_review']}) + '```\n\n回收请从同目录模板复制为 return.json，保留 ID/hash。不要直接修改 studio.json。\n'
++                atomic_write(out.with_suffix('.md'),readable)
++                atomic_write(out.with_name(out.stem+'.draft-template.json'),json_text(package['return_template']))
++                atomic_write(out.with_name(out.stem+'.review-template.json'),json_text(package['review_template']))
++                result = {'path':str(out),'project_id':args.project,'task_id':package['task_id']}
++            elif args.command == 'reference':
++                result = studio.pin_reference(args.project,args.expected_revision,args.research_vault,args.asset,args.revision)
++            elif args.command == 'backup':
++                result = backup(studio.root,private_path(args.out))
++        print(json_text(result),end='')
++        return 0
++    except (ValueError,KeyError,TypeError,OSError) as exc:
++        print(json_text({'error':str(exc)}),file=sys.stderr,end='')
++        return 1
++
++
++if __name__ == '__main__':
++    raise SystemExit(main())
+diff --git a/tests/studio_ui_smoke.cjs b/tests/studio_ui_smoke.cjs
+new file mode 100644
+index 0000000..1eb8442
+--- /dev/null
++++ b/tests/studio_ui_smoke.cjs
+@@ -0,0 +1,128 @@
++// Optional DOM integration test, starts its own disposable local Studio server.
++// NODE_PATH=/path/to/jsdom/node_modules node tests/studio_ui_smoke.cjs
++// This exercises the real UI and HTTP API, but does NOT verify CSS rendering.
++const assert = require('node:assert/strict');
++const { JSDOM, VirtualConsole } = require('jsdom');
++const { spawn } = require('node:child_process');
++const { mkdtempSync, rmSync } = require('node:fs');
++const { tmpdir } = require('node:os');
++const { join } = require('node:path');
++
++(async () => {
++  const privateRoot = mkdtempSync(join(tmpdir(),'novel-studio-dom-'));
++  const server = spawn(process.env.PYTHON || 'python',[join(__dirname,'../scripts/studio.py'),'--vault',privateRoot,'serve','--port','0']);
++  let logs = '';
++  server.stderr.on('data',chunk => { logs += chunk; });
++  const base = await new Promise((resolve,reject) => {
++    let output='';
++    server.stdout.on('data',chunk => { output+=chunk; try { resolve(JSON.parse(output).url); } catch (_) {} });
++    server.once('error',reject);
++    server.once('exit',code => reject(new Error('Server startup failed '+code+': '+logs)));
++  });
++  const errors = [], downloads = [];
++  const vc = new VirtualConsole();
++  vc.on('jsdomError', e => {
++    if (!e.message.includes('Could not parse CSS stylesheet')) errors.push(e.message);
++  });
++  const dom = await JSDOM.fromURL(base, {
++    resources: 'usable', runScripts: 'dangerously', pretendToBeVisual: true, virtualConsole: vc,
++    beforeParse(w) {
++      w.fetch = (url, options) => fetch(new URL(url, w.location.href), options);
++      w.scrollTo = () => {};
++      w.Blob = Blob;
++      w.URL.createObjectURL = blob => { downloads.push(blob); return 'blob:studio-smoke'; };
++      w.URL.revokeObjectURL = () => {};
++      w.HTMLAnchorElement.prototype.click = function () {};
++    },
++  });
++  const w = dom.window, d = w.document;
++  const tick = () => new Promise(r => setTimeout(r, 20));
++  async function wait(predicate) {
++    for (let i = 0; i < 250; i++) { if (predicate()) return; await tick(); }
++    throw new Error('DOM wait failed: ' + d.querySelector('#notice-region')?.textContent);
++  }
++  const main = () => d.querySelector('#main-content');
++  function click(label, scope=d) {
++    const node = [...scope.querySelectorAll('button')].find(b => b.textContent.trim() === label);
++    assert.ok(node, 'Button missing: ' + label);
++    assert.equal(node.disabled,false,'Button disabled: '+label);
++    node.click();
++  }
++  function fill(name,value) {
++    const node = main().querySelector(`[name="${name}"]`);
++    assert.ok(node,'Field missing: '+name);
++    node.value = value;
++    node.dispatchEvent(new w.Event('input',{bubbles:true}));
++    node.dispatchEvent(new w.Event('change',{bubbles:true}));
++  }
++  async function submit(expected) {
++    main().querySelector('form [type="submit"]').click();
++    await wait(() => main().getAttribute('aria-busy') !== 'true' && d.querySelector('#notice-region').textContent.includes(expected));
++    assert.equal(d.querySelector('.notice.error'),null);
++  }
++  try {
++    await wait(() => d.querySelector('.new-project-link'));
++    click('+ 新建作品');
++    fill('title','虚构 DOM 测试 <img src=x onerror=alert(1)>');
++    fill('brief','修灯人发现铜片记录与水位不符。');
++    fill('style','通过动作呈现动机。');
++    await submit('作品已创建');
++    assert.equal(d.querySelector('img'),null,'Title was interpreted as HTML');
++    click('♙人物卡');
++    fill('name','小岑'); fill('role','修灯人'); fill('voice','问具体问题'); fill('baseline','知道水位刻度，未知伪造者。');
++    await submit('人物卡已添加');
++    click('⌘世界规则');
++    fill('text','第三章才揭示航灯历史。'); fill('from_chapter','3');
++    await submit('世界规则已保存');
++    d.querySelector('#new-chapter').click();
++    fill('title','铜片'); fill('goal','发现矛盾并保留证据'); fill('pov','小岑限知'); fill('beats','校验水位\n保留拓片');
++    const cast = main().querySelector('[name="cast"]'); cast.click();
++    await submit('章节计划已创建');
++    click('生成写手任务 →');
++    await wait(() => d.querySelector('#notice-region').textContent.includes('写手任务已生成'));
++    const prose = '小岑把铜片放在桌上，将水位刻痕印到纸上。他把拓片藏进袖口。';
++    fill('text',prose);
++    await submit('正文已回收');
++    fill('verdict','revise'); fill('summary','发现矛盾并留下拓片。');
++    fill('issues',JSON.stringify([{severity:'major',description:'补足藏起拓片的动机',quote:'他把拓片藏进袖口'}]));
++    await submit('返修意见已保存');
++    click('正文');
++    fill('text',prose+'门外的脚步停了，他按住袖口，没有出声。');
++    await submit('正文已回收');
++    // The UI deliberately preserves unsent review inputs across navigation.
++    // Re-reading the changed manuscript requires an explicit version rebind.
++    assert.ok(main().textContent.includes('保留的审稿输入对应旧正文'));
++    click('已重新核对，绑定当前版本');
++    fill('verdict','pass'); fill('summary','小岑发现矛盾并私留拓片，门外来人令其保持沉默。');
++    fill('issues','[]'); fill('memory',JSON.stringify([{subject:'world',text:'拓片已留下','quote':'他把拓片藏进袖口'}]));
++    await submit('审稿已通过');
++    click('确认定稿本章');
++    await wait(() => d.querySelector('#notice-region').textContent.includes('第 1 章已定稿'));
++    assert.ok(main().textContent.includes('本章已定稿'));
++    click('任务包 .json');
++    await wait(() => downloads.length === 1);
++    const pack = JSON.parse(await downloads[0].text());
++    assert.equal(pack.current_draft.text,prose+'门外的脚步停了，他按住袖口，没有出声。');
++    assert.equal(pack.context.rules.length,0,'Future rule leaked');
++    assert.ok(pack.review_template.payload.base_review_id);
++    click('导出作品');
++    await wait(() => downloads.length === 2);
++    assert.equal(JSON.parse(await downloads[1].text()).progress.finalized,1);
++    click('正文');
++    assert.ok(main().textContent.includes('历史'),'Missing manuscript history');
++    Object.defineProperty(w,'innerWidth',{value:390,configurable:true});
++    w.dispatchEvent(new w.Event('resize'));
++    d.querySelector('#menu-toggle').click();
++    assert.equal(d.querySelector('#menu-toggle').getAttribute('aria-expanded'),'true');
++    d.querySelector('#sidebar-close').click();
++    assert.equal(d.querySelector('#menu-toggle').getAttribute('aria-expanded'),'false');
++    assert.deepEqual(errors,[]);
++    console.log('PASS: real HTTP + DOM create/person/rule/chapter/task/draft/revise/review/finalize, task/project downloads, future-rule filter, history, 390px drawer state, HTML escaping. CSS rendering NOT tested.');
++  } finally {
++    w.close();
++    const exited = new Promise(resolve => server.once('exit',resolve));
++    server.kill();
++    await exited;
++    rmSync(privateRoot,{recursive:true,force:true});
++  }
++})().catch(error => { console.error(error); process.exitCode=1; });
+diff --git a/tests/test_studio.py b/tests/test_studio.py
+new file mode 100644
+index 0000000..481c53d
+--- /dev/null
++++ b/tests/test_studio.py
+@@ -0,0 +1,177 @@
++import json
++from pathlib import Path
++import tempfile
++import unittest
++
++from support import ROOT
++from fictionlib.studio import Studio, backup, restore
++from fictionlib.vault import Vault
++
++
++class StudioTests(unittest.TestCase):
++    def setUp(self):
++        self.tmp = tempfile.TemporaryDirectory()
++        self.addCleanup(self.tmp.cleanup)
++        self.root = Path(self.tmp.name)
++        self.studio = Studio.init(self.root / 'private')
++        self.p = self.studio.create('虚构测试：渡灯', '守灯人查明停航原因。', '克制，重动作。')
++        self.pid = self.p['project_id']
++        self.act('character_upsert', name='阿澄', role='守灯人', voice='短句', baseline='未见过密信')
++        self.cid = self.p['characters'][0]['id']
++        self.act('chapter_upsert', number=1, title='灯熄', goal='发现假航标', pov=self.cid, cast=[self.cid], beats=['发现', '选择'])
++        self.ch = self.p['chapters'][0]['id']
++
++    def act(self, action, **payload):
++        self.p = self.studio.apply(self.pid, self.p['revision'], action, payload)
++        return self.p
++
++    def pack(self, ch=None):
++        ch = ch or self.ch
++        self.act('task_issue', chapter_id=ch)
++        return self.studio.pack(self.pid, ch)
++
++    def draft(self, text='阿澄读完密信，把灯移到西窗。', ch=None):
++        pack = self.studio.pack(self.pid, ch or self.ch)
++        payload = pack['return_template']['payload']
++        payload['text'] = text
++        self.act('draft_submit', **payload)
++        return self.studio.pack(self.pid, ch or self.ch)
++
++    def review(self, verdict='pass', ch=None, **extra):
++        pack = self.studio.pack(self.pid, ch or self.ch)
++        payload = pack['review_template']['payload']
++        payload.update(verdict=verdict, reviewer='测试审稿人', summary='阿澄发现假航标并转移灯火。', issues=[], memory=[])
++        payload.update(extra)
++        return self.act('review_submit', **payload)
++
++    def finish(self):
++        self.pack()
++        self.draft()
++        self.review(memory=[{'subject':self.cid,'text':'已经读过密信','quote':'阿澄读完密信'}])
++        self.act('finalize', chapter_id=self.ch)
++
++    def test_two_chapter_pipeline_uses_only_final_memory(self):
++        self.finish()
++        self.assertEqual(self.p['chapters'][0]['status'], 'finalized')
++        self.act('chapter_upsert', number=2, title='潮声', goal='验证线索', pov=self.cid, cast=[self.cid], beats=['试探'])
++        ch2 = self.p['chapters'][1]['id']
++        pack = self.pack(ch2)
++        self.assertIn('已经读过密信', json.dumps(pack['context'], ensure_ascii=False))
++        self.draft('阿澄带着灯，走上码头。', ch2)
++        self.review(ch=ch2)
++        self.act('finalize', chapter_id=ch2)
++        self.assertEqual(self.p['progress']['finalized'], 2)
++        self.assertGreater(self.p['progress']['words'], 0)
++        self.assertGreater(len(list((self.studio.root / 'history/studio' / self.pid).glob('*.json'))), 5)
++
++    def test_future_rules_and_unfinalized_proposals_never_leak(self):
++        self.act('rule_upsert', text='第三章才揭示的秘密', from_chapter=3)
++        pack = self.pack()
++        self.assertNotIn('第三章才', json.dumps(pack['context'], ensure_ascii=False))
++        self.draft()
++        self.review(memory=[{'subject':self.cid,'text':'已经读过密信','quote':'阿澄读完密信'}])
++        self.act('chapter_upsert', number=2, title='后章', goal='试探', pov=self.cid, cast=[self.cid], beats=['试探'])
++        with self.assertRaisesRegex(ValueError, '前章'):
++            self.pack(self.p['chapters'][1]['id'])
++
++    def test_new_draft_requires_fresh_review_and_rejects_old_base(self):
++        self.pack()
++        old = self.draft()
++        self.review()
++        self.draft('阿澄读完密信，把灯放到门外。')
++        with self.assertRaisesRegex(ValueError, '审稿'):
++            self.act('finalize', chapter_id=self.ch)
++        payload = old['return_template']['payload']
++        payload['text'] = '覆盖别人的新稿'
++        with self.assertRaisesRegex(ValueError, '稿件版本'):
++            self.act('draft_submit', **payload)
++
++    def test_prior_revision_invalidates_downstream_final_and_late_returns(self):
++        self.finish()
++        self.act('chapter_upsert', number=2, title='潮声', goal='验证线索', pov=self.cid, cast=[self.cid], beats=['试探'])
++        ch2 = self.p['chapters'][1]['id']
++        old = self.pack(ch2)
++        self.draft('灯在风中闪烁。', ch2)
++        self.review(ch=ch2)
++        self.act('finalize', chapter_id=ch2)
++        self.act('chapter_upsert', id=self.ch, number=1, title='灯熄', goal='改为拒绝信使', pov=self.cid, cast=[self.cid], beats=['拒绝'])
++        self.assertEqual([c['status'] for c in self.p['chapters']], ['stale','stale'])
++        self.assertEqual(self.p['progress']['finalized'], 0)
++        payload = old['return_template']['payload']
++        payload['text'] = '旧任务回来的正文'
++        with self.assertRaisesRegex(ValueError, '过期'):
++            self.act('draft_submit', **payload)
++
++    def test_pass_cannot_hide_blocking_issue_or_invent_memory_evidence(self):
++        self.pack()
++        self.draft()
++        with self.assertRaisesRegex(ValueError, '阻断'):
++            self.review(issues=[{'severity':'major','description':'因果跳跃','quote':'移到西窗'}])
++        with self.assertRaisesRegex(ValueError, '原句'):
++            self.review(memory=[{'subject':self.cid,'text':'获得神力','quote':'不存在的句子'}])
++        self.review('revise', issues=[{'severity':'major','description':'补选择动机','quote':'移到西窗'}])
++        self.assertEqual(self.p['chapters'][0]['status'], 'revise')
++
++    def test_old_review_cannot_override_new_blocking_review(self):
++        self.pack()
++        package = self.draft()
++        old = package['review_template']['payload']
++        old.update(verdict='pass',reviewer='旧审稿人',summary='旧结论',issues=[],memory=[])
++        self.review('revise',issues=[{'severity':'major','description':'补动机','quote':'移到西窗'}])
++        with self.assertRaisesRegex(ValueError, '审稿版本冲突'):
++            self.act('review_submit',**old)
++        self.assertEqual(self.studio.get(self.pid)['chapters'][0]['status'],'revise')
++
++    def test_reissue_carries_old_text_but_not_old_approval(self):
++        self.finish()
++        self.act('chapter_upsert',id=self.ch,number=1,title='灯熄',goal='补充选择的代价',pov=self.cid,cast=[self.cid],beats=['付出代价'])
++        package = self.pack()
++        self.assertEqual(package['current_draft']['text'],'阿澄读完密信，把灯移到西窗。')
++        self.assertIsNone(package['current_review'])
++        self.assertEqual(package['previous_review']['verdict'],'pass')
++        with self.assertRaisesRegex(ValueError,'审稿'):
++            self.act('finalize',chapter_id=self.ch)
++
++    def test_revision_conflict_and_private_git_guard(self):
++        with self.assertRaisesRegex(ValueError, '版本冲突'):
++            self.studio.apply(self.pid, 1, 'update_project', {'brief':'旧窗口覆盖'})
++        repo = self.root / 'public-repo'
++        repo.mkdir()
++        (repo / '.git').mkdir()
++        with self.assertRaisesRegex(ValueError, 'Git'):
++            Studio.init(repo / 'novel-data')
++
++    def test_reference_is_pinned_not_canon(self):
++        v = Vault.init(self.root / 'research')
++        card = v.put_asset({'asset_type':'pattern','scope':'reusable-pattern','title':'代价推动选择','tags':[],
++                           'content':{'summary':'选择需付出代价'},'evidence':[]})
++        self.p = self.studio.pin_reference(self.pid, self.p['revision'], v.root, card['asset_id'], card['revision'])
++        self.assertEqual(self.p['references'][0]['hash'], __import__('fictionlib.storage',fromlist=['digest']).digest(card))
++        pack = self.pack()
++        self.assertEqual(pack['context']['rules'], [])
++        self.assertEqual(pack['context']['references'][0]['scope'], 'reusable-pattern')
++
++    def test_edit_preserves_existing_vault_project_references(self):
++        card = self.studio.vault.put_asset({'asset_type':'pattern','scope':'reusable-pattern','title':'测试机制','tags':[],
++                                            'content':{'summary':'付出代价'},'evidence':[]})
++        original = self.studio.vault.use_asset(self.pid,card['asset_id'])
++        self.act('update_project',style='新的节奏要求')
++        self.assertEqual(self.studio.vault.get_project(self.pid)['assets'],original['assets'])
++        archive = self.root/'with-reference.json'
++        backup(self.studio.root,archive)
++        recovered = restore(archive,self.root/'with-reference-restored')
++        self.assertEqual(recovered.vault.get_asset(card['asset_id']),card)
++
++    def test_backup_roundtrip_and_corruption_rejected_before_writes(self):
++        self.finish()
++        archive = self.root / 'backup.json'
++        backup(self.studio.root, archive)
++        restored = restore(archive, self.root / 'restored')
++        self.assertEqual(restored.get(self.pid), self.studio.get(self.pid))
++        data = json.loads(archive.read_text(encoding='utf-8'))
++        data['files']['../escape.json'] = '{}'
++        archive.write_text(json.dumps(data),encoding='utf-8')
++        target = self.root / 'bad'
++        with self.assertRaises(ValueError):
++            restore(archive,target)
++        self.assertFalse(target.exists())
+diff --git a/tests/test_studio_cli.py b/tests/test_studio_cli.py
+new file mode 100644
+index 0000000..e090cec
+--- /dev/null
++++ b/tests/test_studio_cli.py
+@@ -0,0 +1,38 @@
++import json
++from pathlib import Path
++import subprocess
++import sys
++import tempfile
++import unittest
++
++from support import ROOT
++
++
++class StudioCliTests(unittest.TestCase):
++    def test_demo_pack_and_backup_restore_via_real_cli(self):
++        with tempfile.TemporaryDirectory() as temp:
++            root = Path(temp)
++            vault = root / 'private'
++            def cli(*args,where=vault):
++                run = subprocess.run([sys.executable,str(ROOT/'scripts/studio.py'),'--vault',str(where),*args],capture_output=True,text=True,encoding='utf-8')
++                self.assertEqual(run.returncode,0,run.stderr)
++                return json.loads(run.stdout)
++            project = cli('demo')
++            self.assertIn('虚构',project['title'])
++            self.assertEqual(project['progress']['finalized'],1)
++            ch2 = project['chapters'][1]['id']
++            output = root/'handoff'/'task.json'
++            cli('pack','--project',project['project_id'],'--chapter',ch2,'--out',str(output))
++            pack = json.loads(output.read_text(encoding='utf-8'))
++            self.assertIn('previous_chapters',pack['context'])
++            self.assertTrue(output.with_suffix('.md').exists())
++            returned = root/'return.json'
++            payload = pack['return_template']
++            payload['payload']['text'] = '小岑拿起铜片，推开旧仓库的门。'
++            returned.write_text(json.dumps(payload,ensure_ascii=False),encoding='utf-8')
++            submitted = cli('submit','--project',project['project_id'],'--file',str(returned))
++            self.assertEqual(submitted['chapters'][1]['status'],'draft')
++            archive = root/'backup.json'
++            cli('backup','--out',str(archive))
++            restored = cli('restore','--file',str(archive),where=root/'restored')
++            self.assertEqual(restored['projects'][0]['project_id'],project['project_id'])
+diff --git a/tests/test_studio_server.py b/tests/test_studio_server.py
+new file mode 100644
+index 0000000..f9780da
+--- /dev/null
++++ b/tests/test_studio_server.py
+@@ -0,0 +1,62 @@
++import http.client
++import json
++from pathlib import Path
++import tempfile
++import threading
++import unittest
++
++from support import ROOT
++from fictionlib.studio import Studio
++from fictionlib.studio_server import make_server
++
++
++class StudioServerTests(unittest.TestCase):
++    def setUp(self):
++        self.tmp = tempfile.TemporaryDirectory()
++        self.addCleanup(self.tmp.cleanup)
++        self.studio = Studio.init(Path(self.tmp.name) / 'private')
++        self.server = make_server(self.studio,port=0)
++        self.thread = threading.Thread(target=self.server.serve_forever,daemon=True)
++        self.thread.start()
++        self.addCleanup(self.stop)
++        self.port = self.server.server_port
++
++    def stop(self):
++        self.server.shutdown()
++        self.server.server_close()
++        self.thread.join()
++
++    def request(self,path='/',method='GET',body=None,headers=None):
++        conn = http.client.HTTPConnection('127.0.0.1',self.port,timeout=5)
++        conn.request(method,path,body=body,headers=headers or {})
++        response = conn.getresponse()
++        result = response.status,response.read(),dict(response.getheaders())
++        conn.close()
++        return result
++
++    def test_real_http_create_and_read_and_revision_conflict(self):
++        headers = {'Content-Type':'application/json','X-Studio-Token':self.server.token}
++        body = json.dumps({'action':'create','payload':{'title':'虚构演示','brief':'测试'}})
++        code,data,_ = self.request('/api/action','POST',body,headers)
++        self.assertEqual(code,200)
++        selected = json.loads(data)['selected']
++        code,data,_ = self.request('/api/state')
++        self.assertEqual(json.loads(data)['selected']['title'],'虚构演示')
++        body = json.dumps({'project_id':selected['project_id'],'expected_revision':0,'action':'update_project','payload':{'title':'覆盖'}})
++        self.assertEqual(self.request('/api/action','POST',body,headers)[0],409)
++
++    def test_host_origin_token_and_static_path_boundaries(self):
++        self.assertEqual(self.request('/api/state',headers={'Host':'evil.test'})[0],403)
++        body = json.dumps({'action':'create','payload':{'title':'入侵'}})
++        self.assertEqual(self.request('/api/action','POST',body,{'Content-Type':'application/json'})[0],403)
++        headers = {'Content-Type':'application/json','X-Studio-Token':self.server.token,'Origin':'https://evil.test'}
++        self.assertEqual(self.request('/api/action','POST',body,headers)[0],403)
++        self.assertEqual(self.request('/../studio.py')[0],404)
++        self.assertEqual(self.request('/api/state?project=../../secret')[0],400)
++        self.assertEqual(self.request('/api/research?q=test')[0],400)
++        self.assertEqual(self.studio.list(),[])
++
++    def test_malformed_body_is_controlled_error(self):
++        headers = {'Content-Type':'application/json','X-Studio-Token':self.server.token}
++        for body in ('[]','null','{"payload": null}','not json'):
++            self.assertEqual(self.request('/api/action','POST',body,headers)[0],400)
+-- 
+2.52.0
+
