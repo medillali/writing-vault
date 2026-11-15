@@ -1,5 +1,7 @@
 # 小说资料总入口
 
+**新增生产入口：[私人小说工作台](project/studio/README.md)。** 新建作品、派章节任务、回收正文和审稿定稿请从这里开始；真实正文保存在 Git 外的私人目录。下列研究成果与阅读范围保持原记录。
+
 **跨端开工先读：[COLLABORATION.md](COLLABORATION.md)、[当前状态](project/CURRENT-STATE.md)与[可复制续接提示](project/CROSS-END-PROMPT.md)。** 工具库和研究资料库均为公开仓库；本批Git同步的实际读回结果见[同步回执](project/sync/2026-10-30-receipt.json)。
 
 长期资料保存在同一个 `writing-vault`；工具代码在相邻的 `distill-novels`。当前没有登记用户原创小说项目，参考研究不会自行成为原创设定。
